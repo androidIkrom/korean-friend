@@ -10,6 +10,7 @@ import uz.hangulfriend.data.AppDatabase
 import uz.hangulfriend.data.ProgressRepository
 import uz.hangulfriend.data.SettingsRepository
 import uz.hangulfriend.data.StudyRepository
+import uz.hangulfriend.speech.SpeechInput
 import uz.hangulfriend.srs.FsrsScheduler
 import uz.hangulfriend.study.Grader
 import uz.hangulfriend.study.OnboardingService
@@ -29,6 +30,6 @@ class AppContainer(context: Context) {
     val sessionBuilder = SessionBuilder(Random.Default)
     val grader = Grader(study)
 
-    /** Wired to the speech recognizer in stage 2 Task 6. */
-    val speechAvailable: Boolean get() = false
+    val speech = SpeechInput(context)
+    val speechAvailable: Boolean get() = speech.isAvailable()
 }
