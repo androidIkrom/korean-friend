@@ -60,7 +60,8 @@ class SessionBuilder(private val random: Random) {
 
     private fun practiceExercises(lesson: Lesson) = lesson.exercises.filter { it.id !in lesson.test }
 
-    private fun grammarExercise(lesson: Lesson, grammarId: String): ExerciseItem.Authored? =
+    /** A random practice (non-test) exercise that targets [grammarId], or null when there is none. */
+    fun grammarExercise(lesson: Lesson, grammarId: String): ExerciseItem.Authored? =
         practiceExercises(lesson)
             .filter { grammarId in it.targets }
             .randomOrNull(random)

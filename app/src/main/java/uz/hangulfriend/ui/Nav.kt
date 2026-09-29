@@ -37,6 +37,9 @@ import uz.hangulfriend.ui.map.BookMapViewModel
 import uz.hangulfriend.ui.onboarding.OnboardingScreen
 import uz.hangulfriend.ui.onboarding.OnboardingViewModel
 import uz.hangulfriend.ui.settings.SettingsScreen
+import uz.hangulfriend.ui.lesson.LessonController
+import uz.hangulfriend.ui.lesson.LessonScreen
+import uz.hangulfriend.ui.lesson.LessonViewModel
 import uz.hangulfriend.ui.session.SessionController
 import uz.hangulfriend.ui.session.SessionMode
 import uz.hangulfriend.ui.session.SessionScreen
@@ -109,7 +112,23 @@ fun HangulFriendNav(container: AppContainer) {
                 val vm = viewModel { SettingsViewModel(container.content, container.settings, container.onboarding) }
                 SettingsScreen(vm)
             }
-            composable(Routes.LESSON) { Placeholder() }
+            composable(Routes.LESSON) { entry ->
+                val lessonId = entry.arguments?.getString("lessonId").orEmpty()
+                val vm = viewModel {
+                    LessonViewModel(
+                        LessonController(lessonId, container.content, container.study, container.progress),
+                        container.sessionBuilder,
+                        container.grader,
+                    )
+                }
+                LessonScreen(
+                    vm,
+                    onBack = { nav.popBackStack() },
+                    onStartPractice = { nav.navigate(Routes.session(SessionMode.PRACTICE, it)) },
+                    onStartTest = { nav.navigate(Routes.session(SessionMode.TEST, it)) },
+                    onStartLessonReview = { nav.navigate(Routes.session(SessionMode.LESSON_REVIEW, it)) },
+                )
+            }
             composable(
                 Routes.SESSION,
                 arguments = listOf(
