@@ -55,7 +55,7 @@ class SessionBuilderTest {
     @Test fun lessonPractice_excludesTestExercises() {
         val ids = builder.lessonPractice(lesson).filterIsInstance<ExerciseItem.Authored>().map { it.exercise.id }
         assertTrue("u02_l1_e007" !in ids)
-        assertEquals(6, ids.size)
+        assertEquals(7, ids.size)
     }
 
     @Test fun lessonPractice_includesTypingAndMatch() {

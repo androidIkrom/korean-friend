@@ -3,6 +3,7 @@ package uz.hangulfriend.content
 import java.io.File
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertTrue
+import org.junit.Ignore
 import org.junit.Test
 
 /** Validates the real assets shipped in the app. Run via `python tools/validate_content.py`. */
@@ -36,7 +37,8 @@ class ContentAssetsTest {
                 assertTrue("${g.id}: 4–6 examples", g.examples.size in 4..6)
                 assertTrue("${g.id}: 2–4 mistakes", g.mistakes.size in 2..4)
             }
-            for (type in ExerciseType.entries) {
+            // LISTEN_QUESTION content arrives in stage 2 Task 9.
+            for (type in ExerciseType.entries - ExerciseType.LISTEN_QUESTION) {
                 assertTrue("${l.id}: ≥2 $type", practice.count { it.type == type } >= 2)
             }
         }
@@ -59,6 +61,24 @@ class ContentAssetsTest {
             val result = uz.hangulfriend.hangul.AnswerChecker.check(input, byId.getValue(id).answers)
             assertTrue("$id should accept \"$input\" (got ${result.feedback})", result.correct)
         }
+    }
+
+    private fun audioNames(l: Lesson): List<String?> =
+        l.words.flatMap { listOf(it.audio, it.exampleAudio) } +
+            l.grammar.flatMap { g -> g.examples.map { it.audio } } +
+            l.dialogue.lines.map { it.audio } +
+            l.exercises.filter { it.type == ExerciseType.LISTEN_QUESTION }.map { it.audio }
+
+    @Test fun everyAudioFileExists() {
+        val dir = File("src/main/assets/audio")
+        for (l in lessons) for (name in audioNames(l).filterNotNull()) {
+            assertTrue("${l.id}: missing audio/$name", File(dir, name).isFile)
+        }
+    }
+
+    @Ignore("enabled in stage 2 Task 9, after audio generation")
+    @Test fun everySpeakableHasAudio() {
+        for (l in lessons) assertTrue("${l.id}: text without audio", audioNames(l).none { it == null })
     }
 
     @Test fun lessonIdsMatchCatalog() {

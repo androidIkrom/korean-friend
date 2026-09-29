@@ -53,6 +53,12 @@ class LessonValidatorTest {
     @Test fun validate_translateNeedsSource() =
         assertErrorMentions(errorsFor(withExercise("u02_l1_e006") { copy(sourceUz = null) }), "u02_l1_e006")
 
+    @Test fun validate_listenQuestionNeedsAudioText() =
+        assertErrorMentions(errorsFor(withExercise("u02_l1_e008") { copy(audioText = null) }), "u02_l1_e008")
+
+    @Test fun validate_listenQuestionAnswerInOptions() =
+        assertErrorMentions(errorsFor(withExercise("u02_l1_e008") { copy(answers = listOf("Yugurib ko'ring")) }), "u02_l1_e008")
+
     @Test fun validate_grammarWithoutPracticeExercise() {
         val onlyTest = lesson.copy(exercises = lesson.exercises.filter { it.id in setOf("u02_l1_e001", "u02_l1_e007") })
         assertErrorMentions(errorsFor(onlyTest), "u02_l1_g1")

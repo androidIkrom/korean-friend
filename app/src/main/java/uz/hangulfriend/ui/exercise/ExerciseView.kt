@@ -28,7 +28,8 @@ fun ExerciseView(item: ExerciseItem, onResult: (ExerciseOutcome) -> Unit, onNext
         is ExerciseItem.Authored -> {
             val e = item.exercise
             when (e.type) {
-                ExerciseType.SITUATION_CHOICE -> ChoiceView(e.promptUz, e.options.orEmpty(), e.answers, e.whyUz, onResult, onNext)
+                ExerciseType.SITUATION_CHOICE, ExerciseType.LISTEN_QUESTION ->
+                    ChoiceView(e.promptUz, e.options.orEmpty(), e.answers, e.whyUz, onResult, onNext)
                 ExerciseType.BUILD_SENTENCE ->
                     BuildSentenceView(e.promptUz, e.tokens.orEmpty(), e.answers, e.hintUz, e.whyUz, onResult, onNext)
                 ExerciseType.CONJUGATE -> TypingView(
