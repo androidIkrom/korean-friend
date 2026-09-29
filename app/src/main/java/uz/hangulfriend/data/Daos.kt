@@ -25,20 +25,18 @@ interface CardDao {
     @Query("UPDATE cards SET origin = 'LESSON' WHERE lessonId = :lessonId AND origin = 'BACKLOG' AND firstReviewedMs IS NULL")
     suspend fun promoteUnseenBacklog(lessonId: String)
 
-    @Query(
-        "SELECT * FROM cards WHERE (origin = 'LESSON' OR firstReviewedMs IS NOT NULL) AND dueMs <= :nowMs " +
-            "ORDER BY dueMs, id",
-    )
-    suspend fun dueActive(nowMs: Long): List<CardEntity>
+    @Query("SELECT * FROM cards WHERE firstReviewedMs IS NOT NULL AND dueMs <= :nowMs ORDER BY dueMs, id")
+    suspend fun dueReviewed(nowMs: Long): List<CardEntity>
 
+    /** Never-reviewed cards: the current lesson's (LESSON) before the onboarding backlog. */
     @Query(
-        "SELECT * FROM cards WHERE origin = 'BACKLOG' AND firstReviewedMs IS NULL " +
-            "ORDER BY lessonOrder, id LIMIT :limit",
+        "SELECT * FROM cards WHERE firstReviewedMs IS NULL " +
+            "ORDER BY CASE origin WHEN 'LESSON' THEN 0 ELSE 1 END, lessonOrder, id LIMIT :limit",
     )
-    suspend fun unseenBacklog(limit: Int): List<CardEntity>
+    suspend fun unseen(limit: Int): List<CardEntity>
 
-    @Query("SELECT COUNT(*) FROM cards WHERE origin = 'BACKLOG' AND firstReviewedMs >= :fromMs AND firstReviewedMs < :toMs")
-    suspend fun backlogFirstReviewedBetween(fromMs: Long, toMs: Long): Int
+    @Query("SELECT COUNT(*) FROM cards WHERE firstReviewedMs >= :fromMs AND firstReviewedMs < :toMs")
+    suspend fun firstReviewedBetween(fromMs: Long, toMs: Long): Int
 
     /** Emits whenever the cards table changes; callers recompute the queue. */
     @Query("SELECT COUNT(*) FROM cards")

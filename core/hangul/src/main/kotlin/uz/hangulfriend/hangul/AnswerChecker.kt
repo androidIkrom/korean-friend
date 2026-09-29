@@ -11,7 +11,8 @@ object AnswerChecker {
         require(answers.isNotEmpty()) { "answers must not be empty" }
         val given = Hangul.normalize(input)
         val normalized = answers.map { Hangul.normalize(it) }
-        normalized.firstOrNull { it == given }?.let { return CheckResult(Feedback.CORRECT, it) }
+        normalized.firstOrNull { it == given || withAuxiliaryAttached(it) == given }
+            ?.let { return CheckResult(Feedback.CORRECT, it) }
 
         val givenJamo = Hangul.jamo(given)
         val closest = normalized.minBy { levenshtein(givenJamo, Hangul.jamo(it)) }
@@ -25,6 +26,26 @@ object AnswerChecker {
             else -> Feedback.WRONG
         }
         return CheckResult(feedback, closest)
+    }
+
+    private val auxiliaryStarts = setOf('보', '봐', '봤', '볼', '봅', '본')
+    private val connectiveVowels = setOf('ㅏ', 'ㅓ', 'ㅕ', 'ㅘ', 'ㅝ', 'ㅐ', 'ㅙ')
+
+    /**
+     * [answer] with the space before an auxiliary 보다 removed when it follows an -아/어 form
+     * (입어 보세요 → 입어보세요). 한글 맞춤법 제47항 allows both spellings.
+     */
+    private fun withAuxiliaryAttached(answer: String): String {
+        val words = answer.split(" ")
+        val sb = StringBuilder(words.first())
+        for (i in 1 until words.size) {
+            val prev = Hangul.parts(words[i - 1].last())
+            val joins = words[i].first() in auxiliaryStarts &&
+                prev != null && prev.final == null && prev.medial in connectiveVowels
+            if (!joins) sb.append(' ')
+            sb.append(words[i])
+        }
+        return sb.toString()
     }
 
     /**

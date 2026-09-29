@@ -13,7 +13,16 @@ class AnswerCheckerTest {
 
     @Test fun correct_ignoresTrailingPunctuation() = assertEquals(Feedback.CORRECT, fb("가면.", "가면"))
 
-    @Test fun spacing() = assertEquals(Feedback.SPACING, fb("입어보세요", "입어 보세요"))
+    @Test fun spacing() = assertEquals(Feedback.SPACING, fb("통장을만들고", "통장을 만들고"))
+
+    /** 한글 맞춤법 제47항: an auxiliary verb after -아/어 may be written attached. */
+    @Test fun auxiliaryAttached_isCorrect() {
+        assertEquals(Feedback.CORRECT, fb("입어보세요", "입어 보세요"))
+        assertEquals(Feedback.CORRECT, fb("가봤어요", "가 봤어요"))
+        assertEquals(Feedback.CORRECT, fb("이 치마 한번 입어봐요", "이 치마 한번 입어 봐요"))
+    }
+
+    @Test fun nonAuxiliarySpacingStillFlagged() = assertEquals(Feedback.SPACING, fb("바지를보세요", "바지를 보세요"))
 
     @Test fun finalConsonant() = assertEquals(Feedback.FINAL_CONSONANT, fb("갔면", "가면"))
 

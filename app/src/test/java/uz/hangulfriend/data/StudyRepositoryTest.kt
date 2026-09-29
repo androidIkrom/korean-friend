@@ -113,6 +113,19 @@ class StudyRepositoryTest {
         assertEquals(11, queue.size)
     }
 
+    /** Opening a big lesson must not flood reviews: never-reviewed LESSON cards are new cards too. */
+    @Test fun dueQueue_unseenLessonCardsCountAgainstNewLimit() = runTest {
+        study.ensureCards(wordLesson("u02_l2", 15), 3, CardOrigin.LESSON)
+        assertEquals(20, study.dueQueue(dailyNewLimit = 20).size)
+    }
+
+    @Test fun dueQueue_reviewedLessonCardsAreNotLimited() = runTest {
+        study.ensureCards(wordLesson("u02_l2", 15), 3, CardOrigin.LESSON)
+        db.cards().all().forEach { study.grade(it.id, Rating.AGAIN, 1000) }
+        clock.advance(Duration.ofMinutes(2))
+        assertEquals(30, study.dueQueue(dailyNewLimit = 20).size)
+    }
+
     @Test fun dueQueue_excludesCardsNotYetDue() = runTest {
         study.ensureCards(lesson, 2, CardOrigin.LESSON)
         study.grade("u02_l1_g1#G", Rating.EASY, 1000)

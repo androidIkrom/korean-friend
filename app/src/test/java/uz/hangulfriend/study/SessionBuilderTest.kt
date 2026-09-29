@@ -64,6 +64,27 @@ class SessionBuilderTest {
         assertEquals(1, practice.count { it is ExerciseItem.Match })
     }
 
+    /** Spec 3.3: a practice round is 15–25 mixed exercises and still covers every grammar point. */
+    @Test fun lessonPractice_bigLessonIsCappedAndCoversGrammar() {
+        val big = lesson.copy(
+            words = (1..33).map { Fixtures.word("u02_l1_w%03d".format(it), "말$it", "so'z$it") },
+            grammar = listOf(lesson.grammar[0], lesson.grammar[0].copy(id = "u02_l1_g2")),
+            exercises = (1..22).map { i ->
+                val g = if (i <= 11) "u02_l1_g1" else "u02_l1_g2"
+                Fixtures.exercise("u02_l1_e%03d".format(i), uz.hangulfriend.content.ExerciseType.CONJUGATE, listOf(g), listOf("가 보다")) {
+                    copy(base = "가다", form = "-아/어 보다")
+                }
+            },
+            test = emptyList(),
+        )
+        repeat(10) { seed ->
+            val practice = SessionBuilder(Random(seed)).lessonPractice(big)
+            assertTrue("size ${practice.size}", practice.size in 15..25)
+            val targets = practice.filterIsInstance<ExerciseItem.Authored>().flatMap { it.exercise.targets }.toSet()
+            assertTrue(targets.containsAll(listOf("u02_l1_g1", "u02_l1_g2")))
+        }
+    }
+
     @Test fun lessonTest_onlyTestExercises() =
         assertEquals(listOf("u02_l1_e007"), builder.lessonTest(lesson).map { (it as ExerciseItem.Authored).exercise.id })
 

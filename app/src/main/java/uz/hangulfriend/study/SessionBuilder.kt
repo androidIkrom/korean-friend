@@ -28,11 +28,19 @@ fun arrange(items: List<ExerciseItem>, random: Random): List<ExerciseItem> {
 class SessionBuilder(private val random: Random) {
     fun vocabChunks(lesson: Lesson): List<List<Word>> = lesson.words.chunked(VOCAB_CHUNK)
 
+    /**
+     * One practice round of at most [AUTHORED_CAP] + [TYPING_CAP] + [MATCH_CAP] items (spec: 15–25).
+     * Every grammar point gets up to [PER_GRAMMAR] exercises first; later rounds draw a new random mix.
+     */
     fun lessonPractice(lesson: Lesson): List<ExerciseItem> {
-        val authored = practiceExercises(lesson).map { ExerciseItem.Authored.of(lesson, it) }
-        val typing = lesson.words.map { ExerciseItem.WordTyping(it) }
-        val matches = lesson.words.shuffled(random).chunked(MATCH_SIZE).filter { it.size >= 2 }.map { ExerciseItem.Match(it) }
-        return arrange(authored + typing + matches, random)
+        val pool = practiceExercises(lesson).shuffled(random)
+        val guaranteed = lesson.grammar.flatMap { g -> pool.filter { g.id in it.targets }.take(PER_GRAMMAR) }.distinct()
+        val chosen = (guaranteed + (pool - guaranteed.toSet())).take(maxOf(AUTHORED_CAP, guaranteed.size))
+        val words = lesson.words.shuffled(random)
+        val typing = words.take(TYPING_CAP).map { ExerciseItem.WordTyping(it) }
+        val matches = words.drop(TYPING_CAP).ifEmpty { words }
+            .chunked(MATCH_SIZE).filter { it.size >= 2 }.take(MATCH_CAP).map { ExerciseItem.Match(it) }
+        return arrange(chosen.map { ExerciseItem.Authored.of(lesson, it) } + typing + matches, random)
     }
 
     fun lessonTest(lesson: Lesson): List<ExerciseItem> {
@@ -70,5 +78,9 @@ class SessionBuilder(private val random: Random) {
     companion object {
         const val VOCAB_CHUNK = 6
         const val MATCH_SIZE = 5
+        const val AUTHORED_CAP = 14
+        const val PER_GRAMMAR = 2
+        const val TYPING_CAP = 6
+        const val MATCH_CAP = 2
     }
 }

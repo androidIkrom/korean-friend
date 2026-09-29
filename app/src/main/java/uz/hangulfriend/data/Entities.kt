@@ -11,7 +11,10 @@ object CardIds {
     fun of(itemId: String, kind: CardKind): String = "$itemId#${kind.suffix}"
 }
 
-/** LESSON cards are active at once; BACKLOG cards (lessons marked passed at onboarding) enter under the daily new limit. */
+/**
+ * LESSON: the lesson the learner opened; BACKLOG: lessons marked passed at onboarding.
+ * Never-reviewed cards of both enter reviews under the daily new limit, LESSON first.
+ */
 enum class CardOrigin { LESSON, BACKLOG }
 
 enum class LessonStatus { NOT_STARTED, PASSED, IN_PROGRESS, COMPLETED, VERIFIED }

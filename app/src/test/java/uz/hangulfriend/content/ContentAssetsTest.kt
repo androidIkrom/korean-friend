@@ -42,6 +42,25 @@ class ContentAssetsTest {
         }
     }
 
+    /** Valid Korean that a learner may write; each must be accepted (found in the final review). */
+    @Test fun acceptsValidAlternatives() {
+        val cases = mapOf(
+            "u02_l2_e014" to "저 치마보다 이 치마가 더 길어요",
+            "u02_l2_e109" to "버스보다 지하철이 더 빨라요",
+            "u02_l2_e019" to "저 바지보다 이 바지가 더 길어요",
+            "u02_l2_e114" to "저 가방보다 이 가방이 더 비싸요",
+            "u02_l1_e015" to "한번 이 바지를 입어 보세요",
+            "u02_l1_e011" to "가 보셨어요",
+            "u02_l1_e021" to "김치를 먹어 보셨어요",
+            "u02_l1_e108" to "들어 보셨어요",
+        )
+        val byId = lessons.flatMap { it.exercises }.associateBy { it.id }
+        for ((id, input) in cases) {
+            val result = uz.hangulfriend.hangul.AnswerChecker.check(input, byId.getValue(id).answers)
+            assertTrue("$id should accept \"$input\" (got ${result.feedback})", result.correct)
+        }
+    }
+
     @Test fun lessonIdsMatchCatalog() {
         for (l in lessons) {
             val entry = catalog.first { it.id == l.id }

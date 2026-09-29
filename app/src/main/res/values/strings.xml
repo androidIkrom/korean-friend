@@ -26,7 +26,8 @@
 
     <string name="settings_current_lesson">Joriy dars</string>
     <string name="settings_daily_new">Kunlik yangi kartalar: %1$d ta</string>
-    <string name="settings_saved">Saqlandi</string>
+    <string name="settings_apply">Joriy darsni saqlash</string>
+    <string name="settings_apply_note">Bu darsdan oldingi darslar «o\'tilgan» deb belgilanadi va ularning so\'zlari asta-sekin takrorlashga qo\'shiladi.</string>
 
     <string name="placeholder_screen">Tez orada</string>
 

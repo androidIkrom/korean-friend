@@ -71,14 +71,17 @@ class StudyRepository(
         }
     }
 
-    /** Due active cards first (by due time), then unseen backlog cards up to what is left of today's new limit. */
+    /**
+     * Due cards that have been reviewed before (by due time), then never-reviewed cards up to what is
+     * left of today's new-card limit. Every card reviewed for the first time today counts toward it.
+     */
     suspend fun dueQueue(dailyNewLimit: Int): List<CardEntity> {
         val now = clock.instant()
         val today = now.atZone(clock.zone).toLocalDate()
         val dayStart = today.atStartOfDay(clock.zone).toInstant().toEpochMilli()
         val dayEnd = today.plusDays(1).atStartOfDay(clock.zone).toInstant().toEpochMilli()
-        val left = (dailyNewLimit - cards.backlogFirstReviewedBetween(dayStart, dayEnd)).coerceAtLeast(0)
-        return cards.dueActive(now.toEpochMilli()) + cards.unseenBacklog(left)
+        val left = (dailyNewLimit - cards.firstReviewedBetween(dayStart, dayEnd)).coerceAtLeast(0)
+        return cards.dueReviewed(now.toEpochMilli()) + cards.unseen(left)
     }
 
     fun observeDueCount(dailyNewLimit: Int): Flow<Int> =
