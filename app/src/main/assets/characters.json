@@ -1,0 +1,8 @@
+{
+  "characters": [
+    { "id": "aziz", "name_uz": "Aziz", "name_ko": "아지즈", "voice": "male" },
+    { "id": "minji", "name_uz": "Minji", "name_ko": "민지", "voice": "female" },
+    { "id": "seller", "name_uz": "Sotuvchi", "name_ko": "점원", "voice": "female" },
+    { "id": "teacher", "name_uz": "O'qituvchi", "name_ko": "선생님", "voice": "male" }
+  ]
+}

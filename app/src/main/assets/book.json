@@ -1,0 +1,22 @@
+{
+  "lessons": [
+    { "id": "u01_l1", "unit": 1, "lesson": 1, "title_ko": "이분은 우리 아버지세요", "title_uz": "Bu kishi mening otam", "topic_uz": "Oila" },
+    { "id": "u01_l2", "unit": 1, "lesson": 2, "title_ko": "어머니는 전에 무슨 일을 하셨어요?", "title_uz": "Onangiz avval qanday ishda ishlaganlar?", "topic_uz": "Oila" },
+    { "id": "u02_l1", "unit": 2, "lesson": 1, "title_ko": "한번 입어 보세요", "title_uz": "Bir kiyib ko'ring", "topic_uz": "Xarid" },
+    { "id": "u02_l2", "unit": 2, "lesson": 2, "title_ko": "더 긴 치마는 없어요?", "title_uz": "Uzunroq yubka yo'qmi?", "topic_uz": "Xarid" },
+    { "id": "u03_l1", "unit": 3, "lesson": 1, "title_ko": "날씨가 좋으면 한라산에 갈 거예요", "title_uz": "Havo yaxshi bo'lsa, Hallasan'ga boraman", "topic_uz": "Sayohat" },
+    { "id": "u03_l2", "unit": 3, "lesson": 2, "title_ko": "막국수는 강원도에서 자주 먹는 음식이에요", "title_uz": "Makguksu — Gangvondoda ko'p yeyiladigan taom", "topic_uz": "Sayohat" },
+    { "id": "u04_l1", "unit": 4, "lesson": 1, "title_ko": "테니스를 배우고 싶어요", "title_uz": "Tennisni o'rganmoqchiman", "topic_uz": "Xobbi" },
+    { "id": "u04_l2", "unit": 4, "lesson": 2, "title_ko": "저는 등산하는 걸 좋아해요", "title_uz": "Men toqqa chiqishni yaxshi ko'raman", "topic_uz": "Xobbi" },
+    { "id": "u05_l1", "unit": 5, "lesson": 1, "title_ko": "통장을 만들고 싶은데요", "title_uz": "Hisob ochmoqchi edim", "topic_uz": "Bank va pochta" },
+    { "id": "u05_l2", "unit": 5, "lesson": 2, "title_ko": "소포를 부치러 왔어요", "title_uz": "Posilka jo'natgani keldim", "topic_uz": "Bank va pochta" },
+    { "id": "u06_l1", "unit": 6, "lesson": 1, "title_ko": "청계천에 어떻게 가야 돼요?", "title_uz": "Cheonggyecheon'ga qanday borish kerak?", "topic_uz": "Transport" },
+    { "id": "u06_l2", "unit": 6, "lesson": 2, "title_ko": "횡단보도를 건너서 오른쪽으로 가세요", "title_uz": "Piyodalar o'tish joyidan o'tib, o'ngga buriling", "topic_uz": "Transport" },
+    { "id": "u07_l1", "unit": 7, "lesson": 1, "title_ko": "내일 모임에 올 수 있어요?", "title_uz": "Ertangi yig'ilishga kela olasizmi?", "topic_uz": "Kasalxona" },
+    { "id": "u07_l2", "unit": 7, "lesson": 2, "title_ko": "목이 아파서 왔어요", "title_uz": "Tomog'im og'rigani uchun keldim", "topic_uz": "Kasalxona" },
+    { "id": "u08_l1", "unit": 8, "lesson": 1, "title_ko": "스트레스를 받을 때 음악을 듣거나 친구와 이야기해요", "title_uz": "Stress bo'lganda musiqa tinglayman yoki do'stim bilan gaplashaman", "topic_uz": "Koreyadagi hayot" },
+    { "id": "u08_l2", "unit": 8, "lesson": 2, "title_ko": "시험을 볼 때 연필로 써도 돼요?", "title_uz": "Imtihonda qalam bilan yozsa bo'ladimi?", "topic_uz": "Koreyadagi hayot" },
+    { "id": "u09_l1", "unit": 9, "lesson": 1, "title_ko": "여보세요, 서울대학교지요?", "title_uz": "Allo, Seul universitetimi?", "topic_uz": "Telefon" },
+    { "id": "u09_l2", "unit": 9, "lesson": 2, "title_ko": "차를 마시면서 책을 읽고 있어요", "title_uz": "Choy ichib turib kitob o'qiyapman", "topic_uz": "Telefon" }
+  ]
+}
