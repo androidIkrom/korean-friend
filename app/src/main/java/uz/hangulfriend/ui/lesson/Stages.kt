@@ -14,6 +14,7 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.Button
 import androidx.compose.material3.Card
+import androidx.compose.material3.FilterChip
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedButton
@@ -178,37 +179,46 @@ private fun SectionTitle(res: Int) {
 @Composable
 fun DialogueStage(lesson: Lesson, characters: Map<String, Character>, onFinished: () -> Unit) {
     var showTranslation by rememberSaveable { mutableStateOf(false) }
+    var roleplay by rememberSaveable { mutableStateOf(false) }
     val first = lesson.dialogue.lines.firstOrNull()?.speaker
     Column(Modifier.fillMaxSize()) {
-        Row(verticalAlignment = Alignment.CenterVertically) {
-            Text(stringResource(R.string.dialogue_translation), Modifier.weight(1f))
-            Switch(checked = showTranslation, onCheckedChange = { showTranslation = it })
+        Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+            FilterChip(selected = !roleplay, onClick = { roleplay = false }, label = { Text(stringResource(R.string.dialogue_mode_listen)) })
+            FilterChip(selected = roleplay, onClick = { roleplay = true }, label = { Text(stringResource(R.string.dialogue_mode_roleplay)) })
         }
-        Column(
-            Modifier.weight(1f).verticalScroll(rememberScrollState()),
-            verticalArrangement = Arrangement.spacedBy(8.dp),
-        ) {
-            lesson.dialogue.lines.forEach { line ->
-                val mine = line.speaker == first
-                Column(
-                    Modifier.fillMaxWidth(),
-                    horizontalAlignment = if (mine) Alignment.Start else Alignment.End,
-                ) {
-                    Row(verticalAlignment = Alignment.CenterVertically) {
-                        Text(characters[line.speaker]?.nameUz ?: line.speaker, style = MaterialTheme.typography.labelMedium)
-                        AudioButton(line.audio)
-                    }
+        if (roleplay) {
+            Column(Modifier.weight(1f)) { RoleplayView(lesson, characters) }
+        } else {
+            Row(verticalAlignment = Alignment.CenterVertically) {
+                Text(stringResource(R.string.dialogue_translation), Modifier.weight(1f))
+                Switch(checked = showTranslation, onCheckedChange = { showTranslation = it })
+            }
+            Column(
+                Modifier.weight(1f).verticalScroll(rememberScrollState()),
+                verticalArrangement = Arrangement.spacedBy(8.dp),
+            ) {
+                lesson.dialogue.lines.forEach { line ->
+                    val mine = line.speaker == first
                     Column(
-                        Modifier
-                            .widthIn(max = 300.dp)
-                            .background(
-                                if (mine) MaterialTheme.colorScheme.primaryContainer else MaterialTheme.colorScheme.secondaryContainer,
-                                RoundedCornerShape(12.dp),
-                            )
-                            .padding(12.dp),
+                        Modifier.fillMaxWidth(),
+                        horizontalAlignment = if (mine) Alignment.Start else Alignment.End,
                     ) {
-                        Text(line.ko, style = MaterialTheme.typography.bodyLarge)
-                        if (showTranslation) Text(line.uz, style = MaterialTheme.typography.bodySmall)
+                        Row(verticalAlignment = Alignment.CenterVertically) {
+                            Text(characters[line.speaker]?.nameUz ?: line.speaker, style = MaterialTheme.typography.labelMedium)
+                            AudioButton(line.audio)
+                        }
+                        Column(
+                            Modifier
+                                .widthIn(max = 300.dp)
+                                .background(
+                                    if (mine) MaterialTheme.colorScheme.primaryContainer else MaterialTheme.colorScheme.secondaryContainer,
+                                    RoundedCornerShape(12.dp),
+                                )
+                                .padding(12.dp),
+                        ) {
+                            Text(line.ko, style = MaterialTheme.typography.bodyLarge)
+                            if (showTranslation) Text(line.uz, style = MaterialTheme.typography.bodySmall)
+                        }
                     }
                 }
             }

@@ -47,6 +47,13 @@
     <string name="speak_err_permission">Mikrofonga ruxsat berilmagan. Ruxsat bering yoki bu mashqni o\'tkazib yuboring.</string>
     <string name="speak_err_network">Internet bilan muammo. Qayta urinib ko\'ring.</string>
     <string name="speak_err_other">Nutqni tanishda xatolik yuz berdi.</string>
+    <string name="dialogue_mode_listen">Tinglash</string>
+    <string name="dialogue_mode_roleplay">Rol o\'ynash</string>
+    <string name="roleplay_choose">Qaysi rolni o\'ynaysiz?</string>
+    <string name="roleplay_your_turn">Sizning navbatingiz:</string>
+    <string name="roleplay_done">Rol o\'ynash tugadi! 🎉</string>
+    <string name="roleplay_again">Yana bir marta</string>
+    <string name="roleplay_other">Boshqa rol</string>
 
     <string name="feedback_correct">To\'g\'ri!</string>
     <string name="feedback_spacing">Deyarli! Bo\'sh joy xato.</string>
