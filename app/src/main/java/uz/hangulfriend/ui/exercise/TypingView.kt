@@ -15,6 +15,7 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalSoftwareKeyboardController
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.unit.dp
@@ -43,9 +44,11 @@ fun TypingView(
     var usedHint by remember { mutableStateOf(false) }
     var feedback by remember { mutableStateOf<FeedbackInfo?>(null) }
     val messages = FeedbackMessages()
+    val keyboard = LocalSoftwareKeyboardController.current
 
     fun check() {
         if (feedback != null || input.isBlank()) return
+        keyboard?.hide()
         val result = AnswerChecker.check(input, answers)
         feedback = FeedbackInfo(
             correct = result.correct,

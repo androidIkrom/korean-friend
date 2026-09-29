@@ -25,9 +25,12 @@ import uz.hangulfriend.ui.session.ExerciseOutcome
 import uz.hangulfriend.ui.theme.CorrectGreen
 import uz.hangulfriend.ui.theme.WrongRed
 
-/** Tap a Korean word, then its meaning. A word counts as correct only if its first pairing was right. */
+/**
+ * Tap a Korean word, then its meaning. A word counts as correct only if its first pairing was right.
+ * [showNext] is false where the host screen already has its own "Keyingi" button.
+ */
 @Composable
-fun MatchView(words: List<Word>, onResult: (ExerciseOutcome) -> Unit, onNext: () -> Unit) {
+fun MatchView(words: List<Word>, onResult: (ExerciseOutcome) -> Unit, onNext: () -> Unit, showNext: Boolean = true) {
     val left = remember(words) { words.shuffled() }
     val right = remember(words) { words.shuffled() }
     val matched = remember { mutableStateListOf<String>() }
@@ -46,19 +49,23 @@ fun MatchView(words: List<Word>, onResult: (ExerciseOutcome) -> Unit, onNext: ()
         if (done) onResult(ExerciseOutcome.Matched(words.map { it.id }.toSet() - missed.toSet(), words.size))
     }
 
+    val matchedColors = ButtonDefaults.outlinedButtonColors(
+        containerColor = CorrectGreen.copy(alpha = 0.15f),
+        contentColor = CorrectGreen,
+    )
+
     Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
         PromptText(stringResource(R.string.ex_match_prompt))
         Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
             Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(6.dp)) {
                 left.forEach { w ->
                     val colors = when {
-                        w.id in matched -> ButtonDefaults.outlinedButtonColors(contentColor = CorrectGreen)
+                        w.id in matched -> matchedColors
                         w.id == selected -> ButtonDefaults.outlinedButtonColors(containerColor = ButtonDefaults.buttonColors().containerColor.copy(alpha = 0.2f))
                         else -> ButtonDefaults.outlinedButtonColors()
                     }
                     OutlinedButton(
                         onClick = { if (w.id !in matched) selected = w.id },
-                        enabled = w.id !in matched,
                         colors = colors,
                         modifier = Modifier.fillMaxWidth(),
                     ) { Text(w.ko) }
@@ -67,12 +74,13 @@ fun MatchView(words: List<Word>, onResult: (ExerciseOutcome) -> Unit, onNext: ()
             Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(6.dp)) {
                 right.forEach { w ->
                     val colors = when {
-                        w.id in matched -> ButtonDefaults.outlinedButtonColors(contentColor = CorrectGreen)
+                        w.id in matched -> matchedColors
                         w.id == wrongFlash -> ButtonDefaults.outlinedButtonColors(contentColor = WrongRed)
                         else -> ButtonDefaults.outlinedButtonColors()
                     }
                     OutlinedButton(
                         onClick = {
+                            if (w.id in matched) return@OutlinedButton
                             val pick = selected ?: return@OutlinedButton
                             if (pick == w.id) {
                                 matched += w.id
@@ -82,13 +90,12 @@ fun MatchView(words: List<Word>, onResult: (ExerciseOutcome) -> Unit, onNext: ()
                             }
                             selected = null
                         },
-                        enabled = w.id !in matched,
                         colors = colors,
                         modifier = Modifier.fillMaxWidth(),
                     ) { Text(w.uz, maxLines = 2) }
                 }
             }
         }
-        if (done) Button(onClick = onNext, modifier = Modifier.fillMaxWidth()) { Text(stringResource(R.string.ex_next)) }
+        if (done && showNext) Button(onClick = onNext, modifier = Modifier.fillMaxWidth()) { Text(stringResource(R.string.ex_next)) }
     }
 }

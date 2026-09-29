@@ -89,7 +89,7 @@ fun VocabStage(lesson: Lesson, vm: LessonViewModel, onFinished: () -> Unit) {
             is VocabPage.Card -> WordCard(p.word)
             is VocabPage.Quiz -> {
                 val item = ExerciseItem.Match(p.words)
-                MatchView(p.words, onResult = { vm.grade(item, it) }, onNext = next)
+                MatchView(p.words, onResult = { vm.grade(item, it) }, onNext = next, showNext = false)
             }
         }
     }
