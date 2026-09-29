@@ -64,6 +64,7 @@ dependencies {
     implementation(libs.kotlinx.serialization.json)
     implementation(libs.kotlinx.coroutines.core)
     implementation(libs.markdown.m3)
+    implementation(libs.media3.exoplayer)
 
     testImplementation(libs.junit)
     testImplementation(libs.robolectric)

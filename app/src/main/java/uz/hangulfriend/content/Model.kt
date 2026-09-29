@@ -81,6 +81,7 @@ enum class ExerciseType {
     @SerialName("build_sentence") BUILD_SENTENCE,
     @SerialName("find_error") FIND_ERROR,
     @SerialName("translate") TRANSLATE,
+    @SerialName("listen_question") LISTEN_QUESTION,
 }
 
 @Serializable
@@ -98,6 +99,8 @@ data class Exercise(
     @SerialName("source_uz") val sourceUz: String? = null,
     @SerialName("hint_uz") val hintUz: String? = null,
     @SerialName("why_uz") val whyUz: String? = null,
+    @SerialName("audio_text") val audioText: String? = null,
+    val audio: String? = null,
 )
 
 @Serializable

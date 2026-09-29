@@ -72,6 +72,9 @@ object Fixtures {
                 exercise("${id}_e007", ExerciseType.CONJUGATE, listOf(g1), listOf("가 보다")) {
                     copy(base = "가다", form = "-아/어 보다")
                 },
+                exercise("${id}_e008", ExerciseType.LISTEN_QUESTION, listOf(g1), listOf("Kiyib ko'ring")) {
+                    copy(audioText = "입어 보세요.", options = listOf("Kiyib ko'ring", "Yeb ko'ring"))
+                },
             ),
             test = listOf("${id}_e007"),
         )

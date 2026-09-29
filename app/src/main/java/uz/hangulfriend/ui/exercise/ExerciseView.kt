@@ -25,10 +25,14 @@ fun ExerciseView(item: ExerciseItem, onResult: (ExerciseOutcome) -> Unit, onNext
             onNext = onNext,
         )
         is ExerciseItem.Match -> MatchView(item.words, onResult, onNext)
+        is ExerciseItem.ListenChoose -> ListenChooseView(item.word, item.options, onResult, onNext)
+        is ExerciseItem.Dictation -> DictationView(item.word, onResult, onNext)
+        is ExerciseItem.Speak -> SpeakView(item.ko, item.uz, item.audio, onResult, onNext)
         is ExerciseItem.Authored -> {
             val e = item.exercise
             when (e.type) {
                 ExerciseType.SITUATION_CHOICE -> ChoiceView(e.promptUz, e.options.orEmpty(), e.answers, e.whyUz, onResult, onNext)
+                ExerciseType.LISTEN_QUESTION -> ListenQuestionView(e, onResult, onNext)
                 ExerciseType.BUILD_SENTENCE ->
                     BuildSentenceView(e.promptUz, e.tokens.orEmpty(), e.answers, e.hintUz, e.whyUz, onResult, onNext)
                 ExerciseType.CONJUGATE -> TypingView(

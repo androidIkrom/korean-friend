@@ -53,13 +53,13 @@ class SessionBuilderTest {
     }
 
     @Test fun lessonPractice_excludesTestExercises() {
-        val ids = builder.lessonPractice(lesson).filterIsInstance<ExerciseItem.Authored>().map { it.exercise.id }
+        val ids = builder.lessonPractice(lesson, speechAvailable = false).filterIsInstance<ExerciseItem.Authored>().map { it.exercise.id }
         assertTrue("u02_l1_e007" !in ids)
-        assertEquals(6, ids.size)
+        assertEquals(7, ids.size)
     }
 
     @Test fun lessonPractice_includesTypingAndMatch() {
-        val practice = builder.lessonPractice(lesson)
+        val practice = builder.lessonPractice(lesson, speechAvailable = false)
         assertEquals(2, practice.count { it is ExerciseItem.WordTyping })
         assertEquals(1, practice.count { it is ExerciseItem.Match })
     }
@@ -78,18 +78,64 @@ class SessionBuilderTest {
             test = emptyList(),
         )
         repeat(10) { seed ->
-            val practice = SessionBuilder(Random(seed)).lessonPractice(big)
+            val practice = SessionBuilder(Random(seed)).lessonPractice(withAudio(big), speechAvailable = true)
             assertTrue("size ${practice.size}", practice.size in 15..25)
             val targets = practice.filterIsInstance<ExerciseItem.Authored>().flatMap { it.exercise.targets }.toSet()
             assertTrue(targets.containsAll(listOf("u02_l1_g1", "u02_l1_g2")))
         }
     }
 
+    /** Every word and grammar example gets an audio file name. */
+    private fun withAudio(l: uz.hangulfriend.content.Lesson) = l.copy(
+        words = l.words.map { it.copy(audio = "${it.id}.ogg", exampleAudio = "${it.id}_ex.ogg") },
+        grammar = l.grammar.map { g -> g.copy(examples = g.examples.map { it.copy(audio = "${g.id}.ogg") }) },
+    )
+
+    private fun sixWords() = lesson.copy(words = (1..6).map { Fixtures.word("u02_l1_w%03d".format(it), "말$it", "so'z$it") })
+
+    @Test fun lessonPractice_noAudioNoListeningItems() {
+        val keys = builder.lessonPractice(sixWords(), speechAvailable = true).map { it.typeKey }
+        assertTrue(keys.none { it == "listen_choose" || it == "dictation" || it == "speak" })
+    }
+
+    @Test fun lessonPractice_withAudioAddsListening() {
+        val keys = builder.lessonPractice(withAudio(sixWords()), speechAvailable = false).map { it.typeKey }
+        assertTrue("listen_choose" in keys)
+        assertTrue("dictation" in keys)
+    }
+
+    @Test fun lessonPractice_noSpeechNoSpeakItems() =
+        assertTrue(builder.lessonPractice(withAudio(sixWords()), speechAvailable = false).none { it.typeKey == "speak" })
+
+    @Test fun lessonPractice_speakOnlyWithAudio() {
+        assertTrue(builder.lessonPractice(withAudio(sixWords()), speechAvailable = true).any { it.typeKey == "speak" })
+        assertTrue(builder.lessonPractice(sixWords(), speechAvailable = true).none { it.typeKey == "speak" })
+    }
+
+    @Test fun listenChoose_hasFourDistinctOptionsIncludingAnswer() {
+        repeat(10) { seed ->
+            val items = SessionBuilder(Random(seed)).lessonPractice(withAudio(sixWords()), speechAvailable = false)
+            items.filterIsInstance<ExerciseItem.ListenChoose>().forEach { item ->
+                assertEquals(4, item.options.map { it.id }.toSet().size)
+                assertTrue(item.word in item.options)
+                assertEquals(listOf("${item.word.id}#R"), item.cardIds)
+            }
+        }
+    }
+
+    @Test fun review_productionCardMayBeDictationOnlyWithAudio() {
+        val card = card("u02_l1_w001", CardKind.PRODUCE)
+        val noAudio = (0 until 20).map { SessionBuilder(Random(it)).review(listOf(card), mapOf("u02_l1" to lesson)).single().typeKey }
+        assertTrue(noAudio.all { it == "reverse_typing" })
+        val audio = (0 until 20).map { SessionBuilder(Random(it)).review(listOf(card), mapOf("u02_l1" to withAudio(lesson))).single().typeKey }
+        assertTrue("dictation" in audio)
+    }
+
     @Test fun lessonTest_onlyTestExercises() =
         assertEquals(listOf("u02_l1_e007"), builder.lessonTest(lesson).map { (it as ExerciseItem.Authored).exercise.id })
 
     @Test fun authored_cardIdsFollowTargets() {
-        val byId = builder.lessonPractice(lesson).filterIsInstance<ExerciseItem.Authored>().associateBy { it.exercise.id }
+        val byId = builder.lessonPractice(lesson, speechAvailable = false).filterIsInstance<ExerciseItem.Authored>().associateBy { it.exercise.id }
         assertEquals(listOf("u02_l1_w001#R"), byId.getValue("u02_l1_e001").cardIds)
         assertEquals(listOf("u02_l1_g1#G"), byId.getValue("u02_l1_e002").cardIds)
     }
