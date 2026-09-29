@@ -1,0 +1,157 @@
+{
+  "id": "u02_l1",
+  "unit": 2,
+  "lesson": 1,
+  "title_ko": "한번 입어 보세요",
+  "title_uz": "Bir kiyib ko'ring",
+  "topic_uz": "Xarid",
+  "reviewed": false,
+  "words": [
+    { "id": "u02_l1_w001", "ko": "옷", "uz": "kiyim", "pos": "ot", "example_ko": "이 옷이 예뻐요.", "example_uz": "Bu kiyim chiroyli." },
+    { "id": "u02_l1_w002", "ko": "치마", "uz": "yubka", "pos": "ot", "example_ko": "치마를 입어 보세요.", "example_uz": "Yubkani kiyib ko'ring." },
+    { "id": "u02_l1_w003", "ko": "바지", "uz": "shim", "pos": "ot", "example_ko": "바지가 조금 커요.", "example_uz": "Shim biroz katta." },
+    { "id": "u02_l1_w004", "ko": "셔츠", "uz": "ko'ylak (yoqali)", "pos": "ot", "example_ko": "어제 셔츠를 샀어요.", "example_uz": "Kecha ko'ylak sotib oldim." },
+    { "id": "u02_l1_w005", "ko": "원피스", "uz": "ayollar ko'ylagi (butun)", "pos": "ot", "example_ko": "원피스가 정말 예뻐요.", "example_uz": "Ko'ylak juda chiroyli." },
+    { "id": "u02_l1_w006", "ko": "코트", "uz": "palto", "pos": "ot", "example_ko": "겨울에 코트를 입어요.", "example_uz": "Qishda palto kiyaman." },
+    { "id": "u02_l1_w007", "ko": "신발", "uz": "poyabzal", "pos": "ot", "example_ko": "신발을 신어 보세요.", "example_uz": "Poyabzalni kiyib ko'ring." },
+    { "id": "u02_l1_w008", "ko": "운동화", "uz": "krossovka", "pos": "ot", "example_ko": "운동화를 신고 학교에 가요.", "example_uz": "Krossovka kiyib maktabga boraman." },
+    { "id": "u02_l1_w009", "ko": "구두", "uz": "tufli", "pos": "ot", "example_ko": "회사에 구두를 신고 가요.", "example_uz": "Ishga tufli kiyib boraman." },
+    { "id": "u02_l1_w010", "ko": "양말", "uz": "paypoq", "pos": "ot", "example_ko": "양말을 두 켤레 샀어요.", "example_uz": "Ikki juft paypoq oldim." },
+    { "id": "u02_l1_w011", "ko": "모자", "uz": "shapka, bosh kiyim", "pos": "ot", "example_ko": "모자를 써 보세요.", "example_uz": "Shapkani kiyib ko'ring." },
+    { "id": "u02_l1_w012", "ko": "안경", "uz": "ko'zoynak", "pos": "ot", "example_ko": "선생님은 안경을 써요.", "example_uz": "O'qituvchi ko'zoynak taqadi." },
+    { "id": "u02_l1_w013", "ko": "장갑", "uz": "qo'lqop", "pos": "ot", "example_ko": "추워요. 장갑을 끼세요.", "example_uz": "Sovuq. Qo'lqop kiying." },
+    { "id": "u02_l1_w014", "ko": "반지", "uz": "uzuk", "pos": "ot", "example_ko": "언니가 반지를 꼈어요.", "example_uz": "Opam uzuk taqdi." },
+    { "id": "u02_l1_w015", "ko": "시계", "uz": "soat", "pos": "ot", "example_ko": "아버지는 시계를 차요.", "example_uz": "Otam soat taqadilar." },
+    { "id": "u02_l1_w016", "ko": "가방", "uz": "sumka", "pos": "ot", "example_ko": "가방이 너무 비싸요.", "example_uz": "Sumka juda qimmat." },
+    { "id": "u02_l1_w017", "ko": "목도리", "uz": "sharf", "pos": "ot", "example_ko": "겨울에는 목도리를 해요.", "example_uz": "Qishda sharf o'rayman." },
+    { "id": "u02_l1_w018", "ko": "입다", "uz": "kiymoq (ust kiyim)", "pos": "fe'l", "example_ko": "오늘 바지를 입었어요.", "example_uz": "Bugun shim kiydim." },
+    { "id": "u02_l1_w019", "ko": "신다", "uz": "kiymoq (oyoq kiyim)", "pos": "fe'l", "example_ko": "운동화를 신어요.", "example_uz": "Krossovka kiyaman." },
+    { "id": "u02_l1_w020", "ko": "쓰다", "uz": "kiymoq, taqmoq (shapka, ko'zoynak)", "pos": "fe'l", "example_ko": "모자를 써요.", "example_uz": "Shapka kiyaman." },
+    { "id": "u02_l1_w021", "ko": "끼다", "uz": "taqmoq, kiymoq (uzuk, qo'lqop)", "pos": "fe'l", "example_ko": "반지를 껴요.", "example_uz": "Uzuk taqaman." },
+    { "id": "u02_l1_w022", "ko": "차다", "uz": "taqmoq (soat)", "pos": "fe'l", "example_ko": "시계를 찼어요.", "example_uz": "Soat taqdim." },
+    { "id": "u02_l1_w023", "ko": "벗다", "uz": "yechmoq", "pos": "fe'l", "example_ko": "집에서 신발을 벗어요.", "example_uz": "Uyda poyabzalni yechamiz." },
+    { "id": "u02_l1_w024", "ko": "사이즈", "uz": "o'lcham", "pos": "ot", "example_ko": "사이즈가 어떻게 되세요?", "example_uz": "O'lchamingiz qanday?" },
+    { "id": "u02_l1_w025", "ko": "크다", "uz": "katta", "pos": "sifat", "example_ko": "이 바지는 좀 커요.", "example_uz": "Bu shim biroz katta." },
+    { "id": "u02_l1_w026", "ko": "작다", "uz": "kichik", "pos": "sifat", "example_ko": "신발이 좀 작아요.", "example_uz": "Poyabzal biroz kichik." },
+    { "id": "u02_l1_w027", "ko": "어울리다", "uz": "yarashmoq", "pos": "fe'l", "example_ko": "이 모자가 잘 어울려요.", "example_uz": "Bu shapka sizga juda yarashadi." },
+    { "id": "u02_l1_w028", "ko": "탈의실", "uz": "kiyim almashtirish xonasi", "pos": "ot", "example_ko": "탈의실은 저쪽에 있어요.", "example_uz": "Kiyim almashtirish xonasi u tomonda." },
+    { "id": "u02_l1_w029", "ko": "한번", "uz": "bir (sinab), bir marta", "pos": "ravish", "example_ko": "한번 먹어 보세요.", "example_uz": "Bir tatib ko'ring." },
+    { "id": "u02_l1_w030", "ko": "손님", "uz": "mijoz, mehmon", "pos": "ot", "example_ko": "손님, 뭘 찾으세요?", "example_uz": "Hurmatli mijoz, nima qidiryapsiz?" },
+    { "id": "u02_l1_w031", "ko": "비싸다", "uz": "qimmat", "pos": "sifat", "example_ko": "이 코트는 너무 비싸요.", "example_uz": "Bu palto juda qimmat." },
+    { "id": "u02_l1_w032", "ko": "싸다", "uz": "arzon", "pos": "sifat", "example_ko": "시장 옷이 싸요.", "example_uz": "Bozordagi kiyimlar arzon." }
+  ],
+  "grammar": [
+    {
+      "id": "u02_l1_g1",
+      "pattern": "V-아/어 보다",
+      "meaning_uz": "-ib ko'rmoq: biror narsani sinab ko'rish yoki tajriba qilish",
+      "explanation_md": "**-아/어 보다** fe'lga qo'shilib, o'zbekchadagi **\"-ib ko'rmoq\"** ma'nosini beradi: *kiyib ko'rmoq, yeb ko'rmoq, borib ko'rmoq*.\n\n### Qanday yasaladi\n\n1. Fe'lning lug'at shaklidan **-다** olib tashlanadi: 입다 → **입**\n2. O'zakning oxirgi unlisiga qarab **-아** yoki **-어** qo'shiladi (xuddi **-아요/어요** dagi kabi): 입 + 어 → **입어**\n3. Keyin **보다** qo'shiladi va u tuslanadi: 입어 **보세요**, 입어 **봤어요**\n\n### Eng ko'p ishlatiladigan shakllar\n\n- **-아/어 보세요** — *\"...-ib ko'ring\"*. Do'konda sotuvchi, maslahat berganda ko'p ishlatiladi: **한번 입어 보세요** — *Bir kiyib ko'ring.*\n- **-아/어 봤어요** — *\"...-ib ko'rganman\"*, tajriba haqida: **김치를 먹어 봤어요** — *Kimchini yeb ko'rganman.*\n- Savol: **제주도에 가 봤어요?** — *Chejudoga borib ko'rganmisiz?*\n\n### Esda tuting\n\n- **한번** (\"bir\") so'zi ko'pincha shu qolip bilan birga keladi va iltimosni yumshatadi.\n- Tajriba haqida gapirganda o'tgan zamon **-아/어 봤어요** ishlatiladi. Oddiy **갔어요** — *\"bordim\"* (bir marta, aniq voqea), **가 봤어요** — *\"borib ko'rganman\"* (hayotimda shunday tajriba bo'lgan).\n- **보다** fe'lining o'zi bilan bu qolip ishlatilmaydi: \"봐 보세요\" o'rniga shunchaki **보세요** deyiladi.",
+      "formation": [
+        { "condition_uz": "Oxirgi unli ㅏ yoki ㅗ", "rule": "-아 보다", "example": "가다 → 가 보다, 오다 → 와 보다" },
+        { "condition_uz": "Boshqa unlilar", "rule": "-어 보다", "example": "입다 → 입어 보다, 먹다 → 먹어 보다" },
+        { "condition_uz": "하다 bilan tugasa", "rule": "해 보다", "example": "운동하다 → 운동해 보다" }
+      ],
+      "examples": [
+        { "ko": "이 치마 한번 입어 보세요.", "uz": "Bu yubkani bir kiyib ko'ring." },
+        { "ko": "김치를 먹어 봤어요?", "uz": "Kimchini yeb ko'rganmisiz?" },
+        { "ko": "네, 먹어 봤어요. 맛있어요.", "uz": "Ha, yeb ko'rganman. Mazali." },
+        { "ko": "제주도에 가 봤어요.", "uz": "Chejudoga borib ko'rganman." },
+        { "ko": "한국 노래를 들어 보세요.", "uz": "Koreys qo'shiqlarini tinglab ko'ring." }
+      ],
+      "mistakes": [
+        { "wrong": "입 보세요", "right": "입어 보세요", "why_uz": "-아/어 qismi tushib qolgan: o'zakka avval -어 qo'shiladi, keyin 보다 keladi." },
+        { "wrong": "가어 보세요", "right": "가 보세요", "why_uz": "가다 ning unlisi ㅏ, shuning uchun -아 qo'shiladi va 가 + 아 = 가 bo'lib qisqaradi." },
+        { "wrong": "한국에 가 보요", "right": "한국에 가 봐요", "why_uz": "보다 ham oddiy fe'l kabi tuslanadi: 보 + 아요 = 봐요." }
+      ],
+      "uz_compare": "O'zbek tilida ham aynan shunday qurilma bor: fe'l + -ib + ko'rmoq. 입어 보다 = kiyib ko'rmoq, 먹어 보다 = yeb ko'rmoq. So'z tartibi ham bir xil: avval asosiy fe'l, keyin 'ko'rmoq'. Shuning uchun 입어 보세요 ni 'kiyib ko'ring' deb, 먹어 봤어요 ni 'yeb ko'rganman' deb eslab qoling."
+    },
+    {
+      "id": "u02_l1_g2",
+      "pattern": "입다 · 신다 · 쓰다 · 끼다 · 차다 · 하다",
+      "meaning_uz": "Kiyish fe'llari: nimani kiyishga qarab fe'l o'zgaradi",
+      "explanation_md": "O'zbek tilida deyarli hamma narsani **\"kiymoq\"** deymiz. Koreys tilida esa fe'l narsa **tananing qaysi qismiga** kiyilishiga qarab tanlanadi.\n\n| Tana qismi | Fe'l | Misol |\n|---|---|---|\n| Tana (ust kiyim) | **입다** | 바지를 입어요 |\n| Oyoq | **신다** | 운동화를 신어요 |\n| Bosh, yuz | **쓰다** | 모자를 써요, 안경을 써요 |\n| Barmoq, qo'l | **끼다** | 반지를 껴요, 장갑을 껴요 |\n| Bilak, bel | **차다** | 시계를 차요 |\n| Aksessuar | **하다** | 목도리를 해요 |\n\n### Tuslanishga e'tibor bering\n\n- **쓰다** → **써요** (ㅡ tushib qoladi), o'tgan zamon **썼어요**\n- **끼다** → **껴요** (ㅣ + 어 = ㅕ), o'tgan zamon **꼈어요**\n- **차다** → **차요**, o'tgan zamon **찼어요**\n\n### Yechmoq\n\nKo'pchilik narsa uchun **벗다** ishlatiladi: 옷을 벗어요, 신발을 벗어요, 모자를 벗어요. Uzukni **빼다** (반지를 빼요), soatni **풀다** (시계를 풀어요) bilan yechamiz.\n\nKoreyada uyga kirganda **신발을 벗어요** — poyabzal yechiladi!",
+      "formation": [
+        { "condition_uz": "Ust kiyim: ko'ylak, shim, yubka, palto", "rule": "입다", "example": "바지를 입어요" },
+        { "condition_uz": "Oyoq kiyim: poyabzal, paypoq", "rule": "신다", "example": "운동화를 신어요" },
+        { "condition_uz": "Bosh va yuz: shapka, ko'zoynak", "rule": "쓰다", "example": "모자를 써요" },
+        { "condition_uz": "Barmoq va qo'l: uzuk, qo'lqop", "rule": "끼다", "example": "반지를 껴요" },
+        { "condition_uz": "Bilak: soat", "rule": "차다", "example": "시계를 차요" },
+        { "condition_uz": "Aksessuar: sharf, galstuk", "rule": "하다", "example": "목도리를 해요" }
+      ],
+      "examples": [
+        { "ko": "오늘 청바지를 입었어요.", "uz": "Bugun jinsi shim kiydim." },
+        { "ko": "겨울에는 장갑을 껴요.", "uz": "Qishda qo'lqop kiyaman." },
+        { "ko": "선생님은 안경을 써요.", "uz": "O'qituvchi ko'zoynak taqadi." },
+        { "ko": "운동화를 신어 보세요.", "uz": "Krossovkani kiyib ko'ring." },
+        { "ko": "집에서 신발을 벗어요.", "uz": "Uyda poyabzalni yechamiz." }
+      ],
+      "mistakes": [
+        { "wrong": "모자를 입어요", "right": "모자를 써요", "why_uz": "Shapka boshga kiyiladi, shuning uchun 쓰다 ishlatiladi." },
+        { "wrong": "신발을 입어요", "right": "신발을 신어요", "why_uz": "Oyoq kiyim uchun har doim 신다." },
+        { "wrong": "장갑을 입어요", "right": "장갑을 껴요", "why_uz": "Qo'lqop va uzuk barmoqqa kiyiladi — 끼다." }
+      ],
+      "uz_compare": "O'zbekchada 'kiymoq' deyarli hamma narsaga ishlatiladi, faqat soat, uzuk va ko'zoynakni 'taqmoq' deymiz. Koreyschada esa tananing qismiga qarab fe'l tanlanadi. Eslab qolish uchun: tana — 입다, oyoq — 신다, bosh — 쓰다, barmoq — 끼다, bilak — 차다."
+    }
+  ],
+  "dialogue": {
+    "lines": [
+      { "speaker": "seller", "ko": "어서 오세요. 뭘 찾으세요?", "uz": "Xush kelibsiz. Nima qidiryapsiz?" },
+      { "speaker": "aziz", "ko": "겨울 코트를 찾아요.", "uz": "Qishki palto qidiryapman." },
+      { "speaker": "seller", "ko": "이 코트는 어떠세요? 요즘 인기가 많아요.", "uz": "Bu palto qanday? Hozir juda mashhur." },
+      { "speaker": "aziz", "ko": "예뻐요. 탈의실이 어디예요?", "uz": "Chiroyli. Kiyim almashtirish xonasi qayerda?" },
+      { "speaker": "seller", "ko": "저쪽에 있어요. 한번 입어 보세요.", "uz": "U tomonda. Bir kiyib ko'ring." },
+      { "speaker": "seller", "ko": "손님, 어떠세요?", "uz": "Qalay, yoqdimi?" },
+      { "speaker": "aziz", "ko": "좀 작아요. 105 사이즈 있어요?", "uz": "Biroz kichik. 105 o'lcham bormi?" },
+      { "speaker": "seller", "ko": "네, 있어요. 이 코트를 입어 보세요.", "uz": "Ha, bor. Mana bu paltoni kiyib ko'ring." },
+      { "speaker": "aziz", "ko": "이건 잘 맞아요. 얼마예요?", "uz": "Bu to'g'ri keldi. Qancha turadi?" },
+      { "speaker": "seller", "ko": "십오만 원이에요. 손님한테 정말 잘 어울려요.", "uz": "150 ming von. Sizga juda yarashadi." },
+      { "speaker": "aziz", "ko": "그럼 이걸로 주세요.", "uz": "Unda shuni bering." }
+    ]
+  },
+  "exercises": [
+    { "id": "u02_l1_e001", "type": "situation_choice", "targets": ["u02_l1_g2"], "prompt_uz": "Shapka kiyish uchun qaysi fe'l ishlatiladi?", "options": ["입다", "신다", "쓰다", "끼다"], "answers": ["쓰다"], "why_uz": "Bosh va yuzga kiyiladigan narsalar uchun 쓰다." },
+    { "id": "u02_l1_e002", "type": "situation_choice", "targets": ["u02_l1_g2"], "prompt_uz": "Qo'lqop kiyish uchun qaysi fe'l ishlatiladi?", "options": ["입다", "신다", "끼다", "차다"], "answers": ["끼다"], "why_uz": "Barmoq va qo'lga kiyiladigan narsalar uchun 끼다." },
+    { "id": "u02_l1_e003", "type": "situation_choice", "targets": ["u02_l1_w028"], "prompt_uz": "Do'konda kiyimni kiyib ko'rish uchun qayerga borasiz?", "options": ["탈의실", "화장실", "교실", "식당"], "answers": ["탈의실"] },
+    { "id": "u02_l1_e004", "type": "situation_choice", "targets": ["u02_l1_w027"], "prompt_uz": "Do'stingizga 'Sizga juda yarashadi' demoqchisiz:", "options": ["잘 어울려요", "잘 먹어요", "잘 자요", "잘 가요"], "answers": ["잘 어울려요"] },
+    { "id": "u02_l1_e005", "type": "conjugate", "targets": ["u02_l1_g1"], "prompt_uz": "'Kiyib ko'ring' shaklini yasang", "base": "입다", "form": "-아/어 보세요", "answers": ["입어 보세요"] },
+    { "id": "u02_l1_e006", "type": "conjugate", "targets": ["u02_l1_g1"], "prompt_uz": "'Borib ko'ring' shaklini yasang", "base": "가다", "form": "-아/어 보세요", "answers": ["가 보세요"], "hint_uz": "가 + 아 → 가" },
+    { "id": "u02_l1_e007", "type": "conjugate", "targets": ["u02_l1_g1"], "prompt_uz": "'Yeb ko'rganman' shaklini yasang", "base": "먹다", "form": "-아/어 봤어요", "answers": ["먹어 봤어요"] },
+    { "id": "u02_l1_e008", "type": "conjugate", "targets": ["u02_l1_g1", "u02_l1_g2"], "prompt_uz": "'(Poyabzalni) kiyib ko'ring' shaklini yasang", "base": "신다", "form": "-아/어 보세요", "answers": ["신어 보세요"] },
+    { "id": "u02_l1_e009", "type": "conjugate", "targets": ["u02_l1_g1", "u02_l1_g2"], "prompt_uz": "'(Shapkani) kiyib ko'ring' shaklini yasang", "base": "쓰다", "form": "-아/어 보세요", "answers": ["써 보세요"], "hint_uz": "쓰다: ㅡ tushib qoladi → 써", "why_uz": "쓰 + 어 → 써: ㅡ unlisi tushib qoladi." },
+    { "id": "u02_l1_e010", "type": "fill_blank", "targets": ["u02_l1_g1"], "prompt_uz": "Bo'sh joyni to'ldiring: 'Bu yubkani bir kiyib ko'ring.'", "sentence": "이 치마 한번 ___ (입다)", "answers": ["입어 보세요"] },
+    { "id": "u02_l1_e011", "type": "fill_blank", "targets": ["u02_l1_g1"], "prompt_uz": "Bo'sh joyni to'ldiring: 'Chejudoga borib ko'rganmisiz?'", "sentence": "제주도에 ___? (가다)", "answers": ["가 봤어요"], "hint_uz": "Tajriba: -아/어 봤어요" },
+    { "id": "u02_l1_e012", "type": "fill_blank", "targets": ["u02_l1_g2"], "prompt_uz": "To'g'ri kiyish fe'lini -아/어요 shaklida yozing", "sentence": "추워요. 장갑을 ___.", "answers": ["껴요", "끼어요"], "why_uz": "Qo'lqop uchun 끼다: 끼 + 어요 → 껴요." },
+    { "id": "u02_l1_e013", "type": "fill_blank", "targets": ["u02_l1_g2"], "prompt_uz": "To'g'ri kiyish fe'lini -아/어요 shaklida yozing", "sentence": "운동화를 ___.", "answers": ["신어요"] },
+    { "id": "u02_l1_e014", "type": "fill_blank", "targets": ["u02_l1_g2"], "prompt_uz": "To'g'ri kiyish fe'lini o'tgan zamonda yozing", "sentence": "시계를 ___.", "answers": ["찼어요"], "hint_uz": "Soat — 차다" },
+    { "id": "u02_l1_e015", "type": "build_sentence", "targets": ["u02_l1_g1"], "prompt_uz": "'Bu shimni bir kiyib ko'ring' gapini tuzing", "tokens": ["입어", "이", "보세요", "한번", "바지를"], "answers": ["이 바지를 한번 입어 보세요"] },
+    { "id": "u02_l1_e016", "type": "build_sentence", "targets": ["u02_l1_g2"], "prompt_uz": "'Shapka kiyib, qo'lqop taqaman' gapini tuzing", "tokens": ["껴요", "모자를", "장갑을", "쓰고"], "answers": ["모자를 쓰고 장갑을 껴요"] },
+    { "id": "u02_l1_e017", "type": "find_error", "targets": ["u02_l1_g2"], "prompt_uz": "Xatoni topib, to'g'ri gapni yozing", "sentence": "모자를 입어 보세요.", "answers": ["모자를 써 보세요", "모자를 한번 써 보세요"], "why_uz": "Shapka uchun 쓰다 ishlatiladi." },
+    { "id": "u02_l1_e018", "type": "find_error", "targets": ["u02_l1_g2"], "prompt_uz": "Xatoni topib, to'g'ri gapni yozing", "sentence": "양말을 입어요.", "answers": ["양말을 신어요"], "why_uz": "Paypoq oyoqqa kiyiladi — 신다." },
+    { "id": "u02_l1_e019", "type": "find_error", "targets": ["u02_l1_g1"], "prompt_uz": "Xatoni topib, to'g'ri gapni yozing", "sentence": "이 신발 신 보세요.", "answers": ["이 신발 신어 보세요"], "why_uz": "보다 dan oldin -아/어 kerak: 신 + 어 → 신어 보세요." },
+    { "id": "u02_l1_e020", "type": "translate", "targets": ["u02_l1_g1"], "prompt_uz": "Koreyschaga tarjima qiling", "source_uz": "Bu yubkani bir kiyib ko'ring.", "answers": ["이 치마를 한번 입어 보세요", "이 치마 한번 입어 보세요", "이 치마를 입어 보세요", "이 치마 입어 보세요"] },
+    { "id": "u02_l1_e021", "type": "translate", "targets": ["u02_l1_g1"], "prompt_uz": "Koreyschaga tarjima qiling", "source_uz": "Kimchini yeb ko'rganmisiz?", "answers": ["김치를 먹어 봤어요", "김치 먹어 봤어요"] },
+    { "id": "u02_l1_e022", "type": "translate", "targets": ["u02_l1_g2"], "prompt_uz": "Koreyschaga tarjima qiling", "source_uz": "Men ko'zoynak taqaman.", "answers": ["저는 안경을 써요", "안경을 써요", "저는 안경 써요", "나는 안경을 써요"] },
+    { "id": "u02_l1_e023", "type": "build_sentence", "targets": ["u02_l1_g1"], "prompt_uz": "'Koreys taomini yeb ko'rganman' gapini tuzing", "tokens": ["먹어", "봤어요", "음식을", "한국"], "answers": ["한국 음식을 먹어 봤어요"] },
+
+    { "id": "u02_l1_e101", "type": "situation_choice", "targets": ["u02_l1_g2"], "prompt_uz": "Soat taqish uchun qaysi fe'l ishlatiladi?", "options": ["입다", "쓰다", "차다", "신다"], "answers": ["차다"] },
+    { "id": "u02_l1_e102", "type": "situation_choice", "targets": ["u02_l1_w024"], "prompt_uz": "Sotuvchi o'lchamingizni so'rayapti. U nima dedi?", "options": ["사이즈가 어떻게 되세요?", "얼마예요?", "뭘 찾으세요?", "어서 오세요."], "answers": ["사이즈가 어떻게 되세요?"] },
+    { "id": "u02_l1_e103", "type": "conjugate", "targets": ["u02_l1_g1"], "prompt_uz": "'Kelib ko'ring' shaklini yasang", "base": "오다", "form": "-아/어 보세요", "answers": ["와 보세요"] },
+    { "id": "u02_l1_e104", "type": "conjugate", "targets": ["u02_l1_g1"], "prompt_uz": "'Sport bilan shug'ullanib ko'ring' shaklini yasang", "base": "운동하다", "form": "-아/어 보세요", "answers": ["운동해 보세요"] },
+    { "id": "u02_l1_e105", "type": "conjugate", "targets": ["u02_l1_g1", "u02_l1_g2"], "prompt_uz": "'(Uzukni) taqib ko'ring' shaklini yasang", "base": "끼다", "form": "-아/어 보세요", "answers": ["껴 보세요", "끼어 보세요"] },
+    { "id": "u02_l1_e106", "type": "fill_blank", "targets": ["u02_l1_g2"], "prompt_uz": "To'g'ri kiyish fe'lini -아/어요 shaklida yozing", "sentence": "안경을 ___.", "answers": ["써요"] },
+    { "id": "u02_l1_e107", "type": "fill_blank", "targets": ["u02_l1_g1"], "prompt_uz": "Bo'sh joyni to'ldiring: 'Bu tuflini bir kiyib ko'ring.'", "sentence": "이 구두를 한번 ___ (신다)", "answers": ["신어 보세요"] },
+    { "id": "u02_l1_e108", "type": "fill_blank", "targets": ["u02_l1_g1"], "prompt_uz": "Bo'sh joyni to'ldiring: 'Koreys qo'shiqlarini tinglab ko'rganmisiz?'", "sentence": "한국 노래를 ___? (듣다)", "answers": ["들어 봤어요"], "hint_uz": "듣다 → 들어 (ㄷ → ㄹ)" },
+    { "id": "u02_l1_e109", "type": "build_sentence", "targets": ["u02_l1_g1"], "prompt_uz": "'Bu ko'ylakni kiyib ko'ring' gapini tuzing", "tokens": ["보세요", "원피스를", "입어", "이"], "answers": ["이 원피스를 입어 보세요"] },
+    { "id": "u02_l1_e110", "type": "build_sentence", "targets": ["u02_l1_g2"], "prompt_uz": "'Uyda poyabzalni yechamiz' gapini tuzing", "tokens": ["벗어요", "집에서", "신발을"], "answers": ["집에서 신발을 벗어요"] },
+    { "id": "u02_l1_e111", "type": "find_error", "targets": ["u02_l1_g2"], "prompt_uz": "Xatoni topib, to'g'ri gapni yozing", "sentence": "반지를 입었어요.", "answers": ["반지를 꼈어요", "반지를 끼었어요"], "why_uz": "Uzuk barmoqqa taqiladi — 끼다." },
+    { "id": "u02_l1_e112", "type": "find_error", "targets": ["u02_l1_g1"], "prompt_uz": "Xatoni topib, to'g'ri gapni yozing", "sentence": "부산에 가어 봤어요.", "answers": ["부산에 가 봤어요"], "why_uz": "가 + 아 → 가 bo'lib qisqaradi." },
+    { "id": "u02_l1_e113", "type": "translate", "targets": ["u02_l1_g1"], "prompt_uz": "Koreyschaga tarjima qiling", "source_uz": "Bu poyabzalni kiyib ko'ring.", "answers": ["이 신발을 신어 보세요", "이 신발 신어 보세요", "이 신발을 한번 신어 보세요", "이 신발 한번 신어 보세요"] },
+    { "id": "u02_l1_e114", "type": "translate", "targets": ["u02_l1_g2"], "prompt_uz": "Koreyschaga tarjima qiling", "source_uz": "Qishda qo'lqop kiyaman.", "answers": ["겨울에 장갑을 껴요", "겨울에는 장갑을 껴요", "저는 겨울에 장갑을 껴요", "겨울에 장갑을 끼어요"] },
+    { "id": "u02_l1_e115", "type": "situation_choice", "targets": ["u02_l1_w031"], "prompt_uz": "Narx juda baland. Nima deysiz?", "options": ["너무 비싸요", "너무 싸요", "너무 작아요", "너무 커요"], "answers": ["너무 비싸요"] }
+  ],
+  "test": [
+    "u02_l1_e101", "u02_l1_e102", "u02_l1_e103", "u02_l1_e104", "u02_l1_e105",
+    "u02_l1_e106", "u02_l1_e107", "u02_l1_e108", "u02_l1_e109", "u02_l1_e110",
+    "u02_l1_e111", "u02_l1_e112", "u02_l1_e113", "u02_l1_e114", "u02_l1_e115"
+  ]
+}
