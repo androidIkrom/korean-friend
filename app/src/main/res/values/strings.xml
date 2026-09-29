@@ -1,4 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Hangul Friend</string>
+
+    <string name="nav_home">Bugun</string>
+    <string name="nav_book">Kitob</string>
+    <string name="nav_settings">Sozlamalar</string>
+
+    <string name="status_not_started">Boshlanmagan</string>
+    <string name="status_passed">O\'tilgan</string>
+    <string name="status_in_progress">Jarayonda</string>
+    <string name="status_completed">Tugatilgan</string>
+    <string name="status_verified">Tasdiqlangan</string>
+    <string name="coming_soon">Tez orada</string>
+    <string name="unit_title">%1$d-bo\'lim · %2$s</string>
+
+    <string name="onboarding_welcome">Xush kelibsiz!</string>
+    <string name="onboarding_intro">Hangul Friend «사랑해요 한국어 2» kitobi bo\'yicha darslarni takrorlashga yordam beradi.</string>
+    <string name="onboarding_question">Hozir qaysi darsdasiz?</string>
+    <string name="onboarding_continue">Davom etish</string>
+
+    <string name="home_review_count">Takrorlash: %1$d ta</string>
+    <string name="home_review_start">Boshlash</string>
+    <string name="home_review_done">Bugun hammasi takrorlandi!</string>
+    <string name="home_continue">Darsni davom ettirish</string>
+
+    <string name="settings_current_lesson">Joriy dars</string>
+    <string name="settings_daily_new">Kunlik yangi kartalar: %1$d ta</string>
+    <string name="settings_saved">Saqlandi</string>
+
+    <string name="placeholder_screen">Tez orada</string>
 </resources>
