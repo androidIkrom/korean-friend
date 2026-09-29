@@ -7,6 +7,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.compose.runtime.CompositionLocalProvider
 import uz.hangulfriend.audio.AudioPlayer
 import uz.hangulfriend.ui.LocalAudioPlayer
+import uz.hangulfriend.ui.exercise.LocalSpeechInput
 import uz.hangulfriend.ui.HangulFriendNav
 import uz.hangulfriend.ui.theme.HangulFriendTheme
 
@@ -19,7 +20,7 @@ class MainActivity : ComponentActivity() {
         val container = (application as HangulFriendApp).container
         setContent {
             HangulFriendTheme {
-                CompositionLocalProvider(LocalAudioPlayer provides audio) {
+                CompositionLocalProvider(LocalAudioPlayer provides audio, LocalSpeechInput provides container.speech) {
                     HangulFriendNav(container)
                 }
             }

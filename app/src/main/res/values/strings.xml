@@ -31,6 +31,22 @@
 
     <string name="placeholder_screen">Tez orada</string>
     <string name="audio_play">Tinglash</string>
+    <string name="ex_listen_choose_prompt">Eshiting va ma\'nosini tanlang</string>
+    <string name="ex_dictation_prompt">Eshiting va koreyscha yozing</string>
+    <string name="speak_prompt">Gapni ovoz chiqarib ayting</string>
+    <string name="speak_start">Gapirish</string>
+    <string name="speak_listening">Tinglayapman…</string>
+    <string name="speak_again">Qayta aytish</string>
+    <string name="speak_retry">Qayta urinish</string>
+    <string name="speak_skip">O\'tkazib yuborish</string>
+    <string name="speak_result">O\'xshashlik: %1$d%%</string>
+    <string name="speak_passed">Zo\'r! To\'g\'ri aytdingiz.</string>
+    <string name="speak_failed">Qizil bo\'g\'inlarga e\'tibor bering va yana urinib ko\'ring.</string>
+    <string name="speak_err_no_match">Eshitilmadi. Qaytadan, aniqroq ayting.</string>
+    <string name="speak_err_language">Telefoningizda koreys tilidagi nutqni tanish o\'rnatilmagan. Google ilovasi → Sozlamalar → Ovoz → Offline nutqni tanish bo\'limidan koreys tilini yuklab oling.</string>
+    <string name="speak_err_permission">Mikrofonga ruxsat berilmagan. Ruxsat bering yoki bu mashqni o\'tkazib yuboring.</string>
+    <string name="speak_err_network">Internet bilan muammo. Qayta urinib ko\'ring.</string>
+    <string name="speak_err_other">Nutqni tanishda xatolik yuz berdi.</string>
 
     <string name="feedback_correct">To\'g\'ri!</string>
     <string name="feedback_spacing">Deyarli! Bo\'sh joy xato.</string>
