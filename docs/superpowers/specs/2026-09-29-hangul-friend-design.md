@@ -321,9 +321,9 @@ Qoidalar:
 
 Har bir bosqich tugaganda telefonda ishlatsa bo'ladigan ilova bo'ladi. Har bir bosqich uchun alohida amalga oshirish rejasi yoziladi.
 
-1. **Asos.** Loyiha va modullar yaratiladi; `:core:hangul`, `:core:srs`, kontent formati va validator tayyorlanadi; foydalanuvchining hozirgi darsi uchun bitta to'liq dars yoziladi (dars reja yozishdan oldin tanlanadi). Shu bosqichda onboarding, kitob xaritasi, dars bosqichlari (lug'at, grammatika, dialog — hozircha audiosiz), matnli mashq turlari (`flashcard`, `reverse_typing`, `match`, `situation_choice`, `conjugate`, `fill_blank`, `build_sentence`, `find_error`, `translate` offline rejimda), dars testi, FSRS takrorlash va sozlamalar (asosiy) quriladi.
+1. **Asos.** Loyiha va modullar yaratiladi; `:core:hangul`, `:core:srs`, kontent formati va validator tayyorlanadi; foydalanuvchi hozir o'qiyotgan 2-bo'lim (쇼핑) ning ikkala darsi (`u02_l1`, `u02_l2`) to'liq yoziladi. Kitob xaritasida 18 darsning hammasi ko'rinadi, kontenti hali yozilmaganlari "tez orada" deb belgilanadi. Shu bosqichda onboarding, kitob xaritasi, dars bosqichlari (lug'at, grammatika, dialog — hozircha audiosiz), matnli mashq turlari (`flashcard`, `reverse_typing`, `match`, `situation_choice`, `conjugate`, `fill_blank`, `build_sentence`, `find_error`, `translate` offline rejimda), dars testi, FSRS takrorlash va sozlamalar (asosiy) quriladi.
 2. **Audio va nutq.** `audio_gen.py`, audio ijrosi, `listen_choose`, `dictation`, `listen_question`, `speak`, `roleplay`.
 3. **AI yordamchi.** "Tushunmadim" chat, `translate` tekshiruvi, xatoni tushuntirish.
 4. **O'yin elementlari.** XP, daraja, streak, nishonlar, combo, mini o'yinlar, Boss jangi, xatolar daftari, tezkor tekshiruv.
 5. **Hikoya va eslatmalar.** Hikoya rejimi, WorkManager eslatmalari, progress eksport/import.
-6. **Qolgan 17 dars kontenti.** 2-bosqichdan boshlab parallel yozilishi mumkin. Har bir dars telefonda tekshiriladi. Oxirida TOPIK I uslubidagi yakuniy test qo'shiladi.
+6. **Qolgan 16 dars kontenti.** Tartib: avval 1-bo'lim (o'tilgan, takrorlash uchun), keyin 3–9-bo'limlar ketma-ket. 2-bosqichdan boshlab parallel yozilishi mumkin; maqsad — kitobning to'liq 18 darsi ilovada bo'lishi. Har bir dars telefonda tekshiriladi. Oxirida TOPIK I uslubidagi yakuniy test qo'shiladi.
