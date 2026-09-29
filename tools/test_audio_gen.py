@@ -1,11 +1,10 @@
 import hashlib
 import io
 import json
-import os
 import sys
 import tempfile
 import unittest
-from contextlib import redirect_stderr
+from contextlib import redirect_stdout
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
@@ -39,14 +38,14 @@ class AudioGenTest(unittest.TestCase):
 
     def synth(self, text, voice):
         self.calls.append((text, voice))
-        return b"OggS" + text.encode("utf-8")
+        return b"ID3" + text.encode("utf-8")
 
     def lesson(self):
         return json.loads((self.assets / "lessons/u02_l1.json").read_text(encoding="utf-8"))
 
     def test_file_name_is_sha1_prefix(self):
-        expected = hashlib.sha1("ko-KR-Neural2-A|옷".encode("utf-8")).hexdigest()[:12] + ".ogg"
-        self.assertEqual(expected, audio_gen.file_name("ko-KR-Neural2-A", "옷"))
+        expected = hashlib.sha1("ko-KR-SunHiNeural|옷".encode("utf-8")).hexdigest()[:12] + ".mp3"
+        self.assertEqual(expected, audio_gen.file_name("ko-KR-SunHiNeural", "옷"))
 
     def test_collect_covers_all_fields(self):
         voices = audio_gen.load_voices(CHARACTERS)
@@ -89,25 +88,23 @@ class AudioGenTest(unittest.TestCase):
 
     def test_prune_removes_unreferenced(self):
         audio_gen.run(self.root, self.synth, dry_run=False, prune=False)
-        stale = self.assets / "audio/zz.ogg"
+        stale = self.assets / "audio/zz.mp3"
         stale.write_bytes(b"x")
         report = audio_gen.run(self.root, self.synth, dry_run=False, prune=True)
         self.assertFalse(stale.exists())
         self.assertEqual(1, report.pruned)
         self.assertTrue((self.assets / "audio" / self.lesson()["words"][0]["audio"]).is_file())
 
-    def test_missing_key_exits_with_message(self):
-        old = os.environ.pop("GOOGLE_TTS_API_KEY", None)
-        try:
-            err = io.StringIO()
-            with redirect_stderr(err):
-                code = audio_gen.main([], root=self.root)
-            self.assertEqual(2, code)
-            self.assertIn("GOOGLE_TTS_API_KEY", err.getvalue())
-            self.assertEqual([], self.calls)
-        finally:
-            if old is not None:
-                os.environ["GOOGLE_TTS_API_KEY"] = old
+    def test_main_dry_run_needs_no_key(self):
+        out = io.StringIO()
+        with redirect_stdout(out):
+            code = audio_gen.main(["--dry-run"], root=self.root)
+        self.assertEqual(0, code)
+        self.assertIn("would generate 6", out.getvalue())
+
+    def test_voices_are_edge_korean_neural(self):
+        self.assertEqual("ko-KR-SunHiNeural", audio_gen.FEMALE)
+        self.assertEqual("ko-KR-InJoonNeural", audio_gen.MALE)
 
 
 if __name__ == "__main__":
