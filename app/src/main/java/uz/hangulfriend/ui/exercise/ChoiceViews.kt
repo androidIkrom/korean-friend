@@ -28,6 +28,7 @@ import uz.hangulfriend.content.Word
 import uz.hangulfriend.hangul.AnswerChecker
 import uz.hangulfriend.hangul.Feedback
 import uz.hangulfriend.srs.Rating
+import uz.hangulfriend.ui.AudioButton
 import uz.hangulfriend.ui.session.ExerciseOutcome
 import uz.hangulfriend.ui.session.feedbackText
 import uz.hangulfriend.ui.theme.CorrectGreen
@@ -141,7 +142,10 @@ fun FlashcardView(word: Word, onResult: (ExerciseOutcome) -> Unit, onNext: () ->
     var revealed by remember { mutableStateOf(false) }
     Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
         PromptText(stringResource(R.string.ex_flashcard_prompt))
-        KoreanText(word.ko)
+        Row(verticalAlignment = androidx.compose.ui.Alignment.CenterVertically) {
+            KoreanText(word.ko)
+            AudioButton(word.audio)
+        }
         if (!revealed) {
             Button(onClick = { revealed = true }, modifier = Modifier.fillMaxWidth()) { Text(stringResource(R.string.ex_show)) }
         } else {

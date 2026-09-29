@@ -30,6 +30,7 @@
     <string name="settings_apply_note">Bu darsdan oldingi darslar «o\'tilgan» deb belgilanadi va ularning so\'zlari asta-sekin takrorlashga qo\'shiladi.</string>
 
     <string name="placeholder_screen">Tez orada</string>
+    <string name="audio_play">Tinglash</string>
 
     <string name="feedback_correct">To\'g\'ri!</string>
     <string name="feedback_spacing">Deyarli! Bo\'sh joy xato.</string>

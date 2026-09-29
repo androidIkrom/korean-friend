@@ -40,6 +40,7 @@ import uz.hangulfriend.content.Grammar
 import uz.hangulfriend.content.Lesson
 import uz.hangulfriend.content.Word
 import uz.hangulfriend.study.ExerciseItem
+import uz.hangulfriend.ui.AudioButton
 import uz.hangulfriend.ui.exercise.ExerciseView
 import uz.hangulfriend.ui.exercise.MatchView
 import uz.hangulfriend.ui.theme.CorrectGreen
@@ -99,11 +100,17 @@ fun VocabStage(lesson: Lesson, vm: LessonViewModel, onFinished: () -> Unit) {
 private fun WordCard(word: Word) {
     Card(Modifier.fillMaxWidth()) {
         Column(Modifier.padding(24.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
-            Text(word.ko, style = MaterialTheme.typography.displaySmall)
+            Row(verticalAlignment = Alignment.CenterVertically) {
+                Text(word.ko, style = MaterialTheme.typography.displaySmall, modifier = Modifier.weight(1f))
+                AudioButton(word.audio)
+            }
             Text(word.uz, style = MaterialTheme.typography.titleLarge)
             Text(word.pos, style = MaterialTheme.typography.labelMedium)
             HorizontalDivider()
-            Text(word.exampleKo, style = MaterialTheme.typography.bodyLarge)
+            Row(verticalAlignment = Alignment.CenterVertically) {
+                Text(word.exampleKo, style = MaterialTheme.typography.bodyLarge, modifier = Modifier.weight(1f))
+                AudioButton(word.exampleAudio)
+            }
             Text(word.exampleUz, style = MaterialTheme.typography.bodyMedium)
         }
     }
@@ -142,9 +149,12 @@ private fun GrammarPage(g: Grammar) {
         Markdown(content = g.explanationMd)
         SectionTitle(R.string.grammar_examples)
         g.examples.forEach { e ->
-            Column {
-                Text(e.ko, style = MaterialTheme.typography.bodyLarge)
-                Text(e.uz, style = MaterialTheme.typography.bodyMedium)
+            Row(verticalAlignment = Alignment.CenterVertically) {
+                Column(Modifier.weight(1f)) {
+                    Text(e.ko, style = MaterialTheme.typography.bodyLarge)
+                    Text(e.uz, style = MaterialTheme.typography.bodyMedium)
+                }
+                AudioButton(e.audio)
             }
         }
         SectionTitle(R.string.grammar_mistakes)
@@ -184,7 +194,10 @@ fun DialogueStage(lesson: Lesson, characters: Map<String, Character>, onFinished
                     Modifier.fillMaxWidth(),
                     horizontalAlignment = if (mine) Alignment.Start else Alignment.End,
                 ) {
-                    Text(characters[line.speaker]?.nameUz ?: line.speaker, style = MaterialTheme.typography.labelMedium)
+                    Row(verticalAlignment = Alignment.CenterVertically) {
+                        Text(characters[line.speaker]?.nameUz ?: line.speaker, style = MaterialTheme.typography.labelMedium)
+                        AudioButton(line.audio)
+                    }
                     Column(
                         Modifier
                             .widthIn(max = 300.dp)
