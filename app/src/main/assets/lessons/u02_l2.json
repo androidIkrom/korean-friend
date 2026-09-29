@@ -1,0 +1,160 @@
+{
+  "id": "u02_l2",
+  "unit": 2,
+  "lesson": 2,
+  "title_ko": "더 긴 치마는 없어요?",
+  "title_uz": "Uzunroq yubka yo'qmi?",
+  "topic_uz": "Xarid",
+  "reviewed": false,
+  "words": [
+    { "id": "u02_l2_w001", "ko": "길다", "uz": "uzun", "pos": "sifat", "example_ko": "이 치마는 길어요.", "example_uz": "Bu yubka uzun." },
+    { "id": "u02_l2_w002", "ko": "짧다", "uz": "kalta, qisqa", "pos": "sifat", "example_ko": "머리가 짧아요.", "example_uz": "Sochi kalta." },
+    { "id": "u02_l2_w003", "ko": "무겁다", "uz": "og'ir", "pos": "sifat", "example_ko": "가방이 무거워요.", "example_uz": "Sumka og'ir." },
+    { "id": "u02_l2_w004", "ko": "가볍다", "uz": "yengil", "pos": "sifat", "example_ko": "이 코트는 가벼워요.", "example_uz": "Bu palto yengil." },
+    { "id": "u02_l2_w005", "ko": "두껍다", "uz": "qalin", "pos": "sifat", "example_ko": "겨울 옷은 두꺼워요.", "example_uz": "Qishki kiyimlar qalin." },
+    { "id": "u02_l2_w006", "ko": "얇다", "uz": "yupqa", "pos": "sifat", "example_ko": "이 셔츠는 얇아요.", "example_uz": "Bu ko'ylak yupqa." },
+    { "id": "u02_l2_w007", "ko": "편하다", "uz": "qulay", "pos": "sifat", "example_ko": "이 신발이 편해요.", "example_uz": "Bu poyabzal qulay." },
+    { "id": "u02_l2_w008", "ko": "불편하다", "uz": "noqulay", "pos": "sifat", "example_ko": "구두가 좀 불편해요.", "example_uz": "Tufli biroz noqulay." },
+    { "id": "u02_l2_w009", "ko": "귀엽다", "uz": "yoqimli, shirin", "pos": "sifat", "example_ko": "이 모자가 귀여워요.", "example_uz": "Bu shapka yoqimli." },
+    { "id": "u02_l2_w010", "ko": "색깔", "uz": "rang", "pos": "ot", "example_ko": "무슨 색깔을 좋아해요?", "example_uz": "Qaysi rangni yoqtirasiz?" },
+    { "id": "u02_l2_w011", "ko": "빨간색", "uz": "qizil rang", "pos": "ot", "example_ko": "빨간색 치마가 있어요?", "example_uz": "Qizil yubka bormi?" },
+    { "id": "u02_l2_w012", "ko": "파란색", "uz": "ko'k rang", "pos": "ot", "example_ko": "파란색이 잘 어울려요.", "example_uz": "Ko'k rang sizga yarashadi." },
+    { "id": "u02_l2_w013", "ko": "노란색", "uz": "sariq rang", "pos": "ot", "example_ko": "노란색 우산을 샀어요.", "example_uz": "Sariq soyabon oldim." },
+    { "id": "u02_l2_w014", "ko": "검은색", "uz": "qora rang", "pos": "ot", "example_ko": "검은색 바지를 입었어요.", "example_uz": "Qora shim kiydim." },
+    { "id": "u02_l2_w015", "ko": "흰색", "uz": "oq rang", "pos": "ot", "example_ko": "흰색 셔츠가 없어요.", "example_uz": "Oq ko'ylak yo'q." },
+    { "id": "u02_l2_w016", "ko": "초록색", "uz": "yashil rang", "pos": "ot", "example_ko": "저는 초록색을 좋아해요.", "example_uz": "Men yashil rangni yoqtiraman." },
+    { "id": "u02_l2_w017", "ko": "회색", "uz": "kulrang", "pos": "ot", "example_ko": "회색 코트가 예뻐요.", "example_uz": "Kulrang palto chiroyli." },
+    { "id": "u02_l2_w018", "ko": "더", "uz": "ko'proq, -roq", "pos": "ravish", "example_ko": "이게 더 싸요.", "example_uz": "Bu arzonroq." },
+    { "id": "u02_l2_w019", "ko": "덜", "uz": "kamroq", "pos": "ravish", "example_ko": "이 옷이 덜 비싸요.", "example_uz": "Bu kiyim kamroq qimmat." },
+    { "id": "u02_l2_w020", "ko": "제일", "uz": "eng", "pos": "ravish", "example_ko": "이게 제일 예뻐요.", "example_uz": "Bu eng chiroylisi." },
+    { "id": "u02_l2_w021", "ko": "다른", "uz": "boshqa", "pos": "aniqlovchi", "example_ko": "다른 색깔도 있어요?", "example_uz": "Boshqa rangi ham bormi?" },
+    { "id": "u02_l2_w022", "ko": "새", "uz": "yangi", "pos": "aniqlovchi", "example_ko": "새 가방을 샀어요.", "example_uz": "Yangi sumka oldim." },
+    { "id": "u02_l2_w023", "ko": "디자인", "uz": "dizayn", "pos": "ot", "example_ko": "디자인이 예뻐요.", "example_uz": "Dizayni chiroyli." },
+    { "id": "u02_l2_w024", "ko": "할인", "uz": "chegirma", "pos": "ot", "example_ko": "지금 30% 할인해요.", "example_uz": "Hozir 30% chegirma." },
+    { "id": "u02_l2_w025", "ko": "바꾸다", "uz": "almashtirmoq", "pos": "fe'l", "example_ko": "다른 사이즈로 바꿔 주세요.", "example_uz": "Boshqa o'lchamga almashtirib bering." },
+    { "id": "u02_l2_w026", "ko": "환불", "uz": "pulni qaytarish", "pos": "ot", "example_ko": "환불해 주세요.", "example_uz": "Pulimni qaytarib bering." },
+    { "id": "u02_l2_w027", "ko": "계산하다", "uz": "to'lamoq, hisoblashmoq", "pos": "fe'l", "example_ko": "어디에서 계산해요?", "example_uz": "Qayerda to'lanadi?" },
+    { "id": "u02_l2_w028", "ko": "카드", "uz": "karta", "pos": "ot", "example_ko": "카드로 계산해요.", "example_uz": "Karta bilan to'layman." },
+    { "id": "u02_l2_w029", "ko": "현금", "uz": "naqd pul", "pos": "ot", "example_ko": "현금으로 계산했어요.", "example_uz": "Naqd pul bilan to'ladim." },
+    { "id": "u02_l2_w030", "ko": "영수증", "uz": "chek", "pos": "ot", "example_ko": "영수증 주세요.", "example_uz": "Chekni bering." },
+    { "id": "u02_l2_w031", "ko": "인기", "uz": "mashhurlik", "pos": "ot", "example_ko": "이 옷은 인기가 많아요.", "example_uz": "Bu kiyim juda mashhur." },
+    { "id": "u02_l2_w032", "ko": "어둡다", "uz": "to'q (rang), qorong'i", "pos": "sifat", "example_ko": "색깔이 좀 어두워요.", "example_uz": "Rangi biroz to'q." },
+    { "id": "u02_l2_w033", "ko": "밝다", "uz": "och (rang), yorug'", "pos": "sifat", "example_ko": "밝은 색깔을 좋아해요.", "example_uz": "Och ranglarni yoqtiraman." }
+  ],
+  "grammar": [
+    {
+      "id": "u02_l2_g1",
+      "pattern": "A-(으)ㄴ + N",
+      "meaning_uz": "Sifatni otdan oldin ishlatish: 'uzun yubka', 'kichik sumka'",
+      "explanation_md": "Koreys tilida sifat gap oxirida kelsa, oddiy tuslanadi: **치마가 길어요** — *Yubka uzun.*\n\nLekin sifat **otdan oldin** kelib, uni aniqlasa (*uzun yubka*), unga **-(으)ㄴ** qo'shiladi: **긴 치마**.\n\n### Qoidalar\n\n- **받침 yo'q** → **-ㄴ**: 크다 → **큰** 가방, 비싸다 → **비싼** 옷, 편하다 → **편한** 신발\n- **받침 bor** → **-은**: 작다 → **작은** 가방, 짧다 → **짧은** 머리\n- **ㄹ bilan tugasa** → ㄹ tushadi, **-ㄴ**: 길다 → **긴** 치마, 멀다 → **먼** 곳\n- **ㅂ bilan tugasa** → ㅂ o'rniga **-운**: 귀엽다 → **귀여운** 모자, 가볍다 → **가벼운** 코트, 어둡다 → **어두운** 색깔\n- **있다 / 없다** bilan tugasa → **-는**: 맛있다 → **맛있는** 음식, 재미없다 → **재미없는** 영화\n\n### Qiyoslash bilan birga\n\nBu darsning sarlavhasi ikkala grammatikani birlashtiradi: **더 긴 치마** — *uzunroq yubka*. Avval **더** (\"-roq\"), keyin **-(으)ㄴ** shaklidagi sifat, oxirida ot.\n\n### Esda tuting\n\nㅂ bilan tugaydigan sifatlar **-아/어요** shaklida ham o'zgaradi: 귀엽다 → 귀여**워요**, 무겁다 → 무거**워요**. Shuning uchun ularni juft qilib yodlang: **귀여워요 / 귀여운**.",
+      "formation": [
+        { "condition_uz": "받침 yo'q", "rule": "-ㄴ", "example": "크다 → 큰 가방, 비싸다 → 비싼 옷" },
+        { "condition_uz": "받침 bor", "rule": "-은", "example": "작다 → 작은 가방, 짧다 → 짧은 머리" },
+        { "condition_uz": "ㄹ bilan tugasa (ㄹ tushadi)", "rule": "-ㄴ", "example": "길다 → 긴 치마, 멀다 → 먼 곳" },
+        { "condition_uz": "ㅂ bilan tugasa", "rule": "-운", "example": "귀엽다 → 귀여운 모자, 가볍다 → 가벼운 코트" },
+        { "condition_uz": "있다 / 없다 bilan tugasa", "rule": "-는", "example": "맛있다 → 맛있는 음식" }
+      ],
+      "examples": [
+        { "ko": "긴 치마를 찾아요.", "uz": "Uzun yubka qidiryapman." },
+        { "ko": "작은 가방이 있어요?", "uz": "Kichik sumka bormi?" },
+        { "ko": "편한 신발이 좋아요.", "uz": "Qulay poyabzal yaxshi." },
+        { "ko": "귀여운 모자를 샀어요.", "uz": "Yoqimli shapka sotib oldim." },
+        { "ko": "맛있는 음식을 먹었어요.", "uz": "Mazali taom yedim." },
+        { "ko": "더 긴 치마는 없어요?", "uz": "Uzunroq yubka yo'qmi?" }
+      ],
+      "mistakes": [
+        { "wrong": "길은 치마", "right": "긴 치마", "why_uz": "길다 ㄹ bilan tugaydi: ㄹ tushib qoladi va -ㄴ qo'shiladi." },
+        { "wrong": "귀엽은 모자", "right": "귀여운 모자", "why_uz": "ㅂ bilan tugaydigan sifatlarda ㅂ → 우: 귀엽다 → 귀여운." },
+        { "wrong": "맛있은 음식", "right": "맛있는 음식", "why_uz": "있다 / 없다 bilan tugaydigan so'zlarga -는 qo'shiladi." },
+        { "wrong": "작는 가방", "right": "작은 가방", "why_uz": "Sifatda 받침 bo'lsa -은 qo'shiladi (-는 faqat 있다/없다 uchun)." }
+      ],
+      "uz_compare": "O'zbek tilida sifat otdan oldin hech o'zgarmaydi: 'uzun yubka', 'kichik sumka'. Koreys tilida esa sifat lug'at shaklida (길다) otdan oldin kela olmaydi — unga albatta -(으)ㄴ qo'shiladi: 긴 치마. Qoidani shunday eslang: gap oxirida — 치마가 길어요 (Yubka uzun), ot oldida — 긴 치마 (uzun yubka)."
+    },
+    {
+      "id": "u02_l2_g2",
+      "pattern": "N보다 (더) A",
+      "meaning_uz": "Qiyoslash: '-dan ko'ra', '-ga qaraganda ...-roq'",
+      "explanation_md": "**보다** otga qo'shilib, o'zbekchadagi **\"-dan (ko'ra)\"** ma'nosini beradi. Sifatdan oldin keladigan **더** esa **\"-roq\"** qo'shimchasiga to'g'ri keladi.\n\n**이 치마가 저 치마보다 더 길어요.**\n*Bu yubka ana u yubkadan uzunroq.*\n\n### Qoidalar\n\n- **보다** otga to'g'ridan-to'g'ri qo'shiladi, 받침ga qarab o'zgarmaydi: 치마**보다**, 바지**보다**, 어제**보다**.\n- **보다** bilan birga **이/가**, **을/를** ishlatilmaydi: ~~치마가보다~~ → **치마보다**.\n- **더** ni tushirib qoldirish mumkin, chunki **보다** o'zi qiyoslashni bildiradi: 오늘은 어제보다 추워요.\n- So'z tartibi erkin: **저 치마보다 이 치마가 더 길어요** ham to'g'ri.\n\n### Qo'shimcha so'zlar\n\n- **덜** — *kamroq*: 이 옷이 **덜** 비싸요.\n- **제일** — *eng*: 이게 **제일** 예뻐요.\n\n### Savol berish\n\n**뭐가 더 좋아요?** — *Qaysi biri yaxshiroq?*\n**커피하고 차 중에서 뭐가 더 좋아요?** — *Qahva va choydan qaysi birini ko'proq yoqtirasiz?*",
+      "formation": [
+        { "condition_uz": "Qiyoslanadigan ot", "rule": "N보다", "example": "치마보다, 어제보다" },
+        { "condition_uz": "Ko'proq, -roq", "rule": "더 + A", "example": "더 길어요, 더 싸요" },
+        { "condition_uz": "Kamroq", "rule": "덜 + A", "example": "덜 비싸요" },
+        { "condition_uz": "Eng", "rule": "제일 + A", "example": "제일 예뻐요" }
+      ],
+      "examples": [
+        { "ko": "이 치마가 저 치마보다 더 길어요.", "uz": "Bu yubka ana u yubkadan uzunroq." },
+        { "ko": "바지보다 치마가 더 편해요.", "uz": "Shimdan ko'ra yubka qulayroq." },
+        { "ko": "오늘은 어제보다 추워요.", "uz": "Bugun kechagidan sovuq." },
+        { "ko": "커피보다 차를 더 좋아해요.", "uz": "Qahvadan ko'ra choyni ko'proq yoqtiraman." },
+        { "ko": "이게 제일 싸요.", "uz": "Bu eng arzoni." },
+        { "ko": "더 싼 가방은 없어요?", "uz": "Arzonroq sumka yo'qmi?" }
+      ],
+      "mistakes": [
+        { "wrong": "저 치마가보다 길어요", "right": "저 치마보다 길어요", "why_uz": "보다 otga to'g'ridan-to'g'ri qo'shiladi, 이/가 bilan birga ishlatilmaydi." },
+        { "wrong": "이 가방이 더 무겁어요", "right": "이 가방이 더 무거워요", "why_uz": "무겁다 ㅂ bilan tugaydi: 무겁 + 어요 → 무거워요." },
+        { "wrong": "더 크은 사이즈", "right": "더 큰 사이즈", "why_uz": "크다 da 받침 yo'q, shuning uchun -ㄴ: 큰." }
+      ],
+      "uz_compare": "O'zbekchadagi '-dan' (yoki '-ga qaraganda') koreyscha 보다 ga to'g'ri keladi, '-roq' qo'shimchasi o'rniga esa sifatdan oldin 더 qo'yiladi. 'Bu yubka u yubkaDAN uzunROQ' = 이 치마가 저 치마보다 더 길어요. So'z tartibi ham deyarli bir xil: nima — nimadan — qanday."
+    }
+  ],
+  "dialogue": {
+    "lines": [
+      { "speaker": "minji", "ko": "아지즈 씨, 이 치마 어때요?", "uz": "Aziz, bu yubka qanday?" },
+      { "speaker": "aziz", "ko": "예뻐요. 그런데 좀 짧아요.", "uz": "Chiroyli. Lekin biroz kalta." },
+      { "speaker": "minji", "ko": "저기요, 더 긴 치마는 없어요?", "uz": "Kechirasiz, uzunroq yubka yo'qmi?" },
+      { "speaker": "seller", "ko": "이 치마는 어떠세요? 그 치마보다 더 길어요.", "uz": "Bu yubka qanday? U yubkadan uzunroq." },
+      { "speaker": "minji", "ko": "색깔이 좀 어두워요. 다른 색깔도 있어요?", "uz": "Rangi biroz to'q. Boshqa rangi ham bormi?" },
+      { "speaker": "seller", "ko": "네, 파란색하고 흰색이 있어요.", "uz": "Ha, ko'k va oq rangi bor." },
+      { "speaker": "aziz", "ko": "파란색이 더 잘 어울려요.", "uz": "Ko'k rang sizga ko'proq yarashadi." },
+      { "speaker": "minji", "ko": "좋아요. 이 파란색 치마로 주세요. 얼마예요?", "uz": "Yaxshi. Shu ko'k yubkani bering. Qancha turadi?" },
+      { "speaker": "seller", "ko": "사만 원이에요. 지금 20% 할인해요.", "uz": "40 ming von. Hozir 20% chegirma bor." },
+      { "speaker": "minji", "ko": "카드 돼요?", "uz": "Karta bilan to'lasa bo'ladimi?" },
+      { "speaker": "seller", "ko": "네, 됩니다. 영수증 여기 있어요.", "uz": "Ha, bo'ladi. Mana chekingiz." }
+    ]
+  },
+  "exercises": [
+    { "id": "u02_l2_e001", "type": "conjugate", "targets": ["u02_l2_g1"], "prompt_uz": "Sifatni otga bog'lang: 'uzun yubka'", "base": "길다", "form": "-(으)ㄴ + 치마", "answers": ["긴 치마"], "hint_uz": "ㄹ tushib qoladi" },
+    { "id": "u02_l2_e002", "type": "conjugate", "targets": ["u02_l2_g1"], "prompt_uz": "Sifatni otga bog'lang: 'kichik sumka'", "base": "작다", "form": "-(으)ㄴ + 가방", "answers": ["작은 가방"] },
+    { "id": "u02_l2_e003", "type": "conjugate", "targets": ["u02_l2_g1"], "prompt_uz": "Sifatni otga bog'lang: 'yoqimli shapka'", "base": "귀엽다", "form": "-(으)ㄴ + 모자", "answers": ["귀여운 모자"], "hint_uz": "ㅂ → 우" },
+    { "id": "u02_l2_e004", "type": "conjugate", "targets": ["u02_l2_g1"], "prompt_uz": "Sifatni otga bog'lang: 'mazali taom'", "base": "맛있다", "form": "-(으)ㄴ + 음식", "answers": ["맛있는 음식"], "hint_uz": "있다 / 없다 → -는" },
+    { "id": "u02_l2_e005", "type": "conjugate", "targets": ["u02_l2_g1"], "prompt_uz": "Sifatni otga bog'lang: 'qimmat kiyim'", "base": "비싸다", "form": "-(으)ㄴ + 옷", "answers": ["비싼 옷"] },
+    { "id": "u02_l2_e006", "type": "fill_blank", "targets": ["u02_l2_g1"], "prompt_uz": "Bo'sh joyni to'ldiring: 'Qulay poyabzal yaxshi.'", "sentence": "___ 신발이 좋아요. (편하다)", "answers": ["편한"] },
+    { "id": "u02_l2_e007", "type": "fill_blank", "targets": ["u02_l2_g1"], "prompt_uz": "Bo'sh joyni to'ldiring: 'Yengil palto sotib oldim.'", "sentence": "___ 코트를 샀어요. (가볍다)", "answers": ["가벼운"], "hint_uz": "ㅂ → 우" },
+    { "id": "u02_l2_e008", "type": "fill_blank", "targets": ["u02_l2_g2"], "prompt_uz": "Bo'sh joyni to'ldiring: 'Bu sumka ana u sumkadan kattaroq.'", "sentence": "이 가방이 저 가방___ 더 커요.", "answers": ["보다"] },
+    { "id": "u02_l2_e009", "type": "fill_blank", "targets": ["u02_l2_g2"], "prompt_uz": "Bo'sh joyni to'ldiring: 'Shimdan ko'ra yubka qulayroq.'", "sentence": "바지보다 치마가 ___ 편해요.", "answers": ["더"] },
+    { "id": "u02_l2_e010", "type": "fill_blank", "targets": ["u02_l2_g1", "u02_l2_g2"], "prompt_uz": "Bo'sh joyni to'ldiring: 'Uzunroq yubka yo'qmi?'", "sentence": "더 ___ 치마는 없어요? (길다)", "answers": ["긴"] },
+    { "id": "u02_l2_e011", "type": "situation_choice", "targets": ["u02_l2_g2"], "prompt_uz": "'Bu eng arzoni' qanday aytiladi?", "options": ["이게 제일 싸요", "이게 더 싸요", "이게 덜 싸요", "이게 싸요"], "answers": ["이게 제일 싸요"] },
+    { "id": "u02_l2_e012", "type": "situation_choice", "targets": ["u02_l2_w010", "u02_l2_w021"], "prompt_uz": "Sotuvchidan boshqa rangi bor-yo'qligini so'rang:", "options": ["다른 색깔 있어요?", "다른 사이즈 있어요?", "얼마예요?", "영수증 주세요."], "answers": ["다른 색깔 있어요?"] },
+    { "id": "u02_l2_e013", "type": "situation_choice", "targets": ["u02_l2_w026"], "prompt_uz": "Sotib olgan kiyimingiz yoqmadi, pulingizni qaytarib olmoqchisiz:", "options": ["환불해 주세요.", "계산해 주세요.", "할인해 주세요.", "입어 보세요."], "answers": ["환불해 주세요."] },
+    { "id": "u02_l2_e014", "type": "build_sentence", "targets": ["u02_l2_g2"], "prompt_uz": "'Bu yubka ana u yubkadan uzunroq' gapini tuzing", "tokens": ["길어요", "더", "이", "저", "치마가", "치마보다"], "answers": ["이 치마가 저 치마보다 더 길어요", "저 치마보다 이 치마가 더 길어요"] },
+    { "id": "u02_l2_e015", "type": "build_sentence", "targets": ["u02_l2_g1"], "prompt_uz": "'Kichik sumka sotib oldim' gapini tuzing", "tokens": ["가방을", "샀어요", "작은"], "answers": ["작은 가방을 샀어요"] },
+    { "id": "u02_l2_e016", "type": "find_error", "targets": ["u02_l2_g1"], "prompt_uz": "Xatoni topib, to'g'ri gapni yozing", "sentence": "길은 치마가 있어요?", "answers": ["긴 치마가 있어요", "긴 치마 있어요"], "why_uz": "길다 → 긴: ㄹ tushib qoladi." },
+    { "id": "u02_l2_e017", "type": "find_error", "targets": ["u02_l2_g1"], "prompt_uz": "Xatoni topib, to'g'ri gapni yozing", "sentence": "맛있은 음식을 먹었어요.", "answers": ["맛있는 음식을 먹었어요"], "why_uz": "있다 bilan tugaganda -는: 맛있는." },
+    { "id": "u02_l2_e018", "type": "find_error", "targets": ["u02_l2_g2"], "prompt_uz": "Xatoni topib, to'g'ri gapni yozing", "sentence": "커피가보다 차가 더 좋아요.", "answers": ["커피보다 차가 더 좋아요"], "why_uz": "보다 otga to'g'ridan-to'g'ri qo'shiladi." },
+    { "id": "u02_l2_e019", "type": "translate", "targets": ["u02_l2_g2"], "prompt_uz": "Koreyschaga tarjima qiling", "source_uz": "Bu shim ana u shimdan uzunroq.", "answers": ["이 바지가 저 바지보다 더 길어요", "이 바지가 저 바지보다 길어요", "이 바지는 저 바지보다 더 길어요", "이 바지는 저 바지보다 길어요", "저 바지보다 이 바지가 더 길어요", "저 바지보다 이 바지가 길어요"] },
+    { "id": "u02_l2_e020", "type": "translate", "targets": ["u02_l2_g1"], "prompt_uz": "Koreyschaga tarjima qiling", "source_uz": "Kichik sumka bormi?", "answers": ["작은 가방 있어요", "작은 가방이 있어요"] },
+    { "id": "u02_l2_e021", "type": "translate", "targets": ["u02_l2_g1", "u02_l2_g2"], "prompt_uz": "Koreyschaga tarjima qiling", "source_uz": "Arzonroq kiyim yo'qmi?", "answers": ["더 싼 옷은 없어요", "더 싼 옷 없어요", "더 싼 옷이 없어요"] },
+    { "id": "u02_l2_e022", "type": "situation_choice", "targets": ["u02_l2_g1"], "prompt_uz": "'Yoqimli shapka' qaysi biri to'g'ri?", "options": ["귀여운 모자", "귀엽은 모자", "귀엽는 모자", "귀엽 모자"], "answers": ["귀여운 모자"] },
+
+    { "id": "u02_l2_e101", "type": "conjugate", "targets": ["u02_l2_g1"], "prompt_uz": "Sifatni otga bog'lang: 'katta o'lcham'", "base": "크다", "form": "-(으)ㄴ + 사이즈", "answers": ["큰 사이즈"] },
+    { "id": "u02_l2_e102", "type": "conjugate", "targets": ["u02_l2_g1"], "prompt_uz": "Sifatni otga bog'lang: 'og'ir sumka'", "base": "무겁다", "form": "-(으)ㄴ + 가방", "answers": ["무거운 가방"] },
+    { "id": "u02_l2_e103", "type": "conjugate", "targets": ["u02_l2_g1"], "prompt_uz": "Sifatni otga bog'lang: 'qiziqarli film'", "base": "재미있다", "form": "-(으)ㄴ + 영화", "answers": ["재미있는 영화"] },
+    { "id": "u02_l2_e104", "type": "fill_blank", "targets": ["u02_l2_g1"], "prompt_uz": "Bo'sh joyni to'ldiring: 'Qalin kiyim kiying.'", "sentence": "___ 옷을 입으세요. (두껍다)", "answers": ["두꺼운"] },
+    { "id": "u02_l2_e105", "type": "fill_blank", "targets": ["u02_l2_g2"], "prompt_uz": "Bo'sh joyni to'ldiring: 'Bugun kechagidan sovuqroq.'", "sentence": "오늘은 어제___ 더 추워요.", "answers": ["보다"] },
+    { "id": "u02_l2_e106", "type": "fill_blank", "targets": ["u02_l2_g1"], "prompt_uz": "Bo'sh joyni to'ldiring: 'Kalta soch sizga yarashadi.'", "sentence": "___ 머리가 잘 어울려요. (짧다)", "answers": ["짧은"] },
+    { "id": "u02_l2_e107", "type": "situation_choice", "targets": ["u02_l2_g2"], "prompt_uz": "'Qahvadan ko'ra choyni ko'proq yoqtiraman' qaysi biri?", "options": ["커피보다 차를 더 좋아해요", "차보다 커피를 더 좋아해요", "커피를 제일 좋아해요", "커피하고 차를 좋아해요"], "answers": ["커피보다 차를 더 좋아해요"] },
+    { "id": "u02_l2_e108", "type": "situation_choice", "targets": ["u02_l2_g1", "u02_l2_w033"], "prompt_uz": "'Och rangli kiyim' qaysi biri to'g'ri?", "options": ["밝은 색깔 옷", "밝는 색깔 옷", "밝 색깔 옷", "밝아 색깔 옷"], "answers": ["밝은 색깔 옷"] },
+    { "id": "u02_l2_e109", "type": "build_sentence", "targets": ["u02_l2_g2"], "prompt_uz": "'Metro avtobusdan tezroq' gapini tuzing", "tokens": ["더", "버스보다", "빨라요", "지하철이"], "answers": ["지하철이 버스보다 더 빨라요", "버스보다 지하철이 더 빨라요"] },
+    { "id": "u02_l2_e110", "type": "build_sentence", "targets": ["u02_l2_g1"], "prompt_uz": "'Yengil palto qidiryapman' gapini tuzing", "tokens": ["가벼운", "찾아요", "코트를"], "answers": ["가벼운 코트를 찾아요"] },
+    { "id": "u02_l2_e111", "type": "find_error", "targets": ["u02_l2_g1"], "prompt_uz": "Xatoni topib, to'g'ri gapni yozing", "sentence": "귀엽은 모자를 샀어요.", "answers": ["귀여운 모자를 샀어요"], "why_uz": "귀엽다 → 귀여운: ㅂ → 우." },
+    { "id": "u02_l2_e112", "type": "find_error", "targets": ["u02_l2_g2"], "prompt_uz": "Xatoni topib, to'g'ri gapni yozing", "sentence": "이 가방이 더 무겁어요.", "answers": ["이 가방이 더 무거워요"], "why_uz": "무겁다 → 무거워요: ㅂ → 워." },
+    { "id": "u02_l2_e113", "type": "translate", "targets": ["u02_l2_g1"], "prompt_uz": "Koreyschaga tarjima qiling", "source_uz": "Men qulay poyabzalni yoqtiraman.", "answers": ["저는 편한 신발을 좋아해요", "편한 신발을 좋아해요", "저는 편한 신발이 좋아요", "편한 신발이 좋아요"] },
+    { "id": "u02_l2_e114", "type": "translate", "targets": ["u02_l2_g2"], "prompt_uz": "Koreyschaga tarjima qiling", "source_uz": "Bu sumka ana u sumkadan qimmatroq.", "answers": ["이 가방이 저 가방보다 더 비싸요", "이 가방이 저 가방보다 비싸요", "이 가방은 저 가방보다 더 비싸요", "이 가방은 저 가방보다 비싸요", "저 가방보다 이 가방이 더 비싸요", "저 가방보다 이 가방이 비싸요"] },
+    { "id": "u02_l2_e115", "type": "situation_choice", "targets": ["u02_l2_w029"], "prompt_uz": "Naqd pul bilan to'lamoqchisiz. Nima deysiz?", "options": ["현금으로 계산해요.", "카드로 계산해요.", "영수증 주세요.", "환불해 주세요."], "answers": ["현금으로 계산해요."] }
+  ],
+  "test": [
+    "u02_l2_e101", "u02_l2_e102", "u02_l2_e103", "u02_l2_e104", "u02_l2_e105",
+    "u02_l2_e106", "u02_l2_e107", "u02_l2_e108", "u02_l2_e109", "u02_l2_e110",
+    "u02_l2_e111", "u02_l2_e112", "u02_l2_e113", "u02_l2_e114", "u02_l2_e115"
+  ]
+}
