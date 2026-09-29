@@ -60,10 +60,14 @@ class SessionControllerTest {
                 copy(base = "가다", form = "-아/어 보다")
             }
         }
-        base.copy(exercises = base.exercises + tests, test = tests.map { it.id })
+        base.copy(
+            exercises = base.exercises + tests,
+            test = tests.map { it.id },
+            grammar = base.grammar.map { g -> g.copy(examples = g.examples.map { it.copy(audio = "ex.ogg") }) },
+        )
     }
 
-    private fun controller(mode: SessionMode, lessonId: String? = "u02_l1"): SessionController {
+    private fun controller(mode: SessionMode, lessonId: String? = "u02_l1", speech: Boolean = false): SessionController {
         val assets = File(tmp.root, "assets")
         File(assets, "lessons").mkdirs()
         File(assets, "lessons/u02_l1.json").writeText(ContentJson.encodeToString(Lesson.serializer(), lesson))
@@ -84,6 +88,7 @@ class SessionControllerTest {
             settings = settings,
             builder = SessionBuilder(Random(7)),
             grader = Grader(study),
+            speechAvailable = speech,
         )
     }
 
@@ -146,6 +151,33 @@ class SessionControllerTest {
         repeat(flashIndex) { c.next() }
         c.submit(ExerciseOutcome.Rated(Rating.AGAIN))
         assertEquals(0, c.state.value.correctCount)
+    }
+
+    @Test fun session_skippedItemNotGradedNorScored() = runTest {
+        study.ensureCards(lesson, 2, CardOrigin.LESSON)
+        val c = controller(SessionMode.TEST)
+        c.load()
+        c.submit(ExerciseOutcome.Skipped)
+        c.next()
+        repeat(14) {
+            c.submit(checked(correct = true))
+            c.next()
+        }
+        assertEquals(100, c.state.value.scorePercent)
+        assertEquals(14, db.logs().forCard("u02_l1_g1#G").size)
+    }
+
+    @Test fun session_speakDoesNotGrade() = runTest {
+        study.ensureCards(lesson, 2, CardOrigin.LESSON)
+        val c = controller(SessionMode.PRACTICE, speech = true)
+        c.load()
+        val speakIndex = c.state.value.items.indexOfFirst { it.typeKey == "speak" }
+        assertTrue("practice should contain a speak item", speakIndex >= 0)
+        repeat(speakIndex) { c.next() }
+        val before = db.logs().forCard("u02_l1_g1#G").size
+        c.submit(checked(correct = true))
+        assertEquals(before, db.logs().forCard("u02_l1_g1#G").size)
+        assertEquals(1, c.state.value.correctCount)
     }
 
     @Test fun session_practiceDoesNotRecordTest() = runTest {

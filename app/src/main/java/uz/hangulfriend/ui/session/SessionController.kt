@@ -36,6 +36,9 @@ sealed interface ExerciseOutcome {
 
     /** [firstTryCorrect] holds the word ids matched on the first attempt. */
     data class Matched(val firstTryCorrect: Set<String>, val total: Int) : ExerciseOutcome
+
+    /** The learner could not do the item (e.g. no microphone): not graded, not scored. */
+    data object Skipped : ExerciseOutcome
 }
 
 data class SessionState(
@@ -43,11 +46,13 @@ data class SessionState(
     val items: List<ExerciseItem> = emptyList(),
     val index: Int = 0,
     val correctCount: Int = 0,
+    /** Answered items that count toward the score (everything except [ExerciseOutcome.Skipped]). */
+    val scored: Int = 0,
     val answered: Boolean = false,
 ) {
     val finished: Boolean get() = !loading && index >= items.size
     val current: ExerciseItem? get() = items.getOrNull(index)
-    val scorePercent: Int get() = if (items.isEmpty()) 0 else correctCount * 100 / items.size
+    val scorePercent: Int get() = if (scored == 0) 0 else correctCount * 100 / scored
 }
 
 @androidx.annotation.StringRes
@@ -70,6 +75,7 @@ class SessionController(
     private val settings: SettingsRepository,
     private val builder: SessionBuilder,
     private val grader: Grader,
+    private val speechAvailable: Boolean,
 ) {
     private val _state = MutableStateFlow(SessionState())
     val state: StateFlow<SessionState> = _state
@@ -85,7 +91,7 @@ class SessionController(
                 val lesson = lessonId?.let { content.lesson(it) }
                 when {
                     lesson == null -> emptyList()
-                    mode == SessionMode.PRACTICE -> builder.lessonPractice(lesson)
+                    mode == SessionMode.PRACTICE -> builder.lessonPractice(lesson, speechAvailable)
                     mode == SessionMode.TEST -> builder.lessonTest(lesson)
                     else -> builder.lessonReview(lesson)
                 }
@@ -99,12 +105,19 @@ class SessionController(
         val s = _state.value
         val item = s.current ?: return
         if (s.answered) return
+        if (outcome == ExerciseOutcome.Skipped) {
+            _state.update { it.copy(answered = true) }
+            return
+        }
         val correct = when (outcome) {
             is ExerciseOutcome.Checked -> outcome.correct
             is ExerciseOutcome.Rated -> outcome.rating != Rating.AGAIN
             is ExerciseOutcome.Matched -> outcome.firstTryCorrect.size == outcome.total
+            ExerciseOutcome.Skipped -> false
         }
-        _state.update { it.copy(answered = true, correctCount = it.correctCount + if (correct) 1 else 0) }
+        _state.update {
+            it.copy(answered = true, scored = it.scored + 1, correctCount = it.correctCount + if (correct) 1 else 0)
+        }
         when {
             outcome is ExerciseOutcome.Rated && item is ExerciseItem.Flashcard -> grader.gradeFlashcard(item, outcome.rating)
             outcome is ExerciseOutcome.Matched && item is ExerciseItem.Match -> grader.gradeMatch(item, outcome.firstTryCorrect)

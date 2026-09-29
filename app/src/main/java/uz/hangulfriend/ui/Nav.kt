@@ -142,7 +142,7 @@ fun HangulFriendNav(container: AppContainer) {
                     SessionViewModel(
                         SessionController(
                             mode, lessonId, container.content, container.study, container.progress,
-                            container.settings, container.sessionBuilder, container.grader,
+                            container.settings, container.sessionBuilder, container.grader, container.speechAvailable,
                         ),
                     )
                 }

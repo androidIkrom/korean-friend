@@ -29,10 +29,11 @@ class SessionBuilder(private val random: Random) {
     fun vocabChunks(lesson: Lesson): List<List<Word>> = lesson.words.chunked(VOCAB_CHUNK)
 
     /**
-     * One practice round of at most [AUTHORED_CAP] + [TYPING_CAP] + [MATCH_CAP] items (spec: 15–25).
-     * Every grammar point gets up to [PER_GRAMMAR] exercises first; later rounds draw a new random mix.
+     * One practice round (spec: 15–25 items). Every grammar point gets up to [PER_GRAMMAR] authored
+     * exercises first; listening items need audio, speaking items also need a working recognizer.
+     * Later rounds draw a new random mix.
      */
-    fun lessonPractice(lesson: Lesson): List<ExerciseItem> {
+    fun lessonPractice(lesson: Lesson, speechAvailable: Boolean): List<ExerciseItem> {
         val pool = practiceExercises(lesson).shuffled(random)
         val guaranteed = lesson.grammar.flatMap { g -> pool.filter { g.id in it.targets }.take(PER_GRAMMAR) }.distinct()
         val chosen = (guaranteed + (pool - guaranteed.toSet())).take(maxOf(AUTHORED_CAP, guaranteed.size))
@@ -40,8 +41,21 @@ class SessionBuilder(private val random: Random) {
         val typing = words.take(TYPING_CAP).map { ExerciseItem.WordTyping(it) }
         val matches = words.drop(TYPING_CAP).ifEmpty { words }
             .chunked(MATCH_SIZE).filter { it.size >= 2 }.take(MATCH_CAP).map { ExerciseItem.Match(it) }
-        return arrange(chosen.map { ExerciseItem.Authored.of(lesson, it) } + typing + matches, random)
+        val heard = words.filter { it.audio != null }
+        val listen = heard.take(LISTEN_CAP).map { ExerciseItem.ListenChoose(it, listenOptions(lesson, it)) }
+        val dictation = heard.drop(LISTEN_CAP).ifEmpty { heard }.take(DICTATION_CAP).map { ExerciseItem.Dictation(it) }
+        val speak = if (!speechAvailable) {
+            emptyList()
+        } else {
+            lesson.grammar.flatMap { it.examples }.filter { it.audio != null }
+                .shuffled(random).take(SPEAK_CAP).map { ExerciseItem.Speak(it.ko, it.uz, it.audio) }
+        }
+        val all = chosen.map { ExerciseItem.Authored.of(lesson, it) } + typing + matches + listen + dictation + speak
+        return arrange(all, random)
     }
+
+    private fun listenOptions(lesson: Lesson, word: Word): List<Word> =
+        ((lesson.words - word).shuffled(random).take(LISTEN_OPTIONS - 1) + word).shuffled(random)
 
     fun lessonTest(lesson: Lesson): List<ExerciseItem> {
         val byId = lesson.exercises.associateBy { it.id }
@@ -59,7 +73,9 @@ class SessionBuilder(private val random: Random) {
             val lesson = lessons[card.lessonId] ?: return@mapNotNull null
             when (card.kind) {
                 CardKind.RECOGNIZE -> lesson.words.find { it.id == card.itemId }?.let { ExerciseItem.Flashcard(it) }
-                CardKind.PRODUCE -> lesson.words.find { it.id == card.itemId }?.let { ExerciseItem.WordTyping(it) }
+                CardKind.PRODUCE -> lesson.words.find { it.id == card.itemId }?.let {
+                    if (it.audio != null && random.nextBoolean()) ExerciseItem.Dictation(it) else ExerciseItem.WordTyping(it)
+                }
                 CardKind.GRAMMAR -> grammarExercise(lesson, card.itemId)
             }
         }
@@ -78,9 +94,13 @@ class SessionBuilder(private val random: Random) {
     companion object {
         const val VOCAB_CHUNK = 6
         const val MATCH_SIZE = 5
-        const val AUTHORED_CAP = 14
+        const val AUTHORED_CAP = 12
         const val PER_GRAMMAR = 2
-        const val TYPING_CAP = 6
-        const val MATCH_CAP = 2
+        const val TYPING_CAP = 3
+        const val MATCH_CAP = 1
+        const val LISTEN_CAP = 3
+        const val LISTEN_OPTIONS = 4
+        const val DICTATION_CAP = 2
+        const val SPEAK_CAP = 2
     }
 }

@@ -21,6 +21,24 @@ sealed interface ExerciseItem {
         override val cardIds get() = listOf(CardIds.of(word.id, CardKind.PRODUCE))
     }
 
+    /** Hear [word], pick its meaning among [options] (4 words of the lesson, [word] included). */
+    data class ListenChoose(val word: Word, val options: List<Word>) : ExerciseItem {
+        override val typeKey get() = "listen_choose"
+        override val cardIds get() = listOf(CardIds.of(word.id, CardKind.RECOGNIZE))
+    }
+
+    /** Hear [word], type it in Korean. */
+    data class Dictation(val word: Word) : ExerciseItem {
+        override val typeKey get() = "dictation"
+        override val cardIds get() = listOf(CardIds.of(word.id, CardKind.PRODUCE))
+    }
+
+    /** Say a sentence aloud. Pronunciation practice only: it grades no FSRS card. */
+    data class Speak(val ko: String, val uz: String, val audio: String?) : ExerciseItem {
+        override val typeKey get() = "speak"
+        override val cardIds get() = emptyList<String>()
+    }
+
     data class Match(val words: List<Word>) : ExerciseItem {
         override val typeKey get() = "match"
         override val cardIds get() = words.map { CardIds.of(it.id, CardKind.RECOGNIZE) }

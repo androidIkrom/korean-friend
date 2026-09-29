@@ -25,6 +25,8 @@ fun ExerciseView(item: ExerciseItem, onResult: (ExerciseOutcome) -> Unit, onNext
             onNext = onNext,
         )
         is ExerciseItem.Match -> MatchView(item.words, onResult, onNext)
+        // Views arrive in stage 2 Task 7; these items need audio, which no lesson has before Task 9.
+        is ExerciseItem.ListenChoose, is ExerciseItem.Dictation, is ExerciseItem.Speak -> Unit
         is ExerciseItem.Authored -> {
             val e = item.exercise
             when (e.type) {

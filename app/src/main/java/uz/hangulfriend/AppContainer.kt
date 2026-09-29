@@ -28,4 +28,7 @@ class AppContainer(context: Context) {
     val onboarding = OnboardingService(content, study, progress, settings)
     val sessionBuilder = SessionBuilder(Random.Default)
     val grader = Grader(study)
+
+    /** Wired to the speech recognizer in stage 2 Task 6. */
+    val speechAvailable: Boolean get() = false
 }
