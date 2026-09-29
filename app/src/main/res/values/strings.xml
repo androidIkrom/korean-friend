@@ -29,4 +29,36 @@
     <string name="settings_saved">Saqlandi</string>
 
     <string name="placeholder_screen">Tez orada</string>
+
+    <string name="feedback_correct">To\'g\'ri!</string>
+    <string name="feedback_spacing">Deyarli! Bo\'sh joy xato.</string>
+    <string name="feedback_final_consonant">Deyarli! 받침 (oxirgi undosh) xato.</string>
+    <string name="feedback_vowel">Deyarli! Unli xato.</string>
+    <string name="feedback_one_letter">Deyarli! Bitta harf xato.</string>
+    <string name="feedback_wrong">Noto\'g\'ri.</string>
+
+    <string name="ex_check">Tekshirish</string>
+    <string name="ex_next">Keyingi</string>
+    <string name="ex_hint">Yordam</string>
+    <string name="ex_show">Ko\'rsatish</string>
+    <string name="ex_answer_hint">Javobingiz (koreyscha)</string>
+    <string name="ex_correct_answer">To\'g\'ri javob: %1$s</string>
+    <string name="ex_sample_answers">Namunaviy javoblar:</string>
+    <string name="ex_flashcard_prompt">Ma\'nosini eslang, keyin tekshiring</string>
+    <string name="ex_typing_prompt">Koreyschasini yozing</string>
+    <string name="ex_match_prompt">Juftlarini toping</string>
+    <string name="ex_build_prompt">So\'zlarni to\'g\'ri tartibda bosing</string>
+    <string name="ex_conjugate_prompt">%1$s + %2$s = ?</string>
+    <string name="ex_clear">Tozalash</string>
+    <string name="rate_again">Qayta</string>
+    <string name="rate_hard">Qiyin</string>
+    <string name="rate_good">Yaxshi</string>
+    <string name="rate_easy">Oson</string>
+
+    <string name="session_result">%1$d / %2$d to\'g\'ri (%3$d%%)</string>
+    <string name="session_test_passed">Dars tugatildi! 🎉</string>
+    <string name="session_test_failed">Yana urinib ko\'ring — 80% kerak</string>
+    <string name="session_empty">Hozircha mashq yo\'q.</string>
+    <string name="session_finish">Yakunlash</string>
+    <string name="session_close">Yopish</string>
 </resources>

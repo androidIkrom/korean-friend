@@ -37,7 +37,13 @@ import uz.hangulfriend.ui.map.BookMapViewModel
 import uz.hangulfriend.ui.onboarding.OnboardingScreen
 import uz.hangulfriend.ui.onboarding.OnboardingViewModel
 import uz.hangulfriend.ui.settings.SettingsScreen
+import uz.hangulfriend.ui.session.SessionController
+import uz.hangulfriend.ui.session.SessionMode
+import uz.hangulfriend.ui.session.SessionScreen
+import uz.hangulfriend.ui.session.SessionViewModel
 import uz.hangulfriend.ui.settings.SettingsViewModel
+import androidx.navigation.NavType
+import androidx.navigation.navArgument
 
 object Routes {
     const val ONBOARDING = "onboarding"
@@ -49,9 +55,8 @@ object Routes {
 
     fun lesson(id: String) = "lesson/$id"
 
-    /** [mode] is one of practice, test, review, lessonReview. */
-    fun session(mode: String, lessonId: String? = null) =
-        if (lessonId == null) "session/$mode" else "session/$mode?lessonId=$lessonId"
+    fun session(mode: SessionMode, lessonId: String? = null) =
+        if (lessonId == null) "session/${mode.route}" else "session/${mode.route}?lessonId=$lessonId"
 }
 
 private data class Tab(val route: String, val label: Int, val icon: ImageVector)
@@ -92,7 +97,7 @@ fun HangulFriendNav(container: AppContainer) {
                 val vm = viewModel { HomeViewModel(container.content, container.study, container.settings) }
                 HomeScreen(
                     vm,
-                    onStartReview = { nav.navigate(Routes.session("review")) },
+                    onStartReview = { nav.navigate(Routes.session(SessionMode.REVIEW)) },
                     onContinueLesson = { nav.navigate(Routes.lesson(it)) },
                 )
             }
@@ -105,7 +110,25 @@ fun HangulFriendNav(container: AppContainer) {
                 SettingsScreen(vm)
             }
             composable(Routes.LESSON) { Placeholder() }
-            composable(Routes.SESSION) { Placeholder() }
+            composable(
+                Routes.SESSION,
+                arguments = listOf(
+                    navArgument("mode") { type = NavType.StringType },
+                    navArgument("lessonId") { type = NavType.StringType; nullable = true },
+                ),
+            ) { entry ->
+                val mode = SessionMode.fromRoute(entry.arguments?.getString("mode").orEmpty())
+                val lessonId = entry.arguments?.getString("lessonId")
+                val vm = viewModel {
+                    SessionViewModel(
+                        SessionController(
+                            mode, lessonId, container.content, container.study, container.progress,
+                            container.settings, container.sessionBuilder, container.grader,
+                        ),
+                    )
+                }
+                SessionScreen(vm, mode, onClose = { nav.popBackStack() })
+            }
         }
     }
 }
