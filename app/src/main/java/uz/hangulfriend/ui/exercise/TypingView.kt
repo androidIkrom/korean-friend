@@ -14,7 +14,10 @@ import androidx.compose.runtime.mutableLongStateOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
+import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.Modifier
+import kotlinx.coroutines.launch
+import uz.hangulfriend.ai.TranslationVerdict
 import androidx.compose.ui.platform.LocalSoftwareKeyboardController
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.input.ImeAction
@@ -26,7 +29,9 @@ import uz.hangulfriend.ui.session.feedbackText
 
 /**
  * Free-text answer checked with [AnswerChecker]. [showSamplesOnWrong] lists every accepted answer
- * (translations have several valid forms).
+ * (translations have several valid forms). [aiQuestion] builds the "AI'dan so'rash" question from
+ * the learner's answer. [aiCheck] gets a second opinion from the AI when the answer matches none of
+ * [answers]; a null verdict (AI unavailable) keeps the plain check.
  */
 @Composable
 fun TypingView(
@@ -38,8 +43,12 @@ fun TypingView(
     showSamplesOnWrong: Boolean,
     onResult: (ExerciseOutcome) -> Unit,
     onNext: () -> Unit,
+    aiQuestion: ((String) -> String)? = null,
+    aiCheck: (suspend (String) -> TranslationVerdict?)? = null,
 ) {
     val start by remember { mutableLongStateOf(System.currentTimeMillis()) }
+    val scope = rememberCoroutineScope()
+    var checking by remember { mutableStateOf(false) }
     var input by remember { mutableStateOf("") }
     var usedHint by remember { mutableStateOf(false) }
     var feedback by remember { mutableStateOf<FeedbackInfo?>(null) }
@@ -47,17 +56,35 @@ fun TypingView(
     val keyboard = LocalSoftwareKeyboardController.current
 
     fun check() {
-        if (feedback != null || input.isBlank()) return
+        if (feedback != null || checking || input.isBlank()) return
         keyboard?.hide()
-        val result = AnswerChecker.check(input, answers)
-        feedback = FeedbackInfo(
+        val answer = input
+        val result = AnswerChecker.check(answer, answers)
+        val elapsed = System.currentTimeMillis() - start
+        val plain = FeedbackInfo(
             correct = result.correct,
             message = messages.of(feedbackText(result.feedback)),
             correctAnswer = result.closest,
             why = why?.takeIf { !result.correct },
             samples = if (!result.correct && showSamplesOnWrong) answers else emptyList(),
+            askAi = aiQuestion?.invoke(answer),
         )
-        onResult(ExerciseOutcome.Checked(result.correct, usedHint, System.currentTimeMillis() - start, result))
+        if (result.correct || aiCheck == null) {
+            feedback = plain
+            onResult(ExerciseOutcome.Checked(result.correct, usedHint, elapsed, result))
+            return
+        }
+        checking = true
+        scope.launch {
+            val verdict = aiCheck(answer)
+            checking = false
+            feedback = when {
+                verdict == null -> plain
+                verdict.correct -> FeedbackInfo(true, messages.of(R.string.ai_translation_ok), null, verdict.explanationUz)
+                else -> plain.copy(correctAnswer = verdict.correctedKo, why = verdict.explanationUz)
+            }
+            onResult(ExerciseOutcome.Checked(verdict?.correct ?: false, usedHint, elapsed, result))
+        }
     }
 
     Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
@@ -74,7 +101,9 @@ fun TypingView(
         )
         HintButton(hint, enabled = feedback == null) { usedHint = true }
         val shown = feedback
-        if (shown == null) {
+        if (checking) {
+            Text(stringResource(R.string.ai_checking))
+        } else if (shown == null) {
             Button(onClick = ::check, enabled = input.isNotBlank(), modifier = Modifier.fillMaxWidth()) {
                 Text(stringResource(R.string.ex_check))
             }

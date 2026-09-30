@@ -4,6 +4,9 @@ import android.content.Context
 import androidx.datastore.preferences.preferencesDataStore
 import java.time.Clock
 import kotlin.random.Random
+import uz.hangulfriend.ai.GeminiClient
+import uz.hangulfriend.ai.HttpGeminiTransport
+import uz.hangulfriend.ai.TutorService
 import uz.hangulfriend.content.AndroidAssetSource
 import uz.hangulfriend.content.ContentRepository
 import uz.hangulfriend.data.AppDatabase
@@ -31,5 +34,8 @@ class AppContainer(context: Context) {
     val grader = Grader(study)
 
     val speech = SpeechInput(context)
+    val tutor = TutorService(
+        GeminiClient(BuildConfig.GEMINI_KEYS.split(',').filter { it.isNotBlank() }, HttpGeminiTransport()),
+    )
     val speechAvailable: Boolean get() = speech.isAvailable()
 }
