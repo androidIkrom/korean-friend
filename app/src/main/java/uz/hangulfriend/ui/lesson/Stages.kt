@@ -40,7 +40,10 @@ import uz.hangulfriend.content.Character
 import uz.hangulfriend.content.Grammar
 import uz.hangulfriend.content.Lesson
 import uz.hangulfriend.content.Word
+import uz.hangulfriend.ai.TutorPrompts
 import uz.hangulfriend.study.ExerciseItem
+import uz.hangulfriend.ui.tutor.LocalTutor
+import uz.hangulfriend.ui.tutor.TutorSheet
 import uz.hangulfriend.ui.AudioButton
 import uz.hangulfriend.ui.exercise.ExerciseView
 import uz.hangulfriend.ui.exercise.MatchView
@@ -122,6 +125,17 @@ fun GrammarStage(lesson: Lesson, vm: LessonViewModel, onFinished: () -> Unit) {
     Pager(lesson.grammar.size, onFinished) { i, next ->
         val g = lesson.grammar[i]
         GrammarPage(g)
+        if (LocalTutor.current != null) {
+            var open by remember(g.id) { mutableStateOf(false) }
+            OutlinedButton(onClick = { open = true }, modifier = Modifier.fillMaxWidth().padding(top = 8.dp)) {
+                Text(stringResource(R.string.ai_explain_grammar))
+            }
+            if (open) {
+                TutorSheet(TutorPrompts.grammarContext(g, lesson), stringResource(R.string.ai_explain_grammar_question)) {
+                    open = false
+                }
+            }
+        }
         val check = remember(g.id) { vm.grammarCheck(lesson, g.id) }
         if (check != null) {
             Spacer(Modifier.padding(8.dp))

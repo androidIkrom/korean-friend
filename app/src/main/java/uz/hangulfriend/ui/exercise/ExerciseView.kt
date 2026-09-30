@@ -5,7 +5,9 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.res.stringResource
 import uz.hangulfriend.R
+import uz.hangulfriend.ai.TutorPrompts
 import uz.hangulfriend.content.ExerciseType
+import uz.hangulfriend.ui.tutor.LocalTutor
 import uz.hangulfriend.study.ExerciseItem
 import uz.hangulfriend.ui.session.ExerciseOutcome
 
@@ -30,28 +32,32 @@ fun ExerciseView(item: ExerciseItem, onResult: (ExerciseOutcome) -> Unit, onNext
         is ExerciseItem.Speak -> SpeakView(item.ko, item.uz, item.audio, onResult, onNext)
         is ExerciseItem.Authored -> {
             val e = item.exercise
+            val ask: (String) -> String = { answer -> TutorPrompts.mistakeQuestion(e, answer) }
+            val tutor = LocalTutor.current
             when (e.type) {
-                ExerciseType.SITUATION_CHOICE -> ChoiceView(e.promptUz, e.options.orEmpty(), e.answers, e.whyUz, onResult, onNext)
+                ExerciseType.SITUATION_CHOICE ->
+                    ChoiceView(e.promptUz, e.options.orEmpty(), e.answers, e.whyUz, onResult, onNext, aiQuestion = ask)
                 ExerciseType.LISTEN_QUESTION -> ListenQuestionView(e, onResult, onNext)
                 ExerciseType.BUILD_SENTENCE ->
-                    BuildSentenceView(e.promptUz, e.tokens.orEmpty(), e.answers, e.hintUz, e.whyUz, onResult, onNext)
+                    BuildSentenceView(e.promptUz, e.tokens.orEmpty(), e.answers, e.hintUz, e.whyUz, onResult, onNext, aiQuestion = ask)
                 ExerciseType.CONJUGATE -> TypingView(
                     prompt = e.promptUz,
                     body = { KoreanText(stringResource(R.string.ex_conjugate_prompt, e.base.orEmpty(), e.form.orEmpty())) },
                     answers = e.answers, hint = e.hintUz, why = e.whyUz, showSamplesOnWrong = false,
-                    onResult = onResult, onNext = onNext,
+                    onResult = onResult, onNext = onNext, aiQuestion = ask,
                 )
                 ExerciseType.FILL_BLANK, ExerciseType.FIND_ERROR -> TypingView(
                     prompt = e.promptUz,
                     body = { KoreanText(e.sentence.orEmpty()) },
                     answers = e.answers, hint = e.hintUz, why = e.whyUz, showSamplesOnWrong = false,
-                    onResult = onResult, onNext = onNext,
+                    onResult = onResult, onNext = onNext, aiQuestion = ask,
                 )
                 ExerciseType.TRANSLATE -> TypingView(
                     prompt = e.promptUz,
                     body = { Text(e.sourceUz.orEmpty(), style = MaterialTheme.typography.headlineSmall) },
                     answers = e.answers, hint = e.hintUz, why = e.whyUz, showSamplesOnWrong = true,
-                    onResult = onResult, onNext = onNext,
+                    onResult = onResult, onNext = onNext, aiQuestion = ask,
+                    aiCheck = tutor?.let { t -> { answer -> t.checkTranslation(e, answer) } },
                 )
             }
         }

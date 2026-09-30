@@ -42,6 +42,7 @@ fun ChoiceView(
     why: String?,
     onResult: (ExerciseOutcome) -> Unit,
     onNext: () -> Unit,
+    aiQuestion: ((String) -> String)? = null,
 ) {
     val start by remember { mutableLongStateOf(System.currentTimeMillis()) }
     val shuffled = remember(options) { options.shuffled() }
@@ -76,6 +77,7 @@ fun ChoiceView(
                     message = messages.of(feedbackText(if (correct) Feedback.CORRECT else Feedback.WRONG)),
                     correctAnswer = answers.first(),
                     why = why?.takeIf { !correct },
+                    askAi = aiQuestion?.invoke(chosen),
                 ),
                 onNext,
             )
@@ -93,6 +95,7 @@ fun BuildSentenceView(
     why: String?,
     onResult: (ExerciseOutcome) -> Unit,
     onNext: () -> Unit,
+    aiQuestion: ((String) -> String)? = null,
 ) {
     val start by remember { mutableLongStateOf(System.currentTimeMillis()) }
     val pool = remember(tokens) { tokens.indices.shuffled() }
@@ -118,12 +121,14 @@ fun BuildSentenceView(
                 TextButton(onClick = { chosen.clear() }) { Text(stringResource(R.string.ex_clear)) }
                 Button(
                     onClick = {
-                        val result = AnswerChecker.check(chosen.joinToString(" ") { tokens[it] }, answers)
+                        val built = chosen.joinToString(" ") { tokens[it] }
+                        val result = AnswerChecker.check(built, answers)
                         feedback = FeedbackInfo(
                             result.correct,
                             messages.of(feedbackText(result.feedback)),
                             result.closest,
                             why?.takeIf { !result.correct },
+                            askAi = aiQuestion?.invoke(built),
                         )
                         onResult(ExerciseOutcome.Checked(result.correct, usedHint, System.currentTimeMillis() - start, result))
                     },

@@ -21,7 +21,11 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import uz.hangulfriend.R
+import androidx.compose.material3.OutlinedButton
+import uz.hangulfriend.ai.TutorPrompts
 import uz.hangulfriend.ui.theme.CorrectGreen
+import uz.hangulfriend.ui.tutor.LocalTutor
+import uz.hangulfriend.ui.tutor.TutorSheet
 import uz.hangulfriend.ui.theme.WrongRed
 
 /** What the learner sees after checking an answer. */
@@ -31,6 +35,8 @@ data class FeedbackInfo(
     val correctAnswer: String?,
     val why: String?,
     val samples: List<String> = emptyList(),
+    /** Question for the AI tutor about this mistake; the "AI'dan so'rash" button shows when set and wrong. */
+    val askAi: String? = null,
 )
 
 @Composable
@@ -50,6 +56,14 @@ fun FeedbackPanel(info: FeedbackInfo, onNext: () -> Unit) {
                 info.samples.forEach { Text("• $it") }
             }
             info.why?.let { Text(it, style = MaterialTheme.typography.bodyMedium) }
+            val question = info.askAi
+            if (!info.correct && question != null && LocalTutor.current != null) {
+                var open by remember { mutableStateOf(false) }
+                OutlinedButton(onClick = { open = true }, modifier = Modifier.fillMaxWidth()) {
+                    Text(stringResource(R.string.ai_ask_mistake))
+                }
+                if (open) TutorSheet(TutorPrompts.ROLE, question) { open = false }
+            }
             Button(onClick = onNext, modifier = Modifier.fillMaxWidth()) { Text(stringResource(R.string.ex_next)) }
         }
     }
