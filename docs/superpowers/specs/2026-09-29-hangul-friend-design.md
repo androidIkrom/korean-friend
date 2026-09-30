@@ -257,16 +257,17 @@ Qoidalar:
 
 ### 4.7 AI yordamchi
 
-- **Model:** `claude-opus-5-5`. Server tomonidagi zaxira model (fallback) yoqilgan: `fallbacks: "default"`.
-- **Chaqiruv:** rasmiy Anthropic Java SDK orqali, javoblar streaming bilan chiqariladi.
+> **2026-09-30 o'zgarishi:** foydalanuvchi Claude API o'rniga bepul Google Gemini API'ni tanladi (Claude API Max obunasidan alohida to'lanadi).
+
+- **Provayder va model:** Google Gemini API (`generativelanguage.googleapis.com/v1beta`), asosiy model `gemini-3.8-flash`. Server band bo'lsa (500/503), shu kalit bilan `gemini-3.5-flash` ga o'tiladi.
+- **Kalitlar:** `.env` faylida (repo ildizida, `.gitignore`da) `GEMINI_API_KEY`, `GEMINI_API_KEY_ZAXIRA`, `GEMINI_API_KEY_ZAXIRA_2`. Build paytida `BuildConfig.GEMINI_KEYS` ga (vergul bilan ajratilgan) yoziladi. APK tarqatilmaydi.
+- **Kalit almashinuvi:** 429 (limit), 401 yoki 403 (yaroqsiz kalit) javobi kelsa keyingi kalitga o'tiladi. Ishlagan kalit jarayon davomida eslab qolinadi. Hamma kalit tugasa, "Bugungi AI limiti tugadi" xabari chiqadi. Foydalanuvchi Google shartlari bo'yicha xavfdan ogohlantirilgan.
+- **Chaqiruv:** HTTP (`HttpURLConnection`, `Dispatchers.IO`), JSON kotlinx.serialization bilan. Streaming yo'q.
 - **Funksiyalar:**
-  1. **"Tushunmadim" chat.** Grammatika yoki mashq ekranidan ochiladi. System prompt'ga quyidagilar kiradi: "o'zbek tilida so'zlashuvchi TOPIK I/2-daraja o'quvchisi uchun koreys tili o'qituvchisi" roli, joriy grammatika kartasining to'liq JSON'i va dars so'zlari. Javob o'zbek tilida, qisqa, misollar bilan bo'ladi. Suhbat tarixi faqat ekran ochiq turganda saqlanadi.
-  2. **Tarjimani tekshirish.** Structured output bilan javob qaytadi: `{ correct: bool, corrected_ko: string, explanation_uz: string }`.
-  3. **Xatoni tushuntirish.** Noto'g'ri javobdan keyingi "AI'dan so'rash" tugmasi. Chat ochiladi va unga mashq, foydalanuvchi javobi va to'g'ri javob konteksti yuboriladi.
-- **Effort:** `low`. Sifat yetmasa, `medium` ga ko'tariladi.
-- **Prompt caching:** system prompt va dars konteksti keshlanadi.
-- **Kalit:** Android Keystore bilan shifrlangan DataStore'da saqlanadi. Kod va repo ichiga yozilmaydi.
-- **Taxminiy narx:** $4 / $20 per 1M token hisobida bitta savol taxminan $0.01–0.03 turadi.
+  1. **"Tushunmadim" chat.** Grammatika sahifasidan ochiladi. System prompt'da o'qituvchi roli (o'zbek tilida so'zlashuvchi TOPIK I/2-daraja o'quvchisi uchun), joriy grammatika (pattern, ma'no, qo'shilish qoidasi, misollar) va dars so'zlari bo'ladi. Javob o'zbek tilida, qisqa va misollar bilan. Suhbat tarixi faqat oyna ochiq turganda saqlanadi.
+  2. **Tarjimani tekshirish.** Javob `translate` mashqining `answers` ro'yxatiga mos kelmasa, AI tekshiradi. U JSON (`responseMimeType: application/json`) qaytaradi: `{ correct: bool, corrected_ko: string, explanation_uz: string }`. AI to'g'ri desa, javob to'g'ri hisoblanadi.
+  3. **Xatoni tushuntirish.** Noto'g'ri javobdan keyingi "AI'dan so'rash" tugmasi chatni ochadi. Unga mashq, foydalanuvchi javobi va to'g'ri javob yuboriladi.
+- **Xatolar:** internet yo'q → "offline", kalit yo'q → "AI sozlanmagan", limit tugagan → "Bugungi AI limiti tugadi". AI ishlamasa ham ilova ishlashda davom etadi, tarjima esa namunaviy javoblar bilan tekshiriladi.
 
 ### 4.8 Audio
 
