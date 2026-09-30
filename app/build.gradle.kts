@@ -5,6 +5,15 @@ plugins {
     alias(libs.plugins.ksp)
 }
 
+/** Gemini keys from the git-ignored .env, in file order, comma-separated; empty when the file is missing. */
+val geminiKeys: String = rootProject.file(".env").takeIf { it.isFile }?.readLines()
+    ?.map { it.trim() }
+    ?.filter { it.startsWith("GEMINI_API_KEY") && "=" in it }
+    ?.map { it.substringAfter("=").trim() }
+    ?.filter { it.isNotEmpty() }
+    ?.joinToString(",")
+    .orEmpty()
+
 android {
     namespace = "uz.hangulfriend"
     compileSdk = 37
@@ -15,6 +24,7 @@ android {
         targetSdk = 37
         versionCode = 1
         versionName = "0.1.0"
+        buildConfigField("String", "GEMINI_KEYS", "\"$geminiKeys\"")
     }
 
     buildTypes {
