@@ -21,7 +21,9 @@ class MainActivity : ComponentActivity() {
         val container = (application as HangulFriendApp).container
         setContent {
             HangulFriendTheme {
-                CompositionLocalProvider(LocalAudioPlayer provides audio, LocalSpeechInput provides container.speech,
+                CompositionLocalProvider(
+                    LocalAudioPlayer provides audio,
+                    LocalSpeechInput provides container.speech,
                     LocalTutor provides container.tutor,
                 ) {
                     HangulFriendNav(container)
