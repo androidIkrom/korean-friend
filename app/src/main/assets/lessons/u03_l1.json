@@ -1144,5 +1144,119 @@
     "u03_l1_e113",
     "u03_l1_e114",
     "u03_l1_e115"
-  ]
+  ],
+  "story": {
+    "title_uz": "Jeju sayohati rejasi",
+    "steps": [
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "아지즈 씨, 방학에 뭐 할 거예요?",
+        "uz": "Aziz, ta'tilda nima qilasiz?",
+        "audio": "260a7919e70d.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "제주도에 여행 갈 거예요.",
+        "uz": "Jeju oroliga sayohatga boraman.",
+        "audio": "df86237d9cb0.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "와, 좋아요! 비행기 표는 예약했어요?",
+        "uz": "Voy, zo'r! Samolyot chiptasini band qildingizmi?",
+        "audio": "50304d818f56.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "네, 다음 주 월요일에 출발해요.",
+        "uz": "Ha, kelasi dushanba jo'nayman.",
+        "audio": "cd1673976041.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "제주도에서 뭐 할 거예요?",
+        "uz": "Jejuda nima qilasiz?",
+        "audio": "3bde4d6fd856.mp3"
+      },
+      {
+        "type": "choose_reply",
+        "speaker": "aziz",
+        "prompt_uz": "Aziz 'Havo yaxshi bo'lsa, Hallasanga boraman' demoqchi.",
+        "options": [
+          "날씨가 좋으면 한라산에 갈 거예요.",
+          "날씨가 좋면 한라산에 갈 거예요.",
+          "날씨가 좋아면 한라산에 갈 거예요."
+        ],
+        "answer": "날씨가 좋으면 한라산에 갈 거예요.",
+        "uz": "Havo yaxshi bo'lsa, Hallasanga boraman.",
+        "why_uz": "좋다 — 받침 bor: 좋으면.",
+        "audio": "0119829328d6.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "비가 오면요?",
+        "uz": "Yomg'ir yog'sa-chi?",
+        "audio": "ab775fa86aaf.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "비가 오면 박물관을 구경할 거예요.",
+        "uz": "Yomg'ir yog'sa, muzeyni tomosha qilaman.",
+        "audio": "f8d28c82acc8.mp3"
+      },
+      {
+        "type": "quiz",
+        "prompt_uz": "Yomg'ir yog'sa Aziz nima qiladi?",
+        "options": [
+          "Muzeyga boradi",
+          "Toqqa chiqadi",
+          "Uyda qoladi"
+        ],
+        "answer": "Muzeyga boradi",
+        "why_uz": "비가 오면 박물관을 구경할 거예요."
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "제주도 바다는 정말 예뻐요.",
+        "uz": "Jeju dengizi juda chiroyli.",
+        "audio": "d3b0544542d1.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "그럼 바다에서 사진을 많이 찍을 거예요.",
+        "uz": "Unda dengizda ko'p rasmga tushaman.",
+        "audio": "28385152e713.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "좋아요. 사진도 꼭 찍으세요!",
+        "uz": "Yaxshi. Albatta rasmga ham tushing!",
+        "audio": "d8ed1df06407.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "네! 날씨가 추우면 따뜻한 옷도 가져갈 거예요.",
+        "uz": "Xo'p! Havo sovuq bo'lsa, issiq kiyim ham olib boraman.",
+        "audio": "642aa0bf0c16.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "좋은 여행 되세요!",
+        "uz": "Sayohatingiz yaxshi o'tsin!",
+        "audio": "2195fc328da9.mp3"
+      }
+    ]
+  }
 }

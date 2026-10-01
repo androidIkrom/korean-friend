@@ -1129,5 +1129,112 @@
     "u04_l2_e113",
     "u04_l2_e114",
     "u04_l2_e115"
-  ]
+  ],
+  "story": {
+    "title_uz": "Bo'sh vaqtda nima qilasiz?",
+    "steps": [
+      {
+        "type": "line",
+        "speaker": "teacher",
+        "ko": "아지즈 씨, 주말에 보통 뭐 해요?",
+        "uz": "Aziz, dam olish kunlari odatda nima qilasiz?",
+        "audio": "a16faadf1107.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "저는 등산하는 것을 좋아해요. 그래서 주말에 자주 산에 가요.",
+        "uz": "Men toqqa chiqishni yaxshi ko'raman. Shuning uchun dam olish kunlari tez-tez toqqa boraman.",
+        "audio": "b27c89e8f89f.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "teacher",
+        "ko": "등산은 힘들지 않아요?",
+        "uz": "Toqqa chiqish og'ir emasmi?",
+        "audio": "1f9843cf56dd.mp3"
+      },
+      {
+        "type": "choose_reply",
+        "speaker": "aziz",
+        "prompt_uz": "Aziz 'Og'ir, lekin qiziq' demoqchi.",
+        "options": [
+          "힘들지만 재미있어요.",
+          "힘들고 재미있지만요.",
+          "힘들지 재미있어요."
+        ],
+        "answer": "힘들지만 재미있어요.",
+        "uz": "Og'ir, lekin qiziq.",
+        "why_uz": "-지만 = lekin: 힘들 + 지만.",
+        "audio": "d1149f7bb76c.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "teacher",
+        "ko": "저는 산에 가는 것보다 집에서 책 읽는 것을 더 좋아해요.",
+        "uz": "Men toqqa chiqishdan ko'ra uyda kitob o'qishni ko'proq yoqtiraman.",
+        "audio": "3bb330d7ad17.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "선생님은 무슨 책을 좋아하세요?",
+        "uz": "Ustoz, qanday kitoblarni yoqtirasiz?",
+        "audio": "2391b8ec19fb.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "teacher",
+        "ko": "소설을 좋아해요. 그리고 피아노 치는 것도 좋아해요.",
+        "uz": "Romanlarni yoqtiraman. Pianino chalishni ham yaxshi ko'raman.",
+        "audio": "43bfc1fbe6ca.mp3"
+      },
+      {
+        "type": "quiz",
+        "prompt_uz": "O'qituvchi nimani yaxshi ko'radi?",
+        "options": [
+          "Kitob o'qish va pianino chalish",
+          "Toqqa chiqish",
+          "Baliq ovlash"
+        ],
+        "answer": "Kitob o'qish va pianino chalish",
+        "why_uz": "책 읽는 것, 피아노 치는 것을 좋아해요."
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "와, 저는 악기를 전혀 못 해요.",
+        "uz": "Voy, men hech qanday cholg'u chala olmayman.",
+        "audio": "a4e0b7d87da6.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "teacher",
+        "ko": "배우는 것은 어렵지만 재미있어요. 한번 해 보세요.",
+        "uz": "O'rganish qiyin, lekin qiziq. Bir sinab ko'ring.",
+        "audio": "832b2bec4a26.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "네, 그럼 저는 기타를 배우고 싶어요.",
+        "uz": "Xo'p, unda men gitara o'rganmoqchiman.",
+        "audio": "7fc1fa1f6004.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "teacher",
+        "ko": "좋아요! 우리 학교에 음악 동아리도 있어요.",
+        "uz": "Zo'r! Maktabimizda musiqa to'garagi ham bor.",
+        "audio": "78ded10ec514.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "정말요? 다음 주에 가 볼 거예요!",
+        "uz": "Rostdanmi? Kelasi hafta borib ko'raman!",
+        "audio": "7cce4e0d2483.mp3"
+      }
+    ]
+  }
 }

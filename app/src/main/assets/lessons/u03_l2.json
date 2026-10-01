@@ -1127,5 +1127,119 @@
     "u03_l2_e113",
     "u03_l2_e114",
     "u03_l2_e115"
-  ]
+  ],
+  "story": {
+    "title_uz": "Pusan bozorida",
+    "steps": [
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "민지 씨, 여기가 부산에서 유명한 시장이에요?",
+        "uz": "Minji, bu Pusandagi mashhur bozormi?",
+        "audio": "dbf9b767c9e6.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "네, 관광객이 많이 오는 시장이에요.",
+        "uz": "Ha, sayyohlar ko'p keladigan bozor.",
+        "audio": "445fd02e063f.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "seller",
+        "ko": "어서 오세요! 이건 부산 사람들이 자주 먹는 해산물 국수예요.",
+        "uz": "Keling! Bu pusanliklar tez-tez yeydigan dengiz mahsulotli ugra.",
+        "audio": "2adeae10f910.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "맵지 않아요? 저는 매운 음식을 별로 안 좋아해요.",
+        "uz": "Achchiq emasmi? Men achchiq taomni unchalik yoqtirmayman.",
+        "audio": "22407df79a86.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "seller",
+        "ko": "아니요, 맵지 않아요. 아주 시원해요.",
+        "uz": "Yo'q, achchiq emas. Juda yoqimli.",
+        "audio": "52bda765f02f.mp3"
+      },
+      {
+        "type": "quiz",
+        "prompt_uz": "Ugra achchiqmi?",
+        "options": [
+          "Yo'q, achchiq emas",
+          "Ha, juda achchiq",
+          "Shirin"
+        ],
+        "answer": "Yo'q, achchiq emas",
+        "why_uz": "맵지 않아요 = achchiq emas."
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "그리고 이건 요즘 인기가 있는 기념품이에요.",
+        "uz": "Bu esa hozir mashhur esdalik sovg'a.",
+        "audio": "be86881be523.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "와, 예뻐요. 여기에서만 파는 기념품이에요?",
+        "uz": "Voy, chiroyli. Faqat shu yerda sotiladigan esdalikmi?",
+        "audio": "3c7d82065d50.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "seller",
+        "ko": "네, 다른 시장에서는 팔지 않아요.",
+        "uz": "Ha, boshqa bozorlarda sotilmaydi.",
+        "audio": "75232af4a997.mp3"
+      },
+      {
+        "type": "choose_reply",
+        "speaker": "aziz",
+        "prompt_uz": "Aziz 'Qimmat emasmi?' deb so'ramoqchi.",
+        "options": [
+          "비싸지 않아요?",
+          "비싸지 않어요?",
+          "비싸 않아요?"
+        ],
+        "answer": "비싸지 않아요?",
+        "uz": "Qimmat emasmi?",
+        "why_uz": "-지 않다: 비싸 + 지 않아요.",
+        "audio": "8062d2ec484e.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "seller",
+        "ko": "비싸지 않아요. 만 원이에요.",
+        "uz": "Qimmat emas. O'n ming von.",
+        "audio": "4e57633bb6c6.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "그럼 국수 두 그릇하고 이 기념품 주세요.",
+        "uz": "Unda ikki kosa ugra va shu esdalikni bering.",
+        "audio": "2187a7cf1dae.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "아지즈 씨, 부산은 제가 제일 좋아하는 도시예요.",
+        "uz": "Aziz, Pusan men eng yaxshi ko'radigan shahar.",
+        "audio": "e6a87bce4ddd.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "저도요! 다음에 또 올 거예요.",
+        "uz": "Men ham! Keyingi safar yana kelaman.",
+        "audio": "ebb7d4a43591.mp3"
+      }
+    ]
+  }
 }

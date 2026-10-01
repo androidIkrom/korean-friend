@@ -1130,5 +1130,119 @@
     "u01_l1_e113",
     "u01_l1_e114",
     "u01_l1_e115"
-  ]
+  ],
+  "story": {
+    "title_uz": "Oila surati",
+    "steps": [
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "아지즈 씨, 가족 사진 있어요?",
+        "uz": "Aziz, oila suratingiz bormi?",
+        "audio": "9f906f684be2.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "네, 있어요. 이거 우리 가족 사진이에요.",
+        "uz": "Ha, bor. Bu bizning oila suratimiz.",
+        "audio": "f782c1a550c6.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "이분은 누구세요?",
+        "uz": "Bu kishi kim?",
+        "audio": "3b3f9aceb47f.mp3"
+      },
+      {
+        "type": "choose_reply",
+        "speaker": "aziz",
+        "prompt_uz": "Suratdagi kishi Azizning otasi. Aziz nima deydi?",
+        "options": [
+          "우리 아버지세요.",
+          "우리 아버지이세요.",
+          "우리 아버지예요세요."
+        ],
+        "answer": "우리 아버지세요.",
+        "uz": "Mening otam.",
+        "why_uz": "아버지 — 받침 yo'q: N세요.",
+        "audio": "c53c22d68c5b.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "와, 키가 크세요. 아버지는 무슨 일을 하세요?",
+        "uz": "Voy, bo'ylari baland. Otangiz qanday ish qiladilar?",
+        "audio": "a6f01389480f.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "아버지는 회사원이세요. 매일 회사에 가세요.",
+        "uz": "Otam kompaniya xodimi. Har kuni ishga boradilar.",
+        "audio": "22bf4e4f7fbf.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "그럼 이분은 어머니세요?",
+        "uz": "Unda bu kishi onangizmi?",
+        "audio": "a3b9cdb042e9.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "아니요, 우리 할머니세요. 할머니는 요리를 정말 잘하세요.",
+        "uz": "Yo'q, buvim. Buvim juda yaxshi ovqat pishiradilar.",
+        "audio": "f6798b86a8ee.mp3"
+      },
+      {
+        "type": "quiz",
+        "prompt_uz": "Suratdagi ayol kim?",
+        "options": [
+          "Azizning buvisi",
+          "Azizning onasi",
+          "Azizning opasi"
+        ],
+        "answer": "Azizning buvisi",
+        "why_uz": "할머니 = buvi."
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "할머니는 어디에 사세요?",
+        "uz": "Buvingiz qayerda yashaydilar?",
+        "audio": "f847a127577b.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "사마르칸트에 사세요. 연세가 일흔이세요.",
+        "uz": "Samarqandda yashaydilar. Yetmish yoshdalar.",
+        "audio": "50e3225d55f9.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "이 남자는 남동생이에요?",
+        "uz": "Bu yigit ukangizmi?",
+        "audio": "7e44007c661a.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "네, 남동생이에요. 대학생이에요.",
+        "uz": "Ha, ukam. Talaba.",
+        "audio": "c95cedc12a73.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "아지즈 씨는 남동생을 많이 닮았어요!",
+        "uz": "Aziz, siz ukangizga juda o'xshaysiz!",
+        "audio": "5c7762753619.mp3"
+      }
+    ]
+  }
 }

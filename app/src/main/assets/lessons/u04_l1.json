@@ -1126,5 +1126,112 @@
     "u04_l1_e113",
     "u04_l1_e114",
     "u04_l1_e115"
-  ]
+  ],
+  "story": {
+    "title_uz": "Tennis to'garagi",
+    "steps": [
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "아지즈 씨, 요즘 무슨 운동을 해요?",
+        "uz": "Aziz, hozir qanday sport bilan shug'ullanasiz?",
+        "audio": "40a2e6819c31.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "요즘 바빠요. 그래서 운동을 못 해요.",
+        "uz": "Hozir bandman. Shuning uchun sport qila olmayapman.",
+        "audio": "e0273b4f3ace.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "저는 일주일에 두 번 테니스를 쳐요. 동호회가 있어요.",
+        "uz": "Men haftada ikki marta tennis o'ynayman. To'garak bor.",
+        "audio": "1b9a129ed77d.mp3"
+      },
+      {
+        "type": "choose_reply",
+        "speaker": "aziz",
+        "prompt_uz": "Aziz ham tennisni o'rganmoqchi. U nima deydi?",
+        "options": [
+          "저도 테니스를 배우고 싶어요.",
+          "저도 테니스를 배워고 싶어요.",
+          "저도 테니스를 배우 싶어요."
+        ],
+        "answer": "저도 테니스를 배우고 싶어요.",
+        "uz": "Men ham tennisni o'rganmoqchiman.",
+        "why_uz": "-고 싶다 o'zakka qo'shiladi: 배우 + 고 싶어요.",
+        "audio": "321a2fe67457.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "정말요? 테니스를 쳐 봤어요?",
+        "uz": "Rostdanmi? Tennis o'ynab ko'rganmisiz?",
+        "audio": "6638149de0c0.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "아니요, 전혀 못 쳐요. 그리고 라켓도 없어요.",
+        "uz": "Yo'q, umuman o'ynay olmayman. Raketkam ham yo'q.",
+        "audio": "8ec074b56fb3.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "괜찮아요. 동호회에 라켓이 많아요.",
+        "uz": "Hechqisi yo'q. To'garakda raketka ko'p.",
+        "audio": "51435dcbe13f.mp3"
+      },
+      {
+        "type": "quiz",
+        "prompt_uz": "Minji tennisni qancha o'ynaydi?",
+        "options": [
+          "Haftada ikki marta",
+          "Haftada bir marta",
+          "Har kuni"
+        ],
+        "answer": "Haftada ikki marta",
+        "why_uz": "일주일에 두 번 = haftada ikki marta."
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "수업은 언제 시작해요?",
+        "uz": "Mashg'ulot qachon boshlanadi?",
+        "audio": "742c9d0baae9.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "토요일 아침 아홉 시에 시작해요. 체육관에서 만나요.",
+        "uz": "Shanba ertalab soat to'qqizda. Sport zalida uchrashamiz.",
+        "audio": "4137111b4178.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "토요일 아침에는 일찍 못 일어나요.",
+        "uz": "Shanba ertalab erta tura olmayman.",
+        "audio": "82177dc899cf.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "하하! 테니스를 배우고 싶으면 일찍 일어나세요!",
+        "uz": "Haha! Tennis o'rganmoqchi bo'lsangiz, erta turing!",
+        "audio": "0c6ebac6ca4e.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "알겠어요. 꼭 갈 거예요!",
+        "uz": "Xo'p. Albatta boraman!",
+        "audio": "37a7b802e44c.mp3"
+      }
+    ]
+  }
 }
