@@ -27,6 +27,7 @@ import uz.hangulfriend.content.ExerciseType
 import uz.hangulfriend.content.Lesson
 import uz.hangulfriend.data.AppDatabase
 import uz.hangulfriend.data.CardOrigin
+import uz.hangulfriend.data.GameRepository
 import uz.hangulfriend.data.LessonStatus
 import uz.hangulfriend.data.ProgressRepository
 import uz.hangulfriend.data.SettingsRepository
@@ -50,6 +51,14 @@ class SessionControllerTest {
     private val clock = MutableClock()
     private val study = StudyRepository(db, FsrsScheduler(), clock)
     private val progress = ProgressRepository(db)
+    private val game = GameRepository(db, clock)
+    private val settings by lazy {
+        SettingsRepository(
+            PreferenceDataStoreFactory.create(scope = TestScope(UnconfinedTestDispatcher())) {
+                File(tmp.root, "s.preferences_pb")
+            },
+        )
+    }
 
     @After fun close() = db.close()
 
@@ -71,13 +80,12 @@ class SessionControllerTest {
         val assets = File(tmp.root, "assets")
         File(assets, "lessons").mkdirs()
         File(assets, "lessons/u02_l1.json").writeText(ContentJson.encodeToString(Lesson.serializer(), lesson))
-        File(assets, "book.json").writeText(
-            """{"lessons":[{"id":"u02_l1","unit":2,"lesson":1,"title_ko":"다","title_uz":"c","topic_uz":"Xarid"}]}""",
+        File(assets, "lessons/u02_l2.json").writeText(
+            ContentJson.encodeToString(Lesson.serializer(), Fixtures.validLesson("u02_l2", 2, 2)),
         )
-        val settings = SettingsRepository(
-            PreferenceDataStoreFactory.create(scope = TestScope(UnconfinedTestDispatcher())) {
-                File(tmp.root, "s.preferences_pb")
-            },
+        File(assets, "book.json").writeText(
+            """{"lessons":[{"id":"u02_l1","unit":2,"lesson":1,"title_ko":"다","title_uz":"c","topic_uz":"Xarid"},
+              {"id":"u02_l2","unit":2,"lesson":2,"title_ko":"라","title_uz":"d","topic_uz":"Xarid"}]}""",
         )
         return SessionController(
             mode = mode,
@@ -89,6 +97,7 @@ class SessionControllerTest {
             builder = SessionBuilder(Random(7)),
             grader = Grader(study),
             speechAvailable = speech,
+            game = game,
         )
     }
 
@@ -178,6 +187,75 @@ class SessionControllerTest {
         c.submit(checked(correct = true))
         assertEquals(before, db.logs().forCard("u02_l1_g1#G").size)
         assertEquals(1, c.state.value.correctCount)
+    }
+
+    private suspend fun answerAll(c: SessionController, vararg correct: Boolean) = correct.forEach {
+        c.submit(checked(it))
+        c.next()
+    }
+
+    @Test fun session_awardsXpAndCombo() = runTest {
+        settings.setDailyGoalXp(1000)
+        val c = controller(SessionMode.TEST)
+        c.load()
+        answerAll(c, true, true, true, true)
+        assertEquals(50, c.state.value.xpEarned)
+        assertEquals(4, c.state.value.combo)
+    }
+
+    @Test fun session_wrongResetsCombo() = runTest {
+        settings.setDailyGoalXp(1000)
+        val c = controller(SessionMode.TEST)
+        c.load()
+        answerAll(c, true, true, false, true)
+        assertEquals(30, c.state.value.xpEarned)
+        assertEquals(1, c.state.value.combo)
+    }
+
+    @Test fun session_bossLosesAfterThreeWrong() = runTest {
+        val c = controller(SessionMode.BOSS, lessonId = "2")
+        c.load()
+        assertEquals(15, c.state.value.items.size)
+        assertEquals(3, c.state.value.hearts)
+        answerAll(c, false, true, false, false)
+        assertTrue(c.state.value.failed)
+        assertTrue(c.state.value.finished)
+        assertEquals(0, db.game().countReason(GameRepository.REASON_BOSS))
+    }
+
+    @Test fun session_bossWinAwards200AndAchievement() = runTest {
+        val c = controller(SessionMode.BOSS, lessonId = "2")
+        c.load()
+        answerAll(c, *BooleanArray(15) { true })
+        assertTrue(c.state.value.finished)
+        assertEquals(1, db.game().countReason(GameRepository.REASON_BOSS))
+        assertTrue("first_boss" in c.state.value.newAchievements)
+    }
+
+    @Test fun session_testCompletionAwardsLessonXpOnce() = runTest {
+        repeat(2) {
+            val c = controller(SessionMode.TEST)
+            c.load()
+            answerAll(c, *BooleanArray(15) { true })
+        }
+        assertEquals(1, db.game().countReason(GameRepository.REASON_LESSON))
+    }
+
+    @Test fun session_quickCheckVerifies() = runTest {
+        progress.markPassed(listOf("u02_l1"))
+        val c = controller(SessionMode.QUICK_CHECK)
+        c.load()
+        assertEquals(10, c.state.value.items.size)
+        answerAll(c, *BooleanArray(10) { true })
+        assertEquals(LessonStatus.VERIFIED, progress.observeAll().first().getValue("u02_l1").status)
+    }
+
+    @Test fun session_mistakesFromAgainCards() = runTest {
+        study.ensureCards(lesson, 2, CardOrigin.LESSON)
+        study.grade("u02_l1_w001#R", Rating.AGAIN, 1000)
+        val c = controller(SessionMode.MISTAKES, lessonId = null)
+        c.load()
+        assertEquals(listOf("u02_l1_w001#R"), c.state.value.items.flatMap { it.cardIds })
     }
 
     @Test fun session_practiceDoesNotRecordTest() = runTest {

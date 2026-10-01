@@ -131,6 +131,32 @@ class SessionBuilderTest {
         assertTrue("dictation" in audio)
     }
 
+    private fun withTests(id: String, lesson: Int, n: Int) = Fixtures.validLesson(id, 2, lesson).let { base ->
+        val tests = (1..n).map { i ->
+            Fixtures.exercise("${id}_t%03d".format(i), uz.hangulfriend.content.ExerciseType.CONJUGATE, listOf("${id}_g1"), listOf("가 보다")) {
+                copy(base = "가다", form = "-아/어 보다")
+            }
+        }
+        base.copy(exercises = base.exercises + tests, test = tests.map { it.id })
+    }
+
+    @Test fun boss_fifteenFromBothLessons() {
+        val items = builder.boss(listOf(withTests("u02_l1", 1, 10), withTests("u02_l2", 2, 10)))
+        assertEquals(15, items.size)
+        val ids = items.map { (it as ExerciseItem.Authored).exercise.id }
+        assertTrue(ids.any { it.startsWith("u02_l1") } && ids.any { it.startsWith("u02_l2") })
+        assertTrue(ids.all { "_t" in it })
+    }
+
+    @Test fun boss_missingLessonGivesEmpty() =
+        assertTrue(builder.boss(listOf(withTests("u02_l1", 1, 10))).isEmpty())
+
+    @Test fun quickCheck_tenItems() {
+        assertEquals(10, builder.quickCheck(withTests("u02_l1", 1, 15)).size)
+        // Few test items: filled up from practice exercises.
+        assertEquals(9, builder.quickCheck(withTests("u02_l1", 1, 1)).size)
+    }
+
     @Test fun lessonTest_onlyTestExercises() =
         assertEquals(listOf("u02_l1_e007"), builder.lessonTest(lesson).map { (it as ExerciseItem.Authored).exercise.id })
 

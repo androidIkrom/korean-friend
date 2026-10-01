@@ -62,6 +62,24 @@ class SessionBuilder(private val random: Random) {
         return arrange(lesson.test.mapNotNull { byId[it] }.map { ExerciseItem.Authored.of(lesson, it) }, random)
     }
 
+    /** Unit-end battle: [BOSS_SIZE] authored exercises from both lessons, test items first. Empty unless 2 lessons. */
+    fun boss(lessons: List<Lesson>): List<ExerciseItem> {
+        if (lessons.size != 2) return emptyList()
+        return arrange(pick(lessons, BOSS_SIZE), random)
+    }
+
+    /** Short check that a lesson marked passed at onboarding is really known. */
+    fun quickCheck(lesson: Lesson): List<ExerciseItem> = arrange(pick(listOf(lesson), QUICK_CHECK_SIZE), random)
+
+    fun mistakes(cards: List<CardEntity>, lessons: Map<String, Lesson>): List<ExerciseItem> = review(cards, lessons)
+
+    /** Up to [count] authored exercises across [lessons]: test items first, then practice items. */
+    private fun pick(lessons: List<Lesson>, count: Int): List<ExerciseItem> {
+        val tests = lessons.flatMap { l -> l.exercises.filter { it.id in l.test }.map { l to it } }.shuffled(random)
+        val practice = lessons.flatMap { l -> practiceExercises(l).map { l to it } }.shuffled(random)
+        return (tests + practice).take(count).map { (l, e) -> ExerciseItem.Authored.of(l, e) }
+    }
+
     fun lessonReview(lesson: Lesson): List<ExerciseItem> {
         val cards = lesson.words.map { ExerciseItem.Flashcard(it) }
         val grammar = lesson.grammar.mapNotNull { g -> grammarExercise(lesson, g.id) }
@@ -102,5 +120,7 @@ class SessionBuilder(private val random: Random) {
         const val LISTEN_OPTIONS = 4
         const val DICTATION_CAP = 2
         const val SPEAK_CAP = 2
+        const val BOSS_SIZE = 15
+        const val QUICK_CHECK_SIZE = 10
     }
 }

@@ -47,6 +47,21 @@ data class ReviewLogEntity(
     val elapsedMs: Long,
 )
 
+@Entity(tableName = "xp_events")
+data class XpEventEntity(
+    @PrimaryKey(autoGenerate = true) val id: Long = 0,
+    val amount: Int,
+    /** answer, lesson, boss, goal, game */
+    val reason: String,
+    val atMs: Long,
+)
+
+@Entity(tableName = "achievements")
+data class AchievementEntity(@PrimaryKey val id: String, val unlockedMs: Long)
+
+@Entity(tableName = "best_scores")
+data class BestScoreEntity(@PrimaryKey val gameId: String, val score: Int)
+
 @Entity(tableName = "lesson_progress")
 data class LessonProgressEntity(
     @PrimaryKey val lessonId: String,

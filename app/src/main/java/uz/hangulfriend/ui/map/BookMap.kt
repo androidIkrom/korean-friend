@@ -10,6 +10,7 @@ import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.material3.Card
 import androidx.compose.material3.LinearProgressIndicator
+import androidx.compose.material3.TextButton
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -61,24 +62,36 @@ class BookMapViewModel(content: ContentRepository, progress: ProgressRepository)
 }
 
 @Composable
-fun BookMapScreen(vm: BookMapViewModel, onOpenLesson: (String) -> Unit, modifier: Modifier = Modifier) {
+fun BookMapScreen(
+    vm: BookMapViewModel,
+    onOpenLesson: (String) -> Unit,
+    onQuickCheck: (String) -> Unit,
+    onBoss: (Int) -> Unit,
+    modifier: Modifier = Modifier,
+) {
     val rows by vm.rows.collectAsStateWithLifecycle()
     LazyColumn(modifier.padding(horizontal = 16.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
         rows.groupBy { it.entry.unit }.forEach { (unit, unitRows) ->
             item(key = "unit$unit") {
-                Text(
-                    stringResource(R.string.unit_title, unit, unitRows.first().entry.topicUz),
-                    style = MaterialTheme.typography.titleMedium,
-                    modifier = Modifier.padding(top = 16.dp, bottom = 4.dp),
-                )
+                Row(Modifier.padding(top = 16.dp, bottom = 4.dp), verticalAlignment = Alignment.CenterVertically) {
+                    Text(
+                        stringResource(R.string.unit_title, unit, unitRows.first().entry.topicUz),
+                        style = MaterialTheme.typography.titleMedium,
+                        modifier = Modifier.weight(1f),
+                    )
+                    // A boss needs both lessons of the unit to have content.
+                    if (unitRows.size == 2 && unitRows.all { it.available }) {
+                        TextButton(onClick = { onBoss(unit) }) { Text(stringResource(R.string.map_boss)) }
+                    }
+                }
             }
-            items(unitRows, key = { it.entry.id }) { row -> LessonRowCard(row, onOpenLesson) }
+            items(unitRows, key = { it.entry.id }) { row -> LessonRowCard(row, onOpenLesson, onQuickCheck) }
         }
     }
 }
 
 @Composable
-private fun LessonRowCard(row: LessonRow, onOpenLesson: (String) -> Unit) {
+private fun LessonRowCard(row: LessonRow, onOpenLesson: (String) -> Unit, onQuickCheck: (String) -> Unit) {
     Card(
         Modifier
             .fillMaxWidth()
@@ -94,6 +107,9 @@ private fun LessonRowCard(row: LessonRow, onOpenLesson: (String) -> Unit) {
                     if (row.available) statusLabel(row.status) else stringResource(R.string.coming_soon),
                     style = MaterialTheme.typography.labelMedium,
                 )
+            }
+            if (row.available && row.status == LessonStatus.PASSED) {
+                TextButton(onClick = { onQuickCheck(row.entry.id) }) { Text(stringResource(R.string.map_quick_check)) }
             }
         }
     }

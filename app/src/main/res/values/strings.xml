@@ -60,6 +60,61 @@
     <string name="ai_ask_mistake">🤖 AI\'dan so\'rash</string>
     <string name="ai_checking">AI tekshiryapti…</string>
     <string name="ai_translation_ok">AI: tarjimangiz to\'g\'ri!</string>
+    <string name="ach_first_lesson">Birinchi dars</string>
+    <string name="ach_first_lesson_desc">Birinchi darsni test bilan tugatdingiz</string>
+    <string name="ach_first_unit">Birinchi bo\'lim</string>
+    <string name="ach_first_unit_desc">Bir bo\'limning ikkala darsini tugatdingiz</string>
+    <string name="ach_words_100">100 so\'z</string>
+    <string name="ach_words_100_desc">100 ta so\'zni yodladingiz</string>
+    <string name="ach_words_500">500 so\'z</string>
+    <string name="ach_words_500_desc">500 ta so\'zni yodladingiz</string>
+    <string name="ach_streak_7">7 kunlik olov</string>
+    <string name="ach_streak_7_desc">7 kun ketma-ket kunlik maqsadni bajardingiz</string>
+    <string name="ach_streak_30">30 kunlik olov</string>
+    <string name="ach_streak_30_desc">30 kun ketma-ket kunlik maqsadni bajardingiz</string>
+    <string name="ach_first_boss">Boss yengildi</string>
+    <string name="ach_first_boss_desc">Birinchi Boss jangida g\'olib chiqdingiz</string>
+
+    <string name="home_level">%1$d-daraja</string>
+    <string name="home_level_progress">%1$d / %2$d XP</string>
+    <string name="home_goal">Bugun: %1$d / %2$d XP</string>
+    <string name="home_streak">🔥 %1$d kun</string>
+    <string name="home_games">🎮 O\'yinlar</string>
+    <string name="home_mistakes">📒 Xatolar daftari</string>
+    <string name="home_achievements">🏆 Nishonlar</string>
+
+    <string name="session_combo">🔥 %1$d ketma-ket!</string>
+    <string name="session_xp">+%1$d XP</string>
+    <string name="session_boss_won">⚔️ Boss yengildi!</string>
+    <string name="session_boss_lost">💔 Jonlar tugadi. Yana urinib ko\'ring!</string>
+    <string name="session_new_achievement">🏆 Yangi nishon: %1$s</string>
+
+    <string name="map_quick_check">Tezkor tekshiruv</string>
+    <string name="map_boss">⚔️ Boss jangi</string>
+    <string name="settings_daily_goal">Kunlik maqsad: %1$d XP</string>
+
+    <string name="games_title">O\'yinlar</string>
+    <string name="game_memory">Xotira o\'yini</string>
+    <string name="game_memory_desc">Koreyscha so\'zni ma\'nosi bilan juftlang</string>
+    <string name="game_speed">Tezlik raundi</string>
+    <string name="game_speed_desc">60 soniyada iloji boricha ko\'p ma\'no toping</string>
+    <string name="game_race">Hangul poygasi</string>
+    <string name="game_race_desc">60 soniyada so\'zlarni koreyscha yozing</string>
+    <string name="game_chain">Grammatika zanjiri</string>
+    <string name="game_chain_desc">Shakllarni xatosiz ketma-ket yasang</string>
+    <string name="game_best">Rekord: %1$d</string>
+    <string name="game_time_left">⏱ %1$d s</string>
+    <string name="game_score">Natija: %1$d</string>
+    <string name="game_new_record">🎉 Yangi rekord!</string>
+    <string name="game_again">Yana o\'ynash</string>
+    <string name="game_moves">Urinishlar: %1$d</string>
+    <string name="game_chain_length">Zanjir: %1$d / %2$d</string>
+    <string name="game_no_content">O\'ynash uchun avval bitta darsni oching.</string>
+
+    <string name="achievements_title">Nishonlar</string>
+    <string name="mistakes_title">Xatolar daftari</string>
+    <string name="mistakes_empty">Hozircha xatolar yo\'q. Zo\'r!</string>
+    <string name="mistakes_practice">Shularni mashq qilish</string>
     <string name="dialogue_mode_listen">Tinglash</string>
     <string name="dialogue_mode_roleplay">Rol o\'ynash</string>
     <string name="roleplay_choose">Qaysi rolni o\'ynaysiz?</string>

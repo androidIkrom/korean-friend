@@ -19,13 +19,33 @@ class ProgressRepository(private val db: AppDatabase) {
         it.copy(stage = stage, status = status)
     }
 
-    suspend fun recordTest(lessonId: String, scorePercent: Int) = update(lessonId) {
-        val status = when {
-            it.status == LessonStatus.VERIFIED || it.status == LessonStatus.COMPLETED -> it.status
-            scorePercent >= PASS_PERCENT -> LessonStatus.COMPLETED
-            else -> LessonStatus.IN_PROGRESS
+    /** Returns true when this test moved the lesson to COMPLETED for the first time. */
+    suspend fun recordTest(lessonId: String, scorePercent: Int): Boolean {
+        var completedNow = false
+        update(lessonId) {
+            val status = when {
+                it.status == LessonStatus.VERIFIED || it.status == LessonStatus.COMPLETED -> it.status
+                scorePercent >= PASS_PERCENT -> LessonStatus.COMPLETED.also { completedNow = true }
+                else -> LessonStatus.IN_PROGRESS
+            }
+            it.copy(status = status, bestTestScore = maxOf(it.bestTestScore ?: 0, scorePercent))
         }
-        it.copy(status = status, bestTestScore = maxOf(it.bestTestScore ?: 0, scorePercent))
+        return completedNow
+    }
+
+    /** A passed-at-onboarding lesson becomes VERIFIED with ≥ [PASS_PERCENT]. Returns true when it did. */
+    suspend fun recordQuickCheck(lessonId: String, scorePercent: Int): Boolean {
+        var verified = false
+        update(lessonId) {
+            val eligible = it.status == LessonStatus.PASSED || it.status == LessonStatus.NOT_STARTED
+            if (eligible && scorePercent >= PASS_PERCENT) {
+                verified = true
+                it.copy(status = LessonStatus.VERIFIED)
+            } else {
+                it
+            }
+        }
+        return verified
     }
 
     suspend fun markPassed(lessonIds: List<String>) = db.withTransaction {

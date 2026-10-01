@@ -30,6 +30,14 @@ import androidx.navigation.compose.rememberNavController
 import uz.hangulfriend.AppContainer
 import uz.hangulfriend.R
 import uz.hangulfriend.data.Settings
+import uz.hangulfriend.ui.game.AchievementsScreen
+import uz.hangulfriend.ui.game.AchievementsViewModel
+import uz.hangulfriend.ui.game.GameId
+import uz.hangulfriend.ui.game.GameScreen
+import uz.hangulfriend.ui.game.GamesScreen
+import uz.hangulfriend.ui.game.GamesViewModel
+import uz.hangulfriend.ui.game.MistakesScreen
+import uz.hangulfriend.ui.game.MistakesViewModel
 import uz.hangulfriend.ui.home.HomeScreen
 import uz.hangulfriend.ui.home.HomeViewModel
 import uz.hangulfriend.ui.map.BookMapScreen
@@ -53,6 +61,10 @@ object Routes {
     const val HOME = "home"
     const val MAP = "map"
     const val SETTINGS = "settings"
+    const val GAMES = "games"
+    const val GAME = "game/{id}"
+    const val ACHIEVEMENTS = "achievements"
+    const val MISTAKES = "mistakes"
     const val LESSON = "lesson/{lessonId}"
     const val SESSION = "session/{mode}?lessonId={lessonId}"
 
@@ -97,20 +109,46 @@ fun HangulFriendNav(container: AppContainer) {
                 }
             }
             composable(Routes.HOME) {
-                val vm = viewModel { HomeViewModel(container.content, container.study, container.settings) }
+                val vm = viewModel {
+                    HomeViewModel(container.content, container.study, container.settings, container.game, container.clock)
+                }
                 HomeScreen(
                     vm,
                     onStartReview = { nav.navigate(Routes.session(SessionMode.REVIEW)) },
                     onContinueLesson = { nav.navigate(Routes.lesson(it)) },
+                    onGames = { nav.navigate(Routes.GAMES) },
+                    onMistakes = { nav.navigate(Routes.MISTAKES) },
+                    onAchievements = { nav.navigate(Routes.ACHIEVEMENTS) },
                 )
             }
             composable(Routes.MAP) {
                 val vm = viewModel { BookMapViewModel(container.content, container.progress) }
-                BookMapScreen(vm, onOpenLesson = { nav.navigate(Routes.lesson(it)) })
+                BookMapScreen(
+                    vm,
+                    onOpenLesson = { nav.navigate(Routes.lesson(it)) },
+                    onQuickCheck = { nav.navigate(Routes.session(SessionMode.QUICK_CHECK, it)) },
+                    onBoss = { nav.navigate(Routes.session(SessionMode.BOSS, it.toString())) },
+                )
             }
             composable(Routes.SETTINGS) {
                 val vm = viewModel { SettingsViewModel(container.content, container.settings, container.onboarding) }
                 SettingsScreen(vm)
+            }
+            composable(Routes.GAMES) { entry ->
+                val vm = viewModel(entry) { GamesViewModel(container.content, container.game, container.settings) }
+                GamesScreen(vm, onOpen = { nav.navigate("game/${it.route}") })
+            }
+            composable(Routes.GAME) { entry ->
+                val id = GameId.fromRoute(entry.arguments?.getString("id").orEmpty())
+                val vm = viewModel { GamesViewModel(container.content, container.game, container.settings) }
+                GameScreen(vm, id)
+            }
+            composable(Routes.ACHIEVEMENTS) {
+                AchievementsScreen(viewModel { AchievementsViewModel(container.game) })
+            }
+            composable(Routes.MISTAKES) {
+                val vm = viewModel { MistakesViewModel(container.content, container.game) }
+                MistakesScreen(vm, onPractice = { nav.navigate(Routes.session(SessionMode.MISTAKES)) })
             }
             composable(Routes.LESSON) { entry ->
                 val lessonId = entry.arguments?.getString("lessonId").orEmpty()
@@ -142,7 +180,7 @@ fun HangulFriendNav(container: AppContainer) {
                     SessionViewModel(
                         SessionController(
                             mode, lessonId, container.content, container.study, container.progress,
-                            container.settings, container.sessionBuilder, container.grader, container.speechAvailable,
+                            container.settings, container.sessionBuilder, container.grader, container.speechAvailable, container.game,
                         ),
                     )
                 }
