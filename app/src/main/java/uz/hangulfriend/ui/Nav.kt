@@ -128,12 +128,22 @@ fun HangulFriendNav(container: AppContainer, openReview: Boolean = false) {
             }
             composable(Routes.HOME) {
                 val vm = viewModel {
-                    HomeViewModel(container.content, container.study, container.settings, container.game, container.clock)
+                    HomeViewModel(
+                        container.content, container.study, container.settings, container.game, container.progress,
+                        container.story, container.shareStats, container.clock,
+                    )
                 }
                 HomeScreen(
                     vm,
                     onStartReview = { nav.navigate(Routes.session(SessionMode.REVIEW)) },
                     onContinueLesson = { nav.navigate(Routes.lesson(it)) },
+                    onOpenMap = {
+                        nav.navigate(Routes.MAP) {
+                            popUpTo(nav.graph.findStartDestination().id) { saveState = true }
+                            launchSingleTop = true
+                            restoreState = true
+                        }
+                    },
                     onGames = { nav.navigate(Routes.GAMES) },
                     onMistakes = { nav.navigate(Routes.MISTAKES) },
                     onAchievements = { nav.navigate(Routes.ACHIEVEMENTS) },

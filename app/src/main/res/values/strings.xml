@@ -20,10 +20,6 @@
     <string name="onboarding_question">Hozir qaysi darsdasiz?</string>
     <string name="onboarding_continue">Davom etish</string>
 
-    <string name="home_review_count">Takrorlash: %1$d ta</string>
-    <string name="home_review_start">Boshlash</string>
-    <string name="home_review_done">Bugun hammasi takrorlandi!</string>
-    <string name="home_continue">Darsni davom ettirish</string>
 
     <string name="settings_current_lesson">Joriy dars</string>
     <string name="settings_daily_new">Kunlik yangi kartalar: %1$d ta</string>
@@ -76,13 +72,7 @@
     <string name="ach_first_boss">Boss yengildi</string>
     <string name="ach_first_boss_desc">Birinchi Boss jangida g\'olib chiqdingiz</string>
 
-    <string name="home_level">%1$d-daraja</string>
     <string name="home_level_progress">%1$d / %2$d XP</string>
-    <string name="home_goal">Bugun: %1$d / %2$d XP</string>
-    <string name="home_streak">🔥 %1$d kun</string>
-    <string name="home_games">🎮 O\'yinlar</string>
-    <string name="home_mistakes">📒 Xatolar daftari</string>
-    <string name="home_achievements">🏆 Nishonlar</string>
 
     <string name="session_combo">🔥 %1$d ketma-ket!</string>
     <string name="session_xp">+%1$d XP</string>
@@ -231,4 +221,24 @@
     <string name="settings_theme">Interfeys uslubi</string>
     <string name="theme_system">Tizim</string>
     <string name="theme_neon">Neon Seul</string>
+    <string name="quest_daily_xp">Kunlik XP maqsadi</string>
+    <string name="quest_review">Kartalarni takrorlash</string>
+    <string name="quest_lesson">Joriy dars: %1$s</string>
+    <string name="home_status">Status</string>
+    <string name="home_quest">Kunlik topshiriq</string>
+    <string name="home_quest_footer">Maqsad bajarilsa seriya davom etadi</string>
+    <string name="home_title">Unvon: %1$s</string>
+    <string name="home_stat_words">So\'zlar</string>
+    <string name="home_stat_lessons">Darslar</string>
+    <string name="home_stat_stories">Hikoyalar</string>
+    <string name="home_stat_achievements">Yutuqlar</string>
+    <string name="home_streak_days">%1$d kun</string>
+    <string name="home_continue_lesson">Davom etish · %1$d-bo\'lim, %2$d-dars</string>
+    <string name="home_open_map">Xaritani ochish</string>
+    <string name="home_action_review">Takrorlash · %1$d</string>
+    <string name="home_action_games">O\'yinlar</string>
+    <string name="home_action_mistakes">Xatolar</string>
+    <string name="home_action_achievements">Yutuqlar</string>
+    <string name="rankup_message">Darajangiz %1$d ga yetdi. Rank oshdi!</string>
+    <string name="rankup_accept">Qabul qilish</string>
 </resources>
