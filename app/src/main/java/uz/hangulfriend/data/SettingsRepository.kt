@@ -54,6 +54,18 @@ class SettingsRepository(private val dataStore: DataStore<Preferences>) {
         }
     }
 
+    /** Writes every field at once (import); a null current lesson clears the key. */
+    suspend fun replaceAll(s: Settings) {
+        dataStore.edit {
+            it[ONBOARDED] = s.onboarded
+            if (s.currentLessonId == null) it.remove(CURRENT_LESSON) else it[CURRENT_LESSON] = s.currentLessonId
+            it[DAILY_NEW_LIMIT] = s.dailyNewLimit
+            it[DAILY_GOAL_XP] = s.dailyGoalXp
+            it[REMINDER_ENABLED] = s.reminderEnabled
+            it[REMINDER_MINUTES] = s.reminderMinutes
+        }
+    }
+
     suspend fun setOnboarded() {
         dataStore.edit { it[ONBOARDED] = true }
     }

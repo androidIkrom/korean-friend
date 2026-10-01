@@ -190,4 +190,15 @@
     <string name="settings_reminder_time">Vaqti: %1$s</string>
     <string name="settings_reminder_denied">Bildirishnomaga ruxsat berilmagan.</string>
     <string name="settings_reminder_open">Ruxsatni sozlash</string>
+    <string name="backup_save">💾 Faylga saqlash</string>
+    <string name="backup_restore">📂 Fayldan tiklash</string>
+    <string name="backup_saved">Saqlandi</string>
+    <string name="backup_restored">Progress tiklandi</string>
+    <string name="backup_failed">Xatolik: amal bajarilmadi</string>
+    <string name="backup_not_backup">Fayl mos emas</string>
+    <string name="backup_too_new">Bu fayl ilovaning yangiroq versiyasida yaratilgan</string>
+    <string name="backup_confirm_title">Progressni tiklash</string>
+    <string name="backup_confirm_text">Joriy progress o\'chiriladi va fayldagi bilan almashtiriladi. Davom etasizmi?</string>
+    <string name="backup_confirm_yes">Tiklash</string>
+    <string name="backup_confirm_no">Bekor qilish</string>
 </resources>

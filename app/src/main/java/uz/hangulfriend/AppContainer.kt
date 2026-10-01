@@ -10,6 +10,7 @@ import uz.hangulfriend.ai.TutorService
 import uz.hangulfriend.content.AndroidAssetSource
 import uz.hangulfriend.content.ContentRepository
 import uz.hangulfriend.data.AppDatabase
+import uz.hangulfriend.data.BackupService
 import uz.hangulfriend.data.GameRepository
 import uz.hangulfriend.data.ProgressRepository
 import uz.hangulfriend.data.SettingsRepository
@@ -37,6 +38,7 @@ class AppContainer(context: Context) {
     val grader = Grader(study)
     val game = GameRepository(db, clock)
     val story = StoryRepository(db, game, clock)
+    val backup = BackupService(db, settings, clock)
 
     val reminders = ReminderScheduler(context)
 
