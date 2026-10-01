@@ -10,10 +10,14 @@ import uz.hangulfriend.ai.TutorService
 import uz.hangulfriend.content.AndroidAssetSource
 import uz.hangulfriend.content.ContentRepository
 import uz.hangulfriend.data.AppDatabase
+import uz.hangulfriend.data.BackupService
 import uz.hangulfriend.data.GameRepository
 import uz.hangulfriend.data.ProgressRepository
 import uz.hangulfriend.data.SettingsRepository
+import uz.hangulfriend.data.StoryRepository
 import uz.hangulfriend.data.StudyRepository
+import uz.hangulfriend.reminders.ReminderScheduler
+import uz.hangulfriend.share.ProgressStats
 import uz.hangulfriend.speech.SpeechInput
 import uz.hangulfriend.srs.FsrsScheduler
 import uz.hangulfriend.study.Grader
@@ -34,6 +38,11 @@ class AppContainer(context: Context) {
     val sessionBuilder = SessionBuilder(Random.Default)
     val grader = Grader(study)
     val game = GameRepository(db, clock)
+    val story = StoryRepository(db, game, clock)
+    val backup = BackupService(db, settings, clock)
+    val shareStats = ProgressStats(content, db, game, settings, clock)
+
+    val reminders = ReminderScheduler(context)
 
     val speech = SpeechInput(context)
     val tutor = TutorService(

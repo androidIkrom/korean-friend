@@ -61,8 +61,12 @@ def collect(lesson: dict, voices: dict) -> list:
             clips.append(_clip(e, "ko", "audio", FEMALE))
     for line in lesson.get("dialogue", {}).get("lines", []):
         clips.append(_clip(line, "ko", "audio", voices.get(line["speaker"], FEMALE)))
-    for line in (lesson.get("story") or {}).get("lines", []):
-        clips.append(_clip(line, "ko", "audio", voices.get(line["speaker"], FEMALE)))
+    for step in (lesson.get("story") or {}).get("steps", []):
+        voice = voices.get(step.get("speaker"), FEMALE)
+        if step.get("type") == "line":
+            clips.append(_clip(step, "ko", "audio", voice))
+        elif step.get("type") == "choose_reply":
+            clips.append(_clip(step, "answer", "audio", voice))
     for ex in lesson.get("exercises", []):
         if ex.get("type") == "listen_question" and ex.get("audio_text"):
             clips.append(_clip(ex, "audio_text", "audio", FEMALE))

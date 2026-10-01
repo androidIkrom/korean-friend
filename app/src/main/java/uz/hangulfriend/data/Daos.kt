@@ -13,6 +13,9 @@ interface CardDao {
     @Query("SELECT * FROM cards")
     suspend fun all(): List<CardEntity>
 
+    @Query("DELETE FROM cards")
+    suspend fun deleteAll()
+
     @Query("SELECT * FROM cards WHERE id = :id")
     suspend fun get(id: String): CardEntity?
 
@@ -57,6 +60,33 @@ interface GameDao {
     @Insert
     suspend fun insertXp(event: XpEventEntity)
 
+    @Insert
+    suspend fun insertAllXp(events: List<XpEventEntity>)
+
+    @Query("SELECT * FROM xp_events")
+    suspend fun allXp(): List<XpEventEntity>
+
+    @Query("DELETE FROM xp_events")
+    suspend fun deleteAllXp()
+
+    @Insert
+    suspend fun insertAllAchievements(items: List<AchievementEntity>)
+
+    @Query("SELECT * FROM achievements")
+    suspend fun allAchievements(): List<AchievementEntity>
+
+    @Query("DELETE FROM achievements")
+    suspend fun deleteAllAchievements()
+
+    @Insert
+    suspend fun insertAllBest(items: List<BestScoreEntity>)
+
+    @Query("SELECT * FROM best_scores")
+    suspend fun allBest(): List<BestScoreEntity>
+
+    @Query("DELETE FROM best_scores")
+    suspend fun deleteAllBest()
+
     @Query("SELECT COALESCE(SUM(amount), 0) FROM xp_events")
     fun observeTotalXp(): Flow<Int>
 
@@ -96,6 +126,15 @@ interface ReviewLogDao {
     @Insert
     suspend fun insert(log: ReviewLogEntity)
 
+    @Insert
+    suspend fun insertAll(logs: List<ReviewLogEntity>)
+
+    @Query("SELECT * FROM review_logs")
+    suspend fun all(): List<ReviewLogEntity>
+
+    @Query("DELETE FROM review_logs")
+    suspend fun deleteAll()
+
     @Query("SELECT * FROM review_logs WHERE cardId = :cardId ORDER BY reviewedMs")
     suspend fun forCard(cardId: String): List<ReviewLogEntity>
 }
@@ -113,4 +152,29 @@ interface ProgressDao {
 
     @Upsert
     suspend fun upsert(progress: LessonProgressEntity)
+
+    @Insert
+    suspend fun insertAll(items: List<LessonProgressEntity>)
+
+    @Query("DELETE FROM lesson_progress")
+    suspend fun deleteAll()
+}
+
+@Dao
+interface StoryDao {
+    /** Returns -1 when the episode was already finished. */
+    @Insert(onConflict = OnConflictStrategy.IGNORE)
+    suspend fun insertIgnore(progress: StoryProgressEntity): Long
+
+    @Query("SELECT * FROM story_progress")
+    fun observeAll(): Flow<List<StoryProgressEntity>>
+
+    @Query("SELECT * FROM story_progress")
+    suspend fun all(): List<StoryProgressEntity>
+
+    @Insert
+    suspend fun insertAll(items: List<StoryProgressEntity>)
+
+    @Query("DELETE FROM story_progress")
+    suspend fun deleteAll()
 }

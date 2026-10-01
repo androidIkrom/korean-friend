@@ -28,6 +28,7 @@ import kotlinx.coroutines.launch
 import uz.hangulfriend.R
 import uz.hangulfriend.content.CatalogEntry
 import uz.hangulfriend.content.ContentRepository
+import uz.hangulfriend.data.BackupService
 import uz.hangulfriend.data.Settings
 import uz.hangulfriend.data.SettingsRepository
 import uz.hangulfriend.study.OnboardingService
@@ -37,6 +38,7 @@ class SettingsViewModel(
     content: ContentRepository,
     private val settingsRepo: SettingsRepository,
     private val onboarding: OnboardingService,
+    val backup: BackupService,
 ) : ViewModel() {
     val catalog: List<CatalogEntry> = content.catalog()
 
@@ -62,6 +64,10 @@ class SettingsViewModel(
 
     fun setDailyGoalXp(n: Int) {
         viewModelScope.launch { settingsRepo.setDailyGoalXp(n) }
+    }
+
+    fun setReminder(enabled: Boolean, minutes: Int) {
+        viewModelScope.launch { settingsRepo.setReminder(enabled, minutes) }
     }
 
     fun setDailyNewLimit(n: Int) {
@@ -92,6 +98,8 @@ fun SettingsScreen(vm: SettingsViewModel, modifier: Modifier = Modifier) {
             valueRange = 20f..200f,
             steps = 17,
         )
+        ReminderRow(settings, vm::setReminder)
+        BackupRow(vm.backup)
         Text(stringResource(R.string.settings_current_lesson), style = MaterialTheme.typography.titleMedium)
         val picked = pending
         if (picked != null && picked != settings.currentLessonId) {

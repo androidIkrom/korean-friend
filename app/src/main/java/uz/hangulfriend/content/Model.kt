@@ -1,8 +1,10 @@
 package uz.hangulfriend.content
 
+import kotlinx.serialization.ExperimentalSerializationApi
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.json.Json
+import kotlinx.serialization.json.JsonClassDiscriminator
 
 /** Strict JSON for content assets: an unknown key is a typo, not something to skip. */
 val ContentJson = Json {
@@ -71,7 +73,40 @@ data class Dialogue(val lines: List<Line>)
 data class Line(val speaker: String, val ko: String, val uz: String, val audio: String? = null)
 
 @Serializable
-data class Story(@SerialName("title_uz") val titleUz: String, val lines: List<Line>)
+data class Story(@SerialName("title_uz") val titleUz: String, val steps: List<StoryStep>)
+
+/** One beat of a story episode; the JSON `type` field picks the subclass. */
+@OptIn(ExperimentalSerializationApi::class)
+@Serializable
+@JsonClassDiscriminator("type")
+sealed interface StoryStep
+
+@Serializable
+@SerialName("line")
+data class StoryLine(val speaker: String, val ko: String, val uz: String, val audio: String? = null) : StoryStep
+
+/** The learner picks what [speaker] (Aziz) says; once solved it is shown and played like a line of [answer]. */
+@Serializable
+@SerialName("choose_reply")
+data class ChooseReply(
+    val speaker: String,
+    @SerialName("prompt_uz") val promptUz: String,
+    val options: List<String>,
+    val answer: String,
+    val uz: String,
+    @SerialName("why_uz") val whyUz: String,
+    val audio: String? = null,
+) : StoryStep
+
+/** Comprehension check; options are Uzbek. */
+@Serializable
+@SerialName("quiz")
+data class StoryQuiz(
+    @SerialName("prompt_uz") val promptUz: String,
+    val options: List<String>,
+    val answer: String,
+    @SerialName("why_uz") val whyUz: String,
+) : StoryStep
 
 @Serializable
 enum class ExerciseType {

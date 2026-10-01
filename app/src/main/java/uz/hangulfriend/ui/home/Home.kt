@@ -93,7 +93,9 @@ fun HomeScreen(
     onGames: () -> Unit,
     onMistakes: () -> Unit,
     onAchievements: () -> Unit,
+    onStories: () -> Unit,
     modifier: Modifier = Modifier,
+    headerAction: @Composable () -> Unit = {},
 ) {
     val due by vm.dueCount.collectAsStateWithLifecycle()
     val current by vm.currentLesson.collectAsStateWithLifecycle()
@@ -106,7 +108,10 @@ fun HomeScreen(
         modifier.padding(16.dp).verticalScroll(rememberScrollState()),
         verticalArrangement = Arrangement.spacedBy(16.dp),
     ) {
-        Text(stringResource(R.string.app_name), style = MaterialTheme.typography.headlineMedium)
+        Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
+            Text(stringResource(R.string.app_name), style = MaterialTheme.typography.headlineMedium, modifier = Modifier.weight(1f))
+            headerAction()
+        }
         StatsCard(stats)
         Card(Modifier.fillMaxWidth()) {
             Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
@@ -129,6 +134,7 @@ fun HomeScreen(
                 }
             }
         }
+        OutlinedButton(onClick = onStories, modifier = Modifier.fillMaxWidth()) { Text(stringResource(R.string.home_stories)) }
         OutlinedButton(onClick = onGames, modifier = Modifier.fillMaxWidth()) { Text(stringResource(R.string.home_games)) }
         OutlinedButton(onClick = onMistakes, modifier = Modifier.fillMaxWidth()) { Text(stringResource(R.string.home_mistakes)) }
         OutlinedButton(onClick = onAchievements, modifier = Modifier.fillMaxWidth()) {

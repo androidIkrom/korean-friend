@@ -1,0 +1,58 @@
+package uz.hangulfriend.data
+
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertTrue
+import org.junit.Test
+import uz.hangulfriend.srs.CardState
+
+class BackupCodecTest {
+    private val card = CardEntity(
+        id = "u02_l1_w001#R", itemId = "u02_l1_w001", kind = CardKind.RECOGNIZE, lessonId = "u02_l1",
+        origin = CardOrigin.LESSON, state = CardState.REVIEW, step = null, stability = 3.5, difficulty = 5.1,
+        dueMs = 1000, lastReviewMs = 900, firstReviewedMs = 800, reps = 2, lapses = 1, lessonOrder = 2,
+    )
+    private val log = ReviewLogEntity(id = 7, cardId = card.id, rating = 3, reviewedMs = 900, elapsedMs = 4000)
+    private val progress = LessonProgressEntity("u02_l1", LessonStatus.COMPLETED, stage = 4, bestTestScore = 90)
+    private val xp = XpEventEntity(id = 3, amount = 10, reason = "answer", atMs = 900)
+    private val achievement = AchievementEntity("first_lesson", 950)
+    private val best = BestScoreEntity("speed", 12)
+    private val story = StoryProgressEntity("u02_l1", 990)
+
+    private val file = BackupFile(
+        format = BackupCodec.FORMAT, version = BackupCodec.VERSION, exportedAtMs = 1234, dbVersion = 3,
+        settings = BackupSettings(
+            onboarded = true, currentLessonId = "u02_l1", dailyNewLimit = 25, dailyGoalXp = 80,
+            reminderEnabled = true, reminderMinutes = 1230,
+        ),
+        cards = listOf(card.toDto()), reviewLogs = listOf(log.toDto()), lessonProgress = listOf(progress.toDto()),
+        xpEvents = listOf(xp.toDto()), achievements = listOf(achievement.toDto()), bestScores = listOf(best.toDto()),
+        storyProgress = listOf(story.toDto()),
+    )
+
+    @Test fun roundTrip() = assertEquals(BackupResult.Ok(file), BackupCodec.decode(BackupCodec.encode(file)))
+
+    @Test fun rejectsNewerVersion() =
+        assertEquals(BackupResult.TooNew, BackupCodec.decode(BackupCodec.encode(file.copy(version = BackupCodec.VERSION + 1))))
+
+    @Test fun rejectsOtherFormat() =
+        assertEquals(BackupResult.NotBackup, BackupCodec.decode(BackupCodec.encode(file.copy(format = "other-app"))))
+
+    @Test fun rejectsMalformedJson() = assertEquals(BackupResult.NotBackup, BackupCodec.decode("{"))
+
+    @Test fun rejectsEmptyText() = assertEquals(BackupResult.NotBackup, BackupCodec.decode(""))
+
+    @Test fun acceptsUnknownKeys() {
+        val text = BackupCodec.encode(file).replaceFirst("{", "{\"extra\": 1,")
+        assertTrue(BackupCodec.decode(text) is BackupResult.Ok)
+    }
+
+    @Test fun entityDtoRoundTrip() {
+        assertEquals(card, card.toDto().toEntity())
+        assertEquals(log, log.toDto().toEntity())
+        assertEquals(progress, progress.toDto().toEntity())
+        assertEquals(xp, xp.toDto().toEntity())
+        assertEquals(achievement, achievement.toDto().toEntity())
+        assertEquals(best, best.toDto().toEntity())
+        assertEquals(story, story.toDto().toEntity())
+    }
+}

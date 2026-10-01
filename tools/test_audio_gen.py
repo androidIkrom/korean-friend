@@ -52,6 +52,17 @@ class AudioGenTest(unittest.TestCase):
         texts = [c.text for c in audio_gen.collect(json.loads(json.dumps(LESSON)), voices)]
         self.assertEqual(["옷", "이 옷이 예뻐요.", "입어 보세요.", "안녕하세요.", "네.", "뭘 찾으세요?"], texts)
 
+    def test_collect_story_steps(self):
+        voices = audio_gen.load_voices(CHARACTERS)
+        lesson = {"story": {"title_uz": "T", "steps": [
+            {"type": "line", "speaker": "minji", "ko": "어서 와요.", "uz": "Keling."},
+            {"type": "choose_reply", "speaker": "aziz", "prompt_uz": "P", "options": ["네", "아", "오"],
+             "answer": "네", "uz": "Ha", "why_uz": "W"},
+            {"type": "quiz", "prompt_uz": "Q", "options": ["x", "y", "z"], "answer": "x", "why_uz": "W"},
+        ]}}
+        clips = audio_gen.collect(lesson, voices)
+        self.assertEqual([("어서 와요.", audio_gen.FEMALE), ("네", audio_gen.MALE)], [(c.text, c.voice) for c in clips])
+
     def test_dialogue_uses_character_voice(self):
         voices = audio_gen.load_voices(CHARACTERS)
         clips = {c.text: c.voice for c in audio_gen.collect(json.loads(json.dumps(LESSON)), voices)}

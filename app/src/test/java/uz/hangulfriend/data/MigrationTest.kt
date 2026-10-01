@@ -44,4 +44,19 @@ class MigrationTest {
         assertEquals(0L, db.count("SELECT COUNT(*) FROM xp_events"))
         db.close()
     }
+
+    @Test fun migrate2to3_addsStoryProgress() {
+        helper.createDatabase(2).apply {
+            execSQL(
+                "INSERT INTO cards (id, itemId, kind, lessonId, origin, state, step, stability, difficulty, dueMs, " +
+                    "lastReviewMs, firstReviewedMs, reps, lapses, lessonOrder) VALUES " +
+                    "('w#R', 'w', 'RECOGNIZE', 'u02_l1', 'LESSON', 'REVIEW', NULL, 3.0, 5.0, 1000, 900, 800, 2, 0, 2)",
+            )
+            close()
+        }
+        val db = helper.runMigrationsAndValidate(3, listOf(MIGRATION_2_3))
+        assertEquals(1L, db.count("SELECT COUNT(*) FROM cards"))
+        assertEquals(0L, db.count("SELECT COUNT(*) FROM story_progress"))
+        db.close()
+    }
 }

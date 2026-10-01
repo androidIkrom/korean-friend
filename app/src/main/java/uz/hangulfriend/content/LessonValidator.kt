@@ -51,5 +51,29 @@ object LessonValidator {
 
         val practised = lesson.exercises.filter { it.id !in testIds }.flatMap { it.targets }.toSet()
         for (g in lesson.grammar) if (g.id !in practised) errors += "${g.id}: no practice exercise targets this grammar"
+
+        lesson.story?.let { validateStory(lesson.id, it, errors) }
+    }
+
+    private fun validateStory(lessonId: String, story: Story, errors: MutableList<String>) {
+        fun err(reason: String) {
+            errors += "$lessonId: story: $reason"
+        }
+        val lines = story.steps.count { it is StoryLine }
+        val interactive = story.steps.size - lines
+        if (lines !in 10..16) err("10–16 line steps (has $lines)")
+        if (interactive !in 2..3) err("2–3 interactive steps (has $interactive)")
+        if (story.steps.none { it is ChooseReply }) err("needs a choose_reply")
+        if (story.steps.firstOrNull() !is StoryLine) err("first step must be a line")
+        story.steps.forEachIndexed { i, step ->
+            val (options, answer) = when (step) {
+                is ChooseReply -> step.options to step.answer
+                is StoryQuiz -> step.options to step.answer
+                is StoryLine -> return@forEachIndexed
+            }
+            if (options.size != 3 || options.toSet().size != 3 || answer !in options) {
+                err("step ${i + 1}: answer must be one of 3 distinct options")
+            }
+        }
     }
 }

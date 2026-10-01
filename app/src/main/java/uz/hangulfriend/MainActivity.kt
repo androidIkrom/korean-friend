@@ -19,6 +19,8 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         val container = (application as HangulFriendApp).container
+        // Only a fresh launch from the reminder opens the review, not a rotation of that launch.
+        val openReview = savedInstanceState == null && intent.getStringExtra(EXTRA_OPEN) == OPEN_REVIEW
         setContent {
             HangulFriendTheme {
                 CompositionLocalProvider(
@@ -26,10 +28,15 @@ class MainActivity : ComponentActivity() {
                     LocalSpeechInput provides container.speech,
                     LocalTutor provides container.tutor,
                 ) {
-                    HangulFriendNav(container)
+                    HangulFriendNav(container, openReview)
                 }
             }
         }
+    }
+
+    companion object {
+        const val EXTRA_OPEN = "open"
+        const val OPEN_REVIEW = "review"
     }
 
     override fun onDestroy() {
