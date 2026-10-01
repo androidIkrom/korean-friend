@@ -1,0 +1,1131 @@
+{
+  "id": "u06_l2",
+  "unit": 6,
+  "lesson": 2,
+  "title_ko": "횡단보도를 건너서 오른쪽으로 가세요",
+  "title_uz": "Piyodalar o'tish joyidan o'tib, o'ngga buriling",
+  "topic_uz": "Transport",
+  "reviewed": false,
+  "words": [
+    {
+      "id": "u06_l2_w001",
+      "ko": "건너다",
+      "uz": "kesib o'tmoq",
+      "pos": "fe'l",
+      "example_ko": "길을 건너요.",
+      "example_uz": "Yo'lni kesib o'taman.",
+      "audio": "ef8e007917a8.mp3",
+      "example_audio": "5d9cb6c1435c.mp3"
+    },
+    {
+      "id": "u06_l2_w002",
+      "ko": "횡단보도",
+      "uz": "piyodalar o'tish joyi",
+      "pos": "ot",
+      "example_ko": "횡단보도에서 건너세요.",
+      "example_uz": "Piyodalar o'tish joyidan o'ting.",
+      "audio": "8c381c96c356.mp3",
+      "example_audio": "61f5b72b64b8.mp3"
+    },
+    {
+      "id": "u06_l2_w003",
+      "ko": "신호등",
+      "uz": "svetofor",
+      "pos": "ot",
+      "example_ko": "신호등이 빨간색이에요.",
+      "example_uz": "Svetofor qizil.",
+      "audio": "5a7a4ffcf805.mp3",
+      "example_audio": "0adfff8c1e4d.mp3"
+    },
+    {
+      "id": "u06_l2_w004",
+      "ko": "사거리",
+      "uz": "chorraha",
+      "pos": "ot",
+      "example_ko": "사거리에서 왼쪽으로 가세요.",
+      "example_uz": "Chorrahadan chapga buriling.",
+      "audio": "2d601940e2d1.mp3",
+      "example_audio": "d2a21b9733d8.mp3"
+    },
+    {
+      "id": "u06_l2_w005",
+      "ko": "왼쪽",
+      "uz": "chap tomon",
+      "pos": "ot",
+      "example_ko": "왼쪽에 은행이 있어요.",
+      "example_uz": "Chap tomonda bank bor.",
+      "audio": "a0642f8b1f98.mp3",
+      "example_audio": "1fc0301eedb0.mp3"
+    },
+    {
+      "id": "u06_l2_w006",
+      "ko": "오른쪽",
+      "uz": "o'ng tomon",
+      "pos": "ot",
+      "example_ko": "오른쪽으로 가세요.",
+      "example_uz": "O'ngga boring.",
+      "audio": "8ac5513d8c8a.mp3",
+      "example_audio": "66aa0103e72e.mp3"
+    },
+    {
+      "id": "u06_l2_w007",
+      "ko": "앞",
+      "uz": "old",
+      "pos": "ot",
+      "example_ko": "학교 앞에서 만나요.",
+      "example_uz": "Maktab oldida uchrashamiz.",
+      "audio": "c6417ef25a65.mp3",
+      "example_audio": "01e3414af145.mp3"
+    },
+    {
+      "id": "u06_l2_w008",
+      "ko": "뒤",
+      "uz": "orqa",
+      "pos": "ot",
+      "example_ko": "건물 뒤에 주차장이 있어요.",
+      "example_uz": "Bino orqasida avtoturargoh bor.",
+      "audio": "a47c7ab5e498.mp3",
+      "example_audio": "dd2797705d36.mp3"
+    },
+    {
+      "id": "u06_l2_w009",
+      "ko": "옆",
+      "uz": "yon",
+      "pos": "ot",
+      "example_ko": "은행 옆에 약국이 있어요.",
+      "example_uz": "Bank yonida dorixona bor.",
+      "audio": "a253760d27e4.mp3",
+      "example_audio": "c27ea0c0a249.mp3"
+    },
+    {
+      "id": "u06_l2_w010",
+      "ko": "맞은편",
+      "uz": "ro'para",
+      "pos": "ot",
+      "example_ko": "편의점은 은행 맞은편에 있어요.",
+      "example_uz": "Do'kon bankning ro'parasida.",
+      "audio": "771e5754fd02.mp3",
+      "example_audio": "76bab20329b5.mp3"
+    },
+    {
+      "id": "u06_l2_w011",
+      "ko": "쭉",
+      "uz": "to'g'ri, to'xtamasdan",
+      "pos": "ravish",
+      "example_ko": "이 길로 쭉 가세요.",
+      "example_uz": "Shu yo'ldan to'g'ri boring.",
+      "audio": "3b4ac92bc927.mp3",
+      "example_audio": "a8314e18f132.mp3"
+    },
+    {
+      "id": "u06_l2_w012",
+      "ko": "똑바로",
+      "uz": "to'ppa-to'g'ri",
+      "pos": "ravish",
+      "example_ko": "똑바로 가면 역이 있어요.",
+      "example_uz": "To'ppa-to'g'ri borsangiz, bekat bor.",
+      "audio": "ae24c057ffa6.mp3",
+      "example_audio": "44772035d623.mp3"
+    },
+    {
+      "id": "u06_l2_w013",
+      "ko": "돌다",
+      "uz": "burilmoq",
+      "pos": "fe'l",
+      "example_ko": "모퉁이에서 왼쪽으로 돌아요.",
+      "example_uz": "Burchakdan chapga buriling.",
+      "audio": "4e0b8b57971d.mp3",
+      "example_audio": "ad5c94fccecb.mp3"
+    },
+    {
+      "id": "u06_l2_w014",
+      "ko": "걸어가다",
+      "uz": "piyoda bormoq",
+      "pos": "fe'l",
+      "example_ko": "학교까지 걸어가요.",
+      "example_uz": "Maktabgacha piyoda boraman.",
+      "audio": "4b49e7f75e00.mp3",
+      "example_audio": "3fef022aeae6.mp3"
+    },
+    {
+      "id": "u06_l2_w015",
+      "ko": "건물",
+      "uz": "bino",
+      "pos": "ot",
+      "example_ko": "저 건물이 시청이에요.",
+      "example_uz": "Anavi bino — shahar hokimiyati.",
+      "audio": "56d57a1fbd21.mp3",
+      "example_audio": "8210a93c6f68.mp3"
+    },
+    {
+      "id": "u06_l2_w016",
+      "ko": "약국",
+      "uz": "dorixona",
+      "pos": "ot",
+      "example_ko": "약국에서 약을 샀어요.",
+      "example_uz": "Dorixonadan dori oldim.",
+      "audio": "b175ccf41791.mp3",
+      "example_audio": "f1b202ad4276.mp3"
+    },
+    {
+      "id": "u06_l2_w017",
+      "ko": "편의점",
+      "uz": "do'kon (24 soatlik)",
+      "pos": "ot",
+      "example_ko": "편의점에서 물을 샀어요.",
+      "example_uz": "Do'kondan suv oldim.",
+      "audio": "b6b9fd5d8e0f.mp3",
+      "example_audio": "701f33ed17d8.mp3"
+    },
+    {
+      "id": "u06_l2_w018",
+      "ko": "다리",
+      "uz": "ko'prik",
+      "pos": "ot",
+      "example_ko": "다리를 건너세요.",
+      "example_uz": "Ko'prikdan o'ting.",
+      "audio": "dc1496e113f4.mp3",
+      "example_audio": "059ace1af03a.mp3"
+    },
+    {
+      "id": "u06_l2_w019",
+      "ko": "지나다",
+      "uz": "o'tib ketmoq",
+      "pos": "fe'l",
+      "example_ko": "은행을 지나서 오른쪽으로 가세요.",
+      "example_uz": "Bankdan o'tib, o'ngga buriling.",
+      "audio": "2971c43d75be.mp3",
+      "example_audio": "e03c2623218f.mp3"
+    },
+    {
+      "id": "u06_l2_w020",
+      "ko": "보이다",
+      "uz": "ko'rinmoq",
+      "pos": "fe'l",
+      "example_ko": "저기 역이 보여요.",
+      "example_uz": "Ana u yerda bekat ko'rinyapti.",
+      "audio": "0975bee50598.mp3",
+      "example_audio": "308688822ccb.mp3"
+    },
+    {
+      "id": "u06_l2_w021",
+      "ko": "근처",
+      "uz": "yaqin atrof",
+      "pos": "ot",
+      "example_ko": "근처에 식당이 있어요?",
+      "example_uz": "Yaqin atrofda oshxona bormi?",
+      "audio": "e62c481aeb7f.mp3",
+      "example_audio": "44d553ff93a2.mp3"
+    },
+    {
+      "id": "u06_l2_w022",
+      "ko": "층",
+      "uz": "qavat",
+      "pos": "ot",
+      "example_ko": "약국은 1층에 있어요.",
+      "example_uz": "Dorixona birinchi qavatda.",
+      "audio": "d65b9fad8c13.mp3",
+      "example_audio": "831cc143958a.mp3"
+    },
+    {
+      "id": "u06_l2_w023",
+      "ko": "정도",
+      "uz": "taxminan, chamasi",
+      "pos": "ot",
+      "example_ko": "10분 정도 걸려요.",
+      "example_uz": "Taxminan 10 daqiqa ketadi.",
+      "audio": "9ad0c07797d4.mp3",
+      "example_audio": "a81a7a6b495b.mp3"
+    },
+    {
+      "id": "u06_l2_w024",
+      "ko": "공항",
+      "uz": "aeroport",
+      "pos": "ot",
+      "example_ko": "공항까지 버스로 가요.",
+      "example_uz": "Aeroportgacha avtobusda boraman.",
+      "audio": "0b6bf504fab0.mp3",
+      "example_audio": "467c3e65cf9d.mp3"
+    },
+    {
+      "id": "u06_l2_w025",
+      "ko": "회사",
+      "uz": "kompaniya, ishxona",
+      "pos": "ot",
+      "example_ko": "회사에서 일해요.",
+      "example_uz": "Kompaniyada ishlayman.",
+      "audio": "70641ecb6999.mp3",
+      "example_audio": "87d5f815773c.mp3"
+    },
+    {
+      "id": "u06_l2_w026",
+      "ko": "여기",
+      "uz": "bu yer",
+      "pos": "olmosh",
+      "example_ko": "여기가 어디예요?",
+      "example_uz": "Bu yer qayer?",
+      "audio": "e522d646b5fd.mp3",
+      "example_audio": "7e715e4b9614.mp3"
+    },
+    {
+      "id": "u06_l2_w027",
+      "ko": "거기",
+      "uz": "u yer (suhbatdoshga yaqin)",
+      "pos": "olmosh",
+      "example_ko": "거기에서 기다리세요.",
+      "example_uz": "O'sha yerda kuting.",
+      "audio": "80a02409971c.mp3",
+      "example_audio": "159baa0caa39.mp3"
+    },
+    {
+      "id": "u06_l2_w028",
+      "ko": "만나다",
+      "uz": "uchrashmoq",
+      "pos": "fe'l",
+      "example_ko": "친구를 만났어요.",
+      "example_uz": "Do'stim bilan uchrashdim.",
+      "audio": "2fab70d9a633.mp3",
+      "example_audio": "ff346f671415.mp3"
+    },
+    {
+      "id": "u06_l2_w029",
+      "ko": "앉다",
+      "uz": "o'tirmoq",
+      "pos": "fe'l",
+      "example_ko": "여기 앉으세요.",
+      "example_uz": "Bu yerga o'tiring.",
+      "audio": "141d216f9007.mp3",
+      "example_audio": "c16cc4eae476.mp3"
+    },
+    {
+      "id": "u06_l2_w030",
+      "ko": "월요일",
+      "uz": "dushanba",
+      "pos": "ot",
+      "example_ko": "월요일에 수업이 있어요.",
+      "example_uz": "Dushanba kuni dars bor.",
+      "audio": "39bf92933801.mp3",
+      "example_audio": "489414959bbc.mp3"
+    },
+    {
+      "id": "u06_l2_w031",
+      "ko": "금요일",
+      "uz": "juma",
+      "pos": "ot",
+      "example_ko": "금요일에 만나요.",
+      "example_uz": "Juma kuni uchrashamiz.",
+      "audio": "2ce53c3c479e.mp3",
+      "example_audio": "7e080ce198b7.mp3"
+    },
+    {
+      "id": "u06_l2_w032",
+      "ko": "실례합니다",
+      "uz": "kechirasiz (murojaat)",
+      "pos": "ibora",
+      "example_ko": "실례합니다. 역이 어디예요?",
+      "example_uz": "Kechirasiz. Bekat qayerda?",
+      "audio": "589f24529b8d.mp3",
+      "example_audio": "7c04e7f78f2f.mp3"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "u06_l2_g1",
+      "pattern": "V-아서/어서 (ketma-ketlik)",
+      "meaning_uz": "Ketma-ket harakat: '...-ib, (keyin) ...'",
+      "explanation_md": "**-아서/어서** ikki harakatni **ketma-ket** bog'laydi: birinchi harakat ikkinchisiga **zamin** bo'ladi (o'sha joyda, o'sha narsa bilan). O'zbekchadagi **\"...-ib\"** ga to'g'ri keladi.\n\n**횡단보도를 건너서 오른쪽으로 가세요.** — *Piyodalar o'tish joyidan o'tib, o'ngga boring.*\n\n### Qanday yasaladi\n\n**-아/어요** shaklidan **요** olib tashlanadi va **서** qo'shiladi:\n\n- 건너다 → 건너요 → **건너서**\n- 내리다 → 내려요 → **내려서**\n- 가다 → 가요 → **가서**\n- 앉다 → 앉아요 → **앉아서**\n- 만들다 → 만들어요 → **만들어서**\n\n### -고 va -아서/어서 farqi\n\n| | Ma'nosi | Misol |\n|---|---|---|\n| **-아서/어서** | 1-harakat 2-siga bog'liq (joy, narsa bir xil) | 친구를 **만나서** 영화를 봤어요 — do'stim bilan uchrashib, (u bilan) kino ko'rdim |\n| **-고** | ikki mustaqil harakat | 숙제를 **하고** 영화를 봤어요 — vazifani qilib, keyin kino ko'rdim |\n\n### Esda tuting\n\n- **-아서/어서** dan oldin o'tgan zamon qo'yilmaydi: ~~갔어서~~ ❌ → **가서** ✅\n- 7-bo'limda -아서/어서 ning **sabab** ma'nosini ham o'rganamiz.",
+      "formation": [
+        {
+          "condition_uz": "Oxirgi unli ㅏ/ㅗ",
+          "rule": "-아서",
+          "example": "가다 → 가서, 앉다 → 앉아서"
+        },
+        {
+          "condition_uz": "Boshqa unlilar",
+          "rule": "-어서",
+          "example": "건너다 → 건너서, 내리다 → 내려서"
+        },
+        {
+          "condition_uz": "하다",
+          "rule": "해서",
+          "example": "운동하다 → 운동해서"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "횡단보도를 건너서 오른쪽으로 가세요.",
+          "uz": "Piyodalar o'tish joyidan o'tib, o'ngga boring.",
+          "audio": "2bbf37f55ad2.mp3"
+        },
+        {
+          "ko": "시청역에서 내려서 2호선으로 갈아타세요.",
+          "uz": "Shahar hokimiyati bekatida tushib, 2-liniyaga o'ting.",
+          "audio": "cc63f7f1ad9a.mp3"
+        },
+        {
+          "ko": "친구를 만나서 같이 영화를 봤어요.",
+          "uz": "Do'stim bilan uchrashib, birga kino ko'rdik.",
+          "audio": "34348ccc6af1.mp3"
+        },
+        {
+          "ko": "여기 앉아서 기다리세요.",
+          "uz": "Bu yerda o'tirib kuting.",
+          "audio": "9d07cdde0c06.mp3"
+        },
+        {
+          "ko": "학교에 가서 공부해요.",
+          "uz": "Maktabga borib, (u yerda) o'qiyman.",
+          "audio": "8b7f19dbb76a.mp3"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "다리를 건너어서",
+          "right": "다리를 건너서",
+          "why_uz": "건너 + 어 → 건너 bo'lib qisqaradi."
+        },
+        {
+          "wrong": "버스에서 내리어서",
+          "right": "버스에서 내려서",
+          "why_uz": "내리 + 어 → 내려."
+        },
+        {
+          "wrong": "학교에 갔어서 공부했어요",
+          "right": "학교에 가서 공부했어요",
+          "why_uz": "-아서/어서 dan oldin o'tgan zamon qo'yilmaydi."
+        }
+      ],
+      "uz_compare": "O'zbekchadagi '-ib' bilan bir xil: 'o'tIB, buriling' = 건너서 가세요; 'uchrashIB, kino ko'rdik' = 만나서 봤어요."
+    },
+    {
+      "id": "u06_l2_g2",
+      "pattern": "N에서 N까지 / N부터 N까지",
+      "meaning_uz": "'...dan ...gacha' (joy va vaqt)",
+      "explanation_md": "**에서 ... 까지** — **joy** bo'yicha \"...dan ...gacha\":\n\n**집에서 학교까지 얼마나 걸려요?** — *Uydan maktabgacha qancha vaqt ketadi?*\n\n**부터 ... 까지** — **vaqt** bo'yicha \"...dan ...gacha\":\n\n**아홉 시부터 여섯 시까지 일해요.** — *Soat to'qqizdan oltigacha ishlayman.*\n\n### Qoidalar\n\n| | Boshlanish | Tugash |\n|---|---|---|\n| Joy | **에서** | **까지** |\n| Vaqt | **부터** | **까지** |\n\n- 받침ga qarab o'zgarmaydi: 집**에서**, 서울**에서**, 학교**까지**, 공항**까지**.\n- Og'zaki nutqda **에서** → **서**: 여기**서** 공항까지.\n- Bittasini ishlatish ham mumkin: 공항**까지** 버스로 가요 (aeroportgacha avtobusda boraman).\n\n### -에 bilan adashtirmang\n\n**까지** to'g'ridan-to'g'ri otga qo'shiladi: ~~학교에까지~~ ❌ → **학교까지** ✅",
+      "formation": [
+        {
+          "condition_uz": "Joy: ...dan",
+          "rule": "N에서",
+          "example": "집에서, 서울에서"
+        },
+        {
+          "condition_uz": "Vaqt: ...dan",
+          "rule": "N부터",
+          "example": "아홉 시부터, 월요일부터"
+        },
+        {
+          "condition_uz": "...gacha (joy va vaqt)",
+          "rule": "N까지",
+          "example": "학교까지, 여섯 시까지"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "집에서 학교까지 얼마나 걸려요?",
+          "uz": "Uydan maktabgacha qancha vaqt ketadi?",
+          "audio": "5fb3dac5f860.mp3"
+        },
+        {
+          "ko": "여기에서 공항까지 버스로 한 시간 걸려요.",
+          "uz": "Bu yerdan aeroportgacha avtobusda bir soat ketadi.",
+          "audio": "5d75d1b40487.mp3"
+        },
+        {
+          "ko": "서울에서 부산까지 기차로 가요.",
+          "uz": "Seuldan Pusangacha poyezdda boraman.",
+          "audio": "163670052fe4.mp3"
+        },
+        {
+          "ko": "아홉 시부터 여섯 시까지 일해요.",
+          "uz": "Soat to'qqizdan oltigacha ishlayman.",
+          "audio": "5cbde2687066.mp3"
+        },
+        {
+          "ko": "월요일부터 금요일까지 수업이 있어요.",
+          "uz": "Dushanbadan jumagacha dars bor.",
+          "audio": "f58d2593de62.mp3"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "집부터 회사까지 멀어요",
+          "right": "집에서 회사까지 멀어요",
+          "why_uz": "Joy uchun 에서 ... 까지."
+        },
+        {
+          "wrong": "열 시에서 두 시까지",
+          "right": "열 시부터 두 시까지",
+          "why_uz": "Vaqt uchun 부터 ... 까지."
+        },
+        {
+          "wrong": "학교에까지 걸어가요",
+          "right": "학교까지 걸어가요",
+          "why_uz": "까지 otga to'g'ridan-to'g'ri qo'shiladi."
+        }
+      ],
+      "uz_compare": "O'zbekchada joy va vaqt uchun bir xil: '-dan ... -gacha'. Koreyschada '-dan' ikki xil: joy — 에서, vaqt — 부터. '-gacha' esa ikkalasida ham 까지."
+    }
+  ],
+  "dialogue": {
+    "lines": [
+      {
+        "speaker": "aziz",
+        "ko": "실례합니다. 청계천에 어떻게 가요?",
+        "uz": "Kechirasiz. Cheonggyecheon'ga qanday boriladi?",
+        "audio": "c8cc829d4834.mp3"
+      },
+      {
+        "speaker": "passerby",
+        "ko": "저기 사거리가 보여요?",
+        "uz": "Ana u chorraha ko'rinyaptimi?",
+        "audio": "c59413841762.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "네, 보여요.",
+        "uz": "Ha, ko'rinyapti.",
+        "audio": "c319ac4d782d.mp3"
+      },
+      {
+        "speaker": "passerby",
+        "ko": "사거리에서 횡단보도를 건너서 오른쪽으로 가세요.",
+        "uz": "Chorrahada piyodalar o'tish joyidan o'tib, o'ngga boring.",
+        "audio": "69af77ac030f.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "오른쪽으로 쭉 가요?",
+        "uz": "O'ngga to'g'ri boraymi?",
+        "audio": "fc07c86daf05.mp3"
+      },
+      {
+        "speaker": "passerby",
+        "ko": "네, 쭉 가면 다리가 보여요. 거기가 청계천이에요.",
+        "uz": "Ha, to'g'ri borsangiz ko'prik ko'rinadi. O'sha yer — Cheonggyecheon.",
+        "audio": "ad37b66dec59.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "여기에서 청계천까지 멀어요?",
+        "uz": "Bu yerdan Cheonggyecheon'gacha uzoqmi?",
+        "audio": "0dc9870846e0.mp3"
+      },
+      {
+        "speaker": "passerby",
+        "ko": "아니요, 걸어서 오 분 정도 걸려요.",
+        "uz": "Yo'q, piyoda besh daqiqacha.",
+        "audio": "a235c3898c5d.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "근처에 편의점도 있어요?",
+        "uz": "Yaqin atrofda do'kon ham bormi?",
+        "audio": "6253481c4480.mp3"
+      },
+      {
+        "speaker": "passerby",
+        "ko": "네, 은행 옆에 있어요. 약국 맞은편이에요.",
+        "uz": "Ha, bank yonida. Dorixonaning ro'parasida.",
+        "audio": "26b989409916.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "정말 감사합니다.",
+        "uz": "Katta rahmat.",
+        "audio": "893402f666da.mp3"
+      },
+      {
+        "speaker": "passerby",
+        "ko": "천만에요. 좋은 시간 보내세요.",
+        "uz": "Arzimaydi. Yaxshi vaqt o'tkazing.",
+        "audio": "c01046c31c0a.mp3"
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "u06_l2_e001",
+      "type": "conjugate",
+      "targets": [
+        "u06_l2_g1"
+      ],
+      "prompt_uz": "'Kesib o'tib' shaklini yasang",
+      "base": "건너다",
+      "form": "-아서/어서",
+      "answers": [
+        "건너서"
+      ]
+    },
+    {
+      "id": "u06_l2_e002",
+      "type": "conjugate",
+      "targets": [
+        "u06_l2_g1"
+      ],
+      "prompt_uz": "'Tushib' shaklini yasang",
+      "base": "내리다",
+      "form": "-아서/어서",
+      "answers": [
+        "내려서"
+      ]
+    },
+    {
+      "id": "u06_l2_e003",
+      "type": "conjugate",
+      "targets": [
+        "u06_l2_g1"
+      ],
+      "prompt_uz": "'O'tirib' shaklini yasang",
+      "base": "앉다",
+      "form": "-아서/어서",
+      "answers": [
+        "앉아서"
+      ]
+    },
+    {
+      "id": "u06_l2_e004",
+      "type": "conjugate",
+      "targets": [
+        "u06_l2_g2"
+      ],
+      "prompt_uz": "'Uydan maktabgacha' shaklini yasang",
+      "base": "집, 학교",
+      "form": "N에서 N까지",
+      "answers": [
+        "집에서 학교까지"
+      ]
+    },
+    {
+      "id": "u06_l2_e005",
+      "type": "conjugate",
+      "targets": [
+        "u06_l2_g2"
+      ],
+      "prompt_uz": "'Seuldan Pusangacha' shaklini yasang",
+      "base": "서울, 부산",
+      "form": "N에서 N까지",
+      "answers": [
+        "서울에서 부산까지"
+      ]
+    },
+    {
+      "id": "u06_l2_e006",
+      "type": "conjugate",
+      "targets": [
+        "u06_l2_g2"
+      ],
+      "prompt_uz": "'Soat to'qqizdan oltigacha' shaklini yasang",
+      "base": "아홉 시, 여섯 시",
+      "form": "N부터 N까지 (vaqt)",
+      "answers": [
+        "아홉 시부터 여섯 시까지"
+      ]
+    },
+    {
+      "id": "u06_l2_e007",
+      "type": "fill_blank",
+      "targets": [
+        "u06_l2_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Piyodalar o'tish joyidan o'tib, o'ngga boring.'",
+      "sentence": "횡단보도를 ___ 오른쪽으로 가세요. (건너다)",
+      "answers": [
+        "건너서"
+      ]
+    },
+    {
+      "id": "u06_l2_e008",
+      "type": "fill_blank",
+      "targets": [
+        "u06_l2_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Do'stim bilan uchrashib, birga ovqatlandik.'",
+      "sentence": "친구를 ___ 같이 밥을 먹었어요. (만나다)",
+      "answers": [
+        "만나서"
+      ]
+    },
+    {
+      "id": "u06_l2_e009",
+      "type": "fill_blank",
+      "targets": [
+        "u06_l2_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Bu yerdan aeroportgacha qancha vaqt ketadi?'",
+      "sentence": "여기___ 공항까지 얼마나 걸려요?",
+      "answers": [
+        "에서",
+        "서"
+      ]
+    },
+    {
+      "id": "u06_l2_e010",
+      "type": "fill_blank",
+      "targets": [
+        "u06_l2_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Uydan maktabgacha piyoda boraman.'",
+      "sentence": "집에서 학교___ 걸어가요.",
+      "answers": [
+        "까지"
+      ]
+    },
+    {
+      "id": "u06_l2_e011",
+      "type": "situation_choice",
+      "targets": [
+        "u06_l2_g1"
+      ],
+      "prompt_uz": "'Metrodan tushib, avtobusga o'ting' qaysi biri?",
+      "options": [
+        "지하철에서 내려서 버스로 갈아타세요",
+        "지하철에서 내리지만 버스로 갈아타세요",
+        "지하철에서 내리러 버스로 갈아타세요",
+        "지하철에서 내리면 버스로 갈아탔어요"
+      ],
+      "answers": [
+        "지하철에서 내려서 버스로 갈아타세요"
+      ]
+    },
+    {
+      "id": "u06_l2_e012",
+      "type": "situation_choice",
+      "targets": [
+        "u06_l2_g2"
+      ],
+      "prompt_uz": "'Soat 9 dan 6 gacha ishlayman' qaysi biri?",
+      "options": [
+        "아홉 시부터 여섯 시까지 일해요",
+        "아홉 시에서 여섯 시까지 일해요",
+        "아홉 시까지 여섯 시부터 일해요",
+        "아홉 시에 여섯 시에 일해요"
+      ],
+      "answers": [
+        "아홉 시부터 여섯 시까지 일해요"
+      ]
+    },
+    {
+      "id": "u06_l2_e013",
+      "type": "situation_choice",
+      "targets": [
+        "u06_l2_w003"
+      ],
+      "prompt_uz": "Qizil va yashil chiroq yonadigan narsa qaysi?",
+      "options": [
+        "신호등",
+        "횡단보도",
+        "사거리",
+        "건물"
+      ],
+      "answers": [
+        "신호등"
+      ]
+    },
+    {
+      "id": "u06_l2_e014",
+      "type": "build_sentence",
+      "targets": [
+        "u06_l2_g1"
+      ],
+      "prompt_uz": "'Piyodalar o'tish joyidan o'tib, o'ngga boring' gapini tuzing",
+      "tokens": [
+        "오른쪽으로",
+        "건너서",
+        "가세요",
+        "횡단보도를"
+      ],
+      "answers": [
+        "횡단보도를 건너서 오른쪽으로 가세요"
+      ]
+    },
+    {
+      "id": "u06_l2_e015",
+      "type": "build_sentence",
+      "targets": [
+        "u06_l2_g2"
+      ],
+      "prompt_uz": "'Uydan maktabgacha o'n daqiqa ketadi' gapini tuzing",
+      "tokens": [
+        "걸려요",
+        "학교까지",
+        "십",
+        "집에서",
+        "분"
+      ],
+      "answers": [
+        "집에서 학교까지 십 분 걸려요"
+      ]
+    },
+    {
+      "id": "u06_l2_e016",
+      "type": "find_error",
+      "targets": [
+        "u06_l2_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "sentence": "다리를 건너어서 왼쪽으로 가세요.",
+      "answers": [
+        "다리를 건너서 왼쪽으로 가세요"
+      ],
+      "why_uz": "건너 + 어 → 건너서."
+    },
+    {
+      "id": "u06_l2_e017",
+      "type": "find_error",
+      "targets": [
+        "u06_l2_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "sentence": "집부터 회사까지 멀어요.",
+      "answers": [
+        "집에서 회사까지 멀어요"
+      ],
+      "why_uz": "Joy uchun 에서."
+    },
+    {
+      "id": "u06_l2_e018",
+      "type": "find_error",
+      "targets": [
+        "u06_l2_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "sentence": "열 시에서 두 시까지 수업이 있어요.",
+      "answers": [
+        "열 시부터 두 시까지 수업이 있어요"
+      ],
+      "why_uz": "Vaqt uchun 부터."
+    },
+    {
+      "id": "u06_l2_e019",
+      "type": "translate",
+      "targets": [
+        "u06_l2_g1"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "source_uz": "Do'stim bilan uchrashib, birga kino ko'rdik.",
+      "answers": [
+        "친구를 만나서 같이 영화를 봤어요",
+        "친구를 만나서 영화를 같이 봤어요",
+        "친구를 만나서 같이 영화 봤어요"
+      ]
+    },
+    {
+      "id": "u06_l2_e020",
+      "type": "translate",
+      "targets": [
+        "u06_l2_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "source_uz": "Uydan maktabgacha qancha vaqt ketadi?",
+      "answers": [
+        "집에서 학교까지 얼마나 걸려요",
+        "집에서 학교까지 시간이 얼마나 걸려요"
+      ]
+    },
+    {
+      "id": "u06_l2_e021",
+      "type": "translate",
+      "targets": [
+        "u06_l2_g1"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "source_uz": "Bu yerda o'tirib kuting.",
+      "answers": [
+        "여기 앉아서 기다리세요",
+        "여기에 앉아서 기다리세요",
+        "여기 앉아서 기다려 주세요",
+        "여기에 앉아서 기다려 주세요"
+      ]
+    },
+    {
+      "id": "u06_l2_e031",
+      "type": "listen_question",
+      "targets": [
+        "u06_l2_g1"
+      ],
+      "prompt_uz": "Chorrahada qayerga burilish kerak?",
+      "audio_text": "사거리에서 왼쪽으로 돌아서 쭉 가세요.",
+      "options": [
+        "Chapga",
+        "O'ngga",
+        "Orqaga",
+        "Hech qayerga"
+      ],
+      "answers": [
+        "Chapga"
+      ],
+      "audio": "c2ec2573714a.mp3"
+    },
+    {
+      "id": "u06_l2_e032",
+      "type": "listen_question",
+      "targets": [
+        "u06_l2_g2"
+      ],
+      "prompt_uz": "Bu yerdan bankkacha piyoda qancha vaqt ketadi?",
+      "audio_text": "여기에서 은행까지 걸어서 십 분 걸려요.",
+      "options": [
+        "O'n daqiqa",
+        "Besh daqiqa",
+        "Yigirma daqiqa",
+        "Bir soat"
+      ],
+      "answers": [
+        "O'n daqiqa"
+      ],
+      "audio": "961c50f3604a.mp3"
+    },
+    {
+      "id": "u06_l2_e033",
+      "type": "listen_question",
+      "targets": [
+        "u06_l2_w010"
+      ],
+      "prompt_uz": "Do'kon qayerda?",
+      "audio_text": "편의점은 약국 맞은편에 있어요.",
+      "options": [
+        "Dorixonaning ro'parasida",
+        "Dorixona yonida",
+        "Bank orqasida",
+        "Maktab oldida"
+      ],
+      "answers": [
+        "Dorixonaning ro'parasida"
+      ],
+      "audio": "50eecd13f0f9.mp3"
+    },
+    {
+      "id": "u06_l2_e101",
+      "type": "conjugate",
+      "targets": [
+        "u06_l2_g1"
+      ],
+      "prompt_uz": "'Borib' shaklini yasang",
+      "base": "가다",
+      "form": "-아서/어서",
+      "answers": [
+        "가서"
+      ]
+    },
+    {
+      "id": "u06_l2_e102",
+      "type": "conjugate",
+      "targets": [
+        "u06_l2_g1"
+      ],
+      "prompt_uz": "'Yasab' shaklini yasang",
+      "base": "만들다",
+      "form": "-아서/어서",
+      "answers": [
+        "만들어서"
+      ]
+    },
+    {
+      "id": "u06_l2_e103",
+      "type": "conjugate",
+      "targets": [
+        "u06_l2_g2"
+      ],
+      "prompt_uz": "'Bu yerdan u yergacha' shaklini yasang",
+      "base": "여기, 거기",
+      "form": "N에서 N까지",
+      "answers": [
+        "여기에서 거기까지",
+        "여기서 거기까지"
+      ]
+    },
+    {
+      "id": "u06_l2_e104",
+      "type": "fill_blank",
+      "targets": [
+        "u06_l2_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Maktabga borib, o'qiyman.'",
+      "sentence": "학교에 ___ 공부해요. (가다)",
+      "answers": [
+        "가서"
+      ]
+    },
+    {
+      "id": "u06_l2_e105",
+      "type": "fill_blank",
+      "targets": [
+        "u06_l2_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Seuldan Pusangacha poyezdda boraman.'",
+      "sentence": "서울에서 부산___ 기차로 가요.",
+      "answers": [
+        "까지"
+      ]
+    },
+    {
+      "id": "u06_l2_e106",
+      "type": "fill_blank",
+      "targets": [
+        "u06_l2_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Dushanbadan jumagacha ishlayman.'",
+      "sentence": "월요일___ 금요일까지 일해요.",
+      "answers": [
+        "부터"
+      ]
+    },
+    {
+      "id": "u06_l2_e107",
+      "type": "situation_choice",
+      "targets": [
+        "u06_l2_g1"
+      ],
+      "prompt_uz": "'Kesib o'tib, chapga boring' qaysi biri?",
+      "options": [
+        "건너서 왼쪽으로 가세요",
+        "건너지만 왼쪽으로 가세요",
+        "건너러 왼쪽으로 가세요",
+        "건너야 왼쪽으로 갔어요"
+      ],
+      "answers": [
+        "건너서 왼쪽으로 가세요"
+      ]
+    },
+    {
+      "id": "u06_l2_e108",
+      "type": "situation_choice",
+      "targets": [
+        "u06_l2_w016"
+      ],
+      "prompt_uz": "Dori sotib olinadigan joy qaysi?",
+      "options": [
+        "약국",
+        "편의점",
+        "은행",
+        "우체국"
+      ],
+      "answers": [
+        "약국"
+      ]
+    },
+    {
+      "id": "u06_l2_e109",
+      "type": "build_sentence",
+      "targets": [
+        "u06_l2_g1"
+      ],
+      "prompt_uz": "'Shahar hokimiyati bekatida tushib, piyoda boring' gapini tuzing",
+      "tokens": [
+        "걸어가세요",
+        "시청역에서",
+        "내려서"
+      ],
+      "answers": [
+        "시청역에서 내려서 걸어가세요"
+      ]
+    },
+    {
+      "id": "u06_l2_e110",
+      "type": "build_sentence",
+      "targets": [
+        "u06_l2_g2"
+      ],
+      "prompt_uz": "'Bu yerdan aeroportgacha bir soat ketadi' gapini tuzing",
+      "tokens": [
+        "공항까지",
+        "시간",
+        "걸려요",
+        "여기에서",
+        "한"
+      ],
+      "answers": [
+        "여기에서 공항까지 한 시간 걸려요"
+      ]
+    },
+    {
+      "id": "u06_l2_e111",
+      "type": "find_error",
+      "targets": [
+        "u06_l2_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "sentence": "버스에서 내리어서 갈아타세요.",
+      "answers": [
+        "버스에서 내려서 갈아타세요"
+      ],
+      "why_uz": "내리 + 어 → 내려서."
+    },
+    {
+      "id": "u06_l2_e112",
+      "type": "find_error",
+      "targets": [
+        "u06_l2_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "sentence": "학교에까지 걸어가요.",
+      "answers": [
+        "학교까지 걸어가요"
+      ],
+      "why_uz": "까지 otga to'g'ridan-to'g'ri qo'shiladi."
+    },
+    {
+      "id": "u06_l2_e113",
+      "type": "translate",
+      "targets": [
+        "u06_l2_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "source_uz": "Toshkentdan Samarqandgacha poyezdda boraman.",
+      "answers": [
+        "타슈켄트에서 사마르칸트까지 기차로 가요",
+        "타슈켄트에서 사마르칸트까지 기차를 타고 가요"
+      ]
+    },
+    {
+      "id": "u06_l2_e114",
+      "type": "translate",
+      "targets": [
+        "u06_l2_g1"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "source_uz": "Ko'prikdan o'tib, o'ngga boring.",
+      "answers": [
+        "다리를 건너서 오른쪽으로 가세요",
+        "다리를 지나서 오른쪽으로 가세요",
+        "다리를 건너서 오른쪽으로 도세요"
+      ]
+    },
+    {
+      "id": "u06_l2_e115",
+      "type": "listen_question",
+      "targets": [
+        "u06_l2_g1"
+      ],
+      "prompt_uz": "Ular qayerda uchrashadi?",
+      "audio_text": "은행 앞에서 만나서 같이 가요.",
+      "options": [
+        "Bank oldida",
+        "Pochta oldida",
+        "Metroda",
+        "Uyda"
+      ],
+      "answers": [
+        "Bank oldida"
+      ],
+      "audio": "8ee00751850e.mp3"
+    }
+  ],
+  "test": [
+    "u06_l2_e101",
+    "u06_l2_e102",
+    "u06_l2_e103",
+    "u06_l2_e104",
+    "u06_l2_e105",
+    "u06_l2_e106",
+    "u06_l2_e107",
+    "u06_l2_e108",
+    "u06_l2_e109",
+    "u06_l2_e110",
+    "u06_l2_e111",
+    "u06_l2_e112",
+    "u06_l2_e113",
+    "u06_l2_e114",
+    "u06_l2_e115"
+  ]
+}

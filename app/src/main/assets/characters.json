@@ -29,6 +29,18 @@
       "name_uz": "Xodim",
       "name_ko": "직원",
       "voice": "female"
+    },
+    {
+      "id": "passerby",
+      "name_uz": "O'tkinchi",
+      "name_ko": "행인",
+      "voice": "male"
+    },
+    {
+      "id": "doctor",
+      "name_uz": "Shifokor",
+      "name_ko": "의사",
+      "voice": "male"
     }
   ]
 }
