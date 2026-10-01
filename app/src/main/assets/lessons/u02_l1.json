@@ -1189,5 +1189,119 @@
     "u02_l1_e113",
     "u02_l1_e114",
     "u02_l1_e115"
-  ]
+  ],
+  "story": {
+    "title_uz": "Do'kondagi birinchi kun",
+    "steps": [
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "아지즈 씨, 이 가게 옷이 정말 싸요.",
+        "uz": "Aziz, bu do'konning kiyimlari juda arzon.",
+        "audio": "e5c17f0c20e4.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "와, 손님이 많아요.",
+        "uz": "Voy, xaridorlar ko'p ekan.",
+        "audio": "3d2fda4d84d4.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "seller",
+        "ko": "어서 오세요. 뭘 찾으세요?",
+        "uz": "Xush kelibsiz. Nima qidiryapsiz?",
+        "audio": "f8092add94a4.mp3"
+      },
+      {
+        "type": "choose_reply",
+        "speaker": "aziz",
+        "prompt_uz": "Aziz ko'ylak qidiryapti. U nima deydi?",
+        "options": [
+          "셔츠를 찾아요.",
+          "셔츠가 찾아요.",
+          "셔츠를 찾으세요."
+        ],
+        "answer": "셔츠를 찾아요.",
+        "uz": "Ko'ylak qidiryapman.",
+        "why_uz": "Qidirilayotgan narsa 을/를 oladi. O'zingiz haqida -(으)세요 ishlatilmaydi.",
+        "audio": "fb03f5b65791.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "seller",
+        "ko": "이 셔츠 어때요? 정말 예뻐요.",
+        "uz": "Bu ko'ylak qalay? Juda chiroyli.",
+        "audio": "94555671d468.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "좋아요. 그런데 사이즈가 좀 작아요.",
+        "uz": "Yaxshi. Lekin o'lchami biroz kichik.",
+        "audio": "164cd23259f4.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "seller",
+        "ko": "그럼 이거 한번 입어 보세요. 탈의실은 저기예요.",
+        "uz": "Unda buni bir kiyib ko'ring. Kiyinish xonasi u yerda.",
+        "audio": "ace061f5bf6e.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "아지즈 씨, 이 모자도 한번 써 보세요.",
+        "uz": "Aziz, bu shapkani ham bir kiyib ko'ring.",
+        "audio": "6f1cf206fcca.mp3"
+      },
+      {
+        "type": "quiz",
+        "prompt_uz": "Minji Azizga yana nimani kiyib ko'rishni aytdi?",
+        "options": [
+          "Shapka",
+          "Ko'zoynak",
+          "Qo'lqop"
+        ],
+        "answer": "Shapka",
+        "why_uz": "모자 = shapka. Shapka uchun 쓰다 fe'li: 써 보세요."
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "셔츠가 아주 좋아요. 모자도 어울려요?",
+        "uz": "Ko'ylak juda yaxshi. Shapka ham yarashyaptimi?",
+        "audio": "fd0841f21313.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "네, 정말 잘 어울려요!",
+        "uz": "Ha, juda yarashyapti!",
+        "audio": "549b0a529ba2.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "이 셔츠하고 모자 얼마예요?",
+        "uz": "Bu ko'ylak bilan shapka qancha?",
+        "audio": "07734d3bcb92.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "seller",
+        "ko": "모두 오만 원이에요.",
+        "uz": "Hammasi ellik ming von.",
+        "audio": "d444a08fd4ae.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "좀 비싸요. 그래도 사요!",
+        "uz": "Biroz qimmat. Baribir olaman!",
+        "audio": "2c3218e3c572.mp3"
+      }
+    ]
+  }
 }

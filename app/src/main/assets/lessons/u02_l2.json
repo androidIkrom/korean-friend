@@ -1190,5 +1190,119 @@
     "u02_l2_e113",
     "u02_l2_e114",
     "u02_l2_e115"
-  ]
+  ],
+  "story": {
+    "title_uz": "Qaysi palto yaxshiroq?",
+    "steps": [
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "민지 씨, 저는 겨울 코트가 없어요.",
+        "uz": "Minji, mening qishki paltom yo'q.",
+        "audio": "58cf416909da.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "그럼 오늘 같이 코트를 사요!",
+        "uz": "Unda bugun birga palto olamiz!",
+        "audio": "41096d73c2a5.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "seller",
+        "ko": "어서 오세요. 이 검은색 코트는 요즘 인기가 많아요.",
+        "uz": "Xush kelibsiz. Bu qora palto hozir juda xaridorgir.",
+        "audio": "07fbc0d3b8e3.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "좀 무거워요. 더 가벼운 코트는 없어요?",
+        "uz": "Biroz og'ir. Yengilroq palto yo'qmi?",
+        "audio": "b48bf6e3fa82.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "seller",
+        "ko": "이 회색 코트가 그 코트보다 더 가벼워요.",
+        "uz": "Bu kulrang palto u paltodan yengilroq.",
+        "audio": "6d76d066e982.mp3"
+      },
+      {
+        "type": "quiz",
+        "prompt_uz": "Qaysi palto yengilroq?",
+        "options": [
+          "Kulrang",
+          "Qora",
+          "Oq"
+        ],
+        "answer": "Kulrang",
+        "why_uz": "회색 = kulrang: 회색 코트가 그 코트보다 더 가벼워요."
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "아지즈 씨는 밝은 색이 더 잘 어울려요.",
+        "uz": "Aziz, sizga och rang ko'proq yarashadi.",
+        "audio": "6146de313c47.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "그래요? 그럼 흰색 코트도 있어요?",
+        "uz": "Shundaymi? Unda oq palto ham bormi?",
+        "audio": "09c26d8409b3.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "seller",
+        "ko": "네, 있어요. 그런데 흰색 코트는 조금 얇아요.",
+        "uz": "Ha, bor. Lekin oq palto biroz yupqa.",
+        "audio": "f0a08c378381.mp3"
+      },
+      {
+        "type": "choose_reply",
+        "speaker": "aziz",
+        "prompt_uz": "Aziz qalinroq palto so'ramoqchi. U nima deydi?",
+        "options": [
+          "더 두꺼운 코트는 없어요?",
+          "더 두껍은 코트는 없어요?",
+          "더 두꺼워 코트는 없어요?"
+        ],
+        "answer": "더 두꺼운 코트는 없어요?",
+        "uz": "Qalinroq palto yo'qmi?",
+        "why_uz": "두껍다 — ㅂ 불규칙: ot oldidan 두꺼운 bo'ladi.",
+        "audio": "3594118b6058.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "seller",
+        "ko": "이 초록색 코트는 두껍고 따뜻해요.",
+        "uz": "Bu yashil palto qalin va issiq.",
+        "audio": "d77d097cc04f.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "와, 색깔이 예뻐요. 디자인도 좋아요.",
+        "uz": "Voy, rangi chiroyli. Dizayni ham yaxshi.",
+        "audio": "1385da73bb00.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "이 코트 주세요. 카드도 돼요?",
+        "uz": "Shu paltoni bering. Karta ham bo'ladimi?",
+        "audio": "6f3c6dcf3a3b.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "seller",
+        "ko": "네, 돼요. 오늘은 할인도 있어요!",
+        "uz": "Ha, bo'ladi. Bugun chegirma ham bor!",
+        "audio": "2a8932eb7902.mp3"
+      }
+    ]
+  }
 }
