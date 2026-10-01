@@ -185,4 +185,9 @@
     <string name="story_xp">+%1$d XP</string>
     <string name="story_replayed">Qayta o\'tildi</string>
     <string name="story_close">Yopish</string>
+    <string name="reminder_channel">Kunlik eslatma</string>
+    <string name="settings_reminder">🔔 Kunlik eslatma</string>
+    <string name="settings_reminder_time">Vaqti: %1$s</string>
+    <string name="settings_reminder_denied">Bildirishnomaga ruxsat berilmagan.</string>
+    <string name="settings_reminder_open">Ruxsatni sozlash</string>
 </resources>

@@ -14,6 +14,7 @@ import androidx.compose.material3.NavigationBarItem
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
@@ -91,7 +92,7 @@ private val tabs = listOf(
 )
 
 @Composable
-fun HangulFriendNav(container: AppContainer) {
+fun HangulFriendNav(container: AppContainer, openReview: Boolean = false) {
     val settings: Settings? by container.settings.settings.collectAsState(initial = null)
     val loaded = settings ?: run {
         Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) { CircularProgressIndicator() }
@@ -99,6 +100,10 @@ fun HangulFriendNav(container: AppContainer) {
     }
     val nav = rememberNavController()
     val backStack by nav.currentBackStackEntryAsState()
+    // A tapped reminder opens the review session once, on top of Home.
+    LaunchedEffect(Unit) {
+        if (openReview && loaded.onboarded) nav.navigate(Routes.session(SessionMode.REVIEW))
+    }
     val route = backStack?.destination?.route
     Scaffold(
         bottomBar = {

@@ -64,6 +64,10 @@ class SettingsViewModel(
         viewModelScope.launch { settingsRepo.setDailyGoalXp(n) }
     }
 
+    fun setReminder(enabled: Boolean, minutes: Int) {
+        viewModelScope.launch { settingsRepo.setReminder(enabled, minutes) }
+    }
+
     fun setDailyNewLimit(n: Int) {
         viewModelScope.launch { settingsRepo.setDailyNewLimit(n) }
     }
@@ -92,6 +96,7 @@ fun SettingsScreen(vm: SettingsViewModel, modifier: Modifier = Modifier) {
             valueRange = 20f..200f,
             steps = 17,
         )
+        ReminderRow(settings, vm::setReminder)
         Text(stringResource(R.string.settings_current_lesson), style = MaterialTheme.typography.titleMedium)
         val picked = pending
         if (picked != null && picked != settings.currentLessonId) {
