@@ -11,6 +11,7 @@ object GameRules {
     const val XP_BOSS = 200
     const val XP_GOAL = 50
     const val XP_GAME = 5
+    const val XP_STORY = 30
     const val DEFAULT_GOAL = 50
 
     val ACHIEVEMENTS = listOf("first_lesson", "first_unit", "words_100", "words_500", "streak_7", "streak_30", "first_boss")

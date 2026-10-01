@@ -69,3 +69,7 @@ data class LessonProgressEntity(
     val stage: Int,
     val bestTestScore: Int?,
 )
+
+/** A finished story episode; its first insert is what awards story XP. */
+@Entity(tableName = "story_progress")
+data class StoryProgressEntity(@PrimaryKey val lessonId: String, val completedAtMs: Long)

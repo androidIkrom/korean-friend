@@ -13,6 +13,7 @@ import uz.hangulfriend.data.AppDatabase
 import uz.hangulfriend.data.GameRepository
 import uz.hangulfriend.data.ProgressRepository
 import uz.hangulfriend.data.SettingsRepository
+import uz.hangulfriend.data.StoryRepository
 import uz.hangulfriend.data.StudyRepository
 import uz.hangulfriend.speech.SpeechInput
 import uz.hangulfriend.srs.FsrsScheduler
@@ -34,6 +35,7 @@ class AppContainer(context: Context) {
     val sessionBuilder = SessionBuilder(Random.Default)
     val grader = Grader(study)
     val game = GameRepository(db, clock)
+    val story = StoryRepository(db, game, clock)
 
     val speech = SpeechInput(context)
     val tutor = TutorService(

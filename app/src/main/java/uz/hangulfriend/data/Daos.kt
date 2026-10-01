@@ -114,3 +114,16 @@ interface ProgressDao {
     @Upsert
     suspend fun upsert(progress: LessonProgressEntity)
 }
+
+@Dao
+interface StoryDao {
+    /** Returns -1 when the episode was already finished. */
+    @Insert(onConflict = OnConflictStrategy.IGNORE)
+    suspend fun insertIgnore(progress: StoryProgressEntity): Long
+
+    @Query("SELECT * FROM story_progress")
+    fun observeAll(): Flow<List<StoryProgressEntity>>
+
+    @Query("SELECT * FROM story_progress")
+    suspend fun all(): List<StoryProgressEntity>
+}
