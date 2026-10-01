@@ -1144,5 +1144,119 @@
     "u01_l2_e113",
     "u01_l2_e114",
     "u01_l2_e115"
-  ]
+  ],
+  "story": {
+    "title_uz": "Buvining kasbi",
+    "steps": [
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "민지 씨, 주말에 뭐 했어요?",
+        "uz": "Minji, dam olish kunlari nima qildingiz?",
+        "audio": "c6237bb625dd.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "할머니 댁에 갔어요. 할머니가 맛있는 음식을 만드셨어요.",
+        "uz": "Buvimnikiga bordim. Buvim mazali ovqat tayyorladilar.",
+        "audio": "89a8c6237464.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "할머니는 전에 무슨 일을 하셨어요?",
+        "uz": "Buvingiz avval qanday ish qilganlar?",
+        "audio": "18852832879f.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "할머니는 전에 고등학교 선생님이셨어요.",
+        "uz": "Buvim avval maktab o'qituvchisi edilar.",
+        "audio": "2c0b53585577.mp3"
+      },
+      {
+        "type": "quiz",
+        "prompt_uz": "Minjining buvisi avval kim bo'lgan?",
+        "options": [
+          "O'qituvchi",
+          "Shifokor",
+          "Oshpaz"
+        ],
+        "answer": "O'qituvchi",
+        "why_uz": "선생님이셨어요 = o'qituvchi edilar."
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "와, 그럼 할아버지는요?",
+        "uz": "Voy, bobongiz-chi?",
+        "audio": "2a43b97ce5a5.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "할아버지는 은행원이셨어요. 작년에 은퇴하셨어요.",
+        "uz": "Bobom bank xodimi edilar. O'tgan yili nafaqaga chiqdilar.",
+        "audio": "652f11172134.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "아지즈 씨 부모님은 어떤 분이세요?",
+        "uz": "Aziz, ota-onangiz qanday odamlar?",
+        "audio": "b9b30636a27d.mp3"
+      },
+      {
+        "type": "choose_reply",
+        "speaker": "aziz",
+        "prompt_uz": "Aziz 'Otam jim va mehribonlar' demoqchi. U nima deydi?",
+        "options": [
+          "아버지는 조용하고 친절하세요.",
+          "아버지는 조용해고 친절하세요.",
+          "아버지는 조용하지 친절하세요."
+        ],
+        "answer": "아버지는 조용하고 친절하세요.",
+        "uz": "Otam jim va mehribonlar.",
+        "why_uz": "-고 o'zakka qo'shiladi: 조용하 + 고.",
+        "audio": "b220f93ffd72.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "어머니는요?",
+        "uz": "Onangiz-chi?",
+        "audio": "734c293b9328.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "어머니는 재미있고 부지런하세요. 전에 요리사셨어요.",
+        "uz": "Onam quvnoq va mehnatkash. Avval oshpaz edilar.",
+        "audio": "0a9885c44583.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "와, 그럼 아지즈 씨도 요리를 잘해요?",
+        "uz": "Voy, unda siz ham yaxshi ovqat pishirasizmi?",
+        "audio": "f44cf685fa25.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "아니요, 저는 라면만 만들어요.",
+        "uz": "Yo'q, men faqat ramen tayyorlayman.",
+        "audio": "811351c39387.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "하하, 괜찮아요!",
+        "uz": "Haha, hechqisi yo'q!",
+        "audio": "3f1d1ed40292.mp3"
+      }
+    ]
+  }
 }
