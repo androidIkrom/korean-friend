@@ -241,4 +241,24 @@
     <string name="home_action_achievements">Yutuqlar</string>
     <string name="rankup_message">Darajangiz %1$d ga yetdi. Rank oshdi!</string>
     <string name="rankup_accept">Qabul qilish</string>
+    <string name="map_tower_title">Darvozalar minorasi</string>
+    <string name="map_metro_title">Metro xaritasi</string>
+    <string name="map_cleared_count">%1$d/%2$d tozalandi</string>
+    <string name="map_active_gate">FAOL DARVOZA</string>
+    <string name="map_active_station">SIZ SHU YERDASIZ</string>
+    <string name="map_enter_gate">DARVOZAGA KIRISH</string>
+    <string name="map_enter_station">Bekatga tushish</string>
+    <string name="map_cleared">TOZALANDI</string>
+    <string name="map_lesson_line">%1$d-dars · %2$s</string>
+    <string-array name="unit_topics_ko">
+        <item>가족</item>
+        <item>쇼핑</item>
+        <item>여행</item>
+        <item>취미</item>
+        <item>은행·우체국</item>
+        <item>길 찾기</item>
+        <item>약속·병원</item>
+        <item>감정·규칙</item>
+        <item>전화·일상</item>
+    </string-array>
 </resources>

@@ -151,7 +151,7 @@ fun HangulFriendNav(container: AppContainer, openReview: Boolean = false) {
                 )
             }
             composable(Routes.MAP) {
-                val vm = viewModel { BookMapViewModel(container.content, container.progress) }
+                val vm = viewModel { BookMapViewModel(container.content, container.progress, container.settings) }
                 BookMapScreen(
                     vm,
                     onOpenLesson = { nav.navigate(Routes.lesson(it)) },
