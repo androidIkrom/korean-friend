@@ -2,7 +2,7 @@
   "id": "u03_l2",
   "unit": 3,
   "lesson": 2,
-  "title_ko": "막국수는 강원도에서 자주 먹는 음식이에요",
+  "title_ko": "막국수는 강원도에서 많이 먹는 음식이에요",
   "title_uz": "Makguksu — Gangvondoda ko'p yeyiladigan taom",
   "topic_uz": "Sayohat",
   "reviewed": false,
@@ -279,13 +279,13 @@
     },
     {
       "id": "u03_l2_w028",
-      "ko": "한 번도",
-      "uz": "bir marta ham",
+      "ko": "별로",
+      "uz": "unchalik (inkor bilan)",
       "pos": "ravish",
-      "example_ko": "한 번도 안 가 봤어요.",
-      "example_uz": "Bir marta ham borib ko'rmaganman.",
-      "audio": "7d33c6a4b40c.mp3",
-      "example_audio": "ff03e36ec0d8.mp3"
+      "example_ko": "이 옷은 별로 안 비싸요.",
+      "example_uz": "Bu kiyim unchalik qimmat emas.",
+      "audio": "cf5fd686d7a9.mp3",
+      "example_audio": "b771d51960b5.mp3"
     },
     {
       "id": "u03_l2_w029",
@@ -353,9 +353,9 @@
       ],
       "examples": [
         {
-          "ko": "막국수는 강원도에서 자주 먹는 음식이에요.",
-          "uz": "Makguksu — Gangvondoda tez-tez yeyiladigan taom.",
-          "audio": "3e2d0278534f.mp3"
+          "ko": "막국수는 강원도에서 많이 먹는 음식이에요.",
+          "uz": "Makguksu — Gangvondoda ko'p yeyiladigan taom.",
+          "audio": "ee6093ae1bd3.mp3"
         },
         {
           "ko": "제가 좋아하는 음식은 비빔밥이에요.",
@@ -399,97 +399,92 @@
     },
     {
       "id": "u03_l2_g2",
-      "pattern": "V-(으)ㄴ 적이 있다/없다",
-      "meaning_uz": "Tajriba: '...-gan(man)' / '...-maganman'",
-      "explanation_md": "**-(으)ㄴ 적이 있다** hayotda biror ishni **qilgan-qilmaganlik tajribasi** haqida gapiradi. **적** — \"payt, holat\" ma'nosidagi so'z.\n\n- **막국수를 먹은 적이 있어요.** — *Makguksu yegan(man).*\n- **경주에 간 적이 없어요.** — *Kyonjuga bormaganman.*\n\n### Qanday yasaladi\n\n- **받침 yo'q** → **-ㄴ 적이 있다**: 가다 → **간 적이 있어요**, 보다 → **본 적이 있어요**\n- **받침 bor** → **-은 적이 있다**: 먹다 → **먹은 적이 있어요**, 읽다 → **읽은 적이 있어요**\n- **ㄹ bilan tugasa** → ㄹ tushadi: 만들다 → **만든 적이 있어요**, 살다 → **산 적이 있어요**\n- **듣다** → **들은 적이 있어요**\n\n### -아/어 보다 bilan birga\n\n2-bo'limdagi **-아/어 보다** bilan birga ko'p ishlatiladi: **먹어 본 적이 있어요?** — *Yeb ko'rganmisiz?* Ma'nosi deyarli bir xil, faqat \"sinab ko'rish\" tuyg'usi qo'shiladi.\n\n### Inkor\n\n**있다** o'rniga **없다**: **한 번도 먹은 적이 없어요.** — *Bir marta ham yemaganman.*",
+      "pattern": "A/V-지 않다",
+      "meaning_uz": "Inkor (uzun shakl): '...-maydi', '... emas'",
+      "explanation_md": "1-kitobda inkorning **qisqa** shaklini o'rgangansiz: **안** + fe'l/sifat (**안 먹어요**, **안 비싸요**). Endi **uzun** shakl: o'zakka **-지 않다** qo'shiladi.\n\n**막국수는 별로 맵지 않아요.** — *Makguksu unchalik achchiq emas.*\n\n### Qanday yasaladi\n\nO'zakdan **-다** olib tashlanadi va **-지 않아요** qo'shiladi — 받침 bor-yo'qligi muhim emas:\n\n- 먹다 → **먹지 않아요**\n- 맵다 → **맵지 않아요** (ㅂ o'zgarmaydi!)\n- 비싸다 → **비싸지 않아요**\n- 공부하다 → **공부하지 않아요**\n\nO'tgan zamon: **-지 않았어요** — 어제는 **춥지 않았어요**. Kelasi zamon: **-지 않을 거예요**.\n\n### 안 yoki -지 않다?\n\nMa'nosi bir xil: **안 먹어요 = 먹지 않아요**. Og'zaki nutqda **안** ko'proq, yozuvda va rasmiyroq gapda **-지 않다** ko'proq ishlatiladi. Uzun so'zlarda ham -지 않다 qulay: **운동하지 않아요**.\n\n### Istisnolar\n\n- **N이다** inkori — **N이/가 아니다**: 학생이 **아니에요** (~~학생이지 않아요~~ emas).\n- **있다** odatda **없다** bilan almashadi: 시간이 **없어요**.\n\n### Imlo\n\n**않아요** — ㄶ bilan yoziladi (~~안아요~~ emas).",
       "formation": [
         {
-          "condition_uz": "받침 yo'q",
-          "rule": "-ㄴ 적이 있다",
-          "example": "가다 → 간 적이 있어요"
+          "condition_uz": "Har qanday fe'l/sifat",
+          "rule": "-지 않아요",
+          "example": "먹다 → 먹지 않아요, 맵다 → 맵지 않아요"
         },
         {
-          "condition_uz": "받침 bor",
-          "rule": "-은 적이 있다",
-          "example": "먹다 → 먹은 적이 있어요"
+          "condition_uz": "O'tgan zamon",
+          "rule": "-지 않았어요",
+          "example": "춥다 → 춥지 않았어요"
         },
         {
-          "condition_uz": "ㄹ bilan tugasa",
-          "rule": "ㄹ tushadi + -ㄴ",
-          "example": "만들다 → 만든 적이 있어요"
-        },
-        {
-          "condition_uz": "Inkor",
-          "rule": "-(으)ㄴ 적이 없다",
-          "example": "간 적이 없어요"
+          "condition_uz": "N이다 (istisno)",
+          "rule": "N이/가 아니에요",
+          "example": "학생이 아니에요"
         }
       ],
       "examples": [
         {
-          "ko": "막국수를 먹어 본 적이 있어요?",
-          "uz": "Makguksu yeb ko'rganmisiz?",
-          "audio": "b81dea11eb8f.mp3"
+          "ko": "막국수는 별로 맵지 않아요.",
+          "uz": "Makguksu unchalik achchiq emas.",
+          "audio": "0c9b9267fe83.mp3"
         },
         {
-          "ko": "네, 한 번 먹은 적이 있어요.",
-          "uz": "Ha, bir marta yeganman.",
-          "audio": "458de97be2f0.mp3"
+          "ko": "이 음식은 비싸지 않아요.",
+          "uz": "Bu taom qimmat emas.",
+          "audio": "915a455bc9f7.mp3"
         },
         {
-          "ko": "저는 경주에 간 적이 없어요.",
-          "uz": "Men Kyonjuga bormaganman.",
-          "audio": "58c62e47eaba.mp3"
+          "ko": "저는 고기를 먹지 않아요.",
+          "uz": "Men go'sht yemayman.",
+          "audio": "6c6394e63b27.mp3"
         },
         {
-          "ko": "한국 친구 집에 간 적이 있어요.",
-          "uz": "Koreys do'stimning uyiga borganman.",
-          "audio": "517cd36b991a.mp3"
+          "ko": "어제는 춥지 않았어요.",
+          "uz": "Kecha sovuq emas edi.",
+          "audio": "5d6415d0060b.mp3"
         },
         {
-          "ko": "김치를 만든 적이 있어요.",
-          "uz": "Kimchi tayyorlaganman.",
-          "audio": "68bf05bb2588.mp3"
+          "ko": "주말에는 일하지 않아요.",
+          "uz": "Dam olish kunlari ishlamayman.",
+          "audio": "f53561be445b.mp3"
         }
       ],
       "mistakes": [
         {
-          "wrong": "막국수를 먹는 적이 있어요",
-          "right": "막국수를 먹은 적이 있어요",
-          "why_uz": "Tajriba o'tgan voqea: -는 emas, -(으)ㄴ ishlatiladi."
+          "wrong": "맵 않아요",
+          "right": "맵지 않아요",
+          "why_uz": "O'zak bilan 않다 orasida -지 bo'lishi shart."
         },
         {
-          "wrong": "부산에 갔은 적이 있어요",
-          "right": "부산에 간 적이 있어요",
-          "why_uz": "적 dan oldin o'tgan zamon qo'shimchasi (았/었) qo'yilmaydi: 가다 → 간."
+          "wrong": "먹지 안아요",
+          "right": "먹지 않아요",
+          "why_uz": "않다 ㄶ bilan yoziladi: 않아요."
         },
         {
-          "wrong": "김치를 만들은 적이 있어요",
-          "right": "김치를 만든 적이 있어요",
-          "why_uz": "만들다 → 만든 (ㄹ tushadi)."
+          "wrong": "학생이지 않아요",
+          "right": "학생이 아니에요",
+          "why_uz": "N이다 ning inkori -지 않다 emas, 아니다."
         }
       ],
-      "uz_compare": "O'zbekchada tajriba '-gan + man' bilan aytiladi: 'Kyonjuga borGANman'. Koreyschada 간 적이 있어요 — so'zma-so'z 'borgan payti bor'. Inkor: 'bormaganman' = 간 적이 없어요."
+      "uz_compare": "O'zbekchada inkor fe'lning ichiga '-ma-' qo'shiladi (yeMAYman) yoki 'emas' so'zi keladi (achchiq emas). Koreyschada ikki yo'l bor: qisqa 안 (fe'ldan oldin) va uzun -지 않다 (fe'ldan keyin). Ma'nosi bir xil."
     }
   ],
   "dialogue": {
     "lines": [
       {
         "speaker": "minji",
-        "ko": "아지즈 씨, 막국수를 먹어 본 적이 있어요?",
+        "ko": "아지즈 씨, 막국수를 먹어 봤어요?",
         "uz": "Aziz, makguksu yeb ko'rganmisiz?",
-        "audio": "a669c099207b.mp3"
+        "audio": "95ec724b78d7.mp3"
       },
       {
         "speaker": "aziz",
-        "ko": "아니요, 먹은 적이 없어요. 막국수가 뭐예요?",
-        "uz": "Yo'q, yemaganman. Makguksu nima?",
-        "audio": "572bc21106bb.mp3"
+        "ko": "아니요, 안 먹어 봤어요. 막국수가 뭐예요?",
+        "uz": "Yo'q, yeb ko'rmaganman. Makguksu nima?",
+        "audio": "7a8b661e947c.mp3"
       },
       {
         "speaker": "minji",
-        "ko": "메밀로 만든 국수예요. 강원도에서 자주 먹는 음식이에요.",
-        "uz": "Grechkadan tayyorlangan ugra. Gangvondoda tez-tez yeyiladigan taom.",
-        "audio": "7d2d573771b9.mp3"
+        "ko": "메밀로 만든 국수예요. 강원도에서 많이 먹는 음식이에요.",
+        "uz": "Grechkadan tayyorlangan ugra. Gangvondoda ko'p yeyiladigan taom.",
+        "audio": "b718525a818b.mp3"
       },
       {
         "speaker": "aziz",
@@ -499,9 +494,9 @@
       },
       {
         "speaker": "minji",
-        "ko": "조금 매워요. 그래도 정말 맛있어요.",
-        "uz": "Biroz achchiq. Lekin juda mazali.",
-        "audio": "57f10a322ca1.mp3"
+        "ko": "괜찮아요. 막국수는 별로 맵지 않아요.",
+        "uz": "Xavotir olmang. Makguksu unchalik achchiq emas.",
+        "audio": "eeff27e1192e.mp3"
       },
       {
         "speaker": "seller",
@@ -588,11 +583,11 @@
       "targets": [
         "u03_l2_g2"
       ],
-      "prompt_uz": "'Borganman' shaklini yasang",
-      "base": "가다",
-      "form": "-(으)ㄴ 적이 있어요",
+      "prompt_uz": "'Yemayman' shaklini yasang (uzun inkor)",
+      "base": "먹다",
+      "form": "-지 않아요",
       "answers": [
-        "간 적이 있어요"
+        "먹지 않아요"
       ]
     },
     {
@@ -601,11 +596,12 @@
       "targets": [
         "u03_l2_g2"
       ],
-      "prompt_uz": "'Yeganman' shaklini yasang",
-      "base": "먹다",
-      "form": "-(으)ㄴ 적이 있어요",
+      "prompt_uz": "'Achchiq emas' shaklini yasang",
+      "base": "맵다",
+      "form": "-지 않아요",
+      "hint_uz": "ㅂ o'zgarmaydi",
       "answers": [
-        "먹은 적이 있어요"
+        "맵지 않아요"
       ]
     },
     {
@@ -614,13 +610,12 @@
       "targets": [
         "u03_l2_g2"
       ],
-      "prompt_uz": "'Tayyorlaganman' shaklini yasang",
-      "base": "만들다",
-      "form": "-(으)ㄴ 적이 있어요",
+      "prompt_uz": "'Qimmat emas edi' shaklini yasang",
+      "base": "비싸다",
+      "form": "-지 않았어요",
       "answers": [
-        "만든 적이 있어요"
-      ],
-      "hint_uz": "ㄹ tushib qoladi"
+        "비싸지 않았어요"
+      ]
     },
     {
       "id": "u03_l2_e007",
@@ -652,10 +647,10 @@
       "targets": [
         "u03_l2_g2"
       ],
-      "prompt_uz": "Bo'sh joyni to'ldiring: 'Men Kyonjuga bormaganman.'",
-      "sentence": "저는 경주에 ___ 적이 없어요. (가다)",
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Bu makguksu unchalik achchiq emas.'",
+      "sentence": "이 막국수는 별로 ___. (맵다)",
       "answers": [
-        "간"
+        "맵지 않아요"
       ]
     },
     {
@@ -664,12 +659,12 @@
       "targets": [
         "u03_l2_g2"
       ],
-      "prompt_uz": "Bo'sh joyni to'ldiring: 'Koreys qo'shiqlarini eshitganmisiz?'",
-      "sentence": "한국 노래를 ___ 적이 있어요? (듣다)",
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Men nonushta qilmayman.'",
+      "sentence": "저는 아침을 ___. (먹다)",
       "answers": [
-        "들은"
-      ],
-      "hint_uz": "듣다 → 들 (ㄷ → ㄹ)"
+        "먹지 않아요",
+        "안 먹어요"
+      ]
     },
     {
       "id": "u03_l2_e011",
@@ -694,15 +689,15 @@
       "targets": [
         "u03_l2_g2"
       ],
-      "prompt_uz": "Siz hech qachon Pusanga bormagansiz. Nima deysiz?",
+      "prompt_uz": "'Bu taom sho'r emas' qaysi biri?",
       "options": [
-        "부산에 간 적이 없어요",
-        "부산에 간 적이 있어요",
-        "부산에 가요",
-        "부산에 갈 거예요"
+        "이 음식은 짜지 않아요",
+        "이 음식은 짜요",
+        "이 음식은 짜지 마세요",
+        "이 음식은 짠 음식이에요"
       ],
       "answers": [
-        "부산에 간 적이 없어요"
+        "이 음식은 짜지 않아요"
       ]
     },
     {
@@ -728,15 +723,15 @@
       "targets": [
         "u03_l2_g1"
       ],
-      "prompt_uz": "'Gangvondoda tez-tez yeyiladigan taom' gapini tuzing",
+      "prompt_uz": "'Gangvondoda ko'p yeyiladigan taom' gapini tuzing",
       "tokens": [
         "음식이에요",
-        "자주",
+        "많이",
         "강원도에서",
         "먹는"
       ],
       "answers": [
-        "강원도에서 자주 먹는 음식이에요"
+        "강원도에서 많이 먹는 음식이에요"
       ]
     },
     {
@@ -745,17 +740,15 @@
       "targets": [
         "u03_l2_g2"
       ],
-      "prompt_uz": "'Men makguksu yeb ko'rganman' gapini tuzing",
+      "prompt_uz": "'Makguksu unchalik achchiq emas' gapini tuzing",
       "tokens": [
-        "본",
-        "막국수를",
-        "있어요",
-        "저는",
-        "적이",
-        "먹어"
+        "맵지",
+        "막국수는",
+        "않아요",
+        "별로"
       ],
       "answers": [
-        "저는 막국수를 먹어 본 적이 있어요"
+        "막국수는 별로 맵지 않아요"
       ]
     },
     {
@@ -778,11 +771,11 @@
         "u03_l2_g2"
       ],
       "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
-      "sentence": "막국수를 먹는 적이 있어요.",
+      "sentence": "이 시장은 비싸 않아요.",
+      "why_uz": "O'zak bilan 않다 orasida -지 kerak.",
       "answers": [
-        "막국수를 먹은 적이 있어요"
-      ],
-      "why_uz": "Tajriba uchun -(으)ㄴ 적: 먹은 적."
+        "이 시장은 비싸지 않아요"
+      ]
     },
     {
       "id": "u03_l2_e018",
@@ -819,12 +812,11 @@
         "u03_l2_g2"
       ],
       "prompt_uz": "Koreyschaga tarjima qiling",
-      "source_uz": "Men Kyonjuga borganman.",
+      "source_uz": "Bu bozor qimmat emas.",
       "answers": [
-        "저는 경주에 간 적이 있어요",
-        "경주에 간 적이 있어요",
-        "저는 경주에 가 본 적이 있어요",
-        "경주에 가 본 적이 있어요"
+        "이 시장은 비싸지 않아요",
+        "이 시장은 안 비싸요",
+        "시장이 비싸지 않아요"
       ]
     },
     {
@@ -834,12 +826,12 @@
         "u03_l2_g2"
       ],
       "prompt_uz": "Koreyschaga tarjima qiling",
-      "source_uz": "Men kimchi tayyorlamaganman.",
+      "source_uz": "Men go'sht yemayman.",
       "answers": [
-        "저는 김치를 만든 적이 없어요",
-        "김치를 만든 적이 없어요",
-        "저는 김치를 만들어 본 적이 없어요",
-        "김치를 만들어 본 적이 없어요"
+        "저는 고기를 먹지 않아요",
+        "저는 고기를 안 먹어요",
+        "고기를 먹지 않아요",
+        "고기를 안 먹어요"
       ]
     },
     {
@@ -867,18 +859,18 @@
       "targets": [
         "u03_l2_g2"
       ],
-      "prompt_uz": "Gapiruvchi nima demoqda?",
-      "audio_text": "저는 한라산에 올라간 적이 없어요.",
+      "prompt_uz": "Bugun havo qanday?",
+      "audio_text": "오늘은 날씨가 춥지 않아요.",
       "options": [
-        "Hallasanga chiqmagan",
-        "Hallasanga chiqqan",
-        "Hallasanga chiqmoqchi",
-        "Hallasan yoqmaydi"
+        "Sovuq emas",
+        "Juda sovuq",
+        "Yomg'ir yog'yapti",
+        "Qor yog'yapti"
       ],
       "answers": [
-        "Hallasanga chiqmagan"
+        "Sovuq emas"
       ],
-      "audio": "abd9d3b065bf.mp3"
+      "audio": "9a072ebfce37.mp3"
     },
     {
       "id": "u03_l2_e033",
@@ -932,11 +924,11 @@
       "targets": [
         "u03_l2_g2"
       ],
-      "prompt_uz": "'Ko'rganman' shaklini yasang",
-      "base": "보다",
-      "form": "-(으)ㄴ 적이 있어요",
+      "prompt_uz": "'O'qimadim (dars qilmadim)' shaklini yasang",
+      "base": "공부하다",
+      "form": "-지 않았어요",
       "answers": [
-        "본 적이 있어요"
+        "공부하지 않았어요"
       ]
     },
     {
@@ -957,10 +949,11 @@
       "targets": [
         "u03_l2_g2"
       ],
-      "prompt_uz": "Bo'sh joyni to'ldiring: 'Pibimbap yeganman.'",
-      "sentence": "비빔밥을 ___ 적이 있어요. (먹다)",
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Dam olish kunlari ishlamayman.'",
+      "sentence": "주말에는 ___. (일하다)",
       "answers": [
-        "먹은"
+        "일하지 않아요",
+        "일 안 해요"
       ]
     },
     {
@@ -981,15 +974,15 @@
       "targets": [
         "u03_l2_g2"
       ],
-      "prompt_uz": "'Ilgari Koreyaga kelganmisiz?' qaysi biri?",
+      "prompt_uz": "'Kecha sovuq emas edi' qaysi biri?",
       "options": [
-        "전에 한국에 온 적이 있어요?",
-        "전에 한국에 와요?",
-        "한국에 올 거예요?",
-        "한국에 오는 사람이에요?"
+        "어제는 춥지 않았어요",
+        "어제는 추웠어요",
+        "내일은 춥지 않을 거예요",
+        "오늘은 춥지 않아요"
       ],
       "answers": [
-        "전에 한국에 온 적이 있어요?"
+        "어제는 춥지 않았어요"
       ]
     },
     {
@@ -1032,16 +1025,15 @@
       "targets": [
         "u03_l2_g2"
       ],
-      "prompt_uz": "'Men Kyonjuga bormaganman' gapini tuzing",
+      "prompt_uz": "'Kecha havo issiq emas edi' gapini tuzing",
       "tokens": [
-        "간",
-        "경주에",
-        "없어요",
-        "저는",
-        "적이"
+        "덥지",
+        "어제는",
+        "않았어요",
+        "날씨가"
       ],
       "answers": [
-        "저는 경주에 간 적이 없어요"
+        "어제는 날씨가 덥지 않았어요"
       ]
     },
     {
@@ -1064,11 +1056,11 @@
         "u03_l2_g2"
       ],
       "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
-      "sentence": "부산에 갔은 적이 있어요.",
+      "sentence": "이 음식은 짜지 안아요.",
+      "why_uz": "않다 ㄶ bilan yoziladi: 않아요.",
       "answers": [
-        "부산에 간 적이 있어요"
-      ],
-      "why_uz": "적 dan oldin 갔 emas, 간."
+        "이 음식은 짜지 않아요"
+      ]
     },
     {
       "id": "u03_l2_e113",
@@ -1092,13 +1084,11 @@
         "u03_l2_g2"
       ],
       "prompt_uz": "Koreyschaga tarjima qiling",
-      "source_uz": "Makguksu yeb ko'rganmisiz?",
+      "source_uz": "Pusan uzoq emas.",
       "answers": [
-        "막국수를 먹어 본 적이 있어요",
-        "막국수를 먹은 적이 있어요",
-        "막국수 먹어 본 적이 있어요",
-        "막국수를 먹어 봤어요",
-        "막국수를 먹어 보셨어요"
+        "부산은 멀지 않아요",
+        "부산은 안 멀어요",
+        "부산이 멀지 않아요"
       ]
     },
     {
@@ -1107,18 +1097,18 @@
       "targets": [
         "u03_l2_g2"
       ],
-      "prompt_uz": "U sovuq ugra haqida nima dedi?",
-      "audio_text": "저는 냉면을 한 번도 먹은 적이 없어요.",
+      "prompt_uz": "U qanday taomni yemaydi?",
+      "audio_text": "저는 매운 음식을 먹지 않아요.",
       "options": [
-        "Bir marta ham yemagan",
-        "Har kuni yeydi",
-        "Bir marta yegan",
-        "Yaxshi ko'radi"
+        "Achchiq taomni",
+        "Shirin taomni",
+        "Sho'r taomni",
+        "Dengiz mahsulotlarini"
       ],
       "answers": [
-        "Bir marta ham yemagan"
+        "Achchiq taomni"
       ],
-      "audio": "4c65afaef780.mp3"
+      "audio": "28754595ec79.mp3"
     }
   ],
   "test": [
