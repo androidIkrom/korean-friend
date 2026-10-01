@@ -7,7 +7,12 @@ import androidx.activity.enableEdgeToEdge
 import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.produceState
+import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.map
+import kotlinx.coroutines.withContext
+import uz.hangulfriend.ui.avatar.AvatarAssets
+import uz.hangulfriend.ui.avatar.LocalAvatarAssets
 import uz.hangulfriend.audio.AudioPlayer
 import uz.hangulfriend.ui.LocalAudioPlayer
 import uz.hangulfriend.ui.exercise.LocalSpeechInput
@@ -27,9 +32,14 @@ class MainActivity : ComponentActivity() {
         val openReview = savedInstanceState == null && intent.getStringExtra(EXTRA_OPEN) == OPEN_REVIEW
         setContent {
             val theme by container.settings.settings.map { it.theme }.collectAsState(GameThemeId.SYSTEM)
+            // Listing the avatar folder touches the disk, so it happens off the main thread.
+            val avatarAssets by produceState(AvatarAssets(emptySet())) {
+                value = withContext(Dispatchers.IO) { container.avatarAssets }
+            }
             HangulFriendTheme(theme) {
                 CompositionLocalProvider(
                     LocalAudioPlayer provides audio,
+                    LocalAvatarAssets provides avatarAssets,
                     LocalSpeechInput provides container.speech,
                     LocalTutor provides container.tutor,
                 ) {

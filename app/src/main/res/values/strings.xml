@@ -216,4 +216,16 @@
     <string name="rank_title_b">Ritsar</string>
     <string name="rank_title_a">Qo\'mondon</string>
     <string name="rank_title_s">Monarx</string>
+    <string name="avatar_new_jacket">Kurtka va yengil kontur nuri</string>
+    <string name="avatar_new_long_coat">Uzun plash</string>
+    <string name="avatar_new_eye_glow">Ko\'zlar endi nur sochadi</string>
+    <string name="avatar_new_aura">Kuchsiz aura paydo bo\'ldi</string>
+    <string name="avatar_new_pauldrons">Yelka zirhlari</string>
+    <string name="avatar_new_aura_strong">Kuchli aura</string>
+    <string name="avatar_new_cape">Mantiya</string>
+    <string name="avatar_new_blades">Egizak xanjar</string>
+    <string name="avatar_new_hair_light">Sochda nur</string>
+    <string name="avatar_new_monarch_aura">Monarx aurasi</string>
+    <string name="avatar_new_eye_trail">Ko\'z alangasi</string>
+    <string name="avatar_new_companions">Hamrohlar</string>
 </resources>
