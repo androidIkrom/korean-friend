@@ -53,6 +53,10 @@ import uz.hangulfriend.ui.session.SessionMode
 import uz.hangulfriend.ui.session.SessionScreen
 import uz.hangulfriend.ui.session.SessionViewModel
 import uz.hangulfriend.ui.settings.SettingsViewModel
+import uz.hangulfriend.ui.story.EpisodeScreen
+import uz.hangulfriend.ui.story.EpisodeViewModel
+import uz.hangulfriend.ui.story.StoryListScreen
+import uz.hangulfriend.ui.story.StoryListViewModel
 import androidx.navigation.NavType
 import androidx.navigation.navArgument
 
@@ -65,10 +69,14 @@ object Routes {
     const val GAME = "game/{id}"
     const val ACHIEVEMENTS = "achievements"
     const val MISTAKES = "mistakes"
+    const val STORIES = "stories"
+    const val EPISODE = "story/{lessonId}"
     const val LESSON = "lesson/{lessonId}"
     const val SESSION = "session/{mode}?lessonId={lessonId}"
 
     fun lesson(id: String) = "lesson/$id"
+
+    fun episode(id: String) = "story/$id"
 
     fun session(mode: SessionMode, lessonId: String? = null) =
         if (lessonId == null) "session/${mode.route}" else "session/${mode.route}?lessonId=$lessonId"
@@ -119,6 +127,7 @@ fun HangulFriendNav(container: AppContainer) {
                     onGames = { nav.navigate(Routes.GAMES) },
                     onMistakes = { nav.navigate(Routes.MISTAKES) },
                     onAchievements = { nav.navigate(Routes.ACHIEVEMENTS) },
+                    onStories = { nav.navigate(Routes.STORIES) },
                 )
             }
             composable(Routes.MAP) {
@@ -149,6 +158,15 @@ fun HangulFriendNav(container: AppContainer) {
             composable(Routes.MISTAKES) {
                 val vm = viewModel { MistakesViewModel(container.content, container.game) }
                 MistakesScreen(vm, onPractice = { nav.navigate(Routes.session(SessionMode.MISTAKES)) })
+            }
+            composable(Routes.STORIES) {
+                val vm = viewModel { StoryListViewModel(container.content, container.progress, container.story) }
+                StoryListScreen(vm, onOpen = { nav.navigate(Routes.episode(it)) })
+            }
+            composable(Routes.EPISODE) { entry ->
+                val lessonId = entry.arguments?.getString("lessonId").orEmpty()
+                val vm = viewModel { EpisodeViewModel(lessonId, container.content, container.story, container.settings) }
+                EpisodeScreen(vm, onClose = { nav.popBackStack() })
             }
             composable(Routes.LESSON) { entry ->
                 val lessonId = entry.arguments?.getString("lessonId").orEmpty()
