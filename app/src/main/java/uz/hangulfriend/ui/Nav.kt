@@ -185,7 +185,7 @@ fun HangulFriendNav(container: AppContainer, openReview: Boolean = false) {
             }
             composable(Routes.EPISODE) { entry ->
                 val lessonId = entry.arguments?.getString("lessonId").orEmpty()
-                val vm = viewModel { EpisodeViewModel(lessonId, container.content, container.story, container.settings) }
+                val vm = viewModel { EpisodeViewModel(lessonId, container.content, container.story, container.settings, container.game) }
                 EpisodeScreen(vm, onClose = { nav.popBackStack() })
             }
             composable(Routes.LESSON) { entry ->

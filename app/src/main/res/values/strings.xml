@@ -261,4 +261,6 @@
         <item>감정·규칙</item>
         <item>전화·일상</item>
     </string-array>
+    <string name="episode_choice">Tanlov</string>
+    <string name="episode_chip">EPIZOD %1$d · %2$s</string>
 </resources>
