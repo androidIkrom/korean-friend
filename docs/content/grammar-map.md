@@ -20,7 +20,7 @@ Manba: "사랑해요 한국어 2급" onlayn kursining ma'ruzalar ro'yxati (univ.
 | 7-2 | 목이 아파서 왔어요 | A/V-아서/어서 (sabab), N(이)라서 | Kasallik belgilari | yozilgan |
 | 8-1 | 저는 힘들 때 음악을 듣거나 친구하고 이야기해요 | A/V-(으)ㄹ 때, V-거나 V, N(이)나 N | Hissiyotlar | yozilgan |
 | 8-2 | 시험을 볼 때 연필로 써도 돼요? | V-아도/어도 되다, V-(으)면 안 되다 | Talabalik hayoti | yozilgan |
-| 9-1 | 여보세요, 거기 서울대학교지요? | N(이)지요?, A/V-지요?, N한테/에게/께 | Telefon | — |
-| 9-2 | 차 마시면서 책 읽고 있어요 | V-(으)면서, V-고 있다 | Taom buyurtmasi | — |
+| 9-1 | 여보세요, 거기 서울대학교지요? | N(이)지요?, A/V-지요?, N한테/에게/께 | Telefon | yozilgan |
+| 9-2 | 차 마시면서 책 읽고 있어요 | V-(으)면서, V-고 있다 | Taom buyurtmasi | yozilgan |
 
 Bir darsda 2 tadan ortiq grammatika bo'lsa, kichiklari (masalan, N(이)라서, N(이)나 N) asosiy grammatika ichida yoki alohida grammatika kartasi sifatida beriladi.
