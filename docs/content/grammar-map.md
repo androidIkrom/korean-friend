@@ -4,8 +4,8 @@ Manba: "사랑해요 한국어 2급" onlayn kursining ma'ruzalar ro'yxati (univ.
 
 | Dars | Nomi | Grammatika | Lug'at mavzusi | Holat |
 |---|---|---|---|---|
-| 1-1 | 이분은 우리 아버지세요 | N(이)세요, A/V-(으)세요 (hurmat) | Oila | yozilmagan |
-| 1-2 | 어머니는 전에 무슨 일을 하셨어요? | N(이)셨어요, A/V-(으)셨어요, A/V-고 | Hurmat so'zlari | yozilmagan |
+| 1-1 | 이분은 우리 아버지세요 | N(이)세요, A/V-(으)세요 (hurmat) | Oila | yozilgan |
+| 1-2 | 어머니는 전에 무슨 일을 하셨어요? | N(이)셨어요, A/V-(으)셨어요, A/V-고 | Hurmat so'zlari | yozilgan |
 | 2-1 | 한번 입어 보세요 | 'ㅡ' 탈락, V-아/어 보세요 | Kiyim | yozilgan (+ kiyish fe'llari) |
 | 2-2 | 더 긴 치마는 없어요? | A-(으)ㄴ N, 'ㄹ' 탈락 | Sifatlar, ranglar | yozilgan (+ N보다 더) |
 | 3-1 | 날씨가 좋으면 한라산에 갈 거예요 | V-(으)ㄹ 거예요, A/V-(으)면 | Sayohatga tayyorgarlik | yozilgan |
