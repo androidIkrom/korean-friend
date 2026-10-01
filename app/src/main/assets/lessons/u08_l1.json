@@ -1198,5 +1198,119 @@
     "u08_l1_e113",
     "u08_l1_e114",
     "u08_l1_e115"
-  ]
+  ],
+  "story": {
+    "title_uz": "Vatanni sog'inganda",
+    "steps": [
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "아지즈 씨, 오늘 기분이 안 좋아요?",
+        "uz": "Aziz, bugun kayfiyatingiz yo'qmi?",
+        "audio": "fb0a3e1bb572.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "네, 조금 외로워요. 고향이 그리워요.",
+        "uz": "Ha, biroz yolg'izlik qilyapman. Vatanimni sog'indim.",
+        "audio": "5a9af349fb9b.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "고향이 그리울 때 보통 뭐 해요?",
+        "uz": "Vatanni sog'inganingizda odatda nima qilasiz?",
+        "audio": "db9c7b29da39.mp3"
+      },
+      {
+        "type": "choose_reply",
+        "speaker": "aziz",
+        "prompt_uz": "Aziz 'Oila suratlarini ko'raman yoki o'zbek musiqasini tinglayman' demoqchi.",
+        "options": [
+          "가족 사진을 보거나 우즈베키스탄 음악을 들어요.",
+          "가족 사진을 보나 우즈베키스탄 음악을 들어요.",
+          "가족 사진을 봐거나 우즈베키스탄 음악을 들어요."
+        ],
+        "answer": "가족 사진을 보거나 우즈베키스탄 음악을 들어요.",
+        "uz": "Oila suratlarini ko'raman yoki o'zbek musiqasini tinglayman.",
+        "why_uz": "Fe'l bilan -거나: 보 + 거나.",
+        "audio": "57d4831cda4f.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "저는 스트레스를 받을 때 노래방에 가요.",
+        "uz": "Men stress bo'lganda karaokega boraman.",
+        "audio": "84f6d2690043.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "오늘 저녁에 같이 노래방이나 영화관에 가요!",
+        "uz": "Bugun kechqurun birga karaoke yoki kinoga boraylik!",
+        "audio": "6f31ee100ec4.mp3"
+      },
+      {
+        "type": "quiz",
+        "prompt_uz": "Minji qayerga borishni taklif qildi?",
+        "options": [
+          "Karaoke yoki kinoteatr",
+          "Faqat kinoteatr",
+          "Bozor"
+        ],
+        "answer": "Karaoke yoki kinoteatr",
+        "why_uz": "노래방이나 영화관 = karaoke yoki kinoteatr."
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "좋아요. 저는 노래를 잘 못 부르지만 괜찮아요?",
+        "uz": "Yaxshi. Men yaxshi kuylay olmayman, lekin bo'ladimi?",
+        "audio": "f9c6d7178eef.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "하하, 괜찮아요! 노래방에서는 다 즐거워요.",
+        "uz": "Haha, hechqisi yo'q! Karaokeda hamma xursand bo'ladi.",
+        "audio": "34def5044822.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "처음 한국에 왔을 때 노래방에 한 번 갔어요.",
+        "uz": "Koreyaga ilk kelganimda bir marta karaokega borganman.",
+        "audio": "c557290e4d74.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "그때 무슨 노래를 불렀어요?",
+        "uz": "O'shanda qanday qo'shiq aytdingiz?",
+        "audio": "6d1caca791ad.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "한국 노래를 몰라서 우즈베키스탄 노래를 불렀어요.",
+        "uz": "Koreys qo'shiqlarini bilmaganim uchun o'zbek qo'shig'ini aytdim.",
+        "audio": "8bbda19e9296.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "와, 오늘도 우즈베키스탄 노래를 불러 주세요!",
+        "uz": "Voy, bugun ham o'zbek qo'shig'ini kuylab bering!",
+        "audio": "86654a8d4d3f.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "네, 기분이 벌써 좋아요!",
+        "uz": "Xo'p, kayfiyatim allaqachon yaxshi bo'ldi!",
+        "audio": "676911481f33.mp3"
+      }
+    ]
+  }
 }

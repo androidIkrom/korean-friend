@@ -1134,5 +1134,119 @@
     "u09_l1_e113",
     "u09_l1_e114",
     "u09_l1_e115"
-  ]
+  ],
+  "story": {
+    "title_uz": "Ustozga qo'ng'iroq",
+    "steps": [
+      {
+        "type": "line",
+        "speaker": "teacher",
+        "ko": "여보세요.",
+        "uz": "Allo.",
+        "audio": "b6a11dfda40b.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "여보세요, 김 선생님이시지요? 저 아지즈예요.",
+        "uz": "Allo, Kim ustozmisiz? Men Azizman.",
+        "audio": "1dda0ca9baa0.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "teacher",
+        "ko": "아, 아지즈 씨! 무슨 일이에요?",
+        "uz": "Oh, Aziz! Nima gap?",
+        "audio": "214673acefb2.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "내일 숙제가 있지요? 숙제를 잘 몰라요.",
+        "uz": "Ertaga uy vazifasi bor, shundaymi? Uy vazifasini yaxshi tushunmadim.",
+        "audio": "d62741864baa.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "teacher",
+        "ko": "네, 있어요. 교과서 오십 쪽을 읽고 친구한테 이메일을 쓰세요.",
+        "uz": "Ha, bor. Darslikning 50-sahifasini o'qing va do'stingizga elektron xat yozing.",
+        "audio": "7718dcc2a796.mp3"
+      },
+      {
+        "type": "quiz",
+        "prompt_uz": "Uy vazifasi nima?",
+        "options": [
+          "Kitob o'qish va do'stga xat yozish",
+          "So'z yodlash",
+          "Ota-onaga qo'ng'iroq qilish"
+        ],
+        "answer": "Kitob o'qish va do'stga xat yozish",
+        "why_uz": "읽고 친구한테 이메일을 쓰세요."
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "한국 친구에게 써야 돼요?",
+        "uz": "Koreys do'stga yozishim kerakmi?",
+        "audio": "9bfa55cef7f9.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "teacher",
+        "ko": "아니요, 누구에게 써도 돼요.",
+        "uz": "Yo'q, kimga yozsangiz ham bo'ladi.",
+        "audio": "aafced8e67b1.mp3"
+      },
+      {
+        "type": "choose_reply",
+        "speaker": "aziz",
+        "prompt_uz": "Aziz 'Unda Minjiga yozaman' demoqchi.",
+        "options": [
+          "그럼 민지 씨한테 쓸 거예요.",
+          "그럼 민지 씨에 쓸 거예요.",
+          "그럼 민지 씨를 쓸 거예요."
+        ],
+        "answer": "그럼 민지 씨한테 쓸 거예요.",
+        "uz": "Unda Minjiga yozaman.",
+        "why_uz": "Odamga 에 emas, 한테/에게.",
+        "audio": "244285a8fd37.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "teacher",
+        "ko": "좋아요. 그리고 다음 주에 시험이 있지요? 공부 많이 하세요.",
+        "uz": "Yaxshi. Kelasi hafta imtihon bor-ku? Ko'p o'qing.",
+        "audio": "d40803549a65.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "네, 선생님. 그런데 시험이 월요일이지요?",
+        "uz": "Xo'p, ustoz. Imtihon dushanba kuni, shundaymi?",
+        "audio": "e1ec2f70d914.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "teacher",
+        "ko": "맞아요. 월요일 아침 아홉 시예요.",
+        "uz": "To'g'ri. Dushanba ertalab soat to'qqizda.",
+        "audio": "26923c0e1c87.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "감사합니다. 나중에 선생님께 또 질문해도 돼요?",
+        "uz": "Rahmat. Keyinroq sizga yana savol bersam bo'ladimi?",
+        "audio": "7dc37e17533b.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "teacher",
+        "ko": "그럼요. 언제든지 전화하세요.",
+        "uz": "Albatta. Istalgan vaqtda qo'ng'iroq qiling.",
+        "audio": "c397bedb33ec.mp3"
+      }
+    ]
+  }
 }

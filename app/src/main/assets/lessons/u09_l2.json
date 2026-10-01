@@ -1134,5 +1134,119 @@
     "u09_l2_e113",
     "u09_l2_e114",
     "u09_l2_e115"
-  ]
+  ],
+  "story": {
+    "title_uz": "Kafeda birga o'qish",
+    "steps": [
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "여보세요, 아지즈 씨. 지금 뭐 하고 있어요?",
+        "uz": "Allo, Aziz. Hozir nima qilyapsiz?",
+        "audio": "8ea03ddf2665.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "음악을 들으면서 한국어를 공부하고 있어요.",
+        "uz": "Musiqa tinglab turib koreys tilini o'qiyapman.",
+        "audio": "6cebdb202ec6.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "와, 정말 열심히 공부해요!",
+        "uz": "Voy, juda tirishqoqsiz!",
+        "audio": "182d77883fe0.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "처음에는 한국어가 정말 어려웠어요. 지금은 재미있어요.",
+        "uz": "Avvaliga koreys tili juda qiyin edi. Hozir qiziq.",
+        "audio": "fcbd6b8b6c84.mp3"
+      },
+      {
+        "type": "quiz",
+        "prompt_uz": "Aziz hozir nima qilyapti?",
+        "options": [
+          "Musiqa tinglab koreys tilini o'qiyapti",
+          "Ovqat pishiryapti",
+          "Uxlayapti"
+        ],
+        "answer": "Musiqa tinglab koreys tilini o'qiyapti",
+        "why_uz": "음악을 들으면서 한국어를 공부하고 있어요."
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "저는 지금 카페에서 친구를 기다리고 있어요.",
+        "uz": "Men hozir kafeda do'stimni kutyapman.",
+        "audio": "f21b2a59c746.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "무슨 카페예요?",
+        "uz": "Qanaqa kafe?",
+        "audio": "a7ce9a0ea4b9.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "학교 앞에 있는 카페예요. 아지즈 씨도 올 수 있어요?",
+        "uz": "Maktab oldidagi kafe. Siz ham kela olasizmi?",
+        "audio": "eb7600530145.mp3"
+      },
+      {
+        "type": "choose_reply",
+        "speaker": "aziz",
+        "prompt_uz": "Aziz 'Hozir chiqyapman' demoqchi.",
+        "options": [
+          "지금 나가고 있어요.",
+          "지금 나가고 있아요.",
+          "지금 나가서 있어요."
+        ],
+        "answer": "지금 나가고 있어요.",
+        "uz": "Hozir chiqyapman.",
+        "why_uz": "-고 있다: 나가 + 고 있어요.",
+        "audio": "324f80d65b7d.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "좋아요! 우리 커피 마시면서 같이 공부해요.",
+        "uz": "Zo'r! Qahva ichib turib birga o'qiymiz.",
+        "audio": "92f1972b0cc0.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "다음 주에 시험이 있어서 같이 공부하면 좋아요.",
+        "uz": "Kelasi hafta imtihon bo'lgani uchun birga o'qisak yaxshi.",
+        "audio": "0156dfbfbd8a.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "아지즈 씨, 요즘 한국어를 정말 잘해요.",
+        "uz": "Aziz, hozir koreyschada juda yaxshi gapiryapsiz.",
+        "audio": "883e2ab45c06.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "고마워요. 민지 씨가 많이 도와줘서 그래요.",
+        "uz": "Rahmat. Siz ko'p yordam berganingiz uchun.",
+        "audio": "b01b3dd05d28.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "하하, 그럼 이따가 봐요!",
+        "uz": "Haha, unda keyin ko'rishamiz!",
+        "audio": "333a876c5f63.mp3"
+      }
+    ]
+  }
 }
