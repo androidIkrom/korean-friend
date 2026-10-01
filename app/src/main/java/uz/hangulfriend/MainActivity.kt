@@ -1,7 +1,9 @@
 package uz.hangulfriend
 
+import android.graphics.Color
 import android.os.Bundle
 import androidx.activity.ComponentActivity
+import androidx.activity.SystemBarStyle
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.runtime.CompositionLocalProvider
@@ -26,7 +28,11 @@ class MainActivity : ComponentActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
+        // Both game themes are dark, so system bar icons stay light even when the phone uses light mode.
+        enableEdgeToEdge(
+            statusBarStyle = SystemBarStyle.dark(Color.TRANSPARENT),
+            navigationBarStyle = SystemBarStyle.dark(Color.TRANSPARENT),
+        )
         val container = (application as HangulFriendApp).container
         // Only a fresh launch from the reminder opens the review, not a rotation of that launch.
         val openReview = savedInstanceState == null && intent.getStringExtra(EXTRA_OPEN) == OPEN_REVIEW
