@@ -1,7 +1,7 @@
 # 5-bosqich — hikoya, eslatmalar, eksport/import, natija kartasi
 
 Sana: 2026-10-01
-Holat: foydalanuvchi ko'rib chiqishi kutilmoqda
+Holat: tasdiqlangan (2026-10-01)
 Asosiy spec: `2026-09-29-hangul-friend-design.md` (7-bo'lim, 5-bosqich)
 
 ## 1. Maqsad
@@ -84,7 +84,7 @@ Modelda bu `@JsonClassDiscriminator("type")` bilan `sealed interface StoryStep` 
 
 - Epizod dars holati `PASSED`, `COMPLETED` yoki `VERIFIED` bo'lganda ochiladi.
 - Yangi Room jadvali `story_progress(lessonId PK, completedAtMs)`; DB versiyasi 2 → 3, `MIGRATION_2_3` va migratsiya testi.
-- Epizod oxirigacha o'tilganda yozuv qo'shiladi. Faqat birinchi marta yangi `XpSource.STORY` turidagi +30 XP beriladi.
+- Epizod oxirigacha o'tilganda yozuv qo'shiladi. Faqat birinchi marta +30 XP beriladi (`GameRepository.REASON_STORY = "story"`, `GameRules.XP_STORY = 30`).
 - Epizod o'rtasida chiqib ketilsa, progress saqlanmaydi (epizod 2–3 daqiqalik).
 
 ### 2.5 Ekranlar
@@ -103,7 +103,7 @@ Modelda bu `@JsonClassDiscriminator("type")` bilan `sealed interface StoryStep` 
 - **Qaror** (sof funksiya `ReminderPolicy`, JVM test qilinadi): bugungi XP ≥ kunlik maqsad bo'lsa, bildirishnoma chiqmaydi. Aks holda matn tuziladi:
   - takrorlash kartalari bor: "Bugun 23 ta karta kutyapti. Streak: 12 kun 🔥";
   - karta yo'q: "Bugungi maqsadga hali yetmadingiz. 5 daqiqa mashq qilamizmi?";
-  - streak 0: streak qismi yozilmaydi.
+  - streak > 0 bo'lsa, ikkala matn oxiriga " Streak: N kun 🔥" qo'shiladi; streak 0 bo'lsa yozilmaydi.
 - **Bildirishnoma:** `reminders` kanali; bosilganda `MainActivity` takrorlash sessiyasini ochadi.
 
 ## 4. Eksport/import
@@ -136,7 +136,7 @@ Modelda bu `@JsonClassDiscriminator("type")` bilan `sealed interface StoryStep` 
 - **Ma'lumot:** `ProgressStats` (sof funksiya, JVM test) `ShareSnapshot` qaytaradi:
   - daraja va jami XP;
   - streak;
-  - o'rganilgan so'zlar (kamida bir marta takrorlangan `#R` kartalar soni);
+  - o'rganilgan so'zlar (`CardDao.countLearnedWords()` — nishonlardagi son bilan bir xil);
   - tugatilgan (`COMPLETED` va `VERIFIED`) darslar soni / 18;
   - har bir darsning holati;
   - joriy dars nomi.
@@ -170,7 +170,7 @@ Modelda bu `@JsonClassDiscriminator("type")` bilan `sealed interface StoryStep` 
   - keyingi eslatma vaqtigacha kechikishni hisoblash (bugun o'tib ketgan / hali kelmagan);
   - backup DTO aylanishi va format/versiya rad etilishi;
   - `ProgressStats`.
-- **Instrumented:** `MIGRATION_2_3` testi; `BackupService` import tranzaksiyasi (haqiqiy Room bilan).
+- **Robolectric (JVM):** `MIGRATION_2_3` testi; `BackupService` import tranzaksiyasi (haqiqiy in-memory Room bilan); natija kartasi chizilishi (`GraphicsMode.NATIVE`).
 - **Kontent:** `ContentAssetsTest` hikoya qoidalari bilan kengaytiriladi.
 - **Qo'lda (telefonda):** epizodni o'tish, bildirishnoma (vaqtni 1–2 daqiqa keyinga qo'yib), eksport → ilova ma'lumotini tozalash → import, natija kartasini Telegramga yuborish.
 
