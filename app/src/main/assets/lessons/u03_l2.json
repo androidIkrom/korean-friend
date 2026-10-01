@@ -1,0 +1,1131 @@
+{
+  "id": "u03_l2",
+  "unit": 3,
+  "lesson": 2,
+  "title_ko": "막국수는 강원도에서 많이 먹는 음식이에요",
+  "title_uz": "Makguksu — Gangvondoda ko'p yeyiladigan taom",
+  "topic_uz": "Sayohat",
+  "reviewed": false,
+  "words": [
+    {
+      "id": "u03_l2_w001",
+      "ko": "음식",
+      "uz": "taom",
+      "pos": "ot",
+      "example_ko": "한국 음식을 좋아해요.",
+      "example_uz": "Koreys taomlarini yaxshi ko'raman.",
+      "audio": "15f43d9c8e45.mp3",
+      "example_audio": "099360ae0148.mp3"
+    },
+    {
+      "id": "u03_l2_w002",
+      "ko": "유명하다",
+      "uz": "mashhur",
+      "pos": "sifat",
+      "example_ko": "이 식당은 정말 유명해요.",
+      "example_uz": "Bu oshxona juda mashhur.",
+      "audio": "bb44cdae7ce4.mp3",
+      "example_audio": "a9b773cb68e1.mp3"
+    },
+    {
+      "id": "u03_l2_w003",
+      "ko": "맵다",
+      "uz": "achchiq",
+      "pos": "sifat",
+      "example_ko": "김치가 조금 매워요.",
+      "example_uz": "Kimchi biroz achchiq.",
+      "audio": "ecde997549c5.mp3",
+      "example_audio": "6e38648a4280.mp3"
+    },
+    {
+      "id": "u03_l2_w004",
+      "ko": "짜다",
+      "uz": "sho'r",
+      "pos": "sifat",
+      "example_ko": "국이 너무 짜요.",
+      "example_uz": "Sho'rva juda sho'r.",
+      "audio": "61ccac97d232.mp3",
+      "example_audio": "021796d01bd4.mp3"
+    },
+    {
+      "id": "u03_l2_w005",
+      "ko": "달다",
+      "uz": "shirin",
+      "pos": "sifat",
+      "example_ko": "이 과자는 달아요.",
+      "example_uz": "Bu pechenye shirin.",
+      "audio": "dc8e241ce9a6.mp3",
+      "example_audio": "f24feb9c8085.mp3"
+    },
+    {
+      "id": "u03_l2_w006",
+      "ko": "국수",
+      "uz": "ugra (lag'mon)",
+      "pos": "ot",
+      "example_ko": "점심에 국수를 먹었어요.",
+      "example_uz": "Tushlikda ugra yedim.",
+      "audio": "1ac000ea8038.mp3",
+      "example_audio": "1526f37d689b.mp3"
+    },
+    {
+      "id": "u03_l2_w007",
+      "ko": "막국수",
+      "uz": "makguksu (grechka ugrasi)",
+      "pos": "ot",
+      "example_ko": "막국수는 강원도 음식이에요.",
+      "example_uz": "Makguksu — Gangvondo taomi.",
+      "audio": "29deec552e99.mp3",
+      "example_audio": "88fa9c3e884a.mp3"
+    },
+    {
+      "id": "u03_l2_w008",
+      "ko": "냉면",
+      "uz": "sovuq ugra (naengmyon)",
+      "pos": "ot",
+      "example_ko": "여름에 냉면을 자주 먹어요.",
+      "example_uz": "Yozda sovuq ugrani tez-tez yeyman.",
+      "audio": "6617c8aafff3.mp3",
+      "example_audio": "dfb6e009d4b7.mp3"
+    },
+    {
+      "id": "u03_l2_w009",
+      "ko": "메밀",
+      "uz": "grechka",
+      "pos": "ot",
+      "example_ko": "메밀로 국수를 만들어요.",
+      "example_uz": "Grechkadan ugra tayyorlanadi.",
+      "audio": "66ccb84b110d.mp3",
+      "example_audio": "649cfb42ad43.mp3"
+    },
+    {
+      "id": "u03_l2_w010",
+      "ko": "그릇",
+      "uz": "kosa",
+      "pos": "ot",
+      "example_ko": "냉면 한 그릇 주세요.",
+      "example_uz": "Bir kosa sovuq ugra bering.",
+      "audio": "5d800ea0114c.mp3",
+      "example_audio": "b95d6a4ed847.mp3"
+    },
+    {
+      "id": "u03_l2_w011",
+      "ko": "주문하다",
+      "uz": "buyurtma bermoq",
+      "pos": "fe'l",
+      "example_ko": "벌써 주문했어요.",
+      "example_uz": "Allaqachon buyurtma berdim.",
+      "audio": "6fd30a38e903.mp3",
+      "example_audio": "4d5ea0795090.mp3"
+    },
+    {
+      "id": "u03_l2_w012",
+      "ko": "지역",
+      "uz": "hudud",
+      "pos": "ot",
+      "example_ko": "이 지역은 바다가 가까워요.",
+      "example_uz": "Bu hududda dengiz yaqin.",
+      "audio": "3e87595686b2.mp3",
+      "example_audio": "3712ad1da973.mp3"
+    },
+    {
+      "id": "u03_l2_w013",
+      "ko": "강원도",
+      "uz": "Gangvondo viloyati",
+      "pos": "ot",
+      "example_ko": "강원도에는 산이 많아요.",
+      "example_uz": "Gangvondoda tog'lar ko'p.",
+      "audio": "b7207b58b298.mp3",
+      "example_audio": "5c328d900268.mp3"
+    },
+    {
+      "id": "u03_l2_w014",
+      "ko": "경주",
+      "uz": "Kyonju (shahar)",
+      "pos": "ot",
+      "example_ko": "경주는 오래된 도시예요.",
+      "example_uz": "Kyonju — qadimiy shahar.",
+      "audio": "f1fdf298ae88.mp3",
+      "example_audio": "23145e946cbe.mp3"
+    },
+    {
+      "id": "u03_l2_w015",
+      "ko": "부산",
+      "uz": "Pusan (shahar)",
+      "pos": "ot",
+      "example_ko": "부산은 바다가 유명해요.",
+      "example_uz": "Pusan dengizi bilan mashhur.",
+      "audio": "8198e69d991d.mp3",
+      "example_audio": "129d86862fe8.mp3"
+    },
+    {
+      "id": "u03_l2_w016",
+      "ko": "시장",
+      "uz": "bozor",
+      "pos": "ot",
+      "example_ko": "시장에서 과일을 샀어요.",
+      "example_uz": "Bozordan meva oldim.",
+      "audio": "ddbf4ce5d687.mp3",
+      "example_audio": "8c1a1bcdc810.mp3"
+    },
+    {
+      "id": "u03_l2_w017",
+      "ko": "관광지",
+      "uz": "sayyohlik joyi",
+      "pos": "ot",
+      "example_ko": "제주도는 유명한 관광지예요.",
+      "example_uz": "Cheju — mashhur sayyohlik joyi.",
+      "audio": "a2c0ac17f876.mp3",
+      "example_audio": "f2f919ff9543.mp3"
+    },
+    {
+      "id": "u03_l2_w018",
+      "ko": "관광객",
+      "uz": "sayyoh",
+      "pos": "ot",
+      "example_ko": "여름에는 관광객이 많아요.",
+      "example_uz": "Yozda sayyohlar ko'p bo'ladi.",
+      "audio": "9973cf4c1275.mp3",
+      "example_audio": "065d7b8ef8f4.mp3"
+    },
+    {
+      "id": "u03_l2_w019",
+      "ko": "기념품",
+      "uz": "esdalik sovg'a",
+      "pos": "ot",
+      "example_ko": "친구에게 기념품을 줬어요.",
+      "example_uz": "Do'stimga esdalik sovg'a berdim.",
+      "audio": "f9a78b4bbef7.mp3",
+      "example_audio": "24ef96569e18.mp3"
+    },
+    {
+      "id": "u03_l2_w020",
+      "ko": "해산물",
+      "uz": "dengiz mahsulotlari",
+      "pos": "ot",
+      "example_ko": "부산에서 해산물을 먹었어요.",
+      "example_uz": "Pusanda dengiz mahsulotlari yedim.",
+      "audio": "aa21d8067ee2.mp3",
+      "example_audio": "9ca7a51fdd09.mp3"
+    },
+    {
+      "id": "u03_l2_w021",
+      "ko": "경치",
+      "uz": "manzara",
+      "pos": "ot",
+      "example_ko": "산 위에서 경치가 좋아요.",
+      "example_uz": "Tog' tepasidan manzara chiroyli.",
+      "audio": "3b260dbb1c79.mp3",
+      "example_audio": "08065077bc2c.mp3"
+    },
+    {
+      "id": "u03_l2_w022",
+      "ko": "아름답다",
+      "uz": "go'zal",
+      "pos": "sifat",
+      "example_ko": "바다가 정말 아름다워요.",
+      "example_uz": "Dengiz juda go'zal.",
+      "audio": "44a30a0dba64.mp3",
+      "example_audio": "5bc3abc9df17.mp3"
+    },
+    {
+      "id": "u03_l2_w023",
+      "ko": "인기가 있다",
+      "uz": "mashhur bo'lmoq, ommabop",
+      "pos": "ibora",
+      "example_ko": "이 노래는 인기가 있어요.",
+      "example_uz": "Bu qo'shiq ommabop.",
+      "audio": "95be23c09a99.mp3",
+      "example_audio": "659847e7f087.mp3"
+    },
+    {
+      "id": "u03_l2_w024",
+      "ko": "추천하다",
+      "uz": "tavsiya qilmoq",
+      "pos": "fe'l",
+      "example_ko": "이 식당을 추천해요.",
+      "example_uz": "Bu oshxonani tavsiya qilaman.",
+      "audio": "d38ebe2d79f1.mp3",
+      "example_audio": "6fe0ff6091bf.mp3"
+    },
+    {
+      "id": "u03_l2_w025",
+      "ko": "특히",
+      "uz": "ayniqsa",
+      "pos": "ravish",
+      "example_ko": "특히 여름에 사람이 많아요.",
+      "example_uz": "Ayniqsa yozda odam ko'p.",
+      "audio": "d9c4425bd76b.mp3",
+      "example_audio": "d8cb14d67ef8.mp3"
+    },
+    {
+      "id": "u03_l2_w026",
+      "ko": "자주",
+      "uz": "tez-tez",
+      "pos": "ravish",
+      "example_ko": "저는 시장에 자주 가요.",
+      "example_uz": "Men bozorga tez-tez boraman.",
+      "audio": "0b900503d18c.mp3",
+      "example_audio": "7d9dbe7879fc.mp3"
+    },
+    {
+      "id": "u03_l2_w027",
+      "ko": "가끔",
+      "uz": "ba'zan",
+      "pos": "ravish",
+      "example_ko": "가끔 영화를 봐요.",
+      "example_uz": "Ba'zan kino ko'raman.",
+      "audio": "caea0150d783.mp3",
+      "example_audio": "b8e2c6f7f987.mp3"
+    },
+    {
+      "id": "u03_l2_w028",
+      "ko": "별로",
+      "uz": "unchalik (inkor bilan)",
+      "pos": "ravish",
+      "example_ko": "이 옷은 별로 안 비싸요.",
+      "example_uz": "Bu kiyim unchalik qimmat emas.",
+      "audio": "cf5fd686d7a9.mp3",
+      "example_audio": "b771d51960b5.mp3"
+    },
+    {
+      "id": "u03_l2_w029",
+      "ko": "전에",
+      "uz": "avval, ilgari",
+      "pos": "ravish",
+      "example_ko": "전에 서울에 살았어요.",
+      "example_uz": "Ilgari Seulda yashaganman.",
+      "audio": "bdfd352bcf06.mp3",
+      "example_audio": "5d27a3ee11f9.mp3"
+    },
+    {
+      "id": "u03_l2_w030",
+      "ko": "살다",
+      "uz": "yashamoq",
+      "pos": "fe'l",
+      "example_ko": "저는 서울에 살아요.",
+      "example_uz": "Men Seulda yashayman.",
+      "audio": "97a9ce77ee5b.mp3",
+      "example_audio": "dbfda541989f.mp3"
+    },
+    {
+      "id": "u03_l2_w031",
+      "ko": "팔다",
+      "uz": "sotmoq",
+      "pos": "fe'l",
+      "example_ko": "이 가게는 과일을 팔아요.",
+      "example_uz": "Bu do'kon meva sotadi.",
+      "audio": "7c7b6e1eeff7.mp3",
+      "example_audio": "086360faf532.mp3"
+    },
+    {
+      "id": "u03_l2_w032",
+      "ko": "알다",
+      "uz": "bilmoq",
+      "pos": "fe'l",
+      "example_ko": "그 사람을 알아요?",
+      "example_uz": "U odamni bilasizmi?",
+      "audio": "1d1082700a0f.mp3",
+      "example_audio": "16e3d717ac90.mp3"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "u03_l2_g1",
+      "pattern": "V-는 + N",
+      "meaning_uz": "Fe'lning aniqlovchi shakli (hozirgi zamon): 'yeyiladigan taom', 'yashaydigan do'st'",
+      "explanation_md": "2-bo'limda **sifat**ni otdan oldin ishlatishni o'rgandik: 큰 가방, 긴 치마 (**-(으)ㄴ**). Endi **fe'l** uchun qoida: hozirgi zamonda fe'lga **-는** qo'shiladi.\n\n**막국수는 강원도에서 자주 먹는 음식이에요.**\n*Makguksu — Gangvondoda tez-tez yeyiladigan taom.*\n\n### Qanday yasaladi\n\n- **Barcha fe'llar** → **-는** (받침 bor-yo'qligidan qat'i nazar): 먹다 → **먹는**, 가다 → **가는**, 좋아하다 → **좋아하는**\n- **ㄹ bilan tugasa** → ㄹ tushadi: 살다 → **사는**, 팔다 → **파는**, 만들다 → **만드는**, 알다 → **아는**\n- **있다 / 없다** → **-는**: 맛있다 → **맛있는**, 인기가 있다 → **인기가 있는**\n\n### Sifat yoki fe'l?\n\n| | Qo'shimcha | Misol |\n|---|---|---|\n| Sifat | -(으)ㄴ | **큰** 가방, **작은** 집 |\n| Fe'l | -는 | **먹는** 음식, **사는** 곳 |\n\nO'zbekchada bu **\"-adigan / -yotgan\"** qo'shimchasiga to'g'ri keladi: *yashaydigan*, *sotiladigan*, *eshitayotgan*.",
+      "formation": [
+        {
+          "condition_uz": "Fe'l (받침 bor yoki yo'q)",
+          "rule": "-는",
+          "example": "먹다 → 먹는 음식, 가다 → 가는 곳"
+        },
+        {
+          "condition_uz": "ㄹ bilan tugaydigan fe'l",
+          "rule": "ㄹ tushadi + -는",
+          "example": "살다 → 사는, 팔다 → 파는"
+        },
+        {
+          "condition_uz": "있다 / 없다",
+          "rule": "-는",
+          "example": "인기가 있다 → 인기가 있는"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "막국수는 강원도에서 많이 먹는 음식이에요.",
+          "uz": "Makguksu — Gangvondoda ko'p yeyiladigan taom.",
+          "audio": "ee6093ae1bd3.mp3"
+        },
+        {
+          "ko": "제가 좋아하는 음식은 비빔밥이에요.",
+          "uz": "Men yaxshi ko'radigan taom — pibimbap.",
+          "audio": "bd98df4d2a69.mp3"
+        },
+        {
+          "ko": "부산에는 해산물을 파는 시장이 많아요.",
+          "uz": "Pusanda dengiz mahsulotlari sotiladigan bozorlar ko'p.",
+          "audio": "0525594a81a4.mp3"
+        },
+        {
+          "ko": "서울에 사는 친구가 있어요.",
+          "uz": "Seulda yashaydigan do'stim bor.",
+          "audio": "fff5fd0f5a8d.mp3"
+        },
+        {
+          "ko": "이건 요즘 인기가 있는 기념품이에요.",
+          "uz": "Bu hozir mashhur esdalik sovg'a.",
+          "audio": "8bb5ff63ffde.mp3"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "서울에 살는 친구",
+          "right": "서울에 사는 친구",
+          "why_uz": "살다 ㄹ bilan tugaydi: ㄹ tushib, -는 qo'shiladi."
+        },
+        {
+          "wrong": "해산물을 팔는 시장",
+          "right": "해산물을 파는 시장",
+          "why_uz": "팔다 → 파는 (ㄹ tushadi)."
+        },
+        {
+          "wrong": "크는 가방",
+          "right": "큰 가방",
+          "why_uz": "크다 — sifat, shuning uchun -는 emas, -(으)ㄴ qo'shiladi."
+        }
+      ],
+      "uz_compare": "O'zbekchada fe'l otdan oldin '-adigan' shaklini oladi: 'yeyiladigan taom', 'yashaydigan do'st'. Koreyschada buning uchun -는 qo'shiladi: 먹는 음식, 사는 친구. Sifatlar esa -(으)ㄴ oladi: 큰, 작은."
+    },
+    {
+      "id": "u03_l2_g2",
+      "pattern": "A/V-지 않다",
+      "meaning_uz": "Inkor (uzun shakl): '...-maydi', '... emas'",
+      "explanation_md": "1-kitobda inkorning **qisqa** shaklini o'rgangansiz: **안** + fe'l/sifat (**안 먹어요**, **안 비싸요**). Endi **uzun** shakl: o'zakka **-지 않다** qo'shiladi.\n\n**막국수는 별로 맵지 않아요.** — *Makguksu unchalik achchiq emas.*\n\n### Qanday yasaladi\n\nO'zakdan **-다** olib tashlanadi va **-지 않아요** qo'shiladi — 받침 bor-yo'qligi muhim emas:\n\n- 먹다 → **먹지 않아요**\n- 맵다 → **맵지 않아요** (ㅂ o'zgarmaydi!)\n- 비싸다 → **비싸지 않아요**\n- 공부하다 → **공부하지 않아요**\n\nO'tgan zamon: **-지 않았어요** — 어제는 **춥지 않았어요**. Kelasi zamon: **-지 않을 거예요**.\n\n### 안 yoki -지 않다?\n\nMa'nosi bir xil: **안 먹어요 = 먹지 않아요**. Og'zaki nutqda **안** ko'proq, yozuvda va rasmiyroq gapda **-지 않다** ko'proq ishlatiladi. Uzun so'zlarda ham -지 않다 qulay: **운동하지 않아요**.\n\n### Istisnolar\n\n- **N이다** inkori — **N이/가 아니다**: 학생이 **아니에요** (~~학생이지 않아요~~ emas).\n- **있다** odatda **없다** bilan almashadi: 시간이 **없어요**.\n\n### Imlo\n\n**않아요** — ㄶ bilan yoziladi (~~안아요~~ emas).",
+      "formation": [
+        {
+          "condition_uz": "Har qanday fe'l/sifat",
+          "rule": "-지 않아요",
+          "example": "먹다 → 먹지 않아요, 맵다 → 맵지 않아요"
+        },
+        {
+          "condition_uz": "O'tgan zamon",
+          "rule": "-지 않았어요",
+          "example": "춥다 → 춥지 않았어요"
+        },
+        {
+          "condition_uz": "N이다 (istisno)",
+          "rule": "N이/가 아니에요",
+          "example": "학생이 아니에요"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "막국수는 별로 맵지 않아요.",
+          "uz": "Makguksu unchalik achchiq emas.",
+          "audio": "0c9b9267fe83.mp3"
+        },
+        {
+          "ko": "이 음식은 비싸지 않아요.",
+          "uz": "Bu taom qimmat emas.",
+          "audio": "915a455bc9f7.mp3"
+        },
+        {
+          "ko": "저는 고기를 먹지 않아요.",
+          "uz": "Men go'sht yemayman.",
+          "audio": "6c6394e63b27.mp3"
+        },
+        {
+          "ko": "어제는 춥지 않았어요.",
+          "uz": "Kecha sovuq emas edi.",
+          "audio": "5d6415d0060b.mp3"
+        },
+        {
+          "ko": "주말에는 일하지 않아요.",
+          "uz": "Dam olish kunlari ishlamayman.",
+          "audio": "f53561be445b.mp3"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "맵 않아요",
+          "right": "맵지 않아요",
+          "why_uz": "O'zak bilan 않다 orasida -지 bo'lishi shart."
+        },
+        {
+          "wrong": "먹지 안아요",
+          "right": "먹지 않아요",
+          "why_uz": "않다 ㄶ bilan yoziladi: 않아요."
+        },
+        {
+          "wrong": "학생이지 않아요",
+          "right": "학생이 아니에요",
+          "why_uz": "N이다 ning inkori -지 않다 emas, 아니다."
+        }
+      ],
+      "uz_compare": "O'zbekchada inkor fe'lning ichiga '-ma-' qo'shiladi (yeMAYman) yoki 'emas' so'zi keladi (achchiq emas). Koreyschada ikki yo'l bor: qisqa 안 (fe'ldan oldin) va uzun -지 않다 (fe'ldan keyin). Ma'nosi bir xil."
+    }
+  ],
+  "dialogue": {
+    "lines": [
+      {
+        "speaker": "minji",
+        "ko": "아지즈 씨, 막국수를 먹어 봤어요?",
+        "uz": "Aziz, makguksu yeb ko'rganmisiz?",
+        "audio": "95ec724b78d7.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "아니요, 안 먹어 봤어요. 막국수가 뭐예요?",
+        "uz": "Yo'q, yeb ko'rmaganman. Makguksu nima?",
+        "audio": "7a8b661e947c.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "메밀로 만든 국수예요. 강원도에서 많이 먹는 음식이에요.",
+        "uz": "Grechkadan tayyorlangan ugra. Gangvondoda ko'p yeyiladigan taom.",
+        "audio": "b718525a818b.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "맛있어요? 저는 매운 음식을 잘 못 먹어요.",
+        "uz": "Mazalimi? Men achchiq taomni yaxshi yeya olmayman.",
+        "audio": "35610ce47116.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "괜찮아요. 막국수는 별로 맵지 않아요.",
+        "uz": "Xavotir olmang. Makguksu unchalik achchiq emas.",
+        "audio": "eeff27e1192e.mp3"
+      },
+      {
+        "speaker": "seller",
+        "ko": "어서 오세요. 뭐 주문하시겠어요?",
+        "uz": "Xush kelibsiz. Nima buyurtma berasiz?",
+        "audio": "0611fd7f6350.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "막국수 두 그릇 주세요.",
+        "uz": "Ikki kosa makguksu bering.",
+        "audio": "b240c9c9dd04.mp3"
+      },
+      {
+        "speaker": "seller",
+        "ko": "네, 잠깐만 기다리세요.",
+        "uz": "Xo'p, biroz kuting.",
+        "audio": "2779dd91fc0e.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "와, 정말 맛있어요! 강원도에 오는 관광객들이 다 이걸 먹어요?",
+        "uz": "Voy, juda mazali! Gangvondoga keladigan sayyohlar hammasi buni yeydimi?",
+        "audio": "9a10e374cb68.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "네, 특히 여름에 많이 먹는 음식이에요.",
+        "uz": "Ha, ayniqsa yozda ko'p yeyiladigan taom.",
+        "audio": "5b2cbe0ed373.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "친구들한테도 추천할 거예요.",
+        "uz": "Do'stlarimga ham tavsiya qilaman.",
+        "audio": "cd1d1ec76c89.mp3"
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "u03_l2_e001",
+      "type": "conjugate",
+      "targets": [
+        "u03_l2_g1"
+      ],
+      "prompt_uz": "Fe'lni otga bog'lang: 'yeyiladigan taom'",
+      "base": "먹다",
+      "form": "-는 + 음식",
+      "answers": [
+        "먹는 음식"
+      ]
+    },
+    {
+      "id": "u03_l2_e002",
+      "type": "conjugate",
+      "targets": [
+        "u03_l2_g1"
+      ],
+      "prompt_uz": "Fe'lni otga bog'lang: 'yashaydigan odam'",
+      "base": "살다",
+      "form": "-는 + 사람",
+      "answers": [
+        "사는 사람"
+      ],
+      "hint_uz": "ㄹ tushib qoladi"
+    },
+    {
+      "id": "u03_l2_e003",
+      "type": "conjugate",
+      "targets": [
+        "u03_l2_g1"
+      ],
+      "prompt_uz": "Fe'lni otga bog'lang: 'yaxshi ko'radigan qo'shiq'",
+      "base": "좋아하다",
+      "form": "-는 + 노래",
+      "answers": [
+        "좋아하는 노래"
+      ]
+    },
+    {
+      "id": "u03_l2_e004",
+      "type": "conjugate",
+      "targets": [
+        "u03_l2_g2"
+      ],
+      "prompt_uz": "'Yemayman' shaklini yasang (uzun inkor)",
+      "base": "먹다",
+      "form": "-지 않아요",
+      "answers": [
+        "먹지 않아요"
+      ]
+    },
+    {
+      "id": "u03_l2_e005",
+      "type": "conjugate",
+      "targets": [
+        "u03_l2_g2"
+      ],
+      "prompt_uz": "'Achchiq emas' shaklini yasang",
+      "base": "맵다",
+      "form": "-지 않아요",
+      "hint_uz": "ㅂ o'zgarmaydi",
+      "answers": [
+        "맵지 않아요"
+      ]
+    },
+    {
+      "id": "u03_l2_e006",
+      "type": "conjugate",
+      "targets": [
+        "u03_l2_g2"
+      ],
+      "prompt_uz": "'Qimmat emas edi' shaklini yasang",
+      "base": "비싸다",
+      "form": "-지 않았어요",
+      "answers": [
+        "비싸지 않았어요"
+      ]
+    },
+    {
+      "id": "u03_l2_e007",
+      "type": "fill_blank",
+      "targets": [
+        "u03_l2_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Bu bozor esdalik sovg'alar sotiladigan joy.'",
+      "sentence": "이 시장은 기념품을 ___ 곳이에요. (팔다)",
+      "answers": [
+        "파는"
+      ]
+    },
+    {
+      "id": "u03_l2_e008",
+      "type": "fill_blank",
+      "targets": [
+        "u03_l2_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Men tez-tez yeydigan taom — pibimbap.'",
+      "sentence": "제가 자주 ___ 음식은 비빔밥이에요. (먹다)",
+      "answers": [
+        "먹는"
+      ]
+    },
+    {
+      "id": "u03_l2_e009",
+      "type": "fill_blank",
+      "targets": [
+        "u03_l2_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Bu makguksu unchalik achchiq emas.'",
+      "sentence": "이 막국수는 별로 ___. (맵다)",
+      "answers": [
+        "맵지 않아요"
+      ]
+    },
+    {
+      "id": "u03_l2_e010",
+      "type": "fill_blank",
+      "targets": [
+        "u03_l2_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Men nonushta qilmayman.'",
+      "sentence": "저는 아침을 ___. (먹다)",
+      "answers": [
+        "먹지 않아요",
+        "안 먹어요"
+      ]
+    },
+    {
+      "id": "u03_l2_e011",
+      "type": "situation_choice",
+      "targets": [
+        "u03_l2_g1"
+      ],
+      "prompt_uz": "'Seulda yashaydigan do'stim' qaysi biri to'g'ri?",
+      "options": [
+        "서울에 사는 친구",
+        "서울에 살는 친구",
+        "서울에 살은 친구",
+        "서울에 살아 친구"
+      ],
+      "answers": [
+        "서울에 사는 친구"
+      ]
+    },
+    {
+      "id": "u03_l2_e012",
+      "type": "situation_choice",
+      "targets": [
+        "u03_l2_g2"
+      ],
+      "prompt_uz": "'Bu taom sho'r emas' qaysi biri?",
+      "options": [
+        "이 음식은 짜지 않아요",
+        "이 음식은 짜요",
+        "이 음식은 짜지 마세요",
+        "이 음식은 짠 음식이에요"
+      ],
+      "answers": [
+        "이 음식은 짜지 않아요"
+      ]
+    },
+    {
+      "id": "u03_l2_e013",
+      "type": "situation_choice",
+      "targets": [
+        "u03_l2_w003"
+      ],
+      "prompt_uz": "Taom tilni kuydiryapti. U qanday?",
+      "options": [
+        "매워요",
+        "짜요",
+        "달아요",
+        "시원해요"
+      ],
+      "answers": [
+        "매워요"
+      ]
+    },
+    {
+      "id": "u03_l2_e014",
+      "type": "build_sentence",
+      "targets": [
+        "u03_l2_g1"
+      ],
+      "prompt_uz": "'Gangvondoda ko'p yeyiladigan taom' gapini tuzing",
+      "tokens": [
+        "음식이에요",
+        "많이",
+        "강원도에서",
+        "먹는"
+      ],
+      "answers": [
+        "강원도에서 많이 먹는 음식이에요"
+      ]
+    },
+    {
+      "id": "u03_l2_e015",
+      "type": "build_sentence",
+      "targets": [
+        "u03_l2_g2"
+      ],
+      "prompt_uz": "'Makguksu unchalik achchiq emas' gapini tuzing",
+      "tokens": [
+        "맵지",
+        "막국수는",
+        "않아요",
+        "별로"
+      ],
+      "answers": [
+        "막국수는 별로 맵지 않아요"
+      ]
+    },
+    {
+      "id": "u03_l2_e016",
+      "type": "find_error",
+      "targets": [
+        "u03_l2_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "sentence": "부산에는 해산물을 팔는 곳이 많아요.",
+      "answers": [
+        "부산에는 해산물을 파는 곳이 많아요"
+      ],
+      "why_uz": "팔다 → 파는 (ㄹ tushadi)."
+    },
+    {
+      "id": "u03_l2_e017",
+      "type": "find_error",
+      "targets": [
+        "u03_l2_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "sentence": "이 시장은 비싸 않아요.",
+      "why_uz": "O'zak bilan 않다 orasida -지 kerak.",
+      "answers": [
+        "이 시장은 비싸지 않아요"
+      ]
+    },
+    {
+      "id": "u03_l2_e018",
+      "type": "find_error",
+      "targets": [
+        "u03_l2_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "sentence": "이건 크는 가방이에요.",
+      "answers": [
+        "이건 큰 가방이에요"
+      ],
+      "why_uz": "크다 — sifat: 큰 (-는 emas)."
+    },
+    {
+      "id": "u03_l2_e019",
+      "type": "translate",
+      "targets": [
+        "u03_l2_g1"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "source_uz": "Bu men yaxshi ko'radigan taom.",
+      "answers": [
+        "이건 제가 좋아하는 음식이에요",
+        "이것은 제가 좋아하는 음식이에요",
+        "제가 좋아하는 음식이에요",
+        "이건 내가 좋아하는 음식이에요"
+      ]
+    },
+    {
+      "id": "u03_l2_e020",
+      "type": "translate",
+      "targets": [
+        "u03_l2_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "source_uz": "Bu bozor qimmat emas.",
+      "answers": [
+        "이 시장은 비싸지 않아요",
+        "이 시장은 안 비싸요",
+        "시장이 비싸지 않아요"
+      ]
+    },
+    {
+      "id": "u03_l2_e021",
+      "type": "translate",
+      "targets": [
+        "u03_l2_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "source_uz": "Men go'sht yemayman.",
+      "answers": [
+        "저는 고기를 먹지 않아요",
+        "저는 고기를 안 먹어요",
+        "고기를 먹지 않아요",
+        "고기를 안 먹어요"
+      ]
+    },
+    {
+      "id": "u03_l2_e031",
+      "type": "listen_question",
+      "targets": [
+        "u03_l2_g1"
+      ],
+      "prompt_uz": "Bu qanday joy?",
+      "audio_text": "여기는 관광객들이 많이 오는 시장이에요.",
+      "options": [
+        "Sayyohlar ko'p keladigan bozor",
+        "Sayyohlar kam keladigan bozor",
+        "Katta mehmonxona",
+        "Muzey"
+      ],
+      "answers": [
+        "Sayyohlar ko'p keladigan bozor"
+      ],
+      "audio": "6ba48df1d59a.mp3"
+    },
+    {
+      "id": "u03_l2_e032",
+      "type": "listen_question",
+      "targets": [
+        "u03_l2_g2"
+      ],
+      "prompt_uz": "Bugun havo qanday?",
+      "audio_text": "오늘은 날씨가 춥지 않아요.",
+      "options": [
+        "Sovuq emas",
+        "Juda sovuq",
+        "Yomg'ir yog'yapti",
+        "Qor yog'yapti"
+      ],
+      "answers": [
+        "Sovuq emas"
+      ],
+      "audio": "9a072ebfce37.mp3"
+    },
+    {
+      "id": "u03_l2_e033",
+      "type": "listen_question",
+      "targets": [
+        "u03_l2_g1"
+      ],
+      "prompt_uz": "Bu nima?",
+      "audio_text": "이건 강원도에서 파는 기념품이에요.",
+      "options": [
+        "Gangvondoda sotiladigan esdalik sovg'a",
+        "Gangvondoda tayyorlangan taom",
+        "Seuldan olingan kiyim",
+        "Pusan bozori"
+      ],
+      "answers": [
+        "Gangvondoda sotiladigan esdalik sovg'a"
+      ],
+      "audio": "daa2e6bf3564.mp3"
+    },
+    {
+      "id": "u03_l2_e101",
+      "type": "conjugate",
+      "targets": [
+        "u03_l2_g1"
+      ],
+      "prompt_uz": "Fe'lni otga bog'lang: 'biladigan (tanish) odam'",
+      "base": "알다",
+      "form": "-는 + 사람",
+      "answers": [
+        "아는 사람"
+      ],
+      "hint_uz": "ㄹ tushib qoladi"
+    },
+    {
+      "id": "u03_l2_e102",
+      "type": "conjugate",
+      "targets": [
+        "u03_l2_g1"
+      ],
+      "prompt_uz": "Fe'lni otga bog'lang: 'ichiladigan suv'",
+      "base": "마시다",
+      "form": "-는 + 물",
+      "answers": [
+        "마시는 물"
+      ]
+    },
+    {
+      "id": "u03_l2_e103",
+      "type": "conjugate",
+      "targets": [
+        "u03_l2_g2"
+      ],
+      "prompt_uz": "'O'qimadim (dars qilmadim)' shaklini yasang",
+      "base": "공부하다",
+      "form": "-지 않았어요",
+      "answers": [
+        "공부하지 않았어요"
+      ]
+    },
+    {
+      "id": "u03_l2_e104",
+      "type": "fill_blank",
+      "targets": [
+        "u03_l2_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Hozir mashhur bo'lgan taom.'",
+      "sentence": "요즘 인기가 ___ 음식이에요. (있다)",
+      "answers": [
+        "있는"
+      ]
+    },
+    {
+      "id": "u03_l2_e105",
+      "type": "fill_blank",
+      "targets": [
+        "u03_l2_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Dam olish kunlari ishlamayman.'",
+      "sentence": "주말에는 ___. (일하다)",
+      "answers": [
+        "일하지 않아요",
+        "일 안 해요"
+      ]
+    },
+    {
+      "id": "u03_l2_e106",
+      "type": "fill_blank",
+      "targets": [
+        "u03_l2_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Hozir eshitayotgan qo'shig'ingiz nima?'",
+      "sentence": "지금 ___ 노래가 뭐예요? (듣다)",
+      "answers": [
+        "듣는"
+      ]
+    },
+    {
+      "id": "u03_l2_e107",
+      "type": "situation_choice",
+      "targets": [
+        "u03_l2_g2"
+      ],
+      "prompt_uz": "'Kecha sovuq emas edi' qaysi biri?",
+      "options": [
+        "어제는 춥지 않았어요",
+        "어제는 추웠어요",
+        "내일은 춥지 않을 거예요",
+        "오늘은 춥지 않아요"
+      ],
+      "answers": [
+        "어제는 춥지 않았어요"
+      ]
+    },
+    {
+      "id": "u03_l2_e108",
+      "type": "situation_choice",
+      "targets": [
+        "u03_l2_w002"
+      ],
+      "prompt_uz": "Bu joyni hamma biladi. U qanday?",
+      "options": [
+        "유명해요",
+        "맛있어요",
+        "매워요",
+        "짜요"
+      ],
+      "answers": [
+        "유명해요"
+      ]
+    },
+    {
+      "id": "u03_l2_e109",
+      "type": "build_sentence",
+      "targets": [
+        "u03_l2_g1"
+      ],
+      "prompt_uz": "'Seulda yashaydigan do'stim bor' gapini tuzing",
+      "tokens": [
+        "친구가",
+        "사는",
+        "있어요",
+        "서울에"
+      ],
+      "answers": [
+        "서울에 사는 친구가 있어요"
+      ]
+    },
+    {
+      "id": "u03_l2_e110",
+      "type": "build_sentence",
+      "targets": [
+        "u03_l2_g2"
+      ],
+      "prompt_uz": "'Kecha havo issiq emas edi' gapini tuzing",
+      "tokens": [
+        "덥지",
+        "어제는",
+        "않았어요",
+        "날씨가"
+      ],
+      "answers": [
+        "어제는 날씨가 덥지 않았어요"
+      ]
+    },
+    {
+      "id": "u03_l2_e111",
+      "type": "find_error",
+      "targets": [
+        "u03_l2_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "sentence": "여기는 냉면을 만들는 식당이에요.",
+      "answers": [
+        "여기는 냉면을 만드는 식당이에요"
+      ],
+      "why_uz": "만들다 → 만드는 (ㄹ tushadi)."
+    },
+    {
+      "id": "u03_l2_e112",
+      "type": "find_error",
+      "targets": [
+        "u03_l2_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "sentence": "이 음식은 짜지 안아요.",
+      "why_uz": "않다 ㄶ bilan yoziladi: 않아요.",
+      "answers": [
+        "이 음식은 짜지 않아요"
+      ]
+    },
+    {
+      "id": "u03_l2_e113",
+      "type": "translate",
+      "targets": [
+        "u03_l2_g1"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "source_uz": "Bu Pusanda ko'p yeyiladigan taom.",
+      "answers": [
+        "이건 부산에서 많이 먹는 음식이에요",
+        "부산에서 많이 먹는 음식이에요",
+        "이것은 부산에서 많이 먹는 음식이에요",
+        "이건 부산에서 자주 먹는 음식이에요"
+      ]
+    },
+    {
+      "id": "u03_l2_e114",
+      "type": "translate",
+      "targets": [
+        "u03_l2_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "source_uz": "Pusan uzoq emas.",
+      "answers": [
+        "부산은 멀지 않아요",
+        "부산은 안 멀어요",
+        "부산이 멀지 않아요"
+      ]
+    },
+    {
+      "id": "u03_l2_e115",
+      "type": "listen_question",
+      "targets": [
+        "u03_l2_g2"
+      ],
+      "prompt_uz": "U qanday taomni yemaydi?",
+      "audio_text": "저는 매운 음식을 먹지 않아요.",
+      "options": [
+        "Achchiq taomni",
+        "Shirin taomni",
+        "Sho'r taomni",
+        "Dengiz mahsulotlarini"
+      ],
+      "answers": [
+        "Achchiq taomni"
+      ],
+      "audio": "28754595ec79.mp3"
+    }
+  ],
+  "test": [
+    "u03_l2_e101",
+    "u03_l2_e102",
+    "u03_l2_e103",
+    "u03_l2_e104",
+    "u03_l2_e105",
+    "u03_l2_e106",
+    "u03_l2_e107",
+    "u03_l2_e108",
+    "u03_l2_e109",
+    "u03_l2_e110",
+    "u03_l2_e111",
+    "u03_l2_e112",
+    "u03_l2_e113",
+    "u03_l2_e114",
+    "u03_l2_e115"
+  ]
+}

@@ -1,0 +1,1133 @@
+{
+  "id": "u04_l2",
+  "unit": 4,
+  "lesson": 2,
+  "title_ko": "저는 등산하는 걸 좋아해요",
+  "title_uz": "Men toqqa chiqishni yaxshi ko'raman",
+  "topic_uz": "Xobbi",
+  "reviewed": false,
+  "words": [
+    {
+      "id": "u04_l2_w001",
+      "ko": "등산",
+      "uz": "toqqa chiqish",
+      "pos": "ot",
+      "example_ko": "등산은 건강에 좋아요.",
+      "example_uz": "Toqqa chiqish sog'liqqa foydali.",
+      "audio": "2c27dedcedae.mp3",
+      "example_audio": "d856a4fb3404.mp3"
+    },
+    {
+      "id": "u04_l2_w002",
+      "ko": "등산하다",
+      "uz": "toqqa chiqmoq",
+      "pos": "fe'l",
+      "example_ko": "주말에 친구와 등산했어요.",
+      "example_uz": "Dam olish kuni do'stim bilan toqqa chiqdim.",
+      "audio": "60c3d7b4e235.mp3",
+      "example_audio": "0843470cfb6d.mp3"
+    },
+    {
+      "id": "u04_l2_w003",
+      "ko": "낚시",
+      "uz": "baliq ovi",
+      "pos": "ot",
+      "example_ko": "아버지는 낚시를 좋아하세요.",
+      "example_uz": "Otam baliq ovini yaxshi ko'radilar.",
+      "audio": "b30a6eb44c6d.mp3",
+      "example_audio": "a218c77740c6.mp3"
+    },
+    {
+      "id": "u04_l2_w004",
+      "ko": "낚시하다",
+      "uz": "baliq ovlamoq",
+      "pos": "fe'l",
+      "example_ko": "강에서 낚시해요.",
+      "example_uz": "Daryoda baliq ovlayman.",
+      "audio": "a600905c6264.mp3",
+      "example_audio": "fc716389f0fc.mp3"
+    },
+    {
+      "id": "u04_l2_w005",
+      "ko": "독서",
+      "uz": "kitob o'qish",
+      "pos": "ot",
+      "example_ko": "제 취미는 독서예요.",
+      "example_uz": "Mening xobbim — kitob o'qish.",
+      "audio": "0aafb8fc50a0.mp3",
+      "example_audio": "1a21dc4b6c01.mp3"
+    },
+    {
+      "id": "u04_l2_w006",
+      "ko": "그림",
+      "uz": "rasm",
+      "pos": "ot",
+      "example_ko": "이 그림이 정말 예뻐요.",
+      "example_uz": "Bu rasm juda chiroyli.",
+      "audio": "d83421dd74ec.mp3",
+      "example_audio": "d60d2c8a4305.mp3"
+    },
+    {
+      "id": "u04_l2_w007",
+      "ko": "그림을 그리다",
+      "uz": "rasm chizmoq",
+      "pos": "ibora",
+      "example_ko": "동생이 그림을 그려요.",
+      "example_uz": "Ukam rasm chizyapti.",
+      "audio": "ed98c6c8ad1a.mp3",
+      "example_audio": "76591bc16b01.mp3"
+    },
+    {
+      "id": "u04_l2_w008",
+      "ko": "노래를 부르다",
+      "uz": "qo'shiq aytmoq",
+      "pos": "ibora",
+      "example_ko": "노래방에서 노래를 불렀어요.",
+      "example_uz": "Norebangda qo'shiq aytdim.",
+      "audio": "7b180f064668.mp3",
+      "example_audio": "bd1fff43a4f4.mp3"
+    },
+    {
+      "id": "u04_l2_w009",
+      "ko": "춤을 추다",
+      "uz": "raqsga tushmoq",
+      "pos": "ibora",
+      "example_ko": "친구가 춤을 잘 춰요.",
+      "example_uz": "Do'stim yaxshi raqsga tushadi.",
+      "audio": "e38de6bce490.mp3",
+      "example_audio": "94f7a0e37344.mp3"
+    },
+    {
+      "id": "u04_l2_w010",
+      "ko": "요리",
+      "uz": "pishirish, oshpazlik",
+      "pos": "ot",
+      "example_ko": "요리는 어렵지 않아요.",
+      "example_uz": "Ovqat pishirish qiyin emas.",
+      "audio": "f0d3d070351d.mp3",
+      "example_audio": "1db77e54d150.mp3"
+    },
+    {
+      "id": "u04_l2_w011",
+      "ko": "요리하다",
+      "uz": "ovqat pishirmoq",
+      "pos": "fe'l",
+      "example_ko": "저녁에 요리해요.",
+      "example_uz": "Kechqurun ovqat pishiraman.",
+      "audio": "4e96ada503ae.mp3",
+      "example_audio": "b2ff0d7aaa89.mp3"
+    },
+    {
+      "id": "u04_l2_w012",
+      "ko": "게임",
+      "uz": "o'yin (kompyuter)",
+      "pos": "ot",
+      "example_ko": "동생은 게임을 자주 해요.",
+      "example_uz": "Ukam tez-tez o'yin o'ynaydi.",
+      "audio": "038cbc4e9e9c.mp3",
+      "example_audio": "cd3218d5183b.mp3"
+    },
+    {
+      "id": "u04_l2_w013",
+      "ko": "음악",
+      "uz": "musiqa",
+      "pos": "ot",
+      "example_ko": "음악을 들어요.",
+      "example_uz": "Musiqa tinglayman.",
+      "audio": "c215ce39b190.mp3",
+      "example_audio": "ce65c69b84e1.mp3"
+    },
+    {
+      "id": "u04_l2_w014",
+      "ko": "악기",
+      "uz": "cholg'u asbobi",
+      "pos": "ot",
+      "example_ko": "악기를 배우고 싶어요.",
+      "example_uz": "Cholg'u asbobini o'rganmoqchiman.",
+      "audio": "c0b6bee623ec.mp3",
+      "example_audio": "1b3b0fef9622.mp3"
+    },
+    {
+      "id": "u04_l2_w015",
+      "ko": "피아노",
+      "uz": "pianino",
+      "pos": "ot",
+      "example_ko": "피아노를 쳐요.",
+      "example_uz": "Pianino chalaman.",
+      "audio": "5fcc5d1c00fc.mp3",
+      "example_audio": "d86e6d17a01a.mp3"
+    },
+    {
+      "id": "u04_l2_w016",
+      "ko": "기타",
+      "uz": "gitara",
+      "pos": "ot",
+      "example_ko": "형은 기타를 잘 쳐요.",
+      "example_uz": "Akam gitarani yaxshi chaladi.",
+      "audio": "f20db4c2f793.mp3",
+      "example_audio": "e795443feaae.mp3"
+    },
+    {
+      "id": "u04_l2_w017",
+      "ko": "산책하다",
+      "uz": "sayr qilmoq",
+      "pos": "fe'l",
+      "example_ko": "저녁에 공원에서 산책해요.",
+      "example_uz": "Kechqurun bog'da sayr qilaman.",
+      "audio": "9cc814c84a39.mp3",
+      "example_audio": "bceb14d16289.mp3"
+    },
+    {
+      "id": "u04_l2_w018",
+      "ko": "혼자",
+      "uz": "yolg'iz, o'zi",
+      "pos": "ravish",
+      "example_ko": "혼자 여행했어요.",
+      "example_uz": "Yolg'iz sayohat qildim.",
+      "audio": "cb100160f0e2.mp3",
+      "example_audio": "8ec3c47e8385.mp3"
+    },
+    {
+      "id": "u04_l2_w019",
+      "ko": "재미있다",
+      "uz": "qiziqarli",
+      "pos": "sifat",
+      "example_ko": "이 게임은 재미있어요.",
+      "example_uz": "Bu o'yin qiziqarli.",
+      "audio": "c06140803701.mp3",
+      "example_audio": "1698994e6478.mp3"
+    },
+    {
+      "id": "u04_l2_w020",
+      "ko": "재미없다",
+      "uz": "zerikarli",
+      "pos": "sifat",
+      "example_ko": "그 영화는 재미없어요.",
+      "example_uz": "U film zerikarli.",
+      "audio": "8e560e45c285.mp3",
+      "example_audio": "a9063e1c768e.mp3"
+    },
+    {
+      "id": "u04_l2_w021",
+      "ko": "힘들다",
+      "uz": "og'ir, charchatadigan",
+      "pos": "sifat",
+      "example_ko": "등산은 조금 힘들어요.",
+      "example_uz": "Toqqa chiqish biroz og'ir.",
+      "audio": "b677d7e024e0.mp3",
+      "example_audio": "dfbe0941dbb6.mp3"
+    },
+    {
+      "id": "u04_l2_w022",
+      "ko": "쉽다",
+      "uz": "oson",
+      "pos": "sifat",
+      "example_ko": "이 노래는 쉬워요.",
+      "example_uz": "Bu qo'shiq oson.",
+      "audio": "babc54d8c475.mp3",
+      "example_audio": "2171740bb4f9.mp3"
+    },
+    {
+      "id": "u04_l2_w023",
+      "ko": "어렵다",
+      "uz": "qiyin",
+      "pos": "sifat",
+      "example_ko": "한국어 발음이 어려워요.",
+      "example_uz": "Koreyscha talaffuz qiyin.",
+      "audio": "b2f2a6f2d1af.mp3",
+      "example_audio": "92b7d2cc2fc3.mp3"
+    },
+    {
+      "id": "u04_l2_w024",
+      "ko": "보통",
+      "uz": "odatda",
+      "pos": "ravish",
+      "example_ko": "주말에 보통 집에서 쉬어요.",
+      "example_uz": "Dam olish kunlari odatda uyda dam olaman.",
+      "audio": "304eda18c79f.mp3",
+      "example_audio": "4162871a1545.mp3"
+    },
+    {
+      "id": "u04_l2_w025",
+      "ko": "항상",
+      "uz": "doim, har doim",
+      "pos": "ravish",
+      "example_ko": "항상 아침을 먹어요.",
+      "example_uz": "Doim nonushta qilaman.",
+      "audio": "8339e9055747.mp3",
+      "example_audio": "afbf8deff625.mp3"
+    },
+    {
+      "id": "u04_l2_w026",
+      "ko": "거의",
+      "uz": "deyarli",
+      "pos": "ravish",
+      "example_ko": "요리를 거의 안 해요.",
+      "example_uz": "Deyarli ovqat pishirmayman.",
+      "audio": "1bd6fffd05b5.mp3",
+      "example_audio": "d2b09d46bc0e.mp3"
+    },
+    {
+      "id": "u04_l2_w027",
+      "ko": "한 달에",
+      "uz": "oyiga",
+      "pos": "ibora",
+      "example_ko": "한 달에 한 번 등산해요.",
+      "example_uz": "Oyiga bir marta toqqa chiqaman.",
+      "audio": "ab64702fa70a.mp3",
+      "example_audio": "a16fe871ea44.mp3"
+    },
+    {
+      "id": "u04_l2_w028",
+      "ko": "싫어하다",
+      "uz": "yoqtirmaslik",
+      "pos": "fe'l",
+      "example_ko": "저는 비 오는 날을 싫어해요.",
+      "example_uz": "Men yomg'irli kunlarni yoqtirmayman.",
+      "audio": "84ab7542bbb2.mp3",
+      "example_audio": "444ad8134660.mp3"
+    },
+    {
+      "id": "u04_l2_w029",
+      "ko": "빵",
+      "uz": "non (bulochka)",
+      "pos": "ot",
+      "example_ko": "빵을 만들어요.",
+      "example_uz": "Non yopaman.",
+      "audio": "913a1fbc6085.mp3",
+      "example_audio": "2a44e12d656f.mp3"
+    },
+    {
+      "id": "u04_l2_w030",
+      "ko": "동아리",
+      "uz": "to'garak (talabalar)",
+      "pos": "ot",
+      "example_ko": "사진 동아리에 들어갔어요.",
+      "example_uz": "Fotografiya to'garagiga kirdim.",
+      "audio": "4926c2e77b8f.mp3",
+      "example_audio": "b4cdbdcaa60a.mp3"
+    },
+    {
+      "id": "u04_l2_w031",
+      "ko": "관심",
+      "uz": "qiziqish",
+      "pos": "ot",
+      "example_ko": "음악에 관심이 있어요.",
+      "example_uz": "Musiqaga qiziqishim bor.",
+      "audio": "0bdd5ee3f101.mp3",
+      "example_audio": "c9793d133ca1.mp3"
+    },
+    {
+      "id": "u04_l2_w032",
+      "ko": "경험",
+      "uz": "tajriba",
+      "pos": "ot",
+      "example_ko": "좋은 경험이었어요.",
+      "example_uz": "Yaxshi tajriba bo'ldi.",
+      "audio": "afe1acaa109b.mp3",
+      "example_audio": "9b37d7d0c870.mp3"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "u04_l2_g1",
+      "pattern": "V-는 것",
+      "meaning_uz": "Fe'lni otga aylantirish: 'toqqa chiqish', 'qo'shiq aytish'",
+      "explanation_md": "**-는 것** fe'lni **ot**ga aylantiradi: 등산하다 → **등산하는 것** — *toqqa chiqish*. O'zbekchadagi **\"-ish\"** qo'shimchasiga o'xshaydi.\n\n**저는 등산하는 걸 좋아해요.** — *Men toqqa chiqishni yaxshi ko'raman.*\n\n3-bo'limda **V-는 + N** ni o'rgandik (먹는 음식). Bu yerda ot o'rnida **것** (narsa) turadi.\n\n### Qisqa shakllar (og'zaki nutqda)\n\n| To'liq | Qisqa | Misol |\n|---|---|---|\n| 것을 | **걸** | 등산하는 **걸** 좋아해요 |\n| 것이 | **게** | 요리하는 **게** 재미있어요 |\n| 것은 | **건** | 혼자 여행하는 **건** 힘들어요 |\n| 것이에요 | **거예요** | 제 취미는 사진을 찍는 **거예요** |\n\n### Qanday yasaladi\n\n3-bo'limdagidek: o'zak + **-는**, ㄹ tushadi:\n\n- 보다 → **보는 것**\n- 만들다 → **만드는 것**\n- 살다 → **사는 것**\n\n### Ko'p ishlatiladigan qoliplar\n\n- **~는 걸 좋아해요 / 싫어해요** — ...ni yaxshi ko'raman / yoqtirmayman\n- **제 취미는 ~는 거예요** — mening xobbim — ...",
+      "formation": [
+        {
+          "condition_uz": "Fe'l",
+          "rule": "-는 것",
+          "example": "등산하다 → 등산하는 것"
+        },
+        {
+          "condition_uz": "ㄹ bilan tugasa",
+          "rule": "ㄹ tushadi + -는 것",
+          "example": "만들다 → 만드는 것"
+        },
+        {
+          "condition_uz": "+ 을/를 (qisqa)",
+          "rule": "-는 걸",
+          "example": "보는 걸 좋아해요"
+        },
+        {
+          "condition_uz": "+ 이에요 (qisqa)",
+          "rule": "-는 거예요",
+          "example": "찍는 거예요"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "저는 등산하는 걸 좋아해요.",
+          "uz": "Men toqqa chiqishni yaxshi ko'raman.",
+          "audio": "efb00068e242.mp3"
+        },
+        {
+          "ko": "제 취미는 사진을 찍는 거예요.",
+          "uz": "Mening xobbim — rasmga olish.",
+          "audio": "6737d8de5d8a.mp3"
+        },
+        {
+          "ko": "요리하는 게 재미있어요.",
+          "uz": "Ovqat pishirish qiziqarli.",
+          "audio": "15304cda537f.mp3"
+        },
+        {
+          "ko": "혼자 여행하는 건 좀 힘들어요.",
+          "uz": "Yolg'iz sayohat qilish biroz qiyin.",
+          "audio": "b0394b4ccff8.mp3"
+        },
+        {
+          "ko": "노래를 부르는 걸 싫어해요.",
+          "uz": "Qo'shiq aytishni yoqtirmayman.",
+          "audio": "9c3f088f5134.mp3"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "등산하는 을 좋아해요",
+          "right": "등산하는 걸 좋아해요",
+          "why_uz": "-는 dan keyin 것 kerak: 것을 → 걸."
+        },
+        {
+          "wrong": "제 취미는 그림을 그려요",
+          "right": "제 취미는 그림을 그리는 거예요",
+          "why_uz": "'Xobbim — ...' gapida fe'l otga aylanadi: -는 거예요."
+        },
+        {
+          "wrong": "빵을 만들는 걸 좋아해요",
+          "right": "빵을 만드는 걸 좋아해요",
+          "why_uz": "만들다 → 만드는 (ㄹ tushadi)."
+        }
+      ],
+      "uz_compare": "O'zbekchada fe'ldan ot yasash uchun '-ish' qo'shiladi: chiqmoq → chiqish. Koreyschada -는 것: 등산하는 것. 'Toqqa chiqishNI yaxshi ko'raman' = 등산하는 걸 좋아해요 (걸 = 것을, '-ni')."
+    },
+    {
+      "id": "u04_l2_g2",
+      "pattern": "A/V-지만",
+      "meaning_uz": "Qarshi qo'yish: '..., lekin ...'",
+      "explanation_md": "**-지만** ikki gapni **qarama-qarshi** bog'laydi: o'zbekchadagi **\"..., lekin / ammo ...\"**.\n\n**등산은 힘들지만 재미있어요.** — *Toqqa chiqish og'ir, lekin qiziqarli.*\n\n### Qanday yasaladi\n\nO'zakka **-지만** — 받침ga qarab o'zgarmaydi (3-bo'limdagi -지 않다 kabi):\n\n- 힘들다 → **힘들지만**\n- 비싸다 → **비싸지만**\n- 어렵다 → **어렵지만** (ㅂ o'zgarmaydi)\n- 배우고 싶다 → **배우고 싶지만**\n\n**O'tgan zamon**: -았/었지만 — 어제는 **추웠지만** 오늘은 따뜻해요.\n\n**Ot**: **N이지만** (받침 bor) / **N지만** (받침 yo'q) — 학생**이지만**, 의사**지만**.\n\n### 그렇지만\n\nIkki alohida gapda **그렇지만** (lekin) ishlatiladi: 등산은 힘들어요. **그렇지만** 재미있어요.",
+      "formation": [
+        {
+          "condition_uz": "Fe'l / sifat",
+          "rule": "-지만",
+          "example": "힘들다 → 힘들지만"
+        },
+        {
+          "condition_uz": "O'tgan zamon",
+          "rule": "-았/었지만",
+          "example": "춥다 → 추웠지만"
+        },
+        {
+          "condition_uz": "Ot",
+          "rule": "N(이)지만",
+          "example": "학생이지만, 의사지만"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "등산은 힘들지만 재미있어요.",
+          "uz": "Toqqa chiqish og'ir, lekin qiziqarli.",
+          "audio": "3a6895037227.mp3"
+        },
+        {
+          "ko": "테니스를 배우고 싶지만 시간이 없어요.",
+          "uz": "Tennisni o'rganmoqchiman, lekin vaqtim yo'q.",
+          "audio": "39a9678b4a52.mp3"
+        },
+        {
+          "ko": "이 식당은 비싸지만 맛있어요.",
+          "uz": "Bu oshxona qimmat, lekin mazali.",
+          "audio": "4671ece0a34b.mp3"
+        },
+        {
+          "ko": "어제는 추웠지만 오늘은 따뜻해요.",
+          "uz": "Kecha sovuq edi, lekin bugun iliq.",
+          "audio": "d2347b7a61d4.mp3"
+        },
+        {
+          "ko": "한국어는 어렵지만 재미있어요.",
+          "uz": "Koreys tili qiyin, lekin qiziqarli.",
+          "audio": "031d5fbda5b1.mp3"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "이 옷은 예쁘만 비싸요",
+          "right": "이 옷은 예쁘지만 비싸요",
+          "why_uz": "O'zakka -지만 to'liq qo'shiladi."
+        },
+        {
+          "wrong": "어려운지만",
+          "right": "어렵지만",
+          "why_uz": "-지만 o'zakka to'g'ridan-to'g'ri qo'shiladi, ㅂ o'zgarmaydi."
+        },
+        {
+          "wrong": "학생지만",
+          "right": "학생이지만",
+          "why_uz": "받침 bor otdan keyin -이지만."
+        }
+      ],
+      "uz_compare": "-지만 o'zbekchadagi 'lekin, ammo' ga to'g'ri keladi, faqat koreyschada u birinchi qismning oxiriga qo'shiladi: 'Qiyin, LEKIN qiziqarli' = 어렵지만 재미있어요."
+    }
+  ],
+  "dialogue": {
+    "lines": [
+      {
+        "speaker": "teacher",
+        "ko": "아지즈 씨는 주말에 보통 뭐 해요?",
+        "uz": "Aziz, dam olish kunlari odatda nima qilasiz?",
+        "audio": "ca5a9ab32fd6.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "저는 등산하는 걸 좋아해요. 그래서 주말에 자주 산에 가요.",
+        "uz": "Men toqqa chiqishni yaxshi ko'raman. Shuning uchun dam olish kunlari tez-tez toqqa boraman.",
+        "audio": "d9cf026409ef.mp3"
+      },
+      {
+        "speaker": "teacher",
+        "ko": "와, 등산은 힘들지 않아요?",
+        "uz": "Voy, toqqa chiqish og'ir emasmi?",
+        "audio": "2e29a83cc7a0.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "힘들지만 재미있어요. 산에서 경치를 보는 게 정말 좋아요.",
+        "uz": "Og'ir, lekin qiziqarli. Tog'dan manzarani tomosha qilish juda yoqimli.",
+        "audio": "e24e28ed4b3c.mp3"
+      },
+      {
+        "speaker": "teacher",
+        "ko": "어느 산에 자주 가요?",
+        "uz": "Qaysi toqqa tez-tez borasiz?",
+        "audio": "8b307b39db9e.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "보통 북한산에 가요. 선생님은 취미가 뭐예요?",
+        "uz": "Odatda Pukhansanga boraman. Ustoz, sizning xobbingiz nima?",
+        "audio": "ad33cc5e225b.mp3"
+      },
+      {
+        "speaker": "teacher",
+        "ko": "제 취미는 요리하는 거예요. 특히 빵을 만드는 걸 좋아해요.",
+        "uz": "Mening xobbim — ovqat pishirish. Ayniqsa non yopishni yaxshi ko'raman.",
+        "audio": "309b9760a795.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "저는 요리를 거의 못 해요.",
+        "uz": "Men deyarli ovqat pishira olmayman.",
+        "audio": "f16394c9d2a7.mp3"
+      },
+      {
+        "speaker": "teacher",
+        "ko": "요리는 어렵지만 배우면 재미있어요.",
+        "uz": "Pishirish qiyin, lekin o'rgansangiz qiziqarli.",
+        "audio": "18828e350843.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "그럼 다음에 저도 배우고 싶어요.",
+        "uz": "Unda keyingi safar men ham o'rganmoqchiman.",
+        "audio": "29f0c74d88cf.mp3"
+      },
+      {
+        "speaker": "teacher",
+        "ko": "좋아요. 같이 만들어 봐요.",
+        "uz": "Yaxshi. Birga yopib ko'ramiz.",
+        "audio": "fe880257e68e.mp3"
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "u04_l2_e001",
+      "type": "conjugate",
+      "targets": [
+        "u04_l2_g1"
+      ],
+      "prompt_uz": "Fe'lni otga aylantiring: 'toqqa chiqish'",
+      "base": "등산하다",
+      "form": "-는 것",
+      "answers": [
+        "등산하는 것"
+      ]
+    },
+    {
+      "id": "u04_l2_e002",
+      "type": "conjugate",
+      "targets": [
+        "u04_l2_g1"
+      ],
+      "prompt_uz": "Fe'lni otga aylantiring: 'yasash'",
+      "base": "만들다",
+      "form": "-는 것",
+      "answers": [
+        "만드는 것"
+      ],
+      "hint_uz": "ㄹ tushib qoladi"
+    },
+    {
+      "id": "u04_l2_e003",
+      "type": "conjugate",
+      "targets": [
+        "u04_l2_g1"
+      ],
+      "prompt_uz": "'O'qishni' (qisqa shakl) yasang",
+      "base": "읽다",
+      "form": "-는 걸",
+      "answers": [
+        "읽는 걸",
+        "읽는 것을"
+      ]
+    },
+    {
+      "id": "u04_l2_e004",
+      "type": "conjugate",
+      "targets": [
+        "u04_l2_g2"
+      ],
+      "prompt_uz": "'Yaxshi, lekin' shaklini yasang",
+      "base": "좋다",
+      "form": "-지만",
+      "answers": [
+        "좋지만"
+      ]
+    },
+    {
+      "id": "u04_l2_e005",
+      "type": "conjugate",
+      "targets": [
+        "u04_l2_g2"
+      ],
+      "prompt_uz": "'Qimmat, lekin' shaklini yasang",
+      "base": "비싸다",
+      "form": "-지만",
+      "answers": [
+        "비싸지만"
+      ]
+    },
+    {
+      "id": "u04_l2_e006",
+      "type": "conjugate",
+      "targets": [
+        "u04_l2_g2"
+      ],
+      "prompt_uz": "'Sovuq edi, lekin' shaklini yasang",
+      "base": "춥다",
+      "form": "-았/었지만",
+      "answers": [
+        "추웠지만"
+      ]
+    },
+    {
+      "id": "u04_l2_e007",
+      "type": "fill_blank",
+      "targets": [
+        "u04_l2_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Mening xobbim — rasmga olish.'",
+      "sentence": "제 취미는 사진을 ___ 거예요. (찍다)",
+      "answers": [
+        "찍는"
+      ]
+    },
+    {
+      "id": "u04_l2_e008",
+      "type": "fill_blank",
+      "targets": [
+        "u04_l2_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Men qo'shiq aytishni yaxshi ko'raman.'",
+      "sentence": "저는 노래를 ___ 걸 좋아해요. (부르다)",
+      "answers": [
+        "부르는"
+      ]
+    },
+    {
+      "id": "u04_l2_e009",
+      "type": "fill_blank",
+      "targets": [
+        "u04_l2_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Koreys tili qiyin, lekin qiziqarli.'",
+      "sentence": "한국어는 ___ 재미있어요. (어렵다)",
+      "answers": [
+        "어렵지만"
+      ]
+    },
+    {
+      "id": "u04_l2_e010",
+      "type": "fill_blank",
+      "targets": [
+        "u04_l2_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Toqqa chiqish og'ir, lekin manzara chiroyli.'",
+      "sentence": "등산은 ___ 경치가 좋아요. (힘들다)",
+      "answers": [
+        "힘들지만"
+      ]
+    },
+    {
+      "id": "u04_l2_e011",
+      "type": "situation_choice",
+      "targets": [
+        "u04_l2_g1"
+      ],
+      "prompt_uz": "'Mening xobbim — rasm chizish' qaysi biri to'g'ri?",
+      "options": [
+        "제 취미는 그림을 그리는 거예요",
+        "제 취미는 그림을 그려요",
+        "제 취미는 그림이 그리는 거예요",
+        "제 취미는 그림을 그리지만"
+      ],
+      "answers": [
+        "제 취미는 그림을 그리는 거예요"
+      ]
+    },
+    {
+      "id": "u04_l2_e012",
+      "type": "situation_choice",
+      "targets": [
+        "u04_l2_g2"
+      ],
+      "prompt_uz": "'Qimmat, lekin mazali' qaysi biri?",
+      "options": [
+        "비싸지만 맛있어요",
+        "비싸서 맛있어요",
+        "비싸면 맛있어요",
+        "비싸고 맛있어요"
+      ],
+      "answers": [
+        "비싸지만 맛있어요"
+      ]
+    },
+    {
+      "id": "u04_l2_e013",
+      "type": "situation_choice",
+      "targets": [
+        "u04_l2_w003"
+      ],
+      "prompt_uz": "Daryo bo'yida baliq tutish xobbisi qaysi?",
+      "options": [
+        "낚시",
+        "등산",
+        "독서",
+        "요리"
+      ],
+      "answers": [
+        "낚시"
+      ]
+    },
+    {
+      "id": "u04_l2_e014",
+      "type": "build_sentence",
+      "targets": [
+        "u04_l2_g1"
+      ],
+      "prompt_uz": "'Men toqqa chiqishni yaxshi ko'raman' gapini tuzing",
+      "tokens": [
+        "좋아해요",
+        "등산하는",
+        "저는",
+        "걸"
+      ],
+      "answers": [
+        "저는 등산하는 걸 좋아해요"
+      ]
+    },
+    {
+      "id": "u04_l2_e015",
+      "type": "build_sentence",
+      "targets": [
+        "u04_l2_g2"
+      ],
+      "prompt_uz": "'Tennisni o'rganmoqchiman, lekin vaqtim yo'q' gapini tuzing",
+      "tokens": [
+        "시간이",
+        "배우고",
+        "없어요",
+        "테니스를",
+        "싶지만"
+      ],
+      "answers": [
+        "테니스를 배우고 싶지만 시간이 없어요"
+      ]
+    },
+    {
+      "id": "u04_l2_e016",
+      "type": "find_error",
+      "targets": [
+        "u04_l2_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "sentence": "제 취미는 요리해요.",
+      "answers": [
+        "제 취미는 요리하는 거예요",
+        "제 취미는 요리예요"
+      ],
+      "why_uz": "'Xobbim — ...' gapida -는 거예요 yoki ot + 예요."
+    },
+    {
+      "id": "u04_l2_e017",
+      "type": "find_error",
+      "targets": [
+        "u04_l2_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "sentence": "저는 빵을 만들는 걸 좋아해요.",
+      "answers": [
+        "저는 빵을 만드는 걸 좋아해요"
+      ],
+      "why_uz": "만들다 → 만드는."
+    },
+    {
+      "id": "u04_l2_e018",
+      "type": "find_error",
+      "targets": [
+        "u04_l2_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "sentence": "이 옷은 예쁘만 비싸요.",
+      "answers": [
+        "이 옷은 예쁘지만 비싸요"
+      ],
+      "why_uz": "-지만 to'liq qo'shiladi."
+    },
+    {
+      "id": "u04_l2_e019",
+      "type": "translate",
+      "targets": [
+        "u04_l2_g1"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "source_uz": "Men musiqa tinglashni yaxshi ko'raman.",
+      "answers": [
+        "저는 음악을 듣는 걸 좋아해요",
+        "저는 음악 듣는 걸 좋아해요",
+        "음악을 듣는 걸 좋아해요",
+        "저는 음악을 듣는 것을 좋아해요",
+        "음악 듣는 걸 좋아해요"
+      ]
+    },
+    {
+      "id": "u04_l2_e020",
+      "type": "translate",
+      "targets": [
+        "u04_l2_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "source_uz": "Koreys tili qiyin, lekin qiziqarli.",
+      "answers": [
+        "한국어는 어렵지만 재미있어요",
+        "한국어가 어렵지만 재미있어요"
+      ]
+    },
+    {
+      "id": "u04_l2_e021",
+      "type": "translate",
+      "targets": [
+        "u04_l2_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "source_uz": "Kecha sovuq edi, lekin bugun iliq.",
+      "answers": [
+        "어제는 추웠지만 오늘은 따뜻해요",
+        "어제 추웠지만 오늘은 따뜻해요",
+        "어제는 추웠지만 오늘 따뜻해요"
+      ]
+    },
+    {
+      "id": "u04_l2_e031",
+      "type": "listen_question",
+      "targets": [
+        "u04_l2_g1"
+      ],
+      "prompt_uz": "Uning xobbisi nima?",
+      "audio_text": "제 취미는 낚시하는 거예요.",
+      "options": [
+        "Baliq ovi",
+        "Rasm chizish",
+        "Ovqat pishirish",
+        "Raqs"
+      ],
+      "answers": [
+        "Baliq ovi"
+      ],
+      "audio": "b955413f36d5.mp3"
+    },
+    {
+      "id": "u04_l2_e032",
+      "type": "listen_question",
+      "targets": [
+        "u04_l2_g2"
+      ],
+      "prompt_uz": "U raqs haqida nima deydi?",
+      "audio_text": "춤은 어렵지만 정말 재미있어요.",
+      "options": [
+        "Qiyin, lekin qiziqarli",
+        "Oson va qiziqarli",
+        "Qiyin va zerikarli",
+        "Yoqmaydi"
+      ],
+      "answers": [
+        "Qiyin, lekin qiziqarli"
+      ],
+      "audio": "742a954c0612.mp3"
+    },
+    {
+      "id": "u04_l2_e033",
+      "type": "listen_question",
+      "targets": [
+        "u04_l2_g1"
+      ],
+      "prompt_uz": "U nimani yaxshi ko'radi?",
+      "audio_text": "저는 혼자 여행하는 걸 좋아해요.",
+      "options": [
+        "Yolg'iz sayohat qilishni",
+        "Do'stlar bilan sayohatni",
+        "Uyda dam olishni",
+        "Ovqat pishirishni"
+      ],
+      "answers": [
+        "Yolg'iz sayohat qilishni"
+      ],
+      "audio": "46a7b523bf19.mp3"
+    },
+    {
+      "id": "u04_l2_e101",
+      "type": "conjugate",
+      "targets": [
+        "u04_l2_g1"
+      ],
+      "prompt_uz": "Fe'lni otga aylantiring: 'ko'rish'",
+      "base": "보다",
+      "form": "-는 것",
+      "answers": [
+        "보는 것"
+      ]
+    },
+    {
+      "id": "u04_l2_e102",
+      "type": "conjugate",
+      "targets": [
+        "u04_l2_g1"
+      ],
+      "prompt_uz": "Fe'lni otga aylantiring: 'yashash'",
+      "base": "살다",
+      "form": "-는 것",
+      "answers": [
+        "사는 것"
+      ]
+    },
+    {
+      "id": "u04_l2_e103",
+      "type": "conjugate",
+      "targets": [
+        "u04_l2_g2"
+      ],
+      "prompt_uz": "'Mazali, lekin' shaklini yasang",
+      "base": "맛있다",
+      "form": "-지만",
+      "answers": [
+        "맛있지만"
+      ]
+    },
+    {
+      "id": "u04_l2_e104",
+      "type": "fill_blank",
+      "targets": [
+        "u04_l2_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Men raqsga tushishni yoqtirmayman.'",
+      "sentence": "저는 춤을 ___ 걸 싫어해요. (추다)",
+      "answers": [
+        "추는"
+      ]
+    },
+    {
+      "id": "u04_l2_e105",
+      "type": "fill_blank",
+      "targets": [
+        "u04_l2_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Bu film uzun, lekin qiziqarli.'",
+      "sentence": "이 영화는 ___ 재미있어요. (길다)",
+      "answers": [
+        "길지만"
+      ]
+    },
+    {
+      "id": "u04_l2_e106",
+      "type": "fill_blank",
+      "targets": [
+        "u04_l2_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Ovqat pishirish qiziqarli.'",
+      "sentence": "___ 게 재미있어요. (요리하다)",
+      "answers": [
+        "요리하는"
+      ]
+    },
+    {
+      "id": "u04_l2_e107",
+      "type": "situation_choice",
+      "targets": [
+        "u04_l2_g1"
+      ],
+      "prompt_uz": "'Kitob o'qish qiziqarli' qaysi biri?",
+      "options": [
+        "책을 읽는 게 재미있어요",
+        "책을 읽어 재미있어요",
+        "책을 읽지만 재미있어요",
+        "책이 읽는 게 재미있어요"
+      ],
+      "answers": [
+        "책을 읽는 게 재미있어요"
+      ]
+    },
+    {
+      "id": "u04_l2_e108",
+      "type": "situation_choice",
+      "targets": [
+        "u04_l2_g2"
+      ],
+      "prompt_uz": "'Yomg'ir yog'yapti, lekin toqqa boraman' qaysi biri?",
+      "options": [
+        "비가 오지만 산에 가요",
+        "비가 와서 산에 가요",
+        "비가 오면 산에 가요",
+        "비가 오고 산에 가요"
+      ],
+      "answers": [
+        "비가 오지만 산에 가요"
+      ]
+    },
+    {
+      "id": "u04_l2_e109",
+      "type": "build_sentence",
+      "targets": [
+        "u04_l2_g1"
+      ],
+      "prompt_uz": "'Mening xobbim — rasmga olish' gapini tuzing",
+      "tokens": [
+        "찍는",
+        "취미는",
+        "거예요",
+        "제",
+        "사진을"
+      ],
+      "answers": [
+        "제 취미는 사진을 찍는 거예요"
+      ]
+    },
+    {
+      "id": "u04_l2_e110",
+      "type": "build_sentence",
+      "targets": [
+        "u04_l2_g2"
+      ],
+      "prompt_uz": "'Toqqa chiqish og'ir, lekin qiziqarli' gapini tuzing",
+      "tokens": [
+        "재미있어요",
+        "등산은",
+        "힘들지만"
+      ],
+      "answers": [
+        "등산은 힘들지만 재미있어요"
+      ]
+    },
+    {
+      "id": "u04_l2_e111",
+      "type": "find_error",
+      "targets": [
+        "u04_l2_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "sentence": "저는 피아노를 치은 걸 좋아해요.",
+      "answers": [
+        "저는 피아노를 치는 걸 좋아해요"
+      ],
+      "why_uz": "Fe'lga -는 qo'shiladi: 치는."
+    },
+    {
+      "id": "u04_l2_e112",
+      "type": "find_error",
+      "targets": [
+        "u04_l2_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "sentence": "그 사람은 학생지만 일을 해요.",
+      "answers": [
+        "그 사람은 학생이지만 일을 해요"
+      ],
+      "why_uz": "받침 bor otdan keyin -이지만."
+    },
+    {
+      "id": "u04_l2_e113",
+      "type": "translate",
+      "targets": [
+        "u04_l2_g1"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "source_uz": "Men ovqat pishirishni yaxshi ko'raman.",
+      "answers": [
+        "저는 요리하는 걸 좋아해요",
+        "저는 요리하는 것을 좋아해요",
+        "요리하는 걸 좋아해요",
+        "저는 요리를 좋아해요"
+      ]
+    },
+    {
+      "id": "u04_l2_e114",
+      "type": "translate",
+      "targets": [
+        "u04_l2_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "source_uz": "Bu kiyim chiroyli, lekin qimmat.",
+      "answers": [
+        "이 옷은 예쁘지만 비싸요",
+        "이 옷이 예쁘지만 비싸요"
+      ]
+    },
+    {
+      "id": "u04_l2_e115",
+      "type": "listen_question",
+      "targets": [
+        "u04_l2_g2"
+      ],
+      "prompt_uz": "Nega u dam ola olmaydi?",
+      "audio_text": "주말에 쉬고 싶지만 일이 많아요.",
+      "options": [
+        "Ishi ko'p",
+        "Kasal",
+        "Puli yo'q",
+        "Havo yomon"
+      ],
+      "answers": [
+        "Ishi ko'p"
+      ],
+      "audio": "4d0c4a579282.mp3"
+    }
+  ],
+  "test": [
+    "u04_l2_e101",
+    "u04_l2_e102",
+    "u04_l2_e103",
+    "u04_l2_e104",
+    "u04_l2_e105",
+    "u04_l2_e106",
+    "u04_l2_e107",
+    "u04_l2_e108",
+    "u04_l2_e109",
+    "u04_l2_e110",
+    "u04_l2_e111",
+    "u04_l2_e112",
+    "u04_l2_e113",
+    "u04_l2_e114",
+    "u04_l2_e115"
+  ]
+}
