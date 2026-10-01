@@ -1127,5 +1127,112 @@
     "u06_l2_e113",
     "u06_l2_e114",
     "u06_l2_e115"
-  ]
+  ],
+  "story": {
+    "title_uz": "Dorixonani qidirib",
+    "steps": [
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "실례합니다. 이 근처에 약국이 있어요?",
+        "uz": "Kechirasiz. Bu yaqin atrofda dorixona bormi?",
+        "audio": "91c7c1cf12c7.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "passerby",
+        "ko": "네, 있어요. 저 사거리에서 오른쪽으로 도세요.",
+        "uz": "Ha, bor. Anavi chorrahadan o'ngga buriling.",
+        "audio": "f9f3980724a3.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "사거리에서 오른쪽으로요?",
+        "uz": "Chorrahadan o'nggami?",
+        "audio": "f166eb3600ef.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "passerby",
+        "ko": "네. 그리고 횡단보도를 건너서 쭉 가세요.",
+        "uz": "Ha. Keyin piyodalar o'tish joyidan o'tib, to'g'ri boring.",
+        "audio": "3a579063c5e9.mp3"
+      },
+      {
+        "type": "choose_reply",
+        "speaker": "aziz",
+        "prompt_uz": "Aziz eshitganini takrorlaydi: 'O'tib, to'g'ri boramanmi?'",
+        "options": [
+          "횡단보도를 건너서 쭉 가요?",
+          "횡단보도를 건너어서 쭉 가요?",
+          "횡단보도를 건넜어서 쭉 가요?"
+        ],
+        "answer": "횡단보도를 건너서 쭉 가요?",
+        "uz": "Piyodalar o'tish joyidan o'tib, to'g'ri boramanmi?",
+        "why_uz": "건너 + 어서 → 건너서; -아서/어서 oldidan o'tgan zamon qo'yilmaydi.",
+        "audio": "c0aef17eeabd.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "passerby",
+        "ko": "맞아요. 편의점 옆에 약국이 있어요.",
+        "uz": "To'g'ri. Minimarket yonida dorixona bor.",
+        "audio": "367f2b5242f9.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "여기에서 약국까지 멀어요?",
+        "uz": "Bu yerdan dorixonagacha uzoqmi?",
+        "audio": "bde64f112a60.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "passerby",
+        "ko": "아니요, 걸어서 오 분 정도 걸려요.",
+        "uz": "Yo'q, piyoda besh daqiqacha.",
+        "audio": "a235c3898c5d.mp3"
+      },
+      {
+        "type": "quiz",
+        "prompt_uz": "Dorixona nimaning yonida?",
+        "options": [
+          "Minimarket",
+          "Bank",
+          "Maktab"
+        ],
+        "answer": "Minimarket",
+        "why_uz": "편의점 = minimarket."
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "약국은 몇 시부터 몇 시까지 해요?",
+        "uz": "Dorixona soat nechadan nechagacha ishlaydi?",
+        "audio": "4737bd54b6f2.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "passerby",
+        "ko": "아침 아홉 시부터 밤 열 시까지 해요.",
+        "uz": "Ertalab to'qqizdan kechki o'ngacha.",
+        "audio": "3b3e06bf92dd.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "감사합니다. 정말 친절하세요.",
+        "uz": "Rahmat. Juda xushmuomalasiz.",
+        "audio": "8f54b217926d.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "passerby",
+        "ko": "천만에요. 조심히 가세요!",
+        "uz": "Arzimaydi. Ehtiyot bo'lib boring!",
+        "audio": "ee3eb073758a.mp3"
+      }
+    ]
+  }
 }

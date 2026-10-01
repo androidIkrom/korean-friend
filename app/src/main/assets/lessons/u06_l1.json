@@ -1131,5 +1131,119 @@
     "u06_l1_e113",
     "u06_l1_e114",
     "u06_l1_e115"
-  ]
+  ],
+  "story": {
+    "title_uz": "Cheonggyecheonga yo'l",
+    "steps": [
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "실례합니다. 청계천에 어떻게 가야 돼요?",
+        "uz": "Kechirasiz. Cheonggyecheonga qanday borish kerak?",
+        "audio": "092dfabe85a3.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "passerby",
+        "ko": "지하철로 가세요. 버스보다 더 빨라요.",
+        "uz": "Metroda boring. Avtobusdan tezroq.",
+        "audio": "f09978fc814d.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "여기에서 몇 호선을 타야 돼요?",
+        "uz": "Bu yerdan nechanchi liniyaga chiqishim kerak?",
+        "audio": "9512e3380e81.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "passerby",
+        "ko": "2호선을 타고 시청역에서 내리세요.",
+        "uz": "2-liniyaga chiqib, Sicheong bekatida tushing.",
+        "audio": "dc053a7568e8.mp3"
+      },
+      {
+        "type": "quiz",
+        "prompt_uz": "Aziz qaysi bekatda tushishi kerak?",
+        "options": [
+          "Sicheong bekatida",
+          "Seul bekatida",
+          "Gangnam bekatida"
+        ],
+        "answer": "Sicheong bekatida",
+        "why_uz": "시청역에서 내리세요."
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "갈아타야 돼요?",
+        "uz": "Almashtirishim kerakmi?",
+        "audio": "64898d588931.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "passerby",
+        "ko": "아니요, 갈아타지 않아요. 바로 가요.",
+        "uz": "Yo'q, almashtirmaysiz. To'g'ri borasiz.",
+        "audio": "86aa94e9cfe7.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "그런데 저는 교통카드가 없어요.",
+        "uz": "Lekin mening transport kartam yo'q.",
+        "audio": "fb538087f1bd.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "passerby",
+        "ko": "그럼 역에서 교통카드를 사야 돼요. 그리고 충전해야 돼요.",
+        "uz": "Unda bekatdan transport karta olishingiz kerak. Va uni to'ldirishingiz kerak.",
+        "audio": "1f6b08947a58.mp3"
+      },
+      {
+        "type": "choose_reply",
+        "speaker": "aziz",
+        "prompt_uz": "Aziz 'Men yo'lni yaxshi bilmayman' demoqchi.",
+        "options": [
+          "저는 길을 잘 몰라요.",
+          "저는 길을 잘 모라요.",
+          "저는 길을 잘 모르아요."
+        ],
+        "answer": "저는 길을 잘 몰라요.",
+        "uz": "Men yo'lni yaxshi bilmayman.",
+        "why_uz": "르 불규칙: 모르다 → 몰라요.",
+        "audio": "f1f145a28a1b.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "passerby",
+        "ko": "괜찮아요. 시청역 4번 출구로 나가세요. 청계천이 가까워요.",
+        "uz": "Hechqisi yo'q. Sicheong bekatining 4-chiqishidan chiqing. Cheonggyecheon yaqin.",
+        "audio": "b7714b47ec2d.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "지금 퇴근 시간이에요. 지하철에 사람이 많아요?",
+        "uz": "Hozir ishdan qaytish vaqti. Metroda odam ko'pmi?",
+        "audio": "0d1c36df217d.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "passerby",
+        "ko": "네, 많아요. 그래도 버스보다 빨라요.",
+        "uz": "Ha, ko'p. Baribir avtobusdan tez.",
+        "audio": "dc95871c2384.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "정말 감사합니다!",
+        "uz": "Katta rahmat!",
+        "audio": "1ace399a2b72.mp3"
+      }
+    ]
+  }
 }

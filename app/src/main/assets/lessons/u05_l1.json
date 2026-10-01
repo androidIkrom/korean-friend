@@ -1126,5 +1126,119 @@
     "u05_l1_e113",
     "u05_l1_e114",
     "u05_l1_e115"
-  ]
+  ],
+  "story": {
+    "title_uz": "Bankda hisob ochish",
+    "steps": [
+      {
+        "type": "line",
+        "speaker": "clerk",
+        "ko": "어서 오세요. 번호표 받으셨어요?",
+        "uz": "Keling. Navbat raqamini oldingizmi?",
+        "audio": "d205c877b22b.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "네, 여기 있어요.",
+        "uz": "Ha, mana.",
+        "audio": "b892aa81d045.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "clerk",
+        "ko": "어떻게 오셨어요?",
+        "uz": "Nima ish bilan keldingiz?",
+        "audio": "8365827700d7.mp3"
+      },
+      {
+        "type": "choose_reply",
+        "speaker": "aziz",
+        "prompt_uz": "Aziz muloyim qilib 'Hisob ochmoqchi edim' demoqchi.",
+        "options": [
+          "통장을 만들고 싶은데요.",
+          "통장을 만들고 싶는데요.",
+          "통장을 만들고 싶인데요."
+        ],
+        "answer": "통장을 만들고 싶은데요.",
+        "uz": "Hisob ochmoqchi edim.",
+        "why_uz": "싶다 sifatdek tuslanadi: 싶은데요.",
+        "audio": "ddc901675bfb.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "clerk",
+        "ko": "네, 신분증 좀 보여 주세요.",
+        "uz": "Xo'p, shaxsingizni tasdiqlovchi hujjatni ko'rsating.",
+        "audio": "a8cff0320f9c.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "저는 외국인인데요. 외국인 등록증 괜찮아요?",
+        "uz": "Men chet ellikman. Xorijliklar guvohnomasi bo'ladimi?",
+        "audio": "2021e6cea09a.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "clerk",
+        "ko": "네, 괜찮아요. 이 서류에 이름을 쓰고 서명해 주세요.",
+        "uz": "Ha, bo'ladi. Bu hujjatga ismingizni yozib, imzo qo'ying.",
+        "audio": "f657071eb34d.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "죄송한데요, 천천히 말해 주세요.",
+        "uz": "Kechirasiz, sekinroq gapirib bering.",
+        "audio": "7f581aa3ba7d.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "clerk",
+        "ko": "아, 네. 여기에 이름을 쓰세요. 그리고 여기에 서명하세요.",
+        "uz": "Ha. Bu yerga ismingizni yozing. Va bu yerga imzo qo'ying.",
+        "audio": "bfe26032832e.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "clerk",
+        "ko": "체크카드도 같이 만들어요?",
+        "uz": "Bank kartasini ham birga ochamizmi?",
+        "audio": "0942e3aa0136.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "네, 체크카드도 만들어 주세요.",
+        "uz": "Ha, kartani ham ochib bering.",
+        "audio": "b1d864ae1945.mp3"
+      },
+      {
+        "type": "quiz",
+        "prompt_uz": "Aziz bankda nima qildi?",
+        "options": [
+          "Hisob va karta ochdi",
+          "Pul almashtirdi",
+          "Pul yechdi"
+        ],
+        "answer": "Hisob va karta ochdi",
+        "why_uz": "통장 = hisob, 체크카드 = bank kartasi."
+      },
+      {
+        "type": "line",
+        "speaker": "clerk",
+        "ko": "다 됐어요. 여기 통장하고 체크카드예요.",
+        "uz": "Hammasi tayyor. Mana hisob daftarchasi va karta.",
+        "audio": "a080a69eea04.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "감사합니다. 정말 친절하세요!",
+        "uz": "Rahmat. Juda xushmuomalasiz!",
+        "audio": "6894cf1466eb.mp3"
+      }
+    ]
+  }
 }
