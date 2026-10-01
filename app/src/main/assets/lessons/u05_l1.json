@@ -1,0 +1,1130 @@
+{
+  "id": "u05_l1",
+  "unit": 5,
+  "lesson": 1,
+  "title_ko": "통장을 만들고 싶은데요",
+  "title_uz": "Hisob ochmoqchi edim",
+  "topic_uz": "Bank va pochta",
+  "reviewed": false,
+  "words": [
+    {
+      "id": "u05_l1_w001",
+      "ko": "은행",
+      "uz": "bank",
+      "pos": "ot",
+      "example_ko": "은행은 네 시에 문을 닫아요.",
+      "example_uz": "Bank soat to'rtda yopiladi.",
+      "audio": "2d0a2d693302.mp3",
+      "example_audio": "0b3e60d8e893.mp3"
+    },
+    {
+      "id": "u05_l1_w002",
+      "ko": "통장",
+      "uz": "bank daftarchasi, hisob",
+      "pos": "ot",
+      "example_ko": "통장을 가지고 오세요.",
+      "example_uz": "Bank daftarchasini olib keling.",
+      "audio": "c7fe834ab9f7.mp3",
+      "example_audio": "a07343a71b24.mp3"
+    },
+    {
+      "id": "u05_l1_w003",
+      "ko": "통장을 만들다",
+      "uz": "hisob ochmoq",
+      "pos": "ibora",
+      "example_ko": "은행에서 통장을 만들었어요.",
+      "example_uz": "Bankda hisob ochdim.",
+      "audio": "492ee2b97b0e.mp3",
+      "example_audio": "efe5347232a1.mp3"
+    },
+    {
+      "id": "u05_l1_w004",
+      "ko": "계좌",
+      "uz": "hisob raqami",
+      "pos": "ot",
+      "example_ko": "계좌 번호를 알려 주세요.",
+      "example_uz": "Hisob raqamingizni ayting.",
+      "audio": "7b06964d933e.mp3",
+      "example_audio": "2844d1d7081d.mp3"
+    },
+    {
+      "id": "u05_l1_w005",
+      "ko": "돈",
+      "uz": "pul",
+      "pos": "ot",
+      "example_ko": "돈이 조금 있어요.",
+      "example_uz": "Ozgina pulim bor.",
+      "audio": "2e4e0ae39ab1.mp3",
+      "example_audio": "fb9f61ccb110.mp3"
+    },
+    {
+      "id": "u05_l1_w006",
+      "ko": "돈을 찾다",
+      "uz": "pul yechib olmoq",
+      "pos": "ibora",
+      "example_ko": "현금 인출기에서 돈을 찾았어요.",
+      "example_uz": "Bankomatdan pul yechib oldim.",
+      "audio": "5ce511c77b57.mp3",
+      "example_audio": "99a6a84cb4ef.mp3"
+    },
+    {
+      "id": "u05_l1_w007",
+      "ko": "입금하다",
+      "uz": "hisobga pul qo'ymoq",
+      "pos": "fe'l",
+      "example_ko": "통장에 돈을 입금했어요.",
+      "example_uz": "Hisobga pul qo'ydim.",
+      "audio": "530db8d737b4.mp3",
+      "example_audio": "46b80ca8ff8c.mp3"
+    },
+    {
+      "id": "u05_l1_w008",
+      "ko": "송금하다",
+      "uz": "pul o'tkazmoq",
+      "pos": "fe'l",
+      "example_ko": "가족에게 돈을 송금해요.",
+      "example_uz": "Oilamga pul o'tkazaman.",
+      "audio": "2adf86b33963.mp3",
+      "example_audio": "5098abdf8e15.mp3"
+    },
+    {
+      "id": "u05_l1_w009",
+      "ko": "환전하다",
+      "uz": "valyuta almashtirmoq",
+      "pos": "fe'l",
+      "example_ko": "달러를 원으로 환전했어요.",
+      "example_uz": "Dollarni vonga almashtirdim.",
+      "audio": "1d293f37dbb2.mp3",
+      "example_audio": "36bf89a545ea.mp3"
+    },
+    {
+      "id": "u05_l1_w010",
+      "ko": "달러",
+      "uz": "dollar",
+      "pos": "ot",
+      "example_ko": "백 달러가 있어요.",
+      "example_uz": "Yuz dollarim bor.",
+      "audio": "2682b80c245c.mp3",
+      "example_audio": "203406f97011.mp3"
+    },
+    {
+      "id": "u05_l1_w011",
+      "ko": "원",
+      "uz": "von (Koreya puli)",
+      "pos": "ot",
+      "example_ko": "이건 만 원이에요.",
+      "example_uz": "Bu o'n ming von.",
+      "audio": "5493c64fb5dc.mp3",
+      "example_audio": "22879c10e712.mp3"
+    },
+    {
+      "id": "u05_l1_w012",
+      "ko": "체크카드",
+      "uz": "debet karta",
+      "pos": "ot",
+      "example_ko": "체크카드로 계산했어요.",
+      "example_uz": "Debet karta bilan to'ladim.",
+      "audio": "44d26507e562.mp3",
+      "example_audio": "0e5758abc56f.mp3"
+    },
+    {
+      "id": "u05_l1_w013",
+      "ko": "신분증",
+      "uz": "shaxsni tasdiqlovchi hujjat",
+      "pos": "ot",
+      "example_ko": "신분증을 가지고 왔어요?",
+      "example_uz": "Shaxsiy hujjatingizni olib keldingizmi?",
+      "audio": "2bbb4a4adffe.mp3",
+      "example_audio": "974a63aedfc5.mp3"
+    },
+    {
+      "id": "u05_l1_w014",
+      "ko": "여권",
+      "uz": "pasport",
+      "pos": "ot",
+      "example_ko": "여권을 잃어버렸어요.",
+      "example_uz": "Pasportimni yo'qotib qo'ydim.",
+      "audio": "e3d4f2cc1f01.mp3",
+      "example_audio": "b7c499b07aa6.mp3"
+    },
+    {
+      "id": "u05_l1_w015",
+      "ko": "외국인 등록증",
+      "uz": "chet el fuqarosi kartasi (ID)",
+      "pos": "ot",
+      "example_ko": "외국인 등록증이 있어요.",
+      "example_uz": "Chet el fuqarosi kartam bor.",
+      "audio": "1d31018a5e75.mp3",
+      "example_audio": "5e206dbafe9e.mp3"
+    },
+    {
+      "id": "u05_l1_w016",
+      "ko": "비밀번호",
+      "uz": "parol, PIN-kod",
+      "pos": "ot",
+      "example_ko": "비밀번호를 잊어버렸어요.",
+      "example_uz": "Parolni unutib qo'ydim.",
+      "audio": "70fdc3185bcd.mp3",
+      "example_audio": "f64e4fd131ef.mp3"
+    },
+    {
+      "id": "u05_l1_w017",
+      "ko": "번호표",
+      "uz": "navbat raqami (talon)",
+      "pos": "ot",
+      "example_ko": "번호표를 뽑으세요.",
+      "example_uz": "Navbat raqamini oling.",
+      "audio": "472405ce33bd.mp3",
+      "example_audio": "bc8b125c40fb.mp3"
+    },
+    {
+      "id": "u05_l1_w018",
+      "ko": "창구",
+      "uz": "kassa oynasi",
+      "pos": "ot",
+      "example_ko": "삼 번 창구로 오세요.",
+      "example_uz": "Uchinchi kassaga keling.",
+      "audio": "d14466214875.mp3",
+      "example_audio": "712592762321.mp3"
+    },
+    {
+      "id": "u05_l1_w019",
+      "ko": "직원",
+      "uz": "xodim",
+      "pos": "ot",
+      "example_ko": "은행 직원이 친절해요.",
+      "example_uz": "Bank xodimi xushmuomala.",
+      "audio": "871e37e3856a.mp3",
+      "example_audio": "ace791b6d526.mp3"
+    },
+    {
+      "id": "u05_l1_w020",
+      "ko": "서류",
+      "uz": "hujjat, ariza",
+      "pos": "ot",
+      "example_ko": "이 서류를 읽어 보세요.",
+      "example_uz": "Bu hujjatni o'qib ko'ring.",
+      "audio": "507265092d34.mp3",
+      "example_audio": "419e2a7ba2f5.mp3"
+    },
+    {
+      "id": "u05_l1_w021",
+      "ko": "서명하다",
+      "uz": "imzo qo'ymoq",
+      "pos": "fe'l",
+      "example_ko": "여기에 서명하세요.",
+      "example_uz": "Bu yerga imzo qo'ying.",
+      "audio": "804ab3447a17.mp3",
+      "example_audio": "93d2edc501ac.mp3"
+    },
+    {
+      "id": "u05_l1_w022",
+      "ko": "쓰다",
+      "uz": "yozmoq",
+      "pos": "fe'l",
+      "example_ko": "이름을 써요.",
+      "example_uz": "Ismni yozaman.",
+      "audio": "88d9d891927c.mp3",
+      "example_audio": "4d4307303f77.mp3"
+    },
+    {
+      "id": "u05_l1_w023",
+      "ko": "기다리다",
+      "uz": "kutmoq",
+      "pos": "fe'l",
+      "example_ko": "친구를 기다려요.",
+      "example_uz": "Do'stimni kutyapman.",
+      "audio": "2f0dd0c3a8b9.mp3",
+      "example_audio": "24757c35d8d4.mp3"
+    },
+    {
+      "id": "u05_l1_w024",
+      "ko": "현금 인출기",
+      "uz": "bankomat",
+      "pos": "ot",
+      "example_ko": "현금 인출기가 어디에 있어요?",
+      "example_uz": "Bankomat qayerda?",
+      "audio": "5bc0c92b920c.mp3",
+      "example_audio": "b375b3611a25.mp3"
+    },
+    {
+      "id": "u05_l1_w025",
+      "ko": "현금",
+      "uz": "naqd pul",
+      "pos": "ot",
+      "example_ko": "현금이 없어요.",
+      "example_uz": "Naqd pulim yo'q.",
+      "audio": "10bd292186d9.mp3",
+      "example_audio": "b81b3a8daa9a.mp3"
+    },
+    {
+      "id": "u05_l1_w026",
+      "ko": "수수료",
+      "uz": "komissiya, xizmat haqi",
+      "pos": "ot",
+      "example_ko": "수수료가 얼마예요?",
+      "example_uz": "Komissiya qancha?",
+      "audio": "241038a16fee.mp3",
+      "example_audio": "bef32ac5d889.mp3"
+    },
+    {
+      "id": "u05_l1_w027",
+      "ko": "잔액",
+      "uz": "qoldiq (hisobdagi pul)",
+      "pos": "ot",
+      "example_ko": "잔액을 확인했어요.",
+      "example_uz": "Qoldiqni tekshirdim.",
+      "audio": "82b79c9554a9.mp3",
+      "example_audio": "1437a9207dc8.mp3"
+    },
+    {
+      "id": "u05_l1_w028",
+      "ko": "확인하다",
+      "uz": "tekshirmoq",
+      "pos": "fe'l",
+      "example_ko": "이름을 다시 확인하세요.",
+      "example_uz": "Ismni qayta tekshiring.",
+      "audio": "a9ca4ff215ff.mp3",
+      "example_audio": "59d88cfd5152.mp3"
+    },
+    {
+      "id": "u05_l1_w029",
+      "ko": "보여 주다",
+      "uz": "ko'rsatmoq",
+      "pos": "fe'l",
+      "example_ko": "사진을 보여 주세요.",
+      "example_uz": "Rasmni ko'rsating.",
+      "audio": "b7915b7c73ce.mp3",
+      "example_audio": "08439ad087bd.mp3"
+    },
+    {
+      "id": "u05_l1_w030",
+      "ko": "돕다",
+      "uz": "yordam bermoq",
+      "pos": "fe'l",
+      "example_ko": "친구가 저를 도와줬어요.",
+      "example_uz": "Do'stim menga yordam berdi.",
+      "audio": "1a135244abbf.mp3",
+      "example_audio": "f897f6cf49fe.mp3"
+    },
+    {
+      "id": "u05_l1_w031",
+      "ko": "처음",
+      "uz": "birinchi marta",
+      "pos": "ravish",
+      "example_ko": "한국 은행은 처음이에요.",
+      "example_uz": "Koreya bankiga birinchi marta kelishim.",
+      "audio": "a61ba4d0c4fc.mp3",
+      "example_audio": "a60255d8997f.mp3"
+    },
+    {
+      "id": "u05_l1_w032",
+      "ko": "천천히",
+      "uz": "sekin, shoshilmasdan",
+      "pos": "ravish",
+      "example_ko": "천천히 말해 주세요.",
+      "example_uz": "Sekinroq gapiring, iltimos.",
+      "audio": "df00ba0b5e03.mp3",
+      "example_audio": "f9dc8a696d07.mp3"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "u05_l1_g1",
+      "pattern": "A-(으)ㄴ데요 / V-는데요 / N인데요",
+      "meaning_uz": "Yumshoq gap: vaziyatni tushuntirib, javob kutish ('...-moqchi edim', '... edi')",
+      "explanation_md": "**-(으)ㄴ데요 / -는데요** gapni **yumshatadi**: so'zlovchi vaziyatni tushuntiradi va suhbatdoshdan javob yoki yordam kutadi. O'zbekchada ko'pincha **\"...-moqchi edim\"**, **\"... edi\"** deb tarjima qilinadi.\n\n**통장을 만들고 싶은데요.** — *Hisob ochmoqchi edim.* (\"yordam bera olasizmi?\" degan ohang bilan)\n\n### Qachon ishlatiladi\n\n1. **Muloyim iltimos** (bank, do'kon, idorada): 환전하고 **싶은데요**.\n2. **Telefonda o'zini tanishtirish**: 여보세요? 저 아지즈**인데요**.\n3. **Yumshoq e'tiroz**: 이 신발은 좀 **작은데요**. — *Bu poyabzal biroz kichik ekan...*\n\n### Qanday yasaladi\n\n| Turi | Qo'shimcha | Misol |\n|---|---|---|\n| Sifat, 받침 yo'q | -ㄴ데요 | 비싸다 → **비싼데요** |\n| Sifat, 받침 bor | -은데요 | 작다 → **작은데요** |\n| -고 싶다 (sifatdek) | -은데요 | 만들고 싶다 → **만들고 싶은데요** |\n| Fe'l | -는데요 | 가다 → **가는데요** |\n| 있다 / 없다 | -는데요 | 없다 → **없는데요** |\n| Ot | 인데요 | 학생 → **학생인데요** |\n| O'tgan zamon | -았/었는데요 | 왔다 → **왔는데요** |\n\n2-bo'limdagi `-(으)ㄴ` (sifat) va 3-bo'limdagi `-는` (fe'l) qoidalari bilan bir xil!",
+      "formation": [
+        {
+          "condition_uz": "Sifat (va -고 싶다)",
+          "rule": "-(으)ㄴ데요",
+          "example": "작다 → 작은데요, 싶다 → 싶은데요"
+        },
+        {
+          "condition_uz": "Fe'l, 있다/없다",
+          "rule": "-는데요",
+          "example": "가다 → 가는데요, 없다 → 없는데요"
+        },
+        {
+          "condition_uz": "Ot",
+          "rule": "N인데요",
+          "example": "학생 → 학생인데요"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "통장을 만들고 싶은데요.",
+          "uz": "Hisob ochmoqchi edim.",
+          "audio": "cf1fe7d66f5a.mp3"
+        },
+        {
+          "ko": "환전하고 싶은데요.",
+          "uz": "Valyuta almashtirmoqchi edim.",
+          "audio": "6e88c61b5391.mp3"
+        },
+        {
+          "ko": "여보세요? 저 아지즈인데요.",
+          "uz": "Allo? Men Aziz bo'laman.",
+          "audio": "5dd690362e49.mp3"
+        },
+        {
+          "ko": "이 신발은 좀 작은데요.",
+          "uz": "Bu poyabzal biroz kichik ekan.",
+          "audio": "d41caa7de346.mp3"
+        },
+        {
+          "ko": "지금 은행에 가는데요.",
+          "uz": "Hozir bankka ketyapman (edim).",
+          "audio": "530fbbb92bea.mp3"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "만들고 싶는데요",
+          "right": "만들고 싶은데요",
+          "why_uz": "싶다 sifatdek tuslanadi: -은데요."
+        },
+        {
+          "wrong": "저는 학생는데요",
+          "right": "저는 학생인데요",
+          "why_uz": "Otdan keyin 인데요."
+        },
+        {
+          "wrong": "이 가방은 비싸는데요",
+          "right": "이 가방은 비싼데요",
+          "why_uz": "비싸다 — sifat: -ㄴ데요."
+        }
+      ],
+      "uz_compare": "O'zbekchada muloyim iltimosni '...-moqchi EDIM' deb aytamiz: 'Hisob ochmoqchi edim'. Koreyschada xuddi shu ohangni -(으)ㄴ데요 / -는데요 beradi: 통장을 만들고 싶은데요."
+    },
+    {
+      "id": "u05_l1_g2",
+      "pattern": "V-아/어 주세요",
+      "meaning_uz": "Iltimos (men uchun qiling): '...-ib bering', '...-ing, iltimos'",
+      "explanation_md": "**-아/어 주세요** — biror ishni **men uchun** qilib berishni iltimos qilish: o'zbekchadagi **\"...-ib bering\"**.\n\n**여기에 이름을 써 주세요.** — *Bu yerga ismingizni yozib bering.*\n\n### Qanday yasaladi\n\n**-아/어요** shaklidan **요** olib tashlanadi va **주세요** qo'shiladi:\n\n- 쓰다 → 써요 → **써 주세요** (ㅡ tushadi)\n- 기다리다 → 기다려요 → **기다려 주세요**\n- 확인하다 → 확인해요 → **확인해 주세요**\n- 돕다 → 도와요 → **도와주세요** (ㅂ → 와)\n- 보이다 → **보여 주세요** (ko'rsating)\n\n### -(으)세요 va -아/어 주세요 farqi\n\n| | Ma'nosi | Misol |\n|---|---|---|\n| **-(으)세요** | buyruq, yo'l-yo'riq | 앉으**세요** — o'tiring |\n| **-아/어 주세요** | men uchun qilib bering | 기다려 **주세요** — meni kutib turing |\n\nBank va pochtada xodimlar ham, mijozlar ham **-아/어 주세요** ni juda ko'p ishlatadi.",
+      "formation": [
+        {
+          "condition_uz": "Oxirgi unli ㅏ/ㅗ",
+          "rule": "-아 주세요",
+          "example": "돕다 → 도와주세요"
+        },
+        {
+          "condition_uz": "Boshqa unlilar",
+          "rule": "-어 주세요",
+          "example": "기다리다 → 기다려 주세요, 쓰다 → 써 주세요"
+        },
+        {
+          "condition_uz": "하다",
+          "rule": "해 주세요",
+          "example": "확인하다 → 확인해 주세요"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "여기에 이름을 써 주세요.",
+          "uz": "Bu yerga ismingizni yozing.",
+          "audio": "858475a59563.mp3"
+        },
+        {
+          "ko": "잠깐만 기다려 주세요.",
+          "uz": "Biroz kuting, iltimos.",
+          "audio": "e306ffc397b2.mp3"
+        },
+        {
+          "ko": "신분증을 보여 주세요.",
+          "uz": "Shaxsiy hujjatingizni ko'rsating.",
+          "audio": "4d2f20c8df11.mp3"
+        },
+        {
+          "ko": "비밀번호를 확인해 주세요.",
+          "uz": "Parolni tekshirib ko'ring.",
+          "audio": "93b83e129b1c.mp3"
+        },
+        {
+          "ko": "천천히 말해 주세요.",
+          "uz": "Sekinroq gapiring, iltimos.",
+          "audio": "f9dc8a696d07.mp3"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "이름을 쓰 주세요",
+          "right": "이름을 써 주세요",
+          "why_uz": "쓰다 → 써 (ㅡ tushadi), keyin 주세요."
+        },
+        {
+          "wrong": "잠깐만 기다리 주세요",
+          "right": "잠깐만 기다려 주세요",
+          "why_uz": "기다리 + 어 → 기다려."
+        },
+        {
+          "wrong": "확인하 주세요",
+          "right": "확인해 주세요",
+          "why_uz": "하다 → 해 주세요."
+        }
+      ],
+      "uz_compare": "O'zbekchada '...-ib bering' (yozib bering, kutib turing) aynan -아/어 주세요 ga to'g'ri keladi. 주다 = bermoq, ya'ni so'zma-so'z 'qilib bering'."
+    }
+  ],
+  "dialogue": {
+    "lines": [
+      {
+        "speaker": "clerk",
+        "ko": "어서 오세요. 뭘 도와 드릴까요?",
+        "uz": "Xush kelibsiz. Qanday yordam bera olaman?",
+        "audio": "fff76dc5cfb6.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "통장을 만들고 싶은데요.",
+        "uz": "Hisob ochmoqchi edim.",
+        "audio": "ddc901675bfb.mp3"
+      },
+      {
+        "speaker": "clerk",
+        "ko": "네, 신분증 좀 보여 주세요.",
+        "uz": "Xo'p, shaxsiy hujjatingizni ko'rsating.",
+        "audio": "a8cff0320f9c.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "여기 외국인 등록증이요.",
+        "uz": "Mana, chet el fuqarosi kartam.",
+        "audio": "6b76d9961db2.mp3"
+      },
+      {
+        "speaker": "clerk",
+        "ko": "이 서류에 이름하고 주소를 써 주세요.",
+        "uz": "Bu hujjatga ismingiz va manzilingizni yozing.",
+        "audio": "2b91f71873ab.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "한국 은행은 처음이에요. 천천히 말해 주세요.",
+        "uz": "Koreya bankiga birinchi marta kelishim. Sekinroq gapiring.",
+        "audio": "f416fa548e19.mp3"
+      },
+      {
+        "speaker": "clerk",
+        "ko": "네, 괜찮아요. 그리고 여기에 비밀번호를 써 주세요.",
+        "uz": "Xo'p, mayli. Va bu yerga parolni yozing.",
+        "audio": "21b04e74076f.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "체크카드도 만들고 싶은데요.",
+        "uz": "Debet karta ham ochmoqchi edim.",
+        "audio": "add169123148.mp3"
+      },
+      {
+        "speaker": "clerk",
+        "ko": "네, 같이 만들어 드릴게요. 잠깐만 기다려 주세요.",
+        "uz": "Xo'p, birga ochib beraman. Biroz kuting.",
+        "audio": "a2b4a21b24a4.mp3"
+      },
+      {
+        "speaker": "clerk",
+        "ko": "여기 통장하고 카드예요.",
+        "uz": "Mana, daftarcha va karta.",
+        "audio": "99e15ad39b6c.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "감사합니다. 수수료가 있어요?",
+        "uz": "Rahmat. Komissiya bormi?",
+        "audio": "72de6f42a95c.mp3"
+      },
+      {
+        "speaker": "clerk",
+        "ko": "아니요, 없어요.",
+        "uz": "Yo'q, yo'q.",
+        "audio": "25ce1c34b0fe.mp3"
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "u05_l1_e001",
+      "type": "conjugate",
+      "targets": [
+        "u05_l1_g1"
+      ],
+      "prompt_uz": "'Ochmoqchi edim' (yumshoq) shaklini yasang",
+      "base": "만들고 싶다",
+      "form": "-(으)ㄴ/는데요",
+      "answers": [
+        "만들고 싶은데요"
+      ]
+    },
+    {
+      "id": "u05_l1_e002",
+      "type": "conjugate",
+      "targets": [
+        "u05_l1_g1"
+      ],
+      "prompt_uz": "'Ketyapman (edi)' shaklini yasang",
+      "base": "가다",
+      "form": "-(으)ㄴ/는데요",
+      "answers": [
+        "가는데요"
+      ]
+    },
+    {
+      "id": "u05_l1_e003",
+      "type": "conjugate",
+      "targets": [
+        "u05_l1_g1"
+      ],
+      "prompt_uz": "'Talabaman (edi)' shaklini yasang",
+      "base": "학생이다",
+      "form": "N인데요",
+      "answers": [
+        "학생인데요"
+      ]
+    },
+    {
+      "id": "u05_l1_e004",
+      "type": "conjugate",
+      "targets": [
+        "u05_l1_g2"
+      ],
+      "prompt_uz": "'Yozib bering' shaklini yasang",
+      "base": "쓰다",
+      "form": "-아/어 주세요",
+      "answers": [
+        "써 주세요"
+      ],
+      "hint_uz": "ㅡ tushib qoladi"
+    },
+    {
+      "id": "u05_l1_e005",
+      "type": "conjugate",
+      "targets": [
+        "u05_l1_g2"
+      ],
+      "prompt_uz": "'Kutib turing' shaklini yasang",
+      "base": "기다리다",
+      "form": "-아/어 주세요",
+      "answers": [
+        "기다려 주세요"
+      ]
+    },
+    {
+      "id": "u05_l1_e006",
+      "type": "conjugate",
+      "targets": [
+        "u05_l1_g2"
+      ],
+      "prompt_uz": "'Tekshirib bering' shaklini yasang",
+      "base": "확인하다",
+      "form": "-아/어 주세요",
+      "answers": [
+        "확인해 주세요"
+      ]
+    },
+    {
+      "id": "u05_l1_e007",
+      "type": "fill_blank",
+      "targets": [
+        "u05_l1_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Valyuta almashtirmoqchi edim.'",
+      "sentence": "환전하고 ___. (싶다)",
+      "answers": [
+        "싶은데요"
+      ]
+    },
+    {
+      "id": "u05_l1_e008",
+      "type": "fill_blank",
+      "targets": [
+        "u05_l1_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Allo? Men Aziz bo'laman.'",
+      "sentence": "여보세요? 저 ___. (아지즈이다)",
+      "answers": [
+        "아지즈인데요"
+      ]
+    },
+    {
+      "id": "u05_l1_e009",
+      "type": "fill_blank",
+      "targets": [
+        "u05_l1_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Shaxsiy hujjatingizni ko'rsating.'",
+      "sentence": "신분증 좀 ___. (보여 주다)",
+      "answers": [
+        "보여 주세요"
+      ]
+    },
+    {
+      "id": "u05_l1_e010",
+      "type": "fill_blank",
+      "targets": [
+        "u05_l1_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Sekinroq gapiring, iltimos.'",
+      "sentence": "천천히 ___. (말하다)",
+      "answers": [
+        "말해 주세요"
+      ]
+    },
+    {
+      "id": "u05_l1_e011",
+      "type": "situation_choice",
+      "targets": [
+        "u05_l1_g1"
+      ],
+      "prompt_uz": "Bank xodimiga muloyim qilib 'Pul o'tkazmoqchi edim' demoqchisiz:",
+      "options": [
+        "송금하고 싶은데요",
+        "송금했어요",
+        "송금하세요",
+        "송금해요?"
+      ],
+      "answers": [
+        "송금하고 싶은데요"
+      ]
+    },
+    {
+      "id": "u05_l1_e012",
+      "type": "situation_choice",
+      "targets": [
+        "u05_l1_g2"
+      ],
+      "prompt_uz": "Xodimdan sekinroq gapirishni so'rang:",
+      "options": [
+        "천천히 말해 주세요",
+        "천천히 말해요",
+        "천천히 말했어요",
+        "천천히 말하고 싶어요"
+      ],
+      "answers": [
+        "천천히 말해 주세요"
+      ]
+    },
+    {
+      "id": "u05_l1_e013",
+      "type": "situation_choice",
+      "targets": [
+        "u05_l1_w017"
+      ],
+      "prompt_uz": "Bankka kirdingiz. Navbat uchun nima olasiz?",
+      "options": [
+        "번호표",
+        "통장",
+        "여권",
+        "비밀번호"
+      ],
+      "answers": [
+        "번호표"
+      ]
+    },
+    {
+      "id": "u05_l1_e014",
+      "type": "build_sentence",
+      "targets": [
+        "u05_l1_g1"
+      ],
+      "prompt_uz": "'Hisob ochmoqchi edim' gapini tuzing",
+      "tokens": [
+        "싶은데요",
+        "통장을",
+        "만들고"
+      ],
+      "answers": [
+        "통장을 만들고 싶은데요"
+      ]
+    },
+    {
+      "id": "u05_l1_e015",
+      "type": "build_sentence",
+      "targets": [
+        "u05_l1_g2"
+      ],
+      "prompt_uz": "'Bu yerga ismingizni yozing' gapini tuzing",
+      "tokens": [
+        "써",
+        "이름을",
+        "여기에",
+        "주세요"
+      ],
+      "answers": [
+        "여기에 이름을 써 주세요"
+      ]
+    },
+    {
+      "id": "u05_l1_e016",
+      "type": "find_error",
+      "targets": [
+        "u05_l1_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "sentence": "돈을 찾고 싶는데요.",
+      "answers": [
+        "돈을 찾고 싶은데요"
+      ],
+      "why_uz": "싶다 → 싶은데요."
+    },
+    {
+      "id": "u05_l1_e017",
+      "type": "find_error",
+      "targets": [
+        "u05_l1_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "sentence": "잠깐만 기다리 주세요.",
+      "answers": [
+        "잠깐만 기다려 주세요"
+      ],
+      "why_uz": "기다리 + 어 → 기다려."
+    },
+    {
+      "id": "u05_l1_e018",
+      "type": "find_error",
+      "targets": [
+        "u05_l1_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "sentence": "저는 학생는데요.",
+      "answers": [
+        "저는 학생인데요"
+      ],
+      "why_uz": "Otdan keyin 인데요."
+    },
+    {
+      "id": "u05_l1_e019",
+      "type": "translate",
+      "targets": [
+        "u05_l1_g1"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "source_uz": "Valyuta almashtirmoqchi edim.",
+      "answers": [
+        "환전하고 싶은데요",
+        "환전을 하고 싶은데요",
+        "돈을 바꾸고 싶은데요"
+      ]
+    },
+    {
+      "id": "u05_l1_e020",
+      "type": "translate",
+      "targets": [
+        "u05_l1_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "source_uz": "Pasportingizni ko'rsating.",
+      "answers": [
+        "여권을 보여 주세요",
+        "여권 좀 보여 주세요",
+        "여권을 좀 보여 주세요"
+      ]
+    },
+    {
+      "id": "u05_l1_e021",
+      "type": "translate",
+      "targets": [
+        "u05_l1_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "source_uz": "Iltimos, biroz kuting.",
+      "answers": [
+        "잠깐만 기다려 주세요",
+        "잠시만 기다려 주세요",
+        "조금만 기다려 주세요",
+        "좀 기다려 주세요"
+      ]
+    },
+    {
+      "id": "u05_l1_e031",
+      "type": "listen_question",
+      "targets": [
+        "u05_l1_g1"
+      ],
+      "prompt_uz": "Mijoz nima qilmoqchi?",
+      "audio_text": "달러로 환전하고 싶은데요.",
+      "options": [
+        "Dollarga almashtirmoqchi",
+        "Pul o'tkazmoqchi",
+        "Hisob ochmoqchi",
+        "Karta olmoqchi"
+      ],
+      "answers": [
+        "Dollarga almashtirmoqchi"
+      ],
+      "audio": "908523239ead.mp3"
+    },
+    {
+      "id": "u05_l1_e032",
+      "type": "listen_question",
+      "targets": [
+        "u05_l1_g2"
+      ],
+      "prompt_uz": "Xodim nima so'ramoqda?",
+      "audio_text": "이 서류에 서명해 주세요.",
+      "options": [
+        "Hujjatga imzo qo'yishni",
+        "Pasportni ko'rsatishni",
+        "Kutishni",
+        "Pul to'lashni"
+      ],
+      "answers": [
+        "Hujjatga imzo qo'yishni"
+      ],
+      "audio": "428b9cfe792a.mp3"
+    },
+    {
+      "id": "u05_l1_e033",
+      "type": "listen_question",
+      "targets": [
+        "u05_l1_g1"
+      ],
+      "prompt_uz": "Mijozning muammosi nima?",
+      "audio_text": "비밀번호를 잊어버렸는데요.",
+      "options": [
+        "Parolni unutgan",
+        "Kartasi yo'qolgan",
+        "Puli yo'q",
+        "Kechikdi"
+      ],
+      "answers": [
+        "Parolni unutgan"
+      ],
+      "audio": "1c4e271b9af8.mp3"
+    },
+    {
+      "id": "u05_l1_e101",
+      "type": "conjugate",
+      "targets": [
+        "u05_l1_g1"
+      ],
+      "prompt_uz": "'Kichik ekan' (yumshoq) shaklini yasang",
+      "base": "작다",
+      "form": "-(으)ㄴ/는데요",
+      "answers": [
+        "작은데요"
+      ]
+    },
+    {
+      "id": "u05_l1_e102",
+      "type": "conjugate",
+      "targets": [
+        "u05_l1_g2"
+      ],
+      "prompt_uz": "'Yordam bering' shaklini yasang",
+      "base": "돕다",
+      "form": "-아/어 주세요",
+      "answers": [
+        "도와주세요",
+        "도와 주세요"
+      ],
+      "hint_uz": "ㅂ → 와"
+    },
+    {
+      "id": "u05_l1_e103",
+      "type": "conjugate",
+      "targets": [
+        "u05_l1_g1"
+      ],
+      "prompt_uz": "'Yo'q ekan' shaklini yasang",
+      "base": "없다",
+      "form": "-(으)ㄴ/는데요",
+      "answers": [
+        "없는데요"
+      ]
+    },
+    {
+      "id": "u05_l1_e104",
+      "type": "fill_blank",
+      "targets": [
+        "u05_l1_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Karta ochmoqchi edim.'",
+      "sentence": "카드를 ___. (만들고 싶다)",
+      "answers": [
+        "만들고 싶은데요"
+      ]
+    },
+    {
+      "id": "u05_l1_e105",
+      "type": "fill_blank",
+      "targets": [
+        "u05_l1_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Parolni qaytadan tekshiring.'",
+      "sentence": "비밀번호를 다시 ___. (확인하다)",
+      "answers": [
+        "확인해 주세요"
+      ]
+    },
+    {
+      "id": "u05_l1_e106",
+      "type": "fill_blank",
+      "targets": [
+        "u05_l1_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Bu yerga imzo qo'ying.'",
+      "sentence": "여기에 ___. (서명하다)",
+      "answers": [
+        "서명해 주세요"
+      ]
+    },
+    {
+      "id": "u05_l1_e107",
+      "type": "situation_choice",
+      "targets": [
+        "u05_l1_g1"
+      ],
+      "prompt_uz": "Telefonda o'zingizni tanishtiring: 'Men Aziz bo'laman'",
+      "options": [
+        "아지즈인데요",
+        "아지즈예요?",
+        "아지즈 주세요",
+        "아지즈였어요"
+      ],
+      "answers": [
+        "아지즈인데요"
+      ]
+    },
+    {
+      "id": "u05_l1_e108",
+      "type": "situation_choice",
+      "targets": [
+        "u05_l1_w009"
+      ],
+      "prompt_uz": "Dollarni vonga almashtirish qaysi fe'l?",
+      "options": [
+        "환전하다",
+        "송금하다",
+        "기다리다",
+        "서명하다"
+      ],
+      "answers": [
+        "환전하다"
+      ]
+    },
+    {
+      "id": "u05_l1_e109",
+      "type": "build_sentence",
+      "targets": [
+        "u05_l1_g2"
+      ],
+      "prompt_uz": "'Biroz kuting' gapini tuzing",
+      "tokens": [
+        "주세요",
+        "잠깐만",
+        "기다려"
+      ],
+      "answers": [
+        "잠깐만 기다려 주세요"
+      ]
+    },
+    {
+      "id": "u05_l1_e110",
+      "type": "build_sentence",
+      "targets": [
+        "u05_l1_g1"
+      ],
+      "prompt_uz": "'Pul yubormoqchi edim' gapini tuzing",
+      "tokens": [
+        "보내고",
+        "싶은데요",
+        "돈을"
+      ],
+      "answers": [
+        "돈을 보내고 싶은데요"
+      ]
+    },
+    {
+      "id": "u05_l1_e111",
+      "type": "find_error",
+      "targets": [
+        "u05_l1_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "sentence": "주소를 쓰 주세요.",
+      "answers": [
+        "주소를 써 주세요"
+      ],
+      "why_uz": "쓰다 → 써 주세요."
+    },
+    {
+      "id": "u05_l1_e112",
+      "type": "find_error",
+      "targets": [
+        "u05_l1_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "sentence": "이 가방은 좀 비싸는데요.",
+      "answers": [
+        "이 가방은 좀 비싼데요"
+      ],
+      "why_uz": "비싸다 — sifat: 비싼데요."
+    },
+    {
+      "id": "u05_l1_e113",
+      "type": "translate",
+      "targets": [
+        "u05_l1_g1"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "source_uz": "Hisob ochmoqchi edim.",
+      "answers": [
+        "통장을 만들고 싶은데요",
+        "계좌를 만들고 싶은데요",
+        "계좌를 열고 싶은데요"
+      ]
+    },
+    {
+      "id": "u05_l1_e114",
+      "type": "translate",
+      "targets": [
+        "u05_l1_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "source_uz": "Bu yerga ismingizni yozing.",
+      "answers": [
+        "여기에 이름을 써 주세요",
+        "여기 이름을 써 주세요",
+        "여기에 성함을 써 주세요"
+      ]
+    },
+    {
+      "id": "u05_l1_e115",
+      "type": "listen_question",
+      "targets": [
+        "u05_l1_g2"
+      ],
+      "prompt_uz": "Nima qilish kerak?",
+      "audio_text": "번호표를 뽑고 기다려 주세요.",
+      "options": [
+        "Navbat raqamini olib kutish",
+        "Darhol kassaga borish",
+        "Bankdan chiqish",
+        "Telefon qilish"
+      ],
+      "answers": [
+        "Navbat raqamini olib kutish"
+      ],
+      "audio": "e8e8d8163293.mp3"
+    }
+  ],
+  "test": [
+    "u05_l1_e101",
+    "u05_l1_e102",
+    "u05_l1_e103",
+    "u05_l1_e104",
+    "u05_l1_e105",
+    "u05_l1_e106",
+    "u05_l1_e107",
+    "u05_l1_e108",
+    "u05_l1_e109",
+    "u05_l1_e110",
+    "u05_l1_e111",
+    "u05_l1_e112",
+    "u05_l1_e113",
+    "u05_l1_e114",
+    "u05_l1_e115"
+  ]
+}
