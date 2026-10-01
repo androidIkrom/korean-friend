@@ -20,7 +20,7 @@ class ContentAssetsTest {
 
     @Test fun dialogueSpeakersExist() {
         val ids = repo.characters().map { it.id }.toSet()
-        lessons.flatMap { l -> l.dialogue.lines.map { l.id to it.speaker } }
+        lessons.flatMap { l -> (l.dialogue.lines.map { it.speaker } + storySpeakers(l)).map { l.id to it } }
             .forEach { (lesson, speaker) -> assertTrue("$lesson: unknown speaker $speaker", speaker in ids) }
     }
 
@@ -66,7 +66,22 @@ class ContentAssetsTest {
         l.words.flatMap { listOf(it.audio, it.exampleAudio) } +
             l.grammar.flatMap { g -> g.examples.map { it.audio } } +
             l.dialogue.lines.map { it.audio } +
-            l.exercises.filter { it.type == ExerciseType.LISTEN_QUESTION }.map { it.audio }
+            l.exercises.filter { it.type == ExerciseType.LISTEN_QUESTION }.map { it.audio } +
+            l.story?.steps.orEmpty().mapNotNull {
+                when (it) {
+                    is StoryLine -> listOf(it.audio)
+                    is ChooseReply -> listOf(it.audio)
+                    is StoryQuiz -> null
+                }
+            }.flatten()
+
+    private fun storySpeakers(l: Lesson): List<String> = l.story?.steps.orEmpty().mapNotNull {
+        when (it) {
+            is StoryLine -> it.speaker
+            is ChooseReply -> it.speaker
+            is StoryQuiz -> null
+        }
+    }
 
     @Test fun everyAudioFileExists() {
         val dir = File("src/main/assets/audio")
