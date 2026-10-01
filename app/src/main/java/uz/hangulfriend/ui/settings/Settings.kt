@@ -17,6 +17,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.ViewModel
+import kotlin.math.roundToInt
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewModelScope
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -59,6 +60,10 @@ class SettingsViewModel(
         }
     }
 
+    fun setDailyGoalXp(n: Int) {
+        viewModelScope.launch { settingsRepo.setDailyGoalXp(n) }
+    }
+
     fun setDailyNewLimit(n: Int) {
         viewModelScope.launch { settingsRepo.setDailyNewLimit(n) }
     }
@@ -77,6 +82,15 @@ fun SettingsScreen(vm: SettingsViewModel, modifier: Modifier = Modifier) {
             onValueChangeFinished = { vm.setDailyNewLimit(limit.toInt()) },
             valueRange = 5f..50f,
             steps = 8,
+        )
+        var goal by remember(settings.dailyGoalXp) { mutableFloatStateOf(settings.dailyGoalXp.toFloat()) }
+        Text(stringResource(R.string.settings_daily_goal, goal.roundToInt()), style = MaterialTheme.typography.titleMedium)
+        Slider(
+            value = goal,
+            onValueChange = { goal = it },
+            onValueChangeFinished = { vm.setDailyGoalXp(goal.roundToInt()) },
+            valueRange = 20f..200f,
+            steps = 17,
         )
         Text(stringResource(R.string.settings_current_lesson), style = MaterialTheme.typography.titleMedium)
         val picked = pending

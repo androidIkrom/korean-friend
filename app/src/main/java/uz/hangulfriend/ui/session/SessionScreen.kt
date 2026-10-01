@@ -34,6 +34,8 @@ import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
 import uz.hangulfriend.R
 import uz.hangulfriend.data.ProgressRepository
+import uz.hangulfriend.study.GameRules
+import uz.hangulfriend.ui.game.achievementTitle
 import uz.hangulfriend.ui.exercise.ExerciseView
 
 class SessionViewModel(private val controller: SessionController) : ViewModel() {
@@ -66,6 +68,11 @@ fun SessionScreen(vm: SessionViewModel, mode: SessionMode, onClose: () -> Unit) 
                 modifier = Modifier.weight(1f),
             )
         }
+        Row(horizontalArrangement = Arrangement.spacedBy(12.dp), modifier = Modifier.padding(top = 4.dp)) {
+            s.hearts?.let { h -> Text("❤️".repeat(h) + "🤍".repeat((SessionController.BOSS_HEARTS - h).coerceAtLeast(0))) }
+            if (s.combo >= GameRules.COMBO_FROM) Text(stringResource(R.string.session_combo, s.combo), style = MaterialTheme.typography.labelLarge)
+            if (s.xpEarned > 0) Text(stringResource(R.string.session_xp, s.xpEarned), style = MaterialTheme.typography.labelLarge)
+        }
         when {
             s.loading -> Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) { CircularProgressIndicator() }
             s.finished -> ResultView(s, mode, onClose)
@@ -93,6 +100,21 @@ private fun ResultView(s: SessionState, mode: SessionMode, onClose: () -> Unit) 
                 stringResource(R.string.session_result, s.correctCount, s.items.size, s.scorePercent),
                 style = MaterialTheme.typography.headlineSmall,
             )
+            Text(stringResource(R.string.session_xp, s.xpEarned), style = MaterialTheme.typography.titleLarge)
+            if (mode == SessionMode.BOSS) {
+                Text(
+                    stringResource(if (s.failed) R.string.session_boss_lost else R.string.session_boss_won),
+                    style = MaterialTheme.typography.titleLarge,
+                    textAlign = TextAlign.Center,
+                )
+            }
+            s.newAchievements.forEach { id ->
+                Text(
+                    stringResource(R.string.session_new_achievement, stringResource(achievementTitle(id))),
+                    style = MaterialTheme.typography.titleMedium,
+                    textAlign = TextAlign.Center,
+                )
+            }
             if (mode == SessionMode.TEST) {
                 val passed = s.scorePercent >= ProgressRepository.PASS_PERCENT
                 Text(
