@@ -44,6 +44,51 @@ interface CardDao {
 
     @Query("SELECT MAX(lastReviewMs) FROM cards")
     fun observeLastReview(): Flow<Long?>
+
+    /** Words whose recognition card has graduated to review at least once. */
+    @Query("SELECT COUNT(*) FROM cards WHERE kind = 'RECOGNIZE' AND state IN ('REVIEW', 'RELEARNING')")
+    suspend fun countLearnedWords(): Int
+}
+
+data class AgainCount(val cardId: String, val count: Int)
+
+@Dao
+interface GameDao {
+    @Insert
+    suspend fun insertXp(event: XpEventEntity)
+
+    @Query("SELECT COALESCE(SUM(amount), 0) FROM xp_events")
+    fun observeTotalXp(): Flow<Int>
+
+    @Query("SELECT COALESCE(SUM(amount), 0) FROM xp_events WHERE atMs >= :fromMs AND atMs < :toMs")
+    suspend fun xpBetween(fromMs: Long, toMs: Long): Int
+
+    @Query("SELECT COUNT(*) FROM xp_events WHERE reason = :reason AND atMs >= :fromMs AND atMs < :toMs")
+    suspend fun countReasonBetween(reason: String, fromMs: Long, toMs: Long): Int
+
+    @Query("SELECT COUNT(*) FROM xp_events WHERE reason = :reason")
+    suspend fun countReason(reason: String): Int
+
+    @Query("SELECT * FROM xp_events WHERE atMs >= :fromMs")
+    suspend fun xpSince(fromMs: Long): List<XpEventEntity>
+
+    @Insert(onConflict = OnConflictStrategy.IGNORE)
+    suspend fun insertAchievement(a: AchievementEntity): Long
+
+    @Query("SELECT * FROM achievements ORDER BY unlockedMs")
+    fun observeAchievements(): Flow<List<AchievementEntity>>
+
+    @Query("SELECT score FROM best_scores WHERE gameId = :gameId")
+    suspend fun best(gameId: String): Int?
+
+    @Upsert
+    suspend fun upsertBest(score: BestScoreEntity)
+
+    @Query(
+        "SELECT cardId, COUNT(*) AS count FROM review_logs WHERE rating = 1 AND reviewedMs >= :fromMs " +
+            "GROUP BY cardId ORDER BY count DESC, cardId LIMIT :limit",
+    )
+    suspend fun againCounts(fromMs: Long, limit: Int): List<AgainCount>
 }
 
 @Dao
@@ -59,6 +104,9 @@ interface ReviewLogDao {
 interface ProgressDao {
     @Query("SELECT * FROM lesson_progress")
     fun observeAll(): Flow<List<LessonProgressEntity>>
+
+    @Query("SELECT * FROM lesson_progress")
+    suspend fun all(): List<LessonProgressEntity>
 
     @Query("SELECT * FROM lesson_progress WHERE lessonId = :lessonId")
     suspend fun get(lessonId: String): LessonProgressEntity?

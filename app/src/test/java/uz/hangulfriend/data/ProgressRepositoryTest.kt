@@ -55,6 +55,20 @@ class ProgressRepositoryTest {
         assertEquals(LessonStatus.VERIFIED, status("u02_l1"))
     }
 
+    @Test fun lessonCompleteXpOnlyFirstTime() = runTest {
+        assertEquals(false, progress.recordTest("u02_l1", 70))
+        assertEquals(true, progress.recordTest("u02_l1", 85))
+        assertEquals(false, progress.recordTest("u02_l1", 95))
+    }
+
+    @Test fun recordQuickCheck_verifiesPassed() = runTest {
+        progress.markPassed(listOf("u01_l1", "u01_l2"))
+        assertEquals(false, progress.recordQuickCheck("u01_l1", 70))
+        assertEquals(LessonStatus.PASSED, status("u01_l1"))
+        assertEquals(true, progress.recordQuickCheck("u01_l2", 80))
+        assertEquals(LessonStatus.VERIFIED, status("u01_l2"))
+    }
+
     @Test fun markPassed_onlyNotStarted() = runTest {
         progress.recordTest("u01_l2", 100)
         progress.markPassed(listOf("u01_l1", "u01_l2"))
