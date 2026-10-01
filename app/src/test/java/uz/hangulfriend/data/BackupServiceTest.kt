@@ -18,6 +18,7 @@ import org.junit.runner.RunWith
 import org.robolectric.RobolectricTestRunner
 import org.robolectric.annotation.Config
 import uz.hangulfriend.MutableClock
+import uz.hangulfriend.study.Rank
 import uz.hangulfriend.srs.CardState
 
 @RunWith(RobolectricTestRunner::class)
@@ -84,6 +85,18 @@ class BackupServiceTest {
         assertEquals(9, db.game().best("speed"))
         assertEquals(listOf("u02_l1"), db.story().all().map { it.lessonId })
         assertEquals(settingsBefore, settings.settings.first())
+    }
+
+    @Test fun importSetsLastSeenRank() = runTest {
+        // 4 500 XP is level 10, rank C.
+        val file = emptyFile().copy(xpEvents = listOf(XpEventDto(1, 4500, "answer", 900)))
+        backup.import(file)
+        assertEquals(Rank.C, settings.lastSeenRank.first())
+    }
+
+    @Test fun exportCarriesTheme() = runTest {
+        settings.setTheme(GameThemeId.NEON)
+        assertEquals("neon", (BackupCodec.decode(backup.export()) as BackupResult.Ok).file.settings.theme)
     }
 
     @Test fun importReplacesExistingRows() = runTest {

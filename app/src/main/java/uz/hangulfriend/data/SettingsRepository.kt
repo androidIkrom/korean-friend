@@ -9,6 +9,7 @@ import androidx.datastore.preferences.core.stringPreferencesKey
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
 import uz.hangulfriend.study.GameRules
+import uz.hangulfriend.study.Rank
 
 data class Settings(
     val onboarded: Boolean = false,
@@ -18,7 +19,19 @@ data class Settings(
     val reminderEnabled: Boolean = false,
     /** Minutes after local midnight; 1200 = 20:00. */
     val reminderMinutes: Int = DEFAULT_REMINDER_MINUTES,
+    val theme: GameThemeId = GameThemeId.SYSTEM,
 )
+
+/** Interface style; [key] is what DataStore and backups store. */
+enum class GameThemeId(val key: String) {
+    SYSTEM("system"),
+    NEON("neon"),
+    ;
+
+    companion object {
+        fun from(key: String?): GameThemeId = entries.firstOrNull { it.key == key } ?: SYSTEM
+    }
+}
 
 const val DEFAULT_DAILY_NEW_LIMIT = 20
 const val DEFAULT_REMINDER_MINUTES = 20 * 60
@@ -32,7 +45,19 @@ class SettingsRepository(private val dataStore: DataStore<Preferences>) {
             dailyGoalXp = p[DAILY_GOAL_XP] ?: GameRules.DEFAULT_GOAL,
             reminderEnabled = p[REMINDER_ENABLED] ?: false,
             reminderMinutes = p[REMINDER_MINUTES] ?: DEFAULT_REMINDER_MINUTES,
+            theme = GameThemeId.from(p[UI_THEME]),
         )
+    }
+
+    /** The rank the user last acknowledged; null until first stored (spec §4.2). */
+    val lastSeenRank: Flow<Rank?> = dataStore.data.map { p -> Rank.entries.firstOrNull { it.name == p[LAST_SEEN_RANK] } }
+
+    suspend fun setTheme(id: GameThemeId) {
+        dataStore.edit { it[UI_THEME] = id.key }
+    }
+
+    suspend fun setLastSeenRank(rank: Rank) {
+        dataStore.edit { it[LAST_SEEN_RANK] = rank.name }
     }
 
     suspend fun setCurrentLesson(id: String) {
@@ -63,6 +88,7 @@ class SettingsRepository(private val dataStore: DataStore<Preferences>) {
             it[DAILY_GOAL_XP] = s.dailyGoalXp
             it[REMINDER_ENABLED] = s.reminderEnabled
             it[REMINDER_MINUTES] = s.reminderMinutes
+            it[UI_THEME] = s.theme.key
         }
     }
 
@@ -77,5 +103,7 @@ class SettingsRepository(private val dataStore: DataStore<Preferences>) {
         val DAILY_GOAL_XP = intPreferencesKey("daily_goal_xp")
         val REMINDER_ENABLED = booleanPreferencesKey("reminder_enabled")
         val REMINDER_MINUTES = intPreferencesKey("reminder_minutes")
+        val UI_THEME = stringPreferencesKey("ui_theme")
+        val LAST_SEEN_RANK = stringPreferencesKey("last_seen_rank")
     }
 }

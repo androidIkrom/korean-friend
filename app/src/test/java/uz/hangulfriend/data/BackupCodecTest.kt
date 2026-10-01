@@ -46,6 +46,17 @@ class BackupCodecTest {
         assertTrue(BackupCodec.decode(text) is BackupResult.Ok)
     }
 
+    @Test fun decodesOldFileWithoutTheme() {
+        val text = BackupCodec.encode(file).replace(Regex(""",?\s*"theme":\s*"[a-z]+""""), "")
+        assertTrue(!text.contains("\"theme\""))
+        assertEquals("system", (BackupCodec.decode(text) as BackupResult.Ok).file.settings.theme)
+    }
+
+    @Test fun themeRoundTrip() {
+        val neon = file.copy(settings = file.settings.copy(theme = "neon"))
+        assertEquals("neon", (BackupCodec.decode(BackupCodec.encode(neon)) as BackupResult.Ok).file.settings.theme)
+    }
+
     @Test fun entityDtoRoundTrip() {
         assertEquals(card, card.toDto().toEntity())
         assertEquals(log, log.toDto().toEntity())
