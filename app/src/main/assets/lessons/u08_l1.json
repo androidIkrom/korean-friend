@@ -1,0 +1,1202 @@
+{
+  "id": "u08_l1",
+  "unit": 8,
+  "lesson": 1,
+  "title_ko": "저는 힘들 때 음악을 듣거나 친구하고 이야기해요",
+  "title_uz": "Qiynalganimda musiqa tinglayman yoki do'stim bilan gaplashaman",
+  "topic_uz": "Koreyadagi hayot",
+  "reviewed": false,
+  "words": [
+    {
+      "id": "u08_l1_w001",
+      "ko": "힘들다",
+      "uz": "qiyin, og'ir (charchatadigan)",
+      "pos": "sifat",
+      "example_ko": "요즘 일이 힘들어요.",
+      "example_uz": "Hozir ish og'ir.",
+      "audio": "b677d7e024e0.mp3",
+      "example_audio": "8c299e224b63.mp3"
+    },
+    {
+      "id": "u08_l1_w002",
+      "ko": "기분",
+      "uz": "kayfiyat",
+      "pos": "ot",
+      "example_ko": "오늘 기분이 어때요?",
+      "example_uz": "Bugun kayfiyatingiz qanday?",
+      "audio": "655188f31eca.mp3",
+      "example_audio": "32c115d4d0b8.mp3"
+    },
+    {
+      "id": "u08_l1_w003",
+      "ko": "기분이 좋다",
+      "uz": "kayfiyati yaxshi",
+      "pos": "ibora",
+      "example_ko": "날씨가 좋아서 기분이 좋아요.",
+      "example_uz": "Havo yaxshi bo'lgani uchun kayfiyatim yaxshi.",
+      "audio": "36495698516a.mp3",
+      "example_audio": "bfa5d872fd70.mp3"
+    },
+    {
+      "id": "u08_l1_w004",
+      "ko": "기분이 나쁘다",
+      "uz": "kayfiyati yomon",
+      "pos": "ibora",
+      "example_ko": "오늘은 기분이 나빠요.",
+      "example_uz": "Bugun kayfiyatim yomon.",
+      "audio": "00db93085cc2.mp3",
+      "example_audio": "fede5852f9c3.mp3"
+    },
+    {
+      "id": "u08_l1_w005",
+      "ko": "스트레스를 받다",
+      "uz": "stress olmoq, asabiylashmoq",
+      "pos": "ibora",
+      "example_ko": "시험 때문에 스트레스를 받아요.",
+      "example_uz": "Imtihon sababli stressdaman.",
+      "audio": "5267baed7a49.mp3",
+      "example_audio": "4181fc53014d.mp3"
+    },
+    {
+      "id": "u08_l1_w006",
+      "ko": "스트레스를 풀다",
+      "uz": "stressdan chiqmoq",
+      "pos": "ibora",
+      "example_ko": "운동으로 스트레스를 풀어요.",
+      "example_uz": "Sport bilan stressni chiqaraman.",
+      "audio": "5c0ab71ae71f.mp3",
+      "example_audio": "355074445f4d.mp3"
+    },
+    {
+      "id": "u08_l1_w007",
+      "ko": "외롭다",
+      "uz": "yolg'iz, yolg'izlikdan g'amgin",
+      "pos": "sifat",
+      "example_ko": "혼자 있으면 외로워요.",
+      "example_uz": "Yolg'iz qolsam, o'zimni yolg'iz his qilaman.",
+      "audio": "649e370037c8.mp3",
+      "example_audio": "d1ea6541d194.mp3"
+    },
+    {
+      "id": "u08_l1_w008",
+      "ko": "심심하다",
+      "uz": "zerikarli, zerikkan",
+      "pos": "sifat",
+      "example_ko": "주말에 너무 심심했어요.",
+      "example_uz": "Dam olish kunlari juda zerikdim.",
+      "audio": "820ba1b99e24.mp3",
+      "example_audio": "a46d735b933a.mp3"
+    },
+    {
+      "id": "u08_l1_w009",
+      "ko": "슬프다",
+      "uz": "qayg'uli, g'amgin",
+      "pos": "sifat",
+      "example_ko": "이 영화는 슬퍼요.",
+      "example_uz": "Bu film qayg'uli.",
+      "audio": "ab0b9073c548.mp3",
+      "example_audio": "9d0402cefb81.mp3"
+    },
+    {
+      "id": "u08_l1_w010",
+      "ko": "기쁘다",
+      "uz": "xursand",
+      "pos": "sifat",
+      "example_ko": "친구를 만나서 기뻐요.",
+      "example_uz": "Do'stimni ko'rib xursandman.",
+      "audio": "4baeabce9d6e.mp3",
+      "example_audio": "6c52905f8285.mp3"
+    },
+    {
+      "id": "u08_l1_w011",
+      "ko": "화가 나다",
+      "uz": "jahli chiqmoq",
+      "pos": "ibora",
+      "example_ko": "동생 때문에 화가 났어요.",
+      "example_uz": "Ukam sababli jahlim chiqdi.",
+      "audio": "e58d0735e57b.mp3",
+      "example_audio": "c879048b0ecb.mp3"
+    },
+    {
+      "id": "u08_l1_w012",
+      "ko": "행복하다",
+      "uz": "baxtli",
+      "pos": "sifat",
+      "example_ko": "가족하고 있으면 행복해요.",
+      "example_uz": "Oilam bilan bo'lsam baxtliman.",
+      "audio": "4258edb966ab.mp3",
+      "example_audio": "24fcced81407.mp3"
+    },
+    {
+      "id": "u08_l1_w013",
+      "ko": "고향",
+      "uz": "vatan, tug'ilgan joy",
+      "pos": "ot",
+      "example_ko": "제 고향은 사마르칸트예요.",
+      "example_uz": "Mening tug'ilgan joyim Samarqand.",
+      "audio": "7d232ebe27f0.mp3",
+      "example_audio": "4e5ed98823d8.mp3"
+    },
+    {
+      "id": "u08_l1_w014",
+      "ko": "그립다",
+      "uz": "sog'inmoq (sog'inchli)",
+      "pos": "sifat",
+      "example_ko": "고향 음식이 그리워요.",
+      "example_uz": "Vatan taomlarini sog'indim.",
+      "audio": "21ad7719d6e0.mp3",
+      "example_audio": "43a720f42253.mp3"
+    },
+    {
+      "id": "u08_l1_w015",
+      "ko": "가족",
+      "uz": "oila",
+      "pos": "ot",
+      "example_ko": "우리 가족은 다섯 명이에요.",
+      "example_uz": "Oilamiz besh kishi.",
+      "audio": "506af9637fb5.mp3",
+      "example_audio": "f15390526c40.mp3"
+    },
+    {
+      "id": "u08_l1_w016",
+      "ko": "이야기하다",
+      "uz": "gaplashmoq, suhbatlashmoq",
+      "pos": "fe'l",
+      "example_ko": "친구하고 이야기해요.",
+      "example_uz": "Do'stim bilan gaplashaman.",
+      "audio": "20991cede66a.mp3",
+      "example_audio": "a722f209a35b.mp3"
+    },
+    {
+      "id": "u08_l1_w017",
+      "ko": "노래방",
+      "uz": "karaoke xonasi",
+      "pos": "ot",
+      "example_ko": "노래방에서 노래해요.",
+      "example_uz": "Karaokeda qo'shiq aytaman.",
+      "audio": "bd196ec18bec.mp3",
+      "example_audio": "5d0a7c0141dd.mp3"
+    },
+    {
+      "id": "u08_l1_w018",
+      "ko": "산책하다",
+      "uz": "sayr qilmoq",
+      "pos": "fe'l",
+      "example_ko": "저녁에 공원에서 산책해요.",
+      "example_uz": "Kechqurun bog'da sayr qilaman.",
+      "audio": "9cc814c84a39.mp3",
+      "example_audio": "bceb14d16289.mp3"
+    },
+    {
+      "id": "u08_l1_w019",
+      "ko": "혼자",
+      "uz": "yolg'iz, o'zi",
+      "pos": "ravish",
+      "example_ko": "혼자 살아요.",
+      "example_uz": "Yolg'iz yashayman.",
+      "audio": "cb100160f0e2.mp3",
+      "example_audio": "be26250e1399.mp3"
+    },
+    {
+      "id": "u08_l1_w020",
+      "ko": "울다",
+      "uz": "yig'lamoq",
+      "pos": "fe'l",
+      "example_ko": "아기가 울어요.",
+      "example_uz": "Chaqaloq yig'layapti.",
+      "audio": "7ec8b2dcc787.mp3",
+      "example_audio": "ca6ed1245a86.mp3"
+    },
+    {
+      "id": "u08_l1_w021",
+      "ko": "웃다",
+      "uz": "kulmoq",
+      "pos": "fe'l",
+      "example_ko": "친구가 많이 웃어요.",
+      "example_uz": "Do'stim ko'p kuladi.",
+      "audio": "1af8d429c3cd.mp3",
+      "example_audio": "d8669c79eb24.mp3"
+    },
+    {
+      "id": "u08_l1_w022",
+      "ko": "생활",
+      "uz": "hayot, turmush",
+      "pos": "ot",
+      "example_ko": "한국 생활이 재미있어요.",
+      "example_uz": "Koreyadagi hayot qiziq.",
+      "audio": "0f9f1e2f0dfb.mp3",
+      "example_audio": "6b23c2e4b7bd.mp3"
+    },
+    {
+      "id": "u08_l1_w023",
+      "ko": "문화",
+      "uz": "madaniyat",
+      "pos": "ot",
+      "example_ko": "한국 문화를 배워요.",
+      "example_uz": "Koreys madaniyatini o'rganaman.",
+      "audio": "cb6d7d40f3b3.mp3",
+      "example_audio": "0a8042a8f816.mp3"
+    },
+    {
+      "id": "u08_l1_w024",
+      "ko": "다르다",
+      "uz": "boshqacha, farqli",
+      "pos": "sifat",
+      "example_ko": "한국 음식은 우즈베키스탄 음식하고 달라요.",
+      "example_uz": "Koreys taomlari o'zbek taomlaridan farq qiladi.",
+      "audio": "2c28fddbfe14.mp3",
+      "example_audio": "085e755d8332.mp3"
+    },
+    {
+      "id": "u08_l1_w025",
+      "ko": "방학",
+      "uz": "ta'til (o'quv)",
+      "pos": "ot",
+      "example_ko": "방학 때 고향에 가요.",
+      "example_uz": "Ta'tilda vatanimga boraman.",
+      "audio": "232d794e35e2.mp3",
+      "example_audio": "248a0f406cc8.mp3"
+    },
+    {
+      "id": "u08_l1_w026",
+      "ko": "어리다",
+      "uz": "yosh (bola)",
+      "pos": "sifat",
+      "example_ko": "동생은 아직 어려요.",
+      "example_uz": "Ukam hali yosh.",
+      "audio": "9adc7ee0ab5a.mp3",
+      "example_audio": "aef69c60b4ff.mp3"
+    },
+    {
+      "id": "u08_l1_w027",
+      "ko": "연락하다",
+      "uz": "bog'lanmoq",
+      "pos": "fe'l",
+      "example_ko": "도착하면 연락하세요.",
+      "example_uz": "Yetib borsangiz, bog'laning.",
+      "audio": "194fe50d03f1.mp3",
+      "example_audio": "af1fb3a3b478.mp3"
+    },
+    {
+      "id": "u08_l1_w028",
+      "ko": "사진",
+      "uz": "surat",
+      "pos": "ot",
+      "example_ko": "가족 사진을 봐요.",
+      "example_uz": "Oila suratini ko'raman.",
+      "audio": "bb854ba0671b.mp3",
+      "example_audio": "fcd57b45e495.mp3"
+    },
+    {
+      "id": "u08_l1_w029",
+      "ko": "게임을 하다",
+      "uz": "o'yin o'ynamoq",
+      "pos": "ibora",
+      "example_ko": "동생이 게임을 해요.",
+      "example_uz": "Ukam o'yin o'ynayapti.",
+      "audio": "210ef0965fc8.mp3",
+      "example_audio": "c857feb29189.mp3"
+    },
+    {
+      "id": "u08_l1_w030",
+      "ko": "보통",
+      "uz": "odatda",
+      "pos": "ravish",
+      "example_ko": "보통 일곱 시에 일어나요.",
+      "example_uz": "Odatda soat yettida turaman.",
+      "audio": "304eda18c79f.mp3",
+      "example_audio": "b170317108ad.mp3"
+    },
+    {
+      "id": "u08_l1_w031",
+      "ko": "가끔",
+      "uz": "ba'zan",
+      "pos": "ravish",
+      "example_ko": "가끔 영화를 봐요.",
+      "example_uz": "Ba'zan kino ko'raman.",
+      "audio": "caea0150d783.mp3",
+      "example_audio": "b8e2c6f7f987.mp3"
+    },
+    {
+      "id": "u08_l1_w032",
+      "ko": "언제든지",
+      "uz": "istalgan vaqtda",
+      "pos": "ravish",
+      "example_ko": "언제든지 오세요.",
+      "example_uz": "Istalgan vaqtda keling.",
+      "audio": "8969d4224e6f.mp3",
+      "example_audio": "f60e93281b77.mp3"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "u08_l1_g1",
+      "pattern": "A/V-(으)ㄹ 때",
+      "meaning_uz": "Vaqt: '...-ganda', '...-gan paytda'",
+      "explanation_md": "**-(으)ㄹ 때** — biror holat yoki harakat **bo'layotgan payt**ni bildiradi: o'zbekchadagi **\"...-ganda\"**, **\"...-gan paytda\"**.\n\n**저는 힘들 때 음악을 들어요.** — *Men qiynalganimda musiqa tinglayman.*\n\n### Qanday yasaladi\n\n- **받침 yo'q** → **-ㄹ 때**: 가다 → **갈 때**, 심심하다 → **심심할 때**\n- **받침 bor** → **-을 때**: 먹다 → **먹을 때**, 좋다 → **좋을 때**\n- **ㄹ bilan tugasa** → **때** (ㄹ qoladi): 힘들다 → **힘들 때**, 만들다 → **만들 때**\n- **ㄷ 불규칙**: 듣다 → **들을 때**\n- **ㅂ 불규칙**: 외롭다 → **외로울 때**, 그립다 → **그리울 때**, 춥다 → **추울 때**\n\n### O'tgan zamon\n\nBir martalik o'tgan voqea uchun **-았/었을 때**:\n\n- 한국에 처음 **왔을 때** 너무 추웠어요. — *Koreyaga ilk bor kelganimda juda sovuq edi.*\n\n### Ot bilan: N 때\n\nOtdan keyin to'g'ridan-to'g'ri **때**: **방학 때**, **시험 때**, **점심 때**.\n\nAmmo **어제, 오늘, 내일, 아침, 주말** bilan **때** ishlatilmaydi: ~~주말 때~~ ❌ → **주말에** ✅\n\n### Diqqat\n\n**어리다** (yosh) → **어릴 때** — *bolaligimda*. Bu juda ko'p ishlatiladi.",
+      "formation": [
+        {
+          "condition_uz": "받침 yo'q",
+          "rule": "-ㄹ 때",
+          "example": "가다 → 갈 때"
+        },
+        {
+          "condition_uz": "받침 bor",
+          "rule": "-을 때",
+          "example": "먹다 → 먹을 때"
+        },
+        {
+          "condition_uz": "ㄹ bilan tugasa",
+          "rule": "때",
+          "example": "힘들다 → 힘들 때"
+        },
+        {
+          "condition_uz": "ㅂ 불규칙",
+          "rule": "ㅂ → 울 때",
+          "example": "외롭다 → 외로울 때"
+        },
+        {
+          "condition_uz": "O'tgan zamon",
+          "rule": "-았/었을 때",
+          "example": "오다 → 왔을 때"
+        },
+        {
+          "condition_uz": "Ot",
+          "rule": "N 때",
+          "example": "방학 → 방학 때"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "저는 힘들 때 음악을 들어요.",
+          "uz": "Men qiynalganimda musiqa tinglayman.",
+          "audio": "77762d1e4e96.mp3"
+        },
+        {
+          "ko": "고향이 그리울 때 가족 사진을 봐요.",
+          "uz": "Vatanimni sog'inganimda oila suratlarini ko'raman.",
+          "audio": "2527e423fd9b.mp3"
+        },
+        {
+          "ko": "밥을 먹을 때 TV를 보지 마세요.",
+          "uz": "Ovqatlanayotganda televizor ko'rmang.",
+          "audio": "3d3c3e8c4642.mp3"
+        },
+        {
+          "ko": "어릴 때 사마르칸트에서 살았어요.",
+          "uz": "Bolaligimda Samarqandda yashaganman.",
+          "audio": "326767e579e8.mp3"
+        },
+        {
+          "ko": "한국에 처음 왔을 때 한국말을 못 했어요.",
+          "uz": "Koreyaga ilk bor kelganimda koreyscha gapira olmasdim.",
+          "audio": "9e3a83c867c7.mp3"
+        },
+        {
+          "ko": "방학 때 고향에 가요.",
+          "uz": "Ta'tilda vatanimga boraman.",
+          "audio": "248a0f406cc8.mp3"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "밥을 먹 때",
+          "right": "밥을 먹을 때",
+          "why_uz": "받침 bor: -을 때."
+        },
+        {
+          "wrong": "힘들을 때",
+          "right": "힘들 때",
+          "why_uz": "ㄹ bilan tugaydigan o'zakka -을 qo'shilmaydi."
+        },
+        {
+          "wrong": "날씨가 춥을 때",
+          "right": "날씨가 추울 때",
+          "why_uz": "ㅂ 불규칙: 춥다 → 추울 때."
+        },
+        {
+          "wrong": "주말 때 쉬어요",
+          "right": "주말에 쉬어요",
+          "why_uz": "주말, 아침, 오늘 bilan 때 emas, 에 ishlatiladi."
+        }
+      ],
+      "uz_compare": "O'zbekchadagi '-ganda' qo'shimchasiga o'xshaydi: 'qiynalganda' = 힘들 때, 'kelganimda' = 왔을 때. Koreyschada 때 alohida so'z ('payt') sifatida yoziladi."
+    },
+    {
+      "id": "u08_l1_g2",
+      "pattern": "A/V-거나",
+      "meaning_uz": "Tanlov: '...-adi yoki ...-adi'",
+      "explanation_md": "**-거나** — ikki harakatdan **birini** tanlashni bildiradi: o'zbekchadagi **\"...-ib yoki ...\"**, **\"yoki ... yoki ...\"**.\n\n**힘들 때 음악을 듣거나 친구하고 이야기해요.** — *Qiynalganimda musiqa tinglayman yoki do'stim bilan gaplashaman.*\n\n### Qanday yasaladi\n\nO'zakka **-거나** qo'shiladi, 받침ga qarab o'zgarmaydi:\n\n- 듣다 → **듣거나**\n- 보다 → **보거나**\n- 쉬다 → **쉬거나**\n- 산책하다 → **산책하거나**\n\nZamon va yakun faqat **oxirgi fe'l**da: 영화를 보**거나** 게임을 **했어요**.\n\n### -고 bilan farqi\n\n- 음악을 듣**고** 책을 읽어요 — *ikkalasini ham qilaman* (va)\n- 음악을 듣**거나** 책을 읽어요 — *birini qilaman* (yoki)\n\n### Ot uchun\n\nOtlar orasida **-거나** emas, **(이)나** ishlatiladi (keyingi grammatika).",
+      "formation": [
+        {
+          "condition_uz": "Har qanday fe'l/sifat",
+          "rule": "-거나",
+          "example": "듣다 → 듣거나, 쉬다 → 쉬거나"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "힘들 때 음악을 듣거나 친구하고 이야기해요.",
+          "uz": "Qiynalganimda musiqa tinglayman yoki do'stim bilan gaplashaman.",
+          "audio": "6f6216ad3760.mp3"
+        },
+        {
+          "ko": "주말에 영화를 보거나 집에서 쉬어요.",
+          "uz": "Dam olish kunlari kino ko'raman yoki uyda dam olaman.",
+          "audio": "aab50acbace1.mp3"
+        },
+        {
+          "ko": "스트레스를 받을 때 노래방에 가거나 산책해요.",
+          "uz": "Stress bo'lganda karaokega boraman yoki sayr qilaman.",
+          "audio": "f67f94f186ae.mp3"
+        },
+        {
+          "ko": "저녁에 책을 읽거나 게임을 해요.",
+          "uz": "Kechqurun kitob o'qiyman yoki o'yin o'ynayman.",
+          "audio": "0c72a4b0fa2c.mp3"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "쉬어거나 운동해요",
+          "right": "쉬거나 운동해요",
+          "why_uz": "-거나 to'g'ridan-to'g'ri o'zakka qo'shiladi."
+        },
+        {
+          "wrong": "산책하나 운동해요",
+          "right": "산책하거나 운동해요",
+          "why_uz": "Fe'l bilan (이)나 emas, -거나."
+        },
+        {
+          "wrong": "영화를 봤거나 게임을 해요",
+          "right": "영화를 보거나 게임을 해요",
+          "why_uz": "Odatiy harakatlar: zamon faqat oxirgi fe'lda."
+        }
+      ],
+      "uz_compare": "O'zbekchada 'yoki' alohida so'z: 'kino ko'raman yoki uxlayman'. Koreyschada 'yoki' birinchi fe'lga qo'shiladi: 영화를 보거나 자요."
+    },
+    {
+      "id": "u08_l1_g3",
+      "pattern": "N(이)나 N",
+      "meaning_uz": "Otlar orasida tanlov: '... yoki ...'",
+      "explanation_md": "**N(이)나 N** — ikki **ot**dan birini tanlash: o'zbekchadagi **\"... yoki ...\"**.\n\n**토요일이나 일요일에 만나요.** — *Shanba yoki yakshanba kuni uchrashamiz.*\n\n### Qanday yasaladi\n\n- **받침 yo'q** → **-나**: 커피 → **커피나 차**, 주스 → **주스나 우유**\n- **받침 bor** → **-이나**: 빵 → **빵이나 밥**, 토요일 → **토요일이나 일요일**\n\n### -하고 bilan farqi\n\n- 커피**하고** 차를 마셔요 — *qahva va choy* (ikkalasi)\n- 커피**나** 차를 마셔요 — *qahva yoki choy* (bittasi)\n\n### Diqqat\n\nIkkinchi otdan keyin odatdagi qo'shimcha keladi: 빵이나 밥**을**, 토요일이나 일요일**에**, 버스나 지하철**로**.",
+      "formation": [
+        {
+          "condition_uz": "받침 yo'q",
+          "rule": "N나 N",
+          "example": "커피 → 커피나 차"
+        },
+        {
+          "condition_uz": "받침 bor",
+          "rule": "N이나 N",
+          "example": "빵 → 빵이나 밥"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "토요일이나 일요일에 만나요.",
+          "uz": "Shanba yoki yakshanba kuni uchrashamiz.",
+          "audio": "ceed6e7b65f8.mp3"
+        },
+        {
+          "ko": "커피나 차를 드세요.",
+          "uz": "Qahva yoki choy iching.",
+          "audio": "34888fe44ab5.mp3"
+        },
+        {
+          "ko": "아침에 빵이나 밥을 먹어요.",
+          "uz": "Ertalab non yoki guruch yeyman.",
+          "audio": "b0d725c34f87.mp3"
+        },
+        {
+          "ko": "버스나 지하철로 가세요.",
+          "uz": "Avtobus yoki metro bilan boring.",
+          "audio": "81600819eb15.mp3"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "주스이나 우유",
+          "right": "주스나 우유",
+          "why_uz": "받침 yo'q: -나."
+        },
+        {
+          "wrong": "빵나 밥",
+          "right": "빵이나 밥",
+          "why_uz": "받침 bor: -이나."
+        },
+        {
+          "wrong": "커피거나 차를 마셔요",
+          "right": "커피나 차를 마셔요",
+          "why_uz": "Ot bilan -거나 emas, (이)나."
+        }
+      ],
+      "uz_compare": "O'zbekcha 'qahva yoki choy' = 커피나 차. 'Yoki' birinchi otga yopishadi."
+    }
+  ],
+  "dialogue": {
+    "lines": [
+      {
+        "speaker": "minji",
+        "ko": "아지즈 씨, 요즘 한국 생활이 어때요?",
+        "uz": "Aziz, hozir Koreyadagi hayotingiz qanday?",
+        "audio": "41bd6dbfe17b.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "재미있지만 가끔 힘들어요.",
+        "uz": "Qiziq, lekin ba'zan qiyin.",
+        "audio": "d32aec41cef9.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "언제 힘들어요?",
+        "uz": "Qachon qiyin bo'ladi?",
+        "audio": "890eabd6ceb1.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "한국말이 어려울 때 힘들어요. 그리고 혼자 있을 때 외로워요.",
+        "uz": "Koreys tili qiyin bo'lganda qiynalaman. Yana yolg'iz qolganimda o'zimni yolg'iz his qilaman.",
+        "audio": "e2e9abe85a55.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "힘들 때 보통 뭐 해요?",
+        "uz": "Qiynalganingizda odatda nima qilasiz?",
+        "audio": "6ff29c04f765.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "음악을 듣거나 친구하고 이야기해요. 민지 씨는요?",
+        "uz": "Musiqa tinglayman yoki do'stim bilan gaplashaman. Siz-chi, Minji?",
+        "audio": "50b74b53cf4a.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "저는 스트레스를 받을 때 노래방에 가거나 산책해요.",
+        "uz": "Men stress bo'lganda karaokega boraman yoki sayr qilaman.",
+        "audio": "652b68ac37c7.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "저는 고향이 그리울 때 가족 사진을 봐요.",
+        "uz": "Men vatanimni sog'inganimda oila suratlarini ko'raman.",
+        "audio": "d5d58d1bcf9e.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "그럼 이번 주말에 같이 노래방에 가요.",
+        "uz": "Unda shu dam olish kunlari birga karaokega boraylik.",
+        "audio": "b1acccaae7d0.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "좋아요! 토요일이나 일요일 괜찮아요?",
+        "uz": "Zo'r! Shanba yoki yakshanba bo'ladimi?",
+        "audio": "a030f2e8b58a.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "토요일이 좋아요. 그리고 기분이 안 좋을 때 언제든지 연락하세요.",
+        "uz": "Shanba yaxshi. Va kayfiyatingiz yomon bo'lsa, istalgan vaqtda bog'laning.",
+        "audio": "76b2e71822a3.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "고마워요, 민지 씨.",
+        "uz": "Rahmat, Minji.",
+        "audio": "37f687af25af.mp3"
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "u08_l1_e001",
+      "type": "conjugate",
+      "targets": [
+        "u08_l1_g1"
+      ],
+      "prompt_uz": "'Borganda' shaklini yasang",
+      "base": "가다",
+      "form": "-(으)ㄹ 때",
+      "answers": [
+        "갈 때"
+      ]
+    },
+    {
+      "id": "u08_l1_e002",
+      "type": "conjugate",
+      "targets": [
+        "u08_l1_g1"
+      ],
+      "prompt_uz": "'Yeganda' shaklini yasang",
+      "base": "먹다",
+      "form": "-(으)ㄹ 때",
+      "answers": [
+        "먹을 때"
+      ]
+    },
+    {
+      "id": "u08_l1_e003",
+      "type": "conjugate",
+      "targets": [
+        "u08_l1_g1"
+      ],
+      "prompt_uz": "'Qiynalganda' shaklini yasang",
+      "base": "힘들다",
+      "form": "-(으)ㄹ 때",
+      "answers": [
+        "힘들 때"
+      ],
+      "hint_uz": "ㄹ bilan tugaydi"
+    },
+    {
+      "id": "u08_l1_e004",
+      "type": "conjugate",
+      "targets": [
+        "u08_l1_g1"
+      ],
+      "prompt_uz": "'Yolg'iz his qilganda' shaklini yasang",
+      "base": "외롭다",
+      "form": "-(으)ㄹ 때",
+      "answers": [
+        "외로울 때"
+      ],
+      "hint_uz": "ㅂ 불규칙"
+    },
+    {
+      "id": "u08_l1_e005",
+      "type": "conjugate",
+      "targets": [
+        "u08_l1_g2"
+      ],
+      "prompt_uz": "'Tinglayman yoki...' shaklini yasang",
+      "base": "듣다",
+      "form": "-거나",
+      "answers": [
+        "듣거나"
+      ]
+    },
+    {
+      "id": "u08_l1_e006",
+      "type": "conjugate",
+      "targets": [
+        "u08_l1_g2"
+      ],
+      "prompt_uz": "'Dam olaman yoki...' shaklini yasang",
+      "base": "쉬다",
+      "form": "-거나",
+      "answers": [
+        "쉬거나"
+      ]
+    },
+    {
+      "id": "u08_l1_e007",
+      "type": "fill_blank",
+      "targets": [
+        "u08_l1_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Men zerikkanimda musiqa tinglayman.'",
+      "sentence": "저는 ___ 음악을 들어요. (심심하다)",
+      "answers": [
+        "심심할 때"
+      ]
+    },
+    {
+      "id": "u08_l1_e008",
+      "type": "fill_blank",
+      "targets": [
+        "u08_l1_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Dam olish kunlari kino ko'raman yoki sayr qilaman.'",
+      "sentence": "주말에 영화를 ___ 산책해요. (보다)",
+      "answers": [
+        "보거나"
+      ]
+    },
+    {
+      "id": "u08_l1_e009",
+      "type": "fill_blank",
+      "targets": [
+        "u08_l1_g3"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Ertalab non yoki guruch yeyman.'",
+      "sentence": "아침에 빵___ 밥을 먹어요.",
+      "answers": [
+        "이나"
+      ]
+    },
+    {
+      "id": "u08_l1_e010",
+      "type": "fill_blank",
+      "targets": [
+        "u08_l1_g3"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Qahva yoki choy ichaman.'",
+      "sentence": "커피___ 차를 마셔요.",
+      "answers": [
+        "나"
+      ]
+    },
+    {
+      "id": "u08_l1_e011",
+      "type": "situation_choice",
+      "targets": [
+        "u08_l1_g1"
+      ],
+      "prompt_uz": "'Bolaligimda' qaysi biri?",
+      "options": [
+        "어릴 때",
+        "어리 때",
+        "어려서 때",
+        "어릴 거예요"
+      ],
+      "answers": [
+        "어릴 때"
+      ]
+    },
+    {
+      "id": "u08_l1_e012",
+      "type": "situation_choice",
+      "targets": [
+        "u08_l1_g2"
+      ],
+      "prompt_uz": "'Kino ko'raman yoki o'yin o'ynayman' qaysi biri?",
+      "options": [
+        "영화를 보거나 게임을 해요",
+        "영화를 보지만 게임을 해요",
+        "영화를 보러 게임을 해요",
+        "영화를 봐서 게임을 해요"
+      ],
+      "answers": [
+        "영화를 보거나 게임을 해요"
+      ]
+    },
+    {
+      "id": "u08_l1_e013",
+      "type": "situation_choice",
+      "targets": [
+        "u08_l1_g3"
+      ],
+      "prompt_uz": "'Choy yoki qahva' qaysi biri?",
+      "options": [
+        "차나 커피",
+        "차이나 커피",
+        "차하고 커피",
+        "차거나 커피"
+      ],
+      "answers": [
+        "차나 커피"
+      ]
+    },
+    {
+      "id": "u08_l1_e014",
+      "type": "build_sentence",
+      "targets": [
+        "u08_l1_g1"
+      ],
+      "prompt_uz": "'Men qiynalganimda musiqa tinglayman' gapini tuzing",
+      "tokens": [
+        "들어요",
+        "힘들",
+        "저는",
+        "음악을",
+        "때"
+      ],
+      "answers": [
+        "저는 힘들 때 음악을 들어요"
+      ]
+    },
+    {
+      "id": "u08_l1_e015",
+      "type": "build_sentence",
+      "targets": [
+        "u08_l1_g2"
+      ],
+      "prompt_uz": "'Musiqa tinglayman yoki kitob o'qiyman' gapini tuzing",
+      "tokens": [
+        "읽어요",
+        "음악을",
+        "책을",
+        "듣거나"
+      ],
+      "answers": [
+        "음악을 듣거나 책을 읽어요"
+      ]
+    },
+    {
+      "id": "u08_l1_e016",
+      "type": "find_error",
+      "targets": [
+        "u08_l1_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "sentence": "밥을 먹 때 TV를 봐요.",
+      "answers": [
+        "밥을 먹을 때 TV를 봐요"
+      ],
+      "why_uz": "받침 bor: -을 때."
+    },
+    {
+      "id": "u08_l1_e017",
+      "type": "find_error",
+      "targets": [
+        "u08_l1_g3"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "sentence": "주스이나 우유를 주세요.",
+      "answers": [
+        "주스나 우유를 주세요"
+      ],
+      "why_uz": "받침 yo'q: -나."
+    },
+    {
+      "id": "u08_l1_e018",
+      "type": "find_error",
+      "targets": [
+        "u08_l1_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "sentence": "저녁에 산책하나 운동해요.",
+      "answers": [
+        "저녁에 산책하거나 운동해요"
+      ],
+      "why_uz": "Fe'l bilan -거나."
+    },
+    {
+      "id": "u08_l1_e019",
+      "type": "translate",
+      "targets": [
+        "u08_l1_g1"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "source_uz": "Charchaganimda uxlayman.",
+      "answers": [
+        "피곤할 때 자요",
+        "저는 피곤할 때 자요",
+        "피곤할 때 잠을 자요",
+        "저는 피곤할 때 잠을 자요"
+      ]
+    },
+    {
+      "id": "u08_l1_e020",
+      "type": "translate",
+      "targets": [
+        "u08_l1_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "source_uz": "Dam olish kunlari kino ko'raman yoki uxlayman.",
+      "answers": [
+        "주말에 영화를 보거나 자요",
+        "주말에는 영화를 보거나 자요",
+        "주말에 영화를 보거나 잠을 자요",
+        "주말에는 영화를 보거나 잠을 자요"
+      ]
+    },
+    {
+      "id": "u08_l1_e021",
+      "type": "translate",
+      "targets": [
+        "u08_l1_g3"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "source_uz": "Choy yoki qahva iching.",
+      "answers": [
+        "차나 커피를 드세요",
+        "차나 커피를 마시세요",
+        "차나 커피 드세요",
+        "차나 커피 마시세요"
+      ]
+    },
+    {
+      "id": "u08_l1_e031",
+      "type": "listen_question",
+      "targets": [
+        "u08_l1_g1"
+      ],
+      "prompt_uz": "Vatanini sog'inganda nima qiladi?",
+      "audio_text": "고향이 그리울 때 가족 사진을 봐요.",
+      "options": [
+        "Oila suratlarini ko'radi",
+        "Uyiga qo'ng'iroq qiladi",
+        "Musiqa tinglaydi",
+        "Yig'laydi"
+      ],
+      "answers": [
+        "Oila suratlarini ko'radi"
+      ],
+      "audio": "2527e423fd9b.mp3"
+    },
+    {
+      "id": "u08_l1_e032",
+      "type": "listen_question",
+      "targets": [
+        "u08_l1_g2"
+      ],
+      "prompt_uz": "Stress bo'lganda nima qiladi?",
+      "audio_text": "스트레스를 받을 때 노래방에 가거나 운동해요.",
+      "options": [
+        "Karaokega boradi yoki sport qiladi",
+        "Uxlaydi yoki ovqat yeydi",
+        "Do'sti bilan gaplashadi",
+        "Kino ko'radi"
+      ],
+      "answers": [
+        "Karaokega boradi yoki sport qiladi"
+      ],
+      "audio": "1a61a527fa8c.mp3"
+    },
+    {
+      "id": "u08_l1_e033",
+      "type": "listen_question",
+      "targets": [
+        "u08_l1_g3"
+      ],
+      "prompt_uz": "Qachon uchrashishadi?",
+      "audio_text": "월요일이나 화요일에 만나요.",
+      "options": [
+        "Dushanba yoki seshanba",
+        "Faqat dushanba",
+        "Seshanba va chorshanba",
+        "Dam olish kunlari"
+      ],
+      "answers": [
+        "Dushanba yoki seshanba"
+      ],
+      "audio": "b856da0d2965.mp3"
+    },
+    {
+      "id": "u08_l1_e101",
+      "type": "conjugate",
+      "targets": [
+        "u08_l1_g1"
+      ],
+      "prompt_uz": "'Yasaganda' shaklini yasang",
+      "base": "만들다",
+      "form": "-(으)ㄹ 때",
+      "answers": [
+        "만들 때"
+      ]
+    },
+    {
+      "id": "u08_l1_e102",
+      "type": "conjugate",
+      "targets": [
+        "u08_l1_g1"
+      ],
+      "prompt_uz": "'Tinglaganda' shaklini yasang",
+      "base": "듣다",
+      "form": "-(으)ㄹ 때",
+      "answers": [
+        "들을 때"
+      ],
+      "hint_uz": "ㄷ → ㄹ"
+    },
+    {
+      "id": "u08_l1_e103",
+      "type": "conjugate",
+      "targets": [
+        "u08_l1_g2"
+      ],
+      "prompt_uz": "'Sport qilaman yoki...' shaklini yasang",
+      "base": "운동하다",
+      "form": "-거나",
+      "answers": [
+        "운동하거나"
+      ]
+    },
+    {
+      "id": "u08_l1_e104",
+      "type": "fill_blank",
+      "targets": [
+        "u08_l1_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'O'tgan yili Koreyaga kelganimda juda sovuq edi.'",
+      "sentence": "작년에 한국에 ___ 너무 추웠어요. (오다)",
+      "answers": [
+        "왔을 때"
+      ],
+      "hint_uz": "O'tgan zamon: -았/었을 때"
+    },
+    {
+      "id": "u08_l1_e105",
+      "type": "fill_blank",
+      "targets": [
+        "u08_l1_g3"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Shanba yoki yakshanba kuni uchrashamiz.'",
+      "sentence": "토요일___ 일요일에 만나요.",
+      "answers": [
+        "이나"
+      ]
+    },
+    {
+      "id": "u08_l1_e106",
+      "type": "fill_blank",
+      "targets": [
+        "u08_l1_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Kechqurun kitob o'qiyman yoki televizor ko'raman.'",
+      "sentence": "저녁에 책을 ___ 텔레비전을 봐요. (읽다)",
+      "answers": [
+        "읽거나"
+      ]
+    },
+    {
+      "id": "u08_l1_e107",
+      "type": "situation_choice",
+      "targets": [
+        "u08_l1_g1"
+      ],
+      "prompt_uz": "'Ta'tilda vatanimga boraman' qaysi biri?",
+      "options": [
+        "방학 때 고향에 가요",
+        "방학을 때 고향에 가요",
+        "방학할 때서 고향에 가요",
+        "방학에 때 고향에 가요"
+      ],
+      "answers": [
+        "방학 때 고향에 가요"
+      ]
+    },
+    {
+      "id": "u08_l1_e108",
+      "type": "situation_choice",
+      "targets": [
+        "u08_l1_w007"
+      ],
+      "prompt_uz": "Atrofingizda hech kim yo'q, g'amginsiz. Qanday his?",
+      "options": [
+        "외로워요",
+        "기뻐요",
+        "행복해요",
+        "화가 나요"
+      ],
+      "answers": [
+        "외로워요"
+      ]
+    },
+    {
+      "id": "u08_l1_e109",
+      "type": "build_sentence",
+      "targets": [
+        "u08_l1_g3"
+      ],
+      "prompt_uz": "'Olma yoki nok sotib olaman' gapini tuzing",
+      "tokens": [
+        "배를",
+        "사과나",
+        "사요"
+      ],
+      "answers": [
+        "사과나 배를 사요"
+      ]
+    },
+    {
+      "id": "u08_l1_e110",
+      "type": "build_sentence",
+      "targets": [
+        "u08_l1_g2"
+      ],
+      "prompt_uz": "'Do'stim bilan uchrashaman yoki uyda dam olaman' gapini tuzing",
+      "tokens": [
+        "쉬어요",
+        "만나거나",
+        "친구를",
+        "집에서"
+      ],
+      "answers": [
+        "친구를 만나거나 집에서 쉬어요"
+      ]
+    },
+    {
+      "id": "u08_l1_e111",
+      "type": "find_error",
+      "targets": [
+        "u08_l1_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "sentence": "날씨가 춥을 때 따뜻한 차를 마셔요.",
+      "answers": [
+        "날씨가 추울 때 따뜻한 차를 마셔요"
+      ],
+      "why_uz": "ㅂ 불규칙: 추울 때."
+    },
+    {
+      "id": "u08_l1_e112",
+      "type": "find_error",
+      "targets": [
+        "u08_l1_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "sentence": "주말에 쉬어거나 운동해요.",
+      "answers": [
+        "주말에 쉬거나 운동해요"
+      ],
+      "why_uz": "-거나 o'zakka qo'shiladi."
+    },
+    {
+      "id": "u08_l1_e113",
+      "type": "translate",
+      "targets": [
+        "u08_l1_g1"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "source_uz": "Bolaligimda Toshkentda yashaganman.",
+      "answers": [
+        "어릴 때 타슈켄트에서 살았어요",
+        "저는 어릴 때 타슈켄트에서 살았어요"
+      ]
+    },
+    {
+      "id": "u08_l1_e114",
+      "type": "translate",
+      "targets": [
+        "u08_l1_g3"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "source_uz": "Avtobus yoki metro bilan boring.",
+      "answers": [
+        "버스나 지하철로 가세요",
+        "버스나 지하철을 타세요"
+      ]
+    },
+    {
+      "id": "u08_l1_e115",
+      "type": "listen_question",
+      "targets": [
+        "u08_l1_g1"
+      ],
+      "prompt_uz": "Kayfiyati yomon bo'lganda nima qiladi?",
+      "audio_text": "기분이 나쁠 때 맛있는 음식을 먹어요.",
+      "options": [
+        "Mazali ovqat yeydi",
+        "Uxlaydi",
+        "Sayr qiladi",
+        "Yig'laydi"
+      ],
+      "answers": [
+        "Mazali ovqat yeydi"
+      ],
+      "audio": "ca4639d71d5a.mp3"
+    }
+  ],
+  "test": [
+    "u08_l1_e101",
+    "u08_l1_e102",
+    "u08_l1_e103",
+    "u08_l1_e104",
+    "u08_l1_e105",
+    "u08_l1_e106",
+    "u08_l1_e107",
+    "u08_l1_e108",
+    "u08_l1_e109",
+    "u08_l1_e110",
+    "u08_l1_e111",
+    "u08_l1_e112",
+    "u08_l1_e113",
+    "u08_l1_e114",
+    "u08_l1_e115"
+  ]
+}

@@ -1,0 +1,1150 @@
+{
+  "id": "u08_l2",
+  "unit": 8,
+  "lesson": 2,
+  "title_ko": "시험을 볼 때 연필로 써도 돼요?",
+  "title_uz": "Imtihonda qalam bilan yozsa bo'ladimi?",
+  "topic_uz": "Koreyadagi hayot",
+  "reviewed": false,
+  "words": [
+    {
+      "id": "u08_l2_w001",
+      "ko": "시험을 보다",
+      "uz": "imtihon topshirmoq",
+      "pos": "ibora",
+      "example_ko": "내일 시험을 봐요.",
+      "example_uz": "Ertaga imtihon topshiraman.",
+      "audio": "01baa0aefdc7.mp3",
+      "example_audio": "e68574fc20ae.mp3"
+    },
+    {
+      "id": "u08_l2_w002",
+      "ko": "연필",
+      "uz": "qalam (grafitli)",
+      "pos": "ot",
+      "example_ko": "연필로 쓰세요.",
+      "example_uz": "Qalam bilan yozing.",
+      "audio": "54e55f648dd8.mp3",
+      "example_audio": "a2ddeb32f3d9.mp3"
+    },
+    {
+      "id": "u08_l2_w003",
+      "ko": "볼펜",
+      "uz": "ruchka",
+      "pos": "ot",
+      "example_ko": "볼펜이 없어요.",
+      "example_uz": "Ruchkam yo'q.",
+      "audio": "87b1e3a480b1.mp3",
+      "example_audio": "1177a4431819.mp3"
+    },
+    {
+      "id": "u08_l2_w004",
+      "ko": "지우개",
+      "uz": "o'chirg'ich",
+      "pos": "ot",
+      "example_ko": "지우개 좀 빌려주세요.",
+      "example_uz": "O'chirg'ichingizni berib turing.",
+      "audio": "ad45cb068447.mp3",
+      "example_audio": "431e08301656.mp3"
+    },
+    {
+      "id": "u08_l2_w005",
+      "ko": "사전",
+      "uz": "lug'at",
+      "pos": "ot",
+      "example_ko": "사전에서 단어를 찾아요.",
+      "example_uz": "Lug'atdan so'z qidiraman.",
+      "audio": "aa08773e7dbf.mp3",
+      "example_audio": "8ff02f1db9e5.mp3"
+    },
+    {
+      "id": "u08_l2_w006",
+      "ko": "문제",
+      "uz": "savol, masala",
+      "pos": "ot",
+      "example_ko": "이 문제는 어려워요.",
+      "example_uz": "Bu savol qiyin.",
+      "audio": "1fb2f3977c8f.mp3",
+      "example_audio": "9207afddb898.mp3"
+    },
+    {
+      "id": "u08_l2_w007",
+      "ko": "답",
+      "uz": "javob",
+      "pos": "ot",
+      "example_ko": "답을 쓰세요.",
+      "example_uz": "Javobni yozing.",
+      "audio": "8b5f049f6d7e.mp3",
+      "example_audio": "17b708fa074b.mp3"
+    },
+    {
+      "id": "u08_l2_w008",
+      "ko": "답안지",
+      "uz": "javob varag'i",
+      "pos": "ot",
+      "example_ko": "답안지에 이름을 쓰세요.",
+      "example_uz": "Javob varag'iga ismingizni yozing.",
+      "audio": "ea30bead439e.mp3",
+      "example_audio": "3dde2d0dadd4.mp3"
+    },
+    {
+      "id": "u08_l2_w009",
+      "ko": "휴대폰",
+      "uz": "mobil telefon",
+      "pos": "ot",
+      "example_ko": "휴대폰이 어디에 있어요?",
+      "example_uz": "Telefonim qayerda?",
+      "audio": "0476805b0380.mp3",
+      "example_audio": "bc28ff89b9ce.mp3"
+    },
+    {
+      "id": "u08_l2_w010",
+      "ko": "끄다",
+      "uz": "o'chirmoq (qurilma)",
+      "pos": "fe'l",
+      "example_ko": "휴대폰을 꺼요.",
+      "example_uz": "Telefonni o'chiraman.",
+      "audio": "8d738a0f208b.mp3",
+      "example_audio": "4a19d0ea0824.mp3"
+    },
+    {
+      "id": "u08_l2_w011",
+      "ko": "켜다",
+      "uz": "yoqmoq",
+      "pos": "fe'l",
+      "example_ko": "불을 켜요.",
+      "example_uz": "Chiroqni yoqaman.",
+      "audio": "2ecb622773b7.mp3",
+      "example_audio": "8d41c4e7a42e.mp3"
+    },
+    {
+      "id": "u08_l2_w012",
+      "ko": "사용하다",
+      "uz": "foydalanmoq",
+      "pos": "fe'l",
+      "example_ko": "컴퓨터를 사용해요.",
+      "example_uz": "Kompyuterdan foydalanaman.",
+      "audio": "9ddd5111c75d.mp3",
+      "example_audio": "ee1bdf4a11ab.mp3"
+    },
+    {
+      "id": "u08_l2_w013",
+      "ko": "빌리다",
+      "uz": "qarzga olmoq",
+      "pos": "fe'l",
+      "example_ko": "도서관에서 책을 빌려요.",
+      "example_uz": "Kutubxonadan kitob olaman.",
+      "audio": "1eb45a4b7450.mp3",
+      "example_audio": "1a9eaab82335.mp3"
+    },
+    {
+      "id": "u08_l2_w014",
+      "ko": "질문하다",
+      "uz": "savol bermoq",
+      "pos": "fe'l",
+      "example_ko": "선생님께 질문했어요.",
+      "example_uz": "O'qituvchidan savol so'radim.",
+      "audio": "8c0c6d8be2bc.mp3",
+      "example_audio": "6670c0f6dd55.mp3"
+    },
+    {
+      "id": "u08_l2_w015",
+      "ko": "화장실",
+      "uz": "hojatxona",
+      "pos": "ot",
+      "example_ko": "화장실이 어디예요?",
+      "example_uz": "Hojatxona qayerda?",
+      "audio": "2fa66929be04.mp3",
+      "example_audio": "41145029eee8.mp3"
+    },
+    {
+      "id": "u08_l2_w016",
+      "ko": "교실",
+      "uz": "sinf xonasi",
+      "pos": "ot",
+      "example_ko": "교실이 조용해요.",
+      "example_uz": "Sinf jim.",
+      "audio": "1f0f38be779b.mp3",
+      "example_audio": "455f8653136d.mp3"
+    },
+    {
+      "id": "u08_l2_w017",
+      "ko": "앉다",
+      "uz": "o'tirmoq",
+      "pos": "fe'l",
+      "example_ko": "여기 앉으세요.",
+      "example_uz": "Bu yerga o'tiring.",
+      "audio": "141d216f9007.mp3",
+      "example_audio": "c16cc4eae476.mp3"
+    },
+    {
+      "id": "u08_l2_w018",
+      "ko": "나가다",
+      "uz": "chiqmoq",
+      "pos": "fe'l",
+      "example_ko": "밖에 나가요.",
+      "example_uz": "Tashqariga chiqaman.",
+      "audio": "aac5f8a7d31a.mp3",
+      "example_audio": "18e2094df6c0.mp3"
+    },
+    {
+      "id": "u08_l2_w019",
+      "ko": "시작하다",
+      "uz": "boshlamoq",
+      "pos": "fe'l",
+      "example_ko": "수업을 시작해요.",
+      "example_uz": "Darsni boshlaymiz.",
+      "audio": "3f5dc58a9040.mp3",
+      "example_audio": "8ba453b6a32b.mp3"
+    },
+    {
+      "id": "u08_l2_w020",
+      "ko": "끝나다",
+      "uz": "tugamoq",
+      "pos": "fe'l",
+      "example_ko": "수업이 끝났어요.",
+      "example_uz": "Dars tugadi.",
+      "audio": "f0ec5db8edc8.mp3",
+      "example_audio": "351a80181090.mp3"
+    },
+    {
+      "id": "u08_l2_w021",
+      "ko": "조용히",
+      "uz": "jimgina",
+      "pos": "ravish",
+      "example_ko": "조용히 하세요.",
+      "example_uz": "Jim bo'ling.",
+      "audio": "54e94534307c.mp3",
+      "example_audio": "e7d7e3d95a2f.mp3"
+    },
+    {
+      "id": "u08_l2_w022",
+      "ko": "규칙",
+      "uz": "qoida",
+      "pos": "ot",
+      "example_ko": "기숙사 규칙이 있어요.",
+      "example_uz": "Yotoqxona qoidalari bor.",
+      "audio": "d431c3833792.mp3",
+      "example_audio": "0ebaa5546f0e.mp3"
+    },
+    {
+      "id": "u08_l2_w023",
+      "ko": "기숙사",
+      "uz": "yotoqxona",
+      "pos": "ot",
+      "example_ko": "저는 기숙사에 살아요.",
+      "example_uz": "Men yotoqxonada yashayman.",
+      "audio": "67724a3ef391.mp3",
+      "example_audio": "6ceccc09b172.mp3"
+    },
+    {
+      "id": "u08_l2_w024",
+      "ko": "가져오다",
+      "uz": "olib kelmoq",
+      "pos": "fe'l",
+      "example_ko": "사전을 가져오세요.",
+      "example_uz": "Lug'atni olib keling.",
+      "audio": "13652416bcd0.mp3",
+      "example_audio": "f1618052ea49.mp3"
+    },
+    {
+      "id": "u08_l2_w025",
+      "ko": "이름",
+      "uz": "ism",
+      "pos": "ot",
+      "example_ko": "이름이 뭐예요?",
+      "example_uz": "Ismingiz nima?",
+      "audio": "45b7c7671b30.mp3",
+      "example_audio": "26609ee489e1.mp3"
+    },
+    {
+      "id": "u08_l2_w026",
+      "ko": "내다",
+      "uz": "topshirmoq, bermoq",
+      "pos": "fe'l",
+      "example_ko": "숙제를 냈어요.",
+      "example_uz": "Uy vazifasini topshirdim.",
+      "audio": "4089eda17c72.mp3",
+      "example_audio": "f9702d22e800.mp3"
+    },
+    {
+      "id": "u08_l2_w027",
+      "ko": "창문",
+      "uz": "deraza",
+      "pos": "ot",
+      "example_ko": "창문이 커요.",
+      "example_uz": "Deraza katta.",
+      "audio": "37f49f850d58.mp3",
+      "example_audio": "b5df7a4fdac6.mp3"
+    },
+    {
+      "id": "u08_l2_w028",
+      "ko": "열다",
+      "uz": "ochmoq",
+      "pos": "fe'l",
+      "example_ko": "문을 열어요.",
+      "example_uz": "Eshikni ochaman.",
+      "audio": "e471a071369b.mp3",
+      "example_audio": "0329f9fe559d.mp3"
+    },
+    {
+      "id": "u08_l2_w029",
+      "ko": "닫다",
+      "uz": "yopmoq",
+      "pos": "fe'l",
+      "example_ko": "창문을 닫으세요.",
+      "example_uz": "Derazani yoping.",
+      "audio": "d8e225ae05a1.mp3",
+      "example_audio": "4454d0354598.mp3"
+    },
+    {
+      "id": "u08_l2_w030",
+      "ko": "먼저",
+      "uz": "avval, birinchi",
+      "pos": "ravish",
+      "example_ko": "먼저 가세요.",
+      "example_uz": "Siz avval boring.",
+      "audio": "256ec3a426da.mp3",
+      "example_audio": "7a3ff451ecfe.mp3"
+    },
+    {
+      "id": "u08_l2_w031",
+      "ko": "들어가다",
+      "uz": "kirmoq",
+      "pos": "fe'l",
+      "example_ko": "교실에 들어가요.",
+      "example_uz": "Sinfga kiraman.",
+      "audio": "8dc11944264c.mp3",
+      "example_audio": "41e0b0c7ec15.mp3"
+    },
+    {
+      "id": "u08_l2_w032",
+      "ko": "숙제",
+      "uz": "uy vazifasi",
+      "pos": "ot",
+      "example_ko": "숙제가 많아요.",
+      "example_uz": "Uy vazifasi ko'p.",
+      "audio": "b6c3c60aef8e.mp3",
+      "example_audio": "baebec740656.mp3"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "u08_l2_g1",
+      "pattern": "V-아도/어도 되다",
+      "meaning_uz": "Ruxsat: '...-sa bo'ladi', '...-sam bo'ladimi?'",
+      "explanation_md": "**-아도/어도 되다** — **ruxsat** so'rash yoki berish: o'zbekchadagi **\"...-sa bo'ladi\"**, savolda **\"...-sam bo'ladimi?\"**.\n\n**시험을 볼 때 연필로 써도 돼요?** — *Imtihonda qalam bilan yozsam bo'ladimi?*\n\n### Qanday yasaladi\n\n**-아요/어요** shaklidagi **요** o'rniga **도 돼요** qo'yiladi:\n\n- Oxirgi unli **ㅏ, ㅗ** → **-아도 돼요**: 앉다 → **앉아도 돼요**, 가다 → **가도 돼요**\n- Boshqa unlilar → **-어도 돼요**: 먹다 → **먹어도 돼요**, 열다 → **열어도 돼요**\n- **하다** → **해도 돼요**: 질문하다 → **질문해도 돼요**\n- **ㅡ 탈락**: 쓰다 → **써도 돼요**, 끄다 → **꺼도 돼요**\n- **ㄷ 불규칙**: 듣다 → **들어도 돼요**\n\n### Javob berish\n\n- Ruxsat bor: **네, 써도 돼요.**\n- Ruxsat yo'q: **아니요, 쓰면 안 돼요.** (keyingi grammatika)\n\n### Odob\n\nKattalarga yoki o'qituvchiga **-아도/어도 돼요?** odobli savol. Yanada rasmiy: **-아도/어도 됩니까?**",
+      "formation": [
+        {
+          "condition_uz": "Oxirgi unli ㅏ, ㅗ",
+          "rule": "-아도 되다",
+          "example": "앉다 → 앉아도 돼요"
+        },
+        {
+          "condition_uz": "Boshqa unlilar",
+          "rule": "-어도 되다",
+          "example": "먹다 → 먹어도 돼요"
+        },
+        {
+          "condition_uz": "하다",
+          "rule": "해도 되다",
+          "example": "질문하다 → 질문해도 돼요"
+        },
+        {
+          "condition_uz": "ㅡ 탈락",
+          "rule": "ㅡ tushadi",
+          "example": "쓰다 → 써도 돼요"
+        },
+        {
+          "condition_uz": "ㄷ 불규칙",
+          "rule": "ㄷ → ㄹ",
+          "example": "듣다 → 들어도 돼요"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "시험을 볼 때 연필로 써도 돼요?",
+          "uz": "Imtihonda qalam bilan yozsam bo'ladimi?",
+          "audio": "5034316b9a87.mp3"
+        },
+        {
+          "ko": "여기 앉아도 돼요?",
+          "uz": "Shu yerga o'tirsam bo'ladimi?",
+          "audio": "a086ce2a382c.mp3"
+        },
+        {
+          "ko": "네, 창문을 열어도 돼요.",
+          "uz": "Ha, derazani ochsangiz bo'ladi.",
+          "audio": "1abf0011467d.mp3"
+        },
+        {
+          "ko": "질문해도 돼요?",
+          "uz": "Savol bersam bo'ladimi?",
+          "audio": "dbf773d803df.mp3"
+        },
+        {
+          "ko": "시험이 끝나면 먼저 나가도 돼요.",
+          "uz": "Imtihon tugasa, avvalroq chiqsangiz bo'ladi.",
+          "audio": "5f836b796284.mp3"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "볼펜으로 쓰어도 돼요?",
+          "right": "볼펜으로 써도 돼요?",
+          "why_uz": "ㅡ 탈락: 쓰다 → 써도."
+        },
+        {
+          "wrong": "음악을 듣어도 돼요?",
+          "right": "음악을 들어도 돼요?",
+          "why_uz": "ㄷ 불규칙: 듣다 → 들어도."
+        },
+        {
+          "wrong": "여기 앉어도 돼요?",
+          "right": "여기 앉아도 돼요?",
+          "why_uz": "Unli ㅏ: -아도."
+        }
+      ],
+      "uz_compare": "O'zbekchadagi '-sa bo'ladi(mi)?' bilan bir xil: 'yozsam bo'ladimi?' = 써도 돼요?, 'kirsangiz bo'ladi' = 들어가도 돼요."
+    },
+    {
+      "id": "u08_l2_g2",
+      "pattern": "V-(으)면 안 되다",
+      "meaning_uz": "Taqiq: '...-sa bo'lmaydi', '...-ish mumkin emas'",
+      "explanation_md": "**-(으)면 안 되다** — **taqiq**: o'zbekchadagi **\"...-sa bo'lmaydi\"**, **\"...-ish mumkin emas\"**. 3-1 darsdagi **-(으)면** (agar) + **안 되다** (bo'lmaydi).\n\n**연필로 쓰면 안 돼요.** — *Qalam bilan yozish mumkin emas.*\n\n### Qanday yasaladi\n\n- **받침 yo'q** → **-면 안 돼요**: 가다 → **가면 안 돼요**, 쓰다 → **쓰면 안 돼요**\n- **받침 bor** → **-으면 안 돼요**: 먹다 → **먹으면 안 돼요**, 늦다 → **늦으면 안 돼요**\n- **ㄹ bilan tugasa** → **-면 안 돼요**: 열다 → **열면 안 돼요**, 떠들다 → **떠들면 안 돼요**\n- **ㄷ 불규칙**: 듣다 → **들으면 안 돼요**\n\n### -지 마세요 bilan farqi\n\n- **-지 마세요** — to'g'ridan-to'g'ri iltimos/buyruq: *\"Qilmang!\"*\n- **-(으)면 안 돼요** — qoida yoki tushuntirish: *\"Qilish mumkin emas\"*\n\n여기에서 사진을 **찍지 마세요**. / 여기에서 사진을 **찍으면 안 돼요**.\n\n### Ruxsat so'roviga javob\n\n- 사전을 봐도 돼요? — **아니요, 보면 안 돼요.**",
+      "formation": [
+        {
+          "condition_uz": "받침 yo'q",
+          "rule": "-면 안 되다",
+          "example": "가다 → 가면 안 돼요"
+        },
+        {
+          "condition_uz": "받침 bor",
+          "rule": "-으면 안 되다",
+          "example": "먹다 → 먹으면 안 돼요"
+        },
+        {
+          "condition_uz": "ㄹ bilan tugasa",
+          "rule": "-면 안 되다",
+          "example": "열다 → 열면 안 돼요"
+        },
+        {
+          "condition_uz": "ㄷ 불규칙",
+          "rule": "ㄷ → ㄹ + -으면",
+          "example": "듣다 → 들으면 안 돼요"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "연필로 쓰면 안 돼요. 볼펜으로 쓰세요.",
+          "uz": "Qalam bilan yozish mumkin emas. Ruchka bilan yozing.",
+          "audio": "da0f8565a087.mp3"
+        },
+        {
+          "ko": "시험을 볼 때 사전을 보면 안 돼요.",
+          "uz": "Imtihonda lug'at ko'rish mumkin emas.",
+          "audio": "91dc25116215.mp3"
+        },
+        {
+          "ko": "교실에서 음식을 먹으면 안 돼요.",
+          "uz": "Sinfda ovqat yeyish mumkin emas.",
+          "audio": "0f0ad2af1e8e.mp3"
+        },
+        {
+          "ko": "기숙사에서 담배를 피우면 안 돼요.",
+          "uz": "Yotoqxonada chekish mumkin emas.",
+          "audio": "19d77bdc5041.mp3"
+        },
+        {
+          "ko": "수업에 늦으면 안 돼요.",
+          "uz": "Darsga kechikish mumkin emas.",
+          "audio": "dc91b73657ac.mp3"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "창문을 열으면 안 돼요",
+          "right": "창문을 열면 안 돼요",
+          "why_uz": "ㄹ bilan tugaydi: -으 qo'shilmaydi."
+        },
+        {
+          "wrong": "음식을 먹면 안 돼요",
+          "right": "음식을 먹으면 안 돼요",
+          "why_uz": "받침 bor: -으면."
+        },
+        {
+          "wrong": "사전을 보면 안 해요",
+          "right": "사전을 보면 안 돼요",
+          "why_uz": "안 되다 (bo'lmaydi), 안 하다 emas."
+        }
+      ],
+      "uz_compare": "O'zbekchadagi '-sa bo'lmaydi' bilan so'zma-so'z bir xil: 'yozsa bo'lmaydi' = 쓰면 안 돼요 (쓰면 = yozsa, 안 돼요 = bo'lmaydi)."
+    }
+  ],
+  "dialogue": {
+    "lines": [
+      {
+        "speaker": "teacher",
+        "ko": "여러분, 십 분 후에 시험을 시작해요.",
+        "uz": "Hammaga, o'n daqiqadan keyin imtihonni boshlaymiz.",
+        "audio": "54edd0a7987f.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "선생님, 시험을 볼 때 연필로 써도 돼요?",
+        "uz": "Ustoz, imtihonda qalam bilan yozsam bo'ladimi?",
+        "audio": "6eab99fd7783.mp3"
+      },
+      {
+        "speaker": "teacher",
+        "ko": "아니요, 연필로 쓰면 안 돼요. 볼펜으로 쓰세요.",
+        "uz": "Yo'q, qalam bilan yozish mumkin emas. Ruchka bilan yozing.",
+        "audio": "dfe335a19bf8.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "볼펜이 없는데요. 친구 볼펜을 빌려도 돼요?",
+        "uz": "Ruchkam yo'q edi. Do'stimning ruchkasini olsam bo'ladimi?",
+        "audio": "40467589c218.mp3"
+      },
+      {
+        "speaker": "teacher",
+        "ko": "네, 빌려도 돼요.",
+        "uz": "Ha, olsangiz bo'ladi.",
+        "audio": "e295b1cf141e.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "사전을 봐도 돼요?",
+        "uz": "Lug'at ko'rsam bo'ladimi?",
+        "audio": "567248a14004.mp3"
+      },
+      {
+        "speaker": "teacher",
+        "ko": "아니요, 사전을 보면 안 돼요. 그리고 휴대폰은 꺼 주세요.",
+        "uz": "Yo'q, lug'at ko'rish mumkin emas. Va telefoningizni o'chirib qo'ying.",
+        "audio": "5f35ee64b225.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "시험 시간에 화장실에 가도 돼요?",
+        "uz": "Imtihon vaqtida hojatxonaga borsam bo'ladimi?",
+        "audio": "adf27cd11bf7.mp3"
+      },
+      {
+        "speaker": "teacher",
+        "ko": "지금 다녀오세요. 시험을 볼 때는 나가면 안 돼요.",
+        "uz": "Hozir borib keling. Imtihon paytida chiqish mumkin emas.",
+        "audio": "b4f681a11246.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "시험이 끝나면 먼저 나가도 돼요?",
+        "uz": "Imtihonni tugatsam, avvalroq chiqsam bo'ladimi?",
+        "audio": "5691e83891ee.mp3"
+      },
+      {
+        "speaker": "teacher",
+        "ko": "네, 답안지를 내고 나가도 돼요.",
+        "uz": "Ha, javob varag'ini topshirib chiqsangiz bo'ladi.",
+        "audio": "c6bc7527422a.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "알겠습니다.",
+        "uz": "Tushundim.",
+        "audio": "d590c6da03e6.mp3"
+      },
+      {
+        "speaker": "teacher",
+        "ko": "그럼 먼저 이름을 쓰세요. 시작하세요!",
+        "uz": "Unda avval ismingizni yozing. Boshlang!",
+        "audio": "a7d7dff768a7.mp3"
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "u08_l2_e001",
+      "type": "conjugate",
+      "targets": [
+        "u08_l2_g1"
+      ],
+      "prompt_uz": "'Yozsa bo'ladi' shaklini yasang",
+      "base": "쓰다",
+      "form": "-아도/어도 돼요",
+      "answers": [
+        "써도 돼요"
+      ],
+      "hint_uz": "ㅡ 탈락"
+    },
+    {
+      "id": "u08_l2_e002",
+      "type": "conjugate",
+      "targets": [
+        "u08_l2_g1"
+      ],
+      "prompt_uz": "'Yesa bo'ladi' shaklini yasang",
+      "base": "먹다",
+      "form": "-아도/어도 돼요",
+      "answers": [
+        "먹어도 돼요"
+      ]
+    },
+    {
+      "id": "u08_l2_e003",
+      "type": "conjugate",
+      "targets": [
+        "u08_l2_g1"
+      ],
+      "prompt_uz": "'Ochsa bo'ladi' shaklini yasang",
+      "base": "열다",
+      "form": "-아도/어도 돼요",
+      "answers": [
+        "열어도 돼요"
+      ]
+    },
+    {
+      "id": "u08_l2_e004",
+      "type": "conjugate",
+      "targets": [
+        "u08_l2_g2"
+      ],
+      "prompt_uz": "'Borish mumkin emas' shaklini yasang",
+      "base": "가다",
+      "form": "-(으)면 안 돼요",
+      "answers": [
+        "가면 안 돼요"
+      ]
+    },
+    {
+      "id": "u08_l2_e005",
+      "type": "conjugate",
+      "targets": [
+        "u08_l2_g2"
+      ],
+      "prompt_uz": "'Yeyish mumkin emas' shaklini yasang",
+      "base": "먹다",
+      "form": "-(으)면 안 돼요",
+      "answers": [
+        "먹으면 안 돼요"
+      ]
+    },
+    {
+      "id": "u08_l2_e006",
+      "type": "conjugate",
+      "targets": [
+        "u08_l2_g2"
+      ],
+      "prompt_uz": "'Ochish mumkin emas' shaklini yasang",
+      "base": "열다",
+      "form": "-(으)면 안 돼요",
+      "answers": [
+        "열면 안 돼요"
+      ],
+      "hint_uz": "ㄹ bilan tugaydi"
+    },
+    {
+      "id": "u08_l2_e007",
+      "type": "fill_blank",
+      "targets": [
+        "u08_l2_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Shu yerga o'tirsam bo'ladimi?'",
+      "sentence": "여기 ___? (앉다)",
+      "answers": [
+        "앉아도 돼요"
+      ]
+    },
+    {
+      "id": "u08_l2_e008",
+      "type": "fill_blank",
+      "targets": [
+        "u08_l2_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Issiq. Derazani ochsam bo'ladimi?'",
+      "sentence": "더워요. 창문을 ___? (열다)",
+      "answers": [
+        "열어도 돼요"
+      ]
+    },
+    {
+      "id": "u08_l2_e009",
+      "type": "fill_blank",
+      "targets": [
+        "u08_l2_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Sinfda ovqat yeyish mumkin emas.'",
+      "sentence": "교실에서 음식을 ___. (먹다)",
+      "answers": [
+        "먹으면 안 돼요"
+      ]
+    },
+    {
+      "id": "u08_l2_e010",
+      "type": "fill_blank",
+      "targets": [
+        "u08_l2_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Imtihonda telefondan foydalanish mumkin emas.'",
+      "sentence": "시험을 볼 때 휴대폰을 ___. (사용하다)",
+      "answers": [
+        "사용하면 안 돼요"
+      ]
+    },
+    {
+      "id": "u08_l2_e011",
+      "type": "situation_choice",
+      "targets": [
+        "u08_l2_g1"
+      ],
+      "prompt_uz": "Muzeyda ruxsat so'raysiz: 'Bu yerda rasmga olsam bo'ladimi?'",
+      "options": [
+        "여기에서 사진을 찍어도 돼요?",
+        "여기에서 사진을 찍으면 안 돼요?",
+        "여기에서 사진을 찍지 마세요?",
+        "여기에서 사진을 찍을 거예요?"
+      ],
+      "answers": [
+        "여기에서 사진을 찍어도 돼요?"
+      ]
+    },
+    {
+      "id": "u08_l2_e012",
+      "type": "situation_choice",
+      "targets": [
+        "u08_l2_g2"
+      ],
+      "prompt_uz": "Kutubxona qoidasi: telefonda gaplashish mumkin emas.",
+      "options": [
+        "도서관에서 전화하면 안 돼요",
+        "도서관에서 전화해도 돼요",
+        "도서관에서 전화하고 싶어요",
+        "도서관에서 전화할 수 있어요"
+      ],
+      "answers": [
+        "도서관에서 전화하면 안 돼요"
+      ]
+    },
+    {
+      "id": "u08_l2_e013",
+      "type": "situation_choice",
+      "targets": [
+        "u08_l2_w010"
+      ],
+      "prompt_uz": "Imtihon oldidan telefonni nima qilasiz?",
+      "options": [
+        "휴대폰을 꺼요",
+        "휴대폰을 켜요",
+        "휴대폰을 사요",
+        "휴대폰을 빌려요"
+      ],
+      "answers": [
+        "휴대폰을 꺼요"
+      ]
+    },
+    {
+      "id": "u08_l2_e014",
+      "type": "build_sentence",
+      "targets": [
+        "u08_l2_g1"
+      ],
+      "prompt_uz": "'Lug'at ko'rsam bo'ladimi' gapini tuzing",
+      "tokens": [
+        "돼요",
+        "사전을",
+        "봐도"
+      ],
+      "answers": [
+        "사전을 봐도 돼요"
+      ]
+    },
+    {
+      "id": "u08_l2_e015",
+      "type": "build_sentence",
+      "targets": [
+        "u08_l2_g2"
+      ],
+      "prompt_uz": "'Imtihon vaqtida chiqish mumkin emas' gapini tuzing",
+      "tokens": [
+        "안",
+        "시간에",
+        "나가면",
+        "시험",
+        "돼요"
+      ],
+      "answers": [
+        "시험 시간에 나가면 안 돼요"
+      ]
+    },
+    {
+      "id": "u08_l2_e016",
+      "type": "find_error",
+      "targets": [
+        "u08_l2_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "sentence": "볼펜으로 쓰어도 돼요?",
+      "answers": [
+        "볼펜으로 써도 돼요"
+      ],
+      "why_uz": "ㅡ 탈락: 써도."
+    },
+    {
+      "id": "u08_l2_e017",
+      "type": "find_error",
+      "targets": [
+        "u08_l2_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "sentence": "여기에서 담배를 피우으면 안 돼요.",
+      "answers": [
+        "여기에서 담배를 피우면 안 돼요"
+      ],
+      "why_uz": "받침 yo'q: -면."
+    },
+    {
+      "id": "u08_l2_e018",
+      "type": "find_error",
+      "targets": [
+        "u08_l2_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "sentence": "창문을 열으면 안 돼요.",
+      "answers": [
+        "창문을 열면 안 돼요"
+      ],
+      "why_uz": "ㄹ bilan tugaydi: -면."
+    },
+    {
+      "id": "u08_l2_e019",
+      "type": "translate",
+      "targets": [
+        "u08_l2_g1"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "source_uz": "Kirsam bo'ladimi?",
+      "answers": [
+        "들어가도 돼요",
+        "들어가도 됩니까"
+      ]
+    },
+    {
+      "id": "u08_l2_e020",
+      "type": "translate",
+      "targets": [
+        "u08_l2_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "source_uz": "Bu yerda chekish mumkin emas.",
+      "answers": [
+        "여기에서 담배를 피우면 안 돼요",
+        "여기서 담배를 피우면 안 돼요",
+        "여기에서 담배 피우면 안 돼요",
+        "여기서 담배 피우면 안 돼요"
+      ]
+    },
+    {
+      "id": "u08_l2_e021",
+      "type": "translate",
+      "targets": [
+        "u08_l2_g1"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "source_uz": "Qalam bilan yozsam bo'ladimi?",
+      "answers": [
+        "연필로 써도 돼요",
+        "연필로 써도 됩니까"
+      ]
+    },
+    {
+      "id": "u08_l2_e031",
+      "type": "listen_question",
+      "targets": [
+        "u08_l2_g1"
+      ],
+      "prompt_uz": "Imtihon tugagach nima qilish mumkin?",
+      "audio_text": "시험이 끝나면 집에 가도 돼요.",
+      "options": [
+        "Uyga ketish",
+        "Telefon ishlatish",
+        "Lug'at ko'rish",
+        "Ovqat yeyish"
+      ],
+      "answers": [
+        "Uyga ketish"
+      ],
+      "audio": "fa110cee1578.mp3"
+    },
+    {
+      "id": "u08_l2_e032",
+      "type": "listen_question",
+      "targets": [
+        "u08_l2_g2"
+      ],
+      "prompt_uz": "Yotoqxonaga qachondan keyin kirish mumkin emas?",
+      "audio_text": "기숙사에는 밤 열한 시 후에 들어오면 안 돼요.",
+      "options": [
+        "Kechki soat 11 dan keyin",
+        "Kechki soat 10 dan keyin",
+        "Kechki soat 9 dan keyin",
+        "Yarim tundan keyin"
+      ],
+      "answers": [
+        "Kechki soat 11 dan keyin"
+      ],
+      "audio": "93f73df44ce0.mp3"
+    },
+    {
+      "id": "u08_l2_e033",
+      "type": "listen_question",
+      "targets": [
+        "u08_l2_g1"
+      ],
+      "prompt_uz": "Kutubxonada nima qilish mumkin?",
+      "audio_text": "도서관에서 음식을 먹으면 안 돼요. 물은 마셔도 돼요.",
+      "options": [
+        "Suv ichish",
+        "Ovqat yeyish",
+        "Telefonda gaplashish",
+        "Shovqin qilish"
+      ],
+      "answers": [
+        "Suv ichish"
+      ],
+      "audio": "f95d659494c2.mp3"
+    },
+    {
+      "id": "u08_l2_e101",
+      "type": "conjugate",
+      "targets": [
+        "u08_l2_g1"
+      ],
+      "prompt_uz": "'Tinglasa bo'ladi' shaklini yasang",
+      "base": "듣다",
+      "form": "-아도/어도 돼요",
+      "answers": [
+        "들어도 돼요"
+      ],
+      "hint_uz": "ㄷ → ㄹ"
+    },
+    {
+      "id": "u08_l2_e102",
+      "type": "conjugate",
+      "targets": [
+        "u08_l2_g1"
+      ],
+      "prompt_uz": "'Qo'ng'iroq qilsa bo'ladi' shaklini yasang",
+      "base": "전화하다",
+      "form": "-아도/어도 돼요",
+      "answers": [
+        "전화해도 돼요"
+      ]
+    },
+    {
+      "id": "u08_l2_e103",
+      "type": "conjugate",
+      "targets": [
+        "u08_l2_g2"
+      ],
+      "prompt_uz": "'Kechikish mumkin emas' shaklini yasang",
+      "base": "늦다",
+      "form": "-(으)면 안 돼요",
+      "answers": [
+        "늦으면 안 돼요"
+      ]
+    },
+    {
+      "id": "u08_l2_e104",
+      "type": "fill_blank",
+      "targets": [
+        "u08_l2_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Bu ruchkani olib tursam bo'ladimi?'",
+      "sentence": "이 볼펜을 ___? (빌리다)",
+      "answers": [
+        "빌려도 돼요"
+      ]
+    },
+    {
+      "id": "u08_l2_e105",
+      "type": "fill_blank",
+      "targets": [
+        "u08_l2_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Dars vaqtida uxlash mumkin emas.'",
+      "sentence": "수업 시간에 ___. (자다)",
+      "answers": [
+        "자면 안 돼요"
+      ]
+    },
+    {
+      "id": "u08_l2_e106",
+      "type": "fill_blank",
+      "targets": [
+        "u08_l2_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Imtihonda do'stingiz bilan gaplashish mumkin emas.'",
+      "sentence": "시험을 볼 때 친구하고 ___. (이야기하다)",
+      "answers": [
+        "이야기하면 안 돼요"
+      ]
+    },
+    {
+      "id": "u08_l2_e107",
+      "type": "situation_choice",
+      "targets": [
+        "u08_l2_g1"
+      ],
+      "prompt_uz": "Ruxsat berasiz: 'Ha, kirsangiz bo'ladi.'",
+      "options": [
+        "네, 들어가도 돼요",
+        "네, 들어가면 안 돼요",
+        "네, 들어가지 마세요",
+        "네, 들어갈 거예요"
+      ],
+      "answers": [
+        "네, 들어가도 돼요"
+      ]
+    },
+    {
+      "id": "u08_l2_e108",
+      "type": "situation_choice",
+      "targets": [
+        "u08_l2_w004"
+      ],
+      "prompt_uz": "Qalamda yozilganni o'chirish uchun nima kerak?",
+      "options": [
+        "지우개",
+        "볼펜",
+        "사전",
+        "휴대폰"
+      ],
+      "answers": [
+        "지우개"
+      ]
+    },
+    {
+      "id": "u08_l2_e109",
+      "type": "build_sentence",
+      "targets": [
+        "u08_l2_g2"
+      ],
+      "prompt_uz": "'Lug'at ko'rish mumkin emas' gapini tuzing",
+      "tokens": [
+        "돼요",
+        "보면",
+        "사전을",
+        "안"
+      ],
+      "answers": [
+        "사전을 보면 안 돼요"
+      ]
+    },
+    {
+      "id": "u08_l2_e110",
+      "type": "build_sentence",
+      "targets": [
+        "u08_l2_g1"
+      ],
+      "prompt_uz": "'Derazani ochsam bo'ladimi' gapini tuzing",
+      "tokens": [
+        "열어도",
+        "돼요",
+        "창문을"
+      ],
+      "answers": [
+        "창문을 열어도 돼요"
+      ]
+    },
+    {
+      "id": "u08_l2_e111",
+      "type": "find_error",
+      "targets": [
+        "u08_l2_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "sentence": "음악을 듣어도 돼요?",
+      "answers": [
+        "음악을 들어도 돼요"
+      ],
+      "why_uz": "ㄷ 불규칙: 들어도."
+    },
+    {
+      "id": "u08_l2_e112",
+      "type": "find_error",
+      "targets": [
+        "u08_l2_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "sentence": "교실에서 떠들으면 안 돼요.",
+      "answers": [
+        "교실에서 떠들면 안 돼요"
+      ],
+      "why_uz": "ㄹ bilan tugaydi: -면."
+    },
+    {
+      "id": "u08_l2_e113",
+      "type": "translate",
+      "targets": [
+        "u08_l2_g1"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "source_uz": "Savol bersam bo'ladimi?",
+      "answers": [
+        "질문해도 돼요",
+        "질문해도 됩니까",
+        "질문을 해도 돼요"
+      ]
+    },
+    {
+      "id": "u08_l2_e114",
+      "type": "translate",
+      "targets": [
+        "u08_l2_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "source_uz": "Imtihonga kechikish mumkin emas.",
+      "answers": [
+        "시험에 늦으면 안 돼요",
+        "시험 시간에 늦으면 안 돼요"
+      ]
+    },
+    {
+      "id": "u08_l2_e115",
+      "type": "listen_question",
+      "targets": [
+        "u08_l2_g2"
+      ],
+      "prompt_uz": "Imtihonda nima mumkin emas?",
+      "audio_text": "시험을 볼 때 휴대폰을 사용하면 안 돼요.",
+      "options": [
+        "Telefon ishlatish",
+        "Ruchka bilan yozish",
+        "Ism yozish",
+        "Savol berish"
+      ],
+      "answers": [
+        "Telefon ishlatish"
+      ],
+      "audio": "55f52edb5e7e.mp3"
+    }
+  ],
+  "test": [
+    "u08_l2_e101",
+    "u08_l2_e102",
+    "u08_l2_e103",
+    "u08_l2_e104",
+    "u08_l2_e105",
+    "u08_l2_e106",
+    "u08_l2_e107",
+    "u08_l2_e108",
+    "u08_l2_e109",
+    "u08_l2_e110",
+    "u08_l2_e111",
+    "u08_l2_e112",
+    "u08_l2_e113",
+    "u08_l2_e114",
+    "u08_l2_e115"
+  ]
+}

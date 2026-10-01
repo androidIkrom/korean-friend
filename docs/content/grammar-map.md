@@ -18,8 +18,8 @@ Manba: "사랑해요 한국어 2급" onlayn kursining ma'ruzalar ro'yxati (univ.
 | 6-2 | 횡단보도를 건너서 오른쪽으로 가세요 | V-아서/어서 (ketma-ketlik), N에서 N까지 | Yo'nalishlar | yozilgan |
 | 7-1 | 내일 모임에 올 수 있어요? | V-(으)ㄹ 수 있다/없다, V-지 마세요 | Tana a'zolari | yozilgan |
 | 7-2 | 목이 아파서 왔어요 | A/V-아서/어서 (sabab), N(이)라서 | Kasallik belgilari | yozilgan |
-| 8-1 | 저는 힘들 때 음악을 듣거나 친구하고 이야기해요 | A/V-(으)ㄹ 때, V-거나 V, N(이)나 N | Hissiyotlar | — |
-| 8-2 | 시험을 볼 때 연필로 써도 돼요? | V-아도/어도 되다, V-(으)면 안 되다 | Talabalik hayoti | — |
+| 8-1 | 저는 힘들 때 음악을 듣거나 친구하고 이야기해요 | A/V-(으)ㄹ 때, V-거나 V, N(이)나 N | Hissiyotlar | yozilgan |
+| 8-2 | 시험을 볼 때 연필로 써도 돼요? | V-아도/어도 되다, V-(으)면 안 되다 | Talabalik hayoti | yozilgan |
 | 9-1 | 여보세요, 거기 서울대학교지요? | N(이)지요?, A/V-지요?, N한테/에게/께 | Telefon | — |
 | 9-2 | 차 마시면서 책 읽고 있어요 | V-(으)면서, V-고 있다 | Taom buyurtmasi | — |
 
