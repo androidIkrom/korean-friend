@@ -201,4 +201,13 @@
     <string name="backup_confirm_text">Joriy progress o\'chiriladi va fayldagi bilan almashtiriladi. Davom etasizmi?</string>
     <string name="backup_confirm_yes">Tiklash</string>
     <string name="backup_confirm_no">Bekor qilish</string>
+    <string name="share_title">Natijani ulashish</string>
+    <string name="share_send">Ulashish</string>
+    <string name="share_close">Yopish</string>
+    <string name="share_no_app">Ulashish uchun ilova topilmadi</string>
+    <string name="share_streak">kun ketma-ket</string>
+    <string name="share_words">so\'z o\'rganildi</string>
+    <string name="share_lessons">Darslar</string>
+    <string name="share_now">Hozir</string>
+    <string name="share_footer">사랑해요 한국어 2 · Hangul Friend</string>
 </resources>

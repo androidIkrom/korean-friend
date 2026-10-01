@@ -41,6 +41,7 @@ import uz.hangulfriend.ui.game.MistakesScreen
 import uz.hangulfriend.ui.game.MistakesViewModel
 import uz.hangulfriend.ui.home.HomeScreen
 import uz.hangulfriend.ui.home.HomeViewModel
+import uz.hangulfriend.ui.home.ShareCardButton
 import uz.hangulfriend.ui.map.BookMapScreen
 import uz.hangulfriend.ui.map.BookMapViewModel
 import uz.hangulfriend.ui.onboarding.OnboardingScreen
@@ -133,6 +134,7 @@ fun HangulFriendNav(container: AppContainer, openReview: Boolean = false) {
                     onMistakes = { nav.navigate(Routes.MISTAKES) },
                     onAchievements = { nav.navigate(Routes.ACHIEVEMENTS) },
                     onStories = { nav.navigate(Routes.STORIES) },
+                    headerAction = { ShareCardButton(container.shareStats) },
                 )
             }
             composable(Routes.MAP) {

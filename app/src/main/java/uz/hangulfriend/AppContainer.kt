@@ -17,6 +17,7 @@ import uz.hangulfriend.data.SettingsRepository
 import uz.hangulfriend.data.StoryRepository
 import uz.hangulfriend.data.StudyRepository
 import uz.hangulfriend.reminders.ReminderScheduler
+import uz.hangulfriend.share.ProgressStats
 import uz.hangulfriend.speech.SpeechInput
 import uz.hangulfriend.srs.FsrsScheduler
 import uz.hangulfriend.study.Grader
@@ -39,6 +40,7 @@ class AppContainer(context: Context) {
     val game = GameRepository(db, clock)
     val story = StoryRepository(db, game, clock)
     val backup = BackupService(db, settings, clock)
+    val shareStats = ProgressStats(content, db, game, settings, clock)
 
     val reminders = ReminderScheduler(context)
 
