@@ -93,7 +93,6 @@ fun HomeScreen(
     onGames: () -> Unit,
     onMistakes: () -> Unit,
     onAchievements: () -> Unit,
-    onStories: () -> Unit,
     modifier: Modifier = Modifier,
     headerAction: @Composable () -> Unit = {},
 ) {
@@ -134,7 +133,6 @@ fun HomeScreen(
                 }
             }
         }
-        OutlinedButton(onClick = onStories, modifier = Modifier.fillMaxWidth()) { Text(stringResource(R.string.home_stories)) }
         OutlinedButton(onClick = onGames, modifier = Modifier.fillMaxWidth()) { Text(stringResource(R.string.home_games)) }
         OutlinedButton(onClick = onMistakes, modifier = Modifier.fillMaxWidth()) { Text(stringResource(R.string.home_mistakes)) }
         OutlinedButton(onClick = onAchievements, modifier = Modifier.fillMaxWidth()) {

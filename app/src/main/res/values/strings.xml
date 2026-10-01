@@ -2,8 +2,9 @@
 <resources>
     <string name="app_name">Hangul Friend</string>
 
-    <string name="nav_home">Bugun</string>
-    <string name="nav_book">Kitob</string>
+    <string name="nav_home">Uy</string>
+    <string name="nav_book">Xarita</string>
+    <string name="nav_stories">Hikoyalar</string>
     <string name="nav_settings">Sozlamalar</string>
 
     <string name="status_not_started">Boshlanmagan</string>
@@ -173,7 +174,6 @@
     <string name="test_intro">Dars testi: 80% va undan yuqori natija darsni tugatadi.</string>
     <string name="test_start">Testni boshlash</string>
     <string name="lesson_review">Shu darsni takrorlash</string>
-    <string name="home_stories">📖 Hikoyalar</string>
     <string name="stories_title">Hikoyalar</string>
     <string name="story_unit">%1$d-bo\'lim</string>
     <string name="story_locked">Avval darsni o\'ting</string>
@@ -228,4 +228,7 @@
     <string name="avatar_new_monarch_aura">Monarx aurasi</string>
     <string name="avatar_new_eye_trail">Ko\'z alangasi</string>
     <string name="avatar_new_companions">Hamrohlar</string>
+    <string name="settings_theme">Interfeys uslubi</string>
+    <string name="theme_system">Tizim</string>
+    <string name="theme_neon">Neon Seul</string>
 </resources>
