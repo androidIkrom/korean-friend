@@ -1121,5 +1121,112 @@
     "u07_l1_e113",
     "u07_l1_e114",
     "u07_l1_e115"
-  ]
+  ],
+  "story": {
+    "title_uz": "Palov bazmi",
+    "steps": [
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "민지 씨, 토요일에 우리 집에서 파티를 해요. 올 수 있어요?",
+        "uz": "Minji, shanba kuni uyimizda bazm bor. Kela olasizmi?",
+        "audio": "611c7c634978.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "와, 무슨 파티예요?",
+        "uz": "Voy, qanaqa bazm?",
+        "audio": "19f7b41fea17.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "제가 우즈베키스탄 음식 플로프를 만들 거예요.",
+        "uz": "Men o'zbek taomi palov tayyorlayman.",
+        "audio": "021906f2b60f.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "좋아요! 그런데 토요일 오후에는 약속이 있어요. 저녁에 갈 수 있어요.",
+        "uz": "Zo'r! Lekin shanba tushdan keyin uchrashuvim bor. Kechqurun bora olaman.",
+        "audio": "c013523fa200.mp3"
+      },
+      {
+        "type": "quiz",
+        "prompt_uz": "Minji qachon kela oladi?",
+        "options": [
+          "Shanba kechqurun",
+          "Shanba ertalab",
+          "Yakshanba"
+        ],
+        "answer": "Shanba kechqurun",
+        "why_uz": "저녁에 갈 수 있어요."
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "저도 과일을 사 가요.",
+        "uz": "Men meva olib boraman.",
+        "audio": "226958a83152.mp3"
+      },
+      {
+        "type": "choose_reply",
+        "speaker": "aziz",
+        "prompt_uz": "Aziz 'Hech narsa olib kelmang' demoqchi.",
+        "options": [
+          "아무것도 사 오지 마세요.",
+          "아무것도 사 오 마세요.",
+          "아무것도 사 오지 않으세요."
+        ],
+        "answer": "아무것도 사 오지 마세요.",
+        "uz": "Hech narsa olib kelmang.",
+        "why_uz": "Inkor buyruq: 오 + 지 마세요.",
+        "audio": "150a7205201a.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "그냥 오세요. 음식이 많아요.",
+        "uz": "Shunchaki keling. Ovqat ko'p.",
+        "audio": "fa416a9b5830.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "플로프는 매워요? 저는 매운 음식을 못 먹어요.",
+        "uz": "Palov achchiqmi? Men achchiq ovqat yeya olmayman.",
+        "audio": "4eee69578a5a.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "맵지 않아요. 민지 씨도 먹을 수 있어요.",
+        "uz": "Achchiq emas. Siz ham yeya olasiz.",
+        "audio": "03eab63dbfda.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "다행이에요. 다른 친구들도 초대했어요?",
+        "uz": "Yaxshiyamki. Boshqa do'stlarni ham taklif qildingizmi?",
+        "audio": "34312d8a4642.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "네, 반 친구들도 와요. 그런데 늦지 마세요! 일곱 시에 시작해요.",
+        "uz": "Ha, guruhdoshlar ham keladi. Lekin kechikmang! Soat yettida boshlanadi.",
+        "audio": "ecd2ab14991e.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "알겠어요. 일곱 시까지 꼭 갈 거예요!",
+        "uz": "Xo'p. Soat yettigacha albatta boraman!",
+        "audio": "3f648cbf7f01.mp3"
+      }
+    ]
+  }
 }

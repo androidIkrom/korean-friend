@@ -1123,5 +1123,119 @@
     "u05_l2_e113",
     "u05_l2_e114",
     "u05_l2_e115"
-  ]
+  ],
+  "story": {
+    "title_uz": "Vatanga posilka",
+    "steps": [
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "아지즈 씨, 어디 가요?",
+        "uz": "Aziz, qayerga ketyapsiz?",
+        "audio": "88e6601272d6.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "우체국에 소포를 부치러 가요. 고향에 선물을 보내요.",
+        "uz": "Pochtaga posilka jo'natgani ketyapman. Vatanimga sovg'a yuboraman.",
+        "audio": "74bbe17162df.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "clerk",
+        "ko": "어서 오세요. 어디로 보내세요?",
+        "uz": "Keling. Qayerga yuborasiz?",
+        "audio": "acf33dda5990.mp3"
+      },
+      {
+        "type": "choose_reply",
+        "speaker": "aziz",
+        "prompt_uz": "Aziz 'O'zbekistonga yuboraman' demoqchi.",
+        "options": [
+          "우즈베키스탄으로 보내요.",
+          "우즈베키스탄로 보내요.",
+          "우즈베키스탄을 보내요."
+        ],
+        "answer": "우즈베키스탄으로 보내요.",
+        "uz": "O'zbekistonga yuboraman.",
+        "why_uz": "받침 bor (ㄴ): -으로.",
+        "audio": "caadadf78cde.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "clerk",
+        "ko": "상자를 여기에 놓아 주세요.",
+        "uz": "Qutini shu yerga qo'ying.",
+        "audio": "9cd620358538.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "clerk",
+        "ko": "무게가 삼 킬로예요. 배로 보내요? 항공으로 보내요?",
+        "uz": "Og'irligi uch kilo. Kemada yuborasizmi, aviapochtadami?",
+        "audio": "dea3f5be8039.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "얼마나 걸려요?",
+        "uz": "Qancha vaqt ketadi?",
+        "audio": "dca6c4bd9483.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "clerk",
+        "ko": "배로 보내면 한 달, 항공으로 보내면 일주일쯤 걸려요.",
+        "uz": "Kemada bir oy, aviapochtada bir haftacha.",
+        "audio": "c3b51ca445c2.mp3"
+      },
+      {
+        "type": "quiz",
+        "prompt_uz": "Aviapochta bilan qancha vaqt ketadi?",
+        "options": [
+          "Bir haftacha",
+          "Bir oy",
+          "Ikki kun"
+        ],
+        "answer": "Bir haftacha",
+        "why_uz": "항공으로 보내면 일주일쯤 걸려요."
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "그럼 항공으로 보내 주세요. 빨리 보내고 싶어요.",
+        "uz": "Unda aviapochta bilan yuboring. Tezroq yubormoqchiman.",
+        "audio": "f4fe6b7bf12e.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "clerk",
+        "ko": "안에 깨지는 물건이 있어요?",
+        "uz": "Ichida sinadigan narsa bormi?",
+        "audio": "83da01b19d35.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "아니요, 옷하고 책이에요.",
+        "uz": "Yo'q, kiyim va kitoblar.",
+        "audio": "1386fa2cc6f0.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "clerk",
+        "ko": "요금은 사만 원이에요. 여기에 주소를 써 주세요.",
+        "uz": "Narxi qirq ming von. Bu yerga manzilni yozing.",
+        "audio": "e6b15505c832.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "네. 카드로 계산해요.",
+        "uz": "Xo'p. Karta bilan to'layman.",
+        "audio": "e579b2cc5a19.mp3"
+      }
+    ]
+  }
 }

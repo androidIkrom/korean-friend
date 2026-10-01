@@ -1138,5 +1138,119 @@
     "u07_l2_e113",
     "u07_l2_e114",
     "u07_l2_e115"
-  ]
+  ],
+  "story": {
+    "title_uz": "Achchiq tteokbokki",
+    "steps": [
+      {
+        "type": "line",
+        "speaker": "doctor",
+        "ko": "어서 오세요. 어디가 불편하세요?",
+        "uz": "Keling. Qayeringiz bezovta qilyapti?",
+        "audio": "88fe4b483509.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "어제부터 배가 아파요.",
+        "uz": "Kechadan beri qornim og'riyapti.",
+        "audio": "1b14a23eaad3.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "doctor",
+        "ko": "어제 뭘 드셨어요?",
+        "uz": "Kecha nima yedingiz?",
+        "audio": "361f82d752c2.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "친구 생일이라서 매운 떡볶이를 많이 먹었어요.",
+        "uz": "Do'stimning tug'ilgan kuni bo'lgani uchun achchiq tteokbokkini ko'p yedim.",
+        "audio": "0f325d1dabff.mp3"
+      },
+      {
+        "type": "quiz",
+        "prompt_uz": "Nega Aziz ko'p achchiq ovqat yedi?",
+        "options": [
+          "Do'stining tug'ilgan kuni edi",
+          "Juda och edi",
+          "Arzon edi"
+        ],
+        "answer": "Do'stining tug'ilgan kuni edi",
+        "why_uz": "친구 생일이라서 = do'stining tug'ilgan kuni bo'lgani uchun."
+      },
+      {
+        "type": "line",
+        "speaker": "doctor",
+        "ko": "매운 음식을 많이 먹어서 배가 아파요. 열은 없어요?",
+        "uz": "Achchiq ovqatni ko'p yegansiz, shuning uchun qorningiz og'riyapti. Isitma yo'qmi?",
+        "audio": "07a7bfccbf29.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "열은 없어요. 그런데 너무 아파서 밤에 잠을 못 잤어요.",
+        "uz": "Isitma yo'q. Lekin juda og'rigani uchun kechasi uxlay olmadim.",
+        "audio": "e5947d9eaece.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "doctor",
+        "ko": "이 약을 하루에 세 번 드세요.",
+        "uz": "Bu dorini kuniga uch marta iching.",
+        "audio": "7be8f8ed98f9.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "내일 시험인데 학교에 갈 수 있어요?",
+        "uz": "Ertaga imtihonim bor, maktabga bora olamanmi?",
+        "audio": "54a0dabc2ae8.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "doctor",
+        "ko": "네, 갈 수 있어요. 하지만 오늘은 집에서 푹 쉬세요.",
+        "uz": "Ha, bora olasiz. Lekin bugun uyda yaxshilab dam oling.",
+        "audio": "d4dd66073849.mp3"
+      },
+      {
+        "type": "choose_reply",
+        "speaker": "aziz",
+        "prompt_uz": "Aziz 'Ertaga imtihon bo'lgani uchun xavotirdaman' demoqchi.",
+        "options": [
+          "내일 시험이라서 걱정해요.",
+          "내일 시험라서 걱정해요.",
+          "내일 시험이어라서 걱정해요."
+        ],
+        "answer": "내일 시험이라서 걱정해요.",
+        "uz": "Ertaga imtihon bo'lgani uchun xavotirdaman.",
+        "why_uz": "시험 — 받침 bor: 이라서.",
+        "audio": "dc483a20cfea.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "doctor",
+        "ko": "걱정하지 마세요. 약을 먹으면 괜찮을 거예요.",
+        "uz": "Xavotir olmang. Dorini ichsangiz, yaxshi bo'lib qolasiz.",
+        "audio": "8a321a7b909d.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "doctor",
+        "ko": "그리고 며칠 동안 매운 음식은 드시지 마세요.",
+        "uz": "Va bir necha kun achchiq ovqat yemang.",
+        "audio": "80965e4a1b8b.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "네, 감사합니다!",
+        "uz": "Xo'p, rahmat!",
+        "audio": "f493dd79f1fd.mp3"
+      }
+    ]
+  }
 }
