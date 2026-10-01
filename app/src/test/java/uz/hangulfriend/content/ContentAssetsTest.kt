@@ -16,6 +16,11 @@ class ContentAssetsTest {
     @Test fun unit2IsWritten() =
         assertTrue(listOf("u02_l1", "u02_l2").all { id -> lessons.any { it.id == id } })
 
+    @Test fun everyLessonHasStory() {
+        val missing = lessons.filter { it.story == null }.map { it.id }
+        assertEquals("lessons without a story episode", emptyList<String>(), missing)
+    }
+
     @Test fun validatorPasses() = assertEquals(emptyList<String>(), LessonValidator.validate(lessons))
 
     @Test fun dialogueSpeakersExist() {

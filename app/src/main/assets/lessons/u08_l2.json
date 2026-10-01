@@ -1146,5 +1146,112 @@
     "u08_l2_e113",
     "u08_l2_e114",
     "u08_l2_e115"
-  ]
+  ],
+  "story": {
+    "title_uz": "Yotoqxona qoidalari",
+    "steps": [
+      {
+        "type": "line",
+        "speaker": "clerk",
+        "ko": "어서 오세요. 오늘부터 이 기숙사에서 살아요.",
+        "uz": "Xush kelibsiz. Bugundan bu yotoqxonada yashaysiz.",
+        "audio": "469830fd34d4.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "감사합니다. 기숙사 규칙이 있어요?",
+        "uz": "Rahmat. Yotoqxona qoidalari bormi?",
+        "audio": "dd7d6d68afab.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "clerk",
+        "ko": "네. 밤 열한 시 후에 들어오면 안 돼요.",
+        "uz": "Ha. Kechki soat o'n birdan keyin kirish mumkin emas.",
+        "audio": "615553187204.mp3"
+      },
+      {
+        "type": "choose_reply",
+        "speaker": "aziz",
+        "prompt_uz": "Aziz 'Xonada ovqat pishirsam bo'ladimi?' deb so'ramoqchi.",
+        "options": [
+          "방에서 요리해도 돼요?",
+          "방에서 요리하도 돼요?",
+          "방에서 요리해면 돼요?"
+        ],
+        "answer": "방에서 요리해도 돼요?",
+        "uz": "Xonada ovqat pishirsam bo'ladimi?",
+        "why_uz": "하다 → 해도 돼요.",
+        "audio": "fb58de89c084.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "clerk",
+        "ko": "아니요, 방에서 요리하면 안 돼요. 일 층 부엌을 사용하세요.",
+        "uz": "Yo'q, xonada ovqat pishirish mumkin emas. Birinchi qavatdagi oshxonadan foydalaning.",
+        "audio": "9080a3d4220b.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "친구가 놀러 와도 돼요?",
+        "uz": "Do'stim mehmonga kelsa bo'ladimi?",
+        "audio": "9d9dbccf7873.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "clerk",
+        "ko": "네, 와도 돼요. 하지만 밤에는 친구가 여기에서 자면 안 돼요.",
+        "uz": "Ha, kelsa bo'ladi. Lekin kechasi do'stingiz bu yerda uxlashi mumkin emas.",
+        "audio": "0234ff428de7.mp3"
+      },
+      {
+        "type": "quiz",
+        "prompt_uz": "Yotoqxonada nima mumkin emas?",
+        "options": [
+          "Xonada ovqat pishirish",
+          "Do'st chaqirish",
+          "Oshxonadan foydalanish"
+        ],
+        "answer": "Xonada ovqat pishirish",
+        "why_uz": "방에서 요리하면 안 돼요."
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "세탁기는 언제 사용할 수 있어요?",
+        "uz": "Kir yuvish mashinasidan qachon foydalansa bo'ladi?",
+        "audio": "d2ab900967ce.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "clerk",
+        "ko": "아침 일곱 시부터 밤 열 시까지 사용해도 돼요.",
+        "uz": "Ertalab yettidan kechki o'ngacha foydalansangiz bo'ladi.",
+        "audio": "21edd3f2e972.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "그리고 창문을 열어도 돼요? 방이 좀 더워요.",
+        "uz": "Va derazani ochsam bo'ladimi? Xona biroz issiq.",
+        "audio": "b99755f9938a.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "clerk",
+        "ko": "네, 열어도 돼요. 그런데 나갈 때는 꼭 닫으세요.",
+        "uz": "Ha, ochsangiz bo'ladi. Lekin chiqayotganda albatta yoping.",
+        "audio": "1160c96b0de2.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "알겠습니다. 규칙을 꼭 지킬 거예요.",
+        "uz": "Tushundim. Qoidalarga albatta rioya qilaman.",
+        "audio": "693dc623171a.mp3"
+      }
+    ]
+  }
 }
