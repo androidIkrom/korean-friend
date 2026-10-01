@@ -328,3 +328,6 @@ Har bir bosqich tugaganda telefonda ishlatsa bo'ladigan ilova bo'ladi. Har bir b
 4. **O'yin elementlari.** XP, daraja, streak, nishonlar, combo, mini o'yinlar, Boss jangi, xatolar daftari, tezkor tekshiruv.
 5. **Hikoya va eslatmalar.** Hikoya rejimi, WorkManager eslatmalari, progress eksport/import.
 6. **Qolgan 16 dars kontenti.** Tartib: avval 1-bo'lim (o'tilgan, takrorlash uchun), keyin 3–9-bo'limlar ketma-ket. 2-bosqichdan boshlab parallel yozilishi mumkin; maqsad — kitobning to'liq 18 darsi ilovada bo'lishi. Har bir dars telefonda tekshiriladi. Oxirida TOPIK I uslubidagi yakuniy test qo'shiladi.
+7. **O'yin uslubidagi UI.** "Tizim" (standart) va "Neon Seul" temalari, Sozlamada tanlash, rank bo'yicha o'zgaradigan avatar
+   (rasm slotlari: `app/src/main/assets/avatar/`), "Rank oshdi" oynasi, Bosh sahifa, Xarita va Hikoya epizodi qayta chizilgan.
+   Spec: `2026-10-01-stage6-game-ui-design.md`. Qolgan ekranlarning tuzilmasi keyingi bosqichda.
