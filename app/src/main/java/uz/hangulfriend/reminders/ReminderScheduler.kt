@@ -14,7 +14,7 @@ import uz.hangulfriend.data.Settings
 
 /** Keeps exactly one pending reminder run, at the next reminder time; WorkManager restores it after reboot. */
 class ReminderScheduler(private val context: Context) {
-    fun apply(s: Settings) {
+    fun apply(s: Settings, trigger: Trigger) {
         val wm = WorkManager.getInstance(context)
         if (!s.reminderEnabled) {
             wm.cancelUniqueWork(WORK_NAME)
@@ -24,7 +24,7 @@ class ReminderScheduler(private val context: Context) {
         val request = OneTimeWorkRequestBuilder<ReminderWorker>()
             .setInitialDelay(delay.toMillis(), TimeUnit.MILLISECONDS)
             .build()
-        wm.enqueueUniqueWork(WORK_NAME, ExistingWorkPolicy.REPLACE, request)
+        wm.enqueueUniqueWork(WORK_NAME, policyFor(trigger), request)
     }
 
     fun createChannel() {
@@ -33,8 +33,20 @@ class ReminderScheduler(private val context: Context) {
         context.getSystemService(NotificationManager::class.java).createNotificationChannel(channel)
     }
 
+    enum class Trigger { APP_START, SETTINGS_CHANGED, WORKER }
+
     companion object {
         const val WORK_NAME = "daily_reminder"
+
+        /**
+         * App start must KEEP: WorkManager cold-starts the process for the reminder itself, and replacing then
+         * would cancel the run that is about to notify. The worker appends tomorrow's run after itself.
+         */
+        fun policyFor(trigger: Trigger): ExistingWorkPolicy = when (trigger) {
+            Trigger.APP_START -> ExistingWorkPolicy.KEEP
+            Trigger.SETTINGS_CHANGED -> ExistingWorkPolicy.REPLACE
+            Trigger.WORKER -> ExistingWorkPolicy.APPEND_OR_REPLACE
+        }
         const val CHANNEL_ID = "reminders"
     }
 }

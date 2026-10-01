@@ -33,7 +33,7 @@ class ReminderWorker(context: Context, params: WorkerParameters) : CoroutineWork
             )
             if (text != null) notify(text)
         }
-        container.reminders.apply(s)
+        container.reminders.apply(s, ReminderScheduler.Trigger.WORKER)
         return Result.success()
     }
 
