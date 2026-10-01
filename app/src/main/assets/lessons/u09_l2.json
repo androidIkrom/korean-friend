@@ -1,0 +1,1138 @@
+{
+  "id": "u09_l2",
+  "unit": 9,
+  "lesson": 2,
+  "title_ko": "차 마시면서 책 읽고 있어요",
+  "title_uz": "Choy ichib turib kitob o'qiyapman",
+  "topic_uz": "Telefon",
+  "reviewed": false,
+  "words": [
+    {
+      "id": "u09_l2_w001",
+      "ko": "지금",
+      "uz": "hozir",
+      "pos": "ravish",
+      "example_ko": "지금 뭐 해요?",
+      "example_uz": "Hozir nima qilyapsiz?",
+      "audio": "7593f79c82e5.mp3",
+      "example_audio": "3383c590a750.mp3"
+    },
+    {
+      "id": "u09_l2_w002",
+      "ko": "청소하다",
+      "uz": "tozalamoq, yig'ishtirmoq",
+      "pos": "fe'l",
+      "example_ko": "주말에 방을 청소해요.",
+      "example_uz": "Dam olish kuni xonani yig'ishtiraman.",
+      "audio": "49b71a63c095.mp3",
+      "example_audio": "80fdd13501e1.mp3"
+    },
+    {
+      "id": "u09_l2_w003",
+      "ko": "빨래하다",
+      "uz": "kir yuvmoq",
+      "pos": "fe'l",
+      "example_ko": "일요일에 빨래해요.",
+      "example_uz": "Yakshanba kuni kir yuvaman.",
+      "audio": "0b9fb451684b.mp3",
+      "example_audio": "749f1c0d66dd.mp3"
+    },
+    {
+      "id": "u09_l2_w004",
+      "ko": "요리하다",
+      "uz": "ovqat pishirmoq",
+      "pos": "fe'l",
+      "example_ko": "어머니가 요리해요.",
+      "example_uz": "Onam ovqat pishiryapti.",
+      "audio": "4e96ada503ae.mp3",
+      "example_audio": "620e7703f447.mp3"
+    },
+    {
+      "id": "u09_l2_w005",
+      "ko": "설거지하다",
+      "uz": "idish yuvmoq",
+      "pos": "fe'l",
+      "example_ko": "밥을 먹고 설거지해요.",
+      "example_uz": "Ovqatlanib, idish yuvaman.",
+      "audio": "d1ed59960f88.mp3",
+      "example_audio": "3c459b4f8b3e.mp3"
+    },
+    {
+      "id": "u09_l2_w006",
+      "ko": "샤워하다",
+      "uz": "dush qabul qilmoq",
+      "pos": "fe'l",
+      "example_ko": "아침에 샤워해요.",
+      "example_uz": "Ertalab dush qabul qilaman.",
+      "audio": "87428e040074.mp3",
+      "example_audio": "1a8c00f6c199.mp3"
+    },
+    {
+      "id": "u09_l2_w007",
+      "ko": "노래를 부르다",
+      "uz": "qo'shiq aytmoq",
+      "pos": "ibora",
+      "example_ko": "노래방에서 노래를 불러요.",
+      "example_uz": "Karaokeda qo'shiq aytaman.",
+      "audio": "7b180f064668.mp3",
+      "example_audio": "a62292dae7ab.mp3"
+    },
+    {
+      "id": "u09_l2_w008",
+      "ko": "춤을 추다",
+      "uz": "raqs tushmoq",
+      "pos": "ibora",
+      "example_ko": "친구가 춤을 잘 춰요.",
+      "example_uz": "Do'stim yaxshi raqs tushadi.",
+      "audio": "e38de6bce490.mp3",
+      "example_audio": "94f7a0e37344.mp3"
+    },
+    {
+      "id": "u09_l2_w009",
+      "ko": "기다리다",
+      "uz": "kutmoq",
+      "pos": "fe'l",
+      "example_ko": "버스를 기다려요.",
+      "example_uz": "Avtobus kutyapman.",
+      "audio": "2f0dd0c3a8b9.mp3",
+      "example_audio": "dc5eb1a535f2.mp3"
+    },
+    {
+      "id": "u09_l2_w010",
+      "ko": "아르바이트하다",
+      "uz": "yarim kunlik ishlamoq",
+      "pos": "fe'l",
+      "example_ko": "주말에 카페에서 아르바이트해요.",
+      "example_uz": "Dam olish kunlari kafeda ishlayman.",
+      "audio": "91a74d6e1f9e.mp3",
+      "example_audio": "9803c7416cec.mp3"
+    },
+    {
+      "id": "u09_l2_w011",
+      "ko": "낮잠을 자다",
+      "uz": "kunduzi uxlamoq",
+      "pos": "ibora",
+      "example_ko": "점심을 먹고 낮잠을 잤어요.",
+      "example_uz": "Tushlikdan keyin bir oz uxladim.",
+      "audio": "6b9869cab744.mp3",
+      "example_audio": "4ec0eb40b5f9.mp3"
+    },
+    {
+      "id": "u09_l2_w012",
+      "ko": "집안일",
+      "uz": "uy ishlari",
+      "pos": "ot",
+      "example_ko": "집안일이 많아요.",
+      "example_uz": "Uy ishlari ko'p.",
+      "audio": "b080c1907469.mp3",
+      "example_audio": "9bee908fbe36.mp3"
+    },
+    {
+      "id": "u09_l2_w013",
+      "ko": "카페",
+      "uz": "kafe, qahvaxona",
+      "pos": "ot",
+      "example_ko": "카페에서 친구를 만나요.",
+      "example_uz": "Kafeda do'stim bilan uchrashaman.",
+      "audio": "7f39d7a5f966.mp3",
+      "example_audio": "204ba3063753.mp3"
+    },
+    {
+      "id": "u09_l2_w014",
+      "ko": "주문하다",
+      "uz": "buyurtma bermoq",
+      "pos": "fe'l",
+      "example_ko": "커피를 주문했어요.",
+      "example_uz": "Qahva buyurtma qildim.",
+      "audio": "6fd30a38e903.mp3",
+      "example_audio": "5b0e6bfe78b2.mp3"
+    },
+    {
+      "id": "u09_l2_w015",
+      "ko": "배달",
+      "uz": "yetkazib berish",
+      "pos": "ot",
+      "example_ko": "배달이 빨라요.",
+      "example_uz": "Yetkazib berish tez.",
+      "audio": "5f909a73cf36.mp3",
+      "example_audio": "a8c069f8904e.mp3"
+    },
+    {
+      "id": "u09_l2_w016",
+      "ko": "시키다",
+      "uz": "(ovqat) buyurtma qilmoq",
+      "pos": "fe'l",
+      "example_ko": "치킨을 시켰어요.",
+      "example_uz": "Tovuq buyurtma qildim.",
+      "audio": "f66fd9cb5244.mp3",
+      "example_audio": "053f2f0b41a6.mp3"
+    },
+    {
+      "id": "u09_l2_w017",
+      "ko": "드라마",
+      "uz": "serial",
+      "pos": "ot",
+      "example_ko": "한국 드라마를 좋아해요.",
+      "example_uz": "Koreys seriallarini yoqtiraman.",
+      "audio": "ad2b4203bf6e.mp3",
+      "example_audio": "b452e22b6b9c.mp3"
+    },
+    {
+      "id": "u09_l2_w018",
+      "ko": "뉴스",
+      "uz": "yangiliklar",
+      "pos": "ot",
+      "example_ko": "아침에 뉴스를 봐요.",
+      "example_uz": "Ertalab yangiliklarni ko'raman.",
+      "audio": "13aca09d8116.mp3",
+      "example_audio": "ff1d74fddc17.mp3"
+    },
+    {
+      "id": "u09_l2_w019",
+      "ko": "소파",
+      "uz": "divan",
+      "pos": "ot",
+      "example_ko": "소파에 앉으세요.",
+      "example_uz": "Divanga o'tiring.",
+      "audio": "94562373827d.mp3",
+      "example_audio": "55ba233c57b0.mp3"
+    },
+    {
+      "id": "u09_l2_w020",
+      "ko": "이따가",
+      "uz": "birozdan keyin",
+      "pos": "ravish",
+      "example_ko": "이따가 전화할게요.",
+      "example_uz": "Birozdan keyin qo'ng'iroq qilaman.",
+      "audio": "0e7de66c32d2.mp3",
+      "example_audio": "c175023160de.mp3"
+    },
+    {
+      "id": "u09_l2_w021",
+      "ko": "전화를 끊다",
+      "uz": "telefonni qo'ymoq",
+      "pos": "ibora",
+      "example_ko": "이제 전화를 끊을게요.",
+      "example_uz": "Endi telefonni qo'yaman.",
+      "audio": "4925e0e0dd6b.mp3",
+      "example_audio": "13039188b6a9.mp3"
+    },
+    {
+      "id": "u09_l2_w022",
+      "ko": "메뉴",
+      "uz": "menyu",
+      "pos": "ot",
+      "example_ko": "메뉴 좀 주세요.",
+      "example_uz": "Menyuni bering.",
+      "audio": "593192d11beb.mp3",
+      "example_audio": "7e8b47326fae.mp3"
+    },
+    {
+      "id": "u09_l2_w023",
+      "ko": "손님",
+      "uz": "mijoz, mehmon",
+      "pos": "ot",
+      "example_ko": "가게에 손님이 많아요.",
+      "example_uz": "Do'konda mijozlar ko'p.",
+      "audio": "db0ebf4c98da.mp3",
+      "example_audio": "1218b6427c20.mp3"
+    },
+    {
+      "id": "u09_l2_w024",
+      "ko": "일하다",
+      "uz": "ishlamoq",
+      "pos": "fe'l",
+      "example_ko": "아버지는 회사에서 일해요.",
+      "example_uz": "Otam kompaniyada ishlaydi.",
+      "audio": "359ee997c736.mp3",
+      "example_audio": "466337725c90.mp3"
+    },
+    {
+      "id": "u09_l2_w025",
+      "ko": "라디오",
+      "uz": "radio",
+      "pos": "ot",
+      "example_ko": "라디오를 들어요.",
+      "example_uz": "Radio tinglayman.",
+      "audio": "da3e3ae72b03.mp3",
+      "example_audio": "17e680a2b295.mp3"
+    },
+    {
+      "id": "u09_l2_w026",
+      "ko": "그림을 그리다",
+      "uz": "rasm chizmoq",
+      "pos": "ibora",
+      "example_ko": "동생이 그림을 그려요.",
+      "example_uz": "Ukam rasm chizyapti.",
+      "audio": "ed98c6c8ad1a.mp3",
+      "example_audio": "76591bc16b01.mp3"
+    },
+    {
+      "id": "u09_l2_w027",
+      "ko": "다니다",
+      "uz": "qatnamoq",
+      "pos": "fe'l",
+      "example_ko": "저는 대학교에 다녀요.",
+      "example_uz": "Men universitetda o'qiyman.",
+      "audio": "04afb3bd6ce6.mp3",
+      "example_audio": "310217fb0a9f.mp3"
+    },
+    {
+      "id": "u09_l2_w028",
+      "ko": "음료수",
+      "uz": "ichimlik",
+      "pos": "ot",
+      "example_ko": "음료수를 사 왔어요.",
+      "example_uz": "Ichimlik olib keldim.",
+      "audio": "531cb4c3a2e7.mp3",
+      "example_audio": "cabbf27785e7.mp3"
+    },
+    {
+      "id": "u09_l2_w029",
+      "ko": "치킨",
+      "uz": "qovurilgan tovuq",
+      "pos": "ot",
+      "example_ko": "치킨을 먹어요.",
+      "example_uz": "Qovurilgan tovuq yeyman.",
+      "audio": "44f64f6da2de.mp3",
+      "example_audio": "ab842d0e419e.mp3"
+    },
+    {
+      "id": "u09_l2_w030",
+      "ko": "혹시",
+      "uz": "balki, tasodifan",
+      "pos": "ravish",
+      "example_ko": "혹시 시간 있어요?",
+      "example_uz": "Balki vaqtingiz bordir?",
+      "audio": "418a9f5f1de2.mp3",
+      "example_audio": "31e22f99fc0d.mp3"
+    },
+    {
+      "id": "u09_l2_w031",
+      "ko": "벌써",
+      "uz": "allaqachon",
+      "pos": "ravish",
+      "example_ko": "벌써 열 시예요.",
+      "example_uz": "Allaqachon soat o'n.",
+      "audio": "89c222d7448f.mp3",
+      "example_audio": "27a52f320336.mp3"
+    },
+    {
+      "id": "u09_l2_w032",
+      "ko": "계속",
+      "uz": "to'xtovsiz, davomli",
+      "pos": "ravish",
+      "example_ko": "비가 계속 와요.",
+      "example_uz": "Yomg'ir to'xtovsiz yog'yapti.",
+      "audio": "478983b50212.mp3",
+      "example_audio": "9527e209823b.mp3"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "u09_l2_g1",
+      "pattern": "V-(으)면서",
+      "meaning_uz": "Bir vaqtda: '...-ib turib', '...-a turib'",
+      "explanation_md": "**-(으)면서** — ikki harakat **bir vaqtda** bo'lishini bildiradi: o'zbekchadagi **\"...-ib turib\"**, **\"...-ayotib\"**.\n\n**차 마시면서 책 읽고 있어요.** — *Choy ichib turib kitob o'qiyapman.*\n\n### Qanday yasaladi\n\n- **받침 yo'q** → **-면서**: 마시다 → **마시면서**, 보다 → **보면서**\n- **받침 bor** → **-으면서**: 먹다 → **먹으면서**, 읽다 → **읽으면서**\n- **ㄹ bilan tugasa** → **-면서**: 만들다 → **만들면서**, 놀다 → **놀면서**\n- **ㄷ 불규칙**: 듣다 → **들으면서**, 걷다 → **걸으면서**\n\n### Qoidalar\n\n1. Ikkala harakatni **bitta odam** bajaradi:\n   - 저는 음악을 들으**면서** (저는) 공부해요 ✅\n2. Zamon faqat **oxirgi fe'lda**:\n   - TV를 보**면서** 밥을 **먹었어요** ✅ (~~봤으면서~~ ❌)\n\n### -고 bilan farqi\n\n- 밥을 먹**고** TV를 봐요 — *avval ovqat, keyin TV* (ketma-ket)\n- 밥을 먹**으면서** TV를 봐요 — *ovqatlanib turib TV ko'raman* (bir vaqtda)\n\n### Uzoqroq davr uchun\n\n아르바이트를 하**면서** 학교에 다녀요. — *Ishlab turib o'qiyman* (bir davrda ikkalasi).",
+      "formation": [
+        {
+          "condition_uz": "받침 yo'q",
+          "rule": "-면서",
+          "example": "마시다 → 마시면서"
+        },
+        {
+          "condition_uz": "받침 bor",
+          "rule": "-으면서",
+          "example": "먹다 → 먹으면서"
+        },
+        {
+          "condition_uz": "ㄹ bilan tugasa",
+          "rule": "-면서",
+          "example": "만들다 → 만들면서"
+        },
+        {
+          "condition_uz": "ㄷ 불규칙",
+          "rule": "ㄷ → ㄹ + -으면서",
+          "example": "듣다 → 들으면서"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "차 마시면서 책 읽고 있어요.",
+          "uz": "Choy ichib turib kitob o'qiyapman.",
+          "audio": "ffad8a133d8e.mp3"
+        },
+        {
+          "ko": "음악을 들으면서 청소해요.",
+          "uz": "Musiqa tinglab turib uy yig'ishtiraman.",
+          "audio": "feea9c3c9de3.mp3"
+        },
+        {
+          "ko": "밥을 먹으면서 이야기해요.",
+          "uz": "Ovqatlanib turib gaplashamiz.",
+          "audio": "8b097d9bea46.mp3"
+        },
+        {
+          "ko": "아르바이트를 하면서 학교에 다녀요.",
+          "uz": "Ishlab turib o'qishga qatnayman.",
+          "audio": "aa3f5c0a0ef8.mp3"
+        },
+        {
+          "ko": "노래를 부르면서 춤을 춰요.",
+          "uz": "Qo'shiq aytib turib raqs tushadi.",
+          "audio": "29e08954e255.mp3"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "밥을 먹면서",
+          "right": "밥을 먹으면서",
+          "why_uz": "받침 bor: -으면서."
+        },
+        {
+          "wrong": "걷면서 전화해요",
+          "right": "걸으면서 전화해요",
+          "why_uz": "ㄷ 불규칙: 걸으면서."
+        },
+        {
+          "wrong": "요리를 하으면서",
+          "right": "요리를 하면서",
+          "why_uz": "받침 yo'q: -면서."
+        }
+      ],
+      "uz_compare": "O'zbekchadagi '-ib turib', '-a turib' bilan bir xil: 'choy ichib turib' = 차 마시면서."
+    },
+    {
+      "id": "u09_l2_g2",
+      "pattern": "V-고 있다",
+      "meaning_uz": "Davom etayotgan harakat: '...-yapti', '...-moqda'",
+      "explanation_md": "**-고 있다** — harakat **ayni paytda davom etayotgan**ini bildiradi: o'zbekchadagi **\"...-yapman\"**, **\"...-moqda\"**.\n\n**지금 뭐 하고 있어요?** — *Hozir nima qilyapsiz?*\n\n### Qanday yasaladi\n\nO'zakka **-고 있다** qo'shiladi, 받침ga qarab o'zgarmaydi:\n\n- 읽다 → **읽고 있어요**\n- 기다리다 → **기다리고 있어요**\n- 청소하다 → **청소하고 있어요**\n\n### Zamonlar\n\n- Hozir: 공부하**고 있어요** — *o'qiyapman*\n- O'tgan: 공부하**고 있었어요** — *o'qiyotgan edim*\n\n어제 일곱 시에 뭐 하**고 있었어요**? — *Kecha soat yettida nima qilayotgan edingiz?*\n\n### Hurmat shakli\n\nKattalar haqida: **-고 계시다**\n\n할아버지께서 신문을 읽**고 계세요**.\n\n### Oddiy hozirgi zamon bilan farqi\n\n- 책을 읽어요 — *kitob o'qiyman* (odatda yoki hozir)\n- 책을 읽**고 있어요** — *ayni damda o'qiyapman* (aniq jarayon)",
+      "formation": [
+        {
+          "condition_uz": "Har qanday fe'l",
+          "rule": "-고 있다",
+          "example": "읽다 → 읽고 있어요"
+        },
+        {
+          "condition_uz": "O'tgan zamon",
+          "rule": "-고 있었다",
+          "example": "일하다 → 일하고 있었어요"
+        },
+        {
+          "condition_uz": "Hurmat",
+          "rule": "-고 계시다",
+          "example": "읽다 → 읽고 계세요"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "지금 뭐 하고 있어요?",
+          "uz": "Hozir nima qilyapsiz?",
+          "audio": "b22983e23a0f.mp3"
+        },
+        {
+          "ko": "카페에서 친구를 기다리고 있어요.",
+          "uz": "Kafeda do'stimni kutyapman.",
+          "audio": "d0fa3a46686a.mp3"
+        },
+        {
+          "ko": "밖에 비가 오고 있어요.",
+          "uz": "Tashqarida yomg'ir yog'yapti.",
+          "audio": "da0f807c37da.mp3"
+        },
+        {
+          "ko": "어제 저녁에 드라마를 보고 있었어요.",
+          "uz": "Kecha kechqurun serial ko'rayotgan edim.",
+          "audio": "dfffdf879946.mp3"
+        },
+        {
+          "ko": "할아버지께서 신문을 읽고 계세요.",
+          "uz": "Bobom gazeta o'qiyaptilar.",
+          "audio": "91b6ec22fb3a.mp3"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "지금 샤워해고 있어요",
+          "right": "지금 샤워하고 있어요",
+          "why_uz": "-고 o'zakka qo'shiladi: 하 + 고."
+        },
+        {
+          "wrong": "책을 읽어고 있어요",
+          "right": "책을 읽고 있어요",
+          "why_uz": "-어 qo'shilmaydi."
+        },
+        {
+          "wrong": "그림을 그리고 있아요",
+          "right": "그림을 그리고 있어요",
+          "why_uz": "있다 → 있어요."
+        }
+      ],
+      "uz_compare": "O'zbekchadagi '-yap' qo'shimchasiga o'xshaydi: 'o'qiyapman' = 읽고 있어요, 'o'qiyotgan edim' = 읽고 있었어요."
+    }
+  ],
+  "dialogue": {
+    "lines": [
+      {
+        "speaker": "aziz",
+        "ko": "여보세요, 민지 씨. 지금 뭐 하고 있어요?",
+        "uz": "Allo, Minji. Hozir nima qilyapsiz?",
+        "audio": "891e88f5ba88.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "카페에서 차 마시면서 책 읽고 있어요.",
+        "uz": "Kafeda choy ichib turib kitob o'qiyapman.",
+        "audio": "030c05b10fb3.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "무슨 책을 읽고 있어요?",
+        "uz": "Qanaqa kitob o'qiyapsiz?",
+        "audio": "b758d5f6606b.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "한국 소설이에요. 아지즈 씨는요?",
+        "uz": "Koreys romani. Siz-chi, Aziz?",
+        "audio": "f0c7b30355a4.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "저는 집에서 음악을 들으면서 청소하고 있어요.",
+        "uz": "Men uyda musiqa tinglab turib uy yig'ishtiryapman.",
+        "audio": "7583eae1ee7c.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "우와, 대단해요. 그런데 왜 전화했어요?",
+        "uz": "Voy, zo'r. Aytgancha, nega qo'ng'iroq qildingiz?",
+        "audio": "b9031b696561.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "이따가 우리 집에서 같이 드라마 보면서 저녁 먹어요.",
+        "uz": "Birozdan keyin bizning uyda birga serial ko'rib turib kechki ovqat qilaylik.",
+        "audio": "73d9451aad8a.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "좋아요! 몇 시에 갈까요?",
+        "uz": "Zo'r! Soat nechada boray?",
+        "audio": "1ed0621c8ea4.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "일곱 시쯤 오세요. 제가 치킨을 시킬게요.",
+        "uz": "Soat yettilarda keling. Men tovuq buyurtma qilaman.",
+        "audio": "de8d95a7d362.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "그럼 제가 음료수를 사 갈게요.",
+        "uz": "Unda men ichimlik olib boraman.",
+        "audio": "458d68d0c4c7.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "고마워요. 지금 동생이 기다리고 있어서 전화를 끊을게요.",
+        "uz": "Rahmat. Hozir ukam kutib turgani uchun telefonni qo'yaman.",
+        "audio": "a9ea8be6ade8.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "네, 이따가 봐요!",
+        "uz": "Xo'p, keyin ko'rishamiz!",
+        "audio": "8636696909b1.mp3"
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "u09_l2_e001",
+      "type": "conjugate",
+      "targets": [
+        "u09_l2_g1"
+      ],
+      "prompt_uz": "'Ichib turib' shaklini yasang",
+      "base": "마시다",
+      "form": "-(으)면서",
+      "answers": [
+        "마시면서"
+      ]
+    },
+    {
+      "id": "u09_l2_e002",
+      "type": "conjugate",
+      "targets": [
+        "u09_l2_g1"
+      ],
+      "prompt_uz": "'Yeb turib' shaklini yasang",
+      "base": "먹다",
+      "form": "-(으)면서",
+      "answers": [
+        "먹으면서"
+      ]
+    },
+    {
+      "id": "u09_l2_e003",
+      "type": "conjugate",
+      "targets": [
+        "u09_l2_g1"
+      ],
+      "prompt_uz": "'Tinglab turib' shaklini yasang",
+      "base": "듣다",
+      "form": "-(으)면서",
+      "answers": [
+        "들으면서"
+      ],
+      "hint_uz": "ㄷ → ㄹ"
+    },
+    {
+      "id": "u09_l2_e004",
+      "type": "conjugate",
+      "targets": [
+        "u09_l2_g2"
+      ],
+      "prompt_uz": "'O'qiyapman' shaklini yasang",
+      "base": "읽다",
+      "form": "-고 있어요",
+      "answers": [
+        "읽고 있어요"
+      ]
+    },
+    {
+      "id": "u09_l2_e005",
+      "type": "conjugate",
+      "targets": [
+        "u09_l2_g2"
+      ],
+      "prompt_uz": "'Kutyapman' shaklini yasang",
+      "base": "기다리다",
+      "form": "-고 있어요",
+      "answers": [
+        "기다리고 있어요"
+      ]
+    },
+    {
+      "id": "u09_l2_e006",
+      "type": "conjugate",
+      "targets": [
+        "u09_l2_g2"
+      ],
+      "prompt_uz": "'Ishlayotgan edim' shaklini yasang",
+      "base": "일하다",
+      "form": "-고 있었어요",
+      "answers": [
+        "일하고 있었어요"
+      ]
+    },
+    {
+      "id": "u09_l2_e007",
+      "type": "fill_blank",
+      "targets": [
+        "u09_l2_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Choy ichib turib kitob o'qiyman.'",
+      "sentence": "차를 ___ 책을 읽어요. (마시다)",
+      "answers": [
+        "마시면서"
+      ]
+    },
+    {
+      "id": "u09_l2_e008",
+      "type": "fill_blank",
+      "targets": [
+        "u09_l2_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Musiqa tinglab turib uy yig'ishtiraman.'",
+      "sentence": "음악을 ___ 청소해요. (듣다)",
+      "answers": [
+        "들으면서"
+      ]
+    },
+    {
+      "id": "u09_l2_e009",
+      "type": "fill_blank",
+      "targets": [
+        "u09_l2_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Hozir nima qilyapsiz?'",
+      "sentence": "지금 뭐 ___? (하다)",
+      "answers": [
+        "하고 있어요"
+      ]
+    },
+    {
+      "id": "u09_l2_e010",
+      "type": "fill_blank",
+      "targets": [
+        "u09_l2_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Ukam xonada uxlayapti.'",
+      "sentence": "동생은 방에서 ___. (자다)",
+      "answers": [
+        "자고 있어요"
+      ]
+    },
+    {
+      "id": "u09_l2_e011",
+      "type": "situation_choice",
+      "targets": [
+        "u09_l2_g1"
+      ],
+      "prompt_uz": "'Televizor ko'rib turib ovqatlanaman' qaysi biri?",
+      "options": [
+        "TV를 보면서 밥을 먹어요",
+        "TV를 봐서 밥을 먹어요",
+        "TV를 보러 밥을 먹어요",
+        "TV를 보거나 밥을 먹어요"
+      ],
+      "answers": [
+        "TV를 보면서 밥을 먹어요"
+      ]
+    },
+    {
+      "id": "u09_l2_e012",
+      "type": "situation_choice",
+      "targets": [
+        "u09_l2_g2"
+      ],
+      "prompt_uz": "Do'stingizga qo'ng'iroq qildingiz: 'Hozir nima qilyapsiz?'",
+      "options": [
+        "지금 뭐 하고 있어요?",
+        "지금 뭐 했어요?",
+        "지금 뭐 할 거예요?",
+        "지금 뭐 하고 싶어요?"
+      ],
+      "answers": [
+        "지금 뭐 하고 있어요?"
+      ]
+    },
+    {
+      "id": "u09_l2_e013",
+      "type": "situation_choice",
+      "targets": [
+        "u09_l2_w005"
+      ],
+      "prompt_uz": "Ovqatdan keyin idishlarni nima qilasiz?",
+      "options": [
+        "설거지해요",
+        "빨래해요",
+        "샤워해요",
+        "요리해요"
+      ],
+      "answers": [
+        "설거지해요"
+      ]
+    },
+    {
+      "id": "u09_l2_e014",
+      "type": "build_sentence",
+      "targets": [
+        "u09_l2_g1"
+      ],
+      "prompt_uz": "'Qo'shiq aytib turib raqs tushadi' gapini tuzing",
+      "tokens": [
+        "춤을",
+        "부르면서",
+        "춰요",
+        "노래를"
+      ],
+      "answers": [
+        "노래를 부르면서 춤을 춰요"
+      ]
+    },
+    {
+      "id": "u09_l2_e015",
+      "type": "build_sentence",
+      "targets": [
+        "u09_l2_g2"
+      ],
+      "prompt_uz": "'Do'stimni kutyapman' gapini tuzing",
+      "tokens": [
+        "있어요",
+        "친구를",
+        "기다리고"
+      ],
+      "answers": [
+        "친구를 기다리고 있어요"
+      ]
+    },
+    {
+      "id": "u09_l2_e016",
+      "type": "find_error",
+      "targets": [
+        "u09_l2_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "sentence": "밥을 먹면서 이야기해요.",
+      "answers": [
+        "밥을 먹으면서 이야기해요"
+      ],
+      "why_uz": "받침 bor: -으면서."
+    },
+    {
+      "id": "u09_l2_e017",
+      "type": "find_error",
+      "targets": [
+        "u09_l2_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "sentence": "지금 샤워해고 있어요.",
+      "answers": [
+        "지금 샤워하고 있어요"
+      ],
+      "why_uz": "-고 o'zakka qo'shiladi."
+    },
+    {
+      "id": "u09_l2_e018",
+      "type": "find_error",
+      "targets": [
+        "u09_l2_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "sentence": "요리를 하으면서 노래해요.",
+      "answers": [
+        "요리를 하면서 노래해요"
+      ],
+      "why_uz": "받침 yo'q: -면서."
+    },
+    {
+      "id": "u09_l2_e019",
+      "type": "translate",
+      "targets": [
+        "u09_l2_g1"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "source_uz": "Musiqa tinglab turib dars qilaman.",
+      "answers": [
+        "음악을 들으면서 공부해요",
+        "저는 음악을 들으면서 공부해요",
+        "음악을 들으면서 공부를 해요"
+      ]
+    },
+    {
+      "id": "u09_l2_e020",
+      "type": "translate",
+      "targets": [
+        "u09_l2_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "source_uz": "Hozir kitob o'qiyapman.",
+      "answers": [
+        "지금 책을 읽고 있어요",
+        "지금 책 읽고 있어요",
+        "저는 지금 책을 읽고 있어요"
+      ]
+    },
+    {
+      "id": "u09_l2_e021",
+      "type": "translate",
+      "targets": [
+        "u09_l2_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "source_uz": "Ukam hozir uxlayapti.",
+      "answers": [
+        "동생이 지금 자고 있어요",
+        "지금 동생이 자고 있어요",
+        "동생은 지금 자고 있어요"
+      ]
+    },
+    {
+      "id": "u09_l2_e031",
+      "type": "listen_question",
+      "targets": [
+        "u09_l2_g2"
+      ],
+      "prompt_uz": "U hozir nima qilyapti?",
+      "audio_text": "지금 카페에서 친구를 기다리고 있어요.",
+      "options": [
+        "Kafeda do'stini kutyapti",
+        "Kafeda ishlayapti",
+        "Uyda dam olyapti",
+        "Do'sti bilan choy ichyapti"
+      ],
+      "answers": [
+        "Kafeda do'stini kutyapti"
+      ],
+      "audio": "34288178e286.mp3"
+    },
+    {
+      "id": "u09_l2_e032",
+      "type": "listen_question",
+      "targets": [
+        "u09_l2_g1"
+      ],
+      "prompt_uz": "Mashina haydayotganda nima qiladi?",
+      "audio_text": "저는 운전하면서 라디오를 들어요.",
+      "options": [
+        "Radio tinglaydi",
+        "Telefonda gaplashadi",
+        "Qo'shiq aytadi",
+        "Qahva ichadi"
+      ],
+      "answers": [
+        "Radio tinglaydi"
+      ],
+      "audio": "1d6fe0235cbf.mp3"
+    },
+    {
+      "id": "u09_l2_e033",
+      "type": "listen_question",
+      "targets": [
+        "u09_l2_g1"
+      ],
+      "prompt_uz": "U nima qiladi?",
+      "audio_text": "아르바이트를 하면서 학교에 다녀요.",
+      "options": [
+        "Ishlab turib o'qiydi",
+        "Faqat o'qiydi",
+        "Faqat ishlaydi",
+        "Dam olyapti"
+      ],
+      "answers": [
+        "Ishlab turib o'qiydi"
+      ],
+      "audio": "aa3f5c0a0ef8.mp3"
+    },
+    {
+      "id": "u09_l2_e101",
+      "type": "conjugate",
+      "targets": [
+        "u09_l2_g1"
+      ],
+      "prompt_uz": "'Yasab turib' shaklini yasang",
+      "base": "만들다",
+      "form": "-(으)면서",
+      "answers": [
+        "만들면서"
+      ],
+      "hint_uz": "ㄹ bilan tugaydi"
+    },
+    {
+      "id": "u09_l2_e102",
+      "type": "conjugate",
+      "targets": [
+        "u09_l2_g1"
+      ],
+      "prompt_uz": "'Yurib turib' shaklini yasang",
+      "base": "걷다",
+      "form": "-(으)면서",
+      "answers": [
+        "걸으면서"
+      ],
+      "hint_uz": "ㄷ → ㄹ"
+    },
+    {
+      "id": "u09_l2_e103",
+      "type": "conjugate",
+      "targets": [
+        "u09_l2_g2"
+      ],
+      "prompt_uz": "'Idish yuvyapman' shaklini yasang",
+      "base": "설거지하다",
+      "form": "-고 있어요",
+      "answers": [
+        "설거지하고 있어요"
+      ]
+    },
+    {
+      "id": "u09_l2_e104",
+      "type": "fill_blank",
+      "targets": [
+        "u09_l2_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Do'stim bilan gaplashib turib yurdim.'",
+      "sentence": "친구하고 ___ 걸었어요. (이야기하다)",
+      "answers": [
+        "이야기하면서"
+      ]
+    },
+    {
+      "id": "u09_l2_e105",
+      "type": "fill_blank",
+      "targets": [
+        "u09_l2_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Kecha soat yettida nima qilayotgan edingiz?'",
+      "sentence": "어제 저녁 일곱 시에 뭐 ___? (하다)",
+      "answers": [
+        "하고 있었어요"
+      ],
+      "hint_uz": "O'tgan zamon: -고 있었어요"
+    },
+    {
+      "id": "u09_l2_e106",
+      "type": "fill_blank",
+      "targets": [
+        "u09_l2_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Tashqarida yomg'ir yog'yapti.'",
+      "sentence": "밖에 비가 ___. (오다)",
+      "answers": [
+        "오고 있어요"
+      ]
+    },
+    {
+      "id": "u09_l2_e107",
+      "type": "situation_choice",
+      "targets": [
+        "u09_l2_g1"
+      ],
+      "prompt_uz": "'Ishlab turib o'qiyman' qaysi biri?",
+      "options": [
+        "일하면서 공부해요",
+        "일하러 공부해요",
+        "일해서 공부해요",
+        "일하지만 공부해요"
+      ],
+      "answers": [
+        "일하면서 공부해요"
+      ]
+    },
+    {
+      "id": "u09_l2_e108",
+      "type": "situation_choice",
+      "targets": [
+        "u09_l2_w015"
+      ],
+      "prompt_uz": "Ovqatni uyga olib keladigan xizmat qaysi?",
+      "options": [
+        "배달",
+        "손님",
+        "메뉴",
+        "카페"
+      ],
+      "answers": [
+        "배달"
+      ]
+    },
+    {
+      "id": "u09_l2_e109",
+      "type": "build_sentence",
+      "targets": [
+        "u09_l2_g2"
+      ],
+      "prompt_uz": "'Hozir serial ko'ryapman' gapini tuzing",
+      "tokens": [
+        "보고",
+        "드라마를",
+        "있어요",
+        "지금"
+      ],
+      "answers": [
+        "지금 드라마를 보고 있어요"
+      ]
+    },
+    {
+      "id": "u09_l2_e110",
+      "type": "build_sentence",
+      "targets": [
+        "u09_l2_g1"
+      ],
+      "prompt_uz": "'Qahva ichib turib yangiliklar ko'raman' gapini tuzing",
+      "tokens": [
+        "봐요",
+        "마시면서",
+        "뉴스를",
+        "커피를"
+      ],
+      "answers": [
+        "커피를 마시면서 뉴스를 봐요"
+      ]
+    },
+    {
+      "id": "u09_l2_e111",
+      "type": "find_error",
+      "targets": [
+        "u09_l2_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "sentence": "걷면서 전화해요.",
+      "answers": [
+        "걸으면서 전화해요"
+      ],
+      "why_uz": "ㄷ 불규칙: 걸으면서."
+    },
+    {
+      "id": "u09_l2_e112",
+      "type": "find_error",
+      "targets": [
+        "u09_l2_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "sentence": "지금 그림을 그리고 있아요.",
+      "answers": [
+        "지금 그림을 그리고 있어요"
+      ],
+      "why_uz": "있다 → 있어요."
+    },
+    {
+      "id": "u09_l2_e113",
+      "type": "translate",
+      "targets": [
+        "u09_l2_g1"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "source_uz": "Qo'shiq aytib turib ovqat pishiraman.",
+      "answers": [
+        "노래를 부르면서 요리해요",
+        "노래하면서 요리해요",
+        "노래를 하면서 요리해요",
+        "노래를 부르면서 요리를 해요"
+      ]
+    },
+    {
+      "id": "u09_l2_e114",
+      "type": "translate",
+      "targets": [
+        "u09_l2_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "source_uz": "Hozir telefonda gaplashyapman.",
+      "answers": [
+        "지금 통화하고 있어요",
+        "지금 전화하고 있어요",
+        "지금 통화 중이에요"
+      ]
+    },
+    {
+      "id": "u09_l2_e115",
+      "type": "listen_question",
+      "targets": [
+        "u09_l2_g2"
+      ],
+      "prompt_uz": "Otasi nima qilyapti?",
+      "audio_text": "아버지는 지금 소파에서 낮잠을 자고 있어요.",
+      "options": [
+        "Divanda uxlayapti",
+        "Ovqat pishiryapti",
+        "Televizor ko'ryapti",
+        "Ishlayapti"
+      ],
+      "answers": [
+        "Divanda uxlayapti"
+      ],
+      "audio": "cedc305e4bb8.mp3"
+    }
+  ],
+  "test": [
+    "u09_l2_e101",
+    "u09_l2_e102",
+    "u09_l2_e103",
+    "u09_l2_e104",
+    "u09_l2_e105",
+    "u09_l2_e106",
+    "u09_l2_e107",
+    "u09_l2_e108",
+    "u09_l2_e109",
+    "u09_l2_e110",
+    "u09_l2_e111",
+    "u09_l2_e112",
+    "u09_l2_e113",
+    "u09_l2_e114",
+    "u09_l2_e115"
+  ]
+}

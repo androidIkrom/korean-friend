@@ -1,0 +1,1138 @@
+{
+  "id": "u09_l1",
+  "unit": 9,
+  "lesson": 1,
+  "title_ko": "여보세요, 거기 서울대학교지요?",
+  "title_uz": "Allo, u yer Seul universiteti, shundaymi?",
+  "topic_uz": "Telefon",
+  "reviewed": false,
+  "words": [
+    {
+      "id": "u09_l1_w001",
+      "ko": "여보세요",
+      "uz": "allo",
+      "pos": "ibora",
+      "example_ko": "여보세요, 민지 씨예요?",
+      "example_uz": "Allo, Minjimisiz?",
+      "audio": "3bdebe1bd61a.mp3",
+      "example_audio": "fbbadae7004f.mp3"
+    },
+    {
+      "id": "u09_l1_w002",
+      "ko": "전화를 걸다",
+      "uz": "qo'ng'iroq qilmoq",
+      "pos": "ibora",
+      "example_ko": "친구에게 전화를 걸었어요.",
+      "example_uz": "Do'stimga qo'ng'iroq qildim.",
+      "audio": "1889ccfe2181.mp3",
+      "example_audio": "10cfc6492494.mp3"
+    },
+    {
+      "id": "u09_l1_w003",
+      "ko": "전화를 받다",
+      "uz": "telefonga javob bermoq",
+      "pos": "ibora",
+      "example_ko": "왜 전화를 안 받아요?",
+      "example_uz": "Nega telefonni ko'tarmayapsiz?",
+      "audio": "1aabedcbf6c5.mp3",
+      "example_audio": "91e5c68d9585.mp3"
+    },
+    {
+      "id": "u09_l1_w004",
+      "ko": "전화번호",
+      "uz": "telefon raqami",
+      "pos": "ot",
+      "example_ko": "전화번호가 몇 번이에요?",
+      "example_uz": "Telefon raqamingiz qanday?",
+      "audio": "505e90628ec5.mp3",
+      "example_audio": "1a970292985c.mp3"
+    },
+    {
+      "id": "u09_l1_w005",
+      "ko": "통화하다",
+      "uz": "telefonda gaplashmoq",
+      "pos": "fe'l",
+      "example_ko": "어머니하고 통화했어요.",
+      "example_uz": "Onam bilan telefonda gaplashdim.",
+      "audio": "9dacf9d04155.mp3",
+      "example_audio": "af10cd51eb36.mp3"
+    },
+    {
+      "id": "u09_l1_w006",
+      "ko": "통화 중이다",
+      "uz": "band (telefonda gaplashyapti)",
+      "pos": "ibora",
+      "example_ko": "지금 통화 중이에요.",
+      "example_uz": "Hozir telefoni band.",
+      "audio": "7c94c52849a6.mp3",
+      "example_audio": "344048a854e3.mp3"
+    },
+    {
+      "id": "u09_l1_w007",
+      "ko": "문자",
+      "uz": "SMS xabar",
+      "pos": "ot",
+      "example_ko": "문자를 받았어요.",
+      "example_uz": "SMS oldim.",
+      "audio": "9e793ebaa379.mp3",
+      "example_audio": "8d1ef0e7a85c.mp3"
+    },
+    {
+      "id": "u09_l1_w008",
+      "ko": "보내다",
+      "uz": "yubormoq",
+      "pos": "fe'l",
+      "example_ko": "문자를 보냈어요.",
+      "example_uz": "SMS yubordim.",
+      "audio": "7d0a0642022c.mp3",
+      "example_audio": "b3e501a39ed1.mp3"
+    },
+    {
+      "id": "u09_l1_w009",
+      "ko": "바꾸다",
+      "uz": "almashtirmoq; (telefonni) bermoq",
+      "pos": "fe'l",
+      "example_ko": "민지 씨 좀 바꿔 주세요.",
+      "example_uz": "Minjini telefonga chaqirib bering.",
+      "audio": "8a9fae06d874.mp3",
+      "example_audio": "40f431a920e2.mp3"
+    },
+    {
+      "id": "u09_l1_w010",
+      "ko": "실례지만",
+      "uz": "kechirasiz-u (so'rashdan oldin)",
+      "pos": "ibora",
+      "example_ko": "실례지만 누구세요?",
+      "example_uz": "Kechirasiz, kim bo'lasiz?",
+      "audio": "3d9fc6260c25.mp3",
+      "example_audio": "5c283f1c5ffb.mp3"
+    },
+    {
+      "id": "u09_l1_w011",
+      "ko": "잠깐만",
+      "uz": "bir daqiqa",
+      "pos": "ravish",
+      "example_ko": "잠깐만 기다리세요.",
+      "example_uz": "Bir daqiqa kuting.",
+      "audio": "21f906704c6b.mp3",
+      "example_audio": "fd4f7dab172c.mp3"
+    },
+    {
+      "id": "u09_l1_w012",
+      "ko": "자리",
+      "uz": "joy, ish joyi",
+      "pos": "ot",
+      "example_ko": "지금 자리에 없어요.",
+      "example_uz": "Hozir joyida yo'q.",
+      "audio": "ca6432477a0e.mp3",
+      "example_audio": "5c9af63457e4.mp3"
+    },
+    {
+      "id": "u09_l1_w013",
+      "ko": "나중에",
+      "uz": "keyinroq",
+      "pos": "ravish",
+      "example_ko": "나중에 다시 전화할게요.",
+      "example_uz": "Keyinroq yana qo'ng'iroq qilaman.",
+      "audio": "3ffa9120b23d.mp3",
+      "example_audio": "88350128905d.mp3"
+    },
+    {
+      "id": "u09_l1_w014",
+      "ko": "다시",
+      "uz": "yana, qaytadan",
+      "pos": "ravish",
+      "example_ko": "다시 말해 주세요.",
+      "example_uz": "Qaytadan aytib bering.",
+      "audio": "02eba5245ce8.mp3",
+      "example_audio": "66362e183948.mp3"
+    },
+    {
+      "id": "u09_l1_w015",
+      "ko": "전하다",
+      "uz": "yetkazmoq (xabarni)",
+      "pos": "fe'l",
+      "example_ko": "제 말을 전해 주세요.",
+      "example_uz": "Gapimni yetkazib qo'ying.",
+      "audio": "34dc82c1a504.mp3",
+      "example_audio": "df9a2ec4df3a.mp3"
+    },
+    {
+      "id": "u09_l1_w016",
+      "ko": "메모",
+      "uz": "yozma eslatma",
+      "pos": "ot",
+      "example_ko": "책상 위에 메모가 있어요.",
+      "example_uz": "Stol ustida eslatma bor.",
+      "audio": "b8c2b3f35a73.mp3",
+      "example_audio": "de6d419ca6f6.mp3"
+    },
+    {
+      "id": "u09_l1_w017",
+      "ko": "교수님",
+      "uz": "professor (domla)",
+      "pos": "ot",
+      "example_ko": "교수님은 사무실에 계세요.",
+      "example_uz": "Professor kabinetidalar.",
+      "audio": "38cfab9729f4.mp3",
+      "example_audio": "97f0f5f57c3e.mp3"
+    },
+    {
+      "id": "u09_l1_w018",
+      "ko": "선배",
+      "uz": "katta kursdosh, katta hamkasb",
+      "pos": "ot",
+      "example_ko": "선배가 도와줬어요.",
+      "example_uz": "Katta kursdoshim yordam berdi.",
+      "audio": "43b9665b88cc.mp3",
+      "example_audio": "4ce96f2c36ce.mp3"
+    },
+    {
+      "id": "u09_l1_w019",
+      "ko": "후배",
+      "uz": "kichik kursdosh",
+      "pos": "ot",
+      "example_ko": "후배하고 점심을 먹었어요.",
+      "example_uz": "Kichik kursdoshim bilan tushlik qildim.",
+      "audio": "d5928ef0832d.mp3",
+      "example_audio": "1e150c9e1a56.mp3"
+    },
+    {
+      "id": "u09_l1_w020",
+      "ko": "사무실",
+      "uz": "idora, kabinet",
+      "pos": "ot",
+      "example_ko": "사무실이 2층에 있어요.",
+      "example_uz": "Idora 2-qavatda.",
+      "audio": "bb19a9aa0edc.mp3",
+      "example_audio": "039316845d35.mp3"
+    },
+    {
+      "id": "u09_l1_w021",
+      "ko": "학과",
+      "uz": "fakultet bo'limi, yo'nalish",
+      "pos": "ot",
+      "example_ko": "무슨 학과 학생이에요?",
+      "example_uz": "Qaysi yo'nalish talabasisiz?",
+      "audio": "31b468cbadd9.mp3",
+      "example_audio": "a9b63f1c5fd1.mp3"
+    },
+    {
+      "id": "u09_l1_w022",
+      "ko": "맞다",
+      "uz": "to'g'ri bo'lmoq",
+      "pos": "fe'l",
+      "example_ko": "네, 맞아요.",
+      "example_uz": "Ha, to'g'ri.",
+      "audio": "76fcc5cbcf2f.mp3",
+      "example_audio": "c5d934623d56.mp3"
+    },
+    {
+      "id": "u09_l1_w023",
+      "ko": "드리다",
+      "uz": "bermoq (hurmat bilan)",
+      "pos": "fe'l",
+      "example_ko": "선생님께 선물을 드렸어요.",
+      "example_uz": "O'qituvchiga sovg'a berdim.",
+      "audio": "654bfefe3731.mp3",
+      "example_audio": "b1ac1bb45b87.mp3"
+    },
+    {
+      "id": "u09_l1_w024",
+      "ko": "선물",
+      "uz": "sovg'a",
+      "pos": "ot",
+      "example_ko": "생일 선물을 샀어요.",
+      "example_uz": "Tug'ilgan kun sovg'asini oldim.",
+      "audio": "22874805e251.mp3",
+      "example_audio": "231d1bf75e5f.mp3"
+    },
+    {
+      "id": "u09_l1_w025",
+      "ko": "편지",
+      "uz": "xat",
+      "pos": "ot",
+      "example_ko": "친구에게 편지를 썼어요.",
+      "example_uz": "Do'stimga xat yozdim.",
+      "audio": "56c5c98966a2.mp3",
+      "example_audio": "e4b9d7498e87.mp3"
+    },
+    {
+      "id": "u09_l1_w026",
+      "ko": "물어보다",
+      "uz": "so'rab ko'rmoq",
+      "pos": "fe'l",
+      "example_ko": "선생님께 물어보세요.",
+      "example_uz": "O'qituvchidan so'rab ko'ring.",
+      "audio": "8d046f0877a8.mp3",
+      "example_audio": "958c311e45e8.mp3"
+    },
+    {
+      "id": "u09_l1_w027",
+      "ko": "가르치다",
+      "uz": "o'rgatmoq",
+      "pos": "fe'l",
+      "example_ko": "형이 수학을 가르쳐요.",
+      "example_uz": "Akam matematikadan dars beradi.",
+      "audio": "431c21f85e55.mp3",
+      "example_audio": "b530ae9a6b79.mp3"
+    },
+    {
+      "id": "u09_l1_w028",
+      "ko": "할아버지",
+      "uz": "bobo",
+      "pos": "ot",
+      "example_ko": "할아버지는 일흔 살이세요.",
+      "example_uz": "Bobom yetmish yoshdalar.",
+      "audio": "a55cd1124e4d.mp3",
+      "example_audio": "01f6aeed541a.mp3"
+    },
+    {
+      "id": "u09_l1_w029",
+      "ko": "부모님",
+      "uz": "ota-ona",
+      "pos": "ot",
+      "example_ko": "부모님께 전화를 드렸어요.",
+      "example_uz": "Ota-onamga qo'ng'iroq qildim.",
+      "audio": "c44e31e1f237.mp3",
+      "example_audio": "05686b5dda01.mp3"
+    },
+    {
+      "id": "u09_l1_w030",
+      "ko": "할머니",
+      "uz": "buvi",
+      "pos": "ot",
+      "example_ko": "할머니께서 요리하세요.",
+      "example_uz": "Buvim ovqat pishiryaptilar.",
+      "audio": "4c15441f708a.mp3",
+      "example_audio": "7c5434f3d61c.mp3"
+    },
+    {
+      "id": "u09_l1_w031",
+      "ko": "꽃",
+      "uz": "gul",
+      "pos": "ot",
+      "example_ko": "어머니께 꽃을 드렸어요.",
+      "example_uz": "Onamga gul berdim.",
+      "audio": "7d150601a2d1.mp3",
+      "example_audio": "3dbb70f5af81.mp3"
+    },
+    {
+      "id": "u09_l1_w032",
+      "ko": "이메일",
+      "uz": "elektron xat",
+      "pos": "ot",
+      "example_ko": "이메일을 보냈어요.",
+      "example_uz": "Elektron xat yubordim.",
+      "audio": "667e89590cb7.mp3",
+      "example_audio": "82254cf2cda2.mp3"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "u09_l1_g1",
+      "pattern": "A/V-지요?, N(이)지요?",
+      "meaning_uz": "Tasdiqlash: '..., shundaymi?', '..., to'g'rimi?'",
+      "explanation_md": "**-지요?** — gapiruvchi **taxminan biladigan** narsani **tasdiqlatish** uchun so'raydi: o'zbekchadagi **\"..., shundaymi?\"**, **\"..., to'g'rimi?\"**, **\"...-ku?\"**.\n\n**여보세요, 거기 서울대학교지요?** — *Allo, u yer Seul universiteti, shundaymi?*\n\n### Qanday yasaladi\n\n**Fe'l va sifat** — o'zakka **-지요**, 받침ga qarab o'zgarmaydi:\n\n- 비싸다 → **비싸지요?**\n- 맛있다 → **맛있지요?**\n- 덥다 → **덥지요?** (ㅂ o'zgarmaydi!)\n- O'tgan zamon: 가다 → **갔지요?**, 재미있었다 → **재미있었지요?**\n\n**Ot** bilan:\n\n- **받침 yo'q** → **-지요**: 서울대학교 → **서울대학교지요?**\n- **받침 bor** → **-이지요**: 학생 → **학생이지요?**\n\n### Og'zaki shakl: -죠\n\nGapda ko'pincha qisqa **-죠** eshitiladi: **맞죠?**, **학생이죠?**\n\n### Javob berish\n\n- **네, 맞아요.** — *Ha, to'g'ri.*\n- Tasdiqlab, darak gapda ham: 한국 음식은 맵**지요**. — *Koreys taomi achchiq-da (bilasiz).*",
+      "formation": [
+        {
+          "condition_uz": "Fe'l / sifat",
+          "rule": "-지요?",
+          "example": "비싸다 → 비싸지요?"
+        },
+        {
+          "condition_uz": "O'tgan zamon",
+          "rule": "-았/었지요?",
+          "example": "가다 → 갔지요?"
+        },
+        {
+          "condition_uz": "Ot, 받침 yo'q",
+          "rule": "N지요?",
+          "example": "서울대학교 → 서울대학교지요?"
+        },
+        {
+          "condition_uz": "Ot, 받침 bor",
+          "rule": "N이지요?",
+          "example": "학생 → 학생이지요?"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "여보세요, 거기 서울대학교지요?",
+          "uz": "Allo, u yer Seul universiteti, shundaymi?",
+          "audio": "e5cbe942ab4f.mp3"
+        },
+        {
+          "ko": "한국 음식은 맵지요?",
+          "uz": "Koreys taomi achchiq, shundaymi?",
+          "audio": "875dbe81371e.mp3"
+        },
+        {
+          "ko": "아지즈 씨는 우즈베키스탄 사람이지요?",
+          "uz": "Aziz, siz o'zbekistonliksiz, to'g'rimi?",
+          "audio": "1ed53b2a10f5.mp3"
+        },
+        {
+          "ko": "어제 영화 재미있었지요?",
+          "uz": "Kechagi film qiziq bo'ldi-a?",
+          "audio": "774c00c8d54c.mp3"
+        },
+        {
+          "ko": "내일 수업이 열 시지요?",
+          "uz": "Ertangi dars soat o'nda, shundaymi?",
+          "audio": "d318336bd8a2.mp3"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "학생지요?",
+          "right": "학생이지요?",
+          "why_uz": "받침 bor: -이지요."
+        },
+        {
+          "wrong": "맛있어지요?",
+          "right": "맛있지요?",
+          "why_uz": "-지요 to'g'ridan-to'g'ri o'zakka."
+        },
+        {
+          "wrong": "더워지요?",
+          "right": "덥지요?",
+          "why_uz": "-지요 da ㅂ o'zgarmaydi."
+        }
+      ],
+      "uz_compare": "O'zbekchadagi '-ku?', '..., shundaymi?' ga o'xshaydi: 'Siz talabasiz-ku?' = 학생이지요?"
+    },
+    {
+      "id": "u09_l1_g2",
+      "pattern": "N한테/에게/께",
+      "meaning_uz": "Kimgadir: '...-ga' (odam yoki hayvonga)",
+      "explanation_md": "**한테 / 에게 / 께** — harakat **kimga** qaratilganini bildiradi: o'zbekchadagi **\"...-ga\"**, lekin faqat **odam va hayvonlar** uchun.\n\n**교수님께 숙제를 보냈어요.** — *Professorga uy vazifasini yubordim.*\n\n### Uchta shakl\n\n| Shakl | Qachon | Misol |\n|---|---|---|\n| **한테** | og'zaki nutq | 친구**한테** 전화했어요 |\n| **에게** | yozma, biroz rasmiy | 친구**에게** 편지를 썼어요 |\n| **께** | hurmat (kattalar, ustozlar) | 할머니**께** 꽃을 **드렸어요** |\n\n받침ga qarab o'zgarmaydi.\n\n### 께 bilan 드리다\n\n**께** ishlatilsa, fe'l ham hurmat shaklida: **주다 → 드리다**, **말하다 → 말씀드리다**.\n\n- 동생**한테** 책을 **줬어요**.\n- 어머니**께** 꽃을 **드렸어요**.\n\n### 에 bilan farqi\n\n- Narsa va joy → **에**: 꽃**에** 물을 줬어요, 회사**에** 전화했어요\n- Odam va hayvon → **한테/에게**: 친구**한테** 전화했어요\n\n~~친구에 전화했어요~~ ❌",
+      "formation": [
+        {
+          "condition_uz": "Og'zaki",
+          "rule": "N한테",
+          "example": "친구 → 친구한테"
+        },
+        {
+          "condition_uz": "Yozma / rasmiy",
+          "rule": "N에게",
+          "example": "동생 → 동생에게"
+        },
+        {
+          "condition_uz": "Hurmat",
+          "rule": "N께 (+ 드리다)",
+          "example": "할머니 → 할머니께"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "교수님께 숙제를 이메일로 보냈어요.",
+          "uz": "Professorga uy vazifasini elektron xat orqali yubordim.",
+          "audio": "9a29b4a417e4.mp3"
+        },
+        {
+          "ko": "어제 친구한테 전화했어요.",
+          "uz": "Kecha do'stimga qo'ng'iroq qildim.",
+          "audio": "b5e34c2a8edd.mp3"
+        },
+        {
+          "ko": "동생에게 편지를 썼어요.",
+          "uz": "Ukamga xat yozdim.",
+          "audio": "d377b1a3b56c.mp3"
+        },
+        {
+          "ko": "할머니께 꽃을 드렸어요.",
+          "uz": "Buvimga gul berdim.",
+          "audio": "04165d95862d.mp3"
+        },
+        {
+          "ko": "선배한테 물어보세요.",
+          "uz": "Katta kursdoshdan so'rab ko'ring.",
+          "audio": "824259058437.mp3"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "친구에 문자를 보냈어요",
+          "right": "친구한테 문자를 보냈어요",
+          "why_uz": "Odamga 에 emas, 한테/에게."
+        },
+        {
+          "wrong": "어머니께 꽃을 줬어요",
+          "right": "어머니께 꽃을 드렸어요",
+          "why_uz": "께 bilan hurmat fe'li 드리다."
+        },
+        {
+          "wrong": "회사한테 전화했어요",
+          "right": "회사에 전화했어요",
+          "why_uz": "Joy va tashkilotga 에."
+        }
+      ],
+      "uz_compare": "O'zbekchada '-ga' hammaga bir xil: 'do'stga', 'Toshkentga'. Koreyschada odamga 한테/에게/께, joyga 에."
+    }
+  ],
+  "dialogue": {
+    "lines": [
+      {
+        "speaker": "clerk",
+        "ko": "여보세요.",
+        "uz": "Allo.",
+        "audio": "6c60b787f505.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "여보세요, 거기 서울대학교지요?",
+        "uz": "Allo, u yer Seul universiteti, shundaymi?",
+        "audio": "7d9146fa4ad5.mp3"
+      },
+      {
+        "speaker": "clerk",
+        "ko": "네, 서울대학교 한국어 교육원입니다.",
+        "uz": "Ha, Seul universiteti koreys tili markazi.",
+        "audio": "e8a9f7c8ef1d.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "실례지만 김 교수님 계세요?",
+        "uz": "Kechirasiz, Kim professor bormilar?",
+        "audio": "2ef9e9eae801.mp3"
+      },
+      {
+        "speaker": "clerk",
+        "ko": "지금 자리에 안 계세요. 누구세요?",
+        "uz": "Hozir joylarida yo'qlar. Kim bo'lasiz?",
+        "audio": "012eea61c8d8.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "저는 교수님 반 학생 아지즈예요. 교수님께 숙제를 이메일로 보냈어요.",
+        "uz": "Men professorning guruhidagi talaba Azizman. Professorga uy vazifasini elektron xat orqali yubordim.",
+        "audio": "00aa1b96771c.mp3"
+      },
+      {
+        "speaker": "clerk",
+        "ko": "아, 그래요? 그럼 교수님께 전해 드릴게요.",
+        "uz": "Shundaymi? Unda professorga yetkazib qo'yaman.",
+        "audio": "c70181af2723.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "감사합니다. 그리고 내일 수업이 열 시지요?",
+        "uz": "Rahmat. Yana, ertangi dars soat o'nda, shundaymi?",
+        "audio": "45fd3e3304d4.mp3"
+      },
+      {
+        "speaker": "clerk",
+        "ko": "네, 맞아요. 열 시에 시작해요.",
+        "uz": "Ha, to'g'ri. Soat o'nda boshlanadi.",
+        "audio": "a333643b7601.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "교수님은 오후에 사무실에 오시지요?",
+        "uz": "Professor tushdan keyin kabinetga keladilar, shundaymi?",
+        "audio": "90f06e1d79ad.mp3"
+      },
+      {
+        "speaker": "clerk",
+        "ko": "네, 오후에 오세요. 그때 다시 전화하세요.",
+        "uz": "Ha, tushdan keyin keladilar. O'shanda qayta qo'ng'iroq qiling.",
+        "audio": "7a29a1ed4fdc.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "네, 알겠습니다. 안녕히 계세요.",
+        "uz": "Xo'p, tushundim. Xayr.",
+        "audio": "60309c4aaa0a.mp3"
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "u09_l1_e001",
+      "type": "conjugate",
+      "targets": [
+        "u09_l1_g1"
+      ],
+      "prompt_uz": "'Qimmat, shundaymi?' shaklini yasang",
+      "base": "비싸다",
+      "form": "-지요?",
+      "answers": [
+        "비싸지요"
+      ]
+    },
+    {
+      "id": "u09_l1_e002",
+      "type": "conjugate",
+      "targets": [
+        "u09_l1_g1"
+      ],
+      "prompt_uz": "'Mazali, shundaymi?' shaklini yasang",
+      "base": "맛있다",
+      "form": "-지요?",
+      "answers": [
+        "맛있지요"
+      ]
+    },
+    {
+      "id": "u09_l1_e003",
+      "type": "conjugate",
+      "targets": [
+        "u09_l1_g1"
+      ],
+      "prompt_uz": "'Talaba, shundaymi?' shaklini yasang",
+      "base": "학생",
+      "form": "N(이)지요?",
+      "answers": [
+        "학생이지요"
+      ]
+    },
+    {
+      "id": "u09_l1_e004",
+      "type": "conjugate",
+      "targets": [
+        "u09_l1_g1"
+      ],
+      "prompt_uz": "'Shifokor, shundaymi?' shaklini yasang",
+      "base": "의사",
+      "form": "N(이)지요?",
+      "answers": [
+        "의사지요"
+      ]
+    },
+    {
+      "id": "u09_l1_e005",
+      "type": "conjugate",
+      "targets": [
+        "u09_l1_g2"
+      ],
+      "prompt_uz": "'Do'stga' (og'zaki) shaklini yasang",
+      "base": "친구",
+      "form": "N한테",
+      "answers": [
+        "친구한테"
+      ]
+    },
+    {
+      "id": "u09_l1_e006",
+      "type": "conjugate",
+      "targets": [
+        "u09_l1_g2"
+      ],
+      "prompt_uz": "'Buviga' (hurmat bilan) shaklini yasang",
+      "base": "할머니",
+      "form": "N께",
+      "answers": [
+        "할머니께"
+      ]
+    },
+    {
+      "id": "u09_l1_e007",
+      "type": "fill_blank",
+      "targets": [
+        "u09_l1_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Koreys taomi achchiq, shundaymi?'",
+      "sentence": "한국 음식은 ___? (맵다)",
+      "answers": [
+        "맵지요"
+      ]
+    },
+    {
+      "id": "u09_l1_e008",
+      "type": "fill_blank",
+      "targets": [
+        "u09_l1_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'U yer Seul universiteti, shundaymi?'",
+      "sentence": "거기 서울대학교___?",
+      "answers": [
+        "지요"
+      ]
+    },
+    {
+      "id": "u09_l1_e009",
+      "type": "fill_blank",
+      "targets": [
+        "u09_l1_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Kecha do'stimga qo'ng'iroq qildim.'",
+      "sentence": "어제 친구___ 전화했어요.",
+      "answers": [
+        "한테",
+        "에게"
+      ]
+    },
+    {
+      "id": "u09_l1_e010",
+      "type": "fill_blank",
+      "targets": [
+        "u09_l1_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Buvimga sovg'a berdim.'",
+      "sentence": "할머니___ 선물을 드렸어요.",
+      "answers": [
+        "께"
+      ]
+    },
+    {
+      "id": "u09_l1_e011",
+      "type": "situation_choice",
+      "targets": [
+        "u09_l1_g1"
+      ],
+      "prompt_uz": "'Bugun havo issiq, shundaymi?' qaysi biri?",
+      "options": [
+        "오늘 날씨가 덥지요?",
+        "오늘 날씨가 더워지요?",
+        "오늘 날씨가 더울 거예요?",
+        "오늘 날씨가 덥고 싶어요?"
+      ],
+      "answers": [
+        "오늘 날씨가 덥지요?"
+      ]
+    },
+    {
+      "id": "u09_l1_e012",
+      "type": "situation_choice",
+      "targets": [
+        "u09_l1_g2"
+      ],
+      "prompt_uz": "Hurmat bilan: 'O'qituvchiga xat berdim'",
+      "options": [
+        "선생님께 편지를 드렸어요",
+        "선생님에 편지를 드렸어요",
+        "선생님을 편지를 드렸어요",
+        "선생님도 편지를 드렸어요"
+      ],
+      "answers": [
+        "선생님께 편지를 드렸어요"
+      ]
+    },
+    {
+      "id": "u09_l1_e013",
+      "type": "situation_choice",
+      "targets": [
+        "u09_l1_w001"
+      ],
+      "prompt_uz": "Telefonni ko'targanda birinchi nima deysiz?",
+      "options": [
+        "여보세요",
+        "안녕히 가세요",
+        "잘 먹겠습니다",
+        "실례합니다"
+      ],
+      "answers": [
+        "여보세요"
+      ]
+    },
+    {
+      "id": "u09_l1_e014",
+      "type": "build_sentence",
+      "targets": [
+        "u09_l1_g1"
+      ],
+      "prompt_uz": "'Ertangi dars soat o'nda, shundaymi' gapini tuzing",
+      "tokens": [
+        "시지요",
+        "수업이",
+        "내일",
+        "열"
+      ],
+      "answers": [
+        "내일 수업이 열 시지요"
+      ]
+    },
+    {
+      "id": "u09_l1_e015",
+      "type": "build_sentence",
+      "targets": [
+        "u09_l1_g2"
+      ],
+      "prompt_uz": "'Ukamga elektron xat yubordim' gapini tuzing",
+      "tokens": [
+        "보냈어요",
+        "동생한테",
+        "이메일을"
+      ],
+      "answers": [
+        "동생한테 이메일을 보냈어요"
+      ]
+    },
+    {
+      "id": "u09_l1_e016",
+      "type": "find_error",
+      "targets": [
+        "u09_l1_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "sentence": "아지즈 씨는 학생지요?",
+      "answers": [
+        "아지즈 씨는 학생이지요"
+      ],
+      "why_uz": "받침 bor: -이지요."
+    },
+    {
+      "id": "u09_l1_e017",
+      "type": "find_error",
+      "targets": [
+        "u09_l1_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "sentence": "친구에 문자를 보냈어요.",
+      "answers": [
+        "친구한테 문자를 보냈어요",
+        "친구에게 문자를 보냈어요"
+      ],
+      "why_uz": "Odamga 한테/에게."
+    },
+    {
+      "id": "u09_l1_e018",
+      "type": "find_error",
+      "targets": [
+        "u09_l1_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "sentence": "어머니께 꽃을 줬어요.",
+      "answers": [
+        "어머니께 꽃을 드렸어요"
+      ],
+      "why_uz": "께 bilan 드리다."
+    },
+    {
+      "id": "u09_l1_e019",
+      "type": "translate",
+      "targets": [
+        "u09_l1_g1"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "source_uz": "Bu kitob qiziq, shundaymi?",
+      "answers": [
+        "이 책 재미있지요",
+        "이 책은 재미있지요",
+        "이 책이 재미있지요",
+        "이 책 재미있죠",
+        "이 책은 재미있죠"
+      ]
+    },
+    {
+      "id": "u09_l1_e020",
+      "type": "translate",
+      "targets": [
+        "u09_l1_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "source_uz": "Do'stimga SMS yubordim.",
+      "answers": [
+        "친구한테 문자를 보냈어요",
+        "친구에게 문자를 보냈어요",
+        "친구한테 문자 보냈어요",
+        "친구에게 문자 보냈어요"
+      ]
+    },
+    {
+      "id": "u09_l1_e021",
+      "type": "translate",
+      "targets": [
+        "u09_l1_g2"
+      ],
+      "prompt_uz": "Hurmat bilan koreyschaga tarjima qiling",
+      "source_uz": "Onamga gul berdim.",
+      "answers": [
+        "어머니께 꽃을 드렸어요"
+      ]
+    },
+    {
+      "id": "u09_l1_e031",
+      "type": "listen_question",
+      "targets": [
+        "u09_l1_g1"
+      ],
+      "prompt_uz": "Ertaga nima?",
+      "audio_text": "민수 씨, 내일 생일이지요?",
+      "options": [
+        "Minsuning tug'ilgan kuni",
+        "Imtihon",
+        "Bayram",
+        "Dars yo'q"
+      ],
+      "answers": [
+        "Minsuning tug'ilgan kuni"
+      ],
+      "audio": "47751265e261.mp3"
+    },
+    {
+      "id": "u09_l1_e032",
+      "type": "listen_question",
+      "targets": [
+        "u09_l1_g2"
+      ],
+      "prompt_uz": "Kecha kimga qo'ng'iroq qildi?",
+      "audio_text": "어제 동생한테 전화했어요.",
+      "options": [
+        "Ukasi yoki singlisiga",
+        "Onasiga",
+        "O'qituvchisiga",
+        "Do'stiga"
+      ],
+      "answers": [
+        "Ukasi yoki singlisiga"
+      ],
+      "audio": "df2207df9496.mp3"
+    },
+    {
+      "id": "u09_l1_e033",
+      "type": "listen_question",
+      "targets": [
+        "u09_l1_w006"
+      ],
+      "prompt_uz": "Nima deyilmoqda?",
+      "audio_text": "지금 통화 중이에요. 나중에 다시 전화하세요.",
+      "options": [
+        "Telefon band, keyinroq qo'ng'iroq qiling",
+        "Raqam noto'g'ri",
+        "U yo'q, ertaga keladi",
+        "Xabar qoldiring"
+      ],
+      "answers": [
+        "Telefon band, keyinroq qo'ng'iroq qiling"
+      ],
+      "audio": "0b0f5f5a4f13.mp3"
+    },
+    {
+      "id": "u09_l1_e101",
+      "type": "conjugate",
+      "targets": [
+        "u09_l1_g1"
+      ],
+      "prompt_uz": "'Issiq, shundaymi?' shaklini yasang",
+      "base": "덥다",
+      "form": "-지요?",
+      "answers": [
+        "덥지요"
+      ],
+      "hint_uz": "ㅂ o'zgarmaydi"
+    },
+    {
+      "id": "u09_l1_e102",
+      "type": "conjugate",
+      "targets": [
+        "u09_l1_g1"
+      ],
+      "prompt_uz": "'Bordingiz, shundaymi?' shaklini yasang",
+      "base": "가다",
+      "form": "-았/었지요?",
+      "answers": [
+        "갔지요"
+      ]
+    },
+    {
+      "id": "u09_l1_e103",
+      "type": "conjugate",
+      "targets": [
+        "u09_l1_g2"
+      ],
+      "prompt_uz": "'Ukaga' (yozma) shaklini yasang",
+      "base": "동생",
+      "form": "N에게",
+      "answers": [
+        "동생에게"
+      ]
+    },
+    {
+      "id": "u09_l1_e104",
+      "type": "fill_blank",
+      "targets": [
+        "u09_l1_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Anavi kishi Kim o'qituvchi, shundaymi?'",
+      "sentence": "저분이 김 선생님___?",
+      "answers": [
+        "이지요"
+      ]
+    },
+    {
+      "id": "u09_l1_e105",
+      "type": "fill_blank",
+      "targets": [
+        "u09_l1_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Ota-onamga xat yozdim.'",
+      "sentence": "부모님___ 편지를 썼어요.",
+      "answers": [
+        "께",
+        "한테",
+        "에게"
+      ]
+    },
+    {
+      "id": "u09_l1_e106",
+      "type": "fill_blank",
+      "targets": [
+        "u09_l1_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Bu kiyim chiroyli, shundaymi?'",
+      "sentence": "이 옷 ___? (예쁘다)",
+      "answers": [
+        "예쁘지요"
+      ]
+    },
+    {
+      "id": "u09_l1_e107",
+      "type": "situation_choice",
+      "targets": [
+        "u09_l1_g2"
+      ],
+      "prompt_uz": "'Ukamga kitob berdim' qaysi biri?",
+      "options": [
+        "동생한테 책을 줬어요",
+        "동생에 책을 줬어요",
+        "동생을 책을 줬어요",
+        "동생이 책을 줬어요"
+      ],
+      "answers": [
+        "동생한테 책을 줬어요"
+      ]
+    },
+    {
+      "id": "u09_l1_e108",
+      "type": "situation_choice",
+      "targets": [
+        "u09_l1_w004"
+      ],
+      "prompt_uz": "Telefon raqamini so'raysiz:",
+      "options": [
+        "전화번호가 몇 번이에요?",
+        "이름이 뭐예요?",
+        "몇 살이에요?",
+        "어디에 살아요?"
+      ],
+      "answers": [
+        "전화번호가 몇 번이에요?"
+      ]
+    },
+    {
+      "id": "u09_l1_e109",
+      "type": "build_sentence",
+      "targets": [
+        "u09_l1_g2"
+      ],
+      "prompt_uz": "'O'qituvchidan savol so'radim' gapini tuzing",
+      "tokens": [
+        "질문했어요",
+        "선생님께"
+      ],
+      "answers": [
+        "선생님께 질문했어요"
+      ]
+    },
+    {
+      "id": "u09_l1_e110",
+      "type": "build_sentence",
+      "targets": [
+        "u09_l1_g1"
+      ],
+      "prompt_uz": "'Koreys tili qiyin, shundaymi' gapini tuzing",
+      "tokens": [
+        "어렵지요",
+        "한국어가"
+      ],
+      "answers": [
+        "한국어가 어렵지요"
+      ]
+    },
+    {
+      "id": "u09_l1_e111",
+      "type": "find_error",
+      "targets": [
+        "u09_l1_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "sentence": "그 식당 맛있어지요?",
+      "answers": [
+        "그 식당 맛있지요"
+      ],
+      "why_uz": "-지요 o'zakka qo'shiladi."
+    },
+    {
+      "id": "u09_l1_e112",
+      "type": "find_error",
+      "targets": [
+        "u09_l1_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "sentence": "선생님에 이메일을 보냈어요.",
+      "answers": [
+        "선생님께 이메일을 보냈어요",
+        "선생님한테 이메일을 보냈어요",
+        "선생님에게 이메일을 보냈어요"
+      ],
+      "why_uz": "Odamga 에 emas: 께/한테/에게."
+    },
+    {
+      "id": "u09_l1_e113",
+      "type": "translate",
+      "targets": [
+        "u09_l1_g1"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "source_uz": "Siz o'zbekistonliksiz, shundaymi?",
+      "answers": [
+        "우즈베키스탄 사람이지요",
+        "우즈베키스탄 사람이죠",
+        "우즈베키스탄 사람이시지요",
+        "우즈베키스탄 사람이시죠"
+      ]
+    },
+    {
+      "id": "u09_l1_e114",
+      "type": "translate",
+      "targets": [
+        "u09_l1_g2"
+      ],
+      "prompt_uz": "Hurmat bilan koreyschaga tarjima qiling",
+      "source_uz": "Bobomga qo'ng'iroq qildim.",
+      "answers": [
+        "할아버지께 전화를 드렸어요",
+        "할아버지께 전화드렸어요",
+        "할아버지께 전화했어요"
+      ]
+    },
+    {
+      "id": "u09_l1_e115",
+      "type": "listen_question",
+      "targets": [
+        "u09_l1_g2"
+      ],
+      "prompt_uz": "Uy vazifasini kimga topshirdi?",
+      "audio_text": "선생님께 숙제를 냈어요.",
+      "options": [
+        "O'qituvchisiga",
+        "Do'stiga",
+        "Onasiga",
+        "Ukasiga"
+      ],
+      "answers": [
+        "O'qituvchisiga"
+      ],
+      "audio": "a13c66c2db5d.mp3"
+    }
+  ],
+  "test": [
+    "u09_l1_e101",
+    "u09_l1_e102",
+    "u09_l1_e103",
+    "u09_l1_e104",
+    "u09_l1_e105",
+    "u09_l1_e106",
+    "u09_l1_e107",
+    "u09_l1_e108",
+    "u09_l1_e109",
+    "u09_l1_e110",
+    "u09_l1_e111",
+    "u09_l1_e112",
+    "u09_l1_e113",
+    "u09_l1_e114",
+    "u09_l1_e115"
+  ]
+}
