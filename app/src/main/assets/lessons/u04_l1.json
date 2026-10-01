@@ -1,0 +1,1130 @@
+{
+  "id": "u04_l1",
+  "unit": 4,
+  "lesson": 1,
+  "title_ko": "테니스를 배우고 싶어요",
+  "title_uz": "Tennisni o'rganmoqchiman",
+  "topic_uz": "Xobbi",
+  "reviewed": false,
+  "words": [
+    {
+      "id": "u04_l1_w001",
+      "ko": "취미",
+      "uz": "xobbi, sevimli mashg'ulot",
+      "pos": "ot",
+      "example_ko": "취미가 뭐예요?",
+      "example_uz": "Xobbingiz nima?",
+      "audio": "f71838d42675.mp3",
+      "example_audio": "f24aead0ad4d.mp3"
+    },
+    {
+      "id": "u04_l1_w002",
+      "ko": "운동",
+      "uz": "sport, jismoniy mashq",
+      "pos": "ot",
+      "example_ko": "운동을 좋아해요.",
+      "example_uz": "Sportni yaxshi ko'raman.",
+      "audio": "1bfaba0dea61.mp3",
+      "example_audio": "4149e6972a14.mp3"
+    },
+    {
+      "id": "u04_l1_w003",
+      "ko": "운동하다",
+      "uz": "sport bilan shug'ullanmoq",
+      "pos": "fe'l",
+      "example_ko": "매일 아침에 운동해요.",
+      "example_uz": "Har kuni ertalab sport bilan shug'ullanaman.",
+      "audio": "7c78c2d5bd19.mp3",
+      "example_audio": "4d15b4f007e5.mp3"
+    },
+    {
+      "id": "u04_l1_w004",
+      "ko": "테니스",
+      "uz": "tennis",
+      "pos": "ot",
+      "example_ko": "테니스는 재미있어요.",
+      "example_uz": "Tennis qiziqarli.",
+      "audio": "d6159ddfb0fb.mp3",
+      "example_audio": "19bc80f44b81.mp3"
+    },
+    {
+      "id": "u04_l1_w005",
+      "ko": "축구",
+      "uz": "futbol",
+      "pos": "ot",
+      "example_ko": "친구들하고 축구를 해요.",
+      "example_uz": "Do'stlar bilan futbol o'ynayman.",
+      "audio": "4ed2c02c0197.mp3",
+      "example_audio": "43a158e4e32a.mp3"
+    },
+    {
+      "id": "u04_l1_w006",
+      "ko": "농구",
+      "uz": "basketbol",
+      "pos": "ot",
+      "example_ko": "형은 농구를 잘해요.",
+      "example_uz": "Akam basketbolni yaxshi o'ynaydi.",
+      "audio": "bd6119eff606.mp3",
+      "example_audio": "f8ddd149e6de.mp3"
+    },
+    {
+      "id": "u04_l1_w007",
+      "ko": "야구",
+      "uz": "beysbol",
+      "pos": "ot",
+      "example_ko": "한국 사람들은 야구를 좋아해요.",
+      "example_uz": "Koreyslar beysbolni yaxshi ko'radi.",
+      "audio": "f25c2b8217b2.mp3",
+      "example_audio": "64312d55fd6a.mp3"
+    },
+    {
+      "id": "u04_l1_w008",
+      "ko": "수영",
+      "uz": "suzish",
+      "pos": "ot",
+      "example_ko": "수영은 건강에 좋아요.",
+      "example_uz": "Suzish sog'liq uchun foydali.",
+      "audio": "e9f50fbdcf1e.mp3",
+      "example_audio": "47e151ee63e3.mp3"
+    },
+    {
+      "id": "u04_l1_w009",
+      "ko": "수영하다",
+      "uz": "suzmoq",
+      "pos": "fe'l",
+      "example_ko": "바다에서 수영했어요.",
+      "example_uz": "Dengizda suzdim.",
+      "audio": "949394b80d1c.mp3",
+      "example_audio": "2801b6a1237b.mp3"
+    },
+    {
+      "id": "u04_l1_w010",
+      "ko": "태권도",
+      "uz": "taekvondo",
+      "pos": "ot",
+      "example_ko": "태권도를 배우고 있어요.",
+      "example_uz": "Taekvondo o'rganyapman.",
+      "audio": "f5cabb402b67.mp3",
+      "example_audio": "4d8a4b153c76.mp3"
+    },
+    {
+      "id": "u04_l1_w011",
+      "ko": "요가",
+      "uz": "yoga",
+      "pos": "ot",
+      "example_ko": "저녁에 요가를 해요.",
+      "example_uz": "Kechqurun yoga qilaman.",
+      "audio": "1686b5918a7c.mp3",
+      "example_audio": "b49b7a7faa2d.mp3"
+    },
+    {
+      "id": "u04_l1_w012",
+      "ko": "자전거",
+      "uz": "velosiped",
+      "pos": "ot",
+      "example_ko": "새 자전거를 샀어요.",
+      "example_uz": "Yangi velosiped sotib oldim.",
+      "audio": "1a0956633f92.mp3",
+      "example_audio": "9af8062a3f99.mp3"
+    },
+    {
+      "id": "u04_l1_w013",
+      "ko": "자전거를 타다",
+      "uz": "velosiped haydamoq",
+      "pos": "ibora",
+      "example_ko": "공원에서 자전거를 타요.",
+      "example_uz": "Bog'da velosiped haydayman.",
+      "audio": "5a29737514ee.mp3",
+      "example_audio": "3d575ce94e70.mp3"
+    },
+    {
+      "id": "u04_l1_w014",
+      "ko": "스키를 타다",
+      "uz": "chang'i uchmoq",
+      "pos": "ibora",
+      "example_ko": "겨울에 스키를 타요.",
+      "example_uz": "Qishda chang'i uchaman.",
+      "audio": "43adb59edb0b.mp3",
+      "example_audio": "22fbec30f911.mp3"
+    },
+    {
+      "id": "u04_l1_w015",
+      "ko": "배우다",
+      "uz": "o'rganmoq",
+      "pos": "fe'l",
+      "example_ko": "한국어를 배워요.",
+      "example_uz": "Koreys tilini o'rganyapman.",
+      "audio": "618153d5b656.mp3",
+      "example_audio": "5c04759af63b.mp3"
+    },
+    {
+      "id": "u04_l1_w016",
+      "ko": "가르치다",
+      "uz": "o'rgatmoq, dars bermoq",
+      "pos": "fe'l",
+      "example_ko": "선생님이 테니스를 가르쳐요.",
+      "example_uz": "O'qituvchi tennisdan dars beradi.",
+      "audio": "431c21f85e55.mp3",
+      "example_audio": "628ae4e88cc1.mp3"
+    },
+    {
+      "id": "u04_l1_w017",
+      "ko": "치다",
+      "uz": "o'ynamoq (tennis, pianino), urmoq",
+      "pos": "fe'l",
+      "example_ko": "주말에 테니스를 쳐요.",
+      "example_uz": "Dam olish kuni tennis o'ynayman.",
+      "audio": "9251c042495f.mp3",
+      "example_audio": "12f6733589ae.mp3"
+    },
+    {
+      "id": "u04_l1_w018",
+      "ko": "잘",
+      "uz": "yaxshi, mohirona",
+      "pos": "ravish",
+      "example_ko": "수영을 잘해요.",
+      "example_uz": "Yaxshi suzadi.",
+      "audio": "93959fa7aa81.mp3",
+      "example_audio": "d7bb67d3b4d2.mp3"
+    },
+    {
+      "id": "u04_l1_w019",
+      "ko": "못",
+      "uz": "...a olmaydi (qobiliyat yo'q)",
+      "pos": "ravish",
+      "example_ko": "저는 수영을 못 해요.",
+      "example_uz": "Men suza olmayman.",
+      "audio": "e6ff778a23b3.mp3",
+      "example_audio": "db795426d2af.mp3"
+    },
+    {
+      "id": "u04_l1_w020",
+      "ko": "전혀",
+      "uz": "umuman (inkor bilan)",
+      "pos": "ravish",
+      "example_ko": "축구를 전혀 못 해요.",
+      "example_uz": "Futbolni umuman o'ynay olmayman.",
+      "audio": "09052132df1b.mp3",
+      "example_audio": "2116c3cc8799.mp3"
+    },
+    {
+      "id": "u04_l1_w021",
+      "ko": "조금",
+      "uz": "biroz, ozgina",
+      "pos": "ravish",
+      "example_ko": "테니스를 조금 쳐요.",
+      "example_uz": "Tennisni ozgina o'ynayman.",
+      "audio": "f554a867ade8.mp3",
+      "example_audio": "ad1f7e6b1068.mp3"
+    },
+    {
+      "id": "u04_l1_w022",
+      "ko": "시작하다",
+      "uz": "boshlamoq",
+      "pos": "fe'l",
+      "example_ko": "다음 달에 요가를 시작해요.",
+      "example_uz": "Keyingi oyda yogani boshlayman.",
+      "audio": "3f5dc58a9040.mp3",
+      "example_audio": "88b3d0f05b88.mp3"
+    },
+    {
+      "id": "u04_l1_w023",
+      "ko": "연습하다",
+      "uz": "mashq qilmoq",
+      "pos": "fe'l",
+      "example_ko": "매일 연습해요.",
+      "example_uz": "Har kuni mashq qilaman.",
+      "audio": "16777dd2a220.mp3",
+      "example_audio": "1946f061ccba.mp3"
+    },
+    {
+      "id": "u04_l1_w024",
+      "ko": "체육관",
+      "uz": "sport zali",
+      "pos": "ot",
+      "example_ko": "학교에 체육관이 있어요.",
+      "example_uz": "Maktabda sport zali bor.",
+      "audio": "e78616fde401.mp3",
+      "example_audio": "2f012b9ae3c8.mp3"
+    },
+    {
+      "id": "u04_l1_w025",
+      "ko": "수영장",
+      "uz": "basseyn",
+      "pos": "ot",
+      "example_ko": "수영장에 사람이 많아요.",
+      "example_uz": "Basseynda odam ko'p.",
+      "audio": "dec351152782.mp3",
+      "example_audio": "61d232c77b89.mp3"
+    },
+    {
+      "id": "u04_l1_w026",
+      "ko": "공원",
+      "uz": "bog', park",
+      "pos": "ot",
+      "example_ko": "공원에서 산책해요.",
+      "example_uz": "Bog'da sayr qilaman.",
+      "audio": "f4c167d403db.mp3",
+      "example_audio": "636d13bdd1cf.mp3"
+    },
+    {
+      "id": "u04_l1_w027",
+      "ko": "매일",
+      "uz": "har kuni",
+      "pos": "ravish",
+      "example_ko": "매일 한국어를 공부해요.",
+      "example_uz": "Har kuni koreys tilini o'qiyman.",
+      "audio": "368c8efa0dae.mp3",
+      "example_audio": "787de838b0ae.mp3"
+    },
+    {
+      "id": "u04_l1_w028",
+      "ko": "일주일에",
+      "uz": "haftada",
+      "pos": "ibora",
+      "example_ko": "일주일에 세 번 운동해요.",
+      "example_uz": "Haftada uch marta sport qilaman.",
+      "audio": "4e1fecbe5696.mp3",
+      "example_audio": "e8efc9937bd9.mp3"
+    },
+    {
+      "id": "u04_l1_w029",
+      "ko": "동호회",
+      "uz": "to'garak, klub",
+      "pos": "ot",
+      "example_ko": "테니스 동호회에 들어갔어요.",
+      "example_uz": "Tennis klubiga a'zo bo'ldim.",
+      "audio": "e5c2d6d4000b.mp3",
+      "example_audio": "cc4d00b61ae3.mp3"
+    },
+    {
+      "id": "u04_l1_w030",
+      "ko": "라켓",
+      "uz": "raketka",
+      "pos": "ot",
+      "example_ko": "라켓이 없어요.",
+      "example_uz": "Raketkam yo'q.",
+      "audio": "d0dbe70a23ef.mp3",
+      "example_audio": "d7f792d41234.mp3"
+    },
+    {
+      "id": "u04_l1_w031",
+      "ko": "수업",
+      "uz": "dars, mashg'ulot",
+      "pos": "ot",
+      "example_ko": "오늘 수업이 몇 시에 끝나요?",
+      "example_uz": "Bugun dars soat nechada tugaydi?",
+      "audio": "d6428dfe0e1f.mp3",
+      "example_audio": "999bdcea04ac.mp3"
+    },
+    {
+      "id": "u04_l1_w032",
+      "ko": "시간이 없다",
+      "uz": "vaqti yo'q",
+      "pos": "ibora",
+      "example_ko": "요즘 너무 바빠서 시간이 없어요.",
+      "example_uz": "Hozir juda bandman, vaqtim yo'q.",
+      "audio": "8e6146303527.mp3",
+      "example_audio": "54d1c8757c4e.mp3"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "u04_l1_g1",
+      "pattern": "못 V",
+      "meaning_uz": "Qila olmaslik: '...-a olmayman'",
+      "explanation_md": "**못** fe'ldan oldin kelib, **qobiliyat yoki imkoniyat yo'qligini** bildiradi: o'zbekchadagi **\"-a olmayman\"**.\n\n**저는 수영을 못 해요.** — *Men suza olmayman.*\n\n### 안 va 못 farqi\n\n| | Ma'nosi | Misol |\n|---|---|---|\n| **안** | qilmayman (xohlamayman, tanlovim) | 고기를 **안** 먹어요 — go'sht yemayman |\n| **못** | qila olmayman (qo'limdan kelmaydi, imkon yo'q) | 매운 음식을 **못** 먹어요 — achchiq taom yeya olmayman |\n\n### Qanday ishlatiladi\n\n- Oddiy fe'l: **못 + fe'l**: 못 가요, 못 먹어요, 못 쳐요\n- **N하다** fe'llari: **N + 못 하다** — 못 **o'rtaga** kiradi: 수영하다 → **수영 못 해요** (~~못 수영해요~~ emas), 운동하다 → **운동 못 해요**\n- O'tgan zamon: 어제 **못 갔어요** — kecha bora olmadim\n\n### Esda tuting\n\n- **못** faqat **fe'l** bilan ishlatiladi. Sifat bilan — **안**: 날씨가 **안** 좋아요 (~~못 좋아요~~ emas).\n- **잘 못** — \"yaxshi qila olmayman\": 테니스를 **잘 못** 쳐요.\n- Talaffuz: **못 해요** → [모태요].",
+      "formation": [
+        {
+          "condition_uz": "Oddiy fe'l",
+          "rule": "못 + V",
+          "example": "가다 → 못 가요, 치다 → 못 쳐요"
+        },
+        {
+          "condition_uz": "N하다 fe'li",
+          "rule": "N + 못 하다",
+          "example": "수영하다 → 수영 못 해요"
+        },
+        {
+          "condition_uz": "O'tgan zamon",
+          "rule": "못 + V-았/었어요",
+          "example": "못 갔어요"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "저는 수영을 못 해요.",
+          "uz": "Men suza olmayman.",
+          "audio": "db795426d2af.mp3"
+        },
+        {
+          "ko": "테니스를 잘 못 쳐요.",
+          "uz": "Tennisni yaxshi o'ynay olmayman.",
+          "audio": "62cf2f6774d9.mp3"
+        },
+        {
+          "ko": "어제는 운동을 못 했어요.",
+          "uz": "Kecha sport qila olmadim.",
+          "audio": "8f6401f8c13e.mp3"
+        },
+        {
+          "ko": "매운 음식을 못 먹어요.",
+          "uz": "Achchiq taom yeya olmayman.",
+          "audio": "890eec9ac7d7.mp3"
+        },
+        {
+          "ko": "자전거를 못 타요.",
+          "uz": "Velosiped hayday olmayman.",
+          "audio": "11b7fd0e8c4a.mp3"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "저는 못 수영해요",
+          "right": "저는 수영 못 해요",
+          "why_uz": "N하다 fe'llarida 못 ot bilan 하다 orasiga kiradi."
+        },
+        {
+          "wrong": "날씨가 못 좋아요",
+          "right": "날씨가 안 좋아요",
+          "why_uz": "Sifat bilan 못 emas, 안 ishlatiladi."
+        },
+        {
+          "wrong": "고기를 못 먹어요 (xohlamaganda)",
+          "right": "고기를 안 먹어요",
+          "why_uz": "O'z tanlovingiz bo'lsa — 안. Qo'lingizdan kelmasa — 못."
+        }
+      ],
+      "uz_compare": "O'zbekchada ikki xil inkor bor: 'yemayman' (안 먹어요) va 'yeya olmayman' (못 먹어요). Koreyschada ham xuddi shunday: 안 — xohlamaslik, 못 — qila olmaslik."
+    },
+    {
+      "id": "u04_l1_g2",
+      "pattern": "V-고 싶다",
+      "meaning_uz": "Xohish: '...-moqchiman', '...-gim keladi'",
+      "explanation_md": "**-고 싶다** fe'lga qo'shilib, **xohish**ni bildiradi: o'zbekchadagi **\"-moqchiman / -gim keladi\"**.\n\n**테니스를 배우고 싶어요.** — *Tennisni o'rganmoqchiman.*\n\n### Qanday yasaladi\n\nO'zakka **-고 싶어요** qo'shiladi, 받침ga qarab o'zgarmaydi:\n\n- 배우다 → **배우고 싶어요**\n- 먹다 → **먹고 싶어요**\n- 쉬다 → **쉬고 싶어요**\n\nO'tgan zamon: **-고 싶었어요** (xohlagan edim). Inkor: **안 -고 싶어요** yoki **-고 싶지 않아요** (3-bo'limdagi -지 않다!).\n\n### Kim xohlaydi?\n\n- **Men** va savolda **siz**: **-고 싶어요** — 뭐 먹**고 싶어요**? (Nima yemoqchisiz?)\n- **Boshqa odam (u)**: **-고 싶어해요** — 동생은 축구를 하**고 싶어해요**. (Ukam futbol o'ynamoqchi.)\n\nKoreyschada boshqa odamning ichki xohishini to'g'ridan-to'g'ri aytish g'alati eshitiladi, shuning uchun 3-shaxsda **-어하다** qo'shiladi.",
+      "formation": [
+        {
+          "condition_uz": "Men / siz (savol)",
+          "rule": "-고 싶어요",
+          "example": "배우다 → 배우고 싶어요"
+        },
+        {
+          "condition_uz": "O'tgan zamon",
+          "rule": "-고 싶었어요",
+          "example": "가다 → 가고 싶었어요"
+        },
+        {
+          "condition_uz": "3-shaxs (u)",
+          "rule": "-고 싶어해요",
+          "example": "하다 → 하고 싶어해요"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "테니스를 배우고 싶어요.",
+          "uz": "Tennisni o'rganmoqchiman.",
+          "audio": "8cf3ff4465ed.mp3"
+        },
+        {
+          "ko": "주말에 뭐 하고 싶어요?",
+          "uz": "Dam olish kunlari nima qilmoqchisiz?",
+          "audio": "7bb836e315f4.mp3"
+        },
+        {
+          "ko": "제주도에 가고 싶어요.",
+          "uz": "Chejuga bormoqchiman.",
+          "audio": "f1564ed9c257.mp3"
+        },
+        {
+          "ko": "동생은 축구를 하고 싶어해요.",
+          "uz": "Ukam futbol o'ynamoqchi.",
+          "audio": "0b14c5eb49e8.mp3"
+        },
+        {
+          "ko": "오늘은 운동하고 싶지 않아요.",
+          "uz": "Bugun sport qilgim kelmayapti.",
+          "audio": "1113b68fbbe2.mp3"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "배우 싶어요",
+          "right": "배우고 싶어요",
+          "why_uz": "O'zak bilan 싶다 orasida -고 bo'lishi shart."
+        },
+        {
+          "wrong": "동생은 축구를 하고 싶어요",
+          "right": "동생은 축구를 하고 싶어해요",
+          "why_uz": "Boshqa odamning xohishi haqida -고 싶어하다 ishlatiladi."
+        },
+        {
+          "wrong": "먹고 싶요",
+          "right": "먹고 싶어요",
+          "why_uz": "싶다 → 싶어요 (싶 + 어요)."
+        }
+      ],
+      "uz_compare": "-고 싶다 o'zbekchadagi '-moqchiman' yoki '-gim keladi' ga to'g'ri keladi: 배우고 싶어요 = o'rganmoqchiman / o'rgangim keladi. 'U ... -moqchi' deganda esa koreyschada -고 싶어해요."
+    }
+  ],
+  "dialogue": {
+    "lines": [
+      {
+        "speaker": "minji",
+        "ko": "아지즈 씨는 취미가 뭐예요?",
+        "uz": "Aziz, xobbingiz nima?",
+        "audio": "6f886c128775.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "저는 축구를 좋아해요. 민지 씨는요?",
+        "uz": "Men futbolni yaxshi ko'raman. Siz-chi, Minji?",
+        "audio": "c4b561ab93f8.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "저는 요가를 해요. 그런데 요즘 테니스를 배우고 싶어요.",
+        "uz": "Men yoga qilaman. Lekin hozir tennisni o'rganmoqchiman.",
+        "audio": "3f5bf3ad91f1.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "테니스요? 저는 테니스를 전혀 못 쳐요.",
+        "uz": "Tennismi? Men tennisni umuman o'ynay olmayman.",
+        "audio": "e74cd5761e03.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "그럼 같이 배워요! 학교 체육관에서 테니스를 가르쳐요.",
+        "uz": "Unda birga o'rganamiz! Maktab sport zalida tennisdan dars berishadi.",
+        "audio": "3a197092e192.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "정말요? 언제 배워요?",
+        "uz": "Rostdanmi? Qachon o'rganamiz?",
+        "audio": "feade3c0850c.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "일주일에 두 번, 화요일하고 목요일에 수업이 있어요.",
+        "uz": "Haftada ikki marta, seshanba va payshanba kunlari dars bor.",
+        "audio": "64d4c4e4d153.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "저는 화요일에는 못 가요. 목요일에는 괜찮아요.",
+        "uz": "Men seshanba kuni bora olmayman. Payshanba kuni mumkin.",
+        "audio": "2f78f49e929b.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "괜찮아요. 목요일에 같이 가요.",
+        "uz": "Mayli. Payshanba kuni birga boramiz.",
+        "audio": "a3aa7ddb71a3.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "좋아요. 그런데 저는 라켓이 없어요.",
+        "uz": "Yaxshi. Lekin mening raketkam yo'q.",
+        "audio": "b2d77e5b5530.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "체육관에 라켓이 있어요. 걱정 마세요.",
+        "uz": "Sport zalida raketka bor. Xavotir olmang.",
+        "audio": "3047f8c5de2c.mp3"
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "u04_l1_e001",
+      "type": "conjugate",
+      "targets": [
+        "u04_l1_g2"
+      ],
+      "prompt_uz": "'O'rganmoqchiman' shaklini yasang",
+      "base": "배우다",
+      "form": "-고 싶어요",
+      "answers": [
+        "배우고 싶어요"
+      ]
+    },
+    {
+      "id": "u04_l1_e002",
+      "type": "conjugate",
+      "targets": [
+        "u04_l1_g2"
+      ],
+      "prompt_uz": "'Bormoqchi edim' shaklini yasang",
+      "base": "가다",
+      "form": "-고 싶었어요",
+      "answers": [
+        "가고 싶었어요"
+      ]
+    },
+    {
+      "id": "u04_l1_e003",
+      "type": "conjugate",
+      "targets": [
+        "u04_l1_g2"
+      ],
+      "prompt_uz": "'(U) qilmoqchi' shaklini yasang",
+      "base": "하다",
+      "form": "-고 싶어해요",
+      "answers": [
+        "하고 싶어해요"
+      ]
+    },
+    {
+      "id": "u04_l1_e004",
+      "type": "conjugate",
+      "targets": [
+        "u04_l1_g1"
+      ],
+      "prompt_uz": "'(Tennis) o'ynay olmayman' shaklini yasang",
+      "base": "치다",
+      "form": "못 + -아/어요",
+      "answers": [
+        "못 쳐요"
+      ]
+    },
+    {
+      "id": "u04_l1_e005",
+      "type": "conjugate",
+      "targets": [
+        "u04_l1_g1"
+      ],
+      "prompt_uz": "'Suza olmayman' shaklini yasang",
+      "base": "수영하다",
+      "form": "못 + -아/어요",
+      "answers": [
+        "수영 못 해요",
+        "수영을 못 해요"
+      ],
+      "hint_uz": "N하다: 못 o'rtaga kiradi"
+    },
+    {
+      "id": "u04_l1_e006",
+      "type": "conjugate",
+      "targets": [
+        "u04_l1_g1"
+      ],
+      "prompt_uz": "'Yeya olmayman' shaklini yasang",
+      "base": "먹다",
+      "form": "못 + -아/어요",
+      "answers": [
+        "못 먹어요"
+      ]
+    },
+    {
+      "id": "u04_l1_e007",
+      "type": "fill_blank",
+      "targets": [
+        "u04_l1_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Dam olish kuni kino ko'rmoqchiman.'",
+      "sentence": "주말에 영화를 ___. (보다)",
+      "answers": [
+        "보고 싶어요"
+      ]
+    },
+    {
+      "id": "u04_l1_e008",
+      "type": "fill_blank",
+      "targets": [
+        "u04_l1_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Nima yemoqchisiz?'",
+      "sentence": "뭐 ___? (먹다)",
+      "answers": [
+        "먹고 싶어요"
+      ]
+    },
+    {
+      "id": "u04_l1_e009",
+      "type": "fill_blank",
+      "targets": [
+        "u04_l1_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Men velosiped hayday olmayman.'",
+      "sentence": "저는 자전거를 ___. (타다)",
+      "answers": [
+        "못 타요"
+      ]
+    },
+    {
+      "id": "u04_l1_e010",
+      "type": "fill_blank",
+      "targets": [
+        "u04_l1_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Kecha sport qila olmadim.'",
+      "sentence": "어제는 운동을 ___. (하다)",
+      "answers": [
+        "못 했어요"
+      ]
+    },
+    {
+      "id": "u04_l1_e011",
+      "type": "situation_choice",
+      "targets": [
+        "u04_l1_g1"
+      ],
+      "prompt_uz": "Suzishni bilmaysiz. Nima deysiz?",
+      "options": [
+        "수영을 못 해요",
+        "수영을 안 해요",
+        "수영하고 싶어요",
+        "수영을 잘해요"
+      ],
+      "answers": [
+        "수영을 못 해요"
+      ]
+    },
+    {
+      "id": "u04_l1_e012",
+      "type": "situation_choice",
+      "targets": [
+        "u04_l1_g2"
+      ],
+      "prompt_uz": "'Ukam futbol o'ynamoqchi' qaysi biri to'g'ri?",
+      "options": [
+        "동생은 축구를 하고 싶어해요",
+        "동생은 축구를 하고 싶어요",
+        "동생은 축구를 못 해요",
+        "동생은 축구를 했어요"
+      ],
+      "answers": [
+        "동생은 축구를 하고 싶어해요"
+      ]
+    },
+    {
+      "id": "u04_l1_e013",
+      "type": "situation_choice",
+      "targets": [
+        "u04_l1_w024"
+      ],
+      "prompt_uz": "Basketbol va tennis o'ynaladigan yopiq zal qaysi?",
+      "options": [
+        "체육관",
+        "수영장",
+        "공원",
+        "시장"
+      ],
+      "answers": [
+        "체육관"
+      ]
+    },
+    {
+      "id": "u04_l1_e014",
+      "type": "build_sentence",
+      "targets": [
+        "u04_l1_g2"
+      ],
+      "prompt_uz": "'Men tennisni o'rganmoqchiman' gapini tuzing",
+      "tokens": [
+        "싶어요",
+        "테니스를",
+        "저는",
+        "배우고"
+      ],
+      "answers": [
+        "저는 테니스를 배우고 싶어요"
+      ]
+    },
+    {
+      "id": "u04_l1_e015",
+      "type": "build_sentence",
+      "targets": [
+        "u04_l1_g1"
+      ],
+      "prompt_uz": "'Men achchiq taom yeya olmayman' gapini tuzing",
+      "tokens": [
+        "먹어요",
+        "음식을",
+        "저는",
+        "못",
+        "매운"
+      ],
+      "answers": [
+        "저는 매운 음식을 못 먹어요"
+      ]
+    },
+    {
+      "id": "u04_l1_e016",
+      "type": "find_error",
+      "targets": [
+        "u04_l1_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "sentence": "제주도에 가 싶어요.",
+      "answers": [
+        "제주도에 가고 싶어요"
+      ],
+      "why_uz": "O'zak bilan 싶다 orasida -고 kerak."
+    },
+    {
+      "id": "u04_l1_e017",
+      "type": "find_error",
+      "targets": [
+        "u04_l1_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "sentence": "저는 못 수영해요.",
+      "answers": [
+        "저는 수영 못 해요",
+        "저는 수영을 못 해요"
+      ],
+      "why_uz": "N하다 fe'lida 못 o'rtaga kiradi: 수영 못 해요."
+    },
+    {
+      "id": "u04_l1_e018",
+      "type": "find_error",
+      "targets": [
+        "u04_l1_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "sentence": "오늘은 날씨가 못 좋아요.",
+      "answers": [
+        "오늘은 날씨가 안 좋아요"
+      ],
+      "why_uz": "Sifat bilan 못 emas, 안."
+    },
+    {
+      "id": "u04_l1_e019",
+      "type": "translate",
+      "targets": [
+        "u04_l1_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "source_uz": "Men tennisni o'rganmoqchiman.",
+      "answers": [
+        "저는 테니스를 배우고 싶어요",
+        "테니스를 배우고 싶어요",
+        "테니스 배우고 싶어요"
+      ]
+    },
+    {
+      "id": "u04_l1_e020",
+      "type": "translate",
+      "targets": [
+        "u04_l1_g1"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "source_uz": "Men velosiped hayday olmayman.",
+      "answers": [
+        "저는 자전거를 못 타요",
+        "자전거를 못 타요",
+        "자전거 못 타요"
+      ]
+    },
+    {
+      "id": "u04_l1_e021",
+      "type": "translate",
+      "targets": [
+        "u04_l1_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "source_uz": "Dam olish kunlari nima qilmoqchisiz?",
+      "answers": [
+        "주말에 뭐 하고 싶어요",
+        "주말에 뭐를 하고 싶어요",
+        "주말에 무엇을 하고 싶어요"
+      ]
+    },
+    {
+      "id": "u04_l1_e031",
+      "type": "listen_question",
+      "targets": [
+        "u04_l1_g2"
+      ],
+      "prompt_uz": "U nimani o'rganmoqchi?",
+      "audio_text": "저는 요가를 배우고 싶어요.",
+      "options": [
+        "Yoga",
+        "Tennis",
+        "Suzish",
+        "Futbol"
+      ],
+      "answers": [
+        "Yoga"
+      ],
+      "audio": "e4b96192b28b.mp3"
+    },
+    {
+      "id": "u04_l1_e032",
+      "type": "listen_question",
+      "targets": [
+        "u04_l1_g1"
+      ],
+      "prompt_uz": "Gapiruvchi haqida nima to'g'ri?",
+      "audio_text": "저는 스키를 전혀 못 타요.",
+      "options": [
+        "Umuman chang'i ucha olmaydi",
+        "Chang'ini yaxshi uchadi",
+        "Chang'i uchishni o'rganmoqchi",
+        "Chang'ini yoqtiradi"
+      ],
+      "answers": [
+        "Umuman chang'i ucha olmaydi"
+      ],
+      "audio": "72cead3bfbe2.mp3"
+    },
+    {
+      "id": "u04_l1_e033",
+      "type": "listen_question",
+      "targets": [
+        "u04_l1_g2"
+      ],
+      "prompt_uz": "U haftada necha marta basseynga bormoqchi?",
+      "audio_text": "일주일에 두 번 수영장에 가고 싶어요.",
+      "options": [
+        "Ikki marta",
+        "Bir marta",
+        "Uch marta",
+        "Har kuni"
+      ],
+      "answers": [
+        "Ikki marta"
+      ],
+      "audio": "b75351af81e9.mp3"
+    },
+    {
+      "id": "u04_l1_e101",
+      "type": "conjugate",
+      "targets": [
+        "u04_l1_g2"
+      ],
+      "prompt_uz": "'Dam olmoqchiman' shaklini yasang",
+      "base": "쉬다",
+      "form": "-고 싶어요",
+      "answers": [
+        "쉬고 싶어요"
+      ]
+    },
+    {
+      "id": "u04_l1_e102",
+      "type": "conjugate",
+      "targets": [
+        "u04_l1_g1"
+      ],
+      "prompt_uz": "'Bora olmayman' shaklini yasang",
+      "base": "가다",
+      "form": "못 + -아/어요",
+      "answers": [
+        "못 가요"
+      ]
+    },
+    {
+      "id": "u04_l1_e103",
+      "type": "conjugate",
+      "targets": [
+        "u04_l1_g1"
+      ],
+      "prompt_uz": "'Sport qila olmadim' shaklini yasang",
+      "base": "운동하다",
+      "form": "못 + -았/었어요",
+      "answers": [
+        "운동 못 했어요",
+        "운동을 못 했어요"
+      ]
+    },
+    {
+      "id": "u04_l1_e104",
+      "type": "fill_blank",
+      "targets": [
+        "u04_l1_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Ta'tilda tug'ilgan yurtimga bormoqchiman.'",
+      "sentence": "방학에 고향에 ___. (가다)",
+      "answers": [
+        "가고 싶어요"
+      ]
+    },
+    {
+      "id": "u04_l1_e105",
+      "type": "fill_blank",
+      "targets": [
+        "u04_l1_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Men pianino chala olmayman.'",
+      "sentence": "저는 피아노를 ___. (치다)",
+      "answers": [
+        "못 쳐요"
+      ]
+    },
+    {
+      "id": "u04_l1_e106",
+      "type": "fill_blank",
+      "targets": [
+        "u04_l1_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'O'tgan yili Yaponiyaga bormoqchi edim.'",
+      "sentence": "작년에 일본에 ___. (가다)",
+      "answers": [
+        "가고 싶었어요"
+      ]
+    },
+    {
+      "id": "u04_l1_e107",
+      "type": "situation_choice",
+      "targets": [
+        "u04_l1_g2"
+      ],
+      "prompt_uz": "Do'stingizdan nima yemoqchi ekanini so'rang:",
+      "options": [
+        "뭐 먹고 싶어요?",
+        "뭐 먹었어요?",
+        "뭐 못 먹어요?",
+        "뭐 먹을 수 있어요?"
+      ],
+      "answers": [
+        "뭐 먹고 싶어요?"
+      ]
+    },
+    {
+      "id": "u04_l1_e108",
+      "type": "situation_choice",
+      "targets": [
+        "u04_l1_g1"
+      ],
+      "prompt_uz": "Bugun ishingiz juda ko'p, uchrashuvga bora olmaysiz:",
+      "options": [
+        "오늘은 못 가요",
+        "오늘은 안 가요",
+        "오늘은 가고 싶어요",
+        "오늘은 갈 거예요"
+      ],
+      "answers": [
+        "오늘은 못 가요"
+      ]
+    },
+    {
+      "id": "u04_l1_e109",
+      "type": "build_sentence",
+      "targets": [
+        "u04_l1_g1"
+      ],
+      "prompt_uz": "'Men tennisni yaxshi o'ynay olmayman' gapini tuzing",
+      "tokens": [
+        "잘",
+        "쳐요",
+        "저는",
+        "못",
+        "테니스를"
+      ],
+      "answers": [
+        "저는 테니스를 잘 못 쳐요"
+      ]
+    },
+    {
+      "id": "u04_l1_e110",
+      "type": "build_sentence",
+      "targets": [
+        "u04_l1_g2"
+      ],
+      "prompt_uz": "'Dam olish kuni velosiped haydamoqchiman' gapini tuzing",
+      "tokens": [
+        "타고",
+        "주말에",
+        "싶어요",
+        "자전거를"
+      ],
+      "answers": [
+        "주말에 자전거를 타고 싶어요"
+      ]
+    },
+    {
+      "id": "u04_l1_e111",
+      "type": "find_error",
+      "targets": [
+        "u04_l1_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "sentence": "언니는 요가를 배우고 싶어요.",
+      "answers": [
+        "언니는 요가를 배우고 싶어해요"
+      ],
+      "why_uz": "Boshqa odamning xohishi: -고 싶어해요."
+    },
+    {
+      "id": "u04_l1_e112",
+      "type": "find_error",
+      "targets": [
+        "u04_l1_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "sentence": "저는 못 운동해요.",
+      "answers": [
+        "저는 운동 못 해요",
+        "저는 운동을 못 해요"
+      ],
+      "why_uz": "운동하다: 못 o'rtaga kiradi."
+    },
+    {
+      "id": "u04_l1_e113",
+      "type": "translate",
+      "targets": [
+        "u04_l1_g1"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "source_uz": "Men achchiq taom yeya olmayman.",
+      "answers": [
+        "저는 매운 음식을 못 먹어요",
+        "매운 음식을 못 먹어요",
+        "저는 매운 음식 못 먹어요"
+      ]
+    },
+    {
+      "id": "u04_l1_e114",
+      "type": "translate",
+      "targets": [
+        "u04_l1_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "source_uz": "Men Chejuga bormoqchiman.",
+      "answers": [
+        "저는 제주도에 가고 싶어요",
+        "제주도에 가고 싶어요",
+        "제주에 가고 싶어요"
+      ]
+    },
+    {
+      "id": "u04_l1_e115",
+      "type": "listen_question",
+      "targets": [
+        "u04_l1_g1"
+      ],
+      "prompt_uz": "Kecha nima bo'ldi?",
+      "audio_text": "어제는 비가 와서 테니스를 못 쳤어요.",
+      "options": [
+        "Tennis o'ynay olmadi",
+        "Tennis o'ynadi",
+        "Suzdi",
+        "Toqqa chiqdi"
+      ],
+      "answers": [
+        "Tennis o'ynay olmadi"
+      ],
+      "audio": "7b71f7df1955.mp3"
+    }
+  ],
+  "test": [
+    "u04_l1_e101",
+    "u04_l1_e102",
+    "u04_l1_e103",
+    "u04_l1_e104",
+    "u04_l1_e105",
+    "u04_l1_e106",
+    "u04_l1_e107",
+    "u04_l1_e108",
+    "u04_l1_e109",
+    "u04_l1_e110",
+    "u04_l1_e111",
+    "u04_l1_e112",
+    "u04_l1_e113",
+    "u04_l1_e114",
+    "u04_l1_e115"
+  ]
+}

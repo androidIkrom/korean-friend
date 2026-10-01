@@ -10,8 +10,8 @@ Manba: "사랑해요 한국어 2급" onlayn kursining ma'ruzalar ro'yxati (univ.
 | 2-2 | 더 긴 치마는 없어요? | A-(으)ㄴ N, 'ㄹ' 탈락 | Sifatlar, ranglar | yozilgan (+ N보다 더) |
 | 3-1 | 날씨가 좋으면 한라산에 갈 거예요 | V-(으)ㄹ 거예요, A/V-(으)면 | Sayohatga tayyorgarlik | yozilgan |
 | 3-2 | 막국수는 강원도에서 많이 먹는 음식이에요 | V-는 N, A/V-지 않다 | Sayohat baholari | yozilgan |
-| 4-1 | 테니스를 배우고 싶어요 | 못 V, V-고 싶다 | Sport, xobbi | — |
-| 4-2 | 저는 등산하는 걸 좋아해요 | V-는 것, A/V-지만 | Chastota | — |
+| 4-1 | 테니스를 배우고 싶어요 | 못 V, V-고 싶다 | Sport, xobbi | yozilgan |
+| 4-2 | 저는 등산하는 걸 좋아해요 | V-는 것, A/V-지만 | Chastota | yozilgan |
 | 5-1 | 통장을 만들고 싶은데요 | A-(으)ㄴ데요, V-는데요, N인데요, V-아/어 주세요 | Bank | — |
 | 5-2 | 소포를 부치러 왔어요 | V-(으)러 가다/오다, N(으)로 | Pochta | — |
 | 6-1 | 청계천에 어떻게 가야 돼요? | '르' 불규칙, V-아야/어야 되다 | Transport | — |
