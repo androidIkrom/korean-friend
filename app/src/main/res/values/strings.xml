@@ -210,4 +210,10 @@
     <string name="share_lessons">Darslar</string>
     <string name="share_now">Hozir</string>
     <string name="share_footer">사랑해요 한국어 2 · Hangul Friend</string>
+    <string name="rank_title_e">Boshlovchi</string>
+    <string name="rank_title_d">Shogird</string>
+    <string name="rank_title_c">Ovchi</string>
+    <string name="rank_title_b">Ritsar</string>
+    <string name="rank_title_a">Qo\'mondon</string>
+    <string name="rank_title_s">Monarx</string>
 </resources>
