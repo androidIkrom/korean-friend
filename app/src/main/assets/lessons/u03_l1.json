@@ -4,16 +4,20 @@
   "lesson": 1,
   "title_ko": "날씨가 좋으면 한라산에 갈 거예요",
   "title_uz": "Havo yaxshi bo'lsa, Hallasan'ga boraman",
+  "title_en": "If the weather is nice, I'll go to Hallasan",
   "topic_uz": "Sayohat",
+  "topic_en": "Travel",
   "reviewed": false,
   "words": [
     {
       "id": "u03_l1_w001",
       "ko": "여행",
       "uz": "sayohat",
+      "en": "travel, trip",
       "pos": "ot",
       "example_ko": "여행을 좋아해요.",
       "example_uz": "Sayohatni yaxshi ko'raman.",
+      "example_en": "I love travelling.",
       "audio": "ec6beb0aec59.mp3",
       "example_audio": "b3dd619838fc.mp3"
     },
@@ -21,9 +25,11 @@
       "id": "u03_l1_w002",
       "ko": "여행하다",
       "uz": "sayohat qilmoq",
+      "en": "to travel",
       "pos": "fe'l",
       "example_ko": "친구와 같이 여행했어요.",
       "example_uz": "Do'stim bilan birga sayohat qildim.",
+      "example_en": "I travelled with my friend.",
       "audio": "cf4ad2dec60d.mp3",
       "example_audio": "ca098dd98ea6.mp3"
     },
@@ -31,9 +37,11 @@
       "id": "u03_l1_w003",
       "ko": "날씨",
       "uz": "ob-havo",
+      "en": "weather",
       "pos": "ot",
       "example_ko": "오늘 날씨가 좋아요.",
       "example_uz": "Bugun havo yaxshi.",
+      "example_en": "The weather is nice today.",
       "audio": "279698c37e56.mp3",
       "example_audio": "55d48ce58846.mp3"
     },
@@ -41,9 +49,11 @@
       "id": "u03_l1_w004",
       "ko": "맑다",
       "uz": "ochiq, musaffo (osmon)",
+      "en": "clear (sky)",
       "pos": "sifat",
       "example_ko": "하늘이 맑아요.",
       "example_uz": "Osmon musaffo.",
+      "example_en": "The sky is clear.",
       "audio": "81ef42fed58e.mp3",
       "example_audio": "c0b75022c334.mp3"
     },
@@ -51,9 +61,11 @@
       "id": "u03_l1_w005",
       "ko": "흐리다",
       "uz": "bulutli",
+      "en": "cloudy",
       "pos": "sifat",
       "example_ko": "오늘은 좀 흐려요.",
       "example_uz": "Bugun biroz bulutli.",
+      "example_en": "It's a bit cloudy today.",
       "audio": "eb2d89542977.mp3",
       "example_audio": "aa22e7e281fc.mp3"
     },
@@ -61,9 +73,11 @@
       "id": "u03_l1_w006",
       "ko": "비가 오다",
       "uz": "yomg'ir yog'moq",
+      "en": "to rain",
       "pos": "ibora",
       "example_ko": "밖에 비가 와요.",
       "example_uz": "Tashqarida yomg'ir yog'yapti.",
+      "example_en": "It's raining outside.",
       "audio": "eb5f52fa5991.mp3",
       "example_audio": "3c02cfcf6bcc.mp3"
     },
@@ -71,9 +85,11 @@
       "id": "u03_l1_w007",
       "ko": "눈이 오다",
       "uz": "qor yog'moq",
+      "en": "to snow",
       "pos": "ibora",
       "example_ko": "겨울에 눈이 많이 와요.",
       "example_uz": "Qishda qor ko'p yog'adi.",
+      "example_en": "It snows a lot in winter.",
       "audio": "ea71c3f02de6.mp3",
       "example_audio": "801c53fbbe4a.mp3"
     },
@@ -81,9 +97,11 @@
       "id": "u03_l1_w008",
       "ko": "바람이 불다",
       "uz": "shamol esmoq",
+      "en": "the wind blows",
       "pos": "ibora",
       "example_ko": "바람이 많이 불어요.",
       "example_uz": "Kuchli shamol esyapti.",
+      "example_en": "A strong wind is blowing.",
       "audio": "291f3c17eb86.mp3",
       "example_audio": "abd99593170e.mp3"
     },
@@ -91,9 +109,11 @@
       "id": "u03_l1_w009",
       "ko": "덥다",
       "uz": "issiq",
+      "en": "hot",
       "pos": "sifat",
       "example_ko": "여름은 너무 더워요.",
       "example_uz": "Yoz juda issiq.",
+      "example_en": "Summer is very hot.",
       "audio": "86162b708bd4.mp3",
       "example_audio": "465d6ac4ed67.mp3"
     },
@@ -101,9 +121,11 @@
       "id": "u03_l1_w010",
       "ko": "춥다",
       "uz": "sovuq",
+      "en": "cold",
       "pos": "sifat",
       "example_ko": "오늘 정말 추워요.",
       "example_uz": "Bugun juda sovuq.",
+      "example_en": "It's very cold today.",
       "audio": "08f9267c8c3b.mp3",
       "example_audio": "ec052d5efa73.mp3"
     },
@@ -111,9 +133,11 @@
       "id": "u03_l1_w011",
       "ko": "따뜻하다",
       "uz": "iliq",
+      "en": "warm",
       "pos": "sifat",
       "example_ko": "봄에는 날씨가 따뜻해요.",
       "example_uz": "Bahorda havo iliq bo'ladi.",
+      "example_en": "The weather gets warm in spring.",
       "audio": "5cd934e58084.mp3",
       "example_audio": "671c0aea1d93.mp3"
     },
@@ -121,9 +145,11 @@
       "id": "u03_l1_w012",
       "ko": "시원하다",
       "uz": "salqin",
+      "en": "cool",
       "pos": "sifat",
       "example_ko": "가을은 시원해요.",
       "example_uz": "Kuz salqin.",
+      "example_en": "Autumn is cool.",
       "audio": "e248bfb863b6.mp3",
       "example_audio": "a6b85d87e804.mp3"
     },
@@ -131,9 +157,11 @@
       "id": "u03_l1_w013",
       "ko": "산",
       "uz": "tog'",
+      "en": "mountain",
       "pos": "ot",
       "example_ko": "주말에 산에 갔어요.",
       "example_uz": "Dam olish kuni toqqa bordim.",
+      "example_en": "I went to the mountains at the weekend.",
       "audio": "a676895c3d69.mp3",
       "example_audio": "9bd8330c2500.mp3"
     },
@@ -141,9 +169,11 @@
       "id": "u03_l1_w014",
       "ko": "바다",
       "uz": "dengiz",
+      "en": "sea",
       "pos": "ot",
       "example_ko": "바다가 정말 예뻐요.",
       "example_uz": "Dengiz juda chiroyli.",
+      "example_en": "The sea is very beautiful.",
       "audio": "b7f45cd880d7.mp3",
       "example_audio": "cf57cf562954.mp3"
     },
@@ -151,9 +181,11 @@
       "id": "u03_l1_w015",
       "ko": "섬",
       "uz": "orol",
+      "en": "island",
       "pos": "ot",
       "example_ko": "제주도는 큰 섬이에요.",
       "example_uz": "Cheju — katta orol.",
+      "example_en": "Jeju is a big island.",
       "audio": "5e7740b3c546.mp3",
       "example_audio": "2de7784fe19c.mp3"
     },
@@ -161,9 +193,11 @@
       "id": "u03_l1_w016",
       "ko": "제주도",
       "uz": "Cheju oroli",
+      "en": "Jeju Island",
       "pos": "ot",
       "example_ko": "제주도에 가 봤어요?",
       "example_uz": "Chejuga borib ko'rganmisiz?",
+      "example_en": "Have you ever been to Jeju?",
       "audio": "a22a13e13902.mp3",
       "example_audio": "bd7d3092da06.mp3"
     },
@@ -171,9 +205,11 @@
       "id": "u03_l1_w017",
       "ko": "한라산",
       "uz": "Hallasan tog'i",
+      "en": "Hallasan (Mount Halla)",
       "pos": "ot",
       "example_ko": "한라산은 제주도에 있어요.",
       "example_uz": "Hallasan Chejuda joylashgan.",
+      "example_en": "Hallasan is on Jeju.",
       "audio": "e65761dcdace.mp3",
       "example_audio": "d0757ffe826a.mp3"
     },
@@ -181,9 +217,11 @@
       "id": "u03_l1_w018",
       "ko": "비행기",
       "uz": "samolyot",
+      "en": "plane",
       "pos": "ot",
       "example_ko": "비행기로 제주도에 가요.",
       "example_uz": "Chejuga samolyotda boraman.",
+      "example_en": "I'm going to Jeju by plane.",
       "audio": "d88a530b981f.mp3",
       "example_audio": "d26b1d51fc91.mp3"
     },
@@ -191,9 +229,11 @@
       "id": "u03_l1_w019",
       "ko": "기차",
       "uz": "poyezd",
+      "en": "train",
       "pos": "ot",
       "example_ko": "기차로 부산에 갔어요.",
       "example_uz": "Pusanga poyezdda bordim.",
+      "example_en": "I went to Busan by train.",
       "audio": "472b6ffa5c95.mp3",
       "example_audio": "2e1d5bedd28c.mp3"
     },
@@ -201,9 +241,11 @@
       "id": "u03_l1_w020",
       "ko": "호텔",
       "uz": "mehmonxona",
+      "en": "hotel",
       "pos": "ot",
       "example_ko": "호텔이 바다 앞에 있어요.",
       "example_uz": "Mehmonxona dengiz bo'yida.",
+      "example_en": "The hotel is by the sea.",
       "audio": "79a7bdbdcc87.mp3",
       "example_audio": "0a69cebf805a.mp3"
     },
@@ -211,9 +253,11 @@
       "id": "u03_l1_w021",
       "ko": "표",
       "uz": "chipta",
+      "en": "ticket",
       "pos": "ot",
       "example_ko": "기차 표를 샀어요.",
       "example_uz": "Poyezd chiptasini oldim.",
+      "example_en": "I bought a train ticket.",
       "audio": "bd29fb349f36.mp3",
       "example_audio": "7c461ad86911.mp3"
     },
@@ -221,9 +265,11 @@
       "id": "u03_l1_w022",
       "ko": "예약하다",
       "uz": "bron qilmoq",
+      "en": "to book, to reserve",
       "pos": "fe'l",
       "example_ko": "호텔을 예약했어요.",
       "example_uz": "Mehmonxonani bron qildim.",
+      "example_en": "I booked a hotel.",
       "audio": "f832762f5db7.mp3",
       "example_audio": "d517df124e02.mp3"
     },
@@ -231,9 +277,11 @@
       "id": "u03_l1_w023",
       "ko": "사진을 찍다",
       "uz": "rasmga olmoq",
+      "en": "to take a photo",
       "pos": "ibora",
       "example_ko": "여기에서 사진을 찍어요.",
       "example_uz": "Shu yerda rasmga tushamiz.",
+      "example_en": "Let's take a photo here.",
       "audio": "c66ae3092faf.mp3",
       "example_audio": "d2d6994022f9.mp3"
     },
@@ -241,9 +289,11 @@
       "id": "u03_l1_w024",
       "ko": "구경하다",
       "uz": "tomosha qilmoq, aylanib ko'rmoq",
+      "en": "to look around, to sightsee",
       "pos": "fe'l",
       "example_ko": "시장을 구경했어요.",
       "example_uz": "Bozorni aylanib ko'rdim.",
+      "example_en": "I looked around the market.",
       "audio": "2be7eba8f867.mp3",
       "example_audio": "1d7114d14629.mp3"
     },
@@ -251,9 +301,11 @@
       "id": "u03_l1_w025",
       "ko": "박물관",
       "uz": "muzey",
+      "en": "museum",
       "pos": "ot",
       "example_ko": "박물관은 월요일에 쉬어요.",
       "example_uz": "Muzey dushanba kuni yopiq.",
+      "example_en": "The museum is closed on Mondays.",
       "audio": "93e5d3280811.mp3",
       "example_audio": "3445f5900b6f.mp3"
     },
@@ -261,9 +313,11 @@
       "id": "u03_l1_w026",
       "ko": "방학",
       "uz": "ta'til",
+      "en": "holiday, vacation",
       "pos": "ot",
       "example_ko": "다음 주부터 방학이에요.",
       "example_uz": "Keyingi haftadan ta'til.",
+      "example_en": "The holidays start next week.",
       "audio": "232d794e35e2.mp3",
       "example_audio": "1cfb34cfc132.mp3"
     },
@@ -271,9 +325,11 @@
       "id": "u03_l1_w027",
       "ko": "주말",
       "uz": "dam olish kunlari",
+      "en": "the weekend",
       "pos": "ot",
       "example_ko": "주말에 뭐 했어요?",
       "example_uz": "Dam olish kunlari nima qildingiz?",
+      "example_en": "What did you do at the weekend?",
       "audio": "050e54f0b0f4.mp3",
       "example_audio": "9ec1c3bb51b3.mp3"
     },
@@ -281,9 +337,11 @@
       "id": "u03_l1_w028",
       "ko": "다음 주",
       "uz": "keyingi hafta",
+      "en": "next week",
       "pos": "ot",
       "example_ko": "다음 주에 시험이 있어요.",
       "example_uz": "Keyingi hafta imtihon bor.",
+      "example_en": "There's an exam next week.",
       "audio": "965505957696.mp3",
       "example_audio": "69762bd904fb.mp3"
     },
@@ -291,9 +349,11 @@
       "id": "u03_l1_w029",
       "ko": "계획",
       "uz": "reja",
+      "en": "plan",
       "pos": "ot",
       "example_ko": "방학 계획이 있어요?",
       "example_uz": "Ta'til uchun rejangiz bormi?",
+      "example_en": "Do you have plans for the holidays?",
       "audio": "41daf27610b3.mp3",
       "example_audio": "5a4f41595b59.mp3"
     },
@@ -301,9 +361,11 @@
       "id": "u03_l1_w030",
       "ko": "출발하다",
       "uz": "jo'nab ketmoq",
+      "en": "to depart, to leave",
       "pos": "fe'l",
       "example_ko": "기차가 아홉 시에 출발해요.",
       "example_uz": "Poyezd soat to'qqizda jo'naydi.",
+      "example_en": "The train leaves at nine o'clock.",
       "audio": "7cf3f936c7e7.mp3",
       "example_audio": "9ecc742438e1.mp3"
     },
@@ -311,9 +373,11 @@
       "id": "u03_l1_w031",
       "ko": "도착하다",
       "uz": "yetib kelmoq",
+      "en": "to arrive",
       "pos": "fe'l",
       "example_ko": "제주도에 도착했어요.",
       "example_uz": "Chejuga yetib keldim.",
+      "example_en": "I arrived in Jeju.",
       "audio": "6789bc6f5335.mp3",
       "example_audio": "c5c5dd6ee746.mp3"
     },
@@ -321,9 +385,11 @@
       "id": "u03_l1_w032",
       "ko": "고향",
       "uz": "tug'ilgan yurt",
+      "en": "hometown",
       "pos": "ot",
       "example_ko": "제 고향은 사마르칸트예요.",
       "example_uz": "Mening tug'ilgan yurtim — Samarqand.",
+      "example_en": "My hometown is Samarkand.",
       "audio": "7d232ebe27f0.mp3",
       "example_audio": "4e5ed98823d8.mp3"
     }
@@ -333,30 +399,37 @@
       "id": "u03_l1_g1",
       "pattern": "A/V-(으)면",
       "meaning_uz": "-sa: shart (agar ... bo'lsa)",
+      "meaning_en": "If: a condition",
       "explanation_md": "**-(으)면** o'zbekchadagi **\"-sa\"** qo'shimchasiga to'g'ri keladi. Birinchi qism shartni, ikkinchi qism natijani bildiradi.\n\n**날씨가 좋으면 한라산에 갈 거예요.** — *Havo yaxshi bo'lsa, Hallasan'ga boraman.*\n\n### Qanday yasaladi\n\n- **받침 yo'q** → **-면**: 가다 → **가면**, 오다 → **오면**\n- **받침 bor** → **-으면**: 먹다 → **먹으면**, 좋다 → **좋으면**, 있다 → **있으면**\n- **ㄹ bilan tugasa** → shunchaki **-면**: 불다 → **불면**, 만들다 → **만들면**\n- **ㅂ bilan tugasa** → ㅂ o'rniga **우 + 면**: 덥다 → **더우면**, 춥다 → **추우면**\n- **ㄷ bilan tugasa (ba'zi fe'llar)** → ㄷ → ㄹ: 듣다 → **들으면**\n\n### Esda tuting\n\n- Shart qismi har doim **gapning boshida** keladi, xuddi o'zbekchadagidek.\n- Shart qismida zamon ko'rsatilmaydi: kelasi zamon bo'lsa ham **비가 오면** deyiladi (~~비가 올 거면~~ emas).\n- Natija qismida ko'pincha **-(으)ㄹ 거예요**, **-(으)세요** yoki oddiy **-아/어요** keladi.",
+      "explanation_md_en": "**-(으)면** works like English **\"if\"**. The first part gives the condition, the second part the result.\n\n**날씨가 좋으면 한라산에 갈 거예요.** — *If the weather is nice, I'll go to Hallasan.*\n\n### How to form it\n\n- **No 받침** → **-면**: 가다 → **가면**, 오다 → **오면**\n- **With 받침** → **-으면**: 먹다 → **먹으면**, 좋다 → **좋으면**, 있다 → **있으면**\n- **Ends in ㄹ** → just **-면**: 불다 → **불면**, 만들다 → **만들면**\n- **Ends in ㅂ** → **우 + 면** replaces ㅂ: 덥다 → **더우면**, 춥다 → **추우면**\n- **Ends in ㄷ (some verbs)** → ㄷ → ㄹ: 듣다 → **들으면**\n\n### Remember\n\n- The condition always comes **first** in Korean.\n- The condition part has no tense: even about the future you say **비가 오면** (not ~~비가 올 거면~~) — just like English \"if it rains\", not \"if it will rain\".\n- The result part often uses **-(으)ㄹ 거예요**, **-(으)세요** or plain **-아/어요**.",
       "formation": [
         {
           "condition_uz": "받침 yo'q",
+          "condition_en": "No 받침",
           "rule": "-면",
           "example": "가다 → 가면, 오다 → 오면"
         },
         {
           "condition_uz": "받침 bor",
+          "condition_en": "With 받침",
           "rule": "-으면",
           "example": "먹다 → 먹으면, 좋다 → 좋으면"
         },
         {
           "condition_uz": "ㄹ bilan tugasa",
+          "condition_en": "Ends in ㄹ",
           "rule": "-면",
           "example": "불다 → 불면, 만들다 → 만들면"
         },
         {
           "condition_uz": "ㅂ bilan tugasa",
+          "condition_en": "Ends in ㅂ",
           "rule": "-우면",
           "example": "덥다 → 더우면, 춥다 → 추우면"
         },
         {
           "condition_uz": "듣다 kabi ㄷ fe'llar",
+          "condition_en": "ㄷ verbs like 듣다",
           "rule": "ㄷ → ㄹ + -으면",
           "example": "듣다 → 들으면"
         }
@@ -365,26 +438,31 @@
         {
           "ko": "날씨가 좋으면 한라산에 갈 거예요.",
           "uz": "Havo yaxshi bo'lsa, Hallasan'ga boraman.",
+          "en": "If the weather is nice, I'll go to Hallasan.",
           "audio": "157812b860c1.mp3"
         },
         {
           "ko": "비가 오면 집에 있을 거예요.",
           "uz": "Yomg'ir yog'sa, uyda bo'laman.",
+          "en": "If it rains, I'll stay at home.",
           "audio": "785848a4d5a7.mp3"
         },
         {
           "ko": "시간이 있으면 같이 여행해요.",
           "uz": "Vaqtingiz bo'lsa, birga sayohat qilaylik.",
+          "en": "If you have time, let's travel together.",
           "audio": "0176191514cf.mp3"
         },
         {
           "ko": "더우면 바다에 가요.",
           "uz": "Issiq bo'lsa, dengizga boramiz.",
+          "en": "If it's hot, we'll go to the sea.",
           "audio": "f8d441971cb7.mp3"
         },
         {
           "ko": "이 버스를 타면 공항에 가요.",
           "uz": "Bu avtobusga minsangiz, aeroportga borasiz.",
+          "en": "If you take this bus, you'll get to the airport.",
           "audio": "d901a784b82a.mp3"
         }
       ],
@@ -392,44 +470,54 @@
         {
           "wrong": "날씨가 좋면",
           "right": "날씨가 좋으면",
-          "why_uz": "좋다 da 받침 bor, shuning uchun -으면 qo'shiladi."
+          "why_uz": "좋다 da 받침 bor, shuning uchun -으면 qo'shiladi.",
+          "why_en": "좋다 has 받침, so -으면 is added."
         },
         {
           "wrong": "덥으면",
           "right": "더우면",
-          "why_uz": "덥다 ㅂ bilan tugaydi: ㅂ → 우, keyin -면."
+          "why_uz": "덥다 ㅂ bilan tugaydi: ㅂ → 우, keyin -면.",
+          "why_en": "덥다 ends in ㅂ: ㅂ → 우, then -면."
         },
         {
           "wrong": "바람이 불으면",
           "right": "바람이 불면",
-          "why_uz": "ㄹ bilan tugaydigan o'zakka faqat -면 qo'shiladi."
+          "why_uz": "ㄹ bilan tugaydigan o'zakka faqat -면 qo'shiladi.",
+          "why_en": "A stem ending in ㄹ takes just -면."
         }
       ],
-      "uz_compare": "-(으)면 o'zbekchadagi '-sa' bilan bir xil ishlaydi: 'Havo yaxshi BO'LSA, boraman' = 날씨가 좋으면 갈 거예요. Tartib ham bir xil: avval shart, keyin natija."
+      "uz_compare": "-(으)면 o'zbekchadagi '-sa' bilan bir xil ishlaydi: 'Havo yaxshi BO'LSA, boraman' = 날씨가 좋으면 갈 거예요. Tartib ham bir xil: avval shart, keyin natija.",
+      "compare_en": "-(으)면 works like English 'if': 'IF the weather is nice, I'll go' = 날씨가 좋으면 갈 거예요. But 'if' is a separate word at the start, while -(으)면 is an ending on the verb, and the condition always comes first in Korean."
     },
     {
       "id": "u03_l1_g2",
       "pattern": "V-(으)ㄹ 거예요",
       "meaning_uz": "Kelasi zamon: reja (\"...-man\") yoki taxmin (\"...-sa kerak\")",
+      "meaning_en": "Future: a plan ('I'm going to…') or a guess ('it will probably…')",
       "explanation_md": "**-(으)ㄹ 거예요** kelajak haqida gapirish uchun ishlatiladi:\n\n1. **Reja, niyat** (men, biz haqimizda): **다음 주에 제주도에 갈 거예요.** — *Keyingi hafta Chejuga boraman.*\n2. **Taxmin** (ob-havo, boshqalar haqida): **내일은 비가 올 거예요.** — *Ertaga yomg'ir yog'sa kerak.*\n\n### Qanday yasaladi\n\n- **받침 yo'q** → **-ㄹ 거예요**: 가다 → **갈 거예요**, 보다 → **볼 거예요**\n- **받침 bor** → **-을 거예요**: 먹다 → **먹을 거예요**, 찍다 → **찍을 거예요**\n- **ㄹ bilan tugasa** → **-거예요**: 만들다 → **만들 거예요**, 놀다 → **놀 거예요**\n- **ㅂ bilan tugasa** → **-울 거예요**: 춥다 → **추울 거예요**\n- **듣다** → **들을 거예요**\n\n### Savol\n\n**주말에 뭐 할 거예요?** — *Dam olish kunlari nima qilasiz?*\n\n### Imlo\n\nYozuvda **거예요** (거 + 이에요) — ~~거에요~~ emas. Bu koreyslar ham ko'p xato qiladigan joy!",
+      "explanation_md_en": "**-(으)ㄹ 거예요** is used to talk about the future:\n\n1. **A plan or intention** (about me, us): **다음 주에 제주도에 갈 거예요.** — *I'm going to Jeju next week.*\n2. **A guess** (the weather, other people): **내일은 비가 올 거예요.** — *It will probably rain tomorrow.*\n\n### How to form it\n\n- **No 받침** → **-ㄹ 거예요**: 가다 → **갈 거예요**, 보다 → **볼 거예요**\n- **With 받침** → **-을 거예요**: 먹다 → **먹을 거예요**, 찍다 → **찍을 거예요**\n- **Ends in ㄹ** → **-거예요**: 만들다 → **만들 거예요**, 놀다 → **놀 거예요**\n- **Ends in ㅂ** → **-울 거예요**: 춥다 → **추울 거예요**\n- **듣다** → **들을 거예요**\n\n### Question\n\n**주말에 뭐 할 거예요?** — *What are you going to do at the weekend?*\n\n### Spelling\n\nIt is written **거예요** (거 + 이에요), not ~~거에요~~. Even Koreans often get this wrong!",
       "formation": [
         {
           "condition_uz": "받침 yo'q",
+          "condition_en": "No 받침",
           "rule": "-ㄹ 거예요",
           "example": "가다 → 갈 거예요"
         },
         {
           "condition_uz": "받침 bor",
+          "condition_en": "With 받침",
           "rule": "-을 거예요",
           "example": "먹다 → 먹을 거예요"
         },
         {
           "condition_uz": "ㄹ bilan tugasa",
+          "condition_en": "Ends in ㄹ",
           "rule": "-거예요",
           "example": "만들다 → 만들 거예요"
         },
         {
           "condition_uz": "ㅂ bilan tugasa",
+          "condition_en": "Ends in ㅂ",
           "rule": "-울 거예요",
           "example": "춥다 → 추울 거예요"
         }
@@ -438,26 +526,31 @@
         {
           "ko": "다음 주에 제주도에 갈 거예요.",
           "uz": "Keyingi hafta Chejuga boraman.",
+          "en": "I'm going to Jeju next week.",
           "audio": "e3738e6283fb.mp3"
         },
         {
           "ko": "주말에 뭐 할 거예요?",
           "uz": "Dam olish kunlari nima qilasiz?",
+          "en": "What are you going to do at the weekend?",
           "audio": "ac2bc8b2c21a.mp3"
         },
         {
           "ko": "내일은 비가 올 거예요.",
           "uz": "Ertaga yomg'ir yog'sa kerak.",
+          "en": "It will probably rain tomorrow.",
           "audio": "513677c1f8ea.mp3"
         },
         {
           "ko": "사진을 많이 찍을 거예요.",
           "uz": "Ko'p rasmga olaman.",
+          "en": "I'm going to take lots of photos.",
           "audio": "ca2a34e60335.mp3"
         },
         {
           "ko": "호텔에서 쉴 거예요.",
           "uz": "Mehmonxonada dam olaman.",
+          "en": "I'm going to rest at the hotel.",
           "audio": "46cbe762b9a1.mp3"
         }
       ],
@@ -465,20 +558,24 @@
         {
           "wrong": "갈 거에요",
           "right": "갈 거예요",
-          "why_uz": "거 + 이에요 = 거예요. Yozuvda har doim 거예요."
+          "why_uz": "거 + 이에요 = 거예요. Yozuvda har doim 거예요.",
+          "why_en": "거 + 이에요 = 거예요. Always write 거예요."
         },
         {
           "wrong": "먹 거예요",
           "right": "먹을 거예요",
-          "why_uz": "받침 bor o'zakka -을 qo'shiladi."
+          "why_uz": "받침 bor o'zakka -을 qo'shiladi.",
+          "why_en": "A stem with 받침 takes -을."
         },
         {
           "wrong": "만들을 거예요",
           "right": "만들 거예요",
-          "why_uz": "ㄹ bilan tugaydigan o'zakka qo'shimcha ㄹ kerak emas."
+          "why_uz": "ㄹ bilan tugaydigan o'zakka qo'shimcha ㄹ kerak emas.",
+          "why_en": "A stem ending in ㄹ doesn't need another ㄹ."
         }
       ],
-      "uz_compare": "O'zbekchada 'boraman' ham hozirgi, ham kelasi zamonni bildiradi. Koreyschada kelajakdagi reja uchun aniq shakl bor: 갈 거예요. Taxmin ma'nosi esa o'zbekchadagi '-sa kerak' ga o'xshaydi: 비가 올 거예요 = yomg'ir yog'sa kerak."
+      "uz_compare": "O'zbekchada 'boraman' ham hozirgi, ham kelasi zamonni bildiradi. Koreyschada kelajakdagi reja uchun aniq shakl bor: 갈 거예요. Taxmin ma'nosi esa o'zbekchadagi '-sa kerak' ga o'xshaydi: 비가 올 거예요 = yomg'ir yog'sa kerak.",
+      "compare_en": "English also has two meanings for 'going to / will': a plan ('I'm going to Jeju') and a guess ('it will rain'). Korean -(으)ㄹ 거예요 covers both: 갈 거예요 = I'm going to go, 비가 올 거예요 = it will probably rain."
     }
   ],
   "dialogue": {
@@ -487,66 +584,77 @@
         "speaker": "minji",
         "ko": "아지즈 씨, 방학에 뭐 할 거예요?",
         "uz": "Aziz, ta'tilda nima qilasiz?",
+        "en": "Aziz, what are you going to do in the holidays?",
         "audio": "260a7919e70d.mp3"
       },
       {
         "speaker": "aziz",
         "ko": "제주도에 여행 갈 거예요.",
         "uz": "Chejuga sayohatga boraman.",
+        "en": "I'm going on a trip to Jeju.",
         "audio": "df86237d9cb0.mp3"
       },
       {
         "speaker": "minji",
         "ko": "와, 좋아요! 제주도에서 뭐 할 거예요?",
         "uz": "Voy, zo'r! Chejuda nima qilasiz?",
+        "en": "Wow, great! What will you do in Jeju?",
         "audio": "78a3f26d6e36.mp3"
       },
       {
         "speaker": "aziz",
         "ko": "날씨가 좋으면 한라산에 갈 거예요.",
         "uz": "Havo yaxshi bo'lsa, Hallasan'ga chiqaman.",
+        "en": "If the weather is nice, I'll climb Hallasan.",
         "audio": "0119829328d6.mp3"
       },
       {
         "speaker": "minji",
         "ko": "비가 오면요?",
         "uz": "Yomg'ir yog'sa-chi?",
+        "en": "And if it rains?",
         "audio": "ab775fa86aaf.mp3"
       },
       {
         "speaker": "aziz",
         "ko": "비가 오면 박물관을 구경할 거예요.",
         "uz": "Yomg'ir yog'sa, muzeyni tomosha qilaman.",
+        "en": "If it rains, I'll look around a museum.",
         "audio": "f8d28c82acc8.mp3"
       },
       {
         "speaker": "minji",
         "ko": "비행기 표는 예약했어요?",
         "uz": "Samolyot chiptasini bron qildingizmi?",
+        "en": "Did you book your plane ticket?",
         "audio": "c1fa6109fd0a.mp3"
       },
       {
         "speaker": "aziz",
         "ko": "네, 어제 예약했어요. 호텔도 예약했어요.",
         "uz": "Ha, kecha bron qildim. Mehmonxonani ham.",
+        "en": "Yes, I booked it yesterday. The hotel too.",
         "audio": "5f7343dd0f11.mp3"
       },
       {
         "speaker": "minji",
         "ko": "제주도는 바다가 정말 예뻐요. 사진을 많이 찍으세요.",
         "uz": "Chejuning dengizi juda chiroyli. Ko'p rasmga oling.",
+        "en": "The sea in Jeju is really beautiful. Take lots of photos.",
         "audio": "29fe73453d2b.mp3"
       },
       {
         "speaker": "aziz",
         "ko": "네, 많이 찍을 거예요. 민지 씨는 방학에 뭐 할 거예요?",
         "uz": "Ha, ko'p rasmga olaman. Minji, siz ta'tilda nima qilasiz?",
+        "en": "Yes, I'll take lots of photos. Minji, what are you going to do in the holidays?",
         "audio": "5d8e590d72de.mp3"
       },
       {
         "speaker": "minji",
         "ko": "저는 고향에 갈 거예요. 시간이 있으면 같이 여행해요!",
         "uz": "Men tug'ilgan yurtimga boraman. Vaqt bo'lsa, birga sayohat qilaylik!",
+        "en": "I'm going to my hometown. If we have time, let's travel together!",
         "audio": "e70f6ac73aca.mp3"
       }
     ]
@@ -559,6 +667,7 @@
         "u03_l1_g1"
       ],
       "prompt_uz": "'Borsa' shaklini yasang",
+      "prompt_en": "Make the form 'if (I) go'",
       "base": "가다",
       "form": "-(으)면",
       "answers": [
@@ -572,6 +681,7 @@
         "u03_l1_g1"
       ],
       "prompt_uz": "'Yesa' shaklini yasang",
+      "prompt_en": "Make the form 'if (I) eat'",
       "base": "먹다",
       "form": "-(으)면",
       "answers": [
@@ -585,12 +695,14 @@
         "u03_l1_g1"
       ],
       "prompt_uz": "'Issiq bo'lsa' shaklini yasang",
+      "prompt_en": "Make the form 'if it's hot'",
       "base": "덥다",
       "form": "-(으)면",
       "answers": [
         "더우면"
       ],
-      "hint_uz": "ㅂ → 우"
+      "hint_uz": "ㅂ → 우",
+      "hint_en": "ㅂ → 우"
     },
     {
       "id": "u03_l1_e004",
@@ -599,6 +711,7 @@
         "u03_l1_g2"
       ],
       "prompt_uz": "'Boraman (reja)' shaklini yasang",
+      "prompt_en": "Make the form 'I'm going to go (plan)'",
       "base": "가다",
       "form": "-(으)ㄹ 거예요",
       "answers": [
@@ -612,6 +725,7 @@
         "u03_l1_g2"
       ],
       "prompt_uz": "'Rasmga olaman' shaklini yasang",
+      "prompt_en": "Make the form 'I'm going to take photos'",
       "base": "찍다",
       "form": "-(으)ㄹ 거예요",
       "answers": [
@@ -625,12 +739,14 @@
         "u03_l1_g2"
       ],
       "prompt_uz": "'Yasayman' shaklini yasang",
+      "prompt_en": "Make the form 'I'm going to make'",
       "base": "만들다",
       "form": "-(으)ㄹ 거예요",
       "answers": [
         "만들 거예요"
       ],
-      "hint_uz": "ㄹ bilan tugaydi"
+      "hint_uz": "ㄹ bilan tugaydi",
+      "hint_en": "Ends in ㄹ"
     },
     {
       "id": "u03_l1_e007",
@@ -639,6 +755,7 @@
         "u03_l1_g1"
       ],
       "prompt_uz": "Bo'sh joyni to'ldiring: 'Yomg'ir yog'sa, uyda bo'laman.'",
+      "prompt_en": "Fill in the blank: 'If it rains, I'll stay at home.'",
       "sentence": "비가 ___ 집에 있을 거예요. (오다)",
       "answers": [
         "오면"
@@ -651,6 +768,7 @@
         "u03_l1_g1"
       ],
       "prompt_uz": "Bo'sh joyni to'ldiring: 'Vaqt bo'lsa, birga sayohat qilaylik.'",
+      "prompt_en": "Fill in the blank: 'If we have time, let's travel together.'",
       "sentence": "시간이 ___ 같이 여행해요. (있다)",
       "answers": [
         "있으면"
@@ -663,6 +781,7 @@
         "u03_l1_g2"
       ],
       "prompt_uz": "Bo'sh joyni to'ldiring: 'Keyingi hafta Chejuga boraman.'",
+      "prompt_en": "Fill in the blank: 'I'm going to Jeju next week.'",
       "sentence": "다음 주에 제주도에 ___. (가다)",
       "answers": [
         "갈 거예요"
@@ -675,11 +794,13 @@
         "u03_l1_g2"
       ],
       "prompt_uz": "Bo'sh joyni to'ldiring: 'Ertaga havo sovuq bo'lsa kerak.'",
+      "prompt_en": "Fill in the blank: 'It will probably be cold tomorrow.'",
       "sentence": "내일은 날씨가 ___. (춥다)",
       "answers": [
         "추울 거예요"
       ],
-      "hint_uz": "ㅂ → 우"
+      "hint_uz": "ㅂ → 우",
+      "hint_en": "ㅂ → 우"
     },
     {
       "id": "u03_l1_e011",
@@ -688,6 +809,7 @@
         "u03_l1_g2"
       ],
       "prompt_uz": "Do'stingizdan dam olish kunlari rejasini so'rang:",
+      "prompt_en": "Ask your friend about their weekend plans:",
       "options": [
         "주말에 뭐 할 거예요?",
         "주말에 뭐 했어요?",
@@ -705,6 +827,7 @@
         "u03_l1_w004"
       ],
       "prompt_uz": "Osmon ochiq, quyosh charaqlayapti. Ob-havo qanday?",
+      "prompt_en": "The sky is clear and the sun is shining. What's the weather like?",
       "options": [
         "맑아요",
         "흐려요",
@@ -722,6 +845,7 @@
         "u03_l1_g1"
       ],
       "prompt_uz": "'Issiq bo'lsa, dengizga boramiz' qaysi biri?",
+      "prompt_en": "Which one means 'If it's hot, we'll go to the sea'?",
       "options": [
         "더우면 바다에 가요",
         "더워서 바다에 가요",
@@ -740,6 +864,7 @@
         "u03_l1_g2"
       ],
       "prompt_uz": "'Havo yaxshi bo'lsa, Hallasan'ga boraman' gapini tuzing",
+      "prompt_en": "Build the sentence 'If the weather is nice, I'll go to Hallasan'",
       "tokens": [
         "갈",
         "한라산에",
@@ -758,6 +883,7 @@
         "u03_l1_g2"
       ],
       "prompt_uz": "'Dam olish kunlari rasmga olaman' gapini tuzing",
+      "prompt_en": "Build the sentence 'I'm going to take photos at the weekend'",
       "tokens": [
         "찍을",
         "주말에",
@@ -776,11 +902,13 @@
         "u03_l1_g1"
       ],
       "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
       "sentence": "날씨가 좋면 산에 가요.",
       "answers": [
         "날씨가 좋으면 산에 가요"
       ],
-      "why_uz": "좋다 da 받침 bor: 좋으면."
+      "why_uz": "좋다 da 받침 bor: 좋으면.",
+      "why_en": "좋다 has 받침: 좋으면."
     },
     {
       "id": "u03_l1_e017",
@@ -789,11 +917,13 @@
         "u03_l1_g2"
       ],
       "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
       "sentence": "내일 영화를 볼 거에요.",
       "answers": [
         "내일 영화를 볼 거예요"
       ],
-      "why_uz": "To'g'ri yozilishi: 거예요."
+      "why_uz": "To'g'ri yozilishi: 거예요.",
+      "why_en": "The correct spelling is 거예요."
     },
     {
       "id": "u03_l1_e018",
@@ -802,11 +932,13 @@
         "u03_l1_g1"
       ],
       "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
       "sentence": "바람이 불으면 추워요.",
       "answers": [
         "바람이 불면 추워요"
       ],
-      "why_uz": "불다 ㄹ bilan tugaydi: 불면."
+      "why_uz": "불다 ㄹ bilan tugaydi: 불면.",
+      "why_en": "불다 ends in ㄹ: 불면."
     },
     {
       "id": "u03_l1_e019",
@@ -815,7 +947,9 @@
         "u03_l1_g1"
       ],
       "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
       "source_uz": "Yomg'ir yog'sa, uyda bo'laman.",
+      "source_en": "If it rains, I'll stay at home.",
       "answers": [
         "비가 오면 집에 있을 거예요",
         "비가 오면 집에 있어요",
@@ -829,7 +963,9 @@
         "u03_l1_g2"
       ],
       "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
       "source_uz": "Keyingi hafta Chejuga boraman.",
+      "source_en": "I'm going to Jeju next week.",
       "answers": [
         "다음 주에 제주도에 갈 거예요",
         "저는 다음 주에 제주도에 갈 거예요",
@@ -844,7 +980,9 @@
         "u03_l1_g2"
       ],
       "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
       "source_uz": "Ertaga sovuq bo'lsa kerak.",
+      "source_en": "It will probably be cold tomorrow.",
       "answers": [
         "내일은 추울 거예요",
         "내일 추울 거예요",
@@ -859,12 +997,19 @@
         "u03_l1_g1"
       ],
       "prompt_uz": "Yomg'ir yog'sa, u nima qiladi?",
+      "prompt_en": "What will they do if it rains?",
       "audio_text": "비가 오면 박물관을 구경할 거예요.",
       "options": [
         "Muzeyni tomosha qiladi",
         "Toqqa chiqadi",
         "Uyda qoladi",
         "Dengizga boradi"
+      ],
+      "options_en": [
+        "Look around a museum",
+        "Climb a mountain",
+        "Stay at home",
+        "Go to the sea"
       ],
       "answers": [
         "Muzeyni tomosha qiladi"
@@ -878,12 +1023,19 @@
         "u03_l1_g2"
       ],
       "prompt_uz": "U dam olish kunlari qayerga boradi?",
+      "prompt_en": "Where are they going at the weekend?",
       "audio_text": "주말에 바다에 갈 거예요.",
       "options": [
         "Dengizga",
         "Toqqa",
         "Muzeyga",
         "Mehmonxonaga"
+      ],
+      "options_en": [
+        "To the sea",
+        "To the mountains",
+        "To a museum",
+        "To a hotel"
       ],
       "answers": [
         "Dengizga"
@@ -897,12 +1049,19 @@
         "u03_l1_g1"
       ],
       "prompt_uz": "Issiq bo'lsa nima qilish kerak?",
+      "prompt_en": "What should you do if it's hot?",
       "audio_text": "더우면 시원한 물을 마시세요.",
       "options": [
         "Salqin suv ichish",
         "Issiq choy ichish",
         "Palto kiyish",
         "Uxlash"
+      ],
+      "options_en": [
+        "Drink cool water",
+        "Drink hot tea",
+        "Wear a coat",
+        "Sleep"
       ],
       "answers": [
         "Salqin suv ichish"
@@ -916,12 +1075,14 @@
         "u03_l1_g1"
       ],
       "prompt_uz": "'Eshitsa' shaklini yasang",
+      "prompt_en": "Make the form 'if (I) listen'",
       "base": "듣다",
       "form": "-(으)면",
       "answers": [
         "들으면"
       ],
-      "hint_uz": "ㄷ → ㄹ"
+      "hint_uz": "ㄷ → ㄹ",
+      "hint_en": "ㄷ → ㄹ"
     },
     {
       "id": "u03_l1_e102",
@@ -930,6 +1091,7 @@
         "u03_l1_g2"
       ],
       "prompt_uz": "'Dam olaman' shaklini yasang",
+      "prompt_en": "Make the form 'I'm going to rest'",
       "base": "쉬다",
       "form": "-(으)ㄹ 거예요",
       "answers": [
@@ -943,6 +1105,7 @@
         "u03_l1_g2"
       ],
       "prompt_uz": "'O'qiyman' shaklini yasang",
+      "prompt_en": "Make the form 'I'm going to read'",
       "base": "읽다",
       "form": "-(으)ㄹ 거예요",
       "answers": [
@@ -956,6 +1119,7 @@
         "u03_l1_g1"
       ],
       "prompt_uz": "Bo'sh joyni to'ldiring: 'Qor yog'sa, toqqa bormayman.'",
+      "prompt_en": "Fill in the blank: 'If it snows, I won't go to the mountains.'",
       "sentence": "눈이 ___ 산에 안 가요. (오다)",
       "answers": [
         "오면"
@@ -968,6 +1132,7 @@
         "u03_l1_g2"
       ],
       "prompt_uz": "Bo'sh joyni to'ldiring: 'Ta'tilda tug'ilgan yurtimga boraman.'",
+      "prompt_en": "Fill in the blank: 'In the holidays I'm going to my hometown.'",
       "sentence": "방학에 고향에 ___. (가다)",
       "answers": [
         "갈 거예요"
@@ -980,6 +1145,7 @@
         "u03_l1_g1"
       ],
       "prompt_uz": "Bo'sh joyni to'ldiring: 'Charchagan bo'lsangiz, mehmonxonada dam oling.'",
+      "prompt_en": "Fill in the blank: 'If you're tired, rest at the hotel.'",
       "sentence": "___ 호텔에서 쉬세요. (피곤하다)",
       "answers": [
         "피곤하면"
@@ -992,6 +1158,7 @@
         "u03_l1_g2"
       ],
       "prompt_uz": "'Ertaga yomg'ir yog'sa kerak' qaysi biri?",
+      "prompt_en": "Which one means 'It will probably rain tomorrow'?",
       "options": [
         "내일 비가 올 거예요",
         "어제 비가 왔어요",
@@ -1009,6 +1176,7 @@
         "u03_l1_w022"
       ],
       "prompt_uz": "Mehmonxonada oldindan joy band qilmoqchisiz. Qaysi fe'l kerak?",
+      "prompt_en": "You want to reserve a room at a hotel in advance. Which verb do you need?",
       "options": [
         "예약하다",
         "출발하다",
@@ -1026,6 +1194,7 @@
         "u03_l1_g1"
       ],
       "prompt_uz": "'Vaqt bo'lsa, birga sayohat qilaylik' gapini tuzing",
+      "prompt_en": "Build the sentence 'If we have time, let's travel together'",
       "tokens": [
         "같이",
         "있으면",
@@ -1043,6 +1212,7 @@
         "u03_l1_g2"
       ],
       "prompt_uz": "'Ertaga poyezdda jo'nab ketaman' gapini tuzing",
+      "prompt_en": "Build the sentence 'I'm leaving by train tomorrow'",
       "tokens": [
         "출발할",
         "내일",
@@ -1061,11 +1231,13 @@
         "u03_l1_g2"
       ],
       "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
       "sentence": "주말에 친구를 만나을 거예요.",
       "answers": [
         "주말에 친구를 만날 거예요"
       ],
-      "why_uz": "만나다 da 받침 yo'q: 만날 거예요."
+      "why_uz": "만나다 da 받침 yo'q: 만날 거예요.",
+      "why_en": "만나다 has no 받침: 만날 거예요."
     },
     {
       "id": "u03_l1_e112",
@@ -1074,11 +1246,13 @@
         "u03_l1_g1"
       ],
       "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
       "sentence": "춥으면 코트를 입으세요.",
       "answers": [
         "추우면 코트를 입으세요"
       ],
-      "why_uz": "춥다 → 추우면 (ㅂ → 우)."
+      "why_uz": "춥다 → 추우면 (ㅂ → 우).",
+      "why_en": "춥다 → 추우면 (ㅂ → 우)."
     },
     {
       "id": "u03_l1_e113",
@@ -1087,7 +1261,9 @@
         "u03_l1_g1"
       ],
       "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
       "source_uz": "Vaqtingiz bo'lsa, birga boraylik.",
+      "source_en": "If you have time, let's go together.",
       "answers": [
         "시간이 있으면 같이 가요",
         "시간 있으면 같이 가요",
@@ -1101,7 +1277,9 @@
         "u03_l1_g2"
       ],
       "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
       "source_uz": "Ko'p rasmga olaman.",
+      "source_en": "I'm going to take lots of photos.",
       "answers": [
         "사진을 많이 찍을 거예요",
         "저는 사진을 많이 찍을 거예요",
@@ -1115,12 +1293,19 @@
         "u03_l1_g2"
       ],
       "prompt_uz": "U Pusanga qachon boradi?",
+      "prompt_en": "When are they going to Busan?",
       "audio_text": "다음 달에 부산에 갈 거예요.",
       "options": [
         "Keyingi oyda",
         "Kecha",
         "Hozir",
         "O'tgan oyda"
+      ],
+      "options_en": [
+        "Next month",
+        "Yesterday",
+        "Now",
+        "Last month"
       ],
       "answers": [
         "Keyingi oyda"
@@ -1147,12 +1332,14 @@
   ],
   "story": {
     "title_uz": "Jeju sayohati rejasi",
+    "title_en": "Planning a trip to Jeju",
     "steps": [
       {
         "type": "line",
         "speaker": "minji",
         "ko": "아지즈 씨, 방학에 뭐 할 거예요?",
         "uz": "Aziz, ta'tilda nima qilasiz?",
+        "en": "Aziz, what are you going to do in the holidays?",
         "audio": "260a7919e70d.mp3"
       },
       {
@@ -1160,6 +1347,7 @@
         "speaker": "aziz",
         "ko": "제주도에 여행 갈 거예요.",
         "uz": "Jeju oroliga sayohatga boraman.",
+        "en": "I'm going on a trip to Jeju Island.",
         "audio": "df86237d9cb0.mp3"
       },
       {
@@ -1167,6 +1355,7 @@
         "speaker": "minji",
         "ko": "와, 좋아요! 비행기 표는 예약했어요?",
         "uz": "Voy, zo'r! Samolyot chiptasini band qildingizmi?",
+        "en": "Wow, great! Did you book your plane ticket?",
         "audio": "50304d818f56.mp3"
       },
       {
@@ -1174,6 +1363,7 @@
         "speaker": "aziz",
         "ko": "네, 다음 주 월요일에 출발해요.",
         "uz": "Ha, kelasi dushanba jo'nayman.",
+        "en": "Yes, I leave next Monday.",
         "audio": "cd1673976041.mp3"
       },
       {
@@ -1181,12 +1371,14 @@
         "speaker": "minji",
         "ko": "제주도에서 뭐 할 거예요?",
         "uz": "Jejuda nima qilasiz?",
+        "en": "What will you do in Jeju?",
         "audio": "3bde4d6fd856.mp3"
       },
       {
         "type": "choose_reply",
         "speaker": "aziz",
         "prompt_uz": "Aziz 'Havo yaxshi bo'lsa, Hallasanga boraman' demoqchi.",
+        "prompt_en": "Aziz wants to say 'If the weather is nice, I'll go to Hallasan'.",
         "options": [
           "날씨가 좋으면 한라산에 갈 거예요.",
           "날씨가 좋면 한라산에 갈 거예요.",
@@ -1194,7 +1386,9 @@
         ],
         "answer": "날씨가 좋으면 한라산에 갈 거예요.",
         "uz": "Havo yaxshi bo'lsa, Hallasanga boraman.",
+        "en": "If the weather is nice, I'll go to Hallasan.",
         "why_uz": "좋다 — 받침 bor: 좋으면.",
+        "why_en": "좋다 has 받침: 좋으면.",
         "audio": "0119829328d6.mp3"
       },
       {
@@ -1202,6 +1396,7 @@
         "speaker": "minji",
         "ko": "비가 오면요?",
         "uz": "Yomg'ir yog'sa-chi?",
+        "en": "And if it rains?",
         "audio": "ab775fa86aaf.mp3"
       },
       {
@@ -1209,24 +1404,33 @@
         "speaker": "aziz",
         "ko": "비가 오면 박물관을 구경할 거예요.",
         "uz": "Yomg'ir yog'sa, muzeyni tomosha qilaman.",
+        "en": "If it rains, I'll look around a museum.",
         "audio": "f8d28c82acc8.mp3"
       },
       {
         "type": "quiz",
         "prompt_uz": "Yomg'ir yog'sa Aziz nima qiladi?",
+        "prompt_en": "What will Aziz do if it rains?",
         "options": [
           "Muzeyga boradi",
           "Toqqa chiqadi",
           "Uyda qoladi"
         ],
+        "options_en": [
+          "He'll go to a museum",
+          "Climb a mountain",
+          "Stay at home"
+        ],
         "answer": "Muzeyga boradi",
-        "why_uz": "비가 오면 박물관을 구경할 거예요."
+        "why_uz": "비가 오면 박물관을 구경할 거예요.",
+        "why_en": "비가 오면 박물관을 구경할 거예요 — if it rains, he'll look around a museum."
       },
       {
         "type": "line",
         "speaker": "minji",
         "ko": "제주도 바다는 정말 예뻐요.",
         "uz": "Jeju dengizi juda chiroyli.",
+        "en": "The sea in Jeju is really beautiful.",
         "audio": "d3b0544542d1.mp3"
       },
       {
@@ -1234,6 +1438,7 @@
         "speaker": "aziz",
         "ko": "그럼 바다에서 사진을 많이 찍을 거예요.",
         "uz": "Unda dengizda ko'p rasmga tushaman.",
+        "en": "Then I'll take lots of photos by the sea.",
         "audio": "28385152e713.mp3"
       },
       {
@@ -1241,6 +1446,7 @@
         "speaker": "minji",
         "ko": "좋아요. 사진도 꼭 찍으세요!",
         "uz": "Yaxshi. Albatta rasmga ham tushing!",
+        "en": "Good. Make sure you take photos!",
         "audio": "d8ed1df06407.mp3"
       },
       {
@@ -1248,6 +1454,7 @@
         "speaker": "aziz",
         "ko": "네! 날씨가 추우면 따뜻한 옷도 가져갈 거예요.",
         "uz": "Xo'p! Havo sovuq bo'lsa, issiq kiyim ham olib boraman.",
+        "en": "OK! If it's cold, I'll take warm clothes too.",
         "audio": "642aa0bf0c16.mp3"
       },
       {
@@ -1255,6 +1462,7 @@
         "speaker": "minji",
         "ko": "좋은 여행 되세요!",
         "uz": "Sayohatingiz yaxshi o'tsin!",
+        "en": "Have a great trip!",
         "audio": "2195fc328da9.mp3"
       }
     ]
