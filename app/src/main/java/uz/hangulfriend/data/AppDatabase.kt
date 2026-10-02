@@ -24,6 +24,16 @@ val MIGRATION_2_3 = object : Migration(2, 3) {
     }
 }
 
+/** v4: words the learner added (stage 7a). SQL mirrors schemas/4.json. */
+val MIGRATION_3_4 = object : Migration(3, 4) {
+    override fun migrate(connection: SQLiteConnection) {
+        connection.execSQL(SQL_USER_WORDS)
+    }
+}
+
+private const val SQL_USER_WORDS =
+    "CREATE TABLE IF NOT EXISTS `user_words` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `ko` TEXT NOT NULL, " +
+        "`uz` TEXT NOT NULL, `note` TEXT, `createdMs` INTEGER NOT NULL)"
 private const val SQL_STORY_PROGRESS =
     "CREATE TABLE IF NOT EXISTS `story_progress` (`lessonId` TEXT NOT NULL, `completedAtMs` INTEGER NOT NULL, " +
         "PRIMARY KEY(`lessonId`))"
@@ -44,8 +54,9 @@ private const val SQL_BEST_SCORES =
         AchievementEntity::class,
         BestScoreEntity::class,
         StoryProgressEntity::class,
+        UserWordEntity::class,
     ],
-    version = 3,
+    version = 4,
     exportSchema = true,
 )
 abstract class AppDatabase : RoomDatabase() {
@@ -59,11 +70,13 @@ abstract class AppDatabase : RoomDatabase() {
 
     abstract fun story(): StoryDao
 
+    abstract fun userWords(): UserWordDao
+
     companion object {
         /** No destructive fallback: losing FSRS history is worse than a crash we can fix with a migration. */
         fun open(context: Context): AppDatabase =
             Room.databaseBuilder(context, AppDatabase::class.java, "hangul-friend.db")
-                .addMigrations(MIGRATION_1_2, MIGRATION_2_3)
+                .addMigrations(MIGRATION_1_2, MIGRATION_2_3, MIGRATION_3_4)
                 .build()
     }
 }

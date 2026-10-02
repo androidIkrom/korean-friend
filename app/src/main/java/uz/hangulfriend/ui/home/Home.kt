@@ -22,6 +22,7 @@ import androidx.compose.material.icons.filled.ErrorOutline
 import androidx.compose.material.icons.filled.LocalFireDepartment
 import androidx.compose.material.icons.filled.Replay
 import androidx.compose.material.icons.filled.SportsEsports
+import androidx.compose.material.icons.filled.Translate
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
 import androidx.compose.material3.Text
@@ -160,6 +161,7 @@ fun HomeScreen(
     onGames: () -> Unit,
     onMistakes: () -> Unit,
     onAchievements: () -> Unit,
+    onVocab: () -> Unit,
     modifier: Modifier = Modifier,
     headerAction: @Composable () -> Unit = {},
 ) {
@@ -200,6 +202,7 @@ fun HomeScreen(
                     Icons.Filled.EmojiEvents, stringResource(R.string.home_action_achievements), true, onAchievements, Modifier.weight(1f),
                 )
             }
+            SideAction(Icons.Filled.Translate, stringResource(R.string.home_action_vocab), true, onVocab, Modifier.fillMaxWidth())
             Spacer(Modifier.height(4.dp))
         }
     }

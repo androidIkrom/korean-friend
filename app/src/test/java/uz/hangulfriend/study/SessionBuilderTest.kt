@@ -197,4 +197,15 @@ class SessionBuilderTest {
         assertEquals(2, items.count { it is ExerciseItem.Flashcard })
         assertEquals(1, items.count { it is ExerciseItem.Authored })
     }
+
+    @Test fun reviewBuildsUserWordExercises() {
+        val own = lesson.copy(id = "user", words = listOf(Fixtures.word("user_w1", "사과", "olma")), grammar = emptyList())
+        val items = builder.review(
+            listOf(card("user_w1", CardKind.RECOGNIZE, "user"), card("user_w1", CardKind.PRODUCE, "user")),
+            mapOf("user" to own),
+        )
+        assertEquals(2, items.size)
+        assertTrue(items.any { it is ExerciseItem.Flashcard && it.word.id == "user_w1" })
+        assertTrue(items.any { it is ExerciseItem.WordTyping && it.word.id == "user_w1" })
+    }
 }

@@ -69,6 +69,18 @@ class BackupCodecTest {
         assertEquals("girl", (BackupCodec.decode(BackupCodec.encode(girl)) as BackupResult.Ok).file.settings.hero)
     }
 
+    @Test fun decodesOldFileWithoutUserWords() {
+        val text = BackupCodec.encode(file).replace(Regex(""",?\s*"user_words":\s*\[[^\]]*\]"""), "")
+        assertTrue(!text.contains("user_words"))
+        assertEquals(emptyList<UserWordDto>(), (BackupCodec.decode(text) as BackupResult.Ok).file.userWords)
+    }
+
+    @Test fun userWordsRoundTrip() {
+        val withWords = file.copy(userWords = listOf(UserWordEntity(3, "사과", "olma", "meva", 77).toDto()))
+        assertEquals(BackupResult.Ok(withWords), BackupCodec.decode(BackupCodec.encode(withWords)))
+        assertEquals(UserWordEntity(3, "사과", "olma", "meva", 77), withWords.userWords.single().toEntity())
+    }
+
     @Test fun entityDtoRoundTrip() {
         assertEquals(card, card.toDto().toEntity())
         assertEquals(log, log.toDto().toEntity())

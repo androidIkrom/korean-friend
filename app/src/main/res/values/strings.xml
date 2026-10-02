@@ -269,4 +269,27 @@
     <string name="hero_title">Personajingiz</string>
     <string name="hero_boy">Yigit</string>
     <string name="hero_girl">Qiz</string>
+    <string name="home_action_vocab">Lug\'at</string>
+    <string name="vocab_title">Lug\'at</string>
+    <string name="vocab_count">%1$d ta so\'z</string>
+    <string name="vocab_search">Qidirish (koreyscha yoki o\'zbekcha)</string>
+    <string name="vocab_all">Hammasi</string>
+    <string name="vocab_own">Mening so\'zlarim</string>
+    <string name="vocab_status_new">Yangi</string>
+    <string name="vocab_status_learning">O\'rganilmoqda</string>
+    <string name="vocab_status_learned">O\'rganilgan</string>
+    <string name="vocab_add">So\'z qo\'shish</string>
+    <string name="vocab_ko">Koreyscha</string>
+    <string name="vocab_uz">O\'zbekcha</string>
+    <string name="vocab_note">Izoh (ixtiyoriy)</string>
+    <string name="vocab_add_ok">Qo\'shish</string>
+    <string name="vocab_err_empty">Ikkala maydonni to\'ldiring</string>
+    <string name="vocab_err_long">Juda uzun</string>
+    <string name="vocab_err_dup">Bu so\'z allaqachon bor</string>
+    <string name="vocab_added">So\'z qo\'shildi va takrorlashga tushdi</string>
+    <string name="vocab_delete">O\'chirish</string>
+    <string name="vocab_delete_q">Bu so\'z va uning takrorlash tarixi o\'chiriladi.</string>
+    <string name="vocab_cancel">Bekor qilish</string>
+    <string name="vocab_none">Hech narsa topilmadi</string>
+    <string name="vocab_own_empty">Hali so\'z qo\'shmagansiz — pastdagi + tugmasini bosing.</string>
 </resources>

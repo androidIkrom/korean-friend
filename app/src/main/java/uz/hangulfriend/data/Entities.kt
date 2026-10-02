@@ -73,3 +73,13 @@ data class LessonProgressEntity(
 /** A finished story episode; its first insert is what awards story XP. */
 @Entity(tableName = "story_progress")
 data class StoryProgressEntity(@PrimaryKey val lessonId: String, val completedAtMs: Long)
+
+/** A word the learner added themselves (stage 7a); it is reviewed through cards of the pseudo-lesson "user". */
+@Entity(tableName = "user_words")
+data class UserWordEntity(
+    @PrimaryKey(autoGenerate = true) val id: Long = 0,
+    val ko: String,
+    val uz: String,
+    val note: String?,
+    val createdMs: Long,
+)

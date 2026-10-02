@@ -21,6 +21,8 @@ data class BackupFile(
     val achievements: List<AchievementDto>,
     @SerialName("best_scores") val bestScores: List<BestScoreDto>,
     @SerialName("story_progress") val storyProgress: List<StoryProgressDto>,
+    /** Missing in files exported before stage 7a. */
+    @SerialName("user_words") val userWords: List<UserWordDto> = emptyList(),
 )
 
 @Serializable
@@ -81,6 +83,13 @@ fun BackupSettings.toSettings() = Settings(
     onboarded, currentLessonId, dailyNewLimit, dailyGoalXp, reminderEnabled, reminderMinutes, GameThemeId.from(theme),
     HeroGender.from(hero),
 )
+
+@Serializable
+data class UserWordDto(val id: Long, val ko: String, val uz: String, val note: String?, @SerialName("created_ms") val createdMs: Long)
+
+fun UserWordEntity.toDto() = UserWordDto(id, ko, uz, note, createdMs)
+
+fun UserWordDto.toEntity() = UserWordEntity(id, ko, uz, note, createdMs)
 
 fun CardEntity.toDto() = CardDto(
     id, itemId, kind.name, lessonId, origin.name, state.name, step, stability, difficulty,
