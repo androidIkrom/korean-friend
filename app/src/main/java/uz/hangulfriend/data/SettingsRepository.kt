@@ -20,7 +20,19 @@ data class Settings(
     /** Minutes after local midnight; 1200 = 20:00. */
     val reminderMinutes: Int = DEFAULT_REMINDER_MINUTES,
     val theme: GameThemeId = GameThemeId.SYSTEM,
+    val hero: HeroGender = HeroGender.BOY,
 )
+
+/** The player's avatar; [key] is what DataStore and backups store. */
+enum class HeroGender(val key: String) {
+    BOY("boy"),
+    GIRL("girl"),
+    ;
+
+    companion object {
+        fun from(key: String?): HeroGender = entries.firstOrNull { it.key == key } ?: BOY
+    }
+}
 
 /** Interface style; [key] is what DataStore and backups store. */
 enum class GameThemeId(val key: String) {
@@ -46,6 +58,7 @@ class SettingsRepository(private val dataStore: DataStore<Preferences>) {
             reminderEnabled = p[REMINDER_ENABLED] ?: false,
             reminderMinutes = p[REMINDER_MINUTES] ?: DEFAULT_REMINDER_MINUTES,
             theme = GameThemeId.from(p[UI_THEME]),
+            hero = HeroGender.from(p[HERO]),
         )
     }
 
@@ -54,6 +67,10 @@ class SettingsRepository(private val dataStore: DataStore<Preferences>) {
 
     suspend fun setTheme(id: GameThemeId) {
         dataStore.edit { it[UI_THEME] = id.key }
+    }
+
+    suspend fun setHero(hero: HeroGender) {
+        dataStore.edit { it[HERO] = hero.key }
     }
 
     suspend fun setLastSeenRank(rank: Rank) {
@@ -89,6 +106,7 @@ class SettingsRepository(private val dataStore: DataStore<Preferences>) {
             it[REMINDER_ENABLED] = s.reminderEnabled
             it[REMINDER_MINUTES] = s.reminderMinutes
             it[UI_THEME] = s.theme.key
+            it[HERO] = s.hero.key
         }
     }
 
@@ -105,5 +123,6 @@ class SettingsRepository(private val dataStore: DataStore<Preferences>) {
         val REMINDER_MINUTES = intPreferencesKey("reminder_minutes")
         val UI_THEME = stringPreferencesKey("ui_theme")
         val LAST_SEEN_RANK = stringPreferencesKey("last_seen_rank")
+        val HERO = stringPreferencesKey("hero")
     }
 }

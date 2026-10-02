@@ -21,6 +21,7 @@ import androidx.compose.ui.graphics.nativeCanvas
 import androidx.compose.ui.graphics.toArgb
 import androidx.compose.ui.unit.dp
 import uz.hangulfriend.data.GameThemeId
+import uz.hangulfriend.data.HeroGender
 import uz.hangulfriend.study.Rank
 import uz.hangulfriend.ui.avatar.Avatar
 import uz.hangulfriend.ui.theme.GameTokens
@@ -28,11 +29,11 @@ import uz.hangulfriend.ui.theme.LocalGameTokens
 
 /** The avatar on its stage: a glowing gate (System) or a rooftop over a neon city (Neon). */
 @Composable
-fun HomeScene(rank: Rank, modifier: Modifier = Modifier) {
+fun HomeScene(rank: Rank, hero: HeroGender, modifier: Modifier = Modifier) {
     val t = LocalGameTokens.current
     Box(modifier, contentAlignment = Alignment.BottomCenter) {
         Canvas(Modifier.fillMaxSize()) { if (t.id == GameThemeId.SYSTEM) portal(t) else skyline(t) }
-        Avatar(rank, Modifier.size(220.dp, 266.dp))
+        Avatar(rank, hero, Modifier.size(220.dp, 266.dp), animated = true)
     }
 }
 

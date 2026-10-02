@@ -53,6 +53,7 @@ import uz.hangulfriend.content.StoryLine
 import uz.hangulfriend.content.StoryQuiz
 import uz.hangulfriend.content.StoryStep
 import uz.hangulfriend.data.GameRepository
+import uz.hangulfriend.data.HeroGender
 import uz.hangulfriend.data.SettingsRepository
 import uz.hangulfriend.data.StoryRepository
 import uz.hangulfriend.story.StoryPlayer
@@ -181,7 +182,7 @@ fun EpisodeScreen(vm: EpisodeViewModel, onClose: () -> Unit) {
             Box(Modifier.fillMaxWidth().height(180.dp), contentAlignment = Alignment.BottomCenter) {
                 when {
                     speaker == null -> Unit
-                    speaker == "aziz" -> Avatar(rank, Modifier.size(150.dp, 180.dp))
+                    speaker == "aziz" -> Avatar(rank, HeroGender.BOY, Modifier.size(150.dp, 180.dp))
                     else -> SpeakerArt(vm.voices[speaker].orEmpty(), Modifier.size(150.dp, 180.dp))
                 }
             }

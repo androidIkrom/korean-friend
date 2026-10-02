@@ -25,6 +25,7 @@ import uz.hangulfriend.content.DirAssetSource
 import uz.hangulfriend.content.Lesson
 import uz.hangulfriend.data.AppDatabase
 import uz.hangulfriend.data.CardOrigin
+import uz.hangulfriend.data.HeroGender
 import uz.hangulfriend.data.LessonStatus
 import uz.hangulfriend.data.ProgressRepository
 import uz.hangulfriend.data.SettingsRepository
@@ -78,6 +79,19 @@ class OnboardingServiceTest {
         val s = settings.settings.first()
         assertEquals("u02_l1", s.currentLessonId)
         assertTrue(s.onboarded)
+    }
+
+    @Test fun onboarding_savesHero() = runTest {
+        val (onboarding, _, settings) = service()
+        onboarding.complete("u02_l1", HeroGender.GIRL)
+        assertEquals(HeroGender.GIRL, settings.settings.first().hero)
+    }
+
+    @Test fun onboarding_withoutHeroKeepsIt() = runTest {
+        val (onboarding, _, settings) = service()
+        settings.setHero(HeroGender.GIRL)
+        onboarding.complete("u02_l1")
+        assertEquals(HeroGender.GIRL, settings.settings.first().hero)
     }
 
     @Test fun onboarding_skipsLessonsWithoutContent() = runTest {

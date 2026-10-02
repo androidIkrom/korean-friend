@@ -99,6 +99,11 @@ class BackupServiceTest {
         assertEquals("neon", (BackupCodec.decode(backup.export()) as BackupResult.Ok).file.settings.theme)
     }
 
+    @Test fun exportCarriesHero() = runTest {
+        settings.setHero(HeroGender.GIRL)
+        assertEquals("girl", (BackupCodec.decode(backup.export()) as BackupResult.Ok).file.settings.hero)
+    }
+
     @Test fun importReplacesExistingRows() = runTest {
         seed()
         val exported = (BackupCodec.decode(backup.export()) as BackupResult.Ok).file

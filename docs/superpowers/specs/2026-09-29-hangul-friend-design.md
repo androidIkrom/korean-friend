@@ -331,3 +331,5 @@ Har bir bosqich tugaganda telefonda ishlatsa bo'ladigan ilova bo'ladi. Har bir b
 7. **O'yin uslubidagi UI.** "Tizim" (standart) va "Neon Seul" temalari, Sozlamada tanlash, rank bo'yicha o'zgaradigan avatar
    (rasm slotlari: `app/src/main/assets/avatar/`), "Rank oshdi" oynasi, Bosh sahifa, Xarita va Hikoya epizodi qayta chizilgan.
    Spec: `2026-10-01-stage6-game-ui-design.md`. Qolgan ekranlarning tuzilmasi keyingi bosqichda.
+   6b: yigit/qiz personaj (onboarding va Sozlamada), rankka qarab ko'z ifodasi va yumaloq olov aurasi, "Monarx nigohi" ikonkasi,
+   ilova nomi "Hangul Hunt". Spec: `2026-10-01-stage6b-hero-avatar-icon-design.md`.

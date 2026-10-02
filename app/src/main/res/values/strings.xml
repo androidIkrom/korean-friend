@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Hangul Friend</string>
+    <string name="app_name">Hangul Hunt</string>
 
     <string name="nav_home">Uy</string>
     <string name="nav_book">Xarita</string>
@@ -16,7 +16,7 @@
     <string name="unit_title">%1$d-bo\'lim · %2$s</string>
 
     <string name="onboarding_welcome">Xush kelibsiz!</string>
-    <string name="onboarding_intro">Hangul Friend «사랑해요 한국어 2» kitobi bo\'yicha darslarni takrorlashga yordam beradi.</string>
+    <string name="onboarding_intro">Hangul Hunt «사랑해요 한국어 2» kitobi bo\'yicha darslarni takrorlashga yordam beradi.</string>
     <string name="onboarding_question">Hozir qaysi darsdasiz?</string>
     <string name="onboarding_continue">Davom etish</string>
 
@@ -199,7 +199,7 @@
     <string name="share_words">so\'z o\'rganildi</string>
     <string name="share_lessons">Darslar</string>
     <string name="share_now">Hozir</string>
-    <string name="share_footer">사랑해요 한국어 2 · Hangul Friend</string>
+    <string name="share_footer">사랑해요 한국어 2 · Hangul Hunt</string>
     <string name="rank_title_e">Boshlovchi</string>
     <string name="rank_title_d">Shogird</string>
     <string name="rank_title_c">Ovchi</string>
@@ -208,15 +208,10 @@
     <string name="rank_title_s">Monarx</string>
     <string name="avatar_new_jacket">Kurtka va yengil kontur nuri</string>
     <string name="avatar_new_long_coat">Uzun plash</string>
-    <string name="avatar_new_eye_glow">Ko\'zlar endi nur sochadi</string>
-    <string name="avatar_new_aura">Kuchsiz aura paydo bo\'ldi</string>
     <string name="avatar_new_pauldrons">Yelka zirhlari</string>
-    <string name="avatar_new_aura_strong">Kuchli aura</string>
     <string name="avatar_new_cape">Mantiya</string>
     <string name="avatar_new_blades">Egizak xanjar</string>
     <string name="avatar_new_hair_light">Sochda nur</string>
-    <string name="avatar_new_monarch_aura">Monarx aurasi</string>
-    <string name="avatar_new_eye_trail">Ko\'z alangasi</string>
     <string name="avatar_new_companions">Hamrohlar</string>
     <string name="settings_theme">Interfeys uslubi</string>
     <string name="theme_system">Tizim</string>
@@ -263,4 +258,15 @@
     </string-array>
     <string name="episode_choice">Tanlov</string>
     <string name="episode_chip">EPIZOD %1$d · %2$s</string>
+    <string name="avatar_new_gaze">Nigoh qat\'iylashdi</string>
+    <string name="avatar_new_flame">Olov aurasi uyg\'ondi</string>
+    <string name="avatar_new_ponytail">Soch jangovar bog\'landi</string>
+    <string name="avatar_new_embers">Uchqunlar</string>
+    <string name="avatar_new_sword">Uzun qilich</string>
+    <string name="avatar_new_monarch_flame">Monarx alangasi</string>
+    <string name="avatar_new_eye_trail">Ko\'zdan alanga izi</string>
+    <string name="avatar_new_tiara">Nurli toj</string>
+    <string name="hero_title">Personajingiz</string>
+    <string name="hero_boy">Yigit</string>
+    <string name="hero_girl">Qiz</string>
 </resources>
