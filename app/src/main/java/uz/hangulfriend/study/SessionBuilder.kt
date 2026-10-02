@@ -1,6 +1,7 @@
 package uz.hangulfriend.study
 
 import kotlin.random.Random
+import uz.hangulfriend.content.FinalTest
 import uz.hangulfriend.content.Lesson
 import uz.hangulfriend.content.Word
 import uz.hangulfriend.data.CardEntity
@@ -79,6 +80,9 @@ class SessionBuilder(private val random: Random) {
         val practice = lessons.flatMap { l -> practiceExercises(l).map { l to it } }.shuffled(random)
         return (tests + practice).take(count).map { (l, e) -> ExerciseItem.Authored.of(l, e) }
     }
+
+    /** The final test in its fixed TOPIK order (listening, then reading); it grades no FSRS card. */
+    fun finalTest(test: FinalTest): List<ExerciseItem> = (test.listening + test.reading).map { ExerciseItem.Authored(it, emptyList()) }
 
     fun lessonReview(lesson: Lesson): List<ExerciseItem> {
         val cards = lesson.words.map { ExerciseItem.Flashcard(it) }

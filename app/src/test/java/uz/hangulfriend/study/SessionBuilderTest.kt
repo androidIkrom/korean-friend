@@ -5,6 +5,8 @@ import org.junit.Assert.assertEquals
 import org.junit.Assert.assertTrue
 import org.junit.Test
 import uz.hangulfriend.Fixtures
+import uz.hangulfriend.content.ExerciseType
+import uz.hangulfriend.content.FinalTest
 import uz.hangulfriend.data.CardEntity
 import uz.hangulfriend.data.CardKind
 import uz.hangulfriend.data.CardOrigin
@@ -196,6 +198,13 @@ class SessionBuilderTest {
         val items = builder.lessonReview(lesson)
         assertEquals(2, items.count { it is ExerciseItem.Flashcard })
         assertEquals(1, items.count { it is ExerciseItem.Authored })
+    }
+
+    @Test fun finalKeepsOrder() {
+        val ex = { id: String -> Fixtures.exercise(id, ExerciseType.LISTEN_QUESTION, emptyList(), listOf("가")) }
+        val items = builder.finalTest(FinalTest(listOf(ex("final_l01"), ex("final_l02")), listOf(ex("final_r01"))))
+        assertEquals(listOf("final_l01", "final_l02", "final_r01"), items.map { (it as ExerciseItem.Authored).exercise.id })
+        assertTrue(items.all { it.cardIds.isEmpty() })
     }
 
     @Test fun reviewBuildsUserWordExercises() {

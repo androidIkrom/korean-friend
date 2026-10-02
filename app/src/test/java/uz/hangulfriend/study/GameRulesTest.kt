@@ -16,6 +16,14 @@ class GameRulesTest {
         assertEquals(0, GameRules.xpForAnswer(correct = false, comboAfter = 0))
     }
 
+    @Test fun topikLevel() {
+        assertEquals(0, GameRules.topikLevel(39))
+        assertEquals(1, GameRules.topikLevel(40))
+        assertEquals(1, GameRules.topikLevel(69))
+        assertEquals(2, GameRules.topikLevel(70))
+        assertEquals(2, GameRules.topikLevel(100))
+    }
+
     @Test fun level_thresholds() {
         assertEquals(GameRules.LevelInfo(1, 0, 100), GameRules.level(0))
         assertEquals(GameRules.LevelInfo(1, 99, 100), GameRules.level(99))

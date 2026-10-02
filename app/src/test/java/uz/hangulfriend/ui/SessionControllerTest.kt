@@ -24,6 +24,7 @@ import uz.hangulfriend.content.ContentJson
 import uz.hangulfriend.content.ContentRepository
 import uz.hangulfriend.content.DirAssetSource
 import uz.hangulfriend.content.ExerciseType
+import uz.hangulfriend.content.FinalTest
 import uz.hangulfriend.content.Lesson
 import uz.hangulfriend.data.AppDatabase
 import uz.hangulfriend.data.CardOrigin
@@ -32,11 +33,15 @@ import uz.hangulfriend.data.LessonStatus
 import uz.hangulfriend.data.ProgressRepository
 import uz.hangulfriend.data.SettingsRepository
 import uz.hangulfriend.data.StudyRepository
+import uz.hangulfriend.data.flagRef
 import uz.hangulfriend.srs.FsrsScheduler
 import uz.hangulfriend.srs.Rating
+import uz.hangulfriend.study.FINAL_TEST_ID
+import uz.hangulfriend.study.GameRules
 import uz.hangulfriend.study.Grader
 import uz.hangulfriend.study.SessionBuilder
 import uz.hangulfriend.ui.session.ExerciseOutcome
+import uz.hangulfriend.ui.session.FinalScore
 import uz.hangulfriend.ui.session.SessionController
 import uz.hangulfriend.ui.session.SessionMode
 
@@ -83,6 +88,7 @@ class SessionControllerTest {
         File(assets, "lessons/u02_l2.json").writeText(
             ContentJson.encodeToString(Lesson.serializer(), Fixtures.validLesson("u02_l2", 2, 2)),
         )
+        File(assets, "final_test.json").writeText(ContentJson.encodeToString(FinalTest.serializer(), finalTest))
         File(assets, "book.json").writeText(
             """{"lessons":[{"id":"u02_l1","unit":2,"lesson":1,"title_ko":"다","title_uz":"c","topic_uz":"Xarid"},
               {"id":"u02_l2","unit":2,"lesson":2,"title_ko":"라","title_uz":"d","topic_uz":"Xarid"}]}""",
@@ -99,6 +105,60 @@ class SessionControllerTest {
             speechAvailable = speech,
             game = game,
         )
+    }
+
+    private val finalTest = FinalTest(
+        listening = (1..2).map { i ->
+            Fixtures.exercise("final_l0$i", ExerciseType.LISTEN_QUESTION, emptyList(), listOf("가")) {
+                copy(audioText = "가", options = listOf("가", "나", "다", "라"))
+            }
+        },
+        reading = (1..2).map { i ->
+            Fixtures.exercise("final_r0$i", ExerciseType.READ_CHOICE, emptyList(), listOf("가")) {
+                copy(sentence = "글", options = listOf("가", "나", "다", "라"))
+            }
+        },
+    )
+
+    private suspend fun runFinal(vararg correct: Boolean): SessionController {
+        val c = controller(SessionMode.FINAL, lessonId = null)
+        c.load()
+        correct.forEach {
+            c.submit(checked(it))
+            c.next()
+        }
+        return c
+    }
+
+    @Test fun finalGivesNoAnswerXp() = runTest {
+        val c = controller(SessionMode.FINAL, lessonId = null)
+        c.load()
+        assertEquals(listOf("final_l01", "final_l02", "final_r01", "final_r02"), c.state.value.items.map { flagRef(it) })
+        c.submit(checked(true))
+        assertEquals(0, c.state.value.xpEarned)
+        assertEquals(0, game.observeTotalXp().first())
+    }
+
+    @Test fun finalScoresSections() = runTest {
+        val c = runFinal(true, false, true, true)
+        assertTrue(c.state.value.finished)
+        assertEquals(FinalScore(1, 2, 2, 2), c.state.value.final)
+        assertEquals(75, c.state.value.final!!.percent)
+        assertEquals(2, c.state.value.final!!.level)
+    }
+
+    @Test fun timeUpEndsTest() = runTest {
+        val c = runFinal(true)
+        c.timeUp()
+        assertTrue(c.state.value.finished)
+        assertEquals(FinalScore(1, 2, 0, 2), c.state.value.final)
+    }
+
+    @Test fun bonusOnlyOnce() = runTest {
+        // The bonus may also cross the daily goal, which adds the goal XP on top.
+        assertTrue(runFinal(true, true, true, true).state.value.xpEarned >= GameRules.XP_FINAL)
+        assertEquals(0, runFinal(true, true, true, true).state.value.xpEarned)
+        assertEquals(100, game.best(FINAL_TEST_ID))
     }
 
     private fun checked(correct: Boolean) = ExerciseOutcome.Checked(correct, usedHint = false, elapsedMs = 1000, check = null)

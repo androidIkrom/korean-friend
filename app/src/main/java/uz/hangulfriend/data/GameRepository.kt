@@ -96,5 +96,6 @@ class GameRepository(private val db: AppDatabase, private val clock: Clock) {
         const val REASON_GOAL = "goal"
         const val REASON_GAME = "game"
         const val REASON_STORY = "story"
+        const val REASON_FINAL = "final"
     }
 }
