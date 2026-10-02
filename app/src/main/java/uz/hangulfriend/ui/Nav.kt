@@ -164,7 +164,7 @@ fun HangulFriendNav(container: AppContainer, openReview: Boolean = false) {
                 )
             }
             composable(Routes.SETTINGS) {
-                val vm = viewModel { SettingsViewModel(container.content, container.settings, container.onboarding, container.backup) }
+                val vm = viewModel { SettingsViewModel(container.content, container.settings, container.onboarding, container.backup, container.flags) }
                 SettingsScreen(vm)
             }
             composable(Routes.GAMES) { entry ->

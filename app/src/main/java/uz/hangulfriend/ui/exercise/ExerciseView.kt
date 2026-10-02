@@ -1,5 +1,6 @@
 package uz.hangulfriend.ui.exercise
 
+import androidx.compose.foundation.layout.Column
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -14,6 +15,14 @@ import uz.hangulfriend.ui.session.ExerciseOutcome
 /** Renders any [ExerciseItem]. Callers should wrap it in `key(...)` so each item starts with fresh state. */
 @Composable
 fun ExerciseView(item: ExerciseItem, onResult: (ExerciseOutcome) -> Unit, onNext: () -> Unit) {
+    Column {
+        FlagButton(item)
+        ExerciseBody(item, onResult, onNext)
+    }
+}
+
+@Composable
+private fun ExerciseBody(item: ExerciseItem, onResult: (ExerciseOutcome) -> Unit, onNext: () -> Unit) {
     when (item) {
         is ExerciseItem.Flashcard -> FlashcardView(item.word, onResult, onNext)
         is ExerciseItem.WordTyping -> TypingView(
