@@ -14,6 +14,11 @@ val WrongRed = Color(0xFFC62828)
 fun HangulFriendTheme(themeId: GameThemeId = GameThemeId.SYSTEM, content: @Composable () -> Unit) {
     val tokens = tokensFor(themeId)
     CompositionLocalProvider(LocalGameTokens provides tokens) {
-        MaterialTheme(colorScheme = gameColorScheme(tokens), typography = gameTypography(tokens.display), content = content)
+        MaterialTheme(
+            colorScheme = gameColorScheme(tokens),
+            typography = gameTypography(tokens.display),
+            shapes = gameShapes(tokens),
+            content = content,
+        )
     }
 }

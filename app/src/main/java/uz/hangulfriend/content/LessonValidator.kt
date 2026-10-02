@@ -77,6 +77,8 @@ object LessonValidator {
         if (lines !in 10..16) err("10–16 line steps (has $lines)")
         if (interactive !in 2..3) err("2–3 interactive steps (has $interactive)")
         if (story.steps.none { it is ChooseReply }) err("needs a choose_reply")
+        // The learner always replies as Aziz, the story's hero.
+        if (story.steps.any { it is ChooseReply && it.speaker != "aziz" }) err("choose_reply speaker must be aziz")
         if (story.steps.firstOrNull() !is StoryLine) err("first step must be a line")
         story.steps.forEachIndexed { i, step ->
             val (options, answer) = when (step) {

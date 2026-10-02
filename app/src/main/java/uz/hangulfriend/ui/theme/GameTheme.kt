@@ -1,10 +1,13 @@
 package uz.hangulfriend.ui.theme
 
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.ColorScheme
+import androidx.compose.material3.Shapes
 import androidx.compose.material3.Typography
 import androidx.compose.material3.darkColorScheme
 import androidx.compose.runtime.staticCompositionLocalOf
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.lerp
 import androidx.compose.ui.text.font.Font
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontVariation
@@ -89,11 +92,11 @@ fun gameColorScheme(t: GameTokens): ColorScheme {
     return darkColorScheme(
         primary = t.accent,
         onPrimary = t.background,
-        primaryContainer = surface,
+        primaryContainer = lerp(surface, t.accent, 0.28f),
         onPrimaryContainer = t.text,
         secondary = t.accent2,
         onSecondary = t.background,
-        secondaryContainer = surface,
+        secondaryContainer = lerp(surface, t.accent2, 0.22f),
         onSecondaryContainer = t.text,
         tertiary = t.top,
         background = t.background,
@@ -108,6 +111,20 @@ fun gameColorScheme(t: GameTokens): ColorScheme {
         surfaceContainerHighest = surface,
         outline = t.panelBorder,
         error = t.danger,
+    )
+}
+
+/** Corner radii for every Material component: near-square in System, soft in Neon. */
+fun gameShapes(t: GameTokens): Shapes = if (t.id == GameThemeId.SYSTEM) {
+    val r = RoundedCornerShape(2.dp)
+    Shapes(extraSmall = r, small = r, medium = r, large = r, extraLarge = r)
+} else {
+    Shapes(
+        extraSmall = RoundedCornerShape(8.dp),
+        small = RoundedCornerShape(12.dp),
+        medium = RoundedCornerShape(14.dp),
+        large = RoundedCornerShape(18.dp),
+        extraLarge = RoundedCornerShape(24.dp),
     )
 }
 

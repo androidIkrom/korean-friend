@@ -6,6 +6,8 @@ import java.time.ZoneId
 import java.time.ZonedDateTime
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertNull
+import org.junit.Assert.assertTrue
+import org.junit.Assert.assertFalse
 import org.junit.Test
 
 class ReminderPolicyTest {
@@ -36,4 +38,10 @@ class ReminderPolicyTest {
     @Test fun delayWhenTimePassedIsTomorrow() = assertEquals(Duration.ofHours(23), ReminderPolicy.delayUntilNext(at("21:00"), 1200))
 
     @Test fun delayWhenExactlyNowIsTomorrow() = assertEquals(Duration.ofHours(24), ReminderPolicy.delayUntilNext(at("20:00"), 1200))
+
+    @Test fun disableWhenPermissionRevoked() {
+        assertTrue(ReminderPolicy.shouldDisable(enabled = true, permitted = false))
+        assertFalse(ReminderPolicy.shouldDisable(enabled = true, permitted = true))
+        assertFalse(ReminderPolicy.shouldDisable(enabled = false, permitted = false))
+    }
 }

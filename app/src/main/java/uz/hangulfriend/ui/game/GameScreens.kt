@@ -11,8 +11,6 @@ import androidx.compose.foundation.lazy.grid.itemsIndexed
 import androidx.compose.foundation.text.KeyboardActions
 import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.material3.Button
-import androidx.compose.material3.Card
-import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.OutlinedTextField
@@ -41,6 +39,7 @@ import uz.hangulfriend.study.games.GrammarChain
 import uz.hangulfriend.study.games.MemoryGame
 import uz.hangulfriend.study.games.SpeedRound
 import uz.hangulfriend.ui.theme.CorrectGreen
+import uz.hangulfriend.ui.theme.GameCard
 import uz.hangulfriend.ui.theme.WrongRed
 
 /** Picks the screen for [id]; a finished game shows [GameOver] and can be restarted. */
@@ -94,13 +93,13 @@ private fun MemoryScreen(vm: GamesViewModel) {
                 card.faceUp -> MaterialTheme.colorScheme.primaryContainer
                 else -> MaterialTheme.colorScheme.surfaceVariant
             }
-            Card(
+            GameCard(
                 onClick = {
                     if (game.flip(i) == FlipResult.MISMATCH) mismatch = true
                     cards = game.cards
                 },
                 modifier = Modifier.aspectRatio(1f),
-                colors = CardDefaults.cardColors(containerColor = color),
+                containerColor = color,
             ) {
                 Column(Modifier.fillMaxWidth().padding(4.dp).weight(1f), verticalArrangement = Arrangement.Center, horizontalAlignment = Alignment.CenterHorizontally) {
                     if (card.faceUp || card.matched) {

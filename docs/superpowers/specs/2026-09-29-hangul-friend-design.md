@@ -336,4 +336,6 @@ Har bir bosqich tugaganda telefonda ishlatsa bo'ladigan ilova bo'ladi. Har bir b
 8. **Qolgan rejadagi ishlar.** 7a: Lug'at bazasi ekrani (qidiruv, dars filtri, o'z so'zlari takrorlashda; DB v4).
    Spec: `2026-10-02-stage7a-vocabulary-design.md`. 7b: "Xato bor" belgisi (har mashqda, Sozlamadan matn sifatida yuboriladi; DB v5).
    Spec: `2026-10-02-stage7b-content-flags-design.md`. 7c: TOPIK I uslubidagi yakuniy test (30 savol, 25 daqiqa, xaritaning
-   oxirida). Spec: `2026-10-02-stage7c-final-test-design.md`. Keyin: qolgan ekranlar, kichik tuzatishlar.
+   oxirida). Spec: `2026-10-02-stage7c-final-test-design.md`. 7d: qolgan ekranlar o'yin uslubida (tema shakllari, umumiy fon,
+   `GameCard`). Spec: `2026-10-02-stage7d-restyle-design.md`. 7e: keyinga qoldirilgan kichik kamchiliklar (dars tekshiruvi bir marta
+   baholanadi, bo'sh bosqich, qorong'i oyna, eslatma ruxsati va boshqalar). Spec: `2026-10-02-stage7e-fixes-design.md`.

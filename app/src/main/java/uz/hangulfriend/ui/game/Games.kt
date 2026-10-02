@@ -8,7 +8,6 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.Button
-import androidx.compose.material3.Card
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -31,6 +30,7 @@ import uz.hangulfriend.content.Word
 import uz.hangulfriend.data.GameRepository
 import uz.hangulfriend.data.SettingsRepository
 import uz.hangulfriend.study.GameRules
+import uz.hangulfriend.ui.theme.GameCard
 
 enum class GameId(val route: String, val title: Int, val desc: Int) {
     MEMORY("memory", R.string.game_memory, R.string.game_memory_desc),
@@ -92,7 +92,7 @@ fun GamesScreen(vm: GamesViewModel, onOpen: (GameId) -> Unit) {
         Text(stringResource(R.string.games_title), style = MaterialTheme.typography.headlineMedium)
         if (vm.words.isEmpty()) Text(stringResource(R.string.game_no_content))
         GameId.entries.forEach { id ->
-            Card(Modifier.fillMaxWidth().clickable(enabled = vm.words.isNotEmpty()) { onOpen(id) }) {
+            GameCard(Modifier.fillMaxWidth().clickable(enabled = vm.words.isNotEmpty()) { onOpen(id) }) {
                 Column(Modifier.padding(16.dp)) {
                     Text(stringResource(id.title), style = MaterialTheme.typography.titleMedium)
                     Text(stringResource(id.desc), style = MaterialTheme.typography.bodyMedium)

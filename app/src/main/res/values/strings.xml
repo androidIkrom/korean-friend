@@ -25,8 +25,6 @@
     <string name="settings_daily_new">Kunlik yangi kartalar: %1$d ta</string>
     <string name="settings_apply">Joriy darsni saqlash</string>
     <string name="settings_apply_note">Bu darsdan oldingi darslar «o\'tilgan» deb belgilanadi va ularning so\'zlari asta-sekin takrorlashga qo\'shiladi.</string>
-
-    <string name="placeholder_screen">Tez orada</string>
     <string name="audio_play">Tinglash</string>
     <string name="ex_listen_choose_prompt">Eshiting va ma\'nosini tanlang</string>
     <string name="ex_dictation_prompt">Eshiting va koreyscha yozing</string>

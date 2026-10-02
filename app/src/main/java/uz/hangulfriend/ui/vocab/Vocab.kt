@@ -52,6 +52,7 @@ import androidx.compose.ui.unit.sp
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewModelScope
+import kotlinx.coroutines.CompletableDeferred
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharingStarted
@@ -82,6 +83,7 @@ class VocabViewModel(
     db: AppDatabase,
 ) : ViewModel() {
     private val book = MutableStateFlow<List<VocabEntry>>(emptyList())
+    private val bookLoaded = CompletableDeferred<Unit>()
 
     private val _chips = MutableStateFlow<List<LessonChip>>(emptyList())
     val chips: StateFlow<List<LessonChip>> = _chips
@@ -117,11 +119,15 @@ class VocabViewModel(
             book.value = loaded.flatMap { (chip, words) ->
                 words.map { VocabEntry(it.id, it.ko, it.uz, chip.id, chip.tag, own = false, ownId = null, word = it, note = null) }
             }
+            bookLoaded.complete(Unit)
         }
     }
 
-    suspend fun add(ko: String, uz: String, note: String): AddResult =
-        userWords.add(ko, uz, note, book.value.map { it.ko }.toSet())
+    /** Waits for the book words so a book word cannot slip in as a duplicate while they are still loading. */
+    suspend fun add(ko: String, uz: String, note: String): AddResult {
+        bookLoaded.await()
+        return userWords.add(ko, uz, note, book.value.map { it.ko }.toSet())
+    }
 
     fun delete(id: Long) {
         viewModelScope.launch { userWords.delete(id) }

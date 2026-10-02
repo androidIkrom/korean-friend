@@ -23,6 +23,7 @@ import uz.hangulfriend.ui.exercise.LocalSpeechInput
 import uz.hangulfriend.ui.tutor.LocalTutor
 import uz.hangulfriend.ui.HangulFriendNav
 import uz.hangulfriend.data.GameThemeId
+import uz.hangulfriend.ui.theme.GameBackground
 import uz.hangulfriend.ui.theme.HangulFriendTheme
 
 class MainActivity : ComponentActivity() {
@@ -52,7 +53,8 @@ class MainActivity : ComponentActivity() {
                     LocalSpeechInput provides container.speech,
                     LocalTutor provides container.tutor,
                 ) {
-                    HangulFriendNav(container, openReview)
+                    // One shared backdrop behind every screen; screens that draw their own reuse it.
+                    GameBackground { HangulFriendNav(container, openReview) }
                 }
             }
         }

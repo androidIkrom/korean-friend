@@ -6,9 +6,15 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
-import androidx.compose.material3.Card
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.automirrored.filled.MenuBook
+import androidx.compose.material.icons.filled.CheckCircle
+import androidx.compose.material.icons.filled.HourglassEmpty
+import androidx.compose.material.icons.filled.Lock
+import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -35,6 +41,8 @@ import uz.hangulfriend.data.ProgressRepository
 import uz.hangulfriend.data.StoryRepository
 import uz.hangulfriend.story.EpisodeState
 import uz.hangulfriend.story.StoryRules
+import uz.hangulfriend.ui.theme.GameCard
+import uz.hangulfriend.ui.theme.LocalGameTokens
 
 data class EpisodeRow(val entry: CatalogEntry, val storyTitle: String?, val state: EpisodeState)
 
@@ -66,18 +74,25 @@ fun StoryListScreen(vm: StoryListViewModel, onOpen: (String) -> Unit) {
 @Composable
 private fun EpisodeCard(row: EpisodeRow, onOpen: (String) -> Unit) {
     val open = row.state == EpisodeState.NEW || row.state == EpisodeState.DONE
-    Card(
+    GameCard(
         Modifier.fillMaxWidth().alpha(if (open) 1f else 0.5f).clickable(enabled = open) { onOpen(row.entry.id) },
     ) {
         Row(Modifier.padding(16.dp), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
-            Text(
+            val t = LocalGameTokens.current
+            Icon(
                 when (row.state) {
-                    EpisodeState.LOCKED -> "🔒"
-                    EpisodeState.COMING_SOON -> "⏳"
-                    EpisodeState.NEW -> "📖"
-                    EpisodeState.DONE -> "✅"
+                    EpisodeState.LOCKED -> Icons.Filled.Lock
+                    EpisodeState.COMING_SOON -> Icons.Filled.HourglassEmpty
+                    EpisodeState.NEW -> Icons.AutoMirrored.Filled.MenuBook
+                    EpisodeState.DONE -> Icons.Filled.CheckCircle
                 },
-                style = MaterialTheme.typography.headlineSmall,
+                contentDescription = null,
+                tint = when (row.state) {
+                    EpisodeState.NEW -> t.accent
+                    EpisodeState.DONE -> t.accent2
+                    else -> t.muted
+                },
+                modifier = Modifier.size(28.dp),
             )
             Column(Modifier.weight(1f)) {
                 Text("${row.entry.unit}-${row.entry.lesson}. ${row.storyTitle ?: row.entry.titleUz}", style = MaterialTheme.typography.titleMedium)

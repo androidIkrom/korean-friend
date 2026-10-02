@@ -6,7 +6,9 @@ import org.junit.Assert.assertEquals
 import org.junit.Assert.assertTrue
 import org.junit.Test
 import uz.hangulfriend.data.GameThemeId
+import androidx.compose.foundation.shape.RoundedCornerShape
 import uz.hangulfriend.ui.theme.gameColorScheme
+import uz.hangulfriend.ui.theme.gameShapes
 import uz.hangulfriend.ui.theme.tokensFor
 
 class GameThemeTest {
@@ -31,5 +33,22 @@ class GameThemeTest {
         assertEquals(t.danger, c.error)
         assertEquals(t.text, c.onBackground)
         assertEquals(1f, c.surface.alpha)
+    }
+
+    @Test fun shapesFollowTheme() {
+        val system = gameShapes(tokensFor(GameThemeId.SYSTEM))
+        val neon = gameShapes(tokensFor(GameThemeId.NEON))
+        assertEquals(RoundedCornerShape(2.dp), system.medium)
+        assertEquals(RoundedCornerShape(2.dp), system.large)
+        assertEquals(RoundedCornerShape(14.dp), neon.medium)
+        assertEquals(RoundedCornerShape(8.dp), neon.extraSmall)
+    }
+
+    /** Face-up memory cards, the learner's chat bubbles and dialogue lines must stand out from plain surfaces. */
+    @Test fun containersAreDistinct() = GameThemeId.entries.forEach { id ->
+        val c = gameColorScheme(tokensFor(id))
+        val colors = listOf(c.primaryContainer, c.secondaryContainer, c.surfaceVariant)
+        assertEquals("$id", 3, colors.distinct().size)
+        colors.forEach { assertEquals("$id opaque", 1f, it.alpha) }
     }
 }

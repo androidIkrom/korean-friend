@@ -8,7 +8,6 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.Button
-import androidx.compose.material3.Card
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -33,6 +32,7 @@ import uz.hangulfriend.data.CardKind
 import uz.hangulfriend.data.GameRepository
 import uz.hangulfriend.data.LessonLookup
 import uz.hangulfriend.study.GameRules
+import uz.hangulfriend.ui.theme.GameCard
 
 class AchievementsViewModel(game: GameRepository) : ViewModel() {
     val unlocked: StateFlow<Set<String>> = game.observeAchievements()
@@ -47,7 +47,7 @@ fun AchievementsScreen(vm: AchievementsViewModel) {
         Text(stringResource(R.string.achievements_title), style = MaterialTheme.typography.headlineMedium)
         GameRules.ACHIEVEMENTS.forEach { id ->
             val has = id in unlocked
-            Card(Modifier.fillMaxWidth().alpha(if (has) 1f else 0.45f)) {
+            GameCard(Modifier.fillMaxWidth().alpha(if (has) 1f else 0.45f)) {
                 Row(Modifier.padding(16.dp), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
                     Text(if (has) "🏆" else "🔒", style = MaterialTheme.typography.headlineSmall)
                     Column {
@@ -94,7 +94,7 @@ fun MistakesScreen(vm: MistakesViewModel, onPractice: () -> Unit) {
         } else {
             Button(onClick = onPractice, modifier = Modifier.fillMaxWidth()) { Text(stringResource(R.string.mistakes_practice)) }
             rows.forEach { r ->
-                Card(Modifier.fillMaxWidth()) {
+                GameCard(Modifier.fillMaxWidth()) {
                     Column(Modifier.padding(12.dp)) {
                         Text(r.ko, style = MaterialTheme.typography.titleMedium)
                         Text(r.uz, style = MaterialTheme.typography.bodyMedium)

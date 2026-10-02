@@ -24,6 +24,7 @@ import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.lifecycle.viewmodel.compose.viewModel
@@ -114,6 +115,7 @@ fun HangulFriendNav(container: AppContainer, openReview: Boolean = false) {
     }
     val route = backStack?.destination?.route
     Scaffold(
+        containerColor = Color.Transparent,
         bottomBar = {
             if (tabs.any { it.route == route }) BottomBar(nav, route)
         },
@@ -264,9 +266,4 @@ private fun BottomBar(nav: NavHostController, current: String?) {
             )
         }
     }
-}
-
-@Composable
-private fun Placeholder() {
-    Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) { Text(stringResource(R.string.placeholder_screen)) }
 }
