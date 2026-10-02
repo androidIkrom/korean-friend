@@ -33,6 +33,7 @@ class ContentAssetsTest {
         assertTrue((t.listening + t.reading).all { it.options.orEmpty().toSet().size == 4 })
         val dir = File("src/main/assets/audio")
         t.listening.forEach { assertTrue("${it.id}: audio", it.audio != null && File(dir, it.audio!!).isFile) }
+        t.listening.forEach { assertTrue("${it.id}: two-voice dialogue", (it.audioDialogue?.size ?: 0) >= 2) }
     }
 
     @Test fun validatorPasses() = assertEquals(emptyList<String>(), LessonValidator.validate(lessons))

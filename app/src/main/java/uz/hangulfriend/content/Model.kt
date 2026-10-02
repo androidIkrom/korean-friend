@@ -138,6 +138,8 @@ data class Exercise(
     @SerialName("hint_uz") val hintUz: String? = null,
     @SerialName("why_uz") val whyUz: String? = null,
     @SerialName("audio_text") val audioText: String? = null,
+    /** Two-voice dialogue lines (female, male, …) for listening questions; [audioText] keeps the full transcript. */
+    @SerialName("audio_dialogue") val audioDialogue: List<String>? = null,
     val audio: String? = null,
 )
 

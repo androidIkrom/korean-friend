@@ -73,9 +73,30 @@ def collect(lesson: dict, voices: dict) -> list:
     return clips
 
 
+def dialogue_file_name(lines: list) -> str:
+    """Name of a joined multi-voice clip; `lines` is [(voice, text), …]."""
+    key = "|".join(f"{voice}|{text}" for voice, text in lines)
+    return hashlib.sha1(key.encode("utf-8")).hexdigest()[:12] + EXT
+
+
+def dialogue_lines(ex: dict) -> list:
+    """A two-person dialogue: lines alternate female, male, female, …"""
+    return [(FEMALE if i % 2 == 0 else MALE, text) for i, text in enumerate(ex["audio_dialogue"])]
+
+
 def collect_final(test: dict) -> list:
-    """Listening clips of the final test (assets/final_test.json)."""
-    return [_clip(ex, "audio_text", "audio", FEMALE) for ex in test.get("listening", []) if ex.get("audio_text")]
+    """Listening clips of the final test (assets/final_test.json) as (lines, setter);
+    a dialogue becomes one clip whose lines are synthesized separately and joined."""
+    clips = []
+    for ex in test.get("listening", []):
+        if ex.get("audio_dialogue"):
+            lines = dialogue_lines(ex)
+        elif ex.get("audio_text"):
+            lines = [(FEMALE, ex["audio_text"])]
+        else:
+            continue
+        clips.append((lines, lambda name, ex=ex: ex.__setitem__("audio", name)))
+    return clips
 
 
 def synthesize(text: str, voice: str) -> bytes:
@@ -120,8 +141,9 @@ def run(root: Path, synth: Callable[[str, str], bytes], dry_run: bool, prune: bo
     final_path = assets / "final_test.json"
     if final_path.is_file():
         test = json.loads(final_path.read_text(encoding="utf-8"))
-        for clip in collect_final(test):
-            name = file_name(clip.voice, clip.text)
+        for lines, set_name in collect_final(test):
+            # A single line keeps the plain clip name so existing files stay valid.
+            name = file_name(*lines[0]) if len(lines) == 1 else dialogue_file_name(lines)
             referenced.add(name)
             target = audio_dir / name
             if target.is_file():
@@ -131,8 +153,9 @@ def run(root: Path, synth: Callable[[str, str], bytes], dry_run: bool, prune: bo
                 if dry_run:
                     continue
                 audio_dir.mkdir(parents=True, exist_ok=True)
-                target.write_bytes(synth(clip.text, clip.voice))
-            clip.set(name)
+                # edge-tts streams the same MP3 format for every voice, so the parts can be joined byte by byte.
+                target.write_bytes(b"".join(synth(text, voice) for voice, text in lines))
+            set_name(name)
         if not dry_run:
             final_path.write_text(json.dumps(test, ensure_ascii=False, indent=2) + "\n", encoding="utf-8", newline="\n")
     if prune and not dry_run and audio_dir.is_dir():
