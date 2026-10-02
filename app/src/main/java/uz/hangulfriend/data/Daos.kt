@@ -48,11 +48,7 @@ interface CardDao {
     suspend fun firstReviewedBetween(fromMs: Long, toMs: Long): Int
 
     /** Emits whenever the cards table changes; callers recompute the queue. */
-    @Query("SELECT COUNT(*) FROM cards")
-    fun observeCount(): Flow<Int>
 
-    @Query("SELECT MAX(lastReviewMs) FROM cards")
-    fun observeLastReview(): Flow<Long?>
 
     /** Words whose recognition card has graduated to review at least once. */
     @Query("SELECT COUNT(*) FROM cards WHERE kind = 'RECOGNIZE' AND state IN ('REVIEW', 'RELEARNING')")

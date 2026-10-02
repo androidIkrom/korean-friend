@@ -296,16 +296,27 @@ private fun DrawScope.drawHero(
     drawEyes(eyeStyleFor(rank), girl, t, p, plainBrow = if (rank == Rank.E) p.dim else t.accent)
 }
 
-/** Draws [path] blurred in [color] behind what follows (unblurred below API 28, which is accepted). */
-private fun DrawScope.blurred(path: Path, color: Color, radius: Float, stroke: Float? = null) {
-    val paint = android.graphics.Paint(android.graphics.Paint.ANTI_ALIAS_FLAG).apply {
-        this.color = color.toArgb()
-        maskFilter = BlurMaskFilter(radius, BlurMaskFilter.Blur.NORMAL)
-        if (stroke != null) {
-            style = android.graphics.Paint.Style.STROKE
-            strokeWidth = stroke
+private data class BlurKey(val argb: Int, val radius: Float, val stroke: Float?)
+
+/** Blur paints are reused across frames: the aura animates every frame and would otherwise allocate each time. */
+private val blurPaints = HashMap<BlurKey, android.graphics.Paint>()
+
+private fun blurPaint(key: BlurKey): android.graphics.Paint = synchronized(blurPaints) {
+    blurPaints.getOrPut(key) {
+        android.graphics.Paint(android.graphics.Paint.ANTI_ALIAS_FLAG).apply {
+            color = key.argb
+            maskFilter = BlurMaskFilter(key.radius, BlurMaskFilter.Blur.NORMAL)
+            if (key.stroke != null) {
+                style = android.graphics.Paint.Style.STROKE
+                strokeWidth = key.stroke
+            }
         }
     }
+}
+
+/** Draws [path] blurred in [color] behind what follows (unblurred below API 28, which is accepted). */
+private fun DrawScope.blurred(path: Path, color: Color, radius: Float, stroke: Float? = null) {
+    val paint = blurPaint(BlurKey(color.toArgb(), radius, stroke))
     drawIntoCanvas { it.nativeCanvas.drawPath(path.asAndroidPath(), paint) }
 }
 

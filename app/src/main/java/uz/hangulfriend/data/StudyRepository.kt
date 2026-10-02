@@ -3,9 +3,6 @@ package uz.hangulfriend.data
 import androidx.room.withTransaction
 import java.time.Clock
 import java.time.Instant
-import kotlinx.coroutines.flow.Flow
-import kotlinx.coroutines.flow.combine
-import kotlinx.coroutines.flow.map
 import uz.hangulfriend.content.Lesson
 import uz.hangulfriend.srs.CardState
 import uz.hangulfriend.srs.FsrsScheduler
@@ -83,10 +80,6 @@ class StudyRepository(
         val left = (dailyNewLimit - cards.firstReviewedBetween(dayStart, dayEnd)).coerceAtLeast(0)
         return cards.dueReviewed(now.toEpochMilli()) + cards.unseen(left)
     }
-
-    fun observeDueCount(dailyNewLimit: Int): Flow<Int> =
-        combine(cards.observeCount(), cards.observeLastReview()) { _, _ -> Unit }
-            .map { dueQueue(dailyNewLimit).size }
 
     private fun CardEntity.toSrs() = SrsCard(
         state = state,
