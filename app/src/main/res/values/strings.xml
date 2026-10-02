@@ -307,4 +307,14 @@
     <string name="flags_clear">Tozalash</string>
     <string name="flags_clear_q">Barcha xato belgilari o\'chiriladi.</string>
     <string name="flags_subject">Hangul Hunt — kontent xatolari (%1$d)</string>
+    <string name="final_title">Yakuniy sinov</string>
+    <string name="final_info">30 savol · 25 daqiqa · eshitish va o\'qish</string>
+    <string name="final_best">Eng yaxshi natija: %1$d%%</string>
+    <string name="final_recommend">Kitob oxirida topshirish tavsiya etiladi (%1$d/%2$d dars tugagan)</string>
+    <string name="final_start">Boshlash</string>
+    <string name="final_listening">Eshitish: %1$d/%2$d</string>
+    <string name="final_reading">O\'qish: %1$d/%2$d</string>
+    <string name="final_level2">TOPIK I 2-daraja darajasida</string>
+    <string name="final_level1">TOPIK I 1-daraja darajasida</string>
+    <string name="final_level0">Hali erta — darslarni takrorlang</string>
 </resources>

@@ -1,8 +1,10 @@
 package uz.hangulfriend.ui.map
 
 import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
+import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.itemsIndexed
 import androidx.compose.foundation.lazy.rememberLazyListState
@@ -19,20 +21,25 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.ViewModel
+import androidx.lifecycle.compose.LifecycleResumeEffect
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewModelScope
+import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.flow.stateIn
+import kotlinx.coroutines.launch
 import uz.hangulfriend.R
 import uz.hangulfriend.content.CatalogEntry
 import uz.hangulfriend.content.ContentRepository
+import uz.hangulfriend.data.GameRepository
 import uz.hangulfriend.data.GameThemeId
 import uz.hangulfriend.data.LessonProgressEntity
 import uz.hangulfriend.data.LessonStatus
 import uz.hangulfriend.data.ProgressRepository
 import uz.hangulfriend.data.SettingsRepository
+import uz.hangulfriend.study.FINAL_TEST_ID
 import uz.hangulfriend.ui.theme.GameBackground
 import uz.hangulfriend.ui.theme.LocalGameTokens
 
@@ -53,7 +60,21 @@ fun buildRows(
     LessonRow(entry, entry.id in available, status, percent)
 }
 
-class BookMapViewModel(content: ContentRepository, progress: ProgressRepository, settings: SettingsRepository) : ViewModel() {
+class BookMapViewModel(
+    content: ContentRepository,
+    progress: ProgressRepository,
+    settings: SettingsRepository,
+    private val game: GameRepository,
+) : ViewModel() {
+    private val _finalBest = MutableStateFlow(0)
+
+    /** Best final-test percentage so far; 0 before the first attempt. */
+    val finalBest: StateFlow<Int> = _finalBest
+
+    fun refreshFinalBest() {
+        viewModelScope.launch { _finalBest.value = game.best(FINAL_TEST_ID) }
+    }
+
     private val catalog = content.catalog()
     private val available = catalog.map { it.id }.filter(content::isAvailable).toSet()
 
@@ -69,10 +90,18 @@ fun BookMapScreen(
     onOpenLesson: (String) -> Unit,
     onQuickCheck: (String) -> Unit,
     onBoss: (Int) -> Unit,
+    onFinal: () -> Unit,
     modifier: Modifier = Modifier,
 ) {
     val t = LocalGameTokens.current
     val units by vm.units.collectAsStateWithLifecycle()
+    val finalBest by vm.finalBest.collectAsStateWithLifecycle()
+    LifecycleResumeEffect(Unit) {
+        vm.refreshFinalBest()
+        onPauseOrDispose { }
+    }
+    val lessonsDone = units.sumOf { u -> u.lessons.count { it.status == LessonStatus.COMPLETED || it.status == LessonStatus.VERIFIED } }
+    val lessonsTotal = units.sumOf { it.lessons.size }
     var opened by rememberSaveable { mutableStateOf(listOf<Int>()) }
     val actions = MapActions(onOpenLesson, onQuickCheck, onBoss) { unit ->
         opened = if (unit in opened) opened - unit else opened + unit
@@ -110,6 +139,9 @@ fun BookMapScreen(
                     Text(stringResource(R.string.map_cleared_count, cleared, units.size), color = t.muted, fontSize = 13.sp)
                 }
             }
+            if (tower) {
+                item(key = "final") { FinalCard(finalBest, lessonsDone, lessonsTotal, onFinal) }
+            }
             itemsIndexed(ordered, key = { _, u -> "unit${u.unit}" }) { i, u ->
                 val expanded = u.state == UnitState.ACTIVE || u.unit in opened
                 if (tower) {
@@ -124,6 +156,9 @@ fun BookMapScreen(
                         actions = actions,
                     )
                 }
+            }
+            if (!tower) {
+                item(key = "final") { Box(Modifier.padding(top = 12.dp)) { FinalCard(finalBest, lessonsDone, lessonsTotal, onFinal) } }
             }
         }
     }

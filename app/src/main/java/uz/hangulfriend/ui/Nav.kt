@@ -155,12 +155,13 @@ fun HangulFriendNav(container: AppContainer, openReview: Boolean = false) {
                 )
             }
             composable(Routes.MAP) {
-                val vm = viewModel { BookMapViewModel(container.content, container.progress, container.settings) }
+                val vm = viewModel { BookMapViewModel(container.content, container.progress, container.settings, container.game) }
                 BookMapScreen(
                     vm,
                     onOpenLesson = { nav.navigate(Routes.lesson(it)) },
                     onQuickCheck = { nav.navigate(Routes.session(SessionMode.QUICK_CHECK, it)) },
                     onBoss = { nav.navigate(Routes.session(SessionMode.BOSS, it.toString())) },
+                    onFinal = { nav.navigate(Routes.session(SessionMode.FINAL)) },
                 )
             }
             composable(Routes.SETTINGS) {
