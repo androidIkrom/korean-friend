@@ -57,12 +57,12 @@ internal data class AvatarPalette(
 internal fun paletteFor(id: GameThemeId): AvatarPalette = when (id) {
     GameThemeId.SYSTEM -> AvatarPalette(
         coat = Color(0xFF070B16), shirt = Color(0xFF0E1628), skin = Color(0xFF1A2440), shade = Color(0xFF10182C),
-        hair = Color(0xFF04060E), hood = Color(0xFF111A2E), armor = Color(0xFF0B1222), dim = Color(0xFF2B3A55),
+        hair = Color(0xFF04060E), hood = Color(0xFF111A2E), armor = Color(0xFF0B1222), dim = Color(0xFF5A77A6),
         eye = Color(0xFF7F93B5), eyeGlow = Color(0xFFAEE8FF), blade = Color(0xFF9FB3D1), glow = Color(0xFF2E8BFF),
     )
     GameThemeId.NEON -> AvatarPalette(
         coat = Color(0xFF140A24), shirt = Color(0xFF1D1036), skin = Color(0xFF2A1838), shade = Color(0xFF1F122B),
-        hair = Color(0xFF0D0618), hood = Color(0xFF1F122B), armor = Color(0xFF1A0E30), dim = Color(0xFF4A3360),
+        hair = Color(0xFF0D0618), hood = Color(0xFF1F122B), armor = Color(0xFF1A0E30), dim = Color(0xFF8566B5),
         eye = Color(0xFF9B8FC0), eyeGlow = Color(0xFF2EE6FF), blade = Color(0xFF2EE6FF), glow = Color(0xFFFF3D9A),
     )
 }

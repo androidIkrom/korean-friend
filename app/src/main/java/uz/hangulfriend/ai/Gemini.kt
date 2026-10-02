@@ -4,6 +4,7 @@ import java.io.IOException
 import java.net.HttpURLConnection
 import java.net.URL
 import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.delay
 import kotlinx.coroutines.withContext
 import kotlinx.serialization.SerializationException
 import kotlinx.serialization.Serializable
@@ -88,6 +89,7 @@ class GeminiClient(
     private val keys: List<String>,
     private val transport: GeminiTransport,
     private val models: List<String> = DEFAULT_MODELS,
+    private val retryDelayMs: Long = 1_500,
 ) {
     @Volatile private var current = 0
 
@@ -101,31 +103,43 @@ class GeminiClient(
                 generationConfig = if (json) GenerationConfig(responseMimeType = "application/json") else null,
             ),
         )
-        for (offset in keys.indices) {
-            val index = (current + offset) % keys.size
-            var nextKey = false
-            for (model in models) {
-                val result = try {
-                    transport.post(model, keys[index], body)
-                } catch (_: IOException) {
-                    return AiResult.Offline
+        // A busy model (5xx) is usually free again a moment later, so the whole list gets one more pass.
+        for (pass in 0 until BUSY_PASSES) {
+            var busy = false
+            for (offset in keys.indices) {
+                val index = (current + offset) % keys.size
+                var nextKey = false
+                for (model in models) {
+                    val result = try {
+                        transport.post(model, keys[index], body)
+                    } catch (_: IOException) {
+                        return AiResult.Offline
+                    } catch (_: SecurityException) {
+                        // No network access for the app: report it like being offline instead of crashing.
+                        return AiResult.Offline
+                    }
+                    when (result.code) {
+                        200 -> {
+                            current = index
+                            return parse(result.body)
+                        }
+                        429, 401, 403 -> {
+                            nextKey = true
+                            break
+                        }
+                        in 500..599 -> continue
+                        else -> return AiResult.Failed("HTTP ${result.code}")
+                    }
                 }
-                when (result.code) {
-                    200 -> {
-                        current = index
-                        return parse(result.body)
-                    }
-                    429, 401, 403 -> {
-                        nextKey = true
-                        break
-                    }
-                    in 500..599 -> continue
-                    else -> return AiResult.Failed("HTTP ${result.code}")
+                if (!nextKey) {
+                    busy = true
+                    break
                 }
             }
-            if (!nextKey) return AiResult.Failed("Gemini hozir band")
+            if (!busy) return AiResult.QuotaExhausted
+            if (pass + 1 < BUSY_PASSES) delay(retryDelayMs)
         }
-        return AiResult.QuotaExhausted
+        return AiResult.Failed("Gemini hozir band")
     }
 
     private fun parse(body: String): AiResult {
@@ -139,6 +153,7 @@ class GeminiClient(
     }
 
     companion object {
-        val DEFAULT_MODELS = listOf("gemini-3.8-flash", "gemini-3.5-flash")
+        val DEFAULT_MODELS = listOf("gemini-3.8-flash", "gemini-3.5-flash", "gemini-3.5-flash-lite")
+        const val BUSY_PASSES = 2
     }
 }
