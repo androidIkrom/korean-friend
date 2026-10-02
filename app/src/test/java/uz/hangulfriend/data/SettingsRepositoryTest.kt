@@ -50,6 +50,23 @@ class SettingsRepositoryTest {
         assertNull(settings.lastSeenRank.first())
     }
 
+    @Test fun heroDefaultsToBoy() = runTest { assertEquals(HeroGender.BOY, settings.settings.first().hero) }
+
+    @Test fun setHeroPersists() = runTest {
+        settings.setHero(HeroGender.GIRL)
+        assertEquals(HeroGender.GIRL, settings.settings.first().hero)
+    }
+
+    @Test fun unknownHeroIsBoy() = runTest {
+        store.edit { it[stringPreferencesKey("hero")] = "robot" }
+        assertEquals(HeroGender.BOY, settings.settings.first().hero)
+    }
+
+    @Test fun replaceAllWritesHero() = runTest {
+        settings.replaceAll(Settings(hero = HeroGender.GIRL))
+        assertEquals(HeroGender.GIRL, settings.settings.first().hero)
+    }
+
     @Test fun replaceAllWritesTheme() = runTest {
         settings.replaceAll(Settings(theme = GameThemeId.NEON))
         assertEquals(GameThemeId.NEON, settings.settings.first().theme)
