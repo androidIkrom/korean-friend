@@ -43,4 +43,12 @@ class GameThemeTest {
         assertEquals(RoundedCornerShape(14.dp), neon.medium)
         assertEquals(RoundedCornerShape(8.dp), neon.extraSmall)
     }
+
+    /** Face-up memory cards, the learner's chat bubbles and dialogue lines must stand out from plain surfaces. */
+    @Test fun containersAreDistinct() = GameThemeId.entries.forEach { id ->
+        val c = gameColorScheme(tokensFor(id))
+        val colors = listOf(c.primaryContainer, c.secondaryContainer, c.surfaceVariant)
+        assertEquals("$id", 3, colors.distinct().size)
+        colors.forEach { assertEquals("$id opaque", 1f, it.alpha) }
+    }
 }
