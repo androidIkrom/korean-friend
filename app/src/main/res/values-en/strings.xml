@@ -1,6 +1,179 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="app_name">Hangul Hunt</string>
     <string name="lang_code">en</string>
+
+    <string name="nav_home">Home</string>
+    <string name="nav_book">Map</string>
+    <string name="nav_stories">Stories</string>
+    <string name="nav_settings">Settings</string>
+
+    <string name="status_not_started">Not started</string>
+    <string name="status_passed">Covered</string>
+    <string name="status_in_progress">In progress</string>
+    <string name="status_completed">Completed</string>
+    <string name="status_verified">Verified</string>
+    <string name="coming_soon">Coming soon</string>
+    <string name="unit_title">Unit %1$d · %2$s</string>
+
+    <string name="onboarding_welcome">Welcome!</string>
+    <string name="onboarding_intro">Hangul Hunt helps you review the lessons of the «사랑해요 한국어 2» textbook.</string>
+    <string name="onboarding_question">Which lesson are you on now?</string>
+    <string name="onboarding_continue">Continue</string>
+
+
+    <string name="settings_current_lesson">Current lesson</string>
+    <string name="settings_daily_new">New cards per day: %1$d</string>
+    <string name="settings_apply">Save current lesson</string>
+    <string name="settings_apply_note">Lessons before this one are marked as «covered», and their words are gradually added to your reviews.</string>
+    <string name="audio_play">Listen</string>
+    <string name="ex_listen_choose_prompt">Listen and choose the meaning</string>
+    <string name="ex_dictation_prompt">Listen and write it in Korean</string>
+    <string name="speak_prompt">Say the sentence out loud</string>
+    <string name="speak_start">Speak</string>
+    <string name="speak_listening">Listening…</string>
+    <string name="speak_again">Say it again</string>
+    <string name="speak_retry">Try again</string>
+    <string name="speak_skip">Skip</string>
+    <string name="speak_result">Match: %1$d%%</string>
+    <string name="speak_passed">Great! You said it right.</string>
+    <string name="speak_failed">Pay attention to the red syllables and try again.</string>
+    <string name="speak_err_no_match">Didn\'t catch that. Say it again, more clearly.</string>
+    <string name="speak_err_language">Korean speech recognition is not installed on your phone. Download Korean in the Google app → Settings → Voice → Offline speech recognition.</string>
+    <string name="speak_err_permission">Microphone access was not granted. Allow it or skip this exercise.</string>
+    <string name="speak_err_network">Connection problem. Please try again.</string>
+    <string name="speak_err_other">Speech recognition failed.</string>
+    <string name="ai_title">🤖 AI tutor</string>
+    <string name="ai_first_question_label">Explain this topic</string>
+    <string name="ai_input_hint">Type your question…</string>
+    <string name="ai_send">Send</string>
+    <string name="ai_quota">Today\'s AI limit is used up. Try again tomorrow.</string>
+    <string name="ai_offline">No internet. Connect to use the AI.</string>
+    <string name="ai_not_configured">AI is not set up (no key in the .env file).</string>
+    <string name="ai_failed">The AI could not answer. Try again in a moment.</string>
+    <string name="ai_explain_grammar">🤖 I don\'t get it</string>
+    <string name="ai_explain_grammar_question">Explain this grammar simply, with examples.</string>
+    <string name="ai_ask_mistake">🤖 Ask the AI</string>
+    <string name="ai_checking">The AI is checking…</string>
+    <string name="ai_translation_ok">AI: your translation is correct!</string>
+    <string name="ach_first_lesson">First lesson</string>
+    <string name="ach_first_lesson_desc">You finished your first lesson with its test</string>
+    <string name="ach_first_unit">First unit</string>
+    <string name="ach_first_unit_desc">You finished both lessons of a unit</string>
+    <string name="ach_words_100">100 words</string>
+    <string name="ach_words_100_desc">You learned 100 words</string>
+    <string name="ach_words_500">500 words</string>
+    <string name="ach_words_500_desc">You learned 500 words</string>
+    <string name="ach_streak_7">7-day fire</string>
+    <string name="ach_streak_7_desc">You met your daily goal 7 days in a row</string>
+    <string name="ach_streak_30">30-day fire</string>
+    <string name="ach_streak_30_desc">You met your daily goal 30 days in a row</string>
+    <string name="ach_first_boss">Boss defeated</string>
+    <string name="ach_first_boss_desc">You won your first Boss battle</string>
+
+    <string name="home_level_progress">%1$d / %2$d XP</string>
+
+    <string name="session_combo">🔥 %1$d in a row!</string>
+    <string name="session_xp">+%1$d XP</string>
+    <string name="session_boss_won">⚔️ Boss defeated!</string>
+    <string name="session_boss_lost">💔 Out of hearts. Try again!</string>
+    <string name="session_new_achievement">🏆 New badge: %1$s</string>
+
+    <string name="map_quick_check">Quick check</string>
+    <string name="map_boss">⚔️ Boss battle</string>
+    <string name="settings_daily_goal">Daily goal: %1$d XP</string>
+
+    <string name="games_title">Games</string>
+    <string name="game_memory">Memory game</string>
+    <string name="game_memory_desc">Match each Korean word with its meaning</string>
+    <string name="game_speed">Speed round</string>
+    <string name="game_speed_desc">Find as many meanings as you can in 60 seconds</string>
+    <string name="game_race">Hangul race</string>
+    <string name="game_race_desc">Type words in Korean for 60 seconds</string>
+    <string name="game_chain">Grammar chain</string>
+    <string name="game_chain_desc">Build forms one after another without a mistake</string>
+    <string name="game_best">Best: %1$d</string>
+    <string name="game_time_left">⏱ %1$d s</string>
+    <string name="game_score">Score: %1$d</string>
+    <string name="game_new_record">🎉 New record!</string>
+    <string name="game_again">Play again</string>
+    <string name="game_moves">Moves: %1$d</string>
+    <string name="game_chain_length">Chain: %1$d / %2$d</string>
+    <string name="game_no_content">Open a lesson first to play.</string>
+
+    <string name="achievements_title">Badges</string>
+    <string name="mistakes_title">Mistake notebook</string>
+    <string name="mistakes_empty">No mistakes yet. Great!</string>
+    <string name="mistakes_practice">Practice these</string>
+    <string name="dialogue_mode_listen">Listen</string>
+    <string name="dialogue_mode_roleplay">Role-play</string>
+    <string name="roleplay_choose">Which role will you play?</string>
+    <string name="roleplay_your_turn">Your turn:</string>
+    <string name="roleplay_done">Role-play finished! 🎉</string>
+    <string name="roleplay_again">Once more</string>
+    <string name="roleplay_other">Other role</string>
+
+    <string name="feedback_correct">Correct!</string>
+    <string name="feedback_spacing">Almost! The spacing is wrong.</string>
+    <string name="feedback_final_consonant">Almost! The 받침 (final consonant) is wrong.</string>
+    <string name="feedback_vowel">Almost! A vowel is wrong.</string>
+    <string name="feedback_one_letter">Almost! One letter is wrong.</string>
+    <string name="feedback_wrong">Wrong.</string>
+
+    <string name="ex_check">Check</string>
+    <string name="ex_next">Next</string>
+    <string name="ex_hint">Hint</string>
+    <string name="ex_show">Show</string>
+    <string name="ex_answer_hint">Your answer (in Korean)</string>
+    <string name="ex_correct_answer">Correct answer: %1$s</string>
+    <string name="ex_sample_answers">Sample answers:</string>
+    <string name="ex_flashcard_prompt">Recall the meaning, then check</string>
+    <string name="ex_typing_prompt">Write it in Korean</string>
+    <string name="ex_match_prompt">Find the pairs</string>
+    <string name="ex_build_prompt">Tap the words in the right order</string>
+    <string name="ex_conjugate_prompt">%1$s + %2$s = ?</string>
+    <string name="ex_clear">Clear</string>
+    <string name="rate_again">Again</string>
+    <string name="rate_hard">Hard</string>
+    <string name="rate_good">Good</string>
+    <string name="rate_easy">Easy</string>
+
+    <string name="session_result">%1$d / %2$d correct (%3$d%%)</string>
+    <string name="session_test_passed">Lesson complete! 🎉</string>
+    <string name="session_test_failed">Try again — you need 80%</string>
+    <string name="session_empty">No exercises right now.</string>
+    <string name="session_finish">Finish</string>
+    <string name="session_close">Close</string>
+
+    <string name="stage_vocab">Words</string>
+    <string name="stage_grammar">Grammar</string>
+    <string name="stage_dialogue">Dialogue</string>
+    <string name="stage_practice">Practice</string>
+    <string name="stage_test">Test</string>
+    <string name="pager_prev">Previous</string>
+    <string name="pager_next">Next</string>
+    <string name="pager_next_stage">Next stage</string>
+    <string name="grammar_check">Check yourself</string>
+    <string name="grammar_examples">Examples</string>
+    <string name="grammar_mistakes">Common mistakes</string>
+    <string name="grammar_uz_compare">Compared with English</string>
+    <string name="dialogue_translation">Show translation</string>
+    <string name="practice_intro">Reinforce the lesson\'s words and grammar with mixed exercises.</string>
+    <string name="practice_start">Start practice</string>
+    <string name="test_intro">Lesson test: a score of 80% or higher completes the lesson.</string>
+    <string name="test_start">Start the test</string>
+    <string name="lesson_review">Review this lesson</string>
+    <string name="stories_title">Stories</string>
+    <string name="story_unit">Unit %1$d</string>
+    <string name="story_locked">Finish the lesson first</string>
+    <string name="story_soon">Coming soon</string>
+    <string name="story_new">New episode</string>
+    <string name="story_done">✓ Done</string>
+    <string name="story_next">Next</string>
+    <string name="story_finish_title">Episode complete!</string>
+    <string name="story_xp">+%1$d XP</string>
+    <string name="story_replayed">Replayed</string>
+    <string name="story_close">Close</string>
     <string name="reminder_channel">Daily reminder</string>
     <plurals name="reminder_due">
         <item quantity="one">%1$d card is waiting today.</item>
@@ -11,4 +184,151 @@
         <item quantity="one">%1$d-day streak 🔥</item>
         <item quantity="other">%1$d-day streak 🔥</item>
     </plurals>
+    <string name="settings_reminder">🔔 Daily reminder</string>
+    <string name="settings_reminder_time">Time: %1$s</string>
+    <string name="settings_reminder_denied">Notifications are not allowed.</string>
+    <string name="settings_reminder_open">Open permission settings</string>
+    <string name="backup_save">💾 Save to file</string>
+    <string name="backup_restore">📂 Restore from file</string>
+    <string name="backup_saved">Saved</string>
+    <string name="backup_restored">Progress restored</string>
+    <string name="backup_failed">Error: the action failed</string>
+    <string name="backup_not_backup">This file is not a backup</string>
+    <string name="backup_too_new">This file was made by a newer version of the app</string>
+    <string name="backup_confirm_title">Restore progress</string>
+    <string name="backup_confirm_text">Your current progress will be deleted and replaced with the one in the file. Continue?</string>
+    <string name="backup_confirm_yes">Restore</string>
+    <string name="backup_confirm_no">Cancel</string>
+    <string name="share_title">Share your progress</string>
+    <string name="share_send">Share</string>
+    <string name="share_close">Close</string>
+    <string name="share_no_app">No app found to share with</string>
+    <string name="share_streak">day streak</string>
+    <string name="share_words">words learned</string>
+    <string name="share_lessons">Lessons</string>
+    <string name="share_now">Now</string>
+    <string name="share_footer">사랑해요 한국어 2 · Hangul Hunt</string>
+    <string name="rank_title_e">Novice</string>
+    <string name="rank_title_d">Apprentice</string>
+    <string name="rank_title_c">Hunter</string>
+    <string name="rank_title_b">Knight</string>
+    <string name="rank_title_a">Commander</string>
+    <string name="rank_title_s">Monarch</string>
+    <string name="avatar_new_jacket">Jacket and a soft rim light</string>
+    <string name="avatar_new_long_coat">Long coat</string>
+    <string name="avatar_new_pauldrons">Pauldrons</string>
+    <string name="avatar_new_cape">Cape</string>
+    <string name="avatar_new_blades">Twin daggers</string>
+    <string name="avatar_new_hair_light">Light in the hair</string>
+    <string name="avatar_new_companions">Companions</string>
+    <string name="settings_theme">Interface style</string>
+    <string name="theme_system">System</string>
+    <string name="theme_neon">Neon Seoul</string>
+    <string name="quest_daily_xp">Daily XP goal</string>
+    <string name="quest_review">Review cards</string>
+    <string name="quest_lesson">Current lesson: %1$s</string>
+    <string name="home_status">Status</string>
+    <string name="home_quest">Daily quest</string>
+    <string name="home_quest_footer">Meet the goal to keep your streak going</string>
+    <string name="home_title">Title: %1$s</string>
+    <string name="home_stat_words">Words</string>
+    <string name="home_stat_lessons">Lessons</string>
+    <string name="home_stat_stories">Stories</string>
+    <string name="home_stat_achievements">Badges</string>
+    <plurals name="home_streak_days">
+        <item quantity="one">%1$d day</item>
+        <item quantity="other">%1$d days</item>
+    </plurals>
+    <string name="home_continue_lesson">Continue · Unit %1$d, lesson %2$d</string>
+    <string name="home_open_map">Open the map</string>
+    <string name="home_action_review">Review · %1$d</string>
+    <string name="home_action_games">Games</string>
+    <string name="home_action_mistakes">Mistakes</string>
+    <string name="home_action_achievements">Badges</string>
+    <string name="rankup_message">You reached level %1$d. Rank up!</string>
+    <string name="rankup_accept">Accept</string>
+    <string name="map_tower_title">Tower of Gates</string>
+    <string name="map_metro_title">Metro map</string>
+    <string name="map_cleared_count">%1$d/%2$d cleared</string>
+    <string name="map_active_gate">ACTIVE GATE</string>
+    <string name="map_active_station">YOU ARE HERE</string>
+    <string name="map_enter_gate">ENTER THE GATE</string>
+    <string name="map_enter_station">Get off at this station</string>
+    <string name="map_cleared">CLEARED</string>
+    <string name="map_lesson_line">Lesson %1$d · %2$s</string>
+    <string-array name="unit_topics_ko">
+        <item>가족</item>
+        <item>쇼핑</item>
+        <item>여행</item>
+        <item>취미</item>
+        <item>은행·우체국</item>
+        <item>길 찾기</item>
+        <item>약속·병원</item>
+        <item>감정·규칙</item>
+        <item>전화·일상</item>
+    </string-array>
+    <string name="episode_choice">Choice</string>
+    <string name="episode_chip">EPISODE %1$d · %2$s</string>
+    <string name="avatar_new_gaze">A sharper gaze</string>
+    <string name="avatar_new_flame">Flame aura awakened</string>
+    <string name="avatar_new_ponytail">Hair tied back for battle</string>
+    <string name="avatar_new_embers">Embers</string>
+    <string name="avatar_new_sword">Long sword</string>
+    <string name="avatar_new_monarch_flame">Monarch\'s flame</string>
+    <string name="avatar_new_eye_trail">Flame trail from the eyes</string>
+    <string name="avatar_new_tiara">Radiant crown</string>
+    <string name="hero_title">Your hero</string>
+    <string name="hero_boy">Boy</string>
+    <string name="hero_girl">Girl</string>
+    <string name="home_action_vocab">Words</string>
+    <string name="vocab_title">Vocabulary</string>
+    <plurals name="vocab_count">
+        <item quantity="one">%1$d word</item>
+        <item quantity="other">%1$d words</item>
+    </plurals>
+    <string name="vocab_search">Search (Korean or English)</string>
+    <string name="vocab_all">All</string>
+    <string name="vocab_own">My words</string>
+    <string name="vocab_status_new">New</string>
+    <string name="vocab_status_learning">Learning</string>
+    <string name="vocab_status_learned">Learned</string>
+    <string name="vocab_add">Add a word</string>
+    <string name="vocab_ko">Korean</string>
+    <string name="vocab_uz">Meaning</string>
+    <string name="vocab_note">Note (optional)</string>
+    <string name="vocab_add_ok">Add</string>
+    <string name="vocab_err_empty">Fill in both fields</string>
+    <string name="vocab_err_long">Too long</string>
+    <string name="vocab_err_dup">This word is already there</string>
+    <string name="vocab_added">Word added and queued for review</string>
+    <string name="vocab_delete">Delete</string>
+    <string name="vocab_delete_q">This word and its review history will be deleted.</string>
+    <string name="vocab_cancel">Cancel</string>
+    <string name="vocab_none">Nothing found</string>
+    <string name="vocab_own_empty">You haven\'t added any words yet — tap the + button below.</string>
+    <string name="flag_button">Report</string>
+    <string name="flag_title">Report a problem</string>
+    <string name="flag_reason_translation">Wrong translation</string>
+    <string name="flag_reason_audio">Wrong audio</string>
+    <string name="flag_reason_answer">A correct answer was rejected</string>
+    <string name="flag_reason_typo">Typo / text error</string>
+    <string name="flag_reason_other">Other</string>
+    <string name="flag_comment">Comment (optional)</string>
+    <string name="flag_save">Add to the list</string>
+    <string name="flag_saved">Reported, thank you!</string>
+    <string name="flags_title">Content reports: %1$d</string>
+    <string name="flags_send">Send</string>
+    <string name="flags_clear">Clear</string>
+    <string name="flags_clear_q">All content reports will be deleted.</string>
+    <string name="flags_subject">Hangul Hunt — content issues (%1$d)</string>
+    <string name="final_title">Final exam</string>
+    <string name="final_info">30 questions · 25 minutes · listening and reading</string>
+    <string name="final_best">Best score: %1$d%%</string>
+    <string name="final_recommend">Best taken at the end of the book (%1$d/%2$d lessons done)</string>
+    <string name="final_start">Start</string>
+    <string name="final_listening">Listening: %1$d/%2$d</string>
+    <string name="final_reading">Reading: %1$d/%2$d</string>
+    <string name="final_level2">At TOPIK I level 2</string>
+    <string name="final_level1">At TOPIK I level 1</string>
+    <string name="final_level0">Too early — review your lessons</string>
 </resources>
