@@ -112,7 +112,9 @@ class GeminiClient(
                 for (model in models) {
                     val result = try {
                         transport.post(model, keys[index], body)
-                    } catch (_: IOException) {
+                    } catch (e: IOException) {
+                        // Logs only the failure kind and message (never the key) so network problems can be diagnosed.
+                        runCatching { android.util.Log.w("GeminiClient", "network error on $model: ${e.javaClass.simpleName}: ${e.message}") }
                         return AiResult.Offline
                     } catch (_: SecurityException) {
                         // No network access for the app: report it like being offline instead of crashing.
