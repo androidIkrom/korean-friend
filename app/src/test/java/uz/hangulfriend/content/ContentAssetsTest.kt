@@ -21,6 +21,20 @@ class ContentAssetsTest {
         assertEquals("lessons without a story episode", emptyList<String>(), missing)
     }
 
+    @Test fun finalTestIsValid() {
+        val t = repo.finalTest()!!
+        assertEquals(15, t.listening.size)
+        assertEquals(15, t.reading.size)
+        assertEquals((1..15).map { "final_l%02d".format(it) }, t.listening.map { it.id })
+        assertEquals((1..15).map { "final_r%02d".format(it) }, t.reading.map { it.id })
+        assertTrue(t.listening.all { it.type == ExerciseType.LISTEN_QUESTION && it.targets.isEmpty() })
+        assertTrue(t.reading.all { it.type == ExerciseType.READ_CHOICE && it.targets.isEmpty() })
+        assertEquals(emptyList<String>(), (t.listening + t.reading).flatMap { LessonValidator.exerciseErrors(it) })
+        assertTrue((t.listening + t.reading).all { it.options.orEmpty().toSet().size == 4 })
+        val dir = File("src/main/assets/audio")
+        t.listening.forEach { assertTrue("${it.id}: audio", it.audio != null && File(dir, it.audio!!).isFile) }
+    }
+
     @Test fun validatorPasses() = assertEquals(emptyList<String>(), LessonValidator.validate(lessons))
 
     @Test fun dialogueSpeakersExist() {

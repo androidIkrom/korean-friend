@@ -1,0 +1,531 @@
+{
+  "listening": [
+    {
+      "id": "final_l01",
+      "type": "listen_question",
+      "targets": [],
+      "prompt_uz": "Bu kim va avval nima ish qilgan?",
+      "answers": [
+        "Buvisi, oshpaz bo'lgan"
+      ],
+      "options": [
+        "Buvisi, shifokor bo'lgan",
+        "Opasi, oshpaz bo'lgan",
+        "Onasi, o'qituvchi bo'lgan",
+        "Buvisi, oshpaz bo'lgan"
+      ],
+      "audio_text": "이분은 누구세요? 우리 할머니세요. 전에 요리사셨어요.",
+      "why_uz": "할머니 = buvi, 요리사셨어요 = oshpaz bo'lganlar (hurmat).",
+      "audio": "eb2290ded7a8.mp3"
+    },
+    {
+      "id": "final_l02",
+      "type": "listen_question",
+      "targets": [],
+      "prompt_uz": "Ota hozir nima qilyapti?",
+      "answers": [
+        "Gazeta o'qiyapti"
+      ],
+      "options": [
+        "Gazeta o'qiyapti",
+        "Televizor ko'ryapti",
+        "Ovqat pishiryapti",
+        "Uxlayapti"
+      ],
+      "audio_text": "아버지는 지금 뭐 하세요? 신문을 읽고 계세요.",
+      "why_uz": "신문을 읽고 계세요 = gazeta o'qiyaptilar.",
+      "audio": "56b4111a6de0.mp3"
+    },
+    {
+      "id": "final_l03",
+      "type": "listen_question",
+      "targets": [],
+      "prompt_uz": "Mijozga nima yoqmadi?",
+      "answers": [
+        "Shim kalta"
+      ],
+      "options": [
+        "Shim kalta",
+        "Shim qimmat",
+        "Shim qora",
+        "Shim katta"
+      ],
+      "audio_text": "이 바지 한번 입어 보세요. 좀 짧아요. 더 긴 바지는 없어요?",
+      "why_uz": "짧아요 = kalta; 더 긴 = uzunroq.",
+      "audio": "2158590e6d7f.mp3"
+    },
+    {
+      "id": "final_l04",
+      "type": "listen_question",
+      "targets": [],
+      "prompt_uz": "Sumka necha pul?",
+      "answers": [
+        "35 000 von"
+      ],
+      "options": [
+        "3 500 von",
+        "30 500 von",
+        "35 000 von",
+        "53 000 von"
+      ],
+      "audio_text": "이 가방 얼마예요? 삼만 오천 원이에요.",
+      "why_uz": "삼만 오천 = 30 000 + 5 000.",
+      "audio": "b9199d57a8f4.mp3"
+    },
+    {
+      "id": "final_l05",
+      "type": "listen_question",
+      "targets": [],
+      "prompt_uz": "Dam olish kunlari nima qiladi?",
+      "answers": [
+        "Havo yaxshi bo'lsa, Pusanga boradi"
+      ],
+      "options": [
+        "Pusanda ishlaydi",
+        "Havo yomon bo'lsa, Pusanga boradi",
+        "Uyda dam oladi",
+        "Havo yaxshi bo'lsa, Pusanga boradi"
+      ],
+      "audio_text": "주말에 뭐 할 거예요? 날씨가 좋으면 부산에 갈 거예요.",
+      "why_uz": "-(으)면 = agar; 갈 거예요 = boraman.",
+      "audio": "d0d105849729.mp3"
+    },
+    {
+      "id": "final_l06",
+      "type": "listen_question",
+      "targets": [],
+      "prompt_uz": "Jejuda havo qanday edi?",
+      "answers": [
+        "Yaxshi emas edi"
+      ],
+      "options": [
+        "Issiq edi",
+        "Juda yaxshi edi",
+        "Yaxshi emas edi",
+        "Qor yog'di"
+      ],
+      "audio_text": "제주도는 어땠어요? 바다는 예뻤지만 날씨는 좋지 않았어요.",
+      "why_uz": "좋지 않았어요 = yaxshi emas edi.",
+      "audio": "ea81c911353c.mp3"
+    },
+    {
+      "id": "final_l07",
+      "type": "listen_question",
+      "targets": [],
+      "prompt_uz": "U nimani o'rganmoqchi?",
+      "answers": [
+        "Tennis"
+      ],
+      "options": [
+        "Yoga",
+        "Suzish",
+        "Tennis",
+        "Futbol"
+      ],
+      "audio_text": "무슨 운동을 좋아해요? 수영을 좋아하지만 잘 못해요. 테니스를 배우고 싶어요.",
+      "why_uz": "테니스를 배우고 싶어요 = tennisni o'rganmoqchiman.",
+      "audio": "ccedd8c085b6.mp3"
+    },
+    {
+      "id": "final_l08",
+      "type": "listen_question",
+      "targets": [],
+      "prompt_uz": "U dam olish kunlari nima qiladi?",
+      "answers": [
+        "Toqqa chiqadi"
+      ],
+      "options": [
+        "Toqqa chiqadi",
+        "Uxlaydi",
+        "Kino ko'radi",
+        "Kitob o'qiydi"
+      ],
+      "audio_text": "시간이 있을 때 보통 뭐 해요? 저는 등산하는 걸 좋아해서 주말마다 산에 가요.",
+      "why_uz": "등산 = toqqa chiqish; 주말마다 = har dam olish kuni.",
+      "audio": "765fe4ef2a9a.mp3"
+    },
+    {
+      "id": "final_l09",
+      "type": "listen_question",
+      "targets": [],
+      "prompt_uz": "Mijoz bankka nima uchun keldi?",
+      "answers": [
+        "Hisob ochish uchun"
+      ],
+      "options": [
+        "Pul o'tkazish uchun",
+        "Hisob ochish uchun",
+        "Pul almashtirish uchun",
+        "Kartani yo'qotgani uchun"
+      ],
+      "audio_text": "어떻게 오셨어요? 통장을 만들고 싶은데요.",
+      "why_uz": "통장을 만들다 = hisob (daftarcha) ochish.",
+      "audio": "532948360ce4.mp3"
+    },
+    {
+      "id": "final_l10",
+      "type": "listen_question",
+      "targets": [],
+      "prompt_uz": "Posilka qanday jo'natiladi?",
+      "answers": [
+        "Samolyotda"
+      ],
+      "options": [
+        "Avtobusda",
+        "Kemada",
+        "Samolyotda",
+        "Poyezdda"
+      ],
+      "audio_text": "이 소포를 우즈베키스탄으로 부치고 싶어요. 배로 보내실 거예요, 비행기로 보내실 거예요? 비행기로 보내 주세요.",
+      "why_uz": "비행기로 = samolyot bilan.",
+      "audio": "53321c49e072.mp3"
+    },
+    {
+      "id": "final_l11",
+      "type": "listen_question",
+      "targets": [],
+      "prompt_uz": "Qaysi bekatda tushish kerak?",
+      "answers": [
+        "Sicheong (shahar hokimligi) bekatida"
+      ],
+      "options": [
+        "Avtobus bekatida",
+        "Sicheong (shahar hokimligi) bekatida",
+        "Seul bekatida",
+        "Gangnam bekatida"
+      ],
+      "audio_text": "시청에 어떻게 가야 돼요? 지하철 2호선을 타고 시청역에서 내리세요.",
+      "why_uz": "시청역에서 내리세요 = Sicheong bekatida tushing.",
+      "audio": "1efc874e7ba2.mp3"
+    },
+    {
+      "id": "final_l12",
+      "type": "listen_question",
+      "targets": [],
+      "prompt_uz": "Dorixonaga qanday boriladi?",
+      "answers": [
+        "Piyodalar o'tish joyidan o'tib, o'ngga"
+      ],
+      "options": [
+        "To'g'riga, keyin orqaga",
+        "Chapga burilib, to'g'riga",
+        "Piyodalar o'tish joyidan o'tib, o'ngga",
+        "Ko'prikdan o'tib, chapga"
+      ],
+      "audio_text": "약국이 어디에 있어요? 횡단보도를 건너서 오른쪽으로 가세요.",
+      "why_uz": "건너서 = o'tib; 오른쪽 = o'ng tomon.",
+      "audio": "946c54f95413.mp3"
+    },
+    {
+      "id": "final_l13",
+      "type": "listen_question",
+      "targets": [],
+      "prompt_uz": "Shifokor nima qilmaslikni aytdi?",
+      "answers": [
+        "Bugun dush qabul qilmaslikni"
+      ],
+      "options": [
+        "Bugun dush qabul qilmaslikni",
+        "Dori ichmaslikni",
+        "Ovqat yemaslikni",
+        "Uxlamaslikni"
+      ],
+      "audio_text": "어디가 아파서 오셨어요? 어제부터 목이 아프고 열이 나요. 오늘은 샤워하지 마세요.",
+      "why_uz": "-지 마세요 = qilmang; 샤워 = dush.",
+      "audio": "f3c5dc66a8ae.mp3"
+    },
+    {
+      "id": "final_l14",
+      "type": "listen_question",
+      "targets": [],
+      "prompt_uz": "Sinfda nima mumkin?",
+      "answers": [
+        "Suv ichish"
+      ],
+      "options": [
+        "Uxlash",
+        "Telefonda gaplashish",
+        "Ovqat yeyish",
+        "Suv ichish"
+      ],
+      "audio_text": "이 교실에서 음식을 먹어도 돼요? 아니요, 먹으면 안 돼요. 물은 마셔도 돼요.",
+      "why_uz": "마셔도 돼요 = ichsa bo'ladi; 먹으면 안 돼요 = yeyish mumkin emas.",
+      "audio": "f7fd6495a2c3.mp3"
+    },
+    {
+      "id": "final_l15",
+      "type": "listen_question",
+      "targets": [],
+      "prompt_uz": "Minji hozir nima qilyapti?",
+      "answers": [
+        "Qahva ichib, uy vazifasini qilyapti"
+      ],
+      "options": [
+        "Do'sti bilan gaplashyapti",
+        "Kutubxonada o'qiyapti",
+        "Qahva ichib, kino ko'ryapti",
+        "Qahva ichib, uy vazifasini qilyapti"
+      ],
+      "audio_text": "여보세요, 민지 씨지요? 지금 뭐 하고 있어요? 커피를 마시면서 숙제하고 있어요.",
+      "why_uz": "-(으)면서 = ...-ib turib; 숙제하고 있어요 = uy vazifasini qilyapman.",
+      "audio": "1bed2096c5d4.mp3"
+    }
+  ],
+  "reading": [
+    {
+      "id": "final_r01",
+      "type": "read_choice",
+      "targets": [],
+      "prompt_uz": "Azizning onasi avval kim bo'lgan?",
+      "answers": [
+        "O'qituvchi"
+      ],
+      "options": [
+        "O'qituvchi",
+        "Shifokor",
+        "Oshpaz",
+        "Bank xodimi"
+      ],
+      "sentence": "저는 아지즈예요. 우리 가족은 네 명이에요. 아버지는 의사세요. 어머니는 전에 선생님이셨어요.",
+      "why_uz": "선생님이셨어요 = o'qituvchi bo'lganlar."
+    },
+    {
+      "id": "final_r02",
+      "type": "read_choice",
+      "targets": [],
+      "prompt_uz": "Nimaga chegirma bor?",
+      "answers": [
+        "Barcha yubkalarga"
+      ],
+      "options": [
+        "Barcha yubkalarga",
+        "Barcha shimlarga",
+        "Poyabzalga",
+        "Sumkalarga"
+      ],
+      "sentence": "[세일] 모든 치마 30% 할인!\n기간: 10월 1일 ~ 10월 7일",
+      "why_uz": "모든 치마 = barcha yubkalar; 할인 = chegirma."
+    },
+    {
+      "id": "final_r03",
+      "type": "read_choice",
+      "targets": [],
+      "prompt_uz": "Yozuvchi qanday yubka sotib oldi?",
+      "answers": [
+        "Uzunroq ko'k yubka"
+      ],
+      "options": [
+        "Qisqa qizil yubka",
+        "Qisqa ko'k yubka",
+        "Uzun qizil yubka",
+        "Uzunroq ko'k yubka"
+      ],
+      "sentence": "민지 씨는 빨간 치마를 샀어요. 저는 민지 씨 치마보다 더 긴 파란 치마를 샀어요.",
+      "why_uz": "더 긴 = uzunroq; 파란 = ko'k."
+    },
+    {
+      "id": "final_r04",
+      "type": "read_choice",
+      "targets": [],
+      "prompt_uz": "Yomg'ir yog'sa, nima qiladi?",
+      "answers": [
+        "Muzeyga boradi"
+      ],
+      "options": [
+        "Bog'ga boradi",
+        "Uyda qoladi",
+        "Muzeyga boradi",
+        "Velosiped haydaydi"
+      ],
+      "sentence": "내일 비가 오면 박물관에 갈 거예요. 비가 오지 않으면 공원에서 자전거를 탈 거예요.",
+      "why_uz": "비가 오면 박물관에 갈 거예요."
+    },
+    {
+      "id": "final_r05",
+      "type": "read_choice",
+      "targets": [],
+      "prompt_uz": "Matnga ko'ra pibimpap qanday?",
+      "answers": [
+        "Achchiq emas, mazali"
+      ],
+      "options": [
+        "Shirin",
+        "Achchiq emas, mazali",
+        "Juda achchiq",
+        "Qimmat"
+      ],
+      "sentence": "비빔밥은 한국 사람들이 많이 먹는 음식이에요. 맵지 않고 맛있어요.",
+      "why_uz": "맵지 않고 맛있어요 = achchiq emas va mazali."
+    },
+    {
+      "id": "final_r06",
+      "type": "read_choice",
+      "targets": [],
+      "prompt_uz": "U nimani yaxshi o'ynay olmaydi?",
+      "answers": [
+        "Futbol"
+      ],
+      "options": [
+        "Tennis",
+        "Basketbol",
+        "Futbol",
+        "Golf"
+      ],
+      "sentence": "저는 주말에 친구하고 테니스를 쳐요. 축구는 좋아하지만 잘 못해요.",
+      "why_uz": "축구는 ... 잘 못해요 = futbolni yaxshi o'ynay olmayman."
+    },
+    {
+      "id": "final_r07",
+      "type": "read_choice",
+      "targets": [],
+      "prompt_uz": "To'garak qachon yig'iladi?",
+      "answers": [
+        "Har shanba ertalab soat 9 da"
+      ],
+      "options": [
+        "Har shanba ertalab soat 9 da",
+        "Har yakshanba kechqurun",
+        "Har kuni soat 9 da",
+        "Har shanba kechqurun"
+      ],
+      "sentence": "[동아리 회원 모집]\n등산을 좋아하는 학생은 누구나 오세요!\n매주 토요일 오전 9시",
+      "why_uz": "매주 토요일 오전 9시 = har shanba ertalab 9 da."
+    },
+    {
+      "id": "final_r08",
+      "type": "read_choice",
+      "targets": [],
+      "prompt_uz": "Bank qachon ishlamaydi?",
+      "answers": [
+        "Shanba va yakshanba"
+      ],
+      "options": [
+        "Shanba va yakshanba",
+        "Dushanba",
+        "Har kuni soat 9 da",
+        "Juma ertalab"
+      ],
+      "sentence": "한국은행 영업시간: 월~금 오전 9시 ~ 오후 4시\n토요일, 일요일은 쉽니다.",
+      "why_uz": "토요일, 일요일은 쉽니다 = shanba va yakshanba dam."
+    },
+    {
+      "id": "final_r09",
+      "type": "read_choice",
+      "targets": [],
+      "prompt_uz": "Posilka qachon yetib boradi?",
+      "answers": [
+        "Bir oydan keyin"
+      ],
+      "options": [
+        "Bir oydan keyin",
+        "Bir haftadan keyin",
+        "Bir yildan keyin",
+        "Ertaga"
+      ],
+      "sentence": "우체국에 소포를 부치러 갔어요. 소포를 배로 보냈어요. 한 달 후에 도착할 거예요.",
+      "why_uz": "한 달 후에 = bir oydan keyin."
+    },
+    {
+      "id": "final_r10",
+      "type": "read_choice",
+      "targets": [],
+      "prompt_uz": "Avtobusdan tushgach nima qilish kerak?",
+      "answers": [
+        "5 daqiqa piyoda yurish"
+      ],
+      "options": [
+        "Metroga o'tish",
+        "5 daqiqa piyoda yurish",
+        "30 daqiqa yurish",
+        "Taksiga chiqish"
+      ],
+      "sentence": "학교에서 집까지 버스로 30분 걸려요. 버스에서 내려서 5분 걸어야 돼요.",
+      "why_uz": "내려서 5분 걸어야 돼요 = tushib, 5 daqiqa yurish kerak."
+    },
+    {
+      "id": "final_r11",
+      "type": "read_choice",
+      "targets": [],
+      "prompt_uz": "Bu yerda nima qilish mumkin emas?",
+      "answers": [
+        "Rasmga olish"
+      ],
+      "options": [
+        "O'tirish",
+        "Rasmga olish",
+        "Gaplashish",
+        "Kitob o'qish"
+      ],
+      "sentence": "[안내]\n이곳에서 사진을 찍지 마세요.\n음식을 가지고 들어갈 수 없습니다.",
+      "why_uz": "사진을 찍지 마세요 = rasmga olmang."
+    },
+    {
+      "id": "final_r12",
+      "type": "read_choice",
+      "targets": [],
+      "prompt_uz": "Aziz nega maktabga kelmadi?",
+      "answers": [
+        "Shamollagani uchun"
+      ],
+      "options": [
+        "Uxlab qolgani uchun",
+        "Ishlagani uchun",
+        "Sayohatga ketgani uchun",
+        "Shamollagani uchun"
+      ],
+      "sentence": "아지즈 씨는 감기에 걸려서 오늘 학교에 못 왔어요. 내일은 올 수 있어요.",
+      "why_uz": "감기에 걸려서 = shamollagani uchun."
+    },
+    {
+      "id": "final_r13",
+      "type": "read_choice",
+      "targets": [],
+      "prompt_uz": "Stress bo'lganda u nima qiladi?",
+      "answers": [
+        "Qo'shiq tinglaydi yoki sayr qiladi"
+      ],
+      "options": [
+        "Ishlaydi",
+        "Qo'shiq tinglaydi yoki sayr qiladi",
+        "Uxlaydi yoki ovqat yeydi",
+        "Do'stiga qo'ng'iroq qiladi"
+      ],
+      "sentence": "저는 스트레스를 받을 때 노래를 듣거나 산책을 해요.",
+      "why_uz": "-(으)ㄹ 때 = ...ganda; -거나 = yoki."
+    },
+    {
+      "id": "final_r14",
+      "type": "read_choice",
+      "targets": [],
+      "prompt_uz": "Kutubxonada nima mumkin emas?",
+      "answers": [
+        "Telefonda gaplashish"
+      ],
+      "options": [
+        "Telefonda gaplashish",
+        "Kitob olish",
+        "Kitob o'qish",
+        "Kitobni 2 hafta saqlash"
+      ],
+      "sentence": "[도서관 규칙]\n책을 2주 동안 빌려도 됩니다.\n도서관에서 전화하면 안 됩니다.",
+      "why_uz": "전화하면 안 됩니다 = telefon qilish mumkin emas."
+    },
+    {
+      "id": "final_r15",
+      "type": "read_choice",
+      "targets": [],
+      "prompt_uz": "Yozuvchi Minjiga nimani taklif qildi?",
+      "answers": [
+        "Kafeda birga o'qishni"
+      ],
+      "options": [
+        "Kafeda birga o'qishni",
+        "Kinoga borishni",
+        "Imtihonni bekor qilishni",
+        "Uyda dam olishni"
+      ],
+      "sentence": "민지 씨에게 문자를 보냈어요.\n\"내일 시험이 있지요? 같이 카페에서 커피 마시면서 공부해요.\"",
+      "why_uz": "같이 카페에서 ... 공부해요 = kafeda birga o'qiylik."
+    }
+  ]
+}

@@ -49,6 +49,7 @@ class FlagModelTest {
         assertEquals("u09_l2", lessonOfRef("u09_l2_w001,u09_l2_w002"))
         assertEquals("user", lessonOfRef("user_w3"))
         assertEquals("", lessonOfRef("xyz"))
+        assertEquals("final", lessonOfRef("final_l01"))
     }
 
     private fun flag(id: Long, ref: String, reason: FlagReason, comment: String?) = ContentFlagEntity(

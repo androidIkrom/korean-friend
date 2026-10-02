@@ -164,3 +164,7 @@ internal data class Catalog(val lessons: List<CatalogEntry>)
 
 @Serializable
 internal data class Characters(val characters: List<Character>)
+
+/** The book's closing TOPIK I-style test (stage 7c): listening first, then reading. */
+@Serializable
+data class FinalTest(val listening: List<Exercise>, val reading: List<Exercise>)
