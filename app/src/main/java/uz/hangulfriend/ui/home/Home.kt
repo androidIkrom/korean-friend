@@ -54,6 +54,7 @@ import uz.hangulfriend.R
 import uz.hangulfriend.content.CatalogEntry
 import uz.hangulfriend.content.ContentRepository
 import uz.hangulfriend.data.GameRepository
+import uz.hangulfriend.data.HeroGender
 import uz.hangulfriend.data.LessonStatus
 import uz.hangulfriend.data.ProgressRepository
 import uz.hangulfriend.data.SettingsRepository
@@ -78,6 +79,7 @@ data class HomeStats(
     val goal: Int = GameRules.DEFAULT_GOAL,
     val streak: Int = 0,
     val rank: Rank = Rank.E,
+    val hero: HeroGender = HeroGender.BOY,
     val learnedWords: Int = 0,
     val completedLessons: Int = 0,
     val storiesDone: Int = 0,
@@ -126,6 +128,7 @@ class HomeViewModel(
                 goal = s.dailyGoalXp,
                 streak = GameRules.streak(game.dailyXp(), LocalDate.now(clock), s.dailyGoalXp),
                 rank = rank,
+                hero = s.hero,
                 learnedWords = snap.learnedWords,
                 completedLessons = snap.completedLessons,
                 storiesDone = story.observeDone().first().size,
@@ -136,7 +139,7 @@ class HomeViewModel(
             if (lastSeen == null) {
                 settings.setLastSeenRank(rank)
             } else {
-                _rankUp.value = RankRules.rankUpToShow(rank, lastSeen)?.let { RankUp(lastSeen, it, level.level) }
+                _rankUp.value = RankRules.rankUpToShow(rank, lastSeen)?.let { RankUp(lastSeen, it, level.level, s.hero) }
             }
         }
     }
@@ -174,7 +177,7 @@ fun HomeScreen(
             verticalArrangement = Arrangement.spacedBy(14.dp),
         ) {
             TopRow(stats, headerAction)
-            HomeScene(stats.rank, Modifier.fillMaxWidth().height(300.dp))
+            HomeScene(stats.rank, stats.hero, Modifier.fillMaxWidth().height(300.dp))
             NamePlate(stats.rank)
             StatusPanel(stats)
             QuestPanel(questLines(stats.todayXp, stats.goal, due, stats.stageName))

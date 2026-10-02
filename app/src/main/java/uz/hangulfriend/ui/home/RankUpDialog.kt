@@ -25,6 +25,7 @@ import androidx.compose.ui.unit.sp
 import androidx.compose.ui.window.Dialog
 import androidx.compose.ui.window.DialogProperties
 import uz.hangulfriend.R
+import uz.hangulfriend.data.HeroGender
 import uz.hangulfriend.study.Rank
 import uz.hangulfriend.ui.avatar.Avatar
 import uz.hangulfriend.ui.avatar.newLayersAt
@@ -34,7 +35,7 @@ import uz.hangulfriend.ui.theme.GameButton
 import uz.hangulfriend.ui.theme.GamePanel
 import uz.hangulfriend.ui.theme.LocalGameTokens
 
-data class RankUp(val from: Rank, val to: Rank, val level: Int)
+data class RankUp(val from: Rank, val to: Rank, val level: Int, val hero: HeroGender)
 
 /** Full-screen "[ SYSTEM ] rank up" announcement (mockup "Rank oshdi · Tizim"). */
 @Composable
@@ -47,7 +48,7 @@ fun RankUpDialog(rankUp: RankUp, onAccept: () -> Unit) {
                 horizontalAlignment = Alignment.CenterHorizontally,
                 verticalArrangement = Arrangement.spacedBy(16.dp),
             ) {
-                Avatar(rankUp.to, Modifier.size(220.dp, 266.dp))
+                Avatar(rankUp.to, rankUp.hero, Modifier.size(220.dp, 266.dp), animated = true)
                 GamePanel(null) {
                     Column(
                         Modifier.fillMaxWidth(),
@@ -71,7 +72,7 @@ fun RankUpDialog(rankUp: RankUp, onAccept: () -> Unit) {
                         )
                     }
                     HorizontalDivider(color = t.panelBorder)
-                    newLayersAt(rankUp.to).forEach { res ->
+                    newLayersAt(rankUp.to, rankUp.hero).forEach { res ->
                         Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
                             Icon(Icons.Filled.Check, contentDescription = null, tint = t.accent, modifier = Modifier.size(16.dp))
                             Text(stringResource(res), color = t.text)
