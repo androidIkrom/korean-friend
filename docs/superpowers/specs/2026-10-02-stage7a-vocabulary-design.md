@@ -53,8 +53,8 @@ Bir xil `ko` ikki marta qo'shilmaydi (repository tekshiradi, katta-kichik harf v
 
 ## 3. Lug'at ekrani
 
-Marshrut `vocab`; Bosh sahifadagi ikkilamchi tugmalar 2×3 bo'ladi: Takrorlash, O'yinlar, Xatolar, Yutuqlar, **Lug'at**, (bo'sh joy yo'q —
-oxirgi qatorda Lug'at to'liq kenglikda).
+Marshrut `vocab`; Bosh sahifadagi ikkilamchi tugmalar uch qator bo'ladi: Takrorlash · O'yinlar, Xatolar · Yutuqlar,
+so'ng to'liq kenglikda **Lug'at**.
 
 Tuzilma (tema komponentlari bilan, `GameBackground` ustida):
 
