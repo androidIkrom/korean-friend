@@ -14,6 +14,7 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateListOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
@@ -31,11 +32,14 @@ import uz.hangulfriend.ui.theme.WrongRed
  */
 @Composable
 fun MatchView(words: List<Word>, onResult: (ExerciseOutcome) -> Unit, onNext: () -> Unit, showNext: Boolean = true) {
-    val left = remember(words) { words.shuffled() }
-    val right = remember(words) { words.shuffled() }
-    val matched = remember { mutableStateListOf<String>() }
-    val missed = remember { mutableStateListOf<String>() }
-    var selected by remember { mutableStateOf<String?>(null) }
+    // Column orders are kept as word ids so they survive rotation.
+    val leftIds = rememberSaveable(words) { ArrayList(words.shuffled().map { it.id }) }
+    val rightIds = rememberSaveable(words) { ArrayList(words.shuffled().map { it.id }) }
+    val left = remember(leftIds) { leftIds.mapNotNull { id -> words.find { it.id == id } } }
+    val right = remember(rightIds) { rightIds.mapNotNull { id -> words.find { it.id == id } } }
+    val matched = rememberSaveable(saver = StringListSaver) { mutableStateListOf<String>() }
+    val missed = rememberSaveable(saver = StringListSaver) { mutableStateListOf<String>() }
+    var selected by rememberSaveable { mutableStateOf<String?>(null) }
     var wrongFlash by remember { mutableStateOf<String?>(null) }
     val done = matched.size == words.size
 

@@ -339,3 +339,5 @@ Har bir bosqich tugaganda telefonda ishlatsa bo'ladigan ilova bo'ladi. Har bir b
    oxirida). Spec: `2026-10-02-stage7c-final-test-design.md`. 7d: qolgan ekranlar o'yin uslubida (tema shakllari, umumiy fon,
    `GameCard`). Spec: `2026-10-02-stage7d-restyle-design.md`. 7e: keyinga qoldirilgan kichik kamchiliklar (dars tekshiruvi bir marta
    baholanadi, bo'sh bosqich, qorong'i oyna, eslatma ruxsati va boshqalar). Spec: `2026-10-02-stage7e-fixes-design.md`.
+   7f: mashq holati burilishda saqlanadi, epizod klipi qayta ijro etilmaydi, yakuniy test dialoglari ikki ovozda.
+   Spec: `2026-10-02-stage7f-polish-design.md`.

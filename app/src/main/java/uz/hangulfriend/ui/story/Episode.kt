@@ -70,6 +70,16 @@ import uz.hangulfriend.ui.theme.GamePanel
 import uz.hangulfriend.ui.theme.LocalGameTokens
 import uz.hangulfriend.ui.theme.ProgressBar
 
+/** One clip to play; [id] grows with every new clip so a rotation does not replay the last one. */
+data class SpeakEvent(val id: Int, val file: String)
+
+/** Remembers which clips already played (lives in the view model, so it survives rotation). */
+class PlayOnce {
+    private var last = -1
+
+    fun shouldPlay(id: Int): Boolean = (id > last).also { if (it) last = id }
+}
+
 /** Header facts of the episode: its number in the book, its title and its step count. */
 data class EpisodeMeta(val number: Int, val title: String, val total: Int)
 
@@ -95,8 +105,14 @@ class EpisodeViewModel(
     val xp: StateFlow<Int?> = _xp
 
     /** The clip to play now; a solved choice is spoken in Aziz's voice. Lines speak when they appear. */
-    private val _speak = MutableStateFlow<String?>(null)
-    val speak: StateFlow<String?> = _speak
+    private val _speak = MutableStateFlow<SpeakEvent?>(null)
+    val speak: StateFlow<SpeakEvent?> = _speak
+    val playOnce = PlayOnce()
+    private var clips = 0
+
+    private fun say(file: String?) {
+        if (file != null) _speak.value = SpeakEvent(++clips, file)
+    }
 
     private val characters = content.characters()
     val names: Map<String, String> = characters.associate { it.id to it.nameUz }
@@ -118,14 +134,14 @@ class EpisodeViewModel(
         val before = _player.value ?: return
         val after = before.choose(option)
         val solved = before.current as? ChooseReply
-        if (solved != null && option == solved.answer) _speak.value = solved.audio
+        if (solved != null && option == solved.answer) say(solved.audio)
         update(after, speakLine = solved == null)
     }
 
     private fun update(p: StoryPlayer, speakLine: Boolean = true) {
         _player.value = p
         val line = p.current as? StoryLine
-        if (speakLine && line != null) _speak.value = line.audio
+        if (speakLine && line != null) say(line.audio)
         if (p.finished && _xp.value == null) {
             viewModelScope.launch { _xp.value = story.complete(lessonId, settings.settings.first().dailyGoalXp) }
         }
@@ -149,7 +165,7 @@ fun EpisodeScreen(vm: EpisodeViewModel, onClose: () -> Unit) {
     val xp by vm.xp.collectAsStateWithLifecycle()
     val speak by vm.speak.collectAsStateWithLifecycle()
     val audio = LocalAudioPlayer.current
-    LaunchedEffect(speak) { speak?.let { audio?.play(it) } }
+    LaunchedEffect(speak?.id) { speak?.let { if (vm.playOnce.shouldPlay(it.id)) audio?.play(it.file) } }
     val t = LocalGameTokens.current
     GameBackground {
         val p = player ?: run {

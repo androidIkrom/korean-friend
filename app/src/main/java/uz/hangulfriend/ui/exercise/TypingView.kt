@@ -13,6 +13,7 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableLongStateOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.Modifier
@@ -46,12 +47,12 @@ fun TypingView(
     aiQuestion: ((String) -> String)? = null,
     aiCheck: (suspend (String) -> TranslationVerdict?)? = null,
 ) {
-    val start by remember { mutableLongStateOf(System.currentTimeMillis()) }
+    val start by rememberSaveable { mutableLongStateOf(System.currentTimeMillis()) }
     val scope = rememberCoroutineScope()
     var checking by remember { mutableStateOf(false) }
-    var input by remember { mutableStateOf("") }
-    var usedHint by remember { mutableStateOf(false) }
-    var feedback by remember { mutableStateOf<FeedbackInfo?>(null) }
+    var input by rememberSaveable { mutableStateOf("") }
+    var usedHint by rememberSaveable { mutableStateOf(false) }
+    var feedback by rememberSaveable(stateSaver = FeedbackInfoSaver) { mutableStateOf<FeedbackInfo?>(null) }
     val messages = FeedbackMessages()
     val keyboard = LocalSoftwareKeyboardController.current
 

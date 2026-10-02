@@ -94,6 +94,21 @@ class AudioGenTest(unittest.TestCase):
         self.assertTrue((self.assets / "audio" / name).is_file())
         self.assertNotIn("audio", saved["reading"][0])
 
+    def test_dialogue_alternates_voices_and_joins(self):
+        final = {"listening": [{"id": "final_l01", "type": "listen_question", "audio_text": "가 나",
+                                "audio_dialogue": ["가?", "나.", "다!"]}], "reading": []}
+        (self.assets / "final_test.json").write_text(json.dumps(final, ensure_ascii=False), encoding="utf-8")
+        audio_gen.run(self.root, self.synth, dry_run=False, prune=False)
+        self.assertIn(("가?", audio_gen.FEMALE), self.calls)
+        self.assertIn(("나.", audio_gen.MALE), self.calls)
+        self.assertIn(("다!", audio_gen.FEMALE), self.calls)
+        saved = json.loads((self.assets / "final_test.json").read_text(encoding="utf-8"))
+        name = saved["listening"][0]["audio"]
+        lines = [(audio_gen.FEMALE, "가?"), (audio_gen.MALE, "나."), (audio_gen.FEMALE, "다!")]
+        self.assertEqual(audio_gen.dialogue_file_name(lines), name)
+        data = (self.assets / "audio" / name).read_bytes()
+        self.assertEqual(b"ID3" + "가?".encode() + b"ID3" + "나.".encode() + b"ID3" + "다!".encode(), data)
+
     def test_run_skips_existing(self):
         audio_gen.run(self.root, self.synth, dry_run=False, prune=False)
         self.calls.clear()

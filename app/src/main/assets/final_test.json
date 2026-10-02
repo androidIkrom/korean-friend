@@ -15,8 +15,12 @@
         "Buvisi, oshpaz bo'lgan"
       ],
       "audio_text": "이분은 누구세요? 우리 할머니세요. 전에 요리사셨어요.",
+      "audio_dialogue": [
+        "이분은 누구세요?",
+        "우리 할머니세요. 전에 요리사셨어요."
+      ],
       "why_uz": "할머니 = buvi, 요리사셨어요 = oshpaz bo'lganlar (hurmat).",
-      "audio": "eb2290ded7a8.mp3"
+      "audio": "b41ae29f8bed.mp3"
     },
     {
       "id": "final_l02",
@@ -33,8 +37,12 @@
         "Uxlayapti"
       ],
       "audio_text": "아버지는 지금 뭐 하세요? 신문을 읽고 계세요.",
+      "audio_dialogue": [
+        "아버지는 지금 뭐 하세요?",
+        "신문을 읽고 계세요."
+      ],
       "why_uz": "신문을 읽고 계세요 = gazeta o'qiyaptilar.",
-      "audio": "56b4111a6de0.mp3"
+      "audio": "0e591fdc8a2d.mp3"
     },
     {
       "id": "final_l03",
@@ -51,8 +59,12 @@
         "Shim katta"
       ],
       "audio_text": "이 바지 한번 입어 보세요. 좀 짧아요. 더 긴 바지는 없어요?",
+      "audio_dialogue": [
+        "이 바지 한번 입어 보세요.",
+        "좀 짧아요. 더 긴 바지는 없어요?"
+      ],
       "why_uz": "짧아요 = kalta; 더 긴 = uzunroq.",
-      "audio": "2158590e6d7f.mp3"
+      "audio": "8c558f679572.mp3"
     },
     {
       "id": "final_l04",
@@ -69,8 +81,12 @@
         "53 000 von"
       ],
       "audio_text": "이 가방 얼마예요? 삼만 오천 원이에요.",
+      "audio_dialogue": [
+        "이 가방 얼마예요?",
+        "삼만 오천 원이에요."
+      ],
       "why_uz": "삼만 오천 = 30 000 + 5 000.",
-      "audio": "b9199d57a8f4.mp3"
+      "audio": "7ff93e4d1cc5.mp3"
     },
     {
       "id": "final_l05",
@@ -87,8 +103,12 @@
         "Havo yaxshi bo'lsa, Pusanga boradi"
       ],
       "audio_text": "주말에 뭐 할 거예요? 날씨가 좋으면 부산에 갈 거예요.",
+      "audio_dialogue": [
+        "주말에 뭐 할 거예요?",
+        "날씨가 좋으면 부산에 갈 거예요."
+      ],
       "why_uz": "-(으)면 = agar; 갈 거예요 = boraman.",
-      "audio": "d0d105849729.mp3"
+      "audio": "bd1d4af26baa.mp3"
     },
     {
       "id": "final_l06",
@@ -105,8 +125,12 @@
         "Qor yog'di"
       ],
       "audio_text": "제주도는 어땠어요? 바다는 예뻤지만 날씨는 좋지 않았어요.",
+      "audio_dialogue": [
+        "제주도는 어땠어요?",
+        "바다는 예뻤지만 날씨는 좋지 않았어요."
+      ],
       "why_uz": "좋지 않았어요 = yaxshi emas edi.",
-      "audio": "ea81c911353c.mp3"
+      "audio": "2892036440b8.mp3"
     },
     {
       "id": "final_l07",
@@ -123,8 +147,12 @@
         "Futbol"
       ],
       "audio_text": "무슨 운동을 좋아해요? 수영을 좋아하지만 잘 못해요. 테니스를 배우고 싶어요.",
+      "audio_dialogue": [
+        "무슨 운동을 좋아해요?",
+        "수영을 좋아하지만 잘 못해요. 테니스를 배우고 싶어요."
+      ],
       "why_uz": "테니스를 배우고 싶어요 = tennisni o'rganmoqchiman.",
-      "audio": "ccedd8c085b6.mp3"
+      "audio": "bdfe20b218ac.mp3"
     },
     {
       "id": "final_l08",
@@ -141,8 +169,12 @@
         "Kitob o'qiydi"
       ],
       "audio_text": "시간이 있을 때 보통 뭐 해요? 저는 등산하는 걸 좋아해서 주말마다 산에 가요.",
+      "audio_dialogue": [
+        "시간이 있을 때 보통 뭐 해요?",
+        "저는 등산하는 걸 좋아해서 주말마다 산에 가요."
+      ],
       "why_uz": "등산 = toqqa chiqish; 주말마다 = har dam olish kuni.",
-      "audio": "765fe4ef2a9a.mp3"
+      "audio": "50ba9d9ddadd.mp3"
     },
     {
       "id": "final_l09",
@@ -159,8 +191,12 @@
         "Kartani yo'qotgani uchun"
       ],
       "audio_text": "어떻게 오셨어요? 통장을 만들고 싶은데요.",
+      "audio_dialogue": [
+        "어떻게 오셨어요?",
+        "통장을 만들고 싶은데요."
+      ],
       "why_uz": "통장을 만들다 = hisob (daftarcha) ochish.",
-      "audio": "532948360ce4.mp3"
+      "audio": "f158b9756886.mp3"
     },
     {
       "id": "final_l10",
@@ -177,8 +213,13 @@
         "Poyezdda"
       ],
       "audio_text": "이 소포를 우즈베키스탄으로 부치고 싶어요. 배로 보내실 거예요, 비행기로 보내실 거예요? 비행기로 보내 주세요.",
+      "audio_dialogue": [
+        "이 소포를 우즈베키스탄으로 부치고 싶어요.",
+        "배로 보내실 거예요, 비행기로 보내실 거예요?",
+        "비행기로 보내 주세요."
+      ],
       "why_uz": "비행기로 = samolyot bilan.",
-      "audio": "53321c49e072.mp3"
+      "audio": "247969354fed.mp3"
     },
     {
       "id": "final_l11",
@@ -195,8 +236,12 @@
         "Gangnam bekatida"
       ],
       "audio_text": "시청에 어떻게 가야 돼요? 지하철 2호선을 타고 시청역에서 내리세요.",
+      "audio_dialogue": [
+        "시청에 어떻게 가야 돼요?",
+        "지하철 2호선을 타고 시청역에서 내리세요."
+      ],
       "why_uz": "시청역에서 내리세요 = Sicheong bekatida tushing.",
-      "audio": "1efc874e7ba2.mp3"
+      "audio": "635c1b00bc9a.mp3"
     },
     {
       "id": "final_l12",
@@ -213,8 +258,12 @@
         "Ko'prikdan o'tib, chapga"
       ],
       "audio_text": "약국이 어디에 있어요? 횡단보도를 건너서 오른쪽으로 가세요.",
+      "audio_dialogue": [
+        "약국이 어디에 있어요?",
+        "횡단보도를 건너서 오른쪽으로 가세요."
+      ],
       "why_uz": "건너서 = o'tib; 오른쪽 = o'ng tomon.",
-      "audio": "946c54f95413.mp3"
+      "audio": "5d78f3019993.mp3"
     },
     {
       "id": "final_l13",
@@ -231,8 +280,13 @@
         "Uxlamaslikni"
       ],
       "audio_text": "어디가 아파서 오셨어요? 어제부터 목이 아프고 열이 나요. 오늘은 샤워하지 마세요.",
+      "audio_dialogue": [
+        "어디가 아파서 오셨어요?",
+        "어제부터 목이 아프고 열이 나요.",
+        "오늘은 샤워하지 마세요."
+      ],
       "why_uz": "-지 마세요 = qilmang; 샤워 = dush.",
-      "audio": "f3c5dc66a8ae.mp3"
+      "audio": "2a896a276a45.mp3"
     },
     {
       "id": "final_l14",
@@ -249,14 +303,18 @@
         "Suv ichish"
       ],
       "audio_text": "이 교실에서 음식을 먹어도 돼요? 아니요, 먹으면 안 돼요. 물은 마셔도 돼요.",
+      "audio_dialogue": [
+        "이 교실에서 음식을 먹어도 돼요?",
+        "아니요, 먹으면 안 돼요. 물은 마셔도 돼요."
+      ],
       "why_uz": "마셔도 돼요 = ichsa bo'ladi; 먹으면 안 돼요 = yeyish mumkin emas.",
-      "audio": "f7fd6495a2c3.mp3"
+      "audio": "dc27c810f507.mp3"
     },
     {
       "id": "final_l15",
       "type": "listen_question",
       "targets": [],
-      "prompt_uz": "Minji hozir nima qilyapti?",
+      "prompt_uz": "Aziz hozir nima qilyapti?",
       "answers": [
         "Qahva ichib, uy vazifasini qilyapti"
       ],
@@ -266,9 +324,13 @@
         "Qahva ichib, kino ko'ryapti",
         "Qahva ichib, uy vazifasini qilyapti"
       ],
-      "audio_text": "여보세요, 민지 씨지요? 지금 뭐 하고 있어요? 커피를 마시면서 숙제하고 있어요.",
+      "audio_text": "여보세요, 아지즈 씨지요? 지금 뭐 하고 있어요? 커피를 마시면서 숙제하고 있어요.",
+      "audio_dialogue": [
+        "여보세요, 아지즈 씨지요? 지금 뭐 하고 있어요?",
+        "커피를 마시면서 숙제하고 있어요."
+      ],
       "why_uz": "-(으)면서 = ...-ib turib; 숙제하고 있어요 = uy vazifasini qilyapman.",
-      "audio": "1bed2096c5d4.mp3"
+      "audio": "640f743952f2.mp3"
     }
   ],
   "reading": [

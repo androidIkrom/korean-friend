@@ -53,7 +53,7 @@ object LessonValidator {
             ExerciseType.FIND_ERROR -> if (e.sentence == null) err("find_error needs sentence")
             ExerciseType.TRANSLATE -> if (e.sourceUz == null) err("translate needs source_uz")
             ExerciseType.LISTEN_QUESTION -> {
-                if (e.audioText == null) err("listen_question needs audio_text")
+                if (e.audioText == null && e.audioDialogue.isNullOrEmpty()) err("listen_question needs audio_text or audio_dialogue")
                 val options = e.options.orEmpty()
                 if (options.size < 2) err("listen_question needs at least 2 options")
                 if (!options.containsAll(e.answers)) err("every answer must be one of the options")
