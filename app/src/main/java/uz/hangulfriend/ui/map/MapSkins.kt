@@ -217,3 +217,23 @@ private fun LessonLine(row: LessonRow, actions: MapActions) {
         }
     }
 }
+
+/** The closing test of the book: always open, recommended once every lesson is done. */
+@Composable
+fun FinalCard(best: Int, lessonsDone: Int, lessonsTotal: Int, onStart: () -> Unit) {
+    val t = LocalGameTokens.current
+    GamePanel(null, borderColor = t.top) {
+        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(14.dp)) {
+            RankBadge("S+", BadgeState.ACTIVE, size = 30.dp)
+            Column {
+                Text(stringResource(R.string.final_title), color = t.text, fontFamily = t.display, fontWeight = FontWeight.Bold, fontSize = 18.sp)
+                Text(stringResource(R.string.final_info), color = t.muted, fontSize = 12.sp)
+            }
+        }
+        if (best > 0) Text(stringResource(R.string.final_best, best), color = t.accent, fontSize = 13.sp)
+        if (lessonsDone < lessonsTotal) {
+            Text(stringResource(R.string.final_recommend, lessonsDone, lessonsTotal), color = t.muted, fontSize = 12.sp)
+        }
+        GameButton(stringResource(R.string.final_start), onClick = onStart)
+    }
+}

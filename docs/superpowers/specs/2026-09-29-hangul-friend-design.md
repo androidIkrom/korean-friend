@@ -335,4 +335,5 @@ Har bir bosqich tugaganda telefonda ishlatsa bo'ladigan ilova bo'ladi. Har bir b
    ilova nomi "Hangul Hunt". Spec: `2026-10-01-stage6b-hero-avatar-icon-design.md`.
 8. **Qolgan rejadagi ishlar.** 7a: Lug'at bazasi ekrani (qidiruv, dars filtri, o'z so'zlari takrorlashda; DB v4).
    Spec: `2026-10-02-stage7a-vocabulary-design.md`. 7b: "Xato bor" belgisi (har mashqda, Sozlamadan matn sifatida yuboriladi; DB v5).
-   Spec: `2026-10-02-stage7b-content-flags-design.md`. Keyin: TOPIK I yakuniy test, qolgan ekranlar, kichik tuzatishlar.
+   Spec: `2026-10-02-stage7b-content-flags-design.md`. 7c: TOPIK I uslubidagi yakuniy test (30 savol, 25 daqiqa, xaritaning
+   oxirida). Spec: `2026-10-02-stage7c-final-test-design.md`. Keyin: qolgan ekranlar, kichik tuzatishlar.

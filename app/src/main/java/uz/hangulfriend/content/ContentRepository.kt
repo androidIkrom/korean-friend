@@ -21,6 +21,8 @@ class ContentRepository(private val source: AssetSource, private val strict: Boo
         lessonCache.getOrPut(id) { parse("lessons/$id.json", Lesson.serializer()) }
     }
 
+    fun finalTest(): FinalTest? = parse("final_test.json", FinalTest.serializer())
+
     fun characters(): List<Character> = parse("characters.json", Characters.serializer())?.characters.orEmpty()
 
     private fun <T> parse(path: String, serializer: KSerializer<T>): T? {

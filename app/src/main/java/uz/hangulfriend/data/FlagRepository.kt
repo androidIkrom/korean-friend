@@ -39,9 +39,13 @@ fun flagSnapshot(item: ExerciseItem): String = when (item) {
     }
 }
 
-/** `u02_l1_e07` → `u02_l1`; own words → `user`; anything else → "". */
+/** Group of final-test flags in the export. */
+const val FINAL_FLAG_GROUP = "final"
+
+/** `u02_l1_e07` → `u02_l1`; own words → `user`; final test → `final`; anything else → "". */
 fun lessonOfRef(ref: String): String = when {
     ref.startsWith("user_") -> USER_LESSON_ID
+    ref.startsWith("final_") -> FINAL_FLAG_GROUP
     else -> Regex("^u\\d{2}_l\\d").find(ref)?.value.orEmpty()
 }
 
@@ -51,13 +55,15 @@ fun lessonOfRef(ref: String): String = when {
  */
 fun exportText(flags: List<ContentFlagEntity>, appVersion: String, today: LocalDate, reasonLabel: (FlagReason) -> String): String {
     fun groupKey(lessonId: String) = when (lessonId) {
-        "" -> "2"
-        USER_LESSON_ID -> "1"
+        "" -> "3"
+        USER_LESSON_ID -> "2"
+        FINAL_FLAG_GROUP -> "1"
         else -> "0$lessonId"
     }
     fun header(lessonId: String) = when (lessonId) {
         "" -> "[?] Boshqa"
         USER_LESSON_ID -> "[user] O'z so'zlarim"
+        FINAL_FLAG_GROUP -> "[final] Yakuniy test"
         else -> {
             val unit = lessonId.substring(1, 3).toIntOrNull()
             val lesson = lessonId.substringAfter("_l").toIntOrNull()

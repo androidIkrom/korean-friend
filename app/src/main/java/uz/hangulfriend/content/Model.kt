@@ -117,6 +117,9 @@ enum class ExerciseType {
     @SerialName("find_error") FIND_ERROR,
     @SerialName("translate") TRANSLATE,
     @SerialName("listen_question") LISTEN_QUESTION,
+
+    /** Read a Korean passage ([Exercise.sentence]) and pick the answer (final test reading part). */
+    @SerialName("read_choice") READ_CHOICE,
 }
 
 @Serializable
@@ -161,3 +164,7 @@ internal data class Catalog(val lessons: List<CatalogEntry>)
 
 @Serializable
 internal data class Characters(val characters: List<Character>)
+
+/** The book's closing TOPIK I-style test (stage 7c): listening first, then reading. */
+@Serializable
+data class FinalTest(val listening: List<Exercise>, val reading: List<Exercise>)

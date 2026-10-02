@@ -7,10 +7,12 @@ import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Close
+import androidx.compose.material.icons.filled.Timer
 import androidx.compose.material3.Button
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.Icon
@@ -19,8 +21,13 @@ import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.key
+import androidx.compose.runtime.mutableIntStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.saveable.rememberSaveable
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
@@ -29,14 +36,18 @@ import androidx.compose.ui.unit.dp
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewModelScope
+import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
 import uz.hangulfriend.R
 import uz.hangulfriend.data.ProgressRepository
 import uz.hangulfriend.study.GameRules
-import uz.hangulfriend.ui.game.achievementTitle
 import uz.hangulfriend.ui.exercise.ExerciseView
+import uz.hangulfriend.ui.game.achievementTitle
+
+/** Length of the final test (stage 7c spec §3). */
+const val FINAL_SECONDS = 25 * 60
 
 class SessionViewModel(private val controller: SessionController) : ViewModel() {
     val state = controller.state
@@ -55,11 +66,30 @@ class SessionViewModel(private val controller: SessionController) : ViewModel() 
     fun next() {
         viewModelScope.launch { lock.withLock { controller.next() } }
     }
+
+    fun timeUp() {
+        viewModelScope.launch { lock.withLock { controller.timeUp() } }
+    }
 }
 
 @Composable
 fun SessionScreen(vm: SessionViewModel, mode: SessionMode, onClose: () -> Unit) {
     val s by vm.state.collectAsStateWithLifecycle()
+    // Final test: a 25-minute countdown that survives rotation; at zero the test ends.
+    val startMs = rememberSaveable { System.currentTimeMillis() }
+    var leftSec by remember { mutableIntStateOf(FINAL_SECONDS) }
+    if (mode == SessionMode.FINAL) {
+        LaunchedEffect(s.finished, s.loading) {
+            while (!s.finished && !s.loading) {
+                leftSec = (FINAL_SECONDS - (System.currentTimeMillis() - startMs) / 1000).toInt().coerceAtLeast(0)
+                if (leftSec == 0) {
+                    vm.timeUp()
+                    break
+                }
+                delay(1000)
+            }
+        }
+    }
     Column(Modifier.fillMaxSize().padding(16.dp)) {
         Row(verticalAlignment = Alignment.CenterVertically) {
             IconButton(onClick = onClose) { Icon(Icons.Filled.Close, contentDescription = stringResource(R.string.session_close)) }
@@ -72,6 +102,10 @@ fun SessionScreen(vm: SessionViewModel, mode: SessionMode, onClose: () -> Unit) 
             s.hearts?.let { h -> Text("❤️".repeat(h) + "🤍".repeat((SessionController.BOSS_HEARTS - h).coerceAtLeast(0))) }
             if (s.combo >= GameRules.COMBO_FROM) Text(stringResource(R.string.session_combo, s.combo), style = MaterialTheme.typography.labelLarge)
             if (s.xpEarned > 0) Text(stringResource(R.string.session_xp, s.xpEarned), style = MaterialTheme.typography.labelLarge)
+            if (mode == SessionMode.FINAL && !s.finished) {
+                Icon(Icons.Filled.Timer, contentDescription = null, modifier = Modifier.size(18.dp))
+                Text("%02d:%02d".format(leftSec / 60, leftSec % 60), style = MaterialTheme.typography.labelLarge)
+            }
         }
         when {
             s.loading -> Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) { CircularProgressIndicator() }
@@ -101,6 +135,21 @@ private fun ResultView(s: SessionState, mode: SessionMode, onClose: () -> Unit) 
                 style = MaterialTheme.typography.headlineSmall,
             )
             Text(stringResource(R.string.session_xp, s.xpEarned), style = MaterialTheme.typography.titleLarge)
+            s.final?.let { f ->
+                Text(stringResource(R.string.final_listening, f.listening, f.listeningTotal), style = MaterialTheme.typography.titleMedium)
+                Text(stringResource(R.string.final_reading, f.reading, f.readingTotal), style = MaterialTheme.typography.titleMedium)
+                Text(
+                    stringResource(
+                        when (f.level) {
+                            2 -> R.string.final_level2
+                            1 -> R.string.final_level1
+                            else -> R.string.final_level0
+                        },
+                    ),
+                    style = MaterialTheme.typography.titleLarge,
+                    textAlign = TextAlign.Center,
+                )
+            }
             if (mode == SessionMode.BOSS) {
                 Text(
                     stringResource(if (s.failed) R.string.session_boss_lost else R.string.session_boss_won),

@@ -2,6 +2,9 @@ package uz.hangulfriend.study
 
 import java.time.LocalDate
 
+/** Best-score key of the final test in `best_scores`. */
+const val FINAL_TEST_ID = "final_test"
+
 /** XP, level, streak and achievement rules (spec §3.5). Pure functions only. */
 object GameRules {
     const val XP_CORRECT = 10
@@ -12,6 +15,7 @@ object GameRules {
     const val XP_GOAL = 50
     const val XP_GAME = 5
     const val XP_STORY = 30
+    const val XP_FINAL = 100
     const val DEFAULT_GOAL = 50
 
     val ACHIEVEMENTS = listOf("first_lesson", "first_unit", "words_100", "words_500", "streak_7", "streak_30", "first_boss")
@@ -21,6 +25,13 @@ object GameRules {
         !correct -> 0
         comboAfter >= COMBO_FROM -> XP_CORRECT + XP_COMBO
         else -> XP_CORRECT
+    }
+
+    /** Estimated TOPIK I level from a final-test percentage: ≥ 70 → 2, ≥ 40 → 1, else 0 (stage 7c spec §3). */
+    fun topikLevel(percent: Int): Int = when {
+        percent >= 70 -> 2
+        percent >= 40 -> 1
+        else -> 0
     }
 
     data class LevelInfo(val level: Int, val xpIntoLevel: Int, val xpForNext: Int)

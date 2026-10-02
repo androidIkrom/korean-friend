@@ -73,6 +73,11 @@ def collect(lesson: dict, voices: dict) -> list:
     return clips
 
 
+def collect_final(test: dict) -> list:
+    """Listening clips of the final test (assets/final_test.json)."""
+    return [_clip(ex, "audio_text", "audio", FEMALE) for ex in test.get("listening", []) if ex.get("audio_text")]
+
+
 def synthesize(text: str, voice: str) -> bytes:
     import edge_tts  # imported here so tests and --dry-run work without the package
 
@@ -112,6 +117,24 @@ def run(root: Path, synth: Callable[[str, str], bytes], dry_run: bool, prune: bo
             clip.set(name)
         if not dry_run:
             path.write_text(json.dumps(lesson, ensure_ascii=False, indent=2) + "\n", encoding="utf-8", newline="\n")
+    final_path = assets / "final_test.json"
+    if final_path.is_file():
+        test = json.loads(final_path.read_text(encoding="utf-8"))
+        for clip in collect_final(test):
+            name = file_name(clip.voice, clip.text)
+            referenced.add(name)
+            target = audio_dir / name
+            if target.is_file():
+                report.skipped += 1
+            else:
+                report.new += 1
+                if dry_run:
+                    continue
+                audio_dir.mkdir(parents=True, exist_ok=True)
+                target.write_bytes(synth(clip.text, clip.voice))
+            clip.set(name)
+        if not dry_run:
+            final_path.write_text(json.dumps(test, ensure_ascii=False, indent=2) + "\n", encoding="utf-8", newline="\n")
     if prune and not dry_run and audio_dir.is_dir():
         for f in audio_dir.iterdir():
             if f.suffix in (".mp3", ".ogg") and f.name not in referenced:
