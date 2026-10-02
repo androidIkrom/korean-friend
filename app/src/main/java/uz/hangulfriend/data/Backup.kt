@@ -23,6 +23,8 @@ data class BackupFile(
     @SerialName("story_progress") val storyProgress: List<StoryProgressDto>,
     /** Missing in files exported before stage 7a. */
     @SerialName("user_words") val userWords: List<UserWordDto> = emptyList(),
+    /** Missing in files exported before stage 7b. */
+    @SerialName("content_flags") val contentFlags: List<ContentFlagDto> = emptyList(),
 )
 
 @Serializable
@@ -86,6 +88,22 @@ fun BackupSettings.toSettings() = Settings(
 
 @Serializable
 data class UserWordDto(val id: Long, val ko: String, val uz: String, val note: String?, @SerialName("created_ms") val createdMs: Long)
+
+@Serializable
+data class ContentFlagDto(
+    val id: Long,
+    val ref: String,
+    @SerialName("lesson_id") val lessonId: String,
+    val type: String,
+    val snapshot: String,
+    val reason: String,
+    val comment: String?,
+    @SerialName("created_ms") val createdMs: Long,
+)
+
+fun ContentFlagEntity.toDto() = ContentFlagDto(id, ref, lessonId, type, snapshot, reason, comment, createdMs)
+
+fun ContentFlagDto.toEntity() = ContentFlagEntity(id, ref, lessonId, type, snapshot, reason, comment, createdMs)
 
 fun UserWordEntity.toDto() = UserWordDto(id, ko, uz, note, createdMs)
 

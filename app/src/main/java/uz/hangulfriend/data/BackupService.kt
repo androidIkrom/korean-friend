@@ -24,6 +24,7 @@ class BackupService(private val db: AppDatabase, private val settings: SettingsR
                 bestScores = db.game().allBest().map { it.toDto() },
                 storyProgress = db.story().all().map { it.toDto() },
                 userWords = db.userWords().all().map { it.toDto() },
+                contentFlags = db.flags().all().map { it.toDto() },
             )
         }
         return BackupCodec.encode(file)
@@ -40,6 +41,7 @@ class BackupService(private val db: AppDatabase, private val settings: SettingsR
             db.game().deleteAllBest()
             db.story().deleteAll()
             db.userWords().deleteAll()
+            db.flags().deleteAll()
             db.cards().insertIgnore(file.cards.map { it.toEntity() })
             db.logs().insertAll(file.reviewLogs.map { it.toEntity() })
             db.progress().insertAll(file.lessonProgress.map { it.toEntity() })
@@ -48,6 +50,7 @@ class BackupService(private val db: AppDatabase, private val settings: SettingsR
             db.game().insertAllBest(file.bestScores.map { it.toEntity() })
             db.story().insertAll(file.storyProgress.map { it.toEntity() })
             db.userWords().insertAll(file.userWords.map { it.toEntity() })
+            db.flags().insertAll(file.contentFlags.map { it.toEntity() })
         }
         settings.replaceAll(file.settings.toSettings())
         // Restored progress is not a new achievement: remember its rank so no rank-up dialog appears.
@@ -55,6 +58,6 @@ class BackupService(private val db: AppDatabase, private val settings: SettingsR
     }
 
     private companion object {
-        const val DB_VERSION = 4
+        const val DB_VERSION = 5
     }
 }

@@ -113,6 +113,15 @@ class BackupServiceTest {
         assertEquals(listOf("사과"), db.userWords().all().map { it.ko })
     }
 
+    @Test fun exportThenImportRestoresFlags() = runTest {
+        db.flags().insert(ContentFlagEntity(ref = "u02_l1_e07", lessonId = "u02_l1", type = "fill_blank", snapshot = "s", reason = "TYPO", comment = null, createdMs = 3))
+        val exported = (BackupCodec.decode(backup.export()) as BackupResult.Ok).file
+        backup.import(emptyFile())
+        assertTrue(db.flags().all().isEmpty())
+        backup.import(exported)
+        assertEquals(listOf("u02_l1_e07"), db.flags().all().map { it.ref })
+    }
+
     @Test fun importReplacesExistingRows() = runTest {
         seed()
         val exported = (BackupCodec.decode(backup.export()) as BackupResult.Ok).file

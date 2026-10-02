@@ -81,6 +81,19 @@ class BackupCodecTest {
         assertEquals(UserWordEntity(3, "사과", "olma", "meva", 77), withWords.userWords.single().toEntity())
     }
 
+    @Test fun decodesOldFileWithoutFlags() {
+        val text = BackupCodec.encode(file).replace(Regex(""",?\s*"content_flags":\s*\[[^\]]*\]"""), "")
+        assertTrue(!text.contains("content_flags"))
+        assertEquals(emptyList<ContentFlagDto>(), (BackupCodec.decode(text) as BackupResult.Ok).file.contentFlags)
+    }
+
+    @Test fun flagsRoundTrip() {
+        val flag = ContentFlagEntity(4, "u02_l1_e07", "u02_l1", "fill_blank", "s", "TYPO", "izoh", 9)
+        val withFlags = file.copy(contentFlags = listOf(flag.toDto()))
+        assertEquals(BackupResult.Ok(withFlags), BackupCodec.decode(BackupCodec.encode(withFlags)))
+        assertEquals(flag, withFlags.contentFlags.single().toEntity())
+    }
+
     @Test fun entityDtoRoundTrip() {
         assertEquals(card, card.toDto().toEntity())
         assertEquals(log, log.toDto().toEntity())

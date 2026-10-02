@@ -15,6 +15,8 @@ import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.withContext
 import uz.hangulfriend.ui.avatar.AvatarAssets
 import uz.hangulfriend.ui.avatar.LocalAvatarAssets
+import uz.hangulfriend.ui.exercise.FlagReporter
+import uz.hangulfriend.ui.exercise.LocalFlagReporter
 import uz.hangulfriend.audio.AudioPlayer
 import uz.hangulfriend.ui.LocalAudioPlayer
 import uz.hangulfriend.ui.exercise.LocalSpeechInput
@@ -46,6 +48,7 @@ class MainActivity : ComponentActivity() {
                 CompositionLocalProvider(
                     LocalAudioPlayer provides audio,
                     LocalAvatarAssets provides avatarAssets,
+                    LocalFlagReporter provides FlagReporter { item, reason, comment -> container.flags.flag(item, reason, comment) },
                     LocalSpeechInput provides container.speech,
                     LocalTutor provides container.tutor,
                 ) {

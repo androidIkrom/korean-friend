@@ -74,4 +74,15 @@ class MigrationTest {
         assertEquals(0L, db.count("SELECT COUNT(*) FROM user_words"))
         db.close()
     }
+
+    @Test fun migrate4to5_addsContentFlags() {
+        helper.createDatabase(4).apply {
+            execSQL("INSERT INTO user_words (ko, uz, note, createdMs) VALUES ('사과', 'olma', NULL, 5)")
+            close()
+        }
+        val db = helper.runMigrationsAndValidate(5, listOf(MIGRATION_4_5))
+        assertEquals(1L, db.count("SELECT COUNT(*) FROM user_words"))
+        assertEquals(0L, db.count("SELECT COUNT(*) FROM content_flags"))
+        db.close()
+    }
 }

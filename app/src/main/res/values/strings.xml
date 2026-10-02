@@ -292,4 +292,19 @@
     <string name="vocab_cancel">Bekor qilish</string>
     <string name="vocab_none">Hech narsa topilmadi</string>
     <string name="vocab_own_empty">Hali so\'z qo\'shmagansiz — pastdagi + tugmasini bosing.</string>
+    <string name="flag_button">Xato bor</string>
+    <string name="flag_title">Xato bor</string>
+    <string name="flag_reason_translation">Tarjima xato</string>
+    <string name="flag_reason_audio">Audio xato</string>
+    <string name="flag_reason_answer">To\'g\'ri javob qabul qilinmadi</string>
+    <string name="flag_reason_typo">Imlo / matn xato</string>
+    <string name="flag_reason_other">Boshqa</string>
+    <string name="flag_comment">Izoh (ixtiyoriy)</string>
+    <string name="flag_save">Ro\'yxatga qo\'shish</string>
+    <string name="flag_saved">Belgilandi, rahmat!</string>
+    <string name="flags_title">Xato belgilari: %1$d ta</string>
+    <string name="flags_send">Yuborish</string>
+    <string name="flags_clear">Tozalash</string>
+    <string name="flags_clear_q">Barcha xato belgilari o\'chiriladi.</string>
+    <string name="flags_subject">Hangul Hunt — kontent xatolari (%1$d)</string>
 </resources>
