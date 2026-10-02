@@ -3,7 +3,6 @@ package uz.hangulfriend.ui.avatar
 /** SVG path data of the avatar mockups, in a `-20 -10 240 290` view box. */
 object AvatarPaths {
     const val BODY = "M14 240 C18 196 52 172 100 170 C148 172 182 196 186 240 Z"
-    const val HOOD = "M56 130 C44 86 68 52 100 52 C132 52 156 86 144 130 L158 186 L42 186 Z"
     const val NECK = "M86 136 L114 136 L116 176 L84 176 Z"
     const val SHIRT = "M78 170 L100 206 L122 170 L132 176 L100 238 L68 176 Z"
     const val HOODIE_NECK = "M80 172 L100 190 L120 172"
@@ -58,7 +57,7 @@ object AvatarPaths {
     const val EMBER = "M0 0 C5 8 6 14 0 18 C-6 14 -5 8 0 0 Z"
 
     val all: List<Pair<String, String>> = listOf(
-        "BODY" to BODY, "HOOD" to HOOD, "NECK" to NECK, "SHIRT" to SHIRT, "HOODIE_NECK" to HOODIE_NECK,
+        "BODY" to BODY, "NECK" to NECK, "SHIRT" to SHIRT, "HOODIE_NECK" to HOODIE_NECK,
         "STRINGS" to STRINGS, "FACE" to FACE, "HAIR" to HAIR, "COLLAR_L" to COLLAR_L, "COLLAR_R" to COLLAR_R,
         "PAULD_L" to PAULD_L, "PAULD_R" to PAULD_R, "CAPE" to CAPE, "BLADE_L" to BLADE_L, "HILT_L" to HILT_L,
         "BLADE_R" to BLADE_R, "HILT_R" to HILT_R, "HAIR_LIGHT" to HAIR_LIGHT, "EYE_L" to EYE_L, "EYE_R" to EYE_R,

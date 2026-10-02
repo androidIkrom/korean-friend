@@ -261,7 +261,8 @@ private fun DrawScope.drawHero(
         part("GIRL_TIED", p.hair, line, sw)
     }
     if (AvatarLayer.LONG_HAIR in layers) part("MINJI_BACK", p.hair, line, sw)
-    if (AvatarLayer.HOOD in layers) part(if (girl) "GIRL_HOOD" else "HOOD", p.hood, line, sw)
+    // The hood lies on the shoulders for both heroes: a hood up behind the head read as long hair on the boy.
+    if (AvatarLayer.HOOD in layers) part("GIRL_HOOD", p.hood, line, sw)
     part(bodyName, p.coat, line, sw)
     if (AvatarLayer.LONG_COAT in layers) {
         part("COLLAR_L", p.coat, line, sw)
