@@ -12,6 +12,8 @@ import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.Icon
 import androidx.compose.material3.NavigationBarItemDefaults
 import uz.hangulfriend.ui.theme.LocalGameTokens
+import uz.hangulfriend.ui.vocab.VocabScreen
+import uz.hangulfriend.ui.vocab.VocabViewModel
 import androidx.compose.material3.NavigationBar
 import androidx.compose.material3.NavigationBarItem
 import androidx.compose.material3.Scaffold
@@ -75,6 +77,7 @@ object Routes {
     const val ACHIEVEMENTS = "achievements"
     const val MISTAKES = "mistakes"
     const val STORIES = "stories"
+    const val VOCAB = "vocab"
     const val EPISODE = "story/{lessonId}"
     const val LESSON = "lesson/{lessonId}"
     const val SESSION = "session/{mode}?lessonId={lessonId}"
@@ -147,6 +150,7 @@ fun HangulFriendNav(container: AppContainer, openReview: Boolean = false) {
                     onGames = { nav.navigate(Routes.GAMES) },
                     onMistakes = { nav.navigate(Routes.MISTAKES) },
                     onAchievements = { nav.navigate(Routes.ACHIEVEMENTS) },
+                    onVocab = { nav.navigate(Routes.VOCAB) },
                     headerAction = { ShareCardButton(container.shareStats) },
                 )
             }
@@ -178,6 +182,10 @@ fun HangulFriendNav(container: AppContainer, openReview: Boolean = false) {
             composable(Routes.MISTAKES) {
                 val vm = viewModel { MistakesViewModel(container.lessons, container.game) }
                 MistakesScreen(vm, onPractice = { nav.navigate(Routes.session(SessionMode.MISTAKES)) })
+            }
+            composable(Routes.VOCAB) {
+                val vm = viewModel { VocabViewModel(container.content, container.userWords, container.db) }
+                VocabScreen(vm, onBack = { nav.popBackStack() })
             }
             composable(Routes.STORIES) {
                 val vm = viewModel { StoryListViewModel(container.content, container.progress, container.story) }
