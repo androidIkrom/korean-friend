@@ -4,16 +4,20 @@
   "lesson": 2,
   "title_ko": "목이 아파서 왔어요",
   "title_uz": "Tomog'im og'rigani uchun keldim",
+  "title_en": "I came because I have a sore throat",
   "topic_uz": "Kasalxona",
+  "topic_en": "Hospital",
   "reviewed": false,
   "words": [
     {
       "id": "u07_l2_w001",
       "ko": "병원",
       "uz": "kasalxona, klinika",
+      "en": "hospital, clinic",
       "pos": "ot",
       "example_ko": "병원에 가요.",
       "example_uz": "Kasalxonaga boraman.",
+      "example_en": "I'm going to the hospital.",
       "audio": "96bc7a6ea376.mp3",
       "example_audio": "c91085b06a9f.mp3"
     },
@@ -21,9 +25,11 @@
       "id": "u07_l2_w002",
       "ko": "의사",
       "uz": "shifokor",
+      "en": "doctor",
       "pos": "ot",
       "example_ko": "의사 선생님이 친절해요.",
       "example_uz": "Shifokor xushmuomala.",
+      "example_en": "The doctor is friendly.",
       "audio": "790fb92e1d8e.mp3",
       "example_audio": "de3ada21d783.mp3"
     },
@@ -31,9 +37,11 @@
       "id": "u07_l2_w003",
       "ko": "간호사",
       "uz": "hamshira",
+      "en": "nurse",
       "pos": "ot",
       "example_ko": "간호사가 주사를 놓아요.",
       "example_uz": "Hamshira ukol qiladi.",
+      "example_en": "The nurse gives injections.",
       "audio": "015d57f8da46.mp3",
       "example_audio": "0f3d2de5e2dd.mp3"
     },
@@ -41,9 +49,11 @@
       "id": "u07_l2_w004",
       "ko": "환자",
       "uz": "bemor",
+      "en": "patient",
       "pos": "ot",
       "example_ko": "병원에 환자가 많아요.",
       "example_uz": "Kasalxonada bemorlar ko'p.",
+      "example_en": "There are many patients at the hospital.",
       "audio": "3a8592085774.mp3",
       "example_audio": "afa1c72eea87.mp3"
     },
@@ -51,9 +61,11 @@
       "id": "u07_l2_w005",
       "ko": "약국",
       "uz": "dorixona",
+      "en": "pharmacy",
       "pos": "ot",
       "example_ko": "약국에서 약을 사요.",
       "example_uz": "Dorixonadan dori sotib olaman.",
+      "example_en": "I buy medicine at the pharmacy.",
       "audio": "b175ccf41791.mp3",
       "example_audio": "66541d14943c.mp3"
     },
@@ -61,9 +73,11 @@
       "id": "u07_l2_w006",
       "ko": "약",
       "uz": "dori",
+      "en": "medicine",
       "pos": "ot",
       "example_ko": "이 약은 써요.",
       "example_uz": "Bu dori achchiq.",
+      "example_en": "This medicine is bitter.",
       "audio": "01bb750f6774.mp3",
       "example_audio": "b390a3b16866.mp3"
     },
@@ -71,9 +85,11 @@
       "id": "u07_l2_w007",
       "ko": "증상",
       "uz": "alomat",
+      "en": "symptom",
       "pos": "ot",
       "example_ko": "어떤 증상이 있어요?",
       "example_uz": "Qanday alomatlar bor?",
+      "example_en": "What symptoms do you have?",
       "audio": "d504030131f8.mp3",
       "example_audio": "9736dbeabdca.mp3"
     },
@@ -81,9 +97,11 @@
       "id": "u07_l2_w008",
       "ko": "아프다",
       "uz": "og'rimoq, kasal bo'lmoq",
+      "en": "to hurt, to be sick",
       "pos": "sifat",
       "example_ko": "목이 아파요.",
       "example_uz": "Tomog'im og'riyapti.",
+      "example_en": "My throat hurts.",
       "audio": "25aea84e6b23.mp3",
       "example_audio": "96ad26555c58.mp3"
     },
@@ -91,9 +109,11 @@
       "id": "u07_l2_w009",
       "ko": "감기에 걸리다",
       "uz": "shamollamoq",
+      "en": "to catch a cold",
       "pos": "ibora",
       "example_ko": "감기에 걸렸어요.",
       "example_uz": "Shamollab qoldim.",
+      "example_en": "I've caught a cold.",
       "audio": "ac4e34b44975.mp3",
       "example_audio": "0490022f1880.mp3"
     },
@@ -101,9 +121,11 @@
       "id": "u07_l2_w010",
       "ko": "열이 나다",
       "uz": "isitma chiqmoq",
+      "en": "to have a fever",
       "pos": "ibora",
       "example_ko": "어제부터 열이 나요.",
       "example_uz": "Kechadan beri isitmam bor.",
+      "example_en": "I've had a fever since yesterday.",
       "audio": "6beea54127d3.mp3",
       "example_audio": "b72ebea87f1e.mp3"
     },
@@ -111,9 +133,11 @@
       "id": "u07_l2_w011",
       "ko": "기침을 하다",
       "uz": "yo'talmoq",
+      "en": "to cough",
       "pos": "ibora",
       "example_ko": "밤에 기침을 많이 해요.",
       "example_uz": "Kechasi ko'p yo'talaman.",
+      "example_en": "I cough a lot at night.",
       "audio": "352219217ffe.mp3",
       "example_audio": "7486d4c25da4.mp3"
     },
@@ -121,9 +145,11 @@
       "id": "u07_l2_w012",
       "ko": "콧물이 나다",
       "uz": "tumov bo'lmoq (burundan suv oqmoq)",
+      "en": "to have a runny nose",
       "pos": "ibora",
       "example_ko": "콧물이 나요.",
       "example_uz": "Tumovim bor.",
+      "example_en": "I have a runny nose.",
       "audio": "89104571712c.mp3",
       "example_audio": "a9cceaec370f.mp3"
     },
@@ -131,9 +157,11 @@
       "id": "u07_l2_w013",
       "ko": "다치다",
       "uz": "jarohatlanmoq",
+      "en": "to get hurt, to be injured",
       "pos": "fe'l",
       "example_ko": "손을 다쳤어요.",
       "example_uz": "Qo'limni jarohatladim.",
+      "example_en": "I hurt my hand.",
       "audio": "971096248400.mp3",
       "example_audio": "026dfbfeec18.mp3"
     },
@@ -141,9 +169,11 @@
       "id": "u07_l2_w014",
       "ko": "약을 먹다",
       "uz": "dori ichmoq",
+      "en": "to take medicine",
       "pos": "ibora",
       "example_ko": "하루에 세 번 약을 먹어요.",
       "example_uz": "Kuniga uch marta dori ichaman.",
+      "example_en": "I take medicine three times a day.",
       "audio": "ea83c8b594f0.mp3",
       "example_audio": "82e5624f4417.mp3"
     },
@@ -151,9 +181,11 @@
       "id": "u07_l2_w015",
       "ko": "주사를 맞다",
       "uz": "ukol oldirmoq",
+      "en": "to get an injection",
       "pos": "ibora",
       "example_ko": "병원에서 주사를 맞았어요.",
       "example_uz": "Kasalxonada ukol oldim.",
+      "example_en": "I got an injection at the hospital.",
       "audio": "56e97eccd71a.mp3",
       "example_audio": "184db2ca5e3f.mp3"
     },
@@ -161,9 +193,11 @@
       "id": "u07_l2_w016",
       "ko": "푹 쉬다",
       "uz": "yaxshilab dam olmoq",
+      "en": "to have a good rest",
       "pos": "ibora",
       "example_ko": "주말에 푹 쉬세요.",
       "example_uz": "Dam olish kunlari yaxshilab dam oling.",
+      "example_en": "Have a good rest at the weekend.",
       "audio": "4472bbe00356.mp3",
       "example_audio": "14356b053067.mp3"
     },
@@ -171,9 +205,11 @@
       "id": "u07_l2_w017",
       "ko": "피곤하다",
       "uz": "charchagan",
+      "en": "tired",
       "pos": "sifat",
       "example_ko": "오늘 너무 피곤해요.",
       "example_uz": "Bugun juda charchadim.",
+      "example_en": "I'm very tired today.",
       "audio": "d2f52181b988.mp3",
       "example_audio": "f9cce2475958.mp3"
     },
@@ -181,9 +217,11 @@
       "id": "u07_l2_w018",
       "ko": "낫다",
       "uz": "tuzalmoq",
+      "en": "to get better, to recover",
       "pos": "fe'l",
       "example_ko": "감기가 다 나았어요.",
       "example_uz": "Shamollashim butunlay tuzaldi.",
+      "example_en": "My cold is completely gone.",
       "audio": "9f79e93fe48c.mp3",
       "example_audio": "1cc879f98d5a.mp3"
     },
@@ -191,9 +229,11 @@
       "id": "u07_l2_w019",
       "ko": "조심하다",
       "uz": "ehtiyot bo'lmoq",
+      "en": "to be careful",
       "pos": "fe'l",
       "example_ko": "감기 조심하세요.",
       "example_uz": "Shamollashdan ehtiyot bo'ling.",
+      "example_en": "Be careful not to catch a cold.",
       "audio": "564e621cf428.mp3",
       "example_audio": "6bccc256d030.mp3"
     },
@@ -201,9 +241,11 @@
       "id": "u07_l2_w020",
       "ko": "건강",
       "uz": "sog'liq",
+      "en": "health",
       "pos": "ot",
       "example_ko": "건강이 제일 중요해요.",
       "example_uz": "Sog'liq eng muhim.",
+      "example_en": "Health is the most important thing.",
       "audio": "1045e37b3862.mp3",
       "example_audio": "fc1212035875.mp3"
     },
@@ -211,9 +253,11 @@
       "id": "u07_l2_w021",
       "ko": "찬물",
       "uz": "sovuq suv",
+      "en": "cold water",
       "pos": "ot",
       "example_ko": "찬물을 마시지 마세요.",
       "example_uz": "Sovuq suv ichmang.",
+      "example_en": "Don't drink cold water.",
       "audio": "4140a7cbd6e3.mp3",
       "example_audio": "b5c13a050508.mp3"
     },
@@ -221,9 +265,11 @@
       "id": "u07_l2_w022",
       "ko": "따뜻하다",
       "uz": "iliq",
+      "en": "warm",
       "pos": "sifat",
       "example_ko": "따뜻한 차를 마시세요.",
       "example_uz": "Iliq choy iching.",
+      "example_en": "Drink some warm tea.",
       "audio": "5cd934e58084.mp3",
       "example_audio": "62c1306a35fd.mp3"
     },
@@ -231,9 +277,11 @@
       "id": "u07_l2_w023",
       "ko": "며칠",
       "uz": "bir necha kun",
+      "en": "a few days",
       "pos": "ot",
       "example_ko": "며칠 동안 쉬었어요.",
       "example_uz": "Bir necha kun dam oldim.",
+      "example_en": "I rested for a few days.",
       "audio": "3ea4efa7c2a4.mp3",
       "example_audio": "50071e9119b1.mp3"
     },
@@ -241,9 +289,11 @@
       "id": "u07_l2_w024",
       "ko": "휴일",
       "uz": "dam olish kuni, bayram",
+      "en": "holiday, day off",
       "pos": "ot",
       "example_ko": "내일은 휴일이에요.",
       "example_uz": "Ertaga dam olish kuni.",
+      "example_en": "Tomorrow is a holiday.",
       "audio": "f06a11a4061e.mp3",
       "example_audio": "635dc4bb90a5.mp3"
     },
@@ -251,9 +301,11 @@
       "id": "u07_l2_w025",
       "ko": "시험",
       "uz": "imtihon",
+      "en": "exam, test",
       "pos": "ot",
       "example_ko": "다음 주에 시험이 있어요.",
       "example_uz": "Kelasi hafta imtihon bor.",
+      "example_en": "There's an exam next week.",
       "audio": "0975a9d7a886.mp3",
       "example_audio": "69762bd904fb.mp3"
     },
@@ -261,9 +313,11 @@
       "id": "u07_l2_w026",
       "ko": "외국인",
       "uz": "chet ellik",
+      "en": "foreigner",
       "pos": "ot",
       "example_ko": "저는 외국인이에요.",
       "example_uz": "Men chet ellikman.",
+      "example_en": "I'm a foreigner.",
       "audio": "86a0f7eaf6ba.mp3",
       "example_audio": "5678f9aef5d7.mp3"
     },
@@ -271,9 +325,11 @@
       "id": "u07_l2_w027",
       "ko": "처음",
       "uz": "birinchi marta",
+      "en": "for the first time",
       "pos": "ot",
       "example_ko": "한국은 처음이에요.",
       "example_uz": "Koreyaga birinchi marta kelishim.",
+      "example_en": "It's my first time in Korea.",
       "audio": "a61ba4d0c4fc.mp3",
       "example_audio": "2ab1617a8678.mp3"
     },
@@ -281,9 +337,11 @@
       "id": "u07_l2_w028",
       "ko": "춥다",
       "uz": "sovuq",
+      "en": "cold",
       "pos": "sifat",
       "example_ko": "겨울은 추워요.",
       "example_uz": "Qish sovuq.",
+      "example_en": "Winter is cold.",
       "audio": "08f9267c8c3b.mp3",
       "example_audio": "92f4963e4daa.mp3"
     },
@@ -291,9 +349,11 @@
       "id": "u07_l2_w029",
       "ko": "늦잠을 자다",
       "uz": "uxlab qolmoq",
+      "en": "to oversleep",
       "pos": "ibora",
       "example_ko": "오늘 늦잠을 잤어요.",
       "example_uz": "Bugun uxlab qoldim.",
+      "example_en": "I overslept today.",
       "audio": "7f28ac9d99e2.mp3",
       "example_audio": "874a5c372dec.mp3"
     },
@@ -301,9 +361,11 @@
       "id": "u07_l2_w030",
       "ko": "다행이다",
       "uz": "yaxshiyamki, xayriyat",
+      "en": "luckily, what a relief",
       "pos": "ibora",
       "example_ko": "괜찮아서 다행이에요.",
       "example_uz": "Yaxshiyamki, hammasi joyida.",
+      "example_en": "Luckily, everything is fine.",
       "audio": "abe6319281f5.mp3",
       "example_audio": "058fbf781937.mp3"
     },
@@ -311,9 +373,11 @@
       "id": "u07_l2_w031",
       "ko": "필요하다",
       "uz": "kerak bo'lmoq",
+      "en": "to need, to be needed",
       "pos": "sifat",
       "example_ko": "약이 필요해요.",
       "example_uz": "Dori kerak.",
+      "example_en": "I need medicine.",
       "audio": "33546bcf4838.mp3",
       "example_audio": "5718bf4aaad5.mp3"
     },
@@ -321,9 +385,11 @@
       "id": "u07_l2_w032",
       "ko": "하루에",
       "uz": "kuniga",
+      "en": "a day, per day",
       "pos": "ravish",
       "example_ko": "하루에 물을 많이 마셔요.",
       "example_uz": "Kuniga ko'p suv ichaman.",
+      "example_en": "I drink a lot of water a day.",
       "audio": "fbcf7dd3ef3d.mp3",
       "example_audio": "8b890d7b52dc.mp3"
     }
@@ -333,30 +399,37 @@
       "id": "u07_l2_g1",
       "pattern": "A/V-아서/어서 (sabab)",
       "meaning_uz": "Sabab: '...-gani uchun', '...-b' (sababli)",
+      "meaning_en": "Reason: 'because…', 'so…'",
       "explanation_md": "**-아서/어서** 6-2 darsda **ketma-ketlik** ma'nosida o'rgangan edik (건너**서** 가세요). Bu darsda u **sabab**ni bildiradi: o'zbekchadagi **\"...-gani uchun\"**, **\"...-ib\"**.\n\n**목이 아파서 왔어요.** — *Tomog'im og'rigani uchun keldim.*\n\n### Qanday yasaladi\n\n- Oxirgi unli **ㅏ, ㅗ** → **-아서**: 많다 → **많아서**, 오다 → **와서**\n- Boshqa unlilar → **-어서**: 먹다 → **먹어서**, 늦다 → **늦어서**, 걸리다 → **걸려서**\n- **하다** → **해서**: 피곤하다 → **피곤해서**\n- **ㅡ 탈락**: 아프다 → **아파서**, 바쁘다 → **바빠서**\n- **ㅂ 불규칙**: 춥다 → **추워서**\n\n### Ikki muhim qoida\n\n1. **-아서/어서 oldidan o'tgan zamon qo'yilmaydi.** Zamon gap oxirida ko'rsatiladi:\n   - ~~늦었어서 택시를 탔어요~~ ❌ → **늦어서 택시를 탔어요** ✅\n2. **Gap oxiri buyruq (-(으)세요) yoki taklif bo'lmaydi:**\n   - ~~아파서 병원에 가세요~~ ❌\n   - **아파서 병원에 갔어요** ✅ (oddiy darak gap)\n\n### Uzr va minnatdorlik\n\nKundalik gapda juda ko'p uchraydi:\n\n- 늦**어서** 미안해요. — *Kechikkanim uchun kechirasiz.*\n- 도와줘**서** 고마워요. — *Yordam berganingiz uchun rahmat.*",
+      "explanation_md_en": "We learned **-아서/어서** in lesson 6-2 with the meaning of **sequence** (건너**서** 가세요). In this lesson it gives **a reason**: English **\"because…\"** or **\"…, so…\"**.\n\n**목이 아파서 왔어요.** — *I came because my throat hurts.*\n\n### How to form it\n\n- Last vowel **ㅏ, ㅗ** → **-아서**: 많다 → **많아서**, 오다 → **와서**\n- Other vowels → **-어서**: 먹다 → **먹어서**, 늦다 → **늦어서**, 걸리다 → **걸려서**\n- **하다** → **해서**: 피곤하다 → **피곤해서**\n- **ㅡ drops**: 아프다 → **아파서**, 바쁘다 → **바빠서**\n- **ㅂ-irregular**: 춥다 → **추워서**\n\n### Two important rules\n\n1. **No past tense before -아서/어서.** The tense goes at the end of the sentence:\n   - ~~늦었어서 택시를 탔어요~~ ❌ → **늦어서 택시를 탔어요** ✅\n2. **The sentence can't end with a request (-(으)세요) or a suggestion:**\n   - ~~아파서 병원에 가세요~~ ❌\n   - **아파서 병원에 갔어요** ✅ (a plain statement)\n\n### Apologies and thanks\n\nVery common in everyday speech:\n\n- 늦**어서** 미안해요. — *Sorry I'm late.* (lit. because I'm late, I'm sorry)\n- 도와줘**서** 고마워요. — *Thank you for helping me.*",
       "formation": [
         {
           "condition_uz": "Oxirgi unli ㅏ, ㅗ",
+          "condition_en": "Last vowel ㅏ, ㅗ",
           "rule": "-아서",
           "example": "많다 → 많아서, 오다 → 와서"
         },
         {
           "condition_uz": "Boshqa unlilar",
+          "condition_en": "Other vowels",
           "rule": "-어서",
           "example": "먹다 → 먹어서, 걸리다 → 걸려서"
         },
         {
           "condition_uz": "하다",
+          "condition_en": "하다",
           "rule": "해서",
           "example": "피곤하다 → 피곤해서"
         },
         {
           "condition_uz": "ㅡ 탈락",
+          "condition_en": "ㅡ drops",
           "rule": "ㅡ tushadi + -아서/어서",
           "example": "아프다 → 아파서, 바쁘다 → 바빠서"
         },
         {
           "condition_uz": "ㅂ 불규칙",
+          "condition_en": "ㅂ-irregular",
           "rule": "ㅂ → 우 + -어서",
           "example": "춥다 → 추워서"
         }
@@ -365,26 +438,31 @@
         {
           "ko": "목이 아파서 왔어요.",
           "uz": "Tomog'im og'rigani uchun keldim.",
+          "en": "I came because my throat hurts.",
           "audio": "a369d46b6a28.mp3"
         },
         {
           "ko": "감기에 걸려서 학교에 못 갔어요.",
           "uz": "Shamollab qolganim uchun maktabga bora olmadim.",
+          "en": "I couldn't go to school because I caught a cold.",
           "audio": "7975782f18a6.mp3"
         },
         {
           "ko": "너무 피곤해서 일찍 잤어요.",
           "uz": "Juda charchaganim uchun erta uxladim.",
+          "en": "I was so tired that I went to bed early.",
           "audio": "279bbaa7ce7b.mp3"
         },
         {
           "ko": "늦어서 미안해요.",
           "uz": "Kechikkanim uchun kechirasiz.",
+          "en": "Sorry I'm late.",
           "audio": "6866874030bb.mp3"
         },
         {
           "ko": "날씨가 추워서 집에 있었어요.",
           "uz": "Havo sovuq bo'lgani uchun uyda qoldim.",
+          "en": "It was cold, so I stayed at home.",
           "audio": "53a9e1e76655.mp3"
         }
       ],
@@ -392,34 +470,42 @@
         {
           "wrong": "늦었어서 택시를 탔어요",
           "right": "늦어서 택시를 탔어요",
-          "why_uz": "-아서/어서 oldidan o'tgan zamon qo'yilmaydi."
+          "why_uz": "-아서/어서 oldidan o'tgan zamon qo'yilmaydi.",
+          "why_en": "No past tense before -아서/어서."
         },
         {
           "wrong": "아파서 병원에 가세요",
           "right": "아파서 병원에 갔어요",
-          "why_uz": "-아서/어서 dan keyin buyruq gap kelmaydi."
+          "why_uz": "-아서/어서 dan keyin buyruq gap kelmaydi.",
+          "why_en": "A request can't follow -아서/어서."
         },
         {
           "wrong": "피곤하어서 잤어요",
           "right": "피곤해서 잤어요",
-          "why_uz": "하다 → 해서."
+          "why_uz": "하다 → 해서.",
+          "why_en": "하다 → 해서."
         }
       ],
-      "uz_compare": "O'zbekchadagi '-gani uchun' yoki '-ib' ga to'g'ri keladi: 'og'rigani uchun keldim' = 아파서 왔어요. O'zbekchada ham 'og'rigani uchun' ichida zamon yo'q — zamon oxirgi fe'lda: keldim."
+      "uz_compare": "O'zbekchadagi '-gani uchun' yoki '-ib' ga to'g'ri keladi: 'og'rigani uchun keldim' = 아파서 왔어요. O'zbekchada ham 'og'rigani uchun' ichida zamon yo'q — zamon oxirgi fe'lda: keldim.",
+      "compare_en": "Matches English 'because' or '…, so…': 'I came because it hurts' = 아파서 왔어요. But note: in English both parts can have a tense ('because I was sick, I stayed home'); in Korean only the last verb shows the tense: 아파서 집에 있었어요."
     },
     {
       "id": "u07_l2_g2",
       "pattern": "N(이)라서",
       "meaning_uz": "Ot bilan sabab: '...bo'lgani uchun'",
+      "meaning_en": "Reason with a noun: 'because it is…'",
       "explanation_md": "**N(이)라서** — otdan keyin keladigan sabab shakli: **\"...bo'lgani uchun\"**. Bu aslida **이다 + -아서** ning maxsus shakli.\n\n**감기라서 괜찮아요.** — *Shunchaki shamollash bo'lgani uchun xavotirli emas.*\n\n### Qanday yasaladi\n\n- **받침 yo'q** → **-라서**: 감기 → **감기라서**, 친구 → **친구라서**\n- **받침 bor** → **-이라서**: 휴일 → **휴일이라서**, 학생 → **학생이라서**, 외국인 → **외국인이라서**\n\n### Misollar\n\n- 오늘은 **휴일이라서** 사람이 많아요. — *Bugun dam olish kuni bo'lgani uchun odam ko'p.*\n- **처음이라서** 잘 몰라요. — *Birinchi marta bo'lgani uchun yaxshi bilmayman.*\n- 내일 **시험이라서** 바빠요. — *Ertaga imtihon bo'lgani uchun bandman.*\n\n### Esda tuting\n\n**-아서/어서** dagi qoidalar bu yerda ham amal qiladi: oldidan o'tgan zamon qo'yilmaydi va keyin buyruq kelmaydi.\n\n~~학생라서~~ ❌ — 받침 bor bo'lsa **이** kerak: **학생이라서** ✅",
+      "explanation_md_en": "**N(이)라서** is the reason form after a noun: **\"because it is (a) …\"**. It is really a special form of **이다 + -아서**.\n\n**감기라서 괜찮아요.** — *It's just a cold, so it's nothing to worry about.*\n\n### How to form it\n\n- **No 받침** → **-라서**: 감기 → **감기라서**, 친구 → **친구라서**\n- **With 받침** → **-이라서**: 휴일 → **휴일이라서**, 학생 → **학생이라서**, 외국인 → **외국인이라서**\n\n### Examples\n\n- 오늘은 **휴일이라서** 사람이 많아요. — *It's a holiday today, so there are lots of people.*\n- **처음이라서** 잘 몰라요. — *It's my first time, so I don't know well.*\n- 내일 **시험이라서** 바빠요. — *I have an exam tomorrow, so I'm busy.*\n\n### Remember\n\nThe **-아서/어서** rules apply here too: no past tense before it and no request after it.\n\n~~학생라서~~ ❌ — with 받침 you need **이**: **학생이라서** ✅",
       "formation": [
         {
           "condition_uz": "받침 yo'q",
+          "condition_en": "No 받침",
           "rule": "N라서",
           "example": "감기 → 감기라서, 친구 → 친구라서"
         },
         {
           "condition_uz": "받침 bor",
+          "condition_en": "With 받침",
           "rule": "N이라서",
           "example": "휴일 → 휴일이라서, 학생 → 학생이라서"
         }
@@ -428,26 +514,31 @@
         {
           "ko": "감기라서 괜찮아요.",
           "uz": "Shunchaki shamollash, xavotirli emas.",
+          "en": "It's just a cold, nothing to worry about.",
           "audio": "e56ee19e4d26.mp3"
         },
         {
           "ko": "오늘은 휴일이라서 사람이 많아요.",
           "uz": "Bugun dam olish kuni bo'lgani uchun odam ko'p.",
+          "en": "It's a holiday today, so there are lots of people.",
           "audio": "e13b2e27437e.mp3"
         },
         {
           "ko": "저는 외국인이라서 한국어가 어려워요.",
           "uz": "Men chet ellik bo'lganim uchun koreys tili qiyin.",
+          "en": "I'm a foreigner, so Korean is hard for me.",
           "audio": "633e0a2db434.mp3"
         },
         {
           "ko": "처음이라서 잘 몰라요.",
           "uz": "Birinchi marta bo'lgani uchun yaxshi bilmayman.",
+          "en": "It's my first time, so I don't know well.",
           "audio": "7f259a985785.mp3"
         },
         {
           "ko": "내일 시험이라서 바빠요.",
           "uz": "Ertaga imtihon bo'lgani uchun bandman.",
+          "en": "I have an exam tomorrow, so I'm busy.",
           "audio": "8f9f9bb21f15.mp3"
         }
       ],
@@ -455,20 +546,24 @@
         {
           "wrong": "학생라서 돈이 없어요",
           "right": "학생이라서 돈이 없어요",
-          "why_uz": "받침 bor: -이라서."
+          "why_uz": "받침 bor: -이라서.",
+          "why_en": "With 받침: -이라서."
         },
         {
           "wrong": "친구이라서 잘 알아요",
           "right": "친구라서 잘 알아요",
-          "why_uz": "받침 yo'q: -라서."
+          "why_uz": "받침 yo'q: -라서.",
+          "why_en": "No 받침: -라서."
         },
         {
           "wrong": "휴일이었어서 쉬었어요",
           "right": "휴일이라서 쉬었어요",
-          "why_uz": "-라서 oldidan o'tgan zamon qo'yilmaydi."
+          "why_uz": "-라서 oldidan o'tgan zamon qo'yilmaydi.",
+          "why_en": "No past tense before -라서."
         }
       ],
-      "uz_compare": "O'zbekchada otga 'bo'lgani uchun' qo'shamiz: 'talaba bo'lganim uchun' = 학생이라서. Koreyschada bitta qo'shimcha: (이)라서."
+      "uz_compare": "O'zbekchada otga 'bo'lgani uchun' qo'shamiz: 'talaba bo'lganim uchun' = 학생이라서. Koreyschada bitta qo'shimcha: (이)라서.",
+      "compare_en": "English says 'because it's a holiday' or 'since I'm a student'. Korean does it with one ending on the noun: 휴일이라서, 학생이라서."
     }
   ],
   "dialogue": {
@@ -477,78 +572,91 @@
         "speaker": "doctor",
         "ko": "어서 오세요. 어디가 아파요?",
         "uz": "Keling. Qayeringiz og'riyapti?",
+        "en": "Come in. Where does it hurt?",
         "audio": "9eb91c386775.mp3"
       },
       {
         "speaker": "aziz",
         "ko": "목이 아파서 왔어요. 그리고 열도 나요.",
         "uz": "Tomog'im og'rigani uchun keldim. Isitmam ham bor.",
+        "en": "I came because my throat hurts. I have a fever too.",
         "audio": "8752f3ec4668.mp3"
       },
       {
         "speaker": "doctor",
         "ko": "언제부터 아팠어요?",
         "uz": "Qachondan beri og'riyapti?",
+        "en": "Since when has it hurt?",
         "audio": "7b378e6cffdd.mp3"
       },
       {
         "speaker": "aziz",
         "ko": "어제부터요. 밤에 기침을 많이 해서 잠을 못 잤어요.",
         "uz": "Kechadan beri. Kechasi ko'p yo'talganim uchun uxlay olmadim.",
+        "en": "Since yesterday. I couldn't sleep because I coughed a lot at night.",
         "audio": "4172db6e6cfa.mp3"
       },
       {
         "speaker": "doctor",
         "ko": "입을 벌려 보세요.",
         "uz": "Og'zingizni ochib ko'ring.",
+        "en": "Please open your mouth.",
         "audio": "f5c35252754f.mp3"
       },
       {
         "speaker": "aziz",
         "ko": "많이 나빠요?",
         "uz": "Ahvolim juda yomonmi?",
+        "en": "Is it very bad?",
         "audio": "beb5f5484841.mp3"
       },
       {
         "speaker": "doctor",
         "ko": "아니요, 감기라서 괜찮아요. 걱정하지 마세요.",
         "uz": "Yo'q, shunchaki shamollash, xavotirli emas. Xavotir olmang.",
+        "en": "No, it's just a cold, nothing serious. Don't worry.",
         "audio": "cd677b20ca83.mp3"
       },
       {
         "speaker": "aziz",
         "ko": "다행이에요. 다음 주가 시험이라서 걱정했어요.",
         "uz": "Xayriyat. Kelasi hafta imtihon bo'lgani uchun xavotirlangan edim.",
+        "en": "What a relief. I was worried because I have an exam next week.",
         "audio": "e6ba14081042.mp3"
       },
       {
         "speaker": "doctor",
         "ko": "이 약을 하루에 세 번 드세요.",
         "uz": "Bu dorini kuniga uch marta iching.",
+        "en": "Take this medicine three times a day.",
         "audio": "7be8f8ed98f9.mp3"
       },
       {
         "speaker": "aziz",
         "ko": "주사도 맞아야 돼요?",
         "uz": "Ukol ham olishim kerakmi?",
+        "en": "Do I need an injection too?",
         "audio": "4f667e5fd806.mp3"
       },
       {
         "speaker": "doctor",
         "ko": "아니요, 열이 높지 않아서 주사는 필요 없어요.",
         "uz": "Yo'q, isitma baland bo'lmagani uchun ukol kerak emas.",
+        "en": "No, your fever isn't high, so you don't need an injection.",
         "audio": "4844eecc6702.mp3"
       },
       {
         "speaker": "doctor",
         "ko": "찬물은 마시지 마세요. 그리고 집에서 푹 쉬세요.",
         "uz": "Sovuq suv ichmang. Va uyda yaxshilab dam oling.",
+        "en": "Don't drink cold water. And have a good rest at home.",
         "audio": "3f45f2b198f2.mp3"
       },
       {
         "speaker": "aziz",
         "ko": "네, 감사합니다. 안녕히 계세요.",
         "uz": "Xo'p, rahmat. Xayr.",
+        "en": "OK, thank you. Goodbye.",
         "audio": "e90ebe55ab29.mp3"
       }
     ]
@@ -561,12 +669,14 @@
         "u07_l2_g1"
       ],
       "prompt_uz": "Sabab shaklini yasang: 'og'rigani uchun'",
+      "prompt_en": "Make the reason form: 'because it hurts'",
       "base": "아프다",
       "form": "-아서/어서",
       "answers": [
         "아파서"
       ],
-      "hint_uz": "ㅡ 탈락"
+      "hint_uz": "ㅡ 탈락",
+      "hint_en": "ㅡ drops"
     },
     {
       "id": "u07_l2_e002",
@@ -575,6 +685,7 @@
         "u07_l2_g1"
       ],
       "prompt_uz": "Sabab shaklini yasang: 'charchagani uchun'",
+      "prompt_en": "Make the reason form: 'because I'm tired'",
       "base": "피곤하다",
       "form": "-아서/어서",
       "answers": [
@@ -588,6 +699,7 @@
         "u07_l2_g1"
       ],
       "prompt_uz": "Sabab shaklini yasang: 'kechikkani uchun'",
+      "prompt_en": "Make the reason form: 'because I'm late'",
       "base": "늦다",
       "form": "-아서/어서",
       "answers": [
@@ -601,6 +713,7 @@
         "u07_l2_g2"
       ],
       "prompt_uz": "'Dam olish kuni bo'lgani uchun' shaklini yasang",
+      "prompt_en": "Make the form 'because it's a holiday'",
       "base": "휴일",
       "form": "N(이)라서",
       "answers": [
@@ -614,6 +727,7 @@
         "u07_l2_g2"
       ],
       "prompt_uz": "'Do'st bo'lgani uchun' shaklini yasang",
+      "prompt_en": "Make the form 'because (he) is a friend'",
       "base": "친구",
       "form": "N(이)라서",
       "answers": [
@@ -627,6 +741,7 @@
         "u07_l2_g2"
       ],
       "prompt_uz": "'Chet ellik bo'lgani uchun' shaklini yasang",
+      "prompt_en": "Make the form 'because (I'm) a foreigner'",
       "base": "외국인",
       "form": "N(이)라서",
       "answers": [
@@ -640,6 +755,7 @@
         "u07_l2_g1"
       ],
       "prompt_uz": "Bo'sh joyni to'ldiring: 'Tomog'im og'rigani uchun kasalxonaga keldim.'",
+      "prompt_en": "Fill in the blank: 'I came to the hospital because my throat hurts.'",
       "sentence": "목이 ___ 병원에 왔어요. (아프다)",
       "answers": [
         "아파서"
@@ -652,6 +768,7 @@
         "u07_l2_g1"
       ],
       "prompt_uz": "Bo'sh joyni to'ldiring: 'Shamollab qolganim uchun maktabga bora olmadim.'",
+      "prompt_en": "Fill in the blank: 'I couldn't go to school because I caught a cold.'",
       "sentence": "감기에 ___ 학교에 못 갔어요. (걸리다)",
       "answers": [
         "걸려서"
@@ -664,6 +781,7 @@
         "u07_l2_g2"
       ],
       "prompt_uz": "Bo'sh joyni to'ldiring: 'Bugun dam olish kuni bo'lgani uchun odam ko'p.'",
+      "prompt_en": "Fill in the blank: 'It's a holiday today, so there are lots of people.'",
       "sentence": "오늘은 ___ 사람이 많아요. (휴일)",
       "answers": [
         "휴일이라서"
@@ -676,6 +794,7 @@
         "u07_l2_g2"
       ],
       "prompt_uz": "Bo'sh joyni to'ldiring: 'Ertaga imtihon bo'lgani uchun bandman.'",
+      "prompt_en": "Fill in the blank: 'I have an exam tomorrow, so I'm busy.'",
       "sentence": "내일 ___ 바빠요. (시험)",
       "answers": [
         "시험이라서"
@@ -688,6 +807,7 @@
         "u07_l2_g1"
       ],
       "prompt_uz": "'Boshim og'rigani uchun dori ichdim' qaysi biri?",
+      "prompt_en": "Which one means 'I had a headache, so I took medicine'?",
       "options": [
         "머리가 아파서 약을 먹었어요",
         "머리가 아프지만 약을 먹었어요",
@@ -705,6 +825,7 @@
         "u07_l2_g2"
       ],
       "prompt_uz": "'Birinchi marta bo'lgani uchun qiyin' qaysi biri?",
+      "prompt_en": "Which one means 'It's hard because it's the first time'?",
       "options": [
         "처음이라서 어려워요",
         "처음이지만 어려워요",
@@ -722,6 +843,7 @@
         "u07_l2_w010"
       ],
       "prompt_uz": "Haroratingiz ko'tarildi. Shifokorga nima deysiz?",
+      "prompt_en": "Your temperature has gone up. What do you tell the doctor?",
       "options": [
         "열이 나요",
         "콧물이 나요",
@@ -739,6 +861,7 @@
         "u07_l2_g1"
       ],
       "prompt_uz": "'Tomog'im og'rigani uchun kasalxonaga keldim' gapini tuzing",
+      "prompt_en": "Build the sentence 'I came to the hospital because my throat hurts'",
       "tokens": [
         "왔어요",
         "아파서",
@@ -756,6 +879,7 @@
         "u07_l2_g2"
       ],
       "prompt_uz": "'Bugun dam olish kuni bo'lgani uchun odam ko'p' gapini tuzing",
+      "prompt_en": "Build the sentence 'It's a holiday today, so there are lots of people'",
       "tokens": [
         "많아요",
         "휴일이라서",
@@ -773,11 +897,13 @@
         "u07_l2_g1"
       ],
       "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
       "sentence": "늦었어서 택시를 탔어요.",
       "answers": [
         "늦어서 택시를 탔어요"
       ],
-      "why_uz": "-아서/어서 oldidan o'tgan zamon qo'yilmaydi."
+      "why_uz": "-아서/어서 oldidan o'tgan zamon qo'yilmaydi.",
+      "why_en": "No past tense before -아서/어서."
     },
     {
       "id": "u07_l2_e017",
@@ -786,11 +912,13 @@
         "u07_l2_g2"
       ],
       "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
       "sentence": "학생라서 돈이 없어요.",
       "answers": [
         "학생이라서 돈이 없어요"
       ],
-      "why_uz": "받침 bor: -이라서."
+      "why_uz": "받침 bor: -이라서.",
+      "why_en": "With 받침: -이라서."
     },
     {
       "id": "u07_l2_e018",
@@ -799,11 +927,13 @@
         "u07_l2_g1"
       ],
       "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
       "sentence": "너무 피곤하어서 일찍 잤어요.",
       "answers": [
         "너무 피곤해서 일찍 잤어요"
       ],
-      "why_uz": "하다 → 해서."
+      "why_uz": "하다 → 해서.",
+      "why_en": "하다 → 해서."
     },
     {
       "id": "u07_l2_e019",
@@ -812,7 +942,9 @@
         "u07_l2_g1"
       ],
       "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
       "source_uz": "Charchaganim uchun uyda dam oldim.",
+      "source_en": "I was tired, so I rested at home.",
       "answers": [
         "피곤해서 집에서 쉬었어요",
         "저는 피곤해서 집에서 쉬었어요",
@@ -826,7 +958,9 @@
         "u07_l2_g2"
       ],
       "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
       "source_uz": "Men chet ellik bo'lganim uchun koreys tili qiyin.",
+      "source_en": "I'm a foreigner, so Korean is hard for me.",
       "answers": [
         "저는 외국인이라서 한국어가 어려워요",
         "외국인이라서 한국어가 어려워요",
@@ -841,7 +975,9 @@
         "u07_l2_g1"
       ],
       "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
       "source_uz": "Boshim og'rigani uchun kasalxonaga bordim.",
+      "source_en": "I had a headache, so I went to the hospital.",
       "answers": [
         "머리가 아파서 병원에 갔어요",
         "저는 머리가 아파서 병원에 갔어요"
@@ -854,12 +990,19 @@
         "u07_l2_g1"
       ],
       "prompt_uz": "Nega uyda qoldi?",
+      "prompt_en": "Why did she stay at home?",
       "audio_text": "어제 비가 많이 와서 집에 있었어요.",
       "options": [
         "Yomg'ir ko'p yoqqani uchun",
         "Kasal bo'lgani uchun",
         "Charchagani uchun",
         "Ishi ko'p bo'lgani uchun"
+      ],
+      "options_en": [
+        "Because it rained a lot",
+        "Because she was sick",
+        "Because she was tired",
+        "Because she had a lot of work"
       ],
       "answers": [
         "Yomg'ir ko'p yoqqani uchun"
@@ -873,12 +1016,19 @@
         "u07_l2_g2"
       ],
       "prompt_uz": "Nega maktabga bormaydi?",
+      "prompt_en": "Why isn't he going to school?",
       "audio_text": "오늘은 일요일이라서 학교에 안 가요.",
       "options": [
         "Bugun yakshanba",
         "Kasal",
         "Kechikdi",
         "Imtihon bor"
+      ],
+      "options_en": [
+        "It's Sunday today",
+        "He is sick",
+        "He is late",
+        "There's an exam"
       ],
       "answers": [
         "Bugun yakshanba"
@@ -892,12 +1042,19 @@
         "u07_l2_w011"
       ],
       "prompt_uz": "Qanday alomatlar bor?",
+      "prompt_en": "What symptoms do you have?",
       "audio_text": "열이 나고 기침을 해요.",
       "options": [
         "Isitma va yo'tal",
         "Bosh og'rig'i va charchoq",
         "Qorin og'rig'i",
         "Tumov va tomoq og'rig'i"
+      ],
+      "options_en": [
+        "Fever and cough",
+        "Headache and tiredness",
+        "Stomach ache",
+        "Runny nose and sore throat"
       ],
       "answers": [
         "Isitma va yo'tal"
@@ -911,12 +1068,14 @@
         "u07_l2_g1"
       ],
       "prompt_uz": "Sabab shaklini yasang: 'band bo'lgani uchun'",
+      "prompt_en": "Make the reason form: 'because I'm busy'",
       "base": "바쁘다",
       "form": "-아서/어서",
       "answers": [
         "바빠서"
       ],
-      "hint_uz": "ㅡ 탈락"
+      "hint_uz": "ㅡ 탈락",
+      "hint_en": "ㅡ drops"
     },
     {
       "id": "u07_l2_e102",
@@ -925,6 +1084,7 @@
         "u07_l2_g1"
       ],
       "prompt_uz": "Sabab shaklini yasang: 'jarohatlangani uchun'",
+      "prompt_en": "Make the reason form: 'because I got hurt'",
       "base": "다치다",
       "form": "-아서/어서",
       "answers": [
@@ -938,6 +1098,7 @@
         "u07_l2_g2"
       ],
       "prompt_uz": "'Talaba bo'lgani uchun' shaklini yasang",
+      "prompt_en": "Make the form 'because (I'm) a student'",
       "base": "학생",
       "form": "N(이)라서",
       "answers": [
@@ -951,6 +1112,7 @@
         "u07_l2_g1"
       ],
       "prompt_uz": "Bo'sh joyni to'ldiring: 'Uxlab qolganim uchun darsga kechikdim.'",
+      "prompt_en": "Fill in the blank: 'I overslept, so I was late for class.'",
       "sentence": "늦잠을 ___ 수업에 늦었어요. (자다)",
       "answers": [
         "자서"
@@ -963,6 +1125,7 @@
         "u07_l2_g2"
       ],
       "prompt_uz": "Bo'sh joyni to'ldiring: 'U mening do'stim bo'lgani uchun uni yaxshi bilaman.'",
+      "prompt_en": "Fill in the blank: 'He's my friend, so I know him well.'",
       "sentence": "그 사람은 제 ___ 잘 알아요. (친구)",
       "answers": [
         "친구라서"
@@ -975,11 +1138,13 @@
         "u07_l2_g1"
       ],
       "prompt_uz": "Bo'sh joyni to'ldiring: 'Havo sovuq bo'lgani uchun shamollab qoldim.'",
+      "prompt_en": "Fill in the blank: 'It was cold, so I caught a cold.'",
       "sentence": "날씨가 ___ 감기에 걸렸어요. (춥다)",
       "answers": [
         "추워서"
       ],
-      "hint_uz": "ㅂ → 워"
+      "hint_uz": "ㅂ → 워",
+      "hint_en": "ㅂ → 워"
     },
     {
       "id": "u07_l2_e107",
@@ -988,6 +1153,7 @@
         "u07_l2_g1"
       ],
       "prompt_uz": "'Bugun band bo'lganim uchun bora olmayman' qaysi biri?",
+      "prompt_en": "Which one means 'I'm busy today, so I can't go'?",
       "options": [
         "오늘은 바빠서 갈 수 없어요",
         "오늘은 바쁘지만 갈 수 없어요",
@@ -1005,6 +1171,7 @@
         "u07_l2_w005"
       ],
       "prompt_uz": "Dori qayerdan sotib olinadi?",
+      "prompt_en": "Where do you buy medicine?",
       "options": [
         "약국",
         "병원",
@@ -1022,6 +1189,7 @@
         "u07_l2_g2"
       ],
       "prompt_uz": "'Birinchi marta bo'lgani uchun yaxshi bilmayman' gapini tuzing",
+      "prompt_en": "Build the sentence 'It's my first time, so I don't know well'",
       "tokens": [
         "몰라요",
         "처음이라서",
@@ -1038,6 +1206,7 @@
         "u07_l2_g1"
       ],
       "prompt_uz": "'Yo'talganim uchun uxlay olmadim' gapini tuzing",
+      "prompt_en": "Build the sentence 'I coughed, so I couldn't sleep'",
       "tokens": [
         "잤어요",
         "해서",
@@ -1056,11 +1225,13 @@
         "u07_l2_g1"
       ],
       "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
       "sentence": "열이 났어서 학교에 못 갔어요.",
       "answers": [
         "열이 나서 학교에 못 갔어요"
       ],
-      "why_uz": "-아서/어서 oldidan o'tgan zamon qo'yilmaydi."
+      "why_uz": "-아서/어서 oldidan o'tgan zamon qo'yilmaydi.",
+      "why_en": "No past tense before -아서/어서."
     },
     {
       "id": "u07_l2_e112",
@@ -1069,11 +1240,13 @@
         "u07_l2_g2"
       ],
       "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
       "sentence": "오늘은 휴일라서 쉬어요.",
       "answers": [
         "오늘은 휴일이라서 쉬어요"
       ],
-      "why_uz": "받침 bor: -이라서."
+      "why_uz": "받침 bor: -이라서.",
+      "why_en": "With 받침: -이라서."
     },
     {
       "id": "u07_l2_e113",
@@ -1082,7 +1255,9 @@
         "u07_l2_g1"
       ],
       "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
       "source_uz": "Qornim og'rigani uchun ovqat yemadim.",
+      "source_en": "My stomach hurt, so I didn't eat.",
       "answers": [
         "배가 아파서 밥을 안 먹었어요",
         "배가 아파서 밥을 먹지 않았어요",
@@ -1096,7 +1271,9 @@
         "u07_l2_g2"
       ],
       "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
       "source_uz": "Ertaga imtihon bo'lgani uchun bandman.",
+      "source_en": "I have an exam tomorrow, so I'm busy.",
       "answers": [
         "내일 시험이라서 바빠요",
         "내일은 시험이라서 바빠요"
@@ -1109,12 +1286,19 @@
         "u07_l2_g1"
       ],
       "prompt_uz": "Nega yura olmaydi?",
+      "prompt_en": "Why can't he walk?",
       "audio_text": "다리를 다쳐서 걸을 수 없어요.",
       "options": [
         "Oyog'ini jarohatlagani uchun",
         "Charchagani uchun",
         "Vaqti yo'qligi uchun",
         "Yomg'ir yog'ayotgani uchun"
+      ],
+      "options_en": [
+        "Because he hurt his leg",
+        "Because she was tired",
+        "Because he has no time",
+        "Because it's raining"
       ],
       "answers": [
         "Oyog'ini jarohatlagani uchun"
@@ -1141,12 +1325,14 @@
   ],
   "story": {
     "title_uz": "Achchiq tteokbokki",
+    "title_en": "Spicy tteokbokki",
     "steps": [
       {
         "type": "line",
         "speaker": "doctor",
         "ko": "어서 오세요. 어디가 불편하세요?",
         "uz": "Keling. Qayeringiz bezovta qilyapti?",
+        "en": "Come in. What seems to be the problem?",
         "audio": "88fe4b483509.mp3"
       },
       {
@@ -1154,6 +1340,7 @@
         "speaker": "aziz",
         "ko": "어제부터 배가 아파요.",
         "uz": "Kechadan beri qornim og'riyapti.",
+        "en": "My stomach has hurt since yesterday.",
         "audio": "1b14a23eaad3.mp3"
       },
       {
@@ -1161,6 +1348,7 @@
         "speaker": "doctor",
         "ko": "어제 뭘 드셨어요?",
         "uz": "Kecha nima yedingiz?",
+        "en": "What did you eat yesterday?",
         "audio": "361f82d752c2.mp3"
       },
       {
@@ -1168,24 +1356,33 @@
         "speaker": "aziz",
         "ko": "친구 생일이라서 매운 떡볶이를 많이 먹었어요.",
         "uz": "Do'stimning tug'ilgan kuni bo'lgani uchun achchiq tteokbokkini ko'p yedim.",
+        "en": "It was my friend's birthday, so I ate a lot of spicy tteokbokki.",
         "audio": "0f325d1dabff.mp3"
       },
       {
         "type": "quiz",
         "prompt_uz": "Nega Aziz ko'p achchiq ovqat yedi?",
+        "prompt_en": "Why did Aziz eat a lot of spicy food?",
         "options": [
           "Do'stining tug'ilgan kuni edi",
           "Juda och edi",
           "Arzon edi"
         ],
+        "options_en": [
+          "It was his friend's birthday",
+          "He was very hungry",
+          "It was cheap"
+        ],
         "answer": "Do'stining tug'ilgan kuni edi",
-        "why_uz": "친구 생일이라서 = do'stining tug'ilgan kuni bo'lgani uchun."
+        "why_uz": "친구 생일이라서 = do'stining tug'ilgan kuni bo'lgani uchun.",
+        "why_en": "친구 생일이라서 = because it was his friend's birthday."
       },
       {
         "type": "line",
         "speaker": "doctor",
         "ko": "매운 음식을 많이 먹어서 배가 아파요. 열은 없어요?",
         "uz": "Achchiq ovqatni ko'p yegansiz, shuning uchun qorningiz og'riyapti. Isitma yo'qmi?",
+        "en": "You ate a lot of spicy food, so your stomach hurts. No fever?",
         "audio": "07a7bfccbf29.mp3"
       },
       {
@@ -1193,6 +1390,7 @@
         "speaker": "aziz",
         "ko": "열은 없어요. 그런데 너무 아파서 밤에 잠을 못 잤어요.",
         "uz": "Isitma yo'q. Lekin juda og'rigani uchun kechasi uxlay olmadim.",
+        "en": "No fever. But it hurt so much that I couldn't sleep last night.",
         "audio": "e5947d9eaece.mp3"
       },
       {
@@ -1200,6 +1398,7 @@
         "speaker": "doctor",
         "ko": "이 약을 하루에 세 번 드세요.",
         "uz": "Bu dorini kuniga uch marta iching.",
+        "en": "Take this medicine three times a day.",
         "audio": "7be8f8ed98f9.mp3"
       },
       {
@@ -1207,6 +1406,7 @@
         "speaker": "aziz",
         "ko": "내일 시험인데 학교에 갈 수 있어요?",
         "uz": "Ertaga imtihonim bor, maktabga bora olamanmi?",
+        "en": "I have an exam tomorrow. Can I go to school?",
         "audio": "54a0dabc2ae8.mp3"
       },
       {
@@ -1214,12 +1414,14 @@
         "speaker": "doctor",
         "ko": "네, 갈 수 있어요. 하지만 오늘은 집에서 푹 쉬세요.",
         "uz": "Ha, bora olasiz. Lekin bugun uyda yaxshilab dam oling.",
+        "en": "Yes, you can. But have a good rest at home today.",
         "audio": "d4dd66073849.mp3"
       },
       {
         "type": "choose_reply",
         "speaker": "aziz",
         "prompt_uz": "Aziz 'Ertaga imtihon bo'lgani uchun xavotirdaman' demoqchi.",
+        "prompt_en": "Aziz wants to say 'I'm worried because I have an exam tomorrow'.",
         "options": [
           "내일 시험이라서 걱정해요.",
           "내일 시험라서 걱정해요.",
@@ -1227,7 +1429,9 @@
         ],
         "answer": "내일 시험이라서 걱정해요.",
         "uz": "Ertaga imtihon bo'lgani uchun xavotirdaman.",
+        "en": "I'm worried because I have an exam tomorrow.",
         "why_uz": "시험 — 받침 bor: 이라서.",
+        "why_en": "시험 has 받침: 이라서.",
         "audio": "dc483a20cfea.mp3"
       },
       {
@@ -1235,6 +1439,7 @@
         "speaker": "doctor",
         "ko": "걱정하지 마세요. 약을 먹으면 괜찮을 거예요.",
         "uz": "Xavotir olmang. Dorini ichsangiz, yaxshi bo'lib qolasiz.",
+        "en": "Don't worry. If you take the medicine, you'll get better.",
         "audio": "8a321a7b909d.mp3"
       },
       {
@@ -1242,6 +1447,7 @@
         "speaker": "doctor",
         "ko": "그리고 며칠 동안 매운 음식은 드시지 마세요.",
         "uz": "Va bir necha kun achchiq ovqat yemang.",
+        "en": "And don't eat spicy food for a few days.",
         "audio": "80965e4a1b8b.mp3"
       },
       {
@@ -1249,6 +1455,7 @@
         "speaker": "aziz",
         "ko": "네, 감사합니다!",
         "uz": "Xo'p, rahmat!",
+        "en": "OK, thank you!",
         "audio": "f493dd79f1fd.mp3"
       }
     ]
