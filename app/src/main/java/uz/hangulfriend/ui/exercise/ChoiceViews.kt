@@ -19,6 +19,7 @@ import androidx.compose.runtime.mutableLongStateOf
 import androidx.compose.runtime.mutableStateListOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
@@ -44,9 +45,9 @@ fun ChoiceView(
     onNext: () -> Unit,
     aiQuestion: ((String) -> String)? = null,
 ) {
-    val start by remember { mutableLongStateOf(System.currentTimeMillis()) }
-    val shuffled = remember(options) { options.shuffled() }
-    var picked by remember { mutableStateOf<String?>(null) }
+    val start by rememberSaveable { mutableLongStateOf(System.currentTimeMillis()) }
+    val shuffled = rememberSaveable(options) { ArrayList(options.shuffled()) }
+    var picked by rememberSaveable { mutableStateOf<String?>(null) }
     val messages = FeedbackMessages()
     Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
         PromptText(prompt)
@@ -97,11 +98,11 @@ fun BuildSentenceView(
     onNext: () -> Unit,
     aiQuestion: ((String) -> String)? = null,
 ) {
-    val start by remember { mutableLongStateOf(System.currentTimeMillis()) }
-    val pool = remember(tokens) { tokens.indices.shuffled() }
-    val chosen = remember { mutableStateListOf<Int>() }
-    var usedHint by remember { mutableStateOf(false) }
-    var feedback by remember { mutableStateOf<FeedbackInfo?>(null) }
+    val start by rememberSaveable { mutableLongStateOf(System.currentTimeMillis()) }
+    val pool = rememberSaveable(tokens) { ArrayList(tokens.indices.shuffled()) }
+    val chosen = rememberSaveable(saver = IntListSaver) { mutableStateListOf<Int>() }
+    var usedHint by rememberSaveable { mutableStateOf(false) }
+    var feedback by rememberSaveable(stateSaver = FeedbackInfoSaver) { mutableStateOf<FeedbackInfo?>(null) }
     val messages = FeedbackMessages()
     Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
         PromptText(prompt)
@@ -144,7 +145,7 @@ fun BuildSentenceView(
 
 @Composable
 fun FlashcardView(word: Word, onResult: (ExerciseOutcome) -> Unit, onNext: () -> Unit) {
-    var revealed by remember { mutableStateOf(false) }
+    var revealed by rememberSaveable { mutableStateOf(false) }
     Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
         PromptText(stringResource(R.string.ex_flashcard_prompt))
         Row(verticalAlignment = androidx.compose.ui.Alignment.CenterVertically) {

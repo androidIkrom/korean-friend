@@ -21,6 +21,7 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableLongStateOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.runtime.staticCompositionLocalOf
 import androidx.compose.ui.Alignment
@@ -142,8 +143,8 @@ fun SpeakPanel(expected: String, onScored: (SpeechScore) -> Unit, onFailed: (Spe
 /** Speaking exercise: only the first attempt counts; "O'tkazib yuborish" is always possible. */
 @Composable
 fun SpeakView(ko: String, uz: String, audio: String?, onResult: (ExerciseOutcome) -> Unit, onNext: () -> Unit) {
-    val start by remember { mutableLongStateOf(System.currentTimeMillis()) }
-    var submitted by remember { mutableStateOf(false) }
+    val start by rememberSaveable { mutableLongStateOf(System.currentTimeMillis()) }
+    var submitted by rememberSaveable { mutableStateOf(false) }
     Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
         PromptText(stringResource(R.string.speak_prompt))
         Row(verticalAlignment = Alignment.CenterVertically) {
