@@ -6,9 +6,12 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.MenuBook
 import androidx.compose.material.icons.filled.Settings
-import androidx.compose.material.icons.filled.Today
+import androidx.compose.material.icons.filled.Home
+import androidx.compose.material.icons.filled.Map
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.Icon
+import androidx.compose.material3.NavigationBarItemDefaults
+import uz.hangulfriend.ui.theme.LocalGameTokens
 import androidx.compose.material3.NavigationBar
 import androidx.compose.material3.NavigationBarItem
 import androidx.compose.material3.Scaffold
@@ -87,8 +90,9 @@ object Routes {
 private data class Tab(val route: String, val label: Int, val icon: ImageVector)
 
 private val tabs = listOf(
-    Tab(Routes.HOME, R.string.nav_home, Icons.Filled.Today),
-    Tab(Routes.MAP, R.string.nav_book, Icons.AutoMirrored.Filled.MenuBook),
+    Tab(Routes.HOME, R.string.nav_home, Icons.Filled.Home),
+    Tab(Routes.MAP, R.string.nav_book, Icons.Filled.Map),
+    Tab(Routes.STORIES, R.string.nav_stories, Icons.AutoMirrored.Filled.MenuBook),
     Tab(Routes.SETTINGS, R.string.nav_settings, Icons.Filled.Settings),
 )
 
@@ -124,21 +128,30 @@ fun HangulFriendNav(container: AppContainer, openReview: Boolean = false) {
             }
             composable(Routes.HOME) {
                 val vm = viewModel {
-                    HomeViewModel(container.content, container.study, container.settings, container.game, container.clock)
+                    HomeViewModel(
+                        container.content, container.study, container.settings, container.game, container.progress,
+                        container.story, container.shareStats, container.clock,
+                    )
                 }
                 HomeScreen(
                     vm,
                     onStartReview = { nav.navigate(Routes.session(SessionMode.REVIEW)) },
                     onContinueLesson = { nav.navigate(Routes.lesson(it)) },
+                    onOpenMap = {
+                        nav.navigate(Routes.MAP) {
+                            popUpTo(nav.graph.findStartDestination().id) { saveState = true }
+                            launchSingleTop = true
+                            restoreState = true
+                        }
+                    },
                     onGames = { nav.navigate(Routes.GAMES) },
                     onMistakes = { nav.navigate(Routes.MISTAKES) },
                     onAchievements = { nav.navigate(Routes.ACHIEVEMENTS) },
-                    onStories = { nav.navigate(Routes.STORIES) },
                     headerAction = { ShareCardButton(container.shareStats) },
                 )
             }
             composable(Routes.MAP) {
-                val vm = viewModel { BookMapViewModel(container.content, container.progress) }
+                val vm = viewModel { BookMapViewModel(container.content, container.progress, container.settings) }
                 BookMapScreen(
                     vm,
                     onOpenLesson = { nav.navigate(Routes.lesson(it)) },
@@ -172,7 +185,7 @@ fun HangulFriendNav(container: AppContainer, openReview: Boolean = false) {
             }
             composable(Routes.EPISODE) { entry ->
                 val lessonId = entry.arguments?.getString("lessonId").orEmpty()
-                val vm = viewModel { EpisodeViewModel(lessonId, container.content, container.story, container.settings) }
+                val vm = viewModel { EpisodeViewModel(lessonId, container.content, container.story, container.settings, container.game) }
                 EpisodeScreen(vm, onClose = { nav.popBackStack() })
             }
             composable(Routes.LESSON) { entry ->
@@ -217,9 +230,17 @@ fun HangulFriendNav(container: AppContainer, openReview: Boolean = false) {
 
 @Composable
 private fun BottomBar(nav: NavHostController, current: String?) {
-    NavigationBar {
+    val t = LocalGameTokens.current
+    NavigationBar(containerColor = t.background, contentColor = t.muted) {
         tabs.forEach { tab ->
             NavigationBarItem(
+                colors = NavigationBarItemDefaults.colors(
+                    selectedIconColor = t.accent,
+                    selectedTextColor = t.accent,
+                    indicatorColor = t.accent.copy(alpha = 0.15f),
+                    unselectedIconColor = t.muted,
+                    unselectedTextColor = t.muted,
+                ),
                 selected = current == tab.route,
                 onClick = {
                     nav.navigate(tab.route) {

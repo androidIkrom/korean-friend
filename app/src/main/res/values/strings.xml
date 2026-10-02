@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Hangul Friend</string>
+    <string name="app_name">Hangul Hunt</string>
 
-    <string name="nav_home">Bugun</string>
-    <string name="nav_book">Kitob</string>
+    <string name="nav_home">Uy</string>
+    <string name="nav_book">Xarita</string>
+    <string name="nav_stories">Hikoyalar</string>
     <string name="nav_settings">Sozlamalar</string>
 
     <string name="status_not_started">Boshlanmagan</string>
@@ -15,14 +16,10 @@
     <string name="unit_title">%1$d-bo\'lim · %2$s</string>
 
     <string name="onboarding_welcome">Xush kelibsiz!</string>
-    <string name="onboarding_intro">Hangul Friend «사랑해요 한국어 2» kitobi bo\'yicha darslarni takrorlashga yordam beradi.</string>
+    <string name="onboarding_intro">Hangul Hunt «사랑해요 한국어 2» kitobi bo\'yicha darslarni takrorlashga yordam beradi.</string>
     <string name="onboarding_question">Hozir qaysi darsdasiz?</string>
     <string name="onboarding_continue">Davom etish</string>
 
-    <string name="home_review_count">Takrorlash: %1$d ta</string>
-    <string name="home_review_start">Boshlash</string>
-    <string name="home_review_done">Bugun hammasi takrorlandi!</string>
-    <string name="home_continue">Darsni davom ettirish</string>
 
     <string name="settings_current_lesson">Joriy dars</string>
     <string name="settings_daily_new">Kunlik yangi kartalar: %1$d ta</string>
@@ -75,13 +72,7 @@
     <string name="ach_first_boss">Boss yengildi</string>
     <string name="ach_first_boss_desc">Birinchi Boss jangida g\'olib chiqdingiz</string>
 
-    <string name="home_level">%1$d-daraja</string>
     <string name="home_level_progress">%1$d / %2$d XP</string>
-    <string name="home_goal">Bugun: %1$d / %2$d XP</string>
-    <string name="home_streak">🔥 %1$d kun</string>
-    <string name="home_games">🎮 O\'yinlar</string>
-    <string name="home_mistakes">📒 Xatolar daftari</string>
-    <string name="home_achievements">🏆 Nishonlar</string>
 
     <string name="session_combo">🔥 %1$d ketma-ket!</string>
     <string name="session_xp">+%1$d XP</string>
@@ -173,7 +164,6 @@
     <string name="test_intro">Dars testi: 80% va undan yuqori natija darsni tugatadi.</string>
     <string name="test_start">Testni boshlash</string>
     <string name="lesson_review">Shu darsni takrorlash</string>
-    <string name="home_stories">📖 Hikoyalar</string>
     <string name="stories_title">Hikoyalar</string>
     <string name="story_unit">%1$d-bo\'lim</string>
     <string name="story_locked">Avval darsni o\'ting</string>
@@ -209,5 +199,74 @@
     <string name="share_words">so\'z o\'rganildi</string>
     <string name="share_lessons">Darslar</string>
     <string name="share_now">Hozir</string>
-    <string name="share_footer">사랑해요 한국어 2 · Hangul Friend</string>
+    <string name="share_footer">사랑해요 한국어 2 · Hangul Hunt</string>
+    <string name="rank_title_e">Boshlovchi</string>
+    <string name="rank_title_d">Shogird</string>
+    <string name="rank_title_c">Ovchi</string>
+    <string name="rank_title_b">Ritsar</string>
+    <string name="rank_title_a">Qo\'mondon</string>
+    <string name="rank_title_s">Monarx</string>
+    <string name="avatar_new_jacket">Kurtka va yengil kontur nuri</string>
+    <string name="avatar_new_long_coat">Uzun plash</string>
+    <string name="avatar_new_pauldrons">Yelka zirhlari</string>
+    <string name="avatar_new_cape">Mantiya</string>
+    <string name="avatar_new_blades">Egizak xanjar</string>
+    <string name="avatar_new_hair_light">Sochda nur</string>
+    <string name="avatar_new_companions">Hamrohlar</string>
+    <string name="settings_theme">Interfeys uslubi</string>
+    <string name="theme_system">Tizim</string>
+    <string name="theme_neon">Neon Seul</string>
+    <string name="quest_daily_xp">Kunlik XP maqsadi</string>
+    <string name="quest_review">Kartalarni takrorlash</string>
+    <string name="quest_lesson">Joriy dars: %1$s</string>
+    <string name="home_status">Status</string>
+    <string name="home_quest">Kunlik topshiriq</string>
+    <string name="home_quest_footer">Maqsad bajarilsa seriya davom etadi</string>
+    <string name="home_title">Unvon: %1$s</string>
+    <string name="home_stat_words">So\'zlar</string>
+    <string name="home_stat_lessons">Darslar</string>
+    <string name="home_stat_stories">Hikoyalar</string>
+    <string name="home_stat_achievements">Yutuqlar</string>
+    <string name="home_streak_days">%1$d kun</string>
+    <string name="home_continue_lesson">Davom etish · %1$d-bo\'lim, %2$d-dars</string>
+    <string name="home_open_map">Xaritani ochish</string>
+    <string name="home_action_review">Takrorlash · %1$d</string>
+    <string name="home_action_games">O\'yinlar</string>
+    <string name="home_action_mistakes">Xatolar</string>
+    <string name="home_action_achievements">Yutuqlar</string>
+    <string name="rankup_message">Darajangiz %1$d ga yetdi. Rank oshdi!</string>
+    <string name="rankup_accept">Qabul qilish</string>
+    <string name="map_tower_title">Darvozalar minorasi</string>
+    <string name="map_metro_title">Metro xaritasi</string>
+    <string name="map_cleared_count">%1$d/%2$d tozalandi</string>
+    <string name="map_active_gate">FAOL DARVOZA</string>
+    <string name="map_active_station">SIZ SHU YERDASIZ</string>
+    <string name="map_enter_gate">DARVOZAGA KIRISH</string>
+    <string name="map_enter_station">Bekatga tushish</string>
+    <string name="map_cleared">TOZALANDI</string>
+    <string name="map_lesson_line">%1$d-dars · %2$s</string>
+    <string-array name="unit_topics_ko">
+        <item>가족</item>
+        <item>쇼핑</item>
+        <item>여행</item>
+        <item>취미</item>
+        <item>은행·우체국</item>
+        <item>길 찾기</item>
+        <item>약속·병원</item>
+        <item>감정·규칙</item>
+        <item>전화·일상</item>
+    </string-array>
+    <string name="episode_choice">Tanlov</string>
+    <string name="episode_chip">EPIZOD %1$d · %2$s</string>
+    <string name="avatar_new_gaze">Nigoh qat\'iylashdi</string>
+    <string name="avatar_new_flame">Olov aurasi uyg\'ondi</string>
+    <string name="avatar_new_ponytail">Soch jangovar bog\'landi</string>
+    <string name="avatar_new_embers">Uchqunlar</string>
+    <string name="avatar_new_sword">Uzun qilich</string>
+    <string name="avatar_new_monarch_flame">Monarx alangasi</string>
+    <string name="avatar_new_eye_trail">Ko\'zdan alanga izi</string>
+    <string name="avatar_new_tiara">Nurli toj</string>
+    <string name="hero_title">Personajingiz</string>
+    <string name="hero_boy">Yigit</string>
+    <string name="hero_girl">Qiz</string>
 </resources>

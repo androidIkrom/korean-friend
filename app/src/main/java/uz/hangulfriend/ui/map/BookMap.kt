@@ -1,39 +1,40 @@
 package uz.hangulfriend.ui.map
 
-import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.Row
-import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.lazy.LazyColumn
-import androidx.compose.foundation.lazy.items
-import androidx.compose.material3.Card
-import androidx.compose.material3.LinearProgressIndicator
-import androidx.compose.material3.TextButton
-import androidx.compose.material3.MaterialTheme
+import androidx.compose.foundation.lazy.itemsIndexed
+import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
-import androidx.compose.ui.Alignment
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.saveable.rememberSaveable
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.draw.alpha
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewModelScope
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
-import kotlinx.coroutines.flow.map
+import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.flow.stateIn
 import uz.hangulfriend.R
 import uz.hangulfriend.content.CatalogEntry
 import uz.hangulfriend.content.ContentRepository
+import uz.hangulfriend.data.GameThemeId
 import uz.hangulfriend.data.LessonProgressEntity
 import uz.hangulfriend.data.LessonStatus
 import uz.hangulfriend.data.ProgressRepository
-import uz.hangulfriend.ui.statusLabel
+import uz.hangulfriend.data.SettingsRepository
+import uz.hangulfriend.ui.theme.GameBackground
+import uz.hangulfriend.ui.theme.LocalGameTokens
 
 data class LessonRow(val entry: CatalogEntry, val available: Boolean, val status: LessonStatus, val percent: Int)
 
@@ -52,15 +53,16 @@ fun buildRows(
     LessonRow(entry, entry.id in available, status, percent)
 }
 
-class BookMapViewModel(content: ContentRepository, progress: ProgressRepository) : ViewModel() {
+class BookMapViewModel(content: ContentRepository, progress: ProgressRepository, settings: SettingsRepository) : ViewModel() {
     private val catalog = content.catalog()
     private val available = catalog.map { it.id }.filter(content::isAvailable).toSet()
 
-    val rows: StateFlow<List<LessonRow>> = progress.observeAll()
-        .map { buildRows(catalog, available, it) }
-        .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), buildRows(catalog, available, emptyMap()))
+    val units: StateFlow<List<UnitRow>> = combine(progress.observeAll(), settings.settings) { p, s ->
+        buildUnits(buildRows(catalog, available, p), s.currentLessonId)
+    }.stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), buildUnits(buildRows(catalog, available, emptyMap()), null))
 }
 
+/** Units as a gate tower (System, 9 on top) or a metro line (Neon, 1 on top); the active unit is expanded. */
 @Composable
 fun BookMapScreen(
     vm: BookMapViewModel,
@@ -69,47 +71,59 @@ fun BookMapScreen(
     onBoss: (Int) -> Unit,
     modifier: Modifier = Modifier,
 ) {
-    val rows by vm.rows.collectAsStateWithLifecycle()
-    LazyColumn(modifier.padding(horizontal = 16.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
-        rows.groupBy { it.entry.unit }.forEach { (unit, unitRows) ->
-            item(key = "unit$unit") {
-                Row(Modifier.padding(top = 16.dp, bottom = 4.dp), verticalAlignment = Alignment.CenterVertically) {
+    val t = LocalGameTokens.current
+    val units by vm.units.collectAsStateWithLifecycle()
+    var opened by rememberSaveable { mutableStateOf(listOf<Int>()) }
+    val actions = MapActions(onOpenLesson, onQuickCheck, onBoss) { unit ->
+        opened = if (unit in opened) opened - unit else opened + unit
+    }
+    val tower = t.id == GameThemeId.SYSTEM
+    val ordered = if (tower) units.reversed() else units
+    val activeIndex = ordered.indexOfFirst { it.state == UnitState.ACTIVE }
+    val listState = rememberLazyListState()
+    LaunchedEffect(activeIndex >= 0) {
+        // Item 0 is the header, so this leaves one unit visible above the active one.
+        if (activeIndex >= 0) listState.scrollToItem(activeIndex)
+    }
+    val cleared = units.count { it.state == UnitState.CLEARED }
+    // The metro line is solid from the top down to the active station (or along cleared units when none is active).
+    fun solidBelow(i: Int): Boolean = if (activeIndex >= 0) {
+        i < activeIndex
+    } else {
+        ordered[i].state == UnitState.CLEARED && ordered.getOrNull(i + 1)?.state == UnitState.CLEARED
+    }
+    GameBackground(modifier) {
+        LazyColumn(
+            state = listState,
+            contentPadding = PaddingValues(16.dp),
+            verticalArrangement = Arrangement.spacedBy(if (tower) 8.dp else 0.dp),
+        ) {
+            item(key = "header") {
+                Column(Modifier, verticalArrangement = Arrangement.spacedBy(2.dp)) {
                     Text(
-                        stringResource(R.string.unit_title, unit, unitRows.first().entry.topicUz),
-                        style = MaterialTheme.typography.titleMedium,
-                        modifier = Modifier.weight(1f),
+                        stringResource(if (tower) R.string.map_tower_title else R.string.map_metro_title),
+                        color = t.text,
+                        fontFamily = t.display,
+                        fontWeight = FontWeight.Bold,
+                        fontSize = 26.sp,
                     )
-                    // A boss needs both lessons of the unit to have content.
-                    if (unitRows.size == 2 && unitRows.all { it.available }) {
-                        TextButton(onClick = { onBoss(unit) }) { Text(stringResource(R.string.map_boss)) }
-                    }
+                    Text(stringResource(R.string.map_cleared_count, cleared, units.size), color = t.muted, fontSize = 13.sp)
                 }
             }
-            items(unitRows, key = { it.entry.id }) { row -> LessonRowCard(row, onOpenLesson, onQuickCheck) }
-        }
-    }
-}
-
-@Composable
-private fun LessonRowCard(row: LessonRow, onOpenLesson: (String) -> Unit, onQuickCheck: (String) -> Unit) {
-    Card(
-        Modifier
-            .fillMaxWidth()
-            .alpha(if (row.available) 1f else 0.5f)
-            .clickable(enabled = row.available) { onOpenLesson(row.entry.id) },
-    ) {
-        Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(4.dp)) {
-            Text(row.entry.titleKo, style = MaterialTheme.typography.titleMedium)
-            Text(row.entry.titleUz, style = MaterialTheme.typography.bodyMedium)
-            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-                LinearProgressIndicator(progress = { row.percent / 100f }, modifier = Modifier.weight(1f))
-                Text(
-                    if (row.available) statusLabel(row.status) else stringResource(R.string.coming_soon),
-                    style = MaterialTheme.typography.labelMedium,
-                )
-            }
-            if (row.available && row.status == LessonStatus.PASSED) {
-                TextButton(onClick = { onQuickCheck(row.entry.id) }) { Text(stringResource(R.string.map_quick_check)) }
+            itemsIndexed(ordered, key = { _, u -> "unit${u.unit}" }) { i, u ->
+                val expanded = u.state == UnitState.ACTIVE || u.unit in opened
+                if (tower) {
+                    GateItem(u, expanded, actions)
+                } else {
+                    StationItem(
+                        u, expanded,
+                        first = i == 0,
+                        last = i == ordered.lastIndex,
+                        passedTop = i > 0 && solidBelow(i - 1),
+                        passedBottom = solidBelow(i),
+                        actions = actions,
+                    )
+                }
             }
         }
     }

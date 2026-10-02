@@ -28,6 +28,8 @@ import kotlinx.coroutines.launch
 import uz.hangulfriend.R
 import uz.hangulfriend.content.CatalogEntry
 import uz.hangulfriend.content.ContentRepository
+import uz.hangulfriend.data.HeroGender
+import uz.hangulfriend.ui.settings.HeroRow
 import uz.hangulfriend.study.OnboardingService
 
 class OnboardingViewModel(content: ContentRepository, private val onboarding: OnboardingService) : ViewModel() {
@@ -36,8 +38,15 @@ class OnboardingViewModel(content: ContentRepository, private val onboarding: On
     private val _selected = MutableStateFlow<String?>(null)
     val selected: StateFlow<String?> = _selected
 
+    private val _hero = MutableStateFlow(HeroGender.BOY)
+    val hero: StateFlow<HeroGender> = _hero
+
     private val _busy = MutableStateFlow(false)
     val busy: StateFlow<Boolean> = _busy
+
+    fun pickHero(hero: HeroGender) {
+        _hero.value = hero
+    }
 
     fun select(id: String) {
         _selected.value = id
@@ -47,7 +56,7 @@ class OnboardingViewModel(content: ContentRepository, private val onboarding: On
         val id = _selected.value ?: return
         _busy.value = true
         viewModelScope.launch {
-            onboarding.complete(id)
+            onboarding.complete(id, _hero.value)
             _busy.value = false
             onDone()
         }
@@ -94,6 +103,7 @@ fun LessonPicker(
 fun OnboardingScreen(vm: OnboardingViewModel, onDone: () -> Unit) {
     val selected by vm.selected.collectAsStateWithLifecycle()
     val busy by vm.busy.collectAsStateWithLifecycle()
+    val hero by vm.hero.collectAsStateWithLifecycle()
     Column(
         Modifier
             .fillMaxSize()
@@ -102,6 +112,7 @@ fun OnboardingScreen(vm: OnboardingViewModel, onDone: () -> Unit) {
     ) {
         Text(stringResource(R.string.onboarding_welcome), style = MaterialTheme.typography.headlineMedium)
         Text(stringResource(R.string.onboarding_intro))
+        HeroRow(hero, vm::pickHero)
         Text(stringResource(R.string.onboarding_question), style = MaterialTheme.typography.titleMedium)
         LessonPicker(vm.catalog, selected, vm::select, Modifier.weight(1f))
         Button(

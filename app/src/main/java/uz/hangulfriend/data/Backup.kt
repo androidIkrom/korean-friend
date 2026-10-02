@@ -31,6 +31,10 @@ data class BackupSettings(
     @SerialName("daily_goal_xp") val dailyGoalXp: Int,
     @SerialName("reminder_enabled") val reminderEnabled: Boolean,
     @SerialName("reminder_minutes") val reminderMinutes: Int,
+    /** Missing in files exported before stage 6. */
+    val theme: String = GameThemeId.SYSTEM.key,
+    /** Missing in files exported before stage 6b. */
+    val hero: String = HeroGender.BOY.key,
 )
 
 @Serializable
@@ -70,9 +74,13 @@ data class BestScoreDto(val gameId: String, val score: Int)
 @Serializable
 data class StoryProgressDto(val lessonId: String, val completedAtMs: Long)
 
-fun Settings.toBackup() = BackupSettings(onboarded, currentLessonId, dailyNewLimit, dailyGoalXp, reminderEnabled, reminderMinutes)
+fun Settings.toBackup() =
+    BackupSettings(onboarded, currentLessonId, dailyNewLimit, dailyGoalXp, reminderEnabled, reminderMinutes, theme.key, hero.key)
 
-fun BackupSettings.toSettings() = Settings(onboarded, currentLessonId, dailyNewLimit, dailyGoalXp, reminderEnabled, reminderMinutes)
+fun BackupSettings.toSettings() = Settings(
+    onboarded, currentLessonId, dailyNewLimit, dailyGoalXp, reminderEnabled, reminderMinutes, GameThemeId.from(theme),
+    HeroGender.from(hero),
+)
 
 fun CardEntity.toDto() = CardDto(
     id, itemId, kind.name, lessonId, origin.name, state.name, step, stability, difficulty,

@@ -3,6 +3,8 @@ package uz.hangulfriend.data
 import androidx.room.withTransaction
 import java.time.Clock
 import kotlinx.coroutines.flow.first
+import uz.hangulfriend.study.GameRules
+import uz.hangulfriend.study.RankRules
 
 /** Reads all progress into a [BackupFile] and replaces all progress with one. */
 class BackupService(private val db: AppDatabase, private val settings: SettingsRepository, private val clock: Clock) {
@@ -45,6 +47,8 @@ class BackupService(private val db: AppDatabase, private val settings: SettingsR
             db.story().insertAll(file.storyProgress.map { it.toEntity() })
         }
         settings.replaceAll(file.settings.toSettings())
+        // Restored progress is not a new achievement: remember its rank so no rank-up dialog appears.
+        settings.setLastSeenRank(RankRules.rankFor(GameRules.level(file.xpEvents.sumOf { it.amount }).level))
     }
 
     private companion object {
