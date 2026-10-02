@@ -1,6 +1,8 @@
 package uz.hangulfriend.ui.theme
 
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.ColorScheme
+import androidx.compose.material3.Shapes
 import androidx.compose.material3.Typography
 import androidx.compose.material3.darkColorScheme
 import androidx.compose.runtime.staticCompositionLocalOf
@@ -108,6 +110,20 @@ fun gameColorScheme(t: GameTokens): ColorScheme {
         surfaceContainerHighest = surface,
         outline = t.panelBorder,
         error = t.danger,
+    )
+}
+
+/** Corner radii for every Material component: near-square in System, soft in Neon. */
+fun gameShapes(t: GameTokens): Shapes = if (t.id == GameThemeId.SYSTEM) {
+    val r = RoundedCornerShape(2.dp)
+    Shapes(extraSmall = r, small = r, medium = r, large = r, extraLarge = r)
+} else {
+    Shapes(
+        extraSmall = RoundedCornerShape(8.dp),
+        small = RoundedCornerShape(12.dp),
+        medium = RoundedCornerShape(14.dp),
+        large = RoundedCornerShape(18.dp),
+        extraLarge = RoundedCornerShape(24.dp),
     )
 }
 

@@ -20,6 +20,8 @@ import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.CompositionLocalProvider
+import androidx.compose.runtime.staticCompositionLocalOf
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.alpha
@@ -155,10 +157,24 @@ fun RankBadge(letter: String, state: BadgeState, modifier: Modifier = Modifier, 
     }
 }
 
+/** True inside a [GameBackground]: a nested one only lays out its content instead of drawing a second backdrop. */
+val LocalInGameBackground = staticCompositionLocalOf { false }
+
 /** Full-screen backdrop: a faint grid with a blue glow (System) or a night-sky gradient (Neon). */
 @Composable
 fun GameBackground(modifier: Modifier = Modifier, content: @Composable BoxScope.() -> Unit) {
     val t = LocalGameTokens.current
+    if (LocalInGameBackground.current) {
+        Box(modifier.fillMaxSize(), content = content)
+        return
+    }
+    CompositionLocalProvider(LocalInGameBackground provides true) {
+        Backdrop(t, modifier, content)
+    }
+}
+
+@Composable
+private fun Backdrop(t: GameTokens, modifier: Modifier, content: @Composable BoxScope.() -> Unit) {
     Box(
         modifier
             .fillMaxSize()
@@ -188,6 +204,27 @@ fun GameBackground(modifier: Modifier = Modifier, content: @Composable BoxScope.
                     drawRect(Brush.verticalGradient(listOf(Color(0xFF26104A), t.background), endY = size.height * 0.6f))
                 }
             },
+        content = content,
+    )
+}
+
+/** A game-styled card: panel fill, thin theme border, theme shape; clickable when [onClick] is given. */
+@Composable
+fun GameCard(
+    modifier: Modifier = Modifier,
+    onClick: (() -> Unit)? = null,
+    enabled: Boolean = true,
+    containerColor: Color? = null,
+    borderColor: Color? = null,
+    content: @Composable ColumnScope.() -> Unit,
+) {
+    val t = LocalGameTokens.current
+    val shape = RoundedCornerShape(t.panelCorner)
+    Column(
+        modifier
+            .background(containerColor ?: t.panel, shape)
+            .border(1.dp, borderColor ?: t.panelBorder, shape)
+            .then(if (onClick != null) Modifier.clickable(enabled = enabled, role = Role.Button, onClick = onClick) else Modifier),
         content = content,
     )
 }
