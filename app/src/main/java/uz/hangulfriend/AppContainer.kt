@@ -16,6 +16,7 @@ import uz.hangulfriend.data.ProgressRepository
 import uz.hangulfriend.data.SettingsRepository
 import uz.hangulfriend.data.StoryRepository
 import uz.hangulfriend.data.StudyRepository
+import uz.hangulfriend.data.UserWordRepository
 import uz.hangulfriend.reminders.ReminderScheduler
 import uz.hangulfriend.share.ProgressStats
 import uz.hangulfriend.ui.avatar.AvatarAssets
@@ -41,6 +42,7 @@ class AppContainer(context: Context) {
     val game = GameRepository(db, clock)
     val story = StoryRepository(db, game, clock)
     val backup = BackupService(db, settings, clock)
+    val userWords = UserWordRepository(db, study, clock)
     val shareStats = ProgressStats(content, db, game, settings, clock)
     val avatarAssets by lazy { AvatarAssets.load(context.assets) }
 

@@ -16,6 +16,12 @@ interface CardDao {
     @Query("DELETE FROM cards")
     suspend fun deleteAll()
 
+    @Query("DELETE FROM cards WHERE itemId = :itemId")
+    suspend fun deleteByItem(itemId: String)
+
+    @Query("SELECT * FROM cards WHERE kind = 'RECOGNIZE'")
+    fun observeRecognize(): Flow<List<CardEntity>>
+
     @Query("SELECT * FROM cards WHERE id = :id")
     suspend fun get(id: String): CardEntity?
 
@@ -135,6 +141,9 @@ interface ReviewLogDao {
     @Query("DELETE FROM review_logs")
     suspend fun deleteAll()
 
+    @Query("DELETE FROM review_logs WHERE cardId IN (:cardIds)")
+    suspend fun deleteForCards(cardIds: List<String>)
+
     @Query("SELECT * FROM review_logs WHERE cardId = :cardId ORDER BY reviewedMs")
     suspend fun forCard(cardId: String): List<ReviewLogEntity>
 }
@@ -176,5 +185,26 @@ interface StoryDao {
     suspend fun insertAll(items: List<StoryProgressEntity>)
 
     @Query("DELETE FROM story_progress")
+    suspend fun deleteAll()
+}
+
+@Dao
+interface UserWordDao {
+    @Insert
+    suspend fun insert(word: UserWordEntity): Long
+
+    @Query("DELETE FROM user_words WHERE id = :id")
+    suspend fun delete(id: Long)
+
+    @Query("SELECT * FROM user_words ORDER BY createdMs DESC, id DESC")
+    fun observeAll(): Flow<List<UserWordEntity>>
+
+    @Query("SELECT * FROM user_words ORDER BY createdMs DESC, id DESC")
+    suspend fun all(): List<UserWordEntity>
+
+    @Insert
+    suspend fun insertAll(words: List<UserWordEntity>)
+
+    @Query("DELETE FROM user_words")
     suspend fun deleteAll()
 }
