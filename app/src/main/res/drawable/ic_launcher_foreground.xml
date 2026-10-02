@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Monarch gaze: a shadowed face with two sharp violet eyes and a flame trail from the left eye. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#FF0A0716"
+        android:pathData="M20,44 C18,20 40,8 56,9 C76,10 92,24 88,44 L84,34 L78,38 L74,26 L66,34 L58,22 L52,32 L44,22 L40,34 L32,26 L28,38 Z"
+        android:strokeWidth="1"
+        android:strokeColor="#FF3B2A6B" />
+    <path
+        android:pathData="M24,60 C24,86 38,100 54,102 C70,100 84,86 84,60"
+        android:strokeWidth="1.2"
+        android:strokeColor="#FF3B2A6B" />
+    <!-- Soft bloom behind each eye (vector drawables have no blur). -->
+    <path
+        android:fillColor="#59A98BFF"
+        android:pathData="M25,56 a15,7 0 1,0 30,0 a15,7 0 1,0 -30,0 Z" />
+    <path
+        android:fillColor="#59A98BFF"
+        android:pathData="M53,56 a15,7 0 1,0 30,0 a15,7 0 1,0 -30,0 Z" />
+    <path android:pathData="M30,57 C24,54 19,50 15,42 C20,48 25,52 30,54 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:endX="15"
+                android:endY="42"
+                android:startX="30"
+                android:startY="57"
+                android:type="linear">
+                <item android:color="#FFE9DDFF" android:offset="0" />
+                <item android:color="#FFA98BFF" android:offset="0.45" />
+                <item android:color="#00A98BFF" android:offset="1" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <path
+        android:fillColor="#FFA98BFF"
+        android:pathData="M30,57 L50,51 L48.5,57.5 C42,61.5 35,61.5 30,57 Z" />
+    <path
+        android:fillColor="#FFA98BFF"
+        android:pathData="M78,57 L58,51 L59.5,57.5 C66,61.5 73,61.5 78,57 Z" />
+    <path
+        android:fillColor="#FFE9DDFF"
+        android:pathData="M37.4,55.4 a3.6,2.4 0 1,0 7.2,0 a3.6,2.4 0 1,0 -7.2,0 Z" />
+    <path
+        android:fillColor="#FFE9DDFF"
+        android:pathData="M63.4,55.4 a3.6,2.4 0 1,0 7.2,0 a3.6,2.4 0 1,0 -7.2,0 Z" />
+    <path
+        android:pathData="M28,47 L52,52"
+        android:strokeWidth="2.6"
+        android:strokeColor="#FFA98BFF"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M80,47 L56,52"
+        android:strokeWidth="2.6"
+        android:strokeColor="#FFA98BFF"
+        android:strokeLineCap="round" />
+</vector>
