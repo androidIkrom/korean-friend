@@ -47,6 +47,16 @@ class GeminiClientTest {
         assertEquals(listOf("m1" to "k1", "m2" to "k1"), t.calls)
     }
 
+    /** Every model busy on the first pass: wait briefly and try the whole list once more. */
+    @Test fun generate_allBusyRetriesOnce() = runTest {
+        var n = 0
+        val t = FakeTransport { _, _ -> if (n++ < 2) HttpResult(503, "{}") else ok("ok") }
+        assertEquals(AiResult.Success("ok"), GeminiClient(keys, t, models, retryDelayMs = 0).generate("sys", user))
+        assertEquals(3, t.calls.size)
+    }
+
+    @Test fun defaultModelsHaveLiteFallback() = assertEquals("gemini-3.5-flash-lite", GeminiClient.DEFAULT_MODELS.last())
+
     @Test fun generate_invalidKeyRotates() = runTest {
         val t = FakeTransport { _, k -> if (k == "k1") HttpResult(403, "{}") else ok("ok") }
         assertEquals(AiResult.Success("ok"), GeminiClient(keys, t, models).generate("sys", user))
@@ -60,6 +70,12 @@ class GeminiClientTest {
 
     @Test fun generate_ioErrorIsOffline() = runTest {
         val t = FakeTransport { _, _ -> throw IOException("no network") }
+        assertEquals(AiResult.Offline, GeminiClient(keys, t, models).generate("sys", user))
+    }
+
+    /** Without network access (e.g. a missing INTERNET permission) the socket layer throws SecurityException. */
+    @Test fun generate_securityErrorIsOffline() = runTest {
+        val t = FakeTransport { _, _ -> throw SecurityException("Permission denied (missing INTERNET permission?)") }
         assertEquals(AiResult.Offline, GeminiClient(keys, t, models).generate("sys", user))
     }
 
