@@ -30,6 +30,7 @@ import uz.hangulfriend.content.CatalogEntry
 import uz.hangulfriend.content.ContentRepository
 import uz.hangulfriend.data.HeroGender
 import uz.hangulfriend.ui.settings.HeroRow
+import uz.hangulfriend.ui.settings.LanguageRow
 import uz.hangulfriend.study.OnboardingService
 
 class OnboardingViewModel(content: ContentRepository, private val onboarding: OnboardingService) : ViewModel() {
@@ -112,6 +113,7 @@ fun OnboardingScreen(vm: OnboardingViewModel, onDone: () -> Unit) {
     ) {
         Text(stringResource(R.string.onboarding_welcome), style = MaterialTheme.typography.headlineMedium)
         Text(stringResource(R.string.onboarding_intro))
+        LanguageRow()
         HeroRow(hero, vm::pickHero)
         Text(stringResource(R.string.onboarding_question), style = MaterialTheme.typography.titleMedium)
         LessonPicker(vm.catalog, selected, vm::select, Modifier.weight(1f))

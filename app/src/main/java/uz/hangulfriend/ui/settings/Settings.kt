@@ -93,6 +93,7 @@ fun SettingsScreen(vm: SettingsViewModel, modifier: Modifier = Modifier) {
     val pending by vm.pending.collectAsStateWithLifecycle()
     var limit by remember(settings.dailyNewLimit) { mutableFloatStateOf(settings.dailyNewLimit.toFloat()) }
     Column(modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
+        LanguageRow()
         ThemeRow(settings.theme, vm::setTheme)
         HeroRow(settings.hero, vm::setHero)
         Text(stringResource(R.string.settings_daily_new, limit.roundToInt()), style = MaterialTheme.typography.titleMedium)

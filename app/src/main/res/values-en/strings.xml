@@ -221,6 +221,7 @@
     <string name="avatar_new_blades">Twin daggers</string>
     <string name="avatar_new_hair_light">Light in the hair</string>
     <string name="avatar_new_companions">Companions</string>
+    <string name="settings_language">Language</string>
     <string name="settings_theme">Interface style</string>
     <string name="theme_system">System</string>
     <string name="theme_neon">Neon Seoul</string>
