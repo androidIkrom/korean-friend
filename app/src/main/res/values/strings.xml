@@ -266,4 +266,7 @@
     <string name="avatar_new_monarch_flame">Monarx alangasi</string>
     <string name="avatar_new_eye_trail">Ko\'zdan alanga izi</string>
     <string name="avatar_new_tiara">Nurli toj</string>
+    <string name="hero_title">Personajingiz</string>
+    <string name="hero_boy">Yigit</string>
+    <string name="hero_girl">Qiz</string>
 </resources>

@@ -239,10 +239,16 @@ private fun NamePlate(rank: Rank) {
     val t = LocalGameTokens.current
     Column(Modifier.fillMaxWidth(), horizontalAlignment = Alignment.CenterHorizontally) {
         Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
-            Text("AZIZ", color = t.text, fontFamily = t.display, fontWeight = FontWeight.Bold, fontSize = 24.sp, letterSpacing = 6.sp)
             RankBadge(rank.name, BadgeState.ACTIVE, size = 22.dp)
+            Text(
+                stringResource(rank.titleRes()).uppercase(),
+                color = t.text,
+                fontFamily = t.display,
+                fontWeight = FontWeight.Bold,
+                fontSize = 22.sp,
+                letterSpacing = 4.sp,
+            )
         }
-        Text(stringResource(R.string.home_title, stringResource(rank.titleRes())), color = t.muted, fontSize = 13.sp)
     }
 }
 

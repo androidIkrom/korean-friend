@@ -30,6 +30,7 @@ import uz.hangulfriend.content.CatalogEntry
 import uz.hangulfriend.content.ContentRepository
 import uz.hangulfriend.data.BackupService
 import uz.hangulfriend.data.GameThemeId
+import uz.hangulfriend.data.HeroGender
 import uz.hangulfriend.data.Settings
 import uz.hangulfriend.data.SettingsRepository
 import uz.hangulfriend.study.OnboardingService
@@ -67,6 +68,10 @@ class SettingsViewModel(
         viewModelScope.launch { settingsRepo.setDailyGoalXp(n) }
     }
 
+    fun setHero(hero: HeroGender) {
+        viewModelScope.launch { settingsRepo.setHero(hero) }
+    }
+
     fun setTheme(id: GameThemeId) {
         viewModelScope.launch { settingsRepo.setTheme(id) }
     }
@@ -87,6 +92,7 @@ fun SettingsScreen(vm: SettingsViewModel, modifier: Modifier = Modifier) {
     var limit by remember(settings.dailyNewLimit) { mutableFloatStateOf(settings.dailyNewLimit.toFloat()) }
     Column(modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
         ThemeRow(settings.theme, vm::setTheme)
+        HeroRow(settings.hero, vm::setHero)
         Text(stringResource(R.string.settings_daily_new, limit.toInt()), style = MaterialTheme.typography.titleMedium)
         Slider(
             value = limit,
