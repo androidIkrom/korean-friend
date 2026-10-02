@@ -4,16 +4,20 @@
   "lesson": 1,
   "title_ko": "청계천에 어떻게 가야 돼요?",
   "title_uz": "Cheonggyecheon'ga qanday borish kerak?",
+  "title_en": "How do I get to Cheonggyecheon?",
   "topic_uz": "Transport",
+  "topic_en": "Transport",
   "reviewed": false,
   "words": [
     {
       "id": "u06_l1_w001",
       "ko": "교통",
       "uz": "transport, qatnov",
+      "en": "transport, transportation",
       "pos": "ot",
       "example_ko": "서울은 교통이 편리해요.",
       "example_uz": "Seulda transport qulay.",
+      "example_en": "Transport in Seoul is convenient.",
       "audio": "435b06ba623e.mp3",
       "example_audio": "9b1a268eda45.mp3"
     },
@@ -21,9 +25,11 @@
       "id": "u06_l1_w002",
       "ko": "지하철",
       "uz": "metro",
+      "en": "subway, metro",
       "pos": "ot",
       "example_ko": "지하철을 타요.",
       "example_uz": "Metroga minaman.",
+      "example_en": "I take the subway.",
       "audio": "1589f0607af6.mp3",
       "example_audio": "6f2a36a2459c.mp3"
     },
@@ -31,9 +37,11 @@
       "id": "u06_l1_w003",
       "ko": "버스",
       "uz": "avtobus",
+      "en": "bus",
       "pos": "ot",
       "example_ko": "버스가 와요.",
       "example_uz": "Avtobus kelyapti.",
+      "example_en": "The bus is coming.",
       "audio": "0e4eee7aa61a.mp3",
       "example_audio": "8e78c1027ba7.mp3"
     },
@@ -41,9 +49,11 @@
       "id": "u06_l1_w004",
       "ko": "택시",
       "uz": "taksi",
+      "en": "taxi",
       "pos": "ot",
       "example_ko": "택시를 불렀어요.",
       "example_uz": "Taksi chaqirdim.",
+      "example_en": "I called a taxi.",
       "audio": "c1c88e06864a.mp3",
       "example_audio": "b93f4f7250fb.mp3"
     },
@@ -51,9 +61,11 @@
       "id": "u06_l1_w005",
       "ko": "정류장",
       "uz": "bekat (avtobus)",
+      "en": "(bus) stop",
       "pos": "ot",
       "example_ko": "버스 정류장이 어디예요?",
       "example_uz": "Avtobus bekati qayerda?",
+      "example_en": "Where is the bus stop?",
       "audio": "612aefb5507b.mp3",
       "example_audio": "8ffd4d7d0397.mp3"
     },
@@ -61,9 +73,11 @@
       "id": "u06_l1_w006",
       "ko": "역",
       "uz": "bekat (metro, poyezd)",
+      "en": "(subway, train) station",
       "pos": "ot",
       "example_ko": "시청역에서 만나요.",
       "example_uz": "Shahar hokimiyati bekatida uchrashamiz.",
+      "example_en": "Let's meet at City Hall Station.",
       "audio": "f8517ce94a2b.mp3",
       "example_audio": "8b510ddaf7c4.mp3"
     },
@@ -71,9 +85,11 @@
       "id": "u06_l1_w007",
       "ko": "호선",
       "uz": "(metro) liniyasi",
+      "en": "(subway) line",
       "pos": "ot",
       "example_ko": "2호선을 타세요.",
       "example_uz": "2-liniyaga ming.",
+      "example_en": "Take Line 2.",
       "audio": "32252099b2bd.mp3",
       "example_audio": "76fc568940be.mp3"
     },
@@ -81,9 +97,11 @@
       "id": "u06_l1_w008",
       "ko": "노선도",
       "uz": "yo'nalishlar xaritasi",
+      "en": "route map",
       "pos": "ot",
       "example_ko": "지하철 노선도를 보세요.",
       "example_uz": "Metro xaritasiga qarang.",
+      "example_en": "Look at the subway map.",
       "audio": "9f08abf26b12.mp3",
       "example_audio": "f950f9c3a306.mp3"
     },
@@ -91,9 +109,11 @@
       "id": "u06_l1_w009",
       "ko": "타다",
       "uz": "minmoq (transportga)",
+      "en": "to get on, to take (transport)",
       "pos": "fe'l",
       "example_ko": "버스를 탔어요.",
       "example_uz": "Avtobusga mindim.",
+      "example_en": "I got on the bus.",
       "audio": "4ca3f7842bc9.mp3",
       "example_audio": "232973aa51c4.mp3"
     },
@@ -101,9 +121,11 @@
       "id": "u06_l1_w010",
       "ko": "내리다",
       "uz": "tushmoq (transportdan)",
+      "en": "to get off",
       "pos": "fe'l",
       "example_ko": "다음 역에서 내려요.",
       "example_uz": "Keyingi bekatda tushaman.",
+      "example_en": "I'm getting off at the next stop.",
       "audio": "0247e5ff0fb5.mp3",
       "example_audio": "494767b7479a.mp3"
     },
@@ -111,9 +133,11 @@
       "id": "u06_l1_w011",
       "ko": "갈아타다",
       "uz": "almashib o'tmoq (boshqa liniyaga)",
+      "en": "to transfer, to change (lines)",
       "pos": "fe'l",
       "example_ko": "여기에서 갈아타요.",
       "example_uz": "Shu yerda almashib o'taman.",
+      "example_en": "I change here.",
       "audio": "b2b2b638e582.mp3",
       "example_audio": "16da1ebfb162.mp3"
     },
@@ -121,9 +145,11 @@
       "id": "u06_l1_w012",
       "ko": "교통카드",
       "uz": "transport kartasi",
+      "en": "transit card",
       "pos": "ot",
       "example_ko": "교통카드가 있어요?",
       "example_uz": "Transport kartangiz bormi?",
+      "example_en": "Do you have a transit card?",
       "audio": "8b7615350b25.mp3",
       "example_audio": "e4b922daf5cc.mp3"
     },
@@ -131,9 +157,11 @@
       "id": "u06_l1_w013",
       "ko": "충전하다",
       "uz": "to'ldirmoq (balans), quvvatlamoq",
+      "en": "to top up, to charge",
       "pos": "fe'l",
       "example_ko": "카드를 충전했어요.",
       "example_uz": "Kartani to'ldirdim.",
+      "example_en": "I topped up my card.",
       "audio": "ddb10bdc8d28.mp3",
       "example_audio": "7e04724b6a84.mp3"
     },
@@ -141,9 +169,11 @@
       "id": "u06_l1_w014",
       "ko": "출구",
       "uz": "chiqish (yo'li)",
+      "en": "exit",
       "pos": "ot",
       "example_ko": "4번 출구로 나가세요.",
       "example_uz": "4-chiqishdan chiqing.",
+      "example_en": "Go out through Exit 4.",
       "audio": "c747855e0f49.mp3",
       "example_audio": "a0a82e37aa59.mp3"
     },
@@ -151,9 +181,11 @@
       "id": "u06_l1_w015",
       "ko": "입구",
       "uz": "kirish (yo'li)",
+      "en": "entrance",
       "pos": "ot",
       "example_ko": "입구가 어디예요?",
       "example_uz": "Kirish qayerda?",
+      "example_en": "Where is the entrance?",
       "audio": "72f60787cbfc.mp3",
       "example_audio": "a04c4393598c.mp3"
     },
@@ -161,9 +193,11 @@
       "id": "u06_l1_w016",
       "ko": "나가다",
       "uz": "chiqmoq",
+      "en": "to go out, to come out",
       "pos": "fe'l",
       "example_ko": "밖으로 나갔어요.",
       "example_uz": "Tashqariga chiqdim.",
+      "example_en": "I went outside.",
       "audio": "aac5f8a7d31a.mp3",
       "example_audio": "0c352454a739.mp3"
     },
@@ -171,9 +205,11 @@
       "id": "u06_l1_w017",
       "ko": "길",
       "uz": "yo'l",
+      "en": "road, way",
       "pos": "ot",
       "example_ko": "이 길로 가세요.",
       "example_uz": "Shu yo'ldan boring.",
+      "example_en": "Go along this road.",
       "audio": "8783373d86bd.mp3",
       "example_audio": "ef47d891a004.mp3"
     },
@@ -181,9 +217,11 @@
       "id": "u06_l1_w018",
       "ko": "길을 잃다",
       "uz": "adashib qolmoq",
+      "en": "to get lost",
       "pos": "ibora",
       "example_ko": "어제 길을 잃었어요.",
       "example_uz": "Kecha adashib qoldim.",
+      "example_en": "I got lost yesterday.",
       "audio": "a3f64426e244.mp3",
       "example_audio": "93e2daeb2920.mp3"
     },
@@ -191,9 +229,11 @@
       "id": "u06_l1_w019",
       "ko": "모르다",
       "uz": "bilmaslik",
+      "en": "to not know",
       "pos": "fe'l",
       "example_ko": "그 사람을 몰라요.",
       "example_uz": "U odamni bilmayman.",
+      "example_en": "I don't know that person.",
       "audio": "69788c61e2d9.mp3",
       "example_audio": "5f2768182cd5.mp3"
     },
@@ -201,9 +241,11 @@
       "id": "u06_l1_w020",
       "ko": "빠르다",
       "uz": "tez",
+      "en": "fast",
       "pos": "sifat",
       "example_ko": "지하철이 빨라요.",
       "example_uz": "Metro tez.",
+      "example_en": "The subway is fast.",
       "audio": "41f71dfc5f1c.mp3",
       "example_audio": "f5966157ae4f.mp3"
     },
@@ -211,9 +253,11 @@
       "id": "u06_l1_w021",
       "ko": "느리다",
       "uz": "sekin",
+      "en": "slow",
       "pos": "sifat",
       "example_ko": "이 버스는 좀 느려요.",
       "example_uz": "Bu avtobus biroz sekin.",
+      "example_en": "This bus is a bit slow.",
       "audio": "edc33d177ba8.mp3",
       "example_audio": "74678616fcb6.mp3"
     },
@@ -221,9 +265,11 @@
       "id": "u06_l1_w022",
       "ko": "다르다",
       "uz": "boshqacha, farqli",
+      "en": "different",
       "pos": "sifat",
       "example_ko": "두 길이 달라요.",
       "example_uz": "Ikki yo'l har xil.",
+      "example_en": "The two routes are different.",
       "audio": "2c28fddbfe14.mp3",
       "example_audio": "1f66d2b3fddd.mp3"
     },
@@ -231,9 +277,11 @@
       "id": "u06_l1_w023",
       "ko": "고르다",
       "uz": "tanlamoq",
+      "en": "to choose",
       "pos": "fe'l",
       "example_ko": "하나를 골라요.",
       "example_uz": "Bittasini tanlang.",
+      "example_en": "Choose one.",
       "audio": "d99457d6b34c.mp3",
       "example_audio": "ce0a84cd2cd3.mp3"
     },
@@ -241,9 +289,11 @@
       "id": "u06_l1_w024",
       "ko": "막히다",
       "uz": "tiqilmoq (yo'l)",
+      "en": "to be congested (traffic)",
       "pos": "fe'l",
       "example_ko": "아침에는 길이 막혀요.",
       "example_uz": "Ertalab yo'llar tirband.",
+      "example_en": "The roads are jammed in the morning.",
       "audio": "60d2f559953b.mp3",
       "example_audio": "8820ff7f9164.mp3"
     },
@@ -251,9 +301,11 @@
       "id": "u06_l1_w025",
       "ko": "가깝다",
       "uz": "yaqin",
+      "en": "close, near",
       "pos": "sifat",
       "example_ko": "역이 집에서 가까워요.",
       "example_uz": "Bekat uyimga yaqin.",
+      "example_en": "The station is close to my house.",
       "audio": "49caa5953d19.mp3",
       "example_audio": "8dd6157ecaa9.mp3"
     },
@@ -261,9 +313,11 @@
       "id": "u06_l1_w026",
       "ko": "멀다",
       "uz": "uzoq",
+      "en": "far",
       "pos": "sifat",
       "example_ko": "공항은 좀 멀어요.",
       "example_uz": "Aeroport biroz uzoq.",
+      "example_en": "The airport is a bit far.",
       "audio": "0825e95a86ec.mp3",
       "example_audio": "fd4b608db7d6.mp3"
     },
@@ -271,9 +325,11 @@
       "id": "u06_l1_w027",
       "ko": "시청",
       "uz": "shahar hokimiyati",
+      "en": "city hall",
       "pos": "ot",
       "example_ko": "시청 앞에 광장이 있어요.",
       "example_uz": "Hokimiyat oldida maydon bor.",
+      "example_en": "There's a square in front of City Hall.",
       "audio": "b0e1a8491c95.mp3",
       "example_audio": "b282ca2e94b0.mp3"
     },
@@ -281,9 +337,11 @@
       "id": "u06_l1_w028",
       "ko": "청계천",
       "uz": "Cheonggyecheon (Seuldagi ariq-xiyobon)",
+      "en": "Cheonggyecheon (a stream walkway in Seoul)",
       "pos": "ot",
       "example_ko": "청계천에서 산책해요.",
       "example_uz": "Cheonggyecheon'da sayr qilaman.",
+      "example_en": "I take walks along Cheonggyecheon.",
       "audio": "b031fb4b000e.mp3",
       "example_audio": "8a12cefcf942.mp3"
     },
@@ -291,9 +349,11 @@
       "id": "u06_l1_w029",
       "ko": "다음 역",
       "uz": "keyingi bekat",
+      "en": "next station",
       "pos": "ibora",
       "example_ko": "다음 역은 시청역입니다.",
       "example_uz": "Keyingi bekat — Shahar hokimiyati.",
+      "example_en": "The next station is City Hall.",
       "audio": "5270398d0700.mp3",
       "example_audio": "e1b798638c32.mp3"
     },
@@ -301,9 +361,11 @@
       "id": "u06_l1_w030",
       "ko": "퇴근 시간",
       "uz": "ishdan qaytish vaqti",
+      "en": "evening rush hour",
       "pos": "ot",
       "example_ko": "퇴근 시간에는 사람이 많아요.",
       "example_uz": "Ishdan qaytish vaqtida odam ko'p.",
+      "example_en": "There are a lot of people in the evening rush hour.",
       "audio": "17b0d0f1c014.mp3",
       "example_audio": "f1971807a3f1.mp3"
     },
@@ -311,9 +373,11 @@
       "id": "u06_l1_w031",
       "ko": "일찍",
       "uz": "erta",
+      "en": "early",
       "pos": "ravish",
       "example_ko": "내일 일찍 출발해요.",
       "example_uz": "Ertaga erta jo'naymiz.",
+      "example_en": "We'll leave early tomorrow.",
       "audio": "04de1f5c5e88.mp3",
       "example_audio": "b3b0425fad66.mp3"
     },
@@ -321,9 +385,11 @@
       "id": "u06_l1_w032",
       "ko": "숙제",
       "uz": "uy vazifasi",
+      "en": "homework",
       "pos": "ot",
       "example_ko": "숙제가 많아요.",
       "example_uz": "Uy vazifasi ko'p.",
+      "example_en": "There's a lot of homework.",
       "audio": "b6c3c60aef8e.mp3",
       "example_audio": "baebec740656.mp3"
     }
@@ -333,20 +399,25 @@
       "id": "u06_l1_g1",
       "pattern": "'르' 불규칙",
       "meaning_uz": "르 bilan tugaydigan noqonuniy fe'l va sifatlar: 모르다 → 몰라요",
+      "meaning_en": "르-irregular verbs and adjectives: 모르다 → 몰라요",
       "explanation_md": "O'zagi **르** bilan tugaydigan ko'pchilik so'zlar **-아/어** qo'shilganda o'zgaradi: **ㅡ** tushadi va oldingi bo'g'inga **ㄹ** qo'shiladi, so'ng **라** yoki **러** keladi.\n\n**저는 길을 몰라요.** — *Men yo'lni bilmayman.*\n\n### Qoida\n\n르 dan oldingi unliga qaraladi:\n\n- **ㅏ / ㅗ** bo'lsa → **-ㄹ라**: 모르다 → 몰 + 라요 → **몰라요**, 빠르다 → **빨라요**, 다르다 → **달라요**, 고르다 → **골라요**\n- **Boshqa unli** bo'lsa → **-ㄹ러**: 부르다 → 불 + 러요 → **불러요**\n\n### Barcha -아/어 shakllarida\n\n| Lug'at shakli | -아/어요 | -았/었어요 | -아/어야 돼요 |\n|---|---|---|---|\n| 모르다 | 몰라요 | 몰랐어요 | 몰라야 돼요 |\n| 빠르다 | 빨라요 | 빨랐어요 | — |\n| 부르다 | 불러요 | 불렀어요 | 불러야 돼요 |\n\n### O'zgarmaydigan shakllar\n\n-고, -지만, -(으)면, -는 bilan **o'zgarmaydi**: **모르**고, **모르**지만, **모르**면, **모르**는 사람.\n\n*Istisno*: 따르다 → **따라요** (oddiy ㅡ tushishi).",
+      "explanation_md_en": "Most words whose stem ends in **르** change when **-아/어** is added: **ㅡ** drops, an extra **ㄹ** joins the previous syllable, and then **라** or **러** follows.\n\n**저는 길을 몰라요.** — *I don't know the way.*\n\n### The rule\n\nLook at the vowel before 르:\n\n- **ㅏ / ㅗ** → **-ㄹ라**: 모르다 → 몰 + 라요 → **몰라요**, 빠르다 → **빨라요**, 다르다 → **달라요**, 고르다 → **골라요**\n- **Any other vowel** → **-ㄹ러**: 부르다 → 불 + 러요 → **불러요**\n\n### In every -아/어 form\n\n| Dictionary form | -아/어요 | -았/었어요 | -아/어야 돼요 |\n|---|---|---|---|\n| 모르다 | 몰라요 | 몰랐어요 | 몰라야 돼요 |\n| 빠르다 | 빨라요 | 빨랐어요 | — |\n| 부르다 | 불러요 | 불렀어요 | 불러야 돼요 |\n\n### Forms that don't change\n\nWith -고, -지만, -(으)면, -는 there is **no change**: **모르**고, **모르**지만, **모르**면, **모르**는 사람.\n\n*Exception*: 따르다 → **따라요** (just the regular ㅡ drop).",
       "formation": [
         {
           "condition_uz": "르 oldida ㅏ / ㅗ",
+          "condition_en": "ㅏ / ㅗ before 르",
           "rule": "-ㄹ라요",
           "example": "모르다 → 몰라요, 빠르다 → 빨라요"
         },
         {
           "condition_uz": "르 oldida boshqa unli",
+          "condition_en": "Another vowel before 르",
           "rule": "-ㄹ러요",
           "example": "부르다 → 불러요"
         },
         {
           "condition_uz": "-고, -지만, -(으)면 bilan",
+          "condition_en": "With -고, -지만, -(으)면",
           "rule": "o'zgarmaydi",
           "example": "모르고, 모르면"
         }
@@ -355,26 +426,31 @@
         {
           "ko": "저는 길을 잘 몰라요.",
           "uz": "Men yo'lni yaxshi bilmayman.",
+          "en": "I don't really know the way.",
           "audio": "4cb675337651.mp3"
         },
         {
           "ko": "지하철이 버스보다 빨라요.",
           "uz": "Metro avtobusdan tezroq.",
+          "en": "The subway is faster than the bus.",
           "audio": "54a79a7d288b.mp3"
         },
         {
           "ko": "친구가 노래를 불러요.",
           "uz": "Do'stim qo'shiq aytyapti.",
+          "en": "My friend is singing.",
           "audio": "76d37bafa4ed.mp3"
         },
         {
           "ko": "이 두 길은 달라요.",
           "uz": "Bu ikki yo'l har xil.",
+          "en": "These two roads are different.",
           "audio": "9f878b4fb3d3.mp3"
         },
         {
           "ko": "어제는 길을 몰랐어요.",
           "uz": "Kecha yo'lni bilmasdim.",
+          "en": "I didn't know the way yesterday.",
           "audio": "c10fc6118c47.mp3"
         }
       ],
@@ -382,39 +458,48 @@
         {
           "wrong": "모르어요",
           "right": "몰라요",
-          "why_uz": "르 noqonuniy: ㅡ tushadi, ㄹ qo'shiladi → 몰라요."
+          "why_uz": "르 noqonuniy: ㅡ tushadi, ㄹ qo'shiladi → 몰라요.",
+          "why_en": "르-irregular: ㅡ drops and ㄹ is added → 몰라요."
         },
         {
           "wrong": "빠러요",
           "right": "빨라요",
-          "why_uz": "빠 da ㅏ bor: -ㄹ라요 → 빨라요."
+          "why_uz": "빠 da ㅏ bor: -ㄹ라요 → 빨라요.",
+          "why_en": "빠 has ㅏ: -ㄹ라요 → 빨라요."
         },
         {
           "wrong": "부라요",
           "right": "불러요",
-          "why_uz": "부 da ㅜ bor: -ㄹ러요 → 불러요."
+          "why_uz": "부 da ㅜ bor: -ㄹ러요 → 불러요.",
+          "why_en": "부 has ㅜ: -ㄹ러요 → 불러요."
         }
       ],
-      "uz_compare": "O'zbek tilida bunday o'zgarish yo'q, shuning uchun bu fe'llarni juft holda yodlang: 모르다 — 몰라요, 빠르다 — 빨라요, 부르다 — 불러요. Eng ko'p ishlatiladigani: 몰라요 (bilmayman)."
+      "uz_compare": "O'zbek tilida bunday o'zgarish yo'q, shuning uchun bu fe'llarni juft holda yodlang: 모르다 — 몰라요, 빠르다 — 빨라요, 부르다 — 불러요. Eng ko'p ishlatiladigani: 몰라요 (bilmayman).",
+      "compare_en": "English has nothing like this change, so learn these verbs in pairs: 모르다 — 몰라요, 빠르다 — 빨라요, 부르다 — 불러요. The one you'll use most: 몰라요 (I don't know)."
     },
     {
       "id": "u06_l1_g2",
       "pattern": "V-아야/어야 되다",
       "meaning_uz": "Majburiyat: '...-ishim kerak', '... kerak'",
+      "meaning_en": "Obligation: 'I have to…', 'you need to…'",
       "explanation_md": "**-아야/어야 되다** (yoki **-아야/어야 하다**) — biror ishni **qilish kerakligi**ni bildiradi: o'zbekchadagi **\"...-ish kerak\"**.\n\n**시청역에서 갈아타야 돼요.** — *Shahar hokimiyati bekatida almashib o'tish kerak.*\n\n### Qanday yasaladi\n\n**-아/어요** shaklidan **요** olib tashlanadi va **-야 돼요** qo'shiladi:\n\n- 가다 → 가요 → **가야 돼요**\n- 내리다 → 내려요 → **내려야 돼요**\n- 먹다 → 먹어요 → **먹어야 돼요**\n- 충전하다 → 충전해요 → **충전해야 돼요**\n- 모르다 → 몰라요 → **몰라야 돼요** (르 noqonuniy!)\n\n### Savol\n\n**어떻게 가야 돼요?** — *Qanday borish kerak?*\n**어디에서 내려야 돼요?** — *Qayerda tushish kerak?*\n\n### 되다 va 하다\n\n**가야 돼요 = 가야 해요**. Og'zaki nutqda **돼요** ko'proq.\n\n### Imlo\n\n**돼요** = 되 + 어요. Yozuvda ~~되요~~ emas, **돼요**!",
+      "explanation_md_en": "**-아야/어야 되다** (or **-아야/어야 하다**) says that something **has to be done**: English **\"have to / need to / must\"**.\n\n**시청역에서 갈아타야 돼요.** — *You have to change at City Hall Station.*\n\n### How to form it\n\nTake the **-아/어요** form, drop **요** and add **-야 돼요**:\n\n- 가다 → 가요 → **가야 돼요**\n- 내리다 → 내려요 → **내려야 돼요**\n- 먹다 → 먹어요 → **먹어야 돼요**\n- 충전하다 → 충전해요 → **충전해야 돼요**\n- 모르다 → 몰라요 → **몰라야 돼요** (르-irregular!)\n\n### Questions\n\n**어떻게 가야 돼요?** — *How do I get there?* (lit. how do I have to go?)\n**어디에서 내려야 돼요?** — *Where do I have to get off?*\n\n### 되다 and 하다\n\n**가야 돼요 = 가야 해요**. In speech **돼요** is more common.\n\n### Spelling\n\n**돼요** = 되 + 어요. Don't write ~~되요~~ — write **돼요**!",
       "formation": [
         {
           "condition_uz": "Oxirgi unli ㅏ/ㅗ",
+          "condition_en": "Last vowel ㅏ/ㅗ",
           "rule": "-아야 돼요",
           "example": "가다 → 가야 돼요"
         },
         {
           "condition_uz": "Boshqa unlilar",
+          "condition_en": "Other vowels",
           "rule": "-어야 돼요",
           "example": "내리다 → 내려야 돼요, 먹다 → 먹어야 돼요"
         },
         {
           "condition_uz": "하다",
+          "condition_en": "하다",
           "rule": "해야 돼요",
           "example": "충전하다 → 충전해야 돼요"
         }
@@ -423,26 +508,31 @@
         {
           "ko": "청계천에 어떻게 가야 돼요?",
           "uz": "Cheonggyecheon'ga qanday borish kerak?",
+          "en": "How do I get to Cheonggyecheon?",
           "audio": "ac8812161813.mp3"
         },
         {
           "ko": "시청역에서 갈아타야 돼요.",
           "uz": "Shahar hokimiyati bekatida almashib o'tish kerak.",
+          "en": "You have to change at City Hall Station.",
           "audio": "d6488ba90b57.mp3"
         },
         {
           "ko": "교통카드를 충전해야 돼요.",
           "uz": "Transport kartasini to'ldirish kerak.",
+          "en": "I need to top up my transit card.",
           "audio": "dcd1c36c6e51.mp3"
         },
         {
           "ko": "내일 일찍 일어나야 돼요.",
           "uz": "Ertaga erta turishim kerak.",
+          "en": "I have to get up early tomorrow.",
           "audio": "f3a8dd42bbbd.mp3"
         },
         {
           "ko": "다음 역에서 내려야 돼요.",
           "uz": "Keyingi bekatda tushish kerak.",
+          "en": "You have to get off at the next stop.",
           "audio": "5439a29652ec.mp3"
         }
       ],
@@ -450,20 +540,24 @@
         {
           "wrong": "가야 되요",
           "right": "가야 돼요",
-          "why_uz": "되 + 어요 = 돼요."
+          "why_uz": "되 + 어요 = 돼요.",
+          "why_en": "되 + 어요 = 돼요."
         },
         {
           "wrong": "먹아야 돼요",
           "right": "먹어야 돼요",
-          "why_uz": "먹 da ㅓ unli: -어야."
+          "why_uz": "먹 da ㅓ unli: -어야.",
+          "why_en": "먹 has the vowel ㅓ: -어야."
         },
         {
           "wrong": "타아야 돼요",
           "right": "타야 돼요",
-          "why_uz": "타 + 아 → 타 bo'lib qisqaradi."
+          "why_uz": "타 + 아 → 타 bo'lib qisqaradi.",
+          "why_en": "타 + 아 shortens to 타."
         }
       ],
-      "uz_compare": "O'zbekchada '...-ish kerak' (borish kerak, tushish kerak) aynan -아야/어야 돼요 ga to'g'ri keladi. 'Qanday borish kerak?' = 어떻게 가야 돼요?"
+      "uz_compare": "O'zbekchada '...-ish kerak' (borish kerak, tushish kerak) aynan -아야/어야 돼요 ga to'g'ri keladi. 'Qanday borish kerak?' = 어떻게 가야 돼요?",
+      "compare_en": "English 'have to / need to' (I have to go, you need to get off) matches -아야/어야 돼요. 'How do I get there?' is literally 'how do I have to go?' = 어떻게 가야 돼요?"
     }
   ],
   "dialogue": {
@@ -472,72 +566,84 @@
         "speaker": "aziz",
         "ko": "민지 씨, 청계천에 어떻게 가야 돼요? 저는 길을 잘 몰라요.",
         "uz": "Minji, Cheonggyecheon'ga qanday borish kerak? Men yo'lni yaxshi bilmayman.",
+        "en": "Minji, how do I get to Cheonggyecheon? I don't really know the way.",
         "audio": "8834e9538382.mp3"
       },
       {
         "speaker": "minji",
         "ko": "지하철로 가면 빨라요. 여기에서 1호선을 타세요.",
         "uz": "Metroda borsangiz tez. Bu yerda 1-liniyaga ming.",
+        "en": "It's quick by subway. Take Line 1 here.",
         "audio": "4f1c032eee8d.mp3"
       },
       {
         "speaker": "aziz",
         "ko": "1호선을 타고 어디에서 내려야 돼요?",
         "uz": "1-liniyaga minib, qayerda tushish kerak?",
+        "en": "After I take Line 1, where do I get off?",
         "audio": "bbd4c2e858a0.mp3"
       },
       {
         "speaker": "minji",
         "ko": "시청역에서 내려야 돼요. 그리고 4번 출구로 나가세요.",
         "uz": "Shahar hokimiyati bekatida tushish kerak. Keyin 4-chiqishdan chiqing.",
+        "en": "You get off at City Hall Station. Then go out through Exit 4.",
         "audio": "8c947f6fac99.mp3"
       },
       {
         "speaker": "aziz",
         "ko": "갈아타야 돼요?",
         "uz": "Almashib o'tish kerakmi?",
+        "en": "Do I have to change?",
         "audio": "64898d588931.mp3"
       },
       {
         "speaker": "minji",
         "ko": "아니요, 1호선만 타요.",
         "uz": "Yo'q, faqat 1-liniyaga minasiz.",
+        "en": "No, you just take Line 1.",
         "audio": "8f67c4a95984.mp3"
       },
       {
         "speaker": "aziz",
         "ko": "버스는 어때요?",
         "uz": "Avtobus-chi?",
+        "en": "What about the bus?",
         "audio": "88520dcac87c.mp3"
       },
       {
         "speaker": "minji",
         "ko": "버스도 있지만 지금은 길이 많이 막혀요. 지하철이 더 빨라요.",
         "uz": "Avtobus ham bor, lekin hozir yo'llar juda tirband. Metro tezroq.",
+        "en": "There's a bus too, but the roads are very congested now. The subway is faster.",
         "audio": "df97c1e302e0.mp3"
       },
       {
         "speaker": "aziz",
         "ko": "교통카드가 있어야 돼요?",
         "uz": "Transport kartasi kerakmi?",
+        "en": "Do I need a transit card?",
         "audio": "70a10a5bd518.mp3"
       },
       {
         "speaker": "minji",
         "ko": "네, 교통카드를 역에서 충전해야 돼요.",
         "uz": "Ha, transport kartasini bekatda to'ldirish kerak.",
+        "en": "Yes, you have to top up a transit card at the station.",
         "audio": "db7b74532f0b.mp3"
       },
       {
         "speaker": "aziz",
         "ko": "알겠어요. 고마워요!",
         "uz": "Tushundim. Rahmat!",
+        "en": "I see. Thank you!",
         "audio": "778beda3f083.mp3"
       },
       {
         "speaker": "minji",
         "ko": "길을 모르면 저한테 전화하세요.",
         "uz": "Yo'lni bilmasangiz, menga qo'ng'iroq qiling.",
+        "en": "If you don't know the way, call me.",
         "audio": "1f12fcf9a731.mp3"
       }
     ]
@@ -550,6 +656,7 @@
         "u06_l1_g1"
       ],
       "prompt_uz": "'Bilmayman' shaklini yasang",
+      "prompt_en": "Make the form 'I don't know'",
       "base": "모르다",
       "form": "-아/어요",
       "answers": [
@@ -563,6 +670,7 @@
         "u06_l1_g1"
       ],
       "prompt_uz": "'Tez' (-아/어요) shaklini yasang",
+      "prompt_en": "Make the form 'it's fast' (-아/어요)",
       "base": "빠르다",
       "form": "-아/어요",
       "answers": [
@@ -576,6 +684,7 @@
         "u06_l1_g1"
       ],
       "prompt_uz": "'(Qo'shiq) aytdim' shaklini yasang",
+      "prompt_en": "Make the form 'I sang (a song)'",
       "base": "부르다",
       "form": "-았/었어요",
       "answers": [
@@ -589,6 +698,7 @@
         "u06_l1_g2"
       ],
       "prompt_uz": "'Borish kerak' shaklini yasang",
+      "prompt_en": "Make the form 'have to go'",
       "base": "가다",
       "form": "-아야/어야 돼요",
       "answers": [
@@ -603,6 +713,7 @@
         "u06_l1_g2"
       ],
       "prompt_uz": "'Almashib o'tish kerak' shaklini yasang",
+      "prompt_en": "Make the form 'have to change (lines)'",
       "base": "갈아타다",
       "form": "-아야/어야 돼요",
       "answers": [
@@ -617,6 +728,7 @@
         "u06_l1_g2"
       ],
       "prompt_uz": "'Tushish kerak' shaklini yasang",
+      "prompt_en": "Make the form 'have to get off'",
       "base": "내리다",
       "form": "-아야/어야 돼요",
       "answers": [
@@ -631,6 +743,7 @@
         "u06_l1_g1"
       ],
       "prompt_uz": "Bo'sh joyni to'ldiring: 'Men yo'lni yaxshi bilmayman.'",
+      "prompt_en": "Fill in the blank: 'I don't really know the way.'",
       "sentence": "저는 길을 잘 ___. (모르다)",
       "answers": [
         "몰라요"
@@ -643,6 +756,7 @@
         "u06_l1_g1"
       ],
       "prompt_uz": "Bo'sh joyni to'ldiring: 'Metro avtobusdan tezroq.'",
+      "prompt_en": "Fill in the blank: 'The subway is faster than the bus.'",
       "sentence": "지하철이 버스보다 ___. (빠르다)",
       "answers": [
         "빨라요"
@@ -655,6 +769,7 @@
         "u06_l1_g2"
       ],
       "prompt_uz": "Bo'sh joyni to'ldiring: 'Transport kartasini to'ldirish kerak.'",
+      "prompt_en": "Fill in the blank: 'I need to top up my transit card.'",
       "sentence": "교통카드를 ___. (충전하다)",
       "answers": [
         "충전해야 돼요",
@@ -668,6 +783,7 @@
         "u06_l1_g2"
       ],
       "prompt_uz": "Bo'sh joyni to'ldiring: 'Keyingi bekatda tushish kerak.'",
+      "prompt_en": "Fill in the blank: 'You have to get off at the next stop.'",
       "sentence": "다음 역에서 ___. (내리다)",
       "answers": [
         "내려야 돼요",
@@ -681,6 +797,7 @@
         "u06_l1_g2"
       ],
       "prompt_uz": "'Qanday borish kerak?' qaysi biri?",
+      "prompt_en": "Which one means 'How do I get there?'",
       "options": [
         "어떻게 가야 돼요?",
         "어떻게 갔어요?",
@@ -698,6 +815,7 @@
         "u06_l1_g1"
       ],
       "prompt_uz": "'Bu ikki yo'l har xil' qaysi biri to'g'ri?",
+      "prompt_en": "Which one is correct for 'These two roads are different'?",
       "options": [
         "이 두 길은 달라요",
         "이 두 길은 다라요",
@@ -715,6 +833,7 @@
         "u06_l1_w011"
       ],
       "prompt_uz": "Bir metro liniyasidan boshqasiga o'tish qaysi fe'l?",
+      "prompt_en": "Which verb means moving from one subway line to another?",
       "options": [
         "갈아타다",
         "내리다",
@@ -732,6 +851,7 @@
         "u06_l1_g2"
       ],
       "prompt_uz": "'Shahar hokimiyati bekatida almashib o'tish kerak' gapini tuzing",
+      "prompt_en": "Build the sentence 'You have to change at City Hall Station'",
       "tokens": [
         "돼요",
         "시청역에서",
@@ -748,6 +868,7 @@
         "u06_l1_g1"
       ],
       "prompt_uz": "'Metro avtobusdan tezroq' gapini tuzing",
+      "prompt_en": "Build the sentence 'The subway is faster than the bus'",
       "tokens": [
         "빨라요",
         "버스보다",
@@ -764,11 +885,13 @@
         "u06_l1_g1"
       ],
       "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
       "sentence": "저는 그 사람 이름을 모르아요.",
       "answers": [
         "저는 그 사람 이름을 몰라요"
       ],
-      "why_uz": "모르다 → 몰라요 (르 noqonuniy)."
+      "why_uz": "모르다 → 몰라요 (르 noqonuniy).",
+      "why_en": "모르다 → 몰라요 (르-irregular)."
     },
     {
       "id": "u06_l1_e017",
@@ -777,12 +900,14 @@
         "u06_l1_g2"
       ],
       "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
       "sentence": "내일 일찍 일어나야 되요.",
       "answers": [
         "내일 일찍 일어나야 돼요",
         "내일 일찍 일어나야 해요"
       ],
-      "why_uz": "되 + 어요 = 돼요."
+      "why_uz": "되 + 어요 = 돼요.",
+      "why_en": "되 + 어요 = 돼요."
     },
     {
       "id": "u06_l1_e018",
@@ -791,11 +916,13 @@
         "u06_l1_g1"
       ],
       "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
       "sentence": "친구가 노래를 부러요.",
       "answers": [
         "친구가 노래를 불러요"
       ],
-      "why_uz": "부르다 → 불러요."
+      "why_uz": "부르다 → 불러요.",
+      "why_en": "부르다 → 불러요."
     },
     {
       "id": "u06_l1_e019",
@@ -804,7 +931,9 @@
         "u06_l1_g2"
       ],
       "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
       "source_uz": "Shahar hokimiyati bekatida tushish kerak.",
+      "source_en": "You have to get off at City Hall Station.",
       "answers": [
         "시청역에서 내려야 돼요",
         "시청역에서 내려야 해요"
@@ -817,7 +946,9 @@
         "u06_l1_g1"
       ],
       "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
       "source_uz": "Men yo'lni bilmayman.",
+      "source_en": "I don't know the way.",
       "answers": [
         "저는 길을 몰라요",
         "길을 몰라요",
@@ -831,7 +962,9 @@
         "u06_l1_g2"
       ],
       "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
       "source_uz": "Transport kartasini to'ldirish kerak.",
+      "source_en": "I need to top up my transit card.",
       "answers": [
         "교통카드를 충전해야 돼요",
         "교통카드를 충전해야 해요",
@@ -845,12 +978,19 @@
         "u06_l1_g2"
       ],
       "prompt_uz": "Qaysi chiqishdan chiqish kerak?",
+      "prompt_en": "Which exit should you take?",
       "audio_text": "3번 출구로 나가야 돼요.",
       "options": [
         "3-chiqish",
         "1-chiqish",
         "4-chiqish",
         "5-chiqish"
+      ],
+      "options_en": [
+        "Exit 3",
+        "Exit 1",
+        "Exit 4",
+        "Exit 5"
       ],
       "answers": [
         "3-chiqish"
@@ -864,12 +1004,19 @@
         "u06_l1_g1"
       ],
       "prompt_uz": "U nima haqida so'ramoqda?",
+      "prompt_en": "What is she asking about?",
       "audio_text": "택시가 지하철보다 빨라요?",
       "options": [
         "Taksi metrodan tezmi",
         "Taksi qimmatmi",
         "Metro qayerda",
         "Avtobus qachon keladi"
+      ],
+      "options_en": [
+        "Whether a taxi is faster than the subway",
+        "Whether a taxi is expensive",
+        "Where the subway is",
+        "When the bus comes"
       ],
       "answers": [
         "Taksi metrodan tezmi"
@@ -883,12 +1030,19 @@
         "u06_l1_g2"
       ],
       "prompt_uz": "Qaysi liniyaga o'tish kerak?",
+      "prompt_en": "Which line do you have to change to?",
       "audio_text": "2호선으로 갈아타야 돼요.",
       "options": [
         "2-liniya",
         "1-liniya",
         "3-liniya",
         "4-liniya"
+      ],
+      "options_en": [
+        "Line 2",
+        "Line 1",
+        "Line 3",
+        "Line 4"
       ],
       "answers": [
         "2-liniya"
@@ -902,6 +1056,7 @@
         "u06_l1_g1"
       ],
       "prompt_uz": "'Tanlayman' shaklini yasang",
+      "prompt_en": "Make the form 'I choose'",
       "base": "고르다",
       "form": "-아/어요",
       "answers": [
@@ -915,6 +1070,7 @@
         "u06_l1_g1"
       ],
       "prompt_uz": "'Farq qiladi' shaklini yasang",
+      "prompt_en": "Make the form 'it's different'",
       "base": "다르다",
       "form": "-아/어요",
       "answers": [
@@ -928,6 +1084,7 @@
         "u06_l1_g2"
       ],
       "prompt_uz": "'Minish kerak' shaklini yasang",
+      "prompt_en": "Make the form 'have to take (a vehicle)'",
       "base": "타다",
       "form": "-아야/어야 돼요",
       "answers": [
@@ -942,6 +1099,7 @@
         "u06_l1_g1"
       ],
       "prompt_uz": "Bo'sh joyni to'ldiring: 'Kiyim tanladim.'",
+      "prompt_en": "Fill in the blank: 'I chose some clothes.'",
       "sentence": "옷을 ___. (고르다)",
       "answers": [
         "골랐어요"
@@ -954,6 +1112,7 @@
         "u06_l1_g2"
       ],
       "prompt_uz": "Bo'sh joyni to'ldiring: 'Uy vazifasini qilishim kerak.'",
+      "prompt_en": "Fill in the blank: 'I have to do my homework.'",
       "sentence": "숙제를 ___. (하다)",
       "answers": [
         "해야 돼요",
@@ -967,6 +1126,7 @@
         "u06_l1_g2"
       ],
       "prompt_uz": "Bo'sh joyni to'ldiring: 'Qaysi avtobusga minish kerak?'",
+      "prompt_en": "Fill in the blank: 'Which bus do I have to take?'",
       "sentence": "몇 번 버스를 ___? (타다)",
       "answers": [
         "타야 돼요",
@@ -980,6 +1140,7 @@
         "u06_l1_g1"
       ],
       "prompt_uz": "Do'stingiz manzilni so'radi, siz bilmaysiz. Nima deysiz?",
+      "prompt_en": "Your friend asked for an address, but you don't know it. What do you say?",
       "options": [
         "잘 몰라요",
         "잘 알아요",
@@ -997,6 +1158,7 @@
         "u06_l1_w024"
       ],
       "prompt_uz": "Yo'lda mashinalar ko'p, harakat juda sekin. Yo'l qanday?",
+      "prompt_en": "There are a lot of cars on the road and traffic is very slow. What is the road like?",
       "options": [
         "길이 막혀요",
         "길이 빨라요",
@@ -1014,6 +1176,7 @@
         "u06_l1_g2"
       ],
       "prompt_uz": "'Keyingi bekatda tushish kerak' gapini tuzing",
+      "prompt_en": "Build the sentence 'You have to get off at the next stop'",
       "tokens": [
         "내려야",
         "역에서",
@@ -1031,6 +1194,7 @@
         "u06_l1_g1"
       ],
       "prompt_uz": "'Men bu qo'shiqni bilmayman' gapini tuzing",
+      "prompt_en": "Build the sentence 'I don't know this song'",
       "tokens": [
         "노래를",
         "몰라요",
@@ -1048,12 +1212,14 @@
         "u06_l1_g2"
       ],
       "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
       "sentence": "1호선을 타아야 돼요.",
       "answers": [
         "1호선을 타야 돼요",
         "1호선을 타야 해요"
       ],
-      "why_uz": "타 + 아 → 타야."
+      "why_uz": "타 + 아 → 타야.",
+      "why_en": "타 + 아 → 타야."
     },
     {
       "id": "u06_l1_e112",
@@ -1062,11 +1228,13 @@
         "u06_l1_g1"
       ],
       "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
       "sentence": "이 버스가 더 빠르요.",
       "answers": [
         "이 버스가 더 빨라요"
       ],
-      "why_uz": "빠르다 → 빨라요."
+      "why_uz": "빠르다 → 빨라요.",
+      "why_en": "빠르다 → 빨라요."
     },
     {
       "id": "u06_l1_e113",
@@ -1075,7 +1243,9 @@
         "u06_l1_g2"
       ],
       "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
       "source_uz": "Qayerda almashib o'tish kerak?",
+      "source_en": "Where do I have to change?",
       "answers": [
         "어디에서 갈아타야 돼요",
         "어디에서 갈아타야 해요",
@@ -1089,7 +1259,9 @@
         "u06_l1_g1"
       ],
       "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
       "source_uz": "Metro tez.",
+      "source_en": "The subway is fast.",
       "answers": [
         "지하철이 빨라요",
         "지하철은 빨라요"
@@ -1102,12 +1274,19 @@
         "u06_l1_g2"
       ],
       "prompt_uz": "Ishdan qaytish vaqtida nimaga minish kerak?",
+      "prompt_en": "What should you take in the evening rush hour?",
       "audio_text": "퇴근 시간에는 길이 막혀서 지하철을 타야 돼요.",
       "options": [
         "Metroga",
         "Taksiga",
         "Avtobusga",
         "Velosipedga"
+      ],
+      "options_en": [
+        "The subway",
+        "A taxi",
+        "A bus",
+        "A bicycle"
       ],
       "answers": [
         "Metroga"
@@ -1134,12 +1313,14 @@
   ],
   "story": {
     "title_uz": "Cheonggyecheonga yo'l",
+    "title_en": "The way to Cheonggyecheon",
     "steps": [
       {
         "type": "line",
         "speaker": "aziz",
         "ko": "실례합니다. 청계천에 어떻게 가야 돼요?",
         "uz": "Kechirasiz. Cheonggyecheonga qanday borish kerak?",
+        "en": "Excuse me. How do I get to Cheonggyecheon?",
         "audio": "092dfabe85a3.mp3"
       },
       {
@@ -1147,6 +1328,7 @@
         "speaker": "passerby",
         "ko": "지하철로 가세요. 버스보다 더 빨라요.",
         "uz": "Metroda boring. Avtobusdan tezroq.",
+        "en": "Take the subway. It's faster than the bus.",
         "audio": "f09978fc814d.mp3"
       },
       {
@@ -1154,6 +1336,7 @@
         "speaker": "aziz",
         "ko": "여기에서 몇 호선을 타야 돼요?",
         "uz": "Bu yerdan nechanchi liniyaga chiqishim kerak?",
+        "en": "Which line do I take from here?",
         "audio": "9512e3380e81.mp3"
       },
       {
@@ -1161,24 +1344,33 @@
         "speaker": "passerby",
         "ko": "2호선을 타고 시청역에서 내리세요.",
         "uz": "2-liniyaga chiqib, Sicheong bekatida tushing.",
+        "en": "Take Line 2 and get off at City Hall (Sicheong) Station.",
         "audio": "dc053a7568e8.mp3"
       },
       {
         "type": "quiz",
         "prompt_uz": "Aziz qaysi bekatda tushishi kerak?",
+        "prompt_en": "Which station should Aziz get off at?",
         "options": [
           "Sicheong bekatida",
           "Seul bekatida",
           "Gangnam bekatida"
         ],
+        "options_en": [
+          "City Hall (Sicheong) Station",
+          "Seoul Station",
+          "Gangnam Station"
+        ],
         "answer": "Sicheong bekatida",
-        "why_uz": "시청역에서 내리세요."
+        "why_uz": "시청역에서 내리세요.",
+        "why_en": "시청역에서 내리세요 — get off at City Hall Station."
       },
       {
         "type": "line",
         "speaker": "aziz",
         "ko": "갈아타야 돼요?",
         "uz": "Almashtirishim kerakmi?",
+        "en": "Do I have to change?",
         "audio": "64898d588931.mp3"
       },
       {
@@ -1186,6 +1378,7 @@
         "speaker": "passerby",
         "ko": "아니요, 갈아타지 않아요. 바로 가요.",
         "uz": "Yo'q, almashtirmaysiz. To'g'ri borasiz.",
+        "en": "No, you don't change. It's a direct ride.",
         "audio": "86aa94e9cfe7.mp3"
       },
       {
@@ -1193,6 +1386,7 @@
         "speaker": "aziz",
         "ko": "그런데 저는 교통카드가 없어요.",
         "uz": "Lekin mening transport kartam yo'q.",
+        "en": "But I don't have a transit card.",
         "audio": "fb538087f1bd.mp3"
       },
       {
@@ -1200,12 +1394,14 @@
         "speaker": "passerby",
         "ko": "그럼 역에서 교통카드를 사야 돼요. 그리고 충전해야 돼요.",
         "uz": "Unda bekatdan transport karta olishingiz kerak. Va uni to'ldirishingiz kerak.",
+        "en": "Then you need to get a transit card at the station. And you need to top it up.",
         "audio": "1f6b08947a58.mp3"
       },
       {
         "type": "choose_reply",
         "speaker": "aziz",
         "prompt_uz": "Aziz 'Men yo'lni yaxshi bilmayman' demoqchi.",
+        "prompt_en": "Aziz wants to say 'I don't really know the way'.",
         "options": [
           "저는 길을 잘 몰라요.",
           "저는 길을 잘 모라요.",
@@ -1213,7 +1409,9 @@
         ],
         "answer": "저는 길을 잘 몰라요.",
         "uz": "Men yo'lni yaxshi bilmayman.",
+        "en": "I don't really know the way.",
         "why_uz": "르 불규칙: 모르다 → 몰라요.",
+        "why_en": "르-irregular: 모르다 → 몰라요.",
         "audio": "f1f145a28a1b.mp3"
       },
       {
@@ -1221,6 +1419,7 @@
         "speaker": "passerby",
         "ko": "괜찮아요. 시청역 4번 출구로 나가세요. 청계천이 가까워요.",
         "uz": "Hechqisi yo'q. Sicheong bekatining 4-chiqishidan chiqing. Cheonggyecheon yaqin.",
+        "en": "No problem. Go out through Exit 4 at City Hall Station. Cheonggyecheon is close.",
         "audio": "b7714b47ec2d.mp3"
       },
       {
@@ -1228,6 +1427,7 @@
         "speaker": "aziz",
         "ko": "지금 퇴근 시간이에요. 지하철에 사람이 많아요?",
         "uz": "Hozir ishdan qaytish vaqti. Metroda odam ko'pmi?",
+        "en": "It's rush hour now. Are there a lot of people on the subway?",
         "audio": "0d1c36df217d.mp3"
       },
       {
@@ -1235,6 +1435,7 @@
         "speaker": "passerby",
         "ko": "네, 많아요. 그래도 버스보다 빨라요.",
         "uz": "Ha, ko'p. Baribir avtobusdan tez.",
+        "en": "Yes, a lot. Still, it's faster than the bus.",
         "audio": "dc95871c2384.mp3"
       },
       {
@@ -1242,6 +1443,7 @@
         "speaker": "aziz",
         "ko": "정말 감사합니다!",
         "uz": "Katta rahmat!",
+        "en": "Thank you so much!",
         "audio": "1ace399a2b72.mp3"
       }
     ]
