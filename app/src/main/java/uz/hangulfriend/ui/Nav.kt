@@ -10,6 +10,7 @@ import androidx.compose.material.icons.filled.Home
 import androidx.compose.material.icons.filled.Map
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.Icon
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.NavigationBarItemDefaults
 import uz.hangulfriend.ui.theme.LocalGameTokens
 import uz.hangulfriend.ui.vocab.VocabScreen
@@ -116,6 +117,8 @@ fun HangulFriendNav(container: AppContainer, openReview: Boolean = false) {
     val route = backStack?.destination?.route
     Scaffold(
         containerColor = Color.Transparent,
+        // A transparent container has no content colour of its own; without this, uncoloured text turns black.
+        contentColor = MaterialTheme.colorScheme.onBackground,
         bottomBar = {
             if (tabs.any { it.route == route }) BottomBar(nav, route)
         },
