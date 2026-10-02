@@ -9,6 +9,7 @@ import org.junit.Rule
 import org.junit.Test
 import org.junit.rules.TemporaryFolder
 import uz.hangulfriend.Fixtures
+import uz.hangulfriend.i18n.AppLanguage
 
 class ContentRepositoryTest {
     @get:Rule val tmp = TemporaryFolder()
@@ -26,6 +27,17 @@ class ContentRepositoryTest {
         val r = repo(strict = true)
         assertTrue(r.isAvailable("u02_l1"))
         assertEquals(Fixtures.validLesson(), r.lesson("u02_l1"))
+    }
+
+    @Test fun lesson_cachesPerLanguage() {
+        writeLesson(ContentJson.encodeToString(Lesson.serializer(), Fixtures.validLesson().copy(titleEn = "Try it on")))
+        var lang = AppLanguage.UZ
+        val r = ContentRepository(DirAssetSource(tmp.root), strict = true) { lang }
+        assertEquals("Kiyib ko'ring", r.lesson("u02_l1")?.titleUz)
+        lang = AppLanguage.EN
+        assertEquals("Try it on", r.lesson("u02_l1")?.titleUz)
+        lang = AppLanguage.UZ
+        assertEquals("Kiyib ko'ring", r.lesson("u02_l1")?.titleUz)
     }
 
     @Test fun lesson_usesSnakeCaseKeys() {
