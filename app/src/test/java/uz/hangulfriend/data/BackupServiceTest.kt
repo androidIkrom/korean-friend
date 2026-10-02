@@ -104,6 +104,15 @@ class BackupServiceTest {
         assertEquals("girl", (BackupCodec.decode(backup.export()) as BackupResult.Ok).file.settings.hero)
     }
 
+    @Test fun exportThenImportRestoresUserWords() = runTest {
+        db.userWords().insert(UserWordEntity(ko = "사과", uz = "olma", note = null, createdMs = 5))
+        val exported = (BackupCodec.decode(backup.export()) as BackupResult.Ok).file
+        backup.import(emptyFile())
+        assertTrue(db.userWords().all().isEmpty())
+        backup.import(exported)
+        assertEquals(listOf("사과"), db.userWords().all().map { it.ko })
+    }
+
     @Test fun importReplacesExistingRows() = runTest {
         seed()
         val exported = (BackupCodec.decode(backup.export()) as BackupResult.Ok).file
