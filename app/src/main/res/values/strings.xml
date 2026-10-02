@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Hangul Hunt</string>
+    <!-- Which language these resources are; values-en overrides it. -->
+    <string name="lang_code">uz</string>
 
     <string name="nav_home">Uy</string>
     <string name="nav_book">Xarita</string>
