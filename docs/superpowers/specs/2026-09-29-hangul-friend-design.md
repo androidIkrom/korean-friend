@@ -333,3 +333,5 @@ Har bir bosqich tugaganda telefonda ishlatsa bo'ladigan ilova bo'ladi. Har bir b
    Spec: `2026-10-01-stage6-game-ui-design.md`. Qolgan ekranlarning tuzilmasi keyingi bosqichda.
    6b: yigit/qiz personaj (onboarding va Sozlamada), rankka qarab ko'z ifodasi va yumaloq olov aurasi, "Monarx nigohi" ikonkasi,
    ilova nomi "Hangul Hunt". Spec: `2026-10-01-stage6b-hero-avatar-icon-design.md`.
+8. **Qolgan rejadagi ishlar.** 7a: Lug'at bazasi ekrani (qidiruv, dars filtri, o'z so'zlari takrorlashda; DB v4).
+   Spec: `2026-10-02-stage7a-vocabulary-design.md`. Keyin: "Xato bor" belgisi, TOPIK I yakuniy test, qolgan ekranlar, kichik tuzatishlar.
