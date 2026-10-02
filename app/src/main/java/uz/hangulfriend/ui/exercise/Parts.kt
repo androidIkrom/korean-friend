@@ -21,6 +21,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import uz.hangulfriend.R
 import uz.hangulfriend.ai.TutorPrompts
+import uz.hangulfriend.ui.currentLanguage
 import uz.hangulfriend.ui.theme.CorrectGreen
 import uz.hangulfriend.ui.theme.GameCard
 import uz.hangulfriend.ui.theme.WrongRed
@@ -58,7 +59,7 @@ fun FeedbackPanel(info: FeedbackInfo, onNext: () -> Unit) {
                 OutlinedButton(onClick = { open = true }, modifier = Modifier.fillMaxWidth()) {
                     Text(stringResource(R.string.ai_ask_mistake))
                 }
-                if (open) TutorSheet(TutorPrompts.ROLE, question) { open = false }
+                if (open) TutorSheet(TutorPrompts.role(currentLanguage()), question) { open = false }
             }
             Button(onClick = onNext, modifier = Modifier.fillMaxWidth()) { Text(stringResource(R.string.ex_next)) }
         }

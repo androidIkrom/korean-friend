@@ -141,17 +141,17 @@ class GeminiClient(
             if (!busy) return AiResult.QuotaExhausted
             if (pass + 1 < BUSY_PASSES) delay(retryDelayMs)
         }
-        return AiResult.Failed("Gemini hozir band")
+        return AiResult.Failed("Gemini is busy")
     }
 
     private fun parse(body: String): AiResult {
         val response = try {
             GeminiJson.decodeFromString(GenerateResponse.serializer(), body)
         } catch (_: SerializationException) {
-            return AiResult.Failed("Noto'g'ri javob")
+            return AiResult.Failed("Malformed response")
         }
         val text = response.candidates.firstOrNull()?.content?.parts?.joinToString("") { it.text }.orEmpty()
-        return if (text.isBlank()) AiResult.Failed("Bo'sh javob") else AiResult.Success(text)
+        return if (text.isBlank()) AiResult.Failed("Empty response") else AiResult.Success(text)
     }
 
     companion object {

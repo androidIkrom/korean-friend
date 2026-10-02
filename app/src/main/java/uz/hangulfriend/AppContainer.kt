@@ -48,7 +48,7 @@ class AppContainer(context: Context) {
     val backup = BackupService(db, settings, clock)
     val userWords = UserWordRepository(db, study, clock)
     val lessons = LessonLookup(content, userWords)
-    val flags = FlagRepository(db, clock)
+    val flags = FlagRepository(db, clock) { languageStore.get() }
     val shareStats = ProgressStats(content, db, game, settings, clock)
     val avatarAssets by lazy { AvatarAssets.load(context.assets) }
 

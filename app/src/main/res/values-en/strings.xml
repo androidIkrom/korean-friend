@@ -1,4 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="lang_code">en</string>
+    <string name="reminder_channel">Daily reminder</string>
+    <plurals name="reminder_due">
+        <item quantity="one">%1$d card is waiting today.</item>
+        <item quantity="other">%1$d cards are waiting today.</item>
+    </plurals>
+    <string name="reminder_goal">You haven\'t reached today\'s goal yet. Practice for 5 minutes?</string>
+    <plurals name="reminder_streak">
+        <item quantity="one">%1$d-day streak 🔥</item>
+        <item quantity="other">%1$d-day streak 🔥</item>
+    </plurals>
 </resources>

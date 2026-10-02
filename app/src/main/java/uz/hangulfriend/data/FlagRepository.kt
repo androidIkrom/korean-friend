@@ -4,6 +4,7 @@ import java.time.Clock
 import java.time.LocalDate
 import kotlinx.coroutines.flow.Flow
 import uz.hangulfriend.content.Word
+import uz.hangulfriend.i18n.AppLanguage
 import uz.hangulfriend.study.ExerciseItem
 
 /** Why a learner flagged an exercise ("Xato bor", stage 7b spec §2). */
@@ -25,7 +26,7 @@ fun flagRef(item: ExerciseItem): String = when (item) {
 private fun Word.pair() = "$ko — $uz"
 
 /** The text the learner saw, so a report stays readable even if the content later changes. */
-fun flagSnapshot(item: ExerciseItem): String = when (item) {
+fun flagSnapshot(item: ExerciseItem, lang: AppLanguage = AppLanguage.UZ): String = when (item) {
     is ExerciseItem.Flashcard -> item.word.pair()
     is ExerciseItem.WordTyping -> item.word.pair()
     is ExerciseItem.ListenChoose -> item.word.pair()
@@ -35,7 +36,7 @@ fun flagSnapshot(item: ExerciseItem): String = when (item) {
     is ExerciseItem.Authored -> {
         val e = item.exercise
         val body = e.sentence ?: e.sourceUz ?: if (e.base != null) "${e.base} · ${e.form.orEmpty()}" else null
-        listOfNotNull(e.promptUz, body, "Javob: " + e.answers.joinToString(" / ")).joinToString(" | ")
+        listOfNotNull(e.promptUz, body, (if (lang == AppLanguage.EN) "Answer: " else "Javob: ") + e.answers.joinToString(" / ")).joinToString(" | ")
     }
 }
 
@@ -53,7 +54,14 @@ fun lessonOfRef(ref: String): String = when {
  * The readable report shared from Settings: grouped by lesson in book order, then own words, then the rest;
  * numbered per group, oldest first.
  */
-fun exportText(flags: List<ContentFlagEntity>, appVersion: String, today: LocalDate, reasonLabel: (FlagReason) -> String): String {
+fun exportText(
+    flags: List<ContentFlagEntity>,
+    appVersion: String,
+    today: LocalDate,
+    lang: AppLanguage = AppLanguage.UZ,
+    reasonLabel: (FlagReason) -> String,
+): String {
+    val en = lang == AppLanguage.EN
     fun groupKey(lessonId: String) = when (lessonId) {
         "" -> "3"
         USER_LESSON_ID -> "2"
@@ -61,32 +69,41 @@ fun exportText(flags: List<ContentFlagEntity>, appVersion: String, today: LocalD
         else -> "0$lessonId"
     }
     fun header(lessonId: String) = when (lessonId) {
-        "" -> "[?] Boshqa"
-        USER_LESSON_ID -> "[user] O'z so'zlarim"
-        FINAL_FLAG_GROUP -> "[final] Yakuniy test"
+        "" -> if (en) "[?] Other" else "[?] Boshqa"
+        USER_LESSON_ID -> if (en) "[user] My words" else "[user] O'z so'zlarim"
+        FINAL_FLAG_GROUP -> if (en) "[final] Final test" else "[final] Yakuniy test"
         else -> {
             val unit = lessonId.substring(1, 3).toIntOrNull()
             val lesson = lessonId.substringAfter("_l").toIntOrNull()
-            "[$lessonId] $unit-bo'lim, $lesson-dars"
+            if (en) "[$lessonId] Unit $unit, lesson $lesson" else "[$lessonId] $unit-bo'lim, $lesson-dars"
         }
     }
     return buildString {
-        appendLine("Hangul Hunt — kontent xatolari")
-        appendLine("Sana: $today · Ilova: $appVersion · Jami: ${flags.size}")
+        if (en) {
+            appendLine("Hangul Hunt — content issues")
+            appendLine("Date: $today · App: $appVersion · Total: ${flags.size}")
+        } else {
+            appendLine("Hangul Hunt — kontent xatolari")
+            appendLine("Sana: $today · Ilova: $appVersion · Jami: ${flags.size}")
+        }
         flags.groupBy { it.lessonId }.toSortedMap(compareBy { groupKey(it) }).forEach { (lessonId, group) ->
             appendLine()
             appendLine(header(lessonId))
             group.sortedWith(compareBy({ it.createdMs }, { it.id })).forEachIndexed { i, f ->
                 val reason = FlagReason.entries.firstOrNull { it.name == f.reason } ?: FlagReason.OTHER
                 appendLine("${i + 1}) ${f.ref} · ${f.type} · ${reasonLabel(reason)}")
-                appendLine("   Savol: ${f.snapshot}")
-                f.comment?.let { appendLine("   Izoh: $it") }
+                appendLine((if (en) "   Question: " else "   Savol: ") + f.snapshot)
+                f.comment?.let { appendLine((if (en) "   Comment: " else "   Izoh: ") + it) }
             }
         }
     }.trimEnd() + "\n"
 }
 
-class FlagRepository(private val db: AppDatabase, private val clock: Clock) {
+class FlagRepository(
+    private val db: AppDatabase,
+    private val clock: Clock,
+    private val language: () -> AppLanguage = { AppLanguage.UZ },
+) {
     private val dao = db.flags()
 
     /** Stores a report; the same exercise and reason again only replaces the comment. */
@@ -99,7 +116,7 @@ class FlagRepository(private val db: AppDatabase, private val clock: Clock) {
         } else {
             dao.insert(
                 ContentFlagEntity(
-                    ref = ref, lessonId = lessonOfRef(ref), type = item.typeKey, snapshot = flagSnapshot(item),
+                    ref = ref, lessonId = lessonOfRef(ref), type = item.typeKey, snapshot = flagSnapshot(item, language()),
                     reason = reason.name, comment = note, createdMs = clock.millis(),
                 ),
             )

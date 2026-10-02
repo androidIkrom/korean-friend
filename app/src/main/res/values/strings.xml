@@ -176,6 +176,13 @@
     <string name="story_replayed">Qayta o\'tildi</string>
     <string name="story_close">Yopish</string>
     <string name="reminder_channel">Kunlik eslatma</string>
+    <plurals name="reminder_due">
+        <item quantity="other">Bugun %1$d ta karta kutyapti.</item>
+    </plurals>
+    <string name="reminder_goal">Bugungi maqsadga hali yetmadingiz. 5 daqiqa mashq qilamizmi?</string>
+    <plurals name="reminder_streak">
+        <item quantity="other">Streak: %1$d kun 🔥</item>
+    </plurals>
     <string name="settings_reminder">🔔 Kunlik eslatma</string>
     <string name="settings_reminder_time">Vaqti: %1$s</string>
     <string name="settings_reminder_denied">Bildirishnomaga ruxsat berilmagan.</string>
