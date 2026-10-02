@@ -1,6 +1,12 @@
 package uz.hangulfriend.ui.exercise
 
+import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.padding
+import androidx.compose.material3.Surface
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.unit.dp
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -47,6 +53,12 @@ private fun ExerciseBody(item: ExerciseItem, onResult: (ExerciseOutcome) -> Unit
                 ExerciseType.SITUATION_CHOICE ->
                     ChoiceView(e.promptUz, e.options.orEmpty(), e.answers, e.whyUz, onResult, onNext, aiQuestion = ask)
                 ExerciseType.LISTEN_QUESTION -> ListenQuestionView(e, onResult, onNext)
+                ExerciseType.READ_CHOICE -> Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
+                    Surface(tonalElevation = 2.dp, shape = MaterialTheme.shapes.medium) {
+                        Text(e.sentence.orEmpty(), style = MaterialTheme.typography.titleMedium, modifier = Modifier.fillMaxWidth().padding(16.dp))
+                    }
+                    ChoiceView(e.promptUz, e.options.orEmpty(), e.answers, e.whyUz, onResult, onNext)
+                }
                 ExerciseType.BUILD_SENTENCE ->
                     BuildSentenceView(e.promptUz, e.tokens.orEmpty(), e.answers, e.hintUz, e.whyUz, onResult, onNext, aiQuestion = ask)
                 ExerciseType.CONJUGATE -> TypingView(

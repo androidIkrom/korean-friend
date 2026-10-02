@@ -42,7 +42,8 @@ class ContentAssetsTest {
                 assertTrue("${g.id}: 2–4 mistakes", g.mistakes.size in 2..4)
             }
             assertTrue("${l.id}: ≥3 listen_question", practice.count { it.type == ExerciseType.LISTEN_QUESTION } >= 3)
-            for (type in ExerciseType.entries) {
+            // read_choice belongs to the final test only, not to lessons.
+            for (type in ExerciseType.entries - ExerciseType.READ_CHOICE) {
                 assertTrue("${l.id}: ≥2 $type", practice.count { it.type == type } >= 2)
             }
         }

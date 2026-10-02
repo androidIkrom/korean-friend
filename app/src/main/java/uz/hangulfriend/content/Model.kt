@@ -117,6 +117,9 @@ enum class ExerciseType {
     @SerialName("find_error") FIND_ERROR,
     @SerialName("translate") TRANSLATE,
     @SerialName("listen_question") LISTEN_QUESTION,
+
+    /** Read a Korean passage ([Exercise.sentence]) and pick the answer (final test reading part). */
+    @SerialName("read_choice") READ_CHOICE,
 }
 
 @Serializable

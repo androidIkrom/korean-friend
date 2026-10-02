@@ -63,4 +63,19 @@ class LessonValidatorTest {
         val onlyTest = lesson.copy(exercises = lesson.exercises.filter { it.id in setOf("u02_l1_e001", "u02_l1_e007") })
         assertErrorMentions(errorsFor(onlyTest), "u02_l1_g1")
     }
+
+    private val read = Fixtures.exercise("final_r01", ExerciseType.READ_CHOICE, emptyList(), listOf("가")) {
+        copy(sentence = "오늘은 일요일이에요.", options = listOf("가", "나", "다", "라"))
+    }
+
+    @Test fun validate_readChoiceValid() = assertEquals(emptyList<String>(), LessonValidator.exerciseErrors(read))
+
+    @Test fun validate_readChoiceNeedsPassage() =
+        assertTrue(LessonValidator.exerciseErrors(read.copy(sentence = " ")).isNotEmpty())
+
+    @Test fun validate_readChoiceNeedsFourDistinctOptions() {
+        assertTrue(LessonValidator.exerciseErrors(read.copy(options = listOf("가", "나", "다"))).isNotEmpty())
+        assertTrue(LessonValidator.exerciseErrors(read.copy(options = listOf("가", "나", "다", "다"))).isNotEmpty())
+        assertTrue(LessonValidator.exerciseErrors(read.copy(answers = listOf("마"))).isNotEmpty())
+    }
 }
