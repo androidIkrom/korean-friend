@@ -6,8 +6,9 @@ import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.ui.graphics.Color
 import uz.hangulfriend.data.GameThemeId
 
-val CorrectGreen = Color(0xFF2E7D32)
-val WrongRed = Color(0xFFC62828)
+// Bright verdict colours: both game themes are dark, so the old Material green/red were hard to read.
+val CorrectGreen = Color(0xFF4ADE80)
+val WrongRed = Color(0xFFFF6B85)
 
 /** Both game themes are dark; the system light/dark setting is not consulted. */
 @Composable
