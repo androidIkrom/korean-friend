@@ -17,6 +17,9 @@ object ReminderPolicy {
     }
 
     /** Time from [now] to the next [minutes]-after-midnight; a time that is now or past means tomorrow. */
+    /** A reminder that is on but may no longer post notifications should be switched off. */
+    fun shouldDisable(enabled: Boolean, permitted: Boolean): Boolean = enabled && !permitted
+
     fun delayUntilNext(now: ZonedDateTime, minutes: Int): Duration {
         val today = now.toLocalDate().atStartOfDay(now.zone).plusMinutes(minutes.toLong())
         val next = if (today.isAfter(now)) today else now.toLocalDate().plusDays(1).atStartOfDay(now.zone).plusMinutes(minutes.toLong())

@@ -267,8 +267,3 @@ private fun BottomBar(nav: NavHostController, current: String?) {
         }
     }
 }
-
-@Composable
-private fun Placeholder() {
-    Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) { Text(stringResource(R.string.placeholder_screen)) }
-}

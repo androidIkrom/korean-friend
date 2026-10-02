@@ -55,7 +55,11 @@ class LessonViewModel(
 
     fun grammarCheck(lesson: Lesson, grammarId: String): ExerciseItem.Authored? = builder.grammarExercise(lesson, grammarId)
 
+    private val gradeOnce = GradeOnce()
+
+    /** Grades a lesson check; going back to an answered check with "Orqaga" does not grade it again. */
     fun grade(item: ExerciseItem, outcome: ExerciseOutcome) {
+        if (!gradeOnce.shouldGrade(item)) return
         viewModelScope.launch {
             when {
                 item is ExerciseItem.Match && outcome is ExerciseOutcome.Matched -> grader.gradeMatch(item, outcome.firstTryCorrect)
@@ -64,6 +68,13 @@ class LessonViewModel(
             }
         }
     }
+}
+
+/** Remembers which exercises were already graded in this lesson visit. */
+class GradeOnce {
+    private val seen = mutableSetOf<ExerciseItem>()
+
+    fun shouldGrade(item: ExerciseItem): Boolean = seen.add(item)
 }
 
 private val stageLabels = listOf(

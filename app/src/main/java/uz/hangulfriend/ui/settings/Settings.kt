@@ -95,11 +95,11 @@ fun SettingsScreen(vm: SettingsViewModel, modifier: Modifier = Modifier) {
     Column(modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
         ThemeRow(settings.theme, vm::setTheme)
         HeroRow(settings.hero, vm::setHero)
-        Text(stringResource(R.string.settings_daily_new, limit.toInt()), style = MaterialTheme.typography.titleMedium)
+        Text(stringResource(R.string.settings_daily_new, limit.roundToInt()), style = MaterialTheme.typography.titleMedium)
         Slider(
             value = limit,
             onValueChange = { limit = it },
-            onValueChangeFinished = { vm.setDailyNewLimit(limit.toInt()) },
+            onValueChangeFinished = { vm.setDailyNewLimit(limit.roundToInt()) },
             valueRange = 5f..50f,
             steps = 8,
         )

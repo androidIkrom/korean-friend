@@ -20,6 +20,7 @@ import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.Switch
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.key
 import androidx.compose.runtime.mutableIntStateOf
@@ -53,6 +54,11 @@ import uz.hangulfriend.ui.tutor.TutorSheet
 /** Pages through the stage; the last page's "next" moves to the following stage. */
 @Composable
 private fun Pager(pageCount: Int, onFinished: () -> Unit, page: @Composable (Int, () -> Unit) -> Unit) {
+    if (pageCount == 0) {
+        // Nothing to show (e.g. a lesson without words): move straight on instead of indexing an empty list.
+        LaunchedEffect(Unit) { onFinished() }
+        return
+    }
     var index by rememberSaveable { mutableIntStateOf(0) }
     val next: () -> Unit = {
         if (index + 1 < pageCount) index++ else onFinished()

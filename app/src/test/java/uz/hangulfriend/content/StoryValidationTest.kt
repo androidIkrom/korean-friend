@@ -30,6 +30,9 @@ class StoryValidationTest {
         assertTrue("expected \"$fragment\" in $errs", errs.any { it.startsWith("u02_l1: story:") && fragment in it })
     }
 
+    @Test fun chooseReplyMustBeAziz() =
+        assertStoryError(story((1..10).map(::line) + choose.copy(speaker = "minji") + quiz), "choose_reply speaker must be aziz")
+
     @Test fun storyValidPasses() = assertEquals(emptyList<String>(), errors(valid))
 
     @Test fun storyTooFewLines() = assertStoryError(story((1..9).map(::line) + choose + quiz), "10–16 line steps")
