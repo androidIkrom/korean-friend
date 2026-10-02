@@ -29,9 +29,9 @@ import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.launch
 import uz.hangulfriend.R
-import uz.hangulfriend.content.ContentRepository
 import uz.hangulfriend.data.CardKind
 import uz.hangulfriend.data.GameRepository
+import uz.hangulfriend.data.LessonLookup
 import uz.hangulfriend.study.GameRules
 
 class AchievementsViewModel(game: GameRepository) : ViewModel() {
@@ -62,14 +62,14 @@ fun AchievementsScreen(vm: AchievementsViewModel) {
 
 data class MistakeRow(val ko: String, val uz: String)
 
-class MistakesViewModel(private val content: ContentRepository, private val game: GameRepository) : ViewModel() {
+class MistakesViewModel(private val lessons: LessonLookup, private val game: GameRepository) : ViewModel() {
     private val _rows = MutableStateFlow<List<MistakeRow>>(emptyList())
     val rows: StateFlow<List<MistakeRow>> = _rows
 
     fun refresh() {
         viewModelScope.launch {
             _rows.value = game.mistakes().mapNotNull { card ->
-                val lesson = content.lesson(card.lessonId) ?: return@mapNotNull null
+                val lesson = lessons.lesson(card.lessonId) ?: return@mapNotNull null
                 if (card.kind == CardKind.GRAMMAR) {
                     lesson.grammar.find { it.id == card.itemId }?.let { MistakeRow(it.pattern, it.meaningUz) }
                 } else {

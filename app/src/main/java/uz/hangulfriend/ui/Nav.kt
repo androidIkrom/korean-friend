@@ -176,7 +176,7 @@ fun HangulFriendNav(container: AppContainer, openReview: Boolean = false) {
                 AchievementsScreen(viewModel { AchievementsViewModel(container.game) })
             }
             composable(Routes.MISTAKES) {
-                val vm = viewModel { MistakesViewModel(container.content, container.game) }
+                val vm = viewModel { MistakesViewModel(container.lessons, container.game) }
                 MistakesScreen(vm, onPractice = { nav.navigate(Routes.session(SessionMode.MISTAKES)) })
             }
             composable(Routes.STORIES) {
@@ -219,6 +219,7 @@ fun HangulFriendNav(container: AppContainer, openReview: Boolean = false) {
                         SessionController(
                             mode, lessonId, container.content, container.study, container.progress,
                             container.settings, container.sessionBuilder, container.grader, container.speechAvailable, container.game,
+                            container.lessons::lesson,
                         ),
                     )
                 }

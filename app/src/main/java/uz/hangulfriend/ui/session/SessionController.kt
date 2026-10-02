@@ -6,6 +6,7 @@ import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.flow.update
 import uz.hangulfriend.R
 import uz.hangulfriend.content.ContentRepository
+import uz.hangulfriend.content.Lesson
 import uz.hangulfriend.data.CardEntity
 import uz.hangulfriend.data.GameRepository
 import uz.hangulfriend.data.ProgressRepository
@@ -93,6 +94,8 @@ class SessionController(
     private val grader: Grader,
     private val speechAvailable: Boolean,
     private val game: GameRepository,
+    /** Resolves a card's lesson, including the learner's own words ("user"); defaults to book lessons only. */
+    private val lessonOf: suspend (String) -> Lesson? = { content.lesson(it) },
 ) {
     private val _state = MutableStateFlow(SessionState())
     val state: StateFlow<SessionState> = _state
@@ -128,8 +131,8 @@ class SessionController(
         _state.value = SessionState(loading = false, items = items, hearts = if (mode == SessionMode.BOSS) BOSS_HEARTS else null)
     }
 
-    private fun lessonsOf(cards: List<CardEntity>) =
-        cards.map { it.lessonId }.distinct().mapNotNull { content.lesson(it) }.associateBy { it.id }
+    private suspend fun lessonsOf(cards: List<CardEntity>) =
+        cards.map { it.lessonId }.distinct().mapNotNull { lessonOf(it) }.associateBy { it.id }
 
     /** Grades the current item once; later calls for the same item are ignored. */
     suspend fun submit(outcome: ExerciseOutcome) {
