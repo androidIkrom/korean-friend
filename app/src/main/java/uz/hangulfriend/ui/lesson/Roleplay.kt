@@ -7,7 +7,6 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.Button
-import androidx.compose.material3.Card
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.Text
@@ -32,6 +31,7 @@ import uz.hangulfriend.ui.LocalAudioPlayer
 import uz.hangulfriend.ui.exercise.LocalSpeechInput
 import uz.hangulfriend.ui.exercise.SpeakPanel
 import uz.hangulfriend.ui.exercise.speakErrorText
+import uz.hangulfriend.ui.theme.GameCard
 
 data class RoleplayStep(val index: Int, val line: Line, val mine: Boolean)
 
@@ -83,7 +83,7 @@ fun RoleplayView(lesson: Lesson, characters: Map<String, Character>) {
 private fun RoleplayTurn(step: RoleplayStep, speaker: String, onNext: () -> Unit) {
     val player = LocalAudioPlayer.current
     if (!step.mine) LaunchedEffect(Unit) { step.line.audio?.let { player?.play(it) } }
-    Card(Modifier.fillMaxWidth()) {
+    GameCard(Modifier.fillMaxWidth()) {
         Column(Modifier.fillMaxWidth().padding(16.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
             Text(if (step.mine) stringResource(R.string.roleplay_your_turn) else speaker, style = MaterialTheme.typography.labelLarge)
             Text(step.line.uz, style = MaterialTheme.typography.bodyMedium)

@@ -12,12 +12,13 @@ import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Close
+import androidx.compose.material.icons.filled.Favorite
+import androidx.compose.material.icons.filled.FavoriteBorder
 import androidx.compose.material.icons.filled.Timer
 import androidx.compose.material3.Button
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
-import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -45,6 +46,8 @@ import uz.hangulfriend.data.ProgressRepository
 import uz.hangulfriend.study.GameRules
 import uz.hangulfriend.ui.exercise.ExerciseView
 import uz.hangulfriend.ui.game.achievementTitle
+import uz.hangulfriend.ui.theme.LocalGameTokens
+import uz.hangulfriend.ui.theme.ProgressBar
 
 /** Length of the final test (stage 7c spec §3). */
 const val FINAL_SECONDS = 25 * 60
@@ -93,13 +96,20 @@ fun SessionScreen(vm: SessionViewModel, mode: SessionMode, onClose: () -> Unit) 
     Column(Modifier.fillMaxSize().padding(16.dp)) {
         Row(verticalAlignment = Alignment.CenterVertically) {
             IconButton(onClick = onClose) { Icon(Icons.Filled.Close, contentDescription = stringResource(R.string.session_close)) }
-            LinearProgressIndicator(
-                progress = { if (s.items.isEmpty()) 0f else s.index.toFloat() / s.items.size },
-                modifier = Modifier.weight(1f),
-            )
+            ProgressBar(if (s.items.isEmpty()) 0f else s.index.toFloat() / s.items.size, Modifier.weight(1f))
         }
         Row(horizontalArrangement = Arrangement.spacedBy(12.dp), modifier = Modifier.padding(top = 4.dp)) {
-            s.hearts?.let { h -> Text("❤️".repeat(h) + "🤍".repeat((SessionController.BOSS_HEARTS - h).coerceAtLeast(0))) }
+            s.hearts?.let { h ->
+                val danger = LocalGameTokens.current.danger
+                repeat(SessionController.BOSS_HEARTS) { i ->
+                    Icon(
+                        if (i < h) Icons.Filled.Favorite else Icons.Filled.FavoriteBorder,
+                        contentDescription = null,
+                        tint = danger,
+                        modifier = Modifier.size(20.dp),
+                    )
+                }
+            }
             if (s.combo >= GameRules.COMBO_FROM) Text(stringResource(R.string.session_combo, s.combo), style = MaterialTheme.typography.labelLarge)
             if (s.xpEarned > 0) Text(stringResource(R.string.session_xp, s.xpEarned), style = MaterialTheme.typography.labelLarge)
             if (mode == SessionMode.FINAL && !s.finished) {

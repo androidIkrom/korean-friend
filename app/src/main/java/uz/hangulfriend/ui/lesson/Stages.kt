@@ -13,7 +13,6 @@ import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.Button
-import androidx.compose.material3.Card
 import androidx.compose.material3.FilterChip
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.MaterialTheme
@@ -36,19 +35,20 @@ import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.unit.dp
 import com.mikepenz.markdown.m3.Markdown
 import uz.hangulfriend.R
+import uz.hangulfriend.ai.TutorPrompts
 import uz.hangulfriend.content.Character
 import uz.hangulfriend.content.Grammar
 import uz.hangulfriend.content.Lesson
 import uz.hangulfriend.content.Word
-import uz.hangulfriend.ai.TutorPrompts
 import uz.hangulfriend.study.ExerciseItem
-import uz.hangulfriend.ui.tutor.LocalTutor
-import uz.hangulfriend.ui.tutor.TutorSheet
 import uz.hangulfriend.ui.AudioButton
 import uz.hangulfriend.ui.exercise.ExerciseView
 import uz.hangulfriend.ui.exercise.MatchView
 import uz.hangulfriend.ui.theme.CorrectGreen
+import uz.hangulfriend.ui.theme.GameCard
 import uz.hangulfriend.ui.theme.WrongRed
+import uz.hangulfriend.ui.tutor.LocalTutor
+import uz.hangulfriend.ui.tutor.TutorSheet
 
 /** Pages through the stage; the last page's "next" moves to the following stage. */
 @Composable
@@ -102,7 +102,7 @@ fun VocabStage(lesson: Lesson, vm: LessonViewModel, onFinished: () -> Unit) {
 
 @Composable
 private fun WordCard(word: Word) {
-    Card(Modifier.fillMaxWidth()) {
+    GameCard(Modifier.fillMaxWidth()) {
         Column(Modifier.padding(24.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
             Row(verticalAlignment = Alignment.CenterVertically) {
                 Text(word.ko, style = MaterialTheme.typography.displaySmall, modifier = Modifier.weight(1f))
@@ -150,7 +150,7 @@ private fun GrammarPage(g: Grammar) {
     Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
         Text(g.pattern, style = MaterialTheme.typography.headlineMedium)
         Text(g.meaningUz, style = MaterialTheme.typography.titleMedium)
-        Card(Modifier.fillMaxWidth()) {
+        GameCard(Modifier.fillMaxWidth()) {
             Column(Modifier.padding(12.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
                 g.formation.forEach { f ->
                     Row {
