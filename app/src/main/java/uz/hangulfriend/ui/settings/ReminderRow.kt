@@ -26,8 +26,10 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.core.content.ContextCompat
+import androidx.lifecycle.compose.LifecycleResumeEffect
 import uz.hangulfriend.R
 import uz.hangulfriend.data.Settings
+import uz.hangulfriend.reminders.ReminderPolicy
 
 /** Daily reminder switch and time; turning it on asks for the notification permission on Android 13+. */
 @Composable
@@ -38,10 +40,15 @@ fun ReminderRow(settings: Settings, onChange: (enabled: Boolean, minutes: Int) -
         denied = !granted
         if (granted) onChange(true, settings.reminderMinutes)
     }
+    fun permitted() = Build.VERSION.SDK_INT < Build.VERSION_CODES.TIRAMISU ||
+        ContextCompat.checkSelfPermission(context, Manifest.permission.POST_NOTIFICATIONS) == PackageManager.PERMISSION_GRANTED
     fun enable() {
-        val needs = Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU &&
-            ContextCompat.checkSelfPermission(context, Manifest.permission.POST_NOTIFICATIONS) != PackageManager.PERMISSION_GRANTED
-        if (needs) launcher.launch(Manifest.permission.POST_NOTIFICATIONS) else onChange(true, settings.reminderMinutes)
+        if (!permitted()) launcher.launch(Manifest.permission.POST_NOTIFICATIONS) else onChange(true, settings.reminderMinutes)
+    }
+    // Permission revoked in system settings: the switch must not keep claiming reminders are on.
+    LifecycleResumeEffect(settings.reminderEnabled) {
+        if (ReminderPolicy.shouldDisable(settings.reminderEnabled, permitted())) onChange(false, settings.reminderMinutes)
+        onPauseOrDispose { }
     }
     Column {
         Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.SpaceBetween) {
