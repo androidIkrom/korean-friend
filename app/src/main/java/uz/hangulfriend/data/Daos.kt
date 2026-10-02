@@ -208,3 +208,27 @@ interface UserWordDao {
     @Query("DELETE FROM user_words")
     suspend fun deleteAll()
 }
+
+@Dao
+interface FlagDao {
+    @Query("SELECT * FROM content_flags WHERE ref = :ref AND reason = :reason")
+    suspend fun find(ref: String, reason: String): ContentFlagEntity?
+
+    @Insert
+    suspend fun insert(flag: ContentFlagEntity): Long
+
+    @Update
+    suspend fun update(flag: ContentFlagEntity)
+
+    @Query("SELECT COUNT(*) FROM content_flags")
+    fun observeCount(): Flow<Int>
+
+    @Query("SELECT * FROM content_flags ORDER BY createdMs, id")
+    suspend fun all(): List<ContentFlagEntity>
+
+    @Insert
+    suspend fun insertAll(flags: List<ContentFlagEntity>)
+
+    @Query("DELETE FROM content_flags")
+    suspend fun deleteAll()
+}

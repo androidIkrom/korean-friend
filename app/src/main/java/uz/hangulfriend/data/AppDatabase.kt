@@ -31,6 +31,20 @@ val MIGRATION_3_4 = object : Migration(3, 4) {
     }
 }
 
+/** v5: "Xato bor" content flags (stage 7b). SQL mirrors schemas/5.json. */
+val MIGRATION_4_5 = object : Migration(4, 5) {
+    override fun migrate(connection: SQLiteConnection) {
+        connection.execSQL(SQL_CONTENT_FLAGS)
+        connection.execSQL(SQL_CONTENT_FLAGS_INDEX)
+    }
+}
+
+private const val SQL_CONTENT_FLAGS =
+    "CREATE TABLE IF NOT EXISTS `content_flags` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `ref` TEXT NOT NULL, " +
+        "`lessonId` TEXT NOT NULL, `type` TEXT NOT NULL, `snapshot` TEXT NOT NULL, `reason` TEXT NOT NULL, `comment` TEXT, " +
+        "`createdMs` INTEGER NOT NULL)"
+private const val SQL_CONTENT_FLAGS_INDEX =
+    "CREATE UNIQUE INDEX IF NOT EXISTS `index_content_flags_ref_reason` ON `content_flags` (`ref`, `reason`)"
 private const val SQL_USER_WORDS =
     "CREATE TABLE IF NOT EXISTS `user_words` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `ko` TEXT NOT NULL, " +
         "`uz` TEXT NOT NULL, `note` TEXT, `createdMs` INTEGER NOT NULL)"
@@ -55,8 +69,9 @@ private const val SQL_BEST_SCORES =
         BestScoreEntity::class,
         StoryProgressEntity::class,
         UserWordEntity::class,
+        ContentFlagEntity::class,
     ],
-    version = 4,
+    version = 5,
     exportSchema = true,
 )
 abstract class AppDatabase : RoomDatabase() {
@@ -72,11 +87,13 @@ abstract class AppDatabase : RoomDatabase() {
 
     abstract fun userWords(): UserWordDao
 
+    abstract fun flags(): FlagDao
+
     companion object {
         /** No destructive fallback: losing FSRS history is worse than a crash we can fix with a migration. */
         fun open(context: Context): AppDatabase =
             Room.databaseBuilder(context, AppDatabase::class.java, "hangul-friend.db")
-                .addMigrations(MIGRATION_1_2, MIGRATION_2_3, MIGRATION_3_4)
+                .addMigrations(MIGRATION_1_2, MIGRATION_2_3, MIGRATION_3_4, MIGRATION_4_5)
                 .build()
     }
 }

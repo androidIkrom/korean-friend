@@ -83,3 +83,16 @@ data class UserWordEntity(
     val note: String?,
     val createdMs: Long,
 )
+
+/** A "Xato bor" report on one exercise (stage 7b); one row per (ref, reason). */
+@Entity(tableName = "content_flags", indices = [Index(value = ["ref", "reason"], unique = true)])
+data class ContentFlagEntity(
+    @PrimaryKey(autoGenerate = true) val id: Long = 0,
+    val ref: String,
+    val lessonId: String,
+    val type: String,
+    val snapshot: String,
+    val reason: String,
+    val comment: String?,
+    val createdMs: Long,
+)
