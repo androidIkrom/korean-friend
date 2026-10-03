@@ -40,6 +40,19 @@ class TutorTest {
         assertTrue(TutorPrompts.translationCheck(translate, "x", AppLanguage.EN).contains("Return only JSON"))
     }
 
+    @Test fun cleanAiText_latex() {
+        assertEquals("가다 → 가 보다", cleanAiText("가다 \$\\rightarrow\$ 가 보다"))
+        assertEquals("A → B", cleanAiText("A \\to B"))
+        assertEquals("x + y", cleanAiText("\$x + y\$"))
+        assertEquals("30,000 won and 5 dollars", cleanAiText("30,000 won and 5 dollars"))
+    }
+
+    @Test fun promptsForbidLatexAndIncludeExplanation() {
+        assertTrue(TutorPrompts.ROLE_EN.contains("LaTeX"))
+        assertTrue(TutorPrompts.ROLE.contains("LaTeX"))
+        assertTrue(TutorPrompts.grammarContext(lesson.grammar[0], lesson).contains(lesson.grammar[0].explanationMd))
+    }
+
     @Test fun parseVerdict_valid() = assertEquals(
         TranslationVerdict(true, "입어 보세요", "To'g'ri"),
         parseVerdict("""{"correct":true,"corrected_ko":"입어 보세요","explanation_uz":"To'g'ri"}"""),
