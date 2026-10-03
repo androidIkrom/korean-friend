@@ -146,7 +146,7 @@ fun RailButton(icon: ImageVector, label: String, onClick: () -> Unit, modifier: 
             verticalArrangement = Arrangement.spacedBy(3.dp, Alignment.CenterVertically),
         ) {
             Icon(icon, contentDescription = null, tint = c, modifier = Modifier.size(22.dp))
-            Text(label.uppercase(), color = t.muted, fontFamily = t.display, fontSize = 9.sp, letterSpacing = 0.8.sp, maxLines = 1)
+            Text(label.uppercase(), color = t.muted, fontFamily = t.display, fontSize = 8.5.sp, letterSpacing = 0.3.sp, maxLines = 1, softWrap = false)
         }
         if (dot) {
             Box(
