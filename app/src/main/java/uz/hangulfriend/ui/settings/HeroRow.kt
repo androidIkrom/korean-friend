@@ -10,7 +10,6 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.selection.selectable
 import androidx.compose.foundation.selection.selectableGroup
-import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -24,6 +23,7 @@ import uz.hangulfriend.R
 import uz.hangulfriend.data.HeroGender
 import uz.hangulfriend.study.Rank
 import uz.hangulfriend.ui.avatar.Avatar
+import uz.hangulfriend.ui.kit.shape
 import uz.hangulfriend.ui.theme.LocalGameTokens
 
 /** Boy / girl hero picker, each card showing the hero at rank D (onboarding and settings). */
@@ -35,7 +35,7 @@ fun HeroRow(current: HeroGender, onPick: (HeroGender) -> Unit) {
         Row(Modifier.fillMaxWidth().selectableGroup(), horizontalArrangement = Arrangement.spacedBy(12.dp)) {
             HeroGender.entries.forEach { hero ->
                 val selected = hero == current
-                val shape = RoundedCornerShape(t.panelCorner)
+                val shape = t.shape(8.dp)
                 Column(
                     Modifier
                         .weight(1f)

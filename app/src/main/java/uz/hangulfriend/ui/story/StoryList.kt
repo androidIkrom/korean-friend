@@ -1,6 +1,11 @@
 package uz.hangulfriend.ui.story
 
+import androidx.compose.foundation.background
+import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -15,13 +20,16 @@ import androidx.compose.material.icons.filled.CheckCircle
 import androidx.compose.material.icons.filled.HourglassEmpty
 import androidx.compose.material.icons.filled.Lock
 import androidx.compose.material3.Icon
-import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.alpha
+import androidx.compose.ui.draw.clip
+import androidx.compose.ui.semantics.Role
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.unit.sp
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.ViewModel
@@ -41,7 +49,13 @@ import uz.hangulfriend.data.ProgressRepository
 import uz.hangulfriend.data.StoryRepository
 import uz.hangulfriend.story.EpisodeState
 import uz.hangulfriend.story.StoryRules
-import uz.hangulfriend.ui.theme.GameCard
+import uz.hangulfriend.ui.kit.LocalGameFeedback
+import uz.hangulfriend.ui.kit.PanelTitle
+import uz.hangulfriend.ui.kit.ScreenHeader
+import uz.hangulfriend.ui.kit.Sfx
+import uz.hangulfriend.ui.kit.pulseRing
+import uz.hangulfriend.ui.kit.shape
+import uz.hangulfriend.ui.kit.shapeGlow
 import uz.hangulfriend.ui.theme.LocalGameTokens
 
 data class EpisodeRow(val entry: CatalogEntry, val storyTitle: String?, val state: EpisodeState)
@@ -62,52 +76,76 @@ class StoryListViewModel(content: ContentRepository, progress: ProgressRepositor
 @Composable
 fun StoryListScreen(vm: StoryListViewModel, onOpen: (String) -> Unit) {
     val rows by vm.rows.collectAsStateWithLifecycle()
-    Column(Modifier.padding(16.dp).verticalScroll(rememberScrollState()), verticalArrangement = Arrangement.spacedBy(12.dp)) {
-        Text(stringResource(R.string.stories_title), style = MaterialTheme.typography.headlineMedium)
+    Column(Modifier.padding(horizontal = 16.dp).verticalScroll(rememberScrollState()), verticalArrangement = Arrangement.spacedBy(10.dp)) {
+        ScreenHeader(stringResource(R.string.stories_title))
         rows.groupBy { it.entry.unit }.forEach { (unit, episodes) ->
-            Text(stringResource(R.string.story_unit, unit), style = MaterialTheme.typography.titleMedium)
+            Box(Modifier.padding(top = 6.dp)) { PanelTitle(stringResource(R.string.story_unit, unit)) }
             episodes.forEach { row -> EpisodeCard(row, onOpen) }
         }
+        Spacer(Modifier.height(8.dp))
     }
 }
 
+/** One episode: a NEW one glows and pulses, a DONE one shows a check, the rest are faded. */
 @Composable
 private fun EpisodeCard(row: EpisodeRow, onOpen: (String) -> Unit) {
+    val t = LocalGameTokens.current
+    val feedback = LocalGameFeedback.current
     val open = row.state == EpisodeState.NEW || row.state == EpisodeState.DONE
-    GameCard(
-        Modifier.fillMaxWidth().alpha(if (open) 1f else 0.5f).clickable(enabled = open) { onOpen(row.entry.id) },
-    ) {
-        Row(Modifier.padding(16.dp), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
-            val t = LocalGameTokens.current
-            Icon(
-                when (row.state) {
-                    EpisodeState.LOCKED -> Icons.Filled.Lock
-                    EpisodeState.COMING_SOON -> Icons.Filled.HourglassEmpty
-                    EpisodeState.NEW -> Icons.AutoMirrored.Filled.MenuBook
-                    EpisodeState.DONE -> Icons.Filled.CheckCircle
-                },
-                contentDescription = null,
-                tint = when (row.state) {
-                    EpisodeState.NEW -> t.accent
-                    EpisodeState.DONE -> t.accent2
-                    else -> t.muted
-                },
-                modifier = Modifier.size(28.dp),
-            )
-            Column(Modifier.weight(1f)) {
-                Text("${row.entry.unit}-${row.entry.lesson}. ${row.storyTitle ?: row.entry.titleUz}", style = MaterialTheme.typography.titleMedium)
-                Text(
-                    stringResource(
-                        when (row.state) {
-                            EpisodeState.LOCKED -> R.string.story_locked
-                            EpisodeState.COMING_SOON -> R.string.story_soon
-                            EpisodeState.NEW -> R.string.story_new
-                            EpisodeState.DONE -> R.string.story_done
-                        },
-                    ),
-                    style = MaterialTheme.typography.bodySmall,
-                )
+    val isNew = row.state == EpisodeState.NEW
+    val color = when (row.state) {
+        EpisodeState.NEW -> t.accent
+        EpisodeState.DONE -> t.accent2
+        else -> t.muted
+    }
+    val shape = t.shape(10.dp)
+    Row(
+        Modifier
+            .fillMaxWidth()
+            .alpha(if (open) 1f else 0.5f)
+            .then(if (isNew) Modifier.pulseRing(t.accent, shape).shapeGlow(t.accent.copy(alpha = 0.3f), shape, 10.dp) else Modifier)
+            .clip(shape)
+            .background(t.panel, shape)
+            .border(1.dp, color.copy(alpha = if (open) 0.9f else 0.4f), shape)
+            .clickable(enabled = open, role = Role.Button) {
+                feedback.play(Sfx.OPEN)
+                onOpen(row.entry.id)
             }
+            .padding(14.dp),
+        verticalAlignment = Alignment.CenterVertically,
+        horizontalArrangement = Arrangement.spacedBy(14.dp),
+    ) {
+        Icon(
+            when (row.state) {
+                EpisodeState.LOCKED -> Icons.Filled.Lock
+                EpisodeState.COMING_SOON -> Icons.Filled.HourglassEmpty
+                EpisodeState.NEW -> Icons.AutoMirrored.Filled.MenuBook
+                EpisodeState.DONE -> Icons.Filled.CheckCircle
+            },
+            contentDescription = null,
+            tint = color,
+            modifier = Modifier.size(28.dp),
+        )
+        Column(Modifier.weight(1f)) {
+            Text(
+                "${row.entry.unit}-${row.entry.lesson} · ${row.storyTitle ?: row.entry.titleUz}",
+                color = t.text,
+                fontFamily = t.display,
+                fontWeight = FontWeight.SemiBold,
+                fontSize = 16.sp,
+            )
+            Text(
+                stringResource(
+                    when (row.state) {
+                        EpisodeState.LOCKED -> R.string.story_locked
+                        EpisodeState.COMING_SOON -> R.string.story_soon
+                        EpisodeState.NEW -> R.string.story_new
+                        EpisodeState.DONE -> R.string.story_done
+                    },
+                ),
+                color = if (isNew) t.accent else t.muted,
+                fontSize = 12.sp,
+            )
         }
     }
 }

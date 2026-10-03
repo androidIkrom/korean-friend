@@ -35,5 +35,8 @@ class MemoryGame(words: List<Word>, random: Random) {
 
     companion object {
         const val PAIRS = 6
+
+        /** 100 for a perfect game, 5 less per move beyond the [PAIRS] needed, never below 10. */
+        fun score(moves: Int): Int = (100 - (moves - PAIRS) * 5).coerceAtLeast(10)
     }
 }
