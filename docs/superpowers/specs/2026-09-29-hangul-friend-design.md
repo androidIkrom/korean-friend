@@ -341,3 +341,6 @@ Har bir bosqich tugaganda telefonda ishlatsa bo'ladigan ilova bo'ladi. Har bir b
    baholanadi, bo'sh bosqich, qorong'i oyna, eslatma ruxsati va boshqalar). Spec: `2026-10-02-stage7e-fixes-design.md`.
    7f: mashq holati burilishda saqlanadi, epizod klipi qayta ijro etilmaydi, yakuniy test dialoglari ikki ovozda.
    Spec: `2026-10-02-stage7f-polish-design.md`.
+9. **Ingliz tili.** Sozlama va onboardingda "O'zbekcha / English" tanlovi (standart — o'zbekcha). Butun interfeys
+   (`values-en`), barcha dars, hikoya va yakuniy test kontenti (`*_en` maydonlar), eslatmalar va AI o'qituvchi tanlangan tilda.
+   Spec: `2026-10-02-stage8-english-design.md`.
