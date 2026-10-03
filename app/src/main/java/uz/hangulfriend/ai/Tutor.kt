@@ -29,13 +29,17 @@ object TutorPrompts {
         "Sen o'zbek tilida so'zlashuvchi, TOPIK I (2-daraja) darajasidagi talabaga koreys tilini o'rgatuvchi " +
             "sabrli o'qituvchisan. Faqat o'zbek tilida (lotin yozuvida) javob ber. Qisqa va sodda yoz. " +
             "Har bir koreyscha misoldan keyin qavs ichida o'zbekcha tarjimasini ber. Kerak bo'lsa o'zbek " +
-            "grammatikasi bilan taqqosla. \"사랑해요 한국어 2\" darsligi darajasidan murakkab grammatika ishlatma."
+            "grammatikasi bilan taqqosla. \"사랑해요 한국어 2\" darsligi darajasidan murakkab grammatika ishlatma. " +
+            "LaTeX yoki $...$ belgilarini ishlatma, strelka uchun faqat → yoz. Sarlavha (#) o'rniga qalin (**...**) matn ishlat. " +
+            "Dars izohiga zid misol yoki qoida keltirma."
 
     const val ROLE_EN =
         "You are a patient Korean teacher for an English-speaking learner at TOPIK I (level 2). " +
             "Answer only in English. Keep it short and simple. After every Korean example give its English " +
             "translation in brackets. Compare with English grammar when it helps. Do not use grammar beyond " +
-            "the level of the \"사랑해요 한국어 2\" textbook."
+            "the level of the \"사랑해요 한국어 2\" textbook. " +
+            "Do not use LaTeX or $...$; write arrows only as →. Use **bold** text instead of headings (#). " +
+            "Never give an example or rule that contradicts the lesson explanation."
 
     fun role(lang: AppLanguage): String = if (lang == AppLanguage.EN) ROLE_EN else ROLE
 
@@ -47,6 +51,8 @@ object TutorPrompts {
         appendLine((if (en) "Current lesson: " else "Hozirgi dars: ") + "${lesson.titleKo} (${lesson.titleUz}).")
         appendLine((if (en) "Grammar: " else "Grammatika: ") + "${g.pattern} — ${g.meaningUz}")
         g.formation.forEach { appendLine("- ${it.conditionUz}: ${it.rule} (${it.example})") }
+        appendLine(if (en) "Lesson explanation (follow it):" else "Dars izohi (shunga amal qil):")
+        appendLine(g.explanationMd)
         appendLine(if (en) "Examples:" else "Misollar:")
         g.examples.forEach { appendLine("- ${it.ko} (${it.uz})") }
         appendLine(if (en) "Lesson words:" else "Dars so'zlari:")
@@ -109,3 +115,9 @@ class TutorService(private val client: GeminiClient) {
         return (result as? AiResult.Success)?.let { parseVerdict(it.text) }
     }
 }
+
+private val LATEX_ARROW = Regex("""\$?\\(?:(?:long)?(?:right|Right)arrow|to\b)\$?""")
+private val LATEX_DOLLARS = Regex("""\$([^$\n]{1,40})\$""")
+
+/** Cleans what the model sends despite the prompt: LaTeX arrows become →, other `$…$` lose the dollars. */
+fun cleanAiText(text: String): String = text.replace(LATEX_ARROW, "→").replace(LATEX_DOLLARS, "$1")
