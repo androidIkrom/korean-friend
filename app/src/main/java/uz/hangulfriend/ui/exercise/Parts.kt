@@ -1,29 +1,46 @@
 package uz.hangulfriend.ui.exercise
 
-import androidx.compose.foundation.layout.Arrangement
-import androidx.compose.foundation.layout.Column
+import androidx.compose.animation.core.Animatable
+import androidx.compose.animation.core.FastOutSlowInEasing
+import androidx.compose.animation.core.tween
+import androidx.compose.foundation.layout.ColumnScope
+import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
-import androidx.compose.material3.Button
+import androidx.compose.foundation.layout.size
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Cancel
+import androidx.compose.material.icons.filled.CheckCircle
+import androidx.compose.material.icons.outlined.AutoAwesome
+import androidx.compose.material.icons.outlined.Lightbulb
+import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.Text
-import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.graphicsLayer
+import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 import uz.hangulfriend.R
 import uz.hangulfriend.ai.TutorPrompts
 import uz.hangulfriend.ui.currentLanguage
+import uz.hangulfriend.ui.kit.HuntButton
+import uz.hangulfriend.ui.kit.HuntPanel
+import uz.hangulfriend.ui.kit.HuntStyle
+import uz.hangulfriend.ui.kit.LocalReducedMotion
 import uz.hangulfriend.ui.theme.CorrectGreen
-import uz.hangulfriend.ui.theme.GameCard
+import uz.hangulfriend.ui.theme.LocalGameTokens
 import uz.hangulfriend.ui.theme.WrongRed
 import uz.hangulfriend.ui.tutor.LocalTutor
 import uz.hangulfriend.ui.tutor.TutorSheet
@@ -39,30 +56,68 @@ data class FeedbackInfo(
     val askAi: String? = null,
 )
 
+/** Slides up and fades in on first appearance. */
+@Composable
+private fun Modifier.riseIn(): Modifier {
+    val reduced = LocalReducedMotion.current
+    val a = remember { Animatable(if (reduced) 1f else 0f) }
+    LaunchedEffect(Unit) { a.animateTo(1f, tween(240, easing = FastOutSlowInEasing)) }
+    val dy = with(LocalDensity.current) { 24.dp.toPx() }
+    return graphicsLayer {
+        alpha = a.value
+        translationY = (1f - a.value) * dy
+    }
+}
+
 @Composable
 fun FeedbackPanel(info: FeedbackInfo, onNext: () -> Unit) {
+    val t = LocalGameTokens.current
     val color: Color = if (info.correct) CorrectGreen else WrongRed
-    GameCard(Modifier.fillMaxWidth(), containerColor = color.copy(alpha = 0.15f), borderColor = color) {
-        Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
-            Text(info.message, color = color, style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Bold)
-            if (!info.correct && info.correctAnswer != null) {
-                Text(stringResource(R.string.ex_correct_answer, info.correctAnswer), style = MaterialTheme.typography.bodyLarge)
-            }
-            if (info.samples.isNotEmpty()) {
-                Text(stringResource(R.string.ex_sample_answers), style = MaterialTheme.typography.labelLarge)
-                info.samples.forEach { Text("• $it") }
-            }
-            info.why?.let { Text(it, style = MaterialTheme.typography.bodyMedium) }
-            val question = info.askAi
-            if (!info.correct && question != null && LocalTutor.current != null) {
-                var open by remember { mutableStateOf(false) }
-                OutlinedButton(onClick = { open = true }, modifier = Modifier.fillMaxWidth()) {
-                    Text(stringResource(R.string.ai_ask_mistake))
-                }
-                if (open) TutorSheet(TutorPrompts.role(currentLanguage()), question) { open = false }
-            }
-            Button(onClick = onNext, modifier = Modifier.fillMaxWidth()) { Text(stringResource(R.string.ex_next)) }
+    HuntPanel(Modifier.riseIn(), accent = color) {
+        Row(verticalAlignment = Alignment.CenterVertically) {
+            Icon(
+                if (info.correct) Icons.Filled.CheckCircle else Icons.Filled.Cancel,
+                contentDescription = null,
+                tint = color,
+                modifier = Modifier.size(24.dp),
+            )
+            Text(
+                info.message,
+                color = color,
+                fontFamily = t.display,
+                fontWeight = FontWeight.Bold,
+                fontSize = 18.sp,
+                modifier = Modifier.weight(1f).padding(start = 8.dp),
+            )
         }
+        if (!info.correct && info.correctAnswer != null) {
+            Text(stringResource(R.string.ex_correct_answer, info.correctAnswer), color = t.text, style = MaterialTheme.typography.bodyLarge)
+        }
+        if (info.samples.isNotEmpty()) {
+            Text(stringResource(R.string.ex_sample_answers), color = t.muted, style = MaterialTheme.typography.labelLarge)
+            info.samples.forEach { Text("• $it", color = t.text) }
+        }
+        info.why?.let { Text(it, color = t.text, style = MaterialTheme.typography.bodyMedium) }
+        val question = info.askAi
+        if (!info.correct && question != null && LocalTutor.current != null) {
+            var open by remember { mutableStateOf(false) }
+            HuntButton(
+                stringResource(R.string.ai_ask_mistake),
+                onClick = { open = true },
+                modifier = Modifier.fillMaxWidth(),
+                style = HuntStyle.SECONDARY,
+                icon = Icons.Outlined.AutoAwesome,
+                minHeight = 44.dp,
+                fontSize = 14,
+            )
+            if (open) TutorSheet(TutorPrompts.role(currentLanguage()), question) { open = false }
+        }
+        HuntButton(
+            stringResource(R.string.ex_next).uppercase(),
+            onClick = onNext,
+            modifier = Modifier.fillMaxWidth(),
+            style = if (info.correct) HuntStyle.SUCCESS else HuntStyle.PRIMARY,
+        )
     }
 }
 
@@ -70,20 +125,33 @@ fun FeedbackPanel(info: FeedbackInfo, onNext: () -> Unit) {
 @Composable
 fun HintButton(hint: String?, enabled: Boolean, onUsed: () -> Unit) {
     if (hint == null) return
-    var shown by remember { mutableStateOf(false) }
+    var shown by rememberSaveable { mutableStateOf(false) }
     if (shown) {
-        Text("💡 $hint", style = MaterialTheme.typography.bodyMedium)
+        Text("💡 $hint", color = LocalGameTokens.current.text, style = MaterialTheme.typography.bodyMedium)
     } else {
-        TextButton(onClick = { shown = true; onUsed() }, enabled = enabled) { Text(stringResource(R.string.ex_hint)) }
+        HuntButton(
+            stringResource(R.string.ex_hint),
+            onClick = { shown = true; onUsed() },
+            style = HuntStyle.SECONDARY,
+            enabled = enabled,
+            icon = Icons.Outlined.Lightbulb,
+            minHeight = 40.dp,
+            fontSize = 13,
+        )
+    }
+}
+
+/** The question as a `[ QUEST ]` System window; [content] (the Korean sentence, audio…) sits inside it. */
+@Composable
+fun QuestCard(prompt: String, content: @Composable ColumnScope.() -> Unit = {}) {
+    val t = LocalGameTokens.current
+    HuntPanel(title = stringResource(R.string.battle_quest), scan = true) {
+        Text(prompt, color = t.text, fontWeight = FontWeight.SemiBold, fontSize = 17.sp, lineHeight = 23.sp)
+        content()
     }
 }
 
 @Composable
-fun PromptText(text: String) {
-    Text(text, style = MaterialTheme.typography.titleMedium)
-}
-
-@Composable
 fun KoreanText(text: String) {
-    Text(text, style = MaterialTheme.typography.headlineMedium)
+    Text(text, color = LocalGameTokens.current.text, style = MaterialTheme.typography.headlineMedium)
 }

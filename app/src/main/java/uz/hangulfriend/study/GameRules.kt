@@ -34,6 +34,26 @@ object GameRules {
         else -> 0
     }
 
+    /** The letter a finished run earns: S ≥ 95 %, A ≥ 85, B ≥ 70, C ≥ 55, D ≥ 40, else E; a lost run is E. */
+    fun clearGrade(percent: Int, failed: Boolean): String = when {
+        failed -> "E"
+        percent >= 95 -> "S"
+        percent >= 85 -> "A"
+        percent >= 70 -> "B"
+        percent >= 55 -> "C"
+        percent >= 40 -> "D"
+        else -> "E"
+    }
+
+    /** Stars of a finished run: 3 from 90 %, 2 from 70, 1 from 40; a lost run gets none. */
+    fun clearStars(percent: Int, failed: Boolean): Int = when {
+        failed -> 0
+        percent >= 90 -> 3
+        percent >= 70 -> 2
+        percent >= 40 -> 1
+        else -> 0
+    }
+
     data class LevelInfo(val level: Int, val xpIntoLevel: Int, val xpForNext: Int)
 
     /** Level L starts at 50·L·(L−1) total XP: 1 → 0, 2 → 100, 3 → 300, 4 → 600 … */

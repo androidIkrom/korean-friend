@@ -87,6 +87,15 @@
 
     <string name="home_level_progress">%1$d / %2$d XP</string>
 
+    <string name="battle_quest">Quest</string>
+    <string name="battle_floor">Floor %1$d/%2$d</string>
+    <string name="battle_hearts">Hearts: %1$d</string>
+    <string name="clear_title">Gate cleared</string>
+    <string name="clear_failed">Gate not cleared</string>
+    <string name="clear_claim">Claim</string>
+    <string name="clear_loot">Loot · words</string>
+    <string name="clear_grade">Grade: %1$s</string>
+    <string name="clear_stars">%1$d of 3 stars</string>
     <string name="session_combo">🔥 %1$d in a row!</string>
     <string name="session_xp">+%1$d XP</string>
     <string name="session_boss_won">⚔️ Boss defeated!</string>

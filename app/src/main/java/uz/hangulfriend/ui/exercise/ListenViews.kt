@@ -1,11 +1,8 @@
 package uz.hangulfriend.ui.exercise
 
-import androidx.compose.foundation.layout.Arrangement
-import androidx.compose.foundation.layout.Column
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.ui.res.stringResource
-import androidx.compose.ui.unit.dp
 import uz.hangulfriend.R
 import uz.hangulfriend.content.Exercise
 import uz.hangulfriend.content.Word
@@ -23,17 +20,14 @@ private fun AutoPlay(file: String?) {
 @Composable
 fun ListenChooseView(word: Word, options: List<Word>, onResult: (ExerciseOutcome) -> Unit, onNext: () -> Unit) {
     AutoPlay(word.audio)
-    Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
-        AudioButton(word.audio)
-        ChoiceView(
-            prompt = stringResource(R.string.ex_listen_choose_prompt),
-            options = options.map { it.uz },
-            answers = listOf(word.uz),
-            why = word.ko,
-            onResult = onResult,
-            onNext = onNext,
-        )
-    }
+    ChoiceView(
+        prompt = stringResource(R.string.ex_listen_choose_prompt),
+        options = options.map { it.uz },
+        answers = listOf(word.uz),
+        why = word.ko,
+        onResult = onResult,
+        onNext = onNext,
+    ) { AudioButton(word.audio) }
 }
 
 @Composable
@@ -54,8 +48,5 @@ fun DictationView(word: Word, onResult: (ExerciseOutcome) -> Unit, onNext: () ->
 @Composable
 fun ListenQuestionView(e: Exercise, onResult: (ExerciseOutcome) -> Unit, onNext: () -> Unit) {
     AutoPlay(e.audio)
-    Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
-        AudioButton(e.audio)
-        ChoiceView(e.promptUz, e.options.orEmpty(), e.answers, e.whyUz ?: e.audioText, onResult, onNext)
-    }
+    ChoiceView(e.promptUz, e.options.orEmpty(), e.answers, e.whyUz ?: e.audioText, onResult, onNext) { AudioButton(e.audio) }
 }

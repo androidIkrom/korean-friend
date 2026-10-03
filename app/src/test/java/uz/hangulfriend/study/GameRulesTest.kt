@@ -70,6 +70,30 @@ class GameRulesTest {
         assertTrue("first_unit" in GameRules.achievements(stats(units = 1)))
     }
 
+    @Test fun gradeBands() {
+        assertEquals("S", GameRules.clearGrade(100, failed = false))
+        assertEquals("S", GameRules.clearGrade(95, failed = false))
+        assertEquals("A", GameRules.clearGrade(94, failed = false))
+        assertEquals("A", GameRules.clearGrade(85, failed = false))
+        assertEquals("B", GameRules.clearGrade(70, failed = false))
+        assertEquals("C", GameRules.clearGrade(55, failed = false))
+        assertEquals("D", GameRules.clearGrade(40, failed = false))
+        assertEquals("E", GameRules.clearGrade(39, failed = false))
+    }
+
+    @Test fun starBands() {
+        assertEquals(3, GameRules.clearStars(90, failed = false))
+        assertEquals(2, GameRules.clearStars(89, failed = false))
+        assertEquals(2, GameRules.clearStars(70, failed = false))
+        assertEquals(1, GameRules.clearStars(40, failed = false))
+        assertEquals(0, GameRules.clearStars(39, failed = false))
+    }
+
+    @Test fun failedIsE() {
+        assertEquals("E", GameRules.clearGrade(100, failed = true))
+        assertEquals(0, GameRules.clearStars(100, failed = true))
+    }
+
     @Test fun allAchievementIdsListed() =
         assertEquals(setOf("first_lesson", "first_unit", "words_100", "words_500", "streak_7", "streak_30", "first_boss"), GameRules.ACHIEVEMENTS.toSet())
 }

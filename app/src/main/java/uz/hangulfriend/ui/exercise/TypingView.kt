@@ -5,7 +5,6 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.text.KeyboardActions
 import androidx.compose.foundation.text.KeyboardOptions
-import androidx.compose.material3.Button
 import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -25,7 +24,9 @@ import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.unit.dp
 import uz.hangulfriend.R
 import uz.hangulfriend.hangul.AnswerChecker
+import uz.hangulfriend.ui.kit.HuntButton
 import uz.hangulfriend.ui.session.ExerciseOutcome
+import uz.hangulfriend.ui.theme.LocalGameTokens
 import uz.hangulfriend.ui.session.feedbackText
 
 /**
@@ -89,8 +90,7 @@ fun TypingView(
     }
 
     Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
-        PromptText(prompt)
-        body?.invoke()
+        QuestCard(prompt) { body?.invoke() }
         OutlinedTextField(
             value = input,
             onValueChange = { if (feedback == null) input = it },
@@ -103,11 +103,14 @@ fun TypingView(
         HintButton(hint, enabled = feedback == null) { usedHint = true }
         val shown = feedback
         if (checking) {
-            Text(stringResource(R.string.ai_checking))
+            Text(stringResource(R.string.ai_checking), color = LocalGameTokens.current.muted)
         } else if (shown == null) {
-            Button(onClick = ::check, enabled = input.isNotBlank(), modifier = Modifier.fillMaxWidth()) {
-                Text(stringResource(R.string.ex_check))
-            }
+            HuntButton(
+                stringResource(R.string.ex_check).uppercase(),
+                onClick = ::check,
+                enabled = input.isNotBlank(),
+                modifier = Modifier.fillMaxWidth(),
+            )
         } else {
             FeedbackPanel(shown, onNext)
         }

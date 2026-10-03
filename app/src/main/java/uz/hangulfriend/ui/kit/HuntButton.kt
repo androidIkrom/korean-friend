@@ -74,6 +74,7 @@ fun HuntButton(
     sfx: Sfx = Sfx.TAP,
     minHeight: Dp = 52.dp,
     fontSize: Int = 15,
+    horizontalPadding: Dp = 18.dp,
 ) {
     val t = LocalGameTokens.current
     val p = huntPalette(style, t)
@@ -101,7 +102,7 @@ fun HuntButton(
                     onClick()
                 }
                 .heightIn(min = minHeight)
-                .padding(horizontal = 18.dp, vertical = 12.dp),
+                .padding(horizontal = horizontalPadding, vertical = 12.dp),
             contentAlignment = Alignment.Center,
         ) {
             Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
