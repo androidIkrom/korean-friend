@@ -28,10 +28,19 @@ import uz.hangulfriend.data.GameThemeId
 import uz.hangulfriend.i18n.LanguageStore
 import uz.hangulfriend.i18n.Localized
 import uz.hangulfriend.ui.theme.GameBackground
+import uz.hangulfriend.ui.kit.AndroidGameFeedback
+import uz.hangulfriend.ui.kit.LocalGameFeedback
+import uz.hangulfriend.ui.kit.LocalReducedMotion
+import uz.hangulfriend.ui.kit.isReducedMotion
+import androidx.lifecycle.lifecycleScope
 import uz.hangulfriend.ui.theme.HangulFriendTheme
 
 class MainActivity : ComponentActivity() {
     private val audio by lazy { AudioPlayer(this) }
+    private val feedback by lazy {
+        val container = (application as HangulFriendApp).container
+        AndroidGameFeedback(applicationContext, lifecycleScope, container.settings.settings)
+    }
 
     // The chosen app language, not the phone's, decides every string the activity shows.
     override fun attachBaseContext(newBase: Context) {
@@ -67,6 +76,8 @@ class MainActivity : ComponentActivity() {
                     LocalFlagReporter provides FlagReporter { item, reason, comment -> container.flags.flag(item, reason, comment) },
                     LocalSpeechInput provides container.speech,
                     LocalTutor provides container.tutor,
+                    LocalGameFeedback provides feedback,
+                    LocalReducedMotion provides isReducedMotion(this),
                 ) {
                     // One shared backdrop behind every screen; screens that draw their own reuse it.
                     GameBackground { HangulFriendNav(container, openReview) }
@@ -82,6 +93,7 @@ class MainActivity : ComponentActivity() {
 
     override fun onDestroy() {
         audio.release()
+        feedback.release()
         super.onDestroy()
     }
 }

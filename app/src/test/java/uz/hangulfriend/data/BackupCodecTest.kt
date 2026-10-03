@@ -64,6 +64,21 @@ class BackupCodecTest {
         assertEquals("boy", (BackupCodec.decode(text) as BackupResult.Ok).file.settings.hero)
     }
 
+    @Test fun oldFileDefaultsFeedbackOn() {
+        val text = BackupCodec.encode(file.copy(settings = file.settings.copy(sound = false, haptics = false)))
+            .replace(Regex(""",?\s*"(sound|haptics)":\s*(true|false)"""), "")
+        assertTrue(!text.contains("\"sound\"") && !text.contains("\"haptics\""))
+        val s = (BackupCodec.decode(text) as BackupResult.Ok).file.settings
+        assertEquals(true to true, s.sound to s.haptics)
+    }
+
+    @Test fun feedbackRoundTrip() {
+        val quiet = file.copy(settings = file.settings.copy(sound = false, haptics = true))
+        val s = (BackupCodec.decode(BackupCodec.encode(quiet)) as BackupResult.Ok).file.settings
+        assertEquals(false to true, s.sound to s.haptics)
+        assertEquals(false, s.toSettings().soundOn)
+    }
+
     @Test fun heroRoundTrip() {
         val girl = file.copy(settings = file.settings.copy(hero = "girl"))
         assertEquals("girl", (BackupCodec.decode(BackupCodec.encode(girl)) as BackupResult.Ok).file.settings.hero)

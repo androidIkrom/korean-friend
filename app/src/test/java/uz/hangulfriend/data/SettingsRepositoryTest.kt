@@ -67,6 +67,18 @@ class SettingsRepositoryTest {
         assertEquals(HeroGender.GIRL, settings.settings.first().hero)
     }
 
+    @Test fun soundAndHapticsDefaultOnAndRoundTrip() = runTest {
+        val first = settings.settings.first()
+        assertEquals(true to true, first.soundOn to first.hapticsOn)
+        settings.setSound(false)
+        settings.setHaptics(false)
+        val off = settings.settings.first()
+        assertEquals(false to false, off.soundOn to off.hapticsOn)
+        settings.replaceAll(Settings(soundOn = true, hapticsOn = false))
+        val replaced = settings.settings.first()
+        assertEquals(true to false, replaced.soundOn to replaced.hapticsOn)
+    }
+
     @Test fun replaceAllWritesTheme() = runTest {
         settings.replaceAll(Settings(theme = GameThemeId.NEON))
         assertEquals(GameThemeId.NEON, settings.settings.first().theme)
