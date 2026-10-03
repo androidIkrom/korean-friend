@@ -1,6 +1,8 @@
 package uz.hangulfriend.ui.tutor
 
 import androidx.compose.foundation.background
+import androidx.compose.foundation.border
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -9,14 +11,11 @@ import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.widthIn
 import androidx.compose.foundation.rememberScrollState
-import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.Send
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.ExperimentalMaterial3Api
-import androidx.compose.material3.Icon
-import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.ModalBottomSheet
 import androidx.compose.material3.OutlinedTextField
@@ -33,6 +32,8 @@ import androidx.compose.runtime.setValue
 import androidx.compose.runtime.staticCompositionLocalOf
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.compositeOver
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import com.mikepenz.markdown.m3.Markdown
@@ -43,6 +44,10 @@ import uz.hangulfriend.ai.ChatMessage
 import uz.hangulfriend.ai.TutorService
 import uz.hangulfriend.ai.cleanAiText
 import com.mikepenz.markdown.m3.markdownTypography
+import uz.hangulfriend.ui.kit.IconAction
+import uz.hangulfriend.ui.kit.PanelTitle
+import uz.hangulfriend.ui.kit.scanLine
+import uz.hangulfriend.ui.kit.shape
 import uz.hangulfriend.ui.theme.LocalGameTokens
 import androidx.compose.ui.text.font.FontWeight
 import uz.hangulfriend.ui.theme.WrongRed
@@ -83,9 +88,17 @@ fun TutorSheet(system: String, firstQuestion: String, onDismiss: () -> Unit) {
 
     LaunchedEffect(Unit) { send(firstQuestion) }
 
-    ModalBottomSheet(onDismissRequest = onDismiss, sheetState = rememberModalBottomSheetState(skipPartiallyExpanded = true)) {
+    val t = LocalGameTokens.current
+    ModalBottomSheet(
+        onDismissRequest = onDismiss,
+        sheetState = rememberModalBottomSheetState(skipPartiallyExpanded = true),
+        containerColor = t.panel.compositeOver(t.background),
+    ) {
         Column(Modifier.padding(horizontal = 16.dp).padding(bottom = 16.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
-            Text(stringResource(R.string.ai_title), style = MaterialTheme.typography.titleLarge)
+            // The `[ SYSTEM · AI ]` window title with a scan line.
+            Box(Modifier.fillMaxWidth().clip(t.shape(6.dp)).scanLine(t.accent.copy(alpha = 0.18f)).padding(vertical = 6.dp)) {
+                PanelTitle(stringResource(R.string.ai_title))
+            }
             Column(
                 Modifier.heightIn(max = 480.dp).verticalScroll(rememberScrollState()),
                 verticalArrangement = Arrangement.spacedBy(8.dp),
@@ -97,36 +110,38 @@ fun TutorSheet(system: String, firstQuestion: String, onDismiss: () -> Unit) {
                         Modifier.fillMaxWidth(),
                         horizontalAlignment = if (m.fromUser) Alignment.End else Alignment.Start,
                     ) {
+                        val bubble = t.shape(10.dp)
+                        val rim = if (m.fromUser) t.accent else t.accent2
                         Column(
                             Modifier
                                 .widthIn(max = 320.dp)
-                                .background(
-                                    if (m.fromUser) MaterialTheme.colorScheme.primaryContainer else MaterialTheme.colorScheme.surfaceVariant,
-                                    RoundedCornerShape(12.dp),
-                                )
+                                .background(if (m.fromUser) t.accent.copy(alpha = 0.16f) else t.background.copy(alpha = 0.6f), bubble)
+                                .border(1.dp, rim.copy(alpha = 0.6f), bubble)
                                 .padding(12.dp),
                         ) {
-                            if (m.fromUser) Text(text) else Markdown(content = cleanAiText(text), typography = compactMarkdownTypography())
+                            if (m.fromUser) Text(text, color = t.text) else Markdown(content = cleanAiText(text), typography = compactMarkdownTypography())
                         }
                     }
                 }
-                if (loading) CircularProgressIndicator(Modifier.padding(8.dp))
+                if (loading) CircularProgressIndicator(Modifier.padding(8.dp), color = t.accent)
                 status?.let { Text(stringResource(it), color = WrongRed) }
             }
-            Row(verticalAlignment = Alignment.CenterVertically) {
+            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
                 OutlinedTextField(
                     value = input,
                     onValueChange = { input = it },
                     placeholder = { Text(stringResource(R.string.ai_input_hint)) },
                     modifier = Modifier.weight(1f),
                 )
-                IconButton(
+                IconAction(
+                    Icons.AutoMirrored.Filled.Send,
+                    stringResource(R.string.ai_send),
                     onClick = {
                         send(input)
                         input = ""
                     },
                     enabled = input.isNotBlank() && !loading,
-                ) { Icon(Icons.AutoMirrored.Filled.Send, contentDescription = stringResource(R.string.ai_send)) }
+                )
             }
         }
     }

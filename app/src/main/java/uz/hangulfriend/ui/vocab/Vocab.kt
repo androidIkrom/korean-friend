@@ -15,17 +15,11 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.LazyRow
 import androidx.compose.foundation.lazy.items
-import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material.icons.filled.Add
 import androidx.compose.material.icons.filled.Clear
 import androidx.compose.material.icons.filled.Search
-import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.ExperimentalMaterial3Api
-import androidx.compose.material3.FilterChip
-import androidx.compose.material3.FilterChipDefaults
-import androidx.compose.material3.FloatingActionButton
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.ModalBottomSheet
@@ -33,7 +27,6 @@ import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.SnackbarHost
 import androidx.compose.material3.SnackbarHostState
 import androidx.compose.material3.Text
-import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -43,11 +36,11 @@ import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.rotate
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.pluralStringResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.semantics.Role
-import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.ViewModel
@@ -72,6 +65,13 @@ import uz.hangulfriend.data.UserWordRepository
 import uz.hangulfriend.data.UserWordRepository.AddResult
 import uz.hangulfriend.data.userWordId
 import uz.hangulfriend.ui.AudioButton
+import uz.hangulfriend.ui.kit.HuntButton
+import uz.hangulfriend.ui.kit.HuntChip
+import uz.hangulfriend.ui.kit.HuntStyle
+import uz.hangulfriend.ui.kit.IconAction
+import uz.hangulfriend.ui.kit.ScreenHeader
+import uz.hangulfriend.ui.kit.Sfx
+import uz.hangulfriend.ui.kit.SystemDialog
 import uz.hangulfriend.ui.theme.GameBackground
 import uz.hangulfriend.ui.theme.LocalGameTokens
 
@@ -151,19 +151,8 @@ fun VocabScreen(vm: VocabViewModel, onBack: () -> Unit) {
 
     GameBackground {
         Column(Modifier.fillMaxSize().padding(horizontal = 16.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {
-            Row(Modifier.padding(top = 8.dp), verticalAlignment = Alignment.CenterVertically) {
-                IconButton(onClick = onBack) {
-                    Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = null, tint = t.text)
-                }
-                Text(
-                    stringResource(R.string.vocab_title),
-                    color = t.text,
-                    fontFamily = t.display,
-                    fontWeight = FontWeight.Bold,
-                    fontSize = 26.sp,
-                    modifier = Modifier.weight(1f),
-                )
-                Text(pluralStringResource(R.plurals.vocab_count, total, total), color = t.muted, fontSize = 13.sp)
+            ScreenHeader(stringResource(R.string.vocab_title), onBack) {
+                Text(pluralStringResource(R.plurals.vocab_count, total, total), color = t.muted, fontSize = 13.sp, modifier = Modifier.padding(end = 4.dp))
             }
             OutlinedTextField(
                 value = query,
@@ -200,12 +189,13 @@ fun VocabScreen(vm: VocabViewModel, onBack: () -> Unit) {
                 items(rows, key = { it.first.id }) { (entry, status) -> WordRow(entry, status) { opened = entry } }
             }
         }
-        FloatingActionButton(
+        IconAction(
+            Icons.Filled.Add,
+            stringResource(R.string.vocab_add),
             onClick = { adding = true },
-            containerColor = t.accent,
-            contentColor = t.background,
             modifier = Modifier.align(Alignment.BottomEnd).padding(20.dp),
-        ) { Icon(Icons.Filled.Add, contentDescription = stringResource(R.string.vocab_add)) }
+            sfx = Sfx.OPEN,
+        )
         SnackbarHost(snackbar, Modifier.align(Alignment.BottomCenter).padding(bottom = 88.dp))
     }
 
@@ -229,19 +219,7 @@ fun VocabScreen(vm: VocabViewModel, onBack: () -> Unit) {
 }
 
 @Composable
-private fun Chip(label: String, selected: Boolean, onClick: () -> Unit) {
-    val t = LocalGameTokens.current
-    FilterChip(
-        selected = selected,
-        onClick = onClick,
-        label = { Text(label) },
-        colors = FilterChipDefaults.filterChipColors(
-            selectedContainerColor = t.accent.copy(alpha = 0.2f),
-            selectedLabelColor = t.accent,
-            labelColor = t.text,
-        ),
-    )
-}
+private fun Chip(label: String, selected: Boolean, onClick: () -> Unit) = HuntChip(label, selected, onClick)
 
 @Composable
 private fun statusColor(status: WordStatus): Color {
@@ -262,6 +240,14 @@ private fun statusLabel(status: WordStatus): String = stringResource(
     },
 )
 
+/** A small diamond in the word's status colour. */
+@Composable
+private fun StatusMark(status: WordStatus) {
+    Box(Modifier.size(14.dp), contentAlignment = Alignment.Center) {
+        Box(Modifier.size(9.dp).rotate(45f).background(statusColor(status)))
+    }
+}
+
 @Composable
 private fun WordRow(entry: VocabEntry, status: WordStatus, onClick: () -> Unit) {
     val t = LocalGameTokens.current
@@ -274,7 +260,7 @@ private fun WordRow(entry: VocabEntry, status: WordStatus, onClick: () -> Unit) 
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(12.dp),
     ) {
-        Box(Modifier.size(10.dp).background(statusColor(status), CircleShape))
+        StatusMark(status)
         Column(Modifier.weight(1f)) {
             Text(entry.ko, color = t.text, fontSize = 18.sp)
             Text(entry.uz, color = t.muted, fontSize = 13.sp)
@@ -296,7 +282,7 @@ private fun WordSheet(entry: VocabEntry, status: WordStatus, onDismiss: () -> Un
             }
             Text(entry.uz, color = t.text, fontSize = 18.sp)
             Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-                Box(Modifier.size(10.dp).background(statusColor(status), CircleShape))
+                StatusMark(status)
                 Text(statusLabel(status), color = t.muted, fontSize = 13.sp)
                 Text(if (entry.own) stringResource(R.string.vocab_own) else entry.lessonTag, color = t.muted, fontSize = 13.sp)
             }
@@ -311,14 +297,22 @@ private fun WordSheet(entry: VocabEntry, status: WordStatus, onDismiss: () -> Un
             }
             entry.note?.let { Text(it, color = t.muted) }
             entry.ownId?.let { id ->
-                TextButton(onClick = { confirm = true }) { Text(stringResource(R.string.vocab_delete), color = t.danger) }
+                HuntButton(
+                    stringResource(R.string.vocab_delete),
+                    onClick = { confirm = true },
+                    style = HuntStyle.DANGER,
+                    minHeight = 40.dp,
+                    fontSize = 13,
+                )
                 if (confirm) {
-                    AlertDialog(
-                        onDismissRequest = { confirm = false },
-                        text = { Text(stringResource(R.string.vocab_delete_q)) },
-                        confirmButton = { TextButton(onClick = { onDelete(id) }) { Text(stringResource(R.string.vocab_delete)) } },
-                        dismissButton = { TextButton(onClick = { confirm = false }) { Text(stringResource(R.string.vocab_cancel)) } },
-                    )
+                    SystemDialog(
+                        title = stringResource(R.string.vocab_delete),
+                        onDismiss = { confirm = false },
+                        actions = {
+                            HuntButton(stringResource(R.string.vocab_cancel), onClick = { confirm = false }, modifier = Modifier.weight(1f), style = HuntStyle.SECONDARY, fontSize = 13)
+                            HuntButton(stringResource(R.string.vocab_delete), onClick = { onDelete(id) }, modifier = Modifier.weight(1f), style = HuntStyle.DANGER, fontSize = 13)
+                        },
+                    ) { Text(stringResource(R.string.vocab_delete_q), color = t.text) }
                 }
             }
         }
@@ -333,19 +327,15 @@ private fun AddWordDialog(onDismiss: () -> Unit, onAdd: suspend (String, String,
     var error by remember { mutableStateOf<Int?>(null) }
     var busy by remember { mutableStateOf(false) }
     val scope = rememberCoroutineScope()
-    AlertDialog(
-        onDismissRequest = onDismiss,
-        title = { Text(stringResource(R.string.vocab_add)) },
-        text = {
-            Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
-                OutlinedTextField(ko, { ko = it; error = null }, label = { Text(stringResource(R.string.vocab_ko)) }, singleLine = true)
-                OutlinedTextField(uz, { uz = it; error = null }, label = { Text(stringResource(R.string.vocab_uz)) }, singleLine = true)
-                OutlinedTextField(note, { note = it; error = null }, label = { Text(stringResource(R.string.vocab_note)) })
-                error?.let { Text(stringResource(it), color = LocalGameTokens.current.danger) }
-            }
-        },
-        confirmButton = {
-            TextButton(
+    SystemDialog(
+        title = stringResource(R.string.vocab_add),
+        onDismiss = onDismiss,
+        actions = {
+            HuntButton(stringResource(R.string.vocab_cancel), onClick = onDismiss, modifier = Modifier.weight(1f), style = HuntStyle.SECONDARY, fontSize = 13)
+            HuntButton(
+                stringResource(R.string.vocab_add_ok).uppercase(),
+                modifier = Modifier.weight(1f),
+                fontSize = 13,
                 enabled = ko.isNotBlank() && uz.isNotBlank() && !busy,
                 onClick = {
                     busy = true
@@ -359,8 +349,12 @@ private fun AddWordDialog(onDismiss: () -> Unit, onAdd: suspend (String, String,
                         busy = false
                     }
                 },
-            ) { Text(stringResource(R.string.vocab_add_ok)) }
+            )
         },
-        dismissButton = { TextButton(onClick = onDismiss) { Text(stringResource(R.string.vocab_cancel)) } },
-    )
+    ) {
+        OutlinedTextField(ko, { ko = it; error = null }, label = { Text(stringResource(R.string.vocab_ko)) }, singleLine = true, modifier = Modifier.fillMaxWidth())
+        OutlinedTextField(uz, { uz = it; error = null }, label = { Text(stringResource(R.string.vocab_uz)) }, singleLine = true, modifier = Modifier.fillMaxWidth())
+        OutlinedTextField(note, { note = it; error = null }, label = { Text(stringResource(R.string.vocab_note)) }, modifier = Modifier.fillMaxWidth())
+        error?.let { Text(stringResource(it), color = LocalGameTokens.current.danger) }
+    }
 }

@@ -22,6 +22,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import uz.hangulfriend.R
 import uz.hangulfriend.data.GameThemeId
+import uz.hangulfriend.ui.kit.shape
 import uz.hangulfriend.ui.theme.LocalGameTokens
 import uz.hangulfriend.ui.theme.tokensFor
 
@@ -35,7 +36,7 @@ fun ThemeRow(current: GameThemeId, onPick: (GameThemeId) -> Unit) {
             GameThemeId.entries.forEach { id ->
                 val t = tokensFor(id)
                 val selected = id == current
-                val shape = RoundedCornerShape(t.panelCorner)
+                val shape = t.shape(8.dp)
                 Column(
                     Modifier
                         .weight(1f)

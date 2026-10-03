@@ -44,6 +44,19 @@ class GamesTest {
         assertTrue(game.done)
     }
 
+    @Test fun memory_score() {
+        assertEquals(100, MemoryGame.score(6))
+        assertEquals(95, MemoryGame.score(7))
+        assertEquals(10, MemoryGame.score(40))
+    }
+
+    @Test fun speed_timeFraction() {
+        assertEquals(1f, SpeedRound.timeFraction(SpeedRound.DURATION_MS))
+        assertEquals(0.5f, SpeedRound.timeFraction(SpeedRound.DURATION_MS / 2))
+        assertEquals(0f, SpeedRound.timeFraction(-100))
+        assertEquals(1f, SpeedRound.timeFraction(SpeedRound.DURATION_MS * 2))
+    }
+
     @Test fun speed_optionsContainAnswer() {
         val round = SpeedRound(words, Random(3))
         repeat(20) {

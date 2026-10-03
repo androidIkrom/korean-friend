@@ -12,7 +12,6 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.selection.selectable
 import androidx.compose.foundation.selection.selectableGroup
-import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -28,6 +27,7 @@ import uz.hangulfriend.R
 import uz.hangulfriend.i18n.AppLanguage
 import uz.hangulfriend.i18n.LanguageStore
 import uz.hangulfriend.ui.currentLanguage
+import uz.hangulfriend.ui.kit.shape
 import uz.hangulfriend.ui.theme.LocalGameTokens
 
 /** Each language is named in itself, so it can be found whatever language the app is in now. */
@@ -47,7 +47,7 @@ fun LanguageRow() {
         Row(Modifier.fillMaxWidth().selectableGroup(), horizontalArrangement = Arrangement.spacedBy(12.dp)) {
             AppLanguage.entries.forEach { lang ->
                 val selected = lang == current
-                val shape = RoundedCornerShape(t.panelCorner)
+                val shape = t.shape(8.dp)
                 Box(
                     Modifier
                         .weight(1f)

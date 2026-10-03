@@ -26,5 +26,8 @@ class SpeedRound(private val words: List<Word>, private val random: Random) {
     companion object {
         const val DURATION_MS = 60_000L
         const val OPTIONS = 4
+
+        /** Share of the round still left, for the draining timer bar (1 at the start, 0 at the end). */
+        fun timeFraction(leftMs: Long): Float = (leftMs.toFloat() / DURATION_MS).coerceIn(0f, 1f)
     }
 }

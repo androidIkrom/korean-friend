@@ -178,19 +178,19 @@ fun HangulFriendNav(container: AppContainer, openReview: Boolean = false) {
             }
             composable(Routes.GAMES) { entry ->
                 val vm = viewModel(entry) { GamesViewModel(container.content, container.game, container.settings) }
-                GamesScreen(vm, onOpen = { nav.navigate("game/${it.route}") })
+                GamesScreen(vm, onOpen = { nav.navigate("game/${it.route}") }, onBack = { nav.popBackStack() })
             }
             composable(Routes.GAME) { entry ->
                 val id = GameId.fromRoute(entry.arguments?.getString("id").orEmpty())
                 val vm = viewModel { GamesViewModel(container.content, container.game, container.settings) }
-                GameScreen(vm, id)
+                GameScreen(vm, id, onBack = { nav.popBackStack() })
             }
             composable(Routes.ACHIEVEMENTS) {
-                AchievementsScreen(viewModel { AchievementsViewModel(container.game) })
+                AchievementsScreen(viewModel { AchievementsViewModel(container.game) }, onBack = { nav.popBackStack() })
             }
             composable(Routes.MISTAKES) {
                 val vm = viewModel { MistakesViewModel(container.lessons, container.game) }
-                MistakesScreen(vm, onPractice = { nav.navigate(Routes.session(SessionMode.MISTAKES)) })
+                MistakesScreen(vm, onPractice = { nav.navigate(Routes.session(SessionMode.MISTAKES)) }, onBack = { nav.popBackStack() })
             }
             composable(Routes.VOCAB) {
                 val vm = viewModel { VocabViewModel(container.content, container.userWords, container.db) }

@@ -31,10 +31,8 @@
     <string name="coming_soon">Tez orada</string>
     <string name="unit_title">%1$d-bo\'lim · %2$s</string>
 
-    <string name="onboarding_welcome">Xush kelibsiz!</string>
     <string name="onboarding_intro">Hangul Hunt «사랑해요 한국어 2» kitobi bo\'yicha darslarni takrorlashga yordam beradi.</string>
     <string name="onboarding_question">Hozir qaysi darsdasiz?</string>
-    <string name="onboarding_continue">Davom etish</string>
 
 
     <string name="settings_current_lesson">Joriy dars</string>
@@ -107,6 +105,15 @@
     <string name="map_boss">⚔️ Boss jangi</string>
     <string name="settings_daily_goal">Kunlik maqsad: %1$d XP</string>
 
+    <string name="arena_title">Arena</string>
+    <string name="game_play">O\'ynash</string>
+    <string name="game_score_label">Natija</string>
+    <string name="game_speed_prompt">Ma\'nosini tanlang</string>
+    <string name="awaken_title">Uyg\'onish</string>
+    <string name="awaken_system">Tizim sizni tanladi. Ovchi bo\'lishga tayyormisiz?</string>
+    <string name="awaken_arise">UYG\'ON</string>
+    <string name="onboarding_back">Orqaga</string>
+    <string name="onboarding_next">Keyingi</string>
     <string name="games_title">O\'yinlar</string>
     <string name="game_memory">Xotira o\'yini</string>
     <string name="game_memory_desc">Koreyscha so\'zni ma\'nosi bilan juftlang</string>
