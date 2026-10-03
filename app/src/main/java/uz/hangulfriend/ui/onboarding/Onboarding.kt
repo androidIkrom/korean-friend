@@ -126,7 +126,7 @@ fun OnboardingScreen(vm: OnboardingViewModel, onDone: () -> Unit) {
     var step by rememberSaveable { mutableIntStateOf(0) }
     BackHandler(enabled = step > 0) { step-- }
     Column(Modifier.fillMaxSize().padding(16.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
-        FloorBar(step + 1, ONBOARDING_STEPS)
+        FloorBar(step, ONBOARDING_STEPS)
         Box(Modifier.weight(1f)) {
             when (step) {
                 0 -> AwakeningStep()

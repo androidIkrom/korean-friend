@@ -107,8 +107,15 @@ fun SystemDialog(
     actions: @Composable RowScope.() -> Unit,
     content: @Composable ColumnScope.() -> Unit,
 ) {
+    val t = LocalGameTokens.current
     Dialog(onDismissRequest = onDismiss) {
-        HuntPanel(Modifier.verticalScroll(rememberScrollState()), title = title, scan = true, padding = 18.dp) {
+        // The glass panel is translucent; an opaque backing keeps the screen behind from showing through.
+        HuntPanel(
+            Modifier.background(t.background, t.shape(12.dp)).verticalScroll(rememberScrollState()),
+            title = title,
+            scan = true,
+            padding = 18.dp,
+        ) {
             content()
             Row(Modifier.fillMaxWidth().padding(top = 6.dp), horizontalArrangement = Arrangement.spacedBy(10.dp), content = actions)
         }

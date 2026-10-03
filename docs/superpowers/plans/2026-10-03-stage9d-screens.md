@@ -57,7 +57,7 @@ The final test already runs as a battle (9b) and starts from the map's gold card
   - `SelectRow(title: String, subtitle: String, selected: Boolean, onClick: () -> Unit)`: a diamond mark that lights up, inside a theme-shaped row.
 - **`study/games/MemoryGame.kt`:** `companion fun score(moves: Int): Int`, computed as `(100 - (moves - PAIRS) * 5).coerceAtLeast(10)`.
 - **`study/games/SpeedRound.kt`:** `companion fun timeFraction(leftMs: Long): Float`.
-- **`ui/onboarding/Onboarding.kt`:** `fun nextStep(step: Int, selected: String?): Int?`.
+- **`ui/onboarding/Onboarding.kt`:** `fun nextStep(step: Int): Int?` and `fun canFinish(step: Int, selected: String?): Boolean`.
   - Steps 0 and 1 go forward.
   - Step 2 returns null, which means finish; that is allowed only when a lesson is selected.
   - `ONBOARDING_STEPS = 3`.
