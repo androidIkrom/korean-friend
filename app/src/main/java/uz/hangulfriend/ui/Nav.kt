@@ -3,22 +3,11 @@ package uz.hangulfriend.ui
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
-import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.automirrored.filled.MenuBook
-import androidx.compose.material.icons.filled.Settings
-import androidx.compose.material.icons.filled.Home
-import androidx.compose.material.icons.filled.Map
 import androidx.compose.material3.CircularProgressIndicator
-import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.NavigationBarItemDefaults
-import uz.hangulfriend.ui.theme.LocalGameTokens
 import uz.hangulfriend.ui.vocab.VocabScreen
 import uz.hangulfriend.ui.vocab.VocabViewModel
-import androidx.compose.material3.NavigationBar
-import androidx.compose.material3.NavigationBarItem
 import androidx.compose.material3.Scaffold
-import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
@@ -26,8 +15,6 @@ import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.res.stringResource
-import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavGraph.Companion.findStartDestination
 import androidx.navigation.NavHostController
@@ -36,7 +23,6 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
 import uz.hangulfriend.AppContainer
-import uz.hangulfriend.R
 import uz.hangulfriend.data.Settings
 import uz.hangulfriend.ui.game.AchievementsScreen
 import uz.hangulfriend.ui.game.AchievementsViewModel
@@ -68,6 +54,16 @@ import uz.hangulfriend.ui.story.StoryListScreen
 import uz.hangulfriend.ui.story.StoryListViewModel
 import androidx.navigation.NavType
 import androidx.navigation.navArgument
+import androidx.navigation.NavOptionsBuilder
+import androidx.compose.animation.EnterTransition
+import androidx.compose.animation.ExitTransition
+import androidx.compose.animation.core.tween
+import androidx.compose.animation.fadeIn
+import androidx.compose.animation.fadeOut
+import androidx.compose.animation.scaleIn
+import androidx.compose.animation.scaleOut
+import uz.hangulfriend.ui.kit.GameMotion
+import uz.hangulfriend.ui.kit.LocalReducedMotion
 
 object Routes {
     const val ONBOARDING = "onboarding"
@@ -92,15 +88,6 @@ object Routes {
         if (lessonId == null) "session/${mode.route}" else "session/${mode.route}?lessonId=$lessonId"
 }
 
-private data class Tab(val route: String, val label: Int, val icon: ImageVector)
-
-private val tabs = listOf(
-    Tab(Routes.HOME, R.string.nav_home, Icons.Filled.Home),
-    Tab(Routes.MAP, R.string.nav_book, Icons.Filled.Map),
-    Tab(Routes.STORIES, R.string.nav_stories, Icons.AutoMirrored.Filled.MenuBook),
-    Tab(Routes.SETTINGS, R.string.nav_settings, Icons.Filled.Settings),
-)
-
 @Composable
 fun HangulFriendNav(container: AppContainer, openReview: Boolean = false) {
     val settings: Settings? by container.settings.settings.collectAsState(initial = null)
@@ -115,18 +102,30 @@ fun HangulFriendNav(container: AppContainer, openReview: Boolean = false) {
         if (openReview && loaded.onboarded) nav.navigate(Routes.session(SessionMode.REVIEW))
     }
     val route = backStack?.destination?.route
+    val reduced = LocalReducedMotion.current
     Scaffold(
         containerColor = Color.Transparent,
         // A transparent container has no content colour of its own; without this, uncoloured text turns black.
         contentColor = MaterialTheme.colorScheme.onBackground,
         bottomBar = {
-            if (tabs.any { it.route == route }) BottomBar(nav, route)
+            val tab = dockTabFor(route)
+            if (tab != null) {
+                Dock(
+                    current = tab,
+                    onTab = { picked -> if (picked != tab) nav.navigate(picked.route) { tabNavOptions(nav) } },
+                    onHunt = { nav.navigate(huntTarget(settings?.currentLessonId)) },
+                )
+            }
         },
     ) { padding ->
         NavHost(
             navController = nav,
             startDestination = if (loaded.onboarded) Routes.HOME else Routes.ONBOARDING,
             modifier = Modifier.padding(padding),
+            enterTransition = { if (reduced) EnterTransition.None else enter(initialState.destination.route, targetState.destination.route) },
+            exitTransition = { if (reduced) ExitTransition.None else exit(initialState.destination.route, targetState.destination.route) },
+            popEnterTransition = { if (reduced) EnterTransition.None else popEnter(initialState.destination.route, targetState.destination.route) },
+            popExitTransition = { if (reduced) ExitTransition.None else popExit(initialState.destination.route, targetState.destination.route) },
         ) {
             composable(Routes.ONBOARDING) {
                 val vm = viewModel { OnboardingViewModel(container.content, container.onboarding) }
@@ -145,13 +144,7 @@ fun HangulFriendNav(container: AppContainer, openReview: Boolean = false) {
                     vm,
                     onStartReview = { nav.navigate(Routes.session(SessionMode.REVIEW)) },
                     onContinueLesson = { nav.navigate(Routes.lesson(it)) },
-                    onOpenMap = {
-                        nav.navigate(Routes.MAP) {
-                            popUpTo(nav.graph.findStartDestination().id) { saveState = true }
-                            launchSingleTop = true
-                            restoreState = true
-                        }
-                    },
+                    onOpenMap = { nav.navigate(Routes.MAP) { tabNavOptions(nav) } },
                     onGames = { nav.navigate(Routes.GAMES) },
                     onMistakes = { nav.navigate(Routes.MISTAKES) },
                     onAchievements = { nav.navigate(Routes.ACHIEVEMENTS) },
@@ -243,30 +236,24 @@ fun HangulFriendNav(container: AppContainer, openReview: Boolean = false) {
     }
 }
 
-@Composable
-private fun BottomBar(nav: NavHostController, current: String?) {
-    val t = LocalGameTokens.current
-    NavigationBar(containerColor = t.background, contentColor = t.muted) {
-        tabs.forEach { tab ->
-            NavigationBarItem(
-                colors = NavigationBarItemDefaults.colors(
-                    selectedIconColor = t.accent,
-                    selectedTextColor = t.accent,
-                    indicatorColor = t.accent.copy(alpha = 0.15f),
-                    unselectedIconColor = t.muted,
-                    unselectedTextColor = t.muted,
-                ),
-                selected = current == tab.route,
-                onClick = {
-                    nav.navigate(tab.route) {
-                        popUpTo(nav.graph.findStartDestination().id) { saveState = true }
-                        launchSingleTop = true
-                        restoreState = true
-                    }
-                },
-                icon = { Icon(tab.icon, contentDescription = null) },
-                label = { Text(stringResource(tab.label)) },
-            )
-        }
-    }
+/** Tabs keep their own back stacks and state, like the old bottom bar. */
+private fun NavOptionsBuilder.tabNavOptions(nav: NavHostController) {
+    popUpTo(nav.graph.findStartDestination().id) { saveState = true }
+    launchSingleTop = true
+    restoreState = true
 }
+
+private fun bothTabs(from: String?, to: String?) = dockTabFor(from) != null && dockTabFor(to) != null
+
+// Between tabs the screens cross-fade; anything opened from them comes through a "portal" (scale + fade).
+private fun enter(from: String?, to: String?): EnterTransition =
+    if (bothTabs(from, to)) fadeIn(tween(GameMotion.FAST)) else fadeIn(tween(GameMotion.PORTAL)) + scaleIn(tween(GameMotion.PORTAL), initialScale = 0.92f)
+
+private fun exit(from: String?, to: String?): ExitTransition =
+    if (bothTabs(from, to)) fadeOut(tween(GameMotion.FAST)) else fadeOut(tween(GameMotion.FAST)) + scaleOut(tween(GameMotion.PORTAL), targetScale = 1.04f)
+
+private fun popEnter(from: String?, to: String?): EnterTransition =
+    if (bothTabs(from, to)) fadeIn(tween(GameMotion.FAST)) else fadeIn(tween(GameMotion.PORTAL)) + scaleIn(tween(GameMotion.PORTAL), initialScale = 1.04f)
+
+private fun popExit(from: String?, to: String?): ExitTransition =
+    if (bothTabs(from, to)) fadeOut(tween(GameMotion.FAST)) else fadeOut(tween(GameMotion.FAST)) + scaleOut(tween(GameMotion.PORTAL), targetScale = 0.92f)

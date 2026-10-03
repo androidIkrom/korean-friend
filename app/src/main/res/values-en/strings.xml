@@ -4,6 +4,11 @@
     <string name="lang_code">en</string>
 
     <string name="nav_home">Home</string>
+    <string name="dock_lobby">Lobby</string>
+    <string name="dock_gates">Gates</string>
+    <string name="dock_story">Story</string>
+    <string name="dock_system">System</string>
+    <string name="dock_hunt">Hunt</string>
     <string name="nav_book">Map</string>
     <string name="nav_stories">Stories</string>
     <string name="nav_settings">Settings</string>
