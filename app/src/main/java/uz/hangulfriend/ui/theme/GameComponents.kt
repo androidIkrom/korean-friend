@@ -25,6 +25,7 @@ import androidx.compose.runtime.staticCompositionLocalOf
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.alpha
+import androidx.compose.ui.draw.clip
 import androidx.compose.ui.draw.drawBehind
 import androidx.compose.ui.draw.rotate
 import androidx.compose.ui.geometry.Offset
@@ -41,6 +42,12 @@ import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import uz.hangulfriend.data.GameThemeId
+import uz.hangulfriend.ui.kit.HuntButton
+import uz.hangulfriend.ui.kit.HuntPanel
+import uz.hangulfriend.ui.kit.HuntStyle
+import uz.hangulfriend.ui.kit.LocalGameFeedback
+import uz.hangulfriend.ui.kit.Sfx
+import uz.hangulfriend.ui.kit.shape
 
 /** Soft outer light around a rounded rectangle (System theme panels and buttons). */
 fun Modifier.glow(color: Color, radius: Dp = 12.dp, corner: Dp = 0.dp): Modifier = drawBehind {
@@ -52,73 +59,19 @@ fun Modifier.glow(color: Color, radius: Dp = 12.dp, corner: Dp = 0.dp): Modifier
     drawIntoCanvas { it.nativeCanvas.drawRoundRect(0f, 0f, size.width, size.height, corner.toPx(), corner.toPx(), paint) }
 }
 
-/** A titled game window: `[ STATUS ]` frame in System, glass card in Neon. */
+/** A titled game window: `[ STATUS ]` frame in System, glass card in Neon (drawn by the kit). */
 @Composable
 fun GamePanel(
     title: String?,
     modifier: Modifier = Modifier,
     borderColor: Color? = null,
     content: @Composable ColumnScope.() -> Unit,
-) {
-    val t = LocalGameTokens.current
-    val shape = RoundedCornerShape(t.panelCorner)
-    val border = borderColor ?: t.panelBorder
-    Column(
-        modifier
-            .fillMaxWidth()
-            .then(if (t.id == GameThemeId.SYSTEM) Modifier.glow(border.copy(alpha = 0.35f), corner = t.panelCorner) else Modifier)
-            .background(t.panel, shape)
-            .border(1.dp, border, shape)
-            .padding(14.dp),
-        verticalArrangement = Arrangement.spacedBy(10.dp),
-    ) {
-        if (title != null) {
-            Text(
-                if (t.bracketTitles) "[ ${title.uppercase()} ]" else title,
-                color = if (t.bracketTitles) t.accent else t.text,
-                fontFamily = t.display,
-                fontWeight = if (t.bracketTitles) FontWeight.SemiBold else FontWeight.Bold,
-                fontSize = if (t.bracketTitles) 12.sp else 17.sp,
-                letterSpacing = if (t.bracketTitles) 2.sp else 0.sp,
-            )
-        }
-        content()
-    }
-}
+) = HuntPanel(modifier, title = title, accent = borderColor, content = content)
 
-/** The main call to action. */
+/** The main call to action: the kit's 3D primary button, full width. */
 @Composable
-fun GameButton(text: String, onClick: () -> Unit, modifier: Modifier = Modifier, enabled: Boolean = true) {
-    val t = LocalGameTokens.current
-    val shape = RoundedCornerShape(t.panelCorner)
-    val brush = if (t.id == GameThemeId.SYSTEM) {
-        Brush.horizontalGradient(listOf(Color(0x732870FF), t.accent.copy(alpha = 0.2f)))
-    } else {
-        Brush.horizontalGradient(listOf(t.accent, Color(0xFFB04DFF)))
-    }
-    Box(
-        modifier
-            .fillMaxWidth()
-            .heightIn(min = 52.dp)
-            .alpha(if (enabled) 1f else 0.4f)
-            .then(if (t.id == GameThemeId.SYSTEM && enabled) Modifier.glow(t.accent.copy(alpha = 0.45f), 14.dp) else Modifier)
-            .background(brush, shape)
-            .then(if (t.id == GameThemeId.SYSTEM) Modifier.border(1.dp, t.accent, shape) else Modifier)
-            .clickable(enabled = enabled, role = Role.Button, onClick = onClick)
-            .padding(horizontal = 16.dp, vertical = 12.dp),
-        contentAlignment = Alignment.Center,
-    ) {
-        Text(
-            text,
-            color = Color.White,
-            fontFamily = t.display,
-            fontWeight = FontWeight.Bold,
-            fontSize = 15.sp,
-            letterSpacing = if (t.bracketTitles) 2.sp else 0.sp,
-            textAlign = TextAlign.Center,
-        )
-    }
-}
+fun GameButton(text: String, onClick: () -> Unit, modifier: Modifier = Modifier, enabled: Boolean = true) =
+    HuntButton(text, onClick, modifier.fillMaxWidth(), HuntStyle.PRIMARY, enabled)
 
 @Composable
 fun ProgressBar(fraction: Float, modifier: Modifier = Modifier, color: Color? = null) {
@@ -208,7 +161,7 @@ private fun Backdrop(t: GameTokens, modifier: Modifier, content: @Composable Box
     )
 }
 
-/** A game-styled card: panel fill, thin theme border, theme shape; clickable when [onClick] is given. */
+/** A game-styled card: panel fill, thin theme border, theme shape; clickable (with a tap sound) when [onClick] is given. */
 @Composable
 fun GameCard(
     modifier: Modifier = Modifier,
@@ -219,12 +172,23 @@ fun GameCard(
     content: @Composable ColumnScope.() -> Unit,
 ) {
     val t = LocalGameTokens.current
-    val shape = RoundedCornerShape(t.panelCorner)
+    val shape = t.shape(10.dp)
+    val feedback = LocalGameFeedback.current
     Column(
         modifier
+            .clip(shape)
             .background(containerColor ?: t.panel, shape)
             .border(1.dp, borderColor ?: t.panelBorder, shape)
-            .then(if (onClick != null) Modifier.clickable(enabled = enabled, role = Role.Button, onClick = onClick) else Modifier),
+            .then(
+                if (onClick != null) {
+                    Modifier.clickable(enabled = enabled, role = Role.Button) {
+                        feedback.play(Sfx.TAP)
+                        onClick()
+                    }
+                } else {
+                    Modifier
+                },
+            ),
         content = content,
     )
 }
