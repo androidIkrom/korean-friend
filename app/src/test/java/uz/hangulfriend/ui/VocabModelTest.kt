@@ -11,6 +11,8 @@ import uz.hangulfriend.ui.vocab.VocabEntry
 import uz.hangulfriend.ui.vocab.VocabFilter
 import uz.hangulfriend.ui.vocab.WordStatus
 import uz.hangulfriend.ui.vocab.filterVocab
+import uz.hangulfriend.ui.vocab.quizSize
+import uz.hangulfriend.ui.vocab.quizSource
 import uz.hangulfriend.ui.vocab.statusOf
 
 class VocabModelTest {
@@ -59,5 +61,23 @@ class VocabModelTest {
         assertEquals(WordStatus.NEW, statusOf(card(CardState.LEARNING, null)))
         assertEquals(WordStatus.LEARNING, statusOf(card(CardState.RELEARNING, 5)))
         assertEquals(WordStatus.LEARNED, statusOf(card(CardState.REVIEW, 5)))
+    }
+
+    @Test fun quizSizeFollowsFilterNotQuery() {
+        assertEquals(5, quizSize(entries, VocabFilter.All))
+        assertEquals(1, quizSize(entries, VocabFilter.Own))
+        assertEquals(3, quizSize(entries, VocabFilter.Lesson("u02_l1")))
+        assertEquals(0, quizSize(entries, VocabFilter.Lesson("u09_l1")))
+    }
+
+    @Test fun quizSizeCapsAtTen() {
+        val many = (1..14).map { book("m$it", "말$it", "so'z $it") }
+        assertEquals(10, quizSize(many, VocabFilter.All))
+    }
+
+    @Test fun quizSourcePerFilter() {
+        assertEquals("all", VocabFilter.All.quizSource())
+        assertEquals("user", VocabFilter.Own.quizSource())
+        assertEquals("u03_l1", VocabFilter.Lesson("u03_l1").quizSource())
     }
 }

@@ -59,6 +59,7 @@ private fun ExerciseBody(item: ExerciseItem, onResult: (ExerciseOutcome) -> Unit
             onNext = onNext,
         )
         is ExerciseItem.Match -> MatchView(item.words, onResult, onNext)
+        is ExerciseItem.WordChoose -> WordChooseView(item.word, item.options, onResult, onNext)
         is ExerciseItem.ListenChoose -> ListenChooseView(item.word, item.options, onResult, onNext)
         is ExerciseItem.Dictation -> DictationView(item.word, onResult, onNext)
         is ExerciseItem.Speak -> SpeakView(item.ko, item.uz, item.audio, onResult, onNext)

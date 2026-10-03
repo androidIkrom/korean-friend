@@ -2,8 +2,11 @@ package uz.hangulfriend.ui.vocab
 
 import uz.hangulfriend.content.Word
 import uz.hangulfriend.data.CardEntity
+import uz.hangulfriend.data.USER_LESSON_ID
 import uz.hangulfriend.data.normalizeKo
 import uz.hangulfriend.srs.CardState
+import uz.hangulfriend.study.SessionBuilder
+import uz.hangulfriend.ui.session.SessionController
 
 enum class WordStatus { NEW, LEARNING, LEARNED }
 
@@ -58,3 +61,14 @@ fun filterVocab(entries: List<VocabEntry>, query: String, filter: VocabFilter): 
     }
     return matched.filter { it.own } + matched.filterNot { it.own }
 }
+
+/** The vocab quiz session's lessonId for [this] filter: [SessionController.VOCAB_ALL], "user" or a lesson id. */
+fun VocabFilter.quizSource(): String = when (this) {
+    VocabFilter.All -> SessionController.VOCAB_ALL
+    VocabFilter.Own -> USER_LESSON_ID
+    is VocabFilter.Lesson -> id
+}
+
+/** Questions a random quiz over [filter] will ask: every word of the filter, at most [SessionBuilder.VOCAB_QUIZ_SIZE]. */
+fun quizSize(entries: List<VocabEntry>, filter: VocabFilter): Int =
+    minOf(filterVocab(entries, "", filter).size, SessionBuilder.VOCAB_QUIZ_SIZE)

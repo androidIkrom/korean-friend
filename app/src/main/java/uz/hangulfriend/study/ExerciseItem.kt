@@ -27,6 +27,12 @@ sealed interface ExerciseItem {
         override val cardIds get() = listOf(CardIds.of(word.id, CardKind.RECOGNIZE))
     }
 
+    /** Read [word] in Korean, pick its meaning among [options] ([word] included). */
+    data class WordChoose(val word: Word, val options: List<Word>) : ExerciseItem {
+        override val typeKey get() = "word_choose"
+        override val cardIds get() = listOf(CardIds.of(word.id, CardKind.RECOGNIZE))
+    }
+
     /** Hear [word], type it in Korean. */
     data class Dictation(val word: Word) : ExerciseItem {
         override val typeKey get() = "dictation"

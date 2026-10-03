@@ -40,6 +40,7 @@
     <string name="settings_apply_note">Lessons before this one are marked as «covered», and their words are gradually added to your reviews.</string>
     <string name="audio_play">Listen</string>
     <string name="ex_listen_choose_prompt">Listen and choose the meaning</string>
+    <string name="ex_word_choose_prompt">Choose the meaning</string>
     <string name="ex_dictation_prompt">Listen and write it in Korean</string>
     <string name="speak_prompt">Say the sentence out loud</string>
     <string name="speak_start">Speak</string>
@@ -345,6 +346,10 @@
     <string name="vocab_cancel">Cancel</string>
     <string name="vocab_none">Nothing found</string>
     <string name="vocab_own_empty">You haven\'t added any words yet — tap the + button below.</string>
+    <plurals name="vocab_quiz">
+        <item quantity="one">Random test · %1$d question</item>
+        <item quantity="other">Random test · %1$d questions</item>
+    </plurals>
     <string name="flag_button">Report</string>
     <string name="flag_title">Report a problem</string>
     <string name="flag_reason_translation">Wrong translation</string>

@@ -215,3 +215,21 @@ fun FlashcardView(word: Word, onResult: (ExerciseOutcome) -> Unit, onNext: () ->
         }
     }
 }
+
+/** Read a Korean word, pick its meaning. */
+@Composable
+fun WordChooseView(word: Word, options: List<Word>, onResult: (ExerciseOutcome) -> Unit, onNext: () -> Unit) {
+    ChoiceView(
+        prompt = stringResource(R.string.ex_word_choose_prompt),
+        options = options.map { it.uz },
+        answers = listOf(word.uz),
+        why = null,
+        onResult = onResult,
+        onNext = onNext,
+    ) {
+        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+            Text(word.ko, color = LocalGameTokens.current.text, style = MaterialTheme.typography.headlineSmall)
+            if (word.audio != null) AudioButton(word.audio)
+        }
+    }
+}

@@ -16,6 +16,7 @@ private const val MAX_COMMENT = 300
 fun flagRef(item: ExerciseItem): String = when (item) {
     is ExerciseItem.Flashcard -> item.word.id
     is ExerciseItem.WordTyping -> item.word.id
+    is ExerciseItem.WordChoose -> item.word.id
     is ExerciseItem.ListenChoose -> item.word.id
     is ExerciseItem.Dictation -> item.word.id
     is ExerciseItem.Speak -> item.ko
@@ -29,6 +30,7 @@ private fun Word.pair() = "$ko — $uz"
 fun flagSnapshot(item: ExerciseItem, lang: AppLanguage = AppLanguage.UZ): String = when (item) {
     is ExerciseItem.Flashcard -> item.word.pair()
     is ExerciseItem.WordTyping -> item.word.pair()
+    is ExerciseItem.WordChoose -> item.word.pair()
     is ExerciseItem.ListenChoose -> item.word.pair()
     is ExerciseItem.Dictation -> item.word.pair()
     is ExerciseItem.Speak -> "${item.ko} — ${item.uz}"
