@@ -196,7 +196,7 @@ private fun RewardPanel(s: SessionState, mode: SessionMode, xpP: Float) {
                 GlowBar(from + (to - from) * xpP, height = 10)
             }
         }
-        Text(stringResource(R.string.session_result, s.correctCount, s.items.size, s.scorePercent), color = t.text, fontSize = 16.sp)
+        Text(stringResource(R.string.session_result, s.correctCount, s.scored, s.scorePercent), color = t.text, fontSize = 16.sp)
         s.final?.let { f ->
             Text(stringResource(R.string.final_listening, f.listening, f.listeningTotal), color = t.text)
             Text(stringResource(R.string.final_reading, f.reading, f.readingTotal), color = t.text)
