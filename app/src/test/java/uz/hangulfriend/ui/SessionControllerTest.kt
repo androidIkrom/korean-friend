@@ -37,6 +37,7 @@ import uz.hangulfriend.data.flagRef
 import uz.hangulfriend.srs.FsrsScheduler
 import uz.hangulfriend.srs.Rating
 import uz.hangulfriend.study.FINAL_TEST_ID
+import uz.hangulfriend.study.ExerciseItem
 import uz.hangulfriend.study.GameRules
 import uz.hangulfriend.study.Grader
 import uz.hangulfriend.study.SessionBuilder
@@ -316,6 +317,54 @@ class SessionControllerTest {
         val c = controller(SessionMode.MISTAKES, lessonId = null)
         c.load()
         assertEquals(listOf("u02_l1_w001#R"), c.state.value.items.flatMap { it.cardIds })
+    }
+
+    @Test fun lastCorrectFollowsAnswer() = runTest {
+        val c = controller(SessionMode.TEST)
+        c.load()
+        assertEquals(null, c.state.value.lastCorrect)
+        c.submit(checked(true))
+        assertEquals(true, c.state.value.lastCorrect)
+        c.next()
+        assertEquals(null, c.state.value.lastCorrect)
+        c.submit(checked(false))
+        assertEquals(false, c.state.value.lastCorrect)
+    }
+
+    @Test fun skippedHasNoVerdict() = runTest {
+        val c = controller(SessionMode.TEST)
+        c.load()
+        c.submit(ExerciseOutcome.Skipped)
+        assertTrue(c.state.value.answered)
+        assertEquals(null, c.state.value.lastCorrect)
+    }
+
+    @Test fun totalXpAfterSetOnFinish() = runTest {
+        val c = controller(SessionMode.TEST)
+        c.load()
+        assertEquals(null, c.state.value.totalXpAfter)
+        answerAll(c, *BooleanArray(15) { true })
+        assertEquals(game.observeTotalXp().first(), c.state.value.totalXpAfter)
+    }
+
+    @Test fun lootHoldsWordsAnsweredRight() = runTest {
+        study.ensureCards(lesson, 2, CardOrigin.LESSON)
+        val c = controller(SessionMode.LESSON_REVIEW)
+        c.load()
+        val items = c.state.value.items
+        val flash = items.indexOfFirst { it is ExerciseItem.Flashcard }
+        val word = (items[flash] as ExerciseItem.Flashcard).word
+        repeat(flash) { c.next() }
+        c.submit(ExerciseOutcome.Rated(Rating.GOOD))
+        assertEquals(listOf(word), c.state.value.loot)
+        // A second hit on the same word does not add it twice; AGAIN adds nothing.
+        c.next()
+        val again = c.state.value.items.drop(flash + 1).indexOfFirst { it is ExerciseItem.Flashcard }
+        if (again >= 0) {
+            repeat(again) { c.next() }
+            c.submit(ExerciseOutcome.Rated(Rating.AGAIN))
+            assertEquals(listOf(word), c.state.value.loot)
+        }
     }
 
     @Test fun session_practiceDoesNotRecordTest() = runTest {

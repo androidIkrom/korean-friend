@@ -7,6 +7,7 @@ import kotlinx.coroutines.flow.update
 import uz.hangulfriend.R
 import uz.hangulfriend.content.ContentRepository
 import uz.hangulfriend.content.Lesson
+import uz.hangulfriend.content.Word
 import uz.hangulfriend.data.CardEntity
 import uz.hangulfriend.data.GameRepository
 import uz.hangulfriend.data.ProgressRepository
@@ -20,6 +21,7 @@ import uz.hangulfriend.study.FINAL_TEST_ID
 import uz.hangulfriend.study.GameRules
 import uz.hangulfriend.study.Grader
 import uz.hangulfriend.study.SessionBuilder
+import uz.hangulfriend.ui.kit.Sfx
 
 enum class SessionMode(val route: String) {
     PRACTICE("practice"),
@@ -72,6 +74,12 @@ data class SessionState(
     val newAchievements: List<String> = emptyList(),
     /** Final-test result once finished; null in other modes. */
     val final: FinalScore? = null,
+    /** Verdict of the current item once answered; null before that and for skipped items. */
+    val lastCorrect: Boolean? = null,
+    /** Words answered right in this run, in order, each once: the loot of the Gate Cleared screen. */
+    val loot: List<Word> = emptyList(),
+    /** The learner's total XP after the end-of-run rewards; null until then. */
+    val totalXpAfter: Int? = null,
 ) {
     val finished: Boolean get() = !loading && index >= items.size
     val current: ExerciseItem? get() = items.getOrNull(index)
@@ -83,6 +91,32 @@ data class FinalScore(val listening: Int, val listeningTotal: Int, val reading: 
     val total: Int get() = listeningTotal + readingTotal
     val percent: Int get() = if (total == 0) 0 else (listening + reading) * 100 / total
     val level: Int get() = GameRules.topikLevel(percent)
+}
+
+/** Whether the run counts as a cleared gate (Gate Cleared screen title and sound). */
+fun SessionState.cleared(mode: SessionMode): Boolean = when {
+    items.isEmpty() -> false
+    mode == SessionMode.BOSS -> !failed
+    mode == SessionMode.TEST -> scorePercent >= ProgressRepository.PASS_PERCENT
+    mode == SessionMode.FINAL -> (final?.level ?: 0) >= 1
+    else -> true
+}
+
+/** The hit sound of an answer. Self-rated flashcards and skipped items make none. */
+fun ExerciseOutcome.verdictSfx(): Sfx? = when (this) {
+    is ExerciseOutcome.Checked -> if (correct) Sfx.CORRECT else Sfx.WRONG
+    is ExerciseOutcome.Matched -> Sfx.CORRECT
+    is ExerciseOutcome.Rated, ExerciseOutcome.Skipped -> null
+}
+
+/** Words of [item] that [outcome] won. */
+private fun lootOf(item: ExerciseItem, outcome: ExerciseOutcome, correct: Boolean): List<Word> = when (item) {
+    is ExerciseItem.Match -> (outcome as? ExerciseOutcome.Matched)?.let { m -> item.words.filter { it.id in m.firstTryCorrect } }.orEmpty()
+    is ExerciseItem.Flashcard -> if (correct) listOf(item.word) else emptyList()
+    is ExerciseItem.WordTyping -> if (correct) listOf(item.word) else emptyList()
+    is ExerciseItem.ListenChoose -> if (correct) listOf(item.word) else emptyList()
+    is ExerciseItem.Dictation -> if (correct) listOf(item.word) else emptyList()
+    is ExerciseItem.Speak, is ExerciseItem.Authored -> emptyList()
 }
 
 @androidx.annotation.StringRes
@@ -173,7 +207,12 @@ class SessionController(
             // An exam: no XP per answer and no FSRS change, only the score.
             finalCorrect[s.index] = correct
             _state.update {
-                it.copy(answered = true, scored = it.scored + 1, correctCount = it.correctCount + if (correct) 1 else 0)
+                it.copy(
+                    answered = true,
+                    scored = it.scored + 1,
+                    correctCount = it.correctCount + if (correct) 1 else 0,
+                    lastCorrect = correct,
+                )
             }
             return
         }
@@ -188,6 +227,8 @@ class SessionController(
                 xpEarned = it.xpEarned + gained,
                 hearts = hearts,
                 failed = hearts == 0,
+                lastCorrect = correct,
+                loot = (it.loot + lootOf(item, outcome, correct)).distinctBy { w -> w.id },
             )
         }
         when {
@@ -199,7 +240,7 @@ class SessionController(
     }
 
     suspend fun next() {
-        _state.update { it.copy(index = if (it.failed) it.items.size else it.index + 1, answered = false) }
+        _state.update { it.copy(index = if (it.failed) it.items.size else it.index + 1, answered = false, lastCorrect = null) }
         val s = _state.value
         if (s.finished && !wrappedUp && s.items.isNotEmpty()) {
             wrappedUp = true
@@ -210,7 +251,7 @@ class SessionController(
     /** Final test: the time ran out; unanswered questions count as wrong. */
     suspend fun timeUp() {
         if (mode != SessionMode.FINAL) return
-        _state.update { it.copy(index = it.items.size, answered = false) }
+        _state.update { it.copy(index = it.items.size, answered = false, lastCorrect = null) }
         if (!wrappedUp && _state.value.items.isNotEmpty()) {
             wrappedUp = true
             wrapUp(_state.value)
@@ -245,7 +286,8 @@ class SessionController(
             else -> Unit
         }
         val unlocked = game.unlockNew(GameRules.achievements(game.stats(goal)))
-        _state.update { it.copy(xpEarned = it.xpEarned + bonus, newAchievements = unlocked) }
+        val total = game.observeTotalXp().first()
+        _state.update { it.copy(xpEarned = it.xpEarned + bonus, newAchievements = unlocked, totalXpAfter = total) }
     }
 
     companion object {
