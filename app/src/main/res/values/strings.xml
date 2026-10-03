@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Hangul Hunt</string>
+    <!-- Which language these resources are; values-en overrides it. -->
+    <string name="lang_code">uz</string>
 
     <string name="nav_home">Uy</string>
     <string name="nav_book">Xarita</string>
@@ -174,6 +176,13 @@
     <string name="story_replayed">Qayta o\'tildi</string>
     <string name="story_close">Yopish</string>
     <string name="reminder_channel">Kunlik eslatma</string>
+    <plurals name="reminder_due">
+        <item quantity="other">Bugun %1$d ta karta kutyapti.</item>
+    </plurals>
+    <string name="reminder_goal">Bugungi maqsadga hali yetmadingiz. 5 daqiqa mashq qilamizmi?</string>
+    <plurals name="reminder_streak">
+        <item quantity="other">Streak: %1$d kun 🔥</item>
+    </plurals>
     <string name="settings_reminder">🔔 Kunlik eslatma</string>
     <string name="settings_reminder_time">Vaqti: %1$s</string>
     <string name="settings_reminder_denied">Bildirishnomaga ruxsat berilmagan.</string>
@@ -211,6 +220,7 @@
     <string name="avatar_new_blades">Egizak xanjar</string>
     <string name="avatar_new_hair_light">Sochda nur</string>
     <string name="avatar_new_companions">Hamrohlar</string>
+    <string name="settings_language">Til</string>
     <string name="settings_theme">Interfeys uslubi</string>
     <string name="theme_system">Tizim</string>
     <string name="theme_neon">Neon Seul</string>
@@ -225,7 +235,9 @@
     <string name="home_stat_lessons">Darslar</string>
     <string name="home_stat_stories">Hikoyalar</string>
     <string name="home_stat_achievements">Yutuqlar</string>
-    <string name="home_streak_days">%1$d kun</string>
+    <plurals name="home_streak_days">
+        <item quantity="other">%1$d kun</item>
+    </plurals>
     <string name="home_continue_lesson">Davom etish · %1$d-bo\'lim, %2$d-dars</string>
     <string name="home_open_map">Xaritani ochish</string>
     <string name="home_action_review">Takrorlash · %1$d</string>
@@ -269,7 +281,9 @@
     <string name="hero_girl">Qiz</string>
     <string name="home_action_vocab">Lug\'at</string>
     <string name="vocab_title">Lug\'at</string>
-    <string name="vocab_count">%1$d ta so\'z</string>
+    <plurals name="vocab_count">
+        <item quantity="other">%1$d ta so\'z</item>
+    </plurals>
     <string name="vocab_search">Qidirish (koreyscha yoki o\'zbekcha)</string>
     <string name="vocab_all">Hammasi</string>
     <string name="vocab_own">Mening so\'zlarim</string>

@@ -33,6 +33,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.alpha
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.res.pluralStringResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.text.font.FontWeight
@@ -231,7 +232,7 @@ private fun TopRow(stats: HomeStats, headerAction: @Composable () -> Unit) {
             horizontalArrangement = Arrangement.spacedBy(6.dp),
         ) {
             Icon(Icons.Filled.LocalFireDepartment, contentDescription = null, tint = Color(0xFFFFB36B), modifier = Modifier.size(18.dp))
-            Text(stringResource(R.string.home_streak_days, stats.streak), color = t.text, fontWeight = FontWeight.SemiBold)
+            Text(pluralStringResource(R.plurals.home_streak_days, stats.streak, stats.streak), color = t.text, fontWeight = FontWeight.SemiBold)
         }
         headerAction()
     }

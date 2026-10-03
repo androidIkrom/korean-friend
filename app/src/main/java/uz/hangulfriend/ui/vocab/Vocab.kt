@@ -44,6 +44,7 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.res.pluralStringResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.text.font.FontWeight
@@ -162,7 +163,7 @@ fun VocabScreen(vm: VocabViewModel, onBack: () -> Unit) {
                     fontSize = 26.sp,
                     modifier = Modifier.weight(1f),
                 )
-                Text(stringResource(R.string.vocab_count, total), color = t.muted, fontSize = 13.sp)
+                Text(pluralStringResource(R.plurals.vocab_count, total, total), color = t.muted, fontSize = 13.sp)
             }
             OutlinedTextField(
                 value = query,

@@ -5,6 +5,7 @@
       "type": "listen_question",
       "targets": [],
       "prompt_uz": "Bu kim va avval nima ish qilgan?",
+      "prompt_en": "Who is this, and what did she do before?",
       "answers": [
         "Buvisi, oshpaz bo'lgan"
       ],
@@ -14,12 +15,19 @@
         "Onasi, o'qituvchi bo'lgan",
         "Buvisi, oshpaz bo'lgan"
       ],
+      "options_en": [
+        "Grandmother, she was a doctor",
+        "Older sister, she was a cook",
+        "Mother, she was a teacher",
+        "Grandmother, she was a cook"
+      ],
       "audio_text": "이분은 누구세요? 우리 할머니세요. 전에 요리사셨어요.",
       "audio_dialogue": [
         "이분은 누구세요?",
         "우리 할머니세요. 전에 요리사셨어요."
       ],
       "why_uz": "할머니 = buvi, 요리사셨어요 = oshpaz bo'lganlar (hurmat).",
+      "why_en": "할머니 = grandmother, 요리사셨어요 = (she) was a cook (honorific).",
       "audio": "b41ae29f8bed.mp3"
     },
     {
@@ -27,6 +35,7 @@
       "type": "listen_question",
       "targets": [],
       "prompt_uz": "Ota hozir nima qilyapti?",
+      "prompt_en": "What is the father doing now?",
       "answers": [
         "Gazeta o'qiyapti"
       ],
@@ -36,12 +45,19 @@
         "Ovqat pishiryapti",
         "Uxlayapti"
       ],
+      "options_en": [
+        "Reading the newspaper",
+        "Watching TV",
+        "Cooking",
+        "Sleeping"
+      ],
       "audio_text": "아버지는 지금 뭐 하세요? 신문을 읽고 계세요.",
       "audio_dialogue": [
         "아버지는 지금 뭐 하세요?",
         "신문을 읽고 계세요."
       ],
       "why_uz": "신문을 읽고 계세요 = gazeta o'qiyaptilar.",
+      "why_en": "신문을 읽고 계세요 = he is reading the newspaper (honorific).",
       "audio": "0e591fdc8a2d.mp3"
     },
     {
@@ -49,6 +65,7 @@
       "type": "listen_question",
       "targets": [],
       "prompt_uz": "Mijozga nima yoqmadi?",
+      "prompt_en": "What didn't the customer like?",
       "answers": [
         "Shim kalta"
       ],
@@ -58,12 +75,19 @@
         "Shim qora",
         "Shim katta"
       ],
+      "options_en": [
+        "The trousers are short",
+        "The trousers are expensive",
+        "The trousers are black",
+        "The trousers are big"
+      ],
       "audio_text": "이 바지 한번 입어 보세요. 좀 짧아요. 더 긴 바지는 없어요?",
       "audio_dialogue": [
         "이 바지 한번 입어 보세요.",
         "좀 짧아요. 더 긴 바지는 없어요?"
       ],
       "why_uz": "짧아요 = kalta; 더 긴 = uzunroq.",
+      "why_en": "짧아요 = short; 더 긴 = longer.",
       "audio": "8c558f679572.mp3"
     },
     {
@@ -71,6 +95,7 @@
       "type": "listen_question",
       "targets": [],
       "prompt_uz": "Sumka necha pul?",
+      "prompt_en": "How much is the bag?",
       "answers": [
         "35 000 von"
       ],
@@ -80,12 +105,19 @@
         "35 000 von",
         "53 000 von"
       ],
+      "options_en": [
+        "3,500 won",
+        "30,500 won",
+        "35,000 won",
+        "53,000 won"
+      ],
       "audio_text": "이 가방 얼마예요? 삼만 오천 원이에요.",
       "audio_dialogue": [
         "이 가방 얼마예요?",
         "삼만 오천 원이에요."
       ],
       "why_uz": "삼만 오천 = 30 000 + 5 000.",
+      "why_en": "삼만 오천 = 30,000 + 5,000.",
       "audio": "7ff93e4d1cc5.mp3"
     },
     {
@@ -93,6 +125,7 @@
       "type": "listen_question",
       "targets": [],
       "prompt_uz": "Dam olish kunlari nima qiladi?",
+      "prompt_en": "What will he do at the weekend?",
       "answers": [
         "Havo yaxshi bo'lsa, Pusanga boradi"
       ],
@@ -102,12 +135,19 @@
         "Uyda dam oladi",
         "Havo yaxshi bo'lsa, Pusanga boradi"
       ],
+      "options_en": [
+        "Work in Busan",
+        "Go to Busan if the weather is bad",
+        "Rest at home",
+        "Go to Busan if the weather is nice"
+      ],
       "audio_text": "주말에 뭐 할 거예요? 날씨가 좋으면 부산에 갈 거예요.",
       "audio_dialogue": [
         "주말에 뭐 할 거예요?",
         "날씨가 좋으면 부산에 갈 거예요."
       ],
       "why_uz": "-(으)면 = agar; 갈 거예요 = boraman.",
+      "why_en": "-(으)면 = if; 갈 거예요 = I'll go.",
       "audio": "bd1d4af26baa.mp3"
     },
     {
@@ -115,6 +155,7 @@
       "type": "listen_question",
       "targets": [],
       "prompt_uz": "Jejuda havo qanday edi?",
+      "prompt_en": "What was the weather like in Jeju?",
       "answers": [
         "Yaxshi emas edi"
       ],
@@ -124,12 +165,19 @@
         "Yaxshi emas edi",
         "Qor yog'di"
       ],
+      "options_en": [
+        "It was hot",
+        "It was very nice",
+        "It wasn't good",
+        "It snowed"
+      ],
       "audio_text": "제주도는 어땠어요? 바다는 예뻤지만 날씨는 좋지 않았어요.",
       "audio_dialogue": [
         "제주도는 어땠어요?",
         "바다는 예뻤지만 날씨는 좋지 않았어요."
       ],
       "why_uz": "좋지 않았어요 = yaxshi emas edi.",
+      "why_en": "좋지 않았어요 = it wasn't good.",
       "audio": "2892036440b8.mp3"
     },
     {
@@ -137,6 +185,7 @@
       "type": "listen_question",
       "targets": [],
       "prompt_uz": "U nimani o'rganmoqchi?",
+      "prompt_en": "What does she want to learn?",
       "answers": [
         "Tennis"
       ],
@@ -146,12 +195,19 @@
         "Tennis",
         "Futbol"
       ],
+      "options_en": [
+        "Yoga",
+        "Swimming",
+        "Tennis",
+        "Football"
+      ],
       "audio_text": "무슨 운동을 좋아해요? 수영을 좋아하지만 잘 못해요. 테니스를 배우고 싶어요.",
       "audio_dialogue": [
         "무슨 운동을 좋아해요?",
         "수영을 좋아하지만 잘 못해요. 테니스를 배우고 싶어요."
       ],
       "why_uz": "테니스를 배우고 싶어요 = tennisni o'rganmoqchiman.",
+      "why_en": "테니스를 배우고 싶어요 = I want to learn tennis.",
       "audio": "bdfe20b218ac.mp3"
     },
     {
@@ -159,6 +215,7 @@
       "type": "listen_question",
       "targets": [],
       "prompt_uz": "U dam olish kunlari nima qiladi?",
+      "prompt_en": "What does he do at the weekend?",
       "answers": [
         "Toqqa chiqadi"
       ],
@@ -168,12 +225,19 @@
         "Kino ko'radi",
         "Kitob o'qiydi"
       ],
+      "options_en": [
+        "Goes hiking",
+        "Sleeps",
+        "Watches films",
+        "Reads books"
+      ],
       "audio_text": "시간이 있을 때 보통 뭐 해요? 저는 등산하는 걸 좋아해서 주말마다 산에 가요.",
       "audio_dialogue": [
         "시간이 있을 때 보통 뭐 해요?",
         "저는 등산하는 걸 좋아해서 주말마다 산에 가요."
       ],
       "why_uz": "등산 = toqqa chiqish; 주말마다 = har dam olish kuni.",
+      "why_en": "등산 = hiking; 주말마다 = every weekend.",
       "audio": "50ba9d9ddadd.mp3"
     },
     {
@@ -181,6 +245,7 @@
       "type": "listen_question",
       "targets": [],
       "prompt_uz": "Mijoz bankka nima uchun keldi?",
+      "prompt_en": "Why did the customer come to the bank?",
       "answers": [
         "Hisob ochish uchun"
       ],
@@ -190,12 +255,19 @@
         "Pul almashtirish uchun",
         "Kartani yo'qotgani uchun"
       ],
+      "options_en": [
+        "To transfer money",
+        "To open an account",
+        "To exchange money",
+        "Because she lost her card"
+      ],
       "audio_text": "어떻게 오셨어요? 통장을 만들고 싶은데요.",
       "audio_dialogue": [
         "어떻게 오셨어요?",
         "통장을 만들고 싶은데요."
       ],
       "why_uz": "통장을 만들다 = hisob (daftarcha) ochish.",
+      "why_en": "통장을 만들다 = to open an account (bankbook).",
       "audio": "f158b9756886.mp3"
     },
     {
@@ -203,6 +275,7 @@
       "type": "listen_question",
       "targets": [],
       "prompt_uz": "Posilka qanday jo'natiladi?",
+      "prompt_en": "How is the parcel being sent?",
       "answers": [
         "Samolyotda"
       ],
@@ -212,6 +285,12 @@
         "Samolyotda",
         "Poyezdda"
       ],
+      "options_en": [
+        "By bus",
+        "By ship",
+        "By plane",
+        "By train"
+      ],
       "audio_text": "이 소포를 우즈베키스탄으로 부치고 싶어요. 배로 보내실 거예요, 비행기로 보내실 거예요? 비행기로 보내 주세요.",
       "audio_dialogue": [
         "이 소포를 우즈베키스탄으로 부치고 싶어요.",
@@ -219,6 +298,7 @@
         "비행기로 보내 주세요."
       ],
       "why_uz": "비행기로 = samolyot bilan.",
+      "why_en": "비행기로 = by plane.",
       "audio": "247969354fed.mp3"
     },
     {
@@ -226,6 +306,7 @@
       "type": "listen_question",
       "targets": [],
       "prompt_uz": "Qaysi bekatda tushish kerak?",
+      "prompt_en": "Which station do you have to get off at?",
       "answers": [
         "Sicheong (shahar hokimligi) bekatida"
       ],
@@ -235,12 +316,19 @@
         "Seul bekatida",
         "Gangnam bekatida"
       ],
+      "options_en": [
+        "At the bus stop",
+        "At City Hall (Sicheong) Station",
+        "At Seoul Station",
+        "At Gangnam Station"
+      ],
       "audio_text": "시청에 어떻게 가야 돼요? 지하철 2호선을 타고 시청역에서 내리세요.",
       "audio_dialogue": [
         "시청에 어떻게 가야 돼요?",
         "지하철 2호선을 타고 시청역에서 내리세요."
       ],
       "why_uz": "시청역에서 내리세요 = Sicheong bekatida tushing.",
+      "why_en": "시청역에서 내리세요 = get off at City Hall Station.",
       "audio": "635c1b00bc9a.mp3"
     },
     {
@@ -248,6 +336,7 @@
       "type": "listen_question",
       "targets": [],
       "prompt_uz": "Dorixonaga qanday boriladi?",
+      "prompt_en": "How do you get to the pharmacy?",
       "answers": [
         "Piyodalar o'tish joyidan o'tib, o'ngga"
       ],
@@ -257,12 +346,19 @@
         "Piyodalar o'tish joyidan o'tib, o'ngga",
         "Ko'prikdan o'tib, chapga"
       ],
+      "options_en": [
+        "Straight, then back",
+        "Turn left, then straight",
+        "Cross at the crosswalk, then right",
+        "Cross the bridge, then left"
+      ],
       "audio_text": "약국이 어디에 있어요? 횡단보도를 건너서 오른쪽으로 가세요.",
       "audio_dialogue": [
         "약국이 어디에 있어요?",
         "횡단보도를 건너서 오른쪽으로 가세요."
       ],
       "why_uz": "건너서 = o'tib; 오른쪽 = o'ng tomon.",
+      "why_en": "건너서 = cross and…; 오른쪽 = right side.",
       "audio": "5d78f3019993.mp3"
     },
     {
@@ -270,6 +366,7 @@
       "type": "listen_question",
       "targets": [],
       "prompt_uz": "Shifokor nima qilmaslikni aytdi?",
+      "prompt_en": "What did the doctor say not to do?",
       "answers": [
         "Bugun dush qabul qilmaslikni"
       ],
@@ -279,6 +376,12 @@
         "Ovqat yemaslikni",
         "Uxlamaslikni"
       ],
+      "options_en": [
+        "Not to take a shower today",
+        "Not to take medicine",
+        "Not to eat",
+        "Not to sleep"
+      ],
       "audio_text": "어디가 아파서 오셨어요? 어제부터 목이 아프고 열이 나요. 오늘은 샤워하지 마세요.",
       "audio_dialogue": [
         "어디가 아파서 오셨어요?",
@@ -286,6 +389,7 @@
         "오늘은 샤워하지 마세요."
       ],
       "why_uz": "-지 마세요 = qilmang; 샤워 = dush.",
+      "why_en": "-지 마세요 = don't…; 샤워 = shower.",
       "audio": "2a896a276a45.mp3"
     },
     {
@@ -293,6 +397,7 @@
       "type": "listen_question",
       "targets": [],
       "prompt_uz": "Sinfda nima mumkin?",
+      "prompt_en": "What is allowed in the classroom?",
       "answers": [
         "Suv ichish"
       ],
@@ -302,12 +407,19 @@
         "Ovqat yeyish",
         "Suv ichish"
       ],
+      "options_en": [
+        "Sleeping",
+        "Talking on the phone",
+        "Eating",
+        "Drinking water"
+      ],
       "audio_text": "이 교실에서 음식을 먹어도 돼요? 아니요, 먹으면 안 돼요. 물은 마셔도 돼요.",
       "audio_dialogue": [
         "이 교실에서 음식을 먹어도 돼요?",
         "아니요, 먹으면 안 돼요. 물은 마셔도 돼요."
       ],
       "why_uz": "마셔도 돼요 = ichsa bo'ladi; 먹으면 안 돼요 = yeyish mumkin emas.",
+      "why_en": "마셔도 돼요 = you may drink; 먹으면 안 돼요 = eating is not allowed.",
       "audio": "dc27c810f507.mp3"
     },
     {
@@ -315,6 +427,7 @@
       "type": "listen_question",
       "targets": [],
       "prompt_uz": "Aziz hozir nima qilyapti?",
+      "prompt_en": "What is Aziz doing now?",
       "answers": [
         "Qahva ichib, uy vazifasini qilyapti"
       ],
@@ -324,12 +437,19 @@
         "Qahva ichib, kino ko'ryapti",
         "Qahva ichib, uy vazifasini qilyapti"
       ],
+      "options_en": [
+        "Talking with his friend",
+        "Studying at the library",
+        "Watching a film while drinking coffee",
+        "Doing homework while drinking coffee"
+      ],
       "audio_text": "여보세요, 아지즈 씨지요? 지금 뭐 하고 있어요? 커피를 마시면서 숙제하고 있어요.",
       "audio_dialogue": [
         "여보세요, 아지즈 씨지요? 지금 뭐 하고 있어요?",
         "커피를 마시면서 숙제하고 있어요."
       ],
       "why_uz": "-(으)면서 = ...-ib turib; 숙제하고 있어요 = uy vazifasini qilyapman.",
+      "why_en": "-(으)면서 = while …-ing; 숙제하고 있어요 = I'm doing homework.",
       "audio": "640f743952f2.mp3"
     }
   ],
@@ -339,6 +459,7 @@
       "type": "read_choice",
       "targets": [],
       "prompt_uz": "Azizning onasi avval kim bo'lgan?",
+      "prompt_en": "What was Aziz's mother before?",
       "answers": [
         "O'qituvchi"
       ],
@@ -348,14 +469,22 @@
         "Oshpaz",
         "Bank xodimi"
       ],
+      "options_en": [
+        "A teacher",
+        "A doctor",
+        "A cook",
+        "A bank clerk"
+      ],
       "sentence": "저는 아지즈예요. 우리 가족은 네 명이에요. 아버지는 의사세요. 어머니는 전에 선생님이셨어요.",
-      "why_uz": "선생님이셨어요 = o'qituvchi bo'lganlar."
+      "why_uz": "선생님이셨어요 = o'qituvchi bo'lganlar.",
+      "why_en": "선생님이셨어요 = (she) was a teacher (honorific)."
     },
     {
       "id": "final_r02",
       "type": "read_choice",
       "targets": [],
       "prompt_uz": "Nimaga chegirma bor?",
+      "prompt_en": "What is on sale?",
       "answers": [
         "Barcha yubkalarga"
       ],
@@ -365,14 +494,22 @@
         "Poyabzalga",
         "Sumkalarga"
       ],
+      "options_en": [
+        "All skirts",
+        "All trousers",
+        "Shoes",
+        "Bags"
+      ],
       "sentence": "[세일] 모든 치마 30% 할인!\n기간: 10월 1일 ~ 10월 7일",
-      "why_uz": "모든 치마 = barcha yubkalar; 할인 = chegirma."
+      "why_uz": "모든 치마 = barcha yubkalar; 할인 = chegirma.",
+      "why_en": "모든 치마 = all skirts; 할인 = discount."
     },
     {
       "id": "final_r03",
       "type": "read_choice",
       "targets": [],
       "prompt_uz": "Yozuvchi qanday yubka sotib oldi?",
+      "prompt_en": "What kind of skirt did the writer buy?",
       "answers": [
         "Uzunroq ko'k yubka"
       ],
@@ -382,14 +519,22 @@
         "Uzun qizil yubka",
         "Uzunroq ko'k yubka"
       ],
+      "options_en": [
+        "A short red skirt",
+        "A short blue skirt",
+        "A long red skirt",
+        "A longer blue skirt"
+      ],
       "sentence": "민지 씨는 빨간 치마를 샀어요. 저는 민지 씨 치마보다 더 긴 파란 치마를 샀어요.",
-      "why_uz": "더 긴 = uzunroq; 파란 = ko'k."
+      "why_uz": "더 긴 = uzunroq; 파란 = ko'k.",
+      "why_en": "더 긴 = longer; 파란 = blue."
     },
     {
       "id": "final_r04",
       "type": "read_choice",
       "targets": [],
       "prompt_uz": "Yomg'ir yog'sa, nima qiladi?",
+      "prompt_en": "What will they do if it rains?",
       "answers": [
         "Muzeyga boradi"
       ],
@@ -399,14 +544,22 @@
         "Muzeyga boradi",
         "Velosiped haydaydi"
       ],
+      "options_en": [
+        "Go to the park",
+        "Stay at home",
+        "Go to a museum",
+        "Ride a bike"
+      ],
       "sentence": "내일 비가 오면 박물관에 갈 거예요. 비가 오지 않으면 공원에서 자전거를 탈 거예요.",
-      "why_uz": "비가 오면 박물관에 갈 거예요."
+      "why_uz": "비가 오면 박물관에 갈 거예요.",
+      "why_en": "비가 오면 박물관에 갈 거예요 — if it rains, I'll go to a museum."
     },
     {
       "id": "final_r05",
       "type": "read_choice",
       "targets": [],
       "prompt_uz": "Matnga ko'ra pibimpap qanday?",
+      "prompt_en": "According to the text, what is bibimbap like?",
       "answers": [
         "Achchiq emas, mazali"
       ],
@@ -416,14 +569,22 @@
         "Juda achchiq",
         "Qimmat"
       ],
+      "options_en": [
+        "Sweet",
+        "Not spicy, and tasty",
+        "Very spicy",
+        "Expensive"
+      ],
       "sentence": "비빔밥은 한국 사람들이 많이 먹는 음식이에요. 맵지 않고 맛있어요.",
-      "why_uz": "맵지 않고 맛있어요 = achchiq emas va mazali."
+      "why_uz": "맵지 않고 맛있어요 = achchiq emas va mazali.",
+      "why_en": "맵지 않고 맛있어요 = it's not spicy and it's tasty."
     },
     {
       "id": "final_r06",
       "type": "read_choice",
       "targets": [],
       "prompt_uz": "U nimani yaxshi o'ynay olmaydi?",
+      "prompt_en": "What can't he play well?",
       "answers": [
         "Futbol"
       ],
@@ -433,14 +594,22 @@
         "Futbol",
         "Golf"
       ],
+      "options_en": [
+        "Tennis",
+        "Basketball",
+        "Football",
+        "Golf"
+      ],
       "sentence": "저는 주말에 친구하고 테니스를 쳐요. 축구는 좋아하지만 잘 못해요.",
-      "why_uz": "축구는 ... 잘 못해요 = futbolni yaxshi o'ynay olmayman."
+      "why_uz": "축구는 ... 잘 못해요 = futbolni yaxshi o'ynay olmayman.",
+      "why_en": "축구는 ... 잘 못해요 = I can't play football well."
     },
     {
       "id": "final_r07",
       "type": "read_choice",
       "targets": [],
       "prompt_uz": "To'garak qachon yig'iladi?",
+      "prompt_en": "When does the club meet?",
       "answers": [
         "Har shanba ertalab soat 9 da"
       ],
@@ -450,14 +619,22 @@
         "Har kuni soat 9 da",
         "Har shanba kechqurun"
       ],
+      "options_en": [
+        "Every Saturday at 9 a.m.",
+        "Every Sunday evening",
+        "Every day at 9",
+        "Every Saturday evening"
+      ],
       "sentence": "[동아리 회원 모집]\n등산을 좋아하는 학생은 누구나 오세요!\n매주 토요일 오전 9시",
-      "why_uz": "매주 토요일 오전 9시 = har shanba ertalab 9 da."
+      "why_uz": "매주 토요일 오전 9시 = har shanba ertalab 9 da.",
+      "why_en": "매주 토요일 오전 9시 = every Saturday at 9 a.m."
     },
     {
       "id": "final_r08",
       "type": "read_choice",
       "targets": [],
       "prompt_uz": "Bank qachon ishlamaydi?",
+      "prompt_en": "When is the bank closed?",
       "answers": [
         "Shanba va yakshanba"
       ],
@@ -467,14 +644,22 @@
         "Har kuni soat 9 da",
         "Juma ertalab"
       ],
+      "options_en": [
+        "Saturday and Sunday",
+        "Monday",
+        "Every day at 9",
+        "Friday morning"
+      ],
       "sentence": "한국은행 영업시간: 월~금 오전 9시 ~ 오후 4시\n토요일, 일요일은 쉽니다.",
-      "why_uz": "토요일, 일요일은 쉽니다 = shanba va yakshanba dam."
+      "why_uz": "토요일, 일요일은 쉽니다 = shanba va yakshanba dam.",
+      "why_en": "토요일, 일요일은 쉽니다 = closed on Saturday and Sunday."
     },
     {
       "id": "final_r09",
       "type": "read_choice",
       "targets": [],
       "prompt_uz": "Posilka qachon yetib boradi?",
+      "prompt_en": "When will the parcel arrive?",
       "answers": [
         "Bir oydan keyin"
       ],
@@ -484,14 +669,22 @@
         "Bir yildan keyin",
         "Ertaga"
       ],
+      "options_en": [
+        "In a month",
+        "In a week",
+        "In a year",
+        "Tomorrow"
+      ],
       "sentence": "우체국에 소포를 부치러 갔어요. 소포를 배로 보냈어요. 한 달 후에 도착할 거예요.",
-      "why_uz": "한 달 후에 = bir oydan keyin."
+      "why_uz": "한 달 후에 = bir oydan keyin.",
+      "why_en": "한 달 후에 = in a month."
     },
     {
       "id": "final_r10",
       "type": "read_choice",
       "targets": [],
       "prompt_uz": "Avtobusdan tushgach nima qilish kerak?",
+      "prompt_en": "What do you have to do after getting off the bus?",
       "answers": [
         "5 daqiqa piyoda yurish"
       ],
@@ -501,14 +694,22 @@
         "30 daqiqa yurish",
         "Taksiga chiqish"
       ],
+      "options_en": [
+        "Change to the subway",
+        "Walk for 5 minutes",
+        "Walk for 30 minutes",
+        "Take a taxi"
+      ],
       "sentence": "학교에서 집까지 버스로 30분 걸려요. 버스에서 내려서 5분 걸어야 돼요.",
-      "why_uz": "내려서 5분 걸어야 돼요 = tushib, 5 daqiqa yurish kerak."
+      "why_uz": "내려서 5분 걸어야 돼요 = tushib, 5 daqiqa yurish kerak.",
+      "why_en": "내려서 5분 걸어야 돼요 = after getting off, you have to walk for 5 minutes."
     },
     {
       "id": "final_r11",
       "type": "read_choice",
       "targets": [],
       "prompt_uz": "Bu yerda nima qilish mumkin emas?",
+      "prompt_en": "What is not allowed here?",
       "answers": [
         "Rasmga olish"
       ],
@@ -518,14 +719,22 @@
         "Gaplashish",
         "Kitob o'qish"
       ],
+      "options_en": [
+        "Sitting",
+        "Taking photos",
+        "Talking",
+        "Reading books"
+      ],
       "sentence": "[안내]\n이곳에서 사진을 찍지 마세요.\n음식을 가지고 들어갈 수 없습니다.",
-      "why_uz": "사진을 찍지 마세요 = rasmga olmang."
+      "why_uz": "사진을 찍지 마세요 = rasmga olmang.",
+      "why_en": "사진을 찍지 마세요 = don't take photos."
     },
     {
       "id": "final_r12",
       "type": "read_choice",
       "targets": [],
       "prompt_uz": "Aziz nega maktabga kelmadi?",
+      "prompt_en": "Why didn't Aziz come to school?",
       "answers": [
         "Shamollagani uchun"
       ],
@@ -535,14 +744,22 @@
         "Sayohatga ketgani uchun",
         "Shamollagani uchun"
       ],
+      "options_en": [
+        "Because he overslept",
+        "Because he was working",
+        "Because he went on a trip",
+        "Because he caught a cold"
+      ],
       "sentence": "아지즈 씨는 감기에 걸려서 오늘 학교에 못 왔어요. 내일은 올 수 있어요.",
-      "why_uz": "감기에 걸려서 = shamollagani uchun."
+      "why_uz": "감기에 걸려서 = shamollagani uchun.",
+      "why_en": "감기에 걸려서 = because he caught a cold."
     },
     {
       "id": "final_r13",
       "type": "read_choice",
       "targets": [],
       "prompt_uz": "Stress bo'lganda u nima qiladi?",
+      "prompt_en": "What does she do when she's stressed?",
       "answers": [
         "Qo'shiq tinglaydi yoki sayr qiladi"
       ],
@@ -552,14 +769,22 @@
         "Uxlaydi yoki ovqat yeydi",
         "Do'stiga qo'ng'iroq qiladi"
       ],
+      "options_en": [
+        "Works",
+        "Listens to songs or takes a walk",
+        "Sleeps or eats",
+        "Calls a friend"
+      ],
       "sentence": "저는 스트레스를 받을 때 노래를 듣거나 산책을 해요.",
-      "why_uz": "-(으)ㄹ 때 = ...ganda; -거나 = yoki."
+      "why_uz": "-(으)ㄹ 때 = ...ganda; -거나 = yoki.",
+      "why_en": "-(으)ㄹ 때 = when…; -거나 = or."
     },
     {
       "id": "final_r14",
       "type": "read_choice",
       "targets": [],
       "prompt_uz": "Kutubxonada nima mumkin emas?",
+      "prompt_en": "What is not allowed in the library?",
       "answers": [
         "Telefonda gaplashish"
       ],
@@ -569,14 +794,22 @@
         "Kitob o'qish",
         "Kitobni 2 hafta saqlash"
       ],
+      "options_en": [
+        "Talking on the phone",
+        "Borrowing books",
+        "Reading books",
+        "Keeping a book for 2 weeks"
+      ],
       "sentence": "[도서관 규칙]\n책을 2주 동안 빌려도 됩니다.\n도서관에서 전화하면 안 됩니다.",
-      "why_uz": "전화하면 안 됩니다 = telefon qilish mumkin emas."
+      "why_uz": "전화하면 안 됩니다 = telefon qilish mumkin emas.",
+      "why_en": "전화하면 안 됩니다 = making phone calls is not allowed."
     },
     {
       "id": "final_r15",
       "type": "read_choice",
       "targets": [],
       "prompt_uz": "Yozuvchi Minjiga nimani taklif qildi?",
+      "prompt_en": "What did the writer suggest to Minji?",
       "answers": [
         "Kafeda birga o'qishni"
       ],
@@ -586,8 +819,15 @@
         "Imtihonni bekor qilishni",
         "Uyda dam olishni"
       ],
+      "options_en": [
+        "Studying together at a café",
+        "Going to the cinema",
+        "Cancelling the exam",
+        "Resting at home"
+      ],
       "sentence": "민지 씨에게 문자를 보냈어요.\n\"내일 시험이 있지요? 같이 카페에서 커피 마시면서 공부해요.\"",
-      "why_uz": "같이 카페에서 ... 공부해요 = kafeda birga o'qiylik."
+      "why_uz": "같이 카페에서 ... 공부해요 = kafeda birga o'qiylik.",
+      "why_en": "같이 카페에서 ... 공부해요 = let's study together at a café."
     }
   ]
 }

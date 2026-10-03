@@ -4,16 +4,20 @@
   "lesson": 2,
   "title_ko": "어머니는 전에 무슨 일을 하셨어요?",
   "title_uz": "Onangiz avval qanday ishda ishlaganlar?",
+  "title_en": "What did your mother do before?",
   "topic_uz": "Oila",
+  "topic_en": "Family",
   "reviewed": false,
   "words": [
     {
       "id": "u01_l2_w001",
       "ko": "전에",
       "uz": "avval, ilgari",
+      "en": "before, previously",
       "pos": "ravish",
       "example_ko": "전에 서울에 살았어요.",
       "example_uz": "Avval Seulda yashaganman.",
+      "example_en": "I used to live in Seoul.",
       "audio": "bdfd352bcf06.mp3",
       "example_audio": "5d27a3ee11f9.mp3"
     },
@@ -21,9 +25,11 @@
       "id": "u01_l2_w002",
       "ko": "직업",
       "uz": "kasb",
+      "en": "occupation, job",
       "pos": "ot",
       "example_ko": "직업이 뭐예요?",
       "example_uz": "Kasbingiz nima?",
+      "example_en": "What is your job?",
       "audio": "e2a91adc826f.mp3",
       "example_audio": "04db13190586.mp3"
     },
@@ -31,9 +37,11 @@
       "id": "u01_l2_w003",
       "ko": "은행원",
       "uz": "bank xodimi",
+      "en": "bank clerk",
       "pos": "ot",
       "example_ko": "누나는 은행원이에요.",
       "example_uz": "Opam bank xodimi.",
+      "example_en": "My older sister is a bank clerk.",
       "audio": "3578e31011a8.mp3",
       "example_audio": "f6fdc51040eb.mp3"
     },
@@ -41,9 +49,11 @@
       "id": "u01_l2_w004",
       "ko": "기자",
       "uz": "jurnalist",
+      "en": "journalist",
       "pos": "ot",
       "example_ko": "기자가 질문해요.",
       "example_uz": "Jurnalist savol beryapti.",
+      "example_en": "The journalist is asking a question.",
       "audio": "8502cfb045fd.mp3",
       "example_audio": "00669d8fd86e.mp3"
     },
@@ -51,9 +61,11 @@
       "id": "u01_l2_w005",
       "ko": "요리사",
       "uz": "oshpaz",
+      "en": "cook, chef",
       "pos": "ot",
       "example_ko": "요리사가 음식을 만들어요.",
       "example_uz": "Oshpaz ovqat tayyorlayapti.",
+      "example_en": "The chef is preparing food.",
       "audio": "50cb443a3a3e.mp3",
       "example_audio": "e20317cab662.mp3"
     },
@@ -61,9 +73,11 @@
       "id": "u01_l2_w006",
       "ko": "가수",
       "uz": "qo'shiqchi",
+      "en": "singer",
       "pos": "ot",
       "example_ko": "그 가수는 노래를 잘해요.",
       "example_uz": "U qo'shiqchi yaxshi kuylaydi.",
+      "example_en": "That singer sings well.",
       "audio": "2f8f13bad447.mp3",
       "example_audio": "bef64f60346a.mp3"
     },
@@ -71,9 +85,11 @@
       "id": "u01_l2_w007",
       "ko": "경찰관",
       "uz": "politsiyachi",
+      "en": "police officer",
       "pos": "ot",
       "example_ko": "경찰관에게 길을 물어봤어요.",
       "example_uz": "Politsiyachidan yo'l so'radim.",
+      "example_en": "I asked a police officer for directions.",
       "audio": "ff5a1eac31a4.mp3",
       "example_audio": "340eace60de9.mp3"
     },
@@ -81,9 +97,11 @@
       "id": "u01_l2_w008",
       "ko": "변호사",
       "uz": "advokat",
+      "en": "lawyer",
       "pos": "ot",
       "example_ko": "형은 변호사예요.",
       "example_uz": "Akam advokat.",
+      "example_en": "My older brother is a lawyer.",
       "audio": "d3eb6adf1e2a.mp3",
       "example_audio": "3c9b60c34147.mp3"
     },
@@ -91,9 +109,11 @@
       "id": "u01_l2_w009",
       "ko": "운전기사",
       "uz": "haydovchi",
+      "en": "driver",
       "pos": "ot",
       "example_ko": "버스 운전기사가 친절해요.",
       "example_uz": "Avtobus haydovchisi xushmuomala.",
+      "example_en": "The bus driver is friendly.",
       "audio": "f5008ca27a7e.mp3",
       "example_audio": "92a745b0e6d5.mp3"
     },
@@ -101,9 +121,11 @@
       "id": "u01_l2_w010",
       "ko": "주부",
       "uz": "uy bekasi",
+      "en": "housewife, homemaker",
       "pos": "ot",
       "example_ko": "어머니는 주부세요.",
       "example_uz": "Onam uy bekasi.",
+      "example_en": "My mother is a homemaker.",
       "audio": "3653db0ca515.mp3",
       "example_audio": "402e3e9a2b36.mp3"
     },
@@ -111,9 +133,11 @@
       "id": "u01_l2_w011",
       "ko": "배우",
       "uz": "aktyor",
+      "en": "actor",
       "pos": "ot",
       "example_ko": "그 배우는 유명해요.",
       "example_uz": "U aktyor mashhur.",
+      "example_en": "That actor is famous.",
       "audio": "acf95a4868c9.mp3",
       "example_audio": "304e2fddf32c.mp3"
     },
@@ -121,9 +145,11 @@
       "id": "u01_l2_w012",
       "ko": "그만두다",
       "uz": "tashlamoq, to'xtatmoq (ishni)",
+      "en": "to quit, to stop (a job)",
       "pos": "fe'l",
       "example_ko": "회사를 그만뒀어요.",
       "example_uz": "Ishdan bo'shadim.",
+      "example_en": "I quit my job.",
       "audio": "ceaf30930390.mp3",
       "example_audio": "ab11ec03e643.mp3"
     },
@@ -131,9 +157,11 @@
       "id": "u01_l2_w013",
       "ko": "결혼하다",
       "uz": "turmush qurmoq",
+      "en": "to get married",
       "pos": "fe'l",
       "example_ko": "언니가 작년에 결혼했어요.",
       "example_uz": "Opam o'tgan yili turmushga chiqdi.",
+      "example_en": "My older sister got married last year.",
       "audio": "8d66d9413ed9.mp3",
       "example_audio": "788047050268.mp3"
     },
@@ -141,9 +169,11 @@
       "id": "u01_l2_w014",
       "ko": "태어나다",
       "uz": "tug'ilmoq",
+      "en": "to be born",
       "pos": "fe'l",
       "example_ko": "저는 사마르칸트에서 태어났어요.",
       "example_uz": "Men Samarqandda tug'ilganman.",
+      "example_en": "I was born in Samarkand.",
       "audio": "e262585eab5c.mp3",
       "example_audio": "60bc087b780c.mp3"
     },
@@ -151,9 +181,11 @@
       "id": "u01_l2_w015",
       "ko": "졸업하다",
       "uz": "bitirmoq (o'qishni)",
+      "en": "to graduate",
       "pos": "fe'l",
       "example_ko": "대학교를 졸업했어요.",
       "example_uz": "Universitetni bitirdim.",
+      "example_en": "I graduated from university.",
       "audio": "22a4b3a044bc.mp3",
       "example_audio": "c92f8676c27a.mp3"
     },
@@ -161,9 +193,11 @@
       "id": "u01_l2_w016",
       "ko": "은퇴하다",
       "uz": "nafaqaga chiqmoq",
+      "en": "to retire",
       "pos": "fe'l",
       "example_ko": "할아버지는 은퇴하셨어요.",
       "example_uz": "Bobom nafaqaga chiqqanlar.",
+      "example_en": "My grandfather has retired.",
       "audio": "3fd334b5a2ce.mp3",
       "example_audio": "40778208e61d.mp3"
     },
@@ -171,9 +205,11 @@
       "id": "u01_l2_w017",
       "ko": "옛날",
       "uz": "qadimda, ilgari",
+      "en": "long ago, in the past",
       "pos": "ot",
       "example_ko": "옛날에 여기는 시골이었어요.",
       "example_uz": "Ilgari bu yer qishloq edi.",
+      "example_en": "This place used to be a village.",
       "audio": "52ffd98aad51.mp3",
       "example_audio": "d0c435e84902.mp3"
     },
@@ -181,9 +217,11 @@
       "id": "u01_l2_w018",
       "ko": "고등학교",
       "uz": "o'rta maktab (yuqori sinflar)",
+      "en": "high school",
       "pos": "ot",
       "example_ko": "고등학교 때 영어를 배웠어요.",
       "example_uz": "Maktabda ingliz tilini o'rgandim.",
+      "example_en": "I learned English at school.",
       "audio": "4a93ff4a85e1.mp3",
       "example_audio": "07b8529f3f69.mp3"
     },
@@ -191,9 +229,11 @@
       "id": "u01_l2_w019",
       "ko": "시골",
       "uz": "qishloq",
+      "en": "countryside, village",
       "pos": "ot",
       "example_ko": "할머니는 시골에 사세요.",
       "example_uz": "Buvim qishloqda yashaydilar.",
+      "example_en": "My grandmother lives in the countryside.",
       "audio": "21cf100f2d92.mp3",
       "example_audio": "b72f86f4e2b5.mp3"
     },
@@ -201,9 +241,11 @@
       "id": "u01_l2_w020",
       "ko": "일찍",
       "uz": "erta",
+      "en": "early",
       "pos": "ravish",
       "example_ko": "일찍 일어났어요.",
       "example_uz": "Erta turdim.",
+      "example_en": "I got up early.",
       "audio": "04de1f5c5e88.mp3",
       "example_audio": "cd1ef6b26ebb.mp3"
     },
@@ -211,9 +253,11 @@
       "id": "u01_l2_w021",
       "ko": "출근하다",
       "uz": "ishga bormoq",
+      "en": "to go to work",
       "pos": "fe'l",
       "example_ko": "아버지는 여덟 시에 출근하세요.",
       "example_uz": "Otam soat sakkizda ishga boradilar.",
+      "example_en": "My father goes to work at eight o'clock.",
       "audio": "3f1b33ebb8bd.mp3",
       "example_audio": "9e34ed7abf22.mp3"
     },
@@ -221,9 +265,11 @@
       "id": "u01_l2_w022",
       "ko": "퇴근하다",
       "uz": "ishdan qaytmoq",
+      "en": "to leave work, to come home from work",
       "pos": "fe'l",
       "example_ko": "여섯 시에 퇴근해요.",
       "example_uz": "Soat oltida ishdan qaytaman.",
+      "example_en": "I come home from work at six.",
       "audio": "db0c1945ae6e.mp3",
       "example_audio": "0d8d70418a24.mp3"
     },
@@ -231,9 +277,11 @@
       "id": "u01_l2_w023",
       "ko": "성격",
       "uz": "fe'l-atvor",
+      "en": "personality, character",
       "pos": "ot",
       "example_ko": "성격이 좋아요.",
       "example_uz": "Fe'li yaxshi.",
+      "example_en": "He has a good personality.",
       "audio": "abffe1a52f58.mp3",
       "example_audio": "efd4cde6ebe3.mp3"
     },
@@ -241,9 +289,11 @@
       "id": "u01_l2_w024",
       "ko": "친절하다",
       "uz": "mehribon, xushmuomala",
+      "en": "kind, friendly",
       "pos": "sifat",
       "example_ko": "선생님이 친절하세요.",
       "example_uz": "O'qituvchi mehribon.",
+      "example_en": "The teacher is kind.",
       "audio": "027440f5521d.mp3",
       "example_audio": "dc80bb3d3f14.mp3"
     },
@@ -251,9 +301,11 @@
       "id": "u01_l2_w025",
       "ko": "조용하다",
       "uz": "jim, sokin",
+      "en": "quiet",
       "pos": "sifat",
       "example_ko": "도서관이 조용해요.",
       "example_uz": "Kutubxona jim.",
+      "example_en": "The library is quiet.",
       "audio": "e757aa20388b.mp3",
       "example_audio": "cdc8f68dfccb.mp3"
     },
@@ -261,9 +313,11 @@
       "id": "u01_l2_w026",
       "ko": "엄하다",
       "uz": "qattiqqo'l",
+      "en": "strict",
       "pos": "sifat",
       "example_ko": "아버지는 조금 엄하세요.",
       "example_uz": "Otam biroz qattiqqo'llar.",
+      "example_en": "My father is a little strict.",
       "audio": "366befc672ac.mp3",
       "example_audio": "f4635fa9dce6.mp3"
     },
@@ -271,9 +325,11 @@
       "id": "u01_l2_w027",
       "ko": "부지런하다",
       "uz": "mehnatkash, tirishqoq",
+      "en": "hard-working, diligent",
       "pos": "sifat",
       "example_ko": "어머니는 부지런하세요.",
       "example_uz": "Onam mehnatkashlar.",
+      "example_en": "My mother is hard-working.",
       "audio": "586591612038.mp3",
       "example_audio": "3ffdeb8c7dc7.mp3"
     },
@@ -281,9 +337,11 @@
       "id": "u01_l2_w028",
       "ko": "멋있다",
       "uz": "zo'r, kelishgan",
+      "en": "cool, good-looking",
       "pos": "sifat",
       "example_ko": "오빠가 멋있어요.",
       "example_uz": "Akam kelishgan.",
+      "example_en": "My older brother is good-looking.",
       "audio": "7e903a4881ef.mp3",
       "example_audio": "cf1f627d1878.mp3"
     },
@@ -291,9 +349,11 @@
       "id": "u01_l2_w029",
       "ko": "은행",
       "uz": "bank",
+      "en": "bank",
       "pos": "ot",
       "example_ko": "은행에서 일해요.",
       "example_uz": "Bankda ishlayman.",
+      "example_en": "I work at a bank.",
       "audio": "2d0a2d693302.mp3",
       "example_audio": "51cc5b719e1c.mp3"
     },
@@ -301,9 +361,11 @@
       "id": "u01_l2_w030",
       "ko": "회사",
       "uz": "kompaniya",
+      "en": "company",
       "pos": "ot",
       "example_ko": "회사가 멀어요.",
       "example_uz": "Kompaniya uzoqda.",
+      "example_en": "The company is far away.",
       "audio": "70641ecb6999.mp3",
       "example_audio": "75bdc640f66a.mp3"
     },
@@ -311,9 +373,11 @@
       "id": "u01_l2_w031",
       "ko": "어떤",
       "uz": "qanday, qanaqa",
+      "en": "what kind of",
       "pos": "aniqlovchi",
       "example_ko": "어떤 일을 하세요?",
       "example_uz": "Qanday ish qilasiz?",
+      "example_en": "What kind of work do you do?",
       "audio": "ff4a328c1593.mp3",
       "example_audio": "20f103844b51.mp3"
     },
@@ -321,9 +385,11 @@
       "id": "u01_l2_w032",
       "ko": "작년",
       "uz": "o'tgan yil",
+      "en": "last year",
       "pos": "ot",
       "example_ko": "작년에 한국에 왔어요.",
       "example_uz": "O'tgan yili Koreyaga keldim.",
+      "example_en": "I came to Korea last year.",
       "audio": "7e6947f19304.mp3",
       "example_audio": "2e0b08cb6f3e.mp3"
     }
@@ -333,30 +399,37 @@
       "id": "u01_l2_g1",
       "pattern": "A/V-(으)셨어요, N(이)셨어요",
       "meaning_uz": "O'tgan zamon hurmat shakli: '...-gan edilar', '... edilar'",
+      "meaning_en": "Honorific past tense: what a respected person did or was",
       "explanation_md": "**-(으)셨어요** — kattalar haqida **o'tgan zamon**da hurmat bilan gapirish: o'zbekchadagi **\"...-dilar\"**, **\"...-gan edilar\"**.\n\n**어머니는 전에 무슨 일을 하셨어요?** — *Onangiz avval qanday ishda ishlaganlar?*\n\n### Fe'l va sifat\n\n- **받침 yo'q** → **-셨어요**: 가다 → **가셨어요**, 하다 → **하셨어요**\n- **받침 bor** → **-으셨어요**: 읽다 → **읽으셨어요**, 앉다 → **앉으셨어요**\n- **ㄹ bilan tugasa** → ㄹ tushadi: 살다 → **사셨어요**, 만들다 → **만드셨어요**\n- **Maxsus fe'llar**: 있다 → **계셨어요**, 먹다 → **드셨어요**, 자다 → **주무셨어요**\n\n### Ot bilan\n\n- **받침 yo'q** → **-셨어요**: 의사 → **의사셨어요**, 기자 → **기자셨어요**\n- **받침 bor** → **-이셨어요**: 선생님 → **선생님이셨어요**, 은행원 → **은행원이셨어요**\n\n### Hozirgi zamon bilan juftlik\n\n| Hozir | O'tgan |\n|---|---|\n| 하**세요** | 하**셨어요** |\n| 선생님이**세요** | 선생님이**셨어요** |\n| 계**세요** | 계**셨어요** |\n\nO'zingiz haqida ishlatilmaydi: ~~저는 어제 가셨어요~~ ❌ → **저는 어제 갔어요** ✅",
+      "explanation_md_en": "**-(으)셨어요** is how you talk **respectfully** about an older person in the **past tense**: *did*, *was*, *used to*.\n\n**어머니는 전에 무슨 일을 하셨어요?** — *What did your mother do before?*\n\n### Verbs and adjectives\n\n- **No 받침** → **-셨어요**: 가다 → **가셨어요**, 하다 → **하셨어요**\n- **With 받침** → **-으셨어요**: 읽다 → **읽으셨어요**, 앉다 → **앉으셨어요**\n- **Ends in ㄹ** → ㄹ drops: 살다 → **사셨어요**, 만들다 → **만드셨어요**\n- **Special verbs**: 있다 → **계셨어요**, 먹다 → **드셨어요**, 자다 → **주무셨어요**\n\n### With nouns\n\n- **No 받침** → **-셨어요**: 의사 → **의사셨어요**, 기자 → **기자셨어요**\n- **With 받침** → **-이셨어요**: 선생님 → **선생님이셨어요**, 은행원 → **은행원이셨어요**\n\n### Present and past side by side\n\n| Present | Past |\n|---|---|\n| 하**세요** | 하**셨어요** |\n| 선생님이**세요** | 선생님이**셨어요** |\n| 계**세요** | 계**셨어요** |\n\nNever use it about yourself: ~~저는 어제 가셨어요~~ ❌ → **저는 어제 갔어요** ✅",
       "formation": [
         {
           "condition_uz": "받침 yo'q",
+          "condition_en": "No 받침",
           "rule": "-셨어요",
           "example": "가다 → 가셨어요"
         },
         {
           "condition_uz": "받침 bor",
+          "condition_en": "With 받침",
           "rule": "-으셨어요",
           "example": "읽다 → 읽으셨어요"
         },
         {
           "condition_uz": "ㄹ bilan tugasa",
+          "condition_en": "Ends in ㄹ",
           "rule": "ㄹ tushadi + -셨어요",
           "example": "살다 → 사셨어요"
         },
         {
           "condition_uz": "Maxsus fe'llar",
+          "condition_en": "Special verbs",
           "rule": "계셨어요, 드셨어요, 주무셨어요",
           "example": "자다 → 주무셨어요"
         },
         {
           "condition_uz": "Ot",
+          "condition_en": "Noun",
           "rule": "N(이)셨어요",
           "example": "선생님 → 선생님이셨어요, 의사 → 의사셨어요"
         }
@@ -365,26 +438,31 @@
         {
           "ko": "어머니는 전에 무슨 일을 하셨어요?",
           "uz": "Onangiz avval qanday ishda ishlaganlar?",
+          "en": "What did your mother do before?",
           "audio": "8d748e4e6369.mp3"
         },
         {
           "ko": "어머니는 전에 은행원이셨어요.",
           "uz": "Onam avval bank xodimi edilar.",
+          "en": "My mother used to be a bank clerk.",
           "audio": "57001b88f299.mp3"
         },
         {
           "ko": "할아버지는 시골에서 사셨어요.",
           "uz": "Bobom qishloqda yashaganlar.",
+          "en": "My grandfather lived in the countryside.",
           "audio": "db17eeb31df6.mp3"
         },
         {
           "ko": "아버지는 작년에 은퇴하셨어요.",
           "uz": "Otam o'tgan yili nafaqaga chiqdilar.",
+          "en": "My father retired last year.",
           "audio": "6b61f2f91192.mp3"
         },
         {
           "ko": "할머니는 어제 일찍 주무셨어요.",
           "uz": "Buvim kecha erta uxladilar.",
+          "en": "My grandmother went to bed early yesterday.",
           "audio": "7e883bbbb0c8.mp3"
         }
       ],
@@ -392,39 +470,48 @@
         {
           "wrong": "할머니는 시골에서 살으셨어요",
           "right": "할머니는 시골에서 사셨어요",
-          "why_uz": "ㄹ tushadi: 사셨어요."
+          "why_uz": "ㄹ tushadi: 사셨어요.",
+          "why_en": "ㄹ drops: 사셨어요."
         },
         {
           "wrong": "할아버지는 어제 일찍 자셨어요",
           "right": "할아버지는 어제 일찍 주무셨어요",
-          "why_uz": "자다 → 주무시다."
+          "why_uz": "자다 → 주무시다.",
+          "why_en": "자다 → 주무시다."
         },
         {
           "wrong": "어머니는 선생님셨어요",
           "right": "어머니는 선생님이셨어요",
-          "why_uz": "받침 bor: -이셨어요."
+          "why_uz": "받침 bor: -이셨어요.",
+          "why_en": "With 받침: -이셨어요."
         }
       ],
-      "uz_compare": "O'zbekchada 'ishladi' o'rniga hurmat bilan 'ishladilar' yoki 'ishlagan edilar' deymiz. Koreyschada: 일했어요 → 일하셨어요."
+      "uz_compare": "O'zbekchada 'ishladi' o'rniga hurmat bilan 'ishladilar' yoki 'ishlagan edilar' deymiz. Koreyschada: 일했어요 → 일하셨어요.",
+      "compare_en": "English past tense is the same for everyone: 'my father worked', 'I worked'. Korean adds honorific -(으)시- before the past ending when the subject deserves respect: 일했어요 → 일하셨어요."
     },
     {
       "id": "u01_l2_g2",
       "pattern": "A/V-고",
       "meaning_uz": "Sanash: '... va ...', '...-ib'",
+      "meaning_en": "Listing: 'and'",
       "explanation_md": "**-고** — ikki va undan ko'p **xususiyat yoki harakat**ni **sanab** bog'laydi: o'zbekchadagi **\"va\"**, **\"...-ib\"**.\n\n**아버지는 조용하고 친절하세요.** — *Otam jim va mehribonlar.*\n\n### Qanday yasaladi\n\nO'zakka **-고** qo'shiladi, 받침ga qarab o'zgarmaydi:\n\n- 크다 → **크고**\n- 친절하다 → **친절하고**\n- 좋다 → **좋고**\n- 맛있다 → **맛있고**\n\n**Ot** bilan: **N이고** (받침 bor), **N고** (받침 yo'q):\n\n형은 회사원**이고** 누나는 의사**예요**.\n\n### Ikki xil gap\n\n1. Bitta odam haqida ikki xususiyat:\n   - 이 식당은 싸**고** 맛있어요. — *Bu restoran arzon va mazali.*\n2. Ikki odam haqida taqqoslab:\n   - 아버지는 엄하시**고** 어머니는 친절하세요.\n\n### Zamon\n\nZamon odatda **oxirgi fe'l**da: 키가 크**고** 멋있**었어요**.\n\n### Diqqat\n\n**-고** dan oldin **-아/어** qo'shilmaydi: ~~커고~~ ❌ → **크고** ✅",
+      "explanation_md_en": "**-고** joins two or more **qualities or actions** in a list, like English **\"and\"**.\n\n**아버지는 조용하고 친절하세요.** — *My father is quiet and kind.*\n\n### How to form it\n\nAdd **-고** to the stem; it does not change with 받침:\n\n- 크다 → **크고**\n- 친절하다 → **친절하고**\n- 좋다 → **좋고**\n- 맛있다 → **맛있고**\n\nWith a **noun**: **N이고** (with 받침), **N고** (no 받침):\n\n형은 회사원**이고** 누나는 의사**예요**.\n\n### Two kinds of sentence\n\n1. Two qualities of one person or thing:\n   - 이 식당은 싸**고** 맛있어요. — *This restaurant is cheap and tasty.*\n2. Comparing two people:\n   - 아버지는 엄하시**고** 어머니는 친절하세요.\n\n### Tense\n\nThe tense usually goes on **the last verb** only: 키가 크**고** 멋있**었어요**.\n\n### Watch out\n\nDo not add **-아/어** before **-고**: ~~커고~~ ❌ → **크고** ✅",
       "formation": [
         {
           "condition_uz": "Fe'l / sifat",
+          "condition_en": "Verb / adjective",
           "rule": "-고",
           "example": "크다 → 크고, 친절하다 → 친절하고"
         },
         {
           "condition_uz": "Ot, 받침 bor",
+          "condition_en": "Noun with 받침",
           "rule": "N이고",
           "example": "회사원 → 회사원이고"
         },
         {
           "condition_uz": "Ot, 받침 yo'q",
+          "condition_en": "Noun without 받침",
           "rule": "N고",
           "example": "의사 → 의사고"
         }
@@ -433,26 +520,31 @@
         {
           "ko": "아버지는 조용하고 친절하세요.",
           "uz": "Otam jim va mehribonlar.",
+          "en": "My father is quiet and kind.",
           "audio": "904e69cd6dc5.mp3"
         },
         {
           "ko": "어머니는 재미있고 부지런하세요.",
           "uz": "Onam quvnoq va mehnatkashlar.",
+          "en": "My mother is cheerful and hard-working.",
           "audio": "e763c0ea0709.mp3"
         },
         {
           "ko": "이 식당은 싸고 맛있어요.",
           "uz": "Bu restoran arzon va mazali.",
+          "en": "This restaurant is cheap and tasty.",
           "audio": "a8119b2aab58.mp3"
         },
         {
           "ko": "형은 회사원이고 누나는 의사예요.",
           "uz": "Akam kompaniya xodimi, opam esa shifokor.",
+          "en": "My older brother is an office worker, and my older sister is a doctor.",
           "audio": "26157ed740a2.mp3"
         },
         {
           "ko": "아버지는 부산에서 태어나셨고 어머니는 서울에서 태어나셨어요.",
           "uz": "Otam Pusanda, onam esa Seulda tug'ilganlar.",
+          "en": "My father was born in Busan, and my mother was born in Seoul.",
           "audio": "22b6a6f315b0.mp3"
         }
       ],
@@ -460,20 +552,24 @@
         {
           "wrong": "오빠는 키가 커고 친절해요",
           "right": "오빠는 키가 크고 친절해요",
-          "why_uz": "-고 to'g'ridan-to'g'ri o'zakka qo'shiladi."
+          "why_uz": "-고 to'g'ridan-to'g'ri o'zakka qo'shiladi.",
+          "why_en": "-고 attaches directly to the stem."
         },
         {
           "wrong": "날씨가 좋아고 따뜻해요",
           "right": "날씨가 좋고 따뜻해요",
-          "why_uz": "-아 qo'shilmaydi: 좋고."
+          "why_uz": "-아 qo'shilmaydi: 좋고.",
+          "why_en": "No -아 is added: 좋고."
         },
         {
           "wrong": "형은 회사원고 누나는 의사예요",
           "right": "형은 회사원이고 누나는 의사예요",
-          "why_uz": "받침 bor: N이고."
+          "why_uz": "받침 bor: N이고.",
+          "why_en": "With 받침: N이고."
         }
       ],
-      "uz_compare": "O'zbekchada 'arzon va mazali' deymiz. Koreyschada 'va' birinchi so'zga qo'shiladi: 싸고 맛있어요."
+      "uz_compare": "O'zbekchada 'arzon va mazali' deymiz. Koreyschada 'va' birinchi so'zga qo'shiladi: 싸고 맛있어요.",
+      "compare_en": "In English 'and' is a separate word between the two parts: 'cheap and tasty'. In Korean it is an ending on the first word: 싸고 맛있어요."
     }
   ],
   "dialogue": {
@@ -482,78 +578,91 @@
         "speaker": "aziz",
         "ko": "민지 씨 어머니는 지금 무슨 일을 하세요?",
         "uz": "Minji, onangiz hozir qanday ish qiladilar?",
+        "en": "Minji, what does your mother do now?",
         "audio": "9619c52094dd.mp3"
       },
       {
         "speaker": "minji",
         "ko": "지금은 일을 안 하세요. 주부세요.",
         "uz": "Hozir ishlamaydilar. Uy bekasilar.",
+        "en": "She doesn't work now. She's a homemaker.",
         "audio": "fd5da3646c6a.mp3"
       },
       {
         "speaker": "aziz",
         "ko": "어머니는 전에 무슨 일을 하셨어요?",
         "uz": "Onangiz avval qanday ishda ishlaganlar?",
+        "en": "What did your mother do before?",
         "audio": "cd9f3a2b2d44.mp3"
       },
       {
         "speaker": "minji",
         "ko": "전에는 은행원이셨어요. 결혼하고 일을 그만두셨어요.",
         "uz": "Avval bank xodimi edilar. Turmush qurib, ishni tashladilar.",
+        "en": "She used to be a bank clerk. She got married and quit her job.",
         "audio": "1f637a0b35b8.mp3"
       },
       {
         "speaker": "aziz",
         "ko": "아, 그래요? 아버지는요?",
         "uz": "Shundaymi? Otangiz-chi?",
+        "en": "Oh, really? What about your father?",
         "audio": "99edf96b714a.mp3"
       },
       {
         "speaker": "minji",
         "ko": "아버지는 고등학교 선생님이셨어요. 작년에 은퇴하셨어요.",
         "uz": "Otam maktab o'qituvchisi edilar. O'tgan yili nafaqaga chiqdilar.",
+        "en": "My father was a high school teacher. He retired last year.",
         "audio": "0425bbc3196c.mp3"
       },
       {
         "speaker": "aziz",
         "ko": "아버지는 어떤 분이세요?",
         "uz": "Otangiz qanday odam?",
+        "en": "What kind of person is your father?",
         "audio": "8ad129c3a188.mp3"
       },
       {
         "speaker": "minji",
         "ko": "아버지는 조용하고 친절하세요. 어머니는 재미있고 부지런하세요.",
         "uz": "Otam jim va mehribonlar. Onam esa quvnoq va mehnatkashlar.",
+        "en": "My father is quiet and kind. My mother is cheerful and hard-working.",
         "audio": "f5892f99dc83.mp3"
       },
       {
         "speaker": "aziz",
         "ko": "부모님은 어디에서 태어나셨어요?",
         "uz": "Ota-onangiz qayerda tug'ilganlar?",
+        "en": "Where were your parents born?",
         "audio": "630b836c9a49.mp3"
       },
       {
         "speaker": "minji",
         "ko": "아버지는 부산에서 태어나셨고 어머니는 서울에서 태어나셨어요.",
         "uz": "Otam Pusanda, onam esa Seulda tug'ilganlar.",
+        "en": "My father was born in Busan, and my mother was born in Seoul.",
         "audio": "22b6a6f315b0.mp3"
       },
       {
         "speaker": "aziz",
         "ko": "우리 아버지는 운전기사세요. 그리고 어머니는 전에 요리사셨어요.",
         "uz": "Mening otam haydovchilar. Onam esa avval oshpaz edilar.",
+        "en": "My father is a driver. And my mother used to be a cook.",
         "audio": "59611d0f833a.mp3"
       },
       {
         "speaker": "minji",
         "ko": "와, 어머니께서 요리를 잘하세요?",
         "uz": "Voy, onangiz yaxshi ovqat pishiradilarmi?",
+        "en": "Wow, is your mother a good cook?",
         "audio": "7f83ab3991f2.mp3"
       },
       {
         "speaker": "aziz",
         "ko": "네, 정말 잘하세요.",
         "uz": "Ha, juda yaxshi pishiradilar.",
+        "en": "Yes, she's a really good cook.",
         "audio": "49d9966a1ce6.mp3"
       }
     ]
@@ -566,6 +675,7 @@
         "u01_l2_g1"
       ],
       "prompt_uz": "O'tgan zamon hurmat shaklini yasang: 'bordilar'",
+      "prompt_en": "Make the honorific past form: '(he) went'",
       "base": "가다",
       "form": "-(으)셨어요",
       "answers": [
@@ -579,6 +689,7 @@
         "u01_l2_g1"
       ],
       "prompt_uz": "O'tgan zamon hurmat shaklini yasang: 'o'qidilar'",
+      "prompt_en": "Make the honorific past form: '(she) read'",
       "base": "읽다",
       "form": "-(으)셨어요",
       "answers": [
@@ -592,12 +703,14 @@
         "u01_l2_g1"
       ],
       "prompt_uz": "O'tgan zamon hurmat shaklini yasang: 'yashadilar'",
+      "prompt_en": "Make the honorific past form: '(he) lived'",
       "base": "살다",
       "form": "-(으)셨어요",
       "answers": [
         "사셨어요"
       ],
-      "hint_uz": "ㄹ tushadi"
+      "hint_uz": "ㄹ tushadi",
+      "hint_en": "ㄹ drops"
     },
     {
       "id": "u01_l2_e004",
@@ -606,6 +719,7 @@
         "u01_l2_g1"
       ],
       "prompt_uz": "O'tgan zamon hurmat shaklini yasang: 'o'qituvchi edilar'",
+      "prompt_en": "Make the honorific past form: '(she) was a teacher'",
       "base": "선생님",
       "form": "N(이)셨어요",
       "answers": [
@@ -619,6 +733,7 @@
         "u01_l2_g2"
       ],
       "prompt_uz": "'Baland va...' shaklini yasang",
+      "prompt_en": "Make the form 'tall and…'",
       "base": "크다",
       "form": "-고",
       "answers": [
@@ -632,6 +747,7 @@
         "u01_l2_g2"
       ],
       "prompt_uz": "'Mehribon va...' shaklini yasang",
+      "prompt_en": "Make the form 'kind and…'",
       "base": "친절하다",
       "form": "-고",
       "answers": [
@@ -645,6 +761,7 @@
         "u01_l2_g1"
       ],
       "prompt_uz": "Bo'sh joyni to'ldiring: 'Onangiz avval qanday ishda ishlaganlar?'",
+      "prompt_en": "Fill in the blank: 'What did your mother do before?'",
       "sentence": "어머니는 전에 무슨 일을 ___? (하다)",
       "answers": [
         "하셨어요"
@@ -657,11 +774,13 @@
         "u01_l2_g1"
       ],
       "prompt_uz": "Bo'sh joyni to'ldiring: 'Bobom kecha erta uxladilar.'",
+      "prompt_en": "Fill in the blank: 'My grandfather went to bed early yesterday.'",
       "sentence": "할아버지는 어제 일찍 ___. (자다)",
       "answers": [
         "주무셨어요"
       ],
-      "hint_uz": "Maxsus hurmat fe'li"
+      "hint_uz": "Maxsus hurmat fe'li",
+      "hint_en": "A special honorific verb"
     },
     {
       "id": "u01_l2_e009",
@@ -670,6 +789,7 @@
         "u01_l2_g2"
       ],
       "prompt_uz": "Bo'sh joyni to'ldiring: 'Otam jim va mehribonlar.'",
+      "prompt_en": "Fill in the blank: 'My father is quiet and kind.'",
       "sentence": "아버지는 ___ 친절하세요. (조용하다)",
       "answers": [
         "조용하고",
@@ -683,6 +803,7 @@
         "u01_l2_g2"
       ],
       "prompt_uz": "Bo'sh joyni to'ldiring: 'Akam kompaniya xodimi, opam esa shifokor.'",
+      "prompt_en": "Fill in the blank: 'My older brother is an office worker, and my older sister is a doctor.'",
       "sentence": "형은 회사원___ 누나는 의사예요.",
       "answers": [
         "이고"
@@ -695,6 +816,7 @@
         "u01_l2_g1"
       ],
       "prompt_uz": "'Otam avval o'qituvchi edilar' qaysi biri?",
+      "prompt_en": "Which one means 'My father used to be a teacher'?",
       "options": [
         "아버지는 전에 선생님이셨어요",
         "아버지는 전에 선생님셨어요",
@@ -712,6 +834,7 @@
         "u01_l2_g2"
       ],
       "prompt_uz": "'Opam chiroyli va mehribon' qaysi biri?",
+      "prompt_en": "Which one means 'My older sister is pretty and kind'?",
       "options": [
         "언니는 예쁘고 친절해요",
         "언니는 예쁘지만 친절해요",
@@ -729,6 +852,7 @@
         "u01_l2_w005"
       ],
       "prompt_uz": "Restoranda ovqat pishiradigan kishi kim?",
+      "prompt_en": "Who cooks the food in a restaurant?",
       "options": [
         "요리사",
         "기자",
@@ -746,6 +870,7 @@
         "u01_l2_g1"
       ],
       "prompt_uz": "'Onam avval bank xodimi edilar' gapini tuzing",
+      "prompt_en": "Build the sentence 'My mother used to be a bank clerk'",
       "tokens": [
         "은행원이셨어요",
         "전에",
@@ -762,6 +887,7 @@
         "u01_l2_g2"
       ],
       "prompt_uz": "'Akamning bo'yi baland va kelishgan' gapini tuzing",
+      "prompt_en": "Build the sentence 'My older brother is tall and good-looking'",
       "tokens": [
         "멋있어요",
         "크고",
@@ -779,11 +905,13 @@
         "u01_l2_g1"
       ],
       "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
       "sentence": "할머니는 시골에서 살으셨어요.",
       "answers": [
         "할머니는 시골에서 사셨어요"
       ],
-      "why_uz": "ㄹ tushadi: 사셨어요."
+      "why_uz": "ㄹ tushadi: 사셨어요.",
+      "why_en": "ㄹ drops: 사셨어요."
     },
     {
       "id": "u01_l2_e017",
@@ -792,11 +920,13 @@
         "u01_l2_g2"
       ],
       "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
       "sentence": "오빠는 키가 커고 친절해요.",
       "answers": [
         "오빠는 키가 크고 친절해요"
       ],
-      "why_uz": "-고 o'zakka qo'shiladi: 크고."
+      "why_uz": "-고 o'zakka qo'shiladi: 크고.",
+      "why_en": "-고 attaches to the stem: 크고."
     },
     {
       "id": "u01_l2_e018",
@@ -805,11 +935,13 @@
         "u01_l2_g1"
       ],
       "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
       "sentence": "할아버지는 어제 일찍 자셨어요.",
       "answers": [
         "할아버지는 어제 일찍 주무셨어요"
       ],
-      "why_uz": "자다 → 주무시다."
+      "why_uz": "자다 → 주무시다.",
+      "why_en": "자다 → 주무시다."
     },
     {
       "id": "u01_l2_e019",
@@ -818,7 +950,9 @@
         "u01_l2_g1"
       ],
       "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
       "source_uz": "Otangiz avval qanday ish qilganlar?",
+      "source_en": "What did your father do before?",
       "answers": [
         "아버지는 전에 무슨 일을 하셨어요",
         "아버님은 전에 무슨 일을 하셨어요",
@@ -832,7 +966,9 @@
         "u01_l2_g2"
       ],
       "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
       "source_uz": "Akam baland bo'yli va mehribon.",
+      "source_en": "My older brother is tall and kind.",
       "answers": [
         "형은 키가 크고 친절해요",
         "오빠는 키가 크고 친절해요",
@@ -847,7 +983,9 @@
         "u01_l2_g1"
       ],
       "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
       "source_uz": "Bobom Samarqandda tug'ilganlar.",
+      "source_en": "My grandfather was born in Samarkand.",
       "answers": [
         "할아버지는 사마르칸트에서 태어나셨어요",
         "우리 할아버지는 사마르칸트에서 태어나셨어요",
@@ -861,12 +999,19 @@
         "u01_l2_g1"
       ],
       "prompt_uz": "Onasi avval kim bo'lgan?",
+      "prompt_en": "What was their mother before?",
       "audio_text": "우리 어머니는 전에 간호사셨어요.",
       "options": [
         "Hamshira",
         "O'qituvchi",
         "Shifokor",
         "Bank xodimi"
+      ],
+      "options_en": [
+        "A nurse",
+        "A teacher",
+        "A doctor",
+        "A bank clerk"
       ],
       "answers": [
         "Hamshira"
@@ -880,12 +1025,19 @@
         "u01_l2_g2"
       ],
       "prompt_uz": "Ukasi kim?",
+      "prompt_en": "What is the speaker's younger sibling?",
       "audio_text": "제 동생은 대학생이고 저는 회사원이에요.",
       "options": [
         "Talaba",
         "Kompaniya xodimi",
         "O'qituvchi",
         "Shifokor"
+      ],
+      "options_en": [
+        "A university student",
+        "An office worker",
+        "A teacher",
+        "A doctor"
       ],
       "answers": [
         "Talaba"
@@ -899,12 +1051,19 @@
         "u01_l2_g1"
       ],
       "prompt_uz": "Bobosi o'tgan yili nima qildi?",
+      "prompt_en": "What did their grandfather do last year?",
       "audio_text": "할아버지는 작년에 은퇴하셨어요.",
       "options": [
         "Nafaqaga chiqdi",
         "Turmush qurdi",
         "Ko'chib ketdi",
         "Kasal bo'ldi"
+      ],
+      "options_en": [
+        "He retired",
+        "He got married",
+        "He moved away",
+        "He got sick"
       ],
       "answers": [
         "Nafaqaga chiqdi"
@@ -918,6 +1077,7 @@
         "u01_l2_g1"
       ],
       "prompt_uz": "O'tgan zamon hurmat shaklini yasang: 'keldilar'",
+      "prompt_en": "Make the honorific past form: '(he) came'",
       "base": "오다",
       "form": "-(으)셨어요",
       "answers": [
@@ -931,12 +1091,14 @@
         "u01_l2_g1"
       ],
       "prompt_uz": "O'tgan zamon hurmat shaklini yasang: '(joyda) edilar'",
+      "prompt_en": "Make the honorific past form: '(she) was (somewhere)'",
       "base": "있다",
       "form": "-(으)셨어요",
       "answers": [
         "계셨어요"
       ],
-      "hint_uz": "Maxsus hurmat fe'li"
+      "hint_uz": "Maxsus hurmat fe'li",
+      "hint_en": "A special honorific verb"
     },
     {
       "id": "u01_l2_e103",
@@ -945,6 +1107,7 @@
         "u01_l2_g2"
       ],
       "prompt_uz": "'Jim va...' shaklini yasang",
+      "prompt_en": "Make the form 'quiet and…'",
       "base": "조용하다",
       "form": "-고",
       "answers": [
@@ -958,6 +1121,7 @@
         "u01_l2_g1"
       ],
       "prompt_uz": "Bo'sh joyni to'ldiring: 'Kecha buvim uyimizga keldilar.'",
+      "prompt_en": "Fill in the blank: 'Yesterday my grandmother came to our house.'",
       "sentence": "어제 할머니가 우리 집에 ___. (오다)",
       "answers": [
         "오셨어요"
@@ -970,6 +1134,7 @@
         "u01_l2_g2"
       ],
       "prompt_uz": "Bo'sh joyni to'ldiring: 'Bu restoran arzon va mazali.'",
+      "prompt_en": "Fill in the blank: 'This restaurant is cheap and tasty.'",
       "sentence": "이 식당은 ___ 맛있어요. (싸다)",
       "answers": [
         "싸고"
@@ -982,6 +1147,7 @@
         "u01_l2_g1"
       ],
       "prompt_uz": "Bo'sh joyni to'ldiring: 'Otam ilgari jurnalist edilar.'",
+      "prompt_en": "Fill in the blank: 'My father used to be a journalist.'",
       "sentence": "아버지는 옛날에 ___. (기자)",
       "answers": [
         "기자셨어요"
@@ -994,6 +1160,7 @@
         "u01_l2_g1"
       ],
       "prompt_uz": "'Buvim kecha non yedilar' qaysi biri?",
+      "prompt_en": "Which one means 'My grandmother ate bread yesterday'?",
       "options": [
         "할머니는 어제 빵을 드셨어요",
         "할머니는 어제 빵을 먹셨어요",
@@ -1011,6 +1178,7 @@
         "u01_l2_w012"
       ],
       "prompt_uz": "'Ishni tashlab ketmoq' qaysi biri?",
+      "prompt_en": "Which one means 'to quit a job'?",
       "options": [
         "일을 그만두다",
         "일을 시작하다",
@@ -1028,6 +1196,7 @@
         "u01_l2_g2"
       ],
       "prompt_uz": "'Onam quvnoq va mehnatkashlar' gapini tuzing",
+      "prompt_en": "Build the sentence 'My mother is cheerful and hard-working'",
       "tokens": [
         "부지런하세요",
         "어머니는",
@@ -1044,6 +1213,7 @@
         "u01_l2_g1"
       ],
       "prompt_uz": "'Ota-onam Seulda turmush qurganlar' gapini tuzing",
+      "prompt_en": "Build the sentence 'My parents got married in Seoul'",
       "tokens": [
         "결혼하셨어요",
         "서울에서",
@@ -1060,11 +1230,13 @@
         "u01_l2_g1"
       ],
       "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
       "sentence": "어머니는 어제 집에 있으셨어요.",
       "answers": [
         "어머니는 어제 집에 계셨어요"
       ],
-      "why_uz": "Joyda bo'lish ma'nosida 있다 → 계시다."
+      "why_uz": "Joyda bo'lish ma'nosida 있다 → 계시다.",
+      "why_en": "In the sense 'to be somewhere', 있다 → 계시다."
     },
     {
       "id": "u01_l2_e112",
@@ -1073,11 +1245,13 @@
         "u01_l2_g2"
       ],
       "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
       "sentence": "날씨가 좋아고 따뜻해요.",
       "answers": [
         "날씨가 좋고 따뜻해요"
       ],
-      "why_uz": "-고 o'zakka qo'shiladi: 좋고."
+      "why_uz": "-고 o'zakka qo'shiladi: 좋고.",
+      "why_en": "-고 attaches to the stem: 좋고."
     },
     {
       "id": "u01_l2_e113",
@@ -1086,7 +1260,9 @@
         "u01_l2_g1"
       ],
       "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
       "source_uz": "Onam avval bankda ishlaganlar.",
+      "source_en": "My mother used to work at a bank.",
       "answers": [
         "어머니는 전에 은행에서 일하셨어요",
         "우리 어머니는 전에 은행에서 일하셨어요",
@@ -1101,7 +1277,9 @@
         "u01_l2_g2"
       ],
       "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
       "source_uz": "Bu restoran arzon va mazali.",
+      "source_en": "This restaurant is cheap and tasty.",
       "answers": [
         "이 식당은 싸고 맛있어요",
         "이 식당은 맛있고 싸요",
@@ -1115,12 +1293,19 @@
         "u01_l2_g2"
       ],
       "prompt_uz": "Otasi qanday odam?",
+      "prompt_en": "What kind of person is their father?",
       "audio_text": "아버지는 엄하시고 어머니는 친절하세요.",
       "options": [
         "Qattiqqo'l",
         "Mehribon",
         "Quvnoq",
         "Jim"
+      ],
+      "options_en": [
+        "Strict",
+        "Kind",
+        "Cheerful",
+        "Quiet"
       ],
       "answers": [
         "Qattiqqo'l"
@@ -1147,12 +1332,14 @@
   ],
   "story": {
     "title_uz": "Buvining kasbi",
+    "title_en": "Grandma's job",
     "steps": [
       {
         "type": "line",
         "speaker": "aziz",
         "ko": "민지 씨, 주말에 뭐 했어요?",
         "uz": "Minji, dam olish kunlari nima qildingiz?",
+        "en": "Minji, what did you do at the weekend?",
         "audio": "c6237bb625dd.mp3"
       },
       {
@@ -1160,6 +1347,7 @@
         "speaker": "minji",
         "ko": "할머니 댁에 갔어요. 할머니가 맛있는 음식을 만드셨어요.",
         "uz": "Buvimnikiga bordim. Buvim mazali ovqat tayyorladilar.",
+        "en": "I went to my grandmother's. She made delicious food.",
         "audio": "89a8c6237464.mp3"
       },
       {
@@ -1167,6 +1355,7 @@
         "speaker": "aziz",
         "ko": "할머니는 전에 무슨 일을 하셨어요?",
         "uz": "Buvingiz avval qanday ish qilganlar?",
+        "en": "What did your grandmother do before?",
         "audio": "18852832879f.mp3"
       },
       {
@@ -1174,24 +1363,33 @@
         "speaker": "minji",
         "ko": "할머니는 전에 고등학교 선생님이셨어요.",
         "uz": "Buvim avval maktab o'qituvchisi edilar.",
+        "en": "My grandmother used to be a school teacher.",
         "audio": "2c0b53585577.mp3"
       },
       {
         "type": "quiz",
         "prompt_uz": "Minjining buvisi avval kim bo'lgan?",
+        "prompt_en": "What was Minji's grandmother before?",
         "options": [
           "O'qituvchi",
           "Shifokor",
           "Oshpaz"
         ],
+        "options_en": [
+          "A teacher",
+          "A doctor",
+          "A cook"
+        ],
         "answer": "O'qituvchi",
-        "why_uz": "선생님이셨어요 = o'qituvchi edilar."
+        "why_uz": "선생님이셨어요 = o'qituvchi edilar.",
+        "why_en": "선생님이셨어요 = (she) was a teacher."
       },
       {
         "type": "line",
         "speaker": "aziz",
         "ko": "와, 그럼 할아버지는요?",
         "uz": "Voy, bobongiz-chi?",
+        "en": "Wow. And your grandfather?",
         "audio": "2a43b97ce5a5.mp3"
       },
       {
@@ -1199,6 +1397,7 @@
         "speaker": "minji",
         "ko": "할아버지는 은행원이셨어요. 작년에 은퇴하셨어요.",
         "uz": "Bobom bank xodimi edilar. O'tgan yili nafaqaga chiqdilar.",
+        "en": "My grandfather was a bank clerk. He retired last year.",
         "audio": "652f11172134.mp3"
       },
       {
@@ -1206,12 +1405,14 @@
         "speaker": "minji",
         "ko": "아지즈 씨 부모님은 어떤 분이세요?",
         "uz": "Aziz, ota-onangiz qanday odamlar?",
+        "en": "Aziz, what are your parents like?",
         "audio": "b9b30636a27d.mp3"
       },
       {
         "type": "choose_reply",
         "speaker": "aziz",
         "prompt_uz": "Aziz 'Otam jim va mehribonlar' demoqchi. U nima deydi?",
+        "prompt_en": "Aziz wants to say 'My father is quiet and kind'. What does he say?",
         "options": [
           "아버지는 조용하고 친절하세요.",
           "아버지는 조용해고 친절하세요.",
@@ -1219,7 +1420,9 @@
         ],
         "answer": "아버지는 조용하고 친절하세요.",
         "uz": "Otam jim va mehribonlar.",
+        "en": "My father is quiet and kind.",
         "why_uz": "-고 o'zakka qo'shiladi: 조용하 + 고.",
+        "why_en": "-고 attaches to the stem: 조용하 + 고.",
         "audio": "b220f93ffd72.mp3"
       },
       {
@@ -1227,6 +1430,7 @@
         "speaker": "minji",
         "ko": "어머니는요?",
         "uz": "Onangiz-chi?",
+        "en": "And your mother?",
         "audio": "734c293b9328.mp3"
       },
       {
@@ -1234,6 +1438,7 @@
         "speaker": "aziz",
         "ko": "어머니는 재미있고 부지런하세요. 전에 요리사셨어요.",
         "uz": "Onam quvnoq va mehnatkash. Avval oshpaz edilar.",
+        "en": "My mother is cheerful and hard-working. She used to be a cook.",
         "audio": "0a9885c44583.mp3"
       },
       {
@@ -1241,6 +1446,7 @@
         "speaker": "minji",
         "ko": "와, 그럼 아지즈 씨도 요리를 잘해요?",
         "uz": "Voy, unda siz ham yaxshi ovqat pishirasizmi?",
+        "en": "Wow, so are you a good cook too?",
         "audio": "f44cf685fa25.mp3"
       },
       {
@@ -1248,6 +1454,7 @@
         "speaker": "aziz",
         "ko": "아니요, 저는 라면만 만들어요.",
         "uz": "Yo'q, men faqat ramen tayyorlayman.",
+        "en": "No, I can only make ramen.",
         "audio": "811351c39387.mp3"
       },
       {
@@ -1255,6 +1462,7 @@
         "speaker": "minji",
         "ko": "하하, 괜찮아요!",
         "uz": "Haha, hechqisi yo'q!",
+        "en": "Haha, that's fine!",
         "audio": "3f1d1ed40292.mp3"
       }
     ]

@@ -3,42 +3,49 @@
     {
       "id": "aziz",
       "name_uz": "Aziz",
+      "name_en": "Aziz",
       "name_ko": "아지즈",
       "voice": "male"
     },
     {
       "id": "minji",
       "name_uz": "Minji",
+      "name_en": "Minji",
       "name_ko": "민지",
       "voice": "female"
     },
     {
       "id": "seller",
       "name_uz": "Sotuvchi",
+      "name_en": "Clerk",
       "name_ko": "점원",
       "voice": "female"
     },
     {
       "id": "teacher",
       "name_uz": "O'qituvchi",
+      "name_en": "Teacher",
       "name_ko": "선생님",
       "voice": "male"
     },
     {
       "id": "clerk",
       "name_uz": "Xodim",
+      "name_en": "Staff member",
       "name_ko": "직원",
       "voice": "female"
     },
     {
       "id": "passerby",
       "name_uz": "O'tkinchi",
+      "name_en": "Passer-by",
       "name_ko": "행인",
       "voice": "male"
     },
     {
       "id": "doctor",
       "name_uz": "Shifokor",
+      "name_en": "Doctor",
       "name_ko": "의사",
       "voice": "male"
     }

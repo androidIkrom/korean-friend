@@ -7,6 +7,7 @@ import org.junit.Assert.assertNull
 import org.junit.Assert.assertTrue
 import org.junit.Test
 import uz.hangulfriend.Fixtures
+import uz.hangulfriend.i18n.AppLanguage
 
 class TutorTest {
     private val lesson = Fixtures.validLesson()
@@ -25,6 +26,18 @@ class TutorTest {
         assertTrue(q.contains("입 보세요"))
         assertTrue(q.contains("입어 보세요"))
         assertTrue(q.contains("Kiyib ko'ring"))
+    }
+
+    @Test fun englishPrompts() {
+        assertTrue(TutorPrompts.role(AppLanguage.EN).contains("Answer only in English"))
+        assertEquals(TutorPrompts.ROLE, TutorPrompts.role(AppLanguage.UZ))
+        val q = TutorPrompts.mistakeQuestion(translate, "입 보세요", AppLanguage.EN)
+        assertTrue(q.contains("Correct answer: 입어 보세요"))
+        assertTrue(q.contains("My answer: 입 보세요"))
+        val ctx = TutorPrompts.grammarContext(lesson.grammar[0], lesson, AppLanguage.EN)
+        assertTrue(ctx.startsWith(TutorPrompts.ROLE_EN))
+        assertTrue(ctx.contains("Lesson words:"))
+        assertTrue(TutorPrompts.translationCheck(translate, "x", AppLanguage.EN).contains("Return only JSON"))
     }
 
     @Test fun parseVerdict_valid() = assertEquals(

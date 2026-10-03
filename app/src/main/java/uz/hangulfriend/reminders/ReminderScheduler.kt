@@ -10,6 +10,8 @@ import androidx.work.WorkManager
 import java.time.ZonedDateTime
 import java.util.concurrent.TimeUnit
 import uz.hangulfriend.R
+import uz.hangulfriend.i18n.LanguageStore
+import uz.hangulfriend.i18n.Localized
 import uz.hangulfriend.data.Settings
 
 /** Keeps exactly one pending reminder run, at the next reminder time; WorkManager restores it after reboot. */
@@ -29,7 +31,7 @@ class ReminderScheduler(private val context: Context) {
 
     fun createChannel() {
         if (Build.VERSION.SDK_INT < Build.VERSION_CODES.O) return
-        val channel = NotificationChannel(CHANNEL_ID, context.getString(R.string.reminder_channel), NotificationManager.IMPORTANCE_DEFAULT)
+        val channel = NotificationChannel(CHANNEL_ID, Localized.wrap(context, LanguageStore(context).get()).getString(R.string.reminder_channel), NotificationManager.IMPORTANCE_DEFAULT)
         context.getSystemService(NotificationManager::class.java).createNotificationChannel(channel)
     }
 

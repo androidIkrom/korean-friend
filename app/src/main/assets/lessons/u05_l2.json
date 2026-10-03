@@ -4,16 +4,20 @@
   "lesson": 2,
   "title_ko": "소포를 부치러 왔어요",
   "title_uz": "Posilka jo'natgani keldim",
+  "title_en": "I came to send a parcel",
   "topic_uz": "Bank va pochta",
+  "topic_en": "Bank and post office",
   "reviewed": false,
   "words": [
     {
       "id": "u05_l2_w001",
       "ko": "우체국",
       "uz": "pochta bo'limi",
+      "en": "post office",
       "pos": "ot",
       "example_ko": "우체국이 어디에 있어요?",
       "example_uz": "Pochta qayerda?",
+      "example_en": "Where is the post office?",
       "audio": "b457f104da93.mp3",
       "example_audio": "3fdb2f10c75f.mp3"
     },
@@ -21,9 +25,11 @@
       "id": "u05_l2_w002",
       "ko": "소포",
       "uz": "posilka",
+      "en": "parcel, package",
       "pos": "ot",
       "example_ko": "소포가 도착했어요.",
       "example_uz": "Posilka yetib keldi.",
+      "example_en": "The parcel has arrived.",
       "audio": "456551490a92.mp3",
       "example_audio": "92a412c2b043.mp3"
     },
@@ -31,9 +37,11 @@
       "id": "u05_l2_w003",
       "ko": "편지",
       "uz": "xat",
+      "en": "letter",
       "pos": "ot",
       "example_ko": "어머니께 편지를 썼어요.",
       "example_uz": "Onamga xat yozdim.",
+      "example_en": "I wrote a letter to my mother.",
       "audio": "56c5c98966a2.mp3",
       "example_audio": "d3b73ab72595.mp3"
     },
@@ -41,9 +49,11 @@
       "id": "u05_l2_w004",
       "ko": "엽서",
       "uz": "otkritka",
+      "en": "postcard",
       "pos": "ot",
       "example_ko": "제주도에서 엽서를 샀어요.",
       "example_uz": "Chejudan otkritka oldim.",
+      "example_en": "I got a postcard from Jeju.",
       "audio": "b56adaf987a6.mp3",
       "example_audio": "4723f7f4c60d.mp3"
     },
@@ -51,9 +61,11 @@
       "id": "u05_l2_w005",
       "ko": "상자",
       "uz": "quti",
+      "en": "box",
       "pos": "ot",
       "example_ko": "상자에 책을 넣었어요.",
       "example_uz": "Qutiga kitob soldim.",
+      "example_en": "I put books in the box.",
       "audio": "e118e55ace80.mp3",
       "example_audio": "614558cb0db5.mp3"
     },
@@ -61,9 +73,11 @@
       "id": "u05_l2_w006",
       "ko": "부치다",
       "uz": "jo'natmoq (pochta orqali)",
+      "en": "to send (by post), to mail",
       "pos": "fe'l",
       "example_ko": "편지를 부쳤어요.",
       "example_uz": "Xatni jo'natdim.",
+      "example_en": "I mailed the letter.",
       "audio": "5e12b3df321d.mp3",
       "example_audio": "011dbef87126.mp3"
     },
@@ -71,9 +85,11 @@
       "id": "u05_l2_w007",
       "ko": "보내다",
       "uz": "yubormoq",
+      "en": "to send",
       "pos": "fe'l",
       "example_ko": "친구에게 선물을 보냈어요.",
       "example_uz": "Do'stimga sovg'a yubordim.",
+      "example_en": "I sent my friend a present.",
       "audio": "7d0a0642022c.mp3",
       "example_audio": "38b09bc4f5ba.mp3"
     },
@@ -81,9 +97,11 @@
       "id": "u05_l2_w008",
       "ko": "받다",
       "uz": "olmoq, qabul qilmoq",
+      "en": "to receive, to get",
       "pos": "fe'l",
       "example_ko": "어제 소포를 받았어요.",
       "example_uz": "Kecha posilka oldim.",
+      "example_en": "I received a parcel yesterday.",
       "audio": "0b134ecf1ae1.mp3",
       "example_audio": "d54d4f4f190a.mp3"
     },
@@ -91,9 +109,11 @@
       "id": "u05_l2_w009",
       "ko": "주소",
       "uz": "manzil",
+      "en": "address",
       "pos": "ot",
       "example_ko": "주소를 써 주세요.",
       "example_uz": "Manzilni yozing.",
+      "example_en": "Please write the address.",
       "audio": "fe032c098070.mp3",
       "example_audio": "779a99974d38.mp3"
     },
@@ -101,9 +121,11 @@
       "id": "u05_l2_w010",
       "ko": "우편번호",
       "uz": "pochta indeksi",
+      "en": "postcode",
       "pos": "ot",
       "example_ko": "우편번호를 몰라요.",
       "example_uz": "Pochta indeksini bilmayman.",
+      "example_en": "I don't know the postcode.",
       "audio": "cbf440cf1dab.mp3",
       "example_audio": "c70c91923bf2.mp3"
     },
@@ -111,9 +133,11 @@
       "id": "u05_l2_w011",
       "ko": "배",
       "uz": "kema",
+      "en": "ship",
       "pos": "ot",
       "example_ko": "배로 보내면 싸요.",
       "example_uz": "Kemada yuborsangiz arzon.",
+      "example_en": "It's cheap if you send it by ship.",
       "audio": "99419ccb0e33.mp3",
       "example_audio": "44919b9553d0.mp3"
     },
@@ -121,9 +145,11 @@
       "id": "u05_l2_w012",
       "ko": "항공",
       "uz": "havo yo'li (avia)",
+      "en": "airmail",
       "pos": "ot",
       "example_ko": "항공으로 보내 주세요.",
       "example_uz": "Avia orqali yuboring.",
+      "example_en": "Please send it by airmail.",
       "audio": "461e76255711.mp3",
       "example_audio": "db48f69b6d4a.mp3"
     },
@@ -131,9 +157,11 @@
       "id": "u05_l2_w013",
       "ko": "택배",
       "uz": "kuryer orqali yetkazish",
+      "en": "courier delivery",
       "pos": "ot",
       "example_ko": "택배로 옷을 받았어요.",
       "example_uz": "Kiyimni kuryer orqali oldim.",
+      "example_en": "I got the clothes by courier.",
       "audio": "d4f5c9fe5648.mp3",
       "example_audio": "56051ab25d55.mp3"
     },
@@ -141,9 +169,11 @@
       "id": "u05_l2_w014",
       "ko": "무게",
       "uz": "og'irlik",
+      "en": "weight",
       "pos": "ot",
       "example_ko": "소포 무게가 얼마나 돼요?",
       "example_uz": "Posilkaning og'irligi qancha?",
+      "example_en": "How much does the parcel weigh?",
       "audio": "fd6f72efa296.mp3",
       "example_audio": "056ecf1a6909.mp3"
     },
@@ -151,9 +181,11 @@
       "id": "u05_l2_w015",
       "ko": "킬로",
       "uz": "kilogramm",
+      "en": "kilogram",
       "pos": "ot",
       "example_ko": "삼 킬로예요.",
       "example_uz": "Uch kilogramm.",
+      "example_en": "Three kilograms.",
       "audio": "fcbab504ecfd.mp3",
       "example_audio": "3ce9d657afa8.mp3"
     },
@@ -161,9 +193,11 @@
       "id": "u05_l2_w016",
       "ko": "요금",
       "uz": "to'lov, narx (xizmat uchun)",
+      "en": "fee, charge",
       "pos": "ot",
       "example_ko": "요금이 얼마예요?",
       "example_uz": "To'lov qancha?",
+      "example_en": "How much is the fee?",
       "audio": "977db0373332.mp3",
       "example_audio": "da06307b3400.mp3"
     },
@@ -171,9 +205,11 @@
       "id": "u05_l2_w017",
       "ko": "얼마나",
       "uz": "qancha (vaqt, miqdor)",
+      "en": "how long, how much",
       "pos": "ravish",
       "example_ko": "얼마나 걸려요?",
       "example_uz": "Qancha vaqt oladi?",
+      "example_en": "How long does it take?",
       "audio": "4a904112b66b.mp3",
       "example_audio": "97037c36f0a6.mp3"
     },
@@ -181,9 +217,11 @@
       "id": "u05_l2_w018",
       "ko": "걸리다",
       "uz": "(vaqt) olmoq, ketmoq",
+      "en": "to take (time)",
       "pos": "fe'l",
       "example_ko": "집에서 학교까지 십 분 걸려요.",
       "example_uz": "Uydan maktabgacha o'n daqiqa ketadi.",
+      "example_en": "It takes ten minutes from home to school.",
       "audio": "f41b106ff79a.mp3",
       "example_audio": "1c4ea1313bdc.mp3"
     },
@@ -191,9 +229,11 @@
       "id": "u05_l2_w019",
       "ko": "일주일",
       "uz": "bir hafta",
+      "en": "one week",
       "pos": "ot",
       "example_ko": "일주일쯤 걸려요.",
       "example_uz": "Bir haftacha ketadi.",
+      "example_en": "It takes about a week.",
       "audio": "f5da2c4edb7a.mp3",
       "example_audio": "1305f8d220e9.mp3"
     },
@@ -201,9 +241,11 @@
       "id": "u05_l2_w020",
       "ko": "빨리",
       "uz": "tez",
+      "en": "fast, quickly",
       "pos": "ravish",
       "example_ko": "빨리 보내고 싶어요.",
       "example_uz": "Tez yubormoqchiman.",
+      "example_en": "I want to send it quickly.",
       "audio": "33ba64417d61.mp3",
       "example_audio": "1e673bedfb30.mp3"
     },
@@ -211,9 +253,11 @@
       "id": "u05_l2_w021",
       "ko": "우표",
       "uz": "pochta markasi",
+      "en": "postage stamp",
       "pos": "ot",
       "example_ko": "편지에 우표를 붙였어요.",
       "example_uz": "Xatga marka yopishtirdim.",
+      "example_en": "I stuck a stamp on the letter.",
       "audio": "4b3fdea7148e.mp3",
       "example_audio": "b1efa11a6788.mp3"
     },
@@ -221,9 +265,11 @@
       "id": "u05_l2_w022",
       "ko": "물건",
       "uz": "buyum, narsa",
+      "en": "item, thing",
       "pos": "ot",
       "example_ko": "상자 안에 물건이 많아요.",
       "example_uz": "Quti ichida narsalar ko'p.",
+      "example_en": "There are a lot of things in the box.",
       "audio": "b5262ebb1bbc.mp3",
       "example_audio": "e94b63e1ddeb.mp3"
     },
@@ -231,9 +277,11 @@
       "id": "u05_l2_w023",
       "ko": "깨지다",
       "uz": "sinmoq",
+      "en": "to break",
       "pos": "fe'l",
       "example_ko": "컵이 깨졌어요.",
       "example_uz": "Piyola sinib qoldi.",
+      "example_en": "The cup broke.",
       "audio": "784e4d951ac7.mp3",
       "example_audio": "4c0a04929be3.mp3"
     },
@@ -241,9 +289,11 @@
       "id": "u05_l2_w024",
       "ko": "선물",
       "uz": "sovg'a",
+      "en": "present, gift",
       "pos": "ot",
       "example_ko": "생일 선물을 샀어요.",
       "example_uz": "Tug'ilgan kun sovg'asini oldim.",
+      "example_en": "I got a birthday present.",
       "audio": "22874805e251.mp3",
       "example_audio": "231d1bf75e5f.mp3"
     },
@@ -251,9 +301,11 @@
       "id": "u05_l2_w025",
       "ko": "가족",
       "uz": "oila",
+      "en": "family",
       "pos": "ot",
       "example_ko": "가족이 보고 싶어요.",
       "example_uz": "Oilamni sog'indim.",
+      "example_en": "I miss my family.",
       "audio": "506af9637fb5.mp3",
       "example_audio": "790c0c0d9e2a.mp3"
     },
@@ -261,9 +313,11 @@
       "id": "u05_l2_w026",
       "ko": "우즈베키스탄",
       "uz": "O'zbekiston",
+      "en": "Uzbekistan",
       "pos": "ot",
       "example_ko": "우즈베키스탄에서 왔어요.",
       "example_uz": "O'zbekistondan keldim.",
+      "example_en": "I'm from Uzbekistan.",
       "audio": "fdfdc26cb4e6.mp3",
       "example_audio": "524501f273aa.mp3"
     },
@@ -271,9 +325,11 @@
       "id": "u05_l2_w027",
       "ko": "외국",
       "uz": "chet el",
+      "en": "abroad, foreign country",
       "pos": "ot",
       "example_ko": "외국에 소포를 보내요.",
       "example_uz": "Chet elga posilka yuboraman.",
+      "example_en": "I'm sending a parcel abroad.",
       "audio": "6922644a63dc.mp3",
       "example_audio": "9e6541baa89d.mp3"
     },
@@ -281,9 +337,11 @@
       "id": "u05_l2_w028",
       "ko": "지하철",
       "uz": "metro",
+      "en": "subway, metro",
       "pos": "ot",
       "example_ko": "지하철로 우체국에 갔어요.",
       "example_uz": "Pochtaga metroda bordim.",
+      "example_en": "I went to the post office by subway.",
       "audio": "1589f0607af6.mp3",
       "example_audio": "40ca6fb722ec.mp3"
     },
@@ -291,9 +349,11 @@
       "id": "u05_l2_w029",
       "ko": "영어",
       "uz": "ingliz tili",
+      "en": "English",
       "pos": "ot",
       "example_ko": "영어로 주소를 썼어요.",
       "example_uz": "Manzilni inglizchada yozdim.",
+      "example_en": "I wrote the address in English.",
       "audio": "0f4cc24fd5cb.mp3",
       "example_audio": "d91b4f86c78d.mp3"
     },
@@ -301,9 +361,11 @@
       "id": "u05_l2_w030",
       "ko": "도서관",
       "uz": "kutubxona",
+      "en": "library",
       "pos": "ot",
       "example_ko": "도서관에서 공부해요.",
       "example_uz": "Kutubxonada o'qiyman.",
+      "example_en": "I study at the library.",
       "audio": "f4e760d32313.mp3",
       "example_audio": "5ac6e469393a.mp3"
     },
@@ -311,9 +373,11 @@
       "id": "u05_l2_w031",
       "ko": "빌리다",
       "uz": "vaqtincha olmoq (qarzga)",
+      "en": "to borrow",
       "pos": "fe'l",
       "example_ko": "도서관에서 책을 빌렸어요.",
       "example_uz": "Kutubxonadan kitob oldim.",
+      "example_en": "I borrowed a book from the library.",
       "audio": "1eb45a4b7450.mp3",
       "example_audio": "182d8f20af69.mp3"
     },
@@ -321,9 +385,11 @@
       "id": "u05_l2_w032",
       "ko": "놀다",
       "uz": "o'ynamoq, dam olmoq",
+      "en": "to play, to hang out",
       "pos": "fe'l",
       "example_ko": "주말에 친구 집에서 놀았어요.",
       "example_uz": "Dam olish kuni do'stimnikida vaqt o'tkazdim.",
+      "example_en": "I hung out at my friend's place at the weekend.",
       "audio": "cf5ca65a6b7f.mp3",
       "example_audio": "212e78e6903c.mp3"
     }
@@ -333,20 +399,25 @@
       "id": "u05_l2_g1",
       "pattern": "V-(으)러 가다/오다",
       "meaning_uz": "Maqsad bilan borish/kelish: '...-gani boraman / keldim'",
+      "meaning_en": "Going or coming for a purpose: 'I came (in order) to…'",
       "explanation_md": "**-(으)러** harakat fe'llari (**가다, 오다, 다니다**) oldidan kelib, **qaysi maqsadda** borish yoki kelishni bildiradi: o'zbekchadagi **\"...-gani\"**.\n\n**소포를 부치러 왔어요.** — *Posilka jo'natgani keldim.*\n\n### Qanday yasaladi\n\n- **받침 yo'q** → **-러**: 사다 → **사러**, 부치다 → **부치러**, 배우다 → **배우러**\n- **받침 bor** → **-으러**: 먹다 → **먹으러**, 찾다 → **찾으러**, 읽다 → **읽으러**\n- **ㄹ bilan tugasa** → **-러**: 놀다 → **놀러**, 만들다 → **만들러**\n- **듣다** → **들으러**\n\n### Esda tuting\n\n- **-(으)러** dan keyin faqat **harakat fe'li** keladi: 가다, 오다, 다니다, 나가다. ~~공부하러 해요~~ — noto'g'ri!\n- Joy ko'pincha o'rtada keladi: 돈을 찾으러 **은행에** 가요.\n- **놀러 오세요!** — *Mehmonga keling!* (do'stlarni chaqirishda juda ko'p ishlatiladi)",
+      "explanation_md_en": "**-(으)러** comes before verbs of movement (**가다, 오다, 다니다**) and shows **the purpose** of going or coming: English **\"(in order) to…\"**.\n\n**소포를 부치러 왔어요.** — *I came to send a parcel.*\n\n### How to form it\n\n- **No 받침** → **-러**: 사다 → **사러**, 부치다 → **부치러**, 배우다 → **배우러**\n- **With 받침** → **-으러**: 먹다 → **먹으러**, 찾다 → **찾으러**, 읽다 → **읽으러**\n- **Ends in ㄹ** → **-러**: 놀다 → **놀러**, 만들다 → **만들러**\n- **듣다** → **들으러**\n\n### Remember\n\n- After **-(으)러** only a **verb of movement** can follow: 가다, 오다, 다니다, 나가다. ~~공부하러 해요~~ is wrong!\n- The place usually goes in the middle: 돈을 찾으러 **은행에** 가요.\n- **놀러 오세요!** — *Come over and visit!* (very common when inviting friends)",
       "formation": [
         {
           "condition_uz": "받침 yo'q",
+          "condition_en": "No 받침",
           "rule": "-러 가다/오다",
           "example": "사다 → 사러 가요"
         },
         {
           "condition_uz": "받침 bor",
+          "condition_en": "With 받침",
           "rule": "-으러 가다/오다",
           "example": "먹다 → 먹으러 가요"
         },
         {
           "condition_uz": "ㄹ bilan tugasa",
+          "condition_en": "Ends in ㄹ",
           "rule": "-러 가다/오다",
           "example": "놀다 → 놀러 와요"
         }
@@ -355,26 +426,31 @@
         {
           "ko": "소포를 부치러 왔어요.",
           "uz": "Posilka jo'natgani keldim.",
+          "en": "I came to send a parcel.",
           "audio": "dcf1ae6dc06d.mp3"
         },
         {
           "ko": "돈을 찾으러 은행에 가요.",
           "uz": "Pul yechgani bankka boraman.",
+          "en": "I'm going to the bank to withdraw money.",
           "audio": "6434663e6305.mp3"
         },
         {
           "ko": "점심을 먹으러 식당에 가요.",
           "uz": "Tushlik qilgani oshxonaga boraman.",
+          "en": "I'm going to a restaurant to have lunch.",
           "audio": "a5f3d8adf446.mp3"
         },
         {
           "ko": "친구가 우리 집에 놀러 왔어요.",
           "uz": "Do'stim bizning uyga mehmonga keldi.",
+          "en": "My friend came over to our house.",
           "audio": "9e3235181052.mp3"
         },
         {
           "ko": "한국어를 배우러 한국에 왔어요.",
           "uz": "Koreys tilini o'rgangani Koreyaga keldim.",
+          "en": "I came to Korea to learn Korean.",
           "audio": "e5bd08ed241f.mp3"
         }
       ],
@@ -382,39 +458,48 @@
         {
           "wrong": "점심을 먹러 가요",
           "right": "점심을 먹으러 가요",
-          "why_uz": "먹다 da 받침 bor: -으러."
+          "why_uz": "먹다 da 받침 bor: -으러.",
+          "why_en": "먹다 has 받침: -으러."
         },
         {
           "wrong": "친구가 놀으러 왔어요",
           "right": "친구가 놀러 왔어요",
-          "why_uz": "ㄹ bilan tugaydigan o'zakka faqat -러."
+          "why_uz": "ㄹ bilan tugaydigan o'zakka faqat -러.",
+          "why_en": "A stem ending in ㄹ takes just -러."
         },
         {
           "wrong": "편지를 보내러 해요",
           "right": "편지를 보내러 가요",
-          "why_uz": "-(으)러 dan keyin harakat fe'li (가다/오다) kerak."
+          "why_uz": "-(으)러 dan keyin harakat fe'li (가다/오다) kerak.",
+          "why_en": "After -(으)러 you need a verb of movement (가다/오다)."
         }
       ],
-      "uz_compare": "O'zbekchada maqsad '-gani' bilan aytiladi: 'jo'natGANI keldim'. Koreyschada -(으)러: 부치러 왔어요. Tartib ham bir xil: maqsad, keyin harakat."
+      "uz_compare": "O'zbekchada maqsad '-gani' bilan aytiladi: 'jo'natGANI keldim'. Koreyschada -(으)러: 부치러 왔어요. Tartib ham bir xil: maqsad, keyin harakat.",
+      "compare_en": "English shows purpose with 'to': 'I came TO send a parcel'. Korean uses -(으)러 on the verb: 부치러 왔어요. The order is the same: purpose first, then the movement — but only with verbs like 가다 and 오다."
     },
     {
       "id": "u05_l2_g2",
       "pattern": "N(으)로",
       "meaning_uz": "Vosita va yo'nalish: '... bilan / ...da (transport)', '...ga (tomon)'",
+      "meaning_en": "Means and direction: 'by / with / in…', 'towards…'",
       "explanation_md": "**(으)로** otga qo'shilib, ikki asosiy ma'noni beradi:\n\n1. **Vosita, usul** — *nima bilan / nimada*: **비행기로** 보내요 (samolyotda), **한국어로** 써요 (koreyschada), **카드로** 계산해요 (karta bilan)\n2. **Yo'nalish** — *qayerga (tomon)*: **우즈베키스탄으로** 보내요 (O'zbekistonga)\n\n**이 소포를 비행기로 우즈베키스탄으로 보내고 싶어요.**\n*Bu posilkani samolyotda O'zbekistonga yubormoqchiman.*\n\n### Qanday qo'shiladi\n\n- **받침 yo'q** → **로**: 비행기 → **비행기로**, 배 → **배로**, 택배 → **택배로**\n- **받침 bor** → **으로**: 항공 → **항공으로**, 손 → **손으로**, 우즈베키스탄 → **우즈베키스탄으로**\n- **ㄹ 받침** → **로** (istisno!): 지하철 → **지하철로**, 연필 → **연필로**, 서울 → **서울로**\n\n### 에 va 으로\n\nYo'nalishda **에** ham ishlatiladi: 우즈베키스탄**에** 보내요. **으로** \"o'sha tomonga\" ma'nosini kuchaytiradi. Ikkalasi ham to'g'ri.",
+      "explanation_md_en": "**(으)로** is added to a noun and has two main meanings:\n\n1. **Means, method** — *by / with / in what*: **비행기로** 보내요 (by plane), **한국어로** 써요 (in Korean), **카드로** 계산해요 (by card)\n2. **Direction** — *towards where*: **우즈베키스탄으로** 보내요 (to Uzbekistan)\n\n**이 소포를 비행기로 우즈베키스탄으로 보내고 싶어요.**\n*I'd like to send this parcel to Uzbekistan by air.*\n\n### How to add it\n\n- **No 받침** → **로**: 비행기 → **비행기로**, 배 → **배로**, 택배 → **택배로**\n- **With 받침** → **으로**: 항공 → **항공으로**, 손 → **손으로**, 우즈베키스탄 → **우즈베키스탄으로**\n- **ㄹ 받침** → **로** (exception!): 지하철 → **지하철로**, 연필 → **연필로**, 서울 → **서울로**\n\n### 에 and 으로\n\nFor direction you can also use **에**: 우즈베키스탄**에** 보내요. **으로** stresses \"in that direction\". Both are correct.",
       "formation": [
         {
           "condition_uz": "받침 yo'q",
+          "condition_en": "No 받침",
           "rule": "로",
           "example": "비행기 → 비행기로, 배 → 배로"
         },
         {
           "condition_uz": "받침 bor",
+          "condition_en": "With 받침",
           "rule": "으로",
           "example": "항공 → 항공으로, 손 → 손으로"
         },
         {
           "condition_uz": "ㄹ 받침 (istisno)",
+          "condition_en": "ㄹ 받침 (exception)",
           "rule": "로",
           "example": "지하철 → 지하철로, 연필 → 연필로"
         }
@@ -423,26 +508,31 @@
         {
           "ko": "비행기로 보내고 싶어요.",
           "uz": "Samolyotda yubormoqchiman.",
+          "en": "I'd like to send it by air.",
           "audio": "63ac4e5b12da.mp3"
         },
         {
           "ko": "이 소포를 우즈베키스탄으로 보내요.",
           "uz": "Bu posilkani O'zbekistonga yuboraman.",
+          "en": "I'm sending this parcel to Uzbekistan.",
           "audio": "dd3b5b226020.mp3"
         },
         {
           "ko": "배로 보내면 싸요.",
           "uz": "Kemada yuborsangiz arzon.",
+          "en": "It's cheap if you send it by ship.",
           "audio": "44919b9553d0.mp3"
         },
         {
           "ko": "한국어로 주소를 써 주세요.",
           "uz": "Manzilni koreyschada yozing.",
+          "en": "Please write the address in Korean.",
           "audio": "5eddc972bf31.mp3"
         },
         {
           "ko": "지하철로 우체국에 가요.",
           "uz": "Pochtaga metroda boraman.",
+          "en": "I go to the post office by subway.",
           "audio": "ad2faec02d1d.mp3"
         }
       ],
@@ -450,20 +540,24 @@
         {
           "wrong": "비행기으로 보내요",
           "right": "비행기로 보내요",
-          "why_uz": "받침 yo'q: 로."
+          "why_uz": "받침 yo'q: 로.",
+          "why_en": "No 받침: 로."
         },
         {
           "wrong": "연필으로 써요",
           "right": "연필로 써요",
-          "why_uz": "ㄹ 받침dan keyin ham 로."
+          "why_uz": "ㄹ 받침dan keyin ham 로.",
+          "why_en": "After ㄹ 받침 it is 로 too."
         },
         {
           "wrong": "항공로 보내요",
           "right": "항공으로 보내요",
-          "why_uz": "항공 da ㅇ 받침 bor: 으로."
+          "why_uz": "항공 da ㅇ 받침 bor: 으로.",
+          "why_en": "항공 has ㅇ 받침: 으로."
         }
       ],
-      "uz_compare": "(으)로 o'zbekchadagi bir nechta qo'shimchaga to'g'ri keladi: 'samolyotDA', 'karta BILAN', 'koreyschaDA', 'O'zbekistonGA (tomon)'. Asosiy savol: nima bilan? qayoqqa?"
+      "uz_compare": "(으)로 o'zbekchadagi bir nechta qo'shimchaga to'g'ri keladi: 'samolyotDA', 'karta BILAN', 'koreyschaDA', 'O'zbekistonGA (tomon)'. Asosiy savol: nima bilan? qayoqqa?",
+      "compare_en": "(으)로 covers several English prepositions: 'BY plane', 'WITH a card', 'IN Korean', 'TO(wards) Uzbekistan'. The key questions: by what means? which way?"
     }
   ],
   "dialogue": {
@@ -472,66 +566,77 @@
         "speaker": "clerk",
         "ko": "어서 오세요.",
         "uz": "Xush kelibsiz.",
+        "en": "Welcome.",
         "audio": "99c4fad363d8.mp3"
       },
       {
         "speaker": "aziz",
         "ko": "소포를 부치러 왔어요.",
         "uz": "Posilka jo'natgani keldim.",
+        "en": "I came to send a parcel.",
         "audio": "988c6acaf55b.mp3"
       },
       {
         "speaker": "clerk",
         "ko": "어디로 보내요?",
         "uz": "Qayerga yuborasiz?",
+        "en": "Where are you sending it?",
         "audio": "47a6cce579e1.mp3"
       },
       {
         "speaker": "aziz",
         "ko": "우즈베키스탄으로 보내고 싶어요.",
         "uz": "O'zbekistonga yubormoqchiman.",
+        "en": "I'd like to send it to Uzbekistan.",
         "audio": "7e130cdcc8fa.mp3"
       },
       {
         "speaker": "clerk",
         "ko": "안에 뭐가 있어요?",
         "uz": "Ichida nima bor?",
+        "en": "What's inside?",
         "audio": "456ee7fb5184.mp3"
       },
       {
         "speaker": "aziz",
         "ko": "가족한테 보내는 선물이에요. 옷하고 책이에요.",
         "uz": "Oilamga yuboradigan sovg'a. Kiyim va kitob.",
+        "en": "Presents for my family. Clothes and books.",
         "audio": "e3678c62ff1e.mp3"
       },
       {
         "speaker": "clerk",
         "ko": "비행기로 보낼 거예요, 배로 보낼 거예요?",
         "uz": "Samolyotda yuborasizmi yoki kemada?",
+        "en": "Will you send it by air or by ship?",
         "audio": "82c2b9f35020.mp3"
       },
       {
         "speaker": "aziz",
         "ko": "비행기로 보내면 얼마나 걸려요?",
         "uz": "Samolyotda yuborsam, qancha vaqt oladi?",
+        "en": "If I send it by air, how long will it take?",
         "audio": "3c807c4558a9.mp3"
       },
       {
         "speaker": "clerk",
         "ko": "일주일쯤 걸려요. 배로 보내면 한 달쯤 걸리지만 싸요.",
         "uz": "Bir haftacha. Kemada yuborsangiz bir oycha ketadi, lekin arzon.",
+        "en": "About a week. By ship it takes about a month, but it's cheap.",
         "audio": "d3a1b269ffb8.mp3"
       },
       {
         "speaker": "aziz",
         "ko": "그럼 비행기로 보내 주세요.",
         "uz": "Unda samolyotda yuboring.",
+        "en": "Then please send it by air.",
         "audio": "fca7a594d1d1.mp3"
       },
       {
         "speaker": "clerk",
         "ko": "네, 여기에 주소를 영어로 써 주세요.",
         "uz": "Xo'p, bu yerga manzilni inglizchada yozing.",
+        "en": "All right, please write the address here in English.",
         "audio": "7da35b7913c8.mp3"
       }
     ]
@@ -544,6 +649,7 @@
         "u05_l2_g1"
       ],
       "prompt_uz": "'Sotib olgani boraman' shaklini yasang",
+      "prompt_en": "Make the form 'go to buy'",
       "base": "사다",
       "form": "-(으)러 가요",
       "answers": [
@@ -557,6 +663,7 @@
         "u05_l2_g1"
       ],
       "prompt_uz": "'(Pul) yechgani boraman' shaklini yasang",
+      "prompt_en": "Make the form 'go to withdraw (money)'",
       "base": "찾다",
       "form": "-(으)러 가요",
       "answers": [
@@ -570,12 +677,14 @@
         "u05_l2_g1"
       ],
       "prompt_uz": "'Mehmonga (o'ynagani) keling' — 'keladi' shaklini yasang",
+      "prompt_en": "Make the form 'come over (to hang out)'",
       "base": "놀다",
       "form": "-(으)러 와요",
       "answers": [
         "놀러 와요"
       ],
-      "hint_uz": "ㄹ bilan tugaydi"
+      "hint_uz": "ㄹ bilan tugaydi",
+      "hint_en": "Ends in ㄹ"
     },
     {
       "id": "u05_l2_e004",
@@ -584,6 +693,7 @@
         "u05_l2_g2"
       ],
       "prompt_uz": "'Samolyotda' shaklini yasang",
+      "prompt_en": "Make the form 'by plane'",
       "base": "비행기",
       "form": "(으)로",
       "answers": [
@@ -597,6 +707,7 @@
         "u05_l2_g2"
       ],
       "prompt_uz": "'Avia orqali' shaklini yasang",
+      "prompt_en": "Make the form 'by airmail'",
       "base": "항공",
       "form": "(으)로",
       "answers": [
@@ -610,12 +721,14 @@
         "u05_l2_g2"
       ],
       "prompt_uz": "'Qalam bilan' shaklini yasang",
+      "prompt_en": "Make the form 'with a pencil'",
       "base": "연필",
       "form": "(으)로",
       "answers": [
         "연필로"
       ],
-      "hint_uz": "ㄹ 받침 — istisno"
+      "hint_uz": "ㄹ 받침 — istisno",
+      "hint_en": "ㄹ 받침 — exception"
     },
     {
       "id": "u05_l2_e007",
@@ -624,6 +737,7 @@
         "u05_l2_g1"
       ],
       "prompt_uz": "Bo'sh joyni to'ldiring: 'Posilka jo'natgani keldim.'",
+      "prompt_en": "Fill in the blank: 'I came to send a parcel.'",
       "sentence": "소포를 ___ 왔어요. (부치다)",
       "answers": [
         "부치러"
@@ -636,6 +750,7 @@
         "u05_l2_g1"
       ],
       "prompt_uz": "Bo'sh joyni to'ldiring: 'Tushlik qilgani oshxonaga boraman.'",
+      "prompt_en": "Fill in the blank: 'I'm going to a restaurant to have lunch.'",
       "sentence": "점심을 ___ 식당에 가요. (먹다)",
       "answers": [
         "먹으러"
@@ -648,6 +763,7 @@
         "u05_l2_g2"
       ],
       "prompt_uz": "Bo'sh joyni to'ldiring: 'Bu xatni O'zbekistonga yuboraman.'",
+      "prompt_en": "Fill in the blank: 'I'm sending this letter to Uzbekistan.'",
       "sentence": "이 편지를 우즈베키스탄___ 보내요.",
       "answers": [
         "으로"
@@ -660,6 +776,7 @@
         "u05_l2_g2"
       ],
       "prompt_uz": "Bo'sh joyni to'ldiring: 'Manzilni koreyschada yozing.'",
+      "prompt_en": "Fill in the blank: 'Please write the address in Korean.'",
       "sentence": "주소를 한국어___ 써 주세요.",
       "answers": [
         "로"
@@ -672,6 +789,7 @@
         "u05_l2_g1"
       ],
       "prompt_uz": "'Pul yechgani bankka boraman' qaysi biri?",
+      "prompt_en": "Which one means 'I'm going to the bank to withdraw money'?",
       "options": [
         "돈을 찾으러 은행에 가요",
         "돈을 찾고 은행에 가요",
@@ -689,6 +807,7 @@
         "u05_l2_g2"
       ],
       "prompt_uz": "'Kemada yuborsangiz arzon' qaysi biri?",
+      "prompt_en": "Which one means 'It's cheap if you send it by ship'?",
       "options": [
         "배로 보내면 싸요",
         "배에 보내면 싸요",
@@ -706,6 +825,7 @@
         "u05_l2_w021"
       ],
       "prompt_uz": "Xatga yopishtiriladigan narsa qaysi?",
+      "prompt_en": "What do you stick on a letter?",
       "options": [
         "우표",
         "상자",
@@ -723,6 +843,7 @@
         "u05_l2_g1"
       ],
       "prompt_uz": "'Posilka jo'natgani pochtaga keldim' gapini tuzing",
+      "prompt_en": "Build the sentence 'I came to the post office to send a parcel'",
       "tokens": [
         "부치러",
         "우체국에",
@@ -740,6 +861,7 @@
         "u05_l2_g2"
       ],
       "prompt_uz": "'Bu posilkani samolyotda yuboring' gapini tuzing",
+      "prompt_en": "Build the sentence 'Please send this parcel by air'",
       "tokens": [
         "보내",
         "이",
@@ -758,11 +880,13 @@
         "u05_l2_g1"
       ],
       "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
       "sentence": "빵을 사으러 가요.",
       "answers": [
         "빵을 사러 가요"
       ],
-      "why_uz": "받침 yo'q: -러."
+      "why_uz": "받침 yo'q: -러.",
+      "why_en": "No 받침: -러."
     },
     {
       "id": "u05_l2_e017",
@@ -771,11 +895,13 @@
         "u05_l2_g2"
       ],
       "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
       "sentence": "비행기으로 보내고 싶어요.",
       "answers": [
         "비행기로 보내고 싶어요"
       ],
-      "why_uz": "받침 yo'q: 로."
+      "why_uz": "받침 yo'q: 로.",
+      "why_en": "No 받침: 로."
     },
     {
       "id": "u05_l2_e018",
@@ -784,11 +910,13 @@
         "u05_l2_g1"
       ],
       "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
       "sentence": "친구가 놀으러 왔어요.",
       "answers": [
         "친구가 놀러 왔어요"
       ],
-      "why_uz": "ㄹ bilan tugaydi: -러."
+      "why_uz": "ㄹ bilan tugaydi: -러.",
+      "why_en": "Ends in ㄹ: -러."
     },
     {
       "id": "u05_l2_e019",
@@ -797,7 +925,9 @@
         "u05_l2_g1"
       ],
       "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
       "source_uz": "Posilka jo'natgani keldim.",
+      "source_en": "I came to send a parcel.",
       "answers": [
         "소포를 부치러 왔어요",
         "소포를 보내러 왔어요",
@@ -811,7 +941,9 @@
         "u05_l2_g2"
       ],
       "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
       "source_uz": "Samolyotda yuboring.",
+      "source_en": "Please send it by air.",
       "answers": [
         "비행기로 보내 주세요",
         "항공으로 보내 주세요",
@@ -825,7 +957,9 @@
         "u05_l2_g1"
       ],
       "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
       "source_uz": "Koreys tilini o'rgangani Koreyaga keldim.",
+      "source_en": "I came to Korea to learn Korean.",
       "answers": [
         "한국어를 배우러 한국에 왔어요",
         "한국어 배우러 한국에 왔어요",
@@ -839,12 +973,19 @@
         "u05_l2_g1"
       ],
       "prompt_uz": "U pochtaga nima uchun boryapti?",
+      "prompt_en": "Why is he going to the post office?",
       "audio_text": "우표를 사러 우체국에 가요.",
       "options": [
         "Marka sotib olgani",
         "Posilka olgani",
         "Xat yozgani",
         "Ishlagani"
+      ],
+      "options_en": [
+        "To buy stamps",
+        "To pick up a parcel",
+        "To write a letter",
+        "To work"
       ],
       "answers": [
         "Marka sotib olgani"
@@ -858,12 +999,19 @@
         "u05_l2_g2"
       ],
       "prompt_uz": "Kemada yuborilsa qancha vaqt ketadi?",
+      "prompt_en": "How long does it take by ship?",
       "audio_text": "배로 보내면 한 달쯤 걸려요.",
       "options": [
         "Bir oycha",
         "Bir haftacha",
         "Ikki kun",
         "Bir yil"
+      ],
+      "options_en": [
+        "About a month",
+        "About a week",
+        "Two days",
+        "A year"
       ],
       "answers": [
         "Bir oycha"
@@ -877,12 +1025,19 @@
         "u05_l2_g2"
       ],
       "prompt_uz": "Xat qayerga yuboriladi?",
+      "prompt_en": "Where is the letter being sent?",
       "audio_text": "이 편지를 서울로 보내 주세요.",
       "options": [
         "Seulga",
         "Pusanga",
         "Toshkentga",
         "Chejuga"
+      ],
+      "options_en": [
+        "To Seoul",
+        "To Busan",
+        "To Tashkent",
+        "To Jeju"
       ],
       "answers": [
         "Seulga"
@@ -896,6 +1051,7 @@
         "u05_l2_g1"
       ],
       "prompt_uz": "'O'rgangani keldim' shaklini yasang",
+      "prompt_en": "Make the form 'came to learn'",
       "base": "배우다",
       "form": "-(으)러 왔어요",
       "answers": [
@@ -909,6 +1065,7 @@
         "u05_l2_g1"
       ],
       "prompt_uz": "'O'qigani boraman' shaklini yasang",
+      "prompt_en": "Make the form 'go to read'",
       "base": "읽다",
       "form": "-(으)러 가요",
       "answers": [
@@ -922,6 +1079,7 @@
         "u05_l2_g2"
       ],
       "prompt_uz": "'Metroda' shaklini yasang",
+      "prompt_en": "Make the form 'by subway'",
       "base": "지하철",
       "form": "(으)로",
       "answers": [
@@ -935,6 +1093,7 @@
         "u05_l2_g1"
       ],
       "prompt_uz": "Bo'sh joyni to'ldiring: 'Do'stimni kutib olgani aeroportga boraman.'",
+      "prompt_en": "Fill in the blank: 'I'm going to the airport to pick up my friend.'",
       "sentence": "친구를 ___ 공항에 가요. (만나다)",
       "answers": [
         "만나러"
@@ -947,6 +1106,7 @@
         "u05_l2_g2"
       ],
       "prompt_uz": "Bo'sh joyni to'ldiring: 'Kuryer orqali oldim.'",
+      "prompt_en": "Fill in the blank: 'I got it by courier.'",
       "sentence": "택배___ 받았어요.",
       "answers": [
         "로"
@@ -959,6 +1119,7 @@
         "u05_l2_g2"
       ],
       "prompt_uz": "Bo'sh joyni to'ldiring: 'Xatni qo'lda yozdim.'",
+      "prompt_en": "Fill in the blank: 'I wrote the letter by hand.'",
       "sentence": "손___ 편지를 썼어요.",
       "answers": [
         "으로"
@@ -971,6 +1132,7 @@
         "u05_l2_g1"
       ],
       "prompt_uz": "'Kino ko'rgani boraman' qaysi biri?",
+      "prompt_en": "Which one means 'I'm going to see a film'?",
       "options": [
         "영화를 보러 가요",
         "영화를 보고 가요",
@@ -988,6 +1150,7 @@
         "u05_l2_w009"
       ],
       "prompt_uz": "Posilka qayerga borishini ko'rsatadigan yozuv qaysi?",
+      "prompt_en": "Which piece of writing shows where the parcel is going?",
       "options": [
         "주소",
         "무게",
@@ -1005,6 +1168,7 @@
         "u05_l2_g1"
       ],
       "prompt_uz": "'Pul yechgani bankka boraman' gapini tuzing",
+      "prompt_en": "Build the sentence 'I'm going to the bank to withdraw money'",
       "tokens": [
         "은행에",
         "찾으러",
@@ -1022,6 +1186,7 @@
         "u05_l2_g2"
       ],
       "prompt_uz": "'Manzilni inglizchada yozing' gapini tuzing",
+      "prompt_en": "Build the sentence 'Please write the address in English'",
       "tokens": [
         "써",
         "영어로",
@@ -1039,13 +1204,15 @@
         "u05_l2_g1"
       ],
       "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
       "sentence": "편지를 보내러 해요.",
       "answers": [
         "편지를 보내러 가요",
         "편지를 보내러 와요",
         "편지를 보내러 왔어요"
       ],
-      "why_uz": "-(으)러 dan keyin harakat fe'li kerak."
+      "why_uz": "-(으)러 dan keyin harakat fe'li kerak.",
+      "why_en": "After -(으)러 you need a verb of movement."
     },
     {
       "id": "u05_l2_e112",
@@ -1054,11 +1221,13 @@
         "u05_l2_g2"
       ],
       "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
       "sentence": "항공로 보내 주세요.",
       "answers": [
         "항공으로 보내 주세요"
       ],
-      "why_uz": "항공 da 받침 bor: 으로."
+      "why_uz": "항공 da 받침 bor: 으로.",
+      "why_en": "항공 has 받침: 으로."
     },
     {
       "id": "u05_l2_e113",
@@ -1067,7 +1236,9 @@
         "u05_l2_g1"
       ],
       "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
       "source_uz": "Do'stim mehmonga keldi.",
+      "source_en": "My friend came over.",
       "answers": [
         "친구가 놀러 왔어요",
         "친구가 우리 집에 놀러 왔어요"
@@ -1080,7 +1251,9 @@
         "u05_l2_g2"
       ],
       "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
       "source_uz": "Bu posilkani O'zbekistonga yubormoqchiman.",
+      "source_en": "I'd like to send this parcel to Uzbekistan.",
       "answers": [
         "이 소포를 우즈베키스탄으로 보내고 싶어요",
         "이 소포를 우즈베키스탄에 보내고 싶어요",
@@ -1094,12 +1267,19 @@
         "u05_l2_g1"
       ],
       "prompt_uz": "U kutubxonaga nima uchun boradi?",
+      "prompt_en": "Why is she going to the library?",
       "audio_text": "책을 빌리러 도서관에 가요.",
       "options": [
         "Kitob olgani",
         "Kitob qaytargani",
         "Dars qilgani",
         "Do'stini ko'rgani"
+      ],
+      "options_en": [
+        "To borrow books",
+        "To return books",
+        "To study",
+        "To see a friend"
       ],
       "answers": [
         "Kitob olgani"
@@ -1126,12 +1306,14 @@
   ],
   "story": {
     "title_uz": "Vatanga posilka",
+    "title_en": "A parcel for home",
     "steps": [
       {
         "type": "line",
         "speaker": "minji",
         "ko": "아지즈 씨, 어디 가요?",
         "uz": "Aziz, qayerga ketyapsiz?",
+        "en": "Aziz, where are you going?",
         "audio": "88e6601272d6.mp3"
       },
       {
@@ -1139,6 +1321,7 @@
         "speaker": "aziz",
         "ko": "우체국에 소포를 부치러 가요. 고향에 선물을 보내요.",
         "uz": "Pochtaga posilka jo'natgani ketyapman. Vatanimga sovg'a yuboraman.",
+        "en": "I'm going to the post office to send a parcel. I'm sending presents home.",
         "audio": "74bbe17162df.mp3"
       },
       {
@@ -1146,12 +1329,14 @@
         "speaker": "clerk",
         "ko": "어서 오세요. 어디로 보내세요?",
         "uz": "Keling. Qayerga yuborasiz?",
+        "en": "Come in. Where are you sending it?",
         "audio": "acf33dda5990.mp3"
       },
       {
         "type": "choose_reply",
         "speaker": "aziz",
         "prompt_uz": "Aziz 'O'zbekistonga yuboraman' demoqchi.",
+        "prompt_en": "Aziz wants to say 'I'm sending it to Uzbekistan'.",
         "options": [
           "우즈베키스탄으로 보내요.",
           "우즈베키스탄로 보내요.",
@@ -1159,7 +1344,9 @@
         ],
         "answer": "우즈베키스탄으로 보내요.",
         "uz": "O'zbekistonga yuboraman.",
+        "en": "I'm sending it to Uzbekistan.",
         "why_uz": "받침 bor (ㄴ): -으로.",
+        "why_en": "With 받침 (ㄴ): -으로.",
         "audio": "caadadf78cde.mp3"
       },
       {
@@ -1167,6 +1354,7 @@
         "speaker": "clerk",
         "ko": "상자를 여기에 놓아 주세요.",
         "uz": "Qutini shu yerga qo'ying.",
+        "en": "Please put the box here.",
         "audio": "9cd620358538.mp3"
       },
       {
@@ -1174,6 +1362,7 @@
         "speaker": "clerk",
         "ko": "무게가 삼 킬로예요. 배로 보내요? 항공으로 보내요?",
         "uz": "Og'irligi uch kilo. Kemada yuborasizmi, aviapochtadami?",
+        "en": "It weighs three kilos. By ship or by airmail?",
         "audio": "dea3f5be8039.mp3"
       },
       {
@@ -1181,6 +1370,7 @@
         "speaker": "aziz",
         "ko": "얼마나 걸려요?",
         "uz": "Qancha vaqt ketadi?",
+        "en": "How long does it take?",
         "audio": "dca6c4bd9483.mp3"
       },
       {
@@ -1188,24 +1378,33 @@
         "speaker": "clerk",
         "ko": "배로 보내면 한 달, 항공으로 보내면 일주일쯤 걸려요.",
         "uz": "Kemada bir oy, aviapochtada bir haftacha.",
+        "en": "A month by ship, about a week by airmail.",
         "audio": "c3b51ca445c2.mp3"
       },
       {
         "type": "quiz",
         "prompt_uz": "Aviapochta bilan qancha vaqt ketadi?",
+        "prompt_en": "How long does it take by airmail?",
         "options": [
           "Bir haftacha",
           "Bir oy",
           "Ikki kun"
         ],
+        "options_en": [
+          "About a week",
+          "A month",
+          "Two days"
+        ],
         "answer": "Bir haftacha",
-        "why_uz": "항공으로 보내면 일주일쯤 걸려요."
+        "why_uz": "항공으로 보내면 일주일쯤 걸려요.",
+        "why_en": "항공으로 보내면 일주일쯤 걸려요 — by airmail it takes about a week."
       },
       {
         "type": "line",
         "speaker": "aziz",
         "ko": "그럼 항공으로 보내 주세요. 빨리 보내고 싶어요.",
         "uz": "Unda aviapochta bilan yuboring. Tezroq yubormoqchiman.",
+        "en": "Then please send it by airmail. I want to send it faster.",
         "audio": "f4fe6b7bf12e.mp3"
       },
       {
@@ -1213,6 +1412,7 @@
         "speaker": "clerk",
         "ko": "안에 깨지는 물건이 있어요?",
         "uz": "Ichida sinadigan narsa bormi?",
+        "en": "Is there anything fragile inside?",
         "audio": "83da01b19d35.mp3"
       },
       {
@@ -1220,6 +1420,7 @@
         "speaker": "aziz",
         "ko": "아니요, 옷하고 책이에요.",
         "uz": "Yo'q, kiyim va kitoblar.",
+        "en": "No, clothes and books.",
         "audio": "1386fa2cc6f0.mp3"
       },
       {
@@ -1227,6 +1428,7 @@
         "speaker": "clerk",
         "ko": "요금은 사만 원이에요. 여기에 주소를 써 주세요.",
         "uz": "Narxi qirq ming von. Bu yerga manzilni yozing.",
+        "en": "That's forty thousand won. Please write the address here.",
         "audio": "e6b15505c832.mp3"
       },
       {
@@ -1234,6 +1436,7 @@
         "speaker": "aziz",
         "ko": "네. 카드로 계산해요.",
         "uz": "Xo'p. Karta bilan to'layman.",
+        "en": "OK. I'll pay by card.",
         "audio": "e579b2cc5a19.mp3"
       }
     ]

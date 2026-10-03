@@ -13,6 +13,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.res.stringResource
 import uz.hangulfriend.R
 import uz.hangulfriend.ai.TutorPrompts
+import uz.hangulfriend.ui.currentLanguage
 import uz.hangulfriend.content.ExerciseType
 import uz.hangulfriend.ui.tutor.LocalTutor
 import uz.hangulfriend.study.ExerciseItem
@@ -47,7 +48,8 @@ private fun ExerciseBody(item: ExerciseItem, onResult: (ExerciseOutcome) -> Unit
         is ExerciseItem.Speak -> SpeakView(item.ko, item.uz, item.audio, onResult, onNext)
         is ExerciseItem.Authored -> {
             val e = item.exercise
-            val ask: (String) -> String = { answer -> TutorPrompts.mistakeQuestion(e, answer) }
+            val lang = currentLanguage()
+            val ask: (String) -> String = { answer -> TutorPrompts.mistakeQuestion(e, answer, lang) }
             val tutor = LocalTutor.current
             when (e.type) {
                 ExerciseType.SITUATION_CHOICE ->
@@ -78,7 +80,7 @@ private fun ExerciseBody(item: ExerciseItem, onResult: (ExerciseOutcome) -> Unit
                     body = { Text(e.sourceUz.orEmpty(), style = MaterialTheme.typography.headlineSmall) },
                     answers = e.answers, hint = e.hintUz, why = e.whyUz, showSamplesOnWrong = true,
                     onResult = onResult, onNext = onNext, aiQuestion = ask,
-                    aiCheck = tutor?.let { t -> { answer -> t.checkTranslation(e, answer) } },
+                    aiCheck = tutor?.let { t -> { answer -> t.checkTranslation(e, answer, lang) } },
                 )
             }
         }

@@ -11,6 +11,7 @@ import org.junit.Assert.assertFalse
 import org.junit.Assert.assertNull
 import org.junit.Assert.assertTrue
 import org.junit.Test
+import uz.hangulfriend.i18n.AppLanguage
 import org.junit.runner.RunWith
 import org.robolectric.RobolectricTestRunner
 import org.robolectric.annotation.Config
@@ -81,9 +82,26 @@ class FlagModelTest {
     }
 
     @Test fun exportWithoutComment() {
-        val text = exportText(listOf(flag(1, "u02_l1_w001", FlagReason.TYPO, null)), "1.0", LocalDate.of(2026, 10, 2), labels)
+        val text = exportText(listOf(flag(1, "u02_l1_w001", FlagReason.TYPO, null)), "1.0", LocalDate.of(2026, 10, 2), reasonLabel = labels)
         assertFalse(text.contains("Izoh:"))
         assertTrue(text.contains("Savol: s1"))
+    }
+
+    @Test fun exportInEnglish() {
+        val text = exportText(
+            listOf(flag(1, "u02_l1_w001", FlagReason.TYPO, "c"), flag(2, "user_w1", FlagReason.OTHER, null)),
+            "1.0", LocalDate.of(2026, 10, 2), AppLanguage.EN, labels,
+        )
+        assertTrue(text, text.startsWith("Hangul Hunt — content issues\nDate: 2026-10-02 · App: 1.0 · Total: 2"))
+        assertTrue(text, text.contains("[u02_l1] Unit 2, lesson 1"))
+        assertTrue(text, text.contains("[user] My words"))
+        assertTrue(text, text.contains("   Question: s1"))
+        assertTrue(text, text.contains("   Comment: c"))
+    }
+
+    @Test fun snapshotAnswerLabelFollowsLanguage() {
+        val ex = Fixtures.validLesson().exercises.first()
+        assertTrue(flagSnapshot(ExerciseItem.Authored(ex, emptyList()), AppLanguage.EN).contains("Answer: 치마"))
     }
 }
 

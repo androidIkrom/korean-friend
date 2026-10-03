@@ -38,6 +38,15 @@ class ContentAssetsTest {
 
     @Test fun validatorPasses() = assertEquals(emptyList<String>(), LessonValidator.validate(lessons))
 
+    /** Stage 8: every Uzbek text has its English sibling (the raw files, read in Uzbek mode). */
+    @Test fun everyFileHasEnglish() {
+        val errors = lessons.flatMap { LessonValidator.englishErrors(it) } +
+            LessonValidator.englishErrors(repo.finalTest()!!) +
+            LessonValidator.englishErrorsCatalog(catalog) +
+            LessonValidator.englishErrorsCharacters(repo.characters())
+        assertEquals("missing English (${errors.size})", emptyList<String>(), errors.take(20))
+    }
+
     @Test fun dialogueSpeakersExist() {
         val ids = repo.characters().map { it.id }.toSet()
         lessons.flatMap { l -> (l.dialogue.lines.map { it.speaker } + storySpeakers(l)).map { l.id to it } }

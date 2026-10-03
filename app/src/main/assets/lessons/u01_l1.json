@@ -4,16 +4,20 @@
   "lesson": 1,
   "title_ko": "이분은 우리 아버지세요",
   "title_uz": "Bu kishi mening otam",
+  "title_en": "This is my father",
   "topic_uz": "Oila",
+  "topic_en": "Family",
   "reviewed": false,
   "words": [
     {
       "id": "u01_l1_w001",
       "ko": "가족",
       "uz": "oila",
+      "en": "family",
       "pos": "ot",
       "example_ko": "우리 가족은 네 명이에요.",
       "example_uz": "Oilamiz to'rt kishi.",
+      "example_en": "There are four people in our family.",
       "audio": "506af9637fb5.mp3",
       "example_audio": "7df808b079db.mp3"
     },
@@ -21,9 +25,11 @@
       "id": "u01_l1_w002",
       "ko": "아버지",
       "uz": "ota",
+      "en": "father",
       "pos": "ot",
       "example_ko": "아버지는 회사원이세요.",
       "example_uz": "Otam kompaniya xodimi.",
+      "example_en": "My father is an office worker.",
       "audio": "df10f9e12408.mp3",
       "example_audio": "c92e05aa5bf9.mp3"
     },
@@ -31,9 +37,11 @@
       "id": "u01_l1_w003",
       "ko": "어머니",
       "uz": "ona",
+      "en": "mother",
       "pos": "ot",
       "example_ko": "어머니는 집에 계세요.",
       "example_uz": "Onam uydalar.",
+      "example_en": "My mother is at home.",
       "audio": "070f632ab8e7.mp3",
       "example_audio": "a050db6cba7d.mp3"
     },
@@ -41,9 +49,11 @@
       "id": "u01_l1_w004",
       "ko": "할아버지",
       "uz": "bobo",
+      "en": "grandfather",
       "pos": "ot",
       "example_ko": "할아버지는 시골에 사세요.",
       "example_uz": "Bobom qishloqda yashaydilar.",
+      "example_en": "My grandfather lives in the countryside.",
       "audio": "a55cd1124e4d.mp3",
       "example_audio": "f4e938427458.mp3"
     },
@@ -51,9 +61,11 @@
       "id": "u01_l1_w005",
       "ko": "할머니",
       "uz": "buvi",
+      "en": "grandmother",
       "pos": "ot",
       "example_ko": "할머니는 요리를 잘하세요.",
       "example_uz": "Buvim yaxshi ovqat pishiradilar.",
+      "example_en": "My grandmother cooks well.",
       "audio": "4c15441f708a.mp3",
       "example_audio": "bf2346f9eb24.mp3"
     },
@@ -61,9 +73,11 @@
       "id": "u01_l1_w006",
       "ko": "형",
       "uz": "aka (o'g'il bola uchun)",
+      "en": "older brother (said by a male)",
       "pos": "ot",
       "example_ko": "형은 대학생이에요.",
       "example_uz": "Akam talaba.",
+      "example_en": "My older brother is a university student.",
       "audio": "f6d7df24485e.mp3",
       "example_audio": "85914da13688.mp3"
     },
@@ -71,9 +85,11 @@
       "id": "u01_l1_w007",
       "ko": "오빠",
       "uz": "aka (qiz bola uchun)",
+      "en": "older brother (said by a female)",
       "pos": "ot",
       "example_ko": "오빠는 키가 커요.",
       "example_uz": "Akamning bo'yi baland.",
+      "example_en": "My older brother is tall.",
       "audio": "6ebeb98586a2.mp3",
       "example_audio": "57969c38ab61.mp3"
     },
@@ -81,9 +97,11 @@
       "id": "u01_l1_w008",
       "ko": "누나",
       "uz": "opa (o'g'il bola uchun)",
+      "en": "older sister (said by a male)",
       "pos": "ot",
       "example_ko": "누나는 은행에서 일해요.",
       "example_uz": "Opam bankda ishlaydi.",
+      "example_en": "My older sister works at a bank.",
       "audio": "0800f50ce0d9.mp3",
       "example_audio": "bead8524ea72.mp3"
     },
@@ -91,9 +109,11 @@
       "id": "u01_l1_w009",
       "ko": "언니",
       "uz": "opa (qiz bola uchun)",
+      "en": "older sister (said by a female)",
       "pos": "ot",
       "example_ko": "언니는 예뻐요.",
       "example_uz": "Opam chiroyli.",
+      "example_en": "My older sister is pretty.",
       "audio": "8aa16cab6760.mp3",
       "example_audio": "42c06b7503c3.mp3"
     },
@@ -101,9 +121,11 @@
       "id": "u01_l1_w010",
       "ko": "남동생",
       "uz": "uka",
+      "en": "younger brother",
       "pos": "ot",
       "example_ko": "남동생은 고등학생이에요.",
       "example_uz": "Ukam o'quvchi.",
+      "example_en": "My younger brother is a high school student.",
       "audio": "90c108b30a0f.mp3",
       "example_audio": "89676dac7241.mp3"
     },
@@ -111,9 +133,11 @@
       "id": "u01_l1_w011",
       "ko": "여동생",
       "uz": "singil",
+      "en": "younger sister",
       "pos": "ot",
       "example_ko": "여동생이 한 명 있어요.",
       "example_uz": "Bitta singlim bor.",
+      "example_en": "I have one younger sister.",
       "audio": "cb1035cc731b.mp3",
       "example_audio": "2a0319f26293.mp3"
     },
@@ -121,9 +145,11 @@
       "id": "u01_l1_w012",
       "ko": "남편",
       "uz": "er",
+      "en": "husband",
       "pos": "ot",
       "example_ko": "제 남편은 의사예요.",
       "example_uz": "Erim shifokor.",
+      "example_en": "My husband is a doctor.",
       "audio": "8f2f858e36a1.mp3",
       "example_audio": "734ab00eed23.mp3"
     },
@@ -131,9 +157,11 @@
       "id": "u01_l1_w013",
       "ko": "아내",
       "uz": "xotin, rafiqa",
+      "en": "wife",
       "pos": "ot",
       "example_ko": "제 아내는 선생님이에요.",
       "example_uz": "Rafiqam o'qituvchi.",
+      "example_en": "My wife is a teacher.",
       "audio": "0489f7eda5ae.mp3",
       "example_audio": "95bef31543b4.mp3"
     },
@@ -141,9 +169,11 @@
       "id": "u01_l1_w014",
       "ko": "아들",
       "uz": "o'g'il",
+      "en": "son",
       "pos": "ot",
       "example_ko": "아들이 두 명 있어요.",
       "example_uz": "Ikki o'g'lim bor.",
+      "example_en": "I have two sons.",
       "audio": "964c53a6d43a.mp3",
       "example_audio": "f036e2169db7.mp3"
     },
@@ -151,9 +181,11 @@
       "id": "u01_l1_w015",
       "ko": "딸",
       "uz": "qiz (farzand)",
+      "en": "daughter",
       "pos": "ot",
       "example_ko": "딸은 다섯 살이에요.",
       "example_uz": "Qizim besh yoshda.",
+      "example_en": "My daughter is five years old.",
       "audio": "496425dc269a.mp3",
       "example_audio": "3e329c6a70e4.mp3"
     },
@@ -161,9 +193,11 @@
       "id": "u01_l1_w016",
       "ko": "이분",
       "uz": "bu kishi (hurmat)",
+      "en": "this person (honorific)",
       "pos": "olmosh",
       "example_ko": "이분은 우리 선생님이세요.",
       "example_uz": "Bu kishi bizning o'qituvchimiz.",
+      "example_en": "This is our teacher.",
       "audio": "736e114b08e7.mp3",
       "example_audio": "1d7e735eb807.mp3"
     },
@@ -171,9 +205,11 @@
       "id": "u01_l1_w017",
       "ko": "저분",
       "uz": "anavi kishi (hurmat)",
+      "en": "that person over there (honorific)",
       "pos": "olmosh",
       "example_ko": "저분은 누구세요?",
       "example_uz": "Anavi kishi kim?",
+      "example_en": "Who is that person over there?",
       "audio": "176e5be86422.mp3",
       "example_audio": "fd793744bdad.mp3"
     },
@@ -181,9 +217,11 @@
       "id": "u01_l1_w018",
       "ko": "회사원",
       "uz": "kompaniya xodimi",
+      "en": "office worker",
       "pos": "ot",
       "example_ko": "저는 회사원이에요.",
       "example_uz": "Men kompaniya xodimiman.",
+      "example_en": "I am an office worker.",
       "audio": "d4eb6aaadd0d.mp3",
       "example_audio": "ec7cfe3c23c9.mp3"
     },
@@ -191,9 +229,11 @@
       "id": "u01_l1_w019",
       "ko": "대학생",
       "uz": "talaba",
+      "en": "university student",
       "pos": "ot",
       "example_ko": "오빠는 대학생이에요.",
       "example_uz": "Akam talaba.",
+      "example_en": "My older brother is a university student.",
       "audio": "975d3f4c48c2.mp3",
       "example_audio": "b8b3f2cd7410.mp3"
     },
@@ -201,9 +241,11 @@
       "id": "u01_l1_w020",
       "ko": "형제",
       "uz": "aka-uka, opa-singil",
+      "en": "siblings",
       "pos": "ot",
       "example_ko": "형제가 어떻게 돼요?",
       "example_uz": "Nechta aka-ukangiz bor?",
+      "example_en": "How many siblings do you have?",
       "audio": "583539dc9f56.mp3",
       "example_audio": "a2907bf9ca5a.mp3"
     },
@@ -211,9 +253,11 @@
       "id": "u01_l1_w021",
       "ko": "연세",
       "uz": "yosh (hurmat: 나이)",
+      "en": "age (honorific of 나이)",
       "pos": "ot",
       "example_ko": "할머니 연세가 어떻게 되세요?",
       "example_uz": "Buvingiz necha yoshdalar?",
+      "example_en": "How old is your grandmother?",
       "audio": "0e71c6b2946b.mp3",
       "example_audio": "3bcacc27f8b9.mp3"
     },
@@ -221,9 +265,11 @@
       "id": "u01_l1_w022",
       "ko": "성함",
       "uz": "ism (hurmat: 이름)",
+      "en": "name (honorific of 이름)",
       "pos": "ot",
       "example_ko": "성함이 어떻게 되세요?",
       "example_uz": "Ismingiz nima (hurmat bilan)?",
+      "example_en": "May I ask your name? (honorific)",
       "audio": "e3eef0545e71.mp3",
       "example_audio": "ca32b6a38a01.mp3"
     },
@@ -231,9 +277,11 @@
       "id": "u01_l1_w023",
       "ko": "댁",
       "uz": "uy (hurmat: 집)",
+      "en": "home, house (honorific of 집)",
       "pos": "ot",
       "example_ko": "선생님 댁이 어디세요?",
       "example_uz": "Ustoz, uyingiz qayerda?",
+      "example_en": "Teacher, where is your home?",
       "audio": "1d6a382c899b.mp3",
       "example_audio": "fc7b23ee0c99.mp3"
     },
@@ -241,9 +289,11 @@
       "id": "u01_l1_w024",
       "ko": "계시다",
       "uz": "bo'lmoq, turmoq (hurmat: 있다)",
+      "en": "to be, to stay (honorific of 있다)",
       "pos": "fe'l",
       "example_ko": "아버지는 지금 회사에 계세요.",
       "example_uz": "Otam hozir ishdalar.",
+      "example_en": "My father is at work now.",
       "audio": "a4108fd0d44f.mp3",
       "example_audio": "682557008ca8.mp3"
     },
@@ -251,9 +301,11 @@
       "id": "u01_l1_w025",
       "ko": "드시다",
       "uz": "yemoq, ichmoq (hurmat)",
+      "en": "to eat, to drink (honorific)",
       "pos": "fe'l",
       "example_ko": "할아버지가 식사를 드세요.",
       "example_uz": "Bobom ovqatlanyaptilar.",
+      "example_en": "My grandfather is having his meal.",
       "audio": "80c6b4deaf1c.mp3",
       "example_audio": "ffedd5d8bc0f.mp3"
     },
@@ -261,9 +313,11 @@
       "id": "u01_l1_w026",
       "ko": "주무시다",
       "uz": "uxlamoq (hurmat: 자다)",
+      "en": "to sleep (honorific of 자다)",
       "pos": "fe'l",
       "example_ko": "할머니는 지금 주무세요.",
       "example_uz": "Buvim hozir uxlayaptilar.",
+      "example_en": "My grandmother is sleeping now.",
       "audio": "9541d13a5131.mp3",
       "example_audio": "028d232d22bd.mp3"
     },
@@ -271,9 +325,11 @@
       "id": "u01_l1_w027",
       "ko": "말씀하시다",
       "uz": "gapirmoq (hurmat: 말하다)",
+      "en": "to speak (honorific of 말하다)",
       "pos": "fe'l",
       "example_ko": "선생님이 천천히 말씀하세요.",
       "example_uz": "O'qituvchi sekin gapiradilar.",
+      "example_en": "The teacher speaks slowly.",
       "audio": "138c4104c19f.mp3",
       "example_audio": "374734e1b72b.mp3"
     },
@@ -281,9 +337,11 @@
       "id": "u01_l1_w028",
       "ko": "사진",
       "uz": "surat",
+      "en": "photo",
       "pos": "ot",
       "example_ko": "가족 사진이에요.",
       "example_uz": "Bu oila surati.",
+      "example_en": "This is a family photo.",
       "audio": "bb854ba0671b.mp3",
       "example_audio": "5b37b84a3d25.mp3"
     },
@@ -291,9 +349,11 @@
       "id": "u01_l1_w029",
       "ko": "키가 크다",
       "uz": "bo'yi baland",
+      "en": "to be tall",
       "pos": "ibora",
       "example_ko": "아버지는 키가 크세요.",
       "example_uz": "Otamning bo'ylari baland.",
+      "example_en": "My father is tall.",
       "audio": "74a0620e672c.mp3",
       "example_audio": "5a7015f91c76.mp3"
     },
@@ -301,9 +361,11 @@
       "id": "u01_l1_w030",
       "ko": "젊다",
       "uz": "yosh (navqiron)",
+      "en": "to be young",
       "pos": "sifat",
       "example_ko": "어머니는 아주 젊으세요.",
       "example_uz": "Onam juda yosh ko'rinadilar.",
+      "example_en": "My mother looks very young.",
       "audio": "2c64ada47436.mp3",
       "example_audio": "c39f13c6b3c9.mp3"
     },
@@ -311,9 +373,11 @@
       "id": "u01_l1_w031",
       "ko": "닮다",
       "uz": "o'xshamoq",
+      "en": "to resemble, to look like",
       "pos": "fe'l",
       "example_ko": "저는 아버지를 닮았어요.",
       "example_uz": "Men otamga o'xshayman.",
+      "example_en": "I look like my father.",
       "audio": "c9e4dbbd8f65.mp3",
       "example_audio": "d8b20eb58aaf.mp3"
     },
@@ -321,9 +385,11 @@
       "id": "u01_l1_w032",
       "ko": "요리를 잘하다",
       "uz": "yaxshi ovqat pishirmoq",
+      "en": "to be a good cook",
       "pos": "ibora",
       "example_ko": "어머니는 요리를 잘하세요.",
       "example_uz": "Onam yaxshi ovqat pishiradilar.",
+      "example_en": "My mother is a good cook.",
       "audio": "c92503cd7176.mp3",
       "example_audio": "bb53560acc68.mp3"
     }
@@ -333,15 +399,19 @@
       "id": "u01_l1_g1",
       "pattern": "N(이)세요",
       "meaning_uz": "Hurmat bilan: '... bo'ladilar', '...lar'",
+      "meaning_en": "Honorific 'to be' (talking about a respected person)",
       "explanation_md": "**N(이)세요** — **N이에요/예요** ning **hurmat** shakli. Gap **kattalar** yoki **hurmatli odam** haqida bo'lsa ishlatiladi.\n\n**이분은 우리 아버지세요.** — *Bu kishi mening otam.*\n\n### Qanday yasaladi\n\n- **받침 yo'q** → **-세요**: 아버지 → **아버지세요**, 의사 → **의사세요**\n- **받침 bor** → **-이세요**: 선생님 → **선생님이세요**, 회사원 → **회사원이세요**\n\n### Savol\n\n- 누구**세요**? — *Kim bo'lasiz?*\n- 저분은 어느 나라 사람**이세요**? — *Anavi kishi qaysi davlatdan?*\n\n### Esda tuting\n\n**O'zingiz haqida hech qachon** hurmat shakli ishlatilmaydi:\n\n- ~~저는 학생이세요~~ ❌ → **저는 학생이에요** ✅\n\nO'zingizdan kichik yoki tengdosh qarindoshlar haqida ham oddiy shakl: 우리 **오빠예요**, 제 **동생이에요**.\n\n### Hurmat so'zlari\n\nHurmat bilan gapirganda ba'zi otlar ham o'zgaradi:\n\n| Oddiy | Hurmat |\n|---|---|\n| 이름 | **성함** |\n| 나이 | **연세** |\n| 집 | **댁** |\n| 사람 | **분** |",
+      "explanation_md_en": "**N(이)세요** is the **honorific** form of **N이에요/예요**. Use it when the sentence is about **an older person** or **someone you respect**.\n\n**이분은 우리 아버지세요.** — *This is my father.*\n\n### How to form it\n\n- **No 받침** → **-세요**: 아버지 → **아버지세요**, 의사 → **의사세요**\n- **With 받침** → **-이세요**: 선생님 → **선생님이세요**, 회사원 → **회사원이세요**\n\n### Questions\n\n- 누구**세요**? — *Who are you? (polite)*\n- 저분은 어느 나라 사람**이세요**? — *Which country is that person from?*\n\n### Remember\n\nNever use the honorific form **about yourself**:\n\n- ~~저는 학생이세요~~ ❌ → **저는 학생이에요** ✅\n\nFor relatives younger than you or of your own age, use the plain form too: 우리 **오빠예요**, 제 **동생이에요**.\n\n### Honorific words\n\nWhen you speak politely, some nouns change as well:\n\n| Plain | Honorific |\n|---|---|\n| 이름 | **성함** |\n| 나이 | **연세** |\n| 집 | **댁** |\n| 사람 | **분** |",
       "formation": [
         {
           "condition_uz": "받침 yo'q",
+          "condition_en": "No 받침",
           "rule": "N세요",
           "example": "아버지 → 아버지세요"
         },
         {
           "condition_uz": "받침 bor",
+          "condition_en": "With 받침",
           "rule": "N이세요",
           "example": "선생님 → 선생님이세요"
         }
@@ -350,26 +420,31 @@
         {
           "ko": "이분은 우리 아버지세요.",
           "uz": "Bu kishi mening otam.",
+          "en": "This is my father.",
           "audio": "e12b7cd23b23.mp3"
         },
         {
           "ko": "저분은 누구세요?",
           "uz": "Anavi kishi kim?",
+          "en": "Who is that person over there?",
           "audio": "fd793744bdad.mp3"
         },
         {
           "ko": "어머니는 선생님이세요.",
           "uz": "Onam o'qituvchi.",
+          "en": "My mother is a teacher.",
           "audio": "c6b73a26e0c7.mp3"
         },
         {
           "ko": "할아버지는 의사세요.",
           "uz": "Bobom shifokor.",
+          "en": "My grandfather is a doctor.",
           "audio": "ff36d3ed4858.mp3"
         },
         {
           "ko": "아버지는 회사원이세요.",
           "uz": "Otam kompaniya xodimi.",
+          "en": "My father is an office worker.",
           "audio": "c92e05aa5bf9.mp3"
         }
       ],
@@ -377,44 +452,54 @@
         {
           "wrong": "저는 학생이세요",
           "right": "저는 학생이에요",
-          "why_uz": "O'zingiz haqida hurmat shakli ishlatilmaydi."
+          "why_uz": "O'zingiz haqida hurmat shakli ishlatilmaydi.",
+          "why_en": "You never use the honorific form about yourself."
         },
         {
           "wrong": "어머니이세요",
           "right": "어머니세요",
-          "why_uz": "받침 yo'q: -세요."
+          "why_uz": "받침 yo'q: -세요.",
+          "why_en": "No 받침: -세요."
         },
         {
           "wrong": "선생님세요",
           "right": "선생님이세요",
-          "why_uz": "받침 bor: -이세요."
+          "why_uz": "받침 bor: -이세요.",
+          "why_en": "With 받침: -이세요."
         }
       ],
-      "uz_compare": "O'zbekchada hurmat uchun '-lar' qo'shamiz: 'Bu kishi otam bo'ladilar'. Koreyschada otdan keyin (이)세요."
+      "uz_compare": "O'zbekchada hurmat uchun '-lar' qo'shamiz: 'Bu kishi otam bo'ladilar'. Koreyschada otdan keyin (이)세요.",
+      "compare_en": "English has no honorific form of 'to be': 'This is my father' sounds the same about anyone, and respect is shown with tone or words like 'sir'. Korean marks it in the grammar: after a respected person's noun, say (이)세요 instead of 이에요/예요."
     },
     {
       "id": "u01_l1_g2",
       "pattern": "A/V-(으)세요 (hurmat)",
       "meaning_uz": "Hurmat bilan hikoya: '...-adilar'",
+      "meaning_en": "Honorific statements about others: present tense",
       "explanation_md": "**-(으)세요** faqat buyruq emas: **kattalar haqida gapirganda** hozirgi zamon hurmat shakli ham shu. O'zbekchadagi **\"...-adilar\"**.\n\n**어머니는 요리를 잘하세요.** — *Onam yaxshi ovqat pishiradilar.*\n\n### Qanday yasaladi\n\n- **받침 yo'q** → **-세요**: 가다 → **가세요**, 바쁘다 → **바쁘세요**\n- **받침 bor** → **-으세요**: 읽다 → **읽으세요**, 젊다 → **젊으세요**\n- **ㄹ bilan tugasa** → ㄹ **tushadi** + **-세요**: 살다 → **사세요**, 만들다 → **만드세요**, 알다 → **아세요**\n\n### Maxsus hurmat fe'llari\n\n| Oddiy | Hurmat |\n|---|---|\n| 있다 (joyda bo'lmoq) | **계세요** |\n| 먹다 / 마시다 | **드세요** |\n| 자다 | **주무세요** |\n| 말하다 | **말씀하세요** |\n\n할아버지는 지금 방에서 **주무세요**. ~~자세요~~ ❌\n\n### 께서\n\nYanada hurmat bilan ega qo'shimchasi **이/가 → 께서**, **은/는 → 께서는**:\n\n할머니**께서** 요리하세요.\n\n### Buyruq bilan farqi\n\nShakl bir xil, ma'no gapdan bilinadi:\n\n- 여기 앉**으세요**. — *Bu yerga o'tiring.* (buyruq)\n- 아버지는 소파에 앉**으세요**. — *Otam divanda o'tiradilar.* (hikoya)",
+      "explanation_md_en": "**-(으)세요** is not only a request: it is also the present-tense **honorific** form **when you talk about older or respected people**.\n\n**어머니는 요리를 잘하세요.** — *My mother is a good cook.*\n\n### How to form it\n\n- **No 받침** → **-세요**: 가다 → **가세요**, 바쁘다 → **바쁘세요**\n- **With 받침** → **-으세요**: 읽다 → **읽으세요**, 젊다 → **젊으세요**\n- **Ends in ㄹ** → ㄹ **drops** + **-세요**: 살다 → **사세요**, 만들다 → **만드세요**, 알다 → **아세요**\n\n### Special honorific verbs\n\n| Plain | Honorific |\n|---|---|\n| 있다 (to be somewhere) | **계세요** |\n| 먹다 / 마시다 | **드세요** |\n| 자다 | **주무세요** |\n| 말하다 | **말씀하세요** |\n\n할아버지는 지금 방에서 **주무세요**. ~~자세요~~ ❌\n\n### 께서\n\nFor even more respect, the subject particle changes too: **이/가 → 께서**, **은/는 → 께서는**:\n\n할머니**께서** 요리하세요.\n\n### Request or statement?\n\nThe form is the same; the context tells you the meaning:\n\n- 여기 앉**으세요**. — *Please sit here.* (request)\n- 아버지는 소파에 앉**으세요**. — *My father is sitting on the sofa.* (statement)",
       "formation": [
         {
           "condition_uz": "받침 yo'q",
+          "condition_en": "No 받침",
           "rule": "-세요",
           "example": "가다 → 가세요"
         },
         {
           "condition_uz": "받침 bor",
+          "condition_en": "With 받침",
           "rule": "-으세요",
           "example": "읽다 → 읽으세요"
         },
         {
           "condition_uz": "ㄹ bilan tugasa",
+          "condition_en": "Ends in ㄹ",
           "rule": "ㄹ tushadi + -세요",
           "example": "살다 → 사세요"
         },
         {
           "condition_uz": "Maxsus fe'llar",
+          "condition_en": "Special verbs",
           "rule": "계시다, 드시다, 주무시다",
           "example": "있다 → 계세요, 먹다 → 드세요, 자다 → 주무세요"
         }
@@ -423,26 +508,31 @@
         {
           "ko": "어머니는 요리를 잘하세요.",
           "uz": "Onam yaxshi ovqat pishiradilar.",
+          "en": "My mother is a good cook.",
           "audio": "bb53560acc68.mp3"
         },
         {
           "ko": "할아버지는 부산에 사세요.",
           "uz": "Bobom Pusanda yashaydilar.",
+          "en": "My grandfather lives in Busan.",
           "audio": "d0ba7aaf18c8.mp3"
         },
         {
           "ko": "아버지는 신문을 읽으세요.",
           "uz": "Otam gazeta o'qiyaptilar.",
+          "en": "My father is reading the newspaper.",
           "audio": "e05487f19be1.mp3"
         },
         {
           "ko": "할머니는 지금 주무세요.",
           "uz": "Buvim hozir uxlayaptilar.",
+          "en": "My grandmother is sleeping now.",
           "audio": "028d232d22bd.mp3"
         },
         {
           "ko": "선생님은 교실에 계세요.",
           "uz": "O'qituvchi sinfdalar.",
+          "en": "The teacher is in the classroom.",
           "audio": "ffc4f64d0e09.mp3"
         }
       ],
@@ -450,20 +540,24 @@
         {
           "wrong": "아버지는 서울에서 살으세요",
           "right": "아버지는 서울에서 사세요",
-          "why_uz": "ㄹ bilan tugaydi: ㄹ tushadi, -세요."
+          "why_uz": "ㄹ bilan tugaydi: ㄹ tushadi, -세요.",
+          "why_en": "Ends in ㄹ: ㄹ drops, then -세요."
         },
         {
           "wrong": "할아버지가 밥을 먹으세요",
           "right": "할아버지가 밥을 드세요",
-          "why_uz": "먹다 ning hurmat shakli 드시다."
+          "why_uz": "먹다 ning hurmat shakli 드시다.",
+          "why_en": "The honorific form of 먹다 is 드시다."
         },
         {
           "wrong": "할머니가 지금 자세요",
           "right": "할머니가 지금 주무세요",
-          "why_uz": "자다 ning hurmat shakli 주무시다."
+          "why_uz": "자다 ning hurmat shakli 주무시다.",
+          "why_en": "The honorific form of 자다 is 주무시다."
         }
       ],
-      "uz_compare": "O'zbekchada 'otam ishlaydi' o'rniga 'otam ishlaydilar' deymiz. Koreyschada ham fe'lga -(으)시- qo'shiladi: 일해요 → 일하세요."
+      "uz_compare": "O'zbekchada 'otam ishlaydi' o'rniga 'otam ishlaydilar' deymiz. Koreyschada ham fe'lga -(으)시- qo'shiladi: 일해요 → 일하세요.",
+      "compare_en": "In English the verb is the same whoever you talk about: 'my father works', 'my friend works'. In Korean you add -(으)시- to the verb when the subject is someone you respect: 일해요 → 일하세요."
     }
   ],
   "dialogue": {
@@ -472,72 +566,84 @@
         "speaker": "aziz",
         "ko": "민지 씨, 이 사진은 뭐예요?",
         "uz": "Minji, bu qanaqa surat?",
+        "en": "Minji, what kind of photo is this?",
         "audio": "d0fd9eb12630.mp3"
       },
       {
         "speaker": "minji",
         "ko": "우리 가족 사진이에요.",
         "uz": "Bu oilamizning surati.",
+        "en": "It's a photo of my family.",
         "audio": "1ae4f7185732.mp3"
       },
       {
         "speaker": "aziz",
         "ko": "이분은 누구세요?",
         "uz": "Bu kishi kim?",
+        "en": "Who is this?",
         "audio": "64692a552df5.mp3"
       },
       {
         "speaker": "minji",
         "ko": "이분은 우리 아버지세요. 회사원이세요.",
         "uz": "Bu kishi mening otam. Kompaniyada ishlaydilar.",
+        "en": "This is my father. He works at a company.",
         "audio": "b14f323762dc.mp3"
       },
       {
         "speaker": "aziz",
         "ko": "키가 크세요. 그럼 이분은 어머니세요?",
         "uz": "Bo'ylari baland ekan. Unda bu kishi onangizmi?",
+        "en": "He's tall. Then is this your mother?",
         "audio": "a68200cc2c54.mp3"
       },
       {
         "speaker": "minji",
         "ko": "네, 우리 어머니세요. 어머니는 요리를 정말 잘하세요.",
         "uz": "Ha, onam. Onam juda yaxshi ovqat pishiradilar.",
+        "en": "Yes, it's my mother. My mother is a very good cook.",
         "audio": "ae10ed700ed7.mp3"
       },
       {
         "speaker": "aziz",
         "ko": "할아버지, 할머니도 계세요?",
         "uz": "Bobo-buvingiz ham bormilar?",
+        "en": "Do you have grandparents too?",
         "audio": "f140821187c9.mp3"
       },
       {
         "speaker": "minji",
         "ko": "네, 할아버지는 연세가 많으세요. 지금 부산에 사세요.",
         "uz": "Ha, bobom keksalar. Hozir Pusanda yashaydilar.",
+        "en": "Yes, my grandfather is elderly. He lives in Busan now.",
         "audio": "42eb67dc2055.mp3"
       },
       {
         "speaker": "aziz",
         "ko": "이 남자는 남동생이에요?",
         "uz": "Bu yigit ukangizmi?",
+        "en": "Is this young man your younger brother?",
         "audio": "4751e6f50efd.mp3"
       },
       {
         "speaker": "minji",
         "ko": "아니요, 우리 오빠예요. 오빠는 대학생이에요.",
         "uz": "Yo'q, akam. Akam talaba.",
+        "en": "No, he's my older brother. He's a university student.",
         "audio": "e4d36ab09f25.mp3"
       },
       {
         "speaker": "aziz",
         "ko": "민지 씨는 오빠를 많이 닮았어요.",
         "uz": "Minji, siz akangizga juda o'xshaysiz.",
+        "en": "Minji, you look a lot like your brother.",
         "audio": "7896ddf11702.mp3"
       },
       {
         "speaker": "minji",
         "ko": "네, 다들 그렇게 말해요.",
         "uz": "Ha, hamma shunday deydi.",
+        "en": "Yes, everyone says so.",
         "audio": "5e15264feec8.mp3"
       }
     ]
@@ -550,6 +656,7 @@
         "u01_l1_g1"
       ],
       "prompt_uz": "Hurmat shaklini yasang: 'otam bo'ladilar'",
+      "prompt_en": "Make the honorific form: '(he) is my father'",
       "base": "아버지",
       "form": "N(이)세요",
       "answers": [
@@ -563,6 +670,7 @@
         "u01_l1_g1"
       ],
       "prompt_uz": "Hurmat shaklini yasang: 'o'qituvchi bo'ladilar'",
+      "prompt_en": "Make the honorific form: '(she) is a teacher'",
       "base": "선생님",
       "form": "N(이)세요",
       "answers": [
@@ -576,6 +684,7 @@
         "u01_l1_g2"
       ],
       "prompt_uz": "Hurmat shaklini yasang: 'boradilar'",
+      "prompt_en": "Make the honorific form: '(he) goes'",
       "base": "가다",
       "form": "-(으)세요",
       "answers": [
@@ -589,6 +698,7 @@
         "u01_l1_g2"
       ],
       "prompt_uz": "Hurmat shaklini yasang: 'o'qiydilar'",
+      "prompt_en": "Make the honorific form: '(she) reads'",
       "base": "읽다",
       "form": "-(으)세요",
       "answers": [
@@ -602,12 +712,14 @@
         "u01_l1_g2"
       ],
       "prompt_uz": "Hurmat shaklini yasang: 'yashaydilar'",
+      "prompt_en": "Make the honorific form: '(he) lives'",
       "base": "살다",
       "form": "-(으)세요",
       "answers": [
         "사세요"
       ],
-      "hint_uz": "ㄹ tushadi"
+      "hint_uz": "ㄹ tushadi",
+      "hint_en": "ㄹ drops"
     },
     {
       "id": "u01_l1_e006",
@@ -616,12 +728,14 @@
         "u01_l1_g2"
       ],
       "prompt_uz": "Hurmat shaklini yasang: 'yeydilar'",
+      "prompt_en": "Make the honorific form: '(she) eats'",
       "base": "먹다",
       "form": "-(으)세요",
       "answers": [
         "드세요"
       ],
-      "hint_uz": "Maxsus hurmat fe'li"
+      "hint_uz": "Maxsus hurmat fe'li",
+      "hint_en": "A special honorific verb"
     },
     {
       "id": "u01_l1_e007",
@@ -630,6 +744,7 @@
         "u01_l1_g1"
       ],
       "prompt_uz": "Bo'sh joyni to'ldiring: 'Bu kishi mening onam.'",
+      "prompt_en": "Fill in the blank: 'This is my mother.'",
       "sentence": "이분은 우리 ___. (어머니)",
       "answers": [
         "어머니세요"
@@ -642,6 +757,7 @@
         "u01_l1_g1"
       ],
       "prompt_uz": "Bo'sh joyni to'ldiring: 'Anavi kishi kim?'",
+      "prompt_en": "Fill in the blank: 'Who is that person over there?'",
       "sentence": "저분은 ___? (누구)",
       "answers": [
         "누구세요"
@@ -654,6 +770,7 @@
         "u01_l1_g2"
       ],
       "prompt_uz": "Bo'sh joyni to'ldiring: 'Bobom hozir uydalar.'",
+      "prompt_en": "Fill in the blank: 'My grandfather is at home now.'",
       "sentence": "할아버지는 지금 집에 ___. (있다)",
       "answers": [
         "계세요"
@@ -666,6 +783,7 @@
         "u01_l1_g2"
       ],
       "prompt_uz": "Bo'sh joyni to'ldiring: 'Otam gazeta o'qiyaptilar.'",
+      "prompt_en": "Fill in the blank: 'My father is reading the newspaper.'",
       "sentence": "아버지는 신문을 ___. (읽다)",
       "answers": [
         "읽으세요"
@@ -678,6 +796,7 @@
         "u01_l1_g1"
       ],
       "prompt_uz": "'Bu kishi o'qituvchi' (hurmat bilan) qaysi biri?",
+      "prompt_en": "Which one means 'This person is a teacher' (honorific)?",
       "options": [
         "이분은 선생님이세요",
         "이분은 선생님세요",
@@ -695,6 +814,7 @@
         "u01_l1_g2"
       ],
       "prompt_uz": "'Bobom uxlayaptilar' qaysi biri?",
+      "prompt_en": "Which one means 'My grandfather is sleeping'?",
       "options": [
         "할아버지께서 주무세요",
         "할아버지께서 자세요",
@@ -712,6 +832,7 @@
         "u01_l1_w005"
       ],
       "prompt_uz": "Otangizning onasi kim bo'ladi?",
+      "prompt_en": "What do you call your father's mother?",
       "options": [
         "할머니",
         "어머니",
@@ -729,6 +850,7 @@
         "u01_l1_g1"
       ],
       "prompt_uz": "'Bu kishi mening otam' gapini tuzing",
+      "prompt_en": "Build the sentence 'This is my father'",
       "tokens": [
         "아버지세요",
         "이분은",
@@ -745,6 +867,7 @@
         "u01_l1_g2"
       ],
       "prompt_uz": "'Buvim Pusanda yashaydilar' gapini tuzing",
+      "prompt_en": "Build the sentence 'My grandmother lives in Busan'",
       "tokens": [
         "사세요",
         "할머니는",
@@ -761,11 +884,13 @@
         "u01_l1_g2"
       ],
       "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
       "sentence": "아버지는 서울에서 살으세요.",
       "answers": [
         "아버지는 서울에서 사세요"
       ],
-      "why_uz": "ㄹ tushadi: 사세요."
+      "why_uz": "ㄹ tushadi: 사세요.",
+      "why_en": "ㄹ drops: 사세요."
     },
     {
       "id": "u01_l1_e017",
@@ -774,11 +899,13 @@
         "u01_l1_g1"
       ],
       "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
       "sentence": "저는 학생이세요.",
       "answers": [
         "저는 학생이에요"
       ],
-      "why_uz": "O'zingiz haqida hurmat shakli ishlatilmaydi."
+      "why_uz": "O'zingiz haqida hurmat shakli ishlatilmaydi.",
+      "why_en": "You never use the honorific form about yourself."
     },
     {
       "id": "u01_l1_e018",
@@ -787,12 +914,14 @@
         "u01_l1_g2"
       ],
       "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
       "sentence": "할아버지가 밥을 먹으세요.",
       "answers": [
         "할아버지가 밥을 드세요",
         "할아버지께서 밥을 드세요"
       ],
-      "why_uz": "먹다 → 드시다."
+      "why_uz": "먹다 → 드시다.",
+      "why_en": "먹다 → 드시다."
     },
     {
       "id": "u01_l1_e019",
@@ -801,7 +930,9 @@
         "u01_l1_g1"
       ],
       "prompt_uz": "Hurmat bilan koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean using the honorific form",
       "source_uz": "Bu kishi kim?",
+      "source_en": "Who is this?",
       "answers": [
         "이분은 누구세요",
         "이 분은 누구세요"
@@ -814,7 +945,9 @@
         "u01_l1_g2"
       ],
       "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
       "source_uz": "Otam kompaniyada ishlaydilar.",
+      "source_en": "My father works at a company.",
       "answers": [
         "아버지는 회사에서 일하세요",
         "우리 아버지는 회사에서 일하세요",
@@ -828,7 +961,9 @@
         "u01_l1_g2"
       ],
       "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
       "source_uz": "Buvim uydalar.",
+      "source_en": "My grandmother is at home.",
       "answers": [
         "할머니는 집에 계세요",
         "할머니께서는 집에 계세요",
@@ -844,12 +979,19 @@
         "u01_l1_g1"
       ],
       "prompt_uz": "Suratdagi kishi kim?",
+      "prompt_en": "Who is the person in the photo?",
       "audio_text": "이분은 우리 할머니세요.",
       "options": [
         "Buvisi",
         "Onasi",
         "Opasi",
         "O'qituvchisi"
+      ],
+      "options_en": [
+        "Their grandmother",
+        "Their mother",
+        "Their older sister",
+        "Their teacher"
       ],
       "answers": [
         "Buvisi"
@@ -863,12 +1005,19 @@
         "u01_l1_g2"
       ],
       "prompt_uz": "Otasi har ertalab nima qiladi?",
+      "prompt_en": "What does their father do every morning?",
       "audio_text": "아버지는 매일 아침 신문을 읽으세요.",
       "options": [
         "Gazeta o'qiydi",
         "Sport qiladi",
         "Ishga boradi",
         "Choy ichadi"
+      ],
+      "options_en": [
+        "Reads the newspaper",
+        "Exercises",
+        "Goes to work",
+        "Drinks tea"
       ],
       "answers": [
         "Gazeta o'qiydi"
@@ -882,12 +1031,19 @@
         "u01_l1_g2"
       ],
       "prompt_uz": "Bobosi hozir nima qilyapti?",
+      "prompt_en": "What is their grandfather doing now?",
       "audio_text": "할아버지는 지금 방에서 주무세요.",
       "options": [
         "Xonada uxlayapti",
         "Ovqatlanyapti",
         "Telefonda gaplashyapti",
         "Tashqarida"
+      ],
+      "options_en": [
+        "Sleeping in his room",
+        "Eating",
+        "Talking on the phone",
+        "He is outside"
       ],
       "answers": [
         "Xonada uxlayapti"
@@ -901,6 +1057,7 @@
         "u01_l1_g1"
       ],
       "prompt_uz": "Hurmat shaklini yasang: 'shifokor bo'ladilar'",
+      "prompt_en": "Make the honorific form: '(he) is a doctor'",
       "base": "의사",
       "form": "N(이)세요",
       "answers": [
@@ -914,12 +1071,14 @@
         "u01_l1_g2"
       ],
       "prompt_uz": "Hurmat shaklini yasang: 'yasaydilar'",
+      "prompt_en": "Make the honorific form: '(she) makes'",
       "base": "만들다",
       "form": "-(으)세요",
       "answers": [
         "만드세요"
       ],
-      "hint_uz": "ㄹ tushadi"
+      "hint_uz": "ㄹ tushadi",
+      "hint_en": "ㄹ drops"
     },
     {
       "id": "u01_l1_e103",
@@ -928,12 +1087,14 @@
         "u01_l1_g2"
       ],
       "prompt_uz": "Hurmat shaklini yasang: 'uxlaydilar'",
+      "prompt_en": "Make the honorific form: '(he) sleeps'",
       "base": "자다",
       "form": "-(으)세요",
       "answers": [
         "주무세요"
       ],
-      "hint_uz": "Maxsus hurmat fe'li"
+      "hint_uz": "Maxsus hurmat fe'li",
+      "hint_en": "A special honorific verb"
     },
     {
       "id": "u01_l1_e104",
@@ -942,6 +1103,7 @@
         "u01_l1_g1"
       ],
       "prompt_uz": "Bo'sh joyni to'ldiring: 'Anavi kishi mening bobom.'",
+      "prompt_en": "Fill in the blank: 'That person over there is my grandfather.'",
       "sentence": "저분이 우리 ___. (할아버지)",
       "answers": [
         "할아버지세요"
@@ -954,6 +1116,7 @@
         "u01_l1_g2"
       ],
       "prompt_uz": "Bo'sh joyni to'ldiring: 'Onam yaxshi ovqat pishiradilar.'",
+      "prompt_en": "Fill in the blank: 'My mother is a good cook.'",
       "sentence": "어머니는 요리를 잘 ___. (하다)",
       "answers": [
         "하세요"
@@ -966,6 +1129,7 @@
         "u01_l1_g2"
       ],
       "prompt_uz": "Bo'sh joyni to'ldiring: 'Buvim qahva ichmaydilar.'",
+      "prompt_en": "Fill in the blank: 'My grandmother doesn't drink coffee.'",
       "sentence": "할머니는 커피를 안 ___. (마시다)",
       "answers": [
         "드세요",
@@ -979,6 +1143,7 @@
         "u01_l1_g2"
       ],
       "prompt_uz": "'Otam bandlar' qaysi biri?",
+      "prompt_en": "Which one means 'My father is busy'?",
       "options": [
         "아버지는 바쁘세요",
         "아버지는 바빠세요",
@@ -996,6 +1161,7 @@
         "u01_l1_w021"
       ],
       "prompt_uz": "Keksa kishidan yoshini hurmat bilan so'raysiz:",
+      "prompt_en": "You ask an elderly person their age politely:",
       "options": [
         "연세가 어떻게 되세요?",
         "몇 살이에요?",
@@ -1013,6 +1179,7 @@
         "u01_l1_g1"
       ],
       "prompt_uz": "'Anavi kishi kompaniya xodimi' gapini tuzing",
+      "prompt_en": "Build the sentence 'That person over there is an office worker'",
       "tokens": [
         "회사원이세요",
         "저분은"
@@ -1028,6 +1195,7 @@
         "u01_l1_g2"
       ],
       "prompt_uz": "'Bobom uydalar' gapini tuzing",
+      "prompt_en": "Build the sentence 'My grandfather is at home'",
       "tokens": [
         "계세요",
         "집에",
@@ -1044,11 +1212,13 @@
         "u01_l1_g1"
       ],
       "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
       "sentence": "이분은 우리 어머니이세요.",
       "answers": [
         "이분은 우리 어머니세요"
       ],
-      "why_uz": "받침 yo'q: -세요."
+      "why_uz": "받침 yo'q: -세요.",
+      "why_en": "No 받침: -세요."
     },
     {
       "id": "u01_l1_e112",
@@ -1057,12 +1227,14 @@
         "u01_l1_g2"
       ],
       "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
       "sentence": "할머니가 케이크를 만들으세요.",
       "answers": [
         "할머니가 케이크를 만드세요",
         "할머니께서 케이크를 만드세요"
       ],
-      "why_uz": "ㄹ tushadi: 만드세요."
+      "why_uz": "ㄹ tushadi: 만드세요.",
+      "why_en": "ㄹ drops: 만드세요."
     },
     {
       "id": "u01_l1_e113",
@@ -1071,7 +1243,9 @@
         "u01_l1_g1"
       ],
       "prompt_uz": "Hurmat bilan koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean using the honorific form",
       "source_uz": "Anavi kishi o'qituvchimi?",
+      "source_en": "Is that person over there a teacher?",
       "answers": [
         "저분은 선생님이세요",
         "저분이 선생님이세요",
@@ -1085,7 +1259,9 @@
         "u01_l1_g2"
       ],
       "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
       "source_uz": "Onam Toshkentda yashaydilar.",
+      "source_en": "My mother lives in Tashkent.",
       "answers": [
         "어머니는 타슈켄트에 사세요",
         "어머니는 타슈켄트에서 사세요",
@@ -1101,12 +1277,19 @@
         "u01_l1_g2"
       ],
       "prompt_uz": "Otasi qanday?",
+      "prompt_en": "What is their father like?",
       "audio_text": "우리 아버지는 키가 크세요.",
       "options": [
         "Bo'yi baland",
         "Bo'yi past",
         "Juda yosh",
         "Juda band"
+      ],
+      "options_en": [
+        "Tall",
+        "Short",
+        "Very young",
+        "Very busy"
       ],
       "answers": [
         "Bo'yi baland"
@@ -1133,12 +1316,14 @@
   ],
   "story": {
     "title_uz": "Oila surati",
+    "title_en": "The family photo",
     "steps": [
       {
         "type": "line",
         "speaker": "minji",
         "ko": "아지즈 씨, 가족 사진 있어요?",
         "uz": "Aziz, oila suratingiz bormi?",
+        "en": "Aziz, do you have a family photo?",
         "audio": "9f906f684be2.mp3"
       },
       {
@@ -1146,6 +1331,7 @@
         "speaker": "aziz",
         "ko": "네, 있어요. 이거 우리 가족 사진이에요.",
         "uz": "Ha, bor. Bu bizning oila suratimiz.",
+        "en": "Yes, I do. This is our family photo.",
         "audio": "f782c1a550c6.mp3"
       },
       {
@@ -1153,12 +1339,14 @@
         "speaker": "minji",
         "ko": "이분은 누구세요?",
         "uz": "Bu kishi kim?",
+        "en": "Who is this?",
         "audio": "3b3f9aceb47f.mp3"
       },
       {
         "type": "choose_reply",
         "speaker": "aziz",
         "prompt_uz": "Suratdagi kishi Azizning otasi. Aziz nima deydi?",
+        "prompt_en": "The man in the photo is Aziz's father. What does Aziz say?",
         "options": [
           "우리 아버지세요.",
           "우리 아버지이세요.",
@@ -1166,7 +1354,9 @@
         ],
         "answer": "우리 아버지세요.",
         "uz": "Mening otam.",
+        "en": "My father.",
         "why_uz": "아버지 — 받침 yo'q: N세요.",
+        "why_en": "아버지 has no 받침: N세요.",
         "audio": "c53c22d68c5b.mp3"
       },
       {
@@ -1174,6 +1364,7 @@
         "speaker": "minji",
         "ko": "와, 키가 크세요. 아버지는 무슨 일을 하세요?",
         "uz": "Voy, bo'ylari baland. Otangiz qanday ish qiladilar?",
+        "en": "Wow, he's tall. What does your father do?",
         "audio": "a6f01389480f.mp3"
       },
       {
@@ -1181,6 +1372,7 @@
         "speaker": "aziz",
         "ko": "아버지는 회사원이세요. 매일 회사에 가세요.",
         "uz": "Otam kompaniya xodimi. Har kuni ishga boradilar.",
+        "en": "My father is an office worker. He goes to work every day.",
         "audio": "22bf4e4f7fbf.mp3"
       },
       {
@@ -1188,6 +1380,7 @@
         "speaker": "minji",
         "ko": "그럼 이분은 어머니세요?",
         "uz": "Unda bu kishi onangizmi?",
+        "en": "Then is this your mother?",
         "audio": "a3b9cdb042e9.mp3"
       },
       {
@@ -1195,24 +1388,33 @@
         "speaker": "aziz",
         "ko": "아니요, 우리 할머니세요. 할머니는 요리를 정말 잘하세요.",
         "uz": "Yo'q, buvim. Buvim juda yaxshi ovqat pishiradilar.",
+        "en": "No, it's my grandmother. My grandmother is a very good cook.",
         "audio": "f6798b86a8ee.mp3"
       },
       {
         "type": "quiz",
         "prompt_uz": "Suratdagi ayol kim?",
+        "prompt_en": "Who is the woman in the photo?",
         "options": [
           "Azizning buvisi",
           "Azizning onasi",
           "Azizning opasi"
         ],
+        "options_en": [
+          "Aziz's grandmother",
+          "Aziz's mother",
+          "Aziz's older sister"
+        ],
         "answer": "Azizning buvisi",
-        "why_uz": "할머니 = buvi."
+        "why_uz": "할머니 = buvi.",
+        "why_en": "할머니 = grandmother."
       },
       {
         "type": "line",
         "speaker": "minji",
         "ko": "할머니는 어디에 사세요?",
         "uz": "Buvingiz qayerda yashaydilar?",
+        "en": "Where does your grandmother live?",
         "audio": "f847a127577b.mp3"
       },
       {
@@ -1220,6 +1422,7 @@
         "speaker": "aziz",
         "ko": "사마르칸트에 사세요. 연세가 일흔이세요.",
         "uz": "Samarqandda yashaydilar. Yetmish yoshdalar.",
+        "en": "She lives in Samarkand. She's seventy.",
         "audio": "50e3225d55f9.mp3"
       },
       {
@@ -1227,6 +1430,7 @@
         "speaker": "minji",
         "ko": "이 남자는 남동생이에요?",
         "uz": "Bu yigit ukangizmi?",
+        "en": "Is this young man your younger brother?",
         "audio": "7e44007c661a.mp3"
       },
       {
@@ -1234,6 +1438,7 @@
         "speaker": "aziz",
         "ko": "네, 남동생이에요. 대학생이에요.",
         "uz": "Ha, ukam. Talaba.",
+        "en": "Yes, my younger brother. He's a university student.",
         "audio": "c95cedc12a73.mp3"
       },
       {
@@ -1241,6 +1446,7 @@
         "speaker": "minji",
         "ko": "아지즈 씨는 남동생을 많이 닮았어요!",
         "uz": "Aziz, siz ukangizga juda o'xshaysiz!",
+        "en": "Aziz, you look a lot like your brother!",
         "audio": "5c7762753619.mp3"
       }
     ]

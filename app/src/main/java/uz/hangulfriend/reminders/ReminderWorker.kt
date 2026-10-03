@@ -16,6 +16,8 @@ import kotlinx.coroutines.flow.first
 import uz.hangulfriend.HangulFriendApp
 import uz.hangulfriend.MainActivity
 import uz.hangulfriend.R
+import uz.hangulfriend.i18n.LanguageStore
+import uz.hangulfriend.i18n.Localized
 import uz.hangulfriend.study.GameRules
 
 /** Posts today's reminder unless the daily goal is met, then books tomorrow's run. */
@@ -25,13 +27,13 @@ class ReminderWorker(context: Context, params: WorkerParameters) : CoroutineWork
         val s = container.settings.settings.first()
         if (s.onboarded && s.reminderEnabled) {
             val goal = s.dailyGoalXp
-            val text = ReminderPolicy.message(
+            val reminder = ReminderPolicy.message(
                 todayXp = container.game.todayXp(),
                 goal = goal,
                 dueCount = container.study.dueQueue(s.dailyNewLimit).size,
                 streak = GameRules.streak(container.game.dailyXp(), LocalDate.now(container.clock), goal),
             )
-            if (text != null) notify(text)
+            if (reminder != null) notify(ReminderText.of(Localized.wrap(applicationContext, LanguageStore(applicationContext).get()), reminder))
         }
         container.reminders.apply(s, ReminderScheduler.Trigger.WORKER)
         return Result.success()

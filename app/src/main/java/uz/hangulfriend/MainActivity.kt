@@ -1,5 +1,7 @@
 package uz.hangulfriend
 
+import android.content.Context
+import android.content.Intent
 import android.graphics.Color
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -23,11 +25,24 @@ import uz.hangulfriend.ui.exercise.LocalSpeechInput
 import uz.hangulfriend.ui.tutor.LocalTutor
 import uz.hangulfriend.ui.HangulFriendNav
 import uz.hangulfriend.data.GameThemeId
+import uz.hangulfriend.i18n.LanguageStore
+import uz.hangulfriend.i18n.Localized
 import uz.hangulfriend.ui.theme.GameBackground
 import uz.hangulfriend.ui.theme.HangulFriendTheme
 
 class MainActivity : ComponentActivity() {
     private val audio by lazy { AudioPlayer(this) }
+
+    // The chosen app language, not the phone's, decides every string the activity shows.
+    override fun attachBaseContext(newBase: Context) {
+        super.attachBaseContext(Localized.wrap(newBase, LanguageStore(newBase).get()))
+    }
+
+    /** Starts over in a new task after a language switch, so no screen keeps text in the old language. */
+    fun restartForLanguage() {
+        startActivity(Intent(this, MainActivity::class.java).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK))
+        finish()
+    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

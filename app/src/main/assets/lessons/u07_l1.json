@@ -4,16 +4,20 @@
   "lesson": 1,
   "title_ko": "내일 모임에 올 수 있어요?",
   "title_uz": "Ertangi yig'ilishga kela olasizmi?",
+  "title_en": "Can you come to tomorrow's meeting?",
   "topic_uz": "Kasalxona",
+  "topic_en": "Hospital",
   "reviewed": false,
   "words": [
     {
       "id": "u07_l1_w001",
       "ko": "몸",
       "uz": "tana",
+      "en": "body",
       "pos": "ot",
       "example_ko": "몸이 안 좋아요.",
       "example_uz": "Tobim yo'q.",
+      "example_en": "I'm not feeling well.",
       "audio": "98099fb1c82e.mp3",
       "example_audio": "c904ed7d58e9.mp3"
     },
@@ -21,9 +25,11 @@
       "id": "u07_l1_w002",
       "ko": "머리",
       "uz": "bosh",
+      "en": "head",
       "pos": "ot",
       "example_ko": "머리가 아파요.",
       "example_uz": "Boshim og'riyapti.",
+      "example_en": "I have a headache.",
       "audio": "106bfa4435a1.mp3",
       "example_audio": "ac28743daa1b.mp3"
     },
@@ -31,9 +37,11 @@
       "id": "u07_l1_w003",
       "ko": "얼굴",
       "uz": "yuz",
+      "en": "face",
       "pos": "ot",
       "example_ko": "얼굴을 씻어요.",
       "example_uz": "Yuzimni yuvaman.",
+      "example_en": "I wash my face.",
       "audio": "faf074ee8021.mp3",
       "example_audio": "797de7757e03.mp3"
     },
@@ -41,9 +49,11 @@
       "id": "u07_l1_w004",
       "ko": "눈",
       "uz": "ko'z",
+      "en": "eye",
       "pos": "ot",
       "example_ko": "눈이 피곤해요.",
       "example_uz": "Ko'zlarim charchadi.",
+      "example_en": "My eyes are tired.",
       "audio": "5209c77b4029.mp3",
       "example_audio": "632c6ff02fca.mp3"
     },
@@ -51,9 +61,11 @@
       "id": "u07_l1_w005",
       "ko": "코",
       "uz": "burun",
+      "en": "nose",
       "pos": "ot",
       "example_ko": "코가 막혔어요.",
       "example_uz": "Burnim bitib qoldi.",
+      "example_en": "My nose is blocked.",
       "audio": "240506707b0b.mp3",
       "example_audio": "28de2ed2cb96.mp3"
     },
@@ -61,9 +73,11 @@
       "id": "u07_l1_w006",
       "ko": "입",
       "uz": "og'iz",
+      "en": "mouth",
       "pos": "ot",
       "example_ko": "입을 벌리세요.",
       "example_uz": "Og'zingizni oching.",
+      "example_en": "Open your mouth.",
       "audio": "81349848b5d9.mp3",
       "example_audio": "f4c2c0c42c4b.mp3"
     },
@@ -71,9 +85,11 @@
       "id": "u07_l1_w007",
       "ko": "귀",
       "uz": "quloq",
+      "en": "ear",
       "pos": "ot",
       "example_ko": "귀가 아파요.",
       "example_uz": "Qulog'im og'riyapti.",
+      "example_en": "My ear hurts.",
       "audio": "49923eeef804.mp3",
       "example_audio": "59c83eeb2a77.mp3"
     },
@@ -81,9 +97,11 @@
       "id": "u07_l1_w008",
       "ko": "목",
       "uz": "bo'yin, tomoq",
+      "en": "neck, throat",
       "pos": "ot",
       "example_ko": "목이 길어요.",
       "example_uz": "Bo'yni uzun.",
+      "example_en": "She has a long neck.",
       "audio": "6627dfef0183.mp3",
       "example_audio": "fb332d56ea0d.mp3"
     },
@@ -91,9 +109,11 @@
       "id": "u07_l1_w009",
       "ko": "어깨",
       "uz": "yelka",
+      "en": "shoulder",
       "pos": "ot",
       "example_ko": "어깨가 무거워요.",
       "example_uz": "Yelkam og'irlashdi.",
+      "example_en": "My shoulders feel stiff.",
       "audio": "afe4ff5beff9.mp3",
       "example_audio": "75176ff2ce13.mp3"
     },
@@ -101,9 +121,11 @@
       "id": "u07_l1_w010",
       "ko": "팔",
       "uz": "qo'l (yelkadan kaftgacha)",
+      "en": "arm",
       "pos": "ot",
       "example_ko": "팔을 다쳤어요.",
       "example_uz": "Qo'limni jarohatladim.",
+      "example_en": "I hurt my arm.",
       "audio": "e02d0b4d0d9d.mp3",
       "example_audio": "86e2b91fcd2c.mp3"
     },
@@ -111,9 +133,11 @@
       "id": "u07_l1_w011",
       "ko": "손",
       "uz": "qo'l (kaft)",
+      "en": "hand",
       "pos": "ot",
       "example_ko": "손을 씻으세요.",
       "example_uz": "Qo'lingizni yuving.",
+      "example_en": "Wash your hands.",
       "audio": "8c4222a4255c.mp3",
       "example_audio": "4f0d2ea2c237.mp3"
     },
@@ -121,9 +145,11 @@
       "id": "u07_l1_w012",
       "ko": "다리",
       "uz": "oyoq",
+      "en": "leg",
       "pos": "ot",
       "example_ko": "다리가 아파요.",
       "example_uz": "Oyog'im og'riyapti.",
+      "example_en": "My leg hurts.",
       "audio": "dc1496e113f4.mp3",
       "example_audio": "0b0d8ff2c0d0.mp3"
     },
@@ -131,9 +157,11 @@
       "id": "u07_l1_w013",
       "ko": "발",
       "uz": "oyoq panjasi",
+      "en": "foot",
       "pos": "ot",
       "example_ko": "발이 차가워요.",
       "example_uz": "Oyoqlarim sovuq.",
+      "example_en": "My feet are cold.",
       "audio": "36a93d64e429.mp3",
       "example_audio": "ee61fbd0b3a0.mp3"
     },
@@ -141,9 +169,11 @@
       "id": "u07_l1_w014",
       "ko": "배",
       "uz": "qorin",
+      "en": "stomach, belly",
       "pos": "ot",
       "example_ko": "배가 고파요.",
       "example_uz": "Qornim och.",
+      "example_en": "I'm hungry.",
       "audio": "99419ccb0e33.mp3",
       "example_audio": "8b6b98914053.mp3"
     },
@@ -151,9 +181,11 @@
       "id": "u07_l1_w015",
       "ko": "허리",
       "uz": "bel",
+      "en": "lower back, waist",
       "pos": "ot",
       "example_ko": "허리가 아파요.",
       "example_uz": "Belim og'riyapti.",
+      "example_en": "My lower back hurts.",
       "audio": "d0177d45123c.mp3",
       "example_audio": "3924ac902cce.mp3"
     },
@@ -161,9 +193,11 @@
       "id": "u07_l1_w016",
       "ko": "등",
       "uz": "orqa (tana)",
+      "en": "back (of the body)",
       "pos": "ot",
       "example_ko": "등이 가려워요.",
       "example_uz": "Orqam qichiyapti.",
+      "example_en": "My back is itchy.",
       "audio": "c56917bbba3a.mp3",
       "example_audio": "94e0c374ad5e.mp3"
     },
@@ -171,9 +205,11 @@
       "id": "u07_l1_w017",
       "ko": "모임",
       "uz": "yig'ilish, uchrashuv",
+      "en": "meeting, get-together",
       "pos": "ot",
       "example_ko": "내일 반 모임이 있어요.",
       "example_uz": "Ertaga guruh yig'ilishi bor.",
+      "example_en": "There's a group meeting tomorrow.",
       "audio": "95de8eeb28c2.mp3",
       "example_audio": "d77b03accea8.mp3"
     },
@@ -181,9 +217,11 @@
       "id": "u07_l1_w018",
       "ko": "약속",
       "uz": "kelishilgan uchrashuv, va'da",
+      "en": "appointment, plans (with someone)",
       "pos": "ot",
       "example_ko": "오늘 친구와 약속이 있어요.",
       "example_uz": "Bugun do'stim bilan uchrashuvim bor.",
+      "example_en": "I have plans with a friend today.",
       "audio": "6cd84e85ae16.mp3",
       "example_audio": "7d6256fd2bee.mp3"
     },
@@ -191,9 +229,11 @@
       "id": "u07_l1_w019",
       "ko": "초대하다",
       "uz": "taklif qilmoq",
+      "en": "to invite",
       "pos": "fe'l",
       "example_ko": "친구를 집에 초대했어요.",
       "example_uz": "Do'stimni uyga taklif qildim.",
+      "example_en": "I invited my friend to my house.",
       "audio": "57c37ea409eb.mp3",
       "example_audio": "87374e6ffa79.mp3"
     },
@@ -201,9 +241,11 @@
       "id": "u07_l1_w020",
       "ko": "바쁘다",
       "uz": "band",
+      "en": "busy",
       "pos": "sifat",
       "example_ko": "요즘 너무 바빠요.",
       "example_uz": "Hozir juda bandman.",
+      "example_en": "I'm very busy right now.",
       "audio": "f64365498669.mp3",
       "example_audio": "7ecdb7dd6612.mp3"
     },
@@ -211,9 +253,11 @@
       "id": "u07_l1_w021",
       "ko": "운전하다",
       "uz": "mashina haydamoq",
+      "en": "to drive",
       "pos": "fe'l",
       "example_ko": "아버지가 운전해요.",
       "example_uz": "Otam mashina haydaydi.",
+      "example_en": "My father drives.",
       "audio": "7c4b05ea4f29.mp3",
       "example_audio": "c53fb059f6a2.mp3"
     },
@@ -221,9 +265,11 @@
       "id": "u07_l1_w022",
       "ko": "한국말",
       "uz": "koreys tili (og'zaki)",
+      "en": "Korean (speaking)",
       "pos": "ot",
       "example_ko": "한국말을 잘해요.",
       "example_uz": "Koreyschada yaxshi gapiradi.",
+      "example_en": "He speaks Korean well.",
       "audio": "f126bfabadb2.mp3",
       "example_audio": "bc6d188376a0.mp3"
     },
@@ -231,9 +277,11 @@
       "id": "u07_l1_w023",
       "ko": "걷다",
       "uz": "yurmoq",
+      "en": "to walk",
       "pos": "fe'l",
       "example_ko": "공원에서 걸어요.",
       "example_uz": "Bog'da yuraman.",
+      "example_en": "I walk in the park.",
       "audio": "e21c98e5e93b.mp3",
       "example_audio": "5a69fb3b8bca.mp3"
     },
@@ -241,9 +289,11 @@
       "id": "u07_l1_w024",
       "ko": "시끄럽다",
       "uz": "shovqinli",
+      "en": "noisy",
       "pos": "sifat",
       "example_ko": "여기는 너무 시끄러워요.",
       "example_uz": "Bu yer juda shovqinli.",
+      "example_en": "It's very noisy here.",
       "audio": "d641b1414c35.mp3",
       "example_audio": "c695ad148f9e.mp3"
     },
@@ -251,9 +301,11 @@
       "id": "u07_l1_w025",
       "ko": "떠들다",
       "uz": "shovqin qilmoq",
+      "en": "to make noise",
       "pos": "fe'l",
       "example_ko": "교실에서 떠들지 마세요.",
       "example_uz": "Sinfda shovqin qilmang.",
+      "example_en": "Don't make noise in class.",
       "audio": "d4cff183683c.mp3",
       "example_audio": "9fabe9f9dde6.mp3"
     },
@@ -261,9 +313,11 @@
       "id": "u07_l1_w026",
       "ko": "담배를 피우다",
       "uz": "sigaret chekmoq",
+      "en": "to smoke",
       "pos": "ibora",
       "example_ko": "여기에서 담배를 피우면 안 돼요.",
       "example_uz": "Bu yerda chekish mumkin emas.",
+      "example_en": "Smoking is not allowed here.",
       "audio": "59997410bfd0.mp3",
       "example_audio": "5b271ad2accf.mp3"
     },
@@ -271,9 +325,11 @@
       "id": "u07_l1_w027",
       "ko": "늦다",
       "uz": "kechikmoq",
+      "en": "to be late",
       "pos": "fe'l",
       "example_ko": "수업에 늦었어요.",
       "example_uz": "Darsga kechikdim.",
+      "example_en": "I was late for class.",
       "audio": "740a6435592f.mp3",
       "example_audio": "1917ec1a825f.mp3"
     },
@@ -281,9 +337,11 @@
       "id": "u07_l1_w028",
       "ko": "걱정하다",
       "uz": "xavotirlanmoq",
+      "en": "to worry",
       "pos": "fe'l",
       "example_ko": "어머니가 걱정해요.",
       "example_uz": "Onam xavotirlanyapti.",
+      "example_en": "My mother is worried.",
       "audio": "20d56e3c5d8a.mp3",
       "example_audio": "7d35cd544c04.mp3"
     },
@@ -291,9 +349,11 @@
       "id": "u07_l1_w029",
       "ko": "무리하다",
       "uz": "o'zini zo'riqtirmoq",
+      "en": "to overdo it, to push oneself",
       "pos": "fe'l",
       "example_ko": "어제 무리했어요.",
       "example_uz": "Kecha o'zimni zo'riqtirib qo'ydim.",
+      "example_en": "I overdid it yesterday.",
       "audio": "8099dc57e2e4.mp3",
       "example_audio": "2a8b1c08502d.mp3"
     },
@@ -301,9 +361,11 @@
       "id": "u07_l1_w030",
       "ko": "꼭",
       "uz": "albatta",
+      "en": "definitely, be sure to",
       "pos": "ravish",
       "example_ko": "꼭 오세요.",
       "example_uz": "Albatta keling.",
+      "example_en": "Be sure to come.",
       "audio": "0a4fcc777cdb.mp3",
       "example_audio": "5c0d5ca6c33b.mp3"
     },
@@ -311,9 +373,11 @@
       "id": "u07_l1_w031",
       "ko": "아직",
       "uz": "hali",
+      "en": "still, yet",
       "pos": "ravish",
       "example_ko": "아직 안 왔어요.",
       "example_uz": "Hali kelmadi.",
+      "example_en": "He hasn't come yet.",
       "audio": "c1627c54baf8.mp3",
       "example_audio": "a867cfdd6c77.mp3"
     },
@@ -321,9 +385,11 @@
       "id": "u07_l1_w032",
       "ko": "풀다",
       "uz": "yechmoq (masala)",
+      "en": "to solve",
       "pos": "fe'l",
       "example_ko": "이 문제를 풀었어요.",
       "example_uz": "Bu masalani yechdim.",
+      "example_en": "I solved this problem.",
       "audio": "34d844bc6dab.mp3",
       "example_audio": "ea457e45ada3.mp3"
     }
@@ -333,25 +399,31 @@
       "id": "u07_l1_g1",
       "pattern": "V-(으)ㄹ 수 있다/없다",
       "meaning_uz": "Qobiliyat va imkoniyat: '...-a olaman / olmayman'",
+      "meaning_en": "Ability and possibility: 'can / can't'",
       "explanation_md": "**-(으)ㄹ 수 있다** — biror ishni **qila olish** (qobiliyat yoki imkoniyat), **-(으)ㄹ 수 없다** — **qila olmaslik**. O'zbekchadagi **\"...-a olaman / -a olmayman\"**.\n\n**내일 모임에 올 수 있어요?** — *Ertangi yig'ilishga kela olasizmi?*\n\n### Qanday yasaladi\n\n- **받침 yo'q** → **-ㄹ 수 있다**: 가다 → **갈 수 있어요**, 오다 → **올 수 있어요**\n- **받침 bor** → **-을 수 있다**: 먹다 → **먹을 수 있어요**, 읽다 → **읽을 수 있어요**\n- **ㄹ bilan tugasa** → **-수 있다** (ㄹ qoladi): 만들다 → **만들 수 있어요**, 풀다 → **풀 수 있어요**\n- **걷다, 듣다** → ㄷ → ㄹ: **걸을 수 있어요**, **들을 수 있어요**\n\n### 못 bilan taqqoslash\n\n4-bo'limdagi **못** bilan ma'nosi o'xshash:\n\n**갈 수 없어요 = 못 가요** — *bora olmayman*\n\n**-(으)ㄹ 수 없다** biroz rasmiyroq eshitiladi; savollarda **-(으)ㄹ 수 있어요?** ko'p ishlatiladi.\n\n### Esda tuting\n\n**수** dan keyin faqat **있다** yoki **없다** keladi: ~~수영할 수 해요~~ ❌",
+      "explanation_md_en": "**-(으)ㄹ 수 있다** means **being able to** do something (ability or possibility); **-(으)ㄹ 수 없다** means **not being able to**. English **\"can / can't\"**.\n\n**내일 모임에 올 수 있어요?** — *Can you come to tomorrow's meeting?*\n\n### How to form it\n\n- **No 받침** → **-ㄹ 수 있다**: 가다 → **갈 수 있어요**, 오다 → **올 수 있어요**\n- **With 받침** → **-을 수 있다**: 먹다 → **먹을 수 있어요**, 읽다 → **읽을 수 있어요**\n- **Ends in ㄹ** → **-수 있다** (the ㄹ stays): 만들다 → **만들 수 있어요**, 풀다 → **풀 수 있어요**\n- **걷다, 듣다** → ㄷ → ㄹ: **걸을 수 있어요**, **들을 수 있어요**\n\n### Compared with 못\n\nThe meaning is close to **못** from Unit 4:\n\n**갈 수 없어요 = 못 가요** — *I can't go*\n\n**-(으)ㄹ 수 없다** sounds a little more formal; in questions **-(으)ㄹ 수 있어요?** is very common.\n\n### Remember\n\nAfter **수** only **있다** or **없다** can follow: ~~수영할 수 해요~~ ❌",
       "formation": [
         {
           "condition_uz": "받침 yo'q",
+          "condition_en": "No 받침",
           "rule": "-ㄹ 수 있다/없다",
           "example": "가다 → 갈 수 있어요"
         },
         {
           "condition_uz": "받침 bor",
+          "condition_en": "With 받침",
           "rule": "-을 수 있다/없다",
           "example": "먹다 → 먹을 수 있어요"
         },
         {
           "condition_uz": "ㄹ bilan tugasa",
+          "condition_en": "Ends in ㄹ",
           "rule": "-수 있다/없다",
           "example": "만들다 → 만들 수 있어요"
         },
         {
           "condition_uz": "걷다, 듣다",
+          "condition_en": "걷다, 듣다",
           "rule": "ㄷ → ㄹ + -을 수",
           "example": "걷다 → 걸을 수 있어요"
         }
@@ -360,26 +432,31 @@
         {
           "ko": "내일 모임에 올 수 있어요?",
           "uz": "Ertangi yig'ilishga kela olasizmi?",
+          "en": "Can you come to tomorrow's meeting?",
           "audio": "21647579b997.mp3"
         },
         {
           "ko": "저는 한국말을 조금 할 수 있어요.",
           "uz": "Men koreyschada ozgina gaplasha olaman.",
+          "en": "I can speak a little Korean.",
           "audio": "c341a8e329bb.mp3"
         },
         {
           "ko": "수영할 수 있어요?",
           "uz": "Suza olasizmi?",
+          "en": "Can you swim?",
           "audio": "42c683df1c65.mp3"
         },
         {
           "ko": "미안해요, 내일은 갈 수 없어요.",
           "uz": "Kechirasiz, ertaga bora olmayman.",
+          "en": "Sorry, I can't go tomorrow.",
           "audio": "11bb10c33106.mp3"
         },
         {
           "ko": "여기에서 사진을 찍을 수 있어요?",
           "uz": "Bu yerda rasmga olsa bo'ladimi (olish mumkinmi)?",
+          "en": "Can I take photos here? (Is it allowed?)",
           "audio": "d79b9836bc5c.mp3"
         }
       ],
@@ -387,34 +464,42 @@
         {
           "wrong": "김치를 먹 수 있어요",
           "right": "김치를 먹을 수 있어요",
-          "why_uz": "받침 bor: -을 수 있어요."
+          "why_uz": "받침 bor: -을 수 있어요.",
+          "why_en": "With 받침: -을 수 있어요."
         },
         {
           "wrong": "케이크를 만들을 수 있어요",
           "right": "케이크를 만들 수 있어요",
-          "why_uz": "ㄹ bilan tugaydigan o'zakka -을 qo'shilmaydi."
+          "why_uz": "ㄹ bilan tugaydigan o'zakka -을 qo'shilmaydi.",
+          "why_en": "A stem ending in ㄹ doesn't take -을."
         },
         {
           "wrong": "저는 수영할 수 해요",
           "right": "저는 수영할 수 있어요",
-          "why_uz": "수 dan keyin 있다 yoki 없다 bo'lishi kerak."
+          "why_uz": "수 dan keyin 있다 yoki 없다 bo'lishi kerak.",
+          "why_en": "After 수 there must be 있다 or 없다."
         }
       ],
-      "uz_compare": "O'zbekchadagi '-a olaman / -a olmayman' bilan bir xil: 'kela olasizmi?' = 올 수 있어요?, 'bora olmayman' = 갈 수 없어요."
+      "uz_compare": "O'zbekchadagi '-a olaman / -a olmayman' bilan bir xil: 'kela olasizmi?' = 올 수 있어요?, 'bora olmayman' = 갈 수 없어요.",
+      "compare_en": "Works like English 'can / can't': 'Can you come?' = 올 수 있어요?, 'I can't go' = 갈 수 없어요. In English 'can' is a separate word before the verb; in Korean the pattern comes after the verb stem."
     },
     {
       "id": "u07_l1_g2",
       "pattern": "V-지 마세요",
       "meaning_uz": "Inkor buyruq: '...-mang'",
+      "meaning_en": "Negative request: 'Don't…'",
       "explanation_md": "**-지 마세요** — biror ishni **qilmaslikni** so'rash yoki maslahat berish: o'zbekchadagi **\"...-mang\"**.\n\n**걱정하지 마세요.** — *Xavotir olmang.*\n\n### Qanday yasaladi\n\nO'zakka **-지 마세요** qo'shiladi, 받침ga qarab o'zgarmaydi:\n\n- 늦다 → **늦지 마세요**\n- 가다 → **가지 마세요**\n- 걱정하다 → **걱정하지 마세요**\n- 떠들다 → **떠들지 마세요**\n\n### Qachon ishlatiladi\n\n- Maslahat: **무리하지 마세요** — *o'zingizni zo'riqtirmang*\n- Taqiq (belgilar, qoidalar): 여기에서 담배를 **피우지 마세요**\n- Do'stona dalda: **걱정 마세요!** (qisqa shakl)\n\n### Tasdiq bilan juftlik\n\n| Qiling | Qilmang |\n|---|---|\n| 가**세요** | 가**지 마세요** |\n| 드**세요** | 드시**지 마세요** |\n\n### Diqqat\n\n**안 + -(으)세요** bilan inkor buyruq yasalmaydi: ~~안 걱정하세요~~ ❌ → **걱정하지 마세요** ✅",
+      "explanation_md_en": "**-지 마세요** asks someone **not to do** something, or advises against it: English **\"Don't…\"**.\n\n**걱정하지 마세요.** — *Don't worry.*\n\n### How to form it\n\nAdd **-지 마세요** to the stem; it doesn't change with 받침:\n\n- 늦다 → **늦지 마세요**\n- 가다 → **가지 마세요**\n- 걱정하다 → **걱정하지 마세요**\n- 떠들다 → **떠들지 마세요**\n\n### When to use it\n\n- Advice: **무리하지 마세요** — *don't overdo it*\n- Rules and signs: 여기에서 담배를 **피우지 마세요**\n- Friendly reassurance: **걱정 마세요!** (short form)\n\n### Do / don't pairs\n\n| Do | Don't |\n|---|---|\n| 가**세요** | 가**지 마세요** |\n| 드**세요** | 드시**지 마세요** |\n\n### Watch out\n\nYou can't make a negative request with **안 + -(으)세요**: ~~안 걱정하세요~~ ❌ → **걱정하지 마세요** ✅",
       "formation": [
         {
           "condition_uz": "Har qanday fe'l",
+          "condition_en": "Any verb",
           "rule": "-지 마세요",
           "example": "늦다 → 늦지 마세요, 가다 → 가지 마세요"
         },
         {
           "condition_uz": "N하다",
+          "condition_en": "N하다",
           "rule": "N하지 마세요 / N 마세요",
           "example": "걱정하지 마세요 / 걱정 마세요"
         }
@@ -423,26 +508,31 @@
         {
           "ko": "걱정하지 마세요.",
           "uz": "Xavotir olmang.",
+          "en": "Don't worry.",
           "audio": "4fdb1abd47e7.mp3"
         },
         {
           "ko": "여기에서 담배를 피우지 마세요.",
           "uz": "Bu yerda chekmang.",
+          "en": "Don't smoke here.",
           "audio": "c843d3adecc5.mp3"
         },
         {
           "ko": "늦지 마세요.",
           "uz": "Kechikmang.",
+          "en": "Don't be late.",
           "audio": "e29396f78503.mp3"
         },
         {
           "ko": "수업 시간에 떠들지 마세요.",
           "uz": "Dars paytida shovqin qilmang.",
+          "en": "Don't make noise during class.",
           "audio": "92a4a616305c.mp3"
         },
         {
           "ko": "아프면 무리하지 마세요.",
           "uz": "Kasal bo'lsangiz, o'zingizni zo'riqtirmang.",
+          "en": "If you're sick, don't overdo it.",
           "audio": "dd0a4d2ad577.mp3"
         }
       ],
@@ -450,20 +540,24 @@
         {
           "wrong": "늦 마세요",
           "right": "늦지 마세요",
-          "why_uz": "O'zakdan keyin -지 kerak."
+          "why_uz": "O'zakdan keyin -지 kerak.",
+          "why_en": "You need -지 after the stem."
         },
         {
           "wrong": "안 걱정하세요",
           "right": "걱정하지 마세요",
-          "why_uz": "Inkor buyruq faqat -지 마세요 bilan."
+          "why_uz": "Inkor buyruq faqat -지 마세요 bilan.",
+          "why_en": "A negative request is made only with -지 마세요."
         },
         {
           "wrong": "가 마세요",
           "right": "가지 마세요",
-          "why_uz": "-지 tushib qolgan."
+          "why_uz": "-지 tushib qolgan.",
+          "why_en": "The -지 is missing."
         }
       ],
-      "uz_compare": "O'zbekchada inkor buyruq '-ma' bilan yasaladi: borMAng, kechikMAng. Koreyschada: 가지 마세요, 늦지 마세요. 마세요 aslida 'qilmang' degan alohida fe'l (말다)."
+      "uz_compare": "O'zbekchada inkor buyruq '-ma' bilan yasaladi: borMAng, kechikMAng. Koreyschada: 가지 마세요, 늦지 마세요. 마세요 aslida 'qilmang' degan alohida fe'l (말다).",
+      "compare_en": "English puts 'don't' in front: DON'T go, DON'T be late. Korean adds -지 마세요 after the stem: 가지 마세요, 늦지 마세요. 마세요 actually comes from its own verb 말다, 'to stop / not do'."
     }
   ],
   "dialogue": {
@@ -472,66 +566,77 @@
         "speaker": "minji",
         "ko": "아지즈 씨, 내일 저녁에 반 모임이 있어요. 올 수 있어요?",
         "uz": "Aziz, ertaga kechqurun guruh yig'ilishi bor. Kela olasizmi?",
+        "en": "Aziz, there's a group meeting tomorrow evening. Can you come?",
         "audio": "9b7567536a5d.mp3"
       },
       {
         "speaker": "aziz",
         "ko": "미안해요, 내일은 갈 수 없어요.",
         "uz": "Kechirasiz, ertaga bora olmayman.",
+        "en": "Sorry, I can't go tomorrow.",
         "audio": "f22276d19a7b.mp3"
       },
       {
         "speaker": "minji",
         "ko": "왜요? 무슨 일 있어요?",
         "uz": "Nega? Biror gap bo'ldimi?",
+        "en": "Why? Did something happen?",
         "audio": "d8bf0911a1e5.mp3"
       },
       {
         "speaker": "aziz",
         "ko": "어제 축구를 했어요. 그런데 다리가 많이 아파요.",
         "uz": "Kecha futbol o'ynadim. Lekin oyog'im qattiq og'riyapti.",
+        "en": "I played football yesterday. But my leg really hurts.",
         "audio": "5943e1398bb9.mp3"
       },
       {
         "speaker": "minji",
         "ko": "정말요? 병원에 갔어요?",
         "uz": "Rostdanmi? Kasalxonaga bordingizmi?",
+        "en": "Really? Did you go to the hospital?",
         "audio": "a840ead539da.mp3"
       },
       {
         "speaker": "aziz",
         "ko": "아니요, 아직 안 갔어요. 걸을 수 있지만 많이 걸을 수 없어요.",
         "uz": "Yo'q, hali bormadim. Yura olaman, lekin ko'p yura olmayman.",
+        "en": "No, not yet. I can walk, but I can't walk much.",
         "audio": "554b4729185e.mp3"
       },
       {
         "speaker": "minji",
         "ko": "그럼 오늘 꼭 병원에 가세요. 무리하지 마세요.",
         "uz": "Unda bugun albatta kasalxonaga boring. O'zingizni zo'riqtirmang.",
+        "en": "Then be sure to go to the hospital today. Don't overdo it.",
         "audio": "39a64fc6d17e.mp3"
       },
       {
         "speaker": "aziz",
         "ko": "네, 알겠어요. 모임은 몇 시까지예요?",
         "uz": "Xo'p, tushundim. Yig'ilish soat nechagacha?",
+        "en": "OK, I understand. Until what time is the meeting?",
         "audio": "0f45ca288697.mp3"
       },
       {
         "speaker": "minji",
         "ko": "일곱 시부터 아홉 시까지예요.",
         "uz": "Soat yettidan to'qqizgacha.",
+        "en": "From seven to nine.",
         "audio": "aed10d92bc50.mp3"
       },
       {
         "speaker": "aziz",
         "ko": "다리가 괜찮으면 여덟 시에 갈 수 있어요.",
         "uz": "Oyog'im yaxshi bo'lsa, sakkizda bora olaman.",
+        "en": "If my leg is better, I can come at eight.",
         "audio": "8eed678a9427.mp3"
       },
       {
         "speaker": "minji",
         "ko": "좋아요. 걱정하지 마세요. 천천히 오세요.",
         "uz": "Yaxshi. Xavotir olmang. Shoshilmay keling.",
+        "en": "Good. Don't worry. Take your time.",
         "audio": "35f3fc7ead63.mp3"
       }
     ]
@@ -544,6 +649,7 @@
         "u07_l1_g1"
       ],
       "prompt_uz": "'Bora olaman' shaklini yasang",
+      "prompt_en": "Make the form 'I can go'",
       "base": "가다",
       "form": "-(으)ㄹ 수 있어요",
       "answers": [
@@ -557,6 +663,7 @@
         "u07_l1_g1"
       ],
       "prompt_uz": "'Yeya olaman' shaklini yasang",
+      "prompt_en": "Make the form 'I can eat'",
       "base": "먹다",
       "form": "-(으)ㄹ 수 있어요",
       "answers": [
@@ -570,12 +677,14 @@
         "u07_l1_g1"
       ],
       "prompt_uz": "'Yasay olmayman' shaklini yasang",
+      "prompt_en": "Make the form 'I can't make'",
       "base": "만들다",
       "form": "-(으)ㄹ 수 없어요",
       "answers": [
         "만들 수 없어요"
       ],
-      "hint_uz": "ㄹ bilan tugaydi"
+      "hint_uz": "ㄹ bilan tugaydi",
+      "hint_en": "Ends in ㄹ"
     },
     {
       "id": "u07_l1_e004",
@@ -584,6 +693,7 @@
         "u07_l1_g2"
       ],
       "prompt_uz": "'Kechikmang' shaklini yasang",
+      "prompt_en": "Make the form 'don't be late'",
       "base": "늦다",
       "form": "-지 마세요",
       "answers": [
@@ -597,6 +707,7 @@
         "u07_l1_g2"
       ],
       "prompt_uz": "'Xavotir olmang' shaklini yasang",
+      "prompt_en": "Make the form 'don't worry'",
       "base": "걱정하다",
       "form": "-지 마세요",
       "answers": [
@@ -610,6 +721,7 @@
         "u07_l1_g2"
       ],
       "prompt_uz": "'Shovqin qilmang' shaklini yasang",
+      "prompt_en": "Make the form 'don't make noise'",
       "base": "떠들다",
       "form": "-지 마세요",
       "answers": [
@@ -623,6 +735,7 @@
         "u07_l1_g1"
       ],
       "prompt_uz": "Bo'sh joyni to'ldiring: 'Ertangi yig'ilishga kela olasizmi?'",
+      "prompt_en": "Fill in the blank: 'Can you come to tomorrow's meeting?'",
       "sentence": "내일 모임에 ___? (오다)",
       "answers": [
         "올 수 있어요"
@@ -635,6 +748,7 @@
         "u07_l1_g1"
       ],
       "prompt_uz": "Bo'sh joyni to'ldiring: 'Men koreyschada ozgina gaplasha olaman.'",
+      "prompt_en": "Fill in the blank: 'I can speak a little Korean.'",
       "sentence": "저는 한국말을 조금 ___. (하다)",
       "answers": [
         "할 수 있어요"
@@ -647,6 +761,7 @@
         "u07_l1_g2"
       ],
       "prompt_uz": "Bo'sh joyni to'ldiring: 'Bu yerda chekmang.'",
+      "prompt_en": "Fill in the blank: 'Don't smoke here.'",
       "sentence": "여기에서 담배를 ___. (피우다)",
       "answers": [
         "피우지 마세요"
@@ -659,6 +774,7 @@
         "u07_l1_g2"
       ],
       "prompt_uz": "Bo'sh joyni to'ldiring: 'Kutubxonada telefonda gaplashmang.'",
+      "prompt_en": "Fill in the blank: 'Don't talk on the phone in the library.'",
       "sentence": "도서관에서 ___. (전화하다)",
       "answers": [
         "전화하지 마세요"
@@ -671,6 +787,7 @@
         "u07_l1_g1"
       ],
       "prompt_uz": "'Suza olasizmi?' qaysi biri?",
+      "prompt_en": "Which one means 'Can you swim?'",
       "options": [
         "수영할 수 있어요?",
         "수영했어요?",
@@ -688,6 +805,7 @@
         "u07_l1_g2"
       ],
       "prompt_uz": "Do'stingizga 'Xavotir olmang' deysiz:",
+      "prompt_en": "You tell your friend 'Don't worry':",
       "options": [
         "걱정하지 마세요",
         "걱정하세요",
@@ -705,6 +823,7 @@
         "u07_l1_w002"
       ],
       "prompt_uz": "Sochlar o'sadigan tana a'zosi qaysi?",
+      "prompt_en": "Which part of the body does hair grow on?",
       "options": [
         "머리",
         "다리",
@@ -722,6 +841,7 @@
         "u07_l1_g1"
       ],
       "prompt_uz": "'Men koreyschada gaplasha olaman' gapini tuzing",
+      "prompt_en": "Build the sentence 'I can speak Korean'",
       "tokens": [
         "할",
         "있어요",
@@ -740,6 +860,7 @@
         "u07_l1_g2"
       ],
       "prompt_uz": "'Bu yerda rasmga olmang' gapini tuzing",
+      "prompt_en": "Build the sentence 'Don't take photos here'",
       "tokens": [
         "마세요",
         "사진을",
@@ -757,11 +878,13 @@
         "u07_l1_g1"
       ],
       "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
       "sentence": "김치를 먹 수 있어요.",
       "answers": [
         "김치를 먹을 수 있어요"
       ],
-      "why_uz": "받침 bor: -을 수."
+      "why_uz": "받침 bor: -을 수.",
+      "why_en": "With 받침: -을 수."
     },
     {
       "id": "u07_l1_e017",
@@ -770,11 +893,13 @@
         "u07_l1_g2"
       ],
       "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
       "sentence": "늦 마세요.",
       "answers": [
         "늦지 마세요"
       ],
-      "why_uz": "-지 kerak."
+      "why_uz": "-지 kerak.",
+      "why_en": "You need -지."
     },
     {
       "id": "u07_l1_e018",
@@ -783,11 +908,13 @@
         "u07_l1_g1"
       ],
       "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
       "sentence": "케이크를 만들을 수 있어요.",
       "answers": [
         "케이크를 만들 수 있어요"
       ],
-      "why_uz": "만들다 → 만들 수."
+      "why_uz": "만들다 → 만들 수.",
+      "why_en": "만들다 → 만들 수."
     },
     {
       "id": "u07_l1_e019",
@@ -796,7 +923,9 @@
         "u07_l1_g1"
       ],
       "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
       "source_uz": "Ertaga kela olasizmi?",
+      "source_en": "Can you come tomorrow?",
       "answers": [
         "내일 올 수 있어요",
         "내일 오실 수 있어요"
@@ -809,7 +938,9 @@
         "u07_l1_g2"
       ],
       "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
       "source_uz": "Xavotir olmang.",
+      "source_en": "Don't worry.",
       "answers": [
         "걱정하지 마세요",
         "걱정 마세요"
@@ -822,7 +953,9 @@
         "u07_l1_g1"
       ],
       "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
       "source_uz": "Men mashina hayday olmayman.",
+      "source_en": "I can't drive.",
       "answers": [
         "저는 운전할 수 없어요",
         "운전할 수 없어요",
@@ -838,12 +971,19 @@
         "u07_l1_g1"
       ],
       "prompt_uz": "Gapiruvchi nima demoqda?",
+      "prompt_en": "What is the speaker saying?",
       "audio_text": "미안해요, 오늘은 만날 수 없어요.",
       "options": [
         "Bugun uchrasha olmaydi",
         "Bugun uchrashmoqchi",
         "Ertaga uchrashadi",
         "Uchrashuvni yoqtiradi"
+      ],
+      "options_en": [
+        "She can't meet today",
+        "She wants to meet today",
+        "She'll meet tomorrow",
+        "She likes meetings"
       ],
       "answers": [
         "Bugun uchrasha olmaydi"
@@ -857,12 +997,19 @@
         "u07_l1_g2"
       ],
       "prompt_uz": "Kutubxonada nima qilish mumkin emas?",
+      "prompt_en": "What can't you do in the library?",
       "audio_text": "도서관에서는 음식을 먹지 마세요.",
       "options": [
         "Ovqat yeyish",
         "Kitob o'qish",
         "O'tirish",
         "Yozish"
+      ],
+      "options_en": [
+        "Eat",
+        "Read books",
+        "Sit",
+        "Write"
       ],
       "answers": [
         "Ovqat yeyish"
@@ -876,12 +1023,19 @@
         "u07_l1_g1"
       ],
       "prompt_uz": "U nima qila oladi?",
+      "prompt_en": "What can he do?",
       "audio_text": "저는 피아노를 칠 수 있어요.",
       "options": [
         "Pianino chala oladi",
         "Gitara chala oladi",
         "Qo'shiq ayta oladi",
         "Suza oladi"
+      ],
+      "options_en": [
+        "He can play the piano",
+        "He can play the guitar",
+        "He can sing",
+        "He can swim"
       ],
       "answers": [
         "Pianino chala oladi"
@@ -895,12 +1049,14 @@
         "u07_l1_g1"
       ],
       "prompt_uz": "'Yura olaman' shaklini yasang",
+      "prompt_en": "Make the form 'I can walk'",
       "base": "걷다",
       "form": "-(으)ㄹ 수 있어요",
       "answers": [
         "걸을 수 있어요"
       ],
-      "hint_uz": "ㄷ → ㄹ"
+      "hint_uz": "ㄷ → ㄹ",
+      "hint_en": "ㄷ → ㄹ"
     },
     {
       "id": "u07_l1_e102",
@@ -909,6 +1065,7 @@
         "u07_l1_g1"
       ],
       "prompt_uz": "'O'qiy olmayman' shaklini yasang",
+      "prompt_en": "Make the form 'I can't read'",
       "base": "읽다",
       "form": "-(으)ㄹ 수 없어요",
       "answers": [
@@ -922,6 +1079,7 @@
         "u07_l1_g2"
       ],
       "prompt_uz": "'Bormang' shaklini yasang",
+      "prompt_en": "Make the form 'don't go'",
       "base": "가다",
       "form": "-지 마세요",
       "answers": [
@@ -935,11 +1093,13 @@
         "u07_l1_g1"
       ],
       "prompt_uz": "Bo'sh joyni to'ldiring: 'Bu masalani yecha olasizmi?'",
+      "prompt_en": "Fill in the blank: 'Can you solve this problem?'",
       "sentence": "이 문제를 ___? (풀다)",
       "answers": [
         "풀 수 있어요"
       ],
-      "hint_uz": "ㄹ bilan tugaydi"
+      "hint_uz": "ㄹ bilan tugaydi",
+      "hint_en": "Ends in ㄹ"
     },
     {
       "id": "u07_l1_e105",
@@ -948,6 +1108,7 @@
         "u07_l1_g2"
       ],
       "prompt_uz": "Bo'sh joyni to'ldiring: 'Kechasi qahva ichmang.'",
+      "prompt_en": "Fill in the blank: 'Don't drink coffee at night.'",
       "sentence": "밤에 커피를 ___. (마시다)",
       "answers": [
         "마시지 마세요"
@@ -960,6 +1121,7 @@
         "u07_l1_g1"
       ],
       "prompt_uz": "Bo'sh joyni to'ldiring: 'Oyog'im og'riyapti, yura olmayman.'",
+      "prompt_en": "Fill in the blank: 'My leg hurts, I can't walk.'",
       "sentence": "다리가 아파요. ___. (걷다)",
       "answers": [
         "걸을 수 없어요"
@@ -972,6 +1134,7 @@
         "u07_l1_g1"
       ],
       "prompt_uz": "'Bugun bora olmayman' qaysi biri?",
+      "prompt_en": "Which one means 'I can't go today'?",
       "options": [
         "오늘은 갈 수 없어요",
         "오늘은 갈 수 있어요",
@@ -989,6 +1152,7 @@
         "u07_l1_w017"
       ],
       "prompt_uz": "Guruhdoshlar yig'ilib o'tkazadigan uchrashuv qaysi?",
+      "prompt_en": "What do you call a gathering of classmates?",
       "options": [
         "모임",
         "병원",
@@ -1006,6 +1170,7 @@
         "u07_l1_g2"
       ],
       "prompt_uz": "'Xavotir olmang' gapini tuzing",
+      "prompt_en": "Build the sentence 'Don't worry'",
       "tokens": [
         "마세요",
         "걱정하지"
@@ -1021,6 +1186,7 @@
         "u07_l1_g1"
       ],
       "prompt_uz": "'Bu yerda rasmga olish mumkin' gapini tuzing",
+      "prompt_en": "Build the sentence 'You can take photos here'",
       "tokens": [
         "찍을",
         "여기에서",
@@ -1039,11 +1205,13 @@
         "u07_l1_g2"
       ],
       "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
       "sentence": "수업 시간에 자 마세요.",
       "answers": [
         "수업 시간에 자지 마세요"
       ],
-      "why_uz": "-지 tushib qolgan."
+      "why_uz": "-지 tushib qolgan.",
+      "why_en": "The -지 is missing."
     },
     {
       "id": "u07_l1_e112",
@@ -1052,11 +1220,13 @@
         "u07_l1_g1"
       ],
       "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
       "sentence": "저는 수영할 수 해요.",
       "answers": [
         "저는 수영할 수 있어요"
       ],
-      "why_uz": "수 dan keyin 있다/없다."
+      "why_uz": "수 dan keyin 있다/없다.",
+      "why_en": "After 수 comes 있다/없다."
     },
     {
       "id": "u07_l1_e113",
@@ -1065,7 +1235,9 @@
         "u07_l1_g2"
       ],
       "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
       "source_uz": "Kechikmang.",
+      "source_en": "Don't be late.",
       "answers": [
         "늦지 마세요"
       ]
@@ -1077,7 +1249,9 @@
         "u07_l1_g1"
       ],
       "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
       "source_uz": "Men koreyschada gaplasha olaman.",
+      "source_en": "I can speak Korean.",
       "answers": [
         "저는 한국말을 할 수 있어요",
         "저는 한국어를 할 수 있어요",
@@ -1092,12 +1266,19 @@
         "u07_l1_g2"
       ],
       "prompt_uz": "Kasal odamga qanday maslahat berilmoqda?",
+      "prompt_en": "What advice is given to the sick person?",
       "audio_text": "아픈 사람은 무리하지 마세요.",
       "options": [
         "O'zini zo'riqtirmaslik",
         "Ko'p sport qilish",
         "Ishga borish",
         "Sovuq suv ichish"
+      ],
+      "options_en": [
+        "Not to overdo it",
+        "To exercise a lot",
+        "To go to work",
+        "To drink cold water"
       ],
       "answers": [
         "O'zini zo'riqtirmaslik"
@@ -1124,12 +1305,14 @@
   ],
   "story": {
     "title_uz": "Palov bazmi",
+    "title_en": "The plov party",
     "steps": [
       {
         "type": "line",
         "speaker": "aziz",
         "ko": "민지 씨, 토요일에 우리 집에서 파티를 해요. 올 수 있어요?",
         "uz": "Minji, shanba kuni uyimizda bazm bor. Kela olasizmi?",
+        "en": "Minji, there's a party at our place on Saturday. Can you come?",
         "audio": "611c7c634978.mp3"
       },
       {
@@ -1137,6 +1320,7 @@
         "speaker": "minji",
         "ko": "와, 무슨 파티예요?",
         "uz": "Voy, qanaqa bazm?",
+        "en": "Oh, what kind of party?",
         "audio": "19f7b41fea17.mp3"
       },
       {
@@ -1144,6 +1328,7 @@
         "speaker": "aziz",
         "ko": "제가 우즈베키스탄 음식 플로프를 만들 거예요.",
         "uz": "Men o'zbek taomi palov tayyorlayman.",
+        "en": "I'm making plov, an Uzbek dish.",
         "audio": "021906f2b60f.mp3"
       },
       {
@@ -1151,30 +1336,40 @@
         "speaker": "minji",
         "ko": "좋아요! 그런데 토요일 오후에는 약속이 있어요. 저녁에 갈 수 있어요.",
         "uz": "Zo'r! Lekin shanba tushdan keyin uchrashuvim bor. Kechqurun bora olaman.",
+        "en": "Great! But I have plans on Saturday afternoon. I can come in the evening.",
         "audio": "c013523fa200.mp3"
       },
       {
         "type": "quiz",
         "prompt_uz": "Minji qachon kela oladi?",
+        "prompt_en": "When can Minji come?",
         "options": [
           "Shanba kechqurun",
           "Shanba ertalab",
           "Yakshanba"
         ],
+        "options_en": [
+          "Saturday evening",
+          "Saturday morning",
+          "Sunday"
+        ],
         "answer": "Shanba kechqurun",
-        "why_uz": "저녁에 갈 수 있어요."
+        "why_uz": "저녁에 갈 수 있어요.",
+        "why_en": "저녁에 갈 수 있어요 — she can come in the evening."
       },
       {
         "type": "line",
         "speaker": "minji",
         "ko": "저도 과일을 사 가요.",
         "uz": "Men meva olib boraman.",
+        "en": "I'll bring some fruit.",
         "audio": "226958a83152.mp3"
       },
       {
         "type": "choose_reply",
         "speaker": "aziz",
         "prompt_uz": "Aziz 'Hech narsa olib kelmang' demoqchi.",
+        "prompt_en": "Aziz wants to say 'Don't bring anything'.",
         "options": [
           "아무것도 사 오지 마세요.",
           "아무것도 사 오 마세요.",
@@ -1182,7 +1377,9 @@
         ],
         "answer": "아무것도 사 오지 마세요.",
         "uz": "Hech narsa olib kelmang.",
+        "en": "Don't bring anything.",
         "why_uz": "Inkor buyruq: 오 + 지 마세요.",
+        "why_en": "Negative request: 오 + 지 마세요.",
         "audio": "150a7205201a.mp3"
       },
       {
@@ -1190,6 +1387,7 @@
         "speaker": "aziz",
         "ko": "그냥 오세요. 음식이 많아요.",
         "uz": "Shunchaki keling. Ovqat ko'p.",
+        "en": "Just come. There's plenty of food.",
         "audio": "fa416a9b5830.mp3"
       },
       {
@@ -1197,6 +1395,7 @@
         "speaker": "minji",
         "ko": "플로프는 매워요? 저는 매운 음식을 못 먹어요.",
         "uz": "Palov achchiqmi? Men achchiq ovqat yeya olmayman.",
+        "en": "Is plov spicy? I can't eat spicy food.",
         "audio": "4eee69578a5a.mp3"
       },
       {
@@ -1204,6 +1403,7 @@
         "speaker": "aziz",
         "ko": "맵지 않아요. 민지 씨도 먹을 수 있어요.",
         "uz": "Achchiq emas. Siz ham yeya olasiz.",
+        "en": "It's not spicy. You can eat it too.",
         "audio": "03eab63dbfda.mp3"
       },
       {
@@ -1211,6 +1411,7 @@
         "speaker": "minji",
         "ko": "다행이에요. 다른 친구들도 초대했어요?",
         "uz": "Yaxshiyamki. Boshqa do'stlarni ham taklif qildingizmi?",
+        "en": "That's a relief. Did you invite other friends too?",
         "audio": "34312d8a4642.mp3"
       },
       {
@@ -1218,6 +1419,7 @@
         "speaker": "aziz",
         "ko": "네, 반 친구들도 와요. 그런데 늦지 마세요! 일곱 시에 시작해요.",
         "uz": "Ha, guruhdoshlar ham keladi. Lekin kechikmang! Soat yettida boshlanadi.",
+        "en": "Yes, my classmates are coming too. But don't be late! It starts at seven.",
         "audio": "ecd2ab14991e.mp3"
       },
       {
@@ -1225,6 +1427,7 @@
         "speaker": "minji",
         "ko": "알겠어요. 일곱 시까지 꼭 갈 거예요!",
         "uz": "Xo'p. Soat yettigacha albatta boraman!",
+        "en": "OK. I'll definitely be there by seven!",
         "audio": "3f648cbf7f01.mp3"
       }
     ]

@@ -37,6 +37,7 @@ import androidx.compose.ui.unit.dp
 import com.mikepenz.markdown.m3.Markdown
 import uz.hangulfriend.R
 import uz.hangulfriend.ai.TutorPrompts
+import uz.hangulfriend.ui.currentLanguage
 import uz.hangulfriend.content.Character
 import uz.hangulfriend.content.Grammar
 import uz.hangulfriend.content.Lesson
@@ -137,7 +138,7 @@ fun GrammarStage(lesson: Lesson, vm: LessonViewModel, onFinished: () -> Unit) {
                 Text(stringResource(R.string.ai_explain_grammar))
             }
             if (open) {
-                TutorSheet(TutorPrompts.grammarContext(g, lesson), stringResource(R.string.ai_explain_grammar_question)) {
+                TutorSheet(TutorPrompts.grammarContext(g, lesson, currentLanguage()), stringResource(R.string.ai_explain_grammar_question)) {
                     open = false
                 }
             }

@@ -25,6 +25,7 @@ import uz.hangulfriend.BuildConfig
 import uz.hangulfriend.R
 import uz.hangulfriend.data.FlagRepository
 import uz.hangulfriend.data.exportText
+import uz.hangulfriend.ui.currentLanguage
 import uz.hangulfriend.ui.exercise.reasonLabel
 
 /** "Xato belgilari": how many reports are stored, share them as text, or clear them. */
@@ -36,6 +37,7 @@ fun FlagsRow(flags: FlagRepository) {
     val context = LocalContext.current
     val subject = stringResource(R.string.flags_subject, count)
     val chooser = stringResource(R.string.flags_send)
+    val lang = currentLanguage()
     Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
         Text(stringResource(R.string.flags_title, count), style = MaterialTheme.typography.titleMedium)
         Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
@@ -43,7 +45,7 @@ fun FlagsRow(flags: FlagRepository) {
                 enabled = count > 0,
                 onClick = {
                     scope.launch {
-                        val text = exportText(flags.all(), BuildConfig.VERSION_NAME, LocalDate.now()) { context.getString(reasonLabel(it)) }
+                        val text = exportText(flags.all(), BuildConfig.VERSION_NAME, LocalDate.now(), lang) { context.getString(reasonLabel(it)) }
                         val send = Intent(Intent.ACTION_SEND).apply {
                             type = "text/plain"
                             putExtra(Intent.EXTRA_SUBJECT, subject)

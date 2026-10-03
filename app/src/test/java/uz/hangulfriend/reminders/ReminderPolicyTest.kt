@@ -15,23 +15,11 @@ class ReminderPolicyTest {
 
     @Test fun noMessageWhenGoalMet() = assertNull(ReminderPolicy.message(todayXp = 60, goal = 50, dueCount = 10, streak = 3))
 
-    @Test fun messageWithDueAndStreak() = assertEquals(
-        "Bugun 23 ta karta kutyapti. Streak: 12 kun 🔥",
-        ReminderPolicy.message(todayXp = 0, goal = 50, dueCount = 23, streak = 12),
-    )
+    @Test fun messageWithDue() =
+        assertEquals(Reminder.Due(23, 12), ReminderPolicy.message(todayXp = 0, goal = 50, dueCount = 23, streak = 12))
 
-    @Test fun messageWithDueNoStreak() =
-        assertEquals("Bugun 23 ta karta kutyapti.", ReminderPolicy.message(todayXp = 0, goal = 50, dueCount = 23, streak = 0))
-
-    @Test fun messageWithoutDue() = assertEquals(
-        "Bugungi maqsadga hali yetmadingiz. 5 daqiqa mashq qilamizmi?",
-        ReminderPolicy.message(todayXp = 10, goal = 50, dueCount = 0, streak = 0),
-    )
-
-    @Test fun messageWithoutDueKeepsStreak() = assertEquals(
-        "Bugungi maqsadga hali yetmadingiz. 5 daqiqa mashq qilamizmi? Streak: 4 kun 🔥",
-        ReminderPolicy.message(todayXp = 10, goal = 50, dueCount = 0, streak = 4),
-    )
+    @Test fun messageWithoutDue() =
+        assertEquals(Reminder.Goal(4), ReminderPolicy.message(todayXp = 10, goal = 50, dueCount = 0, streak = 4))
 
     @Test fun delayLaterToday() = assertEquals(Duration.ofMinutes(90), ReminderPolicy.delayUntilNext(at("18:30"), 1200))
 

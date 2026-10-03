@@ -6,11 +6,13 @@ import kotlinx.serialization.Serializable
 import uz.hangulfriend.content.Exercise
 import uz.hangulfriend.content.Grammar
 import uz.hangulfriend.content.Lesson
+import uz.hangulfriend.i18n.AppLanguage
 
 @Serializable
 data class TranslationVerdict(
     val correct: Boolean,
     @SerialName("corrected_ko") val correctedKo: String,
+    /** In the learner's language; the key name predates English. */
     @SerialName("explanation_uz") val explanationUz: String,
 )
 
@@ -29,37 +31,68 @@ object TutorPrompts {
             "Har bir koreyscha misoldan keyin qavs ichida o'zbekcha tarjimasini ber. Kerak bo'lsa o'zbek " +
             "grammatikasi bilan taqqosla. \"사랑해요 한국어 2\" darsligi darajasidan murakkab grammatika ishlatma."
 
-    fun grammarContext(g: Grammar, lesson: Lesson): String = buildString {
-        appendLine(ROLE)
+    const val ROLE_EN =
+        "You are a patient Korean teacher for an English-speaking learner at TOPIK I (level 2). " +
+            "Answer only in English. Keep it short and simple. After every Korean example give its English " +
+            "translation in brackets. Compare with English grammar when it helps. Do not use grammar beyond " +
+            "the level of the \"사랑해요 한국어 2\" textbook."
+
+    fun role(lang: AppLanguage): String = if (lang == AppLanguage.EN) ROLE_EN else ROLE
+
+    /** [lesson] is already localized, so its translations are in [lang]. */
+    fun grammarContext(g: Grammar, lesson: Lesson, lang: AppLanguage = AppLanguage.UZ): String = buildString {
+        val en = lang == AppLanguage.EN
+        appendLine(role(lang))
         appendLine()
-        appendLine("Hozirgi dars: ${lesson.titleKo} (${lesson.titleUz}).")
-        appendLine("Grammatika: ${g.pattern} — ${g.meaningUz}")
+        appendLine((if (en) "Current lesson: " else "Hozirgi dars: ") + "${lesson.titleKo} (${lesson.titleUz}).")
+        appendLine((if (en) "Grammar: " else "Grammatika: ") + "${g.pattern} — ${g.meaningUz}")
         g.formation.forEach { appendLine("- ${it.conditionUz}: ${it.rule} (${it.example})") }
-        appendLine("Misollar:")
+        appendLine(if (en) "Examples:" else "Misollar:")
         g.examples.forEach { appendLine("- ${it.ko} (${it.uz})") }
-        appendLine("Dars so'zlari:")
+        appendLine(if (en) "Lesson words:" else "Dars so'zlari:")
         lesson.words.forEach { appendLine("- ${it.ko} — ${it.uz}") }
     }
 
-    fun mistakeQuestion(e: Exercise, userAnswer: String): String = buildString {
-        appendLine("Men mashqda xato qildim. Nega xato ekanini tushuntirib bering.")
-        appendLine("Topshiriq: ${e.promptUz}")
-        e.sourceUz?.let { appendLine("O'zbekcha gap: $it") }
-        e.sentence?.let { appendLine("Gap: $it") }
-        if (e.base != null && e.form != null) appendLine("So'z va shakl: ${e.base} + ${e.form}")
-        appendLine("Mening javobim: $userAnswer")
-        appendLine("To'g'ri javob: ${e.answers.first()}")
+    fun mistakeQuestion(e: Exercise, userAnswer: String, lang: AppLanguage = AppLanguage.UZ): String = buildString {
+        if (lang == AppLanguage.EN) {
+            appendLine("I made a mistake in an exercise. Please explain why it is wrong.")
+            appendLine("Task: ${e.promptUz}")
+            e.sourceUz?.let { appendLine("English sentence: $it") }
+            e.sentence?.let { appendLine("Sentence: $it") }
+            if (e.base != null && e.form != null) appendLine("Word and form: ${e.base} + ${e.form}")
+            appendLine("My answer: $userAnswer")
+            appendLine("Correct answer: ${e.answers.first()}")
+        } else {
+            appendLine("Men mashqda xato qildim. Nega xato ekanini tushuntirib bering.")
+            appendLine("Topshiriq: ${e.promptUz}")
+            e.sourceUz?.let { appendLine("O'zbekcha gap: $it") }
+            e.sentence?.let { appendLine("Gap: $it") }
+            if (e.base != null && e.form != null) appendLine("So'z va shakl: ${e.base} + ${e.form}")
+            appendLine("Mening javobim: $userAnswer")
+            appendLine("To'g'ri javob: ${e.answers.first()}")
+        }
     }
 
-    fun translationCheck(e: Exercise, userAnswer: String): String = buildString {
-        appendLine("O'quvchi o'zbekcha gapni koreyschaga tarjima qildi. Tarjima grammatik jihatdan to'g'ri va ma'nosi mosmi?")
-        appendLine("O'zbekcha gap: ${e.sourceUz}")
-        appendLine("Namunaviy javoblar: ${e.answers.joinToString(" / ")}")
-        appendLine("O'quvchi javobi: $userAnswer")
-        appendLine(
-            "Faqat JSON qaytar: {\"correct\": true yoki false, \"corrected_ko\": \"to'g'ri koreyscha variant\", " +
-                "\"explanation_uz\": \"qisqa o'zbekcha izoh\"}. Imlo va bo'sh joydagi mayda farqlarni xato hisoblama.",
-        )
+    fun translationCheck(e: Exercise, userAnswer: String, lang: AppLanguage = AppLanguage.UZ): String = buildString {
+        if (lang == AppLanguage.EN) {
+            appendLine("The learner translated an English sentence into Korean. Is the translation grammatically correct and does it mean the same?")
+            appendLine("English sentence: ${e.sourceUz}")
+            appendLine("Model answers: ${e.answers.joinToString(" / ")}")
+            appendLine("Learner's answer: $userAnswer")
+            appendLine(
+                "Return only JSON: {\"correct\": true or false, \"corrected_ko\": \"the correct Korean version\", " +
+                    "\"explanation_uz\": \"a short explanation in English\"}. Do not count small spelling or spacing differences as mistakes.",
+            )
+        } else {
+            appendLine("O'quvchi o'zbekcha gapni koreyschaga tarjima qildi. Tarjima grammatik jihatdan to'g'ri va ma'nosi mosmi?")
+            appendLine("O'zbekcha gap: ${e.sourceUz}")
+            appendLine("Namunaviy javoblar: ${e.answers.joinToString(" / ")}")
+            appendLine("O'quvchi javobi: $userAnswer")
+            appendLine(
+                "Faqat JSON qaytar: {\"correct\": true yoki false, \"corrected_ko\": \"to'g'ri koreyscha variant\", " +
+                    "\"explanation_uz\": \"qisqa o'zbekcha izoh\"}. Imlo va bo'sh joydagi mayda farqlarni xato hisoblama.",
+            )
+        }
     }
 }
 
@@ -67,10 +100,10 @@ class TutorService(private val client: GeminiClient) {
     suspend fun ask(system: String, history: List<ChatMessage>): AiResult = client.generate(system, history)
 
     /** null when the AI is unavailable or answers with anything but the expected JSON. */
-    suspend fun checkTranslation(e: Exercise, userAnswer: String): TranslationVerdict? {
+    suspend fun checkTranslation(e: Exercise, userAnswer: String, lang: AppLanguage = AppLanguage.UZ): TranslationVerdict? {
         val result = client.generate(
-            TutorPrompts.ROLE,
-            listOf(ChatMessage(fromUser = true, text = TutorPrompts.translationCheck(e, userAnswer))),
+            TutorPrompts.role(lang),
+            listOf(ChatMessage(fromUser = true, text = TutorPrompts.translationCheck(e, userAnswer, lang))),
             json = true,
         )
         return (result as? AiResult.Success)?.let { parseVerdict(it.text) }

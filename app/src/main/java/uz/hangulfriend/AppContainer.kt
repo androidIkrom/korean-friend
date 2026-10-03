@@ -19,6 +19,7 @@ import uz.hangulfriend.data.FlagRepository
 import uz.hangulfriend.data.LessonLookup
 import uz.hangulfriend.data.StudyRepository
 import uz.hangulfriend.data.UserWordRepository
+import uz.hangulfriend.i18n.LanguageStore
 import uz.hangulfriend.reminders.ReminderScheduler
 import uz.hangulfriend.share.ProgressStats
 import uz.hangulfriend.ui.avatar.AvatarAssets
@@ -33,7 +34,8 @@ private val Context.settingsStore by preferencesDataStore(name = "settings")
 /** Hand-wired dependencies; one instance per process, owned by [HangulFriendApp]. */
 class AppContainer(context: Context) {
     val clock: Clock = Clock.systemDefaultZone()
-    val content = ContentRepository(AndroidAssetSource(context.assets), strict = BuildConfig.DEBUG)
+    val languageStore = LanguageStore(context)
+    val content = ContentRepository(AndroidAssetSource(context.assets), strict = BuildConfig.DEBUG) { languageStore.get() }
     val db = AppDatabase.open(context)
     val study = StudyRepository(db, FsrsScheduler(), clock)
     val progress = ProgressRepository(db)
@@ -46,7 +48,7 @@ class AppContainer(context: Context) {
     val backup = BackupService(db, settings, clock)
     val userWords = UserWordRepository(db, study, clock)
     val lessons = LessonLookup(content, userWords)
-    val flags = FlagRepository(db, clock)
+    val flags = FlagRepository(db, clock) { languageStore.get() }
     val shareStats = ProgressStats(content, db, game, settings, clock)
     val avatarAssets by lazy { AvatarAssets.load(context.assets) }
 
