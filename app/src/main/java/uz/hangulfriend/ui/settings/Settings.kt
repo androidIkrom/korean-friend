@@ -1,23 +1,25 @@
 package uz.hangulfriend.ui.settings
 
 import androidx.compose.foundation.layout.Arrangement
-import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.PaddingValues
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.unit.sp
+import uz.hangulfriend.ui.kit.HuntButton
+import uz.hangulfriend.ui.kit.HuntPanel
+import uz.hangulfriend.ui.kit.HuntToggle
+import uz.hangulfriend.ui.kit.SegmentSlider
+import uz.hangulfriend.ui.onboarding.lessonPickerItems
+import uz.hangulfriend.ui.theme.LocalGameTokens
 import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.foundation.layout.padding
-import androidx.compose.material3.Button
-import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.Slider
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
-import androidx.compose.runtime.mutableFloatStateOf
-import androidx.compose.runtime.remember
-import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.ViewModel
-import kotlin.math.roundToInt
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewModelScope
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -35,7 +37,6 @@ import uz.hangulfriend.data.HeroGender
 import uz.hangulfriend.data.Settings
 import uz.hangulfriend.data.SettingsRepository
 import uz.hangulfriend.study.OnboardingService
-import uz.hangulfriend.ui.onboarding.LessonPicker
 
 class SettingsViewModel(
     content: ContentRepository,
@@ -82,6 +83,14 @@ class SettingsViewModel(
         viewModelScope.launch { settingsRepo.setReminder(enabled, minutes) }
     }
 
+    fun setSound(on: Boolean) {
+        viewModelScope.launch { settingsRepo.setSound(on) }
+    }
+
+    fun setHaptics(on: Boolean) {
+        viewModelScope.launch { settingsRepo.setHaptics(on) }
+    }
+
     fun setDailyNewLimit(n: Int) {
         viewModelScope.launch { settingsRepo.setDailyNewLimit(n) }
     }
@@ -91,39 +100,63 @@ class SettingsViewModel(
 fun SettingsScreen(vm: SettingsViewModel, modifier: Modifier = Modifier) {
     val settings by vm.settings.collectAsStateWithLifecycle()
     val pending by vm.pending.collectAsStateWithLifecycle()
-    var limit by remember(settings.dailyNewLimit) { mutableFloatStateOf(settings.dailyNewLimit.toFloat()) }
-    Column(modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
-        LanguageRow()
-        ThemeRow(settings.theme, vm::setTheme)
-        HeroRow(settings.hero, vm::setHero)
-        Text(stringResource(R.string.settings_daily_new, limit.roundToInt()), style = MaterialTheme.typography.titleMedium)
-        Slider(
-            value = limit,
-            onValueChange = { limit = it },
-            onValueChangeFinished = { vm.setDailyNewLimit(limit.roundToInt()) },
-            valueRange = 5f..50f,
-            steps = 8,
-        )
-        var goal by remember(settings.dailyGoalXp) { mutableFloatStateOf(settings.dailyGoalXp.toFloat()) }
-        Text(stringResource(R.string.settings_daily_goal, goal.roundToInt()), style = MaterialTheme.typography.titleMedium)
-        Slider(
-            value = goal,
-            onValueChange = { goal = it },
-            onValueChangeFinished = { vm.setDailyGoalXp(goal.roundToInt()) },
-            valueRange = 20f..200f,
-            steps = 17,
-        )
-        ReminderRow(settings, vm::setReminder)
-        BackupRow(vm.backup)
-        FlagsRow(vm.flags)
-        Text(stringResource(R.string.settings_current_lesson), style = MaterialTheme.typography.titleMedium)
-        val picked = pending
-        if (picked != null && picked != settings.currentLessonId) {
-            Text(stringResource(R.string.settings_apply_note), style = MaterialTheme.typography.bodySmall)
-            Button(onClick = vm::applyPending, modifier = Modifier.fillMaxWidth()) {
-                Text(stringResource(R.string.settings_apply))
+    val t = LocalGameTokens.current
+    LazyColumn(
+        modifier.fillMaxSize(),
+        contentPadding = PaddingValues(horizontal = 14.dp, vertical = 12.dp),
+        verticalArrangement = Arrangement.spacedBy(12.dp),
+    ) {
+        item {
+            Text(
+                "[ ${stringResource(R.string.dock_system).uppercase()} ]",
+                color = t.text,
+                fontFamily = t.display,
+                fontWeight = FontWeight.Bold,
+                fontSize = 22.sp,
+                letterSpacing = 4.sp,
+            )
+        }
+        item {
+            HuntPanel(title = stringResource(R.string.settings_section_hunter)) {
+                LanguageRow()
+                ThemeRow(settings.theme, vm::setTheme)
+                HeroRow(settings.hero, vm::setHero)
             }
         }
-        LessonPicker(vm.catalog, pending ?: settings.currentLessonId, vm::pick, Modifier.weight(1f))
+        item {
+            HuntPanel(title = stringResource(R.string.settings_section_targets)) {
+                SegmentSlider(
+                    title = { stringResource(R.string.settings_daily_new, it) },
+                    value = settings.dailyNewLimit, min = 5, max = 50, step = 5, onChange = vm::setDailyNewLimit,
+                )
+                SegmentSlider(
+                    title = { stringResource(R.string.settings_daily_goal, it) },
+                    value = settings.dailyGoalXp, min = 20, max = 200, step = 10, onChange = vm::setDailyGoalXp,
+                )
+            }
+        }
+        item {
+            HuntPanel(title = stringResource(R.string.settings_section_feedback)) {
+                HuntToggle(settings.soundOn, vm::setSound, stringResource(R.string.settings_sound))
+                HuntToggle(settings.hapticsOn, vm::setHaptics, stringResource(R.string.settings_haptics))
+                ReminderRow(settings, vm::setReminder)
+            }
+        }
+        item {
+            HuntPanel(title = stringResource(R.string.settings_section_data)) {
+                BackupRow(vm.backup)
+                FlagsRow(vm.flags)
+            }
+        }
+        item {
+            HuntPanel(title = stringResource(R.string.settings_current_lesson)) {
+                val picked = pending
+                if (picked != null && picked != settings.currentLessonId) {
+                    Text(stringResource(R.string.settings_apply_note), color = t.muted, fontSize = 13.sp)
+                    HuntButton(stringResource(R.string.settings_apply).uppercase(), vm::applyPending, Modifier.fillMaxWidth())
+                }
+            }
+        }
+        lessonPickerItems(vm.catalog, pending ?: settings.currentLessonId, vm::pick)
     }
 }

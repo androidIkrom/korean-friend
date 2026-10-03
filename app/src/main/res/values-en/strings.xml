@@ -236,6 +236,12 @@
     <string name="avatar_new_hair_light">Light in the hair</string>
     <string name="avatar_new_companions">Companions</string>
     <string name="settings_language">Language</string>
+    <string name="settings_section_hunter">Hunter</string>
+    <string name="settings_section_targets">Daily targets</string>
+    <string name="settings_section_feedback">Sound and haptics</string>
+    <string name="settings_section_data">Data</string>
+    <string name="settings_sound">Sound effects</string>
+    <string name="settings_haptics">Haptics</string>
     <string name="settings_theme">Interface style</string>
     <string name="theme_system">System</string>
     <string name="theme_neon">Neon Seoul</string>

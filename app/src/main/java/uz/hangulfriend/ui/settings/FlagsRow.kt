@@ -6,7 +6,6 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
@@ -16,6 +15,7 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.setValue
+import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
@@ -25,6 +25,8 @@ import uz.hangulfriend.BuildConfig
 import uz.hangulfriend.R
 import uz.hangulfriend.data.FlagRepository
 import uz.hangulfriend.data.exportText
+import uz.hangulfriend.ui.kit.HuntButton
+import uz.hangulfriend.ui.kit.HuntStyle
 import uz.hangulfriend.ui.currentLanguage
 import uz.hangulfriend.ui.exercise.reasonLabel
 
@@ -41,9 +43,9 @@ fun FlagsRow(flags: FlagRepository) {
     Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
         Text(stringResource(R.string.flags_title, count), style = MaterialTheme.typography.titleMedium)
         Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-            OutlinedButton(
-                enabled = count > 0,
-                onClick = {
+            HuntButton(
+                chooser,
+                {
                     scope.launch {
                         val text = exportText(flags.all(), BuildConfig.VERSION_NAME, LocalDate.now(), lang) { context.getString(reasonLabel(it)) }
                         val send = Intent(Intent.ACTION_SEND).apply {
@@ -54,8 +56,21 @@ fun FlagsRow(flags: FlagRepository) {
                         context.startActivity(Intent.createChooser(send, chooser))
                     }
                 },
-            ) { Text(chooser) }
-            OutlinedButton(enabled = count > 0, onClick = { confirm = true }) { Text(stringResource(R.string.flags_clear)) }
+                Modifier.weight(1f),
+                style = HuntStyle.SECONDARY,
+                enabled = count > 0,
+                minHeight = 44.dp,
+                fontSize = 13,
+            )
+            HuntButton(
+                stringResource(R.string.flags_clear),
+                { confirm = true },
+                Modifier.weight(1f),
+                style = HuntStyle.DANGER,
+                enabled = count > 0,
+                minHeight = 44.dp,
+                fontSize = 13,
+            )
         }
     }
     if (confirm) {

@@ -235,6 +235,12 @@
     <string name="avatar_new_hair_light">Sochda nur</string>
     <string name="avatar_new_companions">Hamrohlar</string>
     <string name="settings_language">Til</string>
+    <string name="settings_section_hunter">Ovchi</string>
+    <string name="settings_section_targets">Kunlik maqsadlar</string>
+    <string name="settings_section_feedback">Tovush va titrash</string>
+    <string name="settings_section_data">Ma\'lumotlar</string>
+    <string name="settings_sound">Tovush effektlari</string>
+    <string name="settings_haptics">Titrash</string>
     <string name="settings_theme">Interfeys uslubi</string>
     <string name="theme_system">Tizim</string>
     <string name="theme_neon">Neon Seul</string>

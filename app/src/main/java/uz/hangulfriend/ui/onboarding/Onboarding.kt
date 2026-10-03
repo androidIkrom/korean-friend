@@ -8,6 +8,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.LazyListScope
 import androidx.compose.foundation.lazy.items
 import androidx.compose.material3.Button
 import androidx.compose.material3.MaterialTheme
@@ -72,28 +73,31 @@ fun LessonPicker(
     onSelect: (String) -> Unit,
     modifier: Modifier = Modifier,
 ) {
-    LazyColumn(modifier) {
-        catalog.groupBy { it.unit }.forEach { (unit, entries) ->
-            item(key = "u$unit") {
-                Text(
-                    stringResource(R.string.unit_title, unit, entries.first().topicUz),
-                    style = MaterialTheme.typography.titleSmall,
-                    modifier = Modifier.padding(top = 12.dp),
-                )
-            }
-            items(entries, key = { it.id }) { e ->
-                Row(
-                    Modifier
-                        .fillMaxWidth()
-                        .clickable { onSelect(e.id) }
-                        .padding(vertical = 4.dp),
-                    verticalAlignment = Alignment.CenterVertically,
-                ) {
-                    RadioButton(selected = e.id == selected, onClick = { onSelect(e.id) })
-                    Column {
-                        Text(e.titleKo, style = MaterialTheme.typography.bodyLarge)
-                        Text(e.titleUz, style = MaterialTheme.typography.bodySmall)
-                    }
+    LazyColumn(modifier) { lessonPickerItems(catalog, selected, onSelect) }
+}
+
+/** The picker's rows, for a screen that already scrolls in its own LazyColumn. */
+fun LazyListScope.lessonPickerItems(catalog: List<CatalogEntry>, selected: String?, onSelect: (String) -> Unit) {
+    catalog.groupBy { it.unit }.forEach { (unit, entries) ->
+        item(key = "u$unit") {
+            Text(
+                stringResource(R.string.unit_title, unit, entries.first().topicUz),
+                style = MaterialTheme.typography.titleSmall,
+                modifier = Modifier.padding(top = 12.dp),
+            )
+        }
+        items(entries, key = { it.id }) { e ->
+            Row(
+                Modifier
+                    .fillMaxWidth()
+                    .clickable { onSelect(e.id) }
+                    .padding(vertical = 4.dp),
+                verticalAlignment = Alignment.CenterVertically,
+            ) {
+                RadioButton(selected = e.id == selected, onClick = { onSelect(e.id) })
+                Column {
+                    Text(e.titleKo, style = MaterialTheme.typography.bodyLarge)
+                    Text(e.titleUz, style = MaterialTheme.typography.bodySmall)
                 }
             }
         }
