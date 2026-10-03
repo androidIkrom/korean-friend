@@ -4,10 +4,6 @@ import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.material3.Button
-import androidx.compose.material3.ButtonDefaults
-import androidx.compose.material3.OutlinedButton
-import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
@@ -22,9 +18,10 @@ import androidx.compose.ui.unit.dp
 import kotlinx.coroutines.delay
 import uz.hangulfriend.R
 import uz.hangulfriend.content.Word
+import uz.hangulfriend.ui.kit.HuntButton
+import uz.hangulfriend.ui.kit.OptionState
+import uz.hangulfriend.ui.kit.OptionTile
 import uz.hangulfriend.ui.session.ExerciseOutcome
-import uz.hangulfriend.ui.theme.CorrectGreen
-import uz.hangulfriend.ui.theme.WrongRed
 
 /**
  * Tap a Korean word, then its meaning. A word counts as correct only if its first pairing was right.
@@ -53,39 +50,29 @@ fun MatchView(words: List<Word>, onResult: (ExerciseOutcome) -> Unit, onNext: ()
         if (done) onResult(ExerciseOutcome.Matched(words.map { it.id }.toSet() - missed.toSet(), words.size))
     }
 
-    val matchedColors = ButtonDefaults.outlinedButtonColors(
-        containerColor = CorrectGreen.copy(alpha = 0.15f),
-        contentColor = CorrectGreen,
-    )
-
-    Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
-        PromptText(stringResource(R.string.ex_match_prompt))
+    Column(verticalArrangement = Arrangement.spacedBy(10.dp)) {
+        QuestCard(stringResource(R.string.ex_match_prompt))
         Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-            Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(6.dp)) {
+            Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(4.dp)) {
                 left.forEach { w ->
-                    val colors = when {
-                        w.id in matched -> matchedColors
-                        w.id == selected -> ButtonDefaults.outlinedButtonColors(containerColor = ButtonDefaults.buttonColors().containerColor.copy(alpha = 0.2f))
-                        else -> ButtonDefaults.outlinedButtonColors()
-                    }
-                    OutlinedButton(
+                    OptionTile(
+                        text = w.ko,
                         onClick = { if (w.id !in matched) selected = w.id },
-                        colors = colors,
-                        modifier = Modifier.fillMaxWidth(),
-                    ) { Text(w.ko) }
+                        state = when {
+                            w.id in matched -> OptionState.RIGHT
+                            w.id == selected -> OptionState.PICKED
+                            else -> OptionState.IDLE
+                        },
+                        enabled = w.id !in matched,
+                    )
                 }
             }
-            Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(6.dp)) {
+            Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(4.dp)) {
                 right.forEach { w ->
-                    val colors = when {
-                        w.id in matched -> matchedColors
-                        w.id == wrongFlash -> ButtonDefaults.outlinedButtonColors(contentColor = WrongRed)
-                        else -> ButtonDefaults.outlinedButtonColors()
-                    }
-                    OutlinedButton(
+                    OptionTile(
+                        text = w.uz,
                         onClick = {
-                            if (w.id in matched) return@OutlinedButton
-                            val pick = selected ?: return@OutlinedButton
+                            val pick = selected ?: return@OptionTile
                             if (pick == w.id) {
                                 matched += w.id
                             } else {
@@ -94,12 +81,16 @@ fun MatchView(words: List<Word>, onResult: (ExerciseOutcome) -> Unit, onNext: ()
                             }
                             selected = null
                         },
-                        colors = colors,
-                        modifier = Modifier.fillMaxWidth(),
-                    ) { Text(w.uz, maxLines = 2) }
+                        state = when {
+                            w.id in matched -> OptionState.RIGHT
+                            w.id == wrongFlash -> OptionState.WRONG
+                            else -> OptionState.IDLE
+                        },
+                        enabled = w.id !in matched,
+                    )
                 }
             }
         }
-        if (done && showNext) Button(onClick = onNext, modifier = Modifier.fillMaxWidth()) { Text(stringResource(R.string.ex_next)) }
+        if (done && showNext) HuntButton(stringResource(R.string.ex_next).uppercase(), onClick = onNext, modifier = Modifier.fillMaxWidth())
     }
 }

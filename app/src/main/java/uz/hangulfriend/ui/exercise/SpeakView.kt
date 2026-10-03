@@ -10,10 +10,7 @@ import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Mic
-import androidx.compose.material3.Button
-import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.DisposableEffect
@@ -43,6 +40,8 @@ import uz.hangulfriend.speech.SpeechError
 import uz.hangulfriend.speech.SpeechEvent
 import uz.hangulfriend.speech.SpeechInput
 import uz.hangulfriend.ui.AudioButton
+import uz.hangulfriend.ui.kit.HuntButton
+import uz.hangulfriend.ui.kit.HuntStyle
 import uz.hangulfriend.ui.session.ExerciseOutcome
 import uz.hangulfriend.ui.theme.CorrectGreen
 import uz.hangulfriend.ui.theme.WrongRed
@@ -125,18 +124,19 @@ fun SpeakPanel(expected: String, onScored: (SpeechScore) -> Unit, onFailed: (Spe
                 Text(stringResource(speakErrorText(p.error)), color = WrongRed)
             }
         }
-        Button(onClick = ::onMic, enabled = phase != SpeakPhase.Listening, modifier = Modifier.fillMaxWidth()) {
-            Icon(Icons.Filled.Mic, contentDescription = null)
-            Text(
-                stringResource(
-                    when (phase) {
-                        is SpeakPhase.Scored -> R.string.speak_again
-                        is SpeakPhase.Failed -> R.string.speak_retry
-                        else -> R.string.speak_start
-                    },
-                ),
-            )
-        }
+        HuntButton(
+            stringResource(
+                when (phase) {
+                    is SpeakPhase.Scored -> R.string.speak_again
+                    is SpeakPhase.Failed -> R.string.speak_retry
+                    else -> R.string.speak_start
+                },
+            ),
+            onClick = ::onMic,
+            enabled = phase != SpeakPhase.Listening,
+            icon = Icons.Filled.Mic,
+            modifier = Modifier.fillMaxWidth(),
+        )
     }
 }
 
@@ -146,10 +146,11 @@ fun SpeakView(ko: String, uz: String, audio: String?, onResult: (ExerciseOutcome
     val start by rememberSaveable { mutableLongStateOf(System.currentTimeMillis()) }
     var submitted by rememberSaveable { mutableStateOf(false) }
     Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
-        PromptText(stringResource(R.string.speak_prompt))
-        Row(verticalAlignment = Alignment.CenterVertically) {
-            Text(uz, style = MaterialTheme.typography.bodyLarge, modifier = Modifier.weight(1f))
-            AudioButton(audio)
+        QuestCard(stringResource(R.string.speak_prompt)) {
+            Row(verticalAlignment = Alignment.CenterVertically) {
+                Text(uz, style = MaterialTheme.typography.bodyLarge, modifier = Modifier.weight(1f))
+                AudioButton(audio)
+            }
         }
         SpeakPanel(
             expected = ko,
@@ -162,16 +163,18 @@ fun SpeakView(ko: String, uz: String, audio: String?, onResult: (ExerciseOutcome
         )
         Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
             if (!submitted) {
-                OutlinedButton(
+                HuntButton(
+                    stringResource(R.string.speak_skip),
                     onClick = {
                         submitted = true
                         onResult(ExerciseOutcome.Skipped)
                         onNext()
                     },
                     modifier = Modifier.weight(1f),
-                ) { Text(stringResource(R.string.speak_skip)) }
+                    style = HuntStyle.SECONDARY,
+                )
             } else {
-                Button(onClick = onNext, modifier = Modifier.weight(1f)) { Text(stringResource(R.string.ex_next)) }
+                HuntButton(stringResource(R.string.ex_next).uppercase(), onClick = onNext, modifier = Modifier.weight(1f))
             }
         }
     }

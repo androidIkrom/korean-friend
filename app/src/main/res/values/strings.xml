@@ -88,6 +88,15 @@
 
     <string name="home_level_progress">%1$d / %2$d XP</string>
 
+    <string name="battle_quest">Topshiriq</string>
+    <string name="battle_floor">Qavat %1$d/%2$d</string>
+    <string name="battle_hearts">Jonlar: %1$d</string>
+    <string name="clear_title">Darvoza tozalandi</string>
+    <string name="clear_failed">Darvoza tozalanmadi</string>
+    <string name="clear_claim">Olish</string>
+    <string name="clear_loot">O\'lja · so\'zlar</string>
+    <string name="clear_grade">Baho: %1$s</string>
+    <string name="clear_stars">%1$d / 3 yulduz</string>
     <string name="session_combo">🔥 %1$d ketma-ket!</string>
     <string name="session_xp">+%1$d XP</string>
     <string name="session_boss_won">⚔️ Boss yengildi!</string>
