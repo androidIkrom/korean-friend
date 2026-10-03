@@ -5,6 +5,15 @@
 
     <string name="nav_home">Home</string>
     <string name="dock_lobby">Lobby</string>
+    <string name="rail_quest">Quest</string>
+    <string name="rail_words">Words</string>
+    <string name="rail_errors">Errors</string>
+    <string name="rail_arena">Arena</string>
+    <string name="rail_badges">Badges</string>
+    <string name="rail_share">Share</string>
+    <string name="lobby_rank_line">%1$s-rank · %2$s</string>
+    <string name="lobby_gate_label">Gate %1$d-%2$d · %3$s</string>
+    <string name="hud_due">%1$d due</string>
     <string name="dock_gates">Gates</string>
     <string name="dock_story">Story</string>
     <string name="dock_system">System</string>

@@ -35,6 +35,12 @@ import uz.hangulfriend.ui.game.MistakesViewModel
 import uz.hangulfriend.ui.home.HomeScreen
 import uz.hangulfriend.ui.home.HomeViewModel
 import uz.hangulfriend.ui.home.ShareCardButton
+import uz.hangulfriend.ui.kit.RailButton
+import uz.hangulfriend.ui.theme.LocalGameTokens
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.outlined.Share
+import androidx.compose.ui.res.stringResource
+import uz.hangulfriend.R
 import uz.hangulfriend.ui.map.BookMapScreen
 import uz.hangulfriend.ui.map.BookMapViewModel
 import uz.hangulfriend.ui.onboarding.OnboardingScreen
@@ -149,7 +155,11 @@ fun HangulFriendNav(container: AppContainer, openReview: Boolean = false) {
                     onMistakes = { nav.navigate(Routes.MISTAKES) },
                     onAchievements = { nav.navigate(Routes.ACHIEVEMENTS) },
                     onVocab = { nav.navigate(Routes.VOCAB) },
-                    headerAction = { ShareCardButton(container.shareStats) },
+                    shareRail = {
+                        ShareCardButton(container.shareStats) { onClick ->
+                            RailButton(Icons.Outlined.Share, stringResource(R.string.rail_share), onClick, accent = LocalGameTokens.current.accent2)
+                        }
+                    },
                 )
             }
             composable(Routes.MAP) {

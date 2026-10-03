@@ -30,18 +30,26 @@ import uz.hangulfriend.share.ShareCardRenderer
 import uz.hangulfriend.share.ShareLabels
 import uz.hangulfriend.share.ShareSender
 
-/** Share icon: renders the progress card, previews it, then hands the PNG to the share sheet. */
+/**
+ * Renders the progress card, previews it, then hands the PNG to the share sheet. [trigger] draws the
+ * control that starts it (a share icon by default).
+ */
 @Composable
-fun ShareCardButton(stats: ProgressStats) {
+fun ShareCardButton(
+    stats: ProgressStats,
+    trigger: @Composable (onClick: () -> Unit) -> Unit = { onClick ->
+        IconButton(onClick = onClick) { Icon(Icons.Filled.Share, contentDescription = stringResource(R.string.share_title)) }
+    },
+) {
     val context = LocalContext.current
     val scope = rememberCoroutineScope()
     var preview by remember { mutableStateOf<Bitmap?>(null) }
-    IconButton(onClick = {
+    trigger {
         scope.launch {
             val labels = labels(context)
             preview = withContext(Dispatchers.Default) { ShareCardRenderer.render(stats.snapshot(), labels) }
         }
-    }) { Icon(Icons.Filled.Share, contentDescription = stringResource(R.string.share_title)) }
+    }
 
     preview?.let { bitmap ->
         AlertDialog(
