@@ -378,4 +378,32 @@ class SessionControllerTest {
         assertTrue(c.state.value.finished)
         assertEquals(null, progress.observeAll().first()["u02_l1"]?.bestTestScore)
     }
+
+    private suspend fun vocabWordIds(source: String): Set<String> {
+        val c = controller(SessionMode.VOCAB, source)
+        c.load()
+        return c.state.value.items.map { item ->
+            when (item) {
+                is ExerciseItem.WordChoose -> item.word.id
+                is ExerciseItem.WordTyping -> item.word.id
+                is ExerciseItem.ListenChoose -> item.word.id
+                else -> error("unexpected $item")
+            }
+        }.toSet()
+    }
+
+    @Test fun vocab_allDrawsEveryOpenLessonWord() = runTest {
+        assertEquals(
+            setOf("u02_l1_w001", "u02_l1_w002", "u02_l2_w001", "u02_l2_w002"),
+            vocabWordIds(SessionController.VOCAB_ALL),
+        )
+    }
+
+    @Test fun vocab_lessonSourceStaysInLesson() = runTest {
+        assertEquals(setOf("u02_l2_w001", "u02_l2_w002"), vocabWordIds("u02_l2"))
+    }
+
+    @Test fun vocab_unknownSourceIsEmpty() = runTest {
+        assertEquals(emptySet<String>(), vocabWordIds("u09_l1"))
+    }
 }

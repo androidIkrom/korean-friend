@@ -41,6 +41,7 @@
     <string name="settings_apply_note">Bu darsdan oldingi darslar «o\'tilgan» deb belgilanadi va ularning so\'zlari asta-sekin takrorlashga qo\'shiladi.</string>
     <string name="audio_play">Tinglash</string>
     <string name="ex_listen_choose_prompt">Eshiting va ma\'nosini tanlang</string>
+    <string name="ex_word_choose_prompt">Ma\'nosini tanlang</string>
     <string name="ex_dictation_prompt">Eshiting va koreyscha yozing</string>
     <string name="speak_prompt">Gapni ovoz chiqarib ayting</string>
     <string name="speak_start">Gapirish</string>
@@ -342,6 +343,9 @@
     <string name="vocab_cancel">Bekor qilish</string>
     <string name="vocab_none">Hech narsa topilmadi</string>
     <string name="vocab_own_empty">Hali so\'z qo\'shmagansiz — pastdagi + tugmasini bosing.</string>
+    <plurals name="vocab_quiz">
+        <item quantity="other">Tasodifiy test · %1$d ta savol</item>
+    </plurals>
     <string name="flag_button">Xato bor</string>
     <string name="flag_title">Xato bor</string>
     <string name="flag_reason_translation">Tarjima xato</string>

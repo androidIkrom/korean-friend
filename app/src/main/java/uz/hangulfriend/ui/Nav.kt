@@ -7,6 +7,7 @@ import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.MaterialTheme
 import uz.hangulfriend.ui.vocab.VocabScreen
 import uz.hangulfriend.ui.vocab.VocabViewModel
+import uz.hangulfriend.ui.vocab.quizSource
 import androidx.compose.material3.Scaffold
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
@@ -194,7 +195,7 @@ fun HangulFriendNav(container: AppContainer, openReview: Boolean = false) {
             }
             composable(Routes.VOCAB) {
                 val vm = viewModel { VocabViewModel(container.content, container.userWords, container.db) }
-                VocabScreen(vm, onBack = { nav.popBackStack() })
+                VocabScreen(vm, onBack = { nav.popBackStack() }, onQuiz = { nav.navigate(Routes.session(SessionMode.VOCAB, it.quizSource())) })
             }
             composable(Routes.STORIES) {
                 val vm = viewModel { StoryListViewModel(container.content, container.progress, container.story) }

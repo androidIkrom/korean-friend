@@ -17,6 +17,7 @@ import androidx.compose.foundation.lazy.LazyRow
 import androidx.compose.foundation.lazy.items
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Add
+import androidx.compose.material.icons.filled.Bolt
 import androidx.compose.material.icons.filled.Clear
 import androidx.compose.material.icons.filled.Search
 import androidx.compose.material3.ExperimentalMaterial3Api
@@ -104,6 +105,10 @@ class VocabViewModel(
     val total: StateFlow<Int> = combine(book, own) { b, o -> b.size + o.size }
         .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), 0)
 
+    /** Questions of a random quiz over the selected filter; 0 disables the quiz button. */
+    val quizCount: StateFlow<Int> = combine(book, own, filter) { b, o, f -> quizSize(o + b, f) }
+        .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), 0)
+
     val rows: StateFlow<List<Pair<VocabEntry, WordStatus>>> =
         combine(book, own, statuses, query, filter) { b, o, st, q, f ->
             filterVocab(o + b, q, f).map { it to (st[it.id] ?: WordStatus.NEW) }
@@ -136,13 +141,14 @@ class VocabViewModel(
 }
 
 @Composable
-fun VocabScreen(vm: VocabViewModel, onBack: () -> Unit) {
+fun VocabScreen(vm: VocabViewModel, onBack: () -> Unit, onQuiz: (VocabFilter) -> Unit) {
     val t = LocalGameTokens.current
     val rows by vm.rows.collectAsStateWithLifecycle()
     val total by vm.total.collectAsStateWithLifecycle()
     val chips by vm.chips.collectAsStateWithLifecycle()
     val query by vm.query.collectAsStateWithLifecycle()
     val filter by vm.filter.collectAsStateWithLifecycle()
+    val quizCount by vm.quizCount.collectAsStateWithLifecycle()
     var opened by remember { mutableStateOf<VocabEntry?>(null) }
     var adding by rememberSaveable { mutableStateOf(false) }
     val snackbar = remember { SnackbarHostState() }
@@ -178,6 +184,17 @@ fun VocabScreen(vm: VocabViewModel, onBack: () -> Unit) {
                     Chip(c.tag, filter == f) { vm.filter.value = f }
                 }
             }
+            HuntButton(
+                pluralStringResource(R.plurals.vocab_quiz, quizCount, quizCount),
+                onClick = { onQuiz(filter) },
+                modifier = Modifier.fillMaxWidth(),
+                style = HuntStyle.GOLD,
+                enabled = quizCount > 0,
+                icon = Icons.Filled.Bolt,
+                sfx = Sfx.OPEN,
+                minHeight = 46.dp,
+                fontSize = 14,
+            )
             if (rows.isEmpty()) {
                 Text(
                     stringResource(if (filter == VocabFilter.Own && query.isBlank()) R.string.vocab_own_empty else R.string.vocab_none),

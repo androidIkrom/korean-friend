@@ -81,6 +81,39 @@ class SessionBuilder(private val random: Random) {
         return (tests + practice).take(count).map { (l, e) -> ExerciseItem.Authored.of(l, e) }
     }
 
+    /**
+     * Random word quiz from the vocabulary screen: up to [VOCAB_QUIZ_SIZE] words of [words], each once, as
+     * pick-the-meaning, typing or (with audio) listening items. Wrong options come from [words] first, then [extra].
+     */
+    fun vocabQuiz(words: List<Word>, extra: List<Word>): List<ExerciseItem> {
+        val pool = words.distinctBy { it.id }
+        val items = pool.shuffled(random).take(VOCAB_QUIZ_SIZE).map { word ->
+            val options = meaningOptions(word, pool, extra)
+            val kinds = buildList {
+                add("typing")
+                if (options.size > 1) {
+                    add("choose")
+                    if (word.audio != null) add("listen")
+                }
+            }
+            when (kinds.random(random)) {
+                "choose" -> ExerciseItem.WordChoose(word, options)
+                "listen" -> ExerciseItem.ListenChoose(word, options)
+                else -> ExerciseItem.WordTyping(word)
+            }
+        }
+        return arrange(items, random)
+    }
+
+    /** [word] and up to three other words whose meanings differ from it and from each other, shuffled. */
+    private fun meaningOptions(word: Word, pool: List<Word>, extra: List<Word>): List<Word> {
+        val others = (pool.shuffled(random) + extra.shuffled(random))
+            .filter { it.uz != word.uz }
+            .distinctBy { it.uz }
+            .take(LISTEN_OPTIONS - 1)
+        return (others + word).shuffled(random)
+    }
+
     /** The final test in its fixed TOPIK order (listening, then reading); it grades no FSRS card. */
     fun finalTest(test: FinalTest): List<ExerciseItem> = (test.listening + test.reading).map { ExerciseItem.Authored(it, emptyList()) }
 
@@ -126,5 +159,6 @@ class SessionBuilder(private val random: Random) {
         const val SPEAK_CAP = 2
         const val BOSS_SIZE = 15
         const val QUICK_CHECK_SIZE = 10
+        const val VOCAB_QUIZ_SIZE = 10
     }
 }

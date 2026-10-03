@@ -217,4 +217,61 @@ class SessionBuilderTest {
         assertTrue(items.any { it is ExerciseItem.Flashcard && it.word.id == "user_w1" })
         assertTrue(items.any { it is ExerciseItem.WordTyping && it.word.id == "user_w1" })
     }
+
+    private fun quizWords(n: Int, prefix: String = "q", audio: Boolean = false) =
+        (1..n).map { Fixtures.word("${prefix}_$it", "말$it", "$prefix so'z $it").copy(audio = if (audio) "a$it.mp3" else null) }
+
+    private fun quizWord(item: ExerciseItem) = when (item) {
+        is ExerciseItem.WordChoose -> item.word
+        is ExerciseItem.WordTyping -> item.word
+        is ExerciseItem.ListenChoose -> item.word
+        else -> error("unexpected $item")
+    }
+
+    @Test fun vocabQuiz_takesTenDistinctWords() {
+        val pool = quizWords(25)
+        val items = builder.vocabQuiz(pool, pool)
+        assertEquals(SessionBuilder.VOCAB_QUIZ_SIZE, items.size)
+        assertEquals(10, items.map { quizWord(it).id }.toSet().size)
+        assertTrue(items.all { quizWord(it) in pool })
+    }
+
+    @Test fun vocabQuiz_smallPoolUsesEveryWordOnce() {
+        val pool = quizWords(4)
+        val items = builder.vocabQuiz(pool, quizWords(30, "x"))
+        assertEquals(pool.map { it.id }.toSet(), items.map { quizWord(it).id }.toSet())
+        assertEquals(4, items.size)
+    }
+
+    @Test fun vocabQuiz_emptyPoolIsEmpty() = assertTrue(builder.vocabQuiz(emptyList(), quizWords(5)).isEmpty())
+
+    @Test fun vocabQuiz_loneWordWithoutOtherMeaningsIsTyped() {
+        val one = quizWords(1)
+        repeat(10) { seed ->
+            val items = SessionBuilder(Random(seed)).vocabQuiz(one, one)
+            assertEquals(listOf(ExerciseItem.WordTyping(one[0])), items)
+        }
+    }
+
+    @Test fun vocabQuiz_choiceOptionsHoldAnswerAndDistinctMeanings() {
+        val pool = quizWords(2, "own")
+        val extra = quizWords(20, "book") + Fixtures.word("dup", "또", "own so'z 1")
+        repeat(30) { seed ->
+            SessionBuilder(Random(seed)).vocabQuiz(pool, extra).filterIsInstance<ExerciseItem.WordChoose>().forEach { item ->
+                assertEquals(SessionBuilder.LISTEN_OPTIONS, item.options.size)
+                assertTrue(item.word in item.options)
+                assertEquals(item.options.size, item.options.map { it.uz }.toSet().size)
+            }
+        }
+    }
+
+    @Test fun vocabQuiz_listenOnlyForWordsWithAudio() {
+        repeat(20) { seed ->
+            val silent = SessionBuilder(Random(seed)).vocabQuiz(quizWords(10), quizWords(10))
+            assertTrue(silent.none { it is ExerciseItem.ListenChoose })
+        }
+        val voiced = quizWords(10, audio = true)
+        val kinds = (0 until 20).flatMap { seed -> SessionBuilder(Random(seed)).vocabQuiz(voiced, voiced).map { it.typeKey } }.toSet()
+        assertEquals(setOf("word_choose", "reverse_typing", "listen_choose"), kinds)
+    }
 }

@@ -13,6 +13,7 @@ import uz.hangulfriend.data.GameRepository
 import uz.hangulfriend.data.ProgressRepository
 import uz.hangulfriend.data.SettingsRepository
 import uz.hangulfriend.data.StudyRepository
+import uz.hangulfriend.data.USER_LESSON_ID
 import uz.hangulfriend.hangul.CheckResult
 import uz.hangulfriend.hangul.Feedback
 import uz.hangulfriend.srs.Rating
@@ -36,6 +37,9 @@ enum class SessionMode(val route: String) {
 
     /** The timed final test (stage 7c). */
     FINAL("final"),
+
+    /** Random word quiz from the vocabulary screen; lessonId is a lesson id, "user" or [VOCAB_ALL]. */
+    VOCAB("vocab"),
     ;
 
     companion object {
@@ -114,6 +118,7 @@ private fun lootOf(item: ExerciseItem, outcome: ExerciseOutcome, correct: Boolea
     is ExerciseItem.Match -> (outcome as? ExerciseOutcome.Matched)?.let { m -> item.words.filter { it.id in m.firstTryCorrect } }.orEmpty()
     is ExerciseItem.Flashcard -> if (correct) listOf(item.word) else emptyList()
     is ExerciseItem.WordTyping -> if (correct) listOf(item.word) else emptyList()
+    is ExerciseItem.WordChoose -> if (correct) listOf(item.word) else emptyList()
     is ExerciseItem.ListenChoose -> if (correct) listOf(item.word) else emptyList()
     is ExerciseItem.Dictation -> if (correct) listOf(item.word) else emptyList()
     is ExerciseItem.Speak, is ExerciseItem.Authored -> emptyList()
@@ -166,6 +171,12 @@ class SessionController(
                 finalListening = t.listening.size
                 builder.finalTest(t)
             }.orEmpty()
+            SessionMode.VOCAB -> {
+                val all = content.catalog().filter { content.isAvailable(it.id) }.mapNotNull { content.lesson(it.id) }.flatMap { it.words } +
+                    lessonOf(USER_LESSON_ID)?.words.orEmpty()
+                val pool = if (lessonId == null || lessonId == VOCAB_ALL) all else lessonOf(lessonId)?.words.orEmpty()
+                builder.vocabQuiz(pool, all)
+            }
             SessionMode.BOSS -> {
                 val unit = lessonId?.toIntOrNull() ?: 0
                 builder.boss(listOfNotNull(content.lesson(unitLessonId(unit, 1)), content.lesson(unitLessonId(unit, 2))))
@@ -297,5 +308,8 @@ class SessionController(
         const val PASS_PERCENT = 70
 
         fun unitLessonId(unit: Int, lesson: Int) = "u%02d_l%d".format(unit, lesson)
+
+        /** [SessionMode.VOCAB] over every word: book words of the open lessons and the learner's own. */
+        const val VOCAB_ALL = "all"
     }
 }
