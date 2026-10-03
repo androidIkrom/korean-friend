@@ -27,7 +27,9 @@ import uz.hangulfriend.data.LessonStatus
 import uz.hangulfriend.data.ProgressRepository
 import uz.hangulfriend.data.StudyRepository
 import uz.hangulfriend.srs.FsrsScheduler
+import uz.hangulfriend.ui.lesson.FloorState
 import uz.hangulfriend.ui.lesson.LessonController
+import uz.hangulfriend.ui.lesson.floorStates
 
 @RunWith(RobolectricTestRunner::class)
 @Config(sdk = [35])
@@ -81,6 +83,37 @@ class LessonControllerTest {
         progress.recordTest("u02_l1", 95)
         controller().load()
         assertEquals(LessonStatus.COMPLETED, progress.observeAll().first().getValue("u02_l1").status)
+    }
+
+    @Test fun floorStatesFollowStage() {
+        val c = FloorState.CLEARED
+        val o = FloorState.OPEN
+        assertEquals(listOf(FloorState.CURRENT, o, o, o, o), floorStates(0, LessonStatus.IN_PROGRESS))
+        assertEquals(listOf(c, c, FloorState.CURRENT, o, o), floorStates(2, LessonStatus.IN_PROGRESS))
+        // Going back: floors after the current one are not shown as cleared.
+        assertEquals(listOf(c, FloorState.CURRENT, o, o, o), floorStates(1, LessonStatus.NOT_STARTED))
+    }
+
+    @Test fun completedLessonClearsAll() {
+        val c = FloorState.CLEARED
+        assertEquals(listOf(FloorState.CURRENT, c, c, c, c), floorStates(0, LessonStatus.COMPLETED))
+        assertEquals(listOf(c, c, c, c, FloorState.CURRENT), floorStates(4, LessonStatus.VERIFIED))
+    }
+
+    @Test fun loadExposesStatus() = runTest {
+        progress.recordTest("u02_l1", 95)
+        val c = controller()
+        c.load()
+        assertEquals(LessonStatus.COMPLETED, c.state.value.status)
+    }
+
+    @Test fun refreshStatusAfterTest() = runTest {
+        val c = controller()
+        c.load()
+        assertEquals(LessonStatus.IN_PROGRESS, c.state.value.status)
+        progress.recordTest("u02_l1", 90)
+        c.refreshStatus()
+        assertEquals(LessonStatus.COMPLETED, c.state.value.status)
     }
 
     @Test fun open_missingLesson() = runTest {

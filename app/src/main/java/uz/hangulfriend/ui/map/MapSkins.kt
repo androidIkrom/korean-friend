@@ -15,17 +15,17 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
-import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Bolt
 import androidx.compose.material.icons.filled.ChevronRight
 import androidx.compose.material.icons.filled.Lock
 import androidx.compose.material3.Icon
 import androidx.compose.material3.Text
-import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.alpha
+import androidx.compose.ui.draw.clip
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.PathEffect
@@ -39,12 +39,17 @@ import androidx.compose.ui.unit.sp
 import uz.hangulfriend.R
 import uz.hangulfriend.data.GameThemeId
 import uz.hangulfriend.data.LessonStatus
+import uz.hangulfriend.ui.kit.GlowBar
+import uz.hangulfriend.ui.kit.HuntButton
+import uz.hangulfriend.ui.kit.HuntPanel
+import uz.hangulfriend.ui.kit.HuntStyle
+import uz.hangulfriend.ui.kit.LocalGameFeedback
+import uz.hangulfriend.ui.kit.Sfx
+import uz.hangulfriend.ui.kit.pulseRing
+import uz.hangulfriend.ui.kit.shape
 import uz.hangulfriend.ui.statusLabel
 import uz.hangulfriend.ui.theme.BadgeState
-import uz.hangulfriend.ui.theme.GameButton
-import uz.hangulfriend.ui.theme.GamePanel
 import uz.hangulfriend.ui.theme.LocalGameTokens
-import uz.hangulfriend.ui.theme.ProgressBar
 import uz.hangulfriend.ui.theme.RankBadge
 
 class MapActions(
@@ -119,7 +124,8 @@ fun StationItem(u: UnitRow, expanded: Boolean, first: Boolean, last: Boolean, pa
 @Composable
 private fun CompactUnit(u: UnitRow, actions: MapActions, badge: @Composable () -> Unit) {
     val t = LocalGameTokens.current
-    val shape = RoundedCornerShape(t.panelCorner)
+    val feedback = LocalGameFeedback.current
+    val shape = t.shape(8.dp)
     val locked = u.state == UnitState.LOCKED
     val ko = stringArrayResource(R.array.unit_topics_ko).getOrNull(u.unit - 1)
     Row(
@@ -127,9 +133,13 @@ private fun CompactUnit(u: UnitRow, actions: MapActions, badge: @Composable () -
             .fillMaxWidth()
             .heightIn(min = 48.dp)
             .alpha(if (locked) 0.6f else 1f)
-            .background(t.panel.copy(alpha = 0.6f), shape)
-            .border(1.dp, t.panelBorder.copy(alpha = 0.35f), shape)
-            .clickable(enabled = !locked, role = Role.Button) { actions.onToggle(u.unit) }
+            .clip(shape)
+            .background(t.panel.copy(alpha = 0.7f), shape)
+            .border(1.dp, (if (u.state == UnitState.CLEARED) t.accent else t.panelBorder).copy(alpha = 0.45f), shape)
+            .clickable(enabled = !locked, role = Role.Button) {
+                feedback.play(Sfx.TAP)
+                actions.onToggle(u.unit)
+            }
             .padding(horizontal = 12.dp, vertical = 8.dp),
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(12.dp),
@@ -151,9 +161,13 @@ private fun CompactUnit(u: UnitRow, actions: MapActions, badge: @Composable () -
 private fun UnitPanel(u: UnitRow, actions: MapActions, borderColor: Color? = null, badge: @Composable () -> Unit) {
     val t = LocalGameTokens.current
     val ko = stringArrayResource(R.array.unit_topics_ko).getOrNull(u.unit - 1)
-    GamePanel(null, borderColor = borderColor) {
+    val feedback = LocalGameFeedback.current
+    HuntPanel(accent = borderColor, scan = u.state == UnitState.ACTIVE) {
         Row(
-            Modifier.clickable(role = Role.Button) { actions.onToggle(u.unit) },
+            Modifier.clickable(role = Role.Button) {
+                feedback.play(Sfx.TAP)
+                actions.onToggle(u.unit)
+            },
             verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.spacedBy(14.dp),
         ) {
@@ -179,12 +193,23 @@ private fun UnitPanel(u: UnitRow, actions: MapActions, borderColor: Color? = nul
         }
         u.lessons.forEach { row -> LessonLine(row, actions) }
         if (u.lessons.size == 2 && u.lessons.all { it.available }) {
-            TextButton(onClick = { actions.onBoss(u.unit) }) { Text(stringResource(R.string.map_boss), color = t.accent2) }
+            HuntButton(
+                stringResource(R.string.map_boss),
+                onClick = { actions.onBoss(u.unit) },
+                modifier = Modifier.fillMaxWidth(),
+                style = HuntStyle.DANGER,
+                sfx = Sfx.OPEN,
+                minHeight = 44.dp,
+                fontSize = 13,
+            )
         }
         u.enterTarget()?.let { id ->
-            GameButton(
-                stringResource(if (t.id == GameThemeId.SYSTEM) R.string.map_enter_gate else R.string.map_enter_station),
+            HuntButton(
+                stringResource(if (t.id == GameThemeId.SYSTEM) R.string.map_enter_gate else R.string.map_enter_station).uppercase(),
                 onClick = { actions.onOpenLesson(id) },
+                modifier = Modifier.fillMaxWidth().then(if (u.state == UnitState.ACTIVE) Modifier.pulseRing(t.accent, t.shape(12.dp)) else Modifier),
+                icon = Icons.Filled.Bolt,
+                sfx = Sfx.OPEN,
             )
         }
     }
@@ -193,10 +218,14 @@ private fun UnitPanel(u: UnitRow, actions: MapActions, borderColor: Color? = nul
 @Composable
 private fun LessonLine(row: LessonRow, actions: MapActions) {
     val t = LocalGameTokens.current
+    val feedback = LocalGameFeedback.current
     Column(
         Modifier
             .fillMaxWidth()
-            .clickable(enabled = row.available, role = Role.Button) { actions.onOpenLesson(row.entry.id) }
+            .clickable(enabled = row.available, role = Role.Button) {
+                feedback.play(Sfx.TAP)
+                actions.onOpenLesson(row.entry.id)
+            }
             .padding(vertical = 4.dp),
         verticalArrangement = Arrangement.spacedBy(6.dp),
     ) {
@@ -211,9 +240,16 @@ private fun LessonLine(row: LessonRow, actions: MapActions) {
                 fontSize = 12.sp,
             )
         }
-        ProgressBar(row.percent / 100f)
+        GlowBar(row.percent / 100f, height = 5)
         if (row.available && row.status == LessonStatus.PASSED) {
-            TextButton(onClick = { actions.onQuickCheck(row.entry.id) }) { Text(stringResource(R.string.map_quick_check)) }
+            HuntButton(
+                stringResource(R.string.map_quick_check),
+                onClick = { actions.onQuickCheck(row.entry.id) },
+                style = HuntStyle.SECONDARY,
+                minHeight = 38.dp,
+                fontSize = 12,
+                horizontalPadding = 12.dp,
+            )
         }
     }
 }
@@ -222,7 +258,7 @@ private fun LessonLine(row: LessonRow, actions: MapActions) {
 @Composable
 fun FinalCard(best: Int, lessonsDone: Int, lessonsTotal: Int, onStart: () -> Unit) {
     val t = LocalGameTokens.current
-    GamePanel(null, borderColor = t.top) {
+    HuntPanel(accent = t.top) {
         Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(14.dp)) {
             RankBadge("S+", BadgeState.ACTIVE, size = 30.dp)
             Column {
@@ -234,6 +270,12 @@ fun FinalCard(best: Int, lessonsDone: Int, lessonsTotal: Int, onStart: () -> Uni
         if (lessonsDone < lessonsTotal) {
             Text(stringResource(R.string.final_recommend, lessonsDone, lessonsTotal), color = t.muted, fontSize = 12.sp)
         }
-        GameButton(stringResource(R.string.final_start), onClick = onStart)
+        HuntButton(
+            stringResource(R.string.final_start).uppercase(),
+            onClick = onStart,
+            modifier = Modifier.fillMaxWidth(),
+            style = HuntStyle.GOLD,
+            sfx = Sfx.OPEN,
+        )
     }
 }

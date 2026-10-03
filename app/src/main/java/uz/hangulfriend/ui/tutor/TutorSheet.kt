@@ -43,6 +43,8 @@ import uz.hangulfriend.ai.ChatMessage
 import uz.hangulfriend.ai.TutorService
 import uz.hangulfriend.ai.cleanAiText
 import com.mikepenz.markdown.m3.markdownTypography
+import uz.hangulfriend.ui.theme.LocalGameTokens
+import androidx.compose.ui.text.font.FontWeight
 import uz.hangulfriend.ui.theme.WrongRed
 
 val LocalTutor = staticCompositionLocalOf<TutorService?> { null }
@@ -104,7 +106,7 @@ fun TutorSheet(system: String, firstQuestion: String, onDismiss: () -> Unit) {
                                 )
                                 .padding(12.dp),
                         ) {
-                            if (m.fromUser) Text(text) else Markdown(content = cleanAiText(text), typography = chatTypography())
+                            if (m.fromUser) Text(text) else Markdown(content = cleanAiText(text), typography = compactMarkdownTypography())
                         }
                     }
                 }
@@ -130,8 +132,11 @@ fun TutorSheet(system: String, firstQuestion: String, onDismiss: () -> Unit) {
     }
 }
 
-/** Chat bubbles are narrow, so headings stay close to body size instead of the default display sizes. */
+/** Headings close to body size instead of the default display sizes: chat bubbles and grammar notes. */
 @Composable
-private fun chatTypography() = with(MaterialTheme.typography) {
-    markdownTypography(h1 = titleLarge, h2 = titleMedium, h3 = titleSmall, h4 = titleSmall, h5 = titleSmall, h6 = titleSmall)
+fun compactMarkdownTypography() = with(MaterialTheme.typography) {
+    val accent = LocalGameTokens.current.accent
+    val big = titleLarge.copy(fontWeight = FontWeight.Bold, color = accent)
+    val small = titleMedium.copy(fontWeight = FontWeight.Bold, color = accent)
+    markdownTypography(h1 = big, h2 = big, h3 = small, h4 = small, h5 = small, h6 = small)
 }

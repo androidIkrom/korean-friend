@@ -8,6 +8,7 @@ import uz.hangulfriend.content.Character
 import uz.hangulfriend.content.ContentRepository
 import uz.hangulfriend.content.Lesson
 import uz.hangulfriend.data.CardOrigin
+import uz.hangulfriend.data.LessonStatus
 import uz.hangulfriend.data.ProgressRepository
 import uz.hangulfriend.data.StudyRepository
 
@@ -19,7 +20,23 @@ data class LessonState(
     val lesson: Lesson? = null,
     val stage: Int = 0,
     val characters: Map<String, Character> = emptyMap(),
+    val status: LessonStatus = LessonStatus.NOT_STARTED,
 )
+
+/** How a floor of the lesson gate looks. Floors are never locked. */
+enum class FloorState { CLEARED, CURRENT, OPEN }
+
+/** Floors before the current stage are cleared; a finished lesson shows every floor cleared. */
+fun floorStates(stage: Int, status: LessonStatus): List<FloorState> {
+    val done = status == LessonStatus.COMPLETED || status == LessonStatus.VERIFIED
+    return List(STAGE_COUNT) { i ->
+        when {
+            i == stage -> FloorState.CURRENT
+            done || i < stage -> FloorState.CLEARED
+            else -> FloorState.OPEN
+        }
+    }
+}
 
 class LessonController(
     private val lessonId: String,
@@ -41,12 +58,20 @@ class LessonController(
         study.ensureCards(lesson, order, CardOrigin.LESSON)
         val stage = progress.observeAll().first()[lessonId]?.stage ?: 0
         progress.setStage(lessonId, stage)
+        val status = progress.observeAll().first().getValue(lessonId).status
         _state.value = LessonState(
             loading = false,
             lesson = lesson,
             stage = stage,
             characters = content.characters().associateBy { it.id },
+            status = status,
         )
+    }
+
+    /** Re-reads the lesson status, e.g. after the test session passed it. */
+    suspend fun refreshStatus() {
+        val status = progress.observeAll().first()[lessonId]?.status ?: return
+        _state.update { it.copy(status = status) }
     }
 
     suspend fun goToStage(stage: Int) {

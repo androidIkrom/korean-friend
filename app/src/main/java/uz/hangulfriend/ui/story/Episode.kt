@@ -10,7 +10,6 @@ import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
-import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.lazy.LazyColumn
@@ -28,12 +27,11 @@ import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.draw.alpha
 import androidx.compose.ui.res.stringResource
-import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
@@ -68,7 +66,17 @@ import uz.hangulfriend.ui.theme.GameBackground
 import uz.hangulfriend.ui.theme.GameButton
 import uz.hangulfriend.ui.theme.GamePanel
 import uz.hangulfriend.ui.theme.LocalGameTokens
-import uz.hangulfriend.ui.theme.ProgressBar
+import uz.hangulfriend.ui.kit.FloorBar
+import uz.hangulfriend.ui.kit.GateRays
+import uz.hangulfriend.ui.kit.GlowBar
+import uz.hangulfriend.ui.kit.Gold
+import uz.hangulfriend.ui.kit.HuntButton
+import uz.hangulfriend.ui.kit.HuntPanel
+import uz.hangulfriend.ui.kit.HuntStyle
+import uz.hangulfriend.ui.kit.LocalGameFeedback
+import uz.hangulfriend.ui.kit.OptionState
+import uz.hangulfriend.ui.kit.OptionTile
+import uz.hangulfriend.ui.kit.Sfx
 
 /** One clip to play; [id] grows with every new clip so a rotation does not replay the last one. */
 data class SpeakEvent(val id: Int, val file: String)
@@ -179,8 +187,9 @@ fun EpisodeScreen(vm: EpisodeViewModel, onClose: () -> Unit) {
                 IconButton(onClick = onClose) {
                     Icon(Icons.Filled.Close, contentDescription = stringResource(R.string.story_close), tint = t.text)
                 }
-                ProgressBar(p.progress, Modifier.weight(1f))
-                meta?.let { Text("${p.shown.size}/${it.total}", color = t.muted, fontSize = 12.sp) }
+                val total = meta?.total
+                if (total != null) FloorBar(p.shown.size, total, Modifier.weight(1f)) else GlowBar(p.progress, Modifier.weight(1f))
+                meta?.let { Text("${p.shown.size}/${it.total}", color = t.muted, fontFamily = t.display, fontSize = 12.sp) }
             }
             meta?.let {
                 Text(
@@ -210,8 +219,8 @@ fun EpisodeScreen(vm: EpisodeViewModel, onClose: () -> Unit) {
             }
             when (val step = p.current) {
                 is StoryLine -> GameButton(stringResource(R.string.story_next), onClick = vm::next)
-                is ChooseReply -> Choices(step.promptUz, step.options, p.eliminated, p.lastWrongWhy, vm::choose)
-                is StoryQuiz -> Choices(step.promptUz, step.options, p.eliminated, p.lastWrongWhy, vm::choose)
+                is ChooseReply -> Choices(step.promptUz, step.options, step.answer, p.eliminated, p.lastWrongWhy, vm::choose)
+                is StoryQuiz -> Choices(step.promptUz, step.options, step.answer, p.eliminated, p.lastWrongWhy, vm::choose)
                 null -> Finish(xp, onClose)
             }
         }
@@ -251,46 +260,74 @@ private fun Line(name: String, ko: String, uz: String, audio: String?, mine: Boo
     }
 }
 
+/** Lettered answer tiles; a wrong pick turns red and stays out of play. Each pick plays its hit sound. */
 @Composable
-private fun Choices(prompt: String, options: List<String>, eliminated: Set<String>, why: String?, onChoose: (String) -> Unit) {
+private fun Choices(
+    prompt: String,
+    options: List<String>,
+    answer: String,
+    eliminated: Set<String>,
+    why: String?,
+    onChoose: (String) -> Unit,
+) {
     val t = LocalGameTokens.current
-    GamePanel(stringResource(R.string.episode_choice)) {
-        Text(prompt, color = t.text)
+    val feedback = LocalGameFeedback.current
+    HuntPanel(title = stringResource(R.string.episode_choice), scan = true) {
+        Text(prompt, color = t.text, fontWeight = FontWeight.SemiBold)
         options.forEachIndexed { i, option ->
-            val enabled = option !in eliminated
-            val shape = RoundedCornerShape(t.panelCorner)
-            Row(
-                Modifier
-                    .fillMaxWidth()
-                    .heightIn(min = 52.dp)
-                    .alpha(if (enabled) 1f else 0.4f)
-                    .background(t.accent.copy(alpha = 0.08f), shape)
-                    .border(1.dp, t.panelBorder, shape)
-                    .clickable(enabled = enabled, role = Role.Button) { onChoose(option) }
-                    .padding(horizontal = 14.dp, vertical = 10.dp),
-                verticalAlignment = Alignment.CenterVertically,
-                horizontalArrangement = Arrangement.spacedBy(12.dp),
-            ) {
-                Text("${i + 1}", color = t.accent, fontFamily = t.display, fontWeight = FontWeight.Bold)
-                Text(option, color = t.text, fontSize = 17.sp)
-            }
+            val out = option in eliminated
+            OptionTile(
+                text = option,
+                onClick = {
+                    feedback.play(if (option == answer) Sfx.CORRECT else Sfx.WRONG)
+                    onChoose(option)
+                },
+                state = if (out) OptionState.WRONG else OptionState.IDLE,
+                letter = 'A' + i,
+                enabled = !out,
+            )
         }
         why?.let { Text("❌ $it", color = t.danger) }
     }
 }
 
+/** The episode's reward: rays behind the gold XP, the CLEAR sound once, and a gold close button. */
 @Composable
 private fun Finish(xp: Int?, onClose: () -> Unit) {
     val t = LocalGameTokens.current
-    GamePanel(null) {
+    val feedback = LocalGameFeedback.current
+    var cheered by rememberSaveable { mutableStateOf(false) }
+    LaunchedEffect(xp) {
+        if (!cheered && xp != null) {
+            cheered = true
+            feedback.play(if (xp > 0) Sfx.CLEAR else Sfx.XP)
+        }
+    }
+    HuntPanel(accent = Gold) {
         Column(Modifier.fillMaxWidth(), horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(8.dp)) {
-            Text(stringResource(R.string.story_finish_title), color = t.text, fontFamily = t.display, fontWeight = FontWeight.Bold, fontSize = 20.sp)
-            when {
-                xp == null -> CircularProgressIndicator()
-                xp > 0 -> Text(stringResource(R.string.story_xp, xp), color = t.accent, fontFamily = t.display, fontSize = 24.sp)
-                else -> Text(stringResource(R.string.story_replayed), color = t.muted)
+            Text(
+                stringResource(R.string.story_finish_title).uppercase(),
+                color = t.text,
+                fontFamily = t.display,
+                fontWeight = FontWeight.Bold,
+                fontSize = 20.sp,
+                letterSpacing = 2.sp,
+            )
+            Box(Modifier.size(150.dp, 90.dp), contentAlignment = Alignment.Center) {
+                GateRays(Gold.copy(alpha = 0.3f), Modifier.size(150.dp))
+                when {
+                    xp == null -> CircularProgressIndicator()
+                    xp > 0 -> Text(stringResource(R.string.story_xp, xp), color = Gold, fontFamily = t.display, fontWeight = FontWeight.Bold, fontSize = 28.sp)
+                    else -> Text(stringResource(R.string.story_replayed), color = t.muted)
+                }
             }
         }
-        GameButton(stringResource(R.string.story_close), onClick = onClose)
+        HuntButton(
+            stringResource(R.string.story_close).uppercase(),
+            onClick = onClose,
+            modifier = Modifier.fillMaxWidth(),
+            style = HuntStyle.GOLD,
+            sfx = Sfx.XP,
+        )
     }
 }

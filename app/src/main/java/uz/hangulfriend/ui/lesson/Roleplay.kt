@@ -6,9 +6,7 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
-import androidx.compose.material3.Button
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
@@ -31,6 +29,8 @@ import uz.hangulfriend.ui.LocalAudioPlayer
 import uz.hangulfriend.ui.exercise.LocalSpeechInput
 import uz.hangulfriend.ui.exercise.SpeakPanel
 import uz.hangulfriend.ui.exercise.speakErrorText
+import uz.hangulfriend.ui.kit.HuntButton
+import uz.hangulfriend.ui.kit.HuntStyle
 import uz.hangulfriend.ui.theme.GameCard
 
 data class RoleplayStep(val index: Int, val line: Line, val mine: Boolean)
@@ -60,7 +60,7 @@ fun RoleplayView(lesson: Lesson, characters: Map<String, Character>) {
         if (chosen == null) {
             Text(stringResource(R.string.roleplay_choose), style = MaterialTheme.typography.titleMedium)
             speakers(lesson.dialogue.lines).forEach { id ->
-                OutlinedButton(onClick = { role = id; index = 0 }, modifier = Modifier.fillMaxWidth()) { Text(name(id)) }
+                HuntButton(name(id), onClick = { role = id; index = 0 }, modifier = Modifier.fillMaxWidth(), style = HuntStyle.SECONDARY)
             }
             return@Column
         }
@@ -69,10 +69,13 @@ fun RoleplayView(lesson: Lesson, characters: Map<String, Character>) {
         val step = steps.getOrNull(index)
         if (step == null) {
             Text(stringResource(R.string.roleplay_done), style = MaterialTheme.typography.titleLarge)
-            Button(onClick = { index = 0 }, modifier = Modifier.fillMaxWidth()) { Text(stringResource(R.string.roleplay_again)) }
-            OutlinedButton(onClick = { role = null }, modifier = Modifier.fillMaxWidth()) {
-                Text(stringResource(R.string.roleplay_other))
-            }
+            HuntButton(stringResource(R.string.roleplay_again), onClick = { index = 0 }, modifier = Modifier.fillMaxWidth())
+            HuntButton(
+                stringResource(R.string.roleplay_other),
+                onClick = { role = null },
+                modifier = Modifier.fillMaxWidth(),
+                style = HuntStyle.SECONDARY,
+            )
             return@Column
         }
         key(index) { RoleplayTurn(step, name(step.line.speaker)) { index++ } }
@@ -93,7 +96,7 @@ private fun RoleplayTurn(step: RoleplayStep, speaker: String, onNext: () -> Unit
                 Text(step.line.ko, style = MaterialTheme.typography.headlineSmall)
                 AudioButton(step.line.audio)
             }
-            Button(onClick = onNext, modifier = Modifier.fillMaxWidth()) { Text(stringResource(R.string.ex_next)) }
+            HuntButton(stringResource(R.string.ex_next).uppercase(), onClick = onNext, modifier = Modifier.fillMaxWidth())
         }
     }
 }
