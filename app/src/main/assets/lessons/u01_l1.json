@@ -1317,6 +1317,8 @@
   "story": {
     "title_uz": "Oila surati",
     "title_en": "The family photo",
+    "gate_uz": "OILA",
+    "gate_en": "FAMILY",
     "steps": [
       {
         "type": "line",

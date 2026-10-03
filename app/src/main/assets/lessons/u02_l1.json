@@ -1379,6 +1379,8 @@
   "story": {
     "title_uz": "Do'kondagi birinchi kun",
     "title_en": "First day at the shop",
+    "gate_uz": "DO'KON",
+    "gate_en": "SHOP",
     "steps": [
       {
         "type": "line",

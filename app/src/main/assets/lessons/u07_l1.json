@@ -1306,6 +1306,8 @@
   "story": {
     "title_uz": "Palov bazmi",
     "title_en": "The plov party",
+    "gate_uz": "BAZM",
+    "gate_en": "PARTY",
     "steps": [
       {
         "type": "line",

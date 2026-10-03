@@ -1333,6 +1333,8 @@
   "story": {
     "title_uz": "Buvining kasbi",
     "title_en": "Grandma's job",
+    "gate_uz": "KASB",
+    "gate_en": "JOB",
     "steps": [
       {
         "type": "line",

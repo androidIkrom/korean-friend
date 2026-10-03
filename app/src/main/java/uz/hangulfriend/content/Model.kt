@@ -95,6 +95,9 @@ data class Story(
     @SerialName("title_uz") val titleUz: String,
     val steps: List<StoryStep>,
     @SerialName("title_en") val titleEn: String? = null,
+    /** The place name glowing over the episode's gate, in capitals ("BOZOR"). */
+    @SerialName("gate_uz") val gateUz: String? = null,
+    @SerialName("gate_en") val gateEn: String? = null,
 )
 
 /** One beat of a story episode; the JSON `type` field picks the subclass. */

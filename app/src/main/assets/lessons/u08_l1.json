@@ -1399,6 +1399,8 @@
   "story": {
     "title_uz": "Vatanni sog'inganda",
     "title_en": "When you miss home",
+    "gate_uz": "VATAN",
+    "gate_en": "HOME",
     "steps": [
       {
         "type": "line",

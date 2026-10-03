@@ -1319,6 +1319,8 @@
   "story": {
     "title_uz": "Ustozga qo'ng'iroq",
     "title_en": "A call to the teacher",
+    "gate_uz": "QO'NG'IROQ",
+    "gate_en": "CALL",
     "steps": [
       {
         "type": "line",

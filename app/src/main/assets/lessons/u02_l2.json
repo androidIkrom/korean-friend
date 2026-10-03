@@ -1379,6 +1379,8 @@
   "story": {
     "title_uz": "Qaysi palto yaxshiroq?",
     "title_en": "Which coat is better?",
+    "gate_uz": "KIYIM",
+    "gate_en": "CLOTHES",
     "steps": [
       {
         "type": "line",

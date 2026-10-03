@@ -1333,6 +1333,8 @@
   "story": {
     "title_uz": "Jeju sayohati rejasi",
     "title_en": "Planning a trip to Jeju",
+    "gate_uz": "JEJU",
+    "gate_en": "JEJU",
     "steps": [
       {
         "type": "line",

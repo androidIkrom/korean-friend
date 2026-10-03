@@ -1307,6 +1307,8 @@
   "story": {
     "title_uz": "Vatanga posilka",
     "title_en": "A parcel for home",
+    "gate_uz": "POCHTA",
+    "gate_en": "POST",
     "steps": [
       {
         "type": "line",

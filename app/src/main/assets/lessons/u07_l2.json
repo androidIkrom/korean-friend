@@ -1326,6 +1326,8 @@
   "story": {
     "title_uz": "Achchiq tteokbokki",
     "title_en": "Spicy tteokbokki",
+    "gate_uz": "BUNSIK",
+    "gate_en": "BUNSIK",
     "steps": [
       {
         "type": "line",

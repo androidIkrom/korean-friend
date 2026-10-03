@@ -1336,6 +1336,8 @@
   "story": {
     "title_uz": "Yotoqxona qoidalari",
     "title_en": "Dormitory rules",
+    "gate_uz": "YOTOQXONA",
+    "gate_en": "DORM",
     "steps": [
       {
         "type": "line",

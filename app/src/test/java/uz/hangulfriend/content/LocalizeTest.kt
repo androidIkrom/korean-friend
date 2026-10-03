@@ -35,6 +35,8 @@ class LocalizeTest {
         story = Story(
             titleUz = "Do'konda",
             titleEn = "At the shop",
+            gateUz = "DO'KON",
+            gateEn = "SHOP",
             steps = listOf(
                 StoryLine("minji", "안녕하세요", "Salom", en = "Hello"),
                 ChooseReply("aziz", "Nima deydi?", listOf("네", "아니요", "몰라요"), "네", "Ha", "Rozi", promptEn = "What does he say?", en = "Yes", whyEn = "He agrees"),
@@ -64,6 +66,7 @@ class LocalizeTest {
         assertEquals("Try it on", l.exercises.first { it.type == ExerciseType.TRANSLATE }.sourceUz)
         val story = l.story!!
         assertEquals("At the shop", story.titleUz)
+        assertEquals("SHOP", story.gateUz)
         assertEquals("Hello", (story.steps[0] as StoryLine).uz)
         val reply = story.steps[1] as ChooseReply
         assertEquals(listOf("What does he say?", "Yes", "He agrees"), listOf(reply.promptUz, reply.uz, reply.whyUz))

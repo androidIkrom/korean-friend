@@ -1310,6 +1310,8 @@
   "story": {
     "title_uz": "Dorixonani qidirib",
     "title_en": "Looking for a pharmacy",
+    "gate_uz": "DORIXONA",
+    "gate_en": "PHARMACY",
     "steps": [
       {
         "type": "line",

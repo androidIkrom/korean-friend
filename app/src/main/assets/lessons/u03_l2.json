@@ -1312,6 +1312,8 @@
   "story": {
     "title_uz": "Pusan bozorida",
     "title_en": "At a market in Busan",
+    "gate_uz": "BOZOR",
+    "gate_en": "MARKET",
     "steps": [
       {
         "type": "line",
