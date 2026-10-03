@@ -61,6 +61,7 @@ import uz.hangulfriend.ui.theme.LocalGameTokens
 import uz.hangulfriend.ui.theme.WrongRed
 import uz.hangulfriend.ui.tutor.LocalTutor
 import uz.hangulfriend.ui.tutor.TutorSheet
+import uz.hangulfriend.ui.tutor.compactMarkdownTypography
 
 /** Pages through the stage; the last page's "next" moves to the following stage. */
 @Composable
@@ -195,7 +196,7 @@ private fun GrammarPage(g: Grammar) {
                 }
             }
         }
-        Markdown(content = g.explanationMd)
+        Markdown(content = g.explanationMd, typography = compactMarkdownTypography())
         SectionTitle(R.string.grammar_examples)
         g.examples.forEach { e ->
             Row(verticalAlignment = Alignment.CenterVertically) {

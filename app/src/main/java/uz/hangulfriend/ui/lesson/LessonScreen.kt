@@ -29,6 +29,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.drawBehind
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.compositeOver
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.semantics.contentDescription
@@ -252,7 +253,7 @@ private fun FloorTile(index: Int, state: FloorState, label: String, modifier: Mo
             Modifier
                 .size(width = 52.dp, height = 44.dp)
                 .then(if (current) Modifier.shapeGlow(color.copy(alpha = 0.6f), shape, 12.dp).pulseRing(color, shape) else Modifier)
-                .background(if (state == FloorState.OPEN) t.background else color.copy(alpha = if (current) 0.28f else 0.16f), shape)
+                .background(if (state == FloorState.OPEN) t.background else color.copy(alpha = if (current) 0.28f else 0.16f).compositeOver(t.background), shape)
                 .border(if (current) 2.dp else 1.dp, color.copy(alpha = if (state == FloorState.OPEN) 0.5f else 1f), shape),
             contentAlignment = Alignment.Center,
         ) {

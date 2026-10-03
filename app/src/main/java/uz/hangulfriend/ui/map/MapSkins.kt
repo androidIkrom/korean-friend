@@ -18,7 +18,6 @@ import androidx.compose.foundation.layout.width
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Bolt
 import androidx.compose.material.icons.filled.ChevronRight
-import androidx.compose.material.icons.filled.Whatshot
 import androidx.compose.material.icons.filled.Lock
 import androidx.compose.material3.Icon
 import androidx.compose.material3.Text
@@ -199,7 +198,6 @@ private fun UnitPanel(u: UnitRow, actions: MapActions, borderColor: Color? = nul
                 onClick = { actions.onBoss(u.unit) },
                 modifier = Modifier.fillMaxWidth(),
                 style = HuntStyle.DANGER,
-                icon = Icons.Filled.Whatshot,
                 sfx = Sfx.OPEN,
                 minHeight = 44.dp,
                 fontSize = 13,
