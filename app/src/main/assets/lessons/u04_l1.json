@@ -1309,6 +1309,8 @@
   "story": {
     "title_uz": "Tennis to'garagi",
     "title_en": "The tennis club",
+    "gate_uz": "TENNIS",
+    "gate_en": "TENNIS",
     "steps": [
       {
         "type": "line",

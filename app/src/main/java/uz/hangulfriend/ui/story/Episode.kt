@@ -88,8 +88,11 @@ class PlayOnce {
     fun shouldPlay(id: Int): Boolean = (id > last).also { if (it) last = id }
 }
 
-/** Header facts of the episode: its number in the book, its title and its step count. */
-data class EpisodeMeta(val number: Int, val title: String, val total: Int)
+/**
+ * Header facts of the episode: its number in the book, its title, its step count, and the place name over
+ * its gate (null draws no gate). [seed] keeps each lesson's gate scene the same every time.
+ */
+data class EpisodeMeta(val number: Int, val title: String, val total: Int, val gate: String? = null, val seed: Int = 0)
 
 class EpisodeViewModel(
     private val lessonId: String,
@@ -131,7 +134,7 @@ class EpisodeViewModel(
             _rank.value = RankRules.rankFor(GameRules.level(game.observeTotalXp().first()).level)
             val s = withContext(Dispatchers.IO) { content.lesson(lessonId)?.story } ?: return@launch
             val number = content.catalog().indexOfFirst { it.id == lessonId } + 1
-            _meta.value = EpisodeMeta(number, s.titleUz, s.steps.size)
+            _meta.value = EpisodeMeta(number, s.titleUz, s.steps.size, s.gateUz, lessonId.hashCode())
             update(StoryPlayer(s))
         }
     }
@@ -204,11 +207,18 @@ fun EpisodeScreen(vm: EpisodeViewModel, onClose: () -> Unit) {
                 )
             }
             val speaker = speakerOf(p.shown)
-            Box(Modifier.fillMaxWidth().height(180.dp), contentAlignment = Alignment.BottomCenter) {
-                when {
-                    speaker == null -> Unit
-                    speaker == "aziz" -> Avatar(rank, HeroGender.BOY, Modifier.size(150.dp, 180.dp))
-                    else -> SpeakerArt(vm.voices[speaker].orEmpty(), Modifier.size(150.dp, 180.dp))
+            val gate = meta?.gate
+            Box(Modifier.fillMaxWidth().height(if (gate != null) GATE_STAGE else 180.dp)) {
+                if (gate != null) GateScene(meta?.seed ?: 0, Modifier.matchParentSize())
+                Column(Modifier.fillMaxSize(), horizontalAlignment = Alignment.CenterHorizontally) {
+                    if (gate != null) GateTitle(gate)
+                    Box(Modifier.fillMaxWidth().weight(1f), contentAlignment = Alignment.BottomCenter) {
+                        when {
+                            speaker == null -> Unit
+                            speaker == "aziz" -> Avatar(rank, HeroGender.BOY, Modifier.size(150.dp, 180.dp))
+                            else -> SpeakerArt(vm.voices[speaker].orEmpty(), Modifier.size(150.dp, 180.dp))
+                        }
+                    }
                 }
             }
             LazyColumn(Modifier.weight(1f), state = list, verticalArrangement = Arrangement.spacedBy(8.dp)) {
@@ -331,3 +341,6 @@ private fun Finish(xp: Int?, onClose: () -> Unit) {
         )
     }
 }
+
+/** Height of the gate stage: the place name, the speaker and the steps of the gate under them. */
+private val GATE_STAGE = 290.dp

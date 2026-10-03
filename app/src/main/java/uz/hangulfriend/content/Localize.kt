@@ -17,7 +17,9 @@ fun Lesson.localized(lang: AppLanguage): Lesson = if (lang == AppLanguage.UZ) th
     grammar = grammar.map { it.localizedEn() },
     dialogue = Dialogue(dialogue.lines.map { it.copy(uz = it.uz.or(it.en)) }),
     exercises = exercises.map { it.localized(lang) },
-    story = story?.let { s -> s.copy(titleUz = s.titleUz.or(s.titleEn), steps = s.steps.map { it.localizedEn() }) },
+    story = story?.let { s ->
+        s.copy(titleUz = s.titleUz.or(s.titleEn), gateUz = s.gateEn ?: s.gateUz, steps = s.steps.map { it.localizedEn() })
+    },
 )
 
 private fun Grammar.localizedEn() = copy(

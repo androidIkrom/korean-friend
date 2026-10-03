@@ -2,6 +2,9 @@ package uz.hangulfriend.content
 
 /** Checks content rules that the JSON schema alone cannot express. Errors are "<id>: <reason>". */
 object LessonValidator {
+    /** Longest gate name that still fits over the gate at phone width. */
+    const val GATE_MAX = 10
+
     fun validate(lessons: List<Lesson>): List<String> {
         val errors = mutableListOf<String>()
         val seen = mutableSetOf<String>()
@@ -80,6 +83,11 @@ object LessonValidator {
         // The learner always replies as Aziz, the story's hero.
         if (story.steps.any { it is ChooseReply && it.speaker != "aziz" }) err("choose_reply speaker must be aziz")
         if (story.steps.firstOrNull() !is StoryLine) err("first step must be a line")
+        val gate = story.gateUz
+        when {
+            gate.isNullOrBlank() -> err("needs gate_uz")
+            gate.length > GATE_MAX || gate != gate.uppercase() -> err("gate_uz must be capitals, at most $GATE_MAX characters")
+        }
         story.steps.forEachIndexed { i, step ->
             val (options, answer) = when (step) {
                 is ChooseReply -> step.options to step.answer
@@ -115,6 +123,7 @@ object LessonValidator {
         lesson.exercises.forEach { errors += exerciseEnglishErrors(it) }
         lesson.story?.let { s ->
             need(lesson.id, "story.title_en", s.titleUz, s.titleEn)
+            need(lesson.id, "story.gate_en", s.gateUz, s.gateEn)
             s.steps.forEachIndexed { i, step ->
                 val at = "${lesson.id}: story[$i]"
                 when (step) {

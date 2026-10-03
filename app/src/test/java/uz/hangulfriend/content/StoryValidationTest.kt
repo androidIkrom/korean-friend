@@ -19,7 +19,7 @@ class StoryValidationTest {
 
     private val quiz = StoryQuiz("Minji qayerga bordi?", listOf("Do'kon", "Maktab", "Uy"), "Do'kon", "가게 = do'kon.")
 
-    private fun story(steps: List<StoryStep>) = Story("Sinov", steps)
+    private fun story(steps: List<StoryStep>) = Story("Sinov", steps, gateUz = "SINOV")
 
     private val valid = story((1..10).map(::line) + choose + quiz)
 
@@ -41,6 +41,13 @@ class StoryValidationTest {
 
     @Test fun storyTooManyInteractive() =
         assertStoryError(story((1..10).map(::line) + choose + quiz + quiz + quiz), "2–3 interactive steps")
+
+    @Test fun storyNeedsGate() = assertStoryError(valid.copy(gateUz = null), "needs gate_uz")
+
+    @Test fun storyGateIsShortCapitals() {
+        assertStoryError(valid.copy(gateUz = "Bozor"), "gate_uz must be capitals")
+        assertStoryError(valid.copy(gateUz = "UZUNDAN-UZUN-NOM"), "gate_uz must be capitals")
+    }
 
     @Test fun storyFirstStepMustBeLine() =
         assertStoryError(story(listOf(choose) + (1..10).map(::line) + quiz), "first step must be a line")

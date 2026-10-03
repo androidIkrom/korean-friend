@@ -1322,6 +1322,8 @@
   "story": {
     "title_uz": "Kafeda birga o'qish",
     "title_en": "Studying together at a café",
+    "gate_uz": "KAFE",
+    "gate_en": "CAFE",
     "steps": [
       {
         "type": "line",

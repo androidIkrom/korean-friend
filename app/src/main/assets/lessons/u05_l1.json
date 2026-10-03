@@ -1311,6 +1311,8 @@
   "story": {
     "title_uz": "Bankda hisob ochish",
     "title_en": "Opening an account at the bank",
+    "gate_uz": "BANK",
+    "gate_en": "BANK",
     "steps": [
       {
         "type": "line",

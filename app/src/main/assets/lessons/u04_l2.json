@@ -1313,6 +1313,8 @@
   "story": {
     "title_uz": "Bo'sh vaqtda nima qilasiz?",
     "title_en": "What do you do in your free time?",
+    "gate_uz": "XOBBI",
+    "gate_en": "HOBBY",
     "steps": [
       {
         "type": "line",
