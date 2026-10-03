@@ -4,6 +4,20 @@
     <string name="lang_code">en</string>
 
     <string name="nav_home">Home</string>
+    <string name="dock_lobby">Lobby</string>
+    <string name="rail_quest">Quest</string>
+    <string name="rail_words">Words</string>
+    <string name="rail_errors">Errors</string>
+    <string name="rail_arena">Arena</string>
+    <string name="rail_badges">Badges</string>
+    <string name="rail_share">Share</string>
+    <string name="lobby_rank_line">%1$s-rank · %2$s</string>
+    <string name="lobby_gate_label">Gate %1$d-%2$d · %3$s</string>
+    <string name="hud_due">%1$d due</string>
+    <string name="dock_gates">Gates</string>
+    <string name="dock_story">Story</string>
+    <string name="dock_system">System</string>
+    <string name="dock_hunt">Hunt</string>
     <string name="nav_book">Map</string>
     <string name="nav_stories">Stories</string>
     <string name="nav_settings">Settings</string>
@@ -222,6 +236,12 @@
     <string name="avatar_new_hair_light">Light in the hair</string>
     <string name="avatar_new_companions">Companions</string>
     <string name="settings_language">Language</string>
+    <string name="settings_section_hunter">Hunter</string>
+    <string name="settings_section_targets">Daily targets</string>
+    <string name="settings_section_feedback">Sound and haptics</string>
+    <string name="settings_section_data">Data</string>
+    <string name="settings_sound">Sound effects</string>
+    <string name="settings_haptics">Haptics</string>
     <string name="settings_theme">Interface style</string>
     <string name="theme_system">System</string>
     <string name="theme_neon">Neon Seoul</string>

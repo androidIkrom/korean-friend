@@ -13,9 +13,7 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.Switch
 import androidx.compose.material3.Text
-import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -28,6 +26,10 @@ import androidx.compose.ui.res.stringResource
 import androidx.core.content.ContextCompat
 import androidx.lifecycle.compose.LifecycleResumeEffect
 import uz.hangulfriend.R
+import uz.hangulfriend.ui.kit.HuntButton
+import uz.hangulfriend.ui.kit.HuntStyle
+import uz.hangulfriend.ui.kit.HuntToggle
+import androidx.compose.ui.unit.dp
 import uz.hangulfriend.data.Settings
 import uz.hangulfriend.reminders.ReminderPolicy
 
@@ -51,24 +53,37 @@ fun ReminderRow(settings: Settings, onChange: (enabled: Boolean, minutes: Int) -
         onPauseOrDispose { }
     }
     Column {
-        Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.SpaceBetween) {
-            Text(stringResource(R.string.settings_reminder), style = MaterialTheme.typography.titleMedium)
-            Switch(checked = settings.reminderEnabled, onCheckedChange = { on -> if (on) enable() else onChange(false, settings.reminderMinutes) })
-        }
+        HuntToggle(
+            settings.reminderEnabled,
+            { on -> if (on) enable() else onChange(false, settings.reminderMinutes) },
+            stringResource(R.string.settings_reminder),
+        )
         if (settings.reminderEnabled) {
             val h = settings.reminderMinutes / 60
             val m = settings.reminderMinutes % 60
-            TextButton(onClick = {
-                TimePickerDialog(context, { _, hh, mm -> onChange(true, hh * 60 + mm) }, h, m, true).show()
-            }) { Text(stringResource(R.string.settings_reminder_time, "%02d:%02d".format(h, m))) }
+            HuntButton(
+                stringResource(R.string.settings_reminder_time, "%02d:%02d".format(h, m)),
+                { TimePickerDialog(context, { _, hh, mm -> onChange(true, hh * 60 + mm) }, h, m, true).show() },
+                Modifier.fillMaxWidth(),
+                style = HuntStyle.SECONDARY,
+                minHeight = 44.dp,
+                fontSize = 13,
+            )
         }
         if (denied) {
             Text(stringResource(R.string.settings_reminder_denied), color = MaterialTheme.colorScheme.error)
-            TextButton(onClick = {
-                context.startActivity(
-                    Intent(AndroidSettings.ACTION_APP_NOTIFICATION_SETTINGS).putExtra(AndroidSettings.EXTRA_APP_PACKAGE, context.packageName),
-                )
-            }) { Text(stringResource(R.string.settings_reminder_open)) }
+            HuntButton(
+                stringResource(R.string.settings_reminder_open),
+                {
+                    context.startActivity(
+                        Intent(AndroidSettings.ACTION_APP_NOTIFICATION_SETTINGS).putExtra(AndroidSettings.EXTRA_APP_PACKAGE, context.packageName),
+                    )
+                },
+                Modifier.fillMaxWidth(),
+                style = HuntStyle.SECONDARY,
+                minHeight = 44.dp,
+                fontSize = 13,
+            )
         }
     }
 }

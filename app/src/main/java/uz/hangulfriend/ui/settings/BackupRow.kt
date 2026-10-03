@@ -9,7 +9,6 @@ import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.material3.AlertDialog
-import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
@@ -28,6 +27,8 @@ import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import uz.hangulfriend.R
 import uz.hangulfriend.data.BackupCodec
+import uz.hangulfriend.ui.kit.HuntButton
+import uz.hangulfriend.ui.kit.HuntStyle
 import uz.hangulfriend.data.BackupFile
 import uz.hangulfriend.data.BackupResult
 import uz.hangulfriend.data.BackupService
@@ -61,12 +62,22 @@ fun BackupRow(backup: BackupService) {
     }
 
     Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-        OutlinedButton(onClick = { save.launch("hangul-friend-${LocalDate.now()}.json") }, modifier = Modifier.weight(1f)) {
-            Text(stringResource(R.string.backup_save))
-        }
-        OutlinedButton(onClick = { open.launch(arrayOf("application/json", "*/*")) }, modifier = Modifier.weight(1f)) {
-            Text(stringResource(R.string.backup_restore))
-        }
+        HuntButton(
+            stringResource(R.string.backup_save),
+            { save.launch("hangul-friend-${LocalDate.now()}.json") },
+            Modifier.weight(1f),
+            style = HuntStyle.SECONDARY,
+            minHeight = 44.dp,
+            fontSize = 13,
+        )
+        HuntButton(
+            stringResource(R.string.backup_restore),
+            { open.launch(arrayOf("application/json", "*/*")) },
+            Modifier.weight(1f),
+            style = HuntStyle.SECONDARY,
+            minHeight = 44.dp,
+            fontSize = 13,
+        )
     }
 
     pending?.let { file ->

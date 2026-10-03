@@ -5,6 +5,20 @@
     <string name="lang_code">uz</string>
 
     <string name="nav_home">Uy</string>
+    <string name="dock_lobby">Baza</string>
+    <string name="rail_quest">Topshiriq</string>
+    <string name="rail_words">Lug\'at</string>
+    <string name="rail_errors">Xatolar</string>
+    <string name="rail_arena">Arena</string>
+    <string name="rail_badges">Nishonlar</string>
+    <string name="rail_share">Ulashish</string>
+    <string name="lobby_rank_line">%1$s-rank · %2$s</string>
+    <string name="lobby_gate_label">Darvoza %1$d-%2$d · %3$s</string>
+    <string name="hud_due">%1$d karta</string>
+    <string name="dock_gates">Darvoza</string>
+    <string name="dock_story">Hikoya</string>
+    <string name="dock_system">Tizim</string>
+    <string name="dock_hunt">Ovga chiqish</string>
     <string name="nav_book">Xarita</string>
     <string name="nav_stories">Hikoyalar</string>
     <string name="nav_settings">Sozlamalar</string>
@@ -221,6 +235,12 @@
     <string name="avatar_new_hair_light">Sochda nur</string>
     <string name="avatar_new_companions">Hamrohlar</string>
     <string name="settings_language">Til</string>
+    <string name="settings_section_hunter">Ovchi</string>
+    <string name="settings_section_targets">Kunlik maqsadlar</string>
+    <string name="settings_section_feedback">Tovush va titrash</string>
+    <string name="settings_section_data">Ma\'lumotlar</string>
+    <string name="settings_sound">Tovush effektlari</string>
+    <string name="settings_haptics">Titrash</string>
     <string name="settings_theme">Interfeys uslubi</string>
     <string name="theme_system">Tizim</string>
     <string name="theme_neon">Neon Seul</string>

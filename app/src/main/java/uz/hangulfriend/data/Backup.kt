@@ -39,6 +39,10 @@ data class BackupSettings(
     val theme: String = GameThemeId.SYSTEM.key,
     /** Missing in files exported before stage 6b. */
     val hero: String = HeroGender.BOY.key,
+    /** Missing in files exported before stage 9. */
+    val sound: Boolean = true,
+    /** Missing in files exported before stage 9. */
+    val haptics: Boolean = true,
 )
 
 @Serializable
@@ -79,11 +83,11 @@ data class BestScoreDto(val gameId: String, val score: Int)
 data class StoryProgressDto(val lessonId: String, val completedAtMs: Long)
 
 fun Settings.toBackup() =
-    BackupSettings(onboarded, currentLessonId, dailyNewLimit, dailyGoalXp, reminderEnabled, reminderMinutes, theme.key, hero.key)
+    BackupSettings(onboarded, currentLessonId, dailyNewLimit, dailyGoalXp, reminderEnabled, reminderMinutes, theme.key, hero.key, soundOn, hapticsOn)
 
 fun BackupSettings.toSettings() = Settings(
     onboarded, currentLessonId, dailyNewLimit, dailyGoalXp, reminderEnabled, reminderMinutes, GameThemeId.from(theme),
-    HeroGender.from(hero),
+    HeroGender.from(hero), sound, haptics,
 )
 
 @Serializable

@@ -21,6 +21,10 @@ data class Settings(
     val reminderMinutes: Int = DEFAULT_REMINDER_MINUTES,
     val theme: GameThemeId = GameThemeId.SYSTEM,
     val hero: HeroGender = HeroGender.BOY,
+    /** Game sound effects (stage 9). */
+    val soundOn: Boolean = true,
+    /** Haptic feedback (stage 9). */
+    val hapticsOn: Boolean = true,
 )
 
 /** The player's avatar; [key] is what DataStore and backups store. */
@@ -59,6 +63,8 @@ class SettingsRepository(private val dataStore: DataStore<Preferences>) {
             reminderMinutes = p[REMINDER_MINUTES] ?: DEFAULT_REMINDER_MINUTES,
             theme = GameThemeId.from(p[UI_THEME]),
             hero = HeroGender.from(p[HERO]),
+            soundOn = p[SOUND] ?: true,
+            hapticsOn = p[HAPTICS] ?: true,
         )
     }
 
@@ -71,6 +77,14 @@ class SettingsRepository(private val dataStore: DataStore<Preferences>) {
 
     suspend fun setHero(hero: HeroGender) {
         dataStore.edit { it[HERO] = hero.key }
+    }
+
+    suspend fun setSound(on: Boolean) {
+        dataStore.edit { it[SOUND] = on }
+    }
+
+    suspend fun setHaptics(on: Boolean) {
+        dataStore.edit { it[HAPTICS] = on }
     }
 
     suspend fun setLastSeenRank(rank: Rank) {
@@ -107,6 +121,8 @@ class SettingsRepository(private val dataStore: DataStore<Preferences>) {
             it[REMINDER_MINUTES] = s.reminderMinutes
             it[UI_THEME] = s.theme.key
             it[HERO] = s.hero.key
+            it[SOUND] = s.soundOn
+            it[HAPTICS] = s.hapticsOn
         }
     }
 
@@ -124,5 +140,7 @@ class SettingsRepository(private val dataStore: DataStore<Preferences>) {
         val UI_THEME = stringPreferencesKey("ui_theme")
         val LAST_SEEN_RANK = stringPreferencesKey("last_seen_rank")
         val HERO = stringPreferencesKey("hero")
+        val SOUND = booleanPreferencesKey("sound")
+        val HAPTICS = booleanPreferencesKey("haptics")
     }
 }
