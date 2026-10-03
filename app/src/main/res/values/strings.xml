@@ -169,6 +169,8 @@
     <string name="session_finish">Yakunlash</string>
     <string name="session_close">Yopish</string>
 
+    <string name="gate_code">DARVOZA %1$d-%2$d</string>
+    <string name="floor_boss">BOSS</string>
     <string name="stage_vocab">Lug\'at</string>
     <string name="stage_grammar">Grammatika</string>
     <string name="stage_dialogue">Dialog</string>

@@ -1,6 +1,12 @@
 package uz.hangulfriend.ui.lesson
 
 import androidx.compose.foundation.background
+import androidx.compose.foundation.border
+import androidx.compose.foundation.layout.Box
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.automirrored.filled.VolumeUp
+import androidx.compose.material.icons.filled.Mic
+import androidx.compose.material.icons.outlined.AutoAwesome
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -10,14 +16,9 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.widthIn
 import androidx.compose.foundation.rememberScrollState
-import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
-import androidx.compose.material3.Button
-import androidx.compose.material3.FilterChip
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.OutlinedButton
-import androidx.compose.material3.Switch
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
@@ -34,6 +35,7 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 import com.mikepenz.markdown.m3.Markdown
 import uz.hangulfriend.R
 import uz.hangulfriend.ai.TutorPrompts
@@ -47,7 +49,15 @@ import uz.hangulfriend.ui.AudioButton
 import uz.hangulfriend.ui.exercise.ExerciseView
 import uz.hangulfriend.ui.exercise.MatchView
 import uz.hangulfriend.ui.theme.CorrectGreen
+import uz.hangulfriend.ui.kit.GlowBar
+import uz.hangulfriend.ui.kit.HuntButton
+import uz.hangulfriend.ui.kit.HuntPanel
+import uz.hangulfriend.ui.kit.HuntStyle
+import uz.hangulfriend.ui.kit.HuntToggle
+import uz.hangulfriend.ui.kit.PanelTitle
+import uz.hangulfriend.ui.kit.shape
 import uz.hangulfriend.ui.theme.GameCard
+import uz.hangulfriend.ui.theme.LocalGameTokens
 import uz.hangulfriend.ui.theme.WrongRed
 import uz.hangulfriend.ui.tutor.LocalTutor
 import uz.hangulfriend.ui.tutor.TutorSheet
@@ -64,22 +74,32 @@ private fun Pager(pageCount: Int, onFinished: () -> Unit, page: @Composable (Int
     val next: () -> Unit = {
         if (index + 1 < pageCount) index++ else onFinished()
     }
+    val t = LocalGameTokens.current
     Column(Modifier.fillMaxSize()) {
-        Text(
-            "${index + 1} / $pageCount",
-            style = MaterialTheme.typography.labelMedium,
-            modifier = Modifier.padding(bottom = 8.dp),
-        )
+        Row(Modifier.padding(bottom = 8.dp), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
+            Text("${index + 1} / $pageCount", color = t.muted, fontFamily = t.display, fontSize = 12.sp, letterSpacing = 1.sp)
+            GlowBar((index + 1f) / pageCount, Modifier.weight(1f), height = 4)
+        }
         Column(Modifier.weight(1f).verticalScroll(rememberScrollState())) {
             key(index) { page(index, next) }
         }
-        Row(horizontalArrangement = Arrangement.spacedBy(8.dp), modifier = Modifier.padding(top = 8.dp)) {
-            OutlinedButton(onClick = { index-- }, enabled = index > 0, modifier = Modifier.weight(1f)) {
-                Text(stringResource(R.string.pager_prev))
-            }
-            Button(onClick = next, modifier = Modifier.weight(1f)) {
-                Text(stringResource(if (index + 1 < pageCount) R.string.pager_next else R.string.pager_next_stage))
-            }
+        Row(horizontalArrangement = Arrangement.spacedBy(10.dp), modifier = Modifier.padding(top = 8.dp)) {
+            HuntButton(
+                stringResource(R.string.pager_prev),
+                onClick = { index-- },
+                enabled = index > 0,
+                modifier = Modifier.weight(1f),
+                style = HuntStyle.SECONDARY,
+                fontSize = 13,
+                horizontalPadding = 8.dp,
+            )
+            HuntButton(
+                stringResource(if (index + 1 < pageCount) R.string.pager_next else R.string.pager_next_stage).uppercase(),
+                onClick = next,
+                modifier = Modifier.weight(1.4f),
+                fontSize = 13,
+                horizontalPadding = 8.dp,
+            )
         }
     }
 }
@@ -109,21 +129,20 @@ fun VocabStage(lesson: Lesson, vm: LessonViewModel, onFinished: () -> Unit) {
 
 @Composable
 private fun WordCard(word: Word) {
-    GameCard(Modifier.fillMaxWidth()) {
-        Column(Modifier.padding(24.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
-            Row(verticalAlignment = Alignment.CenterVertically) {
-                Text(word.ko, style = MaterialTheme.typography.displaySmall, modifier = Modifier.weight(1f))
-                AudioButton(word.audio)
-            }
-            Text(word.uz, style = MaterialTheme.typography.titleLarge)
-            Text(word.pos, style = MaterialTheme.typography.labelMedium)
-            HorizontalDivider()
-            Row(verticalAlignment = Alignment.CenterVertically) {
-                Text(word.exampleKo, style = MaterialTheme.typography.bodyLarge, modifier = Modifier.weight(1f))
-                AudioButton(word.exampleAudio)
-            }
-            Text(word.exampleUz, style = MaterialTheme.typography.bodyMedium)
+    val t = LocalGameTokens.current
+    HuntPanel(accent = t.accent, padding = 20.dp) {
+        Row(verticalAlignment = Alignment.CenterVertically) {
+            Text(word.ko, color = t.text, style = MaterialTheme.typography.displaySmall, modifier = Modifier.weight(1f))
+            AudioButton(word.audio)
         }
+        Text(word.uz, color = t.text, style = MaterialTheme.typography.titleLarge)
+        Text(word.pos.uppercase(), color = t.accent2, fontFamily = t.display, fontSize = 11.sp, letterSpacing = 2.sp)
+        HorizontalDivider(color = t.panelBorder.copy(alpha = 0.5f))
+        Row(verticalAlignment = Alignment.CenterVertically) {
+            Text(word.exampleKo, color = t.text, style = MaterialTheme.typography.bodyLarge, modifier = Modifier.weight(1f))
+            AudioButton(word.exampleAudio)
+        }
+        Text(word.exampleUz, color = t.muted, style = MaterialTheme.typography.bodyMedium)
     }
 }
 
@@ -134,9 +153,15 @@ fun GrammarStage(lesson: Lesson, vm: LessonViewModel, onFinished: () -> Unit) {
         GrammarPage(g)
         if (LocalTutor.current != null) {
             var open by remember(g.id) { mutableStateOf(false) }
-            OutlinedButton(onClick = { open = true }, modifier = Modifier.fillMaxWidth().padding(top = 8.dp)) {
-                Text(stringResource(R.string.ai_explain_grammar))
-            }
+            HuntButton(
+                stringResource(R.string.ai_explain_grammar),
+                onClick = { open = true },
+                modifier = Modifier.fillMaxWidth().padding(top = 8.dp),
+                style = HuntStyle.SECONDARY,
+                icon = Icons.Outlined.AutoAwesome,
+                minHeight = 44.dp,
+                fontSize = 13,
+            )
             if (open) {
                 TutorSheet(TutorPrompts.grammarContext(g, lesson, currentLanguage()), stringResource(R.string.ai_explain_grammar_question)) {
                     open = false
@@ -146,7 +171,8 @@ fun GrammarStage(lesson: Lesson, vm: LessonViewModel, onFinished: () -> Unit) {
         val check = remember(g.id) { vm.grammarCheck(lesson, g.id) }
         if (check != null) {
             Spacer(Modifier.padding(8.dp))
-            Text(stringResource(R.string.grammar_check), style = MaterialTheme.typography.titleMedium)
+            PanelTitle(stringResource(R.string.grammar_check))
+            Spacer(Modifier.padding(4.dp))
             ExerciseView(check, onResult = { vm.grade(check, it) }, onNext = next)
         }
     }
@@ -155,8 +181,9 @@ fun GrammarStage(lesson: Lesson, vm: LessonViewModel, onFinished: () -> Unit) {
 @Composable
 private fun GrammarPage(g: Grammar) {
     Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
-        Text(g.pattern, style = MaterialTheme.typography.headlineMedium)
-        Text(g.meaningUz, style = MaterialTheme.typography.titleMedium)
+        val t = LocalGameTokens.current
+        Text(g.pattern, color = t.accent, style = MaterialTheme.typography.headlineMedium)
+        Text(g.meaningUz, color = t.text, style = MaterialTheme.typography.titleMedium)
         GameCard(Modifier.fillMaxWidth()) {
             Column(Modifier.padding(12.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
                 g.formation.forEach { f ->
@@ -194,26 +221,42 @@ private fun GrammarPage(g: Grammar) {
 
 @Composable
 private fun SectionTitle(res: Int) {
-    Text(stringResource(res), style = MaterialTheme.typography.titleMedium, modifier = Modifier.padding(top = 8.dp))
+    Box(Modifier.padding(top = 8.dp)) { PanelTitle(stringResource(res)) }
 }
 
 @Composable
 fun DialogueStage(lesson: Lesson, characters: Map<String, Character>, onFinished: () -> Unit) {
+    val t = LocalGameTokens.current
     var showTranslation by rememberSaveable { mutableStateOf(false) }
     var roleplay by rememberSaveable { mutableStateOf(false) }
     val first = lesson.dialogue.lines.firstOrNull()?.speaker
     Column(Modifier.fillMaxSize()) {
         Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-            FilterChip(selected = !roleplay, onClick = { roleplay = false }, label = { Text(stringResource(R.string.dialogue_mode_listen)) })
-            FilterChip(selected = roleplay, onClick = { roleplay = true }, label = { Text(stringResource(R.string.dialogue_mode_roleplay)) })
+            HuntButton(
+                stringResource(R.string.dialogue_mode_listen),
+                onClick = { roleplay = false },
+                modifier = Modifier.weight(1f),
+                style = if (roleplay) HuntStyle.SECONDARY else HuntStyle.PRIMARY,
+                icon = Icons.AutoMirrored.Filled.VolumeUp,
+                minHeight = 40.dp,
+                fontSize = 13,
+                horizontalPadding = 8.dp,
+            )
+            HuntButton(
+                stringResource(R.string.dialogue_mode_roleplay),
+                onClick = { roleplay = true },
+                modifier = Modifier.weight(1f),
+                style = if (roleplay) HuntStyle.PRIMARY else HuntStyle.SECONDARY,
+                icon = Icons.Filled.Mic,
+                minHeight = 40.dp,
+                fontSize = 13,
+                horizontalPadding = 8.dp,
+            )
         }
         if (roleplay) {
             Column(Modifier.weight(1f)) { RoleplayView(lesson, characters) }
         } else {
-            Row(verticalAlignment = Alignment.CenterVertically) {
-                Text(stringResource(R.string.dialogue_translation), Modifier.weight(1f))
-                Switch(checked = showTranslation, onCheckedChange = { showTranslation = it })
-            }
+            HuntToggle(showTranslation, { showTranslation = it }, stringResource(R.string.dialogue_translation))
             Column(
                 Modifier.weight(1f).verticalScroll(rememberScrollState()),
                 verticalArrangement = Arrangement.spacedBy(8.dp),
@@ -224,28 +267,37 @@ fun DialogueStage(lesson: Lesson, characters: Map<String, Character>, onFinished
                         Modifier.fillMaxWidth(),
                         horizontalAlignment = if (mine) Alignment.Start else Alignment.End,
                     ) {
+                        val tint = if (mine) t.accent else t.accent2
                         Row(verticalAlignment = Alignment.CenterVertically) {
-                            Text(characters[line.speaker]?.nameUz ?: line.speaker, style = MaterialTheme.typography.labelMedium)
+                            Text(
+                                (characters[line.speaker]?.nameUz ?: line.speaker).uppercase(),
+                                color = tint,
+                                fontFamily = t.display,
+                                fontWeight = FontWeight.Bold,
+                                fontSize = 11.sp,
+                                letterSpacing = 2.sp,
+                            )
                             AudioButton(line.audio)
                         }
+                        val bubble = t.shape(10.dp)
                         Column(
                             Modifier
                                 .widthIn(max = 300.dp)
-                                .background(
-                                    if (mine) MaterialTheme.colorScheme.primaryContainer else MaterialTheme.colorScheme.secondaryContainer,
-                                    RoundedCornerShape(12.dp),
-                                )
+                                .background(tint.copy(alpha = 0.14f), bubble)
+                                .border(1.dp, tint.copy(alpha = 0.6f), bubble)
                                 .padding(12.dp),
                         ) {
-                            Text(line.ko, style = MaterialTheme.typography.bodyLarge)
-                            if (showTranslation) Text(line.uz, style = MaterialTheme.typography.bodySmall)
+                            Text(line.ko, color = t.text, style = MaterialTheme.typography.bodyLarge)
+                            if (showTranslation) Text(line.uz, color = t.muted, style = MaterialTheme.typography.bodySmall)
                         }
                     }
                 }
             }
         }
-        Button(onClick = onFinished, modifier = Modifier.fillMaxWidth().padding(top = 8.dp)) {
-            Text(stringResource(R.string.pager_next_stage))
-        }
+        HuntButton(
+            stringResource(R.string.pager_next_stage).uppercase(),
+            onClick = onFinished,
+            modifier = Modifier.fillMaxWidth().padding(top = 8.dp),
+        )
     }
 }
