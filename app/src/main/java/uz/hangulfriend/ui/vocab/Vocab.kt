@@ -350,7 +350,7 @@ private fun AddWordDialog(onDismiss: () -> Unit, onAdd: suspend (String, String,
         actions = {
             HuntButton(stringResource(R.string.vocab_cancel), onClick = onDismiss, modifier = Modifier.weight(1f), style = HuntStyle.SECONDARY, fontSize = 13)
             HuntButton(
-                stringResource(R.string.vocab_add_ok).uppercase(),
+                stringResource(R.string.vocab_add_ok),
                 modifier = Modifier.weight(1f),
                 fontSize = 13,
                 enabled = ko.isNotBlank() && uz.isNotBlank() && !busy,

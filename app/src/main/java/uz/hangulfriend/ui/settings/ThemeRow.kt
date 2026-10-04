@@ -54,7 +54,7 @@ fun ThemeRow(current: GameThemeId, onPick: (GameThemeId) -> Unit) {
                     Text(
                         stringResource(if (id == GameThemeId.SYSTEM) R.string.theme_system else R.string.theme_neon),
                         color = t.text,
-                        fontFamily = t.display,
+                        fontFamily = t.ui,
                         fontWeight = FontWeight.Bold,
                     )
                 }

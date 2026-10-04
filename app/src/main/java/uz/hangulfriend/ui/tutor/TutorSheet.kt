@@ -46,7 +46,6 @@ import uz.hangulfriend.ai.cleanAiText
 import com.mikepenz.markdown.m3.markdownTypography
 import uz.hangulfriend.ui.kit.IconAction
 import uz.hangulfriend.ui.kit.PanelTitle
-import uz.hangulfriend.ui.kit.scanLine
 import uz.hangulfriend.ui.kit.shape
 import uz.hangulfriend.ui.theme.LocalGameTokens
 import androidx.compose.ui.text.font.FontWeight
@@ -96,7 +95,7 @@ fun TutorSheet(system: String, firstQuestion: String, onDismiss: () -> Unit) {
     ) {
         Column(Modifier.padding(horizontal = 16.dp).padding(bottom = 16.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
             // The `[ SYSTEM · AI ]` window title with a scan line.
-            Box(Modifier.fillMaxWidth().clip(t.shape(6.dp)).scanLine(t.accent.copy(alpha = 0.18f)).padding(vertical = 6.dp)) {
+            Box(Modifier.fillMaxWidth().clip(t.shape(6.dp)).padding(vertical = 6.dp)) {
                 PanelTitle(stringResource(R.string.ai_title))
             }
             Column(
@@ -116,7 +115,6 @@ fun TutorSheet(system: String, firstQuestion: String, onDismiss: () -> Unit) {
                             Modifier
                                 .widthIn(max = 320.dp)
                                 .background(if (m.fromUser) t.accent.copy(alpha = 0.16f) else t.background.copy(alpha = 0.6f), bubble)
-                                .border(1.dp, rim.copy(alpha = 0.6f), bubble)
                                 .padding(12.dp),
                         ) {
                             if (m.fromUser) Text(text, color = t.text) else Markdown(content = cleanAiText(text), typography = compactMarkdownTypography())

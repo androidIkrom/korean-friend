@@ -109,12 +109,11 @@ fun SettingsScreen(vm: SettingsViewModel, modifier: Modifier = Modifier) {
     ) {
         item {
             Text(
-                "[ ${stringResource(R.string.dock_system).uppercase()} ]",
+                stringResource(R.string.dock_system),
                 color = t.text,
-                fontFamily = t.display,
+                fontFamily = t.ui,
                 fontWeight = FontWeight.Bold,
                 fontSize = 22.sp,
-                letterSpacing = 4.sp,
             )
         }
         item {
@@ -154,7 +153,7 @@ fun SettingsScreen(vm: SettingsViewModel, modifier: Modifier = Modifier) {
                 val picked = pending
                 if (picked != null && picked != settings.currentLessonId) {
                     Text(stringResource(R.string.settings_apply_note), color = t.muted, fontSize = 13.sp)
-                    HuntButton(stringResource(R.string.settings_apply).uppercase(), vm::applyPending, Modifier.fillMaxWidth())
+                    HuntButton(stringResource(R.string.settings_apply), vm::applyPending, Modifier.fillMaxWidth())
                 }
             }
         }

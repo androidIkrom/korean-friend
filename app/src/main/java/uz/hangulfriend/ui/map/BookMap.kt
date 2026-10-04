@@ -133,7 +133,7 @@ fun BookMapScreen(
                     Text(
                         stringResource(if (tower) R.string.map_tower_title else R.string.map_metro_title),
                         color = t.text,
-                        fontFamily = t.display,
+                        fontFamily = t.ui,
                         fontWeight = FontWeight.Bold,
                         fontSize = 26.sp,
                     )

@@ -135,7 +135,6 @@ private fun CompactUnit(u: UnitRow, actions: MapActions, badge: @Composable () -
             .alpha(if (locked) 0.6f else 1f)
             .clip(shape)
             .background(t.panel.copy(alpha = 0.7f), shape)
-            .border(1.dp, (if (u.state == UnitState.CLEARED) t.accent else t.panelBorder).copy(alpha = 0.45f), shape)
             .clickable(enabled = !locked, role = Role.Button) {
                 feedback.play(Sfx.TAP)
                 actions.onToggle(u.unit)
@@ -178,13 +177,12 @@ private fun UnitPanel(u: UnitRow, actions: MapActions, borderColor: Color? = nul
                         stringResource(if (t.id == GameThemeId.SYSTEM) R.string.map_active_gate else R.string.map_active_station),
                         color = t.accent,
                         fontSize = 11.sp,
-                        letterSpacing = 2.sp,
                     )
                 }
                 Text(
                     stringResource(R.string.unit_title, u.unit, u.topicUz),
                     color = t.text,
-                    fontFamily = t.display,
+                    fontFamily = t.ui,
                     fontWeight = FontWeight.Bold,
                     fontSize = 17.sp,
                 )
@@ -205,7 +203,7 @@ private fun UnitPanel(u: UnitRow, actions: MapActions, borderColor: Color? = nul
         }
         u.enterTarget()?.let { id ->
             HuntButton(
-                stringResource(if (t.id == GameThemeId.SYSTEM) R.string.map_enter_gate else R.string.map_enter_station).uppercase(),
+                stringResource(if (t.id == GameThemeId.SYSTEM) R.string.map_enter_gate else R.string.map_enter_station),
                 onClick = { actions.onOpenLesson(id) },
                 modifier = Modifier.fillMaxWidth().then(if (u.state == UnitState.ACTIVE) Modifier.pulseRing(t.accent, t.shape(12.dp)) else Modifier),
                 icon = Icons.Filled.Bolt,
@@ -262,7 +260,7 @@ fun FinalCard(best: Int, lessonsDone: Int, lessonsTotal: Int, onStart: () -> Uni
         Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(14.dp)) {
             RankBadge("S+", BadgeState.ACTIVE, size = 30.dp)
             Column {
-                Text(stringResource(R.string.final_title), color = t.text, fontFamily = t.display, fontWeight = FontWeight.Bold, fontSize = 18.sp)
+                Text(stringResource(R.string.final_title), color = t.text, fontFamily = t.ui, fontWeight = FontWeight.Bold, fontSize = 18.sp)
                 Text(stringResource(R.string.final_info), color = t.muted, fontSize = 12.sp)
             }
         }
@@ -271,7 +269,7 @@ fun FinalCard(best: Int, lessonsDone: Int, lessonsTotal: Int, onStart: () -> Uni
             Text(stringResource(R.string.final_recommend, lessonsDone, lessonsTotal), color = t.muted, fontSize = 12.sp)
         }
         HuntButton(
-            stringResource(R.string.final_start).uppercase(),
+            stringResource(R.string.final_start),
             onClick = onStart,
             modifier = Modifier.fillMaxWidth(),
             style = HuntStyle.GOLD,

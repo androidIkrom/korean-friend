@@ -55,10 +55,8 @@ import uz.hangulfriend.ui.kit.HuntPanel
 import uz.hangulfriend.ui.kit.HuntStyle
 import uz.hangulfriend.ui.kit.LocalGameFeedback
 import uz.hangulfriend.ui.kit.Sfx
-import uz.hangulfriend.ui.kit.cutShape
 import uz.hangulfriend.ui.kit.pulseRing
 import uz.hangulfriend.ui.kit.shape
-import uz.hangulfriend.ui.kit.shapeGlow
 import uz.hangulfriend.ui.session.ExerciseOutcome
 import uz.hangulfriend.ui.theme.LocalGameTokens
 
@@ -140,12 +138,11 @@ fun LessonScreen(
                     Text(
                         stringResource(R.string.gate_code, it.unit, it.lesson),
                         color = t.accent,
-                        fontFamily = t.display,
+                        fontFamily = t.ui,
                         fontSize = 11.sp,
-                        letterSpacing = 2.5.sp,
                     )
                 }
-                Text(lesson?.titleKo.orEmpty(), color = t.text, fontFamily = t.display, fontWeight = FontWeight.Bold, fontSize = 20.sp)
+                Text(lesson?.titleKo.orEmpty(), color = t.text, fontFamily = t.ui, fontWeight = FontWeight.Bold, fontSize = 20.sp)
                 Text(lesson?.titleUz.orEmpty(), color = t.muted, fontSize = 13.sp)
             }
         }
@@ -234,7 +231,7 @@ private fun FloorTile(index: Int, state: FloorState, label: String, modifier: Mo
         state == FloorState.OPEN -> t.muted
         else -> t.accent
     }
-    val shape = if (t.id == GameThemeId.SYSTEM) cutShape(8.dp) else RoundedCornerShape(12.dp)
+    val shape = RoundedCornerShape(16.dp)
     val current = state == FloorState.CURRENT
     Column(
         modifier
@@ -252,15 +249,15 @@ private fun FloorTile(index: Int, state: FloorState, label: String, modifier: Mo
         Box(
             Modifier
                 .size(width = 52.dp, height = 44.dp)
-                .then(if (current) Modifier.shapeGlow(color.copy(alpha = 0.6f), shape, 12.dp).pulseRing(color, shape) else Modifier)
+                .then(if (current) Modifier.pulseRing(color, shape) else Modifier)
                 .background(if (state == FloorState.OPEN) t.background else color.copy(alpha = if (current) 0.28f else 0.16f).compositeOver(t.background), shape)
                 .border(if (current) 2.dp else 1.dp, color.copy(alpha = if (state == FloorState.OPEN) 0.5f else 1f), shape),
             contentAlignment = Alignment.Center,
         ) {
             when {
                 state == FloorState.CLEARED && !boss -> Icon(Icons.Filled.Check, contentDescription = null, tint = color, modifier = Modifier.size(20.dp))
-                boss -> Text("BOSS", color = color, fontFamily = t.display, fontWeight = FontWeight.Bold, fontSize = 12.sp, letterSpacing = 1.sp)
-                else -> Text("F${index + 1}", color = if (current) Color.White else color, fontFamily = t.display, fontWeight = FontWeight.Bold, fontSize = 16.sp)
+                boss -> Text("BOSS", color = color, fontFamily = t.ui, fontWeight = FontWeight.Bold, fontSize = 12.sp, letterSpacing = 1.sp)
+                else -> Text("F${index + 1}", color = if (current) Color.White else color, fontFamily = t.ui, fontWeight = FontWeight.Bold, fontSize = 16.sp)
             }
         }
         Text(
@@ -287,7 +284,7 @@ private fun StartFloor(title: String, intro: String, button: String, boss: Boole
             Text(intro, color = t.text, fontSize = 16.sp, lineHeight = 22.sp)
             val shape = t.shape(12.dp)
             HuntButton(
-                button.uppercase(),
+                button,
                 onClick = onStart,
                 modifier = Modifier.fillMaxWidth().pulseRing(if (boss) t.danger else t.accent, shape),
                 style = if (boss) HuntStyle.DANGER else HuntStyle.PRIMARY,

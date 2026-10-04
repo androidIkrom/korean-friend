@@ -107,14 +107,14 @@ fun RankBadge(letter: String, state: BadgeState, modifier: Modifier = Modifier, 
     if (t.id == GameThemeId.SYSTEM) {
         Box(modifier.size(size * 1.42f), contentAlignment = Alignment.Center) {
             Box(Modifier.size(size).rotate(45f).then(glow).background(t.background).border(1.5.dp, color))
-            Text(letter, color = color, fontFamily = t.display, fontWeight = FontWeight.Bold, fontSize = (size.value * 0.45f).sp)
+            Text(letter, color = color, fontFamily = t.ui, fontWeight = FontWeight.Bold, fontSize = (size.value * 0.45f).sp)
         }
     } else {
         Box(
             modifier.size(size).then(glow).background(t.background, CircleShape).border(2.dp, color, CircleShape),
             contentAlignment = Alignment.Center,
         ) {
-            Text(letter, color = color, fontFamily = t.display, fontWeight = FontWeight.Bold, fontSize = (size.value * 0.45f).sp)
+            Text(letter, color = color, fontFamily = t.ui, fontWeight = FontWeight.Bold, fontSize = (size.value * 0.45f).sp)
         }
     }
 }
@@ -177,7 +177,7 @@ fun GameCard(
         modifier
             .clip(shape)
             .background(containerColor ?: t.panel, shape)
-            .border(1.dp, borderColor ?: t.panelBorder, shape)
+            .then(if (borderColor != null) Modifier.border(1.dp, borderColor, shape) else Modifier)
             .then(
                 if (onClick != null) {
                     Modifier.clickable(enabled = enabled, role = Role.Button) {

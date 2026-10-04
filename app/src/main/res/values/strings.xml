@@ -112,7 +112,7 @@
     <string name="game_speed_prompt">Ma\'nosini tanlang</string>
     <string name="awaken_title">Uyg\'onish</string>
     <string name="awaken_system">Tizim sizni tanladi. Ovchi bo\'lishga tayyormisiz?</string>
-    <string name="awaken_arise">UYG\'ON</string>
+    <string name="awaken_arise">Uyg\'on</string>
     <string name="onboarding_back">Orqaga</string>
     <string name="onboarding_next">Keyingi</string>
     <string name="games_title">O\'yinlar</string>
@@ -296,11 +296,11 @@
     <string name="map_tower_title">Darvozalar minorasi</string>
     <string name="map_metro_title">Metro xaritasi</string>
     <string name="map_cleared_count">%1$d/%2$d tozalandi</string>
-    <string name="map_active_gate">FAOL DARVOZA</string>
-    <string name="map_active_station">SIZ SHU YERDASIZ</string>
-    <string name="map_enter_gate">DARVOZAGA KIRISH</string>
+    <string name="map_active_gate">Faol darvoza</string>
+    <string name="map_active_station">Siz shu yerdasiz</string>
+    <string name="map_enter_gate">Darvozaga kirish</string>
     <string name="map_enter_station">Bekatga tushish</string>
-    <string name="map_cleared">TOZALANDI</string>
+    <string name="map_cleared">Tozalandi</string>
     <string name="map_lesson_line">%1$d-dars · %2$s</string>
     <string-array name="unit_topics_ko">
         <item>가족</item>

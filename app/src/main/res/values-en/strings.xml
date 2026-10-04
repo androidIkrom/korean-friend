@@ -111,7 +111,7 @@
     <string name="game_speed_prompt">Pick the meaning</string>
     <string name="awaken_title">Awakening</string>
     <string name="awaken_system">The System has chosen you. Ready to become a hunter?</string>
-    <string name="awaken_arise">ARISE</string>
+    <string name="awaken_arise">Arise</string>
     <string name="onboarding_back">Back</string>
     <string name="onboarding_next">Next</string>
     <string name="games_title">Games</string>
@@ -299,11 +299,11 @@
     <string name="map_tower_title">Tower of Gates</string>
     <string name="map_metro_title">Metro map</string>
     <string name="map_cleared_count">%1$d/%2$d cleared</string>
-    <string name="map_active_gate">ACTIVE GATE</string>
-    <string name="map_active_station">YOU ARE HERE</string>
-    <string name="map_enter_gate">ENTER THE GATE</string>
+    <string name="map_active_gate">Active gate</string>
+    <string name="map_active_station">You are here</string>
+    <string name="map_enter_gate">Enter the gate</string>
     <string name="map_enter_station">Get off at this station</string>
-    <string name="map_cleared">CLEARED</string>
+    <string name="map_cleared">Cleared</string>
     <string name="map_lesson_line">Lesson %1$d · %2$s</string>
     <string-array name="unit_topics_ko">
         <item>가족</item>

@@ -192,7 +192,7 @@ fun EpisodeScreen(vm: EpisodeViewModel, onClose: () -> Unit) {
                 }
                 val total = meta?.total
                 if (total != null) FloorBar(p.shown.size, total, Modifier.weight(1f)) else GlowBar(p.progress, Modifier.weight(1f))
-                meta?.let { Text("${p.shown.size}/${it.total}", color = t.muted, fontFamily = t.display, fontSize = 12.sp) }
+                meta?.let { Text("${p.shown.size}/${it.total}", color = t.muted, fontFamily = t.ui, fontSize = 12.sp) }
             }
             meta?.let {
                 Text(
@@ -202,7 +202,6 @@ fun EpisodeScreen(vm: EpisodeViewModel, onClose: () -> Unit) {
                     letterSpacing = 1.sp,
                     modifier = Modifier
                         .background(t.panel, RoundedCornerShape(t.panelCorner))
-                        .border(1.dp, t.panelBorder, RoundedCornerShape(t.panelCorner))
                         .padding(horizontal = 10.dp, vertical = 6.dp),
                 )
             }
@@ -255,11 +254,10 @@ private fun Line(name: String, ko: String, uz: String, audio: String?, mine: Boo
     GamePanel(null, Modifier.clickable { showUz = !showUz }, borderColor = if (mine) t.accent else t.accent2) {
         Row(verticalAlignment = Alignment.CenterVertically) {
             Text(
-                name.uppercase(),
+                name,
                 color = if (mine) t.accent else t.accent2,
-                fontFamily = t.display,
+                fontFamily = t.ui,
                 fontWeight = FontWeight.Bold,
-                letterSpacing = 3.sp,
                 fontSize = 12.sp,
                 modifier = Modifier.weight(1f),
             )
@@ -316,24 +314,23 @@ private fun Finish(xp: Int?, onClose: () -> Unit) {
     HuntPanel(accent = Gold) {
         Column(Modifier.fillMaxWidth(), horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(8.dp)) {
             Text(
-                stringResource(R.string.story_finish_title).uppercase(),
+                stringResource(R.string.story_finish_title),
                 color = t.text,
-                fontFamily = t.display,
+                fontFamily = t.ui,
                 fontWeight = FontWeight.Bold,
                 fontSize = 20.sp,
-                letterSpacing = 2.sp,
             )
             Box(Modifier.size(150.dp, 90.dp), contentAlignment = Alignment.Center) {
                 GateRays(Gold.copy(alpha = 0.3f), Modifier.size(150.dp))
                 when {
                     xp == null -> CircularProgressIndicator()
-                    xp > 0 -> Text(stringResource(R.string.story_xp, xp), color = Gold, fontFamily = t.display, fontWeight = FontWeight.Bold, fontSize = 28.sp)
+                    xp > 0 -> Text(stringResource(R.string.story_xp, xp), color = Gold, fontFamily = t.ui, fontWeight = FontWeight.Bold, fontSize = 28.sp)
                     else -> Text(stringResource(R.string.story_replayed), color = t.muted)
                 }
             }
         }
         HuntButton(
-            stringResource(R.string.story_close).uppercase(),
+            stringResource(R.string.story_close),
             onClick = onClose,
             modifier = Modifier.fillMaxWidth(),
             style = HuntStyle.GOLD,

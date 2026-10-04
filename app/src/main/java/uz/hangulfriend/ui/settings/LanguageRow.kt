@@ -62,7 +62,7 @@ fun LanguageRow() {
                         .padding(vertical = 12.dp),
                     contentAlignment = Alignment.Center,
                 ) {
-                    Text(lang.ownName(), color = if (selected) t.accent else t.text, fontFamily = t.display, fontWeight = FontWeight.Bold)
+                    Text(lang.ownName(), color = if (selected) t.accent else t.text, fontFamily = t.ui, fontWeight = FontWeight.Bold)
                 }
             }
         }

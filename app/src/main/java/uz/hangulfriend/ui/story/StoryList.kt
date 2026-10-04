@@ -55,7 +55,6 @@ import uz.hangulfriend.ui.kit.ScreenHeader
 import uz.hangulfriend.ui.kit.Sfx
 import uz.hangulfriend.ui.kit.pulseRing
 import uz.hangulfriend.ui.kit.shape
-import uz.hangulfriend.ui.kit.shapeGlow
 import uz.hangulfriend.ui.theme.LocalGameTokens
 import uz.hangulfriend.ui.LocalDockInset
 
@@ -104,7 +103,7 @@ private fun EpisodeCard(row: EpisodeRow, onOpen: (String) -> Unit) {
         Modifier
             .fillMaxWidth()
             .alpha(if (open) 1f else 0.5f)
-            .then(if (isNew) Modifier.pulseRing(t.accent, shape).shapeGlow(t.accent.copy(alpha = 0.3f), shape, 10.dp) else Modifier)
+            .then(if (isNew) Modifier.pulseRing(t.accent, shape) else Modifier)
             .clip(shape)
             .background(t.panel, shape)
             .border(1.dp, color.copy(alpha = if (open) 0.9f else 0.4f), shape)
@@ -131,7 +130,7 @@ private fun EpisodeCard(row: EpisodeRow, onOpen: (String) -> Unit) {
             Text(
                 "${row.entry.unit}-${row.entry.lesson} · ${row.storyTitle ?: row.entry.titleUz}",
                 color = t.text,
-                fontFamily = t.display,
+                fontFamily = t.ui,
                 fontWeight = FontWeight.SemiBold,
                 fontSize = 16.sp,
             )
