@@ -12,6 +12,7 @@ d = ImageDraw.Draw(area)
 d.polygon([(505, 398), (540, 420), (600, 445), (660, 480), (660, 575), (560, 575), (520, 500), (498, 455)], fill=255)  # right forearm
 d.polygon([(20, 628), (110, 625), (125, 690), (95, 829), (0, 829), (0, 700)], fill=255)  # left forearm
 d.polygon([(482, 640), (500, 640), (545, 760), (545, 829), (484, 829)], fill=255)  # right leg in the skirt's side slit
+d.polygon([(195, 780), (245, 780), (245, 829), (195, 829)], fill=255)  # bottom tip of the left slit
 
 px = im.load()
 ap = area.load()

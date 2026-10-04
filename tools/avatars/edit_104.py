@@ -9,7 +9,7 @@ w, h = src.size
 
 # Slit area (left of the skirt front), found on the 50px grid of the crop.
 area = Image.new("L", (w, h), 0)
-ImageDraw.Draw(area).polygon([(228, 640), (318, 640), (312, h), (222, h)], fill=255)
+ImageDraw.Draw(area).polygon([(228, 640), (318, 640), (312, h), (180, h)], fill=255)
 
 # Skin: warm pixels (red clearly above blue) inside the area.
 px = src.load()

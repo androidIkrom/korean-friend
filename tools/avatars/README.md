@@ -12,7 +12,7 @@ avatars.
 2. Unzip it so that `<ART_SRC>/pack/25_upper/101_1.png` exists (`D:\projects\art-src` on the main machine).
 3. From `<ART_SRC>`, run the edit scripts. They cover open clothing so the art keeps the focus on studying:
    - `edit_104.py` and then `edit_104b.py`: closed side slits and long sleeves;
-   - `edit_117.py`: closed shoulders and neckline;
+   - `edit_117.py`: closed shoulder, upper arm and chest, using the bodice's own silk;
    - `edit_119.py`: long sleeves;
    - `edit_118.py`: dresses the bare torso and arms in a tunic.
 

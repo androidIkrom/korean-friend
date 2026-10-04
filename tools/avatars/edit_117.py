@@ -1,6 +1,8 @@
-"""Portrait 117: closes the open shoulders and neckline. Everything inside the shoulder/chest area is recoloured
-into the dress's purple silk, keeping the original shading and line work, gold jewellery is kept, and a gold
-trim marks the new high neckline. Writes pack/edited/117_1.png."""
+"""Portrait 117: closes the open shoulder, upper arm and chest so the sleeve and bodice look like one dress.
+
+Skin inside the bare area is replaced by the bodice's own purple silk (its hatching, cloned with mirrored
+tiling), shaded by the body underneath so the cloth follows the shoulder and chest. The drawing's dark line
+work and the blonde hair (less warm than skin) stay. Writes pack/edited/117_1.png."""
 import os
 
 from PIL import Image, ImageDraw, ImageFilter
@@ -9,63 +11,63 @@ im = Image.open("pack/25_upper/117_1.png").convert("RGBA")
 w, h = im.size
 
 area = Image.new("L", (w, h), 0)
-
-
-def curve(pts, steps=12):
-    """Catmull-Rom through pts, so the neckline is a smooth line, not a polygon."""
-    out = []
-    ext = [pts[0]] + pts + [pts[-1]]
-    for i in range(1, len(ext) - 2):
-        p0, p1, p2, p3 = ext[i - 1], ext[i], ext[i + 1], ext[i + 2]
-        for k in range(steps):
-            t = k / steps
-            out.append(tuple(0.5 * (2 * p1[j] + (-p0[j] + p2[j]) * t + (2 * p0[j] - 5 * p1[j] + 4 * p2[j] - p3[j]) * t * t
-                                    + (-p0[j] + 3 * p1[j] - 3 * p2[j] + p3[j]) * t ** 3) for j in range(2)))
-    out.append(pts[-1])
-    return out
-
-
-neck = curve([(262, 470), (305, 444), (385, 438), (440, 455), (500, 470), (560, 482), (606, 498), (624, 522)])
 ImageDraw.Draw(area).polygon(
-    neck + [(600, 550), (545, 550), (500, 542), (440, 552), (405, 566), (402, 642), (352, 642), (345, 562), (300, 547), (262, 542)],
+    [(262, 452), (300, 436), (345, 440), (392, 452), (424, 470), (416, 522), (404, 545), (400, 655),
+     (356, 655), (350, 548), (300, 536), (256, 530)],
     fill=255,
 )
-mask = area.filter(ImageFilter.GaussianBlur(2))
-
-ramp = [(0.0, (16, 10, 28)), (0.45, (52, 38, 84)), (0.8, (96, 76, 140)), (1.0, (150, 128, 190))]
-
-
-def silk(lum):
-    for (a, ca), (b, cb) in zip(ramp, ramp[1:]):
-        if lum <= b:
-            t = (lum - a) / (b - a)
-            return tuple(round(ca[i] + (cb[i] - ca[i]) * t) for i in range(3))
-    return ramp[-1][1]
-
 
 px = im.load()
-soft = im.filter(ImageFilter.GaussianBlur(3)).load()
+ap = area.load()
+skin = Image.new("L", (w, h), 0)
+sp = skin.load()
+for y in range(420, 670):
+    for x in range(240, 440):
+        if ap[x, y]:
+            r, g, b, a = px[x, y]
+            if a > 0 and r > 120 and r - b >= 45:
+                sp[x, y] = 255
+# The shoulder's white and pale highlights are skin too when skin surrounds them.
+near = skin.filter(ImageFilter.MaxFilter(11)).load()
+for y in range(420, 670):
+    for x in range(240, 440):
+        if ap[x, y] and near[x, y] and not sp[x, y]:
+            r, g, b, a = px[x, y]
+            if a > 0 and r > 235 and g > 225:
+                sp[x, y] = 255
+# Close the tiny gaps between skin pixels (posterised colours), keep the edge soft.
+mask = skin.filter(ImageFilter.MaxFilter(3)).filter(ImageFilter.MinFilter(3)).filter(ImageFilter.GaussianBlur(1.2))
+
+# Silk swatch from inside the bodice, mirrored so tiles meet without seams.
+sx, sy, tw, th = 445, 572, 110, 110
+swatch = im.crop((sx, sy, sx + tw, sy + th)).convert("RGB")
+tile = Image.new("RGB", (tw * 2, th * 2))
+tile.paste(swatch, (0, 0))
+tile.paste(swatch.transpose(Image.FLIP_LEFT_RIGHT), (tw, 0))
+tile.paste(swatch.transpose(Image.FLIP_TOP_BOTTOM), (0, th))
+tile.paste(swatch.transpose(Image.ROTATE_180), (tw, th))
+tp = tile.load()
+
+soft = im.filter(ImageFilter.GaussianBlur(4)).load()
+lums = [0.3 * soft[x, y][0] + 0.59 * soft[x, y][1] + 0.11 * soft[x, y][2] for y in range(420, 670) for x in range(240, 440) if sp[x, y]]
+mean = sum(lums) / len(lums)
+
 cloth = im.copy()
 cp = cloth.load()
-for y in range(420, 640):
-    for x in range(260, 640):
-        if not area.getpixel((x, y)):
+mp = mask.load()
+for y in range(420, 670):
+    for x in range(240, 440):
+        if not mp[x, y]:
             continue
         r, g, b, a = px[x, y]
-        if r > 150 and r - b > 80 and (430 <= x <= 520 and 440 <= y <= 490 or 520 <= x <= 590 and 500 <= y <= 540 or 380 <= x <= 470 and 480 <= y <= 540):  # brooch and flowers stay
-            continue
         line = (0.3 * r + 0.59 * g + 0.11 * b) / 255
+        if line < 0.28:  # ink lines of the drawing stay
+            continue
         sr, sg, sb, _ = soft[x, y]
-        lum = (0.3 * sr + 0.59 * sg + 0.11 * sb) / 255
-        # Smooth silk from the blurred shading; the drawing's dark line work stays on top.
-        lum = min(lum, line + 0.15) if line < 0.25 else lum
-        cp[x, y] = silk(min(1.0, max(0.0, (lum - 0.1) / 0.85))) + (a,)
+        shade = max(0.55, min(1.35, (0.3 * sr + 0.59 * sg + 0.11 * sb) / mean))
+        tr, tg, tb = tp[x % (tw * 2), y % (th * 2)]
+        cp[x, y] = (min(255, round(tr * shade * 1.15)), min(255, round(tg * shade * 1.15)), min(255, round(tb * shade * 1.15)), a)
 out = Image.composite(cloth, im, mask)
-
-trim = ImageDraw.Draw(out)
-trim.line(neck, fill=(28, 18, 14, 255), width=8, joint="curve")
-trim.line(neck, fill=(206, 164, 86, 255), width=4, joint="curve")
-trim.line([(x, y - 1) for x, y in neck], fill=(245, 214, 140, 255), width=1, joint="curve")
 
 os.makedirs("pack/edited", exist_ok=True)
 out.save("pack/edited/117_1.png")
