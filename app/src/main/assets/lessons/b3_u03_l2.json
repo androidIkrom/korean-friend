@@ -1,0 +1,1450 @@
+{
+  "id": "b3_u03_l2",
+  "unit": 3,
+  "lesson": 2,
+  "title_ko": "뮤지컬을 봤는데 정말 재미있었어요",
+  "title_uz": "Myuzikl ko'rdim, juda qiziq bo'ldi",
+  "title_en": "I saw a musical and it was really fun",
+  "topic_uz": "Tajriba",
+  "topic_en": "Experience",
+  "reviewed": false,
+  "words": [
+    {
+      "id": "b3_u03_l2_w001",
+      "ko": "뮤지컬",
+      "uz": "myuzikl",
+      "en": "musical",
+      "pos": "ot",
+      "example_ko": "뮤지컬을 봤는데 재미있었어요.",
+      "example_uz": "Myuzikl ko'rdim, qiziq bo'ldi.",
+      "example_en": "I saw a musical, and it was fun.",
+      "audio": "70fc5a7228bf.mp3",
+      "example_audio": "9671f7bcfa3c.mp3"
+    },
+    {
+      "id": "b3_u03_l2_w002",
+      "ko": "공연",
+      "uz": "tomosha, chiqish",
+      "en": "performance",
+      "pos": "ot",
+      "example_ko": "공연이 몇 시에 시작해요?",
+      "example_uz": "Tomosha soat nechada boshlanadi?",
+      "example_en": "What time does the show start?",
+      "audio": "f721e0a067fb.mp3",
+      "example_audio": "2a8fd02bde0f.mp3"
+    },
+    {
+      "id": "b3_u03_l2_w003",
+      "ko": "콘서트",
+      "uz": "konsert",
+      "en": "concert",
+      "pos": "ot",
+      "example_ko": "콘서트에 갔는데 사람이 많았어요.",
+      "example_uz": "Konsertga bordim, odam ko'p edi.",
+      "example_en": "I went to the concert, and it was crowded.",
+      "audio": "f0e9648f07d7.mp3",
+      "example_audio": "76b5a1b5e31c.mp3"
+    },
+    {
+      "id": "b3_u03_l2_w004",
+      "ko": "연극",
+      "uz": "spektakl (drama)",
+      "en": "play",
+      "pos": "ot",
+      "example_ko": "대학로에서 연극을 봤어요.",
+      "example_uz": "Teharoda spektakl ko'rdim.",
+      "example_en": "I saw a play in Daehak-ro.",
+      "audio": "3257526a4e23.mp3",
+      "example_audio": "296c845b4eb3.mp3"
+    },
+    {
+      "id": "b3_u03_l2_w005",
+      "ko": "무대",
+      "uz": "sahna",
+      "en": "stage",
+      "pos": "ot",
+      "example_ko": "무대가 정말 멋있었어요.",
+      "example_uz": "Sahna juda zo'r edi.",
+      "example_en": "The stage was really impressive.",
+      "audio": "1ee397b2cc8e.mp3",
+      "example_audio": "e34fce25d720.mp3"
+    },
+    {
+      "id": "b3_u03_l2_w006",
+      "ko": "관객",
+      "uz": "tomoshabin",
+      "en": "audience",
+      "pos": "ot",
+      "example_ko": "관객이 박수를 쳤어요.",
+      "example_uz": "Tomoshabinlar qarsak chalishdi.",
+      "example_en": "The audience applauded.",
+      "audio": "2ccb694d931b.mp3",
+      "example_audio": "e3d9b6ca437e.mp3"
+    },
+    {
+      "id": "b3_u03_l2_w007",
+      "ko": "매진",
+      "uz": "chiptalar tugashi",
+      "en": "sold out",
+      "pos": "ot",
+      "example_ko": "표가 벌써 매진됐어요.",
+      "example_uz": "Chiptalar allaqachon sotilib bo'ldi.",
+      "example_en": "The tickets are already sold out.",
+      "audio": "928685897c7c.mp3",
+      "example_audio": "0c4ad06e2527.mp3"
+    },
+    {
+      "id": "b3_u03_l2_w008",
+      "ko": "좌석",
+      "uz": "o'rindiq",
+      "en": "seat",
+      "pos": "ot",
+      "example_ko": "앞 좌석이 비싸요.",
+      "example_uz": "Oldingi o'rindiqlar qimmat.",
+      "example_en": "Front seats are expensive.",
+      "audio": "e4c7a6e9577b.mp3",
+      "example_audio": "2f5d581c61bc.mp3"
+    },
+    {
+      "id": "b3_u03_l2_w009",
+      "ko": "예매하다",
+      "uz": "chiptani oldindan olmoq",
+      "en": "to book (tickets)",
+      "pos": "fe'l",
+      "example_ko": "인터넷으로 예매했어요.",
+      "example_uz": "Internet orqali oldindan oldim.",
+      "example_en": "I booked online.",
+      "audio": "04cabd3b2216.mp3",
+      "example_audio": "27302552531c.mp3"
+    },
+    {
+      "id": "b3_u03_l2_w010",
+      "ko": "감동적이다",
+      "uz": "ta'sirli bo'lmoq",
+      "en": "to be moving",
+      "pos": "sifat",
+      "example_ko": "마지막 장면이 감동적이었어요.",
+      "example_uz": "Oxirgi sahna ta'sirli edi.",
+      "example_en": "The last scene was moving.",
+      "audio": "ad958bddc04e.mp3",
+      "example_audio": "ed78942570b9.mp3"
+    },
+    {
+      "id": "b3_u03_l2_w011",
+      "ko": "지루하다",
+      "uz": "zerikarli bo'lmoq",
+      "en": "to be boring",
+      "pos": "sifat",
+      "example_ko": "영화가 조금 지루했어요.",
+      "example_uz": "Kino biroz zerikarli edi.",
+      "example_en": "The film was a bit boring.",
+      "audio": "35c9db8c1cd1.mp3",
+      "example_audio": "e76f5f284a2d.mp3"
+    },
+    {
+      "id": "b3_u03_l2_w012",
+      "ko": "신나다",
+      "uz": "xursand, hayajonli bo'lmoq",
+      "en": "to be exciting",
+      "pos": "sifat",
+      "example_ko": "콘서트가 정말 신났어요.",
+      "example_uz": "Konsert juda hayajonli bo'ldi.",
+      "example_en": "The concert was really exciting.",
+      "audio": "ece4f9590879.mp3",
+      "example_audio": "522c7e1f9459.mp3"
+    },
+    {
+      "id": "b3_u03_l2_w013",
+      "ko": "슬프다",
+      "uz": "qayg'uli bo'lmoq",
+      "en": "to be sad",
+      "pos": "sifat",
+      "example_ko": "이야기가 슬펐어요.",
+      "example_uz": "Hikoya qayg'uli edi.",
+      "example_en": "The story was sad.",
+      "audio": "ab0b9073c548.mp3",
+      "example_audio": "cef53a4ced1c.mp3"
+    },
+    {
+      "id": "b3_u03_l2_w014",
+      "ko": "울다",
+      "uz": "yig'lamoq",
+      "en": "to cry",
+      "pos": "fe'l",
+      "example_ko": "마지막에 울었어요.",
+      "example_uz": "Oxirida yig'ladim.",
+      "example_en": "I cried at the end.",
+      "audio": "7ec8b2dcc787.mp3",
+      "example_audio": "2122d54e5382.mp3"
+    },
+    {
+      "id": "b3_u03_l2_w015",
+      "ko": "웃다",
+      "uz": "kulmoq",
+      "en": "to laugh",
+      "pos": "fe'l",
+      "example_ko": "공연을 보면서 많이 웃었어요.",
+      "example_uz": "Tomosha paytida ko'p kuldim.",
+      "example_en": "I laughed a lot during the show.",
+      "audio": "1af8d429c3cd.mp3",
+      "example_audio": "bc1b040494bf.mp3"
+    },
+    {
+      "id": "b3_u03_l2_w016",
+      "ko": "박수를 치다",
+      "uz": "qarsak chalmoq",
+      "en": "to clap",
+      "pos": "ibora",
+      "example_ko": "모두 박수를 쳤어요.",
+      "example_uz": "Hamma qarsak chaldi.",
+      "example_en": "Everyone clapped.",
+      "audio": "29f856df27a7.mp3",
+      "example_audio": "e5ea14abc32d.mp3"
+    },
+    {
+      "id": "b3_u03_l2_w017",
+      "ko": "노래를 부르다",
+      "uz": "qo'shiq aytmoq",
+      "en": "to sing",
+      "pos": "ibora",
+      "example_ko": "배우가 노래를 불렀어요.",
+      "example_uz": "Aktyor qo'shiq aytdi.",
+      "example_en": "The actor sang.",
+      "audio": "7b180f064668.mp3",
+      "example_audio": "fd34816efa04.mp3"
+    },
+    {
+      "id": "b3_u03_l2_w018",
+      "ko": "춤을 추다",
+      "uz": "raqs tushmoq",
+      "en": "to dance",
+      "pos": "ibora",
+      "example_ko": "무대에서 춤을 췄어요.",
+      "example_uz": "Sahnada raqs tushdi.",
+      "example_en": "They danced on stage.",
+      "audio": "e38de6bce490.mp3",
+      "example_audio": "86fe71841747.mp3"
+    },
+    {
+      "id": "b3_u03_l2_w019",
+      "ko": "주인공",
+      "uz": "bosh qahramon",
+      "en": "main character",
+      "pos": "ot",
+      "example_ko": "주인공이 노래를 잘해요.",
+      "example_uz": "Bosh qahramon yaxshi kuylaydi.",
+      "example_en": "The lead sings well.",
+      "audio": "e60596175de6.mp3",
+      "example_audio": "1036c5408da3.mp3"
+    },
+    {
+      "id": "b3_u03_l2_w020",
+      "ko": "줄거리",
+      "uz": "syujet",
+      "en": "plot",
+      "pos": "ot",
+      "example_ko": "줄거리가 재미있었어요.",
+      "example_uz": "Syujet qiziq edi.",
+      "example_en": "The plot was interesting.",
+      "audio": "6f6bcce85928.mp3",
+      "example_audio": "1b3252cbee76.mp3"
+    },
+    {
+      "id": "b3_u03_l2_w021",
+      "ko": "장면",
+      "uz": "sahna (lavha)",
+      "en": "scene",
+      "pos": "ot",
+      "example_ko": "그 장면이 기억에 남아요.",
+      "example_uz": "O'sha lavha esimda qoldi.",
+      "example_en": "That scene stays with me.",
+      "audio": "beaf94d23d90.mp3",
+      "example_audio": "61e281ac06a6.mp3"
+    },
+    {
+      "id": "b3_u03_l2_w022",
+      "ko": "공연장",
+      "uz": "konsert zali",
+      "en": "concert hall",
+      "pos": "ot",
+      "example_ko": "공연장이 정말 컸어요.",
+      "example_uz": "Konsert zali juda katta edi.",
+      "example_en": "The concert hall was huge.",
+      "audio": "93e296f4ce7f.mp3",
+      "example_audio": "bc96e024b6e9.mp3"
+    },
+    {
+      "id": "b3_u03_l2_w023",
+      "ko": "기대하다",
+      "uz": "kutmoq (umid bilan)",
+      "en": "to look forward to",
+      "pos": "fe'l",
+      "example_ko": "다음 공연을 기대해요.",
+      "example_uz": "Keyingi tomoshani kutyapman.",
+      "example_en": "I'm looking forward to the next show.",
+      "audio": "dce5f793f80f.mp3",
+      "example_audio": "0779db2adf2f.mp3"
+    },
+    {
+      "id": "b3_u03_l2_w024",
+      "ko": "실망하다",
+      "uz": "hafsalasi pir bo'lmoq",
+      "en": "to be disappointed",
+      "pos": "fe'l",
+      "example_ko": "기대했는데 실망했어요.",
+      "example_uz": "Kutgandim, lekin hafsalam pir bo'ldi.",
+      "example_en": "I had high hopes, but I was disappointed.",
+      "audio": "05fe7a0a7d17.mp3",
+      "example_audio": "a5f5669b07f6.mp3"
+    },
+    {
+      "id": "b3_u03_l2_w025",
+      "ko": "어리다",
+      "uz": "yosh bo'lmoq (bola)",
+      "en": "to be young",
+      "pos": "sifat",
+      "example_ko": "어렸을 때 피아노를 배웠어요.",
+      "example_uz": "Kichikligimda pianino o'rgandim.",
+      "example_en": "I learned the piano when I was young.",
+      "audio": "9adc7ee0ab5a.mp3",
+      "example_audio": "68bd774799f8.mp3"
+    },
+    {
+      "id": "b3_u03_l2_w026",
+      "ko": "처음",
+      "uz": "birinchi marta",
+      "en": "first",
+      "pos": "ot",
+      "example_ko": "한국에 처음 왔을 때 힘들었어요.",
+      "example_uz": "Koreyaga birinchi kelganimda qiyin bo'ldi.",
+      "example_en": "When I first came to Korea, it was hard.",
+      "audio": "a61ba4d0c4fc.mp3",
+      "example_audio": "e1a00cce9215.mp3"
+    },
+    {
+      "id": "b3_u03_l2_w027",
+      "ko": "고등학생",
+      "uz": "litsey/maktab yuqori sinf o'quvchisi",
+      "en": "high-school student",
+      "pos": "ot",
+      "example_ko": "고등학생이었을 때 연극을 했어요.",
+      "example_uz": "Yuqori sinfda o'qiganimda spektaklda o'ynaganman.",
+      "example_en": "I acted in plays when I was in high school.",
+      "audio": "e5d3c44fecf0.mp3",
+      "example_audio": "16b43f17704f.mp3"
+    },
+    {
+      "id": "b3_u03_l2_w028",
+      "ko": "티켓",
+      "uz": "chipta",
+      "en": "ticket",
+      "pos": "ot",
+      "example_ko": "티켓이 두 장 있어요.",
+      "example_uz": "Ikkita chipta bor.",
+      "example_en": "I have two tickets.",
+      "audio": "1c81c7d3f548.mp3",
+      "example_audio": "b52287fa00b2.mp3"
+    },
+    {
+      "id": "b3_u03_l2_w029",
+      "ko": "장",
+      "uz": "dona (qog'oz, chipta sanog'i)",
+      "en": "sheet (counter)",
+      "pos": "ot",
+      "example_ko": "표 두 장 주세요.",
+      "example_uz": "Ikkita chipta bering.",
+      "example_en": "Two tickets, please.",
+      "audio": "efc1493c5196.mp3",
+      "example_audio": "eb40f6a899d5.mp3"
+    },
+    {
+      "id": "b3_u03_l2_w030",
+      "ko": "유명하다",
+      "uz": "mashhur bo'lmoq",
+      "en": "to be famous",
+      "pos": "sifat",
+      "example_ko": "유명한 배우가 나왔는데 정말 잘했어요.",
+      "example_uz": "Mashhur aktyor chiqdi, juda yaxshi o'ynadi.",
+      "example_en": "A famous actor was in it, and he was great.",
+      "audio": "bb44cdae7ce4.mp3",
+      "example_audio": "f11e2b558115.mp3"
+    },
+    {
+      "id": "b3_u03_l2_w031",
+      "ko": "끝나다",
+      "uz": "tugamoq",
+      "en": "to end",
+      "pos": "fe'l",
+      "example_ko": "공연이 끝났을 때 열 시였어요.",
+      "example_uz": "Tomosha tugaganda soat o'n edi.",
+      "example_en": "When the show ended, it was ten.",
+      "audio": "f0ec5db8edc8.mp3",
+      "example_audio": "d4923bb6018a.mp3"
+    },
+    {
+      "id": "b3_u03_l2_w032",
+      "ko": "소리",
+      "uz": "ovoz, tovush",
+      "en": "sound",
+      "pos": "ot",
+      "example_ko": "음악 소리가 컸어요.",
+      "example_uz": "Musiqa ovozi baland edi.",
+      "example_en": "The music was loud.",
+      "audio": "23b026ae7b9f.mp3",
+      "example_audio": "5d418469d5e4.mp3"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "b3_u03_l2_g1",
+      "pattern": "A/V-았/었을 때",
+      "meaning_uz": "...ganda (o'tmishdagi payt)",
+      "meaning_en": "When … (in the past)",
+      "explanation_md": "**-았/었을 때** — o'tmishdagi **payt**: \"...ganimda\", \"... bo'lganda\".\n\n**한국에 처음 왔을 때 힘들었어요.** — *Koreyaga birinchi kelganimda qiyin bo'ldi.*\n\n### Qanday yasaladi\n\nO'tgan zamon (-았/었) + **을 때**:\n\n- 오다 → **왔을 때**, 가다 → **갔을 때**\n- 어리다 → **어렸을 때**, 끝나다 → **끝났을 때**\n- 하다 → **했을 때**\n- Ot: **N이었을 때 / N였을 때**: 고등학생 → **고등학생이었을 때**\n\n### -(으)ㄹ 때 bilan farqi (2-kitob)\n\n- **-(으)ㄹ 때** — umumiy payt yoki jarayon: **한국에 올 때 비행기에서 잤어요.** — *Koreyaga kelayotganda samolyotda uxladim.*\n- **-았/었을 때** — ish **tugagan** payt: **한국에 왔을 때 친구가 마중 나왔어요.** — *Koreyaga kelganimda do'stim kutib oldi.*",
+      "explanation_md_en": "**-았/었을 때** marks a **time in the past**: \"when I (had) …\", \"when I was …\".\n\n**한국에 처음 왔을 때 힘들었어요.** — *When I first came to Korea, it was hard.*\n\n### How to form it\n\nPast tense (-았/었) + **을 때**:\n\n- 오다 → **왔을 때**, 가다 → **갔을 때**\n- 어리다 → **어렸을 때**, 끝나다 → **끝났을 때**\n- 하다 → **했을 때**\n- Noun: **N이었을 때 / N였을 때**: 고등학생 → **고등학생이었을 때**\n\n### vs -(으)ㄹ 때 (book 2)\n\n- **-(으)ㄹ 때** — a general time or something in progress: **한국에 올 때 비행기에서 잤어요.** — *I slept on the plane on my way to Korea.*\n- **-았/었을 때** — the moment after it's **done**: **한국에 왔을 때 친구가 마중 나왔어요.** — *When I arrived in Korea, a friend met me.*",
+      "formation": [
+        {
+          "condition_uz": "Fe'l/sifat",
+          "condition_en": "Verb/adjective",
+          "rule": "-았/었 + 을 때",
+          "example": "왔을 때, 어렸을 때, 했을 때"
+        },
+        {
+          "condition_uz": "Ot",
+          "condition_en": "Noun",
+          "rule": "N이었을 때 / N였을 때",
+          "example": "고등학생이었을 때, 친구였을 때"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "한국에 처음 왔을 때 힘들었어요.",
+          "uz": "Koreyaga birinchi kelganimda qiyin bo'ldi.",
+          "en": "When I first came to Korea, it was hard.",
+          "audio": "e1a00cce9215.mp3"
+        },
+        {
+          "ko": "어렸을 때 피아노를 배웠어요.",
+          "uz": "Kichikligimda pianino o'rgandim.",
+          "en": "I learned the piano when I was young.",
+          "audio": "68bd774799f8.mp3"
+        },
+        {
+          "ko": "공연이 끝났을 때 모두 박수를 쳤어요.",
+          "uz": "Tomosha tugaganda hamma qarsak chaldi.",
+          "en": "When the show ended, everyone clapped.",
+          "audio": "93a1bd42dc94.mp3"
+        },
+        {
+          "ko": "고등학생이었을 때 연극을 했어요.",
+          "uz": "Yuqori sinfda o'qiganimda spektaklda o'ynaganman.",
+          "en": "I acted in plays when I was in high school.",
+          "audio": "16b43f17704f.mp3"
+        },
+        {
+          "ko": "그 노래를 처음 들었을 때 울었어요.",
+          "uz": "U qo'shiqni birinchi eshitganimda yig'ladim.",
+          "en": "I cried the first time I heard that song.",
+          "audio": "78b68fb2872a.mp3"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "어리었을 때 …",
+          "right": "어렸을 때 …",
+          "why_uz": "어리다 + 었 → 어렸.",
+          "why_en": "어리다 + 었 → 어렸."
+        },
+        {
+          "wrong": "한국에 왔을 때에서 …",
+          "right": "한국에 왔을 때 …",
+          "why_uz": "때 dan keyin 에서 qo'yilmaydi.",
+          "why_en": "때 doesn't take 에서."
+        },
+        {
+          "wrong": "고등학생았을 때 …",
+          "right": "고등학생이었을 때 …",
+          "why_uz": "Ot: N이었을 때.",
+          "why_en": "Noun: N이었을 때."
+        }
+      ],
+      "uz_compare": "O'zbekchadagi '-ganda' ga juda mos: 'kelGANIMDA' = 왔을 때, 'kichikLIGIMDA' = 어렸을 때.",
+      "compare_en": "Like English 'when' + past: 'WHEN I came' = 왔을 때, 'when I was young' = 어렸을 때 — the 때 ('time') goes after the verb."
+    },
+    {
+      "id": "b3_u03_l2_g2",
+      "pattern": "A-(으)ㄴ데, V-는데, N인데 (fon)",
+      "meaning_uz": "..., ... (vaziyatni tasvirlab, keyin asosiy gap)",
+      "meaning_en": "… and / but … (giving background)",
+      "explanation_md": "**-는데** gapning birinchi qismida **fon, vaziyat**ni beradi, ikkinchi qismda esa asosiy fikr keladi. O'zbekchada ko'pincha shunchaki vergul yoki \"..., ...\" bilan beriladi.\n\n**뮤지컬을 봤는데 정말 재미있었어요.** — *Myuzikl ko'rdim, juda qiziq bo'ldi.*  \n**대학로에 갔는데 사람이 많았어요.** — *Teharoga bordim, odam ko'p ekan.*\n\n### Qanday yasaladi\n\n- **Fe'l** → **-는데**: 가다 → **가는데**, 먹다 → **먹는데**\n- **Sifat** → **-(으)ㄴ데**: 비싸다 → **비싼데**, 많다 → **많은데**\n- **Ot** → **N인데**: 학생 → **학생인데**\n- **O'tgan zamon** — hammasida **-았/었는데**: **봤는데**, **비쌌는데**\n- **있다/없다** → **-는데**: 재미있는데, 맛없는데\n\n### Esda tuting\n\n- Ba'zan **qarama-qarshilik** ham beradi: **기대했는데 실망했어요.** — *Kutgandim, lekin hafsalam pir bo'ldi.*\n- **ㄹ** tushadi: 살다 → **사는데**, 멀다 → **먼데**",
+      "explanation_md_en": "**-는데** sets up **background or a situation** in the first half; the main point comes in the second. In English it's often just \"and\" or \"so\".\n\n**뮤지컬을 봤는데 정말 재미있었어요.** — *I saw a musical, and it was really fun.*  \n**대학로에 갔는데 사람이 많았어요.** — *I went to Daehak-ro, and it was crowded.*\n\n### How to form it\n\n- **Verb** → **-는데**: 가다 → **가는데**, 먹다 → **먹는데**\n- **Adjective** → **-(으)ㄴ데**: 비싸다 → **비싼데**, 많다 → **많은데**\n- **Noun** → **N인데**: 학생 → **학생인데**\n- **Past** for all: **-았/었는데**: **봤는데**, **비쌌는데**\n- **있다/없다** → **-는데**: 재미있는데, 맛없는데\n\n### Remember\n\n- It can also show **contrast**: **기대했는데 실망했어요.** — *I had high hopes, but I was disappointed.*\n- **ㄹ** drops: 살다 → **사는데**, 멀다 → **먼데**",
+      "formation": [
+        {
+          "condition_uz": "Fe'l",
+          "condition_en": "Verb",
+          "rule": "V + 는데",
+          "example": "가는데, 먹는데"
+        },
+        {
+          "condition_uz": "Sifat",
+          "condition_en": "Adjective",
+          "rule": "A + (으)ㄴ데",
+          "example": "비싼데, 많은데"
+        },
+        {
+          "condition_uz": "Ot",
+          "condition_en": "Noun",
+          "rule": "N + 인데",
+          "example": "학생인데, 주말인데"
+        },
+        {
+          "condition_uz": "O'tgan",
+          "condition_en": "Past",
+          "rule": "-았/었는데",
+          "example": "봤는데, 비쌌는데"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "뮤지컬을 봤는데 정말 재미있었어요.",
+          "uz": "Myuzikl ko'rdim, juda qiziq bo'ldi.",
+          "en": "I saw a musical, and it was really fun.",
+          "audio": "129fcb328496.mp3"
+        },
+        {
+          "ko": "대학로에 갔는데 사람이 많았어요.",
+          "uz": "Teharoga bordim, odam ko'p ekan.",
+          "en": "I went to Daehak-ro, and it was crowded.",
+          "audio": "b617a86b38a7.mp3"
+        },
+        {
+          "ko": "표가 비싼데 좌석이 좋아요.",
+          "uz": "Chipta qimmat, lekin joyi yaxshi.",
+          "en": "The tickets are pricey, but the seats are good.",
+          "audio": "a20114cd3ed3.mp3"
+        },
+        {
+          "ko": "기대했는데 조금 실망했어요.",
+          "uz": "Kutgandim, lekin biroz hafsalam pir bo'ldi.",
+          "en": "I had high hopes, but I was a bit disappointed.",
+          "audio": "b524bab6de4b.mp3"
+        },
+        {
+          "ko": "주말인데 공연장이 조용해요.",
+          "uz": "Dam olish kuni, lekin zal tinch.",
+          "en": "It's the weekend, yet the hall is quiet.",
+          "audio": "002010606a1b.mp3"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "뮤지컬을 보는데 재미있었어요. (o'tgan)",
+          "right": "뮤지컬을 봤는데 재미있었어요.",
+          "why_uz": "O'tgan voqea: -았/었는데.",
+          "why_en": "Past event: -았/었는데."
+        },
+        {
+          "wrong": "표가 비싸는데 좋아요.",
+          "right": "표가 비싼데 좋아요.",
+          "why_uz": "비싸다 — sifat: 비싼데.",
+          "why_en": "비싸다 is an adjective: 비싼데."
+        },
+        {
+          "wrong": "학생는데 …",
+          "right": "학생인데 …",
+          "why_uz": "Ot: 인데.",
+          "why_en": "Noun: 인데."
+        }
+      ],
+      "uz_compare": "O'zbekchada bunday gaplar ko'pincha vergul bilan yasaladi: 'Myuzikl ko'rdim, juda qiziq bo'ldi'. Koreyschada bu vergul vazifasini -는데 bajaradi.",
+      "compare_en": "English often joins these with 'and' or 'but': 'I saw a musical AND it was fun'. Korean uses -는데 to set the scene before the main point."
+    }
+  ],
+  "dialogue": {
+    "lines": [
+      {
+        "speaker": "minji",
+        "ko": "아지즈 씨, 주말에 뭐 했어요?",
+        "uz": "Aziz, dam olish kunlari nima qildingiz?",
+        "en": "Aziz, what did you do at the weekend?",
+        "audio": "188011924655.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "대학로에서 뮤지컬을 봤는데 정말 재미있었어요.",
+        "uz": "Teharoda myuzikl ko'rdim, juda qiziq bo'ldi.",
+        "en": "I saw a musical in Daehak-ro, and it was really fun.",
+        "audio": "365598f6e07e.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "와, 무슨 뮤지컬이었어요?",
+        "uz": "Voy, qanday myuzikl edi?",
+        "en": "Wow, which musical was it?",
+        "audio": "b49e8eb82982.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "유명한 뮤지컬인데 표가 거의 매진이었어요.",
+        "uz": "Mashhur myuzikl, chiptalar deyarli tugagan edi.",
+        "en": "It's a famous one, and the tickets were almost sold out.",
+        "audio": "87d8186326f3.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "줄거리는 어땠어요?",
+        "uz": "Syujeti qanday edi?",
+        "en": "How was the plot?",
+        "audio": "c1d68983fdb9.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "처음에는 웃겼는데 마지막 장면은 정말 감동적이었어요.",
+        "uz": "Avvaliga kulgili edi, lekin oxirgi sahna juda ta'sirli bo'ldi.",
+        "en": "It was funny at first, but the last scene was really moving.",
+        "audio": "05a86a18a775.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "울었어요?",
+        "uz": "Yig'ladingizmi?",
+        "en": "Did you cry?",
+        "audio": "796d6ac65f1f.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "네, 조금 울었어요. 공연이 끝났을 때 모두 박수를 쳤어요.",
+        "uz": "Ha, biroz yig'ladim. Tomosha tugaganda hamma qarsak chaldi.",
+        "en": "Yes, a little. When the show ended, everyone clapped.",
+        "audio": "5b0de4a1d912.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "저도 고등학생이었을 때 뮤지컬 동아리에서 노래를 불렀어요.",
+        "uz": "Men ham yuqori sinfda musiqiy to'garakda qo'shiq aytganman.",
+        "en": "I sang in a musical club when I was in high school, too.",
+        "audio": "bcd88fb1e947.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "정말요? 민지 씨 노래를 듣고 싶어요!",
+        "uz": "Rostdanmi? Minji, qo'shig'ingizni eshitgim keladi!",
+        "en": "Really? I'd love to hear you sing!",
+        "audio": "113ecebbc02b.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "하하, 다음에 노래방에 같이 가요.",
+        "uz": "Haha, keyingi safar birga karaokega boramiz.",
+        "en": "Haha, let's go to karaoke together next time.",
+        "audio": "f1c87c466cfc.mp3"
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b3_u03_l2_e001",
+      "type": "conjugate",
+      "targets": [
+        "b3_u03_l2_g1"
+      ],
+      "prompt_uz": "'Kelganimda' shaklini yasang",
+      "prompt_en": "Make 'when (I) came'",
+      "base": "오다",
+      "form": "-았/었을 때",
+      "answers": [
+        "왔을 때"
+      ]
+    },
+    {
+      "id": "b3_u03_l2_e002",
+      "type": "conjugate",
+      "targets": [
+        "b3_u03_l2_g1"
+      ],
+      "prompt_uz": "'Kichikligimda' shaklini yasang",
+      "prompt_en": "Make 'when (I) was young'",
+      "base": "어리다",
+      "form": "-았/었을 때",
+      "answers": [
+        "어렸을 때"
+      ]
+    },
+    {
+      "id": "b3_u03_l2_e003",
+      "type": "conjugate",
+      "targets": [
+        "b3_u03_l2_g2"
+      ],
+      "prompt_uz": "'Ko'rdim, (va)...' shaklini yasang",
+      "prompt_en": "Make 'saw, and…' (past background)",
+      "base": "보다",
+      "form": "-았/었는데",
+      "answers": [
+        "봤는데"
+      ]
+    },
+    {
+      "id": "b3_u03_l2_e004",
+      "type": "conjugate",
+      "targets": [
+        "b3_u03_l2_g2"
+      ],
+      "prompt_uz": "'Qimmat, (lekin)...' shaklini yasang",
+      "prompt_en": "Make 'is expensive, but…'",
+      "base": "비싸다",
+      "form": "-(으)ㄴ데",
+      "answers": [
+        "비싼데"
+      ]
+    },
+    {
+      "id": "b3_u03_l2_e005",
+      "type": "fill_blank",
+      "targets": [
+        "b3_u03_l2_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Tomosha tugaganda hamma qarsak chaldi.'",
+      "prompt_en": "Fill in the blank: 'When the show ended, everyone clapped.'",
+      "sentence": "공연이 ___ 때 모두 박수를 쳤어요. (끝나다)",
+      "answers": [
+        "끝났을"
+      ]
+    },
+    {
+      "id": "b3_u03_l2_e006",
+      "type": "fill_blank",
+      "targets": [
+        "b3_u03_l2_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Yuqori sinfda o'qiganimda'",
+      "prompt_en": "Fill in the blank: 'When I was in high school'",
+      "sentence": "고등학생___ 때",
+      "answers": [
+        "이었을"
+      ]
+    },
+    {
+      "id": "b3_u03_l2_e007",
+      "type": "fill_blank",
+      "targets": [
+        "b3_u03_l2_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Teharoga bordim, odam ko'p ekan.'",
+      "prompt_en": "Fill in the blank: 'I went to Daehak-ro, and it was crowded.'",
+      "sentence": "대학로에 ___ 사람이 많았어요. (가다)",
+      "answers": [
+        "갔는데"
+      ]
+    },
+    {
+      "id": "b3_u03_l2_e008",
+      "type": "fill_blank",
+      "targets": [
+        "b3_u03_l2_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Mashhur myuzikl, chiptalar tugagan.'",
+      "prompt_en": "Fill in the blank: 'It's a famous musical, and it's sold out.'",
+      "sentence": "유명한 뮤지컬___ 매진이에요.",
+      "answers": [
+        "인데"
+      ]
+    },
+    {
+      "id": "b3_u03_l2_e009",
+      "type": "situation_choice",
+      "targets": [
+        "b3_u03_l2_g2"
+      ],
+      "prompt_uz": "Do'stingizga kinoni kutganingizni, lekin hafsalangiz pir bo'lganini ayting:",
+      "prompt_en": "Tell your friend you had high hopes for the film but were disappointed:",
+      "options": [
+        "기대했는데 실망했어요.",
+        "기대하는데 실망했어요.",
+        "기대했은데 실망했어요.",
+        "기대했어서 실망했어요요."
+      ],
+      "answers": [
+        "기대했는데 실망했어요."
+      ]
+    },
+    {
+      "id": "b3_u03_l2_e010",
+      "type": "situation_choice",
+      "targets": [
+        "b3_u03_l2_g1"
+      ],
+      "prompt_uz": "Koreyaga birinchi kelganingizda qiyin bo'lganini ayting:",
+      "prompt_en": "Say it was hard when you first came to Korea:",
+      "options": [
+        "한국에 처음 왔을 때 힘들었어요.",
+        "한국에 처음 올을 때 힘들었어요.",
+        "한국에 처음 왔을 때에서 힘들었어요.",
+        "한국에 처음 오았을 때 힘들었어요."
+      ],
+      "answers": [
+        "한국에 처음 왔을 때 힘들었어요."
+      ]
+    },
+    {
+      "id": "b3_u03_l2_e011",
+      "type": "situation_choice",
+      "targets": [
+        "b3_u03_l2_w007"
+      ],
+      "prompt_uz": "Chiptalar sotilib bo'lganini ayting:",
+      "prompt_en": "Say the tickets are sold out:",
+      "options": [
+        "표가 매진됐어요.",
+        "표가 예매됐어요.",
+        "표가 감동됐어요.",
+        "표가 실망됐어요."
+      ],
+      "answers": [
+        "표가 매진됐어요."
+      ]
+    },
+    {
+      "id": "b3_u03_l2_e012",
+      "type": "find_error",
+      "targets": [
+        "b3_u03_l2_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "어리었을 때 춤을 배웠어요.",
+      "answers": [
+        "어렸을 때 춤을 배웠어요"
+      ],
+      "why_uz": "어리다 + 었 → 어렸.",
+      "why_en": "어리다 + 었 → 어렸."
+    },
+    {
+      "id": "b3_u03_l2_e013",
+      "type": "find_error",
+      "targets": [
+        "b3_u03_l2_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "표가 비싸는데 좌석이 좋아요.",
+      "answers": [
+        "표가 비싼데 좌석이 좋아요"
+      ],
+      "why_uz": "Sifat: 비싼데.",
+      "why_en": "Adjective: 비싼데."
+    },
+    {
+      "id": "b3_u03_l2_e014",
+      "type": "find_error",
+      "targets": [
+        "b3_u03_l2_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "콘서트에 가는데 사람이 많았어요. (o'tgan)",
+      "answers": [
+        "콘서트에 갔는데 사람이 많았어요"
+      ],
+      "why_uz": "O'tgan voqea: 갔는데.",
+      "why_en": "Past event: 갔는데."
+    },
+    {
+      "id": "b3_u03_l2_e015",
+      "type": "translate",
+      "targets": [
+        "b3_u03_l2_g1"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Kichikligimda pianino o'rgandim.",
+      "source_en": "I learned the piano when I was young.",
+      "answers": [
+        "어렸을 때 피아노를 배웠어요"
+      ]
+    },
+    {
+      "id": "b3_u03_l2_e016",
+      "type": "translate",
+      "targets": [
+        "b3_u03_l2_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Myuzikl ko'rdim, juda qiziq bo'ldi.",
+      "source_en": "I saw a musical, and it was really fun.",
+      "answers": [
+        "뮤지컬을 봤는데 정말 재미있었어요",
+        "뮤지컬을 봤는데 아주 재미있었어요"
+      ]
+    },
+    {
+      "id": "b3_u03_l2_e017",
+      "type": "translate",
+      "targets": [
+        "b3_u03_l2_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Konsertga bordim, odam ko'p ekan.",
+      "source_en": "I went to the concert, and it was crowded.",
+      "answers": [
+        "콘서트에 갔는데 사람이 많았어요"
+      ]
+    },
+    {
+      "id": "b3_u03_l2_e018",
+      "type": "build_sentence",
+      "targets": [
+        "b3_u03_l2_g1"
+      ],
+      "prompt_uz": "'Tomosha tugaganda hamma qarsak chaldi' gapini tuzing",
+      "prompt_en": "Build the sentence 'When the show ended, everyone clapped'",
+      "tokens": [
+        "끝났을",
+        "박수를",
+        "쳤어요",
+        "때",
+        "공연이",
+        "모두"
+      ],
+      "answers": [
+        "공연이 끝났을 때 모두 박수를 쳤어요"
+      ]
+    },
+    {
+      "id": "b3_u03_l2_e019",
+      "type": "build_sentence",
+      "targets": [
+        "b3_u03_l2_g2"
+      ],
+      "prompt_uz": "'Chipta qimmat, lekin joyi yaxshi' gapini tuzing",
+      "prompt_en": "Build the sentence 'The tickets are pricey, but the seats are good'",
+      "tokens": [
+        "좋아요",
+        "표가",
+        "비싼데",
+        "좌석이"
+      ],
+      "answers": [
+        "표가 비싼데 좌석이 좋아요"
+      ]
+    },
+    {
+      "id": "b3_u03_l2_e020",
+      "type": "build_sentence",
+      "targets": [
+        "b3_u03_l2_g1"
+      ],
+      "prompt_uz": "'U qo'shiqni birinchi eshitganimda yig'ladim' gapini tuzing",
+      "prompt_en": "Build the sentence 'I cried the first time I heard that song'",
+      "tokens": [
+        "그",
+        "들었을",
+        "울었어요",
+        "노래를",
+        "처음",
+        "때"
+      ],
+      "answers": [
+        "그 노래를 처음 들었을 때 울었어요"
+      ]
+    },
+    {
+      "id": "b3_u03_l2_e021",
+      "type": "listen_question",
+      "targets": [
+        "b3_u03_l2_g2"
+      ],
+      "prompt_uz": "Spektakl qanday bo'ldi?",
+      "prompt_en": "How was the play?",
+      "audio_text": "연극을 봤는데 너무 지루했어요.",
+      "options": [
+        "Zerikarli",
+        "Qiziq",
+        "Ta'sirli",
+        "Kulgili"
+      ],
+      "options_en": [
+        "Boring",
+        "Fun",
+        "Moving",
+        "Funny"
+      ],
+      "answers": [
+        "Zerikarli"
+      ],
+      "audio": "f1d7725017d1.mp3"
+    },
+    {
+      "id": "b3_u03_l2_e022",
+      "type": "listen_question",
+      "targets": [
+        "b3_u03_l2_g1"
+      ],
+      "prompt_uz": "U qachon pianino o'rgangan?",
+      "prompt_en": "When did the speaker learn the piano?",
+      "audio_text": "초등학생이었을 때 피아노를 배웠어요.",
+      "options": [
+        "Boshlang'ich sinfda",
+        "Universitetda",
+        "O'tgan yili",
+        "Ishga kirganda"
+      ],
+      "options_en": [
+        "In primary school",
+        "At university",
+        "Last year",
+        "When starting work"
+      ],
+      "answers": [
+        "Boshlang'ich sinfda"
+      ],
+      "audio": "4c053f430d3d.mp3"
+    },
+    {
+      "id": "b3_u03_l2_e023",
+      "type": "listen_question",
+      "targets": [
+        "b3_u03_l2_g2"
+      ],
+      "prompt_uz": "Konsertda nima bo'ldi?",
+      "prompt_en": "What happened at the concert?",
+      "audio_text": "콘서트에 갔는데 가수가 무대에서 춤을 췄어요.",
+      "options": [
+        "Qo'shiqchi raqs tushdi",
+        "Konsert bekor bo'ldi",
+        "Chipta tugadi",
+        "Yomg'ir yog'di"
+      ],
+      "options_en": [
+        "The singer danced",
+        "It was cancelled",
+        "Tickets ran out",
+        "It rained"
+      ],
+      "answers": [
+        "Qo'shiqchi raqs tushdi"
+      ],
+      "audio": "41bd5157f6de.mp3"
+    },
+    {
+      "id": "b3_u03_l2_e024",
+      "type": "listen_question",
+      "targets": [
+        "b3_u03_l2_g1"
+      ],
+      "prompt_uz": "Hamma qachon qarsak chaldi?",
+      "prompt_en": "When did everyone clap?",
+      "audio_text": "마지막 노래가 끝났을 때 모두 박수를 쳤어요.",
+      "options": [
+        "Oxirgi qo'shiq tugaganda",
+        "Boshida",
+        "Tanaffusda",
+        "Kirganda"
+      ],
+      "options_en": [
+        "When the last song ended",
+        "At the start",
+        "At the interval",
+        "On entering"
+      ],
+      "answers": [
+        "Oxirgi qo'shiq tugaganda"
+      ],
+      "audio": "5c7422c9d399.mp3"
+    },
+    {
+      "id": "b3_u03_l2_e101",
+      "type": "conjugate",
+      "targets": [
+        "b3_u03_l2_g1"
+      ],
+      "prompt_uz": "'Boshlaganimda' shaklini yasang",
+      "prompt_en": "Make 'when (I) started'",
+      "base": "시작하다",
+      "form": "-았/었을 때",
+      "answers": [
+        "시작했을 때"
+      ]
+    },
+    {
+      "id": "b3_u03_l2_e102",
+      "type": "conjugate",
+      "targets": [
+        "b3_u03_l2_g2"
+      ],
+      "prompt_uz": "'Ko'p, (lekin)...' shaklini yasang",
+      "prompt_en": "Make 'there's a lot, but…'",
+      "base": "많다",
+      "form": "-(으)ㄴ데",
+      "answers": [
+        "많은데"
+      ]
+    },
+    {
+      "id": "b3_u03_l2_e103",
+      "type": "conjugate",
+      "targets": [
+        "b3_u03_l2_g2"
+      ],
+      "prompt_uz": "'Talaba, (va)...' shaklini yasang",
+      "prompt_en": "Make 'is a student, and…'",
+      "base": "학생",
+      "form": "N인데",
+      "answers": [
+        "학생인데"
+      ]
+    },
+    {
+      "id": "b3_u03_l2_e104",
+      "type": "fill_blank",
+      "targets": [
+        "b3_u03_l2_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Koreyaga kelganimda do'stim kutib oldi.'",
+      "prompt_en": "Fill in the blank: 'When I arrived in Korea, a friend met me.'",
+      "sentence": "한국에 ___ 때 친구가 마중 나왔어요. (오다)",
+      "answers": [
+        "왔을"
+      ]
+    },
+    {
+      "id": "b3_u03_l2_e105",
+      "type": "fill_blank",
+      "targets": [
+        "b3_u03_l2_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Kutgandim, lekin hafsalam pir bo'ldi.'",
+      "prompt_en": "Fill in the blank: 'I had high hopes, but I was disappointed.'",
+      "sentence": "___ 실망했어요. (기대하다)",
+      "answers": [
+        "기대했는데"
+      ]
+    },
+    {
+      "id": "b3_u03_l2_e106",
+      "type": "situation_choice",
+      "targets": [
+        "b3_u03_l2_g2"
+      ],
+      "prompt_uz": "Konsertga borganingizni va u hayajonli bo'lganini ayting:",
+      "prompt_en": "Say you went to a concert and it was exciting:",
+      "options": [
+        "콘서트에 갔는데 정말 신났어요.",
+        "콘서트에 가는데 정말 신났어요.",
+        "콘서트에 갔은데 정말 신났어요.",
+        "콘서트에 갔어서 정말 신났어요요."
+      ],
+      "answers": [
+        "콘서트에 갔는데 정말 신났어요."
+      ]
+    },
+    {
+      "id": "b3_u03_l2_e107",
+      "type": "situation_choice",
+      "targets": [
+        "b3_u03_l2_g1"
+      ],
+      "prompt_uz": "Yuqori sinfda spektaklda o'ynaganingizni ayting:",
+      "prompt_en": "Say you acted in plays in high school:",
+      "options": [
+        "고등학생이었을 때 연극을 했어요.",
+        "고등학생일 때였을 연극을 했어요.",
+        "고등학생았을 때 연극을 했어요.",
+        "고등학생이었을 때에서 연극을 했어요."
+      ],
+      "answers": [
+        "고등학생이었을 때 연극을 했어요."
+      ]
+    },
+    {
+      "id": "b3_u03_l2_e108",
+      "type": "situation_choice",
+      "targets": [
+        "b3_u03_l2_w009"
+      ],
+      "prompt_uz": "Internet orqali chipta oldindan olganingizni ayting:",
+      "prompt_en": "Say you booked the tickets online:",
+      "options": [
+        "인터넷으로 예매했어요.",
+        "인터넷으로 매진했어요.",
+        "인터넷으로 박수를 쳤어요.",
+        "인터넷으로 기대했어요."
+      ],
+      "answers": [
+        "인터넷으로 예매했어요."
+      ]
+    },
+    {
+      "id": "b3_u03_l2_e109",
+      "type": "find_error",
+      "targets": [
+        "b3_u03_l2_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "공연이 끝날을 때 열 시였어요.",
+      "answers": [
+        "공연이 끝났을 때 열 시였어요"
+      ],
+      "why_uz": "Tugagan payt: 끝났을 때.",
+      "why_en": "The moment it ended: 끝났을 때."
+    },
+    {
+      "id": "b3_u03_l2_e110",
+      "type": "find_error",
+      "targets": [
+        "b3_u03_l2_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "주말는데 조용해요.",
+      "answers": [
+        "주말인데 조용해요"
+      ],
+      "why_uz": "Ot: 인데.",
+      "why_en": "Noun: 인데."
+    },
+    {
+      "id": "b3_u03_l2_e111",
+      "type": "translate",
+      "targets": [
+        "b3_u03_l2_g1"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Koreyaga birinchi kelganimda qiyin bo'ldi.",
+      "source_en": "When I first came to Korea, it was hard.",
+      "answers": [
+        "한국에 처음 왔을 때 힘들었어요"
+      ]
+    },
+    {
+      "id": "b3_u03_l2_e112",
+      "type": "translate",
+      "targets": [
+        "b3_u03_l2_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Spektakl ko'rdim, zerikarli edi.",
+      "source_en": "I saw a play, and it was boring.",
+      "answers": [
+        "연극을 봤는데 지루했어요",
+        "연극을 봤는데 재미없었어요"
+      ]
+    },
+    {
+      "id": "b3_u03_l2_e113",
+      "type": "build_sentence",
+      "targets": [
+        "b3_u03_l2_g2"
+      ],
+      "prompt_uz": "'Mashhur aktyor chiqdi, juda yaxshi o'ynadi' gapini tuzing",
+      "prompt_en": "Build the sentence 'A famous actor was in it, and he was great'",
+      "tokens": [
+        "잘했어요",
+        "배우가",
+        "정말",
+        "유명한",
+        "나왔는데"
+      ],
+      "answers": [
+        "유명한 배우가 나왔는데 정말 잘했어요"
+      ]
+    },
+    {
+      "id": "b3_u03_l2_e114",
+      "type": "listen_question",
+      "targets": [
+        "b3_u03_l2_g1"
+      ],
+      "prompt_uz": "U qachon yig'ladi?",
+      "prompt_en": "When did the speaker cry?",
+      "audio_text": "그 영화를 처음 봤을 때 많이 울었어요.",
+      "options": [
+        "Kinoni birinchi ko'rganda",
+        "Konsertda",
+        "Kichikligida",
+        "Uyda"
+      ],
+      "options_en": [
+        "The first time they saw the film",
+        "At a concert",
+        "As a child",
+        "At home"
+      ],
+      "answers": [
+        "Kinoni birinchi ko'rganda"
+      ],
+      "audio": "010cdf971ce9.mp3"
+    },
+    {
+      "id": "b3_u03_l2_e115",
+      "type": "listen_question",
+      "targets": [
+        "b3_u03_l2_g2"
+      ],
+      "prompt_uz": "Chiptalar qanday?",
+      "prompt_en": "What about the tickets?",
+      "audio_text": "표를 예매하려고 했는데 벌써 매진이었어요.",
+      "options": [
+        "Allaqachon tugagan",
+        "Arzon",
+        "Ko'p qolgan",
+        "Bepul"
+      ],
+      "options_en": [
+        "Already sold out",
+        "Cheap",
+        "Plenty left",
+        "Free"
+      ],
+      "answers": [
+        "Allaqachon tugagan"
+      ],
+      "audio": "b657b40a6ecd.mp3"
+    }
+  ],
+  "test": [
+    "b3_u03_l2_e101",
+    "b3_u03_l2_e102",
+    "b3_u03_l2_e103",
+    "b3_u03_l2_e104",
+    "b3_u03_l2_e105",
+    "b3_u03_l2_e106",
+    "b3_u03_l2_e107",
+    "b3_u03_l2_e108",
+    "b3_u03_l2_e109",
+    "b3_u03_l2_e110",
+    "b3_u03_l2_e111",
+    "b3_u03_l2_e112",
+    "b3_u03_l2_e113",
+    "b3_u03_l2_e114",
+    "b3_u03_l2_e115"
+  ],
+  "story": {
+    "title_uz": "Teharodagi kecha",
+    "title_en": "A night in Daehak-ro",
+    "gate_uz": "TEATR",
+    "gate_en": "THEATRE",
+    "steps": [
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "아지즈 씨, 주말에 뭐 했어요?",
+        "uz": "Aziz, dam olish kunlari nima qildingiz?",
+        "en": "Aziz, what did you do at the weekend?",
+        "audio": "188011924655.mp3"
+      },
+      {
+        "type": "choose_reply",
+        "speaker": "aziz",
+        "prompt_uz": "Aziz 'Myuzikl ko'rdim, juda qiziq bo'ldi' demoqchi.",
+        "prompt_en": "Aziz wants to say 'I saw a musical, and it was really fun'.",
+        "options": [
+          "뮤지컬을 봤는데 정말 재미있었어요.",
+          "뮤지컬을 보는데 정말 재미있었어요.",
+          "뮤지컬을 봤은데 정말 재미있었어요."
+        ],
+        "answer": "뮤지컬을 봤는데 정말 재미있었어요.",
+        "uz": "Myuzikl ko'rdim, juda qiziq bo'ldi.",
+        "en": "I saw a musical, and it was really fun.",
+        "why_uz": "O'tgan voqea fon: -았/었는데 → 봤는데.",
+        "why_en": "Past background: -았/었는데 → 봤는데.",
+        "audio": "342735ec7580.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "어디에서요?",
+        "uz": "Qayerda?",
+        "en": "Where?",
+        "audio": "0f20cbdea0e5.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "대학로에서요. 유명한 뮤지컬인데 표가 거의 매진이었어요.",
+        "uz": "Teharoda. Mashhur myuzikl, chiptalar deyarli tugagan edi.",
+        "en": "In Daehak-ro. It's a famous one, and it was nearly sold out.",
+        "audio": "400c22bdff6e.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "줄거리는 어땠어요?",
+        "uz": "Syujeti-chi?",
+        "en": "How was the plot?",
+        "audio": "c1d68983fdb9.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "처음에는 웃겼는데 마지막에는 슬펐어요.",
+        "uz": "Avvaliga kulgili edi, oxiri esa qayg'uli.",
+        "en": "It was funny at first, but sad at the end.",
+        "audio": "5519cdf89570.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "울었어요?",
+        "uz": "Yig'ladingizmi?",
+        "en": "Did you cry?",
+        "audio": "796d6ac65f1f.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "네… 공연이 끝났을 때 저도 모르게 울었어요.",
+        "uz": "Ha… tomosha tugaganda o'zim bilmay yig'lab yubordim.",
+        "en": "Yes… when the show ended, I cried without realising.",
+        "audio": "dd43de27728b.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "저도 어렸을 때 뮤지컬 배우가 꿈이었어요.",
+        "uz": "Men ham kichikligimda myuzikl aktrisasi bo'lishni orzu qilganman.",
+        "en": "When I was little, I dreamed of being a musical actress, too.",
+        "audio": "83996bd56157.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "정말요? 노래 한번 불러 주세요!",
+        "uz": "Rostdanmi? Bir qo'shiq aytib bering!",
+        "en": "Really? Sing me something!",
+        "audio": "c64e80e1e3e9.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "하하, 다음에 노래방에서요!",
+        "uz": "Haha, keyingi safar karaokeda!",
+        "en": "Haha, next time at karaoke!",
+        "audio": "41bdf414db7e.mp3"
+      },
+      {
+        "type": "quiz",
+        "prompt_uz": "Aziz qachon yig'ladi?",
+        "prompt_en": "When did Aziz cry?",
+        "options": [
+          "Tomosha tugaganda",
+          "Tomosha boshida",
+          "Chipta olganda"
+        ],
+        "options_en": [
+          "When the show ended",
+          "At the start",
+          "When buying tickets"
+        ],
+        "answer": "Tomosha tugaganda",
+        "why_uz": "공연이 끝났을 때 울었어요.",
+        "why_en": "He cried when the show ended."
+      }
+    ]
+  }
+}

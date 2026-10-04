@@ -1,0 +1,1459 @@
+{
+  "id": "b3_u01_l1",
+  "unit": 1,
+  "lesson": 1,
+  "title_ko": "방학 동안 뭐 할 거예요?",
+  "title_uz": "Ta'tilda nima qilasiz?",
+  "title_en": "What will you do during the holidays?",
+  "topic_uz": "Reja",
+  "topic_en": "Plans",
+  "reviewed": false,
+  "words": [
+    {
+      "id": "b3_u01_l1_w001",
+      "ko": "동안",
+      "uz": "davomida",
+      "en": "during, for",
+      "pos": "ot",
+      "example_ko": "방학 동안 고향에 가요.",
+      "example_uz": "Ta'til davomida vatanimga boraman.",
+      "example_en": "I'm going home for the holidays.",
+      "audio": "9d5399c76a1c.mp3",
+      "example_audio": "e5ef7276b107.mp3"
+    },
+    {
+      "id": "b3_u01_l1_w002",
+      "ko": "방학",
+      "uz": "ta'til (o'qishda)",
+      "en": "school vacation",
+      "pos": "ot",
+      "example_ko": "여름 방학이 언제부터예요?",
+      "example_uz": "Yozgi ta'til qachondan?",
+      "example_en": "When does the summer vacation start?",
+      "audio": "232d794e35e2.mp3",
+      "example_audio": "b533c3776a17.mp3"
+    },
+    {
+      "id": "b3_u01_l1_w003",
+      "ko": "계획",
+      "uz": "reja",
+      "en": "plan",
+      "pos": "ot",
+      "example_ko": "방학 계획이 있어요?",
+      "example_uz": "Ta'tilga rejangiz bormi?",
+      "example_en": "Do you have plans for the vacation?",
+      "audio": "41daf27610b3.mp3",
+      "example_audio": "5a4f41595b59.mp3"
+    },
+    {
+      "id": "b3_u01_l1_w004",
+      "ko": "세우다",
+      "uz": "tuzmoq (reja)",
+      "en": "to make (a plan)",
+      "pos": "fe'l",
+      "example_ko": "여행 계획을 세웠어요.",
+      "example_uz": "Sayohat rejasini tuzdim.",
+      "example_en": "I made a travel plan.",
+      "audio": "0a3cc65206a6.mp3",
+      "example_audio": "0eb1a9ddd620.mp3"
+    },
+    {
+      "id": "b3_u01_l1_w005",
+      "ko": "일주일",
+      "uz": "bir hafta",
+      "en": "a week",
+      "pos": "ot",
+      "example_ko": "일주일 동안 제주도에 있었어요.",
+      "example_uz": "Bir hafta Jejuda bo'ldim.",
+      "example_en": "I was in Jeju for a week.",
+      "audio": "f5da2c4edb7a.mp3",
+      "example_audio": "bb76b57e191b.mp3"
+    },
+    {
+      "id": "b3_u01_l1_w006",
+      "ko": "한 달",
+      "uz": "bir oy",
+      "en": "a month",
+      "pos": "ot",
+      "example_ko": "한 달 동안 아르바이트를 해요.",
+      "example_uz": "Bir oy davomida ishlayman.",
+      "example_en": "I'm working part-time for a month.",
+      "audio": "9c927e85d526.mp3",
+      "example_audio": "da3e9bb85bb2.mp3"
+    },
+    {
+      "id": "b3_u01_l1_w007",
+      "ko": "아르바이트",
+      "uz": "yarim kunlik ish",
+      "en": "part-time job",
+      "pos": "ot",
+      "example_ko": "편의점에서 아르바이트를 해요.",
+      "example_uz": "Do'konda yarim kun ishlayman.",
+      "example_en": "I work part-time at a convenience store.",
+      "audio": "befff85fde04.mp3",
+      "example_audio": "790ea498682a.mp3"
+    },
+    {
+      "id": "b3_u01_l1_w008",
+      "ko": "자격증",
+      "uz": "sertifikat, guvohnoma",
+      "en": "certificate",
+      "pos": "ot",
+      "example_ko": "컴퓨터 자격증을 따고 싶어요.",
+      "example_uz": "Kompyuter sertifikatini olmoqchiman.",
+      "example_en": "I want to get a computer certificate.",
+      "audio": "cbded4a13bac.mp3",
+      "example_audio": "0754d4dfa47b.mp3"
+    },
+    {
+      "id": "b3_u01_l1_w009",
+      "ko": "따다",
+      "uz": "olmoq (sertifikat, ball)",
+      "en": "to obtain (a certificate)",
+      "pos": "fe'l",
+      "example_ko": "운전면허를 땄어요.",
+      "example_uz": "Haydovchilik guvohnomasini oldim.",
+      "example_en": "I got my driving licence.",
+      "audio": "b0d9b865af5a.mp3",
+      "example_audio": "41239a7a8121.mp3"
+    },
+    {
+      "id": "b3_u01_l1_w010",
+      "ko": "운전면허",
+      "uz": "haydovchilik guvohnomasi",
+      "en": "driving licence",
+      "pos": "ot",
+      "example_ko": "방학 동안 운전면허를 따요.",
+      "example_uz": "Ta'tilda guvohnoma olaman.",
+      "example_en": "I'm getting my licence during the vacation.",
+      "audio": "30002455cc95.mp3",
+      "example_audio": "c055d405b940.mp3"
+    },
+    {
+      "id": "b3_u01_l1_w011",
+      "ko": "봉사 활동",
+      "uz": "ko'ngillilik faoliyati",
+      "en": "volunteer work",
+      "pos": "ot",
+      "example_ko": "주말마다 봉사 활동을 해요.",
+      "example_uz": "Har dam olish kuni ko'ngilli bo'lib ishlayman.",
+      "example_en": "I volunteer every weekend.",
+      "audio": "bf63810acdb4.mp3",
+      "example_audio": "0369e538c676.mp3"
+    },
+    {
+      "id": "b3_u01_l1_w012",
+      "ko": "학원",
+      "uz": "kurs, o'quv markazi",
+      "en": "private academy",
+      "pos": "ot",
+      "example_ko": "영어 학원에 다녀요.",
+      "example_uz": "Ingliz tili kursiga qatnayman.",
+      "example_en": "I attend an English academy.",
+      "audio": "420a203ed461.mp3",
+      "example_audio": "994364027207.mp3"
+    },
+    {
+      "id": "b3_u01_l1_w013",
+      "ko": "다니다",
+      "uz": "qatnamoq",
+      "en": "to attend, to go regularly",
+      "pos": "fe'l",
+      "example_ko": "요가 학원에 다닐 거예요.",
+      "example_uz": "Yoga kursiga qatnayman.",
+      "example_en": "I'm going to attend a yoga class.",
+      "audio": "04afb3bd6ce6.mp3",
+      "example_audio": "974e2a3d0951.mp3"
+    },
+    {
+      "id": "b3_u01_l1_w014",
+      "ko": "등록하다",
+      "uz": "ro'yxatdan o'tmoq",
+      "en": "to register",
+      "pos": "fe'l",
+      "example_ko": "수영 강좌에 등록했어요.",
+      "example_uz": "Suzish kursiga yozildim.",
+      "example_en": "I signed up for a swimming class.",
+      "audio": "403cb4e29b98.mp3",
+      "example_audio": "528cdb8c21b9.mp3"
+    },
+    {
+      "id": "b3_u01_l1_w015",
+      "ko": "취미",
+      "uz": "xobbi, sevimli mashg'ulot",
+      "en": "hobby",
+      "pos": "ot",
+      "example_ko": "새 취미를 찾고 싶어요.",
+      "example_uz": "Yangi xobbi topmoqchiman.",
+      "example_en": "I want to find a new hobby.",
+      "audio": "f71838d42675.mp3",
+      "example_audio": "383acc666056.mp3"
+    },
+    {
+      "id": "b3_u01_l1_w016",
+      "ko": "보내다",
+      "uz": "o'tkazmoq (vaqt)",
+      "en": "to spend (time)",
+      "pos": "fe'l",
+      "example_ko": "방학을 재미있게 보냈어요.",
+      "example_uz": "Ta'tilni qiziqarli o'tkazdim.",
+      "example_en": "I had a fun vacation.",
+      "audio": "7d0a0642022c.mp3",
+      "example_audio": "d27283aec286.mp3"
+    },
+    {
+      "id": "b3_u01_l1_w017",
+      "ko": "푹",
+      "uz": "yaxshilab, to'yib (dam olish)",
+      "en": "fully, deeply (rest)",
+      "pos": "ravish",
+      "example_ko": "집에서 푹 쉬세요.",
+      "example_uz": "Uyda yaxshilab dam oling.",
+      "example_en": "Get a good rest at home.",
+      "audio": "beb9a1292844.mp3",
+      "example_audio": "c0d2fba77ee5.mp3"
+    },
+    {
+      "id": "b3_u01_l1_w018",
+      "ko": "늦잠을 자다",
+      "uz": "uzoq uxlamoq (kech turmoq)",
+      "en": "to sleep in",
+      "pos": "ibora",
+      "example_ko": "방학에는 늦잠을 자요.",
+      "example_uz": "Ta'tilda kech turaman.",
+      "example_en": "I sleep in during the vacation.",
+      "audio": "7f28ac9d99e2.mp3",
+      "example_audio": "1b38337c9466.mp3"
+    },
+    {
+      "id": "b3_u01_l1_w019",
+      "ko": "해외",
+      "uz": "xorij",
+      "en": "abroad",
+      "pos": "ot",
+      "example_ko": "해외여행을 가 봤어요?",
+      "example_uz": "Xorijga sayohat qilganmisiz?",
+      "example_en": "Have you travelled abroad?",
+      "audio": "40ac616008fa.mp3",
+      "example_audio": "067e053deb36.mp3"
+    },
+    {
+      "id": "b3_u01_l1_w020",
+      "ko": "외국어",
+      "uz": "chet tili",
+      "en": "foreign language",
+      "pos": "ot",
+      "example_ko": "외국어를 배우는 게 재미있어요.",
+      "example_uz": "Chet tili o'rganish qiziq.",
+      "example_en": "Learning foreign languages is fun.",
+      "audio": "68437772a630.mp3",
+      "example_audio": "9092616774f7.mp3"
+    },
+    {
+      "id": "b3_u01_l1_w021",
+      "ko": "목표",
+      "uz": "maqsad",
+      "en": "goal",
+      "pos": "ot",
+      "example_ko": "올해 목표가 뭐예요?",
+      "example_uz": "Bu yilgi maqsadingiz nima?",
+      "example_en": "What's your goal this year?",
+      "audio": "734509b2bb1c.mp3",
+      "example_audio": "0c259d3cc792.mp3"
+    },
+    {
+      "id": "b3_u01_l1_w022",
+      "ko": "꼭",
+      "uz": "albatta",
+      "en": "definitely",
+      "pos": "ravish",
+      "example_ko": "이번에는 꼭 합격하고 싶어요.",
+      "example_uz": "Bu safar albatta o'tmoqchiman.",
+      "example_en": "This time I definitely want to pass.",
+      "audio": "0a4fcc777cdb.mp3",
+      "example_audio": "85f0cd9103c3.mp3"
+    },
+    {
+      "id": "b3_u01_l1_w023",
+      "ko": "아직",
+      "uz": "hali",
+      "en": "yet, still",
+      "pos": "ravish",
+      "example_ko": "아직 계획이 없어요.",
+      "example_uz": "Hali rejam yo'q.",
+      "example_en": "I don't have plans yet.",
+      "audio": "c1627c54baf8.mp3",
+      "example_audio": "631e5d4dff99.mp3"
+    },
+    {
+      "id": "b3_u01_l1_w024",
+      "ko": "고민하다",
+      "uz": "o'ylanmoq, ikkilanmoq",
+      "en": "to think over, to agonise",
+      "pos": "fe'l",
+      "example_ko": "뭐 할지 고민하고 있어요.",
+      "example_uz": "Nima qilishni o'ylayapman.",
+      "example_en": "I'm thinking about what to do.",
+      "audio": "f1f009b1a67f.mp3",
+      "example_audio": "df669596db45.mp3"
+    },
+    {
+      "id": "b3_u01_l1_w025",
+      "ko": "추천하다",
+      "uz": "tavsiya qilmoq",
+      "en": "to recommend",
+      "pos": "fe'l",
+      "example_ko": "좋은 책을 추천해 주세요.",
+      "example_uz": "Yaxshi kitob tavsiya qiling.",
+      "example_en": "Please recommend a good book.",
+      "audio": "d38ebe2d79f1.mp3",
+      "example_audio": "704e29776c6d.mp3"
+    },
+    {
+      "id": "b3_u01_l1_w026",
+      "ko": "기회",
+      "uz": "imkoniyat",
+      "en": "chance, opportunity",
+      "pos": "ot",
+      "example_ko": "좋은 기회예요.",
+      "example_uz": "Yaxshi imkoniyat.",
+      "example_en": "It's a good opportunity.",
+      "audio": "f8d2608476d7.mp3",
+      "example_audio": "468ca3db5293.mp3"
+    },
+    {
+      "id": "b3_u01_l1_w027",
+      "ko": "경험",
+      "uz": "tajriba",
+      "en": "experience",
+      "pos": "ot",
+      "example_ko": "아르바이트는 좋은 경험이에요.",
+      "example_uz": "Yarim kunlik ish — yaxshi tajriba.",
+      "example_en": "A part-time job is a good experience.",
+      "audio": "afe1acaa109b.mp3",
+      "example_audio": "692969d49d0e.mp3"
+    },
+    {
+      "id": "b3_u01_l1_w028",
+      "ko": "방법",
+      "uz": "usul",
+      "en": "way, method",
+      "pos": "ot",
+      "example_ko": "좋은 방법이 있어요?",
+      "example_uz": "Yaxshi usul bormi?",
+      "example_en": "Is there a good way?",
+      "audio": "cc80ab2784f3.mp3",
+      "example_audio": "123f3b0861c1.mp3"
+    },
+    {
+      "id": "b3_u01_l1_w029",
+      "ko": "배낭여행",
+      "uz": "ryukzak bilan sayohat",
+      "en": "backpacking",
+      "pos": "ot",
+      "example_ko": "유럽으로 배낭여행을 가요.",
+      "example_uz": "Yevropaga ryukzak bilan sayohatga boraman.",
+      "example_en": "I'm going backpacking in Europe.",
+      "audio": "84af48832147.mp3",
+      "example_audio": "51f857faa37f.mp3"
+    },
+    {
+      "id": "b3_u01_l1_w030",
+      "ko": "요즘",
+      "uz": "hozirgi kunlarda",
+      "en": "these days",
+      "pos": "ravish",
+      "example_ko": "요즘 바빠요?",
+      "example_uz": "Shu kunlarda bandmisiz?",
+      "example_en": "Are you busy these days?",
+      "audio": "dd0acbb2997b.mp3",
+      "example_audio": "588b4bc01aa6.mp3"
+    },
+    {
+      "id": "b3_u01_l1_w031",
+      "ko": "특별하다",
+      "uz": "alohida, maxsus bo'lmoq",
+      "en": "to be special",
+      "pos": "sifat",
+      "example_ko": "특별한 계획은 없어요.",
+      "example_uz": "Alohida rejam yo'q.",
+      "example_en": "I don't have any special plans.",
+      "audio": "40f76e99edf9.mp3",
+      "example_audio": "4e78bb3a5c00.mp3"
+    },
+    {
+      "id": "b3_u01_l1_w032",
+      "ko": "어때요",
+      "uz": "qalay? qanday?",
+      "en": "how about",
+      "pos": "ibora",
+      "example_ko": "같이 가는 게 어때요?",
+      "example_uz": "Birga borsak-chi?",
+      "example_en": "How about going together?",
+      "audio": "fa4a92577ddf.mp3",
+      "example_audio": "97b9f391dfd4.mp3"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "b3_u01_l1_g1",
+      "pattern": "N 동안",
+      "meaning_uz": "... davomida",
+      "meaning_en": "During / for (a period)",
+      "explanation_md": "**동안** vaqt **davomiyligini** bildiradi: \"... davomida\", \"... mobaynida\".\n\n**방학 동안 고향에 가요.** — *Ta'til davomida vatanimga boraman.*  \n**일주일 동안 제주도에 있었어요.** — *Bir hafta Jejuda bo'ldim.*\n\n### Qanday ishlatiladi\n\n- **Muddat + 동안**: 3일 **동안**, 한 달 **동안**, 일 년 **동안**\n- **Voqea + 동안**: 방학 **동안**, 휴가 **동안**, 시험 기간 **동안**\n\n### Esda tuting\n\n- \"Soat 3 da\" — **에** (aniq vaqt), \"3 soat davomida\" — **동안** (muddat): **세 시간 동안 공부했어요.**\n- Fe'l bilan: **V-는 동안** — \"...ayotganda\": **제가 요리하는 동안 기다리세요.**\n- 동안 dan keyin 에 shart emas: ~~방학 동안에~~ ham to'g'ri, lekin ko'pincha **방학 동안**.",
+      "explanation_md_en": "**동안** expresses **duration**: \"during\", \"for (a period)\".\n\n**방학 동안 고향에 가요.** — *I'm going home during the holidays.*  \n**일주일 동안 제주도에 있었어요.** — *I was in Jeju for a week.*\n\n### How it's used\n\n- **length of time + 동안**: 3일 **동안**, 한 달 **동안**, 일 년 **동안**\n- **event + 동안**: 방학 **동안**, 휴가 **동안**, 시험 기간 **동안**\n\n### Remember\n\n- \"At 3\" is **에** (a point in time); \"for 3 hours\" is **동안** (a span): **세 시간 동안 공부했어요.**\n- With a verb: **V-는 동안** — \"while …\": **제가 요리하는 동안 기다리세요.**\n- 에 after 동안 is optional: **방학 동안(에)**.",
+      "formation": [
+        {
+          "condition_uz": "Muddat",
+          "condition_en": "Length of time",
+          "rule": "N + 동안",
+          "example": "일주일 동안, 두 달 동안"
+        },
+        {
+          "condition_uz": "Voqea",
+          "condition_en": "Event",
+          "rule": "N + 동안",
+          "example": "방학 동안, 휴가 동안"
+        },
+        {
+          "condition_uz": "Fe'l bilan",
+          "condition_en": "With a verb",
+          "rule": "V-는 동안",
+          "example": "요리하는 동안"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "방학 동안 고향에 가요.",
+          "uz": "Ta'til davomida vatanimga boraman.",
+          "en": "I'm going home during the holidays.",
+          "audio": "e5ef7276b107.mp3"
+        },
+        {
+          "ko": "한 달 동안 아르바이트를 했어요.",
+          "uz": "Bir oy davomida ishladim.",
+          "en": "I worked part-time for a month.",
+          "audio": "f6a86dde45e6.mp3"
+        },
+        {
+          "ko": "세 시간 동안 공부했어요.",
+          "uz": "Uch soat o'qidim.",
+          "en": "I studied for three hours.",
+          "audio": "6f8e418a80c0.mp3"
+        },
+        {
+          "ko": "휴가 동안 푹 쉬었어요.",
+          "uz": "Ta'til davomida yaxshilab dam oldim.",
+          "en": "I rested well during my leave.",
+          "audio": "f332aef81357.mp3"
+        },
+        {
+          "ko": "일 년 동안 한국어를 배웠어요.",
+          "uz": "Bir yil koreys tilini o'rgandim.",
+          "en": "I learned Korean for a year.",
+          "audio": "e7fd87b0ec02.mp3"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "세 시에 동안 공부했어요.",
+          "right": "세 시간 동안 공부했어요.",
+          "why_uz": "Muddat — 시간 (soat davomida), 시 — soat (vaqt).",
+          "why_en": "Duration uses 시간 (hours); 시 is the clock time."
+        },
+        {
+          "wrong": "방학에 동안 여행해요.",
+          "right": "방학 동안 여행해요.",
+          "why_uz": "동안 dan oldin 에 qo'yilmaydi.",
+          "why_en": "No 에 before 동안."
+        },
+        {
+          "wrong": "일주일 동안에서 있었어요.",
+          "right": "일주일 동안 있었어요.",
+          "why_uz": "동안 dan keyin 에서 emas.",
+          "why_en": "동안 doesn't take 에서."
+        }
+      ],
+      "uz_compare": "O'zbekchadagi '... davomida' yoki '-(i)da' ga mos: 'ta'til DAVOMIDA' = 방학 동안, 'bir hafta' = 일주일 동안.",
+      "compare_en": "Like English 'for' and 'during': 'FOR a week' = 일주일 동안, 'DURING the holidays' = 방학 동안 — Korean uses one word for both."
+    },
+    {
+      "id": "b3_u01_l1_g2",
+      "pattern": "V-는 게 어때요?",
+      "meaning_uz": "...sa-chi? (maslahat, taklif)",
+      "meaning_en": "How about …ing? (suggestion)",
+      "explanation_md": "**V-는 게 어때요?** — maslahat yoki taklif: \"... qilsangiz-chi?\", \"... qilsak qanday bo'ladi?\".\n\n**운전면허를 따는 게 어때요?** — *Haydovchilik guvohnomasini olsangiz-chi?*\n\n### Qanday yasaladi\n\n**-다** o'rniga **-는 게 어때요?** — 받침 ga qarab o'zgarmaydi:\n\n- 가다 → **가는 게 어때요?**\n- 먹다 → **먹는 게 어때요?**\n- 배우다 → **배우는 게 어때요?**\n- **ㄹ** tushadi: 만들다 → **만드는 게 어때요?**, 놀다 → **노는 게 어때요?**\n\n### Esda tuting\n\n- **게 = 것이** (\"...ish\"): \"borish qanday?\" so'zma-so'z.\n- -(으)ㄹ까요? (1-kitob 9-1) — \"...aylikmi?\" (birga), **-는 게 어때요?** — ko'pincha boshqa odamga **maslahat**.\n- Javob: **좋아요, 그렇게 할게요.** — *Yaxshi, shunday qilaman.*",
+      "explanation_md_en": "**V-는 게 어때요?** suggests or advises: \"How about …?\", \"Why don't you …?\".\n\n**운전면허를 따는 게 어때요?** — *How about getting your driving licence?*\n\n### How to form it\n\nReplace **-다** with **-는 게 어때요?** — no change for 받침:\n\n- 가다 → **가는 게 어때요?**\n- 먹다 → **먹는 게 어때요?**\n- 배우다 → **배우는 게 어때요?**\n- **ㄹ** drops: 만들다 → **만드는 게 어때요?**, 놀다 → **노는 게 어때요?**\n\n### Remember\n\n- **게 = 것이** (\"the doing of\"): literally \"how is going?\".\n- -(으)ㄹ까요? (book 1, 9-1) is \"shall we\"; **-는 게 어때요?** is more often **advice** to someone else.\n- A reply: **좋아요, 그렇게 할게요.** — *Good, I'll do that.*",
+      "formation": [
+        {
+          "condition_uz": "Har qanday fe'l",
+          "condition_en": "Any verb",
+          "rule": "V + 는 게 어때요?",
+          "example": "가는 게, 먹는 게, 배우는 게"
+        },
+        {
+          "condition_uz": "ㄹ bilan",
+          "condition_en": "Ends in ㄹ",
+          "rule": "ㄹ tushadi + 는 게",
+          "example": "만들다 → 만드는 게, 놀다 → 노는 게"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "운전면허를 따는 게 어때요?",
+          "uz": "Guvohnoma olsangiz-chi?",
+          "en": "How about getting your driving licence?",
+          "audio": "e198e9f682c3.mp3"
+        },
+        {
+          "ko": "같이 여행하는 게 어때요?",
+          "uz": "Birga sayohat qilsak-chi?",
+          "en": "How about travelling together?",
+          "audio": "92490734249b.mp3"
+        },
+        {
+          "ko": "학원에 다니는 게 어때요?",
+          "uz": "Kursga qatnasangiz-chi?",
+          "en": "Why don't you attend an academy?",
+          "audio": "e59b75c10e33.mp3"
+        },
+        {
+          "ko": "집에서 푹 쉬는 게 어때요?",
+          "uz": "Uyda yaxshilab dam olsangiz-chi?",
+          "en": "How about resting well at home?",
+          "audio": "9c7656928957.mp3"
+        },
+        {
+          "ko": "케이크를 만드는 게 어때요?",
+          "uz": "Tort pishirsak-chi?",
+          "en": "How about making a cake?",
+          "audio": "69e0761b2d2d.mp3"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "공부하은 게 어때요?",
+          "right": "공부하는 게 어때요?",
+          "why_uz": "Har doim -는 게: 공부하는 게.",
+          "why_en": "Always -는 게: 공부하는 게."
+        },
+        {
+          "wrong": "만들는 게 어때요?",
+          "right": "만드는 게 어때요?",
+          "why_uz": "ㄹ tushadi: 만드는 게.",
+          "why_en": "ㄹ drops: 만드는 게."
+        },
+        {
+          "wrong": "먹은 게 어때요? (taklif)",
+          "right": "먹는 게 어때요?",
+          "why_uz": "Taklif uchun -는 게 (hozirgi shakl).",
+          "why_en": "Suggestions use -는 게 (present form)."
+        }
+      ],
+      "uz_compare": "O'zbekchada '... qilsangiz-chi?' yoki '... qilsak qalay?' deymiz. Koreyschada so'zma-so'z 'qilish qanday?' = 하는 게 어때요?",
+      "compare_en": "Like English 'How about …ing?': 'How about going together?' = 같이 가는 게 어때요? — the -는 게 part is the '-ing'."
+    }
+  ],
+  "dialogue": {
+    "lines": [
+      {
+        "speaker": "minji",
+        "ko": "아지즈 씨, 이번 방학 동안 뭐 할 거예요?",
+        "uz": "Aziz, bu ta'tilda nima qilasiz?",
+        "en": "Aziz, what are you going to do over this vacation?",
+        "audio": "eacd9639ec8b.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "아직 특별한 계획은 없어요. 고민하고 있어요.",
+        "uz": "Hali alohida rejam yo'q. O'ylayapman.",
+        "en": "I don't have any special plans yet. I'm thinking about it.",
+        "audio": "e73f821bb7c3.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "그럼 운전면허를 따는 게 어때요? 방학이 두 달이에요.",
+        "uz": "Unda haydovchilik guvohnomasini olsangiz-chi? Ta'til ikki oy.",
+        "en": "Then how about getting your driving licence? The vacation is two months long.",
+        "audio": "66fb99e38721.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "좋은 생각이에요. 그런데 학원비가 비싸요.",
+        "uz": "Yaxshi fikr. Lekin kurs puli qimmat.",
+        "en": "Good idea. But the academy fees are expensive.",
+        "audio": "b8a7f464797c.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "그럼 한 달 동안 아르바이트를 하는 게 어때요?",
+        "uz": "Unda bir oy yarim kunlik ishlasangiz-chi?",
+        "en": "Then how about working part-time for a month?",
+        "audio": "436b493ef55a.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "아, 그게 좋겠어요. 민지 씨는요?",
+        "uz": "A, bu yaxshi bo'lardi. Siz-chi, Minji?",
+        "en": "Ah, that would be good. And you, Minji?",
+        "audio": "e6e8a2ccb33a.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "저는 일주일 동안 봉사 활동을 해요. 그리고 요가 학원에 다닐 거예요.",
+        "uz": "Men bir hafta ko'ngillilik qilaman. Keyin yoga kursiga qatnayman.",
+        "en": "I'm volunteering for a week. And I'm going to attend a yoga class.",
+        "audio": "397d6100da40.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "와, 계획을 잘 세웠네요.",
+        "uz": "Voy, rejani yaxshi tuzibsiz.",
+        "en": "Wow, you've planned it well.",
+        "audio": "3d7c3d0544c9.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "방학 마지막 주에는 같이 부산에 가는 게 어때요?",
+        "uz": "Ta'tilning oxirgi haftasida birga Pusanga borsak-chi?",
+        "en": "How about going to Busan together in the last week of the vacation?",
+        "audio": "e4ba1734e18e.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "좋아요! 바다를 보고 싶어요.",
+        "uz": "Zo'r! Dengizni ko'rmoqchiman.",
+        "en": "Great! I want to see the sea.",
+        "audio": "06e3afcca92f.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "그럼 기차표를 일찍 알아봐요.",
+        "uz": "Unda poyezd chiptasini erta surishtiramiz.",
+        "en": "Then let's look for train tickets early.",
+        "audio": "8963cefd7d53.mp3"
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b3_u01_l1_e001",
+      "type": "conjugate",
+      "targets": [
+        "b3_u01_l1_g2"
+      ],
+      "prompt_uz": "'Borsak-chi?' shaklini yasang",
+      "prompt_en": "Make 'how about going?'",
+      "base": "가다",
+      "form": "-는 게 어때요?",
+      "answers": [
+        "가는 게 어때요?",
+        "가는 게 어때요"
+      ]
+    },
+    {
+      "id": "b3_u01_l1_e002",
+      "type": "conjugate",
+      "targets": [
+        "b3_u01_l1_g2"
+      ],
+      "prompt_uz": "'Pishirsak-chi?' shaklini yasang",
+      "prompt_en": "Make 'how about making?'",
+      "base": "만들다",
+      "form": "-는 게 어때요?",
+      "answers": [
+        "만드는 게 어때요?",
+        "만드는 게 어때요"
+      ],
+      "hint_uz": "ㄹ tushadi",
+      "hint_en": "ㄹ drops"
+    },
+    {
+      "id": "b3_u01_l1_e003",
+      "type": "conjugate",
+      "targets": [
+        "b3_u01_l1_g2"
+      ],
+      "prompt_uz": "'O'rgansangiz-chi?' shaklini yasang",
+      "prompt_en": "Make 'how about learning?'",
+      "base": "배우다",
+      "form": "-는 게 어때요?",
+      "answers": [
+        "배우는 게 어때요?",
+        "배우는 게 어때요"
+      ]
+    },
+    {
+      "id": "b3_u01_l1_e004",
+      "type": "conjugate",
+      "targets": [
+        "b3_u01_l1_g1"
+      ],
+      "prompt_uz": "'Bir hafta davomida' iborasini yasang",
+      "prompt_en": "Make 'for a week'",
+      "base": "일주일",
+      "form": "+ 동안",
+      "answers": [
+        "일주일 동안"
+      ]
+    },
+    {
+      "id": "b3_u01_l1_e005",
+      "type": "fill_blank",
+      "targets": [
+        "b3_u01_l1_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Ta'til davomida vatanimga boraman.'",
+      "prompt_en": "Fill in the blank: 'I'm going home during the vacation.'",
+      "sentence": "방학 ___ 고향에 가요.",
+      "answers": [
+        "동안"
+      ]
+    },
+    {
+      "id": "b3_u01_l1_e006",
+      "type": "fill_blank",
+      "targets": [
+        "b3_u01_l1_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Uch soat o'qidim.'",
+      "prompt_en": "Fill in the blank: 'I studied for three hours.'",
+      "sentence": "세 ___ 동안 공부했어요.",
+      "answers": [
+        "시간"
+      ]
+    },
+    {
+      "id": "b3_u01_l1_e007",
+      "type": "fill_blank",
+      "targets": [
+        "b3_u01_l1_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Kursga qatnasangiz-chi?'",
+      "prompt_en": "Fill in the blank: 'Why don't you attend an academy?'",
+      "sentence": "학원에 ___ 게 어때요? (다니다)",
+      "answers": [
+        "다니는"
+      ]
+    },
+    {
+      "id": "b3_u01_l1_e008",
+      "type": "fill_blank",
+      "targets": [
+        "b3_u01_l1_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Uyda dam olsangiz-chi?'",
+      "prompt_en": "Fill in the blank: 'How about resting at home?'",
+      "sentence": "집에서 쉬는 게 ___?",
+      "answers": [
+        "어때요"
+      ]
+    },
+    {
+      "id": "b3_u01_l1_e009",
+      "type": "situation_choice",
+      "targets": [
+        "b3_u01_l1_g2"
+      ],
+      "prompt_uz": "Do'stingiz charchagan. Dam olishni maslahat bering:",
+      "prompt_en": "Your friend is exhausted. Advise them to rest:",
+      "options": [
+        "집에서 푹 쉬는 게 어때요?",
+        "집에서 푹 쉬은 게 어때요?",
+        "집에서 푹 쉬었어요?",
+        "집에서 푹 쉬는 게 어때요요?"
+      ],
+      "answers": [
+        "집에서 푹 쉬는 게 어때요?"
+      ]
+    },
+    {
+      "id": "b3_u01_l1_e010",
+      "type": "situation_choice",
+      "targets": [
+        "b3_u01_l1_g1"
+      ],
+      "prompt_uz": "Bir oy ishlaganingizni ayting:",
+      "prompt_en": "Say you worked for a month:",
+      "options": [
+        "한 달 동안 일했어요.",
+        "한 달에 동안 일했어요.",
+        "한 달 동안에서 일했어요.",
+        "한 시 동안 일했어요."
+      ],
+      "answers": [
+        "한 달 동안 일했어요."
+      ]
+    },
+    {
+      "id": "b3_u01_l1_e011",
+      "type": "situation_choice",
+      "targets": [
+        "b3_u01_l1_w023"
+      ],
+      "prompt_uz": "'Rejangiz bormi?' — hali yo'q:",
+      "prompt_en": "'Do you have plans?' — not yet:",
+      "options": [
+        "아직 계획이 없어요.",
+        "꼭 계획이 없어요.",
+        "아직 계획이 있어요.",
+        "푹 계획이 없어요."
+      ],
+      "answers": [
+        "아직 계획이 없어요."
+      ]
+    },
+    {
+      "id": "b3_u01_l1_e012",
+      "type": "find_error",
+      "targets": [
+        "b3_u01_l1_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "운동하은 게 어때요?",
+      "answers": [
+        "운동하는 게 어때요?",
+        "운동하는 게 어때요"
+      ],
+      "why_uz": "-는 게: 운동하는 게.",
+      "why_en": "-는 게: 운동하는 게."
+    },
+    {
+      "id": "b3_u01_l1_e013",
+      "type": "find_error",
+      "targets": [
+        "b3_u01_l1_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "같이 놀는 게 어때요?",
+      "answers": [
+        "같이 노는 게 어때요?",
+        "같이 노는 게 어때요"
+      ],
+      "why_uz": "놀다: ㄹ tushadi → 노는 게.",
+      "why_en": "놀다: ㄹ drops → 노는 게."
+    },
+    {
+      "id": "b3_u01_l1_e014",
+      "type": "find_error",
+      "targets": [
+        "b3_u01_l1_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "두 시 동안 기다렸어요.",
+      "answers": [
+        "두 시간 동안 기다렸어요"
+      ],
+      "why_uz": "Muddat — 시간.",
+      "why_en": "Duration uses 시간."
+    },
+    {
+      "id": "b3_u01_l1_e015",
+      "type": "translate",
+      "targets": [
+        "b3_u01_l1_g1"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Bir yil koreys tilini o'rgandim.",
+      "source_en": "I learned Korean for a year.",
+      "answers": [
+        "일 년 동안 한국어를 배웠어요",
+        "1년 동안 한국어를 배웠어요"
+      ]
+    },
+    {
+      "id": "b3_u01_l1_e016",
+      "type": "translate",
+      "targets": [
+        "b3_u01_l1_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Birga sayohat qilsak-chi?",
+      "source_en": "How about travelling together?",
+      "answers": [
+        "같이 여행하는 게 어때요",
+        "같이 여행하는 게 어때요?",
+        "같이 여행 가는 게 어때요?"
+      ]
+    },
+    {
+      "id": "b3_u01_l1_e017",
+      "type": "translate",
+      "targets": [
+        "b3_u01_l1_g1",
+        "b3_u01_l1_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Ta'tilda ishlasangiz-chi?",
+      "source_en": "How about working during the vacation?",
+      "answers": [
+        "방학 동안 일하는 게 어때요?",
+        "방학 동안 아르바이트하는 게 어때요?",
+        "방학 동안 아르바이트를 하는 게 어때요?",
+        "방학 동안 일하는 게 어때요"
+      ]
+    },
+    {
+      "id": "b3_u01_l1_e018",
+      "type": "build_sentence",
+      "targets": [
+        "b3_u01_l1_g1"
+      ],
+      "prompt_uz": "'Bir oy davomida ishlayman' gapini tuzing",
+      "prompt_en": "Build the sentence 'I'm working part-time for a month'",
+      "tokens": [
+        "동안",
+        "달",
+        "해요",
+        "한",
+        "아르바이트를"
+      ],
+      "answers": [
+        "한 달 동안 아르바이트를 해요"
+      ]
+    },
+    {
+      "id": "b3_u01_l1_e019",
+      "type": "build_sentence",
+      "targets": [
+        "b3_u01_l1_g2"
+      ],
+      "prompt_uz": "'Guvohnoma olsangiz-chi?' gapini tuzing",
+      "prompt_en": "Build the sentence 'How about getting your licence?'",
+      "tokens": [
+        "어때요?",
+        "운전면허를",
+        "게",
+        "따는"
+      ],
+      "answers": [
+        "운전면허를 따는 게 어때요?"
+      ]
+    },
+    {
+      "id": "b3_u01_l1_e020",
+      "type": "build_sentence",
+      "targets": [
+        "b3_u01_l1_g1"
+      ],
+      "prompt_uz": "'Ta'tilni qiziqarli o'tkazdim' gapini tuzing",
+      "prompt_en": "Build the sentence 'I had a fun vacation'",
+      "tokens": [
+        "재미있게",
+        "보냈어요",
+        "방학을"
+      ],
+      "answers": [
+        "방학을 재미있게 보냈어요"
+      ]
+    },
+    {
+      "id": "b3_u01_l1_e021",
+      "type": "listen_question",
+      "targets": [
+        "b3_u01_l1_g1"
+      ],
+      "prompt_uz": "U Jejuda qancha bo'ldi?",
+      "prompt_en": "How long was the speaker in Jeju?",
+      "audio_text": "지난 방학에 일주일 동안 제주도에 있었어요.",
+      "options": [
+        "Bir hafta",
+        "Bir oy",
+        "Ikki hafta",
+        "Uch kun"
+      ],
+      "options_en": [
+        "A week",
+        "A month",
+        "Two weeks",
+        "Three days"
+      ],
+      "answers": [
+        "Bir hafta"
+      ],
+      "audio": "7c4bfa0233e5.mp3"
+    },
+    {
+      "id": "b3_u01_l1_e022",
+      "type": "listen_question",
+      "targets": [
+        "b3_u01_l1_g2"
+      ],
+      "prompt_uz": "U nimani maslahat beryapti?",
+      "prompt_en": "What is the speaker suggesting?",
+      "audio_text": "요즘 피곤해 보여요. 주말에 푹 쉬는 게 어때요?",
+      "options": [
+        "Dam olishni",
+        "Sport qilishni",
+        "Ishlashni",
+        "Sayohatni"
+      ],
+      "options_en": [
+        "Resting",
+        "Exercising",
+        "Working",
+        "Travelling"
+      ],
+      "answers": [
+        "Dam olishni"
+      ],
+      "audio": "d802a221c484.mp3"
+    },
+    {
+      "id": "b3_u01_l1_e023",
+      "type": "listen_question",
+      "targets": [
+        "b3_u01_l1_g1",
+        "b3_u01_l1_g2"
+      ],
+      "prompt_uz": "U ta'tilda nima qiladi?",
+      "prompt_en": "What will the speaker do during the vacation?",
+      "audio_text": "방학 동안 요리 학원에 다닐 거예요.",
+      "options": [
+        "Pazandachilik kursiga qatnaydi",
+        "Ishlaydi",
+        "Sayohat qiladi",
+        "Uyda dam oladi"
+      ],
+      "options_en": [
+        "Attend a cooking class",
+        "Work",
+        "Travel",
+        "Rest at home"
+      ],
+      "answers": [
+        "Pazandachilik kursiga qatnaydi"
+      ],
+      "audio": "fcb6e9226ff3.mp3"
+    },
+    {
+      "id": "b3_u01_l1_e024",
+      "type": "listen_question",
+      "targets": [
+        "b3_u01_l1_g2"
+      ],
+      "prompt_uz": "Ayol nimani taklif qilyapti?",
+      "prompt_en": "What does the woman suggest?",
+      "audio_text": "같이 배낭여행을 가는 게 어때요?",
+      "options": [
+        "Birga sayohat",
+        "Birga o'qish",
+        "Birga ishlash",
+        "Birga ovqatlanish"
+      ],
+      "options_en": [
+        "Backpacking together",
+        "Studying together",
+        "Working together",
+        "Eating together"
+      ],
+      "answers": [
+        "Birga sayohat"
+      ],
+      "audio": "d7eb1ff81a5f.mp3"
+    },
+    {
+      "id": "b3_u01_l1_e101",
+      "type": "conjugate",
+      "targets": [
+        "b3_u01_l1_g2"
+      ],
+      "prompt_uz": "'Yesangiz-chi?' shaklini yasang",
+      "prompt_en": "Make 'how about eating?'",
+      "base": "먹다",
+      "form": "-는 게 어때요?",
+      "answers": [
+        "먹는 게 어때요?",
+        "먹는 게 어때요"
+      ]
+    },
+    {
+      "id": "b3_u01_l1_e102",
+      "type": "conjugate",
+      "targets": [
+        "b3_u01_l1_g2"
+      ],
+      "prompt_uz": "'O'ynasak-chi?' shaklini yasang",
+      "prompt_en": "Make 'how about playing?'",
+      "base": "놀다",
+      "form": "-는 게 어때요?",
+      "answers": [
+        "노는 게 어때요?",
+        "노는 게 어때요"
+      ]
+    },
+    {
+      "id": "b3_u01_l1_e103",
+      "type": "conjugate",
+      "targets": [
+        "b3_u01_l1_g1"
+      ],
+      "prompt_uz": "'Ikki oy davomida' iborasini yasang",
+      "prompt_en": "Make 'for two months'",
+      "base": "두 달",
+      "form": "+ 동안",
+      "answers": [
+        "두 달 동안"
+      ]
+    },
+    {
+      "id": "b3_u01_l1_e104",
+      "type": "fill_blank",
+      "targets": [
+        "b3_u01_l1_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Ta'tilda yaxshilab dam oldim.'",
+      "prompt_en": "Fill in the blank: 'I rested well during my leave.'",
+      "sentence": "휴가 ___ 푹 쉬었어요.",
+      "answers": [
+        "동안"
+      ]
+    },
+    {
+      "id": "b3_u01_l1_e105",
+      "type": "fill_blank",
+      "targets": [
+        "b3_u01_l1_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Yangi xobbi topsangiz-chi?'",
+      "prompt_en": "Fill in the blank: 'How about finding a new hobby?'",
+      "sentence": "새 취미를 ___ 게 어때요? (찾다)",
+      "answers": [
+        "찾는"
+      ]
+    },
+    {
+      "id": "b3_u01_l1_e106",
+      "type": "situation_choice",
+      "targets": [
+        "b3_u01_l1_g2"
+      ],
+      "prompt_uz": "Do'stingiz ingliz tilini o'rganmoqchi. Kursni maslahat bering:",
+      "prompt_en": "Your friend wants to learn English. Suggest an academy:",
+      "options": [
+        "영어 학원에 다니는 게 어때요?",
+        "영어 학원에 다닌 게 어때요?",
+        "영어 학원에 다닐 게 어때요?",
+        "영어 학원에 다니는 게 어때요요?"
+      ],
+      "answers": [
+        "영어 학원에 다니는 게 어때요?"
+      ]
+    },
+    {
+      "id": "b3_u01_l1_e107",
+      "type": "situation_choice",
+      "targets": [
+        "b3_u01_l1_w004"
+      ],
+      "prompt_uz": "'Reja tuzdim' deng:",
+      "prompt_en": "Say 'I made a plan':",
+      "options": [
+        "계획을 세웠어요.",
+        "계획을 따았어요.",
+        "계획을 보냈어요.",
+        "계획을 다녔어요."
+      ],
+      "answers": [
+        "계획을 세웠어요."
+      ]
+    },
+    {
+      "id": "b3_u01_l1_e108",
+      "type": "situation_choice",
+      "targets": [
+        "b3_u01_l1_g1"
+      ],
+      "prompt_uz": "Ta'til davomida vatanga borishingizni ayting:",
+      "prompt_en": "Say you're going home during the vacation:",
+      "options": [
+        "방학 동안 고향에 가요.",
+        "방학에서 동안 고향에 가요.",
+        "방학 동안에서 고향에 가요.",
+        "방학이 동안 고향에 가요."
+      ],
+      "answers": [
+        "방학 동안 고향에 가요."
+      ]
+    },
+    {
+      "id": "b3_u01_l1_e109",
+      "type": "find_error",
+      "targets": [
+        "b3_u01_l1_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "케이크를 만들는 게 어때요?",
+      "answers": [
+        "케이크를 만드는 게 어때요?",
+        "케이크를 만드는 게 어때요"
+      ],
+      "why_uz": "만들다: ㄹ tushadi → 만드는 게.",
+      "why_en": "만들다: ㄹ drops → 만드는 게."
+    },
+    {
+      "id": "b3_u01_l1_e110",
+      "type": "find_error",
+      "targets": [
+        "b3_u01_l1_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "다섯 시 동안 잤어요.",
+      "answers": [
+        "다섯 시간 동안 잤어요"
+      ],
+      "why_uz": "Muddat — 시간.",
+      "why_en": "Duration uses 시간."
+    },
+    {
+      "id": "b3_u01_l1_e111",
+      "type": "translate",
+      "targets": [
+        "b3_u01_l1_g1"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Bir hafta Jejuda bo'ldim.",
+      "source_en": "I was in Jeju for a week.",
+      "answers": [
+        "일주일 동안 제주도에 있었어요"
+      ]
+    },
+    {
+      "id": "b3_u01_l1_e112",
+      "type": "translate",
+      "targets": [
+        "b3_u01_l1_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Kursga qatnasangiz-chi?",
+      "source_en": "Why don't you attend an academy?",
+      "answers": [
+        "학원에 다니는 게 어때요",
+        "학원에 다니는 게 어때요?"
+      ]
+    },
+    {
+      "id": "b3_u01_l1_e113",
+      "type": "build_sentence",
+      "targets": [
+        "b3_u01_l1_g2",
+        "b3_u01_l1_g1"
+      ],
+      "prompt_uz": "'Ta'tilda guvohnoma olsangiz-chi?' gapini tuzing",
+      "prompt_en": "Build the sentence 'How about getting your licence during the vacation?'",
+      "tokens": [
+        "어때요?",
+        "방학",
+        "동안",
+        "운전면허를",
+        "따는",
+        "게"
+      ],
+      "answers": [
+        "방학 동안 운전면허를 따는 게 어때요?"
+      ]
+    },
+    {
+      "id": "b3_u01_l1_e114",
+      "type": "listen_question",
+      "targets": [
+        "b3_u01_l1_g1"
+      ],
+      "prompt_uz": "U qancha vaqt ishladi?",
+      "prompt_en": "How long did the speaker work?",
+      "audio_text": "두 달 동안 카페에서 아르바이트를 했어요.",
+      "options": [
+        "Ikki oy",
+        "Ikki hafta",
+        "Bir oy",
+        "Bir yil"
+      ],
+      "options_en": [
+        "Two months",
+        "Two weeks",
+        "One month",
+        "One year"
+      ],
+      "answers": [
+        "Ikki oy"
+      ],
+      "audio": "1cc4776d8b76.mp3"
+    },
+    {
+      "id": "b3_u01_l1_e115",
+      "type": "listen_question",
+      "targets": [
+        "b3_u01_l1_g2"
+      ],
+      "prompt_uz": "Erkak nimani maslahat beryapti?",
+      "prompt_en": "What does the man advise?",
+      "audio_text": "외국어를 배우고 싶어요? 그럼 학원에 다니는 게 어때요?",
+      "options": [
+        "Kursga qatnashni",
+        "Xorijga borishni",
+        "Kitob o'qishni",
+        "Dam olishni"
+      ],
+      "options_en": [
+        "Attending an academy",
+        "Going abroad",
+        "Reading books",
+        "Resting"
+      ],
+      "answers": [
+        "Kursga qatnashni"
+      ],
+      "audio": "d7fd2b8b8fbe.mp3"
+    }
+  ],
+  "test": [
+    "b3_u01_l1_e101",
+    "b3_u01_l1_e102",
+    "b3_u01_l1_e103",
+    "b3_u01_l1_e104",
+    "b3_u01_l1_e105",
+    "b3_u01_l1_e106",
+    "b3_u01_l1_e107",
+    "b3_u01_l1_e108",
+    "b3_u01_l1_e109",
+    "b3_u01_l1_e110",
+    "b3_u01_l1_e111",
+    "b3_u01_l1_e112",
+    "b3_u01_l1_e113",
+    "b3_u01_l1_e114",
+    "b3_u01_l1_e115"
+  ],
+  "story": {
+    "title_uz": "Ta'til rejasi",
+    "title_en": "Vacation plans",
+    "gate_uz": "TA'TIL",
+    "gate_en": "VACATION",
+    "steps": [
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "아지즈 씨, 이번 방학 동안 뭐 할 거예요?",
+        "uz": "Aziz, bu ta'tilda nima qilasiz?",
+        "en": "Aziz, what will you do this vacation?",
+        "audio": "eacd9639ec8b.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "아직 특별한 계획은 없어요.",
+        "uz": "Hali alohida rejam yo'q.",
+        "en": "I don't have any special plans yet.",
+        "audio": "66cefd62cace.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "방학이 두 달이에요. 운전면허를 따는 게 어때요?",
+        "uz": "Ta'til ikki oy. Guvohnoma olsangiz-chi?",
+        "en": "The vacation is two months. How about getting your licence?",
+        "audio": "8b45e8c197c4.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "좋은 생각이에요. 그런데 학원비가 비싸요.",
+        "uz": "Yaxshi fikr. Lekin kurs puli qimmat.",
+        "en": "Good idea. But the fees are expensive.",
+        "audio": "b8a7f464797c.mp3"
+      },
+      {
+        "type": "choose_reply",
+        "speaker": "aziz",
+        "prompt_uz": "Aziz 'Unda bir oy ishlasammi?' demoqchi (o'ziga maslahat).",
+        "prompt_en": "Aziz wants to say 'Then how about working for a month?'.",
+        "options": [
+          "그럼 한 달 동안 아르바이트를 하는 게 어때요?",
+          "그럼 한 달에 동안 아르바이트를 하은 게 어때요?",
+          "그럼 한 시 동안 아르바이트를 하는 게 어때요?"
+        ],
+        "answer": "그럼 한 달 동안 아르바이트를 하는 게 어때요?",
+        "uz": "Unda bir oy yarim kunlik ishlasam-chi?",
+        "en": "Then how about working part-time for a month?",
+        "why_uz": "Muddat — 한 달 동안; taklif — 하는 게 어때요.",
+        "why_en": "Duration: 한 달 동안; suggestion: 하는 게 어때요.",
+        "audio": "8bd18ddeac98.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "좋아요! 그 돈으로 학원에 다니면 돼요.",
+        "uz": "Zo'r! O'sha pulga kursga qatnaysiz.",
+        "en": "Great! You can pay for the academy with that money.",
+        "audio": "438f2f0d588a.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "민지 씨는요?",
+        "uz": "Siz-chi?",
+        "en": "And you?",
+        "audio": "eecabbb2b266.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "저는 일주일 동안 봉사 활동을 해요. 그리고 요가 학원에 다닐 거예요.",
+        "uz": "Men bir hafta ko'ngillilik qilaman. Keyin yogaga qatnayman.",
+        "en": "I'll volunteer for a week. And I'll go to a yoga class.",
+        "audio": "397d6100da40.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "와, 계획을 잘 세웠네요.",
+        "uz": "Voy, rejani yaxshi tuzibsiz.",
+        "en": "Wow, you've planned well.",
+        "audio": "3d7c3d0544c9.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "방학 마지막 주에는 같이 부산에 가는 게 어때요?",
+        "uz": "Oxirgi haftada birga Pusanga borsak-chi?",
+        "en": "How about going to Busan together in the last week?",
+        "audio": "e4ba1734e18e.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "좋아요! 바다를 꼭 보고 싶어요.",
+        "uz": "Zo'r! Dengizni albatta ko'rmoqchiman.",
+        "en": "Great! I really want to see the sea.",
+        "audio": "55eca7f8ee69.mp3"
+      },
+      {
+        "type": "quiz",
+        "prompt_uz": "Minji ta'tilda nima qiladi?",
+        "prompt_en": "What will Minji do during the vacation?",
+        "options": [
+          "Ko'ngillilik va yoga",
+          "Guvohnoma oladi",
+          "Yarim kun ishlaydi"
+        ],
+        "options_en": [
+          "Volunteering and yoga",
+          "Get a licence",
+          "Work part-time"
+        ],
+        "answer": "Ko'ngillilik va yoga",
+        "why_uz": "봉사 활동을 해요. 그리고 요가 학원에 다닐 거예요.",
+        "why_en": "She'll volunteer and attend yoga."
+      }
+    ]
+  }
+}

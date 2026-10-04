@@ -1,0 +1,1462 @@
+{
+  "id": "b3_u04_l1",
+  "unit": 4,
+  "lesson": 1,
+  "title_ko": "컴퓨터 회사에서 일한 적이 있습니다",
+  "title_uz": "Kompyuter kompaniyasida ishlaganman",
+  "title_en": "I have worked at a computer company",
+  "topic_uz": "Ishga kirish",
+  "topic_en": "Employment",
+  "reviewed": false,
+  "words": [
+    {
+      "id": "b3_u04_l1_w001",
+      "ko": "면접",
+      "uz": "suhbat (ishga qabul)",
+      "en": "job interview",
+      "pos": "ot",
+      "example_ko": "내일 면접이 있습니다.",
+      "example_uz": "Ertaga ish suhbatim bor.",
+      "example_en": "I have a job interview tomorrow.",
+      "audio": "5a61fe428772.mp3",
+      "example_audio": "8843215e2794.mp3"
+    },
+    {
+      "id": "b3_u04_l1_w002",
+      "ko": "지원하다",
+      "uz": "ariza topshirmoq (ishga)",
+      "en": "to apply",
+      "pos": "fe'l",
+      "example_ko": "IT 회사에 지원했습니다.",
+      "example_uz": "IT kompaniyasiga ariza topshirdim.",
+      "example_en": "I applied to an IT company.",
+      "audio": "866450136cbd.mp3",
+      "example_audio": "7afa8fb628d7.mp3"
+    },
+    {
+      "id": "b3_u04_l1_w003",
+      "ko": "이력서",
+      "uz": "rezyume",
+      "en": "résumé",
+      "pos": "ot",
+      "example_ko": "이력서를 보냈습니다.",
+      "example_uz": "Rezyumeni yubordim.",
+      "example_en": "I sent my résumé.",
+      "audio": "1c9bcc6f9f4a.mp3",
+      "example_audio": "3720785e8bff.mp3"
+    },
+    {
+      "id": "b3_u04_l1_w004",
+      "ko": "자기소개서",
+      "uz": "o'zi haqida xat (motivatsion xat)",
+      "en": "cover letter",
+      "pos": "ot",
+      "example_ko": "자기소개서를 썼습니다.",
+      "example_uz": "Motivatsion xat yozdim.",
+      "example_en": "I wrote a cover letter.",
+      "audio": "0a3b56407926.mp3",
+      "example_audio": "73b6f4804bf1.mp3"
+    },
+    {
+      "id": "b3_u04_l1_w005",
+      "ko": "경력",
+      "uz": "ish tajribasi (staj)",
+      "en": "work experience",
+      "pos": "ot",
+      "example_ko": "경력이 이 년 있습니다.",
+      "example_uz": "Ikki yillik stajim bor.",
+      "example_en": "I have two years of experience.",
+      "audio": "24c4121126e2.mp3",
+      "example_audio": "e5d199a03dad.mp3"
+    },
+    {
+      "id": "b3_u04_l1_w006",
+      "ko": "전공",
+      "uz": "mutaxassislik (yo'nalish)",
+      "en": "major",
+      "pos": "ot",
+      "example_ko": "전공이 무엇입니까?",
+      "example_uz": "Mutaxassisligingiz nima?",
+      "example_en": "What was your major?",
+      "audio": "b7743e32c043.mp3",
+      "example_audio": "d9fb06eafecd.mp3"
+    },
+    {
+      "id": "b3_u04_l1_w007",
+      "ko": "졸업하다",
+      "uz": "bitirmoq",
+      "en": "to graduate",
+      "pos": "fe'l",
+      "example_ko": "작년에 대학교를 졸업했습니다.",
+      "example_uz": "O'tgan yili universitetni bitirdim.",
+      "example_en": "I graduated from university last year.",
+      "audio": "22a4b3a044bc.mp3",
+      "example_audio": "4098b618cae8.mp3"
+    },
+    {
+      "id": "b3_u04_l1_w008",
+      "ko": "입사하다",
+      "uz": "ishga kirmoq",
+      "en": "to join a company",
+      "pos": "fe'l",
+      "example_ko": "입사한 지 일 년이 됐습니다.",
+      "example_uz": "Ishga kirganimga bir yil bo'ldi.",
+      "example_en": "It's been a year since I joined.",
+      "audio": "a15832eb3716.mp3",
+      "example_audio": "56593e65c786.mp3"
+    },
+    {
+      "id": "b3_u04_l1_w009",
+      "ko": "합격하다",
+      "uz": "o'tmoq (imtihon, tanlov)",
+      "en": "to pass",
+      "pos": "fe'l",
+      "example_ko": "면접에 합격했습니다.",
+      "example_uz": "Suhbatdan o'tdim.",
+      "example_en": "I passed the interview.",
+      "audio": "891c994aca4a.mp3",
+      "example_audio": "c7a9b0645843.mp3"
+    },
+    {
+      "id": "b3_u04_l1_w010",
+      "ko": "채용",
+      "uz": "ishga qabul qilish",
+      "en": "hiring",
+      "pos": "ot",
+      "example_ko": "신입 사원을 채용합니다.",
+      "example_uz": "Yangi xodimlar ishga olinadi.",
+      "example_en": "We're hiring new employees.",
+      "audio": "85ea19325f84.mp3",
+      "example_audio": "247ebc567040.mp3"
+    },
+    {
+      "id": "b3_u04_l1_w011",
+      "ko": "신입 사원",
+      "uz": "yangi xodim",
+      "en": "new employee",
+      "pos": "ot",
+      "example_ko": "저는 신입 사원입니다.",
+      "example_uz": "Men yangi xodimman.",
+      "example_en": "I'm a new employee.",
+      "audio": "4d3ed311a4c6.mp3",
+      "example_audio": "7baabdc19acb.mp3"
+    },
+    {
+      "id": "b3_u04_l1_w012",
+      "ko": "부서",
+      "uz": "bo'lim",
+      "en": "department",
+      "pos": "ot",
+      "example_ko": "어느 부서에서 일했습니까?",
+      "example_uz": "Qaysi bo'limda ishlagansiz?",
+      "example_en": "Which department did you work in?",
+      "audio": "17fc1dc4a903.mp3",
+      "example_audio": "37e662c7ce44.mp3"
+    },
+    {
+      "id": "b3_u04_l1_w013",
+      "ko": "업무",
+      "uz": "vazifa, ish",
+      "en": "duties, work",
+      "pos": "ot",
+      "example_ko": "제가 맡은 업무는 개발이었습니다.",
+      "example_uz": "Menga yuklangan vazifa dasturlash edi.",
+      "example_en": "My duties were in development.",
+      "audio": "c023605ad34b.mp3",
+      "example_audio": "08695fd78274.mp3"
+    },
+    {
+      "id": "b3_u04_l1_w014",
+      "ko": "담당하다",
+      "uz": "mas'ul bo'lmoq",
+      "en": "to be in charge of",
+      "pos": "fe'l",
+      "example_ko": "웹사이트를 담당했습니다.",
+      "example_uz": "Veb-saytga mas'ul edim.",
+      "example_en": "I was in charge of the website.",
+      "audio": "0c9e23e0a879.mp3",
+      "example_audio": "e9bb2f502bdf.mp3"
+    },
+    {
+      "id": "b3_u04_l1_w015",
+      "ko": "개발하다",
+      "uz": "ishlab chiqmoq",
+      "en": "to develop",
+      "pos": "fe'l",
+      "example_ko": "제가 개발한 앱입니다.",
+      "example_uz": "Bu men ishlab chiqqan ilova.",
+      "example_en": "This is an app I developed.",
+      "audio": "72ec0831473a.mp3",
+      "example_audio": "c8c4d136a1c0.mp3"
+    },
+    {
+      "id": "b3_u04_l1_w016",
+      "ko": "프로젝트",
+      "uz": "loyiha",
+      "en": "project",
+      "pos": "ot",
+      "example_ko": "지난번에 한 프로젝트를 소개하겠습니다.",
+      "example_uz": "O'tgan safar qilgan loyihamni tanishtiraman.",
+      "example_en": "Let me introduce a project I did.",
+      "audio": "86f0a72a5613.mp3",
+      "example_audio": "33419499cfa0.mp3"
+    },
+    {
+      "id": "b3_u04_l1_w017",
+      "ko": "장점",
+      "uz": "yutuq, kuchli tomon",
+      "en": "strength",
+      "pos": "ot",
+      "example_ko": "제 장점은 성실함입니다.",
+      "example_uz": "Kuchli tomonim — mas'uliyatlilik.",
+      "example_en": "My strength is that I'm diligent.",
+      "audio": "04ada2f58e59.mp3",
+      "example_audio": "a2454f70fa97.mp3"
+    },
+    {
+      "id": "b3_u04_l1_w018",
+      "ko": "단점",
+      "uz": "kamchilik",
+      "en": "weakness",
+      "pos": "ot",
+      "example_ko": "단점이 무엇입니까?",
+      "example_uz": "Kamchiligingiz nima?",
+      "example_en": "What's your weakness?",
+      "audio": "7434f86cb653.mp3",
+      "example_audio": "11cb09e36a43.mp3"
+    },
+    {
+      "id": "b3_u04_l1_w019",
+      "ko": "성격",
+      "uz": "fe'l-atvor",
+      "en": "personality",
+      "pos": "ot",
+      "example_ko": "성격이 밝습니다.",
+      "example_uz": "Fe'lim ochiq.",
+      "example_en": "I have a cheerful personality.",
+      "audio": "abffe1a52f58.mp3",
+      "example_audio": "9c6f4c8b6a4c.mp3"
+    },
+    {
+      "id": "b3_u04_l1_w020",
+      "ko": "성실하다",
+      "uz": "vijdonli, tirishqoq bo'lmoq",
+      "en": "to be diligent",
+      "pos": "sifat",
+      "example_ko": "성실한 사람입니다.",
+      "example_uz": "Tirishqoq odamman.",
+      "example_en": "I'm a diligent person.",
+      "audio": "a008fbf109da.mp3",
+      "example_audio": "acb385f756f5.mp3"
+    },
+    {
+      "id": "b3_u04_l1_w021",
+      "ko": "꼼꼼하다",
+      "uz": "sinchkov bo'lmoq",
+      "en": "to be meticulous",
+      "pos": "sifat",
+      "example_ko": "저는 꼼꼼한 편입니다.",
+      "example_uz": "Men sinchkovroqman.",
+      "example_en": "I tend to be meticulous.",
+      "audio": "84efb941ae17.mp3",
+      "example_audio": "ebedb076e739.mp3"
+    },
+    {
+      "id": "b3_u04_l1_w022",
+      "ko": "책임감",
+      "uz": "mas'uliyat hissi",
+      "en": "sense of responsibility",
+      "pos": "ot",
+      "example_ko": "책임감이 강합니다.",
+      "example_uz": "Mas'uliyat hissim kuchli.",
+      "example_en": "I have a strong sense of responsibility.",
+      "audio": "abf8e58ec1eb.mp3",
+      "example_audio": "851fb7672d25.mp3"
+    },
+    {
+      "id": "b3_u04_l1_w023",
+      "ko": "능력",
+      "uz": "qobiliyat",
+      "en": "ability",
+      "pos": "ot",
+      "example_ko": "외국어 능력이 있습니다.",
+      "example_uz": "Chet tili bilimim bor.",
+      "example_en": "I have foreign language skills.",
+      "audio": "369599846b5c.mp3",
+      "example_audio": "5eb6134d6218.mp3"
+    },
+    {
+      "id": "b3_u04_l1_w024",
+      "ko": "긴장되다",
+      "uz": "hayajonlanmoq (asabiylashmoq)",
+      "en": "to be nervous",
+      "pos": "fe'l",
+      "example_ko": "면접 때 너무 긴장됐습니다.",
+      "example_uz": "Suhbatda juda hayajonlandim.",
+      "example_en": "I was very nervous during the interview.",
+      "audio": "7e73bb748b15.mp3",
+      "example_audio": "5bc67f0445ca.mp3"
+    },
+    {
+      "id": "b3_u04_l1_w025",
+      "ko": "정장",
+      "uz": "rasmiy kostyum",
+      "en": "suit",
+      "pos": "ot",
+      "example_ko": "면접에 정장을 입고 갔습니다.",
+      "example_uz": "Suhbatga kostyum kiyib bordim.",
+      "example_en": "I wore a suit to the interview.",
+      "audio": "19aa4256567e.mp3",
+      "example_audio": "2cdf55d4a538.mp3"
+    },
+    {
+      "id": "b3_u04_l1_w026",
+      "ko": "자신 있다",
+      "uz": "ishonchi bor bo'lmoq",
+      "en": "to be confident",
+      "pos": "ibora",
+      "example_ko": "한국어에 자신이 있습니다.",
+      "example_uz": "Koreys tilimga ishonchim bor.",
+      "example_en": "I'm confident in my Korean.",
+      "audio": "d78c613d4b06.mp3",
+      "example_audio": "6dee93aa2dd0.mp3"
+    },
+    {
+      "id": "b3_u04_l1_w027",
+      "ko": "회사",
+      "uz": "kompaniya",
+      "en": "company",
+      "pos": "ot",
+      "example_ko": "제가 일한 회사는 컴퓨터 회사입니다.",
+      "example_uz": "Men ishlagan kompaniya — kompyuter kompaniyasi.",
+      "example_en": "The company I worked at is a computer company.",
+      "audio": "70641ecb6999.mp3",
+      "example_audio": "18f3cdeb3bc5.mp3"
+    },
+    {
+      "id": "b3_u04_l1_w028",
+      "ko": "인턴",
+      "uz": "amaliyotchi",
+      "en": "intern",
+      "pos": "ot",
+      "example_ko": "여름에 인턴으로 일했습니다.",
+      "example_uz": "Yozda amaliyotchi bo'lib ishladim.",
+      "example_en": "I worked as an intern in the summer.",
+      "audio": "bb482c5f94d0.mp3",
+      "example_audio": "16f247e2a301.mp3"
+    },
+    {
+      "id": "b3_u04_l1_w029",
+      "ko": "소개하다",
+      "uz": "tanishtirmoq",
+      "en": "to introduce",
+      "pos": "fe'l",
+      "example_ko": "자기소개를 하겠습니다.",
+      "example_uz": "O'zimni tanishtiraman.",
+      "example_en": "Let me introduce myself.",
+      "audio": "0bbf0965faac.mp3",
+      "example_audio": "f6975724bdc9.mp3"
+    },
+    {
+      "id": "b3_u04_l1_w030",
+      "ko": "열심히",
+      "uz": "tirishib",
+      "en": "hard",
+      "pos": "ravish",
+      "example_ko": "열심히 하겠습니다.",
+      "example_uz": "Tirishib ishlayman.",
+      "example_en": "I'll do my best.",
+      "audio": "fd200081e775.mp3",
+      "example_audio": "0efd10fce04f.mp3"
+    },
+    {
+      "id": "b3_u04_l1_w031",
+      "ko": "감사합니다",
+      "uz": "rahmat",
+      "en": "thank you",
+      "pos": "ibora",
+      "example_ko": "기회를 주셔서 감사합니다.",
+      "example_uz": "Imkoniyat berganingiz uchun rahmat.",
+      "example_en": "Thank you for the opportunity.",
+      "audio": "b7176b0d9780.mp3",
+      "example_audio": "d90a414bb62f.mp3"
+    },
+    {
+      "id": "b3_u04_l1_w032",
+      "ko": "앉으십시오",
+      "uz": "o'tiring (rasmiy)",
+      "en": "please be seated",
+      "pos": "ibora",
+      "example_ko": "이쪽으로 앉으십시오.",
+      "example_uz": "Bu yerga o'tiring.",
+      "example_en": "Please have a seat here.",
+      "audio": "93001ff00ee5.mp3",
+      "example_audio": "a701df18e1be.mp3"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "b3_u04_l1_g1",
+      "pattern": "A/V-ㅂ니다/습니다, N입니다",
+      "meaning_uz": "Rasmiy uslub (ish suhbati, taqdimot)",
+      "meaning_en": "Formal style (interviews, presentations)",
+      "explanation_md": "**-ㅂ니다/습니다** (1-kitob 2-2 da tanishgan) — **rasmiy** nutq. Ish suhbatida, taqdimotda, yangiliklarda shu uslub kutiladi.\n\n**컴퓨터 회사에서 일한 적이 있습니다.** — *Kompyuter kompaniyasida ishlaganman.*\n\n### Shakllar\n\n| | Hozirgi | O'tgan | So'roq |\n|---|---|---|---|\n| 받침siz | 합니다 | 했습니다 | 합니까? |\n| 받침 bilan | 있습니다 | 있었습니다 | 있습니까? |\n| Ot | 학생입니다 | 학생이었습니다 | 학생입니까? |\n\n### Rasmiy iboralar\n\n- **-겠습니다** — kamtar va'da: **열심히 하겠습니다.** — *Tirishib ishlayman.*\n- **-(으)십시오** — rasmiy iltimos: **앉으십시오.** — *O'tiring.*\n- **무엇입니까?** = **뭐예요?** ning rasmiy shakli.\n\n### Esda tuting\n\n- Suhbatda boshidan oxirigacha bir uslubda gapiring — rasmiy va oddiy uslubni aralashtirmang.",
+      "explanation_md_en": "**-ㅂ니다/습니다** (first seen in book 1, 2-2) is **formal** speech. It's expected in job interviews, presentations and the news.\n\n**컴퓨터 회사에서 일한 적이 있습니다.** — *I have worked at a computer company.*\n\n### Forms\n\n| | Present | Past | Question |\n|---|---|---|---|\n| no 받침 | 합니다 | 했습니다 | 합니까? |\n| with 받침 | 있습니다 | 있었습니다 | 있습니까? |\n| noun | 학생입니다 | 학생이었습니다 | 학생입니까? |\n\n### Formal phrases\n\n- **-겠습니다** — a humble promise: **열심히 하겠습니다.** — *I'll do my best.*\n- **-(으)십시오** — a formal request: **앉으십시오.** — *Please be seated.*\n- **무엇입니까?** is the formal **뭐예요?**\n\n### Remember\n\n- Keep one style throughout an interview — don't mix formal and casual polite.",
+      "formation": [
+        {
+          "condition_uz": "Hozirgi",
+          "condition_en": "Present",
+          "rule": "-ㅂ니다/습니다",
+          "example": "합니다, 있습니다"
+        },
+        {
+          "condition_uz": "O'tgan",
+          "condition_en": "Past",
+          "rule": "-았/었습니다",
+          "example": "했습니다, 일했습니다"
+        },
+        {
+          "condition_uz": "Ot",
+          "condition_en": "Noun",
+          "rule": "N입니다",
+          "example": "신입 사원입니다"
+        },
+        {
+          "condition_uz": "Va'da",
+          "condition_en": "Promise",
+          "rule": "-겠습니다",
+          "example": "열심히 하겠습니다"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "저는 아지즈라고 합니다.",
+          "uz": "Mening ismim Aziz.",
+          "en": "My name is Aziz.",
+          "audio": "e48103e12296.mp3"
+        },
+        {
+          "ko": "컴퓨터 회사에서 일한 적이 있습니다.",
+          "uz": "Kompyuter kompaniyasida ishlaganman.",
+          "en": "I have worked at a computer company.",
+          "audio": "e7b65d0fa9a3.mp3"
+        },
+        {
+          "ko": "전공이 무엇입니까?",
+          "uz": "Mutaxassisligingiz nima?",
+          "en": "What was your major?",
+          "audio": "d9fb06eafecd.mp3"
+        },
+        {
+          "ko": "열심히 하겠습니다.",
+          "uz": "Tirishib ishlayman.",
+          "en": "I'll do my best.",
+          "audio": "0efd10fce04f.mp3"
+        },
+        {
+          "ko": "이쪽으로 앉으십시오.",
+          "uz": "Bu yerga o'tiring.",
+          "en": "Please have a seat here.",
+          "audio": "a701df18e1be.mp3"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "경력이 있습니다요.",
+          "right": "경력이 있습니다.",
+          "why_uz": "-습니다 dan keyin 요 qo'shilmaydi.",
+          "why_en": "No 요 after -습니다."
+        },
+        {
+          "wrong": "저는 신입 사원습니다.",
+          "right": "저는 신입 사원입니다.",
+          "why_uz": "Ot: N입니다.",
+          "why_en": "Noun: N입니다."
+        },
+        {
+          "wrong": "졸업했었습니다니까?",
+          "right": "졸업했습니까?",
+          "why_uz": "O'tgan so'roq: -았/었습니까?",
+          "why_en": "Past question: -았/었습니까?"
+        }
+      ],
+      "uz_compare": "O'zbekchada rasmiy suhbatda 'Tushundim' o'rniga 'Tushundim, janob' yoki 'Ishlaganman' o'rniga 'Ishlaganman' deymiz — farq ohangda. Koreyschada rasmiylik qo'shimchada: 일했어요 → 일했습니다.",
+      "compare_en": "In English, formality is in word choice ('I would like to…'). In Korean it's in the ending: 일했어요 (polite) → 일했습니다 (formal)."
+    },
+    {
+      "id": "b3_u04_l1_g2",
+      "pattern": "V-(으)ㄴ N",
+      "meaning_uz": "...gan (o'tgan zamon sifatdoshi)",
+      "meaning_en": "N that (someone) did (past modifier)",
+      "explanation_md": "**V-(으)ㄴ N** — fe'lni otdan oldin qo'yib, **o'tmishda bo'lgan** ish orqali otni tasvirlaydi: \"...gan N\".\n\n**제가 일한 회사** — *men ishlagan kompaniya*  \n**제가 개발한 앱** — *men ishlab chiqqan ilova*\n\n### Qanday yasaladi\n\n- O'zak **받침siz** → **-ㄴ**: 일하다 → **일한**, 보다 → **본**\n- O'zak **받침 bilan** → **-은**: 받다 → **받은**, 읽다 → **읽은**\n- **ㄹ** tushadi: 만들다 → **만든**, 살다 → **산**\n\n### Zamonlar (2-kitobdan)\n\n- Hozir: **V-는 N** — 다니**는** 회사 (qatnayotgan kompaniyam)\n- O'tgan: **V-(으)ㄴ N** — 다닌 회사 (qatnagan kompaniyam)\n- Kelasi: **V-(으)ㄹ N** — 다닐 회사 (qatnaydigan kompaniyam)\n\n### Esda tuting\n\n- **-(으)ㄴ 적이 있다** (3-1) ham shu shakldan: 일**한** 적.",
+      "explanation_md_en": "**V-(으)ㄴ N** puts a verb before a noun to describe it by something that **happened in the past**: \"the N that …ed\".\n\n**제가 일한 회사** — *the company I worked at*  \n**제가 개발한 앱** — *the app I developed*\n\n### How to form it\n\n- Stem **without 받침** → **-ㄴ**: 일하다 → **일한**, 보다 → **본**\n- Stem **with 받침** → **-은**: 받다 → **받은**, 읽다 → **읽은**\n- **ㄹ** drops: 만들다 → **만든**, 살다 → **산**\n\n### Tenses (from book 2)\n\n- Present: **V-는 N** — 다니**는** 회사 (the company I attend)\n- Past: **V-(으)ㄴ N** — 다닌 회사 (the company I attended)\n- Future: **V-(으)ㄹ N** — 다닐 회사 (the company I'll attend)\n\n### Remember\n\n- **-(으)ㄴ 적이 있다** (3-1) uses the same form: 일**한** 적.",
+      "formation": [
+        {
+          "condition_uz": "받침 yo'q",
+          "condition_en": "No 받침",
+          "rule": "V + ㄴ N",
+          "example": "일한 회사, 본 영화"
+        },
+        {
+          "condition_uz": "받침 bor",
+          "condition_en": "With 받침",
+          "rule": "V + 은 N",
+          "example": "받은 선물, 읽은 책"
+        },
+        {
+          "condition_uz": "ㄹ bilan",
+          "condition_en": "Ends in ㄹ",
+          "rule": "ㄹ tushadi + ㄴ",
+          "example": "만든 앱, 산 곳"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "제가 일한 회사는 컴퓨터 회사입니다.",
+          "uz": "Men ishlagan kompaniya — kompyuter kompaniyasi.",
+          "en": "The company I worked at is a computer company.",
+          "audio": "18f3cdeb3bc5.mp3"
+        },
+        {
+          "ko": "이것은 제가 개발한 앱입니다.",
+          "uz": "Bu men ishlab chiqqan ilova.",
+          "en": "This is an app I developed.",
+          "audio": "02782f32b7f8.mp3"
+        },
+        {
+          "ko": "어제 본 영화가 재미있었어요.",
+          "uz": "Kecha ko'rgan kinoim qiziq edi.",
+          "en": "The film I saw yesterday was fun.",
+          "audio": "8ea7540d0b8f.mp3"
+        },
+        {
+          "ko": "제가 담당한 업무는 웹사이트였습니다.",
+          "uz": "Mening vazifam veb-sayt edi.",
+          "en": "The work I was in charge of was the website.",
+          "audio": "76a93f82f28c.mp3"
+        },
+        {
+          "ko": "작년에 만든 프로젝트를 소개하겠습니다.",
+          "uz": "O'tgan yili qilgan loyihamni tanishtiraman.",
+          "en": "Let me introduce a project I made last year.",
+          "audio": "da81215a6924.mp3"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "제가 일하는 회사였습니다. (o'tgan)",
+          "right": "제가 일한 회사였습니다.",
+          "why_uz": "O'tgan: -(으)ㄴ.",
+          "why_en": "Past: -(으)ㄴ."
+        },
+        {
+          "wrong": "제가 만들은 앱입니다.",
+          "right": "제가 만든 앱입니다.",
+          "why_uz": "ㄹ tushadi: 만든.",
+          "why_en": "ㄹ drops: 만든."
+        },
+        {
+          "wrong": "받는 선물이 좋았어요. (o'tgan)",
+          "right": "받은 선물이 좋았어요.",
+          "why_uz": "받다 o'tgan: 받은.",
+          "why_en": "받다 past: 받은."
+        }
+      ],
+      "uz_compare": "O'zbekchadagi '-gan' sifatdoshi bilan aynan bir xil: 'men ishlaGAN kompaniya' = 제가 일한 회사. Tartib ham bir xil!",
+      "compare_en": "Like English 'the company (that) I worked at' — but in Korean the description comes BEFORE the noun: 제가 일한 회사 ('I worked-at company')."
+    }
+  ],
+  "dialogue": {
+    "lines": [
+      {
+        "speaker": "manager",
+        "ko": "어서 오십시오. 이쪽으로 앉으십시오.",
+        "uz": "Xush kelibsiz. Bu yerga o'tiring.",
+        "en": "Welcome. Please have a seat here.",
+        "audio": "8e9a0afaef35.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "감사합니다. 저는 아지즈라고 합니다.",
+        "uz": "Rahmat. Mening ismim Aziz.",
+        "en": "Thank you. My name is Aziz.",
+        "audio": "71e42912a876.mp3"
+      },
+      {
+        "speaker": "manager",
+        "ko": "자기소개를 해 주십시오.",
+        "uz": "O'zingizni tanishtiring.",
+        "en": "Please introduce yourself.",
+        "audio": "5493d9cedd87.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "저는 서울대학교에서 컴퓨터를 전공했습니다. 작년에 졸업했습니다.",
+        "uz": "Men Seul universitetida kompyuter yo'nalishida o'qidim. O'tgan yili bitirdim.",
+        "en": "I majored in computer science at Seoul National University. I graduated last year.",
+        "audio": "c1f478cdd17b.mp3"
+      },
+      {
+        "speaker": "manager",
+        "ko": "회사에서 일한 경험이 있습니까?",
+        "uz": "Kompaniyada ishlagan tajribangiz bormi?",
+        "en": "Do you have any experience working at a company?",
+        "audio": "713e267822df.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "네, 컴퓨터 회사에서 인턴으로 일한 적이 있습니다.",
+        "uz": "Ha, kompyuter kompaniyasida amaliyotchi bo'lib ishlaganman.",
+        "en": "Yes, I've worked as an intern at a computer company.",
+        "audio": "1da691d3a4a5.mp3"
+      },
+      {
+        "speaker": "manager",
+        "ko": "그 회사에서 무슨 업무를 담당했습니까?",
+        "uz": "U yerda qanday vazifaga mas'ul edingiz?",
+        "en": "What were you in charge of there?",
+        "audio": "4abdba32d4bf.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "앱 개발을 담당했습니다. 제가 개발한 앱을 보여 드리겠습니다.",
+        "uz": "Ilova ishlab chiqishga mas'ul edim. Men ishlab chiqqan ilovani ko'rsataman.",
+        "en": "I was in charge of app development. Let me show you an app I developed.",
+        "audio": "500ce5bfaf37.mp3"
+      },
+      {
+        "speaker": "manager",
+        "ko": "좋습니다. 본인의 장점은 무엇입니까?",
+        "uz": "Yaxshi. O'zingizning kuchli tomoningiz nima?",
+        "en": "Good. What are your strengths?",
+        "audio": "a236fd660109.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "저는 성실하고 책임감이 강합니다. 한국어에도 자신이 있습니다.",
+        "uz": "Men tirishqoqman, mas'uliyat hissim kuchli. Koreys tilimga ham ishonchim bor.",
+        "en": "I'm diligent and have a strong sense of responsibility. I'm also confident in my Korean.",
+        "audio": "5c449dcd43e9.mp3"
+      },
+      {
+        "speaker": "manager",
+        "ko": "알겠습니다. 결과는 다음 주에 연락드리겠습니다.",
+        "uz": "Tushunarli. Natija haqida keyingi hafta xabar beramiz.",
+        "en": "I see. We'll contact you with the result next week.",
+        "audio": "efe27f118040.mp3"
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b3_u04_l1_e001",
+      "type": "conjugate",
+      "targets": [
+        "b3_u04_l1_g1"
+      ],
+      "prompt_uz": "Rasmiy o'tgan zamon: 'bitirdim'",
+      "prompt_en": "Formal past: 'graduated'",
+      "base": "졸업하다",
+      "form": "-았/었습니다",
+      "answers": [
+        "졸업했습니다"
+      ]
+    },
+    {
+      "id": "b3_u04_l1_e002",
+      "type": "conjugate",
+      "targets": [
+        "b3_u04_l1_g1"
+      ],
+      "prompt_uz": "Rasmiy so'roq: 'bormi?'",
+      "prompt_en": "Formal question: 'is there?'",
+      "base": "있다",
+      "form": "-습니까?",
+      "answers": [
+        "있습니까?",
+        "있습니까"
+      ]
+    },
+    {
+      "id": "b3_u04_l1_e003",
+      "type": "conjugate",
+      "targets": [
+        "b3_u04_l1_g2"
+      ],
+      "prompt_uz": "'Men ishlagan (kompaniya)' shaklini yasang",
+      "prompt_en": "Make 'the (company) I worked at'",
+      "base": "일하다",
+      "form": "-(으)ㄴ + 회사",
+      "answers": [
+        "일한 회사"
+      ]
+    },
+    {
+      "id": "b3_u04_l1_e004",
+      "type": "conjugate",
+      "targets": [
+        "b3_u04_l1_g2"
+      ],
+      "prompt_uz": "'Men ishlab chiqqan (ilova)'",
+      "prompt_en": "Make 'the (app) I developed'",
+      "base": "만들다",
+      "form": "-(으)ㄴ + 앱",
+      "answers": [
+        "만든 앱"
+      ],
+      "hint_uz": "ㄹ tushadi",
+      "hint_en": "ㄹ drops"
+    },
+    {
+      "id": "b3_u04_l1_e005",
+      "type": "fill_blank",
+      "targets": [
+        "b3_u04_l1_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Tirishib ishlayman.' (rasmiy)",
+      "prompt_en": "Fill in the blank: 'I'll do my best.' (formal)",
+      "sentence": "열심히 ___.",
+      "answers": [
+        "하겠습니다"
+      ]
+    },
+    {
+      "id": "b3_u04_l1_e006",
+      "type": "fill_blank",
+      "targets": [
+        "b3_u04_l1_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Men yangi xodimman.'",
+      "prompt_en": "Fill in the blank: 'I'm a new employee.'",
+      "sentence": "저는 신입 ___.",
+      "answers": [
+        "사원입니다"
+      ]
+    },
+    {
+      "id": "b3_u04_l1_e007",
+      "type": "fill_blank",
+      "targets": [
+        "b3_u04_l1_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Kecha ko'rgan kino qiziq edi.'",
+      "prompt_en": "Fill in the blank: 'The film I saw yesterday was fun.'",
+      "sentence": "어제 ___ 영화가 재미있었어요. (보다)",
+      "answers": [
+        "본"
+      ]
+    },
+    {
+      "id": "b3_u04_l1_e008",
+      "type": "fill_blank",
+      "targets": [
+        "b3_u04_l1_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Olgan sovg'am yoqdi.'",
+      "prompt_en": "Fill in the blank: 'I liked the present I got.'",
+      "sentence": "___ 선물이 좋았어요. (받다)",
+      "answers": [
+        "받은"
+      ]
+    },
+    {
+      "id": "b3_u04_l1_e009",
+      "type": "situation_choice",
+      "targets": [
+        "b3_u04_l1_g1"
+      ],
+      "prompt_uz": "Ish suhbatida o'zingizni rasmiy tanishtiring:",
+      "prompt_en": "Introduce yourself formally at an interview:",
+      "options": [
+        "저는 아지즈라고 합니다.",
+        "저는 아지즈라고 해요요.",
+        "나는 아지즈야.",
+        "저는 아지즈입니다요."
+      ],
+      "answers": [
+        "저는 아지즈라고 합니다."
+      ]
+    },
+    {
+      "id": "b3_u04_l1_e010",
+      "type": "situation_choice",
+      "targets": [
+        "b3_u04_l1_g2"
+      ],
+      "prompt_uz": "Suhbatdoshga o'zingiz ishlab chiqqan ilovani ko'rsating:",
+      "prompt_en": "Show the interviewer an app you developed:",
+      "options": [
+        "제가 개발한 앱입니다.",
+        "제가 개발하는 앱이었습니다.",
+        "제가 개발할 앱입니다. (o'tgan)",
+        "제가 개발은 앱입니다."
+      ],
+      "answers": [
+        "제가 개발한 앱입니다."
+      ]
+    },
+    {
+      "id": "b3_u04_l1_e011",
+      "type": "situation_choice",
+      "targets": [
+        "b3_u04_l1_w017"
+      ],
+      "prompt_uz": "Kuchli tomoningizni so'rashdi. Javob bering:",
+      "prompt_en": "You're asked about your strength. Answer:",
+      "options": [
+        "제 장점은 성실함입니다.",
+        "제 단점은 성실함입니다.",
+        "제 장점은 긴장입니다.",
+        "제 장점은 정장입니다."
+      ],
+      "answers": [
+        "제 장점은 성실함입니다."
+      ]
+    },
+    {
+      "id": "b3_u04_l1_e012",
+      "type": "find_error",
+      "targets": [
+        "b3_u04_l1_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "경력이 있습니다요.",
+      "answers": [
+        "경력이 있습니다"
+      ],
+      "why_uz": "-습니다 dan keyin 요 yo'q.",
+      "why_en": "No 요 after -습니다."
+    },
+    {
+      "id": "b3_u04_l1_e013",
+      "type": "find_error",
+      "targets": [
+        "b3_u04_l1_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "저는 학생습니다.",
+      "answers": [
+        "저는 학생입니다"
+      ],
+      "why_uz": "Ot: N입니다.",
+      "why_en": "Noun: N입니다."
+    },
+    {
+      "id": "b3_u04_l1_e014",
+      "type": "find_error",
+      "targets": [
+        "b3_u04_l1_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "제가 만들은 앱입니다.",
+      "answers": [
+        "제가 만든 앱입니다"
+      ],
+      "why_uz": "ㄹ tushadi: 만든.",
+      "why_en": "ㄹ drops: 만든."
+    },
+    {
+      "id": "b3_u04_l1_e015",
+      "type": "translate",
+      "targets": [
+        "b3_u04_l1_g1"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "O'tgan yili universitetni bitirdim. (rasmiy)",
+      "source_en": "I graduated from university last year. (formal)",
+      "answers": [
+        "작년에 대학교를 졸업했습니다"
+      ]
+    },
+    {
+      "id": "b3_u04_l1_e016",
+      "type": "translate",
+      "targets": [
+        "b3_u04_l1_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Men ishlagan kompaniya — kompyuter kompaniyasi.",
+      "source_en": "The company I worked at is a computer company.",
+      "answers": [
+        "제가 일한 회사는 컴퓨터 회사입니다",
+        "제가 일한 회사는 컴퓨터 회사예요"
+      ]
+    },
+    {
+      "id": "b3_u04_l1_e017",
+      "type": "translate",
+      "targets": [
+        "b3_u04_l1_g1"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Mutaxassisligingiz nima? (rasmiy)",
+      "source_en": "What was your major? (formal)",
+      "answers": [
+        "전공이 무엇입니까",
+        "전공이 무엇입니까?",
+        "전공이 뭡니까?"
+      ]
+    },
+    {
+      "id": "b3_u04_l1_e018",
+      "type": "build_sentence",
+      "targets": [
+        "b3_u04_l1_g1"
+      ],
+      "prompt_uz": "'Ikki yillik stajim bor' gapini tuzing",
+      "prompt_en": "Build the sentence 'I have two years of experience'",
+      "tokens": [
+        "이",
+        "년",
+        "있습니다",
+        "경력이"
+      ],
+      "answers": [
+        "경력이 이 년 있습니다"
+      ]
+    },
+    {
+      "id": "b3_u04_l1_e019",
+      "type": "build_sentence",
+      "targets": [
+        "b3_u04_l1_g2"
+      ],
+      "prompt_uz": "'Bu men ishlab chiqqan ilova' gapini tuzing",
+      "prompt_en": "Build the sentence 'This is an app I developed'",
+      "tokens": [
+        "개발한",
+        "앱입니다",
+        "이것은",
+        "제가"
+      ],
+      "answers": [
+        "이것은 제가 개발한 앱입니다"
+      ]
+    },
+    {
+      "id": "b3_u04_l1_e020",
+      "type": "build_sentence",
+      "targets": [
+        "b3_u04_l1_g1",
+        "b3_u04_l1_g2"
+      ],
+      "prompt_uz": "'Men mas'ul bo'lgan vazifa dasturlash edi' gapini tuzing",
+      "prompt_en": "Build the sentence 'The work I was in charge of was development'",
+      "tokens": [
+        "개발이었습니다",
+        "담당한",
+        "업무는",
+        "제가"
+      ],
+      "answers": [
+        "제가 담당한 업무는 개발이었습니다"
+      ]
+    },
+    {
+      "id": "b3_u04_l1_e021",
+      "type": "listen_question",
+      "targets": [
+        "b3_u04_l1_g1"
+      ],
+      "prompt_uz": "U qachon bitirgan?",
+      "prompt_en": "When did the speaker graduate?",
+      "audio_text": "저는 작년에 대학교를 졸업했습니다.",
+      "options": [
+        "O'tgan yili",
+        "Shu yili",
+        "Ikki yil oldin",
+        "Hali bitirmagan"
+      ],
+      "options_en": [
+        "Last year",
+        "This year",
+        "Two years ago",
+        "Not yet"
+      ],
+      "answers": [
+        "O'tgan yili"
+      ],
+      "audio": "882303d7d133.mp3"
+    },
+    {
+      "id": "b3_u04_l1_e022",
+      "type": "listen_question",
+      "targets": [
+        "b3_u04_l1_g2"
+      ],
+      "prompt_uz": "Kompaniya qanday edi?",
+      "prompt_en": "What kind of company was it?",
+      "audio_text": "제가 일한 회사는 게임 회사였습니다.",
+      "options": [
+        "O'yin kompaniyasi",
+        "Kompyuter kompaniyasi",
+        "Bank",
+        "Kafe"
+      ],
+      "options_en": [
+        "A game company",
+        "A computer company",
+        "A bank",
+        "A café"
+      ],
+      "answers": [
+        "O'yin kompaniyasi"
+      ],
+      "audio": "f8e502fadae3.mp3"
+    },
+    {
+      "id": "b3_u04_l1_e023",
+      "type": "listen_question",
+      "targets": [
+        "b3_u04_l1_g1"
+      ],
+      "prompt_uz": "Suhbatdosh nimani so'rayapti?",
+      "prompt_en": "What is the interviewer asking?",
+      "audio_text": "단점은 무엇입니까?",
+      "options": [
+        "Kamchiligini",
+        "Kuchli tomonini",
+        "Mutaxassisligini",
+        "Ismini"
+      ],
+      "options_en": [
+        "Their weakness",
+        "Their strength",
+        "Their major",
+        "Their name"
+      ],
+      "answers": [
+        "Kamchiligini"
+      ],
+      "audio": "8f070735ec4a.mp3"
+    },
+    {
+      "id": "b3_u04_l1_e024",
+      "type": "listen_question",
+      "targets": [
+        "b3_u04_l1_g1",
+        "b3_u04_l1_g2"
+      ],
+      "prompt_uz": "U amaliyotda nima qildi?",
+      "prompt_en": "What did the speaker do as an intern?",
+      "audio_text": "인턴으로 일했을 때 웹사이트를 담당했습니다.",
+      "options": [
+        "Veb-saytga mas'ul edi",
+        "Ilova ishlab chiqdi",
+        "Mijozlar bilan ishladi",
+        "Hujjat yozdi"
+      ],
+      "options_en": [
+        "Ran the website",
+        "Developed an app",
+        "Worked with clients",
+        "Wrote documents"
+      ],
+      "answers": [
+        "Veb-saytga mas'ul edi"
+      ],
+      "audio": "3f6ee0fb8843.mp3"
+    },
+    {
+      "id": "b3_u04_l1_e101",
+      "type": "conjugate",
+      "targets": [
+        "b3_u04_l1_g1"
+      ],
+      "prompt_uz": "Rasmiy: 'ishonchim bor'",
+      "prompt_en": "Formal: 'I'm confident'",
+      "base": "자신이 있다",
+      "form": "-습니다",
+      "answers": [
+        "자신이 있습니다"
+      ]
+    },
+    {
+      "id": "b3_u04_l1_e102",
+      "type": "conjugate",
+      "targets": [
+        "b3_u04_l1_g1"
+      ],
+      "prompt_uz": "Rasmiy o'tgan: 'mas'ul edim'",
+      "prompt_en": "Formal past: 'was in charge'",
+      "base": "담당하다",
+      "form": "-았/었습니다",
+      "answers": [
+        "담당했습니다"
+      ]
+    },
+    {
+      "id": "b3_u04_l1_e103",
+      "type": "conjugate",
+      "targets": [
+        "b3_u04_l1_g2"
+      ],
+      "prompt_uz": "'O'qigan (kitob)' shaklini yasang",
+      "prompt_en": "Make 'the (book) I read'",
+      "base": "읽다",
+      "form": "-(으)ㄴ + 책",
+      "answers": [
+        "읽은 책"
+      ]
+    },
+    {
+      "id": "b3_u04_l1_e104",
+      "type": "fill_blank",
+      "targets": [
+        "b3_u04_l1_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Rezyumeni yubordim.' (rasmiy)",
+      "prompt_en": "Fill in the blank: 'I sent my résumé.' (formal)",
+      "sentence": "이력서를 ___. (보내다)",
+      "answers": [
+        "보냈습니다"
+      ]
+    },
+    {
+      "id": "b3_u04_l1_e105",
+      "type": "fill_blank",
+      "targets": [
+        "b3_u04_l1_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'O'tgan yili qilgan loyiha'",
+      "prompt_en": "Fill in the blank: 'the project I did last year'",
+      "sentence": "작년에 ___ 프로젝트 (하다)",
+      "answers": [
+        "한"
+      ]
+    },
+    {
+      "id": "b3_u04_l1_e106",
+      "type": "situation_choice",
+      "targets": [
+        "b3_u04_l1_g1"
+      ],
+      "prompt_uz": "Suhbat oxirida rasmiy minnatdorchilik bildiring:",
+      "prompt_en": "Thank the interviewer formally at the end:",
+      "options": [
+        "기회를 주셔서 감사합니다.",
+        "기회를 줘서 고마워.",
+        "기회를 주셔서 감사해요요.",
+        "기회 감사입니다요."
+      ],
+      "answers": [
+        "기회를 주셔서 감사합니다."
+      ]
+    },
+    {
+      "id": "b3_u04_l1_e107",
+      "type": "situation_choice",
+      "targets": [
+        "b3_u04_l1_g2"
+      ],
+      "prompt_uz": "Avval ishlagan bo'limingizni ayting (marketing):",
+      "prompt_en": "Name the department you worked in before (marketing):",
+      "options": [
+        "제가 일한 부서는 마케팅 부서입니다.",
+        "제가 일하는 부서는 마케팅이었습니다.",
+        "제가 일할 부서는 마케팅이었습니다.",
+        "제가 일은 부서는 마케팅입니다."
+      ],
+      "answers": [
+        "제가 일한 부서는 마케팅 부서입니다."
+      ]
+    },
+    {
+      "id": "b3_u04_l1_e108",
+      "type": "situation_choice",
+      "targets": [
+        "b3_u04_l1_w024"
+      ],
+      "prompt_uz": "Suhbatda juda hayajonlanganingizni ayting:",
+      "prompt_en": "Say you were very nervous at the interview:",
+      "options": [
+        "면접 때 너무 긴장됐습니다.",
+        "면접 때 너무 합격했습니다.",
+        "면접 때 너무 성실했습니다.",
+        "면접 때 너무 지원했습니다."
+      ],
+      "answers": [
+        "면접 때 너무 긴장됐습니다."
+      ]
+    },
+    {
+      "id": "b3_u04_l1_e109",
+      "type": "find_error",
+      "targets": [
+        "b3_u04_l1_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "졸업했었습니다니까?",
+      "answers": [
+        "졸업했습니까?",
+        "졸업했습니까"
+      ],
+      "why_uz": "O'tgan so'roq: 졸업했습니까?",
+      "why_en": "Past question: 졸업했습니까?"
+    },
+    {
+      "id": "b3_u04_l1_e110",
+      "type": "find_error",
+      "targets": [
+        "b3_u04_l1_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "어제 보는 영화가 재미있었어요.",
+      "answers": [
+        "어제 본 영화가 재미있었어요"
+      ],
+      "why_uz": "O'tgan: 본.",
+      "why_en": "Past: 본."
+    },
+    {
+      "id": "b3_u04_l1_e111",
+      "type": "translate",
+      "targets": [
+        "b3_u04_l1_g1"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Tirishib ishlayman. (rasmiy)",
+      "source_en": "I'll do my best. (formal)",
+      "answers": [
+        "열심히 하겠습니다"
+      ]
+    },
+    {
+      "id": "b3_u04_l1_e112",
+      "type": "translate",
+      "targets": [
+        "b3_u04_l1_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Bu men ishlab chiqqan ilova.",
+      "source_en": "This is an app I developed.",
+      "answers": [
+        "이것은 제가 개발한 앱입니다",
+        "이건 제가 개발한 앱이에요",
+        "제가 개발한 앱입니다"
+      ]
+    },
+    {
+      "id": "b3_u04_l1_e113",
+      "type": "build_sentence",
+      "targets": [
+        "b3_u04_l1_g1",
+        "b3_u04_l1_g2"
+      ],
+      "prompt_uz": "'Kompyuter kompaniyasida ishlaganman' gapini tuzing",
+      "prompt_en": "Build the sentence 'I have worked at a computer company'",
+      "tokens": [
+        "있습니다",
+        "컴퓨터",
+        "적이",
+        "일한",
+        "회사에서"
+      ],
+      "answers": [
+        "컴퓨터 회사에서 일한 적이 있습니다"
+      ]
+    },
+    {
+      "id": "b3_u04_l1_e114",
+      "type": "listen_question",
+      "targets": [
+        "b3_u04_l1_g1"
+      ],
+      "prompt_uz": "Natija qachon ma'lum bo'ladi?",
+      "prompt_en": "When will the result be announced?",
+      "audio_text": "결과는 다음 주 월요일에 연락드리겠습니다.",
+      "options": [
+        "Keyingi dushanba",
+        "Ertaga",
+        "Bugun",
+        "Keyingi oy"
+      ],
+      "options_en": [
+        "Next Monday",
+        "Tomorrow",
+        "Today",
+        "Next month"
+      ],
+      "answers": [
+        "Keyingi dushanba"
+      ],
+      "audio": "940b0224a106.mp3"
+    },
+    {
+      "id": "b3_u04_l1_e115",
+      "type": "listen_question",
+      "targets": [
+        "b3_u04_l1_g2"
+      ],
+      "prompt_uz": "U nimani ko'rsatmoqchi?",
+      "prompt_en": "What does the speaker want to show?",
+      "audio_text": "제가 대학교 때 만든 앱을 보여 드리겠습니다.",
+      "options": [
+        "O'zi yaratgan ilovani",
+        "Rezyumesini",
+        "Diplomini",
+        "Rasmini"
+      ],
+      "options_en": [
+        "An app they made",
+        "Their résumé",
+        "Their diploma",
+        "A photo"
+      ],
+      "answers": [
+        "O'zi yaratgan ilovani"
+      ],
+      "audio": "98f3fea7255e.mp3"
+    }
+  ],
+  "test": [
+    "b3_u04_l1_e101",
+    "b3_u04_l1_e102",
+    "b3_u04_l1_e103",
+    "b3_u04_l1_e104",
+    "b3_u04_l1_e105",
+    "b3_u04_l1_e106",
+    "b3_u04_l1_e107",
+    "b3_u04_l1_e108",
+    "b3_u04_l1_e109",
+    "b3_u04_l1_e110",
+    "b3_u04_l1_e111",
+    "b3_u04_l1_e112",
+    "b3_u04_l1_e113",
+    "b3_u04_l1_e114",
+    "b3_u04_l1_e115"
+  ],
+  "story": {
+    "title_uz": "Ish suhbati",
+    "title_en": "The job interview",
+    "gate_uz": "SUHBAT",
+    "gate_en": "INTERVIEW",
+    "steps": [
+      {
+        "type": "line",
+        "speaker": "manager",
+        "ko": "어서 오십시오. 앉으십시오.",
+        "uz": "Xush kelibsiz. O'tiring.",
+        "en": "Welcome. Please sit down.",
+        "audio": "28ca251da8e0.mp3"
+      },
+      {
+        "type": "choose_reply",
+        "speaker": "aziz",
+        "prompt_uz": "Aziz o'zini rasmiy tanishtirmoqchi.",
+        "prompt_en": "Aziz wants to introduce himself formally.",
+        "options": [
+          "저는 아지즈라고 합니다.",
+          "저는 아지즈라고 해.",
+          "저는 아지즈라고 해요요."
+        ],
+        "answer": "저는 아지즈라고 합니다.",
+        "uz": "Mening ismim Aziz.",
+        "en": "My name is Aziz.",
+        "why_uz": "Suhbatda rasmiy uslub: -ㅂ니다.",
+        "why_en": "Interviews use the formal -ㅂ니다.",
+        "audio": "a1d6b03b3aa5.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "manager",
+        "ko": "회사에서 일한 경험이 있습니까?",
+        "uz": "Kompaniyada ishlagan tajribangiz bormi?",
+        "en": "Do you have any company experience?",
+        "audio": "713e267822df.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "네, 컴퓨터 회사에서 인턴으로 일한 적이 있습니다.",
+        "uz": "Ha, kompyuter kompaniyasida amaliyotchi bo'lib ishlaganman.",
+        "en": "Yes, I've worked as an intern at a computer company.",
+        "audio": "1da691d3a4a5.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "manager",
+        "ko": "무슨 업무를 담당했습니까?",
+        "uz": "Qanday vazifaga mas'ul edingiz?",
+        "en": "What were you responsible for?",
+        "audio": "fdd7a0d94f6a.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "앱 개발을 담당했습니다. 제가 개발한 앱을 보여 드리겠습니다.",
+        "uz": "Ilova ishlab chiqish. Men ishlab chiqqan ilovani ko'rsataman.",
+        "en": "App development. Let me show you an app I developed.",
+        "audio": "500ce5bfaf37.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "manager",
+        "ko": "오, 잘 만들었네요. 장점은 무엇입니까?",
+        "uz": "O, yaxshi qilibsiz. Kuchli tomoningiz nima?",
+        "en": "Oh, well made. What are your strengths?",
+        "audio": "2894360e6425.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "저는 꼼꼼하고 책임감이 강합니다.",
+        "uz": "Men sinchkovman, mas'uliyat hissim kuchli.",
+        "en": "I'm meticulous and very responsible.",
+        "audio": "99544fae99f2.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "manager",
+        "ko": "한국어로 회의를 할 수 있습니까?",
+        "uz": "Koreys tilida yig'ilish o'tkaza olasizmi?",
+        "en": "Can you take part in meetings in Korean?",
+        "audio": "79beea917469.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "네, 자신 있습니다. 열심히 하겠습니다.",
+        "uz": "Ha, ishonchim bor. Tirishib ishlayman.",
+        "en": "Yes, I'm confident. I'll do my best.",
+        "audio": "30c2fecb77f2.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "manager",
+        "ko": "좋습니다. 다음 주에 연락드리겠습니다.",
+        "uz": "Yaxshi. Keyingi hafta xabar beramiz.",
+        "en": "Good. We'll be in touch next week.",
+        "audio": "48d3e5e26446.mp3"
+      },
+      {
+        "type": "quiz",
+        "prompt_uz": "Aziz amaliyotda nimaga mas'ul edi?",
+        "prompt_en": "What was Aziz responsible for as an intern?",
+        "options": [
+          "Ilova ishlab chiqish",
+          "Veb-sayt",
+          "Marketing"
+        ],
+        "options_en": [
+          "App development",
+          "The website",
+          "Marketing"
+        ],
+        "answer": "Ilova ishlab chiqish",
+        "why_uz": "앱 개발을 담당했습니다.",
+        "why_en": "He handled app development."
+      }
+    ]
+  }
+}

@@ -1,0 +1,1455 @@
+{
+  "id": "b3_u02_l2",
+  "unit": 2,
+  "lesson": 2,
+  "title_ko": "등록금을 언제까지 내야 되나요?",
+  "title_uz": "Kontrakt pulini qachongacha to'lash kerak?",
+  "title_en": "By when do I have to pay tuition?",
+  "topic_uz": "Murojaat",
+  "topic_en": "Inquiry",
+  "reviewed": false,
+  "words": [
+    {
+      "id": "b3_u02_l2_w001",
+      "ko": "등록금",
+      "uz": "kontrakt puli (o'qish uchun)",
+      "en": "tuition fee",
+      "pos": "ot",
+      "example_ko": "등록금을 냈어요.",
+      "example_uz": "Kontrakt pulini to'ladim.",
+      "example_en": "I paid the tuition.",
+      "audio": "09bb6b3cd494.mp3",
+      "example_audio": "b419fb30e7eb.mp3"
+    },
+    {
+      "id": "b3_u02_l2_w002",
+      "ko": "장학금",
+      "uz": "stipendiya, grant",
+      "en": "scholarship",
+      "pos": "ot",
+      "example_ko": "장학금을 받았어요.",
+      "example_uz": "Grant oldim.",
+      "example_en": "I received a scholarship.",
+      "audio": "d4dc1fd2fc7f.mp3",
+      "example_audio": "ab9e89837d62.mp3"
+    },
+    {
+      "id": "b3_u02_l2_w003",
+      "ko": "내다",
+      "uz": "to'lamoq; topshirmoq",
+      "en": "to pay; to submit",
+      "pos": "fe'l",
+      "example_ko": "서류를 언제까지 내야 되나요?",
+      "example_uz": "Hujjatlarni qachongacha topshirish kerak?",
+      "example_en": "By when must I submit the documents?",
+      "audio": "4089eda17c72.mp3",
+      "example_audio": "831211c3d0a5.mp3"
+    },
+    {
+      "id": "b3_u02_l2_w004",
+      "ko": "서류",
+      "uz": "hujjat",
+      "en": "documents",
+      "pos": "ot",
+      "example_ko": "필요한 서류가 뭔가요?",
+      "example_uz": "Qanday hujjatlar kerak?",
+      "example_en": "Which documents are needed?",
+      "audio": "507265092d34.mp3",
+      "example_audio": "ef40b0b151a0.mp3"
+    },
+    {
+      "id": "b3_u02_l2_w005",
+      "ko": "제출하다",
+      "uz": "topshirmoq",
+      "en": "to submit",
+      "pos": "fe'l",
+      "example_ko": "금요일까지 제출하세요.",
+      "example_uz": "Jumagacha topshiring.",
+      "example_en": "Submit it by Friday.",
+      "audio": "60832c3a225a.mp3",
+      "example_audio": "3ee440b5771c.mp3"
+    },
+    {
+      "id": "b3_u02_l2_w006",
+      "ko": "학생증",
+      "uz": "talabalik guvohnomasi",
+      "en": "student ID card",
+      "pos": "ot",
+      "example_ko": "학생증을 잃어버렸어요.",
+      "example_uz": "Talabalik guvohnomamni yo'qotdim.",
+      "example_en": "I lost my student ID.",
+      "audio": "625431fd0df0.mp3",
+      "example_audio": "5e791cd8160f.mp3"
+    },
+    {
+      "id": "b3_u02_l2_w007",
+      "ko": "발급하다",
+      "uz": "berilmoq (hujjat)",
+      "en": "to issue",
+      "pos": "fe'l",
+      "example_ko": "학생증을 다시 발급해 주세요.",
+      "example_uz": "Talabalik guvohnomasini qayta bering.",
+      "example_en": "Please reissue my student ID.",
+      "audio": "6f4a3127090e.mp3",
+      "example_audio": "725a3f8883ad.mp3"
+    },
+    {
+      "id": "b3_u02_l2_w008",
+      "ko": "문의하다",
+      "uz": "so'rov bilan murojaat qilmoq",
+      "en": "to inquire",
+      "pos": "fe'l",
+      "example_ko": "사무실에 문의했어요.",
+      "example_uz": "Idoraga murojaat qildim.",
+      "example_en": "I inquired at the office.",
+      "audio": "658a3dc72ad7.mp3",
+      "example_audio": "3360594b326e.mp3"
+    },
+    {
+      "id": "b3_u02_l2_w009",
+      "ko": "안내",
+      "uz": "ma'lumot, yo'riqnoma",
+      "en": "information, guidance",
+      "pos": "ot",
+      "example_ko": "홈페이지에 안내가 있어요.",
+      "example_uz": "Saytda ma'lumot bor.",
+      "example_en": "There's information on the website.",
+      "audio": "700de917c96a.mp3",
+      "example_audio": "7b182405839b.mp3"
+    },
+    {
+      "id": "b3_u02_l2_w010",
+      "ko": "성적",
+      "uz": "baho, natija",
+      "en": "grades",
+      "pos": "ot",
+      "example_ko": "성적이 언제 나오나요?",
+      "example_uz": "Baholar qachon chiqadi?",
+      "example_en": "When do the grades come out?",
+      "audio": "6abcb7cabaa7.mp3",
+      "example_audio": "1405fc9fb82c.mp3"
+    },
+    {
+      "id": "b3_u02_l2_w011",
+      "ko": "증명서",
+      "uz": "ma'lumotnoma",
+      "en": "certificate",
+      "pos": "ot",
+      "example_ko": "재학 증명서가 필요해요.",
+      "example_uz": "O'qish haqida ma'lumotnoma kerak.",
+      "example_en": "I need a certificate of enrolment.",
+      "audio": "fbcf220719ac.mp3",
+      "example_audio": "e91d27718c21.mp3"
+    },
+    {
+      "id": "b3_u02_l2_w012",
+      "ko": "휴학",
+      "uz": "akademik ta'til",
+      "en": "leave of absence",
+      "pos": "ot",
+      "example_ko": "한 학기 휴학하려고 해요.",
+      "example_uz": "Bir semestr akademik ta'til olmoqchiman.",
+      "example_en": "I'm going to take a semester off.",
+      "audio": "20aa39b2676d.mp3",
+      "example_audio": "b0c9361ec033.mp3"
+    },
+    {
+      "id": "b3_u02_l2_w013",
+      "ko": "수강 신청",
+      "uz": "fanlarga yozilish",
+      "en": "course registration",
+      "pos": "ot",
+      "example_ko": "수강 신청이 언제부터인가요?",
+      "example_uz": "Fanlarga yozilish qachondan?",
+      "example_en": "When does course registration start?",
+      "audio": "0f770978adf4.mp3",
+      "example_audio": "44da3f305355.mp3"
+    },
+    {
+      "id": "b3_u02_l2_w014",
+      "ko": "과목",
+      "uz": "fan (o'quv)",
+      "en": "subject, course",
+      "pos": "ot",
+      "example_ko": "이번 학기에 다섯 과목이나 들어요.",
+      "example_uz": "Bu semestr beshta fan o'qiyman.",
+      "example_en": "I'm taking as many as five courses this semester.",
+      "audio": "d7586dd428c9.mp3",
+      "example_audio": "9b90e48ff7d0.mp3"
+    },
+    {
+      "id": "b3_u02_l2_w015",
+      "ko": "학기",
+      "uz": "semestr",
+      "en": "semester",
+      "pos": "ot",
+      "example_ko": "새 학기가 시작돼요.",
+      "example_uz": "Yangi semestr boshlanadi.",
+      "example_en": "The new semester starts.",
+      "audio": "7f46b5289697.mp3",
+      "example_audio": "e1326baa31b0.mp3"
+    },
+    {
+      "id": "b3_u02_l2_w016",
+      "ko": "마감",
+      "uz": "muddat oxiri",
+      "en": "deadline",
+      "pos": "ot",
+      "example_ko": "마감이 내일인가요?",
+      "example_uz": "Muddat ertagami?",
+      "example_en": "Is the deadline tomorrow?",
+      "audio": "be7c51cb4f9f.mp3",
+      "example_audio": "c8f72515a894.mp3"
+    },
+    {
+      "id": "b3_u02_l2_w017",
+      "ko": "연장하다",
+      "uz": "uzaytirmoq",
+      "en": "to extend",
+      "pos": "fe'l",
+      "example_ko": "비자를 연장해야 돼요.",
+      "example_uz": "Vizani uzaytirishim kerak.",
+      "example_en": "I have to extend my visa.",
+      "audio": "f70d0edb2be5.mp3",
+      "example_audio": "d3a572772859.mp3"
+    },
+    {
+      "id": "b3_u02_l2_w018",
+      "ko": "계좌",
+      "uz": "hisob raqam (bank)",
+      "en": "bank account",
+      "pos": "ot",
+      "example_ko": "이 계좌로 보내 주세요.",
+      "example_uz": "Shu hisobga jo'nating.",
+      "example_en": "Please send it to this account.",
+      "audio": "7b06964d933e.mp3",
+      "example_audio": "96f20ee40d0b.mp3"
+    },
+    {
+      "id": "b3_u02_l2_w019",
+      "ko": "이체하다",
+      "uz": "o'tkazmoq (pul)",
+      "en": "to transfer (money)",
+      "pos": "fe'l",
+      "example_ko": "등록금을 이체했어요.",
+      "example_uz": "Kontrakt pulini o'tkazdim.",
+      "example_en": "I transferred the tuition.",
+      "audio": "85844322f09a.mp3",
+      "example_audio": "a91404d9b89c.mp3"
+    },
+    {
+      "id": "b3_u02_l2_w020",
+      "ko": "담당자",
+      "uz": "mas'ul xodim",
+      "en": "person in charge",
+      "pos": "ot",
+      "example_ko": "담당자가 누구인가요?",
+      "example_uz": "Mas'ul xodim kim?",
+      "example_en": "Who's in charge?",
+      "audio": "a6aafb5e6766.mp3",
+      "example_audio": "964ee4025bce.mp3"
+    },
+    {
+      "id": "b3_u02_l2_w021",
+      "ko": "이메일",
+      "uz": "elektron xat",
+      "en": "email",
+      "pos": "ot",
+      "example_ko": "이메일로 문의하세요.",
+      "example_uz": "Elektron pochta orqali murojaat qiling.",
+      "example_en": "Please inquire by email.",
+      "audio": "667e89590cb7.mp3",
+      "example_audio": "f32ff3594151.mp3"
+    },
+    {
+      "id": "b3_u02_l2_w022",
+      "ko": "홈페이지",
+      "uz": "veb-sayt",
+      "en": "website",
+      "pos": "ot",
+      "example_ko": "학교 홈페이지를 확인하세요.",
+      "example_uz": "Maktab saytini tekshiring.",
+      "example_en": "Check the school website.",
+      "audio": "1b62a4e650f7.mp3",
+      "example_audio": "923a466734f2.mp3"
+    },
+    {
+      "id": "b3_u02_l2_w023",
+      "ko": "가능하다",
+      "uz": "mumkin bo'lmoq",
+      "en": "to be possible",
+      "pos": "sifat",
+      "example_ko": "카드로 내는 것도 가능한가요?",
+      "example_uz": "Karta bilan to'lash ham mumkinmi?",
+      "example_en": "Is it possible to pay by card?",
+      "audio": "f3c94d96442a.mp3",
+      "example_audio": "37e63ff4a8f8.mp3"
+    },
+    {
+      "id": "b3_u02_l2_w024",
+      "ko": "혹시",
+      "uz": "balki, tasodifan",
+      "en": "by any chance",
+      "pos": "ravish",
+      "example_ko": "혹시 이 서류도 필요한가요?",
+      "example_uz": "Balki shu hujjat ham kerakdir?",
+      "example_en": "Is this document also needed, by any chance?",
+      "audio": "418a9f5f1de2.mp3",
+      "example_audio": "404407810cbc.mp3"
+    },
+    {
+      "id": "b3_u02_l2_w025",
+      "ko": "벌써",
+      "uz": "allaqachon",
+      "en": "already",
+      "pos": "ravish",
+      "example_ko": "벌써 마감됐어요.",
+      "example_uz": "Allaqachon tugab bo'ldi.",
+      "example_en": "It's already closed.",
+      "audio": "89c222d7448f.mp3",
+      "example_audio": "6614ffa6964d.mp3"
+    },
+    {
+      "id": "b3_u02_l2_w026",
+      "ko": "번",
+      "uz": "marta",
+      "en": "time(s)",
+      "pos": "ot",
+      "example_ko": "세 번이나 전화했어요.",
+      "example_uz": "Uch marta qo'ng'iroq qildim.",
+      "example_en": "I called three times.",
+      "audio": "931d305d9e87.mp3",
+      "example_audio": "a9cdcbbb5d2b.mp3"
+    },
+    {
+      "id": "b3_u02_l2_w027",
+      "ko": "기다리다",
+      "uz": "kutmoq",
+      "en": "to wait",
+      "pos": "fe'l",
+      "example_ko": "한 시간이나 기다렸어요.",
+      "example_uz": "Bir soatcha kutdim (ancha).",
+      "example_en": "I waited a whole hour.",
+      "audio": "2f0dd0c3a8b9.mp3",
+      "example_audio": "76f1e9f4a854.mp3"
+    },
+    {
+      "id": "b3_u02_l2_w028",
+      "ko": "외국인",
+      "uz": "chet ellik",
+      "en": "foreigner",
+      "pos": "ot",
+      "example_ko": "외국인 학생도 신청할 수 있나요?",
+      "example_uz": "Chet ellik talabalar ham ariza bera oladimi?",
+      "example_en": "Can foreign students apply too?",
+      "audio": "86a0f7eaf6ba.mp3",
+      "example_audio": "480f09e381ae.mp3"
+    },
+    {
+      "id": "b3_u02_l2_w029",
+      "ko": "비자",
+      "uz": "viza",
+      "en": "visa",
+      "pos": "ot",
+      "example_ko": "비자가 언제까지인가요?",
+      "example_uz": "Viza qachongacha?",
+      "example_en": "Until when is your visa valid?",
+      "audio": "7f029445b538.mp3",
+      "example_audio": "b3c91ae27900.mp3"
+    },
+    {
+      "id": "b3_u02_l2_w030",
+      "ko": "출입국관리사무소",
+      "uz": "migratsiya idorasi",
+      "en": "immigration office",
+      "pos": "ot",
+      "example_ko": "출입국관리사무소에 가야 돼요.",
+      "example_uz": "Migratsiya idorasiga borish kerak.",
+      "example_en": "I have to go to the immigration office.",
+      "audio": "a5b2c5cfedd4.mp3",
+      "example_audio": "e0616e3f6d77.mp3"
+    },
+    {
+      "id": "b3_u02_l2_w031",
+      "ko": "줄",
+      "uz": "navbat",
+      "en": "queue, line",
+      "pos": "ot",
+      "example_ko": "줄이 길어요.",
+      "example_uz": "Navbat uzun.",
+      "example_en": "The queue is long.",
+      "audio": "a918ccf09a5f.mp3",
+      "example_audio": "ba72eca79361.mp3"
+    },
+    {
+      "id": "b3_u02_l2_w032",
+      "ko": "직접",
+      "uz": "shaxsan, o'zi",
+      "en": "in person",
+      "pos": "ravish",
+      "example_ko": "직접 와야 되나요?",
+      "example_uz": "Shaxsan kelish kerakmi?",
+      "example_en": "Do I have to come in person?",
+      "audio": "891adc4c315e.mp3",
+      "example_audio": "852781f61233.mp3"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "b3_u02_l2_g1",
+      "pattern": "N(이)나",
+      "meaning_uz": "...ga qadar, ...cha (ko'pligini ta'kidlash)",
+      "meaning_en": "As many as / a whole … (emphasis)",
+      "explanation_md": "**N(이)나** miqdor yoki son so'zidan keyin kelib, uning **kutilganidan ko'p** ekanini ta'kidlaydi: \"naqd ...\", \"... ham bo'ldi\".\n\n**한 시간이나 기다렸어요.** — *Naqd bir soat kutdim.*  \n**다섯 과목이나 들어요.** — *Beshta fan o'qiyman (ko'p!).*\n\n### Qanday yasaladi\n\n- **받침 bor** → **이나**: 한 시간 → **한 시간이나**, 세 번 → **세 번이나**\n- **받침 yo'q** → **나**: 다섯 과목 → **다섯 과목이나**, 두 개 → **두 개나**\n\n### Esda tuting\n\n- 2-kitobda **N(이)나 N** — \"yoki\" edi: 커피나 차. Bu yerda esa **son/miqdor + (이)나** — ta'kid.\n- So'roqda — taxminiy son: **몇 명이나 와요?** — *Taxminan necha kishi keladi?*",
+      "explanation_md_en": "After a number or amount, **N(이)나** stresses that it's **more than expected**: \"as many as\", \"a whole …\".\n\n**한 시간이나 기다렸어요.** — *I waited a whole hour.*  \n**다섯 과목이나 들어요.** — *I'm taking as many as five courses.*\n\n### How to form it\n\n- **With 받침** → **이나**: 한 시간 → **한 시간이나**, 세 번 → **세 번이나**\n- **No 받침** → **나**: 두 개 → **두 개나**\n\n### Remember\n\n- In book 2, **N(이)나 N** meant \"or\": 커피나 차. Here it's **number/amount + (이)나** for emphasis.\n- In questions it asks for a rough number: **몇 명이나 와요?** — *About how many people are coming?*",
+      "formation": [
+        {
+          "condition_uz": "받침 bor",
+          "condition_en": "With 받침",
+          "rule": "N + 이나",
+          "example": "한 시간이나, 세 번이나"
+        },
+        {
+          "condition_uz": "받침 yo'q",
+          "condition_en": "No 받침",
+          "rule": "N + 나",
+          "example": "두 개나, 열 개나"
+        },
+        {
+          "condition_uz": "So'roq",
+          "condition_en": "Question",
+          "rule": "몇 N(이)나",
+          "example": "몇 명이나, 몇 시간이나"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "한 시간이나 기다렸어요.",
+          "uz": "Naqd bir soat kutdim.",
+          "en": "I waited a whole hour.",
+          "audio": "76f1e9f4a854.mp3"
+        },
+        {
+          "ko": "세 번이나 전화했어요.",
+          "uz": "Uch marta qo'ng'iroq qildim.",
+          "en": "I called as many as three times.",
+          "audio": "a9cdcbbb5d2b.mp3"
+        },
+        {
+          "ko": "이번 학기에 다섯 과목이나 들어요.",
+          "uz": "Bu semestr beshta fan o'qiyman.",
+          "en": "I'm taking five courses this semester.",
+          "audio": "9b90e48ff7d0.mp3"
+        },
+        {
+          "ko": "줄이 길어서 삼십 분이나 서 있었어요.",
+          "uz": "Navbat uzun, o'ttiz daqiqa turdim.",
+          "en": "The line was long, so I stood for a whole thirty minutes.",
+          "audio": "3d9f5204a960.mp3"
+        },
+        {
+          "ko": "몇 명이나 신청했어요?",
+          "uz": "Taxminan necha kishi ariza berdi?",
+          "en": "About how many people applied?",
+          "audio": "f92d9479b21a.mp3"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "한 시간나 기다렸어요.",
+          "right": "한 시간이나 기다렸어요.",
+          "why_uz": "시간 받침 bilan: 이나.",
+          "why_en": "시간 has 받침: 이나."
+        },
+        {
+          "wrong": "두 개이나 샀어요.",
+          "right": "두 개나 샀어요.",
+          "why_uz": "개 받침siz: 나.",
+          "why_en": "개 has no 받침: 나."
+        },
+        {
+          "wrong": "한 번이나 했어요. (ko'p emas)",
+          "right": "한 번만 했어요.",
+          "why_uz": "(이)나 ko'plikni ta'kidlaydi; 'faqat' — 만.",
+          "why_en": "(이)나 stresses a lot; 'only' is 만."
+        }
+      ],
+      "uz_compare": "O'zbekchadagi 'naqd' yoki '... ham bo'ldi' ohangiga mos: 'NAQD bir soat kutdim' = 한 시간이나 기다렸어요.",
+      "compare_en": "Like English 'a whole …' or 'as many as …': 'I waited a WHOLE hour' = 한 시간이나 기다렸어요."
+    },
+    {
+      "id": "b3_u02_l2_g2",
+      "pattern": "V-나요?, A-(으)ㄴ가요?, N인가요?",
+      "meaning_uz": "Yumshoq, muloyim so'roq",
+      "meaning_en": "Soft, polite questions",
+      "explanation_md": "Bu so'roq shakllari **-아요/어요?** dan **yumshoqroq va muloyimroq** eshitiladi. Idorada, telefonda, notanish odamdan biror narsa so'raganda qulay.\n\n**등록금을 언제까지 내야 되나요?** — *Kontrakt pulini qachongacha to'lashim kerak?*\n\n### Qanday yasaladi\n\n- **Fe'l** → **-나요?**: 가다 → **가나요?**, 있다 → **있나요?**, 되다 → **되나요?**\n- **Sifat** → **-(으)ㄴ가요?**: 비싸다 → **비싼가요?**, 많다 → **많은가요?**, 필요하다 → **필요한가요?**\n- **Ot** → **N인가요?**: 마감 → **마감인가요?**, 언제 → **언제인가요?**\n- **O'tgan zamon** — barchasida **-았/었나요?**: 왔나요?, 비쌌나요?\n\n### Esda tuting\n\n- **ㄹ** tushadi: 살다 → **사나요?**, 멀다 → **먼가요?**\n- **있다/없다** (sifat bo'lsa ham) → **-나요?**: 맛있나요?, 재미없나요?",
+      "explanation_md_en": "These question endings sound **softer and more polite** than **-아요/어요?**. They're handy at offices, on the phone, and with strangers.\n\n**등록금을 언제까지 내야 되나요?** — *By when do I have to pay the tuition?*\n\n### How to form it\n\n- **Verb** → **-나요?**: 가다 → **가나요?**, 있다 → **있나요?**, 되다 → **되나요?**\n- **Adjective** → **-(으)ㄴ가요?**: 비싸다 → **비싼가요?**, 많다 → **많은가요?**, 필요하다 → **필요한가요?**\n- **Noun** → **N인가요?**: 마감 → **마감인가요?**, 언제 → **언제인가요?**\n- **Past** for all: **-았/었나요?**: 왔나요?, 비쌌나요?\n\n### Remember\n\n- **ㄹ** drops: 살다 → **사나요?**, 멀다 → **먼가요?**\n- **있다/없다** words take **-나요?** even as adjectives: 맛있나요?, 재미없나요?",
+      "formation": [
+        {
+          "condition_uz": "Fe'l",
+          "condition_en": "Verb",
+          "rule": "V + 나요?",
+          "example": "가나요?, 되나요?, 있나요?"
+        },
+        {
+          "condition_uz": "Sifat",
+          "condition_en": "Adjective",
+          "rule": "A + (으)ㄴ가요?",
+          "example": "비싼가요?, 많은가요?, 필요한가요?"
+        },
+        {
+          "condition_uz": "Ot",
+          "condition_en": "Noun",
+          "rule": "N + 인가요?",
+          "example": "마감인가요?, 언제인가요?"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "등록금을 언제까지 내야 되나요?",
+          "uz": "Kontrakt pulini qachongacha to'lash kerak?",
+          "en": "By when must I pay the tuition?",
+          "audio": "2fd240232772.mp3"
+        },
+        {
+          "ko": "외국인 학생도 신청할 수 있나요?",
+          "uz": "Chet ellik talabalar ham ariza bera oladimi?",
+          "en": "Can foreign students apply too?",
+          "audio": "480f09e381ae.mp3"
+        },
+        {
+          "ko": "필요한 서류가 많은가요?",
+          "uz": "Kerakli hujjatlar ko'pmi?",
+          "en": "Are many documents required?",
+          "audio": "706b17d1881f.mp3"
+        },
+        {
+          "ko": "마감이 내일인가요?",
+          "uz": "Muddat ertagami?",
+          "en": "Is the deadline tomorrow?",
+          "audio": "c8f72515a894.mp3"
+        },
+        {
+          "ko": "혹시 직접 와야 되나요?",
+          "uz": "Balki shaxsan kelish kerakdir?",
+          "en": "Do I have to come in person, by any chance?",
+          "audio": "28281107de4b.mp3"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "서류가 많나요? (sifat)",
+          "right": "서류가 많은가요?",
+          "why_uz": "많다 — sifat: -(으)ㄴ가요.",
+          "why_en": "많다 is an adjective: -(으)ㄴ가요."
+        },
+        {
+          "wrong": "언제까지 내야 되은가요?",
+          "right": "언제까지 내야 되나요?",
+          "why_uz": "되다 — fe'l: -나요.",
+          "why_en": "되다 is a verb: -나요."
+        },
+        {
+          "wrong": "마감이 내일나요?",
+          "right": "마감이 내일인가요?",
+          "why_uz": "Ot bilan: 인가요.",
+          "why_en": "With a noun: 인가요."
+        }
+      ],
+      "uz_compare": "O'zbekchada muloyim so'roq uchun '...mikin?', '...sa bo'ladimi?' ishlatamiz. Koreyschadagi -나요? / -(으)ㄴ가요? ham shunday yumshoq ohang beradi.",
+      "compare_en": "English softens questions with 'Could you tell me…?' or 'I was wondering…'. Korean does it with the ending: -나요? / -(으)ㄴ가요? / 인가요?"
+    }
+  ],
+  "dialogue": {
+    "lines": [
+      {
+        "speaker": "aziz",
+        "ko": "실례합니다. 등록금 때문에 문의하려고 왔어요.",
+        "uz": "Kechirasiz. Kontrakt puli bo'yicha so'rash uchun keldim.",
+        "en": "Excuse me. I came to ask about tuition.",
+        "audio": "fe4aae6f90e0.mp3"
+      },
+      {
+        "speaker": "clerk",
+        "ko": "네, 말씀하세요.",
+        "uz": "Xo'p, eshitaman.",
+        "en": "Sure, go ahead.",
+        "audio": "498be128173a.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "등록금을 언제까지 내야 되나요?",
+        "uz": "Kontrakt pulini qachongacha to'lashim kerak?",
+        "en": "By when do I have to pay the tuition?",
+        "audio": "1e92cfbcd1de.mp3"
+      },
+      {
+        "speaker": "clerk",
+        "ko": "이번 달 이십오 일까지예요.",
+        "uz": "Shu oyning 25-sanasigacha.",
+        "en": "By the 25th of this month.",
+        "audio": "bad2db82faba.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "카드로 내는 것도 가능한가요?",
+        "uz": "Karta bilan to'lash ham mumkinmi?",
+        "en": "Is it possible to pay by card too?",
+        "audio": "d90377c2794e.mp3"
+      },
+      {
+        "speaker": "clerk",
+        "ko": "아니요, 계좌로 이체해야 돼요. 계좌 번호는 홈페이지에 있어요.",
+        "uz": "Yo'q, hisob raqamga o'tkazish kerak. Raqam saytda bor.",
+        "en": "No, you have to transfer it to the account. The number is on the website.",
+        "audio": "25fddf3b26ce.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "그리고 장학금도 신청하고 싶은데, 외국인 학생도 신청할 수 있나요?",
+        "uz": "Grantga ham ariza bermoqchiman. Chet elliklar ham bera oladimi?",
+        "en": "I'd also like to apply for a scholarship. Can foreign students apply?",
+        "audio": "1eb6361311b8.mp3"
+      },
+      {
+        "speaker": "clerk",
+        "ko": "네, 가능해요. 그런데 마감이 벌써 내일이에요.",
+        "uz": "Ha, mumkin. Lekin muddat ertaga tugaydi.",
+        "en": "Yes, you can. But the deadline is already tomorrow.",
+        "audio": "a7d4fc8434db.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "내일인가요? 필요한 서류가 많은가요?",
+        "uz": "Ertagami? Hujjatlar ko'pmi?",
+        "en": "Tomorrow? Are many documents required?",
+        "audio": "40d7a860112f.mp3"
+      },
+      {
+        "speaker": "clerk",
+        "ko": "성적 증명서하고 신청서만 내면 돼요.",
+        "uz": "Faqat baholar ma'lumotnomasi va ariza.",
+        "en": "Just your transcript and the application form.",
+        "audio": "57667921418e.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "다행이에요. 오늘 한 시간이나 기다렸는데, 오길 잘했네요.",
+        "uz": "Yaxshiyamki. Bugun naqd bir soat kutdim, lekin kelganim yaxshi bo'ldi.",
+        "en": "What a relief. I waited a whole hour today, but I'm glad I came.",
+        "audio": "2abeb8cc6b9a.mp3"
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b3_u02_l2_e001",
+      "type": "conjugate",
+      "targets": [
+        "b3_u02_l2_g2"
+      ],
+      "prompt_uz": "Muloyim so'roq: 'boriladimi?'",
+      "prompt_en": "Polite question: 'does one go?'",
+      "base": "가다",
+      "form": "-나요?",
+      "answers": [
+        "가나요?",
+        "가나요"
+      ]
+    },
+    {
+      "id": "b3_u02_l2_e002",
+      "type": "conjugate",
+      "targets": [
+        "b3_u02_l2_g2"
+      ],
+      "prompt_uz": "Muloyim so'roq: 'qimmatmi?'",
+      "prompt_en": "Polite question: 'is it expensive?'",
+      "base": "비싸다",
+      "form": "-(으)ㄴ가요?",
+      "answers": [
+        "비싼가요?",
+        "비싼가요"
+      ]
+    },
+    {
+      "id": "b3_u02_l2_e003",
+      "type": "conjugate",
+      "targets": [
+        "b3_u02_l2_g2"
+      ],
+      "prompt_uz": "Muloyim so'roq: 'muddatmi?'",
+      "prompt_en": "Polite question: 'is it the deadline?'",
+      "base": "마감",
+      "form": "N인가요?",
+      "answers": [
+        "마감인가요?",
+        "마감인가요"
+      ]
+    },
+    {
+      "id": "b3_u02_l2_e004",
+      "type": "conjugate",
+      "targets": [
+        "b3_u02_l2_g1"
+      ],
+      "prompt_uz": "'Naqd uch marta' iborasini yasang",
+      "prompt_en": "Make 'as many as three times'",
+      "base": "세 번",
+      "form": "+ (이)나",
+      "answers": [
+        "세 번이나"
+      ]
+    },
+    {
+      "id": "b3_u02_l2_e005",
+      "type": "fill_blank",
+      "targets": [
+        "b3_u02_l2_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Naqd bir soat kutdim.'",
+      "prompt_en": "Fill in the blank: 'I waited a whole hour.'",
+      "sentence": "한 시간___ 기다렸어요.",
+      "answers": [
+        "이나"
+      ]
+    },
+    {
+      "id": "b3_u02_l2_e006",
+      "type": "fill_blank",
+      "targets": [
+        "b3_u02_l2_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Ikki dona sotib oldim (ko'p).'",
+      "prompt_en": "Fill in the blank: 'I bought as many as two.'",
+      "sentence": "두 개___ 샀어요.",
+      "answers": [
+        "나"
+      ]
+    },
+    {
+      "id": "b3_u02_l2_e007",
+      "type": "fill_blank",
+      "targets": [
+        "b3_u02_l2_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Hujjatlar ko'pmi?'",
+      "prompt_en": "Fill in the blank: 'Are there many documents?'",
+      "sentence": "서류가 ___? (많다)",
+      "answers": [
+        "많은가요"
+      ]
+    },
+    {
+      "id": "b3_u02_l2_e008",
+      "type": "fill_blank",
+      "targets": [
+        "b3_u02_l2_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Shaxsan kelish kerakmi?'",
+      "prompt_en": "Fill in the blank: 'Do I have to come in person?'",
+      "sentence": "직접 와야 ___? (되다)",
+      "answers": [
+        "되나요"
+      ]
+    },
+    {
+      "id": "b3_u02_l2_e009",
+      "type": "situation_choice",
+      "targets": [
+        "b3_u02_l2_g2"
+      ],
+      "prompt_uz": "Idorada karta bilan to'lash mumkinligini muloyim so'rang:",
+      "prompt_en": "At the office, politely ask if you can pay by card:",
+      "options": [
+        "카드로 내는 것도 가능한가요?",
+        "카드로 내는 것도 가능하나요?",
+        "카드로 내는 것도 가능인가요?",
+        "카드로 내는 것도 가능해요요?"
+      ],
+      "answers": [
+        "카드로 내는 것도 가능한가요?"
+      ]
+    },
+    {
+      "id": "b3_u02_l2_e010",
+      "type": "situation_choice",
+      "targets": [
+        "b3_u02_l2_g1"
+      ],
+      "prompt_uz": "Navbatda juda uzoq kutganingizdan shikoyat qiling:",
+      "prompt_en": "Complain that you waited very long in the queue:",
+      "options": [
+        "줄이 길어서 한 시간이나 기다렸어요.",
+        "줄이 길어서 한 시간나 기다렸어요.",
+        "줄이 길어서 한 시간만 기다렸어요.",
+        "줄이 길어서 한 시이나 기다렸어요."
+      ],
+      "answers": [
+        "줄이 길어서 한 시간이나 기다렸어요."
+      ]
+    },
+    {
+      "id": "b3_u02_l2_e011",
+      "type": "situation_choice",
+      "targets": [
+        "b3_u02_l2_w024"
+      ],
+      "prompt_uz": "Biror narsani ehtiyotkorona so'rash uchun gapni nima bilan boshlaysiz?",
+      "prompt_en": "Which word starts a careful 'by any chance' question?",
+      "options": [
+        "혹시",
+        "벌써",
+        "직접",
+        "다행히"
+      ],
+      "answers": [
+        "혹시"
+      ]
+    },
+    {
+      "id": "b3_u02_l2_e012",
+      "type": "find_error",
+      "targets": [
+        "b3_u02_l2_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "서류가 많나요? (sifat sifatida)",
+      "answers": [
+        "서류가 많은가요?",
+        "서류가 많은가요"
+      ],
+      "why_uz": "많다 — sifat: 많은가요.",
+      "why_en": "많다 is an adjective: 많은가요."
+    },
+    {
+      "id": "b3_u02_l2_e013",
+      "type": "find_error",
+      "targets": [
+        "b3_u02_l2_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "마감이 내일나요?",
+      "answers": [
+        "마감이 내일인가요?",
+        "마감이 내일인가요"
+      ],
+      "why_uz": "Ot bilan: 인가요.",
+      "why_en": "With a noun: 인가요."
+    },
+    {
+      "id": "b3_u02_l2_e014",
+      "type": "find_error",
+      "targets": [
+        "b3_u02_l2_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "두 시간나 기다렸어요.",
+      "answers": [
+        "두 시간이나 기다렸어요"
+      ],
+      "why_uz": "시간 받침 bilan: 이나.",
+      "why_en": "시간 has 받침: 이나."
+    },
+    {
+      "id": "b3_u02_l2_e015",
+      "type": "translate",
+      "targets": [
+        "b3_u02_l2_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Kontrakt pulini qachongacha to'lash kerak?",
+      "source_en": "By when must I pay the tuition?",
+      "answers": [
+        "등록금을 언제까지 내야 되나요",
+        "등록금을 언제까지 내야 되나요?",
+        "등록금은 언제까지 내야 되나요?"
+      ]
+    },
+    {
+      "id": "b3_u02_l2_e016",
+      "type": "translate",
+      "targets": [
+        "b3_u02_l2_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Chet ellik talabalar ham ariza bera oladimi?",
+      "source_en": "Can foreign students apply too?",
+      "answers": [
+        "외국인 학생도 신청할 수 있나요",
+        "외국인 학생도 신청할 수 있나요?"
+      ]
+    },
+    {
+      "id": "b3_u02_l2_e017",
+      "type": "translate",
+      "targets": [
+        "b3_u02_l2_g1"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Uch marta qo'ng'iroq qildim.",
+      "source_en": "I called as many as three times.",
+      "answers": [
+        "세 번이나 전화했어요"
+      ]
+    },
+    {
+      "id": "b3_u02_l2_e018",
+      "type": "build_sentence",
+      "targets": [
+        "b3_u02_l2_g2"
+      ],
+      "prompt_uz": "'Muddat ertagami?' gapini tuzing",
+      "prompt_en": "Build the sentence 'Is the deadline tomorrow?'",
+      "tokens": [
+        "내일인가요?",
+        "마감이"
+      ],
+      "answers": [
+        "마감이 내일인가요?"
+      ]
+    },
+    {
+      "id": "b3_u02_l2_e019",
+      "type": "build_sentence",
+      "targets": [
+        "b3_u02_l2_g1"
+      ],
+      "prompt_uz": "'Bu semestr beshta fan o'qiyman' gapini tuzing",
+      "prompt_en": "Build the sentence 'I'm taking as many as five courses this semester'",
+      "tokens": [
+        "들어요",
+        "학기에",
+        "이번",
+        "과목이나",
+        "다섯"
+      ],
+      "answers": [
+        "이번 학기에 다섯 과목이나 들어요"
+      ]
+    },
+    {
+      "id": "b3_u02_l2_e020",
+      "type": "build_sentence",
+      "targets": [
+        "b3_u02_l2_g2"
+      ],
+      "prompt_uz": "'Mas'ul xodim kim?' gapini tuzing",
+      "prompt_en": "Build the sentence 'Who's in charge?'",
+      "tokens": [
+        "누구인가요?",
+        "담당자가"
+      ],
+      "answers": [
+        "담당자가 누구인가요?"
+      ]
+    },
+    {
+      "id": "b3_u02_l2_e021",
+      "type": "listen_question",
+      "targets": [
+        "b3_u02_l2_g2"
+      ],
+      "prompt_uz": "U nimani so'rayapti?",
+      "prompt_en": "What is the speaker asking?",
+      "audio_text": "성적은 언제 나오나요?",
+      "options": [
+        "Baholar qachon chiqishini",
+        "Kontrakt narxini",
+        "Viza muddatini",
+        "Idora qayerdaligini"
+      ],
+      "options_en": [
+        "When grades come out",
+        "The tuition price",
+        "The visa date",
+        "Where the office is"
+      ],
+      "answers": [
+        "Baholar qachon chiqishini"
+      ],
+      "audio": "2b652f2dde8f.mp3"
+    },
+    {
+      "id": "b3_u02_l2_e022",
+      "type": "listen_question",
+      "targets": [
+        "b3_u02_l2_g1"
+      ],
+      "prompt_uz": "U qancha kutdi?",
+      "prompt_en": "How long did the speaker wait?",
+      "audio_text": "출입국관리사무소에서 두 시간이나 기다렸어요.",
+      "options": [
+        "Ikki soat",
+        "Ikki daqiqa",
+        "Yarim soat",
+        "Bir kun"
+      ],
+      "options_en": [
+        "Two hours",
+        "Two minutes",
+        "Half an hour",
+        "A day"
+      ],
+      "answers": [
+        "Ikki soat"
+      ],
+      "audio": "1d31562bdd3d.mp3"
+    },
+    {
+      "id": "b3_u02_l2_e023",
+      "type": "listen_question",
+      "targets": [
+        "b3_u02_l2_g2"
+      ],
+      "prompt_uz": "Xodim nima deydi?",
+      "prompt_en": "What does the clerk say?",
+      "audio_text": "아니요, 카드는 안 되고 계좌로 이체해야 돼요.",
+      "options": [
+        "Hisob raqamga o'tkazish kerak",
+        "Karta bilan bo'ladi",
+        "Naqd to'lash kerak",
+        "To'lash shart emas"
+      ],
+      "options_en": [
+        "Must transfer to the account",
+        "Card is fine",
+        "Pay in cash",
+        "No need to pay"
+      ],
+      "answers": [
+        "Hisob raqamga o'tkazish kerak"
+      ],
+      "audio": "dde81ea79b9e.mp3"
+    },
+    {
+      "id": "b3_u02_l2_e024",
+      "type": "listen_question",
+      "targets": [
+        "b3_u02_l2_g1",
+        "b3_u02_l2_g2"
+      ],
+      "prompt_uz": "Necha kishi ariza berdi?",
+      "prompt_en": "How many people applied?",
+      "audio_text": "이번 장학금에 백 명이나 신청했어요.",
+      "options": [
+        "100 kishi",
+        "10 kishi",
+        "1 000 kishi",
+        "Bir kishi"
+      ],
+      "options_en": [
+        "100 people",
+        "10 people",
+        "1,000 people",
+        "One person"
+      ],
+      "answers": [
+        "100 kishi"
+      ],
+      "audio": "03e4d156d4bc.mp3"
+    },
+    {
+      "id": "b3_u02_l2_e101",
+      "type": "conjugate",
+      "targets": [
+        "b3_u02_l2_g2"
+      ],
+      "prompt_uz": "Muloyim so'roq: 'bormi?'",
+      "prompt_en": "Polite question: 'is there?'",
+      "base": "있다",
+      "form": "-나요?",
+      "answers": [
+        "있나요?",
+        "있나요"
+      ]
+    },
+    {
+      "id": "b3_u02_l2_e102",
+      "type": "conjugate",
+      "targets": [
+        "b3_u02_l2_g2"
+      ],
+      "prompt_uz": "Muloyim so'roq: 'kerakmi?'",
+      "prompt_en": "Polite question: 'is it needed?'",
+      "base": "필요하다",
+      "form": "-(으)ㄴ가요?",
+      "answers": [
+        "필요한가요?",
+        "필요한가요"
+      ]
+    },
+    {
+      "id": "b3_u02_l2_e103",
+      "type": "conjugate",
+      "targets": [
+        "b3_u02_l2_g1"
+      ],
+      "prompt_uz": "'Naqd o'ttiz daqiqa' iborasini yasang",
+      "prompt_en": "Make 'a whole thirty minutes'",
+      "base": "삼십 분",
+      "form": "+ (이)나",
+      "answers": [
+        "삼십 분이나"
+      ]
+    },
+    {
+      "id": "b3_u02_l2_e104",
+      "type": "fill_blank",
+      "targets": [
+        "b3_u02_l2_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Viza qachongacha?'",
+      "prompt_en": "Fill in the blank: 'Until when is the visa?'",
+      "sentence": "비자가 언제까지___?",
+      "answers": [
+        "인가요"
+      ]
+    },
+    {
+      "id": "b3_u02_l2_e105",
+      "type": "fill_blank",
+      "targets": [
+        "b3_u02_l2_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Taxminan necha kishi keladi?'",
+      "prompt_en": "Fill in the blank: 'About how many people are coming?'",
+      "sentence": "몇 명___ 와요?",
+      "answers": [
+        "이나"
+      ]
+    },
+    {
+      "id": "b3_u02_l2_e106",
+      "type": "situation_choice",
+      "targets": [
+        "b3_u02_l2_g2"
+      ],
+      "prompt_uz": "Telefonda mas'ul xodim kimligini muloyim so'rang:",
+      "prompt_en": "On the phone, politely ask who is in charge:",
+      "options": [
+        "담당자가 누구인가요?",
+        "담당자가 누구나요?",
+        "담당자가 누군가가요?",
+        "담당자가 누구예요요?"
+      ],
+      "answers": [
+        "담당자가 누구인가요?"
+      ]
+    },
+    {
+      "id": "b3_u02_l2_e107",
+      "type": "situation_choice",
+      "targets": [
+        "b3_u02_l2_w017"
+      ],
+      "prompt_uz": "Vizangiz tugayapti. Nima qilish kerakligini ayting:",
+      "prompt_en": "Your visa is expiring. Say what you must do:",
+      "options": [
+        "비자를 연장해야 돼요.",
+        "비자를 발급해야 돼요.",
+        "비자를 이체해야 돼요.",
+        "비자를 제출해야 돼요."
+      ],
+      "answers": [
+        "비자를 연장해야 돼요."
+      ]
+    },
+    {
+      "id": "b3_u02_l2_e108",
+      "type": "situation_choice",
+      "targets": [
+        "b3_u02_l2_g1"
+      ],
+      "prompt_uz": "Ko'p fan olganingizni ta'kidlang (oltita):",
+      "prompt_en": "Stress that you're taking a lot of courses (six):",
+      "options": [
+        "여섯 과목이나 들어요.",
+        "여섯 과목나 들어요.",
+        "여섯 과목만 들어요.",
+        "여섯 과목이나요 들어요."
+      ],
+      "answers": [
+        "여섯 과목이나 들어요."
+      ]
+    },
+    {
+      "id": "b3_u02_l2_e109",
+      "type": "find_error",
+      "targets": [
+        "b3_u02_l2_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "수업이 몇 시에 시작한가요?",
+      "answers": [
+        "수업이 몇 시에 시작하나요?",
+        "수업이 몇 시에 시작하나요"
+      ],
+      "why_uz": "시작하다 — fe'l: -나요.",
+      "why_en": "시작하다 is a verb: -나요."
+    },
+    {
+      "id": "b3_u02_l2_e110",
+      "type": "find_error",
+      "targets": [
+        "b3_u02_l2_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "세 번나 말했어요.",
+      "answers": [
+        "세 번이나 말했어요"
+      ],
+      "why_uz": "번 받침 bilan: 이나.",
+      "why_en": "번 has 받침: 이나."
+    },
+    {
+      "id": "b3_u02_l2_e111",
+      "type": "translate",
+      "targets": [
+        "b3_u02_l2_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Karta bilan to'lash mumkinmi?",
+      "source_en": "Is it possible to pay by card?",
+      "answers": [
+        "카드로 내는 것도 가능한가요",
+        "카드로 내는 것도 가능한가요?",
+        "카드로 낼 수 있나요?"
+      ]
+    },
+    {
+      "id": "b3_u02_l2_e112",
+      "type": "translate",
+      "targets": [
+        "b3_u02_l2_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Shaxsan kelish kerakmi?",
+      "source_en": "Do I have to come in person?",
+      "answers": [
+        "직접 와야 되나요",
+        "직접 와야 되나요?",
+        "직접 가야 되나요?"
+      ]
+    },
+    {
+      "id": "b3_u02_l2_e113",
+      "type": "build_sentence",
+      "targets": [
+        "b3_u02_l2_g1"
+      ],
+      "prompt_uz": "'Naqd bir soat kutdim' gapini tuzing",
+      "prompt_en": "Build the sentence 'I waited a whole hour'",
+      "tokens": [
+        "시간이나",
+        "한",
+        "기다렸어요"
+      ],
+      "answers": [
+        "한 시간이나 기다렸어요"
+      ]
+    },
+    {
+      "id": "b3_u02_l2_e114",
+      "type": "listen_question",
+      "targets": [
+        "b3_u02_l2_g2"
+      ],
+      "prompt_uz": "U nimani so'radi?",
+      "prompt_en": "What did the speaker ask?",
+      "audio_text": "필요한 서류가 많은가요?",
+      "options": [
+        "Hujjatlar ko'pmi",
+        "Hujjat qayerda",
+        "Muddat qachon",
+        "Kim mas'ul"
+      ],
+      "options_en": [
+        "Whether many documents are needed",
+        "Where the document is",
+        "When the deadline is",
+        "Who's in charge"
+      ],
+      "answers": [
+        "Hujjatlar ko'pmi"
+      ],
+      "audio": "706b17d1881f.mp3"
+    },
+    {
+      "id": "b3_u02_l2_e115",
+      "type": "listen_question",
+      "targets": [
+        "b3_u02_l2_g1"
+      ],
+      "prompt_uz": "U necha marta qo'ng'iroq qildi?",
+      "prompt_en": "How many times did the speaker call?",
+      "audio_text": "담당자한테 다섯 번이나 전화했는데 안 받았어요.",
+      "options": [
+        "Besh marta",
+        "Bir marta",
+        "Uch marta",
+        "O'n marta"
+      ],
+      "options_en": [
+        "Five times",
+        "Once",
+        "Three times",
+        "Ten times"
+      ],
+      "answers": [
+        "Besh marta"
+      ],
+      "audio": "54066682fc44.mp3"
+    }
+  ],
+  "test": [
+    "b3_u02_l2_e101",
+    "b3_u02_l2_e102",
+    "b3_u02_l2_e103",
+    "b3_u02_l2_e104",
+    "b3_u02_l2_e105",
+    "b3_u02_l2_e106",
+    "b3_u02_l2_e107",
+    "b3_u02_l2_e108",
+    "b3_u02_l2_e109",
+    "b3_u02_l2_e110",
+    "b3_u02_l2_e111",
+    "b3_u02_l2_e112",
+    "b3_u02_l2_e113",
+    "b3_u02_l2_e114",
+    "b3_u02_l2_e115"
+  ],
+  "story": {
+    "title_uz": "Xalqaro bo'limda",
+    "title_en": "At the international office",
+    "gate_uz": "IDORA",
+    "gate_en": "OFFICE",
+    "steps": [
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "실례합니다. 등록금 때문에 왔어요.",
+        "uz": "Kechirasiz, kontrakt puli bo'yicha keldim.",
+        "en": "Excuse me, I'm here about tuition.",
+        "audio": "83f740191b7c.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "clerk",
+        "ko": "네, 말씀하세요.",
+        "uz": "Xo'p, eshitaman.",
+        "en": "Sure, go ahead.",
+        "audio": "498be128173a.mp3"
+      },
+      {
+        "type": "choose_reply",
+        "speaker": "aziz",
+        "prompt_uz": "Aziz 'Qachongacha to'lash kerak?' deb muloyim so'ramoqchi.",
+        "prompt_en": "Aziz wants to ask politely 'By when must I pay?'.",
+        "options": [
+          "언제까지 내야 되나요?",
+          "언제까지 내야 된가요?",
+          "언제까지 내야 되인가요?"
+        ],
+        "answer": "언제까지 내야 되나요?",
+        "uz": "Qachongacha to'lash kerak?",
+        "en": "By when must I pay?",
+        "why_uz": "되다 — fe'l: 되나요?",
+        "why_en": "되다 is a verb: 되나요?",
+        "audio": "7e095f28ede6.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "clerk",
+        "ko": "이번 달 이십오 일까지예요.",
+        "uz": "Shu oyning 25-sanasigacha.",
+        "en": "By the 25th of this month.",
+        "audio": "bad2db82faba.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "카드로 내는 것도 가능한가요?",
+        "uz": "Karta bilan ham bo'ladimi?",
+        "en": "Can I pay by card?",
+        "audio": "d90377c2794e.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "clerk",
+        "ko": "아니요, 계좌로 이체해야 돼요.",
+        "uz": "Yo'q, hisobga o'tkazish kerak.",
+        "en": "No, it has to be a bank transfer.",
+        "audio": "72f1de163cf8.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "장학금도 외국인 학생이 신청할 수 있나요?",
+        "uz": "Grantga chet elliklar ham ariza bera oladimi?",
+        "en": "Can foreign students apply for the scholarship?",
+        "audio": "493fdb65b1bc.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "clerk",
+        "ko": "네, 그런데 마감이 내일이에요.",
+        "uz": "Ha, lekin muddat — ertaga.",
+        "en": "Yes, but the deadline is tomorrow.",
+        "audio": "4d815adeac83.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "내일인가요? 서류가 많은가요?",
+        "uz": "Ertagami? Hujjatlar ko'pmi?",
+        "en": "Tomorrow? Are there many documents?",
+        "audio": "fc003679c4ed.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "clerk",
+        "ko": "성적 증명서하고 신청서만 내면 돼요.",
+        "uz": "Faqat baholar ma'lumotnomasi va ariza.",
+        "en": "Just your transcript and the form.",
+        "audio": "57667921418e.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "다행이에요! 한 시간이나 기다렸는데 오길 잘했어요.",
+        "uz": "Yaxshiyamki! Naqd bir soat kutdim, lekin kelganim yaxshi bo'ldi.",
+        "en": "What a relief! I waited a whole hour, but I'm glad I came.",
+        "audio": "e35f02f21bc0.mp3"
+      },
+      {
+        "type": "quiz",
+        "prompt_uz": "Grant uchun qanday hujjatlar kerak?",
+        "prompt_en": "Which documents does the scholarship need?",
+        "options": [
+          "Baholar ma'lumotnomasi va ariza",
+          "Pasport va viza",
+          "Talabalik guvohnomasi"
+        ],
+        "options_en": [
+          "A transcript and the form",
+          "Passport and visa",
+          "A student ID"
+        ],
+        "answer": "Baholar ma'lumotnomasi va ariza",
+        "why_uz": "성적 증명서하고 신청서만 내면 돼요.",
+        "why_en": "Just the transcript and the application form."
+      }
+    ]
+  }
+}

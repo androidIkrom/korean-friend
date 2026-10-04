@@ -1,0 +1,1452 @@
+{
+  "id": "b3_u02_l1",
+  "unit": 2,
+  "lesson": 1,
+  "title_ko": "기숙사로 이사하려고 해요",
+  "title_uz": "Yotoqxonaga ko'chmoqchiman",
+  "title_en": "I'm going to move into the dormitory",
+  "topic_uz": "Murojaat",
+  "topic_en": "Inquiry",
+  "reviewed": false,
+  "words": [
+    {
+      "id": "b3_u02_l1_w001",
+      "ko": "기숙사",
+      "uz": "yotoqxona",
+      "en": "dormitory",
+      "pos": "ot",
+      "example_ko": "학교 기숙사에 살아요.",
+      "example_uz": "Maktab yotoqxonasida yashayman.",
+      "example_en": "I live in the school dormitory.",
+      "audio": "67724a3ef391.mp3",
+      "example_audio": "30eace9e2bfd.mp3"
+    },
+    {
+      "id": "b3_u02_l1_w002",
+      "ko": "원룸",
+      "uz": "bir xonali kvartira (studiya)",
+      "en": "studio apartment",
+      "pos": "ot",
+      "example_ko": "원룸이 편해요.",
+      "example_uz": "Studiya qulay.",
+      "example_en": "A studio is convenient.",
+      "audio": "bfc6c8a188e1.mp3",
+      "example_audio": "a1e762835919.mp3"
+    },
+    {
+      "id": "b3_u02_l1_w003",
+      "ko": "하숙집",
+      "uz": "pansion (ovqatli ijara)",
+      "en": "boarding house",
+      "pos": "ot",
+      "example_ko": "하숙집에서 밥을 줘요.",
+      "example_uz": "Pansionda ovqat beriladi.",
+      "example_en": "Meals are provided at the boarding house.",
+      "audio": "4c7b4777ec3d.mp3",
+      "example_audio": "bf0442052d2a.mp3"
+    },
+    {
+      "id": "b3_u02_l1_w004",
+      "ko": "이사하다",
+      "uz": "ko'chmoq",
+      "en": "to move (house)",
+      "pos": "fe'l",
+      "example_ko": "다음 달에 이사하려고 해요.",
+      "example_uz": "Keyingi oy ko'chmoqchiman.",
+      "example_en": "I'm going to move next month.",
+      "audio": "55fa7de4b4b4.mp3",
+      "example_audio": "7ca0d2a76ff4.mp3"
+    },
+    {
+      "id": "b3_u02_l1_w005",
+      "ko": "월세",
+      "uz": "oylik ijara haqi",
+      "en": "monthly rent",
+      "pos": "ot",
+      "example_ko": "월세가 얼마예요?",
+      "example_uz": "Oylik ijara qancha?",
+      "example_en": "How much is the monthly rent?",
+      "audio": "5ca9a4711bad.mp3",
+      "example_audio": "981ddb2109aa.mp3"
+    },
+    {
+      "id": "b3_u02_l1_w006",
+      "ko": "보증금",
+      "uz": "garov puli",
+      "en": "deposit",
+      "pos": "ot",
+      "example_ko": "보증금이 비싸요.",
+      "example_uz": "Garov puli qimmat.",
+      "example_en": "The deposit is expensive.",
+      "audio": "2bb10844f7d6.mp3",
+      "example_audio": "1493e3b72532.mp3"
+    },
+    {
+      "id": "b3_u02_l1_w007",
+      "ko": "관리비",
+      "uz": "kommunal to'lov",
+      "en": "maintenance fee",
+      "pos": "ot",
+      "example_ko": "관리비는 따로 내요.",
+      "example_uz": "Kommunal to'lov alohida.",
+      "example_en": "The maintenance fee is paid separately.",
+      "audio": "2ffd76127f48.mp3",
+      "example_audio": "369937e5201f.mp3"
+    },
+    {
+      "id": "b3_u02_l1_w008",
+      "ko": "교통",
+      "uz": "transport",
+      "en": "transport",
+      "pos": "ot",
+      "example_ko": "여기는 교통이 편리해요.",
+      "example_uz": "Bu yerda transport qulay.",
+      "example_en": "Transport is convenient here.",
+      "audio": "435b06ba623e.mp3",
+      "example_audio": "93466547ef68.mp3"
+    },
+    {
+      "id": "b3_u02_l1_w009",
+      "ko": "편리하다",
+      "uz": "qulay bo'lmoq",
+      "en": "to be convenient",
+      "pos": "sifat",
+      "example_ko": "학교에서 가까워서 편리해요.",
+      "example_uz": "Maktabga yaqin, qulay.",
+      "example_en": "It's convenient because it's close to school.",
+      "audio": "ffe62315a976.mp3",
+      "example_audio": "0a033b4dcbf7.mp3"
+    },
+    {
+      "id": "b3_u02_l1_w010",
+      "ko": "불편하다",
+      "uz": "noqulay bo'lmoq",
+      "en": "to be inconvenient",
+      "pos": "sifat",
+      "example_ko": "부엌이 없어서 불편해요.",
+      "example_uz": "Oshxona yo'q, noqulay.",
+      "example_en": "It's inconvenient without a kitchen.",
+      "audio": "7a14dc436659.mp3",
+      "example_audio": "a3fda697e885.mp3"
+    },
+    {
+      "id": "b3_u02_l1_w011",
+      "ko": "조용하다",
+      "uz": "tinch bo'lmoq",
+      "en": "to be quiet",
+      "pos": "sifat",
+      "example_ko": "방이 조용해요.",
+      "example_uz": "Xona tinch.",
+      "example_en": "The room is quiet.",
+      "audio": "e757aa20388b.mp3",
+      "example_audio": "ebbec9ed047d.mp3"
+    },
+    {
+      "id": "b3_u02_l1_w012",
+      "ko": "시끄럽다",
+      "uz": "shovqinli bo'lmoq",
+      "en": "to be noisy",
+      "pos": "sifat",
+      "example_ko": "밤에 시끄러워요.",
+      "example_uz": "Kechasi shovqin.",
+      "example_en": "It's noisy at night.",
+      "audio": "d641b1414c35.mp3",
+      "example_audio": "e4a7cc626a7f.mp3"
+    },
+    {
+      "id": "b3_u02_l1_w013",
+      "ko": "넓다",
+      "uz": "keng bo'lmoq",
+      "en": "to be spacious",
+      "pos": "sifat",
+      "example_ko": "방이 넓어요.",
+      "example_uz": "Xona keng.",
+      "example_en": "The room is spacious.",
+      "audio": "f25d95a79193.mp3",
+      "example_audio": "ff26329bd3a9.mp3"
+    },
+    {
+      "id": "b3_u02_l1_w014",
+      "ko": "좁다",
+      "uz": "tor bo'lmoq",
+      "en": "to be narrow, small",
+      "pos": "sifat",
+      "example_ko": "기숙사 방이 좁아요.",
+      "example_uz": "Yotoqxona xonasi tor.",
+      "example_en": "The dorm room is small.",
+      "audio": "c529cf032cb2.mp3",
+      "example_audio": "689bfd012887.mp3"
+    },
+    {
+      "id": "b3_u02_l1_w015",
+      "ko": "깨끗하다",
+      "uz": "toza bo'lmoq",
+      "en": "to be clean",
+      "pos": "sifat",
+      "example_ko": "화장실이 깨끗해요.",
+      "example_uz": "Hojatxona toza.",
+      "example_en": "The bathroom is clean.",
+      "audio": "9245ba86afc6.mp3",
+      "example_audio": "03ccc35e6bd5.mp3"
+    },
+    {
+      "id": "b3_u02_l1_w016",
+      "ko": "가구",
+      "uz": "mebel",
+      "en": "furniture",
+      "pos": "ot",
+      "example_ko": "가구가 다 있어요.",
+      "example_uz": "Mebel hammasi bor.",
+      "example_en": "It's fully furnished.",
+      "audio": "6806387fc04c.mp3",
+      "example_audio": "1a975657ba2d.mp3"
+    },
+    {
+      "id": "b3_u02_l1_w017",
+      "ko": "세탁기",
+      "uz": "kir yuvish mashinasi",
+      "en": "washing machine",
+      "pos": "ot",
+      "example_ko": "세탁기는 같이 써요.",
+      "example_uz": "Kir mashinasidan birga foydalanamiz.",
+      "example_en": "The washing machine is shared.",
+      "audio": "3315722419dc.mp3",
+      "example_audio": "c1aebd7bdfba.mp3"
+    },
+    {
+      "id": "b3_u02_l1_w018",
+      "ko": "룸메이트",
+      "uz": "xonadosh",
+      "en": "roommate",
+      "pos": "ot",
+      "example_ko": "룸메이트가 친절해요.",
+      "example_uz": "Xonadoshim mehribon.",
+      "example_en": "My roommate is kind.",
+      "audio": "b74ac77a07bd.mp3",
+      "example_audio": "2ec58a989153.mp3"
+    },
+    {
+      "id": "b3_u02_l1_w019",
+      "ko": "신청하다",
+      "uz": "ariza bermoq",
+      "en": "to apply",
+      "pos": "fe'l",
+      "example_ko": "기숙사를 신청하려고 해요.",
+      "example_uz": "Yotoqxonaga ariza bermoqchiman.",
+      "example_en": "I'm going to apply for the dorm.",
+      "audio": "2fc17f7034dc.mp3",
+      "example_audio": "32aecb49f8ef.mp3"
+    },
+    {
+      "id": "b3_u02_l1_w020",
+      "ko": "신청서",
+      "uz": "ariza (blanka)",
+      "en": "application form",
+      "pos": "ot",
+      "example_ko": "신청서를 써 주세요.",
+      "example_uz": "Arizani to'ldiring.",
+      "example_en": "Please fill in the application form.",
+      "audio": "e3898268158f.mp3",
+      "example_audio": "ff3e11d0154e.mp3"
+    },
+    {
+      "id": "b3_u02_l1_w021",
+      "ko": "사무실",
+      "uz": "idora, ofis",
+      "en": "office",
+      "pos": "ot",
+      "example_ko": "기숙사 사무실에 가 보세요.",
+      "example_uz": "Yotoqxona idorasiga boring.",
+      "example_en": "Try the dormitory office.",
+      "audio": "bb19a9aa0edc.mp3",
+      "example_audio": "c72cc74c8ad8.mp3"
+    },
+    {
+      "id": "b3_u02_l1_w022",
+      "ko": "집주인",
+      "uz": "uy egasi",
+      "en": "landlord",
+      "pos": "ot",
+      "example_ko": "집주인한테 물어봤어요.",
+      "example_uz": "Uy egasidan so'radim.",
+      "example_en": "I asked the landlord.",
+      "audio": "2e399bb58608.mp3",
+      "example_audio": "2c79c86ce8f3.mp3"
+    },
+    {
+      "id": "b3_u02_l1_w023",
+      "ko": "계약하다",
+      "uz": "shartnoma tuzmoq",
+      "en": "to sign a contract",
+      "pos": "fe'l",
+      "example_ko": "내일 계약하려고 해요.",
+      "example_uz": "Ertaga shartnoma tuzmoqchiman.",
+      "example_en": "I'm going to sign the contract tomorrow.",
+      "audio": "8c3b9ef7622a.mp3",
+      "example_audio": "6d77858a773c.mp3"
+    },
+    {
+      "id": "b3_u02_l1_w024",
+      "ko": "빌려주다",
+      "uz": "qarzga bermoq",
+      "en": "to lend",
+      "pos": "fe'l",
+      "example_ko": "책을 빌려줄게요.",
+      "example_uz": "Kitobni qarzga beraman.",
+      "example_en": "I'll lend you the book.",
+      "audio": "9d5f23d4f8fb.mp3",
+      "example_audio": "56461aaa3d1e.mp3"
+    },
+    {
+      "id": "b3_u02_l1_w025",
+      "ko": "옮기다",
+      "uz": "ko'chirmoq, tashimoq",
+      "en": "to move (things)",
+      "pos": "fe'l",
+      "example_ko": "짐을 옮겨 주세요.",
+      "example_uz": "Yukni ko'chirib bering.",
+      "example_en": "Please help me move my things.",
+      "audio": "5f6d55e41601.mp3",
+      "example_audio": "a4aec99eaa9c.mp3"
+    },
+    {
+      "id": "b3_u02_l1_w026",
+      "ko": "도와주다",
+      "uz": "yordam bermoq",
+      "en": "to help",
+      "pos": "fe'l",
+      "example_ko": "이사를 도와줄게요.",
+      "example_uz": "Ko'chishda yordam beraman.",
+      "example_en": "I'll help you move.",
+      "audio": "7afb7fa539f5.mp3",
+      "example_audio": "70e7d225b4c6.mp3"
+    },
+    {
+      "id": "b3_u02_l1_w027",
+      "ko": "소개하다",
+      "uz": "tanishtirmoq",
+      "en": "to introduce",
+      "pos": "fe'l",
+      "example_ko": "좋은 집을 소개해 주세요.",
+      "example_uz": "Yaxshi uy tavsiya qiling.",
+      "example_en": "Please introduce me to a good place.",
+      "audio": "0bbf0965faac.mp3",
+      "example_audio": "902f7c8b5a27.mp3"
+    },
+    {
+      "id": "b3_u02_l1_w028",
+      "ko": "설명하다",
+      "uz": "tushuntirmoq",
+      "en": "to explain",
+      "pos": "fe'l",
+      "example_ko": "규칙을 설명해 주세요.",
+      "example_uz": "Qoidalarni tushuntirib bering.",
+      "example_en": "Please explain the rules.",
+      "audio": "72ea62ab3ab7.mp3",
+      "example_audio": "77840ec8c6bf.mp3"
+    },
+    {
+      "id": "b3_u02_l1_w029",
+      "ko": "규칙",
+      "uz": "qoida",
+      "en": "rule",
+      "pos": "ot",
+      "example_ko": "기숙사 규칙이 많아요.",
+      "example_uz": "Yotoqxona qoidalari ko'p.",
+      "example_en": "There are many dorm rules.",
+      "audio": "d431c3833792.mp3",
+      "example_audio": "0f217026afc9.mp3"
+    },
+    {
+      "id": "b3_u02_l1_w030",
+      "ko": "통금",
+      "uz": "kechki cheklov vaqti",
+      "en": "curfew",
+      "pos": "ot",
+      "example_ko": "통금이 열두 시예요.",
+      "example_uz": "Cheklov — soat o'n ikki.",
+      "example_en": "Curfew is at midnight.",
+      "audio": "05ffbc7dfa07.mp3",
+      "example_audio": "9e11cae64648.mp3"
+    },
+    {
+      "id": "b3_u02_l1_w031",
+      "ko": "역",
+      "uz": "bekat (metro, poyezd)",
+      "en": "station",
+      "pos": "ot",
+      "example_ko": "역에서 가까워요.",
+      "example_uz": "Bekatga yaqin.",
+      "example_en": "It's close to the station.",
+      "audio": "f8517ce94a2b.mp3",
+      "example_audio": "e777e69822d3.mp3"
+    },
+    {
+      "id": "b3_u02_l1_w032",
+      "ko": "저렴하다",
+      "uz": "arzon bo'lmoq",
+      "en": "to be inexpensive",
+      "pos": "sifat",
+      "example_ko": "기숙사가 저렴해요.",
+      "example_uz": "Yotoqxona arzon.",
+      "example_en": "The dorm is inexpensive.",
+      "audio": "1bbbf7237cbf.mp3",
+      "example_audio": "7c741ccf46b7.mp3"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "b3_u02_l1_g1",
+      "pattern": "V-(으)려고 하다",
+      "meaning_uz": "...moqchi bo'lmoq (niyat)",
+      "meaning_en": "Intend to / be going to",
+      "explanation_md": "**-(으)려고 하다** — niyat yoki reja: \"...moqchiman\", \"...ish niyatidaman\".\n\n**기숙사로 이사하려고 해요.** — *Yotoqxonaga ko'chmoqchiman.*\n\n### Qanday yasaladi\n\n- O'zak **받침siz** → **-려고 하다**: 이사하다 → **이사하려고 해요**, 사다 → **사려고 해요**\n- O'zak **받침 bilan** → **-으려고 하다**: 찾다 → **찾으려고 해요**, 읽다 → **읽으려고 해요**\n- **ㄹ** bilan → **-려고**: 만들다 → **만들려고 해요**\n- O'tgan zamon: **-(으)려고 했어요** — \"...moqchi edim (lekin...)\"\n\n### Esda tuting\n\n- **-고 싶다** — istak (\"xohlayman\"), **-(으)려고 하다** — aniq **niyat/reja**.\n- Gap o'rtasida: **V-(으)려고 V** — \"... uchun\": **기숙사를 신청하려고 사무실에 갔어요.** — *Ariza berish uchun idoraga bordim.*",
+      "explanation_md_en": "**-(으)려고 하다** expresses intention: \"I'm going to …\", \"I intend to …\".\n\n**기숙사로 이사하려고 해요.** — *I'm going to move into the dorm.*\n\n### How to form it\n\n- Stem **without 받침** → **-려고 하다**: 이사하다 → **이사하려고 해요**, 사다 → **사려고 해요**\n- Stem **with 받침** → **-으려고 하다**: 찾다 → **찾으려고 해요**, 읽다 → **읽으려고 해요**\n- **ㄹ** stem → **-려고**: 만들다 → **만들려고 해요**\n- Past: **-(으)려고 했어요** — \"I was going to … (but …)\"\n\n### Remember\n\n- **-고 싶다** is a wish; **-(으)려고 하다** is a concrete **intention/plan**.\n- Mid-sentence, **V-(으)려고 V** means \"in order to\": **기숙사를 신청하려고 사무실에 갔어요.** — *I went to the office to apply for the dorm.*",
+      "formation": [
+        {
+          "condition_uz": "받침 yo'q",
+          "condition_en": "No 받침",
+          "rule": "V + 려고 하다",
+          "example": "이사하려고, 사려고"
+        },
+        {
+          "condition_uz": "받침 bor",
+          "condition_en": "With 받침",
+          "rule": "V + 으려고 하다",
+          "example": "찾으려고, 읽으려고"
+        },
+        {
+          "condition_uz": "ㄹ bilan",
+          "condition_en": "Ends in ㄹ",
+          "rule": "V + 려고 하다",
+          "example": "만들려고"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "기숙사로 이사하려고 해요.",
+          "uz": "Yotoqxonaga ko'chmoqchiman.",
+          "en": "I'm going to move into the dorm.",
+          "audio": "e9da9e5bdd5a.mp3"
+        },
+        {
+          "ko": "학교 근처에서 원룸을 찾으려고 해요.",
+          "uz": "Maktab yaqinidan studiya qidirmoqchiman.",
+          "en": "I'm going to look for a studio near school.",
+          "audio": "3ee8423f005e.mp3"
+        },
+        {
+          "ko": "내일 계약하려고 해요.",
+          "uz": "Ertaga shartnoma tuzmoqchiman.",
+          "en": "I'm going to sign the contract tomorrow.",
+          "audio": "6d77858a773c.mp3"
+        },
+        {
+          "ko": "신청하려고 사무실에 갔어요.",
+          "uz": "Ariza berish uchun idoraga bordim.",
+          "en": "I went to the office to apply.",
+          "audio": "6f7cd438a271.mp3"
+        },
+        {
+          "ko": "어제 전화하려고 했어요. 그런데 바빴어요.",
+          "uz": "Kecha qo'ng'iroq qilmoqchi edim, lekin band edim.",
+          "en": "I was going to call yesterday, but I was busy.",
+          "audio": "5e619c1e66c2.mp3"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "이사하으려고 해요.",
+          "right": "이사하려고 해요.",
+          "why_uz": "받침siz: -려고.",
+          "why_en": "No 받침: -려고."
+        },
+        {
+          "wrong": "찾려고 해요.",
+          "right": "찾으려고 해요.",
+          "why_uz": "찾다 받침 bilan: -으려고.",
+          "why_en": "찾다 has 받침: -으려고."
+        },
+        {
+          "wrong": "만들으려고 해요.",
+          "right": "만들려고 해요.",
+          "why_uz": "ㄹ bilan: 만들려고.",
+          "why_en": "ㄹ stems: 만들려고."
+        }
+      ],
+      "uz_compare": "O'zbekchadagi '-moqchi' ga juda mos: 'ko'chMOQCHIman' = 이사하려고 해요. 'ariza berish UCHUN bordim' = 신청하려고 갔어요.",
+      "compare_en": "Like English 'be going to' or 'intend to': 'I'm going to move' = 이사하려고 해요. In the middle of a sentence it means 'in order to'."
+    },
+    {
+      "id": "b3_u02_l1_g2",
+      "pattern": "V-아/어 주다",
+      "meaning_uz": "...ib bermoq (birov uchun)",
+      "meaning_en": "Do something for someone",
+      "explanation_md": "**-아/어 주다** — ish-harakat **boshqa birov uchun** bajarilishini bildiradi: \"...ib bermoq\".\n\n**친구가 이사를 도와줬어요.** — *Do'stim ko'chishda yordam berdi.*  \n**짐을 옮겨 주세요.** — *Yukni ko'chirib bering.*\n\n### Qanday yasaladi\n\n-아요/어요 qoidasi bilan (1-kitob 6-1): **-아요** o'rniga **-아 주다**:\n\n- 옮기다 → **옮겨 주다**, 설명하다 → **설명해 주다**\n- 빌리다 → **빌려 주다**, 소개하다 → **소개해 주다**\n\n### Shakllari\n\n- Iltimos: **-아/어 주세요** — \"...ib bering\"\n- Taklif: **-아/어 줄게요** — \"...ib beraman\"\n- So'roq: **-아/어 줄 수 있어요?** — \"...ib bera olasizmi?\"\n- O'tgan: **-아/어 줬어요** — \"...ib berdi\"\n\n### Esda tuting\n\n- Hurmat bilan: **-아/어 드리다** — **제가 도와 드릴게요.**",
+      "explanation_md_en": "**-아/어 주다** shows that an action is done **for someone else**: \"do … for (you/me)\".\n\n**친구가 이사를 도와줬어요.** — *My friend helped me move.*  \n**짐을 옮겨 주세요.** — *Please move my things for me.*\n\n### How to form it\n\nUse the -아요/어요 rule (book 1, 6-1): **-아요** → **-아 주다**:\n\n- 옮기다 → **옮겨 주다**, 설명하다 → **설명해 주다**\n- 빌리다 → **빌려 주다**, 소개하다 → **소개해 주다**\n\n### Forms\n\n- Request: **-아/어 주세요** — \"please do … for me\"\n- Offer: **-아/어 줄게요** — \"I'll do … for you\"\n- Question: **-아/어 줄 수 있어요?** — \"could you …?\"\n- Past: **-아/어 줬어요** — \"did … for me\"\n\n### Remember\n\n- Politely, towards elders: **-아/어 드리다** — **제가 도와 드릴게요.**",
+      "formation": [
+        {
+          "condition_uz": "ㅏ/ㅗ",
+          "condition_en": "ㅏ/ㅗ",
+          "rule": "-아 주다",
+          "example": "찾다 → 찾아 주다, 보다 → 봐 주다"
+        },
+        {
+          "condition_uz": "Boshqa",
+          "condition_en": "Other vowels",
+          "rule": "-어 주다",
+          "example": "옮기다 → 옮겨 주다, 빌리다 → 빌려 주다"
+        },
+        {
+          "condition_uz": "하다",
+          "condition_en": "하다",
+          "rule": "해 주다",
+          "example": "설명하다 → 설명해 주다"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "짐을 옮겨 주세요.",
+          "uz": "Yukni ko'chirib bering.",
+          "en": "Please move my things for me.",
+          "audio": "a4aec99eaa9c.mp3"
+        },
+        {
+          "ko": "친구가 이사를 도와줬어요.",
+          "uz": "Do'stim ko'chishda yordam berdi.",
+          "en": "My friend helped me move.",
+          "audio": "a8865625abe7.mp3"
+        },
+        {
+          "ko": "기숙사 규칙을 설명해 주세요.",
+          "uz": "Yotoqxona qoidalarini tushuntirib bering.",
+          "en": "Please explain the dorm rules.",
+          "audio": "6789ee454a95.mp3"
+        },
+        {
+          "ko": "좋은 집을 소개해 줄 수 있어요?",
+          "uz": "Yaxshi uy tavsiya qila olasizmi?",
+          "en": "Could you introduce me to a good place?",
+          "audio": "cb0f6768ea15.mp3"
+        },
+        {
+          "ko": "제가 책을 빌려줄게요.",
+          "uz": "Men kitobni qarzga beraman.",
+          "en": "I'll lend you the book.",
+          "audio": "96d61fa400b2.mp3"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "짐을 옮기 주세요.",
+          "right": "짐을 옮겨 주세요.",
+          "why_uz": "옮기다 → 옮겨 주다.",
+          "why_en": "옮기다 → 옮겨 주다."
+        },
+        {
+          "wrong": "설명하 주세요.",
+          "right": "설명해 주세요.",
+          "why_uz": "하다 → 해 주다.",
+          "why_en": "하다 → 해 주다."
+        },
+        {
+          "wrong": "도와 줬어요 친구가.",
+          "right": "친구가 도와줬어요.",
+          "why_uz": "Fe'l oxirida.",
+          "why_en": "The verb goes last."
+        }
+      ],
+      "uz_compare": "O'zbekchadagi '-ib bermoq' bilan aynan bir xil: 'ko'chirIB BERing' = 옮겨 주세요, 'yordam berdi' = 도와줬어요.",
+      "compare_en": "Like English 'for me / for you': 'Move it FOR me' = 옮겨 주세요. Korean builds it into the verb with 주다 ('give')."
+    }
+  ],
+  "dialogue": {
+    "lines": [
+      {
+        "speaker": "aziz",
+        "ko": "안녕하세요. 기숙사로 이사하려고 해요.",
+        "uz": "Assalomu alaykum. Yotoqxonaga ko'chmoqchiman.",
+        "en": "Hello. I'd like to move into the dormitory.",
+        "audio": "b15860d631b6.mp3"
+      },
+      {
+        "speaker": "clerk",
+        "ko": "네, 신청서를 쓰셨어요?",
+        "uz": "Xo'p, arizani to'ldirdingizmi?",
+        "en": "Sure. Have you filled in the application form?",
+        "audio": "07e7137f3554.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "아니요, 아직이요. 신청 방법을 설명해 주세요.",
+        "uz": "Yo'q, hali. Ariza berish tartibini tushuntirib bering.",
+        "en": "Not yet. Please explain how to apply.",
+        "audio": "c44fa4e52f81.mp3"
+      },
+      {
+        "speaker": "clerk",
+        "ko": "이 신청서를 써서 금요일까지 내세요.",
+        "uz": "Shu arizani to'ldirib, jumagacha topshiring.",
+        "en": "Fill in this form and hand it in by Friday.",
+        "audio": "94d8515138ac.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "방은 몇 명이 같이 써요?",
+        "uz": "Xonada necha kishi yashaydi?",
+        "en": "How many people share a room?",
+        "audio": "0b8c5df0d2e7.mp3"
+      },
+      {
+        "speaker": "clerk",
+        "ko": "두 명이 같이 써요. 룸메이트가 있어요.",
+        "uz": "Ikki kishi. Xonadosh bo'ladi.",
+        "en": "Two people. You'll have a roommate.",
+        "audio": "f0924dfba7eb.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "월세는 얼마예요? 원룸보다 저렴해요?",
+        "uz": "Oylik qancha? Studiyadan arzonmi?",
+        "en": "How much is the rent? Is it cheaper than a studio?",
+        "audio": "11c380dc83b0.mp3"
+      },
+      {
+        "speaker": "clerk",
+        "ko": "네, 한 달에 이십오만 원이에요. 관리비도 있어요.",
+        "uz": "Ha, oyiga ikki yuz ellik ming von. Kommunal ham bor.",
+        "en": "Yes, 250,000 won a month. Plus a maintenance fee.",
+        "audio": "89ce5e64cf68.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "통금이 있어요?",
+        "uz": "Kechki cheklov bormi?",
+        "en": "Is there a curfew?",
+        "audio": "23ba9e4dee19.mp3"
+      },
+      {
+        "speaker": "clerk",
+        "ko": "네, 밤 열두 시예요. 규칙은 이 종이에 있으니까 읽어 보세요.",
+        "uz": "Ha, kechasi o'n ikki. Qoidalar shu qog'ozda, o'qib chiqing.",
+        "en": "Yes, midnight. The rules are on this sheet, so please read them.",
+        "audio": "0243740ccea7.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "네, 감사합니다. 금요일까지 꼭 낼게요.",
+        "uz": "Xo'p, rahmat. Jumagacha albatta topshiraman.",
+        "en": "Okay, thank you. I'll be sure to hand it in by Friday.",
+        "audio": "c1d7cb602db2.mp3"
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b3_u02_l1_e001",
+      "type": "conjugate",
+      "targets": [
+        "b3_u02_l1_g1"
+      ],
+      "prompt_uz": "'Ko'chmoqchiman' shaklini yasang",
+      "prompt_en": "Make 'I'm going to move'",
+      "base": "이사하다",
+      "form": "-(으)려고 해요",
+      "answers": [
+        "이사하려고 해요"
+      ]
+    },
+    {
+      "id": "b3_u02_l1_e002",
+      "type": "conjugate",
+      "targets": [
+        "b3_u02_l1_g1"
+      ],
+      "prompt_uz": "'Qidirmoqchiman' shaklini yasang",
+      "prompt_en": "Make 'I'm going to look for'",
+      "base": "찾다",
+      "form": "-(으)려고 해요",
+      "answers": [
+        "찾으려고 해요"
+      ],
+      "hint_uz": "받침 bor → -으려고",
+      "hint_en": "With 받침 → -으려고"
+    },
+    {
+      "id": "b3_u02_l1_e003",
+      "type": "conjugate",
+      "targets": [
+        "b3_u02_l1_g2"
+      ],
+      "prompt_uz": "'Ko'chirib bering' shaklini yasang",
+      "prompt_en": "Make 'please move (it) for me'",
+      "base": "옮기다",
+      "form": "-아/어 주세요",
+      "answers": [
+        "옮겨 주세요"
+      ]
+    },
+    {
+      "id": "b3_u02_l1_e004",
+      "type": "conjugate",
+      "targets": [
+        "b3_u02_l1_g2"
+      ],
+      "prompt_uz": "'Tushuntirib bering' shaklini yasang",
+      "prompt_en": "Make 'please explain'",
+      "base": "설명하다",
+      "form": "-아/어 주세요",
+      "answers": [
+        "설명해 주세요"
+      ]
+    },
+    {
+      "id": "b3_u02_l1_e005",
+      "type": "fill_blank",
+      "targets": [
+        "b3_u02_l1_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Ertaga shartnoma tuzmoqchiman.'",
+      "prompt_en": "Fill in the blank: 'I'm going to sign the contract tomorrow.'",
+      "sentence": "내일 ___ 해요. (계약하다)",
+      "answers": [
+        "계약하려고"
+      ]
+    },
+    {
+      "id": "b3_u02_l1_e006",
+      "type": "fill_blank",
+      "targets": [
+        "b3_u02_l1_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Ariza berish uchun idoraga bordim.'",
+      "prompt_en": "Fill in the blank: 'I went to the office to apply.'",
+      "sentence": "___ 사무실에 갔어요. (신청하다)",
+      "answers": [
+        "신청하려고"
+      ]
+    },
+    {
+      "id": "b3_u02_l1_e007",
+      "type": "fill_blank",
+      "targets": [
+        "b3_u02_l1_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Do'stim ko'chishda yordam berdi.'",
+      "prompt_en": "Fill in the blank: 'My friend helped me move.'",
+      "sentence": "친구가 이사를 ___. (돕다 → 도와주다)",
+      "answers": [
+        "도와줬어요"
+      ]
+    },
+    {
+      "id": "b3_u02_l1_e008",
+      "type": "fill_blank",
+      "targets": [
+        "b3_u02_l1_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Kitobni qarzga beraman.'",
+      "prompt_en": "Fill in the blank: 'I'll lend you the book.'",
+      "sentence": "책을 ___. (빌려주다)",
+      "answers": [
+        "빌려줄게요"
+      ]
+    },
+    {
+      "id": "b3_u02_l1_e009",
+      "type": "situation_choice",
+      "targets": [
+        "b3_u02_l1_g2"
+      ],
+      "prompt_uz": "Idorada qoidalarni tushuntirishni so'rang:",
+      "prompt_en": "At the office, ask them to explain the rules:",
+      "options": [
+        "규칙을 설명해 주세요.",
+        "규칙을 설명하 주세요.",
+        "규칙을 설명해요 주세요.",
+        "규칙을 설명할게요."
+      ],
+      "answers": [
+        "규칙을 설명해 주세요."
+      ]
+    },
+    {
+      "id": "b3_u02_l1_e010",
+      "type": "situation_choice",
+      "targets": [
+        "b3_u02_l1_g1"
+      ],
+      "prompt_uz": "Do'stingizga keyingi oy ko'chish niyatingizni ayting:",
+      "prompt_en": "Tell your friend you're going to move next month:",
+      "options": [
+        "다음 달에 이사하려고 해요.",
+        "다음 달에 이사하으려고 해요.",
+        "다음 달에 이사했으려고 해요.",
+        "다음 달에 이사하려고 주세요."
+      ],
+      "answers": [
+        "다음 달에 이사하려고 해요."
+      ]
+    },
+    {
+      "id": "b3_u02_l1_e011",
+      "type": "situation_choice",
+      "targets": [
+        "b3_u02_l1_w030"
+      ],
+      "prompt_uz": "Uy egasidan kechki cheklov bor-yo'qligini so'rang:",
+      "prompt_en": "Ask the landlord whether there's a curfew:",
+      "options": [
+        "통금이 있어요?",
+        "규칙이 있어요?",
+        "월세가 있어요?",
+        "가구가 있어요?"
+      ],
+      "answers": [
+        "통금이 있어요?"
+      ]
+    },
+    {
+      "id": "b3_u02_l1_e012",
+      "type": "find_error",
+      "targets": [
+        "b3_u02_l1_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "원룸을 찾려고 해요.",
+      "answers": [
+        "원룸을 찾으려고 해요"
+      ],
+      "why_uz": "찾다 받침 bilan: -으려고.",
+      "why_en": "찾다 has 받침: -으려고."
+    },
+    {
+      "id": "b3_u02_l1_e013",
+      "type": "find_error",
+      "targets": [
+        "b3_u02_l1_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "짐을 옮기 주세요.",
+      "answers": [
+        "짐을 옮겨 주세요"
+      ],
+      "why_uz": "옮기다 → 옮겨 주다.",
+      "why_en": "옮기다 → 옮겨 주다."
+    },
+    {
+      "id": "b3_u02_l1_e014",
+      "type": "find_error",
+      "targets": [
+        "b3_u02_l1_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "좋은 집을 소개하 주세요.",
+      "answers": [
+        "좋은 집을 소개해 주세요"
+      ],
+      "why_uz": "하다 → 해 주다.",
+      "why_en": "하다 → 해 주다."
+    },
+    {
+      "id": "b3_u02_l1_e015",
+      "type": "translate",
+      "targets": [
+        "b3_u02_l1_g1"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Yotoqxonaga ko'chmoqchiman.",
+      "source_en": "I'm going to move into the dorm.",
+      "answers": [
+        "기숙사로 이사하려고 해요",
+        "기숙사에 이사하려고 해요"
+      ]
+    },
+    {
+      "id": "b3_u02_l1_e016",
+      "type": "translate",
+      "targets": [
+        "b3_u02_l1_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Yukni ko'chirib bering.",
+      "source_en": "Please move my things for me.",
+      "answers": [
+        "짐을 옮겨 주세요",
+        "짐 좀 옮겨 주세요"
+      ]
+    },
+    {
+      "id": "b3_u02_l1_e017",
+      "type": "translate",
+      "targets": [
+        "b3_u02_l1_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Ko'chishda yordam beraman.",
+      "source_en": "I'll help you move.",
+      "answers": [
+        "이사를 도와줄게요",
+        "이사를 도와 드릴게요"
+      ]
+    },
+    {
+      "id": "b3_u02_l1_e018",
+      "type": "build_sentence",
+      "targets": [
+        "b3_u02_l1_g1"
+      ],
+      "prompt_uz": "'Maktab yaqinidan studiya qidirmoqchiman' gapini tuzing",
+      "prompt_en": "Build the sentence 'I'm going to look for a studio near school'",
+      "tokens": [
+        "해요",
+        "찾으려고",
+        "학교",
+        "원룸을",
+        "근처에서"
+      ],
+      "answers": [
+        "학교 근처에서 원룸을 찾으려고 해요"
+      ]
+    },
+    {
+      "id": "b3_u02_l1_e019",
+      "type": "build_sentence",
+      "targets": [
+        "b3_u02_l1_g2"
+      ],
+      "prompt_uz": "'Yaxshi uy tavsiya qila olasizmi?' gapini tuzing",
+      "prompt_en": "Build the sentence 'Could you introduce me to a good place?'",
+      "tokens": [
+        "있어요?",
+        "수",
+        "소개해",
+        "줄",
+        "집을",
+        "좋은"
+      ],
+      "answers": [
+        "좋은 집을 소개해 줄 수 있어요?"
+      ]
+    },
+    {
+      "id": "b3_u02_l1_e020",
+      "type": "build_sentence",
+      "targets": [
+        "b3_u02_l1_g1",
+        "b3_u02_l1_g2"
+      ],
+      "prompt_uz": "'Arizani to'ldirib bermoqchiman' gapini tuzing",
+      "prompt_en": "Build the sentence 'I'm going to fill in the form for you'",
+      "tokens": [
+        "신청서를",
+        "주려고",
+        "써",
+        "해요"
+      ],
+      "answers": [
+        "신청서를 써 주려고 해요"
+      ]
+    },
+    {
+      "id": "b3_u02_l1_e021",
+      "type": "listen_question",
+      "targets": [
+        "b3_u02_l1_g1"
+      ],
+      "prompt_uz": "U nima qilmoqchi?",
+      "prompt_en": "What is the speaker going to do?",
+      "audio_text": "다음 달에 학교 기숙사로 이사하려고 해요.",
+      "options": [
+        "Yotoqxonaga ko'chmoqchi",
+        "Uy sotib olmoqchi",
+        "Sayohatga bormoqchi",
+        "Ishga kirmoqchi"
+      ],
+      "options_en": [
+        "Move into the dorm",
+        "Buy a house",
+        "Go travelling",
+        "Get a job"
+      ],
+      "answers": [
+        "Yotoqxonaga ko'chmoqchi"
+      ],
+      "audio": "6c74f3781750.mp3"
+    },
+    {
+      "id": "b3_u02_l1_e022",
+      "type": "listen_question",
+      "targets": [
+        "b3_u02_l1_g2"
+      ],
+      "prompt_uz": "Ayol nimani so'rayapti?",
+      "prompt_en": "What is the woman asking for?",
+      "audio_text": "짐이 많아요. 좀 옮겨 줄 수 있어요?",
+      "options": [
+        "Yuk ko'chirishda yordam",
+        "Pul qarzga",
+        "Kalit",
+        "Kitob"
+      ],
+      "options_en": [
+        "Help moving things",
+        "Money",
+        "A key",
+        "A book"
+      ],
+      "answers": [
+        "Yuk ko'chirishda yordam"
+      ],
+      "audio": "6b82f783c934.mp3"
+    },
+    {
+      "id": "b3_u02_l1_e023",
+      "type": "listen_question",
+      "targets": [
+        "b3_u02_l1_g1"
+      ],
+      "prompt_uz": "Nega u idoraga bordi?",
+      "prompt_en": "Why did the speaker go to the office?",
+      "audio_text": "기숙사를 신청하려고 사무실에 갔어요.",
+      "options": [
+        "Yotoqxonaga ariza berish uchun",
+        "Pul to'lash uchun",
+        "Kalit olish uchun",
+        "Ishlash uchun"
+      ],
+      "options_en": [
+        "To apply for the dorm",
+        "To pay",
+        "To get a key",
+        "To work"
+      ],
+      "answers": [
+        "Yotoqxonaga ariza berish uchun"
+      ],
+      "audio": "ad4b706fc871.mp3"
+    },
+    {
+      "id": "b3_u02_l1_e024",
+      "type": "listen_question",
+      "targets": [
+        "b3_u02_l1_g2"
+      ],
+      "prompt_uz": "Kim yordam berdi?",
+      "prompt_en": "Who helped?",
+      "audio_text": "룸메이트가 청소를 도와줬어요.",
+      "options": [
+        "Xonadosh",
+        "Uy egasi",
+        "Do'sti",
+        "Xodim"
+      ],
+      "options_en": [
+        "The roommate",
+        "The landlord",
+        "A friend",
+        "A clerk"
+      ],
+      "answers": [
+        "Xonadosh"
+      ],
+      "audio": "100330e16be9.mp3"
+    },
+    {
+      "id": "b3_u02_l1_e101",
+      "type": "conjugate",
+      "targets": [
+        "b3_u02_l1_g1"
+      ],
+      "prompt_uz": "'Pishirmoqchiman' shaklini yasang",
+      "prompt_en": "Make 'I'm going to make'",
+      "base": "만들다",
+      "form": "-(으)려고 해요",
+      "answers": [
+        "만들려고 해요"
+      ]
+    },
+    {
+      "id": "b3_u02_l1_e102",
+      "type": "conjugate",
+      "targets": [
+        "b3_u02_l1_g2"
+      ],
+      "prompt_uz": "'Qarzga berdi' shaklini yasang",
+      "prompt_en": "Make 'lent (for me)'",
+      "base": "빌리다",
+      "form": "-아/어 줬어요",
+      "answers": [
+        "빌려줬어요",
+        "빌려 줬어요"
+      ]
+    },
+    {
+      "id": "b3_u02_l1_e103",
+      "type": "conjugate",
+      "targets": [
+        "b3_u02_l1_g1"
+      ],
+      "prompt_uz": "'O'qimoqchi edim' shaklini yasang",
+      "prompt_en": "Make 'I was going to read'",
+      "base": "읽다",
+      "form": "-(으)려고 했어요",
+      "answers": [
+        "읽으려고 했어요"
+      ]
+    },
+    {
+      "id": "b3_u02_l1_e104",
+      "type": "fill_blank",
+      "targets": [
+        "b3_u02_l1_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Yaxshi uy tavsiya qiling.'",
+      "prompt_en": "Fill in the blank: 'Please introduce me to a good place.'",
+      "sentence": "좋은 집을 ___. (소개하다)",
+      "answers": [
+        "소개해 주세요"
+      ]
+    },
+    {
+      "id": "b3_u02_l1_e105",
+      "type": "fill_blank",
+      "targets": [
+        "b3_u02_l1_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Studiya qidirmoqchiman.'",
+      "prompt_en": "Fill in the blank: 'I'm going to look for a studio.'",
+      "sentence": "원룸을 ___ 해요. (찾다)",
+      "answers": [
+        "찾으려고"
+      ]
+    },
+    {
+      "id": "b3_u02_l1_e106",
+      "type": "situation_choice",
+      "targets": [
+        "b3_u02_l1_g2"
+      ],
+      "prompt_uz": "Do'stingiz ko'chyapti. Yordam taklif qiling:",
+      "prompt_en": "Your friend is moving. Offer to help:",
+      "options": [
+        "제가 이사를 도와줄게요.",
+        "제가 이사를 도와 주세요.",
+        "제가 이사를 도와줬어요?",
+        "제가 이사를 돕아 줄게요."
+      ],
+      "answers": [
+        "제가 이사를 도와줄게요."
+      ]
+    },
+    {
+      "id": "b3_u02_l1_e107",
+      "type": "situation_choice",
+      "targets": [
+        "b3_u02_l1_g1"
+      ],
+      "prompt_uz": "Kecha qo'ng'iroq qilmoqchi bo'lganingizni, lekin band bo'lganingizni ayting:",
+      "prompt_en": "Say you were going to call yesterday but were busy:",
+      "options": [
+        "어제 전화하려고 했어요. 그런데 바빴어요.",
+        "어제 전화하려고 해요. 그런데 바빴어요.",
+        "어제 전화했으려고 했어요.",
+        "어제 전화하으려고 했어요."
+      ],
+      "answers": [
+        "어제 전화하려고 했어요. 그런데 바빴어요."
+      ]
+    },
+    {
+      "id": "b3_u02_l1_e108",
+      "type": "situation_choice",
+      "targets": [
+        "b3_u02_l1_w009"
+      ],
+      "prompt_uz": "Yangi uy bekatga yaqin ekanini ayting (qulay):",
+      "prompt_en": "Say the new place is close to the station (convenient):",
+      "options": [
+        "역에서 가까워서 편리해요.",
+        "역에서 가까워서 불편해요.",
+        "역에서 멀어서 편리해요.",
+        "역에서 가까워서 시끄러워요."
+      ],
+      "answers": [
+        "역에서 가까워서 편리해요."
+      ]
+    },
+    {
+      "id": "b3_u02_l1_e109",
+      "type": "find_error",
+      "targets": [
+        "b3_u02_l1_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "케이크를 만들으려고 해요.",
+      "answers": [
+        "케이크를 만들려고 해요"
+      ],
+      "why_uz": "ㄹ bilan: 만들려고.",
+      "why_en": "ㄹ stems: 만들려고."
+    },
+    {
+      "id": "b3_u02_l1_e110",
+      "type": "find_error",
+      "targets": [
+        "b3_u02_l1_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "규칙을 설명하 주세요.",
+      "answers": [
+        "규칙을 설명해 주세요"
+      ],
+      "why_uz": "하다 → 해 주다.",
+      "why_en": "하다 → 해 주다."
+    },
+    {
+      "id": "b3_u02_l1_e111",
+      "type": "translate",
+      "targets": [
+        "b3_u02_l1_g1"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Ertaga shartnoma tuzmoqchiman.",
+      "source_en": "I'm going to sign the contract tomorrow.",
+      "answers": [
+        "내일 계약하려고 해요"
+      ]
+    },
+    {
+      "id": "b3_u02_l1_e112",
+      "type": "translate",
+      "targets": [
+        "b3_u02_l1_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Arizani to'ldirib bering.",
+      "source_en": "Please fill in the application form.",
+      "answers": [
+        "신청서를 써 주세요"
+      ]
+    },
+    {
+      "id": "b3_u02_l1_e113",
+      "type": "build_sentence",
+      "targets": [
+        "b3_u02_l1_g1"
+      ],
+      "prompt_uz": "'Ariza berish uchun idoraga bordim' gapini tuzing",
+      "prompt_en": "Build the sentence 'I went to the office to apply'",
+      "tokens": [
+        "신청하려고",
+        "갔어요",
+        "사무실에"
+      ],
+      "answers": [
+        "신청하려고 사무실에 갔어요"
+      ]
+    },
+    {
+      "id": "b3_u02_l1_e114",
+      "type": "listen_question",
+      "targets": [
+        "b3_u02_l1_g1"
+      ],
+      "prompt_uz": "U nima qilmoqchi edi?",
+      "prompt_en": "What was the speaker going to do?",
+      "audio_text": "어제 집을 보려고 했어요. 그런데 비가 많이 왔어요.",
+      "options": [
+        "Uy ko'rmoqchi edi",
+        "Ko'chmoqchi edi",
+        "Ishlamoqchi edi",
+        "Ovqatlanmoqchi edi"
+      ],
+      "options_en": [
+        "See a flat",
+        "Move",
+        "Work",
+        "Eat"
+      ],
+      "answers": [
+        "Uy ko'rmoqchi edi"
+      ],
+      "audio": "74775850a575.mp3"
+    },
+    {
+      "id": "b3_u02_l1_e115",
+      "type": "listen_question",
+      "targets": [
+        "b3_u02_l1_g2"
+      ],
+      "prompt_uz": "Xodim nima qilib beradi?",
+      "prompt_en": "What will the clerk do?",
+      "audio_text": "제가 기숙사 규칙을 설명해 드릴게요.",
+      "options": [
+        "Qoidalarni tushuntiradi",
+        "Kalit beradi",
+        "Yukni ko'chiradi",
+        "Xona ko'rsatadi"
+      ],
+      "options_en": [
+        "Explain the rules",
+        "Give a key",
+        "Move luggage",
+        "Show the room"
+      ],
+      "answers": [
+        "Qoidalarni tushuntiradi"
+      ],
+      "audio": "1b91210a7655.mp3"
+    }
+  ],
+  "test": [
+    "b3_u02_l1_e101",
+    "b3_u02_l1_e102",
+    "b3_u02_l1_e103",
+    "b3_u02_l1_e104",
+    "b3_u02_l1_e105",
+    "b3_u02_l1_e106",
+    "b3_u02_l1_e107",
+    "b3_u02_l1_e108",
+    "b3_u02_l1_e109",
+    "b3_u02_l1_e110",
+    "b3_u02_l1_e111",
+    "b3_u02_l1_e112",
+    "b3_u02_l1_e113",
+    "b3_u02_l1_e114",
+    "b3_u02_l1_e115"
+  ],
+  "story": {
+    "title_uz": "Yotoqxona idorasida",
+    "title_en": "At the dormitory office",
+    "gate_uz": "YOTOQXONA",
+    "gate_en": "DORM",
+    "steps": [
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "안녕하세요. 기숙사로 이사하려고 해요.",
+        "uz": "Assalomu alaykum. Yotoqxonaga ko'chmoqchiman.",
+        "en": "Hello. I'd like to move into the dorm.",
+        "audio": "b15860d631b6.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "clerk",
+        "ko": "네, 신청서를 쓰셨어요?",
+        "uz": "Xo'p, arizani to'ldirdingizmi?",
+        "en": "Sure. Have you filled in the form?",
+        "audio": "07e7137f3554.mp3"
+      },
+      {
+        "type": "choose_reply",
+        "speaker": "aziz",
+        "prompt_uz": "Aziz 'Hali yo'q. Tartibini tushuntirib bering' demoqchi.",
+        "prompt_en": "Aziz wants to say 'Not yet. Please explain how it works'.",
+        "options": [
+          "아직이요. 방법을 설명해 주세요.",
+          "아직이요. 방법을 설명하 주세요.",
+          "아직이요. 방법을 설명해 줄게요."
+        ],
+        "answer": "아직이요. 방법을 설명해 주세요.",
+        "uz": "Hali yo'q. Tartibini tushuntirib bering.",
+        "en": "Not yet. Please explain how it works.",
+        "why_uz": "Iltimos — -아/어 주세요; 하다 → 해 주세요.",
+        "why_en": "A request: -아/어 주세요; 하다 → 해 주세요.",
+        "audio": "29b6e9651792.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "clerk",
+        "ko": "이 신청서를 써서 금요일까지 내세요.",
+        "uz": "Shu arizani to'ldirib, jumagacha topshiring.",
+        "en": "Fill this in and hand it in by Friday.",
+        "audio": "94d8515138ac.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "방은 몇 명이 같이 써요?",
+        "uz": "Xonada necha kishi yashaydi?",
+        "en": "How many people share a room?",
+        "audio": "0b8c5df0d2e7.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "clerk",
+        "ko": "두 명이요. 룸메이트는 한국 학생이에요.",
+        "uz": "Ikki kishi. Xonadosh — koreys talaba.",
+        "en": "Two. Your roommate is a Korean student.",
+        "audio": "4dea8169411e.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "잘됐네요! 한국어를 많이 연습할 수 있어요.",
+        "uz": "Zo'r! Koreyschani ko'p mashq qila olaman.",
+        "en": "Great! I can practise lots of Korean.",
+        "audio": "c6285127920e.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "clerk",
+        "ko": "통금은 밤 열두 시예요. 늦으면 안 돼요.",
+        "uz": "Cheklov — kechasi o'n ikki. Kechikish mumkin emas.",
+        "en": "Curfew is midnight. Don't be late.",
+        "audio": "1e3a3430d386.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "네, 알겠습니다.",
+        "uz": "Xo'p, tushundim.",
+        "en": "Yes, understood.",
+        "audio": "92e6a681ab16.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "clerk",
+        "ko": "이사하는 날에 짐이 많으면 말해 주세요. 카트를 빌려줄게요.",
+        "uz": "Ko'chish kuni yuk ko'p bo'lsa, ayting. Arava berib turaman.",
+        "en": "If you have lots of things on moving day, tell me. I'll lend you a cart.",
+        "audio": "eb529a61d04d.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "정말 감사합니다! 금요일까지 꼭 낼게요.",
+        "uz": "Katta rahmat! Jumagacha albatta topshiraman.",
+        "en": "Thank you so much! I'll hand it in by Friday.",
+        "audio": "518c97ff83bd.mp3"
+      },
+      {
+        "type": "quiz",
+        "prompt_uz": "Xodim Azizga nima berib turadi?",
+        "prompt_en": "What will the clerk lend Aziz?",
+        "options": [
+          "Arava",
+          "Kalit",
+          "Ariza"
+        ],
+        "options_en": [
+          "A cart",
+          "A key",
+          "A form"
+        ],
+        "answer": "Arava",
+        "why_uz": "카트를 빌려줄게요.",
+        "why_en": "카트를 빌려줄게요 — she'll lend him a cart."
+      }
+    ]
+  }
+}

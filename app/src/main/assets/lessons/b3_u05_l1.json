@@ -1,0 +1,1438 @@
+{
+  "id": "b3_u05_l1",
+  "unit": 5,
+  "lesson": 1,
+  "title_ko": "건강에 관심이 많네요",
+  "title_uz": "Sog'likka juda qiziqar ekansiz",
+  "title_en": "You're really into your health",
+  "topic_uz": "Sog'liq",
+  "topic_en": "Health",
+  "reviewed": false,
+  "words": [
+    {
+      "id": "b3_u05_l1_w001",
+      "ko": "건강",
+      "uz": "sog'liq",
+      "en": "health",
+      "pos": "ot",
+      "example_ko": "건강이 제일 중요해요.",
+      "example_uz": "Sog'liq eng muhim.",
+      "example_en": "Health is the most important thing.",
+      "audio": "1045e37b3862.mp3",
+      "example_audio": "fc1212035875.mp3"
+    },
+    {
+      "id": "b3_u05_l1_w002",
+      "ko": "관심",
+      "uz": "qiziqish",
+      "en": "interest",
+      "pos": "ot",
+      "example_ko": "운동에 관심이 많아요.",
+      "example_uz": "Sportga juda qiziqaman.",
+      "example_en": "I'm very interested in exercise.",
+      "audio": "0bdd5ee3f101.mp3",
+      "example_audio": "2c02433e6108.mp3"
+    },
+    {
+      "id": "b3_u05_l1_w003",
+      "ko": "건강하다",
+      "uz": "sog'lom bo'lmoq",
+      "en": "to be healthy",
+      "pos": "sifat",
+      "example_ko": "건강하게 지내세요.",
+      "example_uz": "Sog'lom yuring.",
+      "example_en": "Stay healthy.",
+      "audio": "dc3ae7afe951.mp3",
+      "example_audio": "a95b619ba90d.mp3"
+    },
+    {
+      "id": "b3_u05_l1_w004",
+      "ko": "습관",
+      "uz": "odat",
+      "en": "habit",
+      "pos": "ot",
+      "example_ko": "좋은 습관을 만들어요.",
+      "example_uz": "Yaxshi odat shakllantiraman.",
+      "example_en": "I'm building good habits.",
+      "audio": "cd418f7099a5.mp3",
+      "example_audio": "e10bf3b7653e.mp3"
+    },
+    {
+      "id": "b3_u05_l1_w005",
+      "ko": "식습관",
+      "uz": "ovqatlanish odati",
+      "en": "eating habits",
+      "pos": "ot",
+      "example_ko": "식습관을 바꿨어요.",
+      "example_uz": "Ovqatlanish odatimni o'zgartirdim.",
+      "example_en": "I changed my eating habits.",
+      "audio": "da90888d49af.mp3",
+      "example_audio": "c359b53ebf7e.mp3"
+    },
+    {
+      "id": "b3_u05_l1_w006",
+      "ko": "규칙적",
+      "uz": "muntazam",
+      "en": "regular",
+      "pos": "ot",
+      "example_ko": "규칙적으로 운동해요.",
+      "example_uz": "Muntazam sport qilaman.",
+      "example_en": "I exercise regularly.",
+      "audio": "4dc8e57822b1.mp3",
+      "example_audio": "75b8751e424d.mp3"
+    },
+    {
+      "id": "b3_u05_l1_w007",
+      "ko": "꾸준히",
+      "uz": "doimiy, uzluksiz",
+      "en": "steadily",
+      "pos": "ravish",
+      "example_ko": "꾸준히 운동하는 게 중요해요.",
+      "example_uz": "Doimiy sport qilish muhim.",
+      "example_en": "Exercising consistently is important.",
+      "audio": "6694c07df6d1.mp3",
+      "example_audio": "750c0c8aed0f.mp3"
+    },
+    {
+      "id": "b3_u05_l1_w008",
+      "ko": "채소",
+      "uz": "sabzavot",
+      "en": "vegetables",
+      "pos": "ot",
+      "example_ko": "채소를 많이 먹어요.",
+      "example_uz": "Sabzavotni ko'p yeyman.",
+      "example_en": "I eat a lot of vegetables.",
+      "audio": "27d921ee7b4e.mp3",
+      "example_audio": "66243b31fb03.mp3"
+    },
+    {
+      "id": "b3_u05_l1_w009",
+      "ko": "패스트푸드",
+      "uz": "fast-fud",
+      "en": "fast food",
+      "pos": "ot",
+      "example_ko": "패스트푸드를 줄였어요.",
+      "example_uz": "Fast-fudni kamaytirdim.",
+      "example_en": "I cut down on fast food.",
+      "audio": "fff1131a49ef.mp3",
+      "example_audio": "fd902717784b.mp3"
+    },
+    {
+      "id": "b3_u05_l1_w010",
+      "ko": "줄이다",
+      "uz": "kamaytirmoq",
+      "en": "to reduce",
+      "pos": "fe'l",
+      "example_ko": "설탕을 줄이세요.",
+      "example_uz": "Shakarni kamaytiring.",
+      "example_en": "Cut down on sugar.",
+      "audio": "4a2528ef2ae1.mp3",
+      "example_audio": "e8461dacaf60.mp3"
+    },
+    {
+      "id": "b3_u05_l1_w011",
+      "ko": "끊다",
+      "uz": "tashlamoq (odatni)",
+      "en": "to quit",
+      "pos": "fe'l",
+      "example_ko": "담배를 끊었어요.",
+      "example_uz": "Chekishni tashladim.",
+      "example_en": "I quit smoking.",
+      "audio": "aa2cd494af21.mp3",
+      "example_audio": "ac8326f6337f.mp3"
+    },
+    {
+      "id": "b3_u05_l1_w012",
+      "ko": "담배",
+      "uz": "sigaret",
+      "en": "cigarette",
+      "pos": "ot",
+      "example_ko": "담배를 피우지 마세요.",
+      "example_uz": "Chekmang.",
+      "example_en": "Don't smoke.",
+      "audio": "6bd9cd8c7e9d.mp3",
+      "example_audio": "f71e2eb0a313.mp3"
+    },
+    {
+      "id": "b3_u05_l1_w013",
+      "ko": "술",
+      "uz": "spirtli ichimlik",
+      "en": "alcohol",
+      "pos": "ot",
+      "example_ko": "술을 안 마셔요.",
+      "example_uz": "Spirtli ichimlik ichmayman.",
+      "example_en": "I don't drink alcohol.",
+      "audio": "8bf6988f14ee.mp3",
+      "example_audio": "84fb69f2bea1.mp3"
+    },
+    {
+      "id": "b3_u05_l1_w014",
+      "ko": "스트레스",
+      "uz": "stress",
+      "en": "stress",
+      "pos": "ot",
+      "example_ko": "스트레스를 많이 받아요.",
+      "example_uz": "Ko'p stress olaman.",
+      "example_en": "I'm under a lot of stress.",
+      "audio": "bb981973ddb0.mp3",
+      "example_audio": "e4ff0c377439.mp3"
+    },
+    {
+      "id": "b3_u05_l1_w015",
+      "ko": "살이 빠지다",
+      "uz": "ozmoq",
+      "en": "to lose weight",
+      "pos": "ibora",
+      "example_ko": "살이 많이 빠졌네요!",
+      "example_uz": "Ancha ozibsiz-ku!",
+      "example_en": "You've lost a lot of weight!",
+      "audio": "b13bff8f70da.mp3",
+      "example_audio": "73e38d137306.mp3"
+    },
+    {
+      "id": "b3_u05_l1_w016",
+      "ko": "살이 찌다",
+      "uz": "semirmoq",
+      "en": "to gain weight",
+      "pos": "ibora",
+      "example_ko": "요즘 살이 쪘어요.",
+      "example_uz": "Shu kunlarda semirdim.",
+      "example_en": "I've put on weight lately.",
+      "audio": "fd3fa39b139b.mp3",
+      "example_audio": "beffd6edb4de.mp3"
+    },
+    {
+      "id": "b3_u05_l1_w017",
+      "ko": "다이어트",
+      "uz": "parhez",
+      "en": "diet",
+      "pos": "ot",
+      "example_ko": "다이어트를 하고 있어요.",
+      "example_uz": "Parhez qilyapman.",
+      "example_en": "I'm on a diet.",
+      "audio": "4505921fd7a8.mp3",
+      "example_audio": "66b6cccf1408.mp3"
+    },
+    {
+      "id": "b3_u05_l1_w018",
+      "ko": "헬스장",
+      "uz": "sport zal",
+      "en": "gym",
+      "pos": "ot",
+      "example_ko": "헬스장에 다녀요.",
+      "example_uz": "Sport zalga qatnayman.",
+      "example_en": "I go to the gym.",
+      "audio": "b66d4ad0f1d0.mp3",
+      "example_audio": "2bef70b7ffa6.mp3"
+    },
+    {
+      "id": "b3_u05_l1_w019",
+      "ko": "자전거",
+      "uz": "velosiped",
+      "en": "bicycle",
+      "pos": "ot",
+      "example_ko": "자전거를 타고 출근해요.",
+      "example_uz": "Ishga velosipedda boraman.",
+      "example_en": "I cycle to work.",
+      "audio": "1a0956633f92.mp3",
+      "example_audio": "727bbafdb729.mp3"
+    },
+    {
+      "id": "b3_u05_l1_w020",
+      "ko": "충분히",
+      "uz": "yetarlicha",
+      "en": "enough",
+      "pos": "ravish",
+      "example_ko": "잠을 충분히 자세요.",
+      "example_uz": "Yetarlicha uxlang.",
+      "example_en": "Get enough sleep.",
+      "audio": "d14cad2f577b.mp3",
+      "example_audio": "19a5ef11184d.mp3"
+    },
+    {
+      "id": "b3_u05_l1_w021",
+      "ko": "잠",
+      "uz": "uyqu",
+      "en": "sleep",
+      "pos": "ot",
+      "example_ko": "잠이 부족해요.",
+      "example_uz": "Uyqum yetmayapti.",
+      "example_en": "I'm not getting enough sleep.",
+      "audio": "fe740e607c97.mp3",
+      "example_audio": "e02dd29de338.mp3"
+    },
+    {
+      "id": "b3_u05_l1_w022",
+      "ko": "몸",
+      "uz": "tana",
+      "en": "body",
+      "pos": "ot",
+      "example_ko": "몸이 가벼워요.",
+      "example_uz": "Tanam yengil.",
+      "example_en": "My body feels light.",
+      "audio": "98099fb1c82e.mp3",
+      "example_audio": "a2e0b43f3ce2.mp3"
+    },
+    {
+      "id": "b3_u05_l1_w023",
+      "ko": "유지하다",
+      "uz": "saqlamoq",
+      "en": "to maintain",
+      "pos": "fe'l",
+      "example_ko": "건강을 유지하고 싶어요.",
+      "example_uz": "Sog'ligimni saqlamoqchiman.",
+      "example_en": "I want to stay healthy.",
+      "audio": "0f6f7055ae7c.mp3",
+      "example_audio": "8686f73dabb1.mp3"
+    },
+    {
+      "id": "b3_u05_l1_w024",
+      "ko": "싱겁다",
+      "uz": "tuzsiz bo'lmoq",
+      "en": "to be bland",
+      "pos": "sifat",
+      "example_ko": "싱겁게 먹는 게 좋아요.",
+      "example_uz": "Tuzsizroq yegan yaxshi.",
+      "example_en": "It's better to eat less salty food.",
+      "audio": "243bca568d56.mp3",
+      "example_audio": "0aa103ef14f1.mp3"
+    },
+    {
+      "id": "b3_u05_l1_w025",
+      "ko": "짜다",
+      "uz": "sho'r bo'lmoq",
+      "en": "to be salty",
+      "pos": "sifat",
+      "example_ko": "너무 짜게 먹지 마세요.",
+      "example_uz": "Juda sho'r yemang.",
+      "example_en": "Don't eat too salty.",
+      "audio": "61ccac97d232.mp3",
+      "example_audio": "9fdfd73e5c49.mp3"
+    },
+    {
+      "id": "b3_u05_l1_w026",
+      "ko": "맛있다",
+      "uz": "mazali bo'lmoq",
+      "en": "to be tasty",
+      "pos": "sifat",
+      "example_ko": "맛있게 드세요.",
+      "example_uz": "Yoqimli ishtaha.",
+      "example_en": "Enjoy your meal.",
+      "audio": "4e064e1e4092.mp3",
+      "example_audio": "1a72c34fddf9.mp3"
+    },
+    {
+      "id": "b3_u05_l1_w027",
+      "ko": "깨끗하다",
+      "uz": "toza bo'lmoq",
+      "en": "to be clean",
+      "pos": "sifat",
+      "example_ko": "손을 깨끗하게 씻으세요.",
+      "example_uz": "Qo'lingizni toza yuving.",
+      "example_en": "Wash your hands well.",
+      "audio": "9245ba86afc6.mp3",
+      "example_audio": "926cfe53d36a.mp3"
+    },
+    {
+      "id": "b3_u05_l1_w028",
+      "ko": "즐겁다",
+      "uz": "quvnoq bo'lmoq",
+      "en": "to be enjoyable",
+      "pos": "sifat",
+      "example_ko": "즐겁게 운동해요.",
+      "example_uz": "Zavq bilan sport qilaman.",
+      "example_en": "I exercise happily.",
+      "audio": "d8016c42e131.mp3",
+      "example_audio": "ad03a52b325b.mp3"
+    },
+    {
+      "id": "b3_u05_l1_w029",
+      "ko": "열심히",
+      "uz": "tirishib",
+      "en": "hard",
+      "pos": "ravish",
+      "example_ko": "매일 열심히 걸어요.",
+      "example_uz": "Har kuni tirishib yuraman.",
+      "example_en": "I walk hard every day.",
+      "audio": "fd200081e775.mp3",
+      "example_audio": "399aa0a3feb7.mp3"
+    },
+    {
+      "id": "b3_u05_l1_w030",
+      "ko": "걷기",
+      "uz": "piyoda yurish",
+      "en": "walking",
+      "pos": "ot",
+      "example_ko": "걷기는 좋은 운동이에요.",
+      "example_uz": "Piyoda yurish — yaxshi mashq.",
+      "example_en": "Walking is good exercise.",
+      "audio": "6a9f873460a5.mp3",
+      "example_audio": "84356717eb2c.mp3"
+    },
+    {
+      "id": "b3_u05_l1_w031",
+      "ko": "요가",
+      "uz": "yoga",
+      "en": "yoga",
+      "pos": "ot",
+      "example_ko": "요가를 하니까 마음이 편해요.",
+      "example_uz": "Yoga qilsam, ko'nglim tinchlanadi.",
+      "example_en": "Yoga makes me feel at ease.",
+      "audio": "1686b5918a7c.mp3",
+      "example_audio": "1cac9e1a9536.mp3"
+    },
+    {
+      "id": "b3_u05_l1_w032",
+      "ko": "얼굴",
+      "uz": "yuz",
+      "en": "face",
+      "pos": "ot",
+      "example_ko": "얼굴이 좋아 보이네요.",
+      "example_uz": "Yuzingiz yaxshi ko'rinyapti.",
+      "example_en": "You look well.",
+      "audio": "faf074ee8021.mp3",
+      "example_audio": "a511828c9199.mp3"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "b3_u05_l1_g1",
+      "pattern": "A-게",
+      "meaning_uz": "...cha, ...ib (sifatdan ravish yasash)",
+      "meaning_en": "-ly (adjective → adverb)",
+      "explanation_md": "**-게** sifatni **ravishga** aylantiradi: ish-harakat **qanday** bajarilishini ko'rsatadi.\n\n**건강하게 지내세요.** — *Sog'lom yuring.*  \n**싱겁게 먹는 게 좋아요.** — *Tuzsizroq yegan yaxshi.*\n\n### Qanday yasaladi\n\n**-다** o'rniga **-게** — 받침 ga qarab o'zgarmaydi:\n\n- 건강하다 → **건강하게**, 깨끗하다 → **깨끗하게**\n- 맛있다 → **맛있게**, 즐겁다 → **즐겁게**\n- 짜다 → **짜게**, 싱겁다 → **싱겁게**\n\n### Esda tuting\n\n- Tayyor iboralar: **맛있게 드세요** (yoqimli ishtaha), **재미있게 보내세요** (qiziqarli o'tkazing), **편하게 앉으세요** (bemalol o'tiring).\n- 1-kitobdagi **많이, 빨리** — maxsus ravishlar; ko'p boshqa sifatlar -게 bilan yasaladi.\n- **ㅂ** sifatlarda ham o'zgarish yo'q: 즐겁다 → **즐겁게** (~~즐거워게~~ emas).",
+      "explanation_md_en": "**-게** turns an adjective into an **adverb**: it tells you **how** something is done.\n\n**건강하게 지내세요.** — *Stay healthy.*  \n**싱겁게 먹는 게 좋아요.** — *It's better to eat less salty food.*\n\n### How to form it\n\nReplace **-다** with **-게** — no change for 받침:\n\n- 건강하다 → **건강하게**, 깨끗하다 → **깨끗하게**\n- 맛있다 → **맛있게**, 즐겁다 → **즐겁게**\n- 짜다 → **짜게**, 싱겁다 → **싱겁게**\n\n### Remember\n\n- Set phrases: **맛있게 드세요** (enjoy your meal), **재미있게 보내세요** (have fun), **편하게 앉으세요** (make yourself comfortable).\n- **많이, 빨리** from book 1 are special adverbs; most other adjectives use -게.\n- **ㅂ** adjectives don't change: 즐겁다 → **즐겁게** (not ~~즐거워게~~).",
+      "formation": [
+        {
+          "condition_uz": "Har qanday sifat",
+          "condition_en": "Any adjective",
+          "rule": "A-다 → A-게",
+          "example": "건강하게, 깨끗하게, 짜게"
+        },
+        {
+          "condition_uz": "ㅂ sifat",
+          "condition_en": "ㅂ adjective",
+          "rule": "o'zgarishsiz + 게",
+          "example": "즐겁게, 싱겁게"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "건강하게 지내세요.",
+          "uz": "Sog'lom yuring.",
+          "en": "Stay healthy.",
+          "audio": "a95b619ba90d.mp3"
+        },
+        {
+          "ko": "싱겁게 먹는 게 좋아요.",
+          "uz": "Tuzsizroq yegan yaxshi.",
+          "en": "It's better to eat less salty food.",
+          "audio": "0aa103ef14f1.mp3"
+        },
+        {
+          "ko": "손을 깨끗하게 씻으세요.",
+          "uz": "Qo'lingizni toza yuving.",
+          "en": "Wash your hands well.",
+          "audio": "926cfe53d36a.mp3"
+        },
+        {
+          "ko": "즐겁게 운동해요.",
+          "uz": "Zavq bilan sport qilaman.",
+          "en": "I enjoy my workouts.",
+          "audio": "ad03a52b325b.mp3"
+        },
+        {
+          "ko": "맛있게 드세요.",
+          "uz": "Yoqimli ishtaha.",
+          "en": "Enjoy your meal.",
+          "audio": "1a72c34fddf9.mp3"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "건강하 지내세요.",
+          "right": "건강하게 지내세요.",
+          "why_uz": "-다 o'rniga -게.",
+          "why_en": "Replace -다 with -게."
+        },
+        {
+          "wrong": "즐거워게 운동해요.",
+          "right": "즐겁게 운동해요.",
+          "why_uz": "-게 oldidan ㅂ o'zgarmaydi.",
+          "why_en": "ㅂ doesn't change before -게."
+        },
+        {
+          "wrong": "짜게요 먹지 마세요.",
+          "right": "짜게 먹지 마세요.",
+          "why_uz": "-게 dan keyin 요 yo'q.",
+          "why_en": "No 요 after -게."
+        }
+      ],
+      "uz_compare": "O'zbekchada sifatdan ravish ko'pincha '-cha' yoki shunchaki sifat bilan: 'sog'lom yuring', 'toza yuving'. Koreyschada doim -게 kerak: 건강하게, 깨끗하게.",
+      "compare_en": "Like English '-ly': 'healthily', 'cleanly'. Korean adds -게 to almost any adjective: 건강하게, 깨끗하게."
+    },
+    {
+      "id": "b3_u05_l1_g2",
+      "pattern": "A/V-네요",
+      "meaning_uz": "...ekan-ku! (yangi narsani payqab hayratlanish)",
+      "meaning_en": "Oh, …! (noticing something)",
+      "explanation_md": "**-네요** — gapiruvchi **hozirgina payqagan** narsasiga munosabat bildiradi: hayrat, maqtov, his. \"... ekan-ku!\", \"... ekansiz!\"\n\n**건강에 관심이 많네요.** — *Sog'likka juda qiziqar ekansiz.*  \n**살이 많이 빠졌네요!** — *Ancha ozibsiz-ku!*\n\n### Qanday yasaladi\n\n**-다** o'rniga **-네요** — 받침 ga qarab o'zgarmaydi:\n\n- 많다 → **많네요**, 좋다 → **좋네요**\n- 덥다 → **덥네요**, 맛있다 → **맛있네요**\n- O'tgan: 빠졌다 → **빠졌네요**\n- Ot: **N이네요 / N네요**: 학생**이네요**, 친구**네요**\n- **ㄹ** tushadi: 멀다 → **머네요**, 만들다 → **만드네요**\n\n### Esda tuting\n\n- O'zingiz **endi ko'rgan/bilgan** narsa uchun. Oldindan biladigan faktga emas: ~~제 이름은 아지즈네요~~.\n- Ko'pincha maqtovda: **한국어를 잘하네요!** — *Koreyschangiz zo'r ekan!*",
+      "explanation_md_en": "**-네요** reacts to something the speaker **has just noticed**: surprise, praise or feeling. \"Oh, …!\", \"Wow, …!\"\n\n**건강에 관심이 많네요.** — *You're really into your health, aren't you!*  \n**살이 많이 빠졌네요!** — *You've lost a lot of weight!*\n\n### How to form it\n\nReplace **-다** with **-네요** — no change for 받침:\n\n- 많다 → **많네요**, 좋다 → **좋네요**\n- 덥다 → **덥네요**, 맛있다 → **맛있네요**\n- Past: 빠졌다 → **빠졌네요**\n- Noun: **N이네요 / N네요**: 학생**이네요**, 친구**네요**\n- **ㄹ** drops: 멀다 → **머네요**, 만들다 → **만드네요**\n\n### Remember\n\n- Only for what you've **just seen or learned**. Not for facts you already knew: not ~~제 이름은 아지즈네요~~.\n- Common in compliments: **한국어를 잘하네요!** — *Your Korean is great!*",
+      "formation": [
+        {
+          "condition_uz": "Fe'l/sifat",
+          "condition_en": "Verb/adjective",
+          "rule": "-다 → -네요",
+          "example": "많네요, 좋네요, 잘하네요"
+        },
+        {
+          "condition_uz": "O'tgan",
+          "condition_en": "Past",
+          "rule": "-았/었네요",
+          "example": "빠졌네요, 바뀌었네요"
+        },
+        {
+          "condition_uz": "Ot",
+          "condition_en": "Noun",
+          "rule": "N(이)네요",
+          "example": "학생이네요, 친구네요"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "건강에 관심이 많네요.",
+          "uz": "Sog'likka juda qiziqar ekansiz.",
+          "en": "You're really into your health.",
+          "audio": "4ee3d33373ab.mp3"
+        },
+        {
+          "ko": "살이 많이 빠졌네요!",
+          "uz": "Ancha ozibsiz-ku!",
+          "en": "You've lost a lot of weight!",
+          "audio": "73e38d137306.mp3"
+        },
+        {
+          "ko": "얼굴이 좋아 보이네요.",
+          "uz": "Yuzingiz yaxshi ko'rinyapti.",
+          "en": "You look well.",
+          "audio": "a511828c9199.mp3"
+        },
+        {
+          "ko": "오늘 날씨가 정말 덥네요.",
+          "uz": "Bugun havo juda issiq ekan.",
+          "en": "It's really hot today.",
+          "audio": "e0c380fdc520.mp3"
+        },
+        {
+          "ko": "한국어를 정말 잘하네요!",
+          "uz": "Koreyschangiz juda zo'r ekan!",
+          "en": "Your Korean is really good!",
+          "audio": "f9af205f8603.mp3"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "날씨가 덥워요네요.",
+          "right": "날씨가 덥네요.",
+          "why_uz": "-다 o'rniga -네요: 덥네요.",
+          "why_en": "Replace -다 with -네요: 덥네요."
+        },
+        {
+          "wrong": "집이 멀네요.",
+          "right": "집이 머네요.",
+          "why_uz": "멀다: ㄹ tushadi → 머네요.",
+          "why_en": "멀다: ㄹ drops → 머네요."
+        },
+        {
+          "wrong": "살이 빠지네요. (allaqachon ozgan)",
+          "right": "살이 빠졌네요.",
+          "why_uz": "Bo'lib o'tgan o'zgarish: -았/었네요.",
+          "why_en": "A change that already happened: -았/었네요."
+        }
+      ],
+      "uz_compare": "O'zbekchadagi '... ekan-ku!' yoki '... ekansiz!' bilan bir xil: 'Ozibsiz-KU!' = 빠졌네요!, 'Zo'r EKAN!' = 잘하네요!",
+      "compare_en": "Like English 'Oh, you've …!' or 'Wow, it's …!' when you notice something: 'You've lost weight!' = 살이 빠졌네요!"
+    }
+  ],
+  "dialogue": {
+    "lines": [
+      {
+        "speaker": "minji",
+        "ko": "아지즈 씨, 살이 많이 빠졌네요!",
+        "uz": "Aziz, ancha ozibsiz-ku!",
+        "en": "Aziz, you've lost a lot of weight!",
+        "audio": "5acbe4905bd7.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "네, 요즘 건강하게 먹으려고 해요.",
+        "uz": "Ha, shu kunlarda sog'lom ovqatlanishga harakat qilyapman.",
+        "en": "Yes, I'm trying to eat healthily these days.",
+        "audio": "15e01c441f07.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "식습관을 바꿨어요?",
+        "uz": "Ovqatlanish odatingizni o'zgartirdingizmi?",
+        "en": "Did you change your eating habits?",
+        "audio": "c8aaa13cee84.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "패스트푸드를 줄이고 채소를 많이 먹어요. 그리고 싱겁게 먹어요.",
+        "uz": "Fast-fudni kamaytirib, sabzavotni ko'p yeyapman. Tuzsizroq ham.",
+        "en": "I've cut down on fast food and eat lots of vegetables. And less salt.",
+        "audio": "f476a2fb7376.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "와, 건강에 관심이 많네요. 운동도 해요?",
+        "uz": "Voy, sog'likka juda qiziqar ekansiz. Sport ham qilasizmi?",
+        "en": "Wow, you're really into your health. Do you exercise too?",
+        "audio": "b6b5532821ea.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "네, 아침마다 자전거를 타요. 꾸준히 하니까 몸이 가벼워요.",
+        "uz": "Ha, har ertalab velosiped haydayman. Doimiy qilganim uchun tanam yengil.",
+        "en": "Yes, I cycle every morning. Doing it regularly makes my body feel light.",
+        "audio": "0c3871b2ae0c.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "얼굴도 좋아 보이네요. 저는 요즘 스트레스를 많이 받아요.",
+        "uz": "Yuzingiz ham yaxshi ko'rinyapti. Men shu kunlarda ko'p stress olyapman.",
+        "en": "You look well too. I've been really stressed lately.",
+        "audio": "6549937d7ba0.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "그럼 요가를 해 보는 게 어때요? 마음이 편해져요.",
+        "uz": "Unda yoga qilib ko'rsangiz-chi? Ko'ngil tinchlanadi.",
+        "en": "Then how about trying yoga? It calms you down.",
+        "audio": "59601c7d22b0.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "좋아요. 잠도 충분히 자야겠네요.",
+        "uz": "Yaxshi. Uyquni ham yetarli qilishim kerak ekan.",
+        "en": "Good idea. I guess I need to get enough sleep too.",
+        "audio": "8b4e95dae484.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "네, 잠이 제일 중요해요.",
+        "uz": "Ha, uyqu eng muhim.",
+        "en": "Yes, sleep is the most important thing.",
+        "audio": "022443bf3f30.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "아지즈 씨 덕분에 저도 건강하게 지낼 거예요!",
+        "uz": "Aziz, sizning sharofatingiz bilan men ham sog'lom yashayman!",
+        "en": "Thanks to you, Aziz, I'm going to live healthily too!",
+        "audio": "954f19c168b9.mp3"
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b3_u05_l1_e001",
+      "type": "conjugate",
+      "targets": [
+        "b3_u05_l1_g1"
+      ],
+      "prompt_uz": "'Sog'lom' ravishini yasang",
+      "prompt_en": "Make the adverb of 'healthy'",
+      "base": "건강하다",
+      "form": "-게",
+      "answers": [
+        "건강하게"
+      ]
+    },
+    {
+      "id": "b3_u05_l1_e002",
+      "type": "conjugate",
+      "targets": [
+        "b3_u05_l1_g1"
+      ],
+      "prompt_uz": "'Toza' ravishini yasang",
+      "prompt_en": "Make the adverb of 'clean'",
+      "base": "깨끗하다",
+      "form": "-게",
+      "answers": [
+        "깨끗하게"
+      ]
+    },
+    {
+      "id": "b3_u05_l1_e003",
+      "type": "conjugate",
+      "targets": [
+        "b3_u05_l1_g2"
+      ],
+      "prompt_uz": "'Ko'p ekan!' shaklini yasang",
+      "prompt_en": "Make 'oh, there's a lot!'",
+      "base": "많다",
+      "form": "-네요",
+      "answers": [
+        "많네요"
+      ]
+    },
+    {
+      "id": "b3_u05_l1_e004",
+      "type": "conjugate",
+      "targets": [
+        "b3_u05_l1_g2"
+      ],
+      "prompt_uz": "'Ozibsiz-ku!' shaklini yasang",
+      "prompt_en": "Make 'you've lost weight!'",
+      "base": "살이 빠지다",
+      "form": "-았/었네요",
+      "answers": [
+        "살이 빠졌네요"
+      ]
+    },
+    {
+      "id": "b3_u05_l1_e005",
+      "type": "fill_blank",
+      "targets": [
+        "b3_u05_l1_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Tuzsizroq yegan yaxshi.'",
+      "prompt_en": "Fill in the blank: 'It's better to eat less salty food.'",
+      "sentence": "___ 먹는 게 좋아요. (싱겁다)",
+      "answers": [
+        "싱겁게"
+      ]
+    },
+    {
+      "id": "b3_u05_l1_e006",
+      "type": "fill_blank",
+      "targets": [
+        "b3_u05_l1_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Zavq bilan sport qilaman.'",
+      "prompt_en": "Fill in the blank: 'I enjoy my workouts.'",
+      "sentence": "___ 운동해요. (즐겁다)",
+      "answers": [
+        "즐겁게"
+      ]
+    },
+    {
+      "id": "b3_u05_l1_e007",
+      "type": "fill_blank",
+      "targets": [
+        "b3_u05_l1_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Bugun havo juda issiq ekan.'",
+      "prompt_en": "Fill in the blank: 'It's really hot today.'",
+      "sentence": "오늘 날씨가 정말 ___. (덥다)",
+      "answers": [
+        "덥네요"
+      ]
+    },
+    {
+      "id": "b3_u05_l1_e008",
+      "type": "fill_blank",
+      "targets": [
+        "b3_u05_l1_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Koreyschangiz zo'r ekan!'",
+      "prompt_en": "Fill in the blank: 'Your Korean is great!'",
+      "sentence": "한국어를 정말 ___! (잘하다)",
+      "answers": [
+        "잘하네요"
+      ]
+    },
+    {
+      "id": "b3_u05_l1_e009",
+      "type": "situation_choice",
+      "targets": [
+        "b3_u05_l1_g2"
+      ],
+      "prompt_uz": "Do'stingiz ancha ozganini payqadingiz:",
+      "prompt_en": "You notice your friend has lost a lot of weight:",
+      "options": [
+        "살이 많이 빠졌네요!",
+        "살이 많이 빠지네요요!",
+        "살이 많이 빠졌어요네요!",
+        "살이 많이 찌었네요!"
+      ],
+      "answers": [
+        "살이 많이 빠졌네요!"
+      ]
+    },
+    {
+      "id": "b3_u05_l1_e010",
+      "type": "situation_choice",
+      "targets": [
+        "b3_u05_l1_g1"
+      ],
+      "prompt_uz": "Do'stingizga 'Sog'lom yuring' deb xayrlashing:",
+      "prompt_en": "Say goodbye with 'Stay healthy':",
+      "options": [
+        "건강하게 지내세요.",
+        "건강하 지내세요.",
+        "건강해게 지내세요.",
+        "건강하네요 지내세요."
+      ],
+      "answers": [
+        "건강하게 지내세요."
+      ]
+    },
+    {
+      "id": "b3_u05_l1_e011",
+      "type": "situation_choice",
+      "targets": [
+        "b3_u05_l1_w011"
+      ],
+      "prompt_uz": "Chekishni tashlaganingizni ayting:",
+      "prompt_en": "Say you quit smoking:",
+      "options": [
+        "담배를 끊었어요.",
+        "담배를 줄였어요요.",
+        "담배를 유지했어요.",
+        "담배를 빠졌어요."
+      ],
+      "answers": [
+        "담배를 끊었어요."
+      ]
+    },
+    {
+      "id": "b3_u05_l1_e012",
+      "type": "find_error",
+      "targets": [
+        "b3_u05_l1_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "즐거워게 운동해요.",
+      "answers": [
+        "즐겁게 운동해요"
+      ],
+      "why_uz": "-게 oldidan ㅂ o'zgarmaydi.",
+      "why_en": "ㅂ doesn't change before -게."
+    },
+    {
+      "id": "b3_u05_l1_e013",
+      "type": "find_error",
+      "targets": [
+        "b3_u05_l1_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "집이 멀네요.",
+      "answers": [
+        "집이 머네요"
+      ],
+      "why_uz": "멀다: ㄹ tushadi.",
+      "why_en": "멀다: ㄹ drops."
+    },
+    {
+      "id": "b3_u05_l1_e014",
+      "type": "find_error",
+      "targets": [
+        "b3_u05_l1_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "날씨가 덥워네요.",
+      "answers": [
+        "날씨가 덥네요"
+      ],
+      "why_uz": "-다 o'rniga -네요.",
+      "why_en": "Replace -다 with -네요."
+    },
+    {
+      "id": "b3_u05_l1_e015",
+      "type": "translate",
+      "targets": [
+        "b3_u05_l1_g1"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Qo'lingizni toza yuving.",
+      "source_en": "Wash your hands well.",
+      "answers": [
+        "손을 깨끗하게 씻으세요"
+      ]
+    },
+    {
+      "id": "b3_u05_l1_e016",
+      "type": "translate",
+      "targets": [
+        "b3_u05_l1_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Yuzingiz yaxshi ko'rinyapti.",
+      "source_en": "You look well.",
+      "answers": [
+        "얼굴이 좋아 보이네요"
+      ]
+    },
+    {
+      "id": "b3_u05_l1_e017",
+      "type": "translate",
+      "targets": [
+        "b3_u05_l1_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Sog'likka juda qiziqar ekansiz.",
+      "source_en": "You're really into your health.",
+      "answers": [
+        "건강에 관심이 많네요"
+      ]
+    },
+    {
+      "id": "b3_u05_l1_e018",
+      "type": "build_sentence",
+      "targets": [
+        "b3_u05_l1_g1"
+      ],
+      "prompt_uz": "'Juda sho'r yemang' gapini tuzing",
+      "prompt_en": "Build the sentence 'Don't eat too salty'",
+      "tokens": [
+        "마세요",
+        "먹지",
+        "너무",
+        "짜게"
+      ],
+      "answers": [
+        "너무 짜게 먹지 마세요"
+      ]
+    },
+    {
+      "id": "b3_u05_l1_e019",
+      "type": "build_sentence",
+      "targets": [
+        "b3_u05_l1_g2"
+      ],
+      "prompt_uz": "'Bugun havo juda issiq ekan' gapini tuzing",
+      "prompt_en": "Build the sentence 'It's really hot today'",
+      "tokens": [
+        "오늘",
+        "정말",
+        "덥네요",
+        "날씨가"
+      ],
+      "answers": [
+        "오늘 날씨가 정말 덥네요"
+      ]
+    },
+    {
+      "id": "b3_u05_l1_e020",
+      "type": "build_sentence",
+      "targets": [
+        "b3_u05_l1_g1",
+        "b3_u05_l1_g2"
+      ],
+      "prompt_uz": "'Sog'lom yashayapsiz-ku!' gapini tuzing",
+      "prompt_en": "Build the sentence 'You're living so healthily!'",
+      "tokens": [
+        "사네요!",
+        "건강하게"
+      ],
+      "answers": [
+        "건강하게 사네요!"
+      ]
+    },
+    {
+      "id": "b3_u05_l1_e021",
+      "type": "listen_question",
+      "targets": [
+        "b3_u05_l1_g2"
+      ],
+      "prompt_uz": "Ayol nimani payqadi?",
+      "prompt_en": "What did the woman notice?",
+      "audio_text": "와, 살이 많이 빠졌네요!",
+      "options": [
+        "Ozganini",
+        "Semirganini",
+        "Charchaganini",
+        "Kasal ekanini"
+      ],
+      "options_en": [
+        "Lost weight",
+        "Gained weight",
+        "Looks tired",
+        "Is sick"
+      ],
+      "answers": [
+        "Ozganini"
+      ],
+      "audio": "90a6301c7e42.mp3"
+    },
+    {
+      "id": "b3_u05_l1_e022",
+      "type": "listen_question",
+      "targets": [
+        "b3_u05_l1_g1"
+      ],
+      "prompt_uz": "Shifokor nimani maslahat beryapti?",
+      "prompt_en": "What does the doctor advise?",
+      "audio_text": "짜게 먹지 말고 싱겁게 드세요.",
+      "options": [
+        "Tuzsizroq yeyish",
+        "Ko'proq yeyish",
+        "Shirin yeyish",
+        "Ochiqmaslik"
+      ],
+      "options_en": [
+        "Eat less salt",
+        "Eat more",
+        "Eat sweets",
+        "Skip meals"
+      ],
+      "answers": [
+        "Tuzsizroq yeyish"
+      ],
+      "audio": "c188164796cc.mp3"
+    },
+    {
+      "id": "b3_u05_l1_e023",
+      "type": "listen_question",
+      "targets": [
+        "b3_u05_l1_g1",
+        "b3_u05_l1_g2"
+      ],
+      "prompt_uz": "U qanday sport qiladi?",
+      "prompt_en": "How does the speaker exercise?",
+      "audio_text": "아침마다 즐겁게 자전거를 타요.",
+      "options": [
+        "Velosiped haydaydi",
+        "Yugurishadi",
+        "Suzadi",
+        "Yoga qiladi"
+      ],
+      "options_en": [
+        "Cycling",
+        "Running",
+        "Swimming",
+        "Yoga"
+      ],
+      "answers": [
+        "Velosiped haydaydi"
+      ],
+      "audio": "40b946b3fddd.mp3"
+    },
+    {
+      "id": "b3_u05_l1_e024",
+      "type": "listen_question",
+      "targets": [
+        "b3_u05_l1_g2"
+      ],
+      "prompt_uz": "Erkak nimani maqtayapti?",
+      "prompt_en": "What is the man praising?",
+      "audio_text": "요리를 정말 잘하네요. 아주 맛있어요!",
+      "options": [
+        "Ovqat pishirishni",
+        "Kiyimni",
+        "Koreyschani",
+        "Uyni"
+      ],
+      "options_en": [
+        "The cooking",
+        "The clothes",
+        "The Korean",
+        "The house"
+      ],
+      "answers": [
+        "Ovqat pishirishni"
+      ],
+      "audio": "9497d51adbec.mp3"
+    },
+    {
+      "id": "b3_u05_l1_e101",
+      "type": "conjugate",
+      "targets": [
+        "b3_u05_l1_g1"
+      ],
+      "prompt_uz": "'Mazali' ravishini yasang",
+      "prompt_en": "Make the adverb of 'tasty'",
+      "base": "맛있다",
+      "form": "-게",
+      "answers": [
+        "맛있게"
+      ]
+    },
+    {
+      "id": "b3_u05_l1_e102",
+      "type": "conjugate",
+      "targets": [
+        "b3_u05_l1_g2"
+      ],
+      "prompt_uz": "'Yaxshi ekan!' shaklini yasang",
+      "prompt_en": "Make 'oh, it's good!'",
+      "base": "좋다",
+      "form": "-네요",
+      "answers": [
+        "좋네요"
+      ]
+    },
+    {
+      "id": "b3_u05_l1_e103",
+      "type": "conjugate",
+      "targets": [
+        "b3_u05_l1_g2"
+      ],
+      "prompt_uz": "'Uzoq ekan!' shaklini yasang",
+      "prompt_en": "Make 'oh, it's far!'",
+      "base": "멀다",
+      "form": "-네요",
+      "answers": [
+        "머네요"
+      ]
+    },
+    {
+      "id": "b3_u05_l1_e104",
+      "type": "fill_blank",
+      "targets": [
+        "b3_u05_l1_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Qiziqarli o'tkazing.'",
+      "prompt_en": "Fill in the blank: 'Have fun.'",
+      "sentence": "___ 보내세요. (재미있다)",
+      "answers": [
+        "재미있게"
+      ]
+    },
+    {
+      "id": "b3_u05_l1_e105",
+      "type": "fill_blank",
+      "targets": [
+        "b3_u05_l1_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Bu taom mazali ekan!'",
+      "prompt_en": "Fill in the blank: 'This food is tasty!'",
+      "sentence": "이 음식 ___! (맛있다)",
+      "answers": [
+        "맛있네요"
+      ]
+    },
+    {
+      "id": "b3_u05_l1_e106",
+      "type": "situation_choice",
+      "targets": [
+        "b3_u05_l1_g2"
+      ],
+      "prompt_uz": "Do'stingizning uyiga kirdingiz — juda toza ekan:",
+      "prompt_en": "You enter a friend's home — it's very clean:",
+      "options": [
+        "집이 정말 깨끗하네요!",
+        "집이 정말 깨끗하게요!",
+        "집이 정말 깨끗했었네요요!",
+        "집이 정말 깨끗하세요!"
+      ],
+      "answers": [
+        "집이 정말 깨끗하네요!"
+      ]
+    },
+    {
+      "id": "b3_u05_l1_e107",
+      "type": "situation_choice",
+      "targets": [
+        "b3_u05_l1_g1"
+      ],
+      "prompt_uz": "Mehmonga 'Bemalol o'tiring' deng:",
+      "prompt_en": "Tell a guest 'Make yourself comfortable':",
+      "options": [
+        "편하게 앉으세요.",
+        "편하 앉으세요.",
+        "편해게 앉으세요.",
+        "편하네요 앉으세요."
+      ],
+      "answers": [
+        "편하게 앉으세요."
+      ]
+    },
+    {
+      "id": "b3_u05_l1_e108",
+      "type": "situation_choice",
+      "targets": [
+        "b3_u05_l1_w021"
+      ],
+      "prompt_uz": "Uyqungiz yetmayotganini ayting:",
+      "prompt_en": "Say you're not getting enough sleep:",
+      "options": [
+        "잠이 부족해요.",
+        "잠이 충분해요.",
+        "잠이 빠졌어요.",
+        "잠이 끊었어요."
+      ],
+      "answers": [
+        "잠이 부족해요."
+      ]
+    },
+    {
+      "id": "b3_u05_l1_e109",
+      "type": "find_error",
+      "targets": [
+        "b3_u05_l1_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "건강하 지내세요.",
+      "answers": [
+        "건강하게 지내세요"
+      ],
+      "why_uz": "-다 o'rniga -게.",
+      "why_en": "Replace -다 with -게."
+    },
+    {
+      "id": "b3_u05_l1_e110",
+      "type": "find_error",
+      "targets": [
+        "b3_u05_l1_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "케이크를 잘 만들네요.",
+      "answers": [
+        "케이크를 잘 만드네요"
+      ],
+      "why_uz": "만들다: ㄹ tushadi.",
+      "why_en": "만들다: ㄹ drops."
+    },
+    {
+      "id": "b3_u05_l1_e111",
+      "type": "translate",
+      "targets": [
+        "b3_u05_l1_g1"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Muntazam sport qilaman.",
+      "source_en": "I exercise regularly.",
+      "answers": [
+        "규칙적으로 운동해요",
+        "꾸준히 운동해요"
+      ]
+    },
+    {
+      "id": "b3_u05_l1_e112",
+      "type": "translate",
+      "targets": [
+        "b3_u05_l1_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Ancha ozibsiz-ku!",
+      "source_en": "You've lost a lot of weight!",
+      "answers": [
+        "살이 많이 빠졌네요",
+        "살이 많이 빠졌네요!"
+      ]
+    },
+    {
+      "id": "b3_u05_l1_e113",
+      "type": "build_sentence",
+      "targets": [
+        "b3_u05_l1_g1"
+      ],
+      "prompt_uz": "'Sog'lom ovqatlanishga harakat qilaman' gapini tuzing",
+      "prompt_en": "Build the sentence 'I try to eat healthily'",
+      "tokens": [
+        "먹으려고",
+        "해요",
+        "건강하게"
+      ],
+      "answers": [
+        "건강하게 먹으려고 해요"
+      ]
+    },
+    {
+      "id": "b3_u05_l1_e114",
+      "type": "listen_question",
+      "targets": [
+        "b3_u05_l1_g2"
+      ],
+      "prompt_uz": "Ayol nimadan hayratlandi?",
+      "prompt_en": "What surprised the woman?",
+      "audio_text": "와, 아침 여섯 시에 일어나네요!",
+      "options": [
+        "Erta turishidan",
+        "Kech turishidan",
+        "Ko'p yeyishidan",
+        "Sport qilmasligidan"
+      ],
+      "options_en": [
+        "Getting up early",
+        "Getting up late",
+        "Eating a lot",
+        "Not exercising"
+      ],
+      "answers": [
+        "Erta turishidan"
+      ],
+      "audio": "f907aae9ccf8.mp3"
+    },
+    {
+      "id": "b3_u05_l1_e115",
+      "type": "listen_question",
+      "targets": [
+        "b3_u05_l1_g1"
+      ],
+      "prompt_uz": "U qanday yeyishga harakat qilyapti?",
+      "prompt_en": "How is the speaker trying to eat?",
+      "audio_text": "요즘 짜게 먹지 않고 싱겁게 먹으려고 해요.",
+      "options": [
+        "Tuzsizroq",
+        "Sho'rroq",
+        "Ko'proq",
+        "Tezroq"
+      ],
+      "options_en": [
+        "Less salty",
+        "Saltier",
+        "More",
+        "Faster"
+      ],
+      "answers": [
+        "Tuzsizroq"
+      ],
+      "audio": "42435f27a963.mp3"
+    }
+  ],
+  "test": [
+    "b3_u05_l1_e101",
+    "b3_u05_l1_e102",
+    "b3_u05_l1_e103",
+    "b3_u05_l1_e104",
+    "b3_u05_l1_e105",
+    "b3_u05_l1_e106",
+    "b3_u05_l1_e107",
+    "b3_u05_l1_e108",
+    "b3_u05_l1_e109",
+    "b3_u05_l1_e110",
+    "b3_u05_l1_e111",
+    "b3_u05_l1_e112",
+    "b3_u05_l1_e113",
+    "b3_u05_l1_e114",
+    "b3_u05_l1_e115"
+  ],
+  "story": {
+    "title_uz": "Yangi Aziz",
+    "title_en": "A new Aziz",
+    "gate_uz": "SOG'LIQ",
+    "gate_en": "HEALTH",
+    "steps": [
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "아지즈 씨? 와, 살이 많이 빠졌네요!",
+        "uz": "Azizmi? Voy, ancha ozibsiz-ku!",
+        "en": "Aziz? Wow, you've lost a lot of weight!",
+        "audio": "4c641e9c981e.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "네, 요즘 건강하게 먹으려고 해요.",
+        "uz": "Ha, sog'lom ovqatlanishga harakat qilyapman.",
+        "en": "Yes, I'm trying to eat healthily these days.",
+        "audio": "15e01c441f07.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "어떻게 먹어요?",
+        "uz": "Qanday ovqatlanyapsiz?",
+        "en": "How are you eating?",
+        "audio": "d3fb0e7750cc.mp3"
+      },
+      {
+        "type": "choose_reply",
+        "speaker": "aziz",
+        "prompt_uz": "Aziz 'Tuzsizroq yeyapman' demoqchi.",
+        "prompt_en": "Aziz wants to say 'I eat less salty food'.",
+        "options": [
+          "싱겁게 먹어요.",
+          "싱거워게 먹어요.",
+          "싱겁네요 먹어요."
+        ],
+        "answer": "싱겁게 먹어요.",
+        "uz": "Tuzsizroq yeyapman.",
+        "en": "I eat less salty food.",
+        "why_uz": "Sifat → ravish: 싱겁다 → 싱겁게.",
+        "why_en": "Adjective → adverb: 싱겁다 → 싱겁게.",
+        "audio": "596710ad00a1.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "그리고 패스트푸드를 줄였어요.",
+        "uz": "Yana fast-fudni kamaytirdim.",
+        "en": "And I've cut down on fast food.",
+        "audio": "041a50eb4b13.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "건강에 관심이 많네요! 운동도 해요?",
+        "uz": "Sog'likka qiziqar ekansiz! Sport ham qilasizmi?",
+        "en": "You're really into your health! Do you exercise too?",
+        "audio": "6f39d8b3eb38.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "아침마다 자전거를 타요. 몸이 가벼워요.",
+        "uz": "Har ertalab velosiped. Tanam yengil.",
+        "en": "I cycle every morning. My body feels light.",
+        "audio": "074ac3d7e7ae.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "저는 요즘 스트레스가 많아요. 잠도 부족해요.",
+        "uz": "Men shu kunlarda ko'p stressdaman. Uyqum ham yetmaydi.",
+        "en": "I'm really stressed these days. I'm not sleeping enough either.",
+        "audio": "b194299fbb88.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "요가를 해 보는 게 어때요? 마음이 편해져요.",
+        "uz": "Yoga qilib ko'rsangiz-chi? Ko'ngil tinchlanadi.",
+        "en": "Why not try yoga? It's calming.",
+        "audio": "8b6b64ca47a2.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "좋아요. 그리고 잠도 충분히 잘게요.",
+        "uz": "Yaxshi. Uyquni ham yetarli qilaman.",
+        "en": "Good. And I'll get enough sleep too.",
+        "audio": "5649ca589744.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "같이 건강하게 지내요!",
+        "uz": "Birga sog'lom yashaymiz!",
+        "en": "Let's both stay healthy!",
+        "audio": "a2b37c08e863.mp3"
+      },
+      {
+        "type": "quiz",
+        "prompt_uz": "Aziz har ertalab nima qiladi?",
+        "prompt_en": "What does Aziz do every morning?",
+        "options": [
+          "Velosiped haydaydi",
+          "Yoga qiladi",
+          "Suzadi"
+        ],
+        "options_en": [
+          "Cycles",
+          "Does yoga",
+          "Swims"
+        ],
+        "answer": "Velosiped haydaydi",
+        "why_uz": "아침마다 자전거를 타요.",
+        "why_en": "아침마다 자전거를 타요 — he cycles every morning."
+      }
+    ]
+  }
+}

@@ -1,0 +1,1454 @@
+{
+  "id": "b3_u08_l2",
+  "unit": 8,
+  "lesson": 2,
+  "title_ko": "대학교를 졸업한 후에 뭐 하고 싶어요?",
+  "title_uz": "Universitetni bitirgach nima qilmoqchisiz?",
+  "title_en": "What do you want to do after graduating?",
+  "topic_uz": "O'zgarish",
+  "topic_en": "Change",
+  "reviewed": false,
+  "words": [
+    {
+      "id": "b3_u08_l2_w001",
+      "ko": "졸업",
+      "uz": "bitiruv",
+      "en": "graduation",
+      "pos": "ot",
+      "example_ko": "졸업 후에 뭐 할 거예요?",
+      "example_uz": "Bitiruvdan keyin nima qilasiz?",
+      "example_en": "What will you do after graduation?",
+      "audio": "872de3ddc179.mp3",
+      "example_audio": "87e710c62de6.mp3"
+    },
+    {
+      "id": "b3_u08_l2_w002",
+      "ko": "취업",
+      "uz": "ishga joylashish",
+      "en": "getting a job",
+      "pos": "ot",
+      "example_ko": "취업 준비를 하고 있어요.",
+      "example_uz": "Ishga joylashishga tayyorlanyapman.",
+      "example_en": "I'm preparing to get a job.",
+      "audio": "f1abc17138f5.mp3",
+      "example_audio": "c1f0fd432c77.mp3"
+    },
+    {
+      "id": "b3_u08_l2_w003",
+      "ko": "대학원",
+      "uz": "magistratura",
+      "en": "graduate school",
+      "pos": "ot",
+      "example_ko": "대학원에 진학하고 싶어요.",
+      "example_uz": "Magistraturaga kirmoqchiman.",
+      "example_en": "I want to go on to graduate school.",
+      "audio": "3a31b4cb8c23.mp3",
+      "example_audio": "1e0c56cc3b85.mp3"
+    },
+    {
+      "id": "b3_u08_l2_w004",
+      "ko": "진학하다",
+      "uz": "keyingi bosqichga o'qishga kirmoq",
+      "en": "to go on to (higher education)",
+      "pos": "fe'l",
+      "example_ko": "졸업한 후에 대학원에 진학할 거예요.",
+      "example_uz": "Bitirgach magistraturaga kiraman.",
+      "example_en": "I'll go on to graduate school after graduating.",
+      "audio": "a2ebcd15e8bd.mp3",
+      "example_audio": "9198c3b8e81b.mp3"
+    },
+    {
+      "id": "b3_u08_l2_w005",
+      "ko": "결혼하다",
+      "uz": "turmush qurmoq",
+      "en": "to marry",
+      "pos": "fe'l",
+      "example_ko": "서른 살 전에 결혼하고 싶어요.",
+      "example_uz": "O'ttizgacha turmush qurmoqchiman.",
+      "example_en": "I want to get married before I'm thirty.",
+      "audio": "8d66d9413ed9.mp3",
+      "example_audio": "0490577d1554.mp3"
+    },
+    {
+      "id": "b3_u08_l2_w006",
+      "ko": "꿈",
+      "uz": "orzu",
+      "en": "dream",
+      "pos": "ot",
+      "example_ko": "제 꿈은 통역사예요.",
+      "example_uz": "Orzuim — tarjimon bo'lish.",
+      "example_en": "My dream is to be an interpreter.",
+      "audio": "08f211643de0.mp3",
+      "example_audio": "511d10c12209.mp3"
+    },
+    {
+      "id": "b3_u08_l2_w007",
+      "ko": "미래",
+      "uz": "kelajak",
+      "en": "future",
+      "pos": "ot",
+      "example_ko": "미래 계획을 세웠어요.",
+      "example_uz": "Kelajak rejamni tuzdim.",
+      "example_en": "I've made plans for the future.",
+      "audio": "9bccd7244539.mp3",
+      "example_audio": "c824d36844b8.mp3"
+    },
+    {
+      "id": "b3_u08_l2_w008",
+      "ko": "통역사",
+      "uz": "og'zaki tarjimon",
+      "en": "interpreter",
+      "pos": "ot",
+      "example_ko": "한국어 통역사가 되고 싶어요.",
+      "example_uz": "Koreys tili tarjimoni bo'lmoqchiman.",
+      "example_en": "I want to become a Korean interpreter.",
+      "audio": "a7905745b713.mp3",
+      "example_audio": "369d6577f958.mp3"
+    },
+    {
+      "id": "b3_u08_l2_w009",
+      "ko": "번역가",
+      "uz": "yozma tarjimon",
+      "en": "translator",
+      "pos": "ot",
+      "example_ko": "번역가로 일하고 싶어요.",
+      "example_uz": "Tarjimon bo'lib ishlamoqchiman.",
+      "example_en": "I want to work as a translator.",
+      "audio": "8cf563b0b782.mp3",
+      "example_audio": "47a35fc18fd8.mp3"
+    },
+    {
+      "id": "b3_u08_l2_w010",
+      "ko": "되다",
+      "uz": "bo'lmoq (kimdir)",
+      "en": "to become",
+      "pos": "fe'l",
+      "example_ko": "선생님이 되고 싶어요.",
+      "example_uz": "O'qituvchi bo'lmoqchiman.",
+      "example_en": "I want to become a teacher.",
+      "audio": "16dd60dcf205.mp3",
+      "example_audio": "b646c3d6da84.mp3"
+    },
+    {
+      "id": "b3_u08_l2_w011",
+      "ko": "경험을 쌓다",
+      "uz": "tajriba to'plamoq",
+      "en": "to gain experience",
+      "pos": "ibora",
+      "example_ko": "회사에서 경험을 쌓은 후에 창업할 거예요.",
+      "example_uz": "Kompaniyada tajriba to'plagach, o'z biznesimni ochaman.",
+      "example_en": "After gaining experience at a company, I'll start my own business.",
+      "audio": "a3f4c51e4711.mp3",
+      "example_audio": "eb325e7d99ba.mp3"
+    },
+    {
+      "id": "b3_u08_l2_w012",
+      "ko": "창업하다",
+      "uz": "o'z biznesini ochmoq",
+      "en": "to start a business",
+      "pos": "fe'l",
+      "example_ko": "나중에 창업하고 싶어요.",
+      "example_uz": "Keyinchalik o'z biznesimni ochmoqchiman.",
+      "example_en": "I want to start a business someday.",
+      "audio": "f188229ab27c.mp3",
+      "example_audio": "5c4f61cb2161.mp3"
+    },
+    {
+      "id": "b3_u08_l2_w013",
+      "ko": "돈을 모으다",
+      "uz": "pul yig'moq",
+      "en": "to save money",
+      "pos": "ibora",
+      "example_ko": "여행 가기 전에 돈을 모아요.",
+      "example_uz": "Sayohatga borishdan oldin pul yig'aman.",
+      "example_en": "I save money before travelling.",
+      "audio": "8d722dcc9312.mp3",
+      "example_audio": "ca4431c92ffb.mp3"
+    },
+    {
+      "id": "b3_u08_l2_w014",
+      "ko": "부모님",
+      "uz": "ota-ona",
+      "en": "parents",
+      "pos": "ot",
+      "example_ko": "졸업한 후에 부모님께 효도하고 싶어요.",
+      "example_uz": "Bitirgach ota-onamga yaxshilik qilmoqchiman.",
+      "example_en": "After graduating, I want to look after my parents.",
+      "audio": "c44e31e1f237.mp3",
+      "example_audio": "8849082d5acb.mp3"
+    },
+    {
+      "id": "b3_u08_l2_w015",
+      "ko": "효도하다",
+      "uz": "ota-onaga yaxshilik qilmoq",
+      "en": "to be a good son/daughter",
+      "pos": "fe'l",
+      "example_ko": "효도하는 아들이 되고 싶어요.",
+      "example_uz": "Ota-onasiga yaxshi farzand bo'lmoqchiman.",
+      "example_en": "I want to be a dutiful son.",
+      "audio": "68338bc8d162.mp3",
+      "example_audio": "7690405728ee.mp3"
+    },
+    {
+      "id": "b3_u08_l2_w016",
+      "ko": "군대",
+      "uz": "armiya",
+      "en": "military",
+      "pos": "ot",
+      "example_ko": "졸업하기 전에 군대에 가요.",
+      "example_uz": "Bitirishdan oldin armiyaga boraman.",
+      "example_en": "I'll do military service before graduating.",
+      "audio": "760458fbc733.mp3",
+      "example_audio": "66755a0bf39e.mp3"
+    },
+    {
+      "id": "b3_u08_l2_w017",
+      "ko": "인턴십",
+      "uz": "amaliyot (stajirovka)",
+      "en": "internship",
+      "pos": "ot",
+      "example_ko": "졸업하기 전에 인턴십을 할 거예요.",
+      "example_uz": "Bitirishdan oldin amaliyot o'tayman.",
+      "example_en": "I'll do an internship before graduating.",
+      "audio": "7eeb4f743501.mp3",
+      "example_audio": "e9f6f68915c5.mp3"
+    },
+    {
+      "id": "b3_u08_l2_w018",
+      "ko": "외국 회사",
+      "uz": "xorijiy kompaniya",
+      "en": "foreign company",
+      "pos": "ot",
+      "example_ko": "외국 회사에 취업하고 싶어요.",
+      "example_uz": "Xorijiy kompaniyaga ishga kirmoqchiman.",
+      "example_en": "I want to get a job at a foreign company.",
+      "audio": "625a66a0747e.mp3",
+      "example_audio": "06600276e752.mp3"
+    },
+    {
+      "id": "b3_u08_l2_w019",
+      "ko": "연구하다",
+      "uz": "tadqiq qilmoq",
+      "en": "to research",
+      "pos": "fe'l",
+      "example_ko": "대학원에서 연구하고 싶어요.",
+      "example_uz": "Magistraturada tadqiqot qilmoqchiman.",
+      "example_en": "I want to do research in graduate school.",
+      "audio": "2873c0ee52ee.mp3",
+      "example_audio": "92cdd9294881.mp3"
+    },
+    {
+      "id": "b3_u08_l2_w020",
+      "ko": "인생",
+      "uz": "hayot (umr)",
+      "en": "life",
+      "pos": "ot",
+      "example_ko": "인생은 한 번뿐이에요.",
+      "example_uz": "Hayot faqat bir marta.",
+      "example_en": "You only live once.",
+      "audio": "86107096925e.mp3",
+      "example_audio": "430769e92731.mp3"
+    },
+    {
+      "id": "b3_u08_l2_w021",
+      "ko": "고민되다",
+      "uz": "ikkilanmoq (o'ylanib qolmoq)",
+      "en": "to be torn",
+      "pos": "fe'l",
+      "example_ko": "취업이랑 진학 사이에서 고민돼요.",
+      "example_uz": "Ish va o'qish o'rtasida ikkilanyapman.",
+      "example_en": "I'm torn between a job and further study.",
+      "audio": "014bfffbc9bd.mp3",
+      "example_audio": "b449f2834b42.mp3"
+    },
+    {
+      "id": "b3_u08_l2_w022",
+      "ko": "먼저",
+      "uz": "avval",
+      "en": "first",
+      "pos": "ravish",
+      "example_ko": "먼저 자격증을 딸 거예요.",
+      "example_uz": "Avval sertifikat olaman.",
+      "example_en": "I'll get a certificate first.",
+      "audio": "256ec3a426da.mp3",
+      "example_audio": "377fed4f2064.mp3"
+    },
+    {
+      "id": "b3_u08_l2_w023",
+      "ko": "후",
+      "uz": "keyin",
+      "en": "after",
+      "pos": "ot",
+      "example_ko": "수업 후에 만나요.",
+      "example_uz": "Darsdan keyin uchrashamiz.",
+      "example_en": "Let's meet after class.",
+      "audio": "010297082866.mp3",
+      "example_audio": "fff3833cbada.mp3"
+    },
+    {
+      "id": "b3_u08_l2_w024",
+      "ko": "전",
+      "uz": "oldin",
+      "en": "before",
+      "pos": "ot",
+      "example_ko": "시험 전에 복습해요.",
+      "example_uz": "Imtihondan oldin takrorlayman.",
+      "example_en": "I review before the exam.",
+      "audio": "e8cddedc2d29.mp3",
+      "example_audio": "25736a0edb64.mp3"
+    },
+    {
+      "id": "b3_u08_l2_w025",
+      "ko": "복습하다",
+      "uz": "takrorlamoq (dars)",
+      "en": "to review",
+      "pos": "fe'l",
+      "example_ko": "자기 전에 복습해요.",
+      "example_uz": "Uxlashdan oldin takrorlayman.",
+      "example_en": "I review before going to bed.",
+      "audio": "8efa56b791e9.mp3",
+      "example_audio": "37f5fffac109.mp3"
+    },
+    {
+      "id": "b3_u08_l2_w026",
+      "ko": "손을 씻다",
+      "uz": "qo'l yuvmoq",
+      "en": "to wash one's hands",
+      "pos": "ibora",
+      "example_ko": "밥을 먹기 전에 손을 씻으세요.",
+      "example_uz": "Ovqatdan oldin qo'lingizni yuving.",
+      "example_en": "Wash your hands before eating.",
+      "audio": "e3c7261e1638.mp3",
+      "example_audio": "3903e24c0870.mp3"
+    },
+    {
+      "id": "b3_u08_l2_w027",
+      "ko": "귀국하다",
+      "uz": "vatanga qaytmoq",
+      "en": "to return to one's home country",
+      "pos": "fe'l",
+      "example_ko": "졸업한 후에 귀국할 거예요?",
+      "example_uz": "Bitirgach vataningizga qaytasizmi?",
+      "example_en": "Will you go back home after graduating?",
+      "audio": "d8b9e0dbf529.mp3",
+      "example_audio": "d13c20376dc4.mp3"
+    },
+    {
+      "id": "b3_u08_l2_w028",
+      "ko": "남다",
+      "uz": "qolmoq",
+      "en": "to stay, to remain",
+      "pos": "fe'l",
+      "example_ko": "한국에 남아서 일하고 싶어요.",
+      "example_uz": "Koreyada qolib ishlamoqchiman.",
+      "example_en": "I want to stay in Korea and work.",
+      "audio": "4a130485b241.mp3",
+      "example_audio": "345a328f054c.mp3"
+    },
+    {
+      "id": "b3_u08_l2_w029",
+      "ko": "목표",
+      "uz": "maqsad",
+      "en": "goal",
+      "pos": "ot",
+      "example_ko": "목표를 이룬 후에 쉬고 싶어요.",
+      "example_uz": "Maqsadimga erishgach, dam olmoqchiman.",
+      "example_en": "I want to rest after I've achieved my goal.",
+      "audio": "734509b2bb1c.mp3",
+      "example_audio": "6c4383660753.mp3"
+    },
+    {
+      "id": "b3_u08_l2_w030",
+      "ko": "이루다",
+      "uz": "erishmoq",
+      "en": "to achieve",
+      "pos": "fe'l",
+      "example_ko": "꿈을 이루고 싶어요.",
+      "example_uz": "Orzuimga erishmoqchiman.",
+      "example_en": "I want to achieve my dream.",
+      "audio": "02996e614c86.mp3",
+      "example_audio": "3bcc0dd5044e.mp3"
+    },
+    {
+      "id": "b3_u08_l2_w031",
+      "ko": "나이가 들다",
+      "uz": "yoshi ulg'aymoq",
+      "en": "to get older",
+      "pos": "ibora",
+      "example_ko": "나이가 든 후에 시골에서 살고 싶어요.",
+      "example_uz": "Keksayganimda qishloqda yashamoqchiman.",
+      "example_en": "When I'm older, I want to live in the countryside.",
+      "audio": "993943a39e8b.mp3",
+      "example_audio": "bbc4b9bf131a.mp3"
+    },
+    {
+      "id": "b3_u08_l2_w032",
+      "ko": "은퇴하다",
+      "uz": "nafaqaga chiqmoq",
+      "en": "to retire",
+      "pos": "fe'l",
+      "example_ko": "은퇴한 후에 세계 여행을 할 거예요.",
+      "example_uz": "Nafaqaga chiqqach, dunyo bo'ylab sayohat qilaman.",
+      "example_en": "After I retire, I'll travel the world.",
+      "audio": "3fd334b5a2ce.mp3",
+      "example_audio": "81c27e5de257.mp3"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "b3_u08_l2_g1",
+      "pattern": "V-기 전에",
+      "meaning_uz": "...dan oldin",
+      "meaning_en": "Before …ing",
+      "explanation_md": "**-기 전에** — bir ish-harakatdan **oldin** boshqasi: \"**...ishdan oldin**\", \"**...guncha**\".\n\n**밥을 먹기 전에 손을 씻으세요.** — *Ovqatlanishdan oldin qo'lingizni yuving.*\n\n### Qanday yasaladi\n\n**-다** o'rniga **-기 전에** — 받침 ga qarab o'zgarmaydi:\n\n- 먹다 → **먹기 전에**, 자다 → **자기 전에**\n- 졸업하다 → **졸업하기 전에**, 결혼하다 → **결혼하기 전에**\n\n### Ot bilan\n\n**N 전에**: **시험 전에**, **수업 전에**, **일주일 전에** (bir hafta oldin)\n\n### Esda tuting\n\n- Zamon faqat oxirgi fe'lda: **졸업하기 전에 인턴십을 했어요.** (~~졸업했기 전에~~ emas)\n- \"...dan oldin\" har doim **-기 전에** — **-(으)ㄴ 후에** dan farqli o'laroq, o'tgan zamon shakli kerak emas.",
+      "explanation_md_en": "**-기 전에** means \"**before …ing**\".\n\n**밥을 먹기 전에 손을 씻으세요.** — *Wash your hands before eating.*\n\n### How to form it\n\nReplace **-다** with **-기 전에** — no change for 받침:\n\n- 먹다 → **먹기 전에**, 자다 → **자기 전에**\n- 졸업하다 → **졸업하기 전에**, 결혼하다 → **결혼하기 전에**\n\n### With a noun\n\n**N 전에**: **시험 전에**, **수업 전에**, **일주일 전에** (a week ago)\n\n### Remember\n\n- Tense goes on the last verb only: **졸업하기 전에 인턴십을 했어요.** (not ~~졸업했기 전에~~)\n- \"Before\" is always **-기 전에** — unlike **-(으)ㄴ 후에**, it never takes a past form.",
+      "formation": [
+        {
+          "condition_uz": "Fe'l",
+          "condition_en": "Verb",
+          "rule": "V-기 전에",
+          "example": "먹기 전에, 졸업하기 전에"
+        },
+        {
+          "condition_uz": "Ot",
+          "condition_en": "Noun",
+          "rule": "N 전에",
+          "example": "시험 전에, 일주일 전에"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "밥을 먹기 전에 손을 씻으세요.",
+          "uz": "Ovqatlanishdan oldin qo'lingizni yuving.",
+          "en": "Wash your hands before eating.",
+          "audio": "3903e24c0870.mp3"
+        },
+        {
+          "ko": "졸업하기 전에 인턴십을 할 거예요.",
+          "uz": "Bitirishdan oldin amaliyot o'tayman.",
+          "en": "I'll do an internship before I graduate.",
+          "audio": "e9f6f68915c5.mp3"
+        },
+        {
+          "ko": "자기 전에 복습해요.",
+          "uz": "Uxlashdan oldin takrorlayman.",
+          "en": "I review before going to bed.",
+          "audio": "37f5fffac109.mp3"
+        },
+        {
+          "ko": "서른 살 전에 결혼하고 싶어요.",
+          "uz": "O'ttiz yoshdan oldin turmush qurmoqchiman.",
+          "en": "I want to get married before thirty.",
+          "audio": "0490577d1554.mp3"
+        },
+        {
+          "ko": "시험 전에 많이 긴장했어요.",
+          "uz": "Imtihondan oldin juda hayajonlandim.",
+          "en": "I was really nervous before the exam.",
+          "audio": "ff3b8ff95ac4.mp3"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "졸업했기 전에 …",
+          "right": "졸업하기 전에 …",
+          "why_uz": "-기 전에 o'tgan zamon olmaydi.",
+          "why_en": "-기 전에 never takes the past."
+        },
+        {
+          "wrong": "먹기 전 손을 씻으세요.",
+          "right": "먹기 전에 손을 씻으세요.",
+          "why_uz": "전 dan keyin 에.",
+          "why_en": "전 takes 에."
+        },
+        {
+          "wrong": "자는 전에 복습해요.",
+          "right": "자기 전에 복습해요.",
+          "why_uz": "Fe'l: -기 전에.",
+          "why_en": "Verb: -기 전에."
+        }
+      ],
+      "uz_compare": "O'zbekchadagi '-ishdan oldin' ga mos: 'ovqatlanISHDAN OLDIN' = 먹기 전에. Tartib ham bir xil.",
+      "compare_en": "Like English 'before …ing': 'before eating' = 먹기 전에. The 전에 ('before') comes after the verb."
+    },
+    {
+      "id": "b3_u08_l2_g2",
+      "pattern": "V-(으)ㄴ 후에",
+      "meaning_uz": "...gandan keyin",
+      "meaning_en": "After …ing",
+      "explanation_md": "**-(으)ㄴ 후에** — bir ish-harakat **tugagandan keyin** boshqasi: \"**...gandan keyin**\", \"**...gach**\".\n\n**대학교를 졸업한 후에 뭐 하고 싶어요?** — *Universitetni bitirgach nima qilmoqchisiz?*\n\n### Qanday yasaladi\n\n4-1 dagi **V-(으)ㄴ N** shakli + **후에**:\n\n- O'zak **받침siz** → **-ㄴ 후에**: 졸업하다 → **졸업한 후에**, 보다 → **본 후에**\n- O'zak **받침 bilan** → **-은 후에**: 먹다 → **먹은 후에**, 씻다 → **씻은 후에**\n- **ㄹ** tushadi: 살다 → **산 후에**, 만들다 → **만든 후에**\n\n### Ot bilan\n\n**N 후에**: **수업 후에**, **졸업 후에**, **일주일 후에** (bir haftadan keyin)\n\n### Esda tuting\n\n- **-(으)ㄴ 다음에** ham xuddi shu ma'no: **졸업한 다음에**.\n- 1-kitobdagi **-고** (8-1) ham \"keyin\" — lekin **-(으)ㄴ 후에** ketma-ketlikni ta'kidlaydi.",
+      "explanation_md_en": "**-(으)ㄴ 후에** means \"**after …ing**\" (once something is finished).\n\n**대학교를 졸업한 후에 뭐 하고 싶어요?** — *What do you want to do after you graduate?*\n\n### How to form it\n\nThe **V-(으)ㄴ N** form from 4-1 + **후에**:\n\n- Stem **without 받침** → **-ㄴ 후에**: 졸업하다 → **졸업한 후에**, 보다 → **본 후에**\n- Stem **with 받침** → **-은 후에**: 먹다 → **먹은 후에**, 씻다 → **씻은 후에**\n- **ㄹ** drops: 살다 → **산 후에**, 만들다 → **만든 후에**\n\n### With a noun\n\n**N 후에**: **수업 후에**, **졸업 후에**, **일주일 후에** (in a week)\n\n### Remember\n\n- **-(으)ㄴ 다음에** means the same: **졸업한 다음에**.\n- Book 1's **-고** (8-1) can also mean \"and then\", but **-(으)ㄴ 후에** stresses the order.",
+      "formation": [
+        {
+          "condition_uz": "받침 yo'q",
+          "condition_en": "No 받침",
+          "rule": "V + ㄴ 후에",
+          "example": "졸업한 후에, 본 후에"
+        },
+        {
+          "condition_uz": "받침 bor",
+          "condition_en": "With 받침",
+          "rule": "V + 은 후에",
+          "example": "먹은 후에, 씻은 후에"
+        },
+        {
+          "condition_uz": "Ot",
+          "condition_en": "Noun",
+          "rule": "N 후에",
+          "example": "수업 후에, 졸업 후에"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "대학교를 졸업한 후에 뭐 하고 싶어요?",
+          "uz": "Universitetni bitirgach nima qilmoqchisiz?",
+          "en": "What do you want to do after graduating?",
+          "audio": "c1b808d5acb2.mp3"
+        },
+        {
+          "ko": "경험을 쌓은 후에 창업할 거예요.",
+          "uz": "Tajriba to'plagach, o'z biznesimni ochaman.",
+          "en": "After gaining experience, I'll start a business.",
+          "audio": "2872093551fb.mp3"
+        },
+        {
+          "ko": "밥을 먹은 후에 산책해요.",
+          "uz": "Ovqatdan keyin sayr qilaman.",
+          "en": "I take a walk after eating.",
+          "audio": "53cdfb3bbe84.mp3"
+        },
+        {
+          "ko": "은퇴한 후에 세계 여행을 할 거예요.",
+          "uz": "Nafaqaga chiqqach, dunyo bo'ylab sayohat qilaman.",
+          "en": "After I retire, I'll travel the world.",
+          "audio": "81c27e5de257.mp3"
+        },
+        {
+          "ko": "수업 후에 도서관에 가요.",
+          "uz": "Darsdan keyin kutubxonaga boraman.",
+          "en": "I go to the library after class.",
+          "audio": "6aed6f3447c8.mp3"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "졸업하는 후에 …",
+          "right": "졸업한 후에 …",
+          "why_uz": "Tugagan ish: -(으)ㄴ 후에.",
+          "why_en": "Finished action: -(으)ㄴ 후에."
+        },
+        {
+          "wrong": "먹ㄴ 후에 …",
+          "right": "먹은 후에 …",
+          "why_uz": "받침 bilan: 먹은.",
+          "why_en": "With 받침: 먹은."
+        },
+        {
+          "wrong": "케이크를 만들은 후에 …",
+          "right": "케이크를 만든 후에 …",
+          "why_uz": "ㄹ tushadi: 만든.",
+          "why_en": "ㄹ drops: 만든."
+        }
+      ],
+      "uz_compare": "O'zbekchadagi '-gandan keyin', '-gach' bilan bir xil: 'bitirGANDAN KEYIN' = 졸업한 후에.",
+      "compare_en": "Like English 'after …ing': 'after graduating' = 졸업한 후에. The verb takes the past-modifier -(으)ㄴ because the action is finished."
+    }
+  ],
+  "dialogue": {
+    "lines": [
+      {
+        "speaker": "minji",
+        "ko": "아지즈 씨, 대학교를 졸업한 후에 뭐 하고 싶어요?",
+        "uz": "Aziz, universitetni bitirgach nima qilmoqchisiz?",
+        "en": "Aziz, what do you want to do after graduating?",
+        "audio": "6b3629eb679a.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "아직 고민돼요. 취업할지 대학원에 진학할지 모르겠어요.",
+        "uz": "Hali ikkilanyapman. Ishga kirsammi, magistraturagami — bilmayman.",
+        "en": "I'm still torn. I don't know whether to get a job or go to grad school.",
+        "audio": "2097cd3d48ab.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "꿈이 뭐예요?",
+        "uz": "Orzuingiz nima?",
+        "en": "What's your dream?",
+        "audio": "162bcfc85a54.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "제 꿈은 통역사예요. 한국어하고 우즈베크어 통역사가 되고 싶어요.",
+        "uz": "Orzuim — tarjimon. Koreys va o'zbek tillari tarjimoni bo'lmoqchiman.",
+        "en": "My dream is to be an interpreter — between Korean and Uzbek.",
+        "audio": "ef99193ce9e8.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "멋있네요! 그럼 졸업하기 전에 뭘 준비해야 돼요?",
+        "uz": "Zo'r! Unda bitirishdan oldin nimaga tayyorlanish kerak?",
+        "en": "That's cool! So what do you need to prepare before graduating?",
+        "audio": "4c44ddcedb67.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "졸업하기 전에 통역 자격증을 따고, 인턴십도 할 거예요.",
+        "uz": "Bitirishdan oldin tarjimonlik sertifikatini olaman, amaliyot ham o'tayman.",
+        "en": "Before I graduate, I'll get an interpreting certificate and do an internship.",
+        "audio": "c8382dc3f0dd.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "졸업한 후에는 귀국할 거예요?",
+        "uz": "Bitirgach vataningizga qaytasizmi?",
+        "en": "Will you go back home after graduating?",
+        "audio": "1cf3f3b247b9.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "한국에서 경험을 쌓은 후에 귀국하고 싶어요.",
+        "uz": "Koreyada tajriba to'plagach, qaytmoqchiman.",
+        "en": "I want to go back after gaining experience in Korea.",
+        "audio": "021d2df50a5e.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "부모님도 보고 싶지요?",
+        "uz": "Ota-onangizni ham sog'ingandirsiz?",
+        "en": "You must miss your parents too.",
+        "audio": "7efe1ace8a64.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "네, 귀국한 후에 부모님께 효도하고 싶어요.",
+        "uz": "Ha, qaytgach, ota-onamga yaxshilik qilmoqchiman.",
+        "en": "Yes. After I go back, I want to take care of my parents.",
+        "audio": "a57bc18dee11.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "아지즈 씨는 꼭 꿈을 이룰 거예요!",
+        "uz": "Aziz, siz albatta orzuingizga erishasiz!",
+        "en": "Aziz, you'll definitely achieve your dream!",
+        "audio": "bb930bfd2d30.mp3"
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b3_u08_l2_e001",
+      "type": "conjugate",
+      "targets": [
+        "b3_u08_l2_g1"
+      ],
+      "prompt_uz": "'Ovqatlanishdan oldin' shaklini yasang",
+      "prompt_en": "Make 'before eating'",
+      "base": "먹다",
+      "form": "-기 전에",
+      "answers": [
+        "먹기 전에"
+      ]
+    },
+    {
+      "id": "b3_u08_l2_e002",
+      "type": "conjugate",
+      "targets": [
+        "b3_u08_l2_g1"
+      ],
+      "prompt_uz": "'Bitirishdan oldin' shaklini yasang",
+      "prompt_en": "Make 'before graduating'",
+      "base": "졸업하다",
+      "form": "-기 전에",
+      "answers": [
+        "졸업하기 전에"
+      ]
+    },
+    {
+      "id": "b3_u08_l2_e003",
+      "type": "conjugate",
+      "targets": [
+        "b3_u08_l2_g2"
+      ],
+      "prompt_uz": "'Bitirgandan keyin' shaklini yasang",
+      "prompt_en": "Make 'after graduating'",
+      "base": "졸업하다",
+      "form": "-(으)ㄴ 후에",
+      "answers": [
+        "졸업한 후에"
+      ]
+    },
+    {
+      "id": "b3_u08_l2_e004",
+      "type": "conjugate",
+      "targets": [
+        "b3_u08_l2_g2"
+      ],
+      "prompt_uz": "'Yuvingandan keyin' shaklini yasang",
+      "prompt_en": "Make 'after washing'",
+      "base": "씻다",
+      "form": "-(으)ㄴ 후에",
+      "answers": [
+        "씻은 후에"
+      ]
+    },
+    {
+      "id": "b3_u08_l2_e005",
+      "type": "fill_blank",
+      "targets": [
+        "b3_u08_l2_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Uxlashdan oldin takrorlayman.'",
+      "prompt_en": "Fill in the blank: 'I review before going to bed.'",
+      "sentence": "자기 ___ 복습해요.",
+      "answers": [
+        "전에"
+      ]
+    },
+    {
+      "id": "b3_u08_l2_e006",
+      "type": "fill_blank",
+      "targets": [
+        "b3_u08_l2_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Imtihondan oldin hayajonlandim.'",
+      "prompt_en": "Fill in the blank: 'I was nervous before the exam.'",
+      "sentence": "시험 ___ 긴장했어요.",
+      "answers": [
+        "전에"
+      ]
+    },
+    {
+      "id": "b3_u08_l2_e007",
+      "type": "fill_blank",
+      "targets": [
+        "b3_u08_l2_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Ovqatdan keyin sayr qilaman.'",
+      "prompt_en": "Fill in the blank: 'I take a walk after eating.'",
+      "sentence": "밥을 ___ 후에 산책해요. (먹다)",
+      "answers": [
+        "먹은"
+      ]
+    },
+    {
+      "id": "b3_u08_l2_e008",
+      "type": "fill_blank",
+      "targets": [
+        "b3_u08_l2_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Darsdan keyin kutubxonaga boraman.'",
+      "prompt_en": "Fill in the blank: 'I go to the library after class.'",
+      "sentence": "수업 ___ 도서관에 가요.",
+      "answers": [
+        "후에"
+      ]
+    },
+    {
+      "id": "b3_u08_l2_e009",
+      "type": "situation_choice",
+      "targets": [
+        "b3_u08_l2_g1"
+      ],
+      "prompt_uz": "Do'stingizga ovqatdan oldin qo'l yuvishni ayting:",
+      "prompt_en": "Tell your friend to wash their hands before eating:",
+      "options": [
+        "밥을 먹기 전에 손을 씻으세요.",
+        "밥을 먹은 전에 손을 씻으세요.",
+        "밥을 먹었기 전에 손을 씻으세요.",
+        "밥을 먹기 전 손을 씻으세요요."
+      ],
+      "answers": [
+        "밥을 먹기 전에 손을 씻으세요."
+      ]
+    },
+    {
+      "id": "b3_u08_l2_e010",
+      "type": "situation_choice",
+      "targets": [
+        "b3_u08_l2_g2"
+      ],
+      "prompt_uz": "Bitirgach nima qilishini so'rang:",
+      "prompt_en": "Ask what they'll do after graduating:",
+      "options": [
+        "졸업한 후에 뭐 할 거예요?",
+        "졸업하는 후에 뭐 할 거예요?",
+        "졸업하기 후에 뭐 할 거예요?",
+        "졸업한 전에 뭐 할 거예요?"
+      ],
+      "answers": [
+        "졸업한 후에 뭐 할 거예요?"
+      ]
+    },
+    {
+      "id": "b3_u08_l2_e011",
+      "type": "situation_choice",
+      "targets": [
+        "b3_u08_l2_w006"
+      ],
+      "prompt_uz": "Orzuingizni ayting (tarjimon):",
+      "prompt_en": "Say your dream (interpreter):",
+      "options": [
+        "제 꿈은 통역사예요.",
+        "제 미래는 통역사예요요.",
+        "제 인생은 통역사예요.",
+        "제 목표는 통역사세요."
+      ],
+      "answers": [
+        "제 꿈은 통역사예요."
+      ]
+    },
+    {
+      "id": "b3_u08_l2_e012",
+      "type": "find_error",
+      "targets": [
+        "b3_u08_l2_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "졸업했기 전에 인턴십을 했어요.",
+      "answers": [
+        "졸업하기 전에 인턴십을 했어요"
+      ],
+      "why_uz": "-기 전에 o'tgan zamon olmaydi.",
+      "why_en": "-기 전에 never takes the past."
+    },
+    {
+      "id": "b3_u08_l2_e013",
+      "type": "find_error",
+      "targets": [
+        "b3_u08_l2_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "밥을 먹는 후에 산책해요.",
+      "answers": [
+        "밥을 먹은 후에 산책해요"
+      ],
+      "why_uz": "Tugagan ish: 먹은 후에.",
+      "why_en": "Finished action: 먹은 후에."
+    },
+    {
+      "id": "b3_u08_l2_e014",
+      "type": "find_error",
+      "targets": [
+        "b3_u08_l2_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "케이크를 만들은 후에 먹었어요.",
+      "answers": [
+        "케이크를 만든 후에 먹었어요"
+      ],
+      "why_uz": "ㄹ tushadi: 만든.",
+      "why_en": "ㄹ drops: 만든."
+    },
+    {
+      "id": "b3_u08_l2_e015",
+      "type": "translate",
+      "targets": [
+        "b3_u08_l2_g1"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "O'ttiz yoshdan oldin turmush qurmoqchiman.",
+      "source_en": "I want to get married before thirty.",
+      "answers": [
+        "서른 살 전에 결혼하고 싶어요"
+      ]
+    },
+    {
+      "id": "b3_u08_l2_e016",
+      "type": "translate",
+      "targets": [
+        "b3_u08_l2_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Universitetni bitirgach nima qilmoqchisiz?",
+      "source_en": "What do you want to do after graduating?",
+      "answers": [
+        "대학교를 졸업한 후에 뭐 하고 싶어요",
+        "대학교를 졸업한 후에 뭐 하고 싶어요?",
+        "졸업한 후에 뭐 하고 싶어요?"
+      ]
+    },
+    {
+      "id": "b3_u08_l2_e017",
+      "type": "translate",
+      "targets": [
+        "b3_u08_l2_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Nafaqaga chiqqach, dunyo bo'ylab sayohat qilaman.",
+      "source_en": "After I retire, I'll travel the world.",
+      "answers": [
+        "은퇴한 후에 세계 여행을 할 거예요",
+        "은퇴한 후에 세계 여행을 하고 싶어요"
+      ]
+    },
+    {
+      "id": "b3_u08_l2_e018",
+      "type": "build_sentence",
+      "targets": [
+        "b3_u08_l2_g1"
+      ],
+      "prompt_uz": "'Bitirishdan oldin amaliyot o'tayman' gapini tuzing",
+      "prompt_en": "Build the sentence 'I'll do an internship before graduating'",
+      "tokens": [
+        "거예요",
+        "전에",
+        "할",
+        "졸업하기",
+        "인턴십을"
+      ],
+      "answers": [
+        "졸업하기 전에 인턴십을 할 거예요"
+      ]
+    },
+    {
+      "id": "b3_u08_l2_e019",
+      "type": "build_sentence",
+      "targets": [
+        "b3_u08_l2_g2"
+      ],
+      "prompt_uz": "'Tajriba to'plagach, o'z biznesimni ochaman' gapini tuzing",
+      "prompt_en": "Build the sentence 'After gaining experience, I'll start a business'",
+      "tokens": [
+        "경험을",
+        "거예요",
+        "후에",
+        "창업할",
+        "쌓은"
+      ],
+      "answers": [
+        "경험을 쌓은 후에 창업할 거예요"
+      ]
+    },
+    {
+      "id": "b3_u08_l2_e020",
+      "type": "build_sentence",
+      "targets": [
+        "b3_u08_l2_g1",
+        "b3_u08_l2_g2"
+      ],
+      "prompt_uz": "'Darsdan oldin va keyin takrorlayman' gapini tuzing",
+      "prompt_en": "Build the sentence 'I review before and after class'",
+      "tokens": [
+        "복습해요",
+        "후에",
+        "수업",
+        "전과"
+      ],
+      "answers": [
+        "수업 전과 후에 복습해요"
+      ]
+    },
+    {
+      "id": "b3_u08_l2_e021",
+      "type": "listen_question",
+      "targets": [
+        "b3_u08_l2_g2"
+      ],
+      "prompt_uz": "U bitirgach nima qiladi?",
+      "prompt_en": "What will the speaker do after graduating?",
+      "audio_text": "졸업한 후에 외국 회사에 취업하고 싶어요.",
+      "options": [
+        "Xorijiy kompaniyaga ishga kiradi",
+        "Magistraturaga kiradi",
+        "Armiyaga boradi",
+        "Turmush quradi"
+      ],
+      "options_en": [
+        "Get a job at a foreign company",
+        "Go to grad school",
+        "Join the army",
+        "Get married"
+      ],
+      "answers": [
+        "Xorijiy kompaniyaga ishga kiradi"
+      ],
+      "audio": "113eaaff01cf.mp3"
+    },
+    {
+      "id": "b3_u08_l2_e022",
+      "type": "listen_question",
+      "targets": [
+        "b3_u08_l2_g1"
+      ],
+      "prompt_uz": "U nimadan oldin pul yig'adi?",
+      "prompt_en": "Before what does the speaker save money?",
+      "audio_text": "여행 가기 전에 돈을 모아요.",
+      "options": [
+        "Sayohatdan oldin",
+        "Uylanishdan oldin",
+        "Bitirishdan oldin",
+        "Ko'chishdan oldin"
+      ],
+      "options_en": [
+        "Before travelling",
+        "Before marrying",
+        "Before graduating",
+        "Before moving"
+      ],
+      "answers": [
+        "Sayohatdan oldin"
+      ],
+      "audio": "ca4431c92ffb.mp3"
+    },
+    {
+      "id": "b3_u08_l2_e023",
+      "type": "listen_question",
+      "targets": [
+        "b3_u08_l2_g2"
+      ],
+      "prompt_uz": "Ayolning rejasi nima?",
+      "prompt_en": "What's the woman's plan?",
+      "audio_text": "대학원에서 연구한 후에 교수가 되고 싶어요.",
+      "options": [
+        "Tadqiqotdan keyin professor bo'lish",
+        "Tarjimon bo'lish",
+        "Biznes ochish",
+        "Nafaqaga chiqish"
+      ],
+      "options_en": [
+        "Become a professor after research",
+        "Become an interpreter",
+        "Start a business",
+        "Retire"
+      ],
+      "answers": [
+        "Tadqiqotdan keyin professor bo'lish"
+      ],
+      "audio": "72979734a18d.mp3"
+    },
+    {
+      "id": "b3_u08_l2_e024",
+      "type": "listen_question",
+      "targets": [
+        "b3_u08_l2_g1"
+      ],
+      "prompt_uz": "U qachon armiyaga boradi?",
+      "prompt_en": "When will the speaker do military service?",
+      "audio_text": "졸업하기 전에 군대에 갈 거예요.",
+      "options": [
+        "Bitirishdan oldin",
+        "Bitirgandan keyin",
+        "Hozir",
+        "Hech qachon"
+      ],
+      "options_en": [
+        "Before graduating",
+        "After graduating",
+        "Now",
+        "Never"
+      ],
+      "answers": [
+        "Bitirishdan oldin"
+      ],
+      "audio": "cf78aaafdc7a.mp3"
+    },
+    {
+      "id": "b3_u08_l2_e101",
+      "type": "conjugate",
+      "targets": [
+        "b3_u08_l2_g1"
+      ],
+      "prompt_uz": "'Uxlashdan oldin' shaklini yasang",
+      "prompt_en": "Make 'before sleeping'",
+      "base": "자다",
+      "form": "-기 전에",
+      "answers": [
+        "자기 전에"
+      ]
+    },
+    {
+      "id": "b3_u08_l2_e102",
+      "type": "conjugate",
+      "targets": [
+        "b3_u08_l2_g2"
+      ],
+      "prompt_uz": "'Ko'rgandan keyin' shaklini yasang",
+      "prompt_en": "Make 'after watching'",
+      "base": "보다",
+      "form": "-(으)ㄴ 후에",
+      "answers": [
+        "본 후에"
+      ]
+    },
+    {
+      "id": "b3_u08_l2_e103",
+      "type": "conjugate",
+      "targets": [
+        "b3_u08_l2_g2"
+      ],
+      "prompt_uz": "'Yashagandan keyin' shaklini yasang",
+      "prompt_en": "Make 'after living'",
+      "base": "살다",
+      "form": "-(으)ㄴ 후에",
+      "answers": [
+        "산 후에"
+      ]
+    },
+    {
+      "id": "b3_u08_l2_e104",
+      "type": "fill_blank",
+      "targets": [
+        "b3_u08_l2_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Turmush qurishdan oldin pul yig'aman.'",
+      "prompt_en": "Fill in the blank: 'I'll save money before getting married.'",
+      "sentence": "___ 전에 돈을 모을 거예요. (결혼하다)",
+      "answers": [
+        "결혼하기"
+      ]
+    },
+    {
+      "id": "b3_u08_l2_e105",
+      "type": "fill_blank",
+      "targets": [
+        "b3_u08_l2_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Maqsadimga erishgach, dam olmoqchiman.'",
+      "prompt_en": "Fill in the blank: 'I want to rest after achieving my goal.'",
+      "sentence": "목표를 ___ 후에 쉬고 싶어요. (이루다)",
+      "answers": [
+        "이룬"
+      ]
+    },
+    {
+      "id": "b3_u08_l2_e106",
+      "type": "situation_choice",
+      "targets": [
+        "b3_u08_l2_g2"
+      ],
+      "prompt_uz": "Koreyada tajriba to'plagach qaytishingizni ayting:",
+      "prompt_en": "Say you'll go back after gaining experience in Korea:",
+      "options": [
+        "한국에서 경험을 쌓은 후에 귀국할 거예요.",
+        "한국에서 경험을 쌓는 후에 귀국할 거예요.",
+        "한국에서 경험을 쌓기 후에 귀국할 거예요.",
+        "한국에서 경험을 쌓은 전에 귀국할 거예요."
+      ],
+      "answers": [
+        "한국에서 경험을 쌓은 후에 귀국할 거예요."
+      ]
+    },
+    {
+      "id": "b3_u08_l2_e107",
+      "type": "situation_choice",
+      "targets": [
+        "b3_u08_l2_g1"
+      ],
+      "prompt_uz": "Imtihondan oldin takrorlashingizni ayting:",
+      "prompt_en": "Say you review before exams:",
+      "options": [
+        "시험 전에 복습해요.",
+        "시험 후에 복습해요요.",
+        "시험하기 후에 복습해요.",
+        "시험 전 복습해요에."
+      ],
+      "answers": [
+        "시험 전에 복습해요."
+      ]
+    },
+    {
+      "id": "b3_u08_l2_e108",
+      "type": "situation_choice",
+      "targets": [
+        "b3_u08_l2_w021"
+      ],
+      "prompt_uz": "Ish va o'qish o'rtasida ikkilanayotganingizni ayting:",
+      "prompt_en": "Say you're torn between a job and further study:",
+      "options": [
+        "취업이랑 진학 사이에서 고민돼요.",
+        "취업이랑 진학 사이에서 은퇴해요.",
+        "취업이랑 진학 사이에서 효도해요.",
+        "취업이랑 진학 사이에서 귀국해요."
+      ],
+      "answers": [
+        "취업이랑 진학 사이에서 고민돼요."
+      ]
+    },
+    {
+      "id": "b3_u08_l2_e109",
+      "type": "find_error",
+      "targets": [
+        "b3_u08_l2_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "자는 전에 책을 읽어요.",
+      "answers": [
+        "자기 전에 책을 읽어요"
+      ],
+      "why_uz": "Fe'l: -기 전에.",
+      "why_en": "Verb: -기 전에."
+    },
+    {
+      "id": "b3_u08_l2_e110",
+      "type": "find_error",
+      "targets": [
+        "b3_u08_l2_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "졸업하는 후에 취업할 거예요.",
+      "answers": [
+        "졸업한 후에 취업할 거예요"
+      ],
+      "why_uz": "Tugagan ish: 졸업한 후에.",
+      "why_en": "Finished action: 졸업한 후에."
+    },
+    {
+      "id": "b3_u08_l2_e111",
+      "type": "translate",
+      "targets": [
+        "b3_u08_l2_g1"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Ovqatlanishdan oldin qo'lingizni yuving.",
+      "source_en": "Wash your hands before eating.",
+      "answers": [
+        "밥을 먹기 전에 손을 씻으세요",
+        "먹기 전에 손을 씻으세요"
+      ]
+    },
+    {
+      "id": "b3_u08_l2_e112",
+      "type": "translate",
+      "targets": [
+        "b3_u08_l2_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Darsdan keyin uchrashamiz.",
+      "source_en": "Let's meet after class.",
+      "answers": [
+        "수업 후에 만나요",
+        "수업이 끝난 후에 만나요"
+      ]
+    },
+    {
+      "id": "b3_u08_l2_e113",
+      "type": "build_sentence",
+      "targets": [
+        "b3_u08_l2_g2"
+      ],
+      "prompt_uz": "'Qaytgach, ota-onamga yaxshilik qilmoqchiman' gapini tuzing",
+      "prompt_en": "Build the sentence 'After I go back, I want to look after my parents'",
+      "tokens": [
+        "싶어요",
+        "효도하고",
+        "부모님께",
+        "귀국한",
+        "후에"
+      ],
+      "answers": [
+        "귀국한 후에 부모님께 효도하고 싶어요"
+      ]
+    },
+    {
+      "id": "b3_u08_l2_e114",
+      "type": "listen_question",
+      "targets": [
+        "b3_u08_l2_g2"
+      ],
+      "prompt_uz": "U nafaqaga chiqqach nima qiladi?",
+      "prompt_en": "What will the speaker do after retiring?",
+      "audio_text": "은퇴한 후에 시골에서 살고 싶어요.",
+      "options": [
+        "Qishloqda yashaydi",
+        "Sayohat qiladi",
+        "Ishlaydi",
+        "O'qiydi"
+      ],
+      "options_en": [
+        "Live in the countryside",
+        "Travel",
+        "Work",
+        "Study"
+      ],
+      "answers": [
+        "Qishloqda yashaydi"
+      ],
+      "audio": "77563139c525.mp3"
+    },
+    {
+      "id": "b3_u08_l2_e115",
+      "type": "listen_question",
+      "targets": [
+        "b3_u08_l2_g1"
+      ],
+      "prompt_uz": "U nimadan oldin hayajonlandi?",
+      "prompt_en": "Before what was the speaker nervous?",
+      "audio_text": "면접 보기 전에 너무 긴장했어요.",
+      "options": [
+        "Ish suhbatidan oldin",
+        "Imtihondan oldin",
+        "To'ydan oldin",
+        "Sayohatdan oldin"
+      ],
+      "options_en": [
+        "Before the interview",
+        "Before the exam",
+        "Before the wedding",
+        "Before the trip"
+      ],
+      "answers": [
+        "Ish suhbatidan oldin"
+      ],
+      "audio": "d6155eb07c14.mp3"
+    }
+  ],
+  "test": [
+    "b3_u08_l2_e101",
+    "b3_u08_l2_e102",
+    "b3_u08_l2_e103",
+    "b3_u08_l2_e104",
+    "b3_u08_l2_e105",
+    "b3_u08_l2_e106",
+    "b3_u08_l2_e107",
+    "b3_u08_l2_e108",
+    "b3_u08_l2_e109",
+    "b3_u08_l2_e110",
+    "b3_u08_l2_e111",
+    "b3_u08_l2_e112",
+    "b3_u08_l2_e113",
+    "b3_u08_l2_e114",
+    "b3_u08_l2_e115"
+  ],
+  "story": {
+    "title_uz": "Kelajak orzulari",
+    "title_en": "Dreams for the future",
+    "gate_uz": "ORZU",
+    "gate_en": "DREAM",
+    "steps": [
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "아지즈 씨, 대학교를 졸업한 후에 뭐 하고 싶어요?",
+        "uz": "Aziz, bitirgach nima qilmoqchisiz?",
+        "en": "Aziz, what do you want to do after graduating?",
+        "audio": "6b3629eb679a.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "아직 고민돼요. 취업이랑 대학원 사이에서요.",
+        "uz": "Hali ikkilanyapman — ish va magistratura o'rtasida.",
+        "en": "I'm still torn — between a job and grad school.",
+        "audio": "a6d282a6cfcf.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "꿈이 뭐예요?",
+        "uz": "Orzuingiz nima?",
+        "en": "What's your dream?",
+        "audio": "162bcfc85a54.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "제 꿈은 통역사예요.",
+        "uz": "Orzuim — tarjimon bo'lish.",
+        "en": "My dream is to be an interpreter.",
+        "audio": "ed4cb9a521be.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "그럼 졸업하기 전에 뭘 준비할 거예요?",
+        "uz": "Unda bitirishdan oldin nimaga tayyorlanasiz?",
+        "en": "Then what will you prepare before graduating?",
+        "audio": "ca3449afdcbe.mp3"
+      },
+      {
+        "type": "choose_reply",
+        "speaker": "aziz",
+        "prompt_uz": "Aziz 'Bitirishdan oldin sertifikat olaman' demoqchi.",
+        "prompt_en": "Aziz wants to say 'I'll get a certificate before graduating'.",
+        "options": [
+          "졸업하기 전에 자격증을 딸 거예요.",
+          "졸업했기 전에 자격증을 딸 거예요.",
+          "졸업한 전에 자격증을 딸 거예요."
+        ],
+        "answer": "졸업하기 전에 자격증을 딸 거예요.",
+        "uz": "Bitirishdan oldin sertifikat olaman.",
+        "en": "I'll get a certificate before graduating.",
+        "why_uz": "'Oldin' — -기 전에 (o'tgan zamonsiz).",
+        "why_en": "'Before' is -기 전에 (no past tense).",
+        "audio": "21939d22187e.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "졸업한 후에는요? 귀국할 거예요?",
+        "uz": "Bitirgandan keyin-chi? Qaytasizmi?",
+        "en": "And after graduating? Will you go home?",
+        "audio": "b0fbd6712038.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "한국에서 경험을 쌓은 후에 귀국하고 싶어요.",
+        "uz": "Koreyada tajriba to'plagach, qaytmoqchiman.",
+        "en": "I want to gain experience in Korea first, then go home.",
+        "audio": "021d2df50a5e.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "그리고 부모님께 효도하고 싶어요.",
+        "uz": "Keyin ota-onamga yaxshilik qilmoqchiman.",
+        "en": "And then look after my parents.",
+        "audio": "167e93905887.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "멋있어요. 아지즈 씨는 꼭 꿈을 이룰 거예요.",
+        "uz": "Zo'r. Aziz, siz albatta orzuingizga erishasiz.",
+        "en": "That's great. Aziz, you'll definitely achieve your dream.",
+        "audio": "9eda732fd372.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "고마워요. 민지 씨 꿈은요?",
+        "uz": "Rahmat. Sizning orzuingiz-chi, Minji?",
+        "en": "Thanks. What about your dream, Minji?",
+        "audio": "5d5929258439.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "저는 졸업한 후에 세계 여행을 하고 싶어요!",
+        "uz": "Men bitirgach dunyo bo'ylab sayohat qilmoqchiman!",
+        "en": "I want to travel the world after I graduate!",
+        "audio": "ebf18dd5087e.mp3"
+      },
+      {
+        "type": "quiz",
+        "prompt_uz": "Aziz bitirishdan oldin nima qiladi?",
+        "prompt_en": "What will Aziz do before graduating?",
+        "options": [
+          "Sertifikat oladi",
+          "Vatanga qaytadi",
+          "Turmush quradi"
+        ],
+        "options_en": [
+          "Get a certificate",
+          "Go home",
+          "Get married"
+        ],
+        "answer": "Sertifikat oladi",
+        "why_uz": "졸업하기 전에 자격증을 딸 거예요.",
+        "why_en": "He'll get a certificate before graduating."
+      }
+    ]
+  }
+}

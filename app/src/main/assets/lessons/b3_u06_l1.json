@@ -1,0 +1,1440 @@
+{
+  "id": "b3_u06_l1",
+  "unit": 6,
+  "lesson": 1,
+  "title_ko": "노트북 화면이 안 나와요",
+  "title_uz": "Noutbuk ekrani yonmayapti",
+  "title_en": "My laptop screen won't come on",
+  "topic_uz": "Buzilish",
+  "topic_en": "Breakdowns",
+  "reviewed": false,
+  "words": [
+    {
+      "id": "b3_u06_l1_w001",
+      "ko": "고장 나다",
+      "uz": "buzilmoq",
+      "en": "to break down",
+      "pos": "ibora",
+      "example_ko": "노트북이 고장 났어요.",
+      "example_uz": "Noutbuk buzildi.",
+      "example_en": "My laptop broke.",
+      "audio": "ed50937bae54.mp3",
+      "example_audio": "497ab3612a19.mp3"
+    },
+    {
+      "id": "b3_u06_l1_w002",
+      "ko": "화면",
+      "uz": "ekran",
+      "en": "screen",
+      "pos": "ot",
+      "example_ko": "화면이 안 나와요.",
+      "example_uz": "Ekran yonmayapti.",
+      "example_en": "The screen won't come on.",
+      "audio": "40310fa1565b.mp3",
+      "example_audio": "fb52872c5f51.mp3"
+    },
+    {
+      "id": "b3_u06_l1_w003",
+      "ko": "전원",
+      "uz": "quvvat (tok)",
+      "en": "power",
+      "pos": "ot",
+      "example_ko": "전원 버튼을 눌러 보세요.",
+      "example_uz": "Quvvat tugmasini bosib ko'ring.",
+      "example_en": "Try pressing the power button.",
+      "audio": "13b591ccf846.mp3",
+      "example_audio": "463eadc67fa6.mp3"
+    },
+    {
+      "id": "b3_u06_l1_w004",
+      "ko": "켜지다",
+      "uz": "yonmoq",
+      "en": "to turn on",
+      "pos": "fe'l",
+      "example_ko": "컴퓨터가 안 켜져요.",
+      "example_uz": "Kompyuter yonmayapti.",
+      "example_en": "The computer won't turn on.",
+      "audio": "901c2c32ebc2.mp3",
+      "example_audio": "c9ea770d8e50.mp3"
+    },
+    {
+      "id": "b3_u06_l1_w005",
+      "ko": "꺼지다",
+      "uz": "o'chib qolmoq",
+      "en": "to turn off",
+      "pos": "fe'l",
+      "example_ko": "게임을 하다가 꺼졌어요.",
+      "example_uz": "O'yin o'ynayotganda o'chib qoldi.",
+      "example_en": "It shut down while I was gaming.",
+      "audio": "be6722dfbdad.mp3",
+      "example_audio": "94acf6c2b92e.mp3"
+    },
+    {
+      "id": "b3_u06_l1_w006",
+      "ko": "나오다",
+      "uz": "chiqmoq (tasvir, ovoz)",
+      "en": "to come out, to appear",
+      "pos": "fe'l",
+      "example_ko": "소리가 안 나와요.",
+      "example_uz": "Ovoz chiqmayapti.",
+      "example_en": "There's no sound.",
+      "audio": "a31ce68625f7.mp3",
+      "example_audio": "a32c8f5ba9b1.mp3"
+    },
+    {
+      "id": "b3_u06_l1_w007",
+      "ko": "배터리",
+      "uz": "batareya",
+      "en": "battery",
+      "pos": "ot",
+      "example_ko": "배터리가 빨리 닳아요.",
+      "example_uz": "Batareya tez tugaydi.",
+      "example_en": "The battery drains fast.",
+      "audio": "a11e373a4522.mp3",
+      "example_audio": "db20e5b655ff.mp3"
+    },
+    {
+      "id": "b3_u06_l1_w008",
+      "ko": "충전하다",
+      "uz": "zaryadlamoq",
+      "en": "to charge",
+      "pos": "fe'l",
+      "example_ko": "휴대폰을 충전하고 있어요.",
+      "example_uz": "Telefonni zaryadlayapman.",
+      "example_en": "I'm charging my phone.",
+      "audio": "ddb10bdc8d28.mp3",
+      "example_audio": "46892b8f0cda.mp3"
+    },
+    {
+      "id": "b3_u06_l1_w009",
+      "ko": "충전기",
+      "uz": "zaryadlovchi",
+      "en": "charger",
+      "pos": "ot",
+      "example_ko": "충전기를 잃어버렸어요.",
+      "example_uz": "Zaryadlovchini yo'qotdim.",
+      "example_en": "I lost my charger.",
+      "audio": "9343d868bfa8.mp3",
+      "example_audio": "88aabb84e872.mp3"
+    },
+    {
+      "id": "b3_u06_l1_w010",
+      "ko": "떨어뜨리다",
+      "uz": "tushirib yubormoq",
+      "en": "to drop",
+      "pos": "fe'l",
+      "example_ko": "휴대폰을 떨어뜨렸어요.",
+      "example_uz": "Telefonni tushirib yubordim.",
+      "example_en": "I dropped my phone.",
+      "audio": "ac137f1d22dc.mp3",
+      "example_audio": "00824eabca03.mp3"
+    },
+    {
+      "id": "b3_u06_l1_w011",
+      "ko": "깨지다",
+      "uz": "sinmoq",
+      "en": "to crack, to break",
+      "pos": "fe'l",
+      "example_ko": "화면이 깨졌어요.",
+      "example_uz": "Ekran sindi.",
+      "example_en": "The screen cracked.",
+      "audio": "784e4d951ac7.mp3",
+      "example_audio": "ee8948c3a2c4.mp3"
+    },
+    {
+      "id": "b3_u06_l1_w012",
+      "ko": "쏟다",
+      "uz": "to'kib yubormoq",
+      "en": "to spill",
+      "pos": "fe'l",
+      "example_ko": "커피를 쏟았어요.",
+      "example_uz": "Qahvani to'kib yubordim.",
+      "example_en": "I spilled coffee.",
+      "audio": "e842d4b2c83a.mp3",
+      "example_audio": "f8339eb28e7a.mp3"
+    },
+    {
+      "id": "b3_u06_l1_w013",
+      "ko": "젖다",
+      "uz": "ho'l bo'lmoq",
+      "en": "to get wet",
+      "pos": "fe'l",
+      "example_ko": "비 때문에 가방이 젖었어요.",
+      "example_uz": "Yomg'ir tufayli sumka ho'l bo'ldi.",
+      "example_en": "My bag got wet because of the rain.",
+      "audio": "6b89a09dbee3.mp3",
+      "example_audio": "95baa6fd525b.mp3"
+    },
+    {
+      "id": "b3_u06_l1_w014",
+      "ko": "느리다",
+      "uz": "sekin bo'lmoq",
+      "en": "to be slow",
+      "pos": "sifat",
+      "example_ko": "컴퓨터가 너무 느려요.",
+      "example_uz": "Kompyuter juda sekin.",
+      "example_en": "The computer is too slow.",
+      "audio": "edc33d177ba8.mp3",
+      "example_audio": "1d470fa45d3d.mp3"
+    },
+    {
+      "id": "b3_u06_l1_w015",
+      "ko": "멈추다",
+      "uz": "to'xtamoq",
+      "en": "to stop, to freeze",
+      "pos": "fe'l",
+      "example_ko": "화면이 멈췄어요.",
+      "example_uz": "Ekran qotib qoldi.",
+      "example_en": "The screen froze.",
+      "audio": "82b32c70b9a7.mp3",
+      "example_audio": "58534049b89b.mp3"
+    },
+    {
+      "id": "b3_u06_l1_w016",
+      "ko": "작동하다",
+      "uz": "ishlamoq (qurilma)",
+      "en": "to work, to operate",
+      "pos": "fe'l",
+      "example_ko": "키보드가 작동하지 않아요.",
+      "example_uz": "Klaviatura ishlamayapti.",
+      "example_en": "The keyboard isn't working.",
+      "audio": "a58df9b547e0.mp3",
+      "example_audio": "638d1e978c3c.mp3"
+    },
+    {
+      "id": "b3_u06_l1_w017",
+      "ko": "버튼",
+      "uz": "tugma",
+      "en": "button",
+      "pos": "ot",
+      "example_ko": "이 버튼을 누르세요.",
+      "example_uz": "Shu tugmani bosing.",
+      "example_en": "Press this button.",
+      "audio": "178df4eb7563.mp3",
+      "example_audio": "3b7a9e5631f7.mp3"
+    },
+    {
+      "id": "b3_u06_l1_w018",
+      "ko": "누르다",
+      "uz": "bosmoq",
+      "en": "to press",
+      "pos": "fe'l",
+      "example_ko": "버튼을 눌렀는데 안 돼요.",
+      "example_uz": "Tugmani bosdim, lekin bo'lmayapti.",
+      "example_en": "I pressed the button, but it doesn't work.",
+      "audio": "34699b75c785.mp3",
+      "example_audio": "1fd4b2443af1.mp3"
+    },
+    {
+      "id": "b3_u06_l1_w019",
+      "ko": "수리",
+      "uz": "ta'mir",
+      "en": "repair",
+      "pos": "ot",
+      "example_ko": "수리를 맡겼어요.",
+      "example_uz": "Ta'mirga topshirdim.",
+      "example_en": "I left it for repair.",
+      "audio": "67caceca6f03.mp3",
+      "example_audio": "1ff7ef6a27f9.mp3"
+    },
+    {
+      "id": "b3_u06_l1_w020",
+      "ko": "서비스 센터",
+      "uz": "servis markazi",
+      "en": "service centre",
+      "pos": "ot",
+      "example_ko": "서비스 센터에 가 보세요.",
+      "example_uz": "Servis markaziga boring.",
+      "example_en": "Try the service centre.",
+      "audio": "a000e08a1bf4.mp3",
+      "example_audio": "5f21d539ec4e.mp3"
+    },
+    {
+      "id": "b3_u06_l1_w021",
+      "ko": "보증 기간",
+      "uz": "kafolat muddati",
+      "en": "warranty period",
+      "pos": "ot",
+      "example_ko": "보증 기간이 끝났어요.",
+      "example_uz": "Kafolat muddati tugadi.",
+      "example_en": "The warranty has expired.",
+      "audio": "e9bb937251a2.mp3",
+      "example_audio": "d880e74d6d87.mp3"
+    },
+    {
+      "id": "b3_u06_l1_w022",
+      "ko": "무상",
+      "uz": "bepul (xizmat)",
+      "en": "free of charge",
+      "pos": "ot",
+      "example_ko": "보증 기간이니까 무상 수리예요.",
+      "example_uz": "Kafolat muddati, shuning uchun ta'mir bepul.",
+      "example_en": "It's under warranty, so the repair is free.",
+      "audio": "09d1d7574d01.mp3",
+      "example_audio": "9545f9217e53.mp3"
+    },
+    {
+      "id": "b3_u06_l1_w023",
+      "ko": "갑자기",
+      "uz": "birdan",
+      "en": "suddenly",
+      "pos": "ravish",
+      "example_ko": "갑자기 화면이 꺼졌어요.",
+      "example_uz": "Birdan ekran o'chib qoldi.",
+      "example_en": "Suddenly the screen went off.",
+      "audio": "c5df0e1fe1cd.mp3",
+      "example_audio": "a2a2f3f93354.mp3"
+    },
+    {
+      "id": "b3_u06_l1_w024",
+      "ko": "자꾸",
+      "uz": "tez-tez, qayta-qayta",
+      "en": "repeatedly",
+      "pos": "ravish",
+      "example_ko": "자꾸 멈춰요.",
+      "example_uz": "Qayta-qayta qotib qoladi.",
+      "example_en": "It keeps freezing.",
+      "audio": "5d24471c09c7.mp3",
+      "example_audio": "83320e762f38.mp3"
+    },
+    {
+      "id": "b3_u06_l1_w025",
+      "ko": "키보드",
+      "uz": "klaviatura",
+      "en": "keyboard",
+      "pos": "ot",
+      "example_ko": "키보드에 물을 쏟았어요.",
+      "example_uz": "Klaviaturaga suv to'kdim.",
+      "example_en": "I spilled water on the keyboard.",
+      "audio": "0030acd8ffbc.mp3",
+      "example_audio": "9335f62278d7.mp3"
+    },
+    {
+      "id": "b3_u06_l1_w026",
+      "ko": "와이파이",
+      "uz": "Wi-Fi",
+      "en": "Wi-Fi",
+      "pos": "ot",
+      "example_ko": "와이파이가 연결이 안 돼요.",
+      "example_uz": "Wi-Fi ulanmayapti.",
+      "example_en": "The Wi-Fi won't connect.",
+      "audio": "40ce4729d822.mp3",
+      "example_audio": "1db9f1f4c50c.mp3"
+    },
+    {
+      "id": "b3_u06_l1_w027",
+      "ko": "연결되다",
+      "uz": "ulanmoq",
+      "en": "to be connected",
+      "pos": "fe'l",
+      "example_ko": "인터넷이 연결됐어요.",
+      "example_uz": "Internet ulandi.",
+      "example_en": "The internet is connected.",
+      "audio": "b50d83bd571b.mp3",
+      "example_audio": "2c29a8d3b88f.mp3"
+    },
+    {
+      "id": "b3_u06_l1_w028",
+      "ko": "업데이트",
+      "uz": "yangilash",
+      "en": "update",
+      "pos": "ot",
+      "example_ko": "업데이트하다가 멈췄어요.",
+      "example_uz": "Yangilanayotganda to'xtab qoldi.",
+      "example_en": "It froze while updating.",
+      "audio": "3ff9e18052dd.mp3",
+      "example_audio": "364916c5906b.mp3"
+    },
+    {
+      "id": "b3_u06_l1_w029",
+      "ko": "과제",
+      "uz": "topshiriq (o'qishda)",
+      "en": "assignment",
+      "pos": "ot",
+      "example_ko": "과제를 하다가 노트북이 꺼졌어요.",
+      "example_uz": "Topshiriq qilayotganda noutbuk o'chib qoldi.",
+      "example_en": "My laptop went off while I was doing my assignment.",
+      "audio": "8a7f6d676e03.mp3",
+      "example_audio": "4edd0fe80590.mp3"
+    },
+    {
+      "id": "b3_u06_l1_w030",
+      "ko": "저장하다",
+      "uz": "saqlamoq (fayl)",
+      "en": "to save",
+      "pos": "fe'l",
+      "example_ko": "파일을 저장하지 못했어요.",
+      "example_uz": "Faylni saqlay olmadim.",
+      "example_en": "I couldn't save the file.",
+      "audio": "f9c380166ca9.mp3",
+      "example_audio": "3df7b808666f.mp3"
+    },
+    {
+      "id": "b3_u06_l1_w031",
+      "ko": "파일",
+      "uz": "fayl",
+      "en": "file",
+      "pos": "ot",
+      "example_ko": "파일이 없어졌어요.",
+      "example_uz": "Fayl yo'qolib qoldi.",
+      "example_en": "The file disappeared.",
+      "audio": "703c7ab3e897.mp3",
+      "example_audio": "5cce1cba52cc.mp3"
+    },
+    {
+      "id": "b3_u06_l1_w032",
+      "ko": "걱정이다",
+      "uz": "xavotir bo'lmoq",
+      "en": "to be worried",
+      "pos": "ibora",
+      "example_ko": "과제 때문에 걱정이에요.",
+      "example_uz": "Topshiriq tufayli xavotirdaman.",
+      "example_en": "I'm worried because of my assignment.",
+      "audio": "ba786b165954.mp3",
+      "example_audio": "6c9c64eb3b50.mp3"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "b3_u06_l1_g1",
+      "pattern": "V-다가",
+      "meaning_uz": "...ayotganda (ish to'xtab, boshqasi boshlanadi)",
+      "meaning_en": "While doing … (and then something happens)",
+      "explanation_md": "**-다가** — bir ish-harakat **davom etayotganda** to'xtab, **boshqasi** boshlanishini yoki biror hodisa yuz berishini bildiradi: \"**...ayotganda**\", \"**...ib turib**\".\n\n**게임을 하다가 노트북이 꺼졌어요.** — *O'yin o'ynayotganda noutbuk o'chib qoldi.*\n\n### Qanday yasaladi\n\n**-다** o'rniga **-다가** — 받침 ga qarab o'zgarmaydi:\n\n- 하다 → **하다가**, 보다 → **보다가**\n- 먹다 → **먹다가**, 걷다 → **걷다가**\n\n### Esda tuting\n\n- Ikkala qismning **egasi bir xil** bo'lsa, odatda: **(저는) 공부하다가 잤어요.** — *O'qib o'tirib uxlab qoldim.*\n- Lekin noutbuk/telefon kabi narsalar bilan hodisa ham bo'lishi mumkin: **과제를 하다가 노트북이 꺼졌어요.**\n- Qisqa shakli **-다**: **가다 말았어요** kabi; og'zaki nutqda **-다가** ko'proq.\n- 8-1 da **살다가 오게 됐어** — yashab turib (keyin) — xuddi shu qoida.",
+      "explanation_md_en": "**-다가** shows that while one action is **in progress**, it stops or **something else** happens: \"**while …-ing**\", \"**was …-ing and then**\".\n\n**게임을 하다가 노트북이 꺼졌어요.** — *My laptop shut down while I was gaming.*\n\n### How to form it\n\nReplace **-다** with **-다가** — no change for 받침:\n\n- 하다 → **하다가**, 보다 → **보다가**\n- 먹다 → **먹다가**, 걷다 → **걷다가**\n\n### Remember\n\n- Usually the **same subject** does both: **(저는) 공부하다가 잤어요.** — *I was studying and fell asleep.*\n- But with gadgets an event can interrupt you: **과제를 하다가 노트북이 꺼졌어요.**\n- In 8-1, **살다가 오게 됐어** (\"lived there, then came\") follows the same rule.",
+      "formation": [
+        {
+          "condition_uz": "Har qanday fe'l",
+          "condition_en": "Any verb",
+          "rule": "V-다 → V-다가",
+          "example": "하다가, 보다가, 먹다가"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "게임을 하다가 노트북이 꺼졌어요.",
+          "uz": "O'yin o'ynayotganda noutbuk o'chib qoldi.",
+          "en": "My laptop shut down while I was gaming.",
+          "audio": "ba16892ca1a6.mp3"
+        },
+        {
+          "ko": "과제를 하다가 화면이 멈췄어요.",
+          "uz": "Topshiriq qilayotganda ekran qotib qoldi.",
+          "en": "The screen froze while I was doing my assignment.",
+          "audio": "dbfa46eb2061.mp3"
+        },
+        {
+          "ko": "커피를 마시다가 키보드에 쏟았어요.",
+          "uz": "Qahva ichib o'tirib, klaviaturaga to'kib yubordim.",
+          "en": "I was drinking coffee and spilled it on the keyboard.",
+          "audio": "f939bad74b46.mp3"
+        },
+        {
+          "ko": "걷다가 휴대폰을 떨어뜨렸어요.",
+          "uz": "Yurib ketayotib telefonni tushirib yubordim.",
+          "en": "I dropped my phone while walking.",
+          "audio": "794ad60b5b3c.mp3"
+        },
+        {
+          "ko": "공부하다가 잠이 들었어요.",
+          "uz": "O'qib o'tirib uxlab qoldim.",
+          "en": "I fell asleep while studying.",
+          "audio": "d4073209e335.mp3"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "게임을 했다가 꺼졌어요.",
+          "right": "게임을 하다가 꺼졌어요.",
+          "why_uz": "Davom etayotgan ish: -다가.",
+          "why_en": "An action in progress: -다가."
+        },
+        {
+          "wrong": "커피를 마시다 가 쏟았어요.",
+          "right": "커피를 마시다가 쏟았어요.",
+          "why_uz": "-다가 qo'shib yoziladi.",
+          "why_en": "-다가 is written attached."
+        },
+        {
+          "wrong": "업데이트하가 멈췄어요.",
+          "right": "업데이트하다가 멈췄어요.",
+          "why_uz": "-다 o'rniga -다가.",
+          "why_en": "Replace -다 with -다가."
+        }
+      ],
+      "uz_compare": "O'zbekchadagi '-ayotganda' yoki '-ib turib' ga mos: 'o'ynaYOTGANDA o'chib qoldi' = 하다가 꺼졌어요; 'o'qib o'tirIB uxlab qoldim' = 공부하다가 잠이 들었어요.",
+      "compare_en": "Like English 'while …-ing (then)': 'It shut down WHILE I was gaming' = 게임을 하다가 꺼졌어요."
+    },
+    {
+      "id": "b3_u06_l1_g2",
+      "pattern": "N 때문에",
+      "meaning_uz": "... tufayli, ... sababli",
+      "meaning_en": "Because of N",
+      "explanation_md": "**N 때문에** — sabab otga qo'shiladi: \"**... tufayli**\", \"**... sababli**\".\n\n**비 때문에 가방이 젖었어요.** — *Yomg'ir tufayli sumka ho'l bo'ldi.*\n\n### Qanday yasaladi\n\n**때문에** 받침 ga qarab o'zgarmaydi: **고장 때문에**, **과제 때문에**, **배터리 때문에**.\n\n### Esda tuting\n\n- Ko'pincha **salbiy** sabab bilan: **소음 때문에 못 잤어요.**\n- Gap oxirida: **N 때문이에요** — \"... tufayli\": **화면이 안 나오는 건 배터리 때문이에요.**\n- Fe'l/sifat bilan: **A/V-기 때문에** — \"...gani uchun\" (rasmiyroq): **바쁘기 때문에 못 가요.**\n- **-아서/어서** va **-(으)니까** bilan farqi: **때문에** sababni **ta'kidlaydi**.",
+      "explanation_md_en": "**N 때문에** gives a cause: \"**because of N**\", \"**due to N**\".\n\n**비 때문에 가방이 젖었어요.** — *My bag got wet because of the rain.*\n\n### How to form it\n\n**때문에** doesn't change with 받침: **고장 때문에**, **과제 때문에**, **배터리 때문에**.\n\n### Remember\n\n- It often goes with a **negative** cause: **소음 때문에 못 잤어요.**\n- At the end: **N 때문이에요** — \"it's because of N\": **화면이 안 나오는 건 배터리 때문이에요.**\n- With verbs/adjectives: **A/V-기 때문에** — \"because\" (more formal): **바쁘기 때문에 못 가요.**\n- Compared with **-아서/어서** and **-(으)니까**, **때문에** puts **emphasis** on the cause.",
+      "formation": [
+        {
+          "condition_uz": "Ot",
+          "condition_en": "Noun",
+          "rule": "N 때문에",
+          "example": "비 때문에, 과제 때문에"
+        },
+        {
+          "condition_uz": "Gap oxirida",
+          "condition_en": "At the end",
+          "rule": "N 때문이에요",
+          "example": "배터리 때문이에요"
+        },
+        {
+          "condition_uz": "Fe'l/sifat",
+          "condition_en": "Verb/adjective",
+          "rule": "A/V-기 때문에",
+          "example": "바쁘기 때문에"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "비 때문에 가방이 젖었어요.",
+          "uz": "Yomg'ir tufayli sumka ho'l bo'ldi.",
+          "en": "My bag got wet because of the rain.",
+          "audio": "95baa6fd525b.mp3"
+        },
+        {
+          "ko": "과제 때문에 걱정이에요.",
+          "uz": "Topshiriq tufayli xavotirdaman.",
+          "en": "I'm worried because of my assignment.",
+          "audio": "6c9c64eb3b50.mp3"
+        },
+        {
+          "ko": "배터리 때문에 휴대폰이 꺼졌어요.",
+          "uz": "Batareya sababli telefon o'chib qoldi.",
+          "en": "My phone died because of the battery.",
+          "audio": "d0686c2b56b5.mp3"
+        },
+        {
+          "ko": "소음 때문에 잠을 못 잤어요.",
+          "uz": "Shovqin tufayli uxlay olmadim.",
+          "en": "I couldn't sleep because of the noise.",
+          "audio": "e592d9c14f2d.mp3"
+        },
+        {
+          "ko": "화면이 안 나오는 건 고장 때문이에요.",
+          "uz": "Ekran yonmasligi — buzilish tufayli.",
+          "en": "The screen not coming on is because it's broken.",
+          "audio": "2e694f3fa0a5.mp3"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "비가 때문에 젖었어요.",
+          "right": "비 때문에 젖었어요.",
+          "why_uz": "때문에 dan oldin 이/가 yo'q.",
+          "why_en": "No 이/가 before 때문에."
+        },
+        {
+          "wrong": "과제 때문 걱정이에요.",
+          "right": "과제 때문에 걱정이에요.",
+          "why_uz": "때문에 — to'liq shakl.",
+          "why_en": "Use the full 때문에."
+        },
+        {
+          "wrong": "바쁘다 때문에 못 가요.",
+          "right": "바쁘기 때문에 못 가요.",
+          "why_uz": "Fe'l/sifat bilan: -기 때문에.",
+          "why_en": "With verbs/adjectives: -기 때문에."
+        }
+      ],
+      "uz_compare": "O'zbekchadagi '... tufayli', '... sababli' bilan aynan bir xil: 'yomg'ir TUFAYLI' = 비 때문에.",
+      "compare_en": "Exactly like English 'because of': 'because of the rain' = 비 때문에. With a verb, use -기 때문에."
+    }
+  ],
+  "dialogue": {
+    "lines": [
+      {
+        "speaker": "aziz",
+        "ko": "민지 씨, 큰일 났어요! 노트북 화면이 안 나와요.",
+        "uz": "Minji, katta muammo! Noutbuk ekrani yonmayapti.",
+        "en": "Minji, disaster! My laptop screen won't come on.",
+        "audio": "d3d30488031f.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "갑자기요? 어떻게 된 거예요?",
+        "uz": "Birdanmi? Nima bo'ldi?",
+        "en": "Suddenly? What happened?",
+        "audio": "8caee9790946.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "과제를 하다가 갑자기 꺼졌어요. 그리고 다시 안 켜져요.",
+        "uz": "Topshiriq qilayotganimda birdan o'chib qoldi. Qayta yonmayapti.",
+        "en": "It suddenly went off while I was doing my assignment. And now it won't turn on.",
+        "audio": "36a6cc81b765.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "배터리 때문이 아니에요? 충전기를 꽂아 봤어요?",
+        "uz": "Batareya tufayli emasmi? Zaryadlovchini ulab ko'rdingizmi?",
+        "en": "Isn't it the battery? Did you try plugging in the charger?",
+        "audio": "d120da516774.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "네, 충전하면서 전원 버튼을 눌렀는데 안 돼요.",
+        "uz": "Ha, zaryadlab turib quvvat tugmasini bosdim, lekin bo'lmayapti.",
+        "en": "Yes, I pressed the power button while charging, but nothing.",
+        "audio": "1b8d38e6deee.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "혹시 물을 쏟았어요?",
+        "uz": "Balki suv to'kib yuborgandirsiz?",
+        "en": "Did you spill water on it, by any chance?",
+        "audio": "1243ab9840bf.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "아… 어제 커피를 마시다가 키보드에 조금 쏟았어요.",
+        "uz": "A… kecha qahva ichib o'tirib klaviaturaga ozroq to'kdim.",
+        "en": "Ah… yesterday I spilled a little coffee on the keyboard while drinking.",
+        "audio": "6650793ef26c.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "그것 때문인 것 같아요. 서비스 센터에 가 보세요.",
+        "uz": "Shu tufayli bo'lsa kerak. Servis markaziga boring.",
+        "en": "That must be why. Go to the service centre.",
+        "audio": "aaf20f90e444.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "보증 기간이 아직 있으니까 무상 수리가 될까요?",
+        "uz": "Kafolat muddati hali bor, ta'mir bepul bo'larmikin?",
+        "en": "It's still under warranty — will the repair be free?",
+        "audio": "61eadf2681d6.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "물 때문에 고장 나면 유료일 거예요.",
+        "uz": "Suv tufayli buzilsa, pullik bo'lsa kerak.",
+        "en": "If water broke it, you'll probably have to pay.",
+        "audio": "1e1dfeafd6a1.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "과제 때문에 정말 걱정이에요. 파일도 저장 못 했어요!",
+        "uz": "Topshiriq tufayli juda xavotirdaman. Faylni ham saqlay olmadim!",
+        "en": "I'm so worried about my assignment. I didn't even save the file!",
+        "audio": "071c0aaff6cc.mp3"
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b3_u06_l1_e001",
+      "type": "conjugate",
+      "targets": [
+        "b3_u06_l1_g1"
+      ],
+      "prompt_uz": "'O'ynayotganda' shaklini yasang",
+      "prompt_en": "Make 'while playing'",
+      "base": "하다",
+      "form": "-다가",
+      "answers": [
+        "하다가"
+      ]
+    },
+    {
+      "id": "b3_u06_l1_e002",
+      "type": "conjugate",
+      "targets": [
+        "b3_u06_l1_g1"
+      ],
+      "prompt_uz": "'Ichib o'tirib' shaklini yasang",
+      "prompt_en": "Make 'while drinking'",
+      "base": "마시다",
+      "form": "-다가",
+      "answers": [
+        "마시다가"
+      ]
+    },
+    {
+      "id": "b3_u06_l1_e003",
+      "type": "conjugate",
+      "targets": [
+        "b3_u06_l1_g2"
+      ],
+      "prompt_uz": "'Yomg'ir tufayli' iborasini yasang",
+      "prompt_en": "Make 'because of the rain'",
+      "base": "비",
+      "form": "+ 때문에",
+      "answers": [
+        "비 때문에"
+      ]
+    },
+    {
+      "id": "b3_u06_l1_e004",
+      "type": "conjugate",
+      "targets": [
+        "b3_u06_l1_g2"
+      ],
+      "prompt_uz": "'Band bo'lgani uchun' (-기 때문에)",
+      "prompt_en": "Make 'because (I'm) busy' (-기 때문에)",
+      "base": "바쁘다",
+      "form": "-기 때문에",
+      "answers": [
+        "바쁘기 때문에"
+      ]
+    },
+    {
+      "id": "b3_u06_l1_e005",
+      "type": "fill_blank",
+      "targets": [
+        "b3_u06_l1_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Yurib ketayotib telefonni tushirdim.'",
+      "prompt_en": "Fill in the blank: 'I dropped my phone while walking.'",
+      "sentence": "___ 휴대폰을 떨어뜨렸어요. (걷다)",
+      "answers": [
+        "걷다가"
+      ]
+    },
+    {
+      "id": "b3_u06_l1_e006",
+      "type": "fill_blank",
+      "targets": [
+        "b3_u06_l1_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'O'qib o'tirib uxlab qoldim.'",
+      "prompt_en": "Fill in the blank: 'I fell asleep while studying.'",
+      "sentence": "___ 잠이 들었어요. (공부하다)",
+      "answers": [
+        "공부하다가"
+      ]
+    },
+    {
+      "id": "b3_u06_l1_e007",
+      "type": "fill_blank",
+      "targets": [
+        "b3_u06_l1_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Shovqin tufayli uxlay olmadim.'",
+      "prompt_en": "Fill in the blank: 'I couldn't sleep because of the noise.'",
+      "sentence": "소음 ___ 잠을 못 잤어요.",
+      "answers": [
+        "때문에"
+      ]
+    },
+    {
+      "id": "b3_u06_l1_e008",
+      "type": "fill_blank",
+      "targets": [
+        "b3_u06_l1_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Bu batareya tufayli.'",
+      "prompt_en": "Fill in the blank: 'It's because of the battery.'",
+      "sentence": "배터리 ___.",
+      "answers": [
+        "때문이에요"
+      ]
+    },
+    {
+      "id": "b3_u06_l1_e009",
+      "type": "situation_choice",
+      "targets": [
+        "b3_u06_l1_g1"
+      ],
+      "prompt_uz": "Topshiriq qilayotganda noutbuk o'chib qolganini ayting:",
+      "prompt_en": "Say the laptop went off while you were doing your assignment:",
+      "options": [
+        "과제를 하다가 노트북이 꺼졌어요.",
+        "과제를 했다가 노트북이 꺼졌어요.",
+        "과제를 하다 가 노트북이 꺼졌어요.",
+        "과제를 하가 노트북이 꺼졌어요."
+      ],
+      "answers": [
+        "과제를 하다가 노트북이 꺼졌어요."
+      ]
+    },
+    {
+      "id": "b3_u06_l1_e010",
+      "type": "situation_choice",
+      "targets": [
+        "b3_u06_l1_g2"
+      ],
+      "prompt_uz": "Yomg'ir tufayli kech qolganingizni ayting:",
+      "prompt_en": "Say you were late because of the rain:",
+      "options": [
+        "비 때문에 늦었어요.",
+        "비가 때문에 늦었어요.",
+        "비 때문 늦었어요.",
+        "비 때문에서 늦었어요."
+      ],
+      "answers": [
+        "비 때문에 늦었어요."
+      ]
+    },
+    {
+      "id": "b3_u06_l1_e011",
+      "type": "situation_choice",
+      "targets": [
+        "b3_u06_l1_w011"
+      ],
+      "prompt_uz": "Telefon ekrani singanini ayting:",
+      "prompt_en": "Say the phone screen cracked:",
+      "options": [
+        "화면이 깨졌어요.",
+        "화면이 젖었어요.",
+        "화면이 충전됐어요.",
+        "화면이 연결됐어요."
+      ],
+      "answers": [
+        "화면이 깨졌어요."
+      ]
+    },
+    {
+      "id": "b3_u06_l1_e012",
+      "type": "find_error",
+      "targets": [
+        "b3_u06_l1_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "업데이트했다가 멈췄어요. (davom etayotgan)",
+      "answers": [
+        "업데이트하다가 멈췄어요"
+      ],
+      "why_uz": "Davom etayotgan ish: -다가.",
+      "why_en": "An action in progress: -다가."
+    },
+    {
+      "id": "b3_u06_l1_e013",
+      "type": "find_error",
+      "targets": [
+        "b3_u06_l1_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "과제가 때문에 걱정이에요.",
+      "answers": [
+        "과제 때문에 걱정이에요"
+      ],
+      "why_uz": "때문에 dan oldin 이/가 yo'q.",
+      "why_en": "No 이/가 before 때문에."
+    },
+    {
+      "id": "b3_u06_l1_e014",
+      "type": "find_error",
+      "targets": [
+        "b3_u06_l1_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "바쁘다 때문에 못 가요.",
+      "answers": [
+        "바쁘기 때문에 못 가요"
+      ],
+      "why_uz": "Sifat bilan: -기 때문에.",
+      "why_en": "With an adjective: -기 때문에."
+    },
+    {
+      "id": "b3_u06_l1_e015",
+      "type": "translate",
+      "targets": [
+        "b3_u06_l1_g1"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "O'yin o'ynayotganda noutbuk o'chib qoldi.",
+      "source_en": "My laptop shut down while I was gaming.",
+      "answers": [
+        "게임을 하다가 노트북이 꺼졌어요"
+      ]
+    },
+    {
+      "id": "b3_u06_l1_e016",
+      "type": "translate",
+      "targets": [
+        "b3_u06_l1_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Yomg'ir tufayli sumka ho'l bo'ldi.",
+      "source_en": "My bag got wet because of the rain.",
+      "answers": [
+        "비 때문에 가방이 젖었어요"
+      ]
+    },
+    {
+      "id": "b3_u06_l1_e017",
+      "type": "translate",
+      "targets": [
+        "b3_u06_l1_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Topshiriq tufayli xavotirdaman.",
+      "source_en": "I'm worried because of my assignment.",
+      "answers": [
+        "과제 때문에 걱정이에요",
+        "과제 때문에 걱정돼요"
+      ]
+    },
+    {
+      "id": "b3_u06_l1_e018",
+      "type": "build_sentence",
+      "targets": [
+        "b3_u06_l1_g1"
+      ],
+      "prompt_uz": "'Qahva ichib o'tirib klaviaturaga to'kib yubordim' gapini tuzing",
+      "prompt_en": "Build the sentence 'I spilled coffee on the keyboard while drinking it'",
+      "tokens": [
+        "마시다가",
+        "쏟았어요",
+        "키보드에",
+        "커피를"
+      ],
+      "answers": [
+        "커피를 마시다가 키보드에 쏟았어요"
+      ]
+    },
+    {
+      "id": "b3_u06_l1_e019",
+      "type": "build_sentence",
+      "targets": [
+        "b3_u06_l1_g2"
+      ],
+      "prompt_uz": "'Batareya sababli telefon o'chib qoldi' gapini tuzing",
+      "prompt_en": "Build the sentence 'My phone died because of the battery'",
+      "tokens": [
+        "배터리",
+        "꺼졌어요",
+        "때문에",
+        "휴대폰이"
+      ],
+      "answers": [
+        "배터리 때문에 휴대폰이 꺼졌어요"
+      ]
+    },
+    {
+      "id": "b3_u06_l1_e020",
+      "type": "build_sentence",
+      "targets": [
+        "b3_u06_l1_g1"
+      ],
+      "prompt_uz": "'Yangilanayotganda to'xtab qoldi' gapini tuzing",
+      "prompt_en": "Build the sentence 'It froze while updating'",
+      "tokens": [
+        "멈췄어요",
+        "업데이트하다가"
+      ],
+      "answers": [
+        "업데이트하다가 멈췄어요"
+      ]
+    },
+    {
+      "id": "b3_u06_l1_e021",
+      "type": "listen_question",
+      "targets": [
+        "b3_u06_l1_g1"
+      ],
+      "prompt_uz": "Telefon qachon tushib ketdi?",
+      "prompt_en": "When did the phone fall?",
+      "audio_text": "버스에서 내리다가 휴대폰을 떨어뜨렸어요.",
+      "options": [
+        "Avtobusdan tushayotganda",
+        "Yurayotganda",
+        "Ovqatlanayotganda",
+        "Uxlayotganda"
+      ],
+      "options_en": [
+        "Getting off the bus",
+        "Walking",
+        "Eating",
+        "Sleeping"
+      ],
+      "answers": [
+        "Avtobusdan tushayotganda"
+      ],
+      "audio": "244e9ec7f35c.mp3"
+    },
+    {
+      "id": "b3_u06_l1_e022",
+      "type": "listen_question",
+      "targets": [
+        "b3_u06_l1_g2"
+      ],
+      "prompt_uz": "Nega uxlay olmadi?",
+      "prompt_en": "Why couldn't the speaker sleep?",
+      "audio_text": "옆집 소음 때문에 잠을 못 잤어요.",
+      "options": [
+        "Qo'shnining shovqini",
+        "Kasallik",
+        "Uy vazifasi",
+        "Qahva"
+      ],
+      "options_en": [
+        "Neighbours' noise",
+        "Illness",
+        "Homework",
+        "Coffee"
+      ],
+      "answers": [
+        "Qo'shnining shovqini"
+      ],
+      "audio": "613c2cb568a2.mp3"
+    },
+    {
+      "id": "b3_u06_l1_e023",
+      "type": "listen_question",
+      "targets": [
+        "b3_u06_l1_g1"
+      ],
+      "prompt_uz": "Noutbuk qachon qotib qoldi?",
+      "prompt_en": "When did the laptop freeze?",
+      "audio_text": "영화를 보다가 화면이 멈췄어요.",
+      "options": [
+        "Kino ko'rayotganda",
+        "O'yin o'ynayotganda",
+        "Yangilanishda",
+        "Zaryadlashda"
+      ],
+      "options_en": [
+        "Watching a film",
+        "Gaming",
+        "Updating",
+        "Charging"
+      ],
+      "answers": [
+        "Kino ko'rayotganda"
+      ],
+      "audio": "83270e1be399.mp3"
+    },
+    {
+      "id": "b3_u06_l1_e024",
+      "type": "listen_question",
+      "targets": [
+        "b3_u06_l1_g2"
+      ],
+      "prompt_uz": "Ekran nima sababdan yonmayapti?",
+      "prompt_en": "Why won't the screen come on?",
+      "audio_text": "화면이 안 나오는 건 배터리 때문이에요.",
+      "options": [
+        "Batareya",
+        "Suv",
+        "Yangilanish",
+        "Wi-Fi"
+      ],
+      "options_en": [
+        "The battery",
+        "Water",
+        "An update",
+        "Wi-Fi"
+      ],
+      "answers": [
+        "Batareya"
+      ],
+      "audio": "c02239f46009.mp3"
+    },
+    {
+      "id": "b3_u06_l1_e101",
+      "type": "conjugate",
+      "targets": [
+        "b3_u06_l1_g1"
+      ],
+      "prompt_uz": "'Ko'rayotganda' shaklini yasang",
+      "prompt_en": "Make 'while watching'",
+      "base": "보다",
+      "form": "-다가",
+      "answers": [
+        "보다가"
+      ]
+    },
+    {
+      "id": "b3_u06_l1_e102",
+      "type": "conjugate",
+      "targets": [
+        "b3_u06_l1_g2"
+      ],
+      "prompt_uz": "'Kasallik tufayli' iborasini yasang",
+      "prompt_en": "Make 'because of illness'",
+      "base": "감기",
+      "form": "+ 때문에",
+      "answers": [
+        "감기 때문에"
+      ]
+    },
+    {
+      "id": "b3_u06_l1_e103",
+      "type": "fill_blank",
+      "targets": [
+        "b3_u06_l1_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Ovqatlanayotib telefonga qaradim.'",
+      "prompt_en": "Fill in the blank: 'I looked at my phone while eating.'",
+      "sentence": "밥을 ___ 휴대폰을 봤어요. (먹다)",
+      "answers": [
+        "먹다가"
+      ]
+    },
+    {
+      "id": "b3_u06_l1_e104",
+      "type": "fill_blank",
+      "targets": [
+        "b3_u06_l1_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Qor tufayli avtobus kechikdi.'",
+      "prompt_en": "Fill in the blank: 'The bus was late because of the snow.'",
+      "sentence": "눈 ___ 버스가 늦었어요.",
+      "answers": [
+        "때문에"
+      ]
+    },
+    {
+      "id": "b3_u06_l1_e105",
+      "type": "fill_blank",
+      "targets": [
+        "b3_u06_l1_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Ish ko'p bo'lgani uchun charchadim.' (-기 때문에)",
+      "prompt_en": "Fill in the blank: 'I'm tired because there's a lot of work.'",
+      "sentence": "일이 ___ 때문에 피곤해요. (많다)",
+      "answers": [
+        "많기"
+      ]
+    },
+    {
+      "id": "b3_u06_l1_e106",
+      "type": "situation_choice",
+      "targets": [
+        "b3_u06_l1_g1"
+      ],
+      "prompt_uz": "Qahva ichib o'tirib to'kib yuborganingizni ayting:",
+      "prompt_en": "Say you spilled your coffee while drinking it:",
+      "options": [
+        "커피를 마시다가 쏟았어요.",
+        "커피를 마셨다가 쏟았어요.",
+        "커피를 마시가 쏟았어요.",
+        "커피를 마시다 쏟았어요요."
+      ],
+      "answers": [
+        "커피를 마시다가 쏟았어요."
+      ]
+    },
+    {
+      "id": "b3_u06_l1_e107",
+      "type": "situation_choice",
+      "targets": [
+        "b3_u06_l1_g2"
+      ],
+      "prompt_uz": "Nega kech qolganingizni so'rashdi — tirbandlik:",
+      "prompt_en": "You're asked why you're late — traffic:",
+      "options": [
+        "길이 막혀서요. 교통 체증 때문이에요.",
+        "교통 체증이 때문이에요.",
+        "교통 체증 때문 이에요요.",
+        "교통 체증 때문에서요."
+      ],
+      "answers": [
+        "길이 막혀서요. 교통 체증 때문이에요."
+      ]
+    },
+    {
+      "id": "b3_u06_l1_e108",
+      "type": "situation_choice",
+      "targets": [
+        "b3_u06_l1_w024"
+      ],
+      "prompt_uz": "Kompyuter qayta-qayta qotib qolishini ayting:",
+      "prompt_en": "Say the computer keeps freezing:",
+      "options": [
+        "자꾸 멈춰요.",
+        "갑자기 멈췄어요요.",
+        "자꾸 켜져요.",
+        "자꾸 충전해요."
+      ],
+      "answers": [
+        "자꾸 멈춰요."
+      ]
+    },
+    {
+      "id": "b3_u06_l1_e109",
+      "type": "find_error",
+      "targets": [
+        "b3_u06_l1_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "공부했다가 잠이 들었어요. (davom etayotgan)",
+      "answers": [
+        "공부하다가 잠이 들었어요"
+      ],
+      "why_uz": "Davom etayotgan ish: -다가.",
+      "why_en": "An action in progress: -다가."
+    },
+    {
+      "id": "b3_u06_l1_e110",
+      "type": "find_error",
+      "targets": [
+        "b3_u06_l1_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "비가 때문에 못 갔어요.",
+      "answers": [
+        "비 때문에 못 갔어요"
+      ],
+      "why_uz": "때문에 dan oldin 이/가 yo'q.",
+      "why_en": "No 이/가 before 때문에."
+    },
+    {
+      "id": "b3_u06_l1_e111",
+      "type": "translate",
+      "targets": [
+        "b3_u06_l1_g1"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Yurib ketayotib telefonni tushirib yubordim.",
+      "source_en": "I dropped my phone while walking.",
+      "answers": [
+        "걷다가 휴대폰을 떨어뜨렸어요"
+      ]
+    },
+    {
+      "id": "b3_u06_l1_e112",
+      "type": "translate",
+      "targets": [
+        "b3_u06_l1_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Shovqin tufayli uxlay olmadim.",
+      "source_en": "I couldn't sleep because of the noise.",
+      "answers": [
+        "소음 때문에 잠을 못 잤어요",
+        "소음 때문에 못 잤어요"
+      ]
+    },
+    {
+      "id": "b3_u06_l1_e113",
+      "type": "build_sentence",
+      "targets": [
+        "b3_u06_l1_g2"
+      ],
+      "prompt_uz": "'Ekran yonmasligi — buzilish tufayli' gapini tuzing",
+      "prompt_en": "Build the sentence 'The screen not coming on is because it's broken'",
+      "tokens": [
+        "때문이에요",
+        "건",
+        "고장",
+        "나오는",
+        "화면이",
+        "안"
+      ],
+      "answers": [
+        "화면이 안 나오는 건 고장 때문이에요"
+      ]
+    },
+    {
+      "id": "b3_u06_l1_e114",
+      "type": "listen_question",
+      "targets": [
+        "b3_u06_l1_g1"
+      ],
+      "prompt_uz": "U nima qilayotgan edi?",
+      "prompt_en": "What was the speaker doing?",
+      "audio_text": "숙제를 하다가 컴퓨터가 갑자기 꺼졌어요.",
+      "options": [
+        "Uy vazifasini",
+        "O'yin o'ynash",
+        "Kino ko'rish",
+        "Musiqa tinglash"
+      ],
+      "options_en": [
+        "Homework",
+        "Gaming",
+        "Watching a film",
+        "Listening to music"
+      ],
+      "answers": [
+        "Uy vazifasini"
+      ],
+      "audio": "64833e56525a.mp3"
+    },
+    {
+      "id": "b3_u06_l1_e115",
+      "type": "listen_question",
+      "targets": [
+        "b3_u06_l1_g2"
+      ],
+      "prompt_uz": "Nega u xavotirda?",
+      "prompt_en": "Why is the speaker worried?",
+      "audio_text": "시험 때문에 요즘 걱정이 많아요.",
+      "options": [
+        "Imtihon",
+        "Ish",
+        "Kasallik",
+        "Pul"
+      ],
+      "options_en": [
+        "Exams",
+        "Work",
+        "Illness",
+        "Money"
+      ],
+      "answers": [
+        "Imtihon"
+      ],
+      "audio": "7595717b8bb2.mp3"
+    }
+  ],
+  "test": [
+    "b3_u06_l1_e101",
+    "b3_u06_l1_e102",
+    "b3_u06_l1_e103",
+    "b3_u06_l1_e104",
+    "b3_u06_l1_e105",
+    "b3_u06_l1_e106",
+    "b3_u06_l1_e107",
+    "b3_u06_l1_e108",
+    "b3_u06_l1_e109",
+    "b3_u06_l1_e110",
+    "b3_u06_l1_e111",
+    "b3_u06_l1_e112",
+    "b3_u06_l1_e113",
+    "b3_u06_l1_e114",
+    "b3_u06_l1_e115"
+  ],
+  "story": {
+    "title_uz": "Buzilgan noutbuk",
+    "title_en": "The broken laptop",
+    "gate_uz": "SERVIS",
+    "gate_en": "REPAIR",
+    "steps": [
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "민지 씨, 큰일 났어요! 노트북 화면이 안 나와요.",
+        "uz": "Minji, katta muammo! Noutbuk ekrani yonmayapti.",
+        "en": "Minji, disaster! My laptop screen won't come on.",
+        "audio": "d3d30488031f.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "어떻게 된 거예요?",
+        "uz": "Nima bo'ldi?",
+        "en": "What happened?",
+        "audio": "feadc90d7650.mp3"
+      },
+      {
+        "type": "choose_reply",
+        "speaker": "aziz",
+        "prompt_uz": "Aziz 'Topshiriq qilayotganimda birdan o'chib qoldi' demoqchi.",
+        "prompt_en": "Aziz wants to say 'It suddenly went off while I was doing my assignment'.",
+        "options": [
+          "과제를 하다가 갑자기 꺼졌어요.",
+          "과제를 했다가 갑자기 꺼졌어요.",
+          "과제를 하가 갑자기 꺼졌어요."
+        ],
+        "answer": "과제를 하다가 갑자기 꺼졌어요.",
+        "uz": "Topshiriq qilayotganimda birdan o'chib qoldi.",
+        "en": "It suddenly went off while I was doing my assignment.",
+        "why_uz": "Davom etayotgan ish to'xtadi: -다가.",
+        "why_en": "An action was interrupted: -다가.",
+        "audio": "7d10b39308ad.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "혹시 물을 쏟았어요?",
+        "uz": "Balki suv to'kkandirsiz?",
+        "en": "Did you spill something on it?",
+        "audio": "1243ab9840bf.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "어제 커피를 마시다가 조금 쏟았어요.",
+        "uz": "Kecha qahva ichib o'tirib ozroq to'kdim.",
+        "en": "I spilled a bit of coffee on it yesterday.",
+        "audio": "3020e2dbde56.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "그것 때문인 것 같아요. 서비스 센터에 가 봐요.",
+        "uz": "Shu tufayli bo'lsa kerak. Servisga boraylik.",
+        "en": "That must be why. Let's go to the service centre.",
+        "audio": "f8e61728b4c0.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "clerk",
+        "ko": "음… 커피 때문에 키보드 안이 젖었네요.",
+        "uz": "Hmm… qahva tufayli klaviatura ichi ho'l bo'libdi.",
+        "en": "Hmm… the coffee got inside the keyboard.",
+        "audio": "240d94fc85a2.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "보증 기간이니까 무상 수리가 되나요?",
+        "uz": "Kafolat muddati, ta'mir bepulmi?",
+        "en": "It's under warranty — is the repair free?",
+        "audio": "ea2b5a178012.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "clerk",
+        "ko": "물 때문에 고장 나면 유료예요. 죄송합니다.",
+        "uz": "Suv tufayli buzilsa, pullik. Kechirasiz.",
+        "en": "Water damage isn't covered, I'm afraid. Sorry.",
+        "audio": "aa3987a88a93.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "아… 그럼 파일은 살릴 수 있어요?",
+        "uz": "A… unda fayllarni qutqarsa bo'ladimi?",
+        "en": "Oh… can you at least save my files?",
+        "audio": "41b9aa1a3056.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "clerk",
+        "ko": "네, 파일은 괜찮을 것 같아요.",
+        "uz": "Ha, fayllar butun bo'lsa kerak.",
+        "en": "Yes, the files should be fine.",
+        "audio": "629a5ba39c22.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "다행이에요! 앞으로 커피는 조심할게요.",
+        "uz": "Yaxshiyamki! Endi qahvadan ehtiyot bo'laman.",
+        "en": "Thank goodness! I'll be careful with coffee from now on.",
+        "audio": "bcdfa2d434b5.mp3"
+      },
+      {
+        "type": "quiz",
+        "prompt_uz": "Nega ta'mir pullik?",
+        "prompt_en": "Why isn't the repair free?",
+        "options": [
+          "Suv (qahva) tufayli buzilgan",
+          "Kafolat tugagan",
+          "Ekran singan"
+        ],
+        "options_en": [
+          "It was damaged by a liquid (coffee)",
+          "The warranty ended",
+          "The screen cracked"
+        ],
+        "answer": "Suv (qahva) tufayli buzilgan",
+        "why_uz": "물 때문에 고장 나면 유료예요.",
+        "why_en": "Liquid damage isn't covered."
+      }
+    ]
+  }
+}

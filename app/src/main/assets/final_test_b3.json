@@ -1,0 +1,831 @@
+{
+  "listening": [
+    {
+      "id": "final_b3_l01",
+      "type": "listen_question",
+      "targets": [],
+      "prompt_uz": "Erkak ta'tilda nima qiladi?",
+      "prompt_en": "What will the man do during the vacation?",
+      "answers": [
+        "Guvohnoma oladi"
+      ],
+      "options": [
+        "Uyda dam oladi",
+        "Guvohnoma oladi",
+        "Ishlaydi",
+        "Sayohat qiladi"
+      ],
+      "options_en": [
+        "Rest at home",
+        "Get his driving licence",
+        "Work",
+        "Travel"
+      ],
+      "audio_text": "방학 동안 뭐 할 거예요? 운전면허를 따려고 해요.",
+      "audio_dialogue": [
+        "방학 동안 뭐 할 거예요?",
+        "운전면허를 따려고 해요."
+      ],
+      "why_uz": "운전면허를 따려고 해요 = guvohnoma olmoqchi.",
+      "why_en": "운전면허를 따려고 해요 = he's going to get his licence.",
+      "audio": "e075895bec9e.mp3"
+    },
+    {
+      "id": "final_b3_l02",
+      "type": "listen_question",
+      "targets": [],
+      "prompt_uz": "Kim chipta band qiladi?",
+      "prompt_en": "Who will book the tickets?",
+      "answers": [
+        "Erkak"
+      ],
+      "options": [
+        "Hech kim",
+        "Erkak",
+        "Ayol",
+        "Ikkalasi"
+      ],
+      "options_en": [
+        "Nobody",
+        "The man",
+        "The woman",
+        "Both"
+      ],
+      "audio_text": "기차표는 누가 예약해요? 제가 예약할게요. 숙소는 민지 씨가 찾아 주세요.",
+      "audio_dialogue": [
+        "기차표는 누가 예약해요?",
+        "제가 예약할게요. 숙소는 민지 씨가 찾아 주세요."
+      ],
+      "why_uz": "제가 예약할게요 — erkak band qiladi.",
+      "why_en": "제가 예약할게요 — the man will book them.",
+      "audio": "041cda9f456b.mp3"
+    },
+    {
+      "id": "final_b3_l03",
+      "type": "listen_question",
+      "targets": [],
+      "prompt_uz": "Kontrakt pulini qachongacha to'lash kerak?",
+      "prompt_en": "By when must tuition be paid?",
+      "answers": [
+        "25-sanagacha"
+      ],
+      "options": [
+        "25-sanagacha",
+        "15-sanagacha",
+        "Ertagacha",
+        "Oy oxirigacha"
+      ],
+      "options_en": [
+        "By the 25th",
+        "By the 15th",
+        "By tomorrow",
+        "By the end of the month"
+      ],
+      "audio_text": "등록금을 언제까지 내야 되나요? 이번 달 이십오 일까지 내야 돼요.",
+      "audio_dialogue": [
+        "등록금을 언제까지 내야 되나요?",
+        "이번 달 이십오 일까지 내야 돼요."
+      ],
+      "why_uz": "이십오 일까지 = 25-sanagacha.",
+      "why_en": "이십오 일까지 = by the 25th.",
+      "audio": "3432e919f2fc.mp3"
+    },
+    {
+      "id": "final_b3_l04",
+      "type": "listen_question",
+      "targets": [],
+      "prompt_uz": "Ayol nimani qilmagan?",
+      "prompt_en": "What has the woman never done?",
+      "answers": [
+        "Banji-jamp"
+      ],
+      "options": [
+        "Hanbok kiyish",
+        "Banji-jamp",
+        "Xom baliq yeyish",
+        "Kemada sayr"
+      ],
+      "options_en": [
+        "Wearing hanbok",
+        "Bungee jumping",
+        "Eating raw fish",
+        "A boat cruise"
+      ],
+      "audio_text": "번지점프를 해 본 적이 있어요? 아니요, 한 번도 해 본 적이 없어요. 너무 무서워요.",
+      "audio_dialogue": [
+        "번지점프를 해 본 적이 있어요?",
+        "아니요, 한 번도 해 본 적이 없어요. 너무 무서워요."
+      ],
+      "why_uz": "한 번도 해 본 적이 없어요.",
+      "why_en": "She's never done it.",
+      "audio": "ccea25e8a36e.mp3"
+    },
+    {
+      "id": "final_b3_l05",
+      "type": "listen_question",
+      "targets": [],
+      "prompt_uz": "Myuzikl qanday bo'ldi?",
+      "prompt_en": "How was the musical?",
+      "answers": [
+        "Oxiri ta'sirli edi"
+      ],
+      "options": [
+        "Oxiri ta'sirli edi",
+        "Bekor bo'ldi",
+        "Zerikarli edi",
+        "Juda qisqa edi"
+      ],
+      "options_en": [
+        "The ending was moving",
+        "It was cancelled",
+        "It was boring",
+        "It was very short"
+      ],
+      "audio_text": "뮤지컬 어땠어요? 처음에는 웃겼는데 마지막에는 정말 감동적이었어요.",
+      "audio_dialogue": [
+        "뮤지컬 어땠어요?",
+        "처음에는 웃겼는데 마지막에는 정말 감동적이었어요."
+      ],
+      "why_uz": "마지막에는 감동적이었어요.",
+      "why_en": "The ending was moving.",
+      "audio": "195c01592504.mp3"
+    },
+    {
+      "id": "final_b3_l06",
+      "type": "listen_question",
+      "targets": [],
+      "prompt_uz": "Yangi kompaniyaning afzalligi nima?",
+      "prompt_en": "What's better about the new company?",
+      "answers": [
+        "Maosh yuqori"
+      ],
+      "options": [
+        "Ish vaqti qisqa",
+        "Uyga yaqin",
+        "Maosh yuqori",
+        "Muhiti yaxshi"
+      ],
+      "options_en": [
+        "Shorter hours",
+        "Close to home",
+        "Higher salary",
+        "Better atmosphere"
+      ],
+      "audio_text": "새 회사가 지금 회사보다 좋아요? 연봉은 훨씬 많은데 집에서 너무 멀어요.",
+      "audio_dialogue": [
+        "새 회사가 지금 회사보다 좋아요?",
+        "연봉은 훨씬 많은데 집에서 너무 멀어요."
+      ],
+      "why_uz": "연봉은 훨씬 많은데 — maosh ancha ko'p.",
+      "why_en": "The salary is much higher.",
+      "audio": "67c8d5a68a61.mp3"
+    },
+    {
+      "id": "final_b3_l07",
+      "type": "listen_question",
+      "targets": [],
+      "prompt_uz": "Erkak nimani bilmaydi?",
+      "prompt_en": "What can't the man do?",
+      "answers": [
+        "Mashina haydash"
+      ],
+      "options": [
+        "Kod yozish",
+        "Mashina haydash",
+        "Xitoycha gapirish",
+        "Excel"
+      ],
+      "options_en": [
+        "Code",
+        "Drive",
+        "Speak Chinese",
+        "Use Excel"
+      ],
+      "audio_text": "운전할 줄 알아요? 아니요, 운전할 줄 몰라요. 그래서 지하철로 다녀요.",
+      "audio_dialogue": [
+        "운전할 줄 알아요?",
+        "아니요, 운전할 줄 몰라요. 그래서 지하철로 다녀요."
+      ],
+      "why_uz": "운전할 줄 몰라요 = haydashni bilmaydi.",
+      "why_en": "운전할 줄 몰라요 = he can't drive.",
+      "audio": "c3e1e34ed952.mp3"
+    },
+    {
+      "id": "final_b3_l08",
+      "type": "listen_question",
+      "targets": [],
+      "prompt_uz": "Ayolga nima bo'lgan?",
+      "prompt_en": "What's wrong with the woman?",
+      "answers": [
+        "Shamollagan"
+      ],
+      "options": [
+        "Oyog'i og'riydi",
+        "Oshqozoni og'riydi",
+        "Charchagan",
+        "Shamollagan"
+      ],
+      "options_en": [
+        "Her leg hurts",
+        "Stomach ache",
+        "She's tired",
+        "She has a cold"
+      ],
+      "audio_text": "어디 아파요? 열이 나고 기침을 해요. 감기에 걸린 것 같아요.",
+      "audio_dialogue": [
+        "어디 아파요?",
+        "열이 나고 기침을 해요. 감기에 걸린 것 같아요."
+      ],
+      "why_uz": "감기에 걸린 것 같아요.",
+      "why_en": "She thinks she's caught a cold.",
+      "audio": "9cdc202bcae9.mp3"
+    },
+    {
+      "id": "final_b3_l09",
+      "type": "listen_question",
+      "targets": [],
+      "prompt_uz": "Noutbuk qachon o'chib qoldi?",
+      "prompt_en": "When did the laptop shut down?",
+      "answers": [
+        "Topshiriq qilayotganda"
+      ],
+      "options": [
+        "Kino ko'rayotganda",
+        "Yangilanishda",
+        "Topshiriq qilayotganda",
+        "Zaryadlashda"
+      ],
+      "options_en": [
+        "While watching a film",
+        "While updating",
+        "While doing an assignment",
+        "While charging"
+      ],
+      "audio_text": "노트북이 왜 꺼졌어요? 과제를 하다가 갑자기 꺼졌어요.",
+      "audio_dialogue": [
+        "노트북이 왜 꺼졌어요?",
+        "과제를 하다가 갑자기 꺼졌어요."
+      ],
+      "why_uz": "과제를 하다가 = topshiriq qilayotganda.",
+      "why_en": "과제를 하다가 = while doing an assignment.",
+      "audio": "9844d5f8bbcb.mp3"
+    },
+    {
+      "id": "final_b3_l10",
+      "type": "listen_question",
+      "targets": [],
+      "prompt_uz": "Usta qachon keladi?",
+      "prompt_en": "When will the technician come?",
+      "answers": [
+        "Ertaga ertalab"
+      ],
+      "options": [
+        "Keyingi hafta",
+        "Bugun",
+        "Ertaga ertalab",
+        "Ertaga kechqurun"
+      ],
+      "options_en": [
+        "Next week",
+        "Today",
+        "Tomorrow morning",
+        "Tomorrow evening"
+      ],
+      "audio_text": "세탁기가 고장 났는데 언제 오실 수 있어요? 내일 오전에 갈 기사님이 있어요.",
+      "audio_dialogue": [
+        "세탁기가 고장 났는데 언제 오실 수 있어요?",
+        "내일 오전에 갈 기사님이 있어요."
+      ],
+      "why_uz": "내일 오전 = ertaga ertalab.",
+      "why_en": "내일 오전 = tomorrow morning.",
+      "audio": "25a1fa3542c7.mp3"
+    },
+    {
+      "id": "final_b3_l11",
+      "type": "listen_question",
+      "targets": [],
+      "prompt_uz": "Erkak kechada nima bo'ladi deb o'ylaydi?",
+      "prompt_en": "What does the man think the party will be like?",
+      "answers": [
+        "Odam ko'p bo'ladi"
+      ],
+      "options": [
+        "Odam ko'p bo'ladi",
+        "Qimmat bo'ladi",
+        "Zerikarli bo'ladi",
+        "Bekor bo'ladi"
+      ],
+      "options_en": [
+        "Crowded",
+        "Expensive",
+        "Boring",
+        "Cancelled"
+      ],
+      "audio_text": "환영회에 사람이 많이 올까요? 네, 아마 선배들도 다 올 거예요.",
+      "audio_dialogue": [
+        "환영회에 사람이 많이 올까요?",
+        "네, 아마 선배들도 다 올 거예요."
+      ],
+      "why_uz": "아마 다 올 거예요 — odam ko'p.",
+      "why_en": "Probably everyone will come.",
+      "audio": "c52e0411d5ee.mp3"
+    },
+    {
+      "id": "final_b3_l12",
+      "type": "listen_question",
+      "targets": [],
+      "prompt_uz": "Ular qanday gapirishga kelishdi?",
+      "prompt_en": "How did they agree to talk?",
+      "answers": [
+        "\"Sen\"lashib (반말)"
+      ],
+      "options": [
+        "Gaplashmaslikka",
+        "Rasmiy",
+        "\"Sen\"lashib (반말)",
+        "Inglizcha"
+      ],
+      "options_en": [
+        "Not at all",
+        "Formally",
+        "Casually (반말)",
+        "In English"
+      ],
+      "audio_text": "우리 동갑이니까 말 놓을까요? 응, 좋아! 그냥 준호라고 불러.",
+      "audio_dialogue": [
+        "우리 동갑이니까 말 놓을까요?",
+        "응, 좋아! 그냥 준호라고 불러."
+      ],
+      "why_uz": "말 놓을까요? — 응, 좋아 → 반말.",
+      "why_en": "They agreed to speak casually.",
+      "audio": "38281ba91281.mp3"
+    },
+    {
+      "id": "final_b3_l13",
+      "type": "listen_question",
+      "targets": [],
+      "prompt_uz": "Ayol Seulga qanday kelib qolgan?",
+      "prompt_en": "How did the woman end up in Seoul?",
+      "answers": [
+        "Otasining ishi tufayli"
+      ],
+      "options": [
+        "Otasining ishi tufayli",
+        "O'qish uchun",
+        "Sayohat qilib",
+        "Turmush qurib"
+      ],
+      "options_en": [
+        "Because of her father's job",
+        "To study",
+        "On a trip",
+        "By marrying"
+      ],
+      "audio_text": "서울에는 어떻게 오게 됐어요? 아버지가 서울에서 취직하셔서 오게 됐어요.",
+      "audio_dialogue": [
+        "서울에는 어떻게 오게 됐어요?",
+        "아버지가 서울에서 취직하셔서 오게 됐어요."
+      ],
+      "why_uz": "아버지가 취직하셔서 오게 됐어요.",
+      "why_en": "Her father got a job in Seoul.",
+      "audio": "f6323dbd691a.mp3"
+    },
+    {
+      "id": "final_b3_l14",
+      "type": "listen_question",
+      "targets": [],
+      "prompt_uz": "Erkak bitirishdan oldin nima qiladi?",
+      "prompt_en": "What will the man do before graduating?",
+      "answers": [
+        "Amaliyot o'tadi"
+      ],
+      "options": [
+        "Turmush quradi",
+        "Vatanga qaytadi",
+        "Amaliyot o'tadi",
+        "Biznes ochadi"
+      ],
+      "options_en": [
+        "Get married",
+        "Go home",
+        "Do an internship",
+        "Start a business"
+      ],
+      "audio_text": "졸업하기 전에 뭐 할 거예요? 인턴십을 하고 자격증도 딸 거예요.",
+      "audio_dialogue": [
+        "졸업하기 전에 뭐 할 거예요?",
+        "인턴십을 하고 자격증도 딸 거예요."
+      ],
+      "why_uz": "인턴십을 할 거예요.",
+      "why_en": "He'll do an internship.",
+      "audio": "55356a36ff60.mp3"
+    },
+    {
+      "id": "final_b3_l15",
+      "type": "listen_question",
+      "targets": [],
+      "prompt_uz": "Ayol Chusokda nima qiladi?",
+      "prompt_en": "What will the woman do for Chuseok?",
+      "answers": [
+        "Songpyon yasaydi"
+      ],
+      "options": [
+        "Ishlaydi",
+        "Yolg'iz qoladi",
+        "Sayohatga boradi",
+        "Songpyon yasaydi"
+      ],
+      "options_en": [
+        "Work",
+        "Stay alone",
+        "Go travelling",
+        "Make songpyeon"
+      ],
+      "audio_text": "추석에 뭐 해요? 가족이랑 송편을 만들고 보름달을 보면서 소원을 빌 거예요.",
+      "audio_dialogue": [
+        "추석에 뭐 해요?",
+        "가족이랑 송편을 만들고 보름달을 보면서 소원을 빌 거예요."
+      ],
+      "why_uz": "송편을 만들 거예요.",
+      "why_en": "She'll make songpyeon.",
+      "audio": "c4b235a6d74e.mp3"
+    }
+  ],
+  "reading": [
+    {
+      "id": "final_b3_r01",
+      "type": "read_choice",
+      "targets": [],
+      "prompt_uz": "Muallif ta'tilda nima qilmoqchi?",
+      "prompt_en": "What does the writer plan for the vacation?",
+      "answers": [
+        "Yarim kun ishlab, yoga kursiga qatnash"
+      ],
+      "options": [
+        "Faqat dam olish",
+        "Xorijga sayohat",
+        "Ko'chish",
+        "Yarim kun ishlab, yoga kursiga qatnash"
+      ],
+      "options_en": [
+        "Just rest",
+        "Travel abroad",
+        "Move house",
+        "Work part-time and attend yoga"
+      ],
+      "sentence": "이번 방학 동안 한 달은 카페에서 아르바이트를 하려고 한다. 그리고 요가 학원에도 다닐 것이다.",
+      "why_uz": "아르바이트 + 요가 학원.",
+      "why_en": "A part-time job and a yoga class."
+    },
+    {
+      "id": "final_b3_r02",
+      "type": "read_choice",
+      "targets": [],
+      "prompt_uz": "E'lon nima haqida?",
+      "prompt_en": "What is the notice about?",
+      "answers": [
+        "Yotoqxonaga ariza muddati"
+      ],
+      "options": [
+        "Festival",
+        "Kutubxona soatlari",
+        "Imtihon jadvali",
+        "Yotoqxonaga ariza muddati"
+      ],
+      "options_en": [
+        "A festival",
+        "Library hours",
+        "The exam timetable",
+        "The dorm application deadline"
+      ],
+      "sentence": "[기숙사 안내]\n신청 기간: 2월 1일 ~ 2월 10일\n신청서는 기숙사 사무실에 내십시오.",
+      "why_uz": "기숙사 신청 기간.",
+      "why_en": "The dormitory application period."
+    },
+    {
+      "id": "final_b3_r03",
+      "type": "read_choice",
+      "targets": [],
+      "prompt_uz": "Ariza qayerga topshiriladi?",
+      "prompt_en": "Where should applications be handed in?",
+      "answers": [
+        "Yotoqxona idorasiga"
+      ],
+      "options": [
+        "Internetga",
+        "Kutubxonaga",
+        "Bankka",
+        "Yotoqxona idorasiga"
+      ],
+      "options_en": [
+        "Online",
+        "The library",
+        "A bank",
+        "The dorm office"
+      ],
+      "sentence": "[기숙사 안내]\n신청 기간: 2월 1일 ~ 2월 10일\n신청서는 기숙사 사무실에 내십시오.",
+      "why_uz": "기숙사 사무실에 내십시오.",
+      "why_en": "Hand it in at the dormitory office."
+    },
+    {
+      "id": "final_b3_r04",
+      "type": "read_choice",
+      "targets": [],
+      "prompt_uz": "Muallif nimani birinchi marta qildi?",
+      "prompt_en": "What did the writer do for the first time?",
+      "answers": [
+        "Tirik sakkizoyoq yedi"
+      ],
+      "options": [
+        "Hanbok kiydi",
+        "Saunaga bordi",
+        "Tirik sakkizoyoq yedi",
+        "Kemaga chiqdi"
+      ],
+      "options_en": [
+        "Wore hanbok",
+        "Went to a sauna",
+        "Ate live octopus",
+        "Rode a boat"
+      ],
+      "sentence": "노량진수산시장에 처음 가 봤다. 산낙지를 먹어 본 적이 없었는데 용기를 내서 먹어 봤다.",
+      "why_uz": "산낙지를 먹어 봤다 — birinchi marta.",
+      "why_en": "He tried live octopus for the first time."
+    },
+    {
+      "id": "final_b3_r05",
+      "type": "read_choice",
+      "targets": [],
+      "prompt_uz": "Bu odam qanday ish qidiryapti?",
+      "prompt_en": "What kind of job is this person after?",
+      "answers": [
+        "Dasturchi"
+      ],
+      "options": [
+        "Dasturchi",
+        "Haydovchi",
+        "Oshpaz",
+        "O'qituvchi"
+      ],
+      "options_en": [
+        "Developer",
+        "Driver",
+        "Cook",
+        "Teacher"
+      ],
+      "sentence": "저는 컴퓨터를 전공했습니다. 앱 개발 회사에서 인턴으로 일한 적이 있습니다. 개발자로 일하고 싶습니다.",
+      "why_uz": "개발자로 일하고 싶습니다.",
+      "why_en": "They want to work as a developer."
+    },
+    {
+      "id": "final_b3_r06",
+      "type": "read_choice",
+      "targets": [],
+      "prompt_uz": "Nega muallif hozirgi kompaniyada qoladi?",
+      "prompt_en": "Why does the writer stay at the current company?",
+      "answers": [
+        "Uyga yaqin va muhiti yaxshi"
+      ],
+      "options": [
+        "Uyga yaqin va muhiti yaxshi",
+        "Maoshi yuqori",
+        "Boshliq yaxshi",
+        "Imtiyozlari ko'p"
+      ],
+      "options_en": [
+        "It's close and the atmosphere is good",
+        "Higher pay",
+        "A nice boss",
+        "More benefits"
+      ],
+      "sentence": "새 회사는 지금 회사보다 연봉이 많다. 하지만 집에서 멀다. 지금 회사는 가깝고 분위기가 좋아서 계속 다니기로 했다.",
+      "why_uz": "가깝고 분위기가 좋아서.",
+      "why_en": "It's close and has a good atmosphere."
+    },
+    {
+      "id": "final_b3_r07",
+      "type": "read_choice",
+      "targets": [],
+      "prompt_uz": "Shifokor nimani maslahat beradi?",
+      "prompt_en": "What does the doctor advise?",
+      "answers": [
+        "Tuzni kamaytirish va muntazam sport"
+      ],
+      "options": [
+        "Ish joyini almashtirish",
+        "Tuzni kamaytirish va muntazam sport",
+        "Ko'proq go'sht yeyish",
+        "Kamroq uxlash"
+      ],
+      "options_en": [
+        "Changing jobs",
+        "Less salt and regular exercise",
+        "Eating more meat",
+        "Sleeping less"
+      ],
+      "sentence": "건강하게 지내려면 싱겁게 먹고 규칙적으로 운동하세요. 잠도 충분히 자야 합니다.",
+      "why_uz": "싱겁게 먹고 규칙적으로 운동하세요.",
+      "why_en": "Eat less salt and exercise regularly."
+    },
+    {
+      "id": "final_b3_r08",
+      "type": "read_choice",
+      "targets": [],
+      "prompt_uz": "Muallifning ahvoli qanday?",
+      "prompt_en": "How is the writer feeling?",
+      "answers": [
+        "Shamollaganga o'xshaydi"
+      ],
+      "options": [
+        "Ochiqqan",
+        "Oyog'i singan",
+        "Juda yaxshi",
+        "Shamollaganga o'xshaydi"
+      ],
+      "options_en": [
+        "Hungry",
+        "Broke a leg",
+        "Very well",
+        "Seems to have a cold"
+      ],
+      "sentence": "아침부터 열이 나고 목이 아프다. 아무래도 감기에 걸린 것 같다.",
+      "why_uz": "감기에 걸린 것 같다.",
+      "why_en": "It seems they've caught a cold."
+    },
+    {
+      "id": "final_b3_r09",
+      "type": "read_choice",
+      "targets": [],
+      "prompt_uz": "Telefon nega buzildi?",
+      "prompt_en": "Why did the phone break?",
+      "answers": [
+        "Yurib ketayotib tushirib yuborgan"
+      ],
+      "options": [
+        "Batareya",
+        "Yurib ketayotib tushirib yuborgan",
+        "Suvga tushgan",
+        "Yangilanish"
+      ],
+      "options_en": [
+        "The battery",
+        "Dropped it while walking",
+        "It fell in water",
+        "An update"
+      ],
+      "sentence": "길을 걷다가 휴대폰을 떨어뜨렸다. 화면이 깨져서 서비스 센터에 가야 한다.",
+      "why_uz": "걷다가 떨어뜨렸다.",
+      "why_en": "He dropped it while walking."
+    },
+    {
+      "id": "final_b3_r10",
+      "type": "read_choice",
+      "targets": [],
+      "prompt_uz": "Ta'mir qachon bepul?",
+      "prompt_en": "When is the repair free?",
+      "answers": [
+        "Kafolat muddatida"
+      ],
+      "options": [
+        "Hech qachon",
+        "Dam olish kunlari",
+        "Kafolat muddatida",
+        "Har doim"
+      ],
+      "options_en": [
+        "Never",
+        "At weekends",
+        "During the warranty",
+        "Always"
+      ],
+      "sentence": "[수리 안내]\n보증 기간 동안은 무상 수리입니다.\n물 때문에 고장 난 경우는 유료입니다.",
+      "why_uz": "보증 기간 동안은 무상.",
+      "why_en": "It's free during the warranty."
+    },
+    {
+      "id": "final_b3_r11",
+      "type": "read_choice",
+      "targets": [],
+      "prompt_uz": "Kecha qachon?",
+      "prompt_en": "When is the party?",
+      "answers": [
+        "Juma, soat 6"
+      ],
+      "options": [
+        "Shanba, soat 6",
+        "Juma, soat 6",
+        "Yakshanba",
+        "Juma, soat 8"
+      ],
+      "options_en": [
+        "Saturday at 6",
+        "Friday at 6",
+        "Sunday",
+        "Friday at 8"
+      ],
+      "sentence": "[신입생 환영회]\n일시: 3월 7일 금요일 오후 6시\n장소: 학생회관 2층\n회비: 만 원",
+      "why_uz": "금요일 오후 6시.",
+      "why_en": "Friday at 6 p.m."
+    },
+    {
+      "id": "final_b3_r12",
+      "type": "read_choice",
+      "targets": [],
+      "prompt_uz": "Muallif nimaga ko'nikdi?",
+      "prompt_en": "What has the writer got used to?",
+      "answers": [
+        "Seul hayotiga"
+      ],
+      "options": [
+        "Seul hayotiga",
+        "Pusan shevasiga",
+        "Ishga",
+        "Yotoqxonaga"
+      ],
+      "options_en": [
+        "Life in Seoul",
+        "The Busan dialect",
+        "Work",
+        "The dorm"
+      ],
+      "sentence": "처음 서울에 왔을 때는 모든 것이 낯설었다. 하지만 지금은 서울 생활에 많이 익숙해졌다.",
+      "why_uz": "서울 생활에 익숙해졌다.",
+      "why_en": "He's got used to life in Seoul."
+    },
+    {
+      "id": "final_b3_r13",
+      "type": "read_choice",
+      "targets": [],
+      "prompt_uz": "Muallif bitirgach nima qilmoqchi?",
+      "prompt_en": "What does the writer want to do after graduating?",
+      "answers": [
+        "Tajriba to'plab, vatanga qaytish"
+      ],
+      "options": [
+        "Darhol turmush qurish",
+        "Sayohat",
+        "Magistraturaga kirish",
+        "Tajriba to'plab, vatanga qaytish"
+      ],
+      "options_en": [
+        "Marry at once",
+        "Travel",
+        "Go to grad school",
+        "Gain experience, then go home"
+      ],
+      "sentence": "졸업한 후에 한국 회사에서 경험을 쌓고 싶다. 그 후에 고향에 돌아가서 통역사로 일할 것이다.",
+      "why_uz": "경험을 쌓은 후에 고향에 돌아간다.",
+      "why_en": "Gain experience in Korea, then go home."
+    },
+    {
+      "id": "final_b3_r14",
+      "type": "read_choice",
+      "targets": [],
+      "prompt_uz": "Matnga ko'ra Sollalda nima qilinadi?",
+      "prompt_en": "According to the text, what happens on Seollal?",
+      "answers": [
+        "Ttokguk yeyiladi va ta'zim qilinadi"
+      ],
+      "options": [
+        "Ttokguk yeyiladi va ta'zim qilinadi",
+        "Sovg'a sotib olinadi",
+        "Songpyon yasaladi",
+        "Oyga tilak tilanadi"
+      ],
+      "options_en": [
+        "Eat tteokguk and bow to elders",
+        "Buy presents",
+        "Make songpyeon",
+        "Wish on the moon"
+      ],
+      "sentence": "설날에는 집집마다 떡국을 먹는다. 아이들은 어른들께 세배를 하고 세뱃돈을 받는다.",
+      "why_uz": "떡국을 먹고 세배를 한다.",
+      "why_en": "People eat tteokguk and bow to their elders."
+    },
+    {
+      "id": "final_b3_r15",
+      "type": "read_choice",
+      "targets": [],
+      "prompt_uz": "Nega muallif bayramda yolg'iz emas?",
+      "prompt_en": "Why isn't the writer lonely on the holiday?",
+      "answers": [
+        "Oiladek do'stlari bor"
+      ],
+      "options": [
+        "Oiladek do'stlari bor",
+        "Oilasi keldi",
+        "Ishga bordi",
+        "Vatanga ketdi"
+      ],
+      "options_en": [
+        "He has friends like family",
+        "His family visited",
+        "He went to work",
+        "He went home"
+      ],
+      "sentence": "추석에 고향에 못 갔다. 하지만 가족처럼 지내는 친구들이 있어서 외롭지 않았다.",
+      "why_uz": "가족처럼 지내는 친구들이 있어서.",
+      "why_en": "He has friends who are like family."
+    }
+  ]
+}
