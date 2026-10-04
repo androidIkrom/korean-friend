@@ -20,6 +20,8 @@ data class ShareSnapshot(
     val statuses: List<LessonStatus>,
     val currentLessonTitle: String?,
     val date: LocalDate,
+    /** The player's name; empty when unset. */
+    val playerName: String = "",
 )
 
 class ProgressStats(
@@ -45,6 +47,7 @@ class ProgressStats(
             statuses = statuses,
             currentLessonTitle = catalog.find { it.id == s.currentLessonId }?.let { "${it.unit}-${it.lesson} ${it.titleKo}" },
             date = today,
+            playerName = s.playerName,
         )
     }
 }

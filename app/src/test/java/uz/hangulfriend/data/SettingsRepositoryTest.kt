@@ -50,6 +50,14 @@ class SettingsRepositoryTest {
         assertNull(settings.lastSeenRank.first())
     }
 
+    @Test fun playerNameIsCleanedAndCleared() = runTest {
+        assertEquals("", settings.settings.first().playerName)
+        settings.setPlayerName("  Ikrom   Aka  ")
+        assertEquals("Ikrom Aka", settings.settings.first().playerName)
+        settings.setPlayerName("   ")
+        assertEquals("", settings.settings.first().playerName)
+    }
+
     @Test fun heroDefaultsToBoy() = runTest { assertEquals(HeroGender.BOY, settings.settings.first().hero) }
 
     @Test fun setHeroPersists() = runTest {

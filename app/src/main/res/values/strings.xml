@@ -279,6 +279,10 @@
     </plurals>
     <string name="home_continue_lesson">Davom etish · %1$d-bo\'lim, %2$d-dars</string>
     <string name="home_open_map">Xaritani ochish</string>
+    <string name="name_title">Ismingiz</string>
+    <string name="name_hint">Ismingizni yozing</string>
+    <string name="name_save">Saqlash</string>
+    <string name="name_default">Ovchi</string>
     <string name="home_rank_label">RANK</string>
     <string name="home_rank_caption">%1$s · LV %2$d</string>
     <plurals name="home_next_rank">

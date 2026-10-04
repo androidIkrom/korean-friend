@@ -34,6 +34,7 @@ import uz.hangulfriend.ui.kit.LocalReducedMotion
 import uz.hangulfriend.ui.kit.isReducedMotion
 import androidx.lifecycle.lifecycleScope
 import uz.hangulfriend.ui.theme.HangulFriendTheme
+import uz.hangulfriend.ui.settings.LocalPlayerName
 
 class MainActivity : ComponentActivity() {
     private val audio by lazy { AudioPlayer(this) }
@@ -65,6 +66,7 @@ class MainActivity : ComponentActivity() {
         val openReview = savedInstanceState == null && intent.getStringExtra(EXTRA_OPEN) == OPEN_REVIEW
         setContent {
             val theme by container.settings.settings.map { it.theme }.collectAsState(GameThemeId.SYSTEM)
+            val playerName by container.settings.settings.map { it.playerName }.collectAsState("")
             // Listing the avatar folder touches the disk, so it happens off the main thread.
             val avatarAssets by produceState(AvatarAssets(emptySet())) {
                 value = withContext(Dispatchers.IO) { container.avatarAssets }
@@ -78,6 +80,7 @@ class MainActivity : ComponentActivity() {
                     LocalTutor provides container.tutor,
                     LocalGameFeedback provides feedback,
                     LocalReducedMotion provides isReducedMotion(this),
+                    LocalPlayerName provides playerName,
                 ) {
                     // One shared backdrop behind every screen; screens that draw their own reuse it.
                     GameBackground { HangulFriendNav(container, openReview) }

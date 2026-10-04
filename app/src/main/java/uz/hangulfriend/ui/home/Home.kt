@@ -103,6 +103,9 @@ import uz.hangulfriend.ui.kit.springPress
 import uz.hangulfriend.ui.theme.CorrectGreen
 import uz.hangulfriend.ui.theme.GameBackground
 import uz.hangulfriend.ui.theme.LocalGameTokens
+import uz.hangulfriend.data.displayName
+import uz.hangulfriend.ui.settings.LocalPlayerName
+import androidx.compose.foundation.layout.widthIn
 
 data class HomeStats(
     val level: GameRules.LevelInfo = GameRules.level(0),
@@ -272,6 +275,16 @@ private fun HeroStage(stats: HomeStats) {
             animated = true,
         )
         Column(Modifier.align(Alignment.CenterStart).padding(start = 4.dp, bottom = 40.dp)) {
+            Text(
+                displayName(LocalPlayerName.current, stringResource(R.string.name_default)),
+                color = t.text,
+                fontFamily = t.ui,
+                fontWeight = FontWeight.ExtraBold,
+                fontSize = 22.sp,
+                maxLines = 1,
+                overflow = TextOverflow.Ellipsis,
+                modifier = Modifier.widthIn(max = 180.dp).padding(bottom = 6.dp),
+            )
             Text(
                 stringResource(R.string.home_rank_label),
                 color = t.muted,

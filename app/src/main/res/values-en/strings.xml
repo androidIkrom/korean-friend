@@ -281,6 +281,10 @@
     </plurals>
     <string name="home_continue_lesson">Continue · Unit %1$d, lesson %2$d</string>
     <string name="home_open_map">Open the map</string>
+    <string name="name_title">Your name</string>
+    <string name="name_hint">Type your name</string>
+    <string name="name_save">Save</string>
+    <string name="name_default">Hunter</string>
     <string name="home_rank_label">RANK</string>
     <string name="home_rank_caption">%1$s · LV %2$d</string>
     <plurals name="home_next_rank">

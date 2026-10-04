@@ -14,8 +14,8 @@ class OnboardingService(
     private val progress: ProgressRepository,
     private val settings: SettingsRepository,
 ) {
-    /** Marks earlier lessons passed and sets the current one; [hero] is stored when given (onboarding), kept otherwise. */
-    suspend fun complete(currentLessonId: String, hero: HeroGender? = null) {
+    /** Marks earlier lessons passed and sets the current one; [hero] and [name] are stored when given (onboarding). */
+    suspend fun complete(currentLessonId: String, hero: HeroGender? = null, name: String? = null) {
         val catalog = content.catalog()
         val currentIndex = catalog.indexOfFirst { it.id == currentLessonId }
         require(currentIndex >= 0) { "Unknown lesson $currentLessonId" }
@@ -26,6 +26,7 @@ class OnboardingService(
         }
         settings.setCurrentLesson(currentLessonId)
         hero?.let { settings.setHero(it) }
+        name?.let { settings.setPlayerName(it) }
         settings.setOnboarded()
     }
 }

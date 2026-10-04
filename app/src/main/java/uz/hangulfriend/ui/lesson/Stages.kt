@@ -62,6 +62,7 @@ import uz.hangulfriend.ui.theme.WrongRed
 import uz.hangulfriend.ui.tutor.LocalTutor
 import uz.hangulfriend.ui.tutor.TutorSheet
 import uz.hangulfriend.ui.tutor.compactMarkdownTypography
+import uz.hangulfriend.ui.settings.LocalPlayerName
 
 /** Pages through the stage; the last page's "next" moves to the following stage. */
 @Composable
@@ -164,7 +165,7 @@ fun GrammarStage(lesson: Lesson, vm: LessonViewModel, onFinished: () -> Unit) {
                 fontSize = 13,
             )
             if (open) {
-                TutorSheet(TutorPrompts.grammarContext(g, lesson, currentLanguage()), stringResource(R.string.ai_explain_grammar_question)) {
+                TutorSheet(TutorPrompts.grammarContext(g, lesson, currentLanguage(), LocalPlayerName.current), stringResource(R.string.ai_explain_grammar_question)) {
                     open = false
                 }
             }

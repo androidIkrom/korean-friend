@@ -49,6 +49,7 @@ import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.ui.graphics.lerp
 import uz.hangulfriend.ui.kit.glass
+import uz.hangulfriend.ui.settings.LocalPlayerName
 
 /** What the learner sees after checking an answer. */
 data class FeedbackInfo(
@@ -122,7 +123,7 @@ fun FeedbackPanel(info: FeedbackInfo, onNext: () -> Unit) {
                 minHeight = 44.dp,
                 fontSize = 14,
             )
-            if (open) TutorSheet(TutorPrompts.role(currentLanguage()), question) { open = false }
+            if (open) TutorSheet(TutorPrompts.role(currentLanguage(), LocalPlayerName.current), question) { open = false }
         }
         HuntButton(
             stringResource(R.string.ex_next),
