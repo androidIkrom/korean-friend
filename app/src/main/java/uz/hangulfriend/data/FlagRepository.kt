@@ -6,6 +6,7 @@ import kotlinx.coroutines.flow.Flow
 import uz.hangulfriend.content.Word
 import uz.hangulfriend.i18n.AppLanguage
 import uz.hangulfriend.study.ExerciseItem
+import uz.hangulfriend.study.LessonId
 
 /** Why a learner flagged an exercise ("Xato bor", stage 7b spec §2). */
 enum class FlagReason { TRANSLATION, AUDIO, ANSWER_REJECTED, TYPO, OTHER }
@@ -45,11 +46,11 @@ fun flagSnapshot(item: ExerciseItem, lang: AppLanguage = AppLanguage.UZ): String
 /** Group of final-test flags in the export. */
 const val FINAL_FLAG_GROUP = "final"
 
-/** `u02_l1_e07` → `u02_l1`; own words → `user`; final test → `final`; anything else → "". */
+/** `u02_l1_e07` → `u02_l1`, `b1_u03_l2_w04` → `b1_u03_l2`; own words → `user`; final test → `final`; anything else → "". */
 fun lessonOfRef(ref: String): String = when {
     ref.startsWith("user_") -> USER_LESSON_ID
     ref.startsWith("final_") -> FINAL_FLAG_GROUP
-    else -> Regex("^u\\d{2}_l\\d").find(ref)?.value.orEmpty()
+    else -> Regex("^(?:b\\d_)?u\\d{2}_l\\d").find(ref)?.value.orEmpty()
 }
 
 /**
@@ -75,9 +76,12 @@ fun exportText(
         USER_LESSON_ID -> if (en) "[user] My words" else "[user] O'z so'zlarim"
         FINAL_FLAG_GROUP -> if (en) "[final] Final test" else "[final] Yakuniy test"
         else -> {
-            val unit = lessonId.substring(1, 3).toIntOrNull()
-            val lesson = lessonId.substringAfter("_l").toIntOrNull()
-            if (en) "[$lessonId] Unit $unit, lesson $lesson" else "[$lessonId] $unit-bo'lim, $lesson-dars"
+            val id = LessonId.parse(lessonId)
+            when {
+                id == null -> "[$lessonId]"
+                en -> "[$lessonId] " + (if (id.book == 2) "" else "Book ${id.book}, ") + "Unit ${id.unit}, lesson ${id.lesson}"
+                else -> "[$lessonId] " + (if (id.book == 2) "" else "${id.book}-kitob, ") + "${id.unit}-bo'lim, ${id.lesson}-dars"
+            }
         }
     }
     return buildString {

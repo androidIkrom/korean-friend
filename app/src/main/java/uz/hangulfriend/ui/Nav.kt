@@ -174,8 +174,8 @@ fun HangulFriendNav(container: AppContainer, openReview: Boolean = false) {
                     vm,
                     onOpenLesson = { nav.navigate(Routes.lesson(it)) },
                     onQuickCheck = { nav.navigate(Routes.session(SessionMode.QUICK_CHECK, it)) },
-                    onBoss = { nav.navigate(Routes.session(SessionMode.BOSS, it.toString())) },
-                    onFinal = { nav.navigate(Routes.session(SessionMode.FINAL)) },
+                    onBoss = { book, unit -> nav.navigate(Routes.session(SessionMode.BOSS, "$book:$unit")) },
+                    onFinal = { book -> nav.navigate(Routes.session(SessionMode.FINAL, if (book == 2) null else book.toString())) },
                 )
             }
             composable(Routes.SETTINGS) {

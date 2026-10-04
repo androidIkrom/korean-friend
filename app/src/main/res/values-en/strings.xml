@@ -285,6 +285,8 @@
     <string name="name_hint">Type your name</string>
     <string name="name_save">Save</string>
     <string name="name_default">Hunter</string>
+    <string name="book_label">Book %1$d</string>
+    <string name="book_soon">Lessons of this book are coming soon.</string>
     <string name="home_rank_label">RANK</string>
     <string name="home_rank_caption">%1$s · LV %2$d</string>
     <plurals name="home_next_rank">

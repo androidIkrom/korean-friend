@@ -283,6 +283,8 @@
     <string name="name_hint">Ismingizni yozing</string>
     <string name="name_save">Saqlash</string>
     <string name="name_default">Ovchi</string>
+    <string name="book_label">%1$d-kitob</string>
+    <string name="book_soon">Bu kitob darslari tez kunda qo\'shiladi.</string>
     <string name="home_rank_label">RANK</string>
     <string name="home_rank_caption">%1$s · LV %2$d</string>
     <plurals name="home_next_rank">
