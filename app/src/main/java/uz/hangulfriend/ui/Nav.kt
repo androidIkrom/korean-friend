@@ -131,7 +131,9 @@ fun HangulFriendNav(container: AppContainer, openReview: Boolean = false) {
         NavHost(
             navController = nav,
             startDestination = if (loaded.onboarded) Routes.HOME else Routes.ONBOARDING,
-            modifier = Modifier.padding(top = padding.calculateTopPadding()),
+            // Tab screens run under the floating dock (they pad by LocalDockInset); other screens keep the
+            // system bar inset at the bottom so their last button is not under the gesture bar.
+            modifier = if (dockTabFor(route) != null) Modifier.padding(top = padding.calculateTopPadding()) else Modifier.padding(padding),
             enterTransition = { if (reduced) EnterTransition.None else enter(initialState.destination.route, targetState.destination.route) },
             exitTransition = { if (reduced) ExitTransition.None else exit(initialState.destination.route, targetState.destination.route) },
             popEnterTransition = { if (reduced) EnterTransition.None else popEnter(initialState.destination.route, targetState.destination.route) },
