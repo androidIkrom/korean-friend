@@ -149,7 +149,7 @@ fun BuildSentenceView(
                     horizontalPadding = 12.dp,
                 )
                 HuntButton(
-                    stringResource(R.string.ex_check).uppercase(),
+                    stringResource(R.string.ex_check),
                     onClick = {
                         val built = chosen.joinToString(" ") { tokens[it] }
                         val result = AnswerChecker.check(built, answers)
@@ -184,7 +184,7 @@ fun FlashcardView(word: Word, onResult: (ExerciseOutcome) -> Unit, onNext: () ->
             }
         }
         if (!revealed) {
-            HuntButton(stringResource(R.string.ex_show).uppercase(), onClick = { revealed = true }, modifier = Modifier.fillMaxWidth())
+            HuntButton(stringResource(R.string.ex_show), onClick = { revealed = true }, modifier = Modifier.fillMaxWidth())
         } else {
             HuntPanel(accent = t.accent2) {
                 Text(word.uz, color = t.text, style = MaterialTheme.typography.titleLarge)

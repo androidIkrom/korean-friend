@@ -57,6 +57,8 @@ import uz.hangulfriend.ui.kit.Sfx
 import uz.hangulfriend.ui.theme.CorrectGreen
 import uz.hangulfriend.ui.theme.LocalGameTokens
 import uz.hangulfriend.ui.theme.WrongRed
+import uz.hangulfriend.ui.kit.RoundIconButton
+import androidx.compose.foundation.layout.width
 
 /** Length of the final test (stage 7c spec §3). */
 const val FINAL_SECONDS = 25 * 60
@@ -157,16 +159,15 @@ private fun BattleHud(s: SessionState, mode: SessionMode, leftSec: Int, onClose:
     val total = s.items.size
     val done = (s.index + if (s.answered) 1 else 0).coerceAtMost(total)
     Row(verticalAlignment = Alignment.CenterVertically) {
-        IconButton(onClick = onClose) {
-            Icon(Icons.Filled.Close, contentDescription = stringResource(R.string.session_close), tint = t.muted)
-        }
-        Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(4.dp)) {
+        RoundIconButton(Icons.Filled.Close, stringResource(R.string.session_close), onClose)
+        Spacer(Modifier.width(12.dp))
+        Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(6.dp)) {
             Text(
-                stringResource(R.string.battle_floor, (s.index + 1).coerceAtMost(total.coerceAtLeast(1)), total).uppercase(),
+                stringResource(R.string.battle_floor, (s.index + 1).coerceAtMost(total.coerceAtLeast(1)), total),
                 color = t.muted,
-                fontFamily = t.display,
-                fontSize = 11.sp,
-                letterSpacing = 2.sp,
+                fontFamily = t.ui,
+                fontWeight = FontWeight.SemiBold,
+                fontSize = 12.sp,
             )
             FloorBar(done, total)
         }
@@ -174,7 +175,7 @@ private fun BattleHud(s: SessionState, mode: SessionMode, leftSec: Int, onClose:
     val showCombo = s.combo >= GameRules.COMBO_FROM
     if (s.hearts != null || showCombo || s.xpEarned > 0 || mode == SessionMode.FINAL) {
         Row(
-            Modifier.fillMaxWidth().padding(start = 48.dp, top = 6.dp),
+            Modifier.fillMaxWidth().padding(start = 56.dp, top = 8.dp),
             horizontalArrangement = Arrangement.spacedBy(10.dp),
             verticalAlignment = Alignment.CenterVertically,
         ) {
@@ -187,7 +188,7 @@ private fun BattleHud(s: SessionState, mode: SessionMode, leftSec: Int, onClose:
             if (s.xpEarned > 0) {
                 Row(verticalAlignment = Alignment.CenterVertically) {
                     Icon(Icons.Filled.Bolt, contentDescription = null, tint = Gold, modifier = Modifier.size(16.dp))
-                    Text("${s.xpEarned} XP", color = Gold, fontFamily = t.display, fontWeight = FontWeight.Bold, fontSize = 14.sp)
+                    Text("${s.xpEarned} XP", color = Gold, fontFamily = t.numbers, fontWeight = FontWeight.SemiBold, fontSize = 13.sp)
                 }
             }
             if (mode == SessionMode.FINAL && !s.finished) {
@@ -197,9 +198,9 @@ private fun BattleHud(s: SessionState, mode: SessionMode, leftSec: Int, onClose:
                     Text(
                         "%02d:%02d".format(leftSec / 60, leftSec % 60),
                         color = if (urgent) t.danger else t.text,
-                        fontFamily = t.display,
-                        fontWeight = FontWeight.Bold,
-                        fontSize = 14.sp,
+                        fontFamily = t.numbers,
+                        fontWeight = FontWeight.SemiBold,
+                        fontSize = 13.sp,
                     )
                 }
             }
