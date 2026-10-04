@@ -72,6 +72,10 @@ class SettingsViewModel(
         viewModelScope.launch { settingsRepo.setDailyGoalXp(n) }
     }
 
+    fun setPlayerName(name: String) {
+        viewModelScope.launch { settingsRepo.setPlayerName(name) }
+    }
+
     fun setHero(hero: HeroGender) {
         viewModelScope.launch { settingsRepo.setHero(hero) }
     }
@@ -118,6 +122,7 @@ fun SettingsScreen(vm: SettingsViewModel, modifier: Modifier = Modifier) {
         }
         item {
             HuntPanel(title = stringResource(R.string.settings_section_hunter)) {
+                NameRow(settings.playerName, vm::setPlayerName)
                 LanguageRow()
                 ThemeRow(settings.theme, vm::setTheme)
                 HeroRow(settings.hero, vm::setHero)

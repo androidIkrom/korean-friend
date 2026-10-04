@@ -28,6 +28,12 @@ class TutorTest {
         assertTrue(q.contains("Kiyib ko'ring"))
     }
 
+    @Test fun roleNamesTheLearnerOnlyWhenKnown() {
+        assertEquals(TutorPrompts.ROLE, TutorPrompts.role(AppLanguage.UZ, " "))
+        assertTrue(TutorPrompts.role(AppLanguage.UZ, "Ikrom").contains("ismi Ikrom"))
+        assertTrue(TutorPrompts.role(AppLanguage.EN, "Ikrom").contains("name is Ikrom"))
+    }
+
     @Test fun englishPrompts() {
         assertTrue(TutorPrompts.role(AppLanguage.EN).contains("Answer only in English"))
         assertEquals(TutorPrompts.ROLE, TutorPrompts.role(AppLanguage.UZ))

@@ -79,6 +79,20 @@ class BackupCodecTest {
         assertEquals(false, s.toSettings().soundOn)
     }
 
+    @Test fun playerNameRoundTrip() {
+        val named = file.copy(settings = file.settings.copy(playerName = "Ikrom"))
+        val s = (BackupCodec.decode(BackupCodec.encode(named)) as BackupResult.Ok).file.settings
+        assertEquals("Ikrom", s.playerName)
+        assertEquals("Ikrom", s.toSettings().playerName)
+    }
+
+    @Test fun decodesOldFileWithoutPlayerName() {
+        val text = BackupCodec.encode(file.copy(settings = file.settings.copy(playerName = "Ikrom")))
+            .replace(Regex(""",?\s*"player_name":\s*"[^"]*""""), "")
+        assertTrue(!text.contains("player_name"))
+        assertEquals("", (BackupCodec.decode(text) as BackupResult.Ok).file.settings.playerName)
+    }
+
     @Test fun heroRoundTrip() {
         val girl = file.copy(settings = file.settings.copy(hero = "girl"))
         assertEquals("girl", (BackupCodec.decode(BackupCodec.encode(girl)) as BackupResult.Ok).file.settings.hero)

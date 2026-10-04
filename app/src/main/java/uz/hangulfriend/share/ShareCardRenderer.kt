@@ -50,7 +50,7 @@ object ShareCardRenderer {
         c.drawRect(0f, 0f, WIDTH.toFloat(), HEIGHT.toFloat(), bg)
 
         c.drawText("Hangul Hunt 한글", MARGIN, 150f, text(76f, WHITE, bold = true))
-        c.drawText(s.date.toString(), MARGIN, 210f, text(36f, MUTED))
+        c.drawText(if (s.playerName.isBlank()) s.date.toString() else "${s.playerName} · ${s.date}", MARGIN, 210f, text(36f, MUTED))
 
         val boxW = (WIDTH - 2 * MARGIN - 2 * 30f) / 3
         val boxes = listOf(

@@ -41,12 +41,20 @@ object TutorPrompts {
             "Do not use LaTeX or $...$; write arrows only as →. Use **bold** text instead of headings (#). " +
             "Never give an example or rule that contradicts the lesson explanation."
 
-    fun role(lang: AppLanguage): String = if (lang == AppLanguage.EN) ROLE_EN else ROLE
+    fun role(lang: AppLanguage, name: String = ""): String {
+        val base = if (lang == AppLanguage.EN) ROLE_EN else ROLE
+        if (name.isBlank()) return base
+        return base + if (lang == AppLanguage.EN) {
+            " The learner's name is $name; address them by name now and then."
+        } else {
+            " O'quvchining ismi $name; vaqti-vaqti bilan unga ismi bilan murojaat qil."
+        }
+    }
 
     /** [lesson] is already localized, so its translations are in [lang]. */
-    fun grammarContext(g: Grammar, lesson: Lesson, lang: AppLanguage = AppLanguage.UZ): String = buildString {
+    fun grammarContext(g: Grammar, lesson: Lesson, lang: AppLanguage = AppLanguage.UZ, name: String = ""): String = buildString {
         val en = lang == AppLanguage.EN
-        appendLine(role(lang))
+        appendLine(role(lang, name))
         appendLine()
         appendLine((if (en) "Current lesson: " else "Hozirgi dars: ") + "${lesson.titleKo} (${lesson.titleUz}).")
         appendLine((if (en) "Grammar: " else "Grammatika: ") + "${g.pattern} — ${g.meaningUz}")

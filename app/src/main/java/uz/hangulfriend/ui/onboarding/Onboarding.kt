@@ -52,6 +52,8 @@ import uz.hangulfriend.ui.settings.HeroRow
 import uz.hangulfriend.ui.theme.LocalGameTokens
 import uz.hangulfriend.ui.settings.LanguageRow
 import uz.hangulfriend.study.OnboardingService
+import uz.hangulfriend.ui.settings.NameField
+import androidx.compose.material3.MaterialTheme
 
 class OnboardingViewModel(content: ContentRepository, private val onboarding: OnboardingService) : ViewModel() {
     val catalog: List<CatalogEntry> = content.catalog()
@@ -65,6 +67,13 @@ class OnboardingViewModel(content: ContentRepository, private val onboarding: On
     private val _busy = MutableStateFlow(false)
     val busy: StateFlow<Boolean> = _busy
 
+    private val _name = MutableStateFlow("")
+    val name: StateFlow<String> = _name
+
+    fun setName(name: String) {
+        _name.value = name
+    }
+
     fun pickHero(hero: HeroGender) {
         _hero.value = hero
     }
@@ -77,7 +86,7 @@ class OnboardingViewModel(content: ContentRepository, private val onboarding: On
         val id = _selected.value ?: return
         _busy.value = true
         viewModelScope.launch {
-            onboarding.complete(id, _hero.value)
+            onboarding.complete(id, _hero.value, _name.value)
             _busy.value = false
             onDone()
         }
@@ -123,6 +132,7 @@ fun OnboardingScreen(vm: OnboardingViewModel, onDone: () -> Unit) {
     val selected by vm.selected.collectAsStateWithLifecycle()
     val busy by vm.busy.collectAsStateWithLifecycle()
     val hero by vm.hero.collectAsStateWithLifecycle()
+    val name by vm.name.collectAsStateWithLifecycle()
     var step by rememberSaveable { mutableIntStateOf(0) }
     BackHandler(enabled = step > 0) { step-- }
     Column(Modifier.fillMaxSize().padding(16.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
@@ -131,7 +141,11 @@ fun OnboardingScreen(vm: OnboardingViewModel, onDone: () -> Unit) {
             when (step) {
                 0 -> AwakeningStep()
                 1 -> Column(Modifier.verticalScroll(rememberScrollState())) {
-                    HuntPanel(scan = true) { HeroRow(hero, vm::pickHero) }
+                    HuntPanel {
+                        Text(stringResource(R.string.name_title), style = MaterialTheme.typography.titleMedium)
+                        NameField(name, vm::setName, Modifier.fillMaxWidth())
+                        HeroRow(hero, vm::pickHero)
+                    }
                 }
                 else -> Column {
                     Text(

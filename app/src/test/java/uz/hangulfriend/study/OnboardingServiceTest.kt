@@ -87,6 +87,12 @@ class OnboardingServiceTest {
         assertEquals(HeroGender.GIRL, settings.settings.first().hero)
     }
 
+    @Test fun onboarding_savesCleanedName() = runTest {
+        val (onboarding, _, settings) = service()
+        onboarding.complete("u02_l1", HeroGender.BOY, "  Ikrom  ")
+        assertEquals("Ikrom", settings.settings.first().playerName)
+    }
+
     @Test fun onboarding_withoutHeroKeepsIt() = runTest {
         val (onboarding, _, settings) = service()
         settings.setHero(HeroGender.GIRL)

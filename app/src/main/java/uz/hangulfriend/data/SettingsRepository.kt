@@ -25,6 +25,8 @@ data class Settings(
     val soundOn: Boolean = true,
     /** Haptic feedback (stage 9). */
     val hapticsOn: Boolean = true,
+    /** The player's own name, already cleaned ([cleanName]); empty until they enter one. */
+    val playerName: String = "",
 )
 
 /** The player's avatar; [key] is what DataStore and backups store. */
@@ -65,6 +67,7 @@ class SettingsRepository(private val dataStore: DataStore<Preferences>) {
             hero = HeroGender.from(p[HERO]),
             soundOn = p[SOUND] ?: true,
             hapticsOn = p[HAPTICS] ?: true,
+            playerName = p[PLAYER_NAME].orEmpty(),
         )
     }
 
@@ -77,6 +80,12 @@ class SettingsRepository(private val dataStore: DataStore<Preferences>) {
 
     suspend fun setHero(hero: HeroGender) {
         dataStore.edit { it[HERO] = hero.key }
+    }
+
+    /** Stores [raw] cleaned; a blank name clears it. */
+    suspend fun setPlayerName(raw: String) {
+        val name = cleanName(raw)
+        dataStore.edit { if (name.isEmpty()) it.remove(PLAYER_NAME) else it[PLAYER_NAME] = name }
     }
 
     suspend fun setSound(on: Boolean) {
@@ -123,6 +132,8 @@ class SettingsRepository(private val dataStore: DataStore<Preferences>) {
             it[HERO] = s.hero.key
             it[SOUND] = s.soundOn
             it[HAPTICS] = s.hapticsOn
+            val name = cleanName(s.playerName)
+            if (name.isEmpty()) it.remove(PLAYER_NAME) else it[PLAYER_NAME] = name
         }
     }
 
@@ -142,5 +153,6 @@ class SettingsRepository(private val dataStore: DataStore<Preferences>) {
         val HERO = stringPreferencesKey("hero")
         val SOUND = booleanPreferencesKey("sound")
         val HAPTICS = booleanPreferencesKey("haptics")
+        val PLAYER_NAME = stringPreferencesKey("player_name")
     }
 }

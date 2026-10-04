@@ -77,6 +77,7 @@ import uz.hangulfriend.ui.kit.LocalGameFeedback
 import uz.hangulfriend.ui.kit.OptionState
 import uz.hangulfriend.ui.kit.OptionTile
 import uz.hangulfriend.ui.kit.Sfx
+import uz.hangulfriend.ui.settings.LocalPlayerName
 
 /** One clip to play; [id] grows with every new clip so a rotation does not replay the last one. */
 data class SpeakEvent(val id: Int, val file: String)
@@ -184,6 +185,9 @@ fun EpisodeScreen(vm: EpisodeViewModel, onClose: () -> Unit) {
             return@GameBackground
         }
         val list = rememberLazyListState()
+        // The learner plays Aziz: his label shows the player's own name when one is set.
+        val playerName = LocalPlayerName.current
+        val names = remember(vm.names, playerName) { if (playerName.isBlank()) vm.names else vm.names + ("aziz" to playerName) }
         LaunchedEffect(p.shown.size, p.finished) { list.animateScrollToItem(maxOf(0, p.shown.size - 1)) }
         Column(Modifier.fillMaxSize().padding(16.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {
             Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
@@ -223,7 +227,7 @@ fun EpisodeScreen(vm: EpisodeViewModel, onClose: () -> Unit) {
             LazyColumn(Modifier.weight(1f), state = list, verticalArrangement = Arrangement.spacedBy(8.dp)) {
                 itemsIndexed(p.shown) { i, step ->
                     val solved = i < p.shown.size - 1 || p.finished
-                    StepPanel(step, solved, vm.names)
+                    StepPanel(step, solved, names)
                 }
             }
             when (val step = p.current) {
