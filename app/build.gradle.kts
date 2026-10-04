@@ -70,6 +70,8 @@ dependencies {
     implementation(libs.compose.ui.tooling.preview)
     implementation(libs.compose.material3)
     implementation(libs.compose.material.icons)
+    implementation(libs.haze)
+    implementation(libs.haze.blur)
     debugImplementation(libs.compose.ui.tooling)
     implementation(libs.room.runtime)
     implementation(libs.room.ktx)

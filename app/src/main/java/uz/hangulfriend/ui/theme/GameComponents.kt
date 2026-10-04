@@ -1,6 +1,7 @@
 package uz.hangulfriend.ui.theme
 
 import android.graphics.BlurMaskFilter
+import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
@@ -21,6 +22,7 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.CompositionLocalProvider
+import androidx.compose.runtime.remember
 import androidx.compose.runtime.staticCompositionLocalOf
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -41,12 +43,19 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import dev.chrisbanes.haze.hazeSource
+import dev.chrisbanes.haze.rememberHazeState
+import kotlin.math.cos
+import kotlin.math.sin
 import uz.hangulfriend.data.GameThemeId
 import uz.hangulfriend.ui.kit.HuntButton
 import uz.hangulfriend.ui.kit.HuntPanel
 import uz.hangulfriend.ui.kit.HuntStyle
 import uz.hangulfriend.ui.kit.LocalGameFeedback
+import uz.hangulfriend.ui.kit.LocalHazeState
 import uz.hangulfriend.ui.kit.Sfx
+import uz.hangulfriend.ui.kit.frameClock
+import uz.hangulfriend.ui.kit.meshBlobs
 import uz.hangulfriend.ui.kit.shape
 
 /** Soft outer light around a rounded rectangle (System theme panels and buttons). */
@@ -113,7 +122,7 @@ fun RankBadge(letter: String, state: BadgeState, modifier: Modifier = Modifier, 
 /** True inside a [GameBackground]: a nested one only lays out its content instead of drawing a second backdrop. */
 val LocalInGameBackground = staticCompositionLocalOf { false }
 
-/** Full-screen backdrop: a faint grid with a blue glow (System) or a night-sky gradient (Neon). */
+/** Full-screen backdrop: the theme's base with slowly drifting colour blobs; glass panels blur it. */
 @Composable
 fun GameBackground(modifier: Modifier = Modifier, content: @Composable BoxScope.() -> Unit) {
     val t = LocalGameTokens.current
@@ -128,37 +137,27 @@ fun GameBackground(modifier: Modifier = Modifier, content: @Composable BoxScope.
 
 @Composable
 private fun Backdrop(t: GameTokens, modifier: Modifier, content: @Composable BoxScope.() -> Unit) {
-    Box(
-        modifier
-            .fillMaxSize()
-            .background(t.background)
-            .drawBehind {
-                if (t.id == GameThemeId.SYSTEM) {
-                    val step = 32.dp.toPx()
-                    val line = t.accent.copy(alpha = 0.05f)
-                    var x = 0f
-                    while (x < size.width) {
-                        drawLine(line, Offset(x, 0f), Offset(x, size.height))
-                        x += step
-                    }
-                    var y = 0f
-                    while (y < size.height) {
-                        drawLine(line, Offset(0f, y), Offset(size.width, y))
-                        y += step
-                    }
-                    drawRect(
-                        Brush.radialGradient(
-                            listOf(Color(0x592870FF), Color.Transparent),
-                            center = Offset(size.width / 2, size.height * 0.2f),
-                            radius = size.width * 0.8f,
-                        ),
+    val haze = rememberHazeState()
+    val blobs = remember(t.id) { meshBlobs(t.id) }
+    val clock = frameClock()
+    CompositionLocalProvider(LocalHazeState provides haze) {
+        Box(modifier.fillMaxSize().background(t.background)) {
+            // A sibling of the content, so glass panels in the content can blur it.
+            Canvas(Modifier.matchParentSize().hazeSource(haze)) {
+                drawRect(t.background)
+                val time = clock.floatValue
+                blobs.forEachIndexed { i, b ->
+                    val c = Offset(
+                        size.width * (b.x + 0.06f * sin(time * 0.08f * b.drift + i * 2.1f)),
+                        size.height * (b.y + 0.04f * cos(time * 0.06f * b.drift + i * 1.3f)),
                     )
-                } else {
-                    drawRect(Brush.verticalGradient(listOf(Color(0xFF26104A), t.background), endY = size.height * 0.6f))
+                    val r = size.maxDimension * b.radius
+                    drawCircle(Brush.radialGradient(listOf(b.color, Color.Transparent), c, r), r, c)
                 }
-            },
-        content = content,
-    )
+            }
+            content()
+        }
+    }
 }
 
 /** A game-styled card: panel fill, thin theme border, theme shape; clickable (with a tap sound) when [onClick] is given. */

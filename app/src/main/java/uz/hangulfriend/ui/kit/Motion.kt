@@ -8,7 +8,13 @@ import androidx.compose.animation.core.animateFloat
 import androidx.compose.animation.core.infiniteRepeatable
 import androidx.compose.animation.core.rememberInfiniteTransition
 import androidx.compose.animation.core.tween
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.MutableFloatState
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableFloatStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.withFrameNanos
 import androidx.compose.runtime.staticCompositionLocalOf
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.composed
@@ -38,6 +44,22 @@ fun isReducedMotion(context: Context): Boolean =
 
 /** Provided once by the activity from [isReducedMotion]. */
 val LocalReducedMotion = staticCompositionLocalOf { false }
+
+/**
+ * Seconds since the caller appeared, advanced every frame and starting at [still]; stays at [still] with
+ * reduced motion. Read it only in a draw pass, so the animation never recomposes.
+ */
+@Composable
+fun frameClock(still: Float = 0f): MutableFloatState {
+    val time = remember { mutableFloatStateOf(still) }
+    val reduced = LocalReducedMotion.current
+    LaunchedEffect(reduced) {
+        if (reduced) return@LaunchedEffect
+        val start = withFrameNanos { it }
+        while (true) withFrameNanos { time.floatValue = still + (it - start) / 1e9f }
+    }
+    return time
+}
 
 /** Slow grow-and-shrink, like breathing: for auras and idle heroes. */
 fun Modifier.breathing(amount: Float = 0.04f): Modifier = composed {
