@@ -60,7 +60,7 @@ import uz.hangulfriend.ui.theme.LocalGameTokens
 
 data class RankUp(val from: Rank, val to: Rank, val level: Int, val hero: HeroGender)
 
-/** Full-screen "[ SYSTEM ] rank up" announcement (mockup "Rank oshdi · Tizim"). */
+/** Full-screen "SYSTEM · rank up" announcement (mockup "Rank oshdi · Tizim"). */
 @Composable
 fun RankUpDialog(rankUp: RankUp, onAccept: () -> Unit) {
     val t = LocalGameTokens.current
@@ -104,26 +104,25 @@ fun RankUpDialog(rankUp: RankUp, onAccept: () -> Unit) {
                         horizontalAlignment = Alignment.CenterHorizontally,
                         verticalArrangement = Arrangement.spacedBy(10.dp),
                     ) {
-                        Text("[ SYSTEM ]", color = t.accent, fontFamily = t.display, letterSpacing = 3.sp, fontSize = 12.sp)
+                        Text("SYSTEM", color = t.accent, fontFamily = t.ui, fontWeight = FontWeight.SemiBold, letterSpacing = 1.3.sp, fontSize = 11.sp)
                         Text(stringResource(R.string.rankup_message, rankUp.level), color = t.muted, textAlign = TextAlign.Center)
                         Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(18.dp)) {
-                            Text(rankUp.from.name, color = t.muted, fontFamily = t.display, fontWeight = FontWeight.Bold, fontSize = 40.sp)
+                            Text(rankUp.from.name, color = t.muted, fontFamily = t.ui, fontWeight = FontWeight.Bold, fontSize = 40.sp)
                             Icon(Icons.AutoMirrored.Filled.ArrowForward, contentDescription = null, tint = t.accent)
                             Text(
                                 rankUp.to.name,
                                 color = t.accent,
-                                fontFamily = t.display,
+                                fontFamily = t.ui,
                                 fontWeight = FontWeight.Bold,
                                 fontSize = 60.sp,
                                 modifier = Modifier.scale(2.4f - 1.4f * drop).alpha(drop),
                             )
                         }
                         Text(
-                            stringResource(R.string.home_title, stringResource(rankUp.to.titleRes())).uppercase(),
+                            stringResource(R.string.home_title, stringResource(rankUp.to.titleRes())),
                             color = t.text,
-                            fontFamily = t.display,
+                            fontFamily = t.ui,
                             fontWeight = FontWeight.Bold,
-                            letterSpacing = 2.sp,
                             fontSize = 20.sp,
                         )
                     }
@@ -136,7 +135,7 @@ fun RankUpDialog(rankUp: RankUp, onAccept: () -> Unit) {
                     }
                 }
                 HuntButton(
-                    stringResource(R.string.rankup_accept).uppercase(),
+                    stringResource(R.string.rankup_accept),
                     onClick = onAccept,
                     modifier = Modifier.fillMaxWidth(),
                     style = HuntStyle.GOLD,

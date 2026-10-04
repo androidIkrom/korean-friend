@@ -59,7 +59,6 @@ import uz.hangulfriend.ui.kit.GameMotion
 import uz.hangulfriend.ui.kit.LocalGameFeedback
 import uz.hangulfriend.ui.kit.Sfx
 import uz.hangulfriend.ui.kit.breathing
-import uz.hangulfriend.ui.kit.shapeGlow
 import uz.hangulfriend.ui.theme.LocalGameTokens
 
 /** The four dock tabs; the raised ◆ HUNT button sits between GATES and STORY. */

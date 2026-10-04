@@ -137,7 +137,7 @@ fun OnboardingScreen(vm: OnboardingViewModel, onDone: () -> Unit) {
                     Text(
                         stringResource(R.string.onboarding_question),
                         color = LocalGameTokens.current.text,
-                        fontFamily = LocalGameTokens.current.display,
+                        fontFamily = LocalGameTokens.current.ui,
                         fontWeight = FontWeight.Bold,
                         fontSize = 20.sp,
                     )
@@ -157,7 +157,7 @@ fun OnboardingScreen(vm: OnboardingViewModel, onDone: () -> Unit) {
             val next = nextStep(step)
             if (next != null) {
                 HuntButton(
-                    stringResource(R.string.onboarding_next).uppercase(),
+                    stringResource(R.string.onboarding_next),
                     onClick = { step = next },
                     modifier = Modifier.weight(1.6f),
                 )
@@ -188,19 +188,18 @@ private fun AwakeningStep() {
         Box(Modifier.size(240.dp), contentAlignment = Alignment.Center) {
             GateRays(t.accent.copy(alpha = 0.35f), Modifier.fillMaxSize())
             Column(Modifier.breathing(0.03f), horizontalAlignment = Alignment.CenterHorizontally) {
-                Text("[ SYSTEM ]", color = t.accent, fontFamily = t.display, letterSpacing = 3.sp, fontSize = 13.sp)
+                Text("SYSTEM", color = t.accent, fontFamily = t.ui, fontWeight = FontWeight.SemiBold, letterSpacing = 1.3.sp, fontSize = 11.sp)
                 Text(
-                    stringResource(R.string.awaken_title).uppercase(),
+                    stringResource(R.string.awaken_title),
                     color = t.text,
-                    fontFamily = t.display,
+                    fontFamily = t.ui,
                     fontWeight = FontWeight.Bold,
                     fontSize = 32.sp,
-                    letterSpacing = 3.sp,
                 )
             }
         }
         HuntPanel(scan = true) {
-            Text(stringResource(R.string.awaken_system), color = t.accent, fontFamily = t.display, fontWeight = FontWeight.SemiBold, fontSize = 17.sp, textAlign = TextAlign.Center, modifier = Modifier.fillMaxWidth())
+            Text(stringResource(R.string.awaken_system), color = t.accent, fontFamily = t.ui, fontWeight = FontWeight.SemiBold, fontSize = 17.sp, textAlign = TextAlign.Center, modifier = Modifier.fillMaxWidth())
             Text(stringResource(R.string.onboarding_intro), color = t.text, textAlign = TextAlign.Center, modifier = Modifier.fillMaxWidth())
         }
         LanguageRow()

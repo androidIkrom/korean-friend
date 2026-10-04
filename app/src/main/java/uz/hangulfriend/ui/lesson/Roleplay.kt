@@ -96,7 +96,7 @@ private fun RoleplayTurn(step: RoleplayStep, speaker: String, onNext: () -> Unit
                 Text(step.line.ko, style = MaterialTheme.typography.headlineSmall)
                 AudioButton(step.line.audio)
             }
-            HuntButton(stringResource(R.string.ex_next).uppercase(), onClick = onNext, modifier = Modifier.fillMaxWidth())
+            HuntButton(stringResource(R.string.ex_next), onClick = onNext, modifier = Modifier.fillMaxWidth())
         }
     }
 }

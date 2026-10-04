@@ -159,7 +159,7 @@ fun QuestCard(prompt: String, content: @Composable ColumnScope.() -> Unit = {}) 
     val t = LocalGameTokens.current
     HuntPanel {
         Text(
-            stringResource(R.string.battle_quest).uppercase(),
+            stringResource(R.string.battle_quest),
             color = t.accent,
             fontFamily = t.ui,
             fontWeight = FontWeight.SemiBold,

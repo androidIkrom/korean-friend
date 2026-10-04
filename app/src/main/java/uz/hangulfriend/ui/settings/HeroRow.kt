@@ -50,7 +50,7 @@ fun HeroRow(current: HeroGender, onPick: (HeroGender) -> Unit) {
                     Text(
                         stringResource(if (hero == HeroGender.BOY) R.string.hero_boy else R.string.hero_girl),
                         color = if (selected) t.accent else t.text,
-                        fontFamily = t.display,
+                        fontFamily = t.ui,
                         fontWeight = FontWeight.Bold,
                     )
                 }

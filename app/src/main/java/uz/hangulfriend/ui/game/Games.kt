@@ -136,18 +136,18 @@ fun GamesScreen(vm: GamesViewModel, onOpen: (GameId) -> Unit, onBack: () -> Unit
                 Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(14.dp)) {
                     val shape = t.shape(8.dp)
                     Box(
-                        Modifier.size(48.dp).background(t.accent2.copy(alpha = 0.16f), shape).border(1.dp, t.accent2, shape),
+                        Modifier.size(48.dp).background(t.accent2.copy(alpha = 0.18f), shape),
                         contentAlignment = Alignment.Center,
                     ) { Icon(id.icon(), contentDescription = null, tint = t.accent2) }
                     Column(Modifier.weight(1f)) {
-                        Text(stringResource(id.title), color = t.text, fontFamily = t.display, fontWeight = FontWeight.Bold, fontSize = 17.sp)
+                        Text(stringResource(id.title), color = t.text, fontFamily = t.ui, fontWeight = FontWeight.Bold, fontSize = 17.sp)
                         Text(stringResource(id.desc), color = t.muted, fontSize = 13.sp)
                     }
                 }
                 Row(verticalAlignment = Alignment.CenterVertically) {
-                    Text(stringResource(R.string.game_best, best[id] ?: 0), color = Gold, fontFamily = t.display, fontWeight = FontWeight.Bold, modifier = Modifier.weight(1f))
+                    Text(stringResource(R.string.game_best, best[id] ?: 0), color = Gold, fontFamily = t.ui, fontWeight = FontWeight.Bold, modifier = Modifier.weight(1f))
                     HuntButton(
-                        stringResource(R.string.game_play).uppercase(),
+                        stringResource(R.string.game_play),
                         onClick = { onOpen(id) },
                         enabled = playable,
                         icon = Icons.Filled.Bolt,
@@ -180,21 +180,21 @@ fun GameOver(result: GameResult, onAgain: () -> Unit) {
         Box(Modifier.size(200.dp), contentAlignment = Alignment.Center) {
             GateRays(Gold.copy(alpha = 0.3f), Modifier.fillMaxSize())
             Column(horizontalAlignment = Alignment.CenterHorizontally) {
-                Text(result.score.toString(), color = t.text, fontFamily = t.display, fontWeight = FontWeight.Bold, fontSize = 64.sp, modifier = Modifier.scale(pop.value))
-                Text(stringResource(R.string.game_score_label).uppercase(), color = t.muted, fontFamily = t.display, letterSpacing = 2.sp)
+                Text(result.score.toString(), color = t.text, fontFamily = t.ui, fontWeight = FontWeight.Bold, fontSize = 64.sp, modifier = Modifier.scale(pop.value))
+                Text(stringResource(R.string.game_score_label), color = t.muted, fontFamily = t.ui)
             }
         }
-        Text(stringResource(R.string.session_xp, result.xp), color = Gold, fontFamily = t.display, fontWeight = FontWeight.Bold, fontSize = 26.sp)
+        Text(stringResource(R.string.session_xp, result.xp), color = Gold, fontFamily = t.ui, fontWeight = FontWeight.Bold, fontSize = 26.sp)
         if (result.record) {
             Text(
                 stringResource(R.string.game_new_record),
                 color = Gold,
-                fontFamily = t.display,
+                fontFamily = t.ui,
                 fontWeight = FontWeight.Bold,
                 fontSize = 18.sp,
                 modifier = Modifier.scale(pop.value),
             )
         }
-        HuntButton(stringResource(R.string.game_again).uppercase(), onClick = onAgain, modifier = Modifier.fillMaxWidth(), style = HuntStyle.GOLD, sfx = Sfx.OPEN)
+        HuntButton(stringResource(R.string.game_again), onClick = onAgain, modifier = Modifier.fillMaxWidth(), style = HuntStyle.GOLD, sfx = Sfx.OPEN)
     }
 }

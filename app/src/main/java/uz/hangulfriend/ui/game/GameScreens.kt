@@ -65,7 +65,6 @@ import uz.hangulfriend.ui.kit.ScreenHeader
 import uz.hangulfriend.ui.kit.Sfx
 import uz.hangulfriend.ui.kit.shake
 import uz.hangulfriend.ui.kit.shape
-import uz.hangulfriend.ui.kit.shapeGlow
 import uz.hangulfriend.ui.theme.CorrectGreen
 import uz.hangulfriend.ui.theme.LocalGameTokens
 import uz.hangulfriend.ui.theme.WrongRed
@@ -125,7 +124,7 @@ private fun MemoryScreen(vm: GamesViewModel, onHit: (Boolean) -> Unit) {
     LaunchedEffect(cards) {
         if (game.done) vm.finish(GameId.MEMORY, MemoryGame.score(game.moves), MemoryGame.PAIRS)
     }
-    Text(stringResource(R.string.game_moves, game.moves), color = t.muted, fontFamily = t.display, letterSpacing = 1.sp)
+    Text(stringResource(R.string.game_moves, game.moves), color = t.muted, fontFamily = t.ui, letterSpacing = 1.sp)
     LazyVerticalGrid(GridCells.Fixed(3), horizontalArrangement = Arrangement.spacedBy(10.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {
         itemsIndexed(cards) { i, card ->
             MemoryTile(card, wrong = mismatch && card.faceUp && !card.matched) {
@@ -167,7 +166,6 @@ private fun MemoryTile(card: MemoryCard, wrong: Boolean, onClick: () -> Unit) {
                 rotationY = turn
                 cameraDistance = 12 * density
             }
-            .then(if (card.matched) Modifier.shapeGlow(CorrectGreen.copy(alpha = 0.5f), shape, 10.dp) else Modifier)
             .clip(shape)
             .background(if (face) rim.copy(alpha = 0.18f).compositeOver(t.panel.copy(alpha = 1f)) else t.panel, shape)
             .border(if (face) 1.5.dp else 1.dp, rim, shape)
@@ -188,7 +186,7 @@ private fun MemoryTile(card: MemoryCard, wrong: Boolean, onClick: () -> Unit) {
                 modifier = Modifier.graphicsLayer { rotationY = 180f },
             )
         } else {
-            Text("?", color = t.accent, fontFamily = t.display, fontWeight = FontWeight.Bold, fontSize = 28.sp)
+            Text("?", color = t.accent, fontFamily = t.ui, fontWeight = FontWeight.Bold, fontSize = 28.sp)
         }
     }
 }
@@ -202,7 +200,7 @@ private fun TimerBar(leftMs: Long) {
         Text(
             stringResource(R.string.game_time_left, (leftMs / 1000).toInt()),
             color = if (urgent) t.danger else t.text,
-            fontFamily = t.display,
+            fontFamily = t.ui,
             fontWeight = FontWeight.Bold,
         )
         GlowBar(SpeedRound.timeFraction(leftMs), Modifier.weight(1f), color = if (urgent) t.danger else null, height = 8)
@@ -228,7 +226,7 @@ private fun SpeedScreen(vm: GamesViewModel, typing: Boolean, onHit: (Boolean) ->
         vm.finish(id, score, score)
     }
     TimerBar(left)
-    Text(stringResource(R.string.game_score, if (typing) typed else round.score), color = t.muted, fontFamily = t.display)
+    Text(stringResource(R.string.game_score, if (typing) typed else round.score), color = t.muted, fontFamily = t.ui)
     if (typing) {
         fun submit() {
             val ok = AnswerChecker.check(input, listOf(question.word.ko)).correct
@@ -248,7 +246,7 @@ private fun SpeedScreen(vm: GamesViewModel, typing: Boolean, onHit: (Boolean) ->
             keyboardActions = KeyboardActions(onDone = { if (input.isNotBlank()) submit() }),
             modifier = Modifier.fillMaxWidth(),
         )
-        HuntButton(stringResource(R.string.ex_check).uppercase(), onClick = ::submit, enabled = input.isNotBlank(), modifier = Modifier.fillMaxWidth())
+        HuntButton(stringResource(R.string.ex_check), onClick = ::submit, enabled = input.isNotBlank(), modifier = Modifier.fillMaxWidth())
     } else {
         QuestCard(stringResource(R.string.game_speed_prompt)) {
             Text(question.word.ko, color = t.text, style = MaterialTheme.typography.displaySmall)
@@ -278,7 +276,7 @@ private fun ChainScreen(vm: GamesViewModel, onHit: (Boolean) -> Unit) {
         Text(stringResource(R.string.game_no_content), color = t.muted)
         return
     }
-    Text(stringResource(R.string.game_chain_length, chain.length, chain.total), color = t.accent, fontFamily = t.display, fontWeight = FontWeight.Bold)
+    Text(stringResource(R.string.game_chain_length, chain.length, chain.total), color = t.accent, fontFamily = t.ui, fontWeight = FontWeight.Bold)
     GlowBar(if (chain.total == 0) 0f else chain.length.toFloat() / chain.total, height = 6)
     val e = current
     if (e == null) {
@@ -304,5 +302,5 @@ private fun ChainScreen(vm: GamesViewModel, onHit: (Boolean) -> Unit) {
         keyboardActions = KeyboardActions(onDone = { if (input.isNotBlank()) submit() }),
         modifier = Modifier.fillMaxWidth(),
     )
-    HuntButton(stringResource(R.string.ex_check).uppercase(), onClick = ::submit, enabled = input.isNotBlank(), modifier = Modifier.fillMaxWidth())
+    HuntButton(stringResource(R.string.ex_check), onClick = ::submit, enabled = input.isNotBlank(), modifier = Modifier.fillMaxWidth())
 }

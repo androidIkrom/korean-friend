@@ -98,6 +98,3 @@ fun Modifier.pulseRing(color: Color, shape: Shape): Modifier = composed {
     drawGrownOutline(shape, { p * maxGrow }, { color.copy(alpha = (1f - p) * 0.6f) }, 2.dp)
 }
 
-/** A soft band of light that sweeps down the component: the System "scanning" look. Put it after a `clip`. */
-@Suppress("UNUSED_PARAMETER")
-fun Modifier.scanLine(color: Color): Modifier = this

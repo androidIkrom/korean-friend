@@ -53,7 +53,6 @@ import uz.hangulfriend.ui.kit.HuntStyle
 import uz.hangulfriend.ui.kit.ScreenHeader
 import uz.hangulfriend.ui.kit.Sfx
 import uz.hangulfriend.ui.kit.breathing
-import uz.hangulfriend.ui.kit.shapeGlow
 import uz.hangulfriend.ui.theme.CorrectGreen
 import uz.hangulfriend.ui.theme.LocalGameTokens
 
@@ -70,7 +69,7 @@ fun AchievementsScreen(vm: AchievementsViewModel, onBack: () -> Unit) {
     val t = LocalGameTokens.current
     Column(Modifier.padding(horizontal = 16.dp).verticalScroll(rememberScrollState()), verticalArrangement = Arrangement.spacedBy(12.dp)) {
         ScreenHeader(stringResource(R.string.achievements_title), onBack) {
-            Text("${unlocked.size}/${GameRules.ACHIEVEMENTS.size}", color = Gold, fontFamily = t.display, fontWeight = FontWeight.Bold, modifier = Modifier.padding(end = 8.dp))
+            Text("${unlocked.size}/${GameRules.ACHIEVEMENTS.size}", color = Gold, fontFamily = t.ui, fontWeight = FontWeight.Bold, modifier = Modifier.padding(end = 8.dp))
         }
         GameRules.ACHIEVEMENTS.chunked(2).forEach { pair ->
             Row(horizontalArrangement = Arrangement.spacedBy(12.dp)) {
@@ -92,7 +91,6 @@ private fun Medal(id: String, has: Boolean, modifier: Modifier) {
                     Modifier
                         .size(52.dp)
                         .rotate(45f)
-                        .then(if (has) Modifier.shapeGlow(Gold.copy(alpha = 0.55f), RectangleShape, 14.dp) else Modifier)
                         .background(if (has) Gold.copy(alpha = 0.18f) else t.background)
                         .border(2.dp, color),
                 )
@@ -106,7 +104,7 @@ private fun Medal(id: String, has: Boolean, modifier: Modifier) {
             Text(
                 stringResource(achievementTitle(id)),
                 color = if (has) t.text else t.muted,
-                fontFamily = t.display,
+                fontFamily = t.ui,
                 fontWeight = FontWeight.Bold,
                 fontSize = 14.sp,
                 textAlign = TextAlign.Center,
@@ -152,7 +150,7 @@ fun MistakesScreen(vm: MistakesViewModel, onPractice: () -> Unit, onBack: () -> 
             }
         } else {
             HuntButton(
-                stringResource(R.string.mistakes_practice).uppercase(),
+                stringResource(R.string.mistakes_practice),
                 onClick = onPractice,
                 modifier = Modifier.fillMaxWidth(),
                 style = HuntStyle.DANGER,
@@ -162,7 +160,7 @@ fun MistakesScreen(vm: MistakesViewModel, onPractice: () -> Unit, onBack: () -> 
             HuntPanel(accent = t.danger) {
                 rows.forEachIndexed { i, r ->
                     Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
-                        Text("${i + 1}", color = t.danger, fontFamily = t.display, fontWeight = FontWeight.Bold, modifier = Modifier.width(22.dp))
+                        Text("${i + 1}", color = t.danger, fontFamily = t.ui, fontWeight = FontWeight.Bold, modifier = Modifier.width(22.dp))
                         Column(Modifier.weight(1f)) {
                             Text(r.ko, color = t.text, fontSize = 18.sp, fontWeight = FontWeight.SemiBold)
                             Text(r.uz, color = t.muted, fontSize = 13.sp)

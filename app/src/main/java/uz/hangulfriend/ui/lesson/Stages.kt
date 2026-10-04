@@ -78,7 +78,7 @@ private fun Pager(pageCount: Int, onFinished: () -> Unit, page: @Composable (Int
     val t = LocalGameTokens.current
     Column(Modifier.fillMaxSize()) {
         Row(Modifier.padding(bottom = 8.dp), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
-            Text("${index + 1} / $pageCount", color = t.muted, fontFamily = t.display, fontSize = 12.sp, letterSpacing = 1.sp)
+            Text("${index + 1} / $pageCount", color = t.muted, fontFamily = t.ui, fontSize = 12.sp, letterSpacing = 1.sp)
             GlowBar((index + 1f) / pageCount, Modifier.weight(1f), height = 4)
         }
         Column(Modifier.weight(1f).verticalScroll(rememberScrollState())) {
@@ -95,7 +95,7 @@ private fun Pager(pageCount: Int, onFinished: () -> Unit, page: @Composable (Int
                 horizontalPadding = 8.dp,
             )
             HuntButton(
-                stringResource(if (index + 1 < pageCount) R.string.pager_next else R.string.pager_next_stage).uppercase(),
+                stringResource(if (index + 1 < pageCount) R.string.pager_next else R.string.pager_next_stage),
                 onClick = next,
                 modifier = Modifier.weight(1.4f),
                 fontSize = 13,
@@ -137,7 +137,7 @@ private fun WordCard(word: Word) {
             AudioButton(word.audio)
         }
         Text(word.uz, color = t.text, style = MaterialTheme.typography.titleLarge)
-        Text(word.pos.uppercase(), color = t.accent2, fontFamily = t.display, fontSize = 11.sp, letterSpacing = 2.sp)
+        Text(word.pos, color = t.accent2, fontFamily = t.ui, fontSize = 11.sp)
         HorizontalDivider(color = t.panelBorder.copy(alpha = 0.5f))
         Row(verticalAlignment = Alignment.CenterVertically) {
             Text(word.exampleKo, color = t.text, style = MaterialTheme.typography.bodyLarge, modifier = Modifier.weight(1f))
@@ -271,12 +271,11 @@ fun DialogueStage(lesson: Lesson, characters: Map<String, Character>, onFinished
                         val tint = if (mine) t.accent else t.accent2
                         Row(verticalAlignment = Alignment.CenterVertically) {
                             Text(
-                                (characters[line.speaker]?.nameUz ?: line.speaker).uppercase(),
+                                (characters[line.speaker]?.nameUz ?: line.speaker),
                                 color = tint,
-                                fontFamily = t.display,
+                                fontFamily = t.ui,
                                 fontWeight = FontWeight.Bold,
                                 fontSize = 11.sp,
-                                letterSpacing = 2.sp,
                             )
                             AudioButton(line.audio)
                         }
@@ -285,7 +284,6 @@ fun DialogueStage(lesson: Lesson, characters: Map<String, Character>, onFinished
                             Modifier
                                 .widthIn(max = 300.dp)
                                 .background(tint.copy(alpha = 0.14f), bubble)
-                                .border(1.dp, tint.copy(alpha = 0.6f), bubble)
                                 .padding(12.dp),
                         ) {
                             Text(line.ko, color = t.text, style = MaterialTheme.typography.bodyLarge)
@@ -296,7 +294,7 @@ fun DialogueStage(lesson: Lesson, characters: Map<String, Character>, onFinished
             }
         }
         HuntButton(
-            stringResource(R.string.pager_next_stage).uppercase(),
+            stringResource(R.string.pager_next_stage),
             onClick = onFinished,
             modifier = Modifier.fillMaxWidth().padding(top = 8.dp),
         )
