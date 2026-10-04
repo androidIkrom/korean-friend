@@ -124,6 +124,6 @@ class FeedbackMessages internal constructor(private val resolve: (Int) -> String
 
 @Composable
 fun FeedbackMessages(): FeedbackMessages {
-    val ctx = androidx.compose.ui.platform.LocalContext.current
-    return remember(ctx) { FeedbackMessages { ctx.getString(it) } }
+    val res = androidx.compose.ui.platform.LocalResources.current
+    return remember(res) { FeedbackMessages { res.getString(it) } }
 }

@@ -17,6 +17,7 @@ import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.platform.LocalResources
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import java.time.LocalDate
@@ -37,6 +38,7 @@ fun FlagsRow(flags: FlagRepository) {
     var confirm by remember { mutableStateOf(false) }
     val scope = rememberCoroutineScope()
     val context = LocalContext.current
+    val resources = LocalResources.current
     val subject = stringResource(R.string.flags_subject, count)
     val chooser = stringResource(R.string.flags_send)
     val lang = currentLanguage()
@@ -47,7 +49,7 @@ fun FlagsRow(flags: FlagRepository) {
                 chooser,
                 {
                     scope.launch {
-                        val text = exportText(flags.all(), BuildConfig.VERSION_NAME, LocalDate.now(), lang) { context.getString(reasonLabel(it)) }
+                        val text = exportText(flags.all(), BuildConfig.VERSION_NAME, LocalDate.now(), lang) { resources.getString(reasonLabel(it)) }
                         val send = Intent(Intent.ACTION_SEND).apply {
                             type = "text/plain"
                             putExtra(Intent.EXTRA_SUBJECT, subject)
