@@ -31,7 +31,7 @@
     <string name="coming_soon">Tez orada</string>
     <string name="unit_title">%1$d-bo\'lim · %2$s</string>
 
-    <string name="onboarding_intro">Hangul Hunt «사랑해요 한국어 2» kitobi bo\'yicha darslarni takrorlashga yordam beradi.</string>
+    <string name="onboarding_intro">Hangul Hunt «사랑해요 한국어» kitoblari bo\'yicha koreys tilini Hangul alifbosidan boshlab o\'rganish va takrorlashga yordam beradi.</string>
     <string name="onboarding_question">Hozir qaysi darsdasiz?</string>
 
 
@@ -239,7 +239,7 @@
     <string name="share_words">so\'z o\'rganildi</string>
     <string name="share_lessons">Darslar</string>
     <string name="share_now">Hozir</string>
-    <string name="share_footer">사랑해요 한국어 2 · Hangul Hunt</string>
+    <string name="share_footer">사랑해요 한국어 · Hangul Hunt</string>
     <string name="rank_title_e">Boshlovchi</string>
     <string name="rank_title_d">Shogird</string>
     <string name="rank_title_c">Ovchi</string>

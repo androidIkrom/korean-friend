@@ -49,6 +49,166 @@
       "title_en": "Final consonants (batchim)",
       "topic_uz": "Hangul alifbosi",
       "topic_en": "The Hangul alphabet"
+    },
+    {
+      "id": "b1_u02_l1",
+      "unit": 2,
+      "lesson": 1,
+      "title_ko": "한글 배우기 (3)",
+      "title_uz": "Hangul o'rganish (3)",
+      "title_en": "Learning Hangul (3)",
+      "topic_uz": "Asosiy koreys tili",
+      "topic_en": "Basic Korean"
+    },
+    {
+      "id": "b1_u02_l2",
+      "unit": 2,
+      "lesson": 2,
+      "title_ko": "교실 한국어와 인사",
+      "title_uz": "Sinf iboralari va salomlashish",
+      "title_en": "Classroom Korean and greetings",
+      "topic_uz": "Asosiy koreys tili",
+      "topic_en": "Basic Korean"
+    },
+    {
+      "id": "b1_u03_l1",
+      "unit": 3,
+      "lesson": 1,
+      "title_ko": "저는 미국 사람이에요",
+      "title_uz": "Men amerikalikman",
+      "title_en": "I'm American",
+      "topic_uz": "Tanishuv",
+      "topic_en": "Introductions"
+    },
+    {
+      "id": "b1_u03_l2",
+      "unit": 3,
+      "lesson": 2,
+      "title_ko": "팅팅 씨는 학생이에요?",
+      "title_uz": "Tingting, siz talabamisiz?",
+      "title_en": "Tingting, are you a student?",
+      "topic_uz": "Tanishuv",
+      "topic_en": "Introductions"
+    },
+    {
+      "id": "b1_u04_l1",
+      "unit": 4,
+      "lesson": 1,
+      "title_ko": "이거는 뭐예요?",
+      "title_uz": "Bu nima?",
+      "title_en": "What is this?",
+      "topic_uz": "Narsalar",
+      "topic_en": "Items and objects"
+    },
+    {
+      "id": "b1_u04_l2",
+      "unit": 4,
+      "lesson": 2,
+      "title_ko": "휴지가 있어요?",
+      "title_uz": "Salfetka bormi?",
+      "title_en": "Do you have any tissues?",
+      "topic_uz": "Narsalar",
+      "topic_en": "Items and objects"
+    },
+    {
+      "id": "b1_u05_l1",
+      "unit": 5,
+      "lesson": 1,
+      "title_ko": "오렌지 주스 주세요",
+      "title_uz": "Apelsin sharbati bering",
+      "title_en": "Orange juice, please",
+      "topic_uz": "Taom va buyurtma",
+      "topic_en": "Food and ordering"
+    },
+    {
+      "id": "b1_u05_l2",
+      "unit": 5,
+      "lesson": 2,
+      "title_ko": "비빔밥하고 콜라 한 병 주세요",
+      "title_uz": "Pibimbap va bir shisha kola bering",
+      "title_en": "Bibimbap and a bottle of cola, please",
+      "topic_uz": "Taom va buyurtma",
+      "topic_en": "Food and ordering"
+    },
+    {
+      "id": "b1_u06_l1",
+      "unit": 6,
+      "lesson": 1,
+      "title_ko": "지금 뭐 해요?",
+      "title_uz": "Hozir nima qilyapsiz?",
+      "title_en": "What are you doing now?",
+      "topic_uz": "Kundalik hayot",
+      "topic_en": "Daily life"
+    },
+    {
+      "id": "b1_u06_l2",
+      "unit": 6,
+      "lesson": 2,
+      "title_ko": "어디에 가요?",
+      "title_uz": "Qayerga ketyapsiz?",
+      "title_en": "Where are you going?",
+      "topic_uz": "Kundalik hayot",
+      "topic_en": "Daily life"
+    },
+    {
+      "id": "b1_u07_l1",
+      "unit": 7,
+      "lesson": 1,
+      "title_ko": "뭐가 맛있어요?",
+      "title_uz": "Nima mazali?",
+      "title_en": "What is tasty?",
+      "topic_uz": "Xarid",
+      "topic_en": "Shopping"
+    },
+    {
+      "id": "b1_u07_l2",
+      "unit": 7,
+      "lesson": 2,
+      "title_ko": "얼마예요?",
+      "title_uz": "Qancha turadi?",
+      "title_en": "How much is it?",
+      "topic_uz": "Xarid",
+      "topic_en": "Shopping"
+    },
+    {
+      "id": "b1_u08_l1",
+      "unit": 8,
+      "lesson": 1,
+      "title_ko": "지금 몇 시예요?",
+      "title_uz": "Hozir soat necha?",
+      "title_en": "What time is it now?",
+      "topic_uz": "Vaqt va sana",
+      "topic_en": "Time and date"
+    },
+    {
+      "id": "b1_u08_l2",
+      "unit": 8,
+      "lesson": 2,
+      "title_ko": "시험이 며칠이에요?",
+      "title_uz": "Imtihon nechanchi sanada?",
+      "title_en": "What date is the exam?",
+      "topic_uz": "Vaqt va sana",
+      "topic_en": "Time and date"
+    },
+    {
+      "id": "b1_u09_l1",
+      "unit": 9,
+      "lesson": 1,
+      "title_ko": "오늘 날씨가 추워요",
+      "title_uz": "Bugun havo sovuq",
+      "title_en": "It's cold today",
+      "topic_uz": "Ob-havo va hayot",
+      "topic_en": "Weather and life"
+    },
+    {
+      "id": "b1_u09_l2",
+      "unit": 9,
+      "lesson": 2,
+      "title_ko": "어디에 있어요?",
+      "title_uz": "Qayerda?",
+      "title_en": "Where is it?",
+      "topic_uz": "Ob-havo va hayot",
+      "topic_en": "Weather and life"
     }
   ]
 }

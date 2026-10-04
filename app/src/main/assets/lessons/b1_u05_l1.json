@@ -1,0 +1,1463 @@
+{
+  "id": "b1_u05_l1",
+  "unit": 5,
+  "lesson": 1,
+  "title_ko": "오렌지 주스 주세요",
+  "title_uz": "Apelsin sharbati bering",
+  "title_en": "Orange juice, please",
+  "topic_uz": "Taom va buyurtma",
+  "topic_en": "Food and ordering",
+  "reviewed": false,
+  "words": [
+    {
+      "id": "b1_u05_l1_w001",
+      "ko": "하나",
+      "uz": "bir",
+      "en": "one",
+      "pos": "son",
+      "example_ko": "커피 하나 주세요.",
+      "example_uz": "Bitta qahva bering.",
+      "example_en": "One coffee, please.",
+      "audio": "d800fc992b92.mp3",
+      "example_audio": "581d857fb30f.mp3"
+    },
+    {
+      "id": "b1_u05_l1_w002",
+      "ko": "둘",
+      "uz": "ikki",
+      "en": "two",
+      "pos": "son",
+      "example_ko": "주스 둘 주세요.",
+      "example_uz": "Ikkita sharbat bering.",
+      "example_en": "Two juices, please.",
+      "audio": "1605c41d2746.mp3",
+      "example_audio": "9053238dceca.mp3"
+    },
+    {
+      "id": "b1_u05_l1_w003",
+      "ko": "셋",
+      "uz": "uch",
+      "en": "three",
+      "pos": "son",
+      "example_ko": "콜라 셋 주세요.",
+      "example_uz": "Uchta kola bering.",
+      "example_en": "Three colas, please.",
+      "audio": "5ac53c436363.mp3",
+      "example_audio": "a89ed62ab7ee.mp3"
+    },
+    {
+      "id": "b1_u05_l1_w004",
+      "ko": "넷",
+      "uz": "to'rt",
+      "en": "four",
+      "pos": "son",
+      "example_ko": "의자가 넷 있어요.",
+      "example_uz": "To'rtta stul bor.",
+      "example_en": "There are four chairs.",
+      "audio": "c4c832bacfbf.mp3",
+      "example_audio": "07046c2023f5.mp3"
+    },
+    {
+      "id": "b1_u05_l1_w005",
+      "ko": "다섯",
+      "uz": "besh",
+      "en": "five",
+      "pos": "son",
+      "example_ko": "학생이 다섯 있어요.",
+      "example_uz": "Beshta talaba bor.",
+      "example_en": "There are five students.",
+      "audio": "d76aba434323.mp3",
+      "example_audio": "eeaae2b29ebb.mp3"
+    },
+    {
+      "id": "b1_u05_l1_w006",
+      "ko": "여섯",
+      "uz": "olti",
+      "en": "six",
+      "pos": "son",
+      "example_ko": "컵이 여섯 있어요.",
+      "example_uz": "Oltita stakan bor.",
+      "example_en": "There are six cups.",
+      "audio": "bf290d53edfb.mp3",
+      "example_audio": "e704c8c7837b.mp3"
+    },
+    {
+      "id": "b1_u05_l1_w007",
+      "ko": "일곱",
+      "uz": "yetti",
+      "en": "seven",
+      "pos": "son",
+      "example_ko": "일곱 살이에요.",
+      "example_uz": "Yetti yoshda.",
+      "example_en": "I'm seven years old.",
+      "audio": "268a94cb1803.mp3",
+      "example_audio": "2ff0be351862.mp3"
+    },
+    {
+      "id": "b1_u05_l1_w008",
+      "ko": "여덟",
+      "uz": "sakkiz",
+      "en": "eight",
+      "pos": "son",
+      "example_ko": "여덟 잔 주세요.",
+      "example_uz": "Sakkiz stakan bering.",
+      "example_en": "Eight cups, please.",
+      "audio": "c26b0ad6cf9b.mp3",
+      "example_audio": "1972c919c1ea.mp3"
+    },
+    {
+      "id": "b1_u05_l1_w009",
+      "ko": "아홉",
+      "uz": "to'qqiz",
+      "en": "nine",
+      "pos": "son",
+      "example_ko": "아홉 시예요.",
+      "example_uz": "Soat to'qqiz.",
+      "example_en": "It's nine o'clock.",
+      "audio": "431d1a6a68ef.mp3",
+      "example_audio": "8e04f82393e0.mp3"
+    },
+    {
+      "id": "b1_u05_l1_w010",
+      "ko": "열",
+      "uz": "o'n",
+      "en": "ten",
+      "pos": "son",
+      "example_ko": "열 잔이에요.",
+      "example_uz": "O'n stakan.",
+      "example_en": "That's ten cups.",
+      "audio": "4dd9b35dc2ad.mp3",
+      "example_audio": "c63f3433bfa8.mp3"
+    },
+    {
+      "id": "b1_u05_l1_w011",
+      "ko": "카페",
+      "uz": "kafe",
+      "en": "café",
+      "pos": "ot",
+      "example_ko": "카페에 가요.",
+      "example_uz": "Kafega boraman.",
+      "example_en": "I'm going to a café.",
+      "audio": "7f39d7a5f966.mp3",
+      "example_audio": "801a1342391f.mp3"
+    },
+    {
+      "id": "b1_u05_l1_w012",
+      "ko": "메뉴",
+      "uz": "menyu",
+      "en": "menu",
+      "pos": "ot",
+      "example_ko": "메뉴 주세요.",
+      "example_uz": "Menyuni bering.",
+      "example_en": "The menu, please.",
+      "audio": "593192d11beb.mp3",
+      "example_audio": "3c9fa4bbab49.mp3"
+    },
+    {
+      "id": "b1_u05_l1_w013",
+      "ko": "커피",
+      "uz": "qahva",
+      "en": "coffee",
+      "pos": "ot",
+      "example_ko": "커피 한 잔 주세요.",
+      "example_uz": "Bir chashka qahva bering.",
+      "example_en": "A cup of coffee, please.",
+      "audio": "ce376fe6f389.mp3",
+      "example_audio": "fb99838d74d6.mp3"
+    },
+    {
+      "id": "b1_u05_l1_w014",
+      "ko": "녹차",
+      "uz": "ko'k choy",
+      "en": "green tea",
+      "pos": "ot",
+      "example_ko": "녹차를 마셔요.",
+      "example_uz": "Ko'k choy ichaman.",
+      "example_en": "I drink green tea.",
+      "audio": "0877afcb82fb.mp3",
+      "example_audio": "a3063302cc7c.mp3"
+    },
+    {
+      "id": "b1_u05_l1_w015",
+      "ko": "주스",
+      "uz": "sharbat",
+      "en": "juice",
+      "pos": "ot",
+      "example_ko": "주스 있어요?",
+      "example_uz": "Sharbat bormi?",
+      "example_en": "Do you have juice?",
+      "audio": "276d4ffad11e.mp3",
+      "example_audio": "71a2cd2d6354.mp3"
+    },
+    {
+      "id": "b1_u05_l1_w016",
+      "ko": "오렌지",
+      "uz": "apelsin",
+      "en": "orange",
+      "pos": "ot",
+      "example_ko": "오렌지 주스 주세요.",
+      "example_uz": "Apelsin sharbati bering.",
+      "example_en": "Orange juice, please.",
+      "audio": "366ef7cc492c.mp3",
+      "example_audio": "36d39437a0ee.mp3"
+    },
+    {
+      "id": "b1_u05_l1_w017",
+      "ko": "우유",
+      "uz": "sut",
+      "en": "milk",
+      "pos": "ot",
+      "example_ko": "우유 한 잔 주세요.",
+      "example_uz": "Bir stakan sut bering.",
+      "example_en": "A glass of milk, please.",
+      "audio": "b34efb638e44.mp3",
+      "example_audio": "8632ce13690b.mp3"
+    },
+    {
+      "id": "b1_u05_l1_w018",
+      "ko": "콜라",
+      "uz": "kola",
+      "en": "cola",
+      "pos": "ot",
+      "example_ko": "콜라 하나 주세요.",
+      "example_uz": "Bitta kola bering.",
+      "example_en": "One cola, please.",
+      "audio": "99ecd50e892d.mp3",
+      "example_audio": "97a2767af149.mp3"
+    },
+    {
+      "id": "b1_u05_l1_w019",
+      "ko": "잔",
+      "uz": "stakan, chashka (sanoq so'z)",
+      "en": "cup, glass (counter)",
+      "pos": "ot",
+      "example_ko": "커피 두 잔 주세요.",
+      "example_uz": "Ikki chashka qahva bering.",
+      "example_en": "Two cups of coffee, please.",
+      "audio": "cb59098bd1ed.mp3",
+      "example_audio": "9889504312ba.mp3"
+    },
+    {
+      "id": "b1_u05_l1_w020",
+      "ko": "주다",
+      "uz": "bermoq",
+      "en": "to give",
+      "pos": "fe'l",
+      "example_ko": "물 좀 주세요.",
+      "example_uz": "Suv bering, iltimos.",
+      "example_en": "Some water, please.",
+      "audio": "427a1160423f.mp3",
+      "example_audio": "a54232d81799.mp3"
+    },
+    {
+      "id": "b1_u05_l1_w021",
+      "ko": "마시다",
+      "uz": "ichmoq",
+      "en": "to drink",
+      "pos": "fe'l",
+      "example_ko": "차를 마셔요.",
+      "example_uz": "Choy ichaman.",
+      "example_en": "I drink tea.",
+      "audio": "9093bfb79444.mp3",
+      "example_audio": "985cae3f97da.mp3"
+    },
+    {
+      "id": "b1_u05_l1_w022",
+      "ko": "앉다",
+      "uz": "o'tirmoq",
+      "en": "to sit",
+      "pos": "fe'l",
+      "example_ko": "여기 앉으세요.",
+      "example_uz": "Bu yerga o'tiring.",
+      "example_en": "Please sit here.",
+      "audio": "141d216f9007.mp3",
+      "example_audio": "c16cc4eae476.mp3"
+    },
+    {
+      "id": "b1_u05_l1_w023",
+      "ko": "기다리다",
+      "uz": "kutmoq",
+      "en": "to wait",
+      "pos": "fe'l",
+      "example_ko": "잠시만 기다리세요.",
+      "example_uz": "Bir oz kuting.",
+      "example_en": "Please wait a moment.",
+      "audio": "2f0dd0c3a8b9.mp3",
+      "example_audio": "123969e2fb01.mp3"
+    },
+    {
+      "id": "b1_u05_l1_w024",
+      "ko": "여기요",
+      "uz": "bu yoqqa qarang (ofitsiantni chaqirish)",
+      "en": "excuse me (calling staff)",
+      "pos": "ibora",
+      "example_ko": "여기요! 메뉴 주세요.",
+      "example_uz": "Kechirasiz! Menyuni bering.",
+      "example_en": "Excuse me! The menu, please.",
+      "audio": "9a070df89c90.mp3",
+      "example_audio": "526f7b3c41f8.mp3"
+    },
+    {
+      "id": "b1_u05_l1_w025",
+      "ko": "어서 오세요",
+      "uz": "xush kelibsiz",
+      "en": "welcome",
+      "pos": "ibora",
+      "example_ko": "어서 오세요. 뭐 드릴까요?",
+      "example_uz": "Xush kelibsiz. Nima beray?",
+      "example_en": "Welcome. What can I get you?",
+      "audio": "bca83b323b62.mp3",
+      "example_audio": "1137fdab1d8d.mp3"
+    },
+    {
+      "id": "b1_u05_l1_w026",
+      "ko": "손님",
+      "uz": "mijoz, mehmon",
+      "en": "customer",
+      "pos": "ot",
+      "example_ko": "손님, 주스 여기 있어요.",
+      "example_uz": "Mijoz, sharbatingiz mana.",
+      "example_en": "Here's your juice, sir.",
+      "audio": "db0ebf4c98da.mp3",
+      "example_audio": "13d77fd0ed5a.mp3"
+    },
+    {
+      "id": "b1_u05_l1_w027",
+      "ko": "케이크",
+      "uz": "tort",
+      "en": "cake",
+      "pos": "ot",
+      "example_ko": "케이크 하나 주세요.",
+      "example_uz": "Bitta tort bering.",
+      "example_en": "One piece of cake, please.",
+      "audio": "8ff9e040bb98.mp3",
+      "example_audio": "654da888d3ba.mp3"
+    },
+    {
+      "id": "b1_u05_l1_w028",
+      "ko": "빵",
+      "uz": "non",
+      "en": "bread",
+      "pos": "ot",
+      "example_ko": "빵이 맛있어요.",
+      "example_uz": "Non mazali.",
+      "example_en": "The bread is tasty.",
+      "audio": "913a1fbc6085.mp3",
+      "example_audio": "67a8b2ffe058.mp3"
+    },
+    {
+      "id": "b1_u05_l1_w029",
+      "ko": "몇",
+      "uz": "nechta",
+      "en": "how many",
+      "pos": "aniqlovchi",
+      "example_ko": "몇 잔 드릴까요?",
+      "example_uz": "Nechta chashka beray?",
+      "example_en": "How many cups would you like?",
+      "audio": "0d9f6c6d4079.mp3",
+      "example_audio": "0d4d1b656d23.mp3"
+    },
+    {
+      "id": "b1_u05_l1_w030",
+      "ko": "포장",
+      "uz": "olib ketish (qadoqlash)",
+      "en": "takeout",
+      "pos": "ot",
+      "example_ko": "포장해 주세요.",
+      "example_uz": "Olib ketaman, qadoqlab bering.",
+      "example_en": "To go, please.",
+      "audio": "f0ab06e32960.mp3",
+      "example_audio": "df25cb58d60f.mp3"
+    },
+    {
+      "id": "b1_u05_l1_w031",
+      "ko": "좀",
+      "uz": "iltimos, bir oz",
+      "en": "please, a little",
+      "pos": "ravish",
+      "example_ko": "물 좀 주세요.",
+      "example_uz": "Suv bering, iltimos.",
+      "example_en": "Some water, please.",
+      "audio": "9aaf05ec9d8c.mp3",
+      "example_audio": "a54232d81799.mp3"
+    },
+    {
+      "id": "b1_u05_l1_w032",
+      "ko": "더",
+      "uz": "yana, ko'proq",
+      "en": "more",
+      "pos": "ravish",
+      "example_ko": "물 더 주세요.",
+      "example_uz": "Yana suv bering.",
+      "example_en": "More water, please.",
+      "audio": "b24a9ca30118.mp3",
+      "example_audio": "006c3153f929.mp3"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "b1_u05_l1_g1",
+      "pattern": "V-(으)세요",
+      "meaning_uz": "Muloyim iltimos: ...ing, ...ng",
+      "meaning_en": "Polite request: please do V",
+      "explanation_md": "**-(으)세요** — muloyim iltimos yoki taklif: \"...ing\". Kafeda, do'konda, sinfda eng ko'p eshitiladigan shakl.\n\n**오렌지 주스 주세요.** — *Apelsin sharbati bering.*  \n**여기 앉으세요.** — *Bu yerga o'tiring.*\n\n### Qanday yasaladi\n\n- O'zak **받침siz** → **-세요**: 주다 → **주세요**, 기다리다 → **기다리세요**\n- O'zak **받침 bilan** → **-으세요**: 앉다 → **앉으세요**, 읽다 → **읽으세요**\n\n### Esda tuting\n\n- **N 주세요** — \"N bering\": **커피 주세요**, **물 좀 주세요**.\n- **좀** iltimosni yumshatadi: **물 좀 주세요.**\n- Ba'zi fe'llarning maxsus hurmat shakli bor: 먹다/마시다 → **드세요**, 자다 → **주무세요**, 있다 → **계세요**.",
+      "explanation_md_en": "**-(으)세요** is a polite request: \"please do …\". It's the form you hear most in cafés, shops and class.\n\n**오렌지 주스 주세요.** — *Orange juice, please.*  \n**여기 앉으세요.** — *Please sit here.*\n\n### How to form it\n\n- Stem **without 받침** → **-세요**: 주다 → **주세요**, 기다리다 → **기다리세요**\n- Stem **with 받침** → **-으세요**: 앉다 → **앉으세요**, 읽다 → **읽으세요**\n\n### Remember\n\n- **N 주세요** — \"N, please\": **커피 주세요**, **물 좀 주세요**.\n- **좀** softens a request: **물 좀 주세요.**\n- Some verbs have special honorific forms: 먹다/마시다 → **드세요**, 자다 → **주무세요**, 있다 → **계세요**.",
+      "formation": [
+        {
+          "condition_uz": "받침 yo'q",
+          "condition_en": "No 받침",
+          "rule": "V + 세요",
+          "example": "주다 → 주세요, 기다리다 → 기다리세요"
+        },
+        {
+          "condition_uz": "받침 bor",
+          "condition_en": "With 받침",
+          "rule": "V + 으세요",
+          "example": "앉다 → 앉으세요, 읽다 → 읽으세요"
+        },
+        {
+          "condition_uz": "Maxsus shakl",
+          "condition_en": "Special form",
+          "rule": "드세요",
+          "example": "먹다/마시다 → 드세요"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "오렌지 주스 주세요.",
+          "uz": "Apelsin sharbati bering.",
+          "en": "Orange juice, please.",
+          "audio": "36d39437a0ee.mp3"
+        },
+        {
+          "ko": "여기 앉으세요.",
+          "uz": "Bu yerga o'tiring.",
+          "en": "Please sit here.",
+          "audio": "c16cc4eae476.mp3"
+        },
+        {
+          "ko": "잠시만 기다리세요.",
+          "uz": "Bir oz kuting.",
+          "en": "Please wait a moment.",
+          "audio": "123969e2fb01.mp3"
+        },
+        {
+          "ko": "물 좀 주세요.",
+          "uz": "Suv bering, iltimos.",
+          "en": "Some water, please.",
+          "audio": "a54232d81799.mp3"
+        },
+        {
+          "ko": "맛있게 드세요.",
+          "uz": "Yoqimli ishtaha.",
+          "en": "Enjoy your meal.",
+          "audio": "1a72c34fddf9.mp3"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "여기 앉세요.",
+          "right": "여기 앉으세요.",
+          "why_uz": "앉다 받침 bilan: -으세요.",
+          "why_en": "앉다 has 받침: -으세요."
+        },
+        {
+          "wrong": "커피 주으세요.",
+          "right": "커피 주세요.",
+          "why_uz": "주다 받침siz: -세요.",
+          "why_en": "주다 has no 받침: -세요."
+        },
+        {
+          "wrong": "물 줘요 주세요.",
+          "right": "물 주세요.",
+          "why_uz": "N + 주세요 yetarli.",
+          "why_en": "N + 주세요 is enough."
+        }
+      ],
+      "uz_compare": "O'zbekchadagi '-ing' iltimos shakliga o'xshaydi: 'o'tiriNG' = 앉으세요, 'beriNG' = 주세요. Koreyschada ham bu shakl hurmatli va muloyim.",
+      "compare_en": "It works like 'please + verb' in English: 'Please sit' = 앉으세요. 'Coffee, please' is simply 커피 주세요 ('give coffee')."
+    },
+    {
+      "id": "b1_u05_l1_g2",
+      "pattern": "하나, 둘, 셋 (sanoq sonlar)",
+      "meaning_uz": "Koreyscha sanoq sonlar: bir, ikki, uch",
+      "meaning_en": "Native Korean numbers: one, two, three",
+      "explanation_md": "Koreys tilida ikki xil son bor. Narsalarni **sanashda** koreyscha sonlar ishlatiladi: **하나, 둘, 셋, 넷, 다섯, 여섯, 일곱, 여덟, 아홉, 열**.\n\n**커피 하나 주세요.** — *Bitta qahva bering.*\n\n### Sanoq so'z oldidan\n\nSanoq so'z (masalan **잔** — chashka) oldidan dastlabki to'rt son qisqaradi:\n\n- 하나 → **한** 잔\n- 둘 → **두** 잔\n- 셋 → **세** 잔\n- 넷 → **네** 잔\n- 다섯 → **다섯** 잔 (o'zgarmaydi)\n\n**커피 두 잔 주세요.** — *Ikki chashka qahva bering.*\n\n### Esda tuting\n\n- Tartib: **narsa + son + sanoq so'z**: 주스 **세 잔**.\n- \"Nechta?\" — **몇 잔?**, **몇 개?**",
+      "explanation_md_en": "Korean has two sets of numbers. For **counting things** you use the native ones: **하나, 둘, 셋, 넷, 다섯, 여섯, 일곱, 여덟, 아홉, 열**.\n\n**커피 하나 주세요.** — *One coffee, please.*\n\n### Before a counter\n\nBefore a counter word (like **잔**, cup) the first four shorten:\n\n- 하나 → **한** 잔\n- 둘 → **두** 잔\n- 셋 → **세** 잔\n- 넷 → **네** 잔\n- 다섯 → **다섯** 잔 (no change)\n\n**커피 두 잔 주세요.** — *Two coffees, please.*\n\n### Remember\n\n- Order: **thing + number + counter**: 주스 **세 잔**.\n- \"How many?\" — **몇 잔?**, **몇 개?**",
+      "formation": [
+        {
+          "condition_uz": "Yolg'iz",
+          "condition_en": "On its own",
+          "rule": "하나, 둘, 셋, 넷",
+          "example": "커피 하나, 주스 둘"
+        },
+        {
+          "condition_uz": "Sanoq so'z oldidan",
+          "condition_en": "Before a counter",
+          "rule": "한, 두, 세, 네",
+          "example": "한 잔, 두 잔, 세 잔, 네 잔"
+        },
+        {
+          "condition_uz": "5 va undan katta",
+          "condition_en": "5 and up",
+          "rule": "o'zgarmaydi",
+          "example": "다섯 잔, 열 잔"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "커피 하나 주세요.",
+          "uz": "Bitta qahva bering.",
+          "en": "One coffee, please.",
+          "audio": "581d857fb30f.mp3"
+        },
+        {
+          "ko": "오렌지 주스 두 잔 주세요.",
+          "uz": "Ikki stakan apelsin sharbati bering.",
+          "en": "Two glasses of orange juice, please.",
+          "audio": "3583bbc9c745.mp3"
+        },
+        {
+          "ko": "녹차 세 잔하고 콜라 하나 주세요.",
+          "uz": "Uch chashka ko'k choy va bitta kola bering.",
+          "en": "Three green teas and a cola, please.",
+          "audio": "e3404b237288.mp3"
+        },
+        {
+          "ko": "몇 잔 드릴까요?",
+          "uz": "Nechta chashka beray?",
+          "en": "How many cups would you like?",
+          "audio": "0d4d1b656d23.mp3"
+        },
+        {
+          "ko": "다섯 잔 주세요.",
+          "uz": "Beshta chashka bering.",
+          "en": "Five cups, please.",
+          "audio": "de832aaa9ff9.mp3"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "커피 둘 잔 주세요.",
+          "right": "커피 두 잔 주세요.",
+          "why_uz": "Sanoq so'z oldidan 둘 → 두.",
+          "why_en": "Before a counter 둘 → 두."
+        },
+        {
+          "wrong": "하나 잔 주세요.",
+          "right": "한 잔 주세요.",
+          "why_uz": "Sanoq so'z oldidan 하나 → 한.",
+          "why_en": "Before a counter 하나 → 한."
+        },
+        {
+          "wrong": "두 잔 커피 주세요.",
+          "right": "커피 두 잔 주세요.",
+          "why_uz": "Tartib: narsa + son + sanoq so'z.",
+          "why_en": "Order: thing + number + counter."
+        }
+      ],
+      "uz_compare": "O'zbekchada 'ikki chashka qahva' deymiz — son oldin. Koreyschada narsa oldin keladi: 커피 두 잔 ('qahva ikki chashka').",
+      "compare_en": "English says 'two cups of coffee' with the number first. Korean puts the thing first: 커피 두 잔 ('coffee two cups')."
+    }
+  ],
+  "dialogue": {
+    "lines": [
+      {
+        "speaker": "clerk",
+        "ko": "어서 오세요. 뭐 드릴까요?",
+        "uz": "Xush kelibsiz. Nima beray?",
+        "en": "Welcome. What can I get you?",
+        "audio": "1137fdab1d8d.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "메뉴 좀 주세요.",
+        "uz": "Menyuni bering, iltimos.",
+        "en": "The menu, please.",
+        "audio": "93b259cc67ab.mp3"
+      },
+      {
+        "speaker": "clerk",
+        "ko": "여기 있어요.",
+        "uz": "Mana.",
+        "en": "Here you are.",
+        "audio": "881cd69c97f5.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "아지즈 씨는 뭐 마셔요?",
+        "uz": "Aziz, siz nima ichasiz?",
+        "en": "Aziz, what are you having?",
+        "audio": "1ae07621eeb5.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "저는 오렌지 주스요. 민지 씨는요?",
+        "uz": "Men apelsin sharbati. Siz-chi, Minji?",
+        "en": "Orange juice for me. And you, Minji?",
+        "audio": "d72acb97b034.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "저는 녹차요.",
+        "uz": "Men ko'k choy.",
+        "en": "Green tea for me.",
+        "audio": "6bf1c668b8b9.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "오렌지 주스 한 잔하고 녹차 한 잔 주세요.",
+        "uz": "Bitta apelsin sharbati va bitta ko'k choy bering.",
+        "en": "One orange juice and one green tea, please.",
+        "audio": "10f753fb96ec.mp3"
+      },
+      {
+        "speaker": "clerk",
+        "ko": "케이크도 있어요. 케이크도 드릴까요?",
+        "uz": "Tort ham bor. Tort ham beraymi?",
+        "en": "We also have cake. Would you like some cake too?",
+        "audio": "bd4bae803179.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "네, 케이크 하나 주세요.",
+        "uz": "Ha, bitta tort bering.",
+        "en": "Yes, one cake, please.",
+        "audio": "8ea200d88e4c.mp3"
+      },
+      {
+        "speaker": "clerk",
+        "ko": "네, 저기 앉으세요. 잠시만 기다리세요.",
+        "uz": "Yaxshi, anavi yerga o'tiring. Bir oz kuting.",
+        "en": "Sure, please sit over there. Please wait a moment.",
+        "audio": "08d29816a0a5.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "감사합니다.",
+        "uz": "Rahmat.",
+        "en": "Thank you.",
+        "audio": "3b2337d9dea4.mp3"
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b1_u05_l1_e001",
+      "type": "conjugate",
+      "targets": [
+        "b1_u05_l1_g1"
+      ],
+      "prompt_uz": "'Bering' shaklini yasang",
+      "prompt_en": "Make 'please give'",
+      "base": "주다",
+      "form": "-(으)세요",
+      "answers": [
+        "주세요"
+      ]
+    },
+    {
+      "id": "b1_u05_l1_e002",
+      "type": "conjugate",
+      "targets": [
+        "b1_u05_l1_g1"
+      ],
+      "prompt_uz": "'O'tiring' shaklini yasang",
+      "prompt_en": "Make 'please sit'",
+      "base": "앉다",
+      "form": "-(으)세요",
+      "answers": [
+        "앉으세요"
+      ],
+      "hint_uz": "받침 bor → -으세요",
+      "hint_en": "With 받침 → -으세요"
+    },
+    {
+      "id": "b1_u05_l1_e003",
+      "type": "conjugate",
+      "targets": [
+        "b1_u05_l1_g1"
+      ],
+      "prompt_uz": "'Kuting' shaklini yasang",
+      "prompt_en": "Make 'please wait'",
+      "base": "기다리다",
+      "form": "-(으)세요",
+      "answers": [
+        "기다리세요"
+      ]
+    },
+    {
+      "id": "b1_u05_l1_e004",
+      "type": "conjugate",
+      "targets": [
+        "b1_u05_l1_g2"
+      ],
+      "prompt_uz": "'Ikki' sanoq so'z oldidan",
+      "prompt_en": "'two' before a counter",
+      "base": "둘",
+      "form": "+ 잔",
+      "answers": [
+        "두 잔"
+      ]
+    },
+    {
+      "id": "b1_u05_l1_e005",
+      "type": "conjugate",
+      "targets": [
+        "b1_u05_l1_g2"
+      ],
+      "prompt_uz": "'Bir' sanoq so'z oldidan",
+      "prompt_en": "'one' before a counter",
+      "base": "하나",
+      "form": "+ 잔",
+      "answers": [
+        "한 잔"
+      ]
+    },
+    {
+      "id": "b1_u05_l1_e006",
+      "type": "fill_blank",
+      "targets": [
+        "b1_u05_l1_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Menyuni bering.'",
+      "prompt_en": "Fill in the blank: 'The menu, please.'",
+      "sentence": "메뉴 ___. (주다)",
+      "answers": [
+        "주세요"
+      ]
+    },
+    {
+      "id": "b1_u05_l1_e007",
+      "type": "fill_blank",
+      "targets": [
+        "b1_u05_l1_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Uch chashka qahva bering.'",
+      "prompt_en": "Fill in the blank: 'Three coffees, please.'",
+      "sentence": "커피 ___ 잔 주세요.",
+      "answers": [
+        "세"
+      ]
+    },
+    {
+      "id": "b1_u05_l1_e008",
+      "type": "fill_blank",
+      "targets": [
+        "b1_u05_l1_g2",
+        "b1_u05_l1_w029"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Nechta chashka?'",
+      "prompt_en": "Fill in the blank: 'How many cups?'",
+      "sentence": "___ 잔이에요?",
+      "answers": [
+        "몇"
+      ]
+    },
+    {
+      "id": "b1_u05_l1_e009",
+      "type": "situation_choice",
+      "targets": [
+        "b1_u05_l1_g1",
+        "b1_u05_l1_w024"
+      ],
+      "prompt_uz": "Kafeda ofitsiantni chaqirmoqchisiz:",
+      "prompt_en": "You want to call the waiter in a café:",
+      "options": [
+        "여기요!",
+        "여기 있어요!",
+        "어서 오세요!",
+        "앉으세요!"
+      ],
+      "answers": [
+        "여기요!"
+      ]
+    },
+    {
+      "id": "b1_u05_l1_e010",
+      "type": "situation_choice",
+      "targets": [
+        "b1_u05_l1_g2"
+      ],
+      "prompt_uz": "Ikki stakan sut kerak. Qanday buyurtma berasiz?",
+      "prompt_en": "You need two glasses of milk. How do you order?",
+      "options": [
+        "우유 두 잔 주세요.",
+        "우유 둘 잔 주세요.",
+        "두 잔 우유 주세요.",
+        "우유 이 잔 주세요."
+      ],
+      "answers": [
+        "우유 두 잔 주세요."
+      ]
+    },
+    {
+      "id": "b1_u05_l1_e011",
+      "type": "situation_choice",
+      "targets": [
+        "b1_u05_l1_g1"
+      ],
+      "prompt_uz": "Mehmonni o'tirishga taklif qiling:",
+      "prompt_en": "Invite a guest to sit down:",
+      "options": [
+        "여기 앉으세요.",
+        "여기 앉세요.",
+        "여기 앉아요?",
+        "여기 있어요."
+      ],
+      "answers": [
+        "여기 앉으세요."
+      ]
+    },
+    {
+      "id": "b1_u05_l1_e012",
+      "type": "find_error",
+      "targets": [
+        "b1_u05_l1_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "여기 앉세요.",
+      "answers": [
+        "여기 앉으세요"
+      ],
+      "why_uz": "앉다 받침 bilan: -으세요.",
+      "why_en": "앉다 has 받침: -으세요."
+    },
+    {
+      "id": "b1_u05_l1_e013",
+      "type": "find_error",
+      "targets": [
+        "b1_u05_l1_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "커피 둘 잔 주세요.",
+      "answers": [
+        "커피 두 잔 주세요"
+      ],
+      "why_uz": "Sanoq so'z oldidan 둘 → 두.",
+      "why_en": "Before a counter 둘 → 두."
+    },
+    {
+      "id": "b1_u05_l1_e014",
+      "type": "find_error",
+      "targets": [
+        "b1_u05_l1_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "세 잔 녹차 주세요.",
+      "answers": [
+        "녹차 세 잔 주세요"
+      ],
+      "why_uz": "Tartib: narsa + son + sanoq so'z.",
+      "why_en": "Order: thing + number + counter."
+    },
+    {
+      "id": "b1_u05_l1_e015",
+      "type": "translate",
+      "targets": [
+        "b1_u05_l1_g1"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Bir oz kuting.",
+      "source_en": "Please wait a moment.",
+      "answers": [
+        "잠시만 기다리세요",
+        "잠깐만 기다리세요",
+        "좀 기다리세요"
+      ]
+    },
+    {
+      "id": "b1_u05_l1_e016",
+      "type": "translate",
+      "targets": [
+        "b1_u05_l1_g1",
+        "b1_u05_l1_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Bitta apelsin sharbati bering.",
+      "source_en": "One orange juice, please.",
+      "answers": [
+        "오렌지 주스 하나 주세요",
+        "오렌지 주스 한 잔 주세요"
+      ]
+    },
+    {
+      "id": "b1_u05_l1_e017",
+      "type": "translate",
+      "targets": [
+        "b1_u05_l1_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "To'rtta chashka qahva bering.",
+      "source_en": "Four cups of coffee, please.",
+      "answers": [
+        "커피 네 잔 주세요"
+      ]
+    },
+    {
+      "id": "b1_u05_l1_e018",
+      "type": "build_sentence",
+      "targets": [
+        "b1_u05_l1_g1"
+      ],
+      "prompt_uz": "'Suv bering, iltimos' gapini tuzing",
+      "prompt_en": "Build the sentence 'Some water, please'",
+      "tokens": [
+        "주세요",
+        "좀",
+        "물"
+      ],
+      "answers": [
+        "물 좀 주세요"
+      ]
+    },
+    {
+      "id": "b1_u05_l1_e019",
+      "type": "build_sentence",
+      "targets": [
+        "b1_u05_l1_g2",
+        "b1_u05_l1_g1"
+      ],
+      "prompt_uz": "'Ikki chashka ko'k choy bering' gapini tuzing",
+      "prompt_en": "Build the sentence 'Two cups of green tea, please'",
+      "tokens": [
+        "녹차",
+        "두",
+        "주세요",
+        "잔"
+      ],
+      "answers": [
+        "녹차 두 잔 주세요"
+      ]
+    },
+    {
+      "id": "b1_u05_l1_e020",
+      "type": "build_sentence",
+      "targets": [
+        "b1_u05_l1_g1"
+      ],
+      "prompt_uz": "'Bu yerga o'tiring' gapini tuzing",
+      "prompt_en": "Build the sentence 'Please sit here'",
+      "tokens": [
+        "앉으세요",
+        "여기"
+      ],
+      "answers": [
+        "여기 앉으세요"
+      ]
+    },
+    {
+      "id": "b1_u05_l1_e021",
+      "type": "listen_question",
+      "targets": [
+        "b1_u05_l1_g2"
+      ],
+      "prompt_uz": "U nechta qahva buyurtma qildi?",
+      "prompt_en": "How many coffees did they order?",
+      "audio_text": "커피 세 잔 주세요.",
+      "options": [
+        "3 ta",
+        "2 ta",
+        "1 ta",
+        "4 ta"
+      ],
+      "options_en": [
+        "3",
+        "2",
+        "1",
+        "4"
+      ],
+      "answers": [
+        "3 ta"
+      ],
+      "audio": "a5da8bc574e7.mp3"
+    },
+    {
+      "id": "b1_u05_l1_e022",
+      "type": "listen_question",
+      "targets": [
+        "b1_u05_l1_g1"
+      ],
+      "prompt_uz": "U nima so'rayapti?",
+      "prompt_en": "What is the speaker asking for?",
+      "audio_text": "우유 좀 주세요.",
+      "options": [
+        "Sut",
+        "Suv",
+        "Sharbat",
+        "Qahva"
+      ],
+      "options_en": [
+        "Milk",
+        "Water",
+        "Juice",
+        "Coffee"
+      ],
+      "answers": [
+        "Sut"
+      ],
+      "audio": "56b5b1c82622.mp3"
+    },
+    {
+      "id": "b1_u05_l1_e023",
+      "type": "listen_question",
+      "targets": [
+        "b1_u05_l1_g2",
+        "b1_u05_l1_g1"
+      ],
+      "prompt_uz": "Buyurtma qanday?",
+      "prompt_en": "What is the order?",
+      "audio_text": "녹차 한 잔하고 콜라 두 잔 주세요.",
+      "options": [
+        "1 ko'k choy, 2 kola",
+        "2 ko'k choy, 1 kola",
+        "1 ko'k choy, 1 kola",
+        "2 ko'k choy, 2 kola"
+      ],
+      "options_en": [
+        "1 green tea, 2 colas",
+        "2 green teas, 1 cola",
+        "1 green tea, 1 cola",
+        "2 green teas, 2 colas"
+      ],
+      "answers": [
+        "1 ko'k choy, 2 kola"
+      ],
+      "audio": "ea74a21a251b.mp3"
+    },
+    {
+      "id": "b1_u05_l1_e024",
+      "type": "listen_question",
+      "targets": [
+        "b1_u05_l1_g1"
+      ],
+      "prompt_uz": "Xodim nima demoqda?",
+      "prompt_en": "What does the clerk say?",
+      "audio_text": "손님, 저기 앉으세요.",
+      "options": [
+        "Anavi yerga o'tiring",
+        "Bir oz kuting",
+        "Xush kelibsiz",
+        "Mana, oling"
+      ],
+      "options_en": [
+        "Please sit over there",
+        "Please wait",
+        "Welcome",
+        "Here you are"
+      ],
+      "answers": [
+        "Anavi yerga o'tiring"
+      ],
+      "audio": "d14a5ba08daf.mp3"
+    },
+    {
+      "id": "b1_u05_l1_e101",
+      "type": "conjugate",
+      "targets": [
+        "b1_u05_l1_g1"
+      ],
+      "prompt_uz": "'O'qing' shaklini yasang",
+      "prompt_en": "Make 'please read'",
+      "base": "읽다",
+      "form": "-(으)세요",
+      "answers": [
+        "읽으세요"
+      ]
+    },
+    {
+      "id": "b1_u05_l1_e102",
+      "type": "conjugate",
+      "targets": [
+        "b1_u05_l1_g1"
+      ],
+      "prompt_uz": "'Iching' (hurmat shakli)",
+      "prompt_en": "Make 'please drink' (honorific)",
+      "base": "마시다",
+      "form": "-(으)세요 (hurmat)",
+      "answers": [
+        "드세요",
+        "마시세요"
+      ]
+    },
+    {
+      "id": "b1_u05_l1_e103",
+      "type": "conjugate",
+      "targets": [
+        "b1_u05_l1_g2"
+      ],
+      "prompt_uz": "'To'rt' sanoq so'z oldidan",
+      "prompt_en": "'four' before a counter",
+      "base": "넷",
+      "form": "+ 잔",
+      "answers": [
+        "네 잔"
+      ]
+    },
+    {
+      "id": "b1_u05_l1_e104",
+      "type": "fill_blank",
+      "targets": [
+        "b1_u05_l1_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Bir oz kuting.'",
+      "prompt_en": "Fill in the blank: 'Please wait a moment.'",
+      "sentence": "잠시만 ___. (기다리다)",
+      "answers": [
+        "기다리세요"
+      ]
+    },
+    {
+      "id": "b1_u05_l1_e105",
+      "type": "fill_blank",
+      "targets": [
+        "b1_u05_l1_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Bir chashka qahva bering.'",
+      "prompt_en": "Fill in the blank: 'One cup of coffee, please.'",
+      "sentence": "커피 ___ 잔 주세요.",
+      "answers": [
+        "한"
+      ]
+    },
+    {
+      "id": "b1_u05_l1_e106",
+      "type": "situation_choice",
+      "targets": [
+        "b1_u05_l1_g2"
+      ],
+      "prompt_uz": "Uch kishisiz, hammaga kola kerak:",
+      "prompt_en": "There are three of you and everyone wants cola:",
+      "options": [
+        "콜라 세 잔 주세요.",
+        "콜라 셋 잔 주세요.",
+        "콜라 삼 잔 주세요.",
+        "세 콜라 주세요."
+      ],
+      "answers": [
+        "콜라 세 잔 주세요."
+      ]
+    },
+    {
+      "id": "b1_u05_l1_e107",
+      "type": "situation_choice",
+      "targets": [
+        "b1_u05_l1_w025"
+      ],
+      "prompt_uz": "Siz kafe xodimisiz. Mijoz kirdi. Nima deysiz?",
+      "prompt_en": "You work in a café. A customer comes in. What do you say?",
+      "options": [
+        "어서 오세요.",
+        "안녕히 가세요.",
+        "여기요.",
+        "잠깐만요."
+      ],
+      "answers": [
+        "어서 오세요."
+      ]
+    },
+    {
+      "id": "b1_u05_l1_e108",
+      "type": "situation_choice",
+      "targets": [
+        "b1_u05_l1_g1"
+      ],
+      "prompt_uz": "Sharbatni olib ketmoqchisiz (qadoqlab bering):",
+      "prompt_en": "You want the juice to go:",
+      "options": [
+        "포장해 주세요.",
+        "포장 앉으세요.",
+        "포장 있어요.",
+        "포장 마셔요."
+      ],
+      "answers": [
+        "포장해 주세요."
+      ]
+    },
+    {
+      "id": "b1_u05_l1_e109",
+      "type": "find_error",
+      "targets": [
+        "b1_u05_l1_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "물 주으세요.",
+      "answers": [
+        "물 주세요"
+      ],
+      "why_uz": "주다 받침siz: 주세요.",
+      "why_en": "주다 has no 받침: 주세요."
+    },
+    {
+      "id": "b1_u05_l1_e110",
+      "type": "find_error",
+      "targets": [
+        "b1_u05_l1_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "주스 하나 잔 주세요.",
+      "answers": [
+        "주스 한 잔 주세요"
+      ],
+      "why_uz": "Sanoq so'z oldidan 하나 → 한.",
+      "why_en": "Before a counter 하나 → 한."
+    },
+    {
+      "id": "b1_u05_l1_e111",
+      "type": "translate",
+      "targets": [
+        "b1_u05_l1_g1"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Menyuni bering.",
+      "source_en": "The menu, please.",
+      "answers": [
+        "메뉴 주세요",
+        "메뉴 좀 주세요"
+      ]
+    },
+    {
+      "id": "b1_u05_l1_e112",
+      "type": "translate",
+      "targets": [
+        "b1_u05_l1_g2",
+        "b1_u05_l1_g1"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Ikki stakan sut bering.",
+      "source_en": "Two glasses of milk, please.",
+      "answers": [
+        "우유 두 잔 주세요"
+      ]
+    },
+    {
+      "id": "b1_u05_l1_e113",
+      "type": "build_sentence",
+      "targets": [
+        "b1_u05_l1_g2",
+        "b1_u05_l1_g1"
+      ],
+      "prompt_uz": "'Beshta chashka qahva bering' gapini tuzing",
+      "prompt_en": "Build the sentence 'Five cups of coffee, please'",
+      "tokens": [
+        "주세요",
+        "커피",
+        "잔",
+        "다섯"
+      ],
+      "answers": [
+        "커피 다섯 잔 주세요"
+      ]
+    },
+    {
+      "id": "b1_u05_l1_e114",
+      "type": "listen_question",
+      "targets": [
+        "b1_u05_l1_g2"
+      ],
+      "prompt_uz": "Nechta ko'k choy?",
+      "prompt_en": "How many green teas?",
+      "audio_text": "녹차 두 잔 주세요.",
+      "options": [
+        "2 ta",
+        "1 ta",
+        "3 ta",
+        "4 ta"
+      ],
+      "options_en": [
+        "2",
+        "1",
+        "3",
+        "4"
+      ],
+      "answers": [
+        "2 ta"
+      ],
+      "audio": "aa94335a4e78.mp3"
+    },
+    {
+      "id": "b1_u05_l1_e115",
+      "type": "listen_question",
+      "targets": [
+        "b1_u05_l1_g1"
+      ],
+      "prompt_uz": "Xodim nima so'radi?",
+      "prompt_en": "What did the clerk ask?",
+      "audio_text": "잠시만 기다리세요.",
+      "options": [
+        "Bir oz kutishni",
+        "O'tirishni",
+        "To'lashni",
+        "Ichishni"
+      ],
+      "options_en": [
+        "To wait a moment",
+        "To sit down",
+        "To pay",
+        "To drink"
+      ],
+      "answers": [
+        "Bir oz kutishni"
+      ],
+      "audio": "123969e2fb01.mp3"
+    }
+  ],
+  "test": [
+    "b1_u05_l1_e101",
+    "b1_u05_l1_e102",
+    "b1_u05_l1_e103",
+    "b1_u05_l1_e104",
+    "b1_u05_l1_e105",
+    "b1_u05_l1_e106",
+    "b1_u05_l1_e107",
+    "b1_u05_l1_e108",
+    "b1_u05_l1_e109",
+    "b1_u05_l1_e110",
+    "b1_u05_l1_e111",
+    "b1_u05_l1_e112",
+    "b1_u05_l1_e113",
+    "b1_u05_l1_e114",
+    "b1_u05_l1_e115"
+  ],
+  "story": {
+    "title_uz": "Kafedagi birinchi buyurtma",
+    "title_en": "The first order at a café",
+    "gate_uz": "KAFE",
+    "gate_en": "CAFE",
+    "steps": [
+      {
+        "type": "line",
+        "speaker": "clerk",
+        "ko": "어서 오세요. 뭐 드릴까요?",
+        "uz": "Xush kelibsiz. Nima beray?",
+        "en": "Welcome. What can I get you?",
+        "audio": "1137fdab1d8d.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "아지즈 씨, 뭐 마셔요?",
+        "uz": "Aziz, nima ichasiz?",
+        "en": "Aziz, what are you having?",
+        "audio": "cb21c11938f0.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "음… 메뉴가 한국어예요.",
+        "uz": "Hmm… menyu koreyscha ekan.",
+        "en": "Hmm… the menu is in Korean.",
+        "audio": "ba46ee6f50f9.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "괜찮아요. 오렌지 주스, 커피, 녹차가 있어요.",
+        "uz": "Hechqisi yo'q. Apelsin sharbati, qahva, ko'k choy bor.",
+        "en": "No problem. There's orange juice, coffee and green tea.",
+        "audio": "438cdd2be086.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "저는 오렌지 주스요!",
+        "uz": "Men apelsin sharbati!",
+        "en": "Orange juice for me!",
+        "audio": "b36bbb0c10ee.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "그럼 아지즈 씨가 주문하세요.",
+        "uz": "Unda siz buyurtma bering, Aziz.",
+        "en": "Then you order, Aziz.",
+        "audio": "ad988ec9865c.mp3"
+      },
+      {
+        "type": "choose_reply",
+        "speaker": "aziz",
+        "prompt_uz": "Aziz 'Bitta apelsin sharbati va bitta ko'k choy bering' demoqchi.",
+        "prompt_en": "Aziz wants to say 'One orange juice and one green tea, please'.",
+        "options": [
+          "오렌지 주스 한 잔하고 녹차 한 잔 주세요.",
+          "오렌지 주스 하나 잔하고 녹차 하나 잔 주세요.",
+          "한 잔 오렌지 주스하고 한 잔 녹차 주으세요."
+        ],
+        "answer": "오렌지 주스 한 잔하고 녹차 한 잔 주세요.",
+        "uz": "Bitta apelsin sharbati va bitta ko'k choy bering.",
+        "en": "One orange juice and one green tea, please.",
+        "why_uz": "잔 oldidan 하나 → 한; 주다 → 주세요.",
+        "why_en": "Before 잔, 하나 → 한; 주다 → 주세요.",
+        "audio": "10f753fb96ec.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "clerk",
+        "ko": "네, 저기 앉으세요. 잠시만 기다리세요.",
+        "uz": "Yaxshi, anavi yerga o'tiring. Bir oz kuting.",
+        "en": "Sure, please sit over there. Please wait a moment.",
+        "audio": "08d29816a0a5.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "와, 아지즈 씨 한국어 잘해요!",
+        "uz": "Voy, Aziz, koreyschangiz zo'r!",
+        "en": "Wow, Aziz, your Korean is great!",
+        "audio": "32915d8313e0.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "아니에요. 아직 조금 해요.",
+        "uz": "Yo'g'-e. Hali ozgina bilaman.",
+        "en": "Not at all. I only know a little.",
+        "audio": "be4555aa00c4.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "clerk",
+        "ko": "손님, 주스하고 녹차 나왔어요.",
+        "uz": "Mijozlar, sharbat va ko'k choy tayyor.",
+        "en": "Your juice and green tea are ready.",
+        "audio": "0e6ca4a6e6b7.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "감사합니다!",
+        "uz": "Rahmat!",
+        "en": "Thank you!",
+        "audio": "e8742f893a1d.mp3"
+      },
+      {
+        "type": "quiz",
+        "prompt_uz": "Minji nima ichdi?",
+        "prompt_en": "What did Minji drink?",
+        "options": [
+          "Ko'k choy",
+          "Apelsin sharbati",
+          "Qahva"
+        ],
+        "options_en": [
+          "Green tea",
+          "Orange juice",
+          "Coffee"
+        ],
+        "answer": "Ko'k choy",
+        "why_uz": "녹차 한 잔 — Minji uchun.",
+        "why_en": "녹차 한 잔 was for Minji."
+      }
+    ]
+  }
+}

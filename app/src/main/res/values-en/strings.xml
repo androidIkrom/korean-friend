@@ -30,7 +30,7 @@
     <string name="coming_soon">Coming soon</string>
     <string name="unit_title">Unit %1$d · %2$s</string>
 
-    <string name="onboarding_intro">Hangul Hunt helps you review the lessons of the «사랑해요 한국어 2» textbook.</string>
+    <string name="onboarding_intro">Hangul Hunt helps you learn and review Korean with the «사랑해요 한국어» textbooks, starting from the Hangul alphabet.</string>
     <string name="onboarding_question">Which lesson are you on now?</string>
 
 
@@ -240,7 +240,7 @@
     <string name="share_words">words learned</string>
     <string name="share_lessons">Lessons</string>
     <string name="share_now">Now</string>
-    <string name="share_footer">사랑해요 한국어 2 · Hangul Hunt</string>
+    <string name="share_footer">사랑해요 한국어 · Hangul Hunt</string>
     <string name="rank_title_e">Novice</string>
     <string name="rank_title_d">Apprentice</string>
     <string name="rank_title_c">Hunter</string>

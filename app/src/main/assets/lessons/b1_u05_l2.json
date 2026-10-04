@@ -1,0 +1,1460 @@
+{
+  "id": "b1_u05_l2",
+  "unit": 5,
+  "lesson": 2,
+  "title_ko": "비빔밥하고 콜라 한 병 주세요",
+  "title_uz": "Pibimbap va bir shisha kola bering",
+  "title_en": "Bibimbap and a bottle of cola, please",
+  "topic_uz": "Taom va buyurtma",
+  "topic_en": "Food and ordering",
+  "reviewed": false,
+  "words": [
+    {
+      "id": "b1_u05_l2_w001",
+      "ko": "비빔밥",
+      "uz": "pibimbap (sabzavotli guruch)",
+      "en": "bibimbap",
+      "pos": "ot",
+      "example_ko": "비빔밥 하나 주세요.",
+      "example_uz": "Bitta pibimbap bering.",
+      "example_en": "One bibimbap, please.",
+      "audio": "b8974bb3cbef.mp3",
+      "example_audio": "46b5c3ee2d7d.mp3"
+    },
+    {
+      "id": "b1_u05_l2_w002",
+      "ko": "불고기",
+      "uz": "pulgogi (qovurilgan go'sht)",
+      "en": "bulgogi",
+      "pos": "ot",
+      "example_ko": "불고기가 맛있어요.",
+      "example_uz": "Pulgogi mazali.",
+      "example_en": "The bulgogi is tasty.",
+      "audio": "8d6198f7773c.mp3",
+      "example_audio": "875efabb5278.mp3"
+    },
+    {
+      "id": "b1_u05_l2_w003",
+      "ko": "김밥",
+      "uz": "kimbap (dengiz o'ti ruleti)",
+      "en": "gimbap",
+      "pos": "ot",
+      "example_ko": "김밥 두 줄 주세요.",
+      "example_uz": "Ikki rulet kimbap bering.",
+      "example_en": "Two rolls of gimbap, please.",
+      "audio": "e1b752602147.mp3",
+      "example_audio": "2c033d7dd7f5.mp3"
+    },
+    {
+      "id": "b1_u05_l2_w004",
+      "ko": "라면",
+      "uz": "ramyon (lapsha)",
+      "en": "ramyeon",
+      "pos": "ot",
+      "example_ko": "라면 한 그릇 주세요.",
+      "example_uz": "Bir kosa ramyon bering.",
+      "example_en": "A bowl of ramyeon, please.",
+      "audio": "0ae71f12a40b.mp3",
+      "example_audio": "6db4bfa82da7.mp3"
+    },
+    {
+      "id": "b1_u05_l2_w005",
+      "ko": "냉면",
+      "uz": "nengmyon (sovuq lapsha)",
+      "en": "naengmyeon (cold noodles)",
+      "pos": "ot",
+      "example_ko": "여름에 냉면을 먹어요.",
+      "example_uz": "Yozda sovuq lapsha yeyman.",
+      "example_en": "I eat cold noodles in summer.",
+      "audio": "6617c8aafff3.mp3",
+      "example_audio": "d125fb5d3aa6.mp3"
+    },
+    {
+      "id": "b1_u05_l2_w006",
+      "ko": "김치찌개",
+      "uz": "kimchi sho'rvasi",
+      "en": "kimchi stew",
+      "pos": "ot",
+      "example_ko": "김치찌개 하나 주세요.",
+      "example_uz": "Bitta kimchi sho'rvasi bering.",
+      "example_en": "One kimchi stew, please.",
+      "audio": "7c0c2613d260.mp3",
+      "example_audio": "f079970b7e0d.mp3"
+    },
+    {
+      "id": "b1_u05_l2_w007",
+      "ko": "된장찌개",
+      "uz": "tvenjang sho'rvasi (soya pastali)",
+      "en": "soybean paste stew",
+      "pos": "ot",
+      "example_ko": "된장찌개가 있어요?",
+      "example_uz": "Tvenjang sho'rvasi bormi?",
+      "example_en": "Do you have soybean paste stew?",
+      "audio": "a80a0b8af377.mp3",
+      "example_audio": "0b61fe189b65.mp3"
+    },
+    {
+      "id": "b1_u05_l2_w008",
+      "ko": "떡볶이",
+      "uz": "ttokpokki (achchiq guruch xamiri)",
+      "en": "tteokbokki",
+      "pos": "ot",
+      "example_ko": "떡볶이는 매워요.",
+      "example_uz": "Ttokpokki achchiq.",
+      "example_en": "Tteokbokki is spicy.",
+      "audio": "5e95c9949b81.mp3",
+      "example_audio": "30973b002cb4.mp3"
+    },
+    {
+      "id": "b1_u05_l2_w009",
+      "ko": "만두",
+      "uz": "chuchvara (mandu)",
+      "en": "dumplings",
+      "pos": "ot",
+      "example_ko": "만두 한 접시 주세요.",
+      "example_uz": "Bir likopcha mandu bering.",
+      "example_en": "A plate of dumplings, please.",
+      "audio": "6ec455b2358b.mp3",
+      "example_audio": "b0f949d49d86.mp3"
+    },
+    {
+      "id": "b1_u05_l2_w010",
+      "ko": "삼계탕",
+      "uz": "samgyetang (tovuqli sho'rva)",
+      "en": "ginseng chicken soup",
+      "pos": "ot",
+      "example_ko": "삼계탕 두 그릇 주세요.",
+      "example_uz": "Ikki kosa tovuqli sho'rva bering.",
+      "example_en": "Two bowls of ginseng chicken soup, please.",
+      "audio": "b6a27c266738.mp3",
+      "example_audio": "1d5595f4130d.mp3"
+    },
+    {
+      "id": "b1_u05_l2_w011",
+      "ko": "밥",
+      "uz": "guruch (osh), ovqat",
+      "en": "rice, meal",
+      "pos": "ot",
+      "example_ko": "밥 한 그릇 더 주세요.",
+      "example_uz": "Yana bir kosa guruch bering.",
+      "example_en": "One more bowl of rice, please.",
+      "audio": "caeeff08b854.mp3",
+      "example_audio": "e38f1ad66418.mp3"
+    },
+    {
+      "id": "b1_u05_l2_w012",
+      "ko": "김치",
+      "uz": "kimchi",
+      "en": "kimchi",
+      "pos": "ot",
+      "example_ko": "김치 좀 더 주세요.",
+      "example_uz": "Yana ozgina kimchi bering.",
+      "example_en": "A little more kimchi, please.",
+      "audio": "452b98a95e38.mp3",
+      "example_audio": "16b982709bae.mp3"
+    },
+    {
+      "id": "b1_u05_l2_w013",
+      "ko": "반찬",
+      "uz": "qo'shimcha taomlar (panchan)",
+      "en": "side dishes",
+      "pos": "ot",
+      "example_ko": "반찬이 많아요.",
+      "example_uz": "Qo'shimcha taomlar ko'p.",
+      "example_en": "There are lots of side dishes.",
+      "audio": "d02ef4ed35ab.mp3",
+      "example_audio": "62590ddec5c1.mp3"
+    },
+    {
+      "id": "b1_u05_l2_w014",
+      "ko": "사이다",
+      "uz": "gazli shirin suv (sprayt)",
+      "en": "lemon-lime soda",
+      "pos": "ot",
+      "example_ko": "사이다 한 병 주세요.",
+      "example_uz": "Bir shisha sprayt bering.",
+      "example_en": "A bottle of soda, please.",
+      "audio": "75c0d06f4ba0.mp3",
+      "example_audio": "6ace604a82a5.mp3"
+    },
+    {
+      "id": "b1_u05_l2_w015",
+      "ko": "생수",
+      "uz": "ichimlik suvi (shishadagi)",
+      "en": "bottled water",
+      "pos": "ot",
+      "example_ko": "생수 두 병 주세요.",
+      "example_uz": "Ikki shisha suv bering.",
+      "example_en": "Two bottles of water, please.",
+      "audio": "6788535e0802.mp3",
+      "example_audio": "f808cbbd5990.mp3"
+    },
+    {
+      "id": "b1_u05_l2_w016",
+      "ko": "개",
+      "uz": "dona (sanoq so'z)",
+      "en": "piece, item (counter)",
+      "pos": "ot",
+      "example_ko": "사과 세 개 주세요.",
+      "example_uz": "Uchta olma bering.",
+      "example_en": "Three apples, please.",
+      "audio": "4c0e6bf91694.mp3",
+      "example_audio": "f30ed9ac1f75.mp3"
+    },
+    {
+      "id": "b1_u05_l2_w017",
+      "ko": "병",
+      "uz": "shisha (sanoq so'z)",
+      "en": "bottle (counter)",
+      "pos": "ot",
+      "example_ko": "콜라 한 병 주세요.",
+      "example_uz": "Bir shisha kola bering.",
+      "example_en": "A bottle of cola, please.",
+      "audio": "16692dd2b52e.mp3",
+      "example_audio": "7cfb7163a3d0.mp3"
+    },
+    {
+      "id": "b1_u05_l2_w018",
+      "ko": "그릇",
+      "uz": "kosa, piyola (sanoq so'z)",
+      "en": "bowl (counter)",
+      "pos": "ot",
+      "example_ko": "라면 두 그릇이에요.",
+      "example_uz": "Ikki kosa ramyon.",
+      "example_en": "That's two bowls of ramyeon.",
+      "audio": "5d800ea0114c.mp3",
+      "example_audio": "fd8920e11ff5.mp3"
+    },
+    {
+      "id": "b1_u05_l2_w019",
+      "ko": "인분",
+      "uz": "porsiya (kishilik)",
+      "en": "serving (counter)",
+      "pos": "ot",
+      "example_ko": "불고기 2인분 주세요.",
+      "example_uz": "Ikki porsiya pulgogi bering.",
+      "example_en": "Two servings of bulgogi, please.",
+      "audio": "5e186ab80d3e.mp3",
+      "example_audio": "bf43b4de16ea.mp3"
+    },
+    {
+      "id": "b1_u05_l2_w020",
+      "ko": "줄",
+      "uz": "rulet, qator (kimbap uchun)",
+      "en": "roll (counter for gimbap)",
+      "pos": "ot",
+      "example_ko": "김밥 한 줄 주세요.",
+      "example_uz": "Bir rulet kimbap bering.",
+      "example_en": "One roll of gimbap, please.",
+      "audio": "a918ccf09a5f.mp3",
+      "example_audio": "5b462659674d.mp3"
+    },
+    {
+      "id": "b1_u05_l2_w021",
+      "ko": "주문하다",
+      "uz": "buyurtma bermoq",
+      "en": "to order",
+      "pos": "fe'l",
+      "example_ko": "지금 주문하세요.",
+      "example_uz": "Hozir buyurtma bering.",
+      "example_en": "Please order now.",
+      "audio": "6fd30a38e903.mp3",
+      "example_audio": "7f69e6b92149.mp3"
+    },
+    {
+      "id": "b1_u05_l2_w022",
+      "ko": "계산하다",
+      "uz": "hisob-kitob qilmoq, to'lamoq",
+      "en": "to pay the bill",
+      "pos": "fe'l",
+      "example_ko": "여기서 계산하세요.",
+      "example_uz": "Shu yerda to'lang.",
+      "example_en": "Please pay here.",
+      "audio": "f36da68b74d6.mp3",
+      "example_audio": "41b14c2ff9ec.mp3"
+    },
+    {
+      "id": "b1_u05_l2_w023",
+      "ko": "메뉴판",
+      "uz": "menyu (qog'oz)",
+      "en": "menu board",
+      "pos": "ot",
+      "example_ko": "메뉴판 좀 주세요.",
+      "example_uz": "Menyuni bering.",
+      "example_en": "The menu, please.",
+      "audio": "e0cea25f3f67.mp3",
+      "example_audio": "ad5806525ebf.mp3"
+    },
+    {
+      "id": "b1_u05_l2_w024",
+      "ko": "하고",
+      "uz": "va, bilan",
+      "en": "and, with",
+      "pos": "ibora",
+      "example_ko": "비빔밥하고 김밥 주세요.",
+      "example_uz": "Pibimbap va kimbap bering.",
+      "example_en": "Bibimbap and gimbap, please.",
+      "audio": "e964ce38d2b1.mp3",
+      "example_audio": "dcd3493ac1af.mp3"
+    },
+    {
+      "id": "b1_u05_l2_w025",
+      "ko": "그리고",
+      "uz": "va, keyin",
+      "en": "and, also",
+      "pos": "ravish",
+      "example_ko": "김밥 주세요. 그리고 물도 주세요.",
+      "example_uz": "Kimbap bering. Yana suv ham bering.",
+      "example_en": "Gimbap, please. And water too.",
+      "audio": "24564c54f6aa.mp3",
+      "example_audio": "1109572085e5.mp3"
+    },
+    {
+      "id": "b1_u05_l2_w026",
+      "ko": "이모",
+      "uz": "xola (oshxonada ayol xodimga murojaat)",
+      "en": "auntie (calling a server)",
+      "pos": "ot",
+      "example_ko": "이모, 여기 김치 좀 주세요!",
+      "example_uz": "Xola, bu yerga kimchi bering!",
+      "example_en": "Auntie, some kimchi here, please!",
+      "audio": "fd0159b055d4.mp3",
+      "example_audio": "9455b9e90f3e.mp3"
+    },
+    {
+      "id": "b1_u05_l2_w027",
+      "ko": "잘 먹겠습니다",
+      "uz": "yoqimli ishtaha (ovqat oldidan)",
+      "en": "thanks for the meal (before eating)",
+      "pos": "ibora",
+      "example_ko": "와, 잘 먹겠습니다!",
+      "example_uz": "Voy, rahmat, yeymiz!",
+      "example_en": "Wow, thanks for the meal!",
+      "audio": "37b253a9b84f.mp3",
+      "example_audio": "18d39b38f623.mp3"
+    },
+    {
+      "id": "b1_u05_l2_w028",
+      "ko": "잘 먹었습니다",
+      "uz": "rahmat, mazali bo'ldi (ovqatdan keyin)",
+      "en": "thanks, that was great (after eating)",
+      "pos": "ibora",
+      "example_ko": "잘 먹었습니다. 계산해 주세요.",
+      "example_uz": "Rahmat, mazali bo'ldi. Hisobni bering.",
+      "example_en": "That was great. The bill, please.",
+      "audio": "afe0f9d2d7aa.mp3",
+      "example_audio": "164cf1aed87e.mp3"
+    },
+    {
+      "id": "b1_u05_l2_w029",
+      "ko": "맛있게 드세요",
+      "uz": "yoqimli ishtaha",
+      "en": "enjoy your meal",
+      "pos": "ibora",
+      "example_ko": "손님, 맛있게 드세요.",
+      "example_uz": "Yoqimli ishtaha.",
+      "example_en": "Enjoy your meal.",
+      "audio": "0aeafbcb0817.mp3",
+      "example_audio": "a91204afe55f.mp3"
+    },
+    {
+      "id": "b1_u05_l2_w030",
+      "ko": "포크",
+      "uz": "vilka",
+      "en": "fork",
+      "pos": "ot",
+      "example_ko": "포크 하나 주세요.",
+      "example_uz": "Bitta vilka bering.",
+      "example_en": "A fork, please.",
+      "audio": "06489c4330a1.mp3",
+      "example_audio": "6aca199882f2.mp3"
+    },
+    {
+      "id": "b1_u05_l2_w031",
+      "ko": "한식",
+      "uz": "koreys taomlari",
+      "en": "Korean food",
+      "pos": "ot",
+      "example_ko": "한식을 좋아해요.",
+      "example_uz": "Koreys taomlarini yaxshi ko'raman.",
+      "example_en": "I like Korean food.",
+      "audio": "f57e45e3ac09.mp3",
+      "example_audio": "f89f20630d31.mp3"
+    },
+    {
+      "id": "b1_u05_l2_w032",
+      "ko": "같이",
+      "uz": "birga",
+      "en": "together",
+      "pos": "ravish",
+      "example_ko": "같이 먹어요.",
+      "example_uz": "Birga yeymiz.",
+      "example_en": "Let's eat together.",
+      "audio": "5f7a6d0427e6.mp3",
+      "example_audio": "c6fc54b6cbd2.mp3"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "b1_u05_l2_g1",
+      "pattern": "N 개/병/잔/그릇",
+      "meaning_uz": "Sanoq so'zlar: dona, shisha, chashka, kosa",
+      "meaning_en": "Counters: piece, bottle, cup, bowl",
+      "explanation_md": "Koreyschada narsani sanaganda son yolg'iz emas, **sanoq so'z** bilan aytiladi. Qaysi sanoq so'z — narsaning turiga qarab.\n\n| Sanoq so'z | Nima uchun | Misol |\n|---|---|---|\n| **개** | dona narsalar | 만두 **다섯 개** |\n| **병** | shishadagi ichimlik | 콜라 **한 병** |\n| **잔** | stakan/chashkadagi ichimlik | 커피 **두 잔** |\n| **그릇** | kosadagi taom | 라면 **세 그릇** |\n| **인분** | porsiya (go'sht) | 불고기 **2인분** |\n\n### Tartib\n\n**narsa + son + sanoq so'z**: **콜라 한 병**, **김밥 두 줄**.\n\n### Esda tuting\n\n- Sanoq so'z oldidan 하나→**한**, 둘→**두**, 셋→**세**, 넷→**네**.\n- **인분** bilan xitoycha sonlar ishlatiladi va raqam bilan yoziladi: **2인분** (이 인분).\n- \"Nechta?\" — **몇 개?**, **몇 병?**",
+      "explanation_md_en": "When counting things, Korean uses a **counter word** after the number, chosen by the kind of thing.\n\n| Counter | For | Example |\n|---|---|---|\n| **개** | single items | 만두 **다섯 개** |\n| **병** | bottled drinks | 콜라 **한 병** |\n| **잔** | drinks in a cup/glass | 커피 **두 잔** |\n| **그릇** | food in a bowl | 라면 **세 그릇** |\n| **인분** | servings (meat) | 불고기 **2인분** |\n\n### Order\n\n**thing + number + counter**: **콜라 한 병**, **김밥 두 줄**.\n\n### Remember\n\n- Before a counter 하나→**한**, 둘→**두**, 셋→**세**, 넷→**네**.\n- **인분** takes Sino-Korean numbers, usually written as digits: **2인분** (이 인분).\n- \"How many?\" — **몇 개?**, **몇 병?**",
+      "formation": [
+        {
+          "condition_uz": "Dona",
+          "condition_en": "Items",
+          "rule": "N + son + 개",
+          "example": "만두 다섯 개, 사과 한 개"
+        },
+        {
+          "condition_uz": "Shisha",
+          "condition_en": "Bottle",
+          "rule": "N + son + 병",
+          "example": "콜라 한 병, 생수 두 병"
+        },
+        {
+          "condition_uz": "Kosa",
+          "condition_en": "Bowl",
+          "rule": "N + son + 그릇",
+          "example": "라면 한 그릇, 밥 두 그릇"
+        },
+        {
+          "condition_uz": "Porsiya",
+          "condition_en": "Serving",
+          "rule": "N + raqam + 인분",
+          "example": "불고기 2인분"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "비빔밥 한 그릇하고 콜라 한 병 주세요.",
+          "uz": "Bir kosa pibimbap va bir shisha kola bering.",
+          "en": "A bowl of bibimbap and a bottle of cola, please.",
+          "audio": "f2cafcc9fa13.mp3"
+        },
+        {
+          "ko": "만두 다섯 개 주세요.",
+          "uz": "Beshta mandu bering.",
+          "en": "Five dumplings, please.",
+          "audio": "01690e8aab02.mp3"
+        },
+        {
+          "ko": "생수 두 병 있어요?",
+          "uz": "Ikki shisha suv bormi?",
+          "en": "Do you have two bottles of water?",
+          "audio": "8b128fc92f1c.mp3"
+        },
+        {
+          "ko": "불고기 2인분 주세요.",
+          "uz": "Ikki porsiya pulgogi bering.",
+          "en": "Two servings of bulgogi, please.",
+          "audio": "bf43b4de16ea.mp3"
+        },
+        {
+          "ko": "김밥 몇 줄 드릴까요?",
+          "uz": "Nechta rulet kimbap beray?",
+          "en": "How many rolls of gimbap would you like?",
+          "audio": "302bf7fce536.mp3"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "콜라 한 잔 병 주세요.",
+          "right": "콜라 한 병 주세요.",
+          "why_uz": "Bitta sanoq so'z yetarli: 병.",
+          "why_en": "One counter is enough: 병."
+        },
+        {
+          "wrong": "라면 둘 그릇 주세요.",
+          "right": "라면 두 그릇 주세요.",
+          "why_uz": "Sanoq so'z oldidan 둘 → 두.",
+          "why_en": "Before a counter 둘 → 두."
+        },
+        {
+          "wrong": "한 병 콜라 주세요.",
+          "right": "콜라 한 병 주세요.",
+          "why_uz": "Tartib: narsa + son + sanoq so'z.",
+          "why_en": "Order: thing + number + counter."
+        }
+      ],
+      "uz_compare": "O'zbekchada ham sanoq so'zlar bor: 'bir SHISHA kola', 'ikki KOSA sho'rva', 'besh DONA olma'. Faqat koreyschada narsa oldin keladi: 콜라 한 병.",
+      "compare_en": "English has similar words — 'a BOTTLE of cola', 'two BOWLS of soup' — but uses them only for some nouns. Korean always needs one, and the thing comes first: 콜라 한 병."
+    },
+    {
+      "id": "b1_u05_l2_g2",
+      "pattern": "N하고 N",
+      "meaning_uz": "... va ...: otlarni bog'lash",
+      "meaning_en": "N and N: joining nouns",
+      "explanation_md": "**하고** ikki otni bog'laydi: \"va\", \"bilan\".\n\n**비빔밥하고 콜라 주세요.** — *Pibimbap va kola bering.*\n\n### Esda tuting\n\n- **하고** otga **qo'shib** yoziladi: 비빔밥**하고**, 김밥**하고**. U 받침 ga qarab o'zgarmaydi.\n- 하고 faqat **otlarni** bog'laydi. Ikki gapni bog'lash uchun **그리고** ishlatiladi: **김밥 주세요. 그리고 물도 주세요.**\n- **N하고 같이** — \"N bilan birga\": **민지 씨하고 같이 먹어요.**",
+      "explanation_md_en": "**하고** joins two nouns: \"and\", \"with\".\n\n**비빔밥하고 콜라 주세요.** — *Bibimbap and cola, please.*\n\n### Remember\n\n- **하고** is **attached** to the noun: 비빔밥**하고**, 김밥**하고**. It doesn't change with 받침.\n- 하고 joins only **nouns**. To join two sentences, use **그리고**: **김밥 주세요. 그리고 물도 주세요.**\n- **N하고 같이** — \"together with N\": **민지 씨하고 같이 먹어요.**",
+      "formation": [
+        {
+          "condition_uz": "Ikki ot",
+          "condition_en": "Two nouns",
+          "rule": "N하고 N",
+          "example": "비빔밥하고 콜라, 김밥하고 라면"
+        },
+        {
+          "condition_uz": "'bilan birga'",
+          "condition_en": "'together with'",
+          "rule": "N하고 같이",
+          "example": "친구하고 같이"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "비빔밥하고 콜라 주세요.",
+          "uz": "Pibimbap va kola bering.",
+          "en": "Bibimbap and cola, please.",
+          "audio": "d77ad640293d.mp3"
+        },
+        {
+          "ko": "김밥하고 라면이 있어요.",
+          "uz": "Kimbap va ramyon bor.",
+          "en": "There's gimbap and ramyeon.",
+          "audio": "f4c28dd8e0cd.mp3"
+        },
+        {
+          "ko": "민지 씨하고 같이 먹어요.",
+          "uz": "Minji bilan birga yeyman.",
+          "en": "I'm eating with Minji.",
+          "audio": "de03779607d1.mp3"
+        },
+        {
+          "ko": "만두 한 접시하고 사이다 한 병 주세요.",
+          "uz": "Bir likopcha mandu va bir shisha sprayt bering.",
+          "en": "A plate of dumplings and a bottle of soda, please.",
+          "audio": "fd0c97918537.mp3"
+        },
+        {
+          "ko": "포크하고 숟가락 좀 주세요.",
+          "uz": "Vilka va qoshiq bering.",
+          "en": "A fork and a spoon, please.",
+          "audio": "e7ba07e4846b.mp3"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "비빔밥 하고 콜라 주세요.",
+          "right": "비빔밥하고 콜라 주세요.",
+          "why_uz": "하고 otga qo'shib yoziladi.",
+          "why_en": "하고 is attached to the noun."
+        },
+        {
+          "wrong": "김밥 주세요하고 물 주세요.",
+          "right": "김밥하고 물 주세요.",
+          "why_uz": "하고 faqat otlarni bog'laydi.",
+          "why_en": "하고 joins only nouns."
+        },
+        {
+          "wrong": "김밥 주세요. 하고 물도 주세요.",
+          "right": "김밥 주세요. 그리고 물도 주세요.",
+          "why_uz": "Gaplarni 그리고 bog'laydi.",
+          "why_en": "Sentences are joined with 그리고."
+        }
+      ],
+      "uz_compare": "O'zbekchadagi 'va' yoki '-bilan' ga o'xshaydi: 'pibimbap VA kola' = 비빔밥하고 콜라. Farqi: 하고 so'zga qo'shilib yoziladi.",
+      "compare_en": "Like English 'and' between nouns: 'bibimbap AND cola' = 비빔밥하고 콜라. But 하고 attaches to the first noun and can't join sentences."
+    }
+  ],
+  "dialogue": {
+    "lines": [
+      {
+        "speaker": "clerk",
+        "ko": "어서 오세요. 몇 분이세요?",
+        "uz": "Xush kelibsiz. Necha kishisiz?",
+        "en": "Welcome. How many are you?",
+        "audio": "6ce60b414214.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "두 명이에요.",
+        "uz": "Ikki kishimiz.",
+        "en": "Two of us.",
+        "audio": "13208e6a355e.mp3"
+      },
+      {
+        "speaker": "clerk",
+        "ko": "이쪽으로 앉으세요. 여기 메뉴판이에요.",
+        "uz": "Bu tomonga o'tiring. Mana menyu.",
+        "en": "Please sit this way. Here's the menu.",
+        "audio": "7a36b323920b.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "아지즈 씨, 비빔밥 좋아해요?",
+        "uz": "Aziz, pibimbapni yaxshi ko'rasizmi?",
+        "en": "Aziz, do you like bibimbap?",
+        "audio": "72ba1198fe71.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "네, 좋아해요. 저는 비빔밥 먹어요.",
+        "uz": "Ha, yaxshi ko'raman. Men pibimbap yeyman.",
+        "en": "Yes, I do. I'll have bibimbap.",
+        "audio": "2c098b238331.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "저는 김치찌개요. 만두도 시켜요.",
+        "uz": "Men kimchi sho'rvasi. Mandu ham buyurtma qilaylik.",
+        "en": "I'll have kimchi stew. Let's order dumplings too.",
+        "audio": "e0b893314c0f.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "여기요! 비빔밥 하나하고 김치찌개 하나 주세요.",
+        "uz": "Kechirasiz! Bitta pibimbap va bitta kimchi sho'rvasi bering.",
+        "en": "Excuse me! One bibimbap and one kimchi stew, please.",
+        "audio": "753eb7f054a2.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "그리고 만두 한 접시하고 콜라 한 병 주세요.",
+        "uz": "Yana bir likopcha mandu va bir shisha kola bering.",
+        "en": "And a plate of dumplings and a bottle of cola, please.",
+        "audio": "067922ad7ebe.mp3"
+      },
+      {
+        "speaker": "clerk",
+        "ko": "네, 잠시만 기다리세요.",
+        "uz": "Yaxshi, bir oz kuting.",
+        "en": "Sure, please wait a moment.",
+        "audio": "be755c95b10d.mp3"
+      },
+      {
+        "speaker": "clerk",
+        "ko": "여기 있어요. 맛있게 드세요.",
+        "uz": "Mana. Yoqimli ishtaha.",
+        "en": "Here you are. Enjoy your meal.",
+        "audio": "1d3108989a54.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "잘 먹겠습니다!",
+        "uz": "Rahmat, yeymiz!",
+        "en": "Thanks for the meal!",
+        "audio": "e349124a10b5.mp3"
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b1_u05_l2_e001",
+      "type": "conjugate",
+      "targets": [
+        "b1_u05_l2_g1"
+      ],
+      "prompt_uz": "Kola: 'bir shisha'",
+      "prompt_en": "Cola: 'one bottle'",
+      "base": "콜라",
+      "form": "+ 하나 + 병",
+      "answers": [
+        "콜라 한 병"
+      ]
+    },
+    {
+      "id": "b1_u05_l2_e002",
+      "type": "conjugate",
+      "targets": [
+        "b1_u05_l2_g1"
+      ],
+      "prompt_uz": "Ramyon: 'ikki kosa'",
+      "prompt_en": "Ramyeon: 'two bowls'",
+      "base": "라면",
+      "form": "+ 둘 + 그릇",
+      "answers": [
+        "라면 두 그릇"
+      ]
+    },
+    {
+      "id": "b1_u05_l2_e003",
+      "type": "conjugate",
+      "targets": [
+        "b1_u05_l2_g2"
+      ],
+      "prompt_uz": "Pibimbap + kimbap ('va')",
+      "prompt_en": "Bibimbap + gimbap ('and')",
+      "base": "비빔밥",
+      "form": "+ 하고 + 김밥",
+      "answers": [
+        "비빔밥하고 김밥"
+      ]
+    },
+    {
+      "id": "b1_u05_l2_e004",
+      "type": "conjugate",
+      "targets": [
+        "b1_u05_l2_g1"
+      ],
+      "prompt_uz": "Mandu: 'beshta (dona)'",
+      "prompt_en": "Dumplings: 'five (pieces)'",
+      "base": "만두",
+      "form": "+ 다섯 + 개",
+      "answers": [
+        "만두 다섯 개"
+      ]
+    },
+    {
+      "id": "b1_u05_l2_e005",
+      "type": "fill_blank",
+      "targets": [
+        "b1_u05_l2_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Ikki shisha suv bering.'",
+      "prompt_en": "Fill in the blank: 'Two bottles of water, please.'",
+      "sentence": "생수 두 ___ 주세요.",
+      "answers": [
+        "병"
+      ]
+    },
+    {
+      "id": "b1_u05_l2_e006",
+      "type": "fill_blank",
+      "targets": [
+        "b1_u05_l2_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Bir kosa guruch yana bering.'",
+      "prompt_en": "Fill in the blank: 'One more bowl of rice, please.'",
+      "sentence": "밥 한 ___ 더 주세요.",
+      "answers": [
+        "그릇"
+      ]
+    },
+    {
+      "id": "b1_u05_l2_e007",
+      "type": "fill_blank",
+      "targets": [
+        "b1_u05_l2_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Vilka va qoshiq bering.'",
+      "prompt_en": "Fill in the blank: 'A fork and a spoon, please.'",
+      "sentence": "포크___ 숟가락 주세요.",
+      "answers": [
+        "하고"
+      ]
+    },
+    {
+      "id": "b1_u05_l2_e008",
+      "type": "fill_blank",
+      "targets": [
+        "b1_u05_l2_g2",
+        "b1_u05_l2_w025"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Kimbap bering. Yana suv ham bering.'",
+      "prompt_en": "Fill in the blank: 'Gimbap, please. And water too.'",
+      "sentence": "김밥 주세요. ___ 물도 주세요.",
+      "answers": [
+        "그리고"
+      ]
+    },
+    {
+      "id": "b1_u05_l2_e009",
+      "type": "situation_choice",
+      "targets": [
+        "b1_u05_l2_g1"
+      ],
+      "prompt_uz": "Ikki porsiya pulgogi buyurtma qiling:",
+      "prompt_en": "Order two servings of bulgogi:",
+      "options": [
+        "불고기 2인분 주세요.",
+        "불고기 두 인분 주세요.",
+        "불고기 두 개 주세요.",
+        "2인분 불고기 주세요."
+      ],
+      "answers": [
+        "불고기 2인분 주세요."
+      ]
+    },
+    {
+      "id": "b1_u05_l2_e010",
+      "type": "situation_choice",
+      "targets": [
+        "b1_u05_l2_w027"
+      ],
+      "prompt_uz": "Ovqat endi keldi. Yeyishdan oldin nima deysiz?",
+      "prompt_en": "The food has just arrived. What do you say before eating?",
+      "options": [
+        "잘 먹겠습니다.",
+        "잘 먹었습니다.",
+        "맛있게 드세요.",
+        "어서 오세요."
+      ],
+      "answers": [
+        "잘 먹겠습니다."
+      ]
+    },
+    {
+      "id": "b1_u05_l2_e011",
+      "type": "situation_choice",
+      "targets": [
+        "b1_u05_l2_g2"
+      ],
+      "prompt_uz": "Pibimbap va sprayt kerak:",
+      "prompt_en": "You want bibimbap and a soda:",
+      "options": [
+        "비빔밥하고 사이다 주세요.",
+        "비빔밥 하고 사이다 주세요.",
+        "비빔밥 그리고 사이다 주세요하고.",
+        "비빔밥이고 사이다 주세요."
+      ],
+      "answers": [
+        "비빔밥하고 사이다 주세요."
+      ]
+    },
+    {
+      "id": "b1_u05_l2_e012",
+      "type": "find_error",
+      "targets": [
+        "b1_u05_l2_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "라면 둘 그릇 주세요.",
+      "answers": [
+        "라면 두 그릇 주세요"
+      ],
+      "why_uz": "Sanoq so'z oldidan 둘 → 두.",
+      "why_en": "Before a counter 둘 → 두."
+    },
+    {
+      "id": "b1_u05_l2_e013",
+      "type": "find_error",
+      "targets": [
+        "b1_u05_l2_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "한 병 콜라 주세요.",
+      "answers": [
+        "콜라 한 병 주세요"
+      ],
+      "why_uz": "Tartib: narsa + son + sanoq so'z.",
+      "why_en": "Order: thing + number + counter."
+    },
+    {
+      "id": "b1_u05_l2_e014",
+      "type": "find_error",
+      "targets": [
+        "b1_u05_l2_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "김밥 하고 라면 주세요.",
+      "answers": [
+        "김밥하고 라면 주세요"
+      ],
+      "why_uz": "하고 otga qo'shib yoziladi.",
+      "why_en": "하고 is attached to the noun."
+    },
+    {
+      "id": "b1_u05_l2_e015",
+      "type": "translate",
+      "targets": [
+        "b1_u05_l2_g1"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Uchta mandu bering.",
+      "source_en": "Three dumplings, please.",
+      "answers": [
+        "만두 세 개 주세요"
+      ]
+    },
+    {
+      "id": "b1_u05_l2_e016",
+      "type": "translate",
+      "targets": [
+        "b1_u05_l2_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Kimbap va ramyon bering.",
+      "source_en": "Gimbap and ramyeon, please.",
+      "answers": [
+        "김밥하고 라면 주세요"
+      ]
+    },
+    {
+      "id": "b1_u05_l2_e017",
+      "type": "translate",
+      "targets": [
+        "b1_u05_l2_g1",
+        "b1_u05_l2_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Pibimbap va bir shisha kola bering.",
+      "source_en": "Bibimbap and a bottle of cola, please.",
+      "answers": [
+        "비빔밥하고 콜라 한 병 주세요"
+      ]
+    },
+    {
+      "id": "b1_u05_l2_e018",
+      "type": "build_sentence",
+      "targets": [
+        "b1_u05_l2_g1"
+      ],
+      "prompt_uz": "'Ikki kosa tovuqli sho'rva bering' gapini tuzing",
+      "prompt_en": "Build the sentence 'Two bowls of ginseng chicken soup, please'",
+      "tokens": [
+        "그릇",
+        "삼계탕",
+        "주세요",
+        "두"
+      ],
+      "answers": [
+        "삼계탕 두 그릇 주세요"
+      ]
+    },
+    {
+      "id": "b1_u05_l2_e019",
+      "type": "build_sentence",
+      "targets": [
+        "b1_u05_l2_g2"
+      ],
+      "prompt_uz": "'Minji bilan birga yeyman' gapini tuzing",
+      "prompt_en": "Build the sentence 'I'm eating with Minji'",
+      "tokens": [
+        "같이",
+        "먹어요",
+        "씨하고",
+        "민지"
+      ],
+      "answers": [
+        "민지 씨하고 같이 먹어요"
+      ]
+    },
+    {
+      "id": "b1_u05_l2_e020",
+      "type": "build_sentence",
+      "targets": [
+        "b1_u05_l2_g1",
+        "b1_u05_l2_g2"
+      ],
+      "prompt_uz": "'Bitta pibimbap va ikki shisha suv bering' gapini tuzing",
+      "prompt_en": "Build the sentence 'One bibimbap and two bottles of water, please'",
+      "tokens": [
+        "비빔밥",
+        "생수",
+        "하나하고",
+        "주세요",
+        "병",
+        "두"
+      ],
+      "answers": [
+        "비빔밥 하나하고 생수 두 병 주세요"
+      ]
+    },
+    {
+      "id": "b1_u05_l2_e021",
+      "type": "listen_question",
+      "targets": [
+        "b1_u05_l2_g1"
+      ],
+      "prompt_uz": "Nechta shisha kola?",
+      "prompt_en": "How many bottles of cola?",
+      "audio_text": "콜라 세 병 주세요.",
+      "options": [
+        "3",
+        "2",
+        "1",
+        "4"
+      ],
+      "options_en": [
+        "3",
+        "2",
+        "1",
+        "4"
+      ],
+      "answers": [
+        "3"
+      ],
+      "audio": "c22229034b9e.mp3"
+    },
+    {
+      "id": "b1_u05_l2_e022",
+      "type": "listen_question",
+      "targets": [
+        "b1_u05_l2_g2"
+      ],
+      "prompt_uz": "U nima buyurtma qildi?",
+      "prompt_en": "What did they order?",
+      "audio_text": "김치찌개하고 밥 주세요.",
+      "options": [
+        "Kimchi sho'rvasi va guruch",
+        "Pibimbap va kola",
+        "Ramyon va kimbap",
+        "Mandu va suv"
+      ],
+      "options_en": [
+        "Kimchi stew and rice",
+        "Bibimbap and cola",
+        "Ramyeon and gimbap",
+        "Dumplings and water"
+      ],
+      "answers": [
+        "Kimchi sho'rvasi va guruch"
+      ],
+      "audio": "1c01c46993ef.mp3"
+    },
+    {
+      "id": "b1_u05_l2_e023",
+      "type": "listen_question",
+      "targets": [
+        "b1_u05_l2_g1"
+      ],
+      "prompt_uz": "Nechta porsiya pulgogi?",
+      "prompt_en": "How many servings of bulgogi?",
+      "audio_text": "불고기 3인분 주세요.",
+      "options": [
+        "3",
+        "2",
+        "1",
+        "4"
+      ],
+      "options_en": [
+        "3",
+        "2",
+        "1",
+        "4"
+      ],
+      "answers": [
+        "3"
+      ],
+      "audio": "d47ed6602d2a.mp3"
+    },
+    {
+      "id": "b1_u05_l2_e024",
+      "type": "listen_question",
+      "targets": [
+        "b1_u05_l2_g1",
+        "b1_u05_l2_g2"
+      ],
+      "prompt_uz": "Buyurtma qanday?",
+      "prompt_en": "What is the order?",
+      "audio_text": "라면 두 그릇하고 김밥 한 줄 주세요.",
+      "options": [
+        "2 kosa ramyon, 1 kimbap",
+        "1 kosa ramyon, 2 kimbap",
+        "2 kosa ramyon, 2 kimbap",
+        "1 kosa ramyon, 1 kimbap"
+      ],
+      "options_en": [
+        "2 ramyeon, 1 gimbap",
+        "1 ramyeon, 2 gimbap",
+        "2 ramyeon, 2 gimbap",
+        "1 ramyeon, 1 gimbap"
+      ],
+      "answers": [
+        "2 kosa ramyon, 1 kimbap"
+      ],
+      "audio": "214997b96da1.mp3"
+    },
+    {
+      "id": "b1_u05_l2_e101",
+      "type": "conjugate",
+      "targets": [
+        "b1_u05_l2_g1"
+      ],
+      "prompt_uz": "Sprayt: 'to'rt shisha'",
+      "prompt_en": "Soda: 'four bottles'",
+      "base": "사이다",
+      "form": "+ 넷 + 병",
+      "answers": [
+        "사이다 네 병"
+      ]
+    },
+    {
+      "id": "b1_u05_l2_e102",
+      "type": "conjugate",
+      "targets": [
+        "b1_u05_l2_g1"
+      ],
+      "prompt_uz": "Guruch: 'uch kosa'",
+      "prompt_en": "Rice: 'three bowls'",
+      "base": "밥",
+      "form": "+ 셋 + 그릇",
+      "answers": [
+        "밥 세 그릇"
+      ]
+    },
+    {
+      "id": "b1_u05_l2_e103",
+      "type": "conjugate",
+      "targets": [
+        "b1_u05_l2_g2"
+      ],
+      "prompt_uz": "Kimchi + guruch ('va')",
+      "prompt_en": "Kimchi + rice ('and')",
+      "base": "김치",
+      "form": "+ 하고 + 밥",
+      "answers": [
+        "김치하고 밥"
+      ]
+    },
+    {
+      "id": "b1_u05_l2_e104",
+      "type": "fill_blank",
+      "targets": [
+        "b1_u05_l2_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Bitta olma bering.'",
+      "prompt_en": "Fill in the blank: 'One apple, please.'",
+      "sentence": "사과 한 ___ 주세요.",
+      "answers": [
+        "개"
+      ]
+    },
+    {
+      "id": "b1_u05_l2_e105",
+      "type": "fill_blank",
+      "targets": [
+        "b1_u05_l2_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Do'stim bilan birga yeyman.'",
+      "prompt_en": "Fill in the blank: 'I eat with my friend.'",
+      "sentence": "친구___ 같이 먹어요.",
+      "answers": [
+        "하고"
+      ]
+    },
+    {
+      "id": "b1_u05_l2_e106",
+      "type": "situation_choice",
+      "targets": [
+        "b1_u05_l2_w028"
+      ],
+      "prompt_uz": "Ovqatni yeb bo'ldingiz. Xodimga nima deysiz?",
+      "prompt_en": "You've finished eating. What do you tell the staff?",
+      "options": [
+        "잘 먹었습니다.",
+        "잘 먹겠습니다.",
+        "맛있게 드세요.",
+        "어서 오세요."
+      ],
+      "answers": [
+        "잘 먹었습니다."
+      ]
+    },
+    {
+      "id": "b1_u05_l2_e107",
+      "type": "situation_choice",
+      "targets": [
+        "b1_u05_l2_g1"
+      ],
+      "prompt_uz": "Bir shisha ichimlik suvi kerak:",
+      "prompt_en": "You need a bottle of water:",
+      "options": [
+        "생수 한 병 주세요.",
+        "생수 한 그릇 주세요.",
+        "생수 하나 병 주세요.",
+        "한 병 생수 주세요."
+      ],
+      "answers": [
+        "생수 한 병 주세요."
+      ]
+    },
+    {
+      "id": "b1_u05_l2_e108",
+      "type": "situation_choice",
+      "targets": [
+        "b1_u05_l2_w026"
+      ],
+      "prompt_uz": "Koreys oshxonasida ayol xodimni chaqirasiz:",
+      "prompt_en": "In a Korean diner you call the woman serving:",
+      "options": [
+        "이모, 여기요!",
+        "이모, 어서 오세요!",
+        "이모, 잘 먹겠습니다!",
+        "이모, 앉으세요!"
+      ],
+      "answers": [
+        "이모, 여기요!"
+      ]
+    },
+    {
+      "id": "b1_u05_l2_e109",
+      "type": "find_error",
+      "targets": [
+        "b1_u05_l2_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "콜라 한 잔 병 주세요.",
+      "answers": [
+        "콜라 한 병 주세요"
+      ],
+      "why_uz": "Bitta sanoq so'z: 병.",
+      "why_en": "Only one counter: 병."
+    },
+    {
+      "id": "b1_u05_l2_e110",
+      "type": "find_error",
+      "targets": [
+        "b1_u05_l2_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "비빔밥 주세요하고 물 주세요.",
+      "answers": [
+        "비빔밥하고 물 주세요"
+      ],
+      "why_uz": "하고 faqat otlarni bog'laydi.",
+      "why_en": "하고 joins only nouns."
+    },
+    {
+      "id": "b1_u05_l2_e111",
+      "type": "translate",
+      "targets": [
+        "b1_u05_l2_g1"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Ikki rulet kimbap bering.",
+      "source_en": "Two rolls of gimbap, please.",
+      "answers": [
+        "김밥 두 줄 주세요"
+      ]
+    },
+    {
+      "id": "b1_u05_l2_e112",
+      "type": "translate",
+      "targets": [
+        "b1_u05_l2_g2",
+        "b1_u05_l2_g1"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Ramyon va bir shisha sprayt bering.",
+      "source_en": "Ramyeon and a bottle of soda, please.",
+      "answers": [
+        "라면하고 사이다 한 병 주세요"
+      ]
+    },
+    {
+      "id": "b1_u05_l2_e113",
+      "type": "build_sentence",
+      "targets": [
+        "b1_u05_l2_g1",
+        "b1_u05_l2_g2"
+      ],
+      "prompt_uz": "'Mandu va ikki shisha kola bering' gapini tuzing",
+      "prompt_en": "Build the sentence 'Dumplings and two bottles of cola, please'",
+      "tokens": [
+        "두",
+        "만두하고",
+        "병",
+        "주세요",
+        "콜라"
+      ],
+      "answers": [
+        "만두하고 콜라 두 병 주세요"
+      ]
+    },
+    {
+      "id": "b1_u05_l2_e114",
+      "type": "listen_question",
+      "targets": [
+        "b1_u05_l2_g1"
+      ],
+      "prompt_uz": "Nechta kosa?",
+      "prompt_en": "How many bowls?",
+      "audio_text": "냉면 두 그릇 주세요.",
+      "options": [
+        "2",
+        "1",
+        "3",
+        "4"
+      ],
+      "options_en": [
+        "2",
+        "1",
+        "3",
+        "4"
+      ],
+      "answers": [
+        "2"
+      ],
+      "audio": "eeda5df1ed36.mp3"
+    },
+    {
+      "id": "b1_u05_l2_e115",
+      "type": "listen_question",
+      "targets": [
+        "b1_u05_l2_g2"
+      ],
+      "prompt_uz": "U nima so'radi?",
+      "prompt_en": "What did they ask for?",
+      "audio_text": "포크하고 숟가락 좀 주세요.",
+      "options": [
+        "Vilka va qoshiq",
+        "Qoshiq va cho'p",
+        "Vilka va pichoq",
+        "Stakan va suv"
+      ],
+      "options_en": [
+        "A fork and a spoon",
+        "A spoon and chopsticks",
+        "A fork and a knife",
+        "A cup and water"
+      ],
+      "answers": [
+        "Vilka va qoshiq"
+      ],
+      "audio": "e7ba07e4846b.mp3"
+    }
+  ],
+  "test": [
+    "b1_u05_l2_e101",
+    "b1_u05_l2_e102",
+    "b1_u05_l2_e103",
+    "b1_u05_l2_e104",
+    "b1_u05_l2_e105",
+    "b1_u05_l2_e106",
+    "b1_u05_l2_e107",
+    "b1_u05_l2_e108",
+    "b1_u05_l2_e109",
+    "b1_u05_l2_e110",
+    "b1_u05_l2_e111",
+    "b1_u05_l2_e112",
+    "b1_u05_l2_e113",
+    "b1_u05_l2_e114",
+    "b1_u05_l2_e115"
+  ],
+  "story": {
+    "title_uz": "Koreys oshxonasida",
+    "title_en": "At a Korean diner",
+    "gate_uz": "OSHXONA",
+    "gate_en": "DINER",
+    "steps": [
+      {
+        "type": "line",
+        "speaker": "clerk",
+        "ko": "어서 오세요. 몇 분이세요?",
+        "uz": "Xush kelibsiz. Necha kishisiz?",
+        "en": "Welcome. How many are you?",
+        "audio": "6ce60b414214.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "두 명이에요.",
+        "uz": "Ikki kishimiz.",
+        "en": "Two of us.",
+        "audio": "d38976b82bbf.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "clerk",
+        "ko": "이쪽으로 앉으세요.",
+        "uz": "Bu tomonga o'tiring.",
+        "en": "Please sit this way.",
+        "audio": "c85274a6935b.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "아지즈 씨, 여기는 비빔밥이 유명해요.",
+        "uz": "Aziz, bu yerning pibimbapi mashhur.",
+        "en": "Aziz, this place is famous for its bibimbap.",
+        "audio": "ad0505255242.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "좋아요! 그리고 저는 콜라도 마셔요.",
+        "uz": "Zo'r! Men kola ham ichaman.",
+        "en": "Great! And I'll have a cola too.",
+        "audio": "f80493b95eab.mp3"
+      },
+      {
+        "type": "choose_reply",
+        "speaker": "aziz",
+        "prompt_uz": "Aziz 'Ikki kosa pibimbap va bir shisha kola bering' demoqchi.",
+        "prompt_en": "Aziz wants to say 'Two bowls of bibimbap and a bottle of cola, please'.",
+        "options": [
+          "비빔밥 두 그릇하고 콜라 한 병 주세요.",
+          "비빔밥 둘 그릇하고 콜라 하나 병 주세요.",
+          "두 그릇 비빔밥 하고 한 병 콜라 주세요."
+        ],
+        "answer": "비빔밥 두 그릇하고 콜라 한 병 주세요.",
+        "uz": "Ikki kosa pibimbap va bir shisha kola bering.",
+        "en": "Two bowls of bibimbap and a bottle of cola, please.",
+        "why_uz": "Narsa + son + sanoq so'z; 둘 → 두, 하나 → 한.",
+        "why_en": "Thing + number + counter; 둘 → 두, 하나 → 한.",
+        "audio": "b99cf171d42b.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "clerk",
+        "ko": "네, 잠시만 기다리세요.",
+        "uz": "Yaxshi, bir oz kuting.",
+        "en": "Sure, please wait a moment.",
+        "audio": "be755c95b10d.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "clerk",
+        "ko": "여기 있어요. 맛있게 드세요.",
+        "uz": "Mana. Yoqimli ishtaha.",
+        "en": "Here you are. Enjoy your meal.",
+        "audio": "1d3108989a54.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "잘 먹겠습니다! 와, 반찬이 많아요.",
+        "uz": "Rahmat, yeymiz! Voy, qo'shimcha taomlar ko'p ekan.",
+        "en": "Thanks for the meal! Wow, so many side dishes.",
+        "audio": "45a2f1e853f9.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "반찬은 무료예요. 김치 더 주세요, 이모!",
+        "uz": "Qo'shimcha taomlar bepul. Xola, yana kimchi bering!",
+        "en": "Side dishes are free. More kimchi, please, auntie!",
+        "audio": "fd9bf1ceb785.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "정말 맛있어요!",
+        "uz": "Juda mazali!",
+        "en": "It's really delicious!",
+        "audio": "86c2c9a94794.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "잘 먹었습니다. 계산해 주세요.",
+        "uz": "Rahmat, mazali bo'ldi. Hisobni bering.",
+        "en": "That was great. The bill, please.",
+        "audio": "164cf1aed87e.mp3"
+      },
+      {
+        "type": "quiz",
+        "prompt_uz": "Aziz nimani buyurtma qildi?",
+        "prompt_en": "What did Aziz order?",
+        "options": [
+          "2 pibimbap va 1 kola",
+          "1 pibimbap va 2 kola",
+          "Kimchi sho'rvasi va kola"
+        ],
+        "options_en": [
+          "2 bibimbap and 1 cola",
+          "1 bibimbap and 2 colas",
+          "Kimchi stew and cola"
+        ],
+        "answer": "2 pibimbap va 1 kola",
+        "why_uz": "비빔밥 두 그릇하고 콜라 한 병.",
+        "why_en": "비빔밥 두 그릇하고 콜라 한 병 — two bibimbap and one cola."
+      }
+    ]
+  }
+}

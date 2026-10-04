@@ -48,6 +48,13 @@
       "name_en": "Doctor",
       "name_ko": "의사",
       "voice": "male"
+    },
+    {
+      "id": "tingting",
+      "name_uz": "Tingting",
+      "name_en": "Tingting",
+      "name_ko": "팅팅",
+      "voice": "female"
     }
   ]
 }

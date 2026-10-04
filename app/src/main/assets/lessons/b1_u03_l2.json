@@ -1,0 +1,1444 @@
+{
+  "id": "b1_u03_l2",
+  "unit": 3,
+  "lesson": 2,
+  "title_ko": "팅팅 씨는 학생이에요?",
+  "title_uz": "Tingting, siz talabamisiz?",
+  "title_en": "Tingting, are you a student?",
+  "topic_uz": "Tanishuv",
+  "topic_en": "Introductions",
+  "reviewed": false,
+  "words": [
+    {
+      "id": "b1_u03_l2_w001",
+      "ko": "학생",
+      "uz": "talaba, o'quvchi",
+      "en": "student",
+      "pos": "ot",
+      "example_ko": "저는 학생이에요.",
+      "example_uz": "Men talabaman.",
+      "example_en": "I'm a student.",
+      "audio": "4335704b5990.mp3",
+      "example_audio": "3c7d9c470d12.mp3"
+    },
+    {
+      "id": "b1_u03_l2_w002",
+      "ko": "선생님",
+      "uz": "o'qituvchi",
+      "en": "teacher",
+      "pos": "ot",
+      "example_ko": "김 선생님은 한국어 선생님이에요.",
+      "example_uz": "Kim muallim — koreys tili o'qituvchisi.",
+      "example_en": "Mr Kim is a Korean teacher.",
+      "audio": "de03c8394ec0.mp3",
+      "example_audio": "52239842cdd9.mp3"
+    },
+    {
+      "id": "b1_u03_l2_w003",
+      "ko": "회사원",
+      "uz": "kompaniya xodimi",
+      "en": "office worker",
+      "pos": "ot",
+      "example_ko": "제 형은 회사원이에요.",
+      "example_uz": "Akam kompaniya xodimi.",
+      "example_en": "My older brother is an office worker.",
+      "audio": "d4eb6aaadd0d.mp3",
+      "example_audio": "f3daf9ecf0bd.mp3"
+    },
+    {
+      "id": "b1_u03_l2_w004",
+      "ko": "의사",
+      "uz": "shifokor",
+      "en": "doctor",
+      "pos": "ot",
+      "example_ko": "어머니는 의사예요.",
+      "example_uz": "Onam shifokor.",
+      "example_en": "My mother is a doctor.",
+      "audio": "790fb92e1d8e.mp3",
+      "example_audio": "569f2324bfba.mp3"
+    },
+    {
+      "id": "b1_u03_l2_w005",
+      "ko": "간호사",
+      "uz": "hamshira",
+      "en": "nurse",
+      "pos": "ot",
+      "example_ko": "제 친구는 간호사예요.",
+      "example_uz": "Do'stim hamshira.",
+      "example_en": "My friend is a nurse.",
+      "audio": "015d57f8da46.mp3",
+      "example_audio": "584a66b1dd50.mp3"
+    },
+    {
+      "id": "b1_u03_l2_w006",
+      "ko": "요리사",
+      "uz": "oshpaz",
+      "en": "cook, chef",
+      "pos": "ot",
+      "example_ko": "아버지는 요리사예요.",
+      "example_uz": "Otam oshpaz.",
+      "example_en": "My father is a chef.",
+      "audio": "50cb443a3a3e.mp3",
+      "example_audio": "91dbd0ebe751.mp3"
+    },
+    {
+      "id": "b1_u03_l2_w007",
+      "ko": "가수",
+      "uz": "qo'shiqchi",
+      "en": "singer",
+      "pos": "ot",
+      "example_ko": "그 사람은 유명한 가수예요.",
+      "example_uz": "U mashhur qo'shiqchi.",
+      "example_en": "That person is a famous singer.",
+      "audio": "2f8f13bad447.mp3",
+      "example_audio": "e94e2494b3ba.mp3"
+    },
+    {
+      "id": "b1_u03_l2_w008",
+      "ko": "배우",
+      "uz": "aktyor",
+      "en": "actor",
+      "pos": "ot",
+      "example_ko": "민호 씨는 배우예요?",
+      "example_uz": "Minho aktyormi?",
+      "example_en": "Is Minho an actor?",
+      "audio": "acf95a4868c9.mp3",
+      "example_audio": "206b9a896ed2.mp3"
+    },
+    {
+      "id": "b1_u03_l2_w009",
+      "ko": "경찰관",
+      "uz": "politsiyachi",
+      "en": "police officer",
+      "pos": "ot",
+      "example_ko": "삼촌은 경찰관이에요.",
+      "example_uz": "Amakim politsiyachi.",
+      "example_en": "My uncle is a police officer.",
+      "audio": "ff5a1eac31a4.mp3",
+      "example_audio": "60a36ce4c252.mp3"
+    },
+    {
+      "id": "b1_u03_l2_w010",
+      "ko": "기자",
+      "uz": "jurnalist",
+      "en": "journalist",
+      "pos": "ot",
+      "example_ko": "저는 기자가 아니에요.",
+      "example_uz": "Men jurnalist emasman.",
+      "example_en": "I'm not a journalist.",
+      "audio": "8502cfb045fd.mp3",
+      "example_audio": "b0b591daca54.mp3"
+    },
+    {
+      "id": "b1_u03_l2_w011",
+      "ko": "운전기사",
+      "uz": "haydovchi",
+      "en": "driver",
+      "pos": "ot",
+      "example_ko": "버스 운전기사예요.",
+      "example_uz": "Avtobus haydovchisiman.",
+      "example_en": "I'm a bus driver.",
+      "audio": "f5008ca27a7e.mp3",
+      "example_audio": "93bc6ad60114.mp3"
+    },
+    {
+      "id": "b1_u03_l2_w012",
+      "ko": "주부",
+      "uz": "uy bekasi",
+      "en": "homemaker",
+      "pos": "ot",
+      "example_ko": "어머니는 주부예요.",
+      "example_uz": "Onam uy bekasi.",
+      "example_en": "My mother is a homemaker.",
+      "audio": "3653db0ca515.mp3",
+      "example_audio": "5bdb1223a5f0.mp3"
+    },
+    {
+      "id": "b1_u03_l2_w013",
+      "ko": "은행원",
+      "uz": "bank xodimi",
+      "en": "bank clerk",
+      "pos": "ot",
+      "example_ko": "누나는 은행원이에요.",
+      "example_uz": "Opam bank xodimi.",
+      "example_en": "My older sister is a bank clerk.",
+      "audio": "3578e31011a8.mp3",
+      "example_audio": "f6fdc51040eb.mp3"
+    },
+    {
+      "id": "b1_u03_l2_w014",
+      "ko": "공무원",
+      "uz": "davlat xizmatchisi",
+      "en": "civil servant",
+      "pos": "ot",
+      "example_ko": "아버지는 공무원이에요.",
+      "example_uz": "Otam davlat xizmatchisi.",
+      "example_en": "My father is a civil servant.",
+      "audio": "1bd11ecaa9ea.mp3",
+      "example_audio": "e495092cdec4.mp3"
+    },
+    {
+      "id": "b1_u03_l2_w015",
+      "ko": "군인",
+      "uz": "harbiy, askar",
+      "en": "soldier",
+      "pos": "ot",
+      "example_ko": "제 동생은 군인이에요.",
+      "example_uz": "Ukam harbiy.",
+      "example_en": "My younger brother is a soldier.",
+      "audio": "85d9e51ccda1.mp3",
+      "example_audio": "19b276698447.mp3"
+    },
+    {
+      "id": "b1_u03_l2_w016",
+      "ko": "변호사",
+      "uz": "advokat",
+      "en": "lawyer",
+      "pos": "ot",
+      "example_ko": "변호사가 아니에요. 판사예요.",
+      "example_uz": "Advokat emas, sudya.",
+      "example_en": "Not a lawyer. A judge.",
+      "audio": "d3eb6adf1e2a.mp3",
+      "example_audio": "0940f652a780.mp3"
+    },
+    {
+      "id": "b1_u03_l2_w017",
+      "ko": "디자이너",
+      "uz": "dizayner",
+      "en": "designer",
+      "pos": "ot",
+      "example_ko": "팅팅 씨는 디자이너예요?",
+      "example_uz": "Tingting dizaynermi?",
+      "example_en": "Is Tingting a designer?",
+      "audio": "30572f00d336.mp3",
+      "example_audio": "dcc84f3c0e7a.mp3"
+    },
+    {
+      "id": "b1_u03_l2_w018",
+      "ko": "프로그래머",
+      "uz": "dasturchi",
+      "en": "programmer",
+      "pos": "ot",
+      "example_ko": "저는 프로그래머예요.",
+      "example_uz": "Men dasturchiman.",
+      "example_en": "I'm a programmer.",
+      "audio": "e1fc4471520f.mp3",
+      "example_audio": "1c1e86e405ee.mp3"
+    },
+    {
+      "id": "b1_u03_l2_w019",
+      "ko": "작가",
+      "uz": "yozuvchi",
+      "en": "writer",
+      "pos": "ot",
+      "example_ko": "그분은 작가예요.",
+      "example_uz": "U kishi yozuvchi.",
+      "example_en": "That person is a writer.",
+      "audio": "7d5f4323475d.mp3",
+      "example_audio": "edb6ac39a30a.mp3"
+    },
+    {
+      "id": "b1_u03_l2_w020",
+      "ko": "대학생",
+      "uz": "talaba (universitet)",
+      "en": "university student",
+      "pos": "ot",
+      "example_ko": "민지 씨는 대학생이에요.",
+      "example_uz": "Minji universitet talabasi.",
+      "example_en": "Minji is a university student.",
+      "audio": "975d3f4c48c2.mp3",
+      "example_audio": "ca6983c2fa1a.mp3"
+    },
+    {
+      "id": "b1_u03_l2_w021",
+      "ko": "대학교",
+      "uz": "universitet",
+      "en": "university",
+      "pos": "ot",
+      "example_ko": "서울대학교 학생이에요.",
+      "example_uz": "Seul universiteti talabasiman.",
+      "example_en": "I'm a student at Seoul National University.",
+      "audio": "97895888244b.mp3",
+      "example_audio": "687c438e003c.mp3"
+    },
+    {
+      "id": "b1_u03_l2_w022",
+      "ko": "회사",
+      "uz": "kompaniya, firma",
+      "en": "company",
+      "pos": "ot",
+      "example_ko": "회사가 어디예요?",
+      "example_uz": "Kompaniyangiz qayerda?",
+      "example_en": "Where is your company?",
+      "audio": "70641ecb6999.mp3",
+      "example_audio": "8ae14094242e.mp3"
+    },
+    {
+      "id": "b1_u03_l2_w023",
+      "ko": "병원",
+      "uz": "kasalxona",
+      "en": "hospital",
+      "pos": "ot",
+      "example_ko": "여기는 병원이에요.",
+      "example_uz": "Bu yer kasalxona.",
+      "example_en": "This is a hospital.",
+      "audio": "96bc7a6ea376.mp3",
+      "example_audio": "cc2801584962.mp3"
+    },
+    {
+      "id": "b1_u03_l2_w024",
+      "ko": "은행",
+      "uz": "bank",
+      "en": "bank",
+      "pos": "ot",
+      "example_ko": "저기는 은행이 아니에요.",
+      "example_uz": "U yer bank emas.",
+      "example_en": "That's not a bank.",
+      "audio": "2d0a2d693302.mp3",
+      "example_audio": "fafa46e64593.mp3"
+    },
+    {
+      "id": "b1_u03_l2_w025",
+      "ko": "식당",
+      "uz": "oshxona, restoran",
+      "en": "restaurant",
+      "pos": "ot",
+      "example_ko": "여기는 한국 식당이에요.",
+      "example_uz": "Bu yer koreys restorani.",
+      "example_en": "This is a Korean restaurant.",
+      "audio": "f7d9a22159a5.mp3",
+      "example_audio": "268d135470c1.mp3"
+    },
+    {
+      "id": "b1_u03_l2_w026",
+      "ko": "직업",
+      "uz": "kasb",
+      "en": "occupation",
+      "pos": "ot",
+      "example_ko": "직업이 뭐예요?",
+      "example_uz": "Kasbingiz nima?",
+      "example_en": "What do you do?",
+      "audio": "e2a91adc826f.mp3",
+      "example_audio": "04db13190586.mp3"
+    },
+    {
+      "id": "b1_u03_l2_w027",
+      "ko": "누구",
+      "uz": "kim",
+      "en": "who",
+      "pos": "olmosh",
+      "example_ko": "저 사람은 누구예요?",
+      "example_uz": "U odam kim?",
+      "example_en": "Who is that person?",
+      "audio": "92e586009f72.mp3",
+      "example_audio": "5ad7bbfd1d05.mp3"
+    },
+    {
+      "id": "b1_u03_l2_w028",
+      "ko": "그럼",
+      "uz": "unda, bo'lmasa",
+      "en": "then, in that case",
+      "pos": "ravish",
+      "example_ko": "그럼 직업이 뭐예요?",
+      "example_uz": "Unda kasbingiz nima?",
+      "example_en": "Then what do you do?",
+      "audio": "4a1a7f0f703e.mp3",
+      "example_audio": "28b9b1d0c639.mp3"
+    },
+    {
+      "id": "b1_u03_l2_w029",
+      "ko": "이분",
+      "uz": "bu kishi",
+      "en": "this person (polite)",
+      "pos": "olmosh",
+      "example_ko": "이분은 김 선생님이에요.",
+      "example_uz": "Bu kishi — Kim muallim.",
+      "example_en": "This is Mr Kim.",
+      "audio": "736e114b08e7.mp3",
+      "example_audio": "9b8a7c0c531e.mp3"
+    },
+    {
+      "id": "b1_u03_l2_w030",
+      "ko": "저분",
+      "uz": "u kishi (uzoqdagi)",
+      "en": "that person over there (polite)",
+      "pos": "olmosh",
+      "example_ko": "저분은 누구예요?",
+      "example_uz": "U kishi kim?",
+      "example_en": "Who is that person over there?",
+      "audio": "176e5be86422.mp3",
+      "example_audio": "05595a2b035a.mp3"
+    },
+    {
+      "id": "b1_u03_l2_w031",
+      "ko": "유학생",
+      "uz": "chet ellik talaba",
+      "en": "international student",
+      "pos": "ot",
+      "example_ko": "아지즈 씨는 유학생이에요.",
+      "example_uz": "Aziz chet ellik talaba.",
+      "example_en": "Aziz is an international student.",
+      "audio": "e50ceb6528d5.mp3",
+      "example_audio": "4aa509075545.mp3"
+    },
+    {
+      "id": "b1_u03_l2_w032",
+      "ko": "반",
+      "uz": "sinf, guruh",
+      "en": "class (group)",
+      "pos": "ot",
+      "example_ko": "우리 반 친구예요.",
+      "example_uz": "Bizning sinfdoshimiz.",
+      "example_en": "She's a classmate.",
+      "audio": "b1b96b39ebfe.mp3",
+      "example_audio": "368019f891b7.mp3"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "b1_u03_l2_g1",
+      "pattern": "N은/는",
+      "meaning_uz": "Mavzu qo'shimchasi: ... esa, ... haqida",
+      "meaning_en": "Topic marker: as for N",
+      "explanation_md": "**은/는** gapning **mavzusini** — nima yoki kim haqida gapirayotganimizni — ko'rsatadi.\n\n**팅팅 씨는 학생이에요.** — *Tingting (esa) talaba.*\n\n### Qanday yasaladi\n\n- Ot **받침 bilan tugasa** → **-은**: 선생님 → **선생님은**, 이름 → **이름은**\n- Ot **unli bilan tugasa** → **-는**: 저 → **저는**, 팅팅 씨 → **팅팅 씨는**\n\n### Esda tuting\n\n- 은/는 ko'pincha **qarama-qarshi qo'yishda** ishlatiladi: **저는 학생이에요. 민지 씨는 회사원이에요.** — *Men talabaman, Minji esa xodim.*\n- Yangi mavzuni boshlaganda 은/는 qo'yiladi: **이분은 김 선생님이에요.**",
+      "explanation_md_en": "**은/는** marks the **topic** of the sentence: who or what you are talking about.\n\n**팅팅 씨는 학생이에요.** — *As for Tingting, she's a student.*\n\n### How to form it\n\n- Noun **ends in 받침** → **-은**: 선생님 → **선생님은**, 이름 → **이름은**\n- Noun **ends in a vowel** → **-는**: 저 → **저는**, 팅팅 씨 → **팅팅 씨는**\n\n### Remember\n\n- 은/는 often **contrasts** things: **저는 학생이에요. 민지 씨는 회사원이에요.** — *I'm a student; Minji, on the other hand, is an office worker.*\n- Use it to bring up a new topic: **이분은 김 선생님이에요.**",
+      "formation": [
+        {
+          "condition_uz": "받침 bor",
+          "condition_en": "With 받침",
+          "rule": "N + 은",
+          "example": "선생님 → 선생님은, 이름 → 이름은"
+        },
+        {
+          "condition_uz": "받침 yo'q",
+          "condition_en": "No 받침",
+          "rule": "N + 는",
+          "example": "저 → 저는, 의사 → 의사는"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "팅팅 씨는 학생이에요.",
+          "uz": "Tingting talaba.",
+          "en": "Tingting is a student.",
+          "audio": "d9195a8141a5.mp3"
+        },
+        {
+          "ko": "이분은 김 선생님이에요.",
+          "uz": "Bu kishi — Kim muallim.",
+          "en": "This is Mr Kim.",
+          "audio": "9b8a7c0c531e.mp3"
+        },
+        {
+          "ko": "저는 유학생이에요.",
+          "uz": "Men chet ellik talabaman.",
+          "en": "I'm an international student.",
+          "audio": "8330b897e21e.mp3"
+        },
+        {
+          "ko": "제 직업은 요리사예요.",
+          "uz": "Mening kasbim — oshpaz.",
+          "en": "My job is cook.",
+          "audio": "6ca9238ad918.mp3"
+        },
+        {
+          "ko": "민지 씨는 대학생이에요.",
+          "uz": "Minji universitet talabasi.",
+          "en": "Minji is a university student.",
+          "audio": "ca6983c2fa1a.mp3"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "선생님는 한국 사람이에요.",
+          "right": "선생님은 한국 사람이에요.",
+          "why_uz": "선생님 받침 bilan tugaydi: 선생님은.",
+          "why_en": "선생님 ends in 받침: 선생님은."
+        },
+        {
+          "wrong": "저은 학생이에요.",
+          "right": "저는 학생이에요.",
+          "why_uz": "저 unli bilan tugaydi: 저는.",
+          "why_en": "저 ends in a vowel: 저는."
+        },
+        {
+          "wrong": "이름는 아지즈예요.",
+          "right": "이름은 아지즈예요.",
+          "why_uz": "이름 받침 bilan tugaydi: 이름은.",
+          "why_en": "이름 ends in 받침: 이름은."
+        }
+      ],
+      "uz_compare": "O'zbekchadagi '... esa' yoki '... bo'lsa' ga o'xshaydi: 'Men esa talabaman' = 저는 학생이에요. Lekin koreyschada 은/는 deyarli har bir tanishtirish gapida turadi, o'zbekchada esa 'esa' faqat qarama-qarshi qo'yganda aytiladi.",
+      "compare_en": "It's close to English 'as for …': 'As for me, I'm a student' = 저는 학생이에요. But Korean puts 은/는 in almost every introduction sentence, while English rarely says 'as for'."
+    },
+    {
+      "id": "b1_u03_l2_g2",
+      "pattern": "N이/가 아니에요",
+      "meaning_uz": "... emas: inkor",
+      "meaning_en": "Is not N: negation",
+      "explanation_md": "**N이/가 아니에요** — \"... emas\". Bu **N이에요/예요** ning inkor shakli.\n\n**저는 중국 사람이 아니에요.** — *Men xitoylik emasman.*\n\n### Qanday yasaladi\n\n- Ot **받침 bilan tugasa** → **이 아니에요**: 학생 → **학생이 아니에요**\n- Ot **unli bilan tugasa** → **가 아니에요**: 의사 → **의사가 아니에요**\n\n### Javob berish\n\n- **팅팅 씨는 학생이에요?** — *Tingting, siz talabamisiz?*\n- **아니요, 학생이 아니에요. 디자이너예요.** — *Yo'q, talaba emasman. Dizaynerman.*\n\n### Esda tuting\n\n- **아니에요** alohida so'z sifatida yoziladi: 학생이 **아니에요** (bo'sh joy bilan).\n- Inkordan keyin odatda to'g'ri javob aytiladi.",
+      "explanation_md_en": "**N이/가 아니에요** means \"is not N\". It is the negative of **N이에요/예요**.\n\n**저는 중국 사람이 아니에요.** — *I'm not Chinese.*\n\n### How to form it\n\n- Noun **ends in 받침** → **이 아니에요**: 학생 → **학생이 아니에요**\n- Noun **ends in a vowel** → **가 아니에요**: 의사 → **의사가 아니에요**\n\n### Answering\n\n- **팅팅 씨는 학생이에요?** — *Tingting, are you a student?*\n- **아니요, 학생이 아니에요. 디자이너예요.** — *No, I'm not a student. I'm a designer.*\n\n### Remember\n\n- **아니에요** is written as a separate word: 학생이 **아니에요** (with a space).\n- After a negative answer, people usually give the right answer.",
+      "formation": [
+        {
+          "condition_uz": "받침 bor",
+          "condition_en": "With 받침",
+          "rule": "N + 이 아니에요",
+          "example": "학생 → 학생이 아니에요"
+        },
+        {
+          "condition_uz": "받침 yo'q",
+          "condition_en": "No 받침",
+          "rule": "N + 가 아니에요",
+          "example": "의사 → 의사가 아니에요, 가수 → 가수가 아니에요"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "저는 중국 사람이 아니에요.",
+          "uz": "Men xitoylik emasman.",
+          "en": "I'm not Chinese.",
+          "audio": "229d0c817086.mp3"
+        },
+        {
+          "ko": "팅팅 씨는 학생이 아니에요.",
+          "uz": "Tingting talaba emas.",
+          "en": "Tingting is not a student.",
+          "audio": "05055e29e4e2.mp3"
+        },
+        {
+          "ko": "이분은 의사가 아니에요. 간호사예요.",
+          "uz": "Bu kishi shifokor emas, hamshira.",
+          "en": "This person isn't a doctor. She's a nurse.",
+          "audio": "745ed7256faf.mp3"
+        },
+        {
+          "ko": "저기는 은행이 아니에요.",
+          "uz": "U yer bank emas.",
+          "en": "That's not a bank.",
+          "audio": "fafa46e64593.mp3"
+        },
+        {
+          "ko": "아니요, 가수가 아니에요. 배우예요.",
+          "uz": "Yo'q, qo'shiqchi emas, aktyor.",
+          "en": "No, not a singer. An actor.",
+          "audio": "3db1d39b094f.mp3"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "의사이 아니에요.",
+          "right": "의사가 아니에요.",
+          "why_uz": "의사 unli bilan tugaydi: 의사가.",
+          "why_en": "의사 ends in a vowel: 의사가."
+        },
+        {
+          "wrong": "학생가 아니에요.",
+          "right": "학생이 아니에요.",
+          "why_uz": "학생 받침 bilan tugaydi: 학생이.",
+          "why_en": "학생 ends in 받침: 학생이."
+        },
+        {
+          "wrong": "학생이아니에요.",
+          "right": "학생이 아니에요.",
+          "why_uz": "아니에요 alohida yoziladi.",
+          "why_en": "아니에요 is written as a separate word."
+        }
+      ],
+      "uz_compare": "O'zbekchadagi 'emas' ga to'liq mos keladi: 'talaba EMAS' = 학생이 아니에요. Farqi: koreyschada otga 이/가 qo'shiladi.",
+      "compare_en": "It matches English 'is not': 'not a student' = 학생이 아니에요. The difference is that the noun takes 이/가 before 아니에요."
+    }
+  ],
+  "dialogue": {
+    "lines": [
+      {
+        "speaker": "aziz",
+        "ko": "민지 씨, 이분은 누구예요?",
+        "uz": "Minji, bu kishi kim?",
+        "en": "Minji, who is this?",
+        "audio": "c11076049530.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "이분은 팅팅 씨예요. 제 친구예요.",
+        "uz": "Bu — Tingting. Mening do'stim.",
+        "en": "This is Tingting. She's my friend.",
+        "audio": "d952a9a32411.mp3"
+      },
+      {
+        "speaker": "tingting",
+        "ko": "안녕하세요? 저는 팅팅이에요. 중국 사람이에요.",
+        "uz": "Salom! Men Tingtingman. Xitoylikman.",
+        "en": "Hello! I'm Tingting. I'm Chinese.",
+        "audio": "9bbf93459d86.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "반갑습니다. 저는 아지즈예요. 팅팅 씨는 학생이에요?",
+        "uz": "Xursandman. Men Azizman. Tingting, siz talabamisiz?",
+        "en": "Nice to meet you. I'm Aziz. Tingting, are you a student?",
+        "audio": "eee726afdd4e.mp3"
+      },
+      {
+        "speaker": "tingting",
+        "ko": "아니요, 학생이 아니에요. 디자이너예요.",
+        "uz": "Yo'q, talaba emasman. Dizaynerman.",
+        "en": "No, I'm not a student. I'm a designer.",
+        "audio": "65346525708e.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "아, 디자이너예요? 회사원이에요?",
+        "uz": "A, dizaynermisiz? Kompaniyada ishlaysizmi?",
+        "en": "Oh, a designer? Do you work for a company?",
+        "audio": "5121f4abe9e3.mp3"
+      },
+      {
+        "speaker": "tingting",
+        "ko": "네, 회사원이에요. 아지즈 씨는 직업이 뭐예요?",
+        "uz": "Ha, kompaniya xodimiman. Aziz, kasbingiz nima?",
+        "en": "Yes, I'm an office worker. Aziz, what do you do?",
+        "audio": "7ff026d6f575.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "저는 유학생이에요. 서울대학교 학생이에요.",
+        "uz": "Men chet ellik talabaman. Seul universiteti talabasiman.",
+        "en": "I'm an international student at Seoul National University.",
+        "audio": "a7ae4150580e.mp3"
+      },
+      {
+        "speaker": "tingting",
+        "ko": "민지 씨는 회사원이에요?",
+        "uz": "Minji, siz kompaniya xodimimisiz?",
+        "en": "Minji, are you an office worker?",
+        "audio": "f7b47966e64e.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "아니요, 저는 회사원이 아니에요. 대학생이에요.",
+        "uz": "Yo'q, men xodim emasman. Universitet talabasiman.",
+        "en": "No, I'm not an office worker. I'm a university student.",
+        "audio": "e3fd97cf7c58.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "그럼 민지 씨하고 저는 학생이에요!",
+        "uz": "Unda Minji ikkimiz talabamiz!",
+        "en": "Then Minji and I are both students!",
+        "audio": "9983e6bba8c8.mp3"
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b1_u03_l2_e001",
+      "type": "conjugate",
+      "targets": [
+        "b1_u03_l2_g1"
+      ],
+      "prompt_uz": "'O'qituvchi' + mavzu qo'shimchasi",
+      "prompt_en": "'teacher' + topic marker",
+      "base": "선생님",
+      "form": "-은/는",
+      "answers": [
+        "선생님은"
+      ],
+      "hint_uz": "받침 bor → -은",
+      "hint_en": "With 받침 → -은"
+    },
+    {
+      "id": "b1_u03_l2_e002",
+      "type": "conjugate",
+      "targets": [
+        "b1_u03_l2_g1"
+      ],
+      "prompt_uz": "'Men' + mavzu qo'shimchasi",
+      "prompt_en": "'I' + topic marker",
+      "base": "저",
+      "form": "-은/는",
+      "answers": [
+        "저는"
+      ]
+    },
+    {
+      "id": "b1_u03_l2_e003",
+      "type": "conjugate",
+      "targets": [
+        "b1_u03_l2_g2"
+      ],
+      "prompt_uz": "'Talaba emas' shaklini yasang",
+      "prompt_en": "Make 'is not a student'",
+      "base": "학생",
+      "form": "-이/가 아니에요",
+      "answers": [
+        "학생이 아니에요"
+      ]
+    },
+    {
+      "id": "b1_u03_l2_e004",
+      "type": "conjugate",
+      "targets": [
+        "b1_u03_l2_g2"
+      ],
+      "prompt_uz": "'Shifokor emas' shaklini yasang",
+      "prompt_en": "Make 'is not a doctor'",
+      "base": "의사",
+      "form": "-이/가 아니에요",
+      "answers": [
+        "의사가 아니에요"
+      ],
+      "hint_uz": "Unli bilan tugaydi → 가",
+      "hint_en": "Ends in a vowel → 가"
+    },
+    {
+      "id": "b1_u03_l2_e005",
+      "type": "fill_blank",
+      "targets": [
+        "b1_u03_l2_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Bu kishi — Kim muallim.'",
+      "prompt_en": "Fill in the blank: 'This is Mr Kim.'",
+      "sentence": "이분___ 김 선생님이에요.",
+      "answers": [
+        "은"
+      ]
+    },
+    {
+      "id": "b1_u03_l2_e006",
+      "type": "fill_blank",
+      "targets": [
+        "b1_u03_l2_g1",
+        "b1_u03_l2_w026"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Mening kasbim — oshpaz.'",
+      "prompt_en": "Fill in the blank: 'My job is cook.'",
+      "sentence": "제 직업___ 요리사예요.",
+      "answers": [
+        "은"
+      ]
+    },
+    {
+      "id": "b1_u03_l2_e007",
+      "type": "fill_blank",
+      "targets": [
+        "b1_u03_l2_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Men qo'shiqchi emasman.'",
+      "prompt_en": "Fill in the blank: 'I'm not a singer.'",
+      "sentence": "저는 가수___ 아니에요.",
+      "answers": [
+        "가"
+      ]
+    },
+    {
+      "id": "b1_u03_l2_e008",
+      "type": "fill_blank",
+      "targets": [
+        "b1_u03_l2_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'U yer bank emas.'",
+      "prompt_en": "Fill in the blank: 'That's not a bank.'",
+      "sentence": "저기는 은행이 ___.",
+      "answers": [
+        "아니에요"
+      ]
+    },
+    {
+      "id": "b1_u03_l2_e009",
+      "type": "situation_choice",
+      "targets": [
+        "b1_u03_l2_g2"
+      ],
+      "prompt_uz": "'Siz shifokormisiz?' — siz hamshirasiz. Javob bering:",
+      "prompt_en": "'Are you a doctor?' — you're a nurse. Answer:",
+      "options": [
+        "아니요, 의사가 아니에요. 간호사예요.",
+        "네, 의사가 아니에요.",
+        "아니요, 의사이 아니에요. 간호사예요.",
+        "아니요, 간호사가 아니에요."
+      ],
+      "answers": [
+        "아니요, 의사가 아니에요. 간호사예요."
+      ]
+    },
+    {
+      "id": "b1_u03_l2_e010",
+      "type": "situation_choice",
+      "targets": [
+        "b1_u03_l2_w027"
+      ],
+      "prompt_uz": "Uzoqda turgan notanish kishi haqida so'rang:",
+      "prompt_en": "Ask about a stranger standing over there:",
+      "options": [
+        "저 사람은 누구예요?",
+        "저는 누구예요?",
+        "누구는 저 사람이에요?",
+        "저 사람이 뭐예요?"
+      ],
+      "answers": [
+        "저 사람은 누구예요?"
+      ]
+    },
+    {
+      "id": "b1_u03_l2_e011",
+      "type": "situation_choice",
+      "targets": [
+        "b1_u03_l2_w026",
+        "b1_u03_l2_g2"
+      ],
+      "prompt_uz": "Yangi tanishingizning kasbini so'rang:",
+      "prompt_en": "Ask a new acquaintance about their job:",
+      "options": [
+        "직업이 뭐예요?",
+        "직업은 누구예요?",
+        "직업이 아니에요?",
+        "뭐가 직업이에요?"
+      ],
+      "answers": [
+        "직업이 뭐예요?"
+      ]
+    },
+    {
+      "id": "b1_u03_l2_e012",
+      "type": "find_error",
+      "targets": [
+        "b1_u03_l2_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "선생님는 한국 사람이에요.",
+      "answers": [
+        "선생님은 한국 사람이에요"
+      ],
+      "why_uz": "선생님 받침 bilan tugaydi: 선생님은.",
+      "why_en": "선생님 ends in 받침: 선생님은."
+    },
+    {
+      "id": "b1_u03_l2_e013",
+      "type": "find_error",
+      "targets": [
+        "b1_u03_l2_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "저는 의사이 아니에요.",
+      "answers": [
+        "저는 의사가 아니에요"
+      ],
+      "why_uz": "의사 unli bilan tugaydi: 의사가 아니에요.",
+      "why_en": "의사 ends in a vowel: 의사가 아니에요."
+    },
+    {
+      "id": "b1_u03_l2_e014",
+      "type": "find_error",
+      "targets": [
+        "b1_u03_l2_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "팅팅 씨는 학생가 아니에요.",
+      "answers": [
+        "팅팅 씨는 학생이 아니에요"
+      ],
+      "why_uz": "학생 받침 bilan tugaydi: 학생이 아니에요.",
+      "why_en": "학생 ends in 받침: 학생이 아니에요."
+    },
+    {
+      "id": "b1_u03_l2_e015",
+      "type": "translate",
+      "targets": [
+        "b1_u03_l2_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Men xitoylik emasman.",
+      "source_en": "I'm not Chinese.",
+      "answers": [
+        "저는 중국 사람이 아니에요",
+        "중국 사람이 아니에요"
+      ]
+    },
+    {
+      "id": "b1_u03_l2_e016",
+      "type": "translate",
+      "targets": [
+        "b1_u03_l2_g1"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Minji bank xodimi.",
+      "source_en": "Minji is a bank clerk.",
+      "answers": [
+        "민지 씨는 은행원이에요"
+      ]
+    },
+    {
+      "id": "b1_u03_l2_e017",
+      "type": "translate",
+      "targets": [
+        "b1_u03_l2_g1",
+        "b1_u03_l2_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Tingting talaba emas.",
+      "source_en": "Tingting is not a student.",
+      "answers": [
+        "팅팅 씨는 학생이 아니에요"
+      ]
+    },
+    {
+      "id": "b1_u03_l2_e018",
+      "type": "build_sentence",
+      "targets": [
+        "b1_u03_l2_g2"
+      ],
+      "prompt_uz": "'Yo'q, talaba emasman' gapini tuzing",
+      "prompt_en": "Build the sentence 'No, I'm not a student'",
+      "tokens": [
+        "학생이",
+        "아니요,",
+        "아니에요"
+      ],
+      "answers": [
+        "아니요, 학생이 아니에요"
+      ]
+    },
+    {
+      "id": "b1_u03_l2_e019",
+      "type": "build_sentence",
+      "targets": [
+        "b1_u03_l2_g1"
+      ],
+      "prompt_uz": "'Bu kishi — Kim muallim' gapini tuzing",
+      "prompt_en": "Build the sentence 'This is Mr Kim'",
+      "tokens": [
+        "선생님이에요",
+        "김",
+        "이분은"
+      ],
+      "answers": [
+        "이분은 김 선생님이에요"
+      ]
+    },
+    {
+      "id": "b1_u03_l2_e020",
+      "type": "build_sentence",
+      "targets": [
+        "b1_u03_l2_g1",
+        "b1_u03_l2_w031"
+      ],
+      "prompt_uz": "'Aziz chet ellik talaba' gapini tuzing",
+      "prompt_en": "Build the sentence 'Aziz is an international student'",
+      "tokens": [
+        "아지즈",
+        "유학생이에요",
+        "씨는"
+      ],
+      "answers": [
+        "아지즈 씨는 유학생이에요"
+      ]
+    },
+    {
+      "id": "b1_u03_l2_e021",
+      "type": "listen_question",
+      "targets": [
+        "b1_u03_l2_g1"
+      ],
+      "prompt_uz": "Uning kasbi nima?",
+      "prompt_en": "What is the speaker's job?",
+      "audio_text": "저는 마이클이에요. 제 직업은 요리사예요.",
+      "options": [
+        "Oshpaz",
+        "Shifokor",
+        "Haydovchi",
+        "Talaba"
+      ],
+      "options_en": [
+        "Cook",
+        "Doctor",
+        "Driver",
+        "Student"
+      ],
+      "answers": [
+        "Oshpaz"
+      ],
+      "audio": "55f6d7cac0ec.mp3"
+    },
+    {
+      "id": "b1_u03_l2_e022",
+      "type": "listen_question",
+      "targets": [
+        "b1_u03_l2_g2"
+      ],
+      "prompt_uz": "U kim emas?",
+      "prompt_en": "What is the speaker NOT?",
+      "audio_text": "저는 가수가 아니에요. 배우예요.",
+      "options": [
+        "Qo'shiqchi",
+        "Aktyor",
+        "Yozuvchi",
+        "Jurnalist"
+      ],
+      "options_en": [
+        "A singer",
+        "An actor",
+        "A writer",
+        "A journalist"
+      ],
+      "answers": [
+        "Qo'shiqchi"
+      ],
+      "audio": "a974fb2d89be.mp3"
+    },
+    {
+      "id": "b1_u03_l2_e023",
+      "type": "listen_question",
+      "targets": [
+        "b1_u03_l2_g2"
+      ],
+      "prompt_uz": "Ayolning kasbi nima?",
+      "prompt_en": "What is the woman's job?",
+      "audio_text": "이분은 의사가 아니에요. 간호사예요.",
+      "options": [
+        "Hamshira",
+        "Shifokor",
+        "O'qituvchi",
+        "Uy bekasi"
+      ],
+      "options_en": [
+        "Nurse",
+        "Doctor",
+        "Teacher",
+        "Homemaker"
+      ],
+      "answers": [
+        "Hamshira"
+      ],
+      "audio": "745ed7256faf.mp3"
+    },
+    {
+      "id": "b1_u03_l2_e024",
+      "type": "listen_question",
+      "targets": [
+        "b1_u03_l2_g1"
+      ],
+      "prompt_uz": "Kim haqida gapiryapti?",
+      "prompt_en": "Who is being introduced?",
+      "audio_text": "이분은 우리 한국어 선생님이에요.",
+      "options": [
+        "Koreys tili o'qituvchisi",
+        "Sinfdosh",
+        "Shifokor",
+        "Ota"
+      ],
+      "options_en": [
+        "The Korean teacher",
+        "A classmate",
+        "A doctor",
+        "A father"
+      ],
+      "answers": [
+        "Koreys tili o'qituvchisi"
+      ],
+      "audio": "380ae9dabf07.mp3"
+    },
+    {
+      "id": "b1_u03_l2_e101",
+      "type": "conjugate",
+      "targets": [
+        "b1_u03_l2_g1"
+      ],
+      "prompt_uz": "'Ism' + mavzu qo'shimchasi",
+      "prompt_en": "'name' + topic marker",
+      "base": "이름",
+      "form": "-은/는",
+      "answers": [
+        "이름은"
+      ]
+    },
+    {
+      "id": "b1_u03_l2_e102",
+      "type": "conjugate",
+      "targets": [
+        "b1_u03_l2_g1"
+      ],
+      "prompt_uz": "'Kompaniya xodimi' + mavzu qo'shimchasi",
+      "prompt_en": "'office worker' + topic marker",
+      "base": "회사원",
+      "form": "-은/는",
+      "answers": [
+        "회사원은"
+      ]
+    },
+    {
+      "id": "b1_u03_l2_e103",
+      "type": "conjugate",
+      "targets": [
+        "b1_u03_l2_g2"
+      ],
+      "prompt_uz": "'Qo'shiqchi emas' shaklini yasang",
+      "prompt_en": "Make 'is not a singer'",
+      "base": "가수",
+      "form": "-이/가 아니에요",
+      "answers": [
+        "가수가 아니에요"
+      ]
+    },
+    {
+      "id": "b1_u03_l2_e104",
+      "type": "conjugate",
+      "targets": [
+        "b1_u03_l2_g2"
+      ],
+      "prompt_uz": "'Kasalxona emas' shaklini yasang",
+      "prompt_en": "Make 'is not a hospital'",
+      "base": "병원",
+      "form": "-이/가 아니에요",
+      "answers": [
+        "병원이 아니에요"
+      ]
+    },
+    {
+      "id": "b1_u03_l2_e105",
+      "type": "fill_blank",
+      "targets": [
+        "b1_u03_l2_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Aziz chet ellik talaba.'",
+      "prompt_en": "Fill in the blank: 'Aziz is an international student.'",
+      "sentence": "아지즈 씨___ 유학생이에요.",
+      "answers": [
+        "는"
+      ]
+    },
+    {
+      "id": "b1_u03_l2_e106",
+      "type": "fill_blank",
+      "targets": [
+        "b1_u03_l2_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Men advokat emasman.'",
+      "prompt_en": "Fill in the blank: 'I'm not a lawyer.'",
+      "sentence": "저는 변호사___ 아니에요.",
+      "answers": [
+        "가"
+      ]
+    },
+    {
+      "id": "b1_u03_l2_e107",
+      "type": "situation_choice",
+      "targets": [
+        "b1_u03_l2_g2"
+      ],
+      "prompt_uz": "'Siz koreysmisiz?' — siz o'zbekistonliksiz. Javob bering:",
+      "prompt_en": "'Are you Korean?' — you're from Uzbekistan. Answer:",
+      "options": [
+        "아니요, 한국 사람이 아니에요.",
+        "네, 한국 사람이 아니에요.",
+        "아니요, 한국 사람가 아니에요.",
+        "아니요, 한국 사람이에요."
+      ],
+      "answers": [
+        "아니요, 한국 사람이 아니에요."
+      ]
+    },
+    {
+      "id": "b1_u03_l2_e108",
+      "type": "situation_choice",
+      "targets": [
+        "b1_u03_l2_w029",
+        "b1_u03_l2_g1"
+      ],
+      "prompt_uz": "Do'stingizni o'qituvchiga tanishtiring:",
+      "prompt_en": "Introduce your friend to the teacher:",
+      "options": [
+        "이분은 제 친구 민지 씨예요.",
+        "이분는 제 친구예요.",
+        "저는 민지 씨예요.",
+        "민지 씨는 누구예요?"
+      ],
+      "answers": [
+        "이분은 제 친구 민지 씨예요."
+      ]
+    },
+    {
+      "id": "b1_u03_l2_e109",
+      "type": "find_error",
+      "targets": [
+        "b1_u03_l2_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "이름는 팅팅이에요.",
+      "answers": [
+        "이름은 팅팅이에요"
+      ],
+      "why_uz": "이름 받침 bilan tugaydi: 이름은.",
+      "why_en": "이름 ends in 받침: 이름은."
+    },
+    {
+      "id": "b1_u03_l2_e110",
+      "type": "find_error",
+      "targets": [
+        "b1_u03_l2_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "저는 배우이 아니에요.",
+      "answers": [
+        "저는 배우가 아니에요"
+      ],
+      "why_uz": "배우 unli bilan tugaydi: 배우가.",
+      "why_en": "배우 ends in a vowel: 배우가."
+    },
+    {
+      "id": "b1_u03_l2_e111",
+      "type": "translate",
+      "targets": [
+        "b1_u03_l2_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Bu yer kasalxona emas.",
+      "source_en": "This is not a hospital.",
+      "answers": [
+        "여기는 병원이 아니에요",
+        "병원이 아니에요"
+      ]
+    },
+    {
+      "id": "b1_u03_l2_e112",
+      "type": "translate",
+      "targets": [
+        "b1_u03_l2_g1"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Mening kasbim — dasturchi.",
+      "source_en": "My job is programmer.",
+      "answers": [
+        "제 직업은 프로그래머예요",
+        "저는 프로그래머예요"
+      ]
+    },
+    {
+      "id": "b1_u03_l2_e113",
+      "type": "build_sentence",
+      "targets": [
+        "b1_u03_l2_g2"
+      ],
+      "prompt_uz": "'Minji talaba emas' gapini tuzing",
+      "prompt_en": "Build the sentence 'Minji is not a student'",
+      "tokens": [
+        "민지",
+        "학생이",
+        "아니에요",
+        "씨는"
+      ],
+      "answers": [
+        "민지 씨는 학생이 아니에요"
+      ]
+    },
+    {
+      "id": "b1_u03_l2_e114",
+      "type": "listen_question",
+      "targets": [
+        "b1_u03_l2_g2"
+      ],
+      "prompt_uz": "U kim?",
+      "prompt_en": "What is the speaker?",
+      "audio_text": "저는 선생님이 아니에요. 학생이에요.",
+      "options": [
+        "Talaba",
+        "O'qituvchi",
+        "Shifokor",
+        "Haydovchi"
+      ],
+      "options_en": [
+        "A student",
+        "A teacher",
+        "A doctor",
+        "A driver"
+      ],
+      "answers": [
+        "Talaba"
+      ],
+      "audio": "1a1f985c2101.mp3"
+    },
+    {
+      "id": "b1_u03_l2_e115",
+      "type": "listen_question",
+      "targets": [
+        "b1_u03_l2_g1"
+      ],
+      "prompt_uz": "Otasining kasbi nima?",
+      "prompt_en": "What is the speaker's father's job?",
+      "audio_text": "제 아버지는 경찰관이에요.",
+      "options": [
+        "Politsiyachi",
+        "Harbiy",
+        "Oshpaz",
+        "Bank xodimi"
+      ],
+      "options_en": [
+        "Police officer",
+        "Soldier",
+        "Cook",
+        "Bank clerk"
+      ],
+      "answers": [
+        "Politsiyachi"
+      ],
+      "audio": "67bcc2493e34.mp3"
+    }
+  ],
+  "test": [
+    "b1_u03_l2_e101",
+    "b1_u03_l2_e102",
+    "b1_u03_l2_e103",
+    "b1_u03_l2_e104",
+    "b1_u03_l2_e105",
+    "b1_u03_l2_e106",
+    "b1_u03_l2_e107",
+    "b1_u03_l2_e108",
+    "b1_u03_l2_e109",
+    "b1_u03_l2_e110",
+    "b1_u03_l2_e111",
+    "b1_u03_l2_e112",
+    "b1_u03_l2_e113",
+    "b1_u03_l2_e114",
+    "b1_u03_l2_e115"
+  ],
+  "story": {
+    "title_uz": "Yangi sinfdosh",
+    "title_en": "A new classmate",
+    "gate_uz": "KAFE",
+    "gate_en": "CAFE",
+    "steps": [
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "아지즈 씨! 여기예요!",
+        "uz": "Aziz! Men shu yerdaman!",
+        "en": "Aziz! Over here!",
+        "audio": "99c83de98975.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "민지 씨, 안녕하세요? 이분은 누구예요?",
+        "uz": "Salom, Minji! Bu kishi kim?",
+        "en": "Hi, Minji! Who is this?",
+        "audio": "d5413123ef54.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "이분은 팅팅 씨예요. 제 친구예요.",
+        "uz": "Bu — Tingting. Mening do'stim.",
+        "en": "This is Tingting. She's my friend.",
+        "audio": "d952a9a32411.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "tingting",
+        "ko": "안녕하세요? 저는 팅팅이에요.",
+        "uz": "Salom! Men Tingtingman.",
+        "en": "Hello! I'm Tingting.",
+        "audio": "cf0c331326b4.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "반갑습니다. 팅팅 씨는 학생이에요?",
+        "uz": "Xursandman. Tingting, siz talabamisiz?",
+        "en": "Nice to meet you. Tingting, are you a student?",
+        "audio": "b51567d24013.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "tingting",
+        "ko": "아니요, 학생이 아니에요. 디자이너예요. 아지즈 씨는요?",
+        "uz": "Yo'q, talaba emasman, dizaynerman. Siz-chi, Aziz?",
+        "en": "No, I'm not a student. I'm a designer. And you, Aziz?",
+        "audio": "fdc1be078089.mp3"
+      },
+      {
+        "type": "choose_reply",
+        "speaker": "aziz",
+        "prompt_uz": "Aziz 'Men talaba emasman, dasturchiman' demoqchi.",
+        "prompt_en": "Aziz wants to say 'I'm not a student, I'm a programmer'.",
+        "options": [
+          "저는 학생이 아니에요. 프로그래머예요.",
+          "저는 학생가 아니에요. 프로그래머예요.",
+          "저는 학생이 아니에요. 프로그래머이에요."
+        ],
+        "answer": "저는 학생이 아니에요. 프로그래머예요.",
+        "uz": "Men talaba emasman, dasturchiman.",
+        "en": "I'm not a student. I'm a programmer.",
+        "why_uz": "학생 → 학생이 아니에요; 프로그래머 unli bilan tugaydi → 프로그래머예요.",
+        "why_en": "학생 → 학생이 아니에요; 프로그래머 ends in a vowel → 프로그래머예요.",
+        "audio": "3da51e583b40.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "네? 아지즈 씨는 유학생이에요!",
+        "uz": "Nima? Aziz, siz chet ellik talabasiz-ku!",
+        "en": "What? Aziz, you're an international student!",
+        "audio": "18aa0cd97db9.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "하하, 농담이에요. 저는 유학생이에요.",
+        "uz": "Haha, hazil. Men chet ellik talabaman.",
+        "en": "Haha, just kidding. I'm an international student.",
+        "audio": "e83741f1b5c6.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "tingting",
+        "ko": "아지즈 씨는 재미있어요!",
+        "uz": "Aziz qiziq odam ekan!",
+        "en": "Aziz is funny!",
+        "audio": "ed94c0c2a3ec.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "팅팅 씨는 중국 사람이에요. 고향은 상하이예요.",
+        "uz": "Tingting xitoylik. Ona shahri — Shanxay.",
+        "en": "Tingting is Chinese. Her hometown is Shanghai.",
+        "audio": "ef3d7c553900.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "상하이요? 큰 도시예요.",
+        "uz": "Shanxaymi? Katta shahar.",
+        "en": "Shanghai? It's a big city.",
+        "audio": "1a34e2518df8.mp3"
+      },
+      {
+        "type": "quiz",
+        "prompt_uz": "Tingtingning kasbi nima?",
+        "prompt_en": "What is Tingting's job?",
+        "options": [
+          "Dizayner",
+          "Talaba",
+          "Bank xodimi"
+        ],
+        "options_en": [
+          "Designer",
+          "Student",
+          "Bank clerk"
+        ],
+        "answer": "Dizayner",
+        "why_uz": "학생이 아니에요. 디자이너예요.",
+        "why_en": "학생이 아니에요. 디자이너예요 — she's a designer, not a student."
+      }
+    ]
+  }
+}

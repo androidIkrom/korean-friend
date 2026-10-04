@@ -1,0 +1,1464 @@
+{
+  "id": "b1_u03_l1",
+  "unit": 3,
+  "lesson": 1,
+  "title_ko": "저는 미국 사람이에요",
+  "title_uz": "Men amerikalikman",
+  "title_en": "I'm American",
+  "topic_uz": "Tanishuv",
+  "topic_en": "Introductions",
+  "reviewed": false,
+  "words": [
+    {
+      "id": "b1_u03_l1_w001",
+      "ko": "나라",
+      "uz": "mamlakat",
+      "en": "country",
+      "pos": "ot",
+      "example_ko": "어느 나라 사람이에요?",
+      "example_uz": "Qaysi mamlakatdansiz?",
+      "example_en": "Which country are you from?",
+      "audio": "332bb3eb3b37.mp3",
+      "example_audio": "459469d4fef0.mp3"
+    },
+    {
+      "id": "b1_u03_l1_w002",
+      "ko": "사람",
+      "uz": "odam, kishi",
+      "en": "person",
+      "pos": "ot",
+      "example_ko": "저는 한국 사람이에요.",
+      "example_uz": "Men koreysman.",
+      "example_en": "I'm Korean.",
+      "audio": "524dc9e11618.mp3",
+      "example_audio": "a8ef97852560.mp3"
+    },
+    {
+      "id": "b1_u03_l1_w003",
+      "ko": "한국",
+      "uz": "Koreya",
+      "en": "Korea",
+      "pos": "ot",
+      "example_ko": "한국은 아름다워요.",
+      "example_uz": "Koreya go'zal.",
+      "example_en": "Korea is beautiful.",
+      "audio": "15c161e01409.mp3",
+      "example_audio": "e8475234f59a.mp3"
+    },
+    {
+      "id": "b1_u03_l1_w004",
+      "ko": "미국",
+      "uz": "Amerika",
+      "en": "the USA",
+      "pos": "ot",
+      "example_ko": "제니 씨는 미국 사람이에요.",
+      "example_uz": "Jenni amerikalik.",
+      "example_en": "Jenny is American.",
+      "audio": "bede7bcc941e.mp3",
+      "example_audio": "7fba86bf8ab3.mp3"
+    },
+    {
+      "id": "b1_u03_l1_w005",
+      "ko": "중국",
+      "uz": "Xitoy",
+      "en": "China",
+      "pos": "ot",
+      "example_ko": "팅팅 씨는 중국 사람이에요.",
+      "example_uz": "Tingting xitoylik.",
+      "example_en": "Tingting is Chinese.",
+      "audio": "8cae74e8a442.mp3",
+      "example_audio": "ebf61dabb01b.mp3"
+    },
+    {
+      "id": "b1_u03_l1_w006",
+      "ko": "일본",
+      "uz": "Yaponiya",
+      "en": "Japan",
+      "pos": "ot",
+      "example_ko": "유키 씨는 일본 사람이에요.",
+      "example_uz": "Yuki yaponiyalik.",
+      "example_en": "Yuki is Japanese.",
+      "audio": "b5e6d8909286.mp3",
+      "example_audio": "96141cc021f5.mp3"
+    },
+    {
+      "id": "b1_u03_l1_w007",
+      "ko": "우즈베키스탄",
+      "uz": "O'zbekiston",
+      "en": "Uzbekistan",
+      "pos": "ot",
+      "example_ko": "저는 우즈베키스탄 사람이에요.",
+      "example_uz": "Men o'zbekistonlikman.",
+      "example_en": "I'm from Uzbekistan.",
+      "audio": "fdfdc26cb4e6.mp3",
+      "example_audio": "08c19379f27c.mp3"
+    },
+    {
+      "id": "b1_u03_l1_w008",
+      "ko": "러시아",
+      "uz": "Rossiya",
+      "en": "Russia",
+      "pos": "ot",
+      "example_ko": "안나 씨는 러시아 사람이에요.",
+      "example_uz": "Anna rossiyalik.",
+      "example_en": "Anna is Russian.",
+      "audio": "428e80e0de2b.mp3",
+      "example_audio": "f99b0958978a.mp3"
+    },
+    {
+      "id": "b1_u03_l1_w009",
+      "ko": "영국",
+      "uz": "Angliya",
+      "en": "the UK",
+      "pos": "ot",
+      "example_ko": "존 씨는 영국 사람이에요.",
+      "example_uz": "Jon angliyalik.",
+      "example_en": "John is British.",
+      "audio": "19f2ffcf6b11.mp3",
+      "example_audio": "e2aac06d2fa1.mp3"
+    },
+    {
+      "id": "b1_u03_l1_w010",
+      "ko": "프랑스",
+      "uz": "Fransiya",
+      "en": "France",
+      "pos": "ot",
+      "example_ko": "마리 씨는 프랑스 사람이에요.",
+      "example_uz": "Mari fransuz.",
+      "example_en": "Marie is French.",
+      "audio": "7cee7aa9fe68.mp3",
+      "example_audio": "1b88ca16a3cc.mp3"
+    },
+    {
+      "id": "b1_u03_l1_w011",
+      "ko": "독일",
+      "uz": "Germaniya",
+      "en": "Germany",
+      "pos": "ot",
+      "example_ko": "한스 씨는 독일 사람이에요.",
+      "example_uz": "Hans nemis.",
+      "example_en": "Hans is German.",
+      "audio": "49b4c0d19e21.mp3",
+      "example_audio": "45aa39613acc.mp3"
+    },
+    {
+      "id": "b1_u03_l1_w012",
+      "ko": "베트남",
+      "uz": "Vyetnam",
+      "en": "Vietnam",
+      "pos": "ot",
+      "example_ko": "투 씨는 베트남 사람이에요.",
+      "example_uz": "Tu vyetnamlik.",
+      "example_en": "Thu is Vietnamese.",
+      "audio": "e4640aa9f042.mp3",
+      "example_audio": "b76a49fdc7b5.mp3"
+    },
+    {
+      "id": "b1_u03_l1_w013",
+      "ko": "몽골",
+      "uz": "Mo'g'uliston",
+      "en": "Mongolia",
+      "pos": "ot",
+      "example_ko": "바트 씨는 몽골 사람이에요.",
+      "example_uz": "Bat mo'g'ul.",
+      "example_en": "Bat is Mongolian.",
+      "audio": "c5958e82d646.mp3",
+      "example_audio": "6da5957a0dd6.mp3"
+    },
+    {
+      "id": "b1_u03_l1_w014",
+      "ko": "카자흐스탄",
+      "uz": "Qozog'iston",
+      "en": "Kazakhstan",
+      "pos": "ot",
+      "example_ko": "아이게림 씨는 카자흐스탄 사람이에요.",
+      "example_uz": "Aygerim qozog'istonlik.",
+      "example_en": "Aigerim is from Kazakhstan.",
+      "audio": "bbccba26a39f.mp3",
+      "example_audio": "6b35eadcd47a.mp3"
+    },
+    {
+      "id": "b1_u03_l1_w015",
+      "ko": "인도",
+      "uz": "Hindiston",
+      "en": "India",
+      "pos": "ot",
+      "example_ko": "라지 씨는 인도 사람이에요.",
+      "example_uz": "Raj hindistonlik.",
+      "example_en": "Raj is Indian.",
+      "audio": "95f5931ec010.mp3",
+      "example_audio": "f2693377f6dd.mp3"
+    },
+    {
+      "id": "b1_u03_l1_w016",
+      "ko": "호주",
+      "uz": "Avstraliya",
+      "en": "Australia",
+      "pos": "ot",
+      "example_ko": "톰 씨는 호주 사람이에요.",
+      "example_uz": "Tom avstraliyalik.",
+      "example_en": "Tom is Australian.",
+      "audio": "ecba422886f7.mp3",
+      "example_audio": "e46cbebb6018.mp3"
+    },
+    {
+      "id": "b1_u03_l1_w017",
+      "ko": "저",
+      "uz": "men (kamtarona)",
+      "en": "I (humble)",
+      "pos": "olmosh",
+      "example_ko": "저는 아지즈예요.",
+      "example_uz": "Men Azizman.",
+      "example_en": "I'm Aziz.",
+      "audio": "5fdaa781b33b.mp3",
+      "example_audio": "1e619efde032.mp3"
+    },
+    {
+      "id": "b1_u03_l1_w018",
+      "ko": "이름",
+      "uz": "ism",
+      "en": "name",
+      "pos": "ot",
+      "example_ko": "이름이 뭐예요?",
+      "example_uz": "Ismingiz nima?",
+      "example_en": "What's your name?",
+      "audio": "45b7c7671b30.mp3",
+      "example_audio": "26609ee489e1.mp3"
+    },
+    {
+      "id": "b1_u03_l1_w019",
+      "ko": "어느",
+      "uz": "qaysi",
+      "en": "which",
+      "pos": "aniqlovchi",
+      "example_ko": "어느 나라 사람이에요?",
+      "example_uz": "Qaysi mamlakatdansiz?",
+      "example_en": "Which country are you from?",
+      "audio": "1bbdfef06b1c.mp3",
+      "example_audio": "459469d4fef0.mp3"
+    },
+    {
+      "id": "b1_u03_l1_w020",
+      "ko": "씨",
+      "uz": "(ismdan keyin hurmat: janob/xonim)",
+      "en": "(polite title after a name)",
+      "pos": "ot",
+      "example_ko": "민지 씨, 안녕하세요?",
+      "example_uz": "Minji, assalomu alaykum!",
+      "example_en": "Hello, Minji!",
+      "audio": "cd228fe9a23d.mp3",
+      "example_audio": "0bce2ae529f4.mp3"
+    },
+    {
+      "id": "b1_u03_l1_w021",
+      "ko": "안녕하세요",
+      "uz": "assalomu alaykum, salom",
+      "en": "hello",
+      "pos": "ibora",
+      "example_ko": "안녕하세요? 저는 민지예요.",
+      "example_uz": "Salom! Men Minjiman.",
+      "example_en": "Hello! I'm Minji.",
+      "audio": "ecd143833065.mp3",
+      "example_audio": "a5bfc904fee7.mp3"
+    },
+    {
+      "id": "b1_u03_l1_w022",
+      "ko": "반갑습니다",
+      "uz": "tanishganimdan xursandman",
+      "en": "nice to meet you",
+      "pos": "ibora",
+      "example_ko": "만나서 반갑습니다.",
+      "example_uz": "Tanishganimdan xursandman.",
+      "example_en": "Nice to meet you.",
+      "audio": "7830e62243a3.mp3",
+      "example_audio": "48b18f722b23.mp3"
+    },
+    {
+      "id": "b1_u03_l1_w023",
+      "ko": "처음 뵙겠습니다",
+      "uz": "birinchi marta ko'rishib turibmiz (tanishuvda)",
+      "en": "how do you do",
+      "pos": "ibora",
+      "example_ko": "처음 뵙겠습니다. 저는 아지즈예요.",
+      "example_uz": "Tanishaylik, men Azizman.",
+      "example_en": "How do you do? I'm Aziz.",
+      "audio": "f5ac08d7b07c.mp3",
+      "example_audio": "eef222b62e18.mp3"
+    },
+    {
+      "id": "b1_u03_l1_w024",
+      "ko": "네",
+      "uz": "ha",
+      "en": "yes",
+      "pos": "ibora",
+      "example_ko": "네, 저는 학생이에요.",
+      "example_uz": "Ha, men talabaman.",
+      "example_en": "Yes, I'm a student.",
+      "audio": "278072cc710e.mp3",
+      "example_audio": "7797ec5a9c33.mp3"
+    },
+    {
+      "id": "b1_u03_l1_w025",
+      "ko": "아니요",
+      "uz": "yo'q",
+      "en": "no",
+      "pos": "ibora",
+      "example_ko": "아니요, 저는 중국 사람이에요.",
+      "example_uz": "Yo'q, men xitoylikman.",
+      "example_en": "No, I'm Chinese.",
+      "audio": "bb3ec6648caa.mp3",
+      "example_audio": "81e187d5e6a0.mp3"
+    },
+    {
+      "id": "b1_u03_l1_w026",
+      "ko": "친구",
+      "uz": "do'st",
+      "en": "friend",
+      "pos": "ot",
+      "example_ko": "민지 씨는 제 친구예요.",
+      "example_uz": "Minji mening do'stim.",
+      "example_en": "Minji is my friend.",
+      "audio": "88df26bfaf57.mp3",
+      "example_audio": "a01fc65d9035.mp3"
+    },
+    {
+      "id": "b1_u03_l1_w027",
+      "ko": "고향",
+      "uz": "ona shahar, tug'ilgan joy",
+      "en": "hometown",
+      "pos": "ot",
+      "example_ko": "제 고향은 사마르칸트예요.",
+      "example_uz": "Mening ona shahrim — Samarqand.",
+      "example_en": "My hometown is Samarkand.",
+      "audio": "7d232ebe27f0.mp3",
+      "example_audio": "4e5ed98823d8.mp3"
+    },
+    {
+      "id": "b1_u03_l1_w028",
+      "ko": "서울",
+      "uz": "Seul",
+      "en": "Seoul",
+      "pos": "ot",
+      "example_ko": "여기는 서울이에요.",
+      "example_uz": "Bu yer — Seul.",
+      "example_en": "This is Seoul.",
+      "audio": "9e937dbbc8f2.mp3",
+      "example_audio": "37204fed9f7b.mp3"
+    },
+    {
+      "id": "b1_u03_l1_w029",
+      "ko": "도시",
+      "uz": "shahar",
+      "en": "city",
+      "pos": "ot",
+      "example_ko": "서울은 큰 도시예요.",
+      "example_uz": "Seul — katta shahar.",
+      "example_en": "Seoul is a big city.",
+      "audio": "f85aba93c4cf.mp3",
+      "example_audio": "b185f1a4acc5.mp3"
+    },
+    {
+      "id": "b1_u03_l1_w030",
+      "ko": "한국어",
+      "uz": "koreys tili",
+      "en": "Korean (language)",
+      "pos": "ot",
+      "example_ko": "저는 한국어 학생이에요.",
+      "example_uz": "Men koreys tili talabasiman.",
+      "example_en": "I'm a Korean-language student.",
+      "audio": "344da383746a.mp3",
+      "example_audio": "99bef67b7206.mp3"
+    },
+    {
+      "id": "b1_u03_l1_w031",
+      "ko": "영어",
+      "uz": "ingliz tili",
+      "en": "English (language)",
+      "pos": "ot",
+      "example_ko": "제니 씨는 영어 선생님이에요.",
+      "example_uz": "Jenni ingliz tili o'qituvchisi.",
+      "example_en": "Jenny is an English teacher.",
+      "audio": "0f4cc24fd5cb.mp3",
+      "example_audio": "bd4ed9c1daae.mp3"
+    },
+    {
+      "id": "b1_u03_l1_w032",
+      "ko": "뭐",
+      "uz": "nima",
+      "en": "what",
+      "pos": "olmosh",
+      "example_ko": "이름이 뭐예요?",
+      "example_uz": "Ismingiz nima?",
+      "example_en": "What's your name?",
+      "audio": "05b4ece9a961.mp3",
+      "example_audio": "26609ee489e1.mp3"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "b1_u03_l1_g1",
+      "pattern": "저는 N이에요/예요",
+      "meaning_uz": "Men ...man: o'zini tanishtirish",
+      "meaning_en": "I am N: introducing yourself",
+      "explanation_md": "**N이에요/예요** — \"... (dir)\" degan ma'noni beradi. O'zingizni tanishtirganda **저는** (\"men\") bilan boshlaysiz.\n\n**저는 아지즈예요.** — *Men Azizman.*\n\n### Qanday yasaladi\n\n- Ot **받침 bilan tugasa** → **-이에요**: 학생 → **학생이에요**, 사람 → **사람이에요**\n- Ot **unli bilan tugasa** → **-예요**: 아지즈 → **아지즈예요**, 의사 → **의사예요**\n\n### Esda tuting\n\n- **저** — \"men\"ning kamtarona shakli. Notanish odam bilan doim **저** deng.\n- **-는** — mavzu qo'shimchasi: **저는** = \"men esam / menga kelsak\".\n- Fe'l doim **gap oxirida** keladi, xuddi o'zbekchadagidek.",
+      "explanation_md_en": "**N이에요/예요** means \"(I) am / (it) is N\". To introduce yourself, start with **저는** (\"I\").\n\n**저는 아지즈예요.** — *I'm Aziz.*\n\n### How to form it\n\n- Noun **ends in 받침** → **-이에요**: 학생 → **학생이에요**, 사람 → **사람이에요**\n- Noun **ends in a vowel** → **-예요**: 아지즈 → **아지즈예요**, 의사 → **의사예요**\n\n### Remember\n\n- **저** is the humble \"I\". Use it with people you don't know well.\n- **-는** marks the topic: **저는** = \"as for me\".\n- The verb always comes **at the end** of the sentence.",
+      "formation": [
+        {
+          "condition_uz": "받침 bor",
+          "condition_en": "With 받침",
+          "rule": "N + 이에요",
+          "example": "학생 → 학생이에요, 사람 → 사람이에요"
+        },
+        {
+          "condition_uz": "받침 yo'q",
+          "condition_en": "No 받침",
+          "rule": "N + 예요",
+          "example": "아지즈 → 아지즈예요, 의사 → 의사예요"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "저는 아지즈예요.",
+          "uz": "Men Azizman.",
+          "en": "I'm Aziz.",
+          "audio": "1e619efde032.mp3"
+        },
+        {
+          "ko": "저는 우즈베키스탄 사람이에요.",
+          "uz": "Men o'zbekistonlikman.",
+          "en": "I'm from Uzbekistan.",
+          "audio": "08c19379f27c.mp3"
+        },
+        {
+          "ko": "저는 민지예요.",
+          "uz": "Men Minjiman.",
+          "en": "I'm Minji.",
+          "audio": "20feb86b1832.mp3"
+        },
+        {
+          "ko": "저는 한국 사람이에요.",
+          "uz": "Men koreysman.",
+          "en": "I'm Korean.",
+          "audio": "a8ef97852560.mp3"
+        },
+        {
+          "ko": "제 고향은 사마르칸트예요.",
+          "uz": "Mening ona shahrim — Samarqand.",
+          "en": "My hometown is Samarkand.",
+          "audio": "4e5ed98823d8.mp3"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "저는 학생예요.",
+          "right": "저는 학생이에요.",
+          "why_uz": "학생 받침 bilan tugaydi (ㅇ), shuning uchun -이에요.",
+          "why_en": "학생 ends in 받침 (ㅇ), so it takes -이에요."
+        },
+        {
+          "wrong": "저는 아지즈이에요.",
+          "right": "저는 아지즈예요.",
+          "why_uz": "아지즈 unli bilan tugaydi, shuning uchun -예요.",
+          "why_en": "아지즈 ends in a vowel, so it takes -예요."
+        },
+        {
+          "wrong": "나는 미국 사람이에요.",
+          "right": "저는 미국 사람이에요.",
+          "why_uz": "Tanishuvda kamtarona 저 ishlatiladi.",
+          "why_en": "When meeting someone, use the humble 저."
+        }
+      ],
+      "uz_compare": "O'zbekchada 'Men Azizman' deymiz: '-man' qo'shimchasi otga qo'shiladi. Koreyschada ham shunday: 아지즈 + 예요. Faqat koreyschada qo'shimcha shaxsga qarab o'zgarmaydi: 'men talabaman', 'u talaba' — ikkalasi ham 학생이에요.",
+      "compare_en": "In English you say 'I am Aziz' with a separate verb 'am'. In Korean the 'am/is/are' part is an ending on the noun: 아지즈 + 예요. It never changes for the person: 'I am a student' and 'she is a student' are both 학생이에요."
+    },
+    {
+      "id": "b1_u03_l1_g2",
+      "pattern": "N이에요/예요?",
+      "meaning_uz": "...mi?: so'roq gap",
+      "meaning_en": "Is it N?: asking a question",
+      "explanation_md": "So'roq gap yasash uchun **N이에요/예요** gapining oxirida ovozni **ko'taring** va yozuvda **?** qo'ying. So'z tartibi o'zgarmaydi.\n\n**아지즈 씨는 학생이에요?** — *Aziz, siz talabamisiz?*\n\n### Javob berish\n\n- **네, 학생이에요.** — *Ha, talabaman.*\n- **아니요, 선생님이에요.** — *Yo'q, o'qituvchiman.*\n\n### \"Qaysi\" va \"nima\" so'roq so'zlari\n\n- **어느 나라 사람이에요?** — *Qaysi mamlakatdansiz?*\n- **이름이 뭐예요?** — *Ismingiz nima?* (뭐 + 예요)\n\n### Esda tuting\n\n- Suhbatdoshga **당신** (\"siz\") demang — bu qo'pol eshitiladi. Uning ismini **씨** bilan ayting: **민지 씨는 …?**",
+      "explanation_md_en": "To make a question, keep **N이에요/예요** and **raise your voice** at the end; in writing add **?**. The word order does not change.\n\n**아지즈 씨는 학생이에요?** — *Aziz, are you a student?*\n\n### Answering\n\n- **네, 학생이에요.** — *Yes, I am.*\n- **아니요, 선생님이에요.** — *No, I'm a teacher.*\n\n### \"Which\" and \"what\"\n\n- **어느 나라 사람이에요?** — *Which country are you from?*\n- **이름이 뭐예요?** — *What's your name?* (뭐 + 예요)\n\n### Remember\n\n- Don't call someone **당신** (\"you\") — it sounds rude. Use their name with **씨**: **민지 씨는 …?**",
+      "formation": [
+        {
+          "condition_uz": "받침 bor",
+          "condition_en": "With 받침",
+          "rule": "N + 이에요?",
+          "example": "학생 → 학생이에요?"
+        },
+        {
+          "condition_uz": "받침 yo'q",
+          "condition_en": "No 받침",
+          "rule": "N + 예요?",
+          "example": "뭐 → 뭐예요?, 의사 → 의사예요?"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "어느 나라 사람이에요?",
+          "uz": "Qaysi mamlakatdansiz?",
+          "en": "Which country are you from?",
+          "audio": "459469d4fef0.mp3"
+        },
+        {
+          "ko": "이름이 뭐예요?",
+          "uz": "Ismingiz nima?",
+          "en": "What's your name?",
+          "audio": "26609ee489e1.mp3"
+        },
+        {
+          "ko": "민지 씨는 한국 사람이에요?",
+          "uz": "Minji, siz koreysmisiz?",
+          "en": "Minji, are you Korean?",
+          "audio": "ace8e2bf90eb.mp3"
+        },
+        {
+          "ko": "네, 한국 사람이에요.",
+          "uz": "Ha, koreysman.",
+          "en": "Yes, I'm Korean.",
+          "audio": "fff10d5946b8.mp3"
+        },
+        {
+          "ko": "고향이 어디예요?",
+          "uz": "Ona shahringiz qayer?",
+          "en": "Where is your hometown?",
+          "audio": "5227d4b21055.mp3"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "이름이 뭐이에요?",
+          "right": "이름이 뭐예요?",
+          "why_uz": "뭐 unli bilan tugaydi: 뭐예요.",
+          "why_en": "뭐 ends in a vowel: 뭐예요."
+        },
+        {
+          "wrong": "어느 나라 사람예요?",
+          "right": "어느 나라 사람이에요?",
+          "why_uz": "사람 받침 bilan tugaydi: 사람이에요.",
+          "why_en": "사람 ends in 받침: 사람이에요."
+        },
+        {
+          "wrong": "당신은 학생이에요?",
+          "right": "민지 씨는 학생이에요?",
+          "why_uz": "당신 qo'pol eshitiladi; ism + 씨 ishlating.",
+          "why_en": "당신 sounds rude; use the name + 씨."
+        }
+      ],
+      "uz_compare": "O'zbekchada so'roq uchun '-mi' qo'shamiz: 'talabaMIsiz?'. Koreyschada qo'shimcha qo'shilmaydi — faqat ovoz ko'tariladi: 학생이에요 → 학생이에요?",
+      "compare_en": "In English you swap the words to ask: 'You are' → 'Are you?'. In Korean nothing moves: you just raise your voice at the end: 학생이에요 → 학생이에요?"
+    }
+  ],
+  "dialogue": {
+    "lines": [
+      {
+        "speaker": "teacher",
+        "ko": "여러분, 안녕하세요? 오늘 새 친구가 왔어요.",
+        "uz": "Hammaga salom! Bugun yangi do'st keldi.",
+        "en": "Hello, everyone! A new friend has come today.",
+        "audio": "49859c6959bd.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "안녕하세요? 처음 뵙겠습니다.",
+        "uz": "Assalomu alaykum! Tanishaylik.",
+        "en": "Hello! How do you do?",
+        "audio": "33df6b01a520.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "안녕하세요? 저는 민지예요. 이름이 뭐예요?",
+        "uz": "Salom! Men Minjiman. Ismingiz nima?",
+        "en": "Hello! I'm Minji. What's your name?",
+        "audio": "a53497c15b9f.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "저는 아지즈예요.",
+        "uz": "Men Azizman.",
+        "en": "I'm Aziz.",
+        "audio": "2a08297ac8d8.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "아지즈 씨는 어느 나라 사람이에요?",
+        "uz": "Aziz, siz qaysi mamlakatdansiz?",
+        "en": "Aziz, which country are you from?",
+        "audio": "32fec5571528.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "저는 우즈베키스탄 사람이에요.",
+        "uz": "Men o'zbekistonlikman.",
+        "en": "I'm from Uzbekistan.",
+        "audio": "50ddfb63346c.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "아, 우즈베키스탄 사람이에요? 고향이 어디예요?",
+        "uz": "A, o'zbekistonliksizmi? Ona shahringiz qayer?",
+        "en": "Oh, you're from Uzbekistan? Where's your hometown?",
+        "audio": "707e039fb66a.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "제 고향은 사마르칸트예요. 민지 씨는 한국 사람이에요?",
+        "uz": "Mening ona shahrim — Samarqand. Minji, siz koreysmisiz?",
+        "en": "My hometown is Samarkand. Minji, are you Korean?",
+        "audio": "133a26966d78.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "네, 한국 사람이에요. 제 고향은 부산이에요.",
+        "uz": "Ha, koreysman. Mening ona shahrim — Pusan.",
+        "en": "Yes, I'm Korean. My hometown is Busan.",
+        "audio": "cc1eec21b85f.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "만나서 반갑습니다.",
+        "uz": "Tanishganimdan xursandman.",
+        "en": "Nice to meet you.",
+        "audio": "8964ada5c7bc.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "저도 반갑습니다.",
+        "uz": "Men ham xursandman.",
+        "en": "Nice to meet you too.",
+        "audio": "9a6724171c8b.mp3"
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b1_u03_l1_e001",
+      "type": "conjugate",
+      "targets": [
+        "b1_u03_l1_g1"
+      ],
+      "prompt_uz": "'Men talabaman' uchun shaklni yasang",
+      "prompt_en": "Make the form for 'I'm a student'",
+      "base": "학생",
+      "form": "-이에요/예요",
+      "answers": [
+        "학생이에요"
+      ],
+      "hint_uz": "받침 bor → -이에요",
+      "hint_en": "With 받침 → -이에요"
+    },
+    {
+      "id": "b1_u03_l1_e002",
+      "type": "conjugate",
+      "targets": [
+        "b1_u03_l1_g1"
+      ],
+      "prompt_uz": "'Men Azizman' uchun shaklni yasang",
+      "prompt_en": "Make the form for 'I'm Aziz'",
+      "base": "아지즈",
+      "form": "-이에요/예요",
+      "answers": [
+        "아지즈예요"
+      ],
+      "hint_uz": "Unli bilan tugaydi → -예요",
+      "hint_en": "Ends in a vowel → -예요"
+    },
+    {
+      "id": "b1_u03_l1_e003",
+      "type": "conjugate",
+      "targets": [
+        "b1_u03_l1_g1",
+        "b1_u03_l1_w002"
+      ],
+      "prompt_uz": "'Odamman' shaklini yasang",
+      "prompt_en": "Make the form 'am a person (from …)'",
+      "base": "사람",
+      "form": "-이에요/예요",
+      "answers": [
+        "사람이에요"
+      ]
+    },
+    {
+      "id": "b1_u03_l1_e004",
+      "type": "conjugate",
+      "targets": [
+        "b1_u03_l1_g2"
+      ],
+      "prompt_uz": "'Nima?' so'rog'ini yasang",
+      "prompt_en": "Make the question 'What is it?'",
+      "base": "뭐",
+      "form": "-이에요/예요?",
+      "answers": [
+        "뭐예요?",
+        "뭐예요"
+      ]
+    },
+    {
+      "id": "b1_u03_l1_e005",
+      "type": "fill_blank",
+      "targets": [
+        "b1_u03_l1_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Men koreysman.'",
+      "prompt_en": "Fill in the blank: 'I'm Korean.'",
+      "sentence": "저는 한국 사람___.",
+      "answers": [
+        "이에요"
+      ]
+    },
+    {
+      "id": "b1_u03_l1_e006",
+      "type": "fill_blank",
+      "targets": [
+        "b1_u03_l1_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Men Minjiman.'",
+      "prompt_en": "Fill in the blank: 'I'm Minji.'",
+      "sentence": "저는 민지___.",
+      "answers": [
+        "예요"
+      ]
+    },
+    {
+      "id": "b1_u03_l1_e007",
+      "type": "fill_blank",
+      "targets": [
+        "b1_u03_l1_g2",
+        "b1_u03_l1_w019"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Qaysi mamlakatdansiz?'",
+      "prompt_en": "Fill in the blank: 'Which country are you from?'",
+      "sentence": "___ 나라 사람이에요?",
+      "answers": [
+        "어느"
+      ]
+    },
+    {
+      "id": "b1_u03_l1_e008",
+      "type": "fill_blank",
+      "targets": [
+        "b1_u03_l1_g2",
+        "b1_u03_l1_w018"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Ismingiz nima?'",
+      "prompt_en": "Fill in the blank: 'What's your name?'",
+      "sentence": "이름이 ___?",
+      "answers": [
+        "뭐예요"
+      ]
+    },
+    {
+      "id": "b1_u03_l1_e009",
+      "type": "situation_choice",
+      "targets": [
+        "b1_u03_l1_g2"
+      ],
+      "prompt_uz": "Yangi tanishning millatini so'rang:",
+      "prompt_en": "Ask a new acquaintance where they are from:",
+      "options": [
+        "어느 나라 사람이에요?",
+        "이름이 뭐예요?",
+        "고향이 서울이에요?",
+        "어느 나라예요 사람?"
+      ],
+      "answers": [
+        "어느 나라 사람이에요?"
+      ]
+    },
+    {
+      "id": "b1_u03_l1_e010",
+      "type": "situation_choice",
+      "targets": [
+        "b1_u03_l1_w023"
+      ],
+      "prompt_uz": "Birinchi marta tanishyapsiz. Nima deysiz?",
+      "prompt_en": "You are meeting someone for the first time. What do you say?",
+      "options": [
+        "처음 뵙겠습니다.",
+        "안녕히 가세요.",
+        "아니요.",
+        "뭐예요?"
+      ],
+      "answers": [
+        "처음 뵙겠습니다."
+      ]
+    },
+    {
+      "id": "b1_u03_l1_e011",
+      "type": "situation_choice",
+      "targets": [
+        "b1_u03_l1_g1"
+      ],
+      "prompt_uz": "O'zingizni tanishtiring: siz o'zbekistonliksiz.",
+      "prompt_en": "Introduce yourself: you are from Uzbekistan.",
+      "options": [
+        "저는 우즈베키스탄 사람이에요.",
+        "저는 우즈베키스탄 사람예요.",
+        "저는 우즈베키스탄이에요 사람.",
+        "우즈베키스탄 사람은 저예요?"
+      ],
+      "answers": [
+        "저는 우즈베키스탄 사람이에요."
+      ]
+    },
+    {
+      "id": "b1_u03_l1_e012",
+      "type": "find_error",
+      "targets": [
+        "b1_u03_l1_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "저는 학생예요.",
+      "answers": [
+        "저는 학생이에요"
+      ],
+      "why_uz": "학생 받침 bilan tugaydi: 학생이에요.",
+      "why_en": "학생 ends in 받침: 학생이에요."
+    },
+    {
+      "id": "b1_u03_l1_e013",
+      "type": "find_error",
+      "targets": [
+        "b1_u03_l1_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "저는 민지이에요.",
+      "answers": [
+        "저는 민지예요"
+      ],
+      "why_uz": "민지 unli bilan tugaydi: 민지예요.",
+      "why_en": "민지 ends in a vowel: 민지예요."
+    },
+    {
+      "id": "b1_u03_l1_e014",
+      "type": "find_error",
+      "targets": [
+        "b1_u03_l1_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "이름이 뭐이에요?",
+      "answers": [
+        "이름이 뭐예요?",
+        "이름이 뭐예요"
+      ],
+      "why_uz": "뭐 unli bilan tugaydi: 뭐예요.",
+      "why_en": "뭐 ends in a vowel: 뭐예요."
+    },
+    {
+      "id": "b1_u03_l1_e015",
+      "type": "translate",
+      "targets": [
+        "b1_u03_l1_g1"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Men o'zbekistonlikman.",
+      "source_en": "I'm from Uzbekistan.",
+      "answers": [
+        "저는 우즈베키스탄 사람이에요",
+        "우즈베키스탄 사람이에요"
+      ]
+    },
+    {
+      "id": "b1_u03_l1_e016",
+      "type": "translate",
+      "targets": [
+        "b1_u03_l1_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Ismingiz nima?",
+      "source_en": "What's your name?",
+      "answers": [
+        "이름이 뭐예요",
+        "이름이 뭐예요?"
+      ]
+    },
+    {
+      "id": "b1_u03_l1_e017",
+      "type": "translate",
+      "targets": [
+        "b1_u03_l1_g2",
+        "b1_u03_l1_g1"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Minji, siz koreysmisiz?",
+      "source_en": "Minji, are you Korean?",
+      "answers": [
+        "민지 씨는 한국 사람이에요",
+        "민지 씨는 한국 사람이에요?",
+        "민지 씨 한국 사람이에요?"
+      ]
+    },
+    {
+      "id": "b1_u03_l1_e018",
+      "type": "build_sentence",
+      "targets": [
+        "b1_u03_l1_g1"
+      ],
+      "prompt_uz": "'Men Azizman' gapini tuzing",
+      "prompt_en": "Build the sentence 'I'm Aziz'",
+      "tokens": [
+        "아지즈예요",
+        "저는"
+      ],
+      "answers": [
+        "저는 아지즈예요"
+      ]
+    },
+    {
+      "id": "b1_u03_l1_e019",
+      "type": "build_sentence",
+      "targets": [
+        "b1_u03_l1_g2"
+      ],
+      "prompt_uz": "'Qaysi mamlakatdansiz?' gapini tuzing",
+      "prompt_en": "Build the sentence 'Which country are you from?'",
+      "tokens": [
+        "어느",
+        "사람이에요?",
+        "나라"
+      ],
+      "answers": [
+        "어느 나라 사람이에요?"
+      ]
+    },
+    {
+      "id": "b1_u03_l1_e020",
+      "type": "build_sentence",
+      "targets": [
+        "b1_u03_l1_g1",
+        "b1_u03_l1_w027"
+      ],
+      "prompt_uz": "'Mening ona shahrim — Samarqand' gapini tuzing",
+      "prompt_en": "Build the sentence 'My hometown is Samarkand'",
+      "tokens": [
+        "고향은",
+        "사마르칸트예요",
+        "제"
+      ],
+      "answers": [
+        "제 고향은 사마르칸트예요"
+      ]
+    },
+    {
+      "id": "b1_u03_l1_e021",
+      "type": "listen_question",
+      "targets": [
+        "b1_u03_l1_g1"
+      ],
+      "prompt_uz": "U qaysi mamlakatdan?",
+      "prompt_en": "Which country is the speaker from?",
+      "audio_text": "안녕하세요? 저는 마리예요. 저는 프랑스 사람이에요.",
+      "options": [
+        "Fransiya",
+        "Angliya",
+        "Germaniya",
+        "Rossiya"
+      ],
+      "options_en": [
+        "France",
+        "the UK",
+        "Germany",
+        "Russia"
+      ],
+      "answers": [
+        "Fransiya"
+      ],
+      "audio": "862844a30532.mp3"
+    },
+    {
+      "id": "b1_u03_l1_e022",
+      "type": "listen_question",
+      "targets": [
+        "b1_u03_l1_g1"
+      ],
+      "prompt_uz": "Uning ismi nima?",
+      "prompt_en": "What is the speaker's name?",
+      "audio_text": "처음 뵙겠습니다. 저는 바트예요. 몽골 사람이에요.",
+      "options": [
+        "Bat",
+        "Tom",
+        "Raj",
+        "Hans"
+      ],
+      "options_en": [
+        "Bat",
+        "Tom",
+        "Raj",
+        "Hans"
+      ],
+      "answers": [
+        "Bat"
+      ],
+      "audio": "b5c683f96957.mp3"
+    },
+    {
+      "id": "b1_u03_l1_e023",
+      "type": "listen_question",
+      "targets": [
+        "b1_u03_l1_g2"
+      ],
+      "prompt_uz": "Savol nima haqida?",
+      "prompt_en": "What does the speaker ask about?",
+      "audio_text": "고향이 어디예요?",
+      "options": [
+        "Ona shahar",
+        "Ism",
+        "Kasb",
+        "Yosh"
+      ],
+      "options_en": [
+        "Hometown",
+        "Name",
+        "Job",
+        "Age"
+      ],
+      "answers": [
+        "Ona shahar"
+      ],
+      "audio": "5227d4b21055.mp3"
+    },
+    {
+      "id": "b1_u03_l1_e024",
+      "type": "listen_question",
+      "targets": [
+        "b1_u03_l1_g2"
+      ],
+      "prompt_uz": "Javob qanday?",
+      "prompt_en": "What is the answer?",
+      "audio_text": "아니요, 저는 일본 사람이 아니에요. 중국 사람이에요.",
+      "options": [
+        "U xitoylik",
+        "U yaponiyalik",
+        "U koreys",
+        "U amerikalik"
+      ],
+      "options_en": [
+        "Chinese",
+        "Japanese",
+        "Korean",
+        "American"
+      ],
+      "answers": [
+        "U xitoylik"
+      ],
+      "audio": "c201affef6db.mp3"
+    },
+    {
+      "id": "b1_u03_l1_e101",
+      "type": "conjugate",
+      "targets": [
+        "b1_u03_l1_g1"
+      ],
+      "prompt_uz": "'Shifokorman' shaklini yasang (의사)",
+      "prompt_en": "Make the form 'I'm a doctor' (의사)",
+      "base": "의사",
+      "form": "-이에요/예요",
+      "answers": [
+        "의사예요"
+      ]
+    },
+    {
+      "id": "b1_u03_l1_e102",
+      "type": "conjugate",
+      "targets": [
+        "b1_u03_l1_g1"
+      ],
+      "prompt_uz": "'Do'stman' shaklini yasang",
+      "prompt_en": "Make the form 'am a friend'",
+      "base": "친구",
+      "form": "-이에요/예요",
+      "answers": [
+        "친구예요"
+      ]
+    },
+    {
+      "id": "b1_u03_l1_e103",
+      "type": "conjugate",
+      "targets": [
+        "b1_u03_l1_g1"
+      ],
+      "prompt_uz": "'Seul' + '-dir' shaklini yasang",
+      "prompt_en": "Make the form 'is Seoul'",
+      "base": "서울",
+      "form": "-이에요/예요",
+      "answers": [
+        "서울이에요"
+      ]
+    },
+    {
+      "id": "b1_u03_l1_e104",
+      "type": "fill_blank",
+      "targets": [
+        "b1_u03_l1_g1",
+        "b1_u03_l1_w007"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Men o'zbekistonlikman.'",
+      "prompt_en": "Fill in the blank: 'I'm from Uzbekistan.'",
+      "sentence": "저는 우즈베키스탄 ___이에요.",
+      "answers": [
+        "사람"
+      ]
+    },
+    {
+      "id": "b1_u03_l1_e105",
+      "type": "fill_blank",
+      "targets": [
+        "b1_u03_l1_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Ona shahringiz qayer?'",
+      "prompt_en": "Fill in the blank: 'Where is your hometown?'",
+      "sentence": "고향이 어디___?",
+      "answers": [
+        "예요"
+      ]
+    },
+    {
+      "id": "b1_u03_l1_e106",
+      "type": "situation_choice",
+      "targets": [
+        "b1_u03_l1_g2"
+      ],
+      "prompt_uz": "Do'stingizning ismini bilmaysiz. Qanday so'raysiz?",
+      "prompt_en": "You don't know someone's name. How do you ask?",
+      "options": [
+        "이름이 뭐예요?",
+        "이름이에요?",
+        "뭐 이름이에요?",
+        "이름은 저예요."
+      ],
+      "answers": [
+        "이름이 뭐예요?"
+      ]
+    },
+    {
+      "id": "b1_u03_l1_e107",
+      "type": "situation_choice",
+      "targets": [
+        "b1_u03_l1_w022"
+      ],
+      "prompt_uz": "Tanishuv oxirida nima deysiz?",
+      "prompt_en": "What do you say at the end of an introduction?",
+      "options": [
+        "반갑습니다.",
+        "아니요.",
+        "어느 나라예요?",
+        "뭐예요?"
+      ],
+      "answers": [
+        "반갑습니다."
+      ]
+    },
+    {
+      "id": "b1_u03_l1_e108",
+      "type": "situation_choice",
+      "targets": [
+        "b1_u03_l1_w024",
+        "b1_u03_l1_g2"
+      ],
+      "prompt_uz": "'Siz amerikalikmisiz?' — siz amerikaliksiz. Javob bering:",
+      "prompt_en": "'Are you American?' — you are. Answer:",
+      "options": [
+        "네, 미국 사람이에요.",
+        "아니요, 미국 사람이에요.",
+        "네, 미국이에요 사람.",
+        "네, 미국 사람예요."
+      ],
+      "answers": [
+        "네, 미국 사람이에요."
+      ]
+    },
+    {
+      "id": "b1_u03_l1_e109",
+      "type": "find_error",
+      "targets": [
+        "b1_u03_l1_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "저는 영국 사람예요.",
+      "answers": [
+        "저는 영국 사람이에요"
+      ],
+      "why_uz": "사람 받침 bilan tugaydi: 사람이에요.",
+      "why_en": "사람 ends in 받침: 사람이에요."
+    },
+    {
+      "id": "b1_u03_l1_e110",
+      "type": "find_error",
+      "targets": [
+        "b1_u03_l1_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "어느 나라 사람이에요.",
+      "answers": [
+        "어느 나라 사람이에요?",
+        "어느 나라 사람이에요"
+      ],
+      "why_uz": "Bu so'roq gap: oxirida ? kerak.",
+      "why_en": "It is a question: it needs ? at the end."
+    },
+    {
+      "id": "b1_u03_l1_e111",
+      "type": "translate",
+      "targets": [
+        "b1_u03_l1_g1"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Men talabaman.",
+      "source_en": "I'm a student.",
+      "answers": [
+        "저는 학생이에요",
+        "학생이에요"
+      ]
+    },
+    {
+      "id": "b1_u03_l1_e112",
+      "type": "translate",
+      "targets": [
+        "b1_u03_l1_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Qaysi mamlakatdansiz?",
+      "source_en": "Which country are you from?",
+      "answers": [
+        "어느 나라 사람이에요",
+        "어느 나라 사람이에요?"
+      ]
+    },
+    {
+      "id": "b1_u03_l1_e113",
+      "type": "build_sentence",
+      "targets": [
+        "b1_u03_l1_g2",
+        "b1_u03_l1_g1"
+      ],
+      "prompt_uz": "'Minji, siz koreysmisiz?' gapini tuzing",
+      "prompt_en": "Build the sentence 'Minji, are you Korean?'",
+      "tokens": [
+        "씨는",
+        "사람이에요?",
+        "한국",
+        "민지"
+      ],
+      "answers": [
+        "민지 씨는 한국 사람이에요?"
+      ]
+    },
+    {
+      "id": "b1_u03_l1_e114",
+      "type": "listen_question",
+      "targets": [
+        "b1_u03_l1_g1"
+      ],
+      "prompt_uz": "U qaysi mamlakatdan?",
+      "prompt_en": "Which country is the speaker from?",
+      "audio_text": "안녕하세요? 저는 아이게림이에요. 카자흐스탄 사람이에요.",
+      "options": [
+        "Qozog'iston",
+        "Mo'g'uliston",
+        "O'zbekiston",
+        "Rossiya"
+      ],
+      "options_en": [
+        "Kazakhstan",
+        "Mongolia",
+        "Uzbekistan",
+        "Russia"
+      ],
+      "answers": [
+        "Qozog'iston"
+      ],
+      "audio": "d3a053c474b1.mp3"
+    },
+    {
+      "id": "b1_u03_l1_e115",
+      "type": "listen_question",
+      "targets": [
+        "b1_u03_l1_g2"
+      ],
+      "prompt_uz": "Savol nima haqida?",
+      "prompt_en": "What does the speaker ask?",
+      "audio_text": "아지즈 씨는 어느 나라 사람이에요?",
+      "options": [
+        "Qaysi mamlakatdanligi",
+        "Ismi",
+        "Ona shahri",
+        "Do'sti"
+      ],
+      "options_en": [
+        "Which country he is from",
+        "His name",
+        "His hometown",
+        "His friend"
+      ],
+      "answers": [
+        "Qaysi mamlakatdanligi"
+      ],
+      "audio": "32fec5571528.mp3"
+    }
+  ],
+  "test": [
+    "b1_u03_l1_e101",
+    "b1_u03_l1_e102",
+    "b1_u03_l1_e103",
+    "b1_u03_l1_e104",
+    "b1_u03_l1_e105",
+    "b1_u03_l1_e106",
+    "b1_u03_l1_e107",
+    "b1_u03_l1_e108",
+    "b1_u03_l1_e109",
+    "b1_u03_l1_e110",
+    "b1_u03_l1_e111",
+    "b1_u03_l1_e112",
+    "b1_u03_l1_e113",
+    "b1_u03_l1_e114",
+    "b1_u03_l1_e115"
+  ],
+  "story": {
+    "title_uz": "Birinchi dars kuni",
+    "title_en": "The first day of class",
+    "gate_uz": "SINF",
+    "gate_en": "CLASS",
+    "steps": [
+      {
+        "type": "line",
+        "speaker": "teacher",
+        "ko": "여러분, 안녕하세요? 오늘 새 친구가 왔어요.",
+        "uz": "Hammaga salom! Bugun yangi do'st keldi.",
+        "en": "Hello, everyone! A new friend has come today.",
+        "audio": "49859c6959bd.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "안녕하세요? 처음 뵙겠습니다.",
+        "uz": "Assalomu alaykum! Tanishaylik.",
+        "en": "Hello! How do you do?",
+        "audio": "33df6b01a520.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "teacher",
+        "ko": "이름이 뭐예요?",
+        "uz": "Ismingiz nima?",
+        "en": "What's your name?",
+        "audio": "cc5d3fa0ecbc.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "저는 아지즈예요.",
+        "uz": "Men Azizman.",
+        "en": "I'm Aziz.",
+        "audio": "2a08297ac8d8.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "teacher",
+        "ko": "아지즈 씨는 어느 나라 사람이에요?",
+        "uz": "Aziz, siz qaysi mamlakatdansiz?",
+        "en": "Aziz, which country are you from?",
+        "audio": "192527c61929.mp3"
+      },
+      {
+        "type": "choose_reply",
+        "speaker": "aziz",
+        "prompt_uz": "Aziz 'Men o'zbekistonlikman' demoqchi.",
+        "prompt_en": "Aziz wants to say 'I'm from Uzbekistan'.",
+        "options": [
+          "저는 우즈베키스탄 사람이에요.",
+          "저는 우즈베키스탄 사람예요.",
+          "저는 우즈베키스탄이에요."
+        ],
+        "answer": "저는 우즈베키스탄 사람이에요.",
+        "uz": "Men o'zbekistonlikman.",
+        "en": "I'm from Uzbekistan.",
+        "why_uz": "사람 받침 bilan tugaydi: 사람이에요.",
+        "why_en": "사람 ends in 받침: 사람이에요.",
+        "audio": "50ddfb63346c.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "와, 우즈베키스탄 사람이에요? 저는 민지예요.",
+        "uz": "Voy, o'zbekistonliksizmi? Men Minjiman.",
+        "en": "Wow, you're from Uzbekistan? I'm Minji.",
+        "audio": "fb1b111aea7f.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "민지 씨는 한국 사람이에요?",
+        "uz": "Minji, siz koreysmisiz?",
+        "en": "Minji, are you Korean?",
+        "audio": "ec521ef4cfe8.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "네, 한국 사람이에요. 고향은 부산이에요.",
+        "uz": "Ha, koreysman. Ona shahrim — Pusan.",
+        "en": "Yes, I'm Korean. My hometown is Busan.",
+        "audio": "e298b5064a27.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "제 고향은 사마르칸트예요.",
+        "uz": "Mening ona shahrim — Samarqand.",
+        "en": "My hometown is Samarkand.",
+        "audio": "cc0495d22b1d.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "사마르칸트? 아름다운 도시예요!",
+        "uz": "Samarqand? Go'zal shahar!",
+        "en": "Samarkand? It's a beautiful city!",
+        "audio": "2a67265ef6f0.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "만나서 반갑습니다, 민지 씨.",
+        "uz": "Tanishganimdan xursandman, Minji.",
+        "en": "Nice to meet you, Minji.",
+        "audio": "fd6208b1edf7.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "저도 반갑습니다!",
+        "uz": "Men ham xursandman!",
+        "en": "Nice to meet you too!",
+        "audio": "c54244d97f63.mp3"
+      },
+      {
+        "type": "quiz",
+        "prompt_uz": "Minjining ona shahri qayer?",
+        "prompt_en": "Where is Minji's hometown?",
+        "options": [
+          "Pusan",
+          "Seul",
+          "Samarqand"
+        ],
+        "options_en": [
+          "Busan",
+          "Seoul",
+          "Samarkand"
+        ],
+        "answer": "Pusan",
+        "why_uz": "고향은 부산이에요.",
+        "why_en": "고향은 부산이에요 — her hometown is Busan."
+      }
+    ]
+  }
+}

@@ -132,8 +132,8 @@ fun BuildSyllableView(item: ExerciseItem.BuildSyllable, onResult: (ExerciseOutco
                         c.toString(),
                         onClick = { if (feedback == null) pick(c) },
                         style = if (picked[row] == c) HuntStyle.PRIMARY else HuntStyle.SECONDARY,
-                        minHeight = 48.dp,
-                        fontSize = 22,
+                        minHeight = 56.dp,
+                        fontSize = 28,
                         horizontalPadding = 18.dp,
                     )
                 }
