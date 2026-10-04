@@ -55,6 +55,20 @@
       "name_en": "Tingting",
       "name_ko": "팅팅",
       "voice": "female"
+    },
+    {
+      "id": "junho",
+      "name_uz": "Junho",
+      "name_en": "Junho",
+      "name_ko": "준호",
+      "voice": "male"
+    },
+    {
+      "id": "manager",
+      "name_uz": "Menejer",
+      "name_en": "Manager",
+      "name_ko": "팀장",
+      "voice": "female"
     }
   ]
 }

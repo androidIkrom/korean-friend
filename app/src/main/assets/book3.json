@@ -1,0 +1,184 @@
+{
+  "lessons": [
+    {
+      "id": "b3_u01_l1",
+      "unit": 1,
+      "lesson": 1,
+      "title_ko": "방학 동안 뭐 할 거예요?",
+      "title_uz": "Ta'tilda nima qilasiz?",
+      "title_en": "What will you do during the holidays?",
+      "topic_uz": "Reja",
+      "topic_en": "Plans"
+    },
+    {
+      "id": "b3_u01_l2",
+      "unit": 1,
+      "lesson": 2,
+      "title_ko": "제가 예약할게요",
+      "title_uz": "Men band qilaman",
+      "title_en": "I'll make the reservation",
+      "topic_uz": "Reja",
+      "topic_en": "Plans"
+    },
+    {
+      "id": "b3_u02_l1",
+      "unit": 2,
+      "lesson": 1,
+      "title_ko": "기숙사로 이사하려고 해요",
+      "title_uz": "Yotoqxonaga ko'chmoqchiman",
+      "title_en": "I'm going to move into the dormitory",
+      "topic_uz": "Murojaat",
+      "topic_en": "Inquiry"
+    },
+    {
+      "id": "b3_u02_l2",
+      "unit": 2,
+      "lesson": 2,
+      "title_ko": "등록금을 언제까지 내야 되나요?",
+      "title_uz": "Kontrakt pulini qachongacha to'lash kerak?",
+      "title_en": "By when do I have to pay tuition?",
+      "topic_uz": "Murojaat",
+      "topic_en": "Inquiry"
+    },
+    {
+      "id": "b3_u03_l1",
+      "unit": 3,
+      "lesson": 1,
+      "title_ko": "노량진수산시장에 가 봤어요?",
+      "title_uz": "Noryangjin baliq bozoriga borganmisiz?",
+      "title_en": "Have you been to Noryangjin Fish Market?",
+      "topic_uz": "Tajriba",
+      "topic_en": "Experience"
+    },
+    {
+      "id": "b3_u03_l2",
+      "unit": 3,
+      "lesson": 2,
+      "title_ko": "뮤지컬을 봤는데 정말 재미있었어요",
+      "title_uz": "Myuzikl ko'rdim, juda qiziq bo'ldi",
+      "title_en": "I saw a musical and it was really fun",
+      "topic_uz": "Tajriba",
+      "topic_en": "Experience"
+    },
+    {
+      "id": "b3_u04_l1",
+      "unit": 4,
+      "lesson": 1,
+      "title_ko": "컴퓨터 회사에서 일한 적이 있습니다",
+      "title_uz": "Kompyuter kompaniyasida ishlaganman",
+      "title_en": "I have worked at a computer company",
+      "topic_uz": "Ishga kirish",
+      "topic_en": "Employment"
+    },
+    {
+      "id": "b3_u04_l2",
+      "unit": 4,
+      "lesson": 2,
+      "title_ko": "지금 다니는 회사보다 연봉이 많아요",
+      "title_uz": "Hozirgi ishimdan maoshi ko'proq",
+      "title_en": "The salary is higher than at my current company",
+      "topic_uz": "Ishga kirish",
+      "topic_en": "Employment"
+    },
+    {
+      "id": "b3_u05_l1",
+      "unit": 5,
+      "lesson": 1,
+      "title_ko": "건강에 관심이 많네요",
+      "title_uz": "Sog'likka juda qiziqar ekansiz",
+      "title_en": "You're really into your health",
+      "topic_uz": "Sog'liq",
+      "topic_en": "Health"
+    },
+    {
+      "id": "b3_u05_l2",
+      "unit": 5,
+      "lesson": 2,
+      "title_ko": "몸살이 난 것 같아요",
+      "title_uz": "Shamollab qolganga o'xshayman",
+      "title_en": "I think I've come down with something",
+      "topic_uz": "Sog'liq",
+      "topic_en": "Health"
+    },
+    {
+      "id": "b3_u06_l1",
+      "unit": 6,
+      "lesson": 1,
+      "title_ko": "노트북 화면이 안 나와요",
+      "title_uz": "Noutbuk ekrani yonmayapti",
+      "title_en": "My laptop screen won't come on",
+      "topic_uz": "Buzilish",
+      "topic_en": "Breakdowns"
+    },
+    {
+      "id": "b3_u06_l2",
+      "unit": 6,
+      "lesson": 2,
+      "title_ko": "세탁기가 고장 나서 전화 드렸어요",
+      "title_uz": "Kir yuvish mashinasi buzilgani uchun qo'ng'iroq qildim",
+      "title_en": "I'm calling because the washing machine broke",
+      "topic_uz": "Buzilish",
+      "topic_en": "Breakdowns"
+    },
+    {
+      "id": "b3_u07_l1",
+      "unit": 7,
+      "lesson": 1,
+      "title_ko": "금요일에 신입생 환영회에 갈 거예요?",
+      "title_uz": "Juma kuni birinchi kurslar kechasiga borasizmi?",
+      "title_en": "Are you going to the freshman welcome party on Friday?",
+      "topic_uz": "Yig'ilishlar",
+      "topic_en": "Gatherings"
+    },
+    {
+      "id": "b3_u07_l2",
+      "unit": 7,
+      "lesson": 2,
+      "title_ko": "우리 같은 신입생이니까 말 놓을까요?",
+      "title_uz": "Ikkalamiz ham birinchi kurs, \"sen\"lashaylikmi?",
+      "title_en": "We're both freshmen, so shall we speak casually?",
+      "topic_uz": "Yig'ilishlar",
+      "topic_en": "Gatherings"
+    },
+    {
+      "id": "b3_u08_l1",
+      "unit": 8,
+      "lesson": 1,
+      "title_ko": "부산에서 살다가 서울로 오게 됐어",
+      "title_uz": "Pusanda yashardim, keyin Seulga kelib qoldim",
+      "title_en": "I lived in Busan and then ended up coming to Seoul",
+      "topic_uz": "O'zgarish",
+      "topic_en": "Change"
+    },
+    {
+      "id": "b3_u08_l2",
+      "unit": 8,
+      "lesson": 2,
+      "title_ko": "대학교를 졸업한 후에 뭐 하고 싶어요?",
+      "title_uz": "Universitetni bitirgach nima qilmoqchisiz?",
+      "title_en": "What do you want to do after graduating?",
+      "topic_uz": "O'zgarish",
+      "topic_en": "Change"
+    },
+    {
+      "id": "b3_u09_l1",
+      "unit": 9,
+      "lesson": 1,
+      "title_ko": "가족처럼 지내는 친구들이 있어서 괜찮아요",
+      "title_uz": "Oiladek do'stlarim bor, shuning uchun yaxshi",
+      "title_en": "I'm fine because I have friends who are like family",
+      "topic_uz": "Bayramlar",
+      "topic_en": "Holidays"
+    },
+    {
+      "id": "b3_u09_l2",
+      "unit": 9,
+      "lesson": 2,
+      "title_ko": "설날에는 떡국을 먹는다",
+      "title_uz": "Yangi yilda ttokguk yeyiladi",
+      "title_en": "On Seollal we eat tteokguk",
+      "topic_uz": "Bayramlar",
+      "topic_en": "Holidays"
+    }
+  ]
+}

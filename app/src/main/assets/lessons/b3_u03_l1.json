@@ -1,0 +1,1464 @@
+{
+  "id": "b3_u03_l1",
+  "unit": 3,
+  "lesson": 1,
+  "title_ko": "노량진수산시장에 가 봤어요?",
+  "title_uz": "Noryangjin baliq bozoriga borganmisiz?",
+  "title_en": "Have you been to Noryangjin Fish Market?",
+  "topic_uz": "Tajriba",
+  "topic_en": "Experience",
+  "reviewed": false,
+  "words": [
+    {
+      "id": "b3_u03_l1_w001",
+      "ko": "경험",
+      "uz": "tajriba",
+      "en": "experience",
+      "pos": "ot",
+      "example_ko": "재미있는 경험이었어요.",
+      "example_uz": "Qiziq tajriba bo'ldi.",
+      "example_en": "It was a fun experience.",
+      "audio": "afe1acaa109b.mp3",
+      "example_audio": "112d5606db59.mp3"
+    },
+    {
+      "id": "b3_u03_l1_w002",
+      "ko": "수산시장",
+      "uz": "baliq bozori",
+      "en": "fish market",
+      "pos": "ot",
+      "example_ko": "수산시장에 가 봤어요?",
+      "example_uz": "Baliq bozoriga borganmisiz?",
+      "example_en": "Have you been to a fish market?",
+      "audio": "c0308db6c0ea.mp3",
+      "example_audio": "b4a3a42b150d.mp3"
+    },
+    {
+      "id": "b3_u03_l1_w003",
+      "ko": "회",
+      "uz": "xom baliq (sashimi)",
+      "en": "raw fish",
+      "pos": "ot",
+      "example_ko": "회를 먹어 본 적이 있어요?",
+      "example_uz": "Xom baliq yeb ko'rganmisiz?",
+      "example_en": "Have you ever eaten raw fish?",
+      "audio": "efe907455f81.mp3",
+      "example_audio": "ab2d46c83858.mp3"
+    },
+    {
+      "id": "b3_u03_l1_w004",
+      "ko": "산낙지",
+      "uz": "tirik sakkizoyoq (taom)",
+      "en": "live octopus",
+      "pos": "ot",
+      "example_ko": "산낙지는 못 먹어 봤어요.",
+      "example_uz": "Tirik sakkizoyoqni yeb ko'rmaganman.",
+      "example_en": "I haven't been able to try live octopus.",
+      "audio": "7798467f86cb.mp3",
+      "example_audio": "4fa0fc7feb8b.mp3"
+    },
+    {
+      "id": "b3_u03_l1_w005",
+      "ko": "한복",
+      "uz": "milliy koreys kiyimi",
+      "en": "hanbok",
+      "pos": "ot",
+      "example_ko": "한복을 입어 봤어요.",
+      "example_uz": "Hanbok kiyib ko'rdim.",
+      "example_en": "I've tried on a hanbok.",
+      "audio": "1e6d96c27aaf.mp3",
+      "example_audio": "b7960aba0058.mp3"
+    },
+    {
+      "id": "b3_u03_l1_w006",
+      "ko": "입다",
+      "uz": "kiymoq",
+      "en": "to wear",
+      "pos": "fe'l",
+      "example_ko": "한번 입어 보세요.",
+      "example_uz": "Bir kiyib ko'ring.",
+      "example_en": "Try it on.",
+      "audio": "c613bd412188.mp3",
+      "example_audio": "e91a3319be70.mp3"
+    },
+    {
+      "id": "b3_u03_l1_w007",
+      "ko": "찜질방",
+      "uz": "koreys hammomi (saunasi)",
+      "en": "Korean sauna",
+      "pos": "ot",
+      "example_ko": "찜질방에 가 본 적이 없어요.",
+      "example_uz": "Koreys saunasiga borgan emasman.",
+      "example_en": "I've never been to a jjimjilbang.",
+      "audio": "ff5c8a94df56.mp3",
+      "example_audio": "965c36cb463f.mp3"
+    },
+    {
+      "id": "b3_u03_l1_w008",
+      "ko": "템플스테이",
+      "uz": "ibodatxonada tunash dasturi",
+      "en": "temple stay",
+      "pos": "ot",
+      "example_ko": "템플스테이를 해 보고 싶어요.",
+      "example_uz": "Templ steyni sinab ko'rmoqchiman.",
+      "example_en": "I want to try a temple stay.",
+      "audio": "1537d20090ca.mp3",
+      "example_audio": "41148d7264cf.mp3"
+    },
+    {
+      "id": "b3_u03_l1_w009",
+      "ko": "유람선",
+      "uz": "sayohat kemasi",
+      "en": "cruise boat",
+      "pos": "ot",
+      "example_ko": "한강 유람선을 타 봤어요.",
+      "example_uz": "Hangang kemasiga chiqib ko'rdim.",
+      "example_en": "I've ridden the Han River cruise.",
+      "audio": "b85b88f3eae1.mp3",
+      "example_audio": "3c7e4a7bcc83.mp3"
+    },
+    {
+      "id": "b3_u03_l1_w010",
+      "ko": "놀이공원",
+      "uz": "attraksionlar bog'i",
+      "en": "amusement park",
+      "pos": "ot",
+      "example_ko": "놀이공원에 가 본 적이 있어요?",
+      "example_uz": "Attraksionlar bog'iga borganmisiz?",
+      "example_en": "Have you been to an amusement park?",
+      "audio": "7a631241ea88.mp3",
+      "example_audio": "264aa7604db1.mp3"
+    },
+    {
+      "id": "b3_u03_l1_w011",
+      "ko": "타다",
+      "uz": "minmoq, chiqmoq (transport, attraksion)",
+      "en": "to ride",
+      "pos": "fe'l",
+      "example_ko": "롤러코스터를 타 봤어요.",
+      "example_uz": "Amerika tepaligiga chiqib ko'rdim.",
+      "example_en": "I've ridden a roller coaster.",
+      "audio": "4ca3f7842bc9.mp3",
+      "example_audio": "a8569807fd74.mp3"
+    },
+    {
+      "id": "b3_u03_l1_w012",
+      "ko": "무섭다",
+      "uz": "qo'rqinchli bo'lmoq",
+      "en": "to be scary",
+      "pos": "sifat",
+      "example_ko": "번지점프는 무서워요.",
+      "example_uz": "Banji-jamp qo'rqinchli.",
+      "example_en": "Bungee jumping is scary.",
+      "audio": "60fc7d471150.mp3",
+      "example_audio": "12b6ea6415f2.mp3"
+    },
+    {
+      "id": "b3_u03_l1_w013",
+      "ko": "신기하다",
+      "uz": "ajoyib, g'aroyib bo'lmoq",
+      "en": "to be amazing, fascinating",
+      "pos": "sifat",
+      "example_ko": "정말 신기했어요.",
+      "example_uz": "Haqiqatan g'aroyib bo'ldi.",
+      "example_en": "It was really fascinating.",
+      "audio": "d868c87f6b69.mp3",
+      "example_audio": "3b2656f11194.mp3"
+    },
+    {
+      "id": "b3_u03_l1_w014",
+      "ko": "처음",
+      "uz": "birinchi marta",
+      "en": "first time",
+      "pos": "ot",
+      "example_ko": "처음 먹어 봤어요.",
+      "example_uz": "Birinchi marta yeb ko'rdim.",
+      "example_en": "It was my first time eating it.",
+      "audio": "a61ba4d0c4fc.mp3",
+      "example_audio": "53f92dc2a7b3.mp3"
+    },
+    {
+      "id": "b3_u03_l1_w015",
+      "ko": "한 번도",
+      "uz": "bir marta ham",
+      "en": "not even once",
+      "pos": "ibora",
+      "example_ko": "한 번도 안 가 봤어요.",
+      "example_uz": "Bir marta ham bormaganman.",
+      "example_en": "I've never been even once.",
+      "audio": "7d33c6a4b40c.mp3",
+      "example_audio": "ff03e36ec0d8.mp3"
+    },
+    {
+      "id": "b3_u03_l1_w016",
+      "ko": "여러 번",
+      "uz": "bir necha marta",
+      "en": "several times",
+      "pos": "ibora",
+      "example_ko": "제주도에 여러 번 가 봤어요.",
+      "example_uz": "Jejuga bir necha marta borganman.",
+      "example_en": "I've been to Jeju several times.",
+      "audio": "6eaab7bee5e1.mp3",
+      "example_audio": "93a045f5ed8e.mp3"
+    },
+    {
+      "id": "b3_u03_l1_w017",
+      "ko": "구경하다",
+      "uz": "tomosha qilmoq",
+      "en": "to look around",
+      "pos": "fe'l",
+      "example_ko": "시장을 구경했어요.",
+      "example_uz": "Bozorni tomosha qildim.",
+      "example_en": "I looked around the market.",
+      "audio": "2be7eba8f867.mp3",
+      "example_audio": "1d7114d14629.mp3"
+    },
+    {
+      "id": "b3_u03_l1_w018",
+      "ko": "유명하다",
+      "uz": "mashhur bo'lmoq",
+      "en": "to be famous",
+      "pos": "sifat",
+      "example_ko": "여기는 회가 유명해요.",
+      "example_uz": "Bu yerning xom baliqi mashhur.",
+      "example_en": "This place is famous for raw fish.",
+      "audio": "bb44cdae7ce4.mp3",
+      "example_audio": "3afeef9b9c73.mp3"
+    },
+    {
+      "id": "b3_u03_l1_w019",
+      "ko": "맛보다",
+      "uz": "tatib ko'rmoq",
+      "en": "to taste",
+      "pos": "fe'l",
+      "example_ko": "한번 맛보세요.",
+      "example_uz": "Bir tatib ko'ring.",
+      "example_en": "Have a taste.",
+      "audio": "74f02864897e.mp3",
+      "example_audio": "5de78f9ee0d4.mp3"
+    },
+    {
+      "id": "b3_u03_l1_w020",
+      "ko": "체험하다",
+      "uz": "o'z boshidan kechirmoq (sinab ko'rmoq)",
+      "en": "to experience",
+      "pos": "fe'l",
+      "example_ko": "한국 문화를 체험했어요.",
+      "example_uz": "Koreys madaniyatini his qildim.",
+      "example_en": "I experienced Korean culture.",
+      "audio": "35d577fda5e5.mp3",
+      "example_audio": "28ca1187142e.mp3"
+    },
+    {
+      "id": "b3_u03_l1_w021",
+      "ko": "도전하다",
+      "uz": "sinab ko'rishga jur'at qilmoq",
+      "en": "to take on a challenge",
+      "pos": "fe'l",
+      "example_ko": "새로운 음식에 도전해 보세요.",
+      "example_uz": "Yangi taomni sinab ko'ring.",
+      "example_en": "Try something new.",
+      "audio": "1a51f1329fe1.mp3",
+      "example_audio": "8a616fe2dbe4.mp3"
+    },
+    {
+      "id": "b3_u03_l1_w022",
+      "ko": "기억에 남다",
+      "uz": "esda qolmoq",
+      "en": "to be memorable",
+      "pos": "ibora",
+      "example_ko": "그 여행이 기억에 남아요.",
+      "example_uz": "O'sha sayohat esimda qolgan.",
+      "example_en": "That trip is memorable.",
+      "audio": "6228e551130c.mp3",
+      "example_audio": "3ca252ea1245.mp3"
+    },
+    {
+      "id": "b3_u03_l1_w023",
+      "ko": "관광객",
+      "uz": "sayyoh",
+      "en": "tourist",
+      "pos": "ot",
+      "example_ko": "시장에 관광객이 많아요.",
+      "example_uz": "Bozorda sayyohlar ko'p.",
+      "example_en": "There are many tourists at the market.",
+      "audio": "9973cf4c1275.mp3",
+      "example_audio": "28e890a9a86d.mp3"
+    },
+    {
+      "id": "b3_u03_l1_w024",
+      "ko": "싱싱하다",
+      "uz": "yangi (tirik, yangi tutilgan)",
+      "en": "to be fresh",
+      "pos": "sifat",
+      "example_ko": "생선이 싱싱해요.",
+      "example_uz": "Baliq yangi.",
+      "example_en": "The fish is fresh.",
+      "audio": "a23c3229caa0.mp3",
+      "example_audio": "3970b72b106d.mp3"
+    },
+    {
+      "id": "b3_u03_l1_w025",
+      "ko": "고르다",
+      "uz": "tanlamoq",
+      "en": "to choose",
+      "pos": "fe'l",
+      "example_ko": "생선을 직접 골랐어요.",
+      "example_uz": "Baliqni o'zim tanladim.",
+      "example_en": "I picked the fish myself.",
+      "audio": "d99457d6b34c.mp3",
+      "example_audio": "c901912015b2.mp3"
+    },
+    {
+      "id": "b3_u03_l1_w026",
+      "ko": "식당",
+      "uz": "oshxona, restoran",
+      "en": "restaurant",
+      "pos": "ot",
+      "example_ko": "이층 식당에서 먹었어요.",
+      "example_uz": "Ikkinchi qavatdagi restoranda yedik.",
+      "example_en": "We ate at the restaurant upstairs.",
+      "audio": "f7d9a22159a5.mp3",
+      "example_audio": "4d7122b6d958.mp3"
+    },
+    {
+      "id": "b3_u03_l1_w027",
+      "ko": "문화",
+      "uz": "madaniyat",
+      "en": "culture",
+      "pos": "ot",
+      "example_ko": "한국 문화에 관심이 많아요.",
+      "example_uz": "Koreys madaniyatiga qiziqaman.",
+      "example_en": "I'm very interested in Korean culture.",
+      "audio": "cb6d7d40f3b3.mp3",
+      "example_audio": "7190eea3246b.mp3"
+    },
+    {
+      "id": "b3_u03_l1_w028",
+      "ko": "소원",
+      "uz": "orzu, istak",
+      "en": "wish",
+      "pos": "ot",
+      "example_ko": "제 소원은 세계 여행이에요.",
+      "example_uz": "Orzuim — dunyo bo'ylab sayohat.",
+      "example_en": "My wish is to travel the world.",
+      "audio": "82623e3b8d35.mp3",
+      "example_audio": "6708a9dfc950.mp3"
+    },
+    {
+      "id": "b3_u03_l1_w029",
+      "ko": "용기",
+      "uz": "jasorat",
+      "en": "courage",
+      "pos": "ot",
+      "example_ko": "용기를 내서 먹어 봤어요.",
+      "example_uz": "Jur'at qilib yeb ko'rdim.",
+      "example_en": "I plucked up the courage to try it.",
+      "audio": "4b958d6987a0.mp3",
+      "example_audio": "6237f98a13c1.mp3"
+    },
+    {
+      "id": "b3_u03_l1_w030",
+      "ko": "살아 있다",
+      "uz": "tirik bo'lmoq",
+      "en": "to be alive",
+      "pos": "ibora",
+      "example_ko": "낙지가 살아 있어요!",
+      "example_uz": "Sakkizoyoq tirik!",
+      "example_en": "The octopus is alive!",
+      "audio": "540834459c0e.mp3",
+      "example_audio": "007f41c093e2.mp3"
+    },
+    {
+      "id": "b3_u03_l1_w031",
+      "ko": "움직이다",
+      "uz": "harakatlanmoq, qimirlamoq",
+      "en": "to move",
+      "pos": "fe'l",
+      "example_ko": "접시 위에서 움직여요.",
+      "example_uz": "Likopchada qimirlayapti.",
+      "example_en": "It's moving on the plate.",
+      "audio": "7d6645dfb53c.mp3",
+      "example_audio": "e658cf0ac782.mp3"
+    },
+    {
+      "id": "b3_u03_l1_w032",
+      "ko": "다음에",
+      "uz": "keyingi safar",
+      "en": "next time",
+      "pos": "ibora",
+      "example_ko": "다음에 같이 가 봐요.",
+      "example_uz": "Keyingi safar birga borib ko'ramiz.",
+      "example_en": "Let's try going together next time.",
+      "audio": "dfb22d26e029.mp3",
+      "example_audio": "0e4098052517.mp3"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "b3_u03_l1_g1",
+      "pattern": "V-아/어 보다",
+      "meaning_uz": "...ib ko'rmoq (sinab ko'rish, tajriba)",
+      "meaning_en": "Try doing; have done (experience)",
+      "explanation_md": "**-아/어 보다** — \"**...ib ko'rmoq**\": biror narsani sinab ko'rish yoki uni boshdan kechirgan bo'lish.\n\n**한복을 입어 봤어요.** — *Hanbok kiyib ko'rdim.*  \n**한번 맛보세요.** — *Bir tatib ko'ring.*\n\n### Qanday yasaladi\n\n-아요/어요 qoidasi bilan: **-아/어 + 보다**:\n\n- 가다 → **가 보다** → 가 봤어요\n- 먹다 → **먹어 보다** → 먹어 봤어요\n- 입다 → **입어 보다**, 타다 → **타 보다**, 하다 → **해 보다**\n\n### Shakllari\n\n- **-아/어 봤어요** — tajriba: \"...ib ko'rdim / ...ganman\"\n- **-아/어 보세요** — maslahat: \"...ib ko'ring\"\n- **-아/어 보고 싶어요** — \"...ib ko'rmoqchiman\"\n\n### Esda tuting\n\n- **보다** (ko'rmoq) fe'li bilan: ~~봐 보다~~ emas, **봤어요**.\n- Inkor: **안 가 봤어요** / **못 가 봤어요** — \"borib ko'rmaganman\".",
+      "explanation_md_en": "**-아/어 보다** means \"**try doing**\" or, in the past, \"**have done (experienced)**\".\n\n**한복을 입어 봤어요.** — *I've tried on a hanbok.*  \n**한번 맛보세요.** — *Have a taste.*\n\n### How to form it\n\nUse the -아요/어요 rule: **-아/어 + 보다**:\n\n- 가다 → **가 보다** → 가 봤어요\n- 먹다 → **먹어 보다** → 먹어 봤어요\n- 입다 → **입어 보다**, 타다 → **타 보다**, 하다 → **해 보다**\n\n### Forms\n\n- **-아/어 봤어요** — experience: \"I've (tried) …\"\n- **-아/어 보세요** — advice: \"Try …\"\n- **-아/어 보고 싶어요** — \"I want to try …\"\n\n### Remember\n\n- With **보다** (see) itself: not ~~봐 보다~~ — just **봤어요**.\n- Negative: **안 가 봤어요** / **못 가 봤어요** — \"I haven't been\".",
+      "formation": [
+        {
+          "condition_uz": "ㅏ/ㅗ",
+          "condition_en": "ㅏ/ㅗ",
+          "rule": "-아 보다",
+          "example": "가 보다, 타 보다"
+        },
+        {
+          "condition_uz": "Boshqa",
+          "condition_en": "Other vowels",
+          "rule": "-어 보다",
+          "example": "먹어 보다, 입어 보다"
+        },
+        {
+          "condition_uz": "하다",
+          "condition_en": "하다",
+          "rule": "해 보다",
+          "example": "체험해 보다, 도전해 보다"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "노량진수산시장에 가 봤어요?",
+          "uz": "Noryangjin baliq bozoriga borganmisiz?",
+          "en": "Have you been to Noryangjin Fish Market?",
+          "audio": "3588a2b69902.mp3"
+        },
+        {
+          "ko": "한복을 입어 봤어요.",
+          "uz": "Hanbok kiyib ko'rdim.",
+          "en": "I've tried on a hanbok.",
+          "audio": "b7960aba0058.mp3"
+        },
+        {
+          "ko": "이 회 한번 먹어 보세요.",
+          "uz": "Bu xom baliqni bir yeb ko'ring.",
+          "en": "Try this raw fish.",
+          "audio": "56e4afc37d37.mp3"
+        },
+        {
+          "ko": "템플스테이를 해 보고 싶어요.",
+          "uz": "Templ steyni sinab ko'rmoqchiman.",
+          "en": "I want to try a temple stay.",
+          "audio": "41148d7264cf.mp3"
+        },
+        {
+          "ko": "찜질방에는 안 가 봤어요.",
+          "uz": "Koreys saunasiga bormaganman.",
+          "en": "I haven't been to a jjimjilbang.",
+          "audio": "46b739c2d332.mp3"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "한복을 입 봤어요.",
+          "right": "한복을 입어 봤어요.",
+          "why_uz": "입다 → 입어 보다.",
+          "why_en": "입다 → 입어 보다."
+        },
+        {
+          "wrong": "그 영화를 봐 봤어요.",
+          "right": "그 영화를 봤어요.",
+          "why_uz": "보다 bilan 봐 보다 deyilmaydi.",
+          "why_en": "Don't say 봐 보다 with 보다."
+        },
+        {
+          "wrong": "유람선을 타어 봤어요.",
+          "right": "유람선을 타 봤어요.",
+          "why_uz": "타다 → 타 보다.",
+          "why_en": "타다 → 타 보다."
+        }
+      ],
+      "uz_compare": "O'zbekchadagi '-ib ko'rmoq' bilan aynan bir xil: 'kiyIB KO'Rdim' = 입어 봤어요, 'tatib KO'RING' = 맛보세요. Ikkala tilda ham 'ko'rmoq' fe'li!",
+      "compare_en": "Like English 'try …ing' and 'have done': 'Try it on' = 입어 보세요, 'I've been there' = 가 봤어요. Korean literally says 'do and see'."
+    },
+    {
+      "id": "b3_u03_l1_g2",
+      "pattern": "V-(으)ㄴ 적이 있다/없다",
+      "meaning_uz": "...gan (...magan) tajribam bor/yo'q",
+      "meaning_en": "Have / have never done",
+      "explanation_md": "**-(으)ㄴ 적이 있다** — \"**...ganman**\", hayotda shunday tajriba **bo'lgan**. **-(으)ㄴ 적이 없다** — \"**hech ...maganman**\".\n\n**회를 먹은 적이 있어요.** — *Xom baliq yeganman.*  \n**번지점프를 한 적이 없어요.** — *Hech banji-jamp qilmaganman.*\n\n### Qanday yasaladi\n\n- O'zak **받침siz** → **-ㄴ 적이 있다**: 가다 → **간 적이 있어요**, 하다 → **한 적이 있어요**\n- O'zak **받침 bilan** → **-은 적이 있다**: 먹다 → **먹은 적이 있어요**, 입다 → **입은 적이 있어요**\n- **ㄹ** tushadi: 살다 → **산 적이 있어요**\n\n### Esda tuting\n\n- Ko'pincha **-아/어 보다** bilan birga: **먹어 본 적이 있어요?** — *Yeb ko'rganmisiz?*\n- Kundalik takroriy ishlar uchun emas: ~~아침을 먹은 적이 있어요~~ (har kuni yeysiz-ku).\n- **한 번도 …-(으)ㄴ 적이 없어요** — \"bir marta ham ...maganman\".",
+      "explanation_md_en": "**-(으)ㄴ 적이 있다** means \"**have done** (at some point in life)\"; **-(으)ㄴ 적이 없다** means \"**have never done**\".\n\n**회를 먹은 적이 있어요.** — *I've eaten raw fish.*  \n**번지점프를 한 적이 없어요.** — *I've never done a bungee jump.*\n\n### How to form it\n\n- Stem **without 받침** → **-ㄴ 적이 있다**: 가다 → **간 적이 있어요**, 하다 → **한 적이 있어요**\n- Stem **with 받침** → **-은 적이 있다**: 먹다 → **먹은 적이 있어요**, 입다 → **입은 적이 있어요**\n- **ㄹ** drops: 살다 → **산 적이 있어요**\n\n### Remember\n\n- It often combines with **-아/어 보다**: **먹어 본 적이 있어요?** — *Have you ever tried it?*\n- Not for everyday routines: not ~~아침을 먹은 적이 있어요~~.\n- **한 번도 …-(으)ㄴ 적이 없어요** — \"never, not even once\".",
+      "formation": [
+        {
+          "condition_uz": "받침 yo'q",
+          "condition_en": "No 받침",
+          "rule": "V + ㄴ 적이 있다/없다",
+          "example": "간 적이, 한 적이"
+        },
+        {
+          "condition_uz": "받침 bor",
+          "condition_en": "With 받침",
+          "rule": "V + 은 적이 있다/없다",
+          "example": "먹은 적이, 입은 적이"
+        },
+        {
+          "condition_uz": "-아/어 보다 bilan",
+          "condition_en": "With -아/어 보다",
+          "rule": "V-아/어 본 적이 있다",
+          "example": "먹어 본 적이, 가 본 적이"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "회를 먹은 적이 있어요.",
+          "uz": "Xom baliq yeganman.",
+          "en": "I've eaten raw fish.",
+          "audio": "9fca065b6e4d.mp3"
+        },
+        {
+          "ko": "번지점프를 한 적이 없어요.",
+          "uz": "Hech banji-jamp qilmaganman.",
+          "en": "I've never done a bungee jump.",
+          "audio": "e98ea5f51216.mp3"
+        },
+        {
+          "ko": "놀이공원에 가 본 적이 있어요?",
+          "uz": "Attraksionlar bog'iga borganmisiz?",
+          "en": "Have you ever been to an amusement park?",
+          "audio": "264aa7604db1.mp3"
+        },
+        {
+          "ko": "한 번도 산낙지를 먹어 본 적이 없어요.",
+          "uz": "Bir marta ham tirik sakkizoyoq yemaganman.",
+          "en": "I've never once tried live octopus.",
+          "audio": "e9acc6488a53.mp3"
+        },
+        {
+          "ko": "부산에서 산 적이 있어요.",
+          "uz": "Pusanda yashaganman.",
+          "en": "I've lived in Busan.",
+          "audio": "dd9a7beb9092.mp3"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "회를 먹는 적이 있어요.",
+          "right": "회를 먹은 적이 있어요.",
+          "why_uz": "O'tgan tajriba: -(으)ㄴ 적이.",
+          "why_en": "Past experience: -(으)ㄴ 적이."
+        },
+        {
+          "wrong": "부산에서 살은 적이 있어요.",
+          "right": "부산에서 산 적이 있어요.",
+          "why_uz": "살다: ㄹ tushadi → 산 적이.",
+          "why_en": "살다: ㄹ drops → 산 적이."
+        },
+        {
+          "wrong": "한 번도 간 적이 있어요.",
+          "right": "한 번도 간 적이 없어요.",
+          "why_uz": "한 번도 + inkor (없어요).",
+          "why_en": "한 번도 needs a negative (없어요)."
+        }
+      ],
+      "uz_compare": "O'zbekchadagi '-gan(man)' tajriba ma'nosiga mos: 'Pusanda yashaGANman' = 부산에서 산 적이 있어요; 'hech yeMAGANman' = 먹은 적이 없어요.",
+      "compare_en": "Like the English present perfect for experience: 'I HAVE eaten raw fish' = 회를 먹은 적이 있어요; 'I've NEVER …' = …-(으)ㄴ 적이 없어요."
+    }
+  ],
+  "dialogue": {
+    "lines": [
+      {
+        "speaker": "minji",
+        "ko": "아지즈 씨, 노량진수산시장에 가 봤어요?",
+        "uz": "Aziz, Noryangjin baliq bozoriga borganmisiz?",
+        "en": "Aziz, have you been to Noryangjin Fish Market?",
+        "audio": "a552a547329f.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "아니요, 아직 안 가 봤어요. 유명한 곳이에요?",
+        "uz": "Yo'q, hali bormaganman. Mashhur joymi?",
+        "en": "No, not yet. Is it a famous place?",
+        "audio": "86cd72ab90fc.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "네, 관광객이 많이 가요. 생선을 직접 고르고 이층 식당에서 먹어요.",
+        "uz": "Ha, sayyohlar ko'p boradi. Baliqni o'zing tanlab, ikkinchi qavatda yeysan.",
+        "en": "Yes, lots of tourists go. You choose the fish yourself and eat it upstairs.",
+        "audio": "0a5044ccf5dc.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "재미있겠네요. 그런데 저는 회를 먹은 적이 없어요.",
+        "uz": "Qiziq ekan. Lekin men xom baliq yemaganman.",
+        "en": "Sounds fun. But I've never eaten raw fish.",
+        "audio": "79e0185830f3.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "정말요? 그럼 꼭 먹어 보세요. 아주 싱싱해요.",
+        "uz": "Rostdanmi? Unda albatta yeb ko'ring. Juda yangi.",
+        "en": "Really? Then you must try it. It's very fresh.",
+        "audio": "6d61826af7aa.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "산낙지도 먹어 본 적이 있어요?",
+        "uz": "Tirik sakkizoyoq ham yeb ko'rganmisiz?",
+        "en": "Have you ever tried live octopus too?",
+        "audio": "a05fe8c65f76.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "네, 한 번 먹어 봤어요. 접시 위에서 움직여서 신기했어요.",
+        "uz": "Ha, bir marta yeganman. Likopchada qimirlab turadi, g'aroyib.",
+        "en": "Yes, once. It moves on the plate — it was fascinating.",
+        "audio": "466030d68369.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "와, 무서워요! 저는 용기가 없어요.",
+        "uz": "Voy, qo'rqinchli! Menda jur'at yo'q.",
+        "en": "Wow, that's scary! I don't have the courage.",
+        "audio": "6e7ce678d10c.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "하하, 처음에는 다 그래요. 이번 주말에 같이 가 볼까요?",
+        "uz": "Haha, avvaliga hamma shunday. Shu dam olish kuni birga borib ko'ramizmi?",
+        "en": "Haha, everyone feels that way at first. Shall we go together this weekend?",
+        "audio": "2117c025a002.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "좋아요. 새로운 음식에 도전해 볼게요.",
+        "uz": "Mayli. Yangi taomni sinab ko'raman.",
+        "en": "Okay. I'll take on the challenge of new food.",
+        "audio": "9ee25cb86ce7.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "좋아요! 기억에 남는 경험이 될 거예요.",
+        "uz": "Zo'r! Esda qoladigan tajriba bo'ladi.",
+        "en": "Great! It'll be a memorable experience.",
+        "audio": "43b3c2c34997.mp3"
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b3_u03_l1_e001",
+      "type": "conjugate",
+      "targets": [
+        "b3_u03_l1_g1"
+      ],
+      "prompt_uz": "'Borib ko'rdim' shaklini yasang",
+      "prompt_en": "Make 'I've been (tried going)'",
+      "base": "가다",
+      "form": "-아/어 봤어요",
+      "answers": [
+        "가 봤어요"
+      ]
+    },
+    {
+      "id": "b3_u03_l1_e002",
+      "type": "conjugate",
+      "targets": [
+        "b3_u03_l1_g1"
+      ],
+      "prompt_uz": "'Kiyib ko'ring' shaklini yasang",
+      "prompt_en": "Make 'try it on'",
+      "base": "입다",
+      "form": "-아/어 보세요",
+      "answers": [
+        "입어 보세요"
+      ]
+    },
+    {
+      "id": "b3_u03_l1_e003",
+      "type": "conjugate",
+      "targets": [
+        "b3_u03_l1_g2"
+      ],
+      "prompt_uz": "'Yeganman' shaklini yasang",
+      "prompt_en": "Make 'have eaten'",
+      "base": "먹다",
+      "form": "-(으)ㄴ 적이 있어요",
+      "answers": [
+        "먹은 적이 있어요"
+      ]
+    },
+    {
+      "id": "b3_u03_l1_e004",
+      "type": "conjugate",
+      "targets": [
+        "b3_u03_l1_g2"
+      ],
+      "prompt_uz": "'Yashaganman' shaklini yasang",
+      "prompt_en": "Make 'have lived'",
+      "base": "살다",
+      "form": "-(으)ㄴ 적이 있어요",
+      "answers": [
+        "산 적이 있어요"
+      ],
+      "hint_uz": "ㄹ tushadi",
+      "hint_en": "ㄹ drops"
+    },
+    {
+      "id": "b3_u03_l1_e005",
+      "type": "fill_blank",
+      "targets": [
+        "b3_u03_l1_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Bir tatib ko'ring.'",
+      "prompt_en": "Fill in the blank: 'Have a taste.'",
+      "sentence": "한번 ___. (맛보다)",
+      "answers": [
+        "맛보세요"
+      ]
+    },
+    {
+      "id": "b3_u03_l1_e006",
+      "type": "fill_blank",
+      "targets": [
+        "b3_u03_l1_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Hangang kemasiga chiqib ko'rdim.'",
+      "prompt_en": "Fill in the blank: 'I've ridden the Han River cruise.'",
+      "sentence": "한강 유람선을 ___. (타다)",
+      "answers": [
+        "타 봤어요"
+      ]
+    },
+    {
+      "id": "b3_u03_l1_e007",
+      "type": "fill_blank",
+      "targets": [
+        "b3_u03_l1_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Hech banji-jamp qilmaganman.'",
+      "prompt_en": "Fill in the blank: 'I've never done a bungee jump.'",
+      "sentence": "번지점프를 한 적이 ___.",
+      "answers": [
+        "없어요"
+      ]
+    },
+    {
+      "id": "b3_u03_l1_e008",
+      "type": "fill_blank",
+      "targets": [
+        "b3_u03_l1_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Attraksionlar bog'iga borganmisiz?'",
+      "prompt_en": "Fill in the blank: 'Have you been to an amusement park?'",
+      "sentence": "놀이공원에 가 본 ___이 있어요?",
+      "answers": [
+        "적"
+      ]
+    },
+    {
+      "id": "b3_u03_l1_e009",
+      "type": "situation_choice",
+      "targets": [
+        "b3_u03_l1_g1"
+      ],
+      "prompt_uz": "Do'stingizga bu kiyimni kiyib ko'rishni maslahat bering:",
+      "prompt_en": "Advise your friend to try on these clothes:",
+      "options": [
+        "한번 입어 보세요.",
+        "한번 입 보세요.",
+        "한번 입어 봤어요.",
+        "한번 입어 볼게요요."
+      ],
+      "answers": [
+        "한번 입어 보세요."
+      ]
+    },
+    {
+      "id": "b3_u03_l1_e010",
+      "type": "situation_choice",
+      "targets": [
+        "b3_u03_l1_g2"
+      ],
+      "prompt_uz": "Koreys saunasiga hech bormaganingizni ayting:",
+      "prompt_en": "Say you've never been to a Korean sauna:",
+      "options": [
+        "찜질방에 가 본 적이 없어요.",
+        "찜질방에 가 본 적이 있어요.",
+        "찜질방에 가는 적이 없어요.",
+        "찜질방에 간 적이 안 있어요."
+      ],
+      "answers": [
+        "찜질방에 가 본 적이 없어요."
+      ]
+    },
+    {
+      "id": "b3_u03_l1_e011",
+      "type": "situation_choice",
+      "targets": [
+        "b3_u03_l1_w015"
+      ],
+      "prompt_uz": "Hech qachon qilmaganingizni ta'kidlash uchun qaysi ibora kerak?",
+      "prompt_en": "Which phrase stresses 'not even once'?",
+      "options": [
+        "한 번도",
+        "여러 번",
+        "처음",
+        "다음에"
+      ],
+      "answers": [
+        "한 번도"
+      ]
+    },
+    {
+      "id": "b3_u03_l1_e012",
+      "type": "find_error",
+      "targets": [
+        "b3_u03_l1_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "한복을 입 봤어요.",
+      "answers": [
+        "한복을 입어 봤어요"
+      ],
+      "why_uz": "입다 → 입어 보다.",
+      "why_en": "입다 → 입어 보다."
+    },
+    {
+      "id": "b3_u03_l1_e013",
+      "type": "find_error",
+      "targets": [
+        "b3_u03_l1_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "회를 먹는 적이 있어요.",
+      "answers": [
+        "회를 먹은 적이 있어요"
+      ],
+      "why_uz": "O'tgan tajriba: -(으)ㄴ 적이.",
+      "why_en": "Past experience: -(으)ㄴ 적이."
+    },
+    {
+      "id": "b3_u03_l1_e014",
+      "type": "find_error",
+      "targets": [
+        "b3_u03_l1_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "한 번도 가 본 적이 있어요.",
+      "answers": [
+        "한 번도 가 본 적이 없어요"
+      ],
+      "why_uz": "한 번도 + 없어요.",
+      "why_en": "한 번도 needs 없어요."
+    },
+    {
+      "id": "b3_u03_l1_e015",
+      "type": "translate",
+      "targets": [
+        "b3_u03_l1_g1"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Hanbok kiyib ko'rdim.",
+      "source_en": "I've tried on a hanbok.",
+      "answers": [
+        "한복을 입어 봤어요",
+        "한복을 입어 본 적이 있어요"
+      ]
+    },
+    {
+      "id": "b3_u03_l1_e016",
+      "type": "translate",
+      "targets": [
+        "b3_u03_l1_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Xom baliq yeganmisiz?",
+      "source_en": "Have you ever eaten raw fish?",
+      "answers": [
+        "회를 먹어 본 적이 있어요",
+        "회를 먹어 본 적이 있어요?",
+        "회를 먹은 적이 있어요?"
+      ]
+    },
+    {
+      "id": "b3_u03_l1_e017",
+      "type": "translate",
+      "targets": [
+        "b3_u03_l1_g1"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Templ steyni sinab ko'rmoqchiman.",
+      "source_en": "I want to try a temple stay.",
+      "answers": [
+        "템플스테이를 해 보고 싶어요"
+      ]
+    },
+    {
+      "id": "b3_u03_l1_e018",
+      "type": "build_sentence",
+      "targets": [
+        "b3_u03_l1_g1"
+      ],
+      "prompt_uz": "'Bu xom baliqni bir yeb ko'ring' gapini tuzing",
+      "prompt_en": "Build the sentence 'Try this raw fish'",
+      "tokens": [
+        "회",
+        "한번",
+        "보세요",
+        "이",
+        "먹어"
+      ],
+      "answers": [
+        "이 회 한번 먹어 보세요"
+      ]
+    },
+    {
+      "id": "b3_u03_l1_e019",
+      "type": "build_sentence",
+      "targets": [
+        "b3_u03_l1_g2"
+      ],
+      "prompt_uz": "'Pusanda yashaganman' gapini tuzing",
+      "prompt_en": "Build the sentence 'I've lived in Busan'",
+      "tokens": [
+        "있어요",
+        "산",
+        "적이",
+        "부산에서"
+      ],
+      "answers": [
+        "부산에서 산 적이 있어요"
+      ]
+    },
+    {
+      "id": "b3_u03_l1_e020",
+      "type": "build_sentence",
+      "targets": [
+        "b3_u03_l1_g1",
+        "b3_u03_l1_g2"
+      ],
+      "prompt_uz": "'Bir marta ham bormaganman' gapini tuzing",
+      "prompt_en": "Build the sentence 'I've never been even once'",
+      "tokens": [
+        "본",
+        "가",
+        "적이",
+        "없어요",
+        "번도",
+        "한"
+      ],
+      "answers": [
+        "한 번도 가 본 적이 없어요"
+      ]
+    },
+    {
+      "id": "b3_u03_l1_e021",
+      "type": "listen_question",
+      "targets": [
+        "b3_u03_l1_g2"
+      ],
+      "prompt_uz": "U nimani qilmagan?",
+      "prompt_en": "What has the speaker never done?",
+      "audio_text": "저는 번지점프를 한 적이 없어요. 너무 무서워요.",
+      "options": [
+        "Banji-jamp",
+        "Suzish",
+        "Chang'i",
+        "Sayohat"
+      ],
+      "options_en": [
+        "Bungee jumping",
+        "Swimming",
+        "Skiing",
+        "Travelling"
+      ],
+      "answers": [
+        "Banji-jamp"
+      ],
+      "audio": "f01a4f3b9291.mp3"
+    },
+    {
+      "id": "b3_u03_l1_e022",
+      "type": "listen_question",
+      "targets": [
+        "b3_u03_l1_g1"
+      ],
+      "prompt_uz": "U nimani sinab ko'rdi?",
+      "prompt_en": "What did the speaker try?",
+      "audio_text": "지난주에 경복궁에서 한복을 입어 봤어요.",
+      "options": [
+        "Hanbok kiydi",
+        "Xom baliq yedi",
+        "Kemaga chiqdi",
+        "Saunaga bordi"
+      ],
+      "options_en": [
+        "Wore a hanbok",
+        "Ate raw fish",
+        "Rode a boat",
+        "Went to a sauna"
+      ],
+      "answers": [
+        "Hanbok kiydi"
+      ],
+      "audio": "a9b60377afcf.mp3"
+    },
+    {
+      "id": "b3_u03_l1_e023",
+      "type": "listen_question",
+      "targets": [
+        "b3_u03_l1_g1"
+      ],
+      "prompt_uz": "Ayol nimani maslahat beryapti?",
+      "prompt_en": "What does the woman suggest?",
+      "audio_text": "이 식당은 회가 유명해요. 한번 먹어 보세요.",
+      "options": [
+        "Xom baliqni yeb ko'rishni",
+        "Boshqa joyga borishni",
+        "Pishirishni",
+        "Sotib olishni"
+      ],
+      "options_en": [
+        "Trying the raw fish",
+        "Going elsewhere",
+        "Cooking",
+        "Buying it"
+      ],
+      "answers": [
+        "Xom baliqni yeb ko'rishni"
+      ],
+      "audio": "9fca361f611b.mp3"
+    },
+    {
+      "id": "b3_u03_l1_e024",
+      "type": "listen_question",
+      "targets": [
+        "b3_u03_l1_g2"
+      ],
+      "prompt_uz": "U Jejuga necha marta borgan?",
+      "prompt_en": "How many times has the speaker been to Jeju?",
+      "audio_text": "제주도에 여러 번 가 본 적이 있어요.",
+      "options": [
+        "Bir necha marta",
+        "Hech qachon",
+        "Bir marta",
+        "Birinchi marta"
+      ],
+      "options_en": [
+        "Several times",
+        "Never",
+        "Once",
+        "First time"
+      ],
+      "answers": [
+        "Bir necha marta"
+      ],
+      "audio": "315de904649c.mp3"
+    },
+    {
+      "id": "b3_u03_l1_e101",
+      "type": "conjugate",
+      "targets": [
+        "b3_u03_l1_g1"
+      ],
+      "prompt_uz": "'Minib ko'rdim' shaklini yasang",
+      "prompt_en": "Make 'I've ridden'",
+      "base": "타다",
+      "form": "-아/어 봤어요",
+      "answers": [
+        "타 봤어요"
+      ]
+    },
+    {
+      "id": "b3_u03_l1_e102",
+      "type": "conjugate",
+      "targets": [
+        "b3_u03_l1_g2"
+      ],
+      "prompt_uz": "'Qilganman' shaklini yasang",
+      "prompt_en": "Make 'have done'",
+      "base": "하다",
+      "form": "-(으)ㄴ 적이 있어요",
+      "answers": [
+        "한 적이 있어요"
+      ]
+    },
+    {
+      "id": "b3_u03_l1_e103",
+      "type": "conjugate",
+      "targets": [
+        "b3_u03_l1_g1"
+      ],
+      "prompt_uz": "'Sinab ko'rmoqchiman' shaklini yasang",
+      "prompt_en": "Make 'I want to try'",
+      "base": "도전하다",
+      "form": "-아/어 보고 싶어요",
+      "answers": [
+        "도전해 보고 싶어요"
+      ]
+    },
+    {
+      "id": "b3_u03_l1_e104",
+      "type": "fill_blank",
+      "targets": [
+        "b3_u03_l1_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Hanbok kiyganmisiz?'",
+      "prompt_en": "Fill in the blank: 'Have you ever worn a hanbok?'",
+      "sentence": "한복을 ___ 적이 있어요? (입다)",
+      "answers": [
+        "입은",
+        "입어 본"
+      ]
+    },
+    {
+      "id": "b3_u03_l1_e105",
+      "type": "fill_blank",
+      "targets": [
+        "b3_u03_l1_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Keyingi safar birga borib ko'ramiz.'",
+      "prompt_en": "Fill in the blank: 'Let's try going together next time.'",
+      "sentence": "다음에 같이 가 ___. (보다)",
+      "answers": [
+        "봐요"
+      ]
+    },
+    {
+      "id": "b3_u03_l1_e106",
+      "type": "situation_choice",
+      "targets": [
+        "b3_u03_l1_g2"
+      ],
+      "prompt_uz": "'Tirik sakkizoyoq yeganmisiz?' — ha, bir marta:",
+      "prompt_en": "'Have you tried live octopus?' — yes, once:",
+      "options": [
+        "네, 한 번 먹어 본 적이 있어요.",
+        "네, 한 번도 먹어 본 적이 없어요.",
+        "네, 한 번 먹는 적이 있어요.",
+        "아니요, 한 번 먹어 봤어요."
+      ],
+      "answers": [
+        "네, 한 번 먹어 본 적이 있어요."
+      ]
+    },
+    {
+      "id": "b3_u03_l1_e107",
+      "type": "situation_choice",
+      "targets": [
+        "b3_u03_l1_g1"
+      ],
+      "prompt_uz": "Do'stingizga bozorni ko'rib chiqishni maslahat bering:",
+      "prompt_en": "Suggest your friend look around the market:",
+      "options": [
+        "시장을 구경해 보세요.",
+        "시장을 구경하 보세요.",
+        "시장을 구경해 봤어요.",
+        "시장을 구경 보세요."
+      ],
+      "answers": [
+        "시장을 구경해 보세요."
+      ]
+    },
+    {
+      "id": "b3_u03_l1_e108",
+      "type": "situation_choice",
+      "targets": [
+        "b3_u03_l1_w024"
+      ],
+      "prompt_uz": "Baliq juda yangi ekanini ayting:",
+      "prompt_en": "Say the fish is very fresh:",
+      "options": [
+        "생선이 아주 싱싱해요.",
+        "생선이 아주 무서워요.",
+        "생선이 아주 신기해요.",
+        "생선이 아주 유명해요."
+      ],
+      "answers": [
+        "생선이 아주 싱싱해요."
+      ]
+    },
+    {
+      "id": "b3_u03_l1_e109",
+      "type": "find_error",
+      "targets": [
+        "b3_u03_l1_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "유람선을 타어 봤어요.",
+      "answers": [
+        "유람선을 타 봤어요"
+      ],
+      "why_uz": "타다 → 타 보다.",
+      "why_en": "타다 → 타 보다."
+    },
+    {
+      "id": "b3_u03_l1_e110",
+      "type": "find_error",
+      "targets": [
+        "b3_u03_l1_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "서울에서 살은 적이 있어요.",
+      "answers": [
+        "서울에서 산 적이 있어요"
+      ],
+      "why_uz": "살다: ㄹ tushadi.",
+      "why_en": "살다: ㄹ drops."
+    },
+    {
+      "id": "b3_u03_l1_e111",
+      "type": "translate",
+      "targets": [
+        "b3_u03_l1_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Hech koreys saunasiga bormaganman.",
+      "source_en": "I've never been to a jjimjilbang.",
+      "answers": [
+        "찜질방에 가 본 적이 없어요",
+        "찜질방에 간 적이 없어요"
+      ]
+    },
+    {
+      "id": "b3_u03_l1_e112",
+      "type": "translate",
+      "targets": [
+        "b3_u03_l1_g1"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Bir kiyib ko'ring.",
+      "source_en": "Try it on.",
+      "answers": [
+        "한번 입어 보세요",
+        "입어 보세요"
+      ]
+    },
+    {
+      "id": "b3_u03_l1_e113",
+      "type": "build_sentence",
+      "targets": [
+        "b3_u03_l1_g2"
+      ],
+      "prompt_uz": "'Attraksionlar bog'iga borganmisiz?' gapini tuzing",
+      "prompt_en": "Build the sentence 'Have you ever been to an amusement park?'",
+      "tokens": [
+        "있어요?",
+        "적이",
+        "가",
+        "본",
+        "놀이공원에"
+      ],
+      "answers": [
+        "놀이공원에 가 본 적이 있어요?"
+      ]
+    },
+    {
+      "id": "b3_u03_l1_e114",
+      "type": "listen_question",
+      "targets": [
+        "b3_u03_l1_g2"
+      ],
+      "prompt_uz": "U nimani qilgan?",
+      "prompt_en": "What has the speaker done?",
+      "audio_text": "저는 템플스테이를 한 적이 있어요. 정말 조용했어요.",
+      "options": [
+        "Templ stey",
+        "Banji-jamp",
+        "Kemada sayr",
+        "Saunaga borish"
+      ],
+      "options_en": [
+        "A temple stay",
+        "A bungee jump",
+        "A boat cruise",
+        "Going to a sauna"
+      ],
+      "answers": [
+        "Templ stey"
+      ],
+      "audio": "9119f8a6fcb8.mp3"
+    },
+    {
+      "id": "b3_u03_l1_e115",
+      "type": "listen_question",
+      "targets": [
+        "b3_u03_l1_g1"
+      ],
+      "prompt_uz": "Erkak nima qiladi?",
+      "prompt_en": "What will the man do?",
+      "audio_text": "용기를 내서 산낙지를 먹어 볼게요.",
+      "options": [
+        "Tirik sakkizoyoqni yeb ko'radi",
+        "Saunaga boradi",
+        "Kemaga chiqadi",
+        "Hanbok kiyadi"
+      ],
+      "options_en": [
+        "Try live octopus",
+        "Go to a sauna",
+        "Ride a boat",
+        "Wear a hanbok"
+      ],
+      "answers": [
+        "Tirik sakkizoyoqni yeb ko'radi"
+      ],
+      "audio": "fd3286d8cb5d.mp3"
+    }
+  ],
+  "test": [
+    "b3_u03_l1_e101",
+    "b3_u03_l1_e102",
+    "b3_u03_l1_e103",
+    "b3_u03_l1_e104",
+    "b3_u03_l1_e105",
+    "b3_u03_l1_e106",
+    "b3_u03_l1_e107",
+    "b3_u03_l1_e108",
+    "b3_u03_l1_e109",
+    "b3_u03_l1_e110",
+    "b3_u03_l1_e111",
+    "b3_u03_l1_e112",
+    "b3_u03_l1_e113",
+    "b3_u03_l1_e114",
+    "b3_u03_l1_e115"
+  ],
+  "story": {
+    "title_uz": "Baliq bozori",
+    "title_en": "The fish market",
+    "gate_uz": "NORYANGJIN",
+    "gate_en": "NORYANGJIN",
+    "steps": [
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "아지즈 씨, 여기가 노량진수산시장이에요.",
+        "uz": "Aziz, mana Noryangjin baliq bozori.",
+        "en": "Aziz, this is Noryangjin Fish Market.",
+        "audio": "5129b704ad0b.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "와, 생선이 정말 많아요! 다 살아 있어요.",
+        "uz": "Voy, baliq juda ko'p! Hammasi tirik.",
+        "en": "Wow, so much fish! They're all alive.",
+        "audio": "1dd21d6824cd.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "여기서 생선을 직접 고르고 이층 식당에서 먹어요.",
+        "uz": "Bu yerda baliqni o'zing tanlab, ikkinchi qavatda yeysan.",
+        "en": "You pick the fish here and eat it upstairs.",
+        "audio": "101710894254.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "회는 처음이에요. 조금 무서워요.",
+        "uz": "Xom baliq — birinchi marta. Bir oz qo'rqyapman.",
+        "en": "It's my first time with raw fish. I'm a bit scared.",
+        "audio": "e13522a76b40.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "괜찮아요. 한번 먹어 보세요. 아주 싱싱해요.",
+        "uz": "Hechqisi yo'q. Bir yeb ko'ring. Juda yangi.",
+        "en": "It's fine. Give it a try. It's very fresh.",
+        "audio": "43311624e66e.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "seller",
+        "ko": "산낙지도 있어요! 먹어 본 적이 있어요?",
+        "uz": "Tirik sakkizoyoq ham bor! Yeb ko'rganmisiz?",
+        "en": "We have live octopus too! Have you ever tried it?",
+        "audio": "a32a5adfd41b.mp3"
+      },
+      {
+        "type": "choose_reply",
+        "speaker": "aziz",
+        "prompt_uz": "Aziz 'Yo'q, bir marta ham yeb ko'rmaganman' demoqchi.",
+        "prompt_en": "Aziz wants to say 'No, I've never tried it, not even once'.",
+        "options": [
+          "아니요, 한 번도 먹어 본 적이 없어요.",
+          "아니요, 한 번도 먹어 본 적이 있어요.",
+          "아니요, 한 번도 먹는 적이 없어요."
+        ],
+        "answer": "아니요, 한 번도 먹어 본 적이 없어요.",
+        "uz": "Yo'q, bir marta ham yeb ko'rmaganman.",
+        "en": "No, I've never tried it, not even once.",
+        "why_uz": "한 번도 + -(으)ㄴ 적이 없어요.",
+        "why_en": "한 번도 + -(으)ㄴ 적이 없어요.",
+        "audio": "53c7aa179201.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "seller",
+        "ko": "그럼 오늘 도전해 보세요!",
+        "uz": "Unda bugun sinab ko'ring!",
+        "en": "Then give it a go today!",
+        "audio": "c1817a72284a.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "음… 용기를 내 볼게요.",
+        "uz": "Hmm… jur'at qilib ko'raman.",
+        "en": "Hmm… I'll try to be brave.",
+        "audio": "89c086e26d83.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "와! 접시 위에서 움직여요! 정말 신기해요!",
+        "uz": "Voy! Likopchada qimirlayapti! Haqiqatan g'aroyib!",
+        "en": "Wow! It's moving on the plate! That's amazing!",
+        "audio": "c163ec6c74d3.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "하하, 맛이 어때요?",
+        "uz": "Haha, ta'mi qanday?",
+        "en": "Haha, how does it taste?",
+        "audio": "64a1d3c198b9.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "생각보다 맛있어요! 기억에 남을 거예요.",
+        "uz": "Kutganimdan mazali! Esimda qoladi.",
+        "en": "Better than I expected! I'll remember this.",
+        "audio": "7abd038328a7.mp3"
+      },
+      {
+        "type": "quiz",
+        "prompt_uz": "Aziz bugun nimani birinchi marta yedi?",
+        "prompt_en": "What did Aziz try for the first time today?",
+        "options": [
+          "Tirik sakkizoyoq",
+          "Pibimbap",
+          "Pulgogi"
+        ],
+        "options_en": [
+          "Live octopus",
+          "Bibimbap",
+          "Bulgogi"
+        ],
+        "answer": "Tirik sakkizoyoq",
+        "why_uz": "한 번도 먹어 본 적이 없어요 → 오늘 도전했어요.",
+        "why_en": "He had never tried live octopus before today."
+      }
+    ]
+  }
+}

@@ -1,0 +1,1460 @@
+{
+  "id": "b3_u01_l2",
+  "unit": 1,
+  "lesson": 2,
+  "title_ko": "제가 예약할게요",
+  "title_uz": "Men band qilaman",
+  "title_en": "I'll make the reservation",
+  "topic_uz": "Reja",
+  "topic_en": "Plans",
+  "reviewed": false,
+  "words": [
+    {
+      "id": "b3_u01_l2_w001",
+      "ko": "일정",
+      "uz": "jadval, reja (vaqt)",
+      "en": "schedule",
+      "pos": "ot",
+      "example_ko": "여행 일정을 정했어요.",
+      "example_uz": "Sayohat jadvalini belgiladik.",
+      "example_en": "We set the travel schedule.",
+      "audio": "3dafb47faa75.mp3",
+      "example_audio": "4e04546074c1.mp3"
+    },
+    {
+      "id": "b3_u01_l2_w002",
+      "ko": "약속",
+      "uz": "va'da; uchrashuv",
+      "en": "appointment, promise",
+      "pos": "ot",
+      "example_ko": "오늘 저녁에 약속이 있어요.",
+      "example_uz": "Bugun kechqurun uchrashuvim bor.",
+      "example_en": "I have plans this evening.",
+      "audio": "6cd84e85ae16.mp3",
+      "example_audio": "f48d190c1614.mp3"
+    },
+    {
+      "id": "b3_u01_l2_w003",
+      "ko": "예약하다",
+      "uz": "band qilmoq",
+      "en": "to reserve",
+      "pos": "fe'l",
+      "example_ko": "식당을 예약할게요.",
+      "example_uz": "Restoranni men band qilaman.",
+      "example_en": "I'll book the restaurant.",
+      "audio": "f832762f5db7.mp3",
+      "example_audio": "833ae6df29e9.mp3"
+    },
+    {
+      "id": "b3_u01_l2_w004",
+      "ko": "취소하다",
+      "uz": "bekor qilmoq",
+      "en": "to cancel",
+      "pos": "fe'l",
+      "example_ko": "약속을 취소했어요.",
+      "example_uz": "Uchrashuvni bekor qildim.",
+      "example_en": "I cancelled the appointment.",
+      "audio": "f69beb9b6d85.mp3",
+      "example_audio": "b7b1db65c2cc.mp3"
+    },
+    {
+      "id": "b3_u01_l2_w005",
+      "ko": "바꾸다",
+      "uz": "o'zgartirmoq",
+      "en": "to change",
+      "pos": "fe'l",
+      "example_ko": "날짜를 바꿀 수 있어요?",
+      "example_uz": "Sanani o'zgartirsa bo'ladimi?",
+      "example_en": "Can I change the date?",
+      "audio": "8a9fae06d874.mp3",
+      "example_audio": "035ff6e58a00.mp3"
+    },
+    {
+      "id": "b3_u01_l2_w006",
+      "ko": "미루다",
+      "uz": "kechiktirmoq, keyinga surmoq",
+      "en": "to postpone",
+      "pos": "fe'l",
+      "example_ko": "회의를 다음 주로 미뤘어요.",
+      "example_uz": "Yig'ilishni keyingi haftaga surdik.",
+      "example_en": "We pushed the meeting to next week.",
+      "audio": "751cc856eff7.mp3",
+      "example_audio": "812124cb43f7.mp3"
+    },
+    {
+      "id": "b3_u01_l2_w007",
+      "ko": "연락하다",
+      "uz": "bog'lanmoq",
+      "en": "to contact",
+      "pos": "fe'l",
+      "example_ko": "도착하면 연락할게요.",
+      "example_uz": "Yetib borsam xabar beraman.",
+      "example_en": "I'll contact you when I arrive.",
+      "audio": "194fe50d03f1.mp3",
+      "example_audio": "d3aca84d9fbe.mp3"
+    },
+    {
+      "id": "b3_u01_l2_w008",
+      "ko": "확인하다",
+      "uz": "tekshirmoq",
+      "en": "to check",
+      "pos": "fe'l",
+      "example_ko": "예약을 확인해 주세요.",
+      "example_uz": "Bandlovni tekshirib bering.",
+      "example_en": "Please check the reservation.",
+      "audio": "a9ca4ff215ff.mp3",
+      "example_audio": "dbc68dd481e2.mp3"
+    },
+    {
+      "id": "b3_u01_l2_w009",
+      "ko": "출발하다",
+      "uz": "jo'namoq",
+      "en": "to depart",
+      "pos": "fe'l",
+      "example_ko": "기차가 아홉 시에 출발해요.",
+      "example_uz": "Poyezd soat to'qqizda jo'naydi.",
+      "example_en": "The train leaves at nine.",
+      "audio": "7cf3f936c7e7.mp3",
+      "example_audio": "9ecc742438e1.mp3"
+    },
+    {
+      "id": "b3_u01_l2_w010",
+      "ko": "도착하다",
+      "uz": "yetib bormoq",
+      "en": "to arrive",
+      "pos": "fe'l",
+      "example_ko": "부산에 열두 시에 도착해요.",
+      "example_uz": "Pusanga soat o'n ikkida yetib boramiz.",
+      "example_en": "We arrive in Busan at twelve.",
+      "audio": "6789bc6f5335.mp3",
+      "example_audio": "d4754482e376.mp3"
+    },
+    {
+      "id": "b3_u01_l2_w011",
+      "ko": "기차표",
+      "uz": "poyezd chiptasi",
+      "en": "train ticket",
+      "pos": "ot",
+      "example_ko": "기차표를 미리 샀어요.",
+      "example_uz": "Poyezd chiptasini oldindan oldim.",
+      "example_en": "I bought the train tickets in advance.",
+      "audio": "e615db7603e3.mp3",
+      "example_audio": "bd374a7c3b66.mp3"
+    },
+    {
+      "id": "b3_u01_l2_w012",
+      "ko": "숙소",
+      "uz": "turar joy (sayohatda)",
+      "en": "accommodation",
+      "pos": "ot",
+      "example_ko": "숙소는 제가 찾을게요.",
+      "example_uz": "Turar joyni men topaman.",
+      "example_en": "I'll find the accommodation.",
+      "audio": "d6404db5de33.mp3",
+      "example_audio": "abe458f73562.mp3"
+    },
+    {
+      "id": "b3_u01_l2_w013",
+      "ko": "게스트하우스",
+      "uz": "mehmon uyi",
+      "en": "guesthouse",
+      "pos": "ot",
+      "example_ko": "게스트하우스가 싸요.",
+      "example_uz": "Mehmon uyi arzon.",
+      "example_en": "Guesthouses are cheap.",
+      "audio": "5c5840994349.mp3",
+      "example_audio": "2c4251691bf8.mp3"
+    },
+    {
+      "id": "b3_u01_l2_w014",
+      "ko": "미리",
+      "uz": "oldindan",
+      "en": "in advance",
+      "pos": "ravish",
+      "example_ko": "주말이니까 미리 예약하세요.",
+      "example_uz": "Dam olish kuni, shuning uchun oldindan band qiling.",
+      "example_en": "It's the weekend, so book in advance.",
+      "audio": "83a4599a1642.mp3",
+      "example_audio": "083a58bed2a7.mp3"
+    },
+    {
+      "id": "b3_u01_l2_w015",
+      "ko": "먼저",
+      "uz": "avval, birinchi",
+      "en": "first",
+      "pos": "ravish",
+      "example_ko": "제가 먼저 갈게요.",
+      "example_uz": "Men avval boraman.",
+      "example_en": "I'll go first.",
+      "audio": "256ec3a426da.mp3",
+      "example_audio": "17ce6106e8d9.mp3"
+    },
+    {
+      "id": "b3_u01_l2_w016",
+      "ko": "나중에",
+      "uz": "keyinroq",
+      "en": "later",
+      "pos": "ravish",
+      "example_ko": "나중에 전화할게요.",
+      "example_uz": "Keyinroq qo'ng'iroq qilaman.",
+      "example_en": "I'll call later.",
+      "audio": "3ffa9120b23d.mp3",
+      "example_audio": "4aa444824e87.mp3"
+    },
+    {
+      "id": "b3_u01_l2_w017",
+      "ko": "대신",
+      "uz": "o'rniga",
+      "en": "instead",
+      "pos": "ot",
+      "example_ko": "제가 대신 갈게요.",
+      "example_uz": "Men o'rningizga boraman.",
+      "example_en": "I'll go instead.",
+      "audio": "f11d86863efb.mp3",
+      "example_audio": "328ab47ca4d2.mp3"
+    },
+    {
+      "id": "b3_u01_l2_w018",
+      "ko": "맡다",
+      "uz": "zimmasiga olmoq",
+      "en": "to take charge of",
+      "pos": "fe'l",
+      "example_ko": "음식은 제가 맡을게요.",
+      "example_uz": "Ovqatni men o'z zimmamga olaman.",
+      "example_en": "I'll take care of the food.",
+      "audio": "a1bb14bba05f.mp3",
+      "example_audio": "9e0bd829b27e.mp3"
+    },
+    {
+      "id": "b3_u01_l2_w019",
+      "ko": "짐",
+      "uz": "yuk, narsalar",
+      "en": "luggage",
+      "pos": "ot",
+      "example_ko": "짐이 많으니까 택시를 타요.",
+      "example_uz": "Yuk ko'p, shuning uchun taksiga chiqamiz.",
+      "example_en": "We have a lot of luggage, so let's take a taxi.",
+      "audio": "d2ef303b7c83.mp3",
+      "example_audio": "7ae6ce664756.mp3"
+    },
+    {
+      "id": "b3_u01_l2_w020",
+      "ko": "싸다",
+      "uz": "yig'moq (yuk, sumka)",
+      "en": "to pack",
+      "pos": "fe'l",
+      "example_ko": "오늘 밤에 짐을 쌀게요.",
+      "example_uz": "Bugun kechasi yukimni yig'aman.",
+      "example_en": "I'll pack tonight.",
+      "audio": "8ec5b204a107.mp3",
+      "example_audio": "54456cbf2319.mp3"
+    },
+    {
+      "id": "b3_u01_l2_w021",
+      "ko": "알아보다",
+      "uz": "surishtirmoq",
+      "en": "to look into",
+      "pos": "fe'l",
+      "example_ko": "버스 시간을 알아볼게요.",
+      "example_uz": "Avtobus vaqtini surishtiraman.",
+      "example_en": "I'll look up the bus times.",
+      "audio": "70c460a4f831.mp3",
+      "example_audio": "d42c313a6d1f.mp3"
+    },
+    {
+      "id": "b3_u01_l2_w022",
+      "ko": "시간이 되다",
+      "uz": "vaqti bo'lmoq",
+      "en": "to be free (have time)",
+      "pos": "ibora",
+      "example_ko": "토요일에 시간이 돼요?",
+      "example_uz": "Shanba kuni vaqtingiz bormi?",
+      "example_en": "Are you free on Saturday?",
+      "audio": "e945f6a8ec4d.mp3",
+      "example_audio": "c39bab8a1eb1.mp3"
+    },
+    {
+      "id": "b3_u01_l2_w023",
+      "ko": "주말",
+      "uz": "dam olish kunlari",
+      "en": "weekend",
+      "pos": "ot",
+      "example_ko": "주말이니까 사람이 많아요.",
+      "example_uz": "Dam olish kuni, shuning uchun odam ko'p.",
+      "example_en": "It's the weekend, so it's crowded.",
+      "audio": "050e54f0b0f4.mp3",
+      "example_audio": "59ab15a28035.mp3"
+    },
+    {
+      "id": "b3_u01_l2_w024",
+      "ko": "자리",
+      "uz": "joy, o'rin",
+      "en": "seat",
+      "pos": "ot",
+      "example_ko": "창가 자리로 주세요.",
+      "example_uz": "Deraza yonidagi joyni bering.",
+      "example_en": "A window seat, please.",
+      "audio": "ca6432477a0e.mp3",
+      "example_audio": "d96e6e75aa9c.mp3"
+    },
+    {
+      "id": "b3_u01_l2_w025",
+      "ko": "편하다",
+      "uz": "qulay bo'lmoq",
+      "en": "to be comfortable, convenient",
+      "pos": "sifat",
+      "example_ko": "KTX가 편하니까 KTX를 타요.",
+      "example_uz": "KTX qulay, shuning uchun KTX'ga chiqamiz.",
+      "example_en": "The KTX is comfortable, so let's take it.",
+      "audio": "e759bddb193d.mp3",
+      "example_audio": "517b5254f679.mp3"
+    },
+    {
+      "id": "b3_u01_l2_w026",
+      "ko": "빠르다",
+      "uz": "tez bo'lmoq",
+      "en": "to be fast",
+      "pos": "sifat",
+      "example_ko": "비행기가 빠르니까 비행기로 가요.",
+      "example_uz": "Samolyot tez, shuning uchun samolyotda boramiz.",
+      "example_en": "Planes are fast, so let's fly.",
+      "audio": "41f71dfc5f1c.mp3",
+      "example_audio": "e4dba4fe39f8.mp3"
+    },
+    {
+      "id": "b3_u01_l2_w027",
+      "ko": "걱정하다",
+      "uz": "xavotir olmoq",
+      "en": "to worry",
+      "pos": "fe'l",
+      "example_ko": "걱정하지 마세요. 제가 할게요.",
+      "example_uz": "Xavotir olmang, men qilaman.",
+      "example_en": "Don't worry. I'll do it.",
+      "audio": "20d56e3c5d8a.mp3",
+      "example_audio": "f0d584ae495e.mp3"
+    },
+    {
+      "id": "b3_u01_l2_w028",
+      "ko": "돕다",
+      "uz": "yordam bermoq",
+      "en": "to help",
+      "pos": "fe'l",
+      "example_ko": "제가 도와줄게요.",
+      "example_uz": "Men yordam beraman.",
+      "example_en": "I'll help you.",
+      "audio": "1a135244abbf.mp3",
+      "example_audio": "8e4149e4bd8b.mp3"
+    },
+    {
+      "id": "b3_u01_l2_w029",
+      "ko": "데리러 가다",
+      "uz": "kutib olishga bormoq",
+      "en": "to go to pick up",
+      "pos": "ibora",
+      "example_ko": "역으로 데리러 갈게요.",
+      "example_uz": "Bekatga kutib olishga boraman.",
+      "example_en": "I'll come to pick you up at the station.",
+      "audio": "324734bc639f.mp3",
+      "example_audio": "b54500948aff.mp3"
+    },
+    {
+      "id": "b3_u01_l2_w030",
+      "ko": "늦다",
+      "uz": "kech qolmoq",
+      "en": "to be late",
+      "pos": "fe'l",
+      "example_ko": "늦으니까 택시를 타세요.",
+      "example_uz": "Kech bo'ldi, taksiga chiqing.",
+      "example_en": "It's late, so take a taxi.",
+      "audio": "740a6435592f.mp3",
+      "example_audio": "dff8c6211a7b.mp3"
+    },
+    {
+      "id": "b3_u01_l2_w031",
+      "ko": "꼭",
+      "uz": "albatta",
+      "en": "for sure",
+      "pos": "ravish",
+      "example_ko": "꼭 연락할게요.",
+      "example_uz": "Albatta xabar beraman.",
+      "example_en": "I'll definitely get in touch.",
+      "audio": "0a4fcc777cdb.mp3",
+      "example_audio": "01a4f6096212.mp3"
+    },
+    {
+      "id": "b3_u01_l2_w032",
+      "ko": "그럼",
+      "uz": "unda",
+      "en": "then",
+      "pos": "ravish",
+      "example_ko": "그럼 제가 예약할게요.",
+      "example_uz": "Unda men band qilaman.",
+      "example_en": "Then I'll make the reservation.",
+      "audio": "4a1a7f0f703e.mp3",
+      "example_audio": "757981fc79d9.mp3"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "b3_u01_l2_g1",
+      "pattern": "A/V-(으)니까, N(이)니까",
+      "meaning_uz": "...gani uchun, ... ekan (sabab)",
+      "meaning_en": "Because / since (reason)",
+      "explanation_md": "**-(으)니까** sababni bildiradi: \"...gani uchun\", \"... ekan, shuning uchun\". Ayniqsa **taklif yoki buyruqdan oldin** keladi.\n\n**주말이니까 미리 예약하세요.** — *Dam olish kuni ekan, oldindan band qiling.*\n\n### Qanday yasaladi\n\n- O'zak **받침siz** → **-니까**: 바쁘다 → **바쁘니까**, 빠르다 → **빠르니까**\n- O'zak **받침 bilan** → **-으니까**: 많다 → **많으니까**, 늦었다 → **늦었으니까**\n- **ㄹ** tushadi: 멀다 → **머니까**\n- **Ot** → **N(이)니까**: 주말 → **주말이니까**, 친구 → **친구니까**\n\n### -아서/어서 bilan farqi (2-kitob)\n\n- **-아서/어서** dan keyin **-(으)세요, -(으)ㄹ까요?** ishlatilmaydi: ~~늦어서 택시를 타세요~~\n- **-(으)니까** bilan mumkin: **늦으니까 택시를 타세요.** ✓",
+      "explanation_md_en": "**-(으)니까** gives a reason: \"because\", \"since\". It's especially common **before a suggestion or a request**.\n\n**주말이니까 미리 예약하세요.** — *It's the weekend, so book in advance.*\n\n### How to form it\n\n- Stem **without 받침** → **-니까**: 바쁘다 → **바쁘니까**, 빠르다 → **빠르니까**\n- Stem **with 받침** → **-으니까**: 많다 → **많으니까**, 늦었다 → **늦었으니까**\n- **ㄹ** drops: 멀다 → **머니까**\n- **Noun** → **N(이)니까**: 주말 → **주말이니까**, 친구 → **친구니까**\n\n### vs -아서/어서 (book 2)\n\n- **-아서/어서** can't be followed by **-(으)세요** or **-(으)ㄹ까요?**: ~~늦어서 택시를 타세요~~\n- **-(으)니까** can: **늦으니까 택시를 타세요.** ✓",
+      "formation": [
+        {
+          "condition_uz": "받침 yo'q",
+          "condition_en": "No 받침",
+          "rule": "A/V + 니까",
+          "example": "바쁘니까, 빠르니까"
+        },
+        {
+          "condition_uz": "받침 bor",
+          "condition_en": "With 받침",
+          "rule": "A/V + 으니까",
+          "example": "많으니까, 있으니까"
+        },
+        {
+          "condition_uz": "Ot",
+          "condition_en": "Noun",
+          "rule": "N(이)니까",
+          "example": "주말이니까, 친구니까"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "주말이니까 미리 예약하세요.",
+          "uz": "Dam olish kuni, oldindan band qiling.",
+          "en": "It's the weekend, so book in advance.",
+          "audio": "083a58bed2a7.mp3"
+        },
+        {
+          "ko": "짐이 많으니까 택시를 타요.",
+          "uz": "Yuk ko'p, taksiga chiqaylik.",
+          "en": "We have lots of luggage, so let's take a taxi.",
+          "audio": "7ae6ce664756.mp3"
+        },
+        {
+          "ko": "KTX가 빠르니까 KTX로 갈까요?",
+          "uz": "KTX tez, KTX'da boramizmi?",
+          "en": "The KTX is fast — shall we take it?",
+          "audio": "1a873fb66a77.mp3"
+        },
+        {
+          "ko": "오늘은 바쁘니까 내일 만나요.",
+          "uz": "Bugun bandman, ertaga uchrashaylik.",
+          "en": "I'm busy today, so let's meet tomorrow.",
+          "audio": "e190184f6bc3.mp3"
+        },
+        {
+          "ko": "비가 오니까 우산을 가져가세요.",
+          "uz": "Yomg'ir yog'yapti, soyabon oling.",
+          "en": "It's raining, so take an umbrella.",
+          "audio": "4a14380293bc.mp3"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "늦어서 택시를 타세요.",
+          "right": "늦으니까 택시를 타세요.",
+          "why_uz": "Buyruqdan oldin -(으)니까.",
+          "why_en": "Before a request use -(으)니까."
+        },
+        {
+          "wrong": "주말니까 사람이 많아요.",
+          "right": "주말이니까 사람이 많아요.",
+          "why_uz": "주말 받침 bilan: 주말이니까.",
+          "why_en": "주말 has 받침: 주말이니까."
+        },
+        {
+          "wrong": "많니까 나눠 먹어요.",
+          "right": "많으니까 나눠 먹어요.",
+          "why_uz": "많다 받침 bilan: 많으니까.",
+          "why_en": "많다 has 받침: 많으니까."
+        }
+      ],
+      "uz_compare": "O'zbekchadagi '-gani uchun' yoki '... ekan, ...' ga mos: 'Dam olish kuni EKAN, oldindan band qiling' = 주말이니까 미리 예약하세요.",
+      "compare_en": "Like English 'since / because' — 'Since it's the weekend, book ahead' = 주말이니까 미리 예약하세요. Unlike -아서/어서, it works before requests and suggestions."
+    },
+    {
+      "id": "b3_u01_l2_g2",
+      "pattern": "V-(으)ㄹ게요",
+      "meaning_uz": "...aman (va'da, o'z zimmasiga olish)",
+      "meaning_en": "I'll … (promise, offer)",
+      "explanation_md": "**-(으)ㄹ게요** — gapiruvchining **va'dasi yoki taklifi**: \"men ... qilaman\". Ko'pincha suhbatdoshga **yoqadigan** ish uchun.\n\n**제가 예약할게요.** — *Men band qilaman.*\n\n### Qanday yasaladi\n\n- O'zak **받침siz** → **-ㄹ게요**: 하다 → **할게요**, 가다 → **갈게요**\n- O'zak **받침 bilan** → **-을게요**: 찾다 → **찾을게요**, 맡다 → **맡을게요**\n- **ㄹ** bilan → **-게요**: 만들다 → **만들게요**\n- **돕다** → **도울게요**\n\n### Esda tuting\n\n- Faqat **\"men\"** (1-shaxs) uchun. ~~민지 씨가 할게요~~ emas.\n- So'roqda ishlatilmaydi: ~~할게요?~~ — o'rniga **-(으)ㄹ까요?**\n- **-(으)ㄹ 거예요** (reja) bilan farqi: **할게요** — suhbatdoshga va'da/taklif, **할 거예요** — oddiy reja haqida xabar.",
+      "explanation_md_en": "**-(으)ㄹ게요** is the speaker's **promise or offer**: \"I'll …\". It's usually something that helps or considers the listener.\n\n**제가 예약할게요.** — *I'll make the reservation.*\n\n### How to form it\n\n- Stem **without 받침** → **-ㄹ게요**: 하다 → **할게요**, 가다 → **갈게요**\n- Stem **with 받침** → **-을게요**: 찾다 → **찾을게요**, 맡다 → **맡을게요**\n- **ㄹ** stem → **-게요**: 만들다 → **만들게요**\n- **돕다** → **도울게요**\n\n### Remember\n\n- Only for **\"I\"** (first person). Not ~~민지 씨가 할게요~~.\n- Not used in questions: not ~~할게요?~~ — use **-(으)ㄹ까요?**\n- vs **-(으)ㄹ 거예요** (plan): **할게요** is a promise/offer to the listener, **할 거예요** just states a plan.",
+      "formation": [
+        {
+          "condition_uz": "받침 yo'q",
+          "condition_en": "No 받침",
+          "rule": "V + ㄹ게요",
+          "example": "할게요, 갈게요, 연락할게요"
+        },
+        {
+          "condition_uz": "받침 bor",
+          "condition_en": "With 받침",
+          "rule": "V + 을게요",
+          "example": "찾을게요, 맡을게요"
+        },
+        {
+          "condition_uz": "ㄹ bilan",
+          "condition_en": "Ends in ㄹ",
+          "rule": "V + 게요",
+          "example": "만들게요"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "제가 예약할게요.",
+          "uz": "Men band qilaman.",
+          "en": "I'll make the reservation.",
+          "audio": "b31b5b186c05.mp3"
+        },
+        {
+          "ko": "도착하면 연락할게요.",
+          "uz": "Yetib borsam, xabar beraman.",
+          "en": "I'll let you know when I arrive.",
+          "audio": "d3aca84d9fbe.mp3"
+        },
+        {
+          "ko": "숙소는 제가 찾을게요.",
+          "uz": "Turar joyni men topaman.",
+          "en": "I'll find the accommodation.",
+          "audio": "abe458f73562.mp3"
+        },
+        {
+          "ko": "음식은 제가 만들게요.",
+          "uz": "Ovqatni men tayyorlayman.",
+          "en": "I'll make the food.",
+          "audio": "33b4ae660bbc.mp3"
+        },
+        {
+          "ko": "걱정하지 마세요. 제가 도울게요.",
+          "uz": "Xavotir olmang, men yordam beraman.",
+          "en": "Don't worry. I'll help.",
+          "audio": "3254d0438f8e.mp3"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "제가 찾을게요요.",
+          "right": "제가 찾을게요.",
+          "why_uz": "Bitta -요.",
+          "why_en": "Only one -요."
+        },
+        {
+          "wrong": "제가 예약할게요?",
+          "right": "제가 예약할까요?",
+          "why_uz": "So'roqda -(으)ㄹ까요?.",
+          "why_en": "In questions use -(으)ㄹ까요?."
+        },
+        {
+          "wrong": "음식은 제가 만들을게요.",
+          "right": "음식은 제가 만들게요.",
+          "why_uz": "ㄹ bilan tugasa: 만들게요.",
+          "why_en": "ㄹ stems: 만들게요."
+        }
+      ],
+      "uz_compare": "O'zbekchadagi va'da ohangidagi 'men qilaman!' ga mos: 'Men band qilaman' = 제가 예약할게요. Faqat o'zingiz haqingizda.",
+      "compare_en": "Like English 'I'll …' when offering or promising: 'I'll book it' = 제가 예약할게요. Only for yourself, never in questions."
+    }
+  ],
+  "dialogue": {
+    "lines": [
+      {
+        "speaker": "minji",
+        "ko": "아지즈 씨, 부산 여행 일정을 정해요.",
+        "uz": "Aziz, Pusan sayohati jadvalini belgilaylik.",
+        "en": "Aziz, let's set the schedule for the Busan trip.",
+        "audio": "5b24a7b6413b.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "좋아요. 금요일에 출발하는 게 어때요?",
+        "uz": "Mayli. Juma kuni jo'nasak-chi?",
+        "en": "Sure. How about leaving on Friday?",
+        "audio": "0dda88db0a42.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "금요일은 수업이 있으니까 토요일에 가요.",
+        "uz": "Juma kuni darsim bor, shanba kuni boraylik.",
+        "en": "I have class on Friday, so let's go on Saturday.",
+        "audio": "664ac7c29b3e.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "알겠어요. 그럼 기차표는 제가 예약할게요.",
+        "uz": "Xo'p. Unda poyezd chiptasini men band qilaman.",
+        "en": "Okay. Then I'll book the train tickets.",
+        "audio": "80d4b8ee4011.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "주말이니까 표가 없을 거예요. 오늘 예약하세요.",
+        "uz": "Dam olish kuni, chipta qolmasligi mumkin. Bugun band qiling.",
+        "en": "It's the weekend, so tickets may run out. Book today.",
+        "audio": "5e66d6a617e5.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "네, 지금 바로 할게요. 숙소는 어떻게 해요?",
+        "uz": "Xo'p, hoziroq qilaman. Turar joy-chi?",
+        "en": "Sure, I'll do it right now. What about accommodation?",
+        "audio": "3e925bbfb3ad.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "숙소는 제가 찾을게요. 게스트하우스가 싸니까 거기로 해요.",
+        "uz": "Turar joyni men topaman. Mehmon uyi arzon, o'shani olaylik.",
+        "en": "I'll find a place. Guesthouses are cheap, so let's stay at one.",
+        "audio": "8af924ecaaca.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "좋아요. 바다 근처에 있으면 좋겠어요.",
+        "uz": "Yaxshi. Dengizga yaqin bo'lsa yaxshi bo'lardi.",
+        "en": "Good. It'd be nice if it's near the sea.",
+        "audio": "58ee2879356f.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "알아볼게요. 짐은 많지 않으니까 가방 하나만 가져가요.",
+        "uz": "Surishtiraman. Yuk ko'p emas, bitta sumka olamiz.",
+        "en": "I'll look into it. We won't have much, so let's bring one bag each.",
+        "audio": "7497135e2c40.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "네. 예약하면 바로 연락할게요.",
+        "uz": "Xo'p. Band qilsam, darhol xabar beraman.",
+        "en": "Okay. I'll let you know as soon as I've booked.",
+        "audio": "140f24957667.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "고마워요. 꼭 창가 자리로 해 주세요!",
+        "uz": "Rahmat. Albatta deraza yonidagi joyni oling!",
+        "en": "Thanks. Make sure you get window seats!",
+        "audio": "bf6cba6c5045.mp3"
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b3_u01_l2_e001",
+      "type": "conjugate",
+      "targets": [
+        "b3_u01_l2_g1"
+      ],
+      "prompt_uz": "'Bandman, shuning uchun' shaklini yasang",
+      "prompt_en": "Make 'since (I'm) busy'",
+      "base": "바쁘다",
+      "form": "-(으)니까",
+      "answers": [
+        "바쁘니까"
+      ]
+    },
+    {
+      "id": "b3_u01_l2_e002",
+      "type": "conjugate",
+      "targets": [
+        "b3_u01_l2_g1"
+      ],
+      "prompt_uz": "'Ko'p bo'lgani uchun' shaklini yasang",
+      "prompt_en": "Make 'since there's a lot'",
+      "base": "많다",
+      "form": "-(으)니까",
+      "answers": [
+        "많으니까"
+      ],
+      "hint_uz": "받침 bor → -으니까",
+      "hint_en": "With 받침 → -으니까"
+    },
+    {
+      "id": "b3_u01_l2_e003",
+      "type": "conjugate",
+      "targets": [
+        "b3_u01_l2_g1"
+      ],
+      "prompt_uz": "'Dam olish kuni ekan' shaklini yasang",
+      "prompt_en": "Make 'since it's the weekend'",
+      "base": "주말",
+      "form": "N(이)니까",
+      "answers": [
+        "주말이니까"
+      ]
+    },
+    {
+      "id": "b3_u01_l2_e004",
+      "type": "conjugate",
+      "targets": [
+        "b3_u01_l2_g2"
+      ],
+      "prompt_uz": "'Men topaman' shaklini yasang",
+      "prompt_en": "Make 'I'll find (it)'",
+      "base": "찾다",
+      "form": "-(으)ㄹ게요",
+      "answers": [
+        "찾을게요"
+      ]
+    },
+    {
+      "id": "b3_u01_l2_e005",
+      "type": "conjugate",
+      "targets": [
+        "b3_u01_l2_g2"
+      ],
+      "prompt_uz": "'Men qilaman' shaklini yasang",
+      "prompt_en": "Make 'I'll do (it)'",
+      "base": "하다",
+      "form": "-(으)ㄹ게요",
+      "answers": [
+        "할게요"
+      ]
+    },
+    {
+      "id": "b3_u01_l2_e006",
+      "type": "fill_blank",
+      "targets": [
+        "b3_u01_l2_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Yomg'ir yog'yapti, soyabon oling.'",
+      "prompt_en": "Fill in the blank: 'It's raining, so take an umbrella.'",
+      "sentence": "비가 ___ 우산을 가져가세요. (오다)",
+      "answers": [
+        "오니까"
+      ]
+    },
+    {
+      "id": "b3_u01_l2_e007",
+      "type": "fill_blank",
+      "targets": [
+        "b3_u01_l2_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Yetib borsam xabar beraman.'",
+      "prompt_en": "Fill in the blank: 'I'll let you know when I arrive.'",
+      "sentence": "도착하면 ___. (연락하다)",
+      "answers": [
+        "연락할게요"
+      ]
+    },
+    {
+      "id": "b3_u01_l2_e008",
+      "type": "fill_blank",
+      "targets": [
+        "b3_u01_l2_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Ovqatni men tayyorlayman.'",
+      "prompt_en": "Fill in the blank: 'I'll make the food.'",
+      "sentence": "음식은 제가 ___. (만들다)",
+      "answers": [
+        "만들게요"
+      ]
+    },
+    {
+      "id": "b3_u01_l2_e009",
+      "type": "fill_blank",
+      "targets": [
+        "b3_u01_l2_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'KTX tez, KTX'da boraylik.'",
+      "prompt_en": "Fill in the blank: 'The KTX is fast, so let's take it.'",
+      "sentence": "KTX가 ___ KTX로 가요. (빠르다)",
+      "answers": [
+        "빠르니까"
+      ]
+    },
+    {
+      "id": "b3_u01_l2_e010",
+      "type": "situation_choice",
+      "targets": [
+        "b3_u01_l2_g2"
+      ],
+      "prompt_uz": "Do'stingiz restoranni kim band qilishini so'radi. Siz qilasiz:",
+      "prompt_en": "Your friend asks who'll book the restaurant. You will:",
+      "options": [
+        "제가 예약할게요.",
+        "제가 예약할까요요.",
+        "민지 씨가 예약할게요.",
+        "제가 예약하을게요."
+      ],
+      "answers": [
+        "제가 예약할게요."
+      ]
+    },
+    {
+      "id": "b3_u01_l2_e011",
+      "type": "situation_choice",
+      "targets": [
+        "b3_u01_l2_g1"
+      ],
+      "prompt_uz": "Kech bo'ldi. Do'stingizga taksiga chiqishni ayting:",
+      "prompt_en": "It's late. Tell your friend to take a taxi:",
+      "options": [
+        "늦었으니까 택시를 타세요.",
+        "늦어서 택시를 타세요.",
+        "늦었니까 택시를 타세요.",
+        "늦으니까요 택시를 타세요."
+      ],
+      "answers": [
+        "늦었으니까 택시를 타세요."
+      ]
+    },
+    {
+      "id": "b3_u01_l2_e012",
+      "type": "situation_choice",
+      "targets": [
+        "b3_u01_l2_w022"
+      ],
+      "prompt_uz": "Do'stingizdan shanba kuni bo'shligini so'rang:",
+      "prompt_en": "Ask if your friend is free on Saturday:",
+      "options": [
+        "토요일에 시간이 돼요?",
+        "토요일에 시간이 있을게요?",
+        "토요일에 시간을 해요?",
+        "토요일에 시간이 되니까요?"
+      ],
+      "answers": [
+        "토요일에 시간이 돼요?"
+      ]
+    },
+    {
+      "id": "b3_u01_l2_e013",
+      "type": "find_error",
+      "targets": [
+        "b3_u01_l2_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "주말니까 사람이 많아요.",
+      "answers": [
+        "주말이니까 사람이 많아요"
+      ],
+      "why_uz": "주말 받침 bilan: 주말이니까.",
+      "why_en": "주말 has 받침: 주말이니까."
+    },
+    {
+      "id": "b3_u01_l2_e014",
+      "type": "find_error",
+      "targets": [
+        "b3_u01_l2_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "비가 와서 우산을 가져가세요.",
+      "answers": [
+        "비가 오니까 우산을 가져가세요"
+      ],
+      "why_uz": "Buyruqdan oldin -(으)니까.",
+      "why_en": "Before a request use -(으)니까."
+    },
+    {
+      "id": "b3_u01_l2_e015",
+      "type": "find_error",
+      "targets": [
+        "b3_u01_l2_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "제가 찾게요.",
+      "answers": [
+        "제가 찾을게요"
+      ],
+      "why_uz": "찾다 받침 bilan: 찾을게요.",
+      "why_en": "찾다 has 받침: 찾을게요."
+    },
+    {
+      "id": "b3_u01_l2_e016",
+      "type": "translate",
+      "targets": [
+        "b3_u01_l2_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Men band qilaman.",
+      "source_en": "I'll make the reservation.",
+      "answers": [
+        "제가 예약할게요",
+        "예약할게요"
+      ]
+    },
+    {
+      "id": "b3_u01_l2_e017",
+      "type": "translate",
+      "targets": [
+        "b3_u01_l2_g1"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Bugun bandman, ertaga uchrashaylik.",
+      "source_en": "I'm busy today, so let's meet tomorrow.",
+      "answers": [
+        "오늘은 바쁘니까 내일 만나요",
+        "오늘 바쁘니까 내일 만나요"
+      ]
+    },
+    {
+      "id": "b3_u01_l2_e018",
+      "type": "translate",
+      "targets": [
+        "b3_u01_l2_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Keyinroq qo'ng'iroq qilaman.",
+      "source_en": "I'll call later.",
+      "answers": [
+        "나중에 전화할게요"
+      ]
+    },
+    {
+      "id": "b3_u01_l2_e019",
+      "type": "build_sentence",
+      "targets": [
+        "b3_u01_l2_g1"
+      ],
+      "prompt_uz": "'Yuk ko'p, taksiga chiqaylik' gapini tuzing",
+      "prompt_en": "Build the sentence 'We have lots of luggage, so let's take a taxi'",
+      "tokens": [
+        "타요",
+        "많으니까",
+        "택시를",
+        "짐이"
+      ],
+      "answers": [
+        "짐이 많으니까 택시를 타요"
+      ]
+    },
+    {
+      "id": "b3_u01_l2_e020",
+      "type": "build_sentence",
+      "targets": [
+        "b3_u01_l2_g2"
+      ],
+      "prompt_uz": "'Turar joyni men topaman' gapini tuzing",
+      "prompt_en": "Build the sentence 'I'll find the accommodation'",
+      "tokens": [
+        "제가",
+        "찾을게요",
+        "숙소는"
+      ],
+      "answers": [
+        "숙소는 제가 찾을게요"
+      ]
+    },
+    {
+      "id": "b3_u01_l2_e021",
+      "type": "build_sentence",
+      "targets": [
+        "b3_u01_l2_g1",
+        "b3_u01_l2_g2"
+      ],
+      "prompt_uz": "'Dam olish kuni, men oldindan band qilaman' gapini tuzing",
+      "prompt_en": "Build the sentence 'It's the weekend, so I'll book in advance'",
+      "tokens": [
+        "미리",
+        "제가",
+        "주말이니까",
+        "예약할게요"
+      ],
+      "answers": [
+        "주말이니까 제가 미리 예약할게요"
+      ]
+    },
+    {
+      "id": "b3_u01_l2_e022",
+      "type": "listen_question",
+      "targets": [
+        "b3_u01_l2_g2"
+      ],
+      "prompt_uz": "Erkak nima qiladi?",
+      "prompt_en": "What will the man do?",
+      "audio_text": "기차표는 제가 예약할게요.",
+      "options": [
+        "Chipta band qiladi",
+        "Turar joy topadi",
+        "Yuk yig'adi",
+        "Ovqat qiladi"
+      ],
+      "options_en": [
+        "Book the tickets",
+        "Find a place to stay",
+        "Pack",
+        "Cook"
+      ],
+      "answers": [
+        "Chipta band qiladi"
+      ],
+      "audio": "7fedbb8eb4a7.mp3"
+    },
+    {
+      "id": "b3_u01_l2_e023",
+      "type": "listen_question",
+      "targets": [
+        "b3_u01_l2_g1"
+      ],
+      "prompt_uz": "Nega taksiga chiqishadi?",
+      "prompt_en": "Why are they taking a taxi?",
+      "audio_text": "짐이 많으니까 택시를 타요.",
+      "options": [
+        "Yuk ko'p",
+        "Kech qolishdi",
+        "Yomg'ir yog'yapti",
+        "Taksi arzon"
+      ],
+      "options_en": [
+        "Lots of luggage",
+        "They're late",
+        "It's raining",
+        "Taxis are cheap"
+      ],
+      "answers": [
+        "Yuk ko'p"
+      ],
+      "audio": "7ae6ce664756.mp3"
+    },
+    {
+      "id": "b3_u01_l2_e024",
+      "type": "listen_question",
+      "targets": [
+        "b3_u01_l2_g1"
+      ],
+      "prompt_uz": "Nega shanba kuni boradi?",
+      "prompt_en": "Why are they going on Saturday?",
+      "audio_text": "금요일은 수업이 있으니까 토요일에 가요.",
+      "options": [
+        "Juma kuni dars bor",
+        "Shanba arzon",
+        "Juma band",
+        "Shanba ob-havo yaxshi"
+      ],
+      "options_en": [
+        "There's class on Friday",
+        "Saturday is cheaper",
+        "Friday is booked",
+        "The weather's better"
+      ],
+      "answers": [
+        "Juma kuni dars bor"
+      ],
+      "audio": "664ac7c29b3e.mp3"
+    },
+    {
+      "id": "b3_u01_l2_e025",
+      "type": "listen_question",
+      "targets": [
+        "b3_u01_l2_g2"
+      ],
+      "prompt_uz": "Ayol nimani va'da qildi?",
+      "prompt_en": "What did the woman promise?",
+      "audio_text": "도착하면 바로 연락할게요.",
+      "options": [
+        "Yetib borgach xabar berishni",
+        "Kutib olishni",
+        "Chipta olishni",
+        "Ovqat pishirishni"
+      ],
+      "options_en": [
+        "To call on arrival",
+        "To pick someone up",
+        "To buy tickets",
+        "To cook"
+      ],
+      "answers": [
+        "Yetib borgach xabar berishni"
+      ],
+      "audio": "45f6eab82524.mp3"
+    },
+    {
+      "id": "b3_u01_l2_e101",
+      "type": "conjugate",
+      "targets": [
+        "b3_u01_l2_g1"
+      ],
+      "prompt_uz": "'Uzoq bo'lgani uchun' shaklini yasang",
+      "prompt_en": "Make 'since it's far'",
+      "base": "멀다",
+      "form": "-(으)니까",
+      "answers": [
+        "머니까"
+      ]
+    },
+    {
+      "id": "b3_u01_l2_e102",
+      "type": "conjugate",
+      "targets": [
+        "b3_u01_l2_g2"
+      ],
+      "prompt_uz": "'Men yordam beraman' shaklini yasang",
+      "prompt_en": "Make 'I'll help'",
+      "base": "돕다",
+      "form": "-(으)ㄹ게요",
+      "answers": [
+        "도울게요"
+      ]
+    },
+    {
+      "id": "b3_u01_l2_e103",
+      "type": "conjugate",
+      "targets": [
+        "b3_u01_l2_g1"
+      ],
+      "prompt_uz": "'Do'st bo'lgani uchun' shaklini yasang",
+      "prompt_en": "Make 'since (we're) friends'",
+      "base": "친구",
+      "form": "N(이)니까",
+      "answers": [
+        "친구니까"
+      ]
+    },
+    {
+      "id": "b3_u01_l2_e104",
+      "type": "fill_blank",
+      "targets": [
+        "b3_u01_l2_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Men avval boraman.'",
+      "prompt_en": "Fill in the blank: 'I'll go first.'",
+      "sentence": "제가 먼저 ___. (가다)",
+      "answers": [
+        "갈게요"
+      ]
+    },
+    {
+      "id": "b3_u01_l2_e105",
+      "type": "fill_blank",
+      "targets": [
+        "b3_u01_l2_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Odam ko'p, boshqa joyga boraylik.'",
+      "prompt_en": "Fill in the blank: 'It's crowded, so let's go elsewhere.'",
+      "sentence": "사람이 ___ 다른 곳에 가요. (많다)",
+      "answers": [
+        "많으니까"
+      ]
+    },
+    {
+      "id": "b3_u01_l2_e106",
+      "type": "situation_choice",
+      "targets": [
+        "b3_u01_l2_g2"
+      ],
+      "prompt_uz": "Do'stingiz yuk ko'p deb qiynalyapti. Yordam taklif qiling:",
+      "prompt_en": "Your friend struggles with lots of luggage. Offer to help:",
+      "options": [
+        "제가 도울게요.",
+        "제가 돕을게요.",
+        "제가 도와줄까요요.",
+        "민지 씨가 도울게요."
+      ],
+      "answers": [
+        "제가 도울게요."
+      ]
+    },
+    {
+      "id": "b3_u01_l2_e107",
+      "type": "situation_choice",
+      "targets": [
+        "b3_u01_l2_g1"
+      ],
+      "prompt_uz": "Bugun bandsiz. Ertaga uchrashishni taklif qiling:",
+      "prompt_en": "You're busy today. Suggest meeting tomorrow:",
+      "options": [
+        "오늘은 바쁘니까 내일 만나요.",
+        "오늘은 바빠서 내일 만날까요요.",
+        "오늘은 바쁘니까요 내일.",
+        "오늘은 바쁘으니까 내일 만나요."
+      ],
+      "answers": [
+        "오늘은 바쁘니까 내일 만나요."
+      ]
+    },
+    {
+      "id": "b3_u01_l2_e108",
+      "type": "situation_choice",
+      "targets": [
+        "b3_u01_l2_w004"
+      ],
+      "prompt_uz": "Rejalar o'zgardi. Uchrashuvni bekor qilganingizni ayting:",
+      "prompt_en": "Plans changed. Say you cancelled the appointment:",
+      "options": [
+        "약속을 취소했어요.",
+        "약속을 예약했어요.",
+        "약속을 확인했어요.",
+        "약속을 알아봤어요."
+      ],
+      "answers": [
+        "약속을 취소했어요."
+      ]
+    },
+    {
+      "id": "b3_u01_l2_e109",
+      "type": "find_error",
+      "targets": [
+        "b3_u01_l2_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "제가 만들을게요.",
+      "answers": [
+        "제가 만들게요"
+      ],
+      "why_uz": "만들다: ㄹ bilan → 만들게요.",
+      "why_en": "만들다 ends in ㄹ → 만들게요."
+    },
+    {
+      "id": "b3_u01_l2_e110",
+      "type": "find_error",
+      "targets": [
+        "b3_u01_l2_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "많니까 나눠 먹어요.",
+      "answers": [
+        "많으니까 나눠 먹어요"
+      ],
+      "why_uz": "많다 받침 bilan: 많으니까.",
+      "why_en": "많다 has 받침: 많으니까."
+    },
+    {
+      "id": "b3_u01_l2_e111",
+      "type": "translate",
+      "targets": [
+        "b3_u01_l2_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Albatta xabar beraman.",
+      "source_en": "I'll definitely get in touch.",
+      "answers": [
+        "꼭 연락할게요"
+      ]
+    },
+    {
+      "id": "b3_u01_l2_e112",
+      "type": "translate",
+      "targets": [
+        "b3_u01_l2_g1"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Dam olish kuni, oldindan band qiling.",
+      "source_en": "It's the weekend, so book in advance.",
+      "answers": [
+        "주말이니까 미리 예약하세요"
+      ]
+    },
+    {
+      "id": "b3_u01_l2_e113",
+      "type": "build_sentence",
+      "targets": [
+        "b3_u01_l2_g2"
+      ],
+      "prompt_uz": "'Bekatga kutib olishga boraman' gapini tuzing",
+      "prompt_en": "Build the sentence 'I'll come to pick you up at the station'",
+      "tokens": [
+        "데리러",
+        "역으로",
+        "갈게요"
+      ],
+      "answers": [
+        "역으로 데리러 갈게요"
+      ]
+    },
+    {
+      "id": "b3_u01_l2_e114",
+      "type": "listen_question",
+      "targets": [
+        "b3_u01_l2_g2"
+      ],
+      "prompt_uz": "Kim turar joy topadi?",
+      "prompt_en": "Who will find a place to stay?",
+      "audio_text": "숙소는 제가 찾을게요. 아지즈 씨는 표를 예약하세요.",
+      "options": [
+        "Gapiruvchi",
+        "Aziz",
+        "Ikkalasi",
+        "Hech kim"
+      ],
+      "options_en": [
+        "The speaker",
+        "Aziz",
+        "Both",
+        "Nobody"
+      ],
+      "answers": [
+        "Gapiruvchi"
+      ],
+      "audio": "22f328c91257.mp3"
+    },
+    {
+      "id": "b3_u01_l2_e115",
+      "type": "listen_question",
+      "targets": [
+        "b3_u01_l2_g1"
+      ],
+      "prompt_uz": "Nega KTX'ga chiqishadi?",
+      "prompt_en": "Why are they taking the KTX?",
+      "audio_text": "KTX가 빠르니까 KTX로 가요.",
+      "options": [
+        "Tez",
+        "Arzon",
+        "Qulay",
+        "Yaqin"
+      ],
+      "options_en": [
+        "It's fast",
+        "It's cheap",
+        "It's comfortable",
+        "It's close"
+      ],
+      "answers": [
+        "Tez"
+      ],
+      "audio": "952fe000e7d7.mp3"
+    }
+  ],
+  "test": [
+    "b3_u01_l2_e101",
+    "b3_u01_l2_e102",
+    "b3_u01_l2_e103",
+    "b3_u01_l2_e104",
+    "b3_u01_l2_e105",
+    "b3_u01_l2_e106",
+    "b3_u01_l2_e107",
+    "b3_u01_l2_e108",
+    "b3_u01_l2_e109",
+    "b3_u01_l2_e110",
+    "b3_u01_l2_e111",
+    "b3_u01_l2_e112",
+    "b3_u01_l2_e113",
+    "b3_u01_l2_e114",
+    "b3_u01_l2_e115"
+  ],
+  "story": {
+    "title_uz": "Sayohat tayyorgarligi",
+    "title_en": "Planning the trip",
+    "gate_uz": "PUSAN",
+    "gate_en": "BUSAN",
+    "steps": [
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "아지즈 씨, 부산 여행 일정을 정해요.",
+        "uz": "Aziz, Pusan sayohati jadvalini belgilaylik.",
+        "en": "Aziz, let's plan the Busan trip.",
+        "audio": "5b24a7b6413b.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "금요일에 출발하는 게 어때요?",
+        "uz": "Juma kuni jo'nasak-chi?",
+        "en": "How about leaving on Friday?",
+        "audio": "884e03d3497a.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "금요일은 수업이 있으니까 토요일에 가요.",
+        "uz": "Juma kuni darsim bor, shanba kuni boraylik.",
+        "en": "I have class on Friday, so let's go on Saturday.",
+        "audio": "664ac7c29b3e.mp3"
+      },
+      {
+        "type": "choose_reply",
+        "speaker": "aziz",
+        "prompt_uz": "Aziz 'Unda chiptani men band qilaman' demoqchi.",
+        "prompt_en": "Aziz wants to say 'Then I'll book the tickets'.",
+        "options": [
+          "그럼 표는 제가 예약할게요.",
+          "그럼 표는 제가 예약할게요?",
+          "그럼 표는 민지 씨가 예약할게요."
+        ],
+        "answer": "그럼 표는 제가 예약할게요.",
+        "uz": "Unda chiptani men band qilaman.",
+        "en": "Then I'll book the tickets.",
+        "why_uz": "Va'da — 1-shaxs, -(으)ㄹ게요.",
+        "why_en": "A promise: first person, -(으)ㄹ게요.",
+        "audio": "5ff16b0bc7f3.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "주말이니까 표가 금방 없어져요. 오늘 꼭 예약하세요.",
+        "uz": "Dam olish kuni, chipta tez tugaydi. Bugun albatta band qiling.",
+        "en": "It's the weekend, so tickets go fast. Make sure you book today.",
+        "audio": "0d8f6331ab6f.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "알겠어요. 지금 바로 할게요.",
+        "uz": "Xo'p. Hoziroq qilaman.",
+        "en": "Got it. I'll do it right now.",
+        "audio": "753ca420cc42.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "숙소는 제가 찾을게요.",
+        "uz": "Turar joyni men topaman.",
+        "en": "I'll find somewhere to stay.",
+        "audio": "abe458f73562.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "바다 근처면 좋겠어요.",
+        "uz": "Dengizga yaqin bo'lsa yaxshi bo'lardi.",
+        "en": "Near the sea would be nice.",
+        "audio": "25ae4fbeb692.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "게스트하우스가 싸니까 그걸로 알아볼게요.",
+        "uz": "Mehmon uyi arzon, o'shani surishtiraman.",
+        "en": "Guesthouses are cheap, so I'll look for one.",
+        "audio": "63003bdcdbec.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "예약하면 바로 연락할게요.",
+        "uz": "Band qilsam, darhol xabar beraman.",
+        "en": "I'll let you know as soon as I've booked.",
+        "audio": "6d6fefbe4ce7.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "좋아요. 창가 자리로 해 주세요!",
+        "uz": "Yaxshi. Deraza yonidagi joyni oling!",
+        "en": "Great. Get window seats!",
+        "audio": "1f5659937689.mp3"
+      },
+      {
+        "type": "quiz",
+        "prompt_uz": "Nega ular shanba kuni boradi?",
+        "prompt_en": "Why are they going on Saturday?",
+        "options": [
+          "Juma kuni Minjining darsi bor",
+          "Juma kuni chipta yo'q",
+          "Shanba arzon"
+        ],
+        "options_en": [
+          "Minji has class on Friday",
+          "No tickets on Friday",
+          "Saturday is cheaper"
+        ],
+        "answer": "Juma kuni Minjining darsi bor",
+        "why_uz": "금요일은 수업이 있으니까 토요일에 가요.",
+        "why_en": "금요일은 수업이 있으니까 — she has class on Friday."
+      }
+    ]
+  }
+}

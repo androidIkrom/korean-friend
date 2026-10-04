@@ -1,0 +1,1447 @@
+{
+  "id": "b3_u04_l2",
+  "unit": 4,
+  "lesson": 2,
+  "title_ko": "지금 다니는 회사보다 연봉이 많아요",
+  "title_uz": "Hozirgi ishimdan maoshi ko'proq",
+  "title_en": "The salary is higher than at my current company",
+  "topic_uz": "Ishga kirish",
+  "topic_en": "Employment",
+  "reviewed": false,
+  "words": [
+    {
+      "id": "b3_u04_l2_w001",
+      "ko": "연봉",
+      "uz": "yillik maosh",
+      "en": "annual salary",
+      "pos": "ot",
+      "example_ko": "새 회사는 연봉이 높아요.",
+      "example_uz": "Yangi kompaniyada maosh yuqori.",
+      "example_en": "The new company pays more.",
+      "audio": "edc8d3b833c7.mp3",
+      "example_audio": "aea3171cc303.mp3"
+    },
+    {
+      "id": "b3_u04_l2_w002",
+      "ko": "월급",
+      "uz": "oylik maosh",
+      "en": "monthly pay",
+      "pos": "ot",
+      "example_ko": "월급날이 언제예요?",
+      "example_uz": "Maosh kuni qachon?",
+      "example_en": "When is payday?",
+      "audio": "abacc000b9af.mp3",
+      "example_audio": "b0e1c3177cec.mp3"
+    },
+    {
+      "id": "b3_u04_l2_w003",
+      "ko": "근무 시간",
+      "uz": "ish vaqti",
+      "en": "working hours",
+      "pos": "ot",
+      "example_ko": "근무 시간이 길어요.",
+      "example_uz": "Ish vaqti uzun.",
+      "example_en": "The working hours are long.",
+      "audio": "f7d446541ed7.mp3",
+      "example_audio": "2d760f628ef0.mp3"
+    },
+    {
+      "id": "b3_u04_l2_w004",
+      "ko": "야근",
+      "uz": "ishda kechgacha qolish",
+      "en": "overtime",
+      "pos": "ot",
+      "example_ko": "야근이 너무 많아요.",
+      "example_uz": "Kechgacha ishlash juda ko'p.",
+      "example_en": "There's too much overtime.",
+      "audio": "6bed8e4cda52.mp3",
+      "example_audio": "60a7cb20ea8a.mp3"
+    },
+    {
+      "id": "b3_u04_l2_w005",
+      "ko": "출퇴근",
+      "uz": "ishga borib-kelish",
+      "en": "commute",
+      "pos": "ot",
+      "example_ko": "출퇴근 시간이 한 시간이에요.",
+      "example_uz": "Borib-kelish bir soat.",
+      "example_en": "The commute takes an hour.",
+      "audio": "3caa9f2a2eab.mp3",
+      "example_audio": "2ffb4cfb8e58.mp3"
+    },
+    {
+      "id": "b3_u04_l2_w006",
+      "ko": "복지",
+      "uz": "ijtimoiy imtiyozlar",
+      "en": "benefits",
+      "pos": "ot",
+      "example_ko": "이 회사는 복지가 좋아요.",
+      "example_uz": "Bu kompaniyaning imtiyozlari yaxshi.",
+      "example_en": "This company has good benefits.",
+      "audio": "705cda96d194.mp3",
+      "example_audio": "f4ce2031ec25.mp3"
+    },
+    {
+      "id": "b3_u04_l2_w007",
+      "ko": "보너스",
+      "uz": "mukofot puli",
+      "en": "bonus",
+      "pos": "ot",
+      "example_ko": "연말에 보너스를 받아요.",
+      "example_uz": "Yil oxirida mukofot olaman.",
+      "example_en": "I get a bonus at year's end.",
+      "audio": "34c6a9b28c63.mp3",
+      "example_audio": "570c38d89047.mp3"
+    },
+    {
+      "id": "b3_u04_l2_w008",
+      "ko": "승진",
+      "uz": "lavozimga ko'tarilish",
+      "en": "promotion",
+      "pos": "ot",
+      "example_ko": "승진이 빨라요.",
+      "example_uz": "Lavozim tez oshadi.",
+      "example_en": "Promotion is quick.",
+      "audio": "2e5aaebe0c9e.mp3",
+      "example_audio": "ca11a2d5f75f.mp3"
+    },
+    {
+      "id": "b3_u04_l2_w009",
+      "ko": "동료",
+      "uz": "hamkasb",
+      "en": "colleague",
+      "pos": "ot",
+      "example_ko": "동료들이 친절해요.",
+      "example_uz": "Hamkasblar mehribon.",
+      "example_en": "My colleagues are kind.",
+      "audio": "e168bce9347f.mp3",
+      "example_audio": "38d8c07f0e00.mp3"
+    },
+    {
+      "id": "b3_u04_l2_w010",
+      "ko": "상사",
+      "uz": "boshliq",
+      "en": "boss",
+      "pos": "ot",
+      "example_ko": "상사가 좀 엄격해요.",
+      "example_uz": "Boshliq biroz qattiqqo'l.",
+      "example_en": "My boss is a bit strict.",
+      "audio": "983d4fb84287.mp3",
+      "example_audio": "0248024ce946.mp3"
+    },
+    {
+      "id": "b3_u04_l2_w011",
+      "ko": "분위기",
+      "uz": "muhit, kayfiyat",
+      "en": "atmosphere",
+      "pos": "ot",
+      "example_ko": "회사 분위기가 좋아요.",
+      "example_uz": "Kompaniyadagi muhit yaxshi.",
+      "example_en": "The office atmosphere is good.",
+      "audio": "a96e51cf2439.mp3",
+      "example_audio": "cc663e56f222.mp3"
+    },
+    {
+      "id": "b3_u04_l2_w012",
+      "ko": "조건",
+      "uz": "shart",
+      "en": "condition",
+      "pos": "ot",
+      "example_ko": "근무 조건을 비교했어요.",
+      "example_uz": "Ish shartlarini solishtirdim.",
+      "example_en": "I compared the working conditions.",
+      "audio": "b4d81bf67a39.mp3",
+      "example_audio": "dc9bdcc7c817.mp3"
+    },
+    {
+      "id": "b3_u04_l2_w013",
+      "ko": "비교하다",
+      "uz": "solishtirmoq",
+      "en": "to compare",
+      "pos": "fe'l",
+      "example_ko": "두 회사를 비교해 보세요.",
+      "example_uz": "Ikki kompaniyani solishtiring.",
+      "example_en": "Compare the two companies.",
+      "audio": "be8e73c48db0.mp3",
+      "example_audio": "a16c18a3a978.mp3"
+    },
+    {
+      "id": "b3_u04_l2_w014",
+      "ko": "결정하다",
+      "uz": "qaror qilmoq",
+      "en": "to decide",
+      "pos": "fe'l",
+      "example_ko": "아직 결정하지 못했어요.",
+      "example_uz": "Hali qaror qila olmadim.",
+      "example_en": "I haven't been able to decide yet.",
+      "audio": "381b7cdb7892.mp3",
+      "example_audio": "20b92379d657.mp3"
+    },
+    {
+      "id": "b3_u04_l2_w015",
+      "ko": "이직하다",
+      "uz": "ish joyini almashtirmoq",
+      "en": "to change jobs",
+      "pos": "fe'l",
+      "example_ko": "이직하려고 해요.",
+      "example_uz": "Ish joyimni almashtirmoqchiman.",
+      "example_en": "I'm planning to change jobs.",
+      "audio": "f6e23725f0ba.mp3",
+      "example_audio": "e857fdac24f6.mp3"
+    },
+    {
+      "id": "b3_u04_l2_w016",
+      "ko": "다니다",
+      "uz": "qatnamoq (ishga)",
+      "en": "to work at, to attend",
+      "pos": "fe'l",
+      "example_ko": "지금 다니는 회사는 작아요.",
+      "example_uz": "Hozir ishlayotgan kompaniyam kichik.",
+      "example_en": "The company I work at now is small.",
+      "audio": "04afb3bd6ce6.mp3",
+      "example_audio": "231bdd9b99f6.mp3"
+    },
+    {
+      "id": "b3_u04_l2_w017",
+      "ko": "거리",
+      "uz": "masofa",
+      "en": "distance",
+      "pos": "ot",
+      "example_ko": "회사까지 거리가 멀어요.",
+      "example_uz": "Ishgacha masofa uzoq.",
+      "example_en": "It's a long way to the office.",
+      "audio": "fc445557846f.mp3",
+      "example_audio": "cfc7bfe48832.mp3"
+    },
+    {
+      "id": "b3_u04_l2_w018",
+      "ko": "멀다",
+      "uz": "uzoq bo'lmoq",
+      "en": "to be far",
+      "pos": "sifat",
+      "example_ko": "집에서 회사가 멀어요.",
+      "example_uz": "Uydan ish uzoq.",
+      "example_en": "My office is far from home.",
+      "audio": "0825e95a86ec.mp3",
+      "example_audio": "d62f4d1ae405.mp3"
+    },
+    {
+      "id": "b3_u04_l2_w019",
+      "ko": "운전하다",
+      "uz": "mashina haydamoq",
+      "en": "to drive",
+      "pos": "fe'l",
+      "example_ko": "운전할 줄 알아요?",
+      "example_uz": "Mashina hayday olasizmi?",
+      "example_en": "Can you drive?",
+      "audio": "7c4b05ea4f29.mp3",
+      "example_audio": "315ac98f91b1.mp3"
+    },
+    {
+      "id": "b3_u04_l2_w020",
+      "ko": "코딩",
+      "uz": "dasturlash (kod yozish)",
+      "en": "coding",
+      "pos": "ot",
+      "example_ko": "코딩할 줄 알아요.",
+      "example_uz": "Kod yoza olaman.",
+      "example_en": "I know how to code.",
+      "audio": "fa5d978a4149.mp3",
+      "example_audio": "5275c11fa86d.mp3"
+    },
+    {
+      "id": "b3_u04_l2_w021",
+      "ko": "엑셀",
+      "uz": "Excel dasturi",
+      "en": "Excel",
+      "pos": "ot",
+      "example_ko": "엑셀을 쓸 줄 몰라요.",
+      "example_uz": "Excel'dan foydalanishni bilmayman.",
+      "example_en": "I don't know how to use Excel.",
+      "audio": "164a96bda976.mp3",
+      "example_audio": "7bfcc4b7490a.mp3"
+    },
+    {
+      "id": "b3_u04_l2_w022",
+      "ko": "프로그램",
+      "uz": "dastur",
+      "en": "program, software",
+      "pos": "ot",
+      "example_ko": "이 프로그램을 쓸 줄 알아요?",
+      "example_uz": "Bu dasturni ishlata olasizmi?",
+      "example_en": "Do you know how to use this program?",
+      "audio": "0b2c131a009a.mp3",
+      "example_audio": "2f60bb242a4f.mp3"
+    },
+    {
+      "id": "b3_u04_l2_w023",
+      "ko": "사용하다",
+      "uz": "foydalanmoq",
+      "en": "to use",
+      "pos": "fe'l",
+      "example_ko": "컴퓨터를 사용할 줄 알아요.",
+      "example_uz": "Kompyuterdan foydalana olaman.",
+      "example_en": "I know how to use a computer.",
+      "audio": "9ddd5111c75d.mp3",
+      "example_audio": "024fd9791b92.mp3"
+    },
+    {
+      "id": "b3_u04_l2_w024",
+      "ko": "중국어",
+      "uz": "xitoy tili",
+      "en": "Chinese (language)",
+      "pos": "ot",
+      "example_ko": "중국어를 할 줄 알아요?",
+      "example_uz": "Xitoycha bilasizmi?",
+      "example_en": "Can you speak Chinese?",
+      "audio": "ec0a51812a48.mp3",
+      "example_audio": "96bc7e7c84a2.mp3"
+    },
+    {
+      "id": "b3_u04_l2_w025",
+      "ko": "높다",
+      "uz": "baland, yuqori bo'lmoq",
+      "en": "to be high",
+      "pos": "sifat",
+      "example_ko": "연봉이 지금보다 높아요.",
+      "example_uz": "Maosh hozirgidan yuqori.",
+      "example_en": "The salary is higher than now.",
+      "audio": "3e5198bf804e.mp3",
+      "example_audio": "4c15962f119b.mp3"
+    },
+    {
+      "id": "b3_u04_l2_w026",
+      "ko": "낮다",
+      "uz": "past bo'lmoq",
+      "en": "to be low",
+      "pos": "sifat",
+      "example_ko": "월급이 조금 낮아요.",
+      "example_uz": "Maosh biroz past.",
+      "example_en": "The pay is a bit low.",
+      "audio": "5d96f37a867c.mp3",
+      "example_audio": "1befd145abc8.mp3"
+    },
+    {
+      "id": "b3_u04_l2_w027",
+      "ko": "훨씬",
+      "uz": "ancha, ko'proq",
+      "en": "much (more)",
+      "pos": "ravish",
+      "example_ko": "이 회사가 훨씬 커요.",
+      "example_uz": "Bu kompaniya ancha katta.",
+      "example_en": "This company is much bigger.",
+      "audio": "1ee672eab204.mp3",
+      "example_audio": "f622cd2c5c39.mp3"
+    },
+    {
+      "id": "b3_u04_l2_w028",
+      "ko": "더",
+      "uz": "ko'proq",
+      "en": "more",
+      "pos": "ravish",
+      "example_ko": "여기가 더 가까워요.",
+      "example_uz": "Bu yer yaqinroq.",
+      "example_en": "This place is closer.",
+      "audio": "b24a9ca30118.mp3",
+      "example_audio": "fdcbd41d3c53.mp3"
+    },
+    {
+      "id": "b3_u04_l2_w029",
+      "ko": "덜",
+      "uz": "kamroq",
+      "en": "less",
+      "pos": "ravish",
+      "example_ko": "야근이 덜 해요.",
+      "example_uz": "Kechgacha ishlash kamroq.",
+      "example_en": "There's less overtime.",
+      "audio": "d68a9912b581.mp3",
+      "example_audio": "8be189ad541a.mp3"
+    },
+    {
+      "id": "b3_u04_l2_w030",
+      "ko": "장단점",
+      "uz": "yutuq va kamchiliklar",
+      "en": "pros and cons",
+      "pos": "ot",
+      "example_ko": "두 회사의 장단점을 생각해요.",
+      "example_uz": "Ikki kompaniyaning yutuq-kamchiliklarini o'ylayapman.",
+      "example_en": "I'm weighing the pros and cons of both.",
+      "audio": "c1a9421e33d8.mp3",
+      "example_audio": "808826335bd3.mp3"
+    },
+    {
+      "id": "b3_u04_l2_w031",
+      "ko": "제안",
+      "uz": "taklif",
+      "en": "offer, proposal",
+      "pos": "ot",
+      "example_ko": "다른 회사에서 제안을 받았어요.",
+      "example_uz": "Boshqa kompaniyadan taklif oldim.",
+      "example_en": "I got an offer from another company.",
+      "audio": "160c8b33e417.mp3",
+      "example_audio": "42ab18f57e99.mp3"
+    },
+    {
+      "id": "b3_u04_l2_w032",
+      "ko": "고민",
+      "uz": "tashvish, o'ylanish",
+      "en": "worry, dilemma",
+      "pos": "ot",
+      "example_ko": "요즘 고민이 많아요.",
+      "example_uz": "Shu kunlarda tashvishim ko'p.",
+      "example_en": "I've got a lot on my mind these days.",
+      "audio": "dc98900c5e6e.mp3",
+      "example_audio": "765520dd65eb.mp3"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "b3_u04_l2_g1",
+      "pattern": "N보다",
+      "meaning_uz": "...dan (ko'ra): taqqoslash",
+      "meaning_en": "Than N: comparison",
+      "explanation_md": "**보다** taqqoslanadigan narsaga qo'shiladi: \"**...dan (ko'ra)**\". Sifatdan oldin ko'pincha **더** (ko'proq) yoki **훨씬** (ancha) keladi.\n\n**새 회사는 지금 회사보다 연봉이 많아요.** — *Yangi kompaniyada maosh hozirgisidan ko'p.*\n\n### Qanday yasaladi\n\n**보다** 받침 ga qarab o'zgarmaydi: **지금보다**, **회사보다**, **어제보다**.\n\n### Esda tuting\n\n- **N보다 더 A** — \"N dan ko'ra A-roq\": **여기가 거기보다 더 가까워요.**\n- **N보다 덜 A** — \"N dan kamroq A\": **덜 바빠요.**\n- **훨씬** — \"ancha\": **훨씬 커요.**\n- Tartib erkin: **연봉은 A 회사가 B 회사보다 높아요** = **B 회사보다 A 회사가 연봉이 높아요.**\n- 2-kitob 2-2 da **N보다 더** qisqacha uchragan edi; bu yerda — to'liq qoida.",
+      "explanation_md_en": "**보다** attaches to the thing being compared against: \"**than N**\". The adjective is often preceded by **더** (more) or **훨씬** (much).\n\n**새 회사는 지금 회사보다 연봉이 많아요.** — *The new company pays more than my current one.*\n\n### How to form it\n\n**보다** doesn't change with 받침: **지금보다**, **회사보다**, **어제보다**.\n\n### Remember\n\n- **N보다 더 A** — \"more A than N\": **여기가 거기보다 더 가까워요.**\n- **N보다 덜 A** — \"less A than N\": **덜 바빠요.**\n- **훨씬** — \"much\": **훨씬 커요.**\n- Word order is flexible: **A 회사가 B 회사보다 연봉이 높아요** = **B 회사보다 A 회사가 연봉이 높아요.**\n- Book 2 (2-2) touched on **N보다 더**; this is the full rule.",
+      "formation": [
+        {
+          "condition_uz": "Taqqoslash",
+          "condition_en": "Comparison",
+          "rule": "N보다 (더) A",
+          "example": "지금보다 더 높아요"
+        },
+        {
+          "condition_uz": "Kamroq",
+          "condition_en": "Less",
+          "rule": "N보다 덜 A",
+          "example": "작년보다 덜 바빠요"
+        },
+        {
+          "condition_uz": "Ancha",
+          "condition_en": "Much more",
+          "rule": "N보다 훨씬 A",
+          "example": "여기보다 훨씬 멀어요"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "새 회사는 지금 회사보다 연봉이 많아요.",
+          "uz": "Yangi kompaniyada maosh hozirgisidan ko'p.",
+          "en": "The new company pays more than my current one.",
+          "audio": "0eea6aa51a8b.mp3"
+        },
+        {
+          "ko": "지하철이 버스보다 빨라요.",
+          "uz": "Metro avtobusdan tez.",
+          "en": "The subway is faster than the bus.",
+          "audio": "54a79a7d288b.mp3"
+        },
+        {
+          "ko": "올해는 작년보다 덜 바빠요.",
+          "uz": "Bu yil o'tgan yildan kamroq bandman.",
+          "en": "This year I'm less busy than last year.",
+          "audio": "a11077bf37ad.mp3"
+        },
+        {
+          "ko": "이 회사가 훨씬 커요.",
+          "uz": "Bu kompaniya ancha katta.",
+          "en": "This company is much bigger.",
+          "audio": "f622cd2c5c39.mp3"
+        },
+        {
+          "ko": "집에서 회사가 학교보다 멀어요.",
+          "uz": "Uydan ish maktabdan uzoqroq.",
+          "en": "My office is farther from home than school was.",
+          "audio": "3b4da6ac228c.mp3"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "지금 회사보다는 더 높아요요.",
+          "right": "지금 회사보다 더 높아요.",
+          "why_uz": "Ortiqcha 요 yo'q.",
+          "why_en": "No extra 요."
+        },
+        {
+          "wrong": "보다 지금 회사 높아요.",
+          "right": "지금 회사보다 높아요.",
+          "why_uz": "보다 otdan keyin keladi.",
+          "why_en": "보다 comes after the noun."
+        },
+        {
+          "wrong": "버스가 지하철보다 더 빨라요. (aslida metro tez)",
+          "right": "지하철이 버스보다 빨라요.",
+          "why_uz": "보다 — solishtiriladigan (sekinroq) narsada.",
+          "why_en": "보다 goes on the thing being compared against."
+        }
+      ],
+      "uz_compare": "O'zbekchadagi '-dan (ko'ra)' bilan bir xil: 'avtobusDAN tez' = 버스보다 빨라요. 'Ko'proq' — 더, 'ancha' — 훨씬.",
+      "compare_en": "Like English '…-er than': 'faster THAN the bus' = 버스보다 빨라요. Korean doesn't change the adjective — it adds 더 (more) if needed."
+    },
+    {
+      "id": "b3_u04_l2_g2",
+      "pattern": "V-(으)ㄹ 줄 알다/모르다",
+      "meaning_uz": "...ni bilmoq / bilmaslik (ko'nikma)",
+      "meaning_en": "Know / not know how to",
+      "explanation_md": "**-(으)ㄹ 줄 알다** — biror ishni **qanday qilishni bilish** (o'rganilgan ko'nikma): \"... qila olaman\". **-(으)ㄹ 줄 모르다** — \"... qilishni bilmayman\".\n\n**운전할 줄 알아요?** — *Mashina hayday olasizmi?*  \n**엑셀을 쓸 줄 몰라요.** — *Excel'dan foydalanishni bilmayman.*\n\n### Qanday yasaladi\n\n- O'zak **받침siz** → **-ㄹ 줄 알다**: 하다 → **할 줄 알아요**, 쓰다 → **쓸 줄 알아요**\n- O'zak **받침 bilan** → **-을 줄 알다**: 읽다 → **읽을 줄 알아요**\n- **ㄹ** bilan → **-ㄹ 줄**: 만들다 → **만들 줄 알아요**\n\n### -(으)ㄹ 수 있다 bilan farqi (2-kitob)\n\n- **-(으)ㄹ 수 있다** — imkoniyat yoki qobiliyat umuman: **오늘 갈 수 있어요.** (vaqtim bor)\n- **-(으)ㄹ 줄 알다** — **o'rganilgan usul/ko'nikma**: **중국어를 할 줄 알아요.**",
+      "explanation_md_en": "**-(으)ㄹ 줄 알다** means **knowing how to do** something (a learned skill). **-(으)ㄹ 줄 모르다** means \"not knowing how to\".\n\n**운전할 줄 알아요?** — *Do you know how to drive?*  \n**엑셀을 쓸 줄 몰라요.** — *I don't know how to use Excel.*\n\n### How to form it\n\n- Stem **without 받침** → **-ㄹ 줄 알다**: 하다 → **할 줄 알아요**, 쓰다 → **쓸 줄 알아요**\n- Stem **with 받침** → **-을 줄 알다**: 읽다 → **읽을 줄 알아요**\n- **ㄹ** stem → **-ㄹ 줄**: 만들다 → **만들 줄 알아요**\n\n### vs -(으)ㄹ 수 있다 (book 2)\n\n- **-(으)ㄹ 수 있다** — general possibility or ability: **오늘 갈 수 있어요.** (I'm free)\n- **-(으)ㄹ 줄 알다** — a **learned method/skill**: **중국어를 할 줄 알아요.**",
+      "formation": [
+        {
+          "condition_uz": "받침 yo'q",
+          "condition_en": "No 받침",
+          "rule": "V + ㄹ 줄 알다/모르다",
+          "example": "할 줄 알아요, 쓸 줄 몰라요"
+        },
+        {
+          "condition_uz": "받침 bor",
+          "condition_en": "With 받침",
+          "rule": "V + 을 줄 알다/모르다",
+          "example": "읽을 줄 알아요"
+        },
+        {
+          "condition_uz": "ㄹ bilan",
+          "condition_en": "Ends in ㄹ",
+          "rule": "V + ㄹ 줄 (ㄹ birlashadi)",
+          "example": "만들 줄 알아요"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "운전할 줄 알아요?",
+          "uz": "Mashina hayday olasizmi?",
+          "en": "Do you know how to drive?",
+          "audio": "315ac98f91b1.mp3"
+        },
+        {
+          "ko": "저는 코딩할 줄 알아요.",
+          "uz": "Men kod yoza olaman.",
+          "en": "I know how to code.",
+          "audio": "1d34184cff94.mp3"
+        },
+        {
+          "ko": "엑셀을 쓸 줄 몰라요.",
+          "uz": "Excel'dan foydalanishni bilmayman.",
+          "en": "I don't know how to use Excel.",
+          "audio": "7bfcc4b7490a.mp3"
+        },
+        {
+          "ko": "중국어를 할 줄 알아요?",
+          "uz": "Xitoycha bilasizmi?",
+          "en": "Can you speak Chinese?",
+          "audio": "96bc7e7c84a2.mp3"
+        },
+        {
+          "ko": "한국 음식을 만들 줄 알아요.",
+          "uz": "Koreys taomini tayyorlay olaman.",
+          "en": "I know how to cook Korean food.",
+          "audio": "b9989f741393.mp3"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "운전하는 줄 알아요?",
+          "right": "운전할 줄 알아요?",
+          "why_uz": "Ko'nikma: -(으)ㄹ 줄.",
+          "why_en": "Skill: -(으)ㄹ 줄."
+        },
+        {
+          "wrong": "한자를 읽ㄹ 줄 몰라요.",
+          "right": "한자를 읽을 줄 몰라요.",
+          "why_uz": "읽다 받침 bilan: 읽을 줄.",
+          "why_en": "읽다 has 받침: 읽을 줄."
+        },
+        {
+          "wrong": "김치를 만들을 줄 알아요.",
+          "right": "김치를 만들 줄 알아요.",
+          "why_uz": "ㄹ bilan: 만들 줄.",
+          "why_en": "ㄹ stems: 만들 줄."
+        }
+      ],
+      "uz_compare": "O'zbekchadagi '... qilishni bilaman' ga mos: 'mashina haydaSHNI BILAMAN' = 운전할 줄 알아요. 'Bilmayman' — 줄 몰라요.",
+      "compare_en": "Like English 'know how to': 'I know how to drive' = 운전할 줄 알아요; 'don't know how to' = …-(으)ㄹ 줄 몰라요."
+    }
+  ],
+  "dialogue": {
+    "lines": [
+      {
+        "speaker": "tingting",
+        "ko": "아지즈 씨, 요즘 고민이 있어요?",
+        "uz": "Aziz, shu kunlarda biror tashvishingiz bormi?",
+        "en": "Aziz, is something on your mind these days?",
+        "audio": "0bcdc14c14fc.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "네, 다른 회사에서 제안을 받았어요.",
+        "uz": "Ha, boshqa kompaniyadan taklif oldim.",
+        "en": "Yes, I got an offer from another company.",
+        "audio": "6bce038136e9.mp3"
+      },
+      {
+        "speaker": "tingting",
+        "ko": "와, 축하해요! 지금 다니는 회사보다 좋아요?",
+        "uz": "Voy, tabriklayman! Hozirgi ishingizdan yaxshimi?",
+        "en": "Wow, congratulations! Is it better than your current company?",
+        "audio": "2d2163fd6507.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "연봉은 지금 회사보다 훨씬 많아요. 복지도 좋아요.",
+        "uz": "Maosh hozirgidan ancha ko'p. Imtiyozlar ham yaxshi.",
+        "en": "The salary is much higher than now. The benefits are good too.",
+        "audio": "7d587589cc05.mp3"
+      },
+      {
+        "speaker": "tingting",
+        "ko": "그럼 뭐가 문제예요?",
+        "uz": "Unda muammo nimada?",
+        "en": "So what's the problem?",
+        "audio": "26696875e544.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "집에서 너무 멀어요. 지금보다 출퇴근 시간이 두 배예요.",
+        "uz": "Uydan juda uzoq. Borib-kelish hozirgidan ikki barobar.",
+        "en": "It's too far from home. The commute is twice as long as now.",
+        "audio": "9a6751f26744.mp3"
+      },
+      {
+        "speaker": "tingting",
+        "ko": "운전할 줄 알아요? 차로 가면 더 빨라요.",
+        "uz": "Mashina hayday olasizmi? Mashinada tezroq.",
+        "en": "Do you know how to drive? It's faster by car.",
+        "audio": "507a8fbdb760.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "아니요, 운전할 줄 몰라요. 그리고 그 회사는 중국어를 할 줄 알아야 돼요.",
+        "uz": "Yo'q, haydashni bilmayman. Yana u kompaniyada xitoycha bilish kerak.",
+        "en": "No, I don't know how to drive. And that company requires Chinese.",
+        "audio": "b008830c7a4a.mp3"
+      },
+      {
+        "speaker": "tingting",
+        "ko": "중국어는 제가 가르쳐 줄게요! 저는 중국 사람이니까요.",
+        "uz": "Xitoychani men o'rgataman! Axir men xitoylikman.",
+        "en": "I'll teach you Chinese! I'm Chinese, after all.",
+        "audio": "64e67f06d979.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "하하, 고마워요. 장단점을 더 비교해 볼게요.",
+        "uz": "Haha, rahmat. Yutuq-kamchiliklarini yana solishtirib ko'raman.",
+        "en": "Haha, thanks. I'll compare the pros and cons some more.",
+        "audio": "414af79c3608.mp3"
+      },
+      {
+        "speaker": "tingting",
+        "ko": "천천히 결정하세요. 분위기도 중요해요.",
+        "uz": "Shoshilmay qaror qiling. Muhit ham muhim.",
+        "en": "Take your time deciding. The atmosphere matters too.",
+        "audio": "92da25dc4369.mp3"
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b3_u04_l2_e001",
+      "type": "conjugate",
+      "targets": [
+        "b3_u04_l2_g1"
+      ],
+      "prompt_uz": "'Hozirgidan' shaklini yasang",
+      "prompt_en": "Make 'than now'",
+      "base": "지금",
+      "form": "+ 보다",
+      "answers": [
+        "지금보다"
+      ]
+    },
+    {
+      "id": "b3_u04_l2_e002",
+      "type": "conjugate",
+      "targets": [
+        "b3_u04_l2_g1"
+      ],
+      "prompt_uz": "'Avtobusdan tez' iborasini yasang",
+      "prompt_en": "Make 'faster than the bus'",
+      "base": "버스",
+      "form": "+ 보다 빨라요",
+      "answers": [
+        "버스보다 빨라요"
+      ]
+    },
+    {
+      "id": "b3_u04_l2_e003",
+      "type": "conjugate",
+      "targets": [
+        "b3_u04_l2_g2"
+      ],
+      "prompt_uz": "'Hayday olaman' shaklini yasang",
+      "prompt_en": "Make 'know how to drive'",
+      "base": "운전하다",
+      "form": "-(으)ㄹ 줄 알아요",
+      "answers": [
+        "운전할 줄 알아요"
+      ]
+    },
+    {
+      "id": "b3_u04_l2_e004",
+      "type": "conjugate",
+      "targets": [
+        "b3_u04_l2_g2"
+      ],
+      "prompt_uz": "'O'qishni bilmayman' shaklini yasang",
+      "prompt_en": "Make 'don't know how to read'",
+      "base": "읽다",
+      "form": "-(으)ㄹ 줄 몰라요",
+      "answers": [
+        "읽을 줄 몰라요"
+      ]
+    },
+    {
+      "id": "b3_u04_l2_e005",
+      "type": "fill_blank",
+      "targets": [
+        "b3_u04_l2_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Metro avtobusdan tez.'",
+      "prompt_en": "Fill in the blank: 'The subway is faster than the bus.'",
+      "sentence": "지하철이 버스___ 빨라요.",
+      "answers": [
+        "보다"
+      ]
+    },
+    {
+      "id": "b3_u04_l2_e006",
+      "type": "fill_blank",
+      "targets": [
+        "b3_u04_l2_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Bu kompaniya ancha katta.'",
+      "prompt_en": "Fill in the blank: 'This company is much bigger.'",
+      "sentence": "이 회사가 ___ 커요.",
+      "answers": [
+        "훨씬"
+      ]
+    },
+    {
+      "id": "b3_u04_l2_e007",
+      "type": "fill_blank",
+      "targets": [
+        "b3_u04_l2_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Kod yoza olaman.'",
+      "prompt_en": "Fill in the blank: 'I know how to code.'",
+      "sentence": "코딩할 줄 ___.",
+      "answers": [
+        "알아요"
+      ]
+    },
+    {
+      "id": "b3_u04_l2_e008",
+      "type": "fill_blank",
+      "targets": [
+        "b3_u04_l2_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Excel'dan foydalanishni bilmayman.'",
+      "prompt_en": "Fill in the blank: 'I don't know how to use Excel.'",
+      "sentence": "엑셀을 ___ 줄 몰라요. (쓰다)",
+      "answers": [
+        "쓸"
+      ]
+    },
+    {
+      "id": "b3_u04_l2_e009",
+      "type": "situation_choice",
+      "targets": [
+        "b3_u04_l2_g1"
+      ],
+      "prompt_uz": "Yangi kompaniyada maosh yuqoriroq ekanini ayting:",
+      "prompt_en": "Say the new company pays more:",
+      "options": [
+        "새 회사가 지금 회사보다 연봉이 높아요.",
+        "새 회사보다 지금 회사가 연봉이 높아요.",
+        "새 회사가 지금 회사보다는요 높아요.",
+        "보다 새 회사가 연봉이 높아요."
+      ],
+      "answers": [
+        "새 회사가 지금 회사보다 연봉이 높아요."
+      ]
+    },
+    {
+      "id": "b3_u04_l2_e010",
+      "type": "situation_choice",
+      "targets": [
+        "b3_u04_l2_g2"
+      ],
+      "prompt_uz": "Suhbatda xitoycha bilishingizni ayting:",
+      "prompt_en": "Say at the interview that you can speak Chinese:",
+      "options": [
+        "중국어를 할 줄 알아요.",
+        "중국어를 하는 줄 알아요.",
+        "중국어를 할 줄 몰라요.",
+        "중국어를 할 수 줄 알아요."
+      ],
+      "answers": [
+        "중국어를 할 줄 알아요."
+      ]
+    },
+    {
+      "id": "b3_u04_l2_e011",
+      "type": "situation_choice",
+      "targets": [
+        "b3_u04_l2_w015"
+      ],
+      "prompt_uz": "Ish joyingizni almashtirmoqchi ekaningizni ayting:",
+      "prompt_en": "Say you're planning to change jobs:",
+      "options": [
+        "이직하려고 해요.",
+        "승진하려고 해요.",
+        "야근하려고 해요.",
+        "출퇴근하려고 해요."
+      ],
+      "answers": [
+        "이직하려고 해요."
+      ]
+    },
+    {
+      "id": "b3_u04_l2_e012",
+      "type": "find_error",
+      "targets": [
+        "b3_u04_l2_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "보다 버스 지하철이 빨라요.",
+      "answers": [
+        "지하철이 버스보다 빨라요"
+      ],
+      "why_uz": "보다 otdan keyin.",
+      "why_en": "보다 comes after the noun."
+    },
+    {
+      "id": "b3_u04_l2_e013",
+      "type": "find_error",
+      "targets": [
+        "b3_u04_l2_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "운전하는 줄 알아요.",
+      "answers": [
+        "운전할 줄 알아요"
+      ],
+      "why_uz": "Ko'nikma: -(으)ㄹ 줄.",
+      "why_en": "Skill: -(으)ㄹ 줄."
+    },
+    {
+      "id": "b3_u04_l2_e014",
+      "type": "find_error",
+      "targets": [
+        "b3_u04_l2_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "김치를 만들을 줄 몰라요.",
+      "answers": [
+        "김치를 만들 줄 몰라요"
+      ],
+      "why_uz": "ㄹ bilan: 만들 줄.",
+      "why_en": "ㄹ stems: 만들 줄."
+    },
+    {
+      "id": "b3_u04_l2_e015",
+      "type": "translate",
+      "targets": [
+        "b3_u04_l2_g1"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Bu yil o'tgan yildan kamroq bandman.",
+      "source_en": "This year I'm less busy than last year.",
+      "answers": [
+        "올해는 작년보다 덜 바빠요"
+      ]
+    },
+    {
+      "id": "b3_u04_l2_e016",
+      "type": "translate",
+      "targets": [
+        "b3_u04_l2_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Mashina hayday olasizmi?",
+      "source_en": "Do you know how to drive?",
+      "answers": [
+        "운전할 줄 알아요",
+        "운전할 줄 알아요?"
+      ]
+    },
+    {
+      "id": "b3_u04_l2_e017",
+      "type": "translate",
+      "targets": [
+        "b3_u04_l2_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Excel'dan foydalanishni bilmayman.",
+      "source_en": "I don't know how to use Excel.",
+      "answers": [
+        "엑셀을 쓸 줄 몰라요",
+        "엑셀을 사용할 줄 몰라요"
+      ]
+    },
+    {
+      "id": "b3_u04_l2_e018",
+      "type": "build_sentence",
+      "targets": [
+        "b3_u04_l2_g1"
+      ],
+      "prompt_uz": "'Maosh hozirgidan ancha ko'p' gapini tuzing",
+      "prompt_en": "Build the sentence 'The salary is much higher than now'",
+      "tokens": [
+        "지금보다",
+        "연봉이",
+        "훨씬",
+        "많아요"
+      ],
+      "answers": [
+        "연봉이 지금보다 훨씬 많아요"
+      ]
+    },
+    {
+      "id": "b3_u04_l2_e019",
+      "type": "build_sentence",
+      "targets": [
+        "b3_u04_l2_g2"
+      ],
+      "prompt_uz": "'Koreys taomini tayyorlay olaman' gapini tuzing",
+      "prompt_en": "Build the sentence 'I know how to cook Korean food'",
+      "tokens": [
+        "알아요",
+        "줄",
+        "한국",
+        "음식을",
+        "만들"
+      ],
+      "answers": [
+        "한국 음식을 만들 줄 알아요"
+      ]
+    },
+    {
+      "id": "b3_u04_l2_e020",
+      "type": "build_sentence",
+      "targets": [
+        "b3_u04_l2_g1"
+      ],
+      "prompt_uz": "'Ish uydan maktabdan uzoqroq' gapini tuzing",
+      "prompt_en": "Build the sentence 'Work is farther from home than school'",
+      "tokens": [
+        "멀어요",
+        "회사가",
+        "학교보다"
+      ],
+      "answers": [
+        "회사가 학교보다 멀어요"
+      ]
+    },
+    {
+      "id": "b3_u04_l2_e021",
+      "type": "listen_question",
+      "targets": [
+        "b3_u04_l2_g1"
+      ],
+      "prompt_uz": "Qaysi kompaniyada maosh ko'p?",
+      "prompt_en": "Which company pays more?",
+      "audio_text": "A 회사가 B 회사보다 연봉이 많아요.",
+      "options": [
+        "A kompaniya",
+        "B kompaniya",
+        "Bir xil",
+        "Ma'lum emas"
+      ],
+      "options_en": [
+        "Company A",
+        "Company B",
+        "The same",
+        "Unknown"
+      ],
+      "answers": [
+        "A kompaniya"
+      ],
+      "audio": "75edb9d56ecc.mp3"
+    },
+    {
+      "id": "b3_u04_l2_e022",
+      "type": "listen_question",
+      "targets": [
+        "b3_u04_l2_g2"
+      ],
+      "prompt_uz": "U nimani bilmaydi?",
+      "prompt_en": "What doesn't the speaker know how to do?",
+      "audio_text": "저는 수영할 줄 몰라요.",
+      "options": [
+        "Suzishni",
+        "Mashina haydashni",
+        "Ovqat pishirishni",
+        "Kod yozishni"
+      ],
+      "options_en": [
+        "Swim",
+        "Drive",
+        "Cook",
+        "Code"
+      ],
+      "answers": [
+        "Suzishni"
+      ],
+      "audio": "0e3e07d5278e.mp3"
+    },
+    {
+      "id": "b3_u04_l2_e023",
+      "type": "listen_question",
+      "targets": [
+        "b3_u04_l2_g1"
+      ],
+      "prompt_uz": "Bu yil qanday?",
+      "prompt_en": "How is this year?",
+      "audio_text": "올해는 작년보다 야근이 덜 해요.",
+      "options": [
+        "Kechgacha ishlash kamroq",
+        "Kechgacha ishlash ko'proq",
+        "Maosh pastroq",
+        "Ish vaqti uzunroq"
+      ],
+      "options_en": [
+        "Less overtime",
+        "More overtime",
+        "Lower pay",
+        "Longer hours"
+      ],
+      "answers": [
+        "Kechgacha ishlash kamroq"
+      ],
+      "audio": "bf8092d4d24c.mp3"
+    },
+    {
+      "id": "b3_u04_l2_e024",
+      "type": "listen_question",
+      "targets": [
+        "b3_u04_l2_g2"
+      ],
+      "prompt_uz": "U qanday dasturni biladi?",
+      "prompt_en": "Which program can the speaker use?",
+      "audio_text": "엑셀은 쓸 줄 아는데 포토샵은 쓸 줄 몰라요.",
+      "options": [
+        "Excel",
+        "Photoshop",
+        "Ikkalasini",
+        "Hech birini"
+      ],
+      "options_en": [
+        "Excel",
+        "Photoshop",
+        "Both",
+        "Neither"
+      ],
+      "answers": [
+        "Excel"
+      ],
+      "audio": "b25416155a6d.mp3"
+    },
+    {
+      "id": "b3_u04_l2_e101",
+      "type": "conjugate",
+      "targets": [
+        "b3_u04_l2_g1"
+      ],
+      "prompt_uz": "'Kechadan' shaklini yasang",
+      "prompt_en": "Make 'than yesterday'",
+      "base": "어제",
+      "form": "+ 보다",
+      "answers": [
+        "어제보다"
+      ]
+    },
+    {
+      "id": "b3_u04_l2_e102",
+      "type": "conjugate",
+      "targets": [
+        "b3_u04_l2_g2"
+      ],
+      "prompt_uz": "'Qila olaman' (ko'nikma)",
+      "prompt_en": "Make 'know how to do'",
+      "base": "하다",
+      "form": "-(으)ㄹ 줄 알아요",
+      "answers": [
+        "할 줄 알아요"
+      ]
+    },
+    {
+      "id": "b3_u04_l2_e103",
+      "type": "conjugate",
+      "targets": [
+        "b3_u04_l2_g2"
+      ],
+      "prompt_uz": "'Tayyorlashni bilmayman'",
+      "prompt_en": "Make 'don't know how to make'",
+      "base": "만들다",
+      "form": "-(으)ㄹ 줄 몰라요",
+      "answers": [
+        "만들 줄 몰라요"
+      ]
+    },
+    {
+      "id": "b3_u04_l2_e104",
+      "type": "fill_blank",
+      "targets": [
+        "b3_u04_l2_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Bu yer u yerdan yaqinroq.'",
+      "prompt_en": "Fill in the blank: 'This place is closer than there.'",
+      "sentence": "여기가 거기___ 더 가까워요.",
+      "answers": [
+        "보다"
+      ]
+    },
+    {
+      "id": "b3_u04_l2_e105",
+      "type": "fill_blank",
+      "targets": [
+        "b3_u04_l2_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Xitoycha bilasizmi?'",
+      "prompt_en": "Fill in the blank: 'Can you speak Chinese?'",
+      "sentence": "중국어를 할 줄 ___?",
+      "answers": [
+        "알아요"
+      ]
+    },
+    {
+      "id": "b3_u04_l2_e106",
+      "type": "situation_choice",
+      "targets": [
+        "b3_u04_l2_g1"
+      ],
+      "prompt_uz": "Bu yil o'tgan yildan kamroq bandligingizni ayting:",
+      "prompt_en": "Say you're less busy this year than last:",
+      "options": [
+        "올해는 작년보다 덜 바빠요.",
+        "올해는 작년보다 더 바빠요.",
+        "작년은 올해보다 덜 바빠요.",
+        "올해보다는 작년 덜 바빠요요."
+      ],
+      "answers": [
+        "올해는 작년보다 덜 바빠요."
+      ]
+    },
+    {
+      "id": "b3_u04_l2_e107",
+      "type": "situation_choice",
+      "targets": [
+        "b3_u04_l2_g2"
+      ],
+      "prompt_uz": "Mashina haydashni bilmasligingizni ayting:",
+      "prompt_en": "Say you don't know how to drive:",
+      "options": [
+        "운전할 줄 몰라요.",
+        "운전하는 줄 몰라요.",
+        "운전할 줄 알아요.",
+        "운전할 수 줄 몰라요."
+      ],
+      "answers": [
+        "운전할 줄 몰라요."
+      ]
+    },
+    {
+      "id": "b3_u04_l2_e108",
+      "type": "situation_choice",
+      "targets": [
+        "b3_u04_l2_w011"
+      ],
+      "prompt_uz": "Kompaniyadagi muhit yaxshi ekanini ayting:",
+      "prompt_en": "Say the office atmosphere is good:",
+      "options": [
+        "회사 분위기가 좋아요.",
+        "회사 거리가 좋아요.",
+        "회사 조건이 멀어요.",
+        "회사 야근이 좋아요."
+      ],
+      "answers": [
+        "회사 분위기가 좋아요."
+      ]
+    },
+    {
+      "id": "b3_u04_l2_e109",
+      "type": "find_error",
+      "targets": [
+        "b3_u04_l2_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "지금 회사보다는요 연봉이 높아요.",
+      "answers": [
+        "지금 회사보다 연봉이 높아요"
+      ],
+      "why_uz": "Ortiqcha -는요 yo'q.",
+      "why_en": "No extra -는요."
+    },
+    {
+      "id": "b3_u04_l2_e110",
+      "type": "find_error",
+      "targets": [
+        "b3_u04_l2_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "한자를 읽ㄹ 줄 몰라요.",
+      "answers": [
+        "한자를 읽을 줄 몰라요"
+      ],
+      "why_uz": "읽다 받침 bilan: 읽을 줄.",
+      "why_en": "읽다 has 받침: 읽을 줄."
+    },
+    {
+      "id": "b3_u04_l2_e111",
+      "type": "translate",
+      "targets": [
+        "b3_u04_l2_g1"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Metro avtobusdan tez.",
+      "source_en": "The subway is faster than the bus.",
+      "answers": [
+        "지하철이 버스보다 빨라요",
+        "지하철이 버스보다 더 빨라요"
+      ]
+    },
+    {
+      "id": "b3_u04_l2_e112",
+      "type": "translate",
+      "targets": [
+        "b3_u04_l2_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Kod yoza olaman.",
+      "source_en": "I know how to code.",
+      "answers": [
+        "코딩할 줄 알아요",
+        "저는 코딩할 줄 알아요"
+      ]
+    },
+    {
+      "id": "b3_u04_l2_e113",
+      "type": "build_sentence",
+      "targets": [
+        "b3_u04_l2_g1"
+      ],
+      "prompt_uz": "'Yangi kompaniya ancha katta' gapini tuzing",
+      "prompt_en": "Build the sentence 'The new company is much bigger'",
+      "tokens": [
+        "새",
+        "훨씬",
+        "커요",
+        "회사가"
+      ],
+      "answers": [
+        "새 회사가 훨씬 커요"
+      ]
+    },
+    {
+      "id": "b3_u04_l2_e114",
+      "type": "listen_question",
+      "targets": [
+        "b3_u04_l2_g1"
+      ],
+      "prompt_uz": "Qaysi biri tezroq?",
+      "prompt_en": "Which is faster?",
+      "audio_text": "버스보다 지하철이 훨씬 빨라요.",
+      "options": [
+        "Metro",
+        "Avtobus",
+        "Taksi",
+        "Bir xil"
+      ],
+      "options_en": [
+        "The subway",
+        "The bus",
+        "A taxi",
+        "The same"
+      ],
+      "answers": [
+        "Metro"
+      ],
+      "audio": "e774062c5539.mp3"
+    },
+    {
+      "id": "b3_u04_l2_e115",
+      "type": "listen_question",
+      "targets": [
+        "b3_u04_l2_g2"
+      ],
+      "prompt_uz": "U nimani qila oladi?",
+      "prompt_en": "What can the speaker do?",
+      "audio_text": "저는 기타를 칠 줄 알아요.",
+      "options": [
+        "Gitara chalish",
+        "Pianino chalish",
+        "Raqs tushish",
+        "Qo'shiq aytish"
+      ],
+      "options_en": [
+        "Play the guitar",
+        "Play the piano",
+        "Dance",
+        "Sing"
+      ],
+      "answers": [
+        "Gitara chalish"
+      ],
+      "audio": "65725bb5a265.mp3"
+    }
+  ],
+  "test": [
+    "b3_u04_l2_e101",
+    "b3_u04_l2_e102",
+    "b3_u04_l2_e103",
+    "b3_u04_l2_e104",
+    "b3_u04_l2_e105",
+    "b3_u04_l2_e106",
+    "b3_u04_l2_e107",
+    "b3_u04_l2_e108",
+    "b3_u04_l2_e109",
+    "b3_u04_l2_e110",
+    "b3_u04_l2_e111",
+    "b3_u04_l2_e112",
+    "b3_u04_l2_e113",
+    "b3_u04_l2_e114",
+    "b3_u04_l2_e115"
+  ],
+  "story": {
+    "title_uz": "Ikki taklif",
+    "title_en": "Two offers",
+    "gate_uz": "TANLOV",
+    "gate_en": "CHOICE",
+    "steps": [
+      {
+        "type": "line",
+        "speaker": "tingting",
+        "ko": "아지즈 씨, 요즘 고민이 있어요?",
+        "uz": "Aziz, shu kunlarda tashvishingiz bormi?",
+        "en": "Aziz, is something bothering you?",
+        "audio": "0bcdc14c14fc.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "다른 회사에서 제안을 받았어요.",
+        "uz": "Boshqa kompaniyadan taklif oldim.",
+        "en": "I got an offer from another company.",
+        "audio": "a18588a98afe.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "tingting",
+        "ko": "축하해요! 지금 회사보다 좋아요?",
+        "uz": "Tabriklayman! Hozirgisidan yaxshimi?",
+        "en": "Congratulations! Is it better than your current one?",
+        "audio": "b5a7ec9b4274.mp3"
+      },
+      {
+        "type": "choose_reply",
+        "speaker": "aziz",
+        "prompt_uz": "Aziz 'Maosh hozirgisidan ancha ko'p' demoqchi.",
+        "prompt_en": "Aziz wants to say 'The salary is much higher than now'.",
+        "options": [
+          "연봉이 지금 회사보다 훨씬 많아요.",
+          "연봉이 보다 지금 회사 훨씬 많아요.",
+          "연봉이 지금 회사보다는요 훨씬 많아요."
+        ],
+        "answer": "연봉이 지금 회사보다 훨씬 많아요.",
+        "uz": "Maosh hozirgisidan ancha ko'p.",
+        "en": "The salary is much higher than at my current company.",
+        "why_uz": "N보다 — taqqoslash; 훨씬 — ancha.",
+        "why_en": "N보다 compares; 훨씬 = much.",
+        "audio": "9a0bd5bfaec8.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "tingting",
+        "ko": "그럼 뭐가 문제예요?",
+        "uz": "Unda muammo nima?",
+        "en": "So what's the problem?",
+        "audio": "26696875e544.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "집에서 멀어요. 그리고 중국어를 할 줄 알아야 돼요.",
+        "uz": "Uydan uzoq. Yana xitoycha bilish kerak.",
+        "en": "It's far from home. And I'd need to speak Chinese.",
+        "audio": "483c6446b5a4.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "tingting",
+        "ko": "중국어는 제가 가르쳐 줄게요!",
+        "uz": "Xitoychani men o'rgataman!",
+        "en": "I'll teach you Chinese!",
+        "audio": "728113a04a50.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "정말요? 그런데 운전할 줄도 몰라요.",
+        "uz": "Rostdanmi? Lekin mashina haydashni ham bilmayman.",
+        "en": "Really? But I can't drive either.",
+        "audio": "cb63c3a87ff1.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "tingting",
+        "ko": "지하철이 버스보다 빠르니까 지하철로 다니세요.",
+        "uz": "Metro avtobusdan tez, metroda qatnang.",
+        "en": "The subway is faster than the bus, so take the subway.",
+        "audio": "1b88aa01964c.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "좋은 생각이에요. 장단점을 더 비교해 볼게요.",
+        "uz": "Yaxshi fikr. Yutuq-kamchiliklarini yana solishtiraman.",
+        "en": "Good idea. I'll compare the pros and cons some more.",
+        "audio": "b5c24237a91a.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "tingting",
+        "ko": "천천히 결정하세요. 분위기도 중요해요.",
+        "uz": "Shoshilmay qaror qiling. Muhit ham muhim.",
+        "en": "Take your time. The atmosphere matters too.",
+        "audio": "92da25dc4369.mp3"
+      },
+      {
+        "type": "quiz",
+        "prompt_uz": "Yangi ishda nimani bilish kerak?",
+        "prompt_en": "What does the new job require?",
+        "options": [
+          "Xitoy tili",
+          "Mashina haydash",
+          "Excel"
+        ],
+        "options_en": [
+          "Chinese",
+          "Driving",
+          "Excel"
+        ],
+        "answer": "Xitoy tili",
+        "why_uz": "중국어를 할 줄 알아야 돼요.",
+        "why_en": "He'd need to know how to speak Chinese."
+      }
+    ]
+  }
+}
