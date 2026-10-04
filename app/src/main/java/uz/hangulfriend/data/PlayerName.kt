@@ -8,3 +8,9 @@ fun cleanName(raw: String): String = raw.trim().replace(Regex("\\s+"), " ").take
 
 /** The name to show: the player's own, or [fallback] ("Ovchi" / "Hunter") when none is set. */
 fun displayName(name: String, fallback: String): String = name.ifBlank { fallback }
+
+/** "Aziz" alone or with an Uzbek case/person suffix (Azizning, Azizga, Azizman); not other names (Azizbek). */
+private val HERO_NAME = Regex("""\bAziz(?=(?:ning|ga|ni|da|dan|man)?\b)""")
+
+/** Story narration about the hero ("Aziz … demoqchi") with the player's [name]; unchanged when none is set. */
+fun personalize(text: String, name: String): String = if (name.isBlank()) text else HERO_NAME.replace(text, name)

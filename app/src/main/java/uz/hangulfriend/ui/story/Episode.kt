@@ -78,6 +78,7 @@ import uz.hangulfriend.ui.kit.OptionState
 import uz.hangulfriend.ui.kit.OptionTile
 import uz.hangulfriend.ui.kit.Sfx
 import uz.hangulfriend.ui.settings.LocalPlayerName
+import uz.hangulfriend.data.personalize
 
 /** One clip to play; [id] grows with every new clip so a rotation does not replay the last one. */
 data class SpeakEvent(val id: Int, val file: String)
@@ -232,8 +233,8 @@ fun EpisodeScreen(vm: EpisodeViewModel, onClose: () -> Unit) {
             }
             when (val step = p.current) {
                 is StoryLine -> GameButton(stringResource(R.string.story_next), onClick = vm::next)
-                is ChooseReply -> Choices(step.promptUz, step.options, step.answer, p.eliminated, p.lastWrongWhy, vm::choose)
-                is StoryQuiz -> Choices(step.promptUz, step.options, step.answer, p.eliminated, p.lastWrongWhy, vm::choose)
+                is ChooseReply -> Choices(personalize(step.promptUz, playerName), step.options, step.answer, p.eliminated, p.lastWrongWhy?.let { personalize(it, playerName) }, vm::choose)
+                is StoryQuiz -> Choices(personalize(step.promptUz, playerName), step.options, step.answer, p.eliminated, p.lastWrongWhy?.let { personalize(it, playerName) }, vm::choose)
                 null -> Finish(xp, onClose)
             }
         }
