@@ -80,6 +80,7 @@ import uz.hangulfriend.ui.theme.CorrectGreen
 import uz.hangulfriend.ui.theme.GameBackground
 import uz.hangulfriend.ui.theme.LocalGameTokens
 import uz.hangulfriend.ui.theme.RankBadge
+import uz.hangulfriend.ui.LocalDockInset
 
 data class HomeStats(
     val level: GameRules.LevelInfo = GameRules.level(0),
@@ -186,7 +187,7 @@ fun HomeScreen(
     var questY by remember { mutableIntStateOf(0) }
     GameBackground(modifier) {
         Column(
-            Modifier.verticalScroll(scroll).padding(horizontal = 14.dp, vertical = 12.dp),
+            Modifier.verticalScroll(scroll).padding(start = 14.dp, end = 14.dp, top = 12.dp, bottom = 12.dp + LocalDockInset.current),
             verticalArrangement = Arrangement.spacedBy(12.dp),
         ) {
             Hud(stats, due, onStartReview, onAchievements)

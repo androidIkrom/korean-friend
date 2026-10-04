@@ -28,6 +28,8 @@ import androidx.compose.foundation.layout.offset
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.ui.draw.clip
+import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Favorite
 import androidx.compose.material.icons.filled.HeartBroken
@@ -82,11 +84,9 @@ private fun OnNewKey(key: Int, effect: suspend () -> Unit) {
 
 enum class OptionState { IDLE, PICKED, RIGHT, WRONG, DIM }
 
-private val OPTION_LIP = 4.dp
-
 /**
- * An answer tile: a 3D face on a dark lip with an optional letter badge. RIGHT lights up green and
- * pops, WRONG turns red and shakes, DIM fades the options that no longer matter.
+ * An answer tile: a raised 20dp card with an optional round letter badge. States recolour the fill:
+ * RIGHT turns green and pops, WRONG turns red and shakes, DIM fades the options that no longer matter.
  */
 @Composable
 fun OptionTile(
@@ -100,21 +100,15 @@ fun OptionTile(
     val t = LocalGameTokens.current
     val reduced = LocalReducedMotion.current
     val feedback = LocalGameFeedback.current
-    val base = t.panel.copy(alpha = 1f).compositeOver(t.background)
     val tint = when (state) {
         OptionState.IDLE, OptionState.DIM -> null
         OptionState.PICKED -> t.accent
         OptionState.RIGHT -> CorrectGreen
         OptionState.WRONG -> WrongRed
     }
-    val rim = tint ?: t.panelBorder
-    val top = if (tint != null) lerp(base, tint, 0.38f) else lerp(base, t.accent, 0.12f)
-    val bottom = if (tint != null) lerp(base, tint, 0.18f) else base
-    val lip = lerp(tint ?: base, Color.Black, 0.6f)
-    val shape = if (t.id == GameThemeId.SYSTEM) cutShape(9.dp) else RoundedCornerShape(t.panelCorner)
+    val fill = if (tint != null) lerp(t.raised, tint, if (state == OptionState.PICKED) 0.25f else 0.3f) else t.raised
+    val shape = RoundedCornerShape(20.dp)
     val interaction = remember { MutableInteractionSource() }
-    val pressed by interaction.collectIsPressedAsState()
-    val depth by animateFloatAsState(if (pressed && enabled) 1f else 0f, tween(GameMotion.TAP), label = "optPress")
     val pop = remember { Animatable(1f) }
     LaunchedEffect(state) {
         if (state == OptionState.RIGHT && !reduced) {
@@ -122,45 +116,41 @@ fun OptionTile(
             pop.animateTo(1f, spring(dampingRatio = 0.35f, stiffness = 500f))
         }
     }
-    Box(
+    Row(
         modifier
             .fillMaxWidth()
-            .alpha(if (state == OptionState.DIM) 0.45f else 1f)
+            .alpha(if (state == OptionState.DIM) 0.5f else 1f)
             .shake(if (state == OptionState.WRONG) 1 else 0)
             .scale(pop.value)
-            .padding(bottom = OPTION_LIP),
-        propagateMinConstraints = true,
-    ) {
-        Box(Modifier.matchParentSize().offset(y = OPTION_LIP).background(lip, shape))
-        Row(
-            Modifier
-                .offset(y = OPTION_LIP * depth * 0.8f)
-                .then(if (state == OptionState.RIGHT) Modifier.shapeGlow(CorrectGreen.copy(alpha = 0.55f), shape, 14.dp) else Modifier)
-                .background(Brush.verticalGradient(listOf(top, bottom)), shape)
-                .border(if (tint != null) 1.5.dp else 1.dp, rim, shape)
-                .clickable(interactionSource = interaction, indication = null, enabled = enabled, role = Role.Button) {
-                    feedback.play(Sfx.TAP)
-                    onClick()
-                }
-                .heightIn(min = 54.dp)
-                .padding(horizontal = 12.dp, vertical = 10.dp),
-            verticalAlignment = Alignment.CenterVertically,
-            horizontalArrangement = Arrangement.spacedBy(12.dp),
-        ) {
-            if (letter != null) {
-                val badge = if (t.id == GameThemeId.SYSTEM) cutShape(5.dp) else RoundedCornerShape(8.dp)
-                Box(
-                    Modifier
-                        .size(30.dp)
-                        .background((tint ?: t.accent).copy(alpha = 0.18f), badge)
-                        .border(1.dp, (tint ?: t.accent).copy(alpha = 0.8f), badge),
-                    contentAlignment = Alignment.Center,
-                ) {
-                    Text(letter.toString(), color = tint ?: t.accent, fontFamily = t.display, fontWeight = FontWeight.Bold, fontSize = 15.sp)
-                }
+            .springPress(interaction, enabled)
+            .clip(shape)
+            .background(fill)
+            .clickable(interactionSource = interaction, indication = null, enabled = enabled, role = Role.Button) {
+                feedback.play(Sfx.TAP)
+                onClick()
             }
-            Text(text, color = t.text, fontSize = 17.sp, fontWeight = FontWeight.Medium, modifier = Modifier.weight(1f))
+            .heightIn(min = 56.dp)
+            .padding(horizontal = 14.dp, vertical = 10.dp),
+        verticalAlignment = Alignment.CenterVertically,
+        horizontalArrangement = Arrangement.spacedBy(12.dp),
+    ) {
+        if (letter != null) {
+            Box(
+                Modifier
+                    .size(30.dp)
+                    .background((tint ?: t.accent).copy(alpha = if (tint != null) 0.9f else 0.2f), CircleShape),
+                contentAlignment = Alignment.Center,
+            ) {
+                Text(
+                    letter.toString(),
+                    color = if (tint != null) t.background else t.accent,
+                    fontFamily = t.numbers,
+                    fontWeight = FontWeight.SemiBold,
+                    fontSize = 13.sp,
+                )
+            }
         }
+        Text(text, color = t.text, fontFamily = t.ui, fontSize = 16.sp, fontWeight = FontWeight.SemiBold, modifier = Modifier.weight(1f))
     }
 }
 
@@ -198,21 +188,20 @@ fun FloorBar(done: Int, total: Int, modifier: Modifier = Modifier) {
         )
         p
     }
-    val seg: Shape = if (t.id == GameThemeId.SYSTEM) cutShape(3.dp) else RoundedCornerShape(3.dp)
+    val seg: Shape = CircleShape
     Row(modifier.fillMaxWidth().height(12.dp), horizontalArrangement = Arrangement.spacedBy(3.dp)) {
         repeat(total) { i ->
             val color = when {
                 i < done -> t.accent
                 i == done -> t.accent.copy(alpha = 0.25f + 0.45f * pulse)
-                else -> t.accent.copy(alpha = 0.12f)
+                else -> Color.White.copy(alpha = 0.1f)
             }
             Box(
                 Modifier
                     .weight(1f)
                     .height(if (i == done) 12.dp else 9.dp)
                     .align(Alignment.CenterVertically)
-                    .background(color, seg)
-                    .then(if (i < done) Modifier.border(0.5.dp, lerp(t.accent, Color.White, 0.4f).copy(alpha = 0.6f), seg) else Modifier),
+                    .background(color, seg),
             )
         }
     }
@@ -235,8 +224,7 @@ fun HeartRow(hearts: Int, max: Int, modifier: Modifier = Modifier) {
                 modifier = Modifier
                     .size(22.dp)
                     .scale(swell)
-                    .rotate(-16f * p)
-                    .then(if (!lost) Modifier.shapeGlow(t.danger.copy(alpha = 0.35f), RoundedCornerShape(50), 6.dp) else Modifier),
+                    .rotate(-16f * p),
             )
         }
     }
@@ -254,19 +242,16 @@ fun ComboChip(combo: Int, modifier: Modifier = Modifier) {
             s.animateTo(1f, spring(dampingRatio = 0.4f, stiffness = 420f))
         }
     }
-    val shape = if (t.id == GameThemeId.SYSTEM) cutShape(6.dp) else RoundedCornerShape(10.dp)
     Row(
         modifier
             .scale(s.value)
-            .shapeGlow(Gold.copy(alpha = 0.4f), shape, 8.dp)
-            .background(Gold.copy(alpha = 0.16f), shape)
-            .border(1.dp, Gold, shape)
-            .padding(horizontal = 8.dp, vertical = 3.dp),
+            .background(Gold.copy(alpha = 0.18f), CircleShape)
+            .padding(horizontal = 10.dp, vertical = 4.dp),
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(3.dp),
     ) {
         Icon(Icons.Filled.LocalFireDepartment, contentDescription = null, tint = Gold, modifier = Modifier.size(15.dp))
-        Text("COMBO ×$combo", color = Gold, fontFamily = t.display, fontWeight = FontWeight.Bold, fontSize = 13.sp, letterSpacing = 1.sp)
+        Text("Combo ×$combo", color = Gold, fontFamily = t.ui, fontWeight = FontWeight.ExtraBold, fontSize = 13.sp)
     }
 }
 

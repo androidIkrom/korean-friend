@@ -42,6 +42,7 @@ import uz.hangulfriend.data.SettingsRepository
 import uz.hangulfriend.study.FINAL_TEST_ID
 import uz.hangulfriend.ui.theme.GameBackground
 import uz.hangulfriend.ui.theme.LocalGameTokens
+import uz.hangulfriend.ui.LocalDockInset
 
 data class LessonRow(val entry: CatalogEntry, val available: Boolean, val status: LessonStatus, val percent: Int)
 
@@ -124,7 +125,7 @@ fun BookMapScreen(
     GameBackground(modifier) {
         LazyColumn(
             state = listState,
-            contentPadding = PaddingValues(16.dp),
+            contentPadding = PaddingValues(start = 16.dp, end = 16.dp, top = 16.dp, bottom = 16.dp + LocalDockInset.current),
             verticalArrangement = Arrangement.spacedBy(if (tower) 8.dp else 0.dp),
         ) {
             item(key = "header") {

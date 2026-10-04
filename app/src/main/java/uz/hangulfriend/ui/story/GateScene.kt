@@ -7,11 +7,7 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.width
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.LaunchedEffect
-import androidx.compose.runtime.MutableFloatState
-import androidx.compose.runtime.mutableFloatStateOf
 import androidx.compose.runtime.remember
-import androidx.compose.runtime.withFrameNanos
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clipToBounds
@@ -44,24 +40,11 @@ import kotlin.math.cos
 import kotlin.math.min
 import kotlin.math.sin
 import uz.hangulfriend.R
-import uz.hangulfriend.ui.kit.LocalReducedMotion
+import uz.hangulfriend.ui.kit.frameClock
 import uz.hangulfriend.ui.theme.GameTokens
 import uz.hangulfriend.ui.theme.LocalGameTokens
 
 private val Cinzel = FontFamily(Font(R.font.cinzel_black, FontWeight.Black))
-
-/** Seconds since the scene appeared, advanced every frame; stays 0 with reduced motion. */
-@Composable
-private fun sceneClock(): MutableFloatState {
-    val time = remember { mutableFloatStateOf(STILL_TIME) }
-    val reduced = LocalReducedMotion.current
-    LaunchedEffect(reduced) {
-        if (reduced) return@LaunchedEffect
-        val start = withFrameNanos { it }
-        while (true) withFrameNanos { time.floatValue = STILL_TIME + (it - start) / 1e9f }
-    }
-    return time
-}
 
 /**
  * The dungeon gate behind an episode's speaker: nebula sky, skyline towers, a glowing gate with runes and a
@@ -72,7 +55,7 @@ private fun sceneClock(): MutableFloatState {
 fun GateScene(seed: Int, modifier: Modifier = Modifier) {
     val t = LocalGameTokens.current
     val layout = remember(seed) { gateLayout(seed) }
-    val clock = sceneClock()
+    val clock = frameClock(STILL_TIME)
     // Offscreen so the edge mask at the end of the draw fades the whole scene, not what lies behind it.
     Canvas(modifier.clipToBounds().graphicsLayer { compositingStrategy = CompositingStrategy.Offscreen }) {
         val time = clock.floatValue

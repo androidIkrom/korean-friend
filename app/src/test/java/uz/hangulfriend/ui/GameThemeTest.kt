@@ -1,28 +1,48 @@
 package uz.hangulfriend.ui
 
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import org.junit.Assert.assertEquals
+import org.junit.Assert.assertFalse
 import org.junit.Assert.assertTrue
 import org.junit.Test
 import uz.hangulfriend.data.GameThemeId
-import androidx.compose.foundation.shape.RoundedCornerShape
+import uz.hangulfriend.ui.theme.contrastRatio
 import uz.hangulfriend.ui.theme.gameColorScheme
 import uz.hangulfriend.ui.theme.gameShapes
 import uz.hangulfriend.ui.theme.tokensFor
 
 class GameThemeTest {
-    @Test fun systemTokens() {
-        val t = tokensFor(GameThemeId.SYSTEM)
-        assertEquals(Color(0xFF5CC8FF), t.accent)
-        assertTrue(t.bracketTitles)
+    @Test fun systemPalette() = with(tokensFor(GameThemeId.SYSTEM)) {
+        assertEquals(Color(0xFF07070F), background)
+        assertEquals(Color(0xFF15103A), surface)
+        assertEquals(Color(0xFFA98BFF), accent)
+        assertEquals(Color(0xFF5CC8FF), accent2)
     }
 
-    @Test fun neonTokens() {
-        val t = tokensFor(GameThemeId.NEON)
-        assertEquals(Color(0xFFFF3D9A), t.accent)
-        assertEquals(14.dp, t.panelCorner)
+    @Test fun neonPalette() = with(tokensFor(GameThemeId.NEON)) {
+        assertEquals(Color(0xFF0A0613), background)
+        assertEquals(Color(0xFF1A0B2A), surface)
+        assertEquals(Color(0xFFFF3D9A), accent)
+        assertEquals(Color(0xFF2EE6FF), accent2)
     }
+
+    @Test fun glassLookInBothThemes() = GameThemeId.entries.forEach { id ->
+        val t = tokensFor(id)
+        assertFalse("$id", t.bracketTitles)
+        assertEquals("$id", 24.dp, t.panelCorner)
+        assertEquals("$id", 0.55f, t.glassTint.alpha, 0.001f)
+    }
+
+    @Test fun textReadsOnSurface() = GameThemeId.entries.forEach { id ->
+        val t = tokensFor(id)
+        assertTrue("$id text", contrastRatio(t.text, t.surface) >= 4.5f)
+        assertTrue("$id muted", contrastRatio(t.muted, t.surface) >= 3.0f)
+        assertTrue("$id text on raised", contrastRatio(t.text, t.raised) >= 4.5f)
+    }
+
+    @Test fun contrastOfBlackOnWhiteIs21() = assertEquals(21f, contrastRatio(Color.Black, Color.White), 0.01f)
 
     @Test fun colorSchemeFollowsTokens() {
         val t = tokensFor(GameThemeId.NEON)
@@ -35,13 +55,11 @@ class GameThemeTest {
         assertEquals(1f, c.surface.alpha)
     }
 
-    @Test fun shapesFollowTheme() {
-        val system = gameShapes(tokensFor(GameThemeId.SYSTEM))
-        val neon = gameShapes(tokensFor(GameThemeId.NEON))
-        assertEquals(RoundedCornerShape(2.dp), system.medium)
-        assertEquals(RoundedCornerShape(2.dp), system.large)
-        assertEquals(RoundedCornerShape(14.dp), neon.medium)
-        assertEquals(RoundedCornerShape(8.dp), neon.extraSmall)
+    @Test fun shapesAreSoftInBothThemes() = GameThemeId.entries.forEach { id ->
+        val s = gameShapes(tokensFor(id))
+        assertEquals(RoundedCornerShape(16.dp), s.medium)
+        assertEquals(RoundedCornerShape(24.dp), s.large)
+        assertEquals(RoundedCornerShape(28.dp), s.extraLarge)
     }
 
     /** Face-up memory cards, the learner's chat bubbles and dialogue lines must stand out from plain surfaces. */

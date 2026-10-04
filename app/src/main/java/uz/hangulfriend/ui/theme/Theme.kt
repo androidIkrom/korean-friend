@@ -17,7 +17,7 @@ fun HangulFriendTheme(themeId: GameThemeId = GameThemeId.SYSTEM, content: @Compo
     CompositionLocalProvider(LocalGameTokens provides tokens) {
         MaterialTheme(
             colorScheme = gameColorScheme(tokens),
-            typography = gameTypography(tokens.display),
+            typography = gameTypography(tokens.ui),
             shapes = gameShapes(tokens),
             content = content,
         )

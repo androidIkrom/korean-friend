@@ -42,11 +42,12 @@ class CutShape(private val cut: Dp) : Shape {
     }
 }
 
-fun cutShape(cut: Dp): Shape = CutShape(cut)
+/** Stage 10 retired the cut corners: small "cuts" become control corners, larger ones card corners. */
+fun cutShape(cut: Dp): Shape = RoundedCornerShape(if (cut >= 10.dp) 24.dp else 16.dp)
 
-/** The theme's frame: cut corners in System, rounded in Neon. */
-fun GameTokens.shape(cut: Dp = 10.dp): Shape =
-    if (id == GameThemeId.SYSTEM) CutShape(cut) else RoundedCornerShape(panelCorner)
+/** The theme's frame: a soft rounded rectangle (24dp cards, 16dp controls for small [cut] values). */
+@Suppress("UnusedReceiverParameter")
+fun GameTokens.shape(cut: Dp = 10.dp): Shape = cutShape(cut)
 
 private fun Outline.toPath(): Path = when (this) {
     is Outline.Generic -> path
@@ -64,15 +65,9 @@ fun Modifier.shapeGlow(color: Color, shape: Shape, radius: Dp = 12.dp): Modifier
     drawIntoCanvas { it.nativeCanvas.drawPath(path, paint) }
 }
 
-/** Short bright brackets on the two corners a [CutShape] keeps (top-right, bottom-left): the System window look. */
-fun Modifier.cornerTicks(color: Color, length: Dp = 12.dp): Modifier = drawBehind {
-    val l = length.toPx()
-    val s = 2.dp.toPx()
-    drawLine(color, Offset(size.width - l, s / 2), Offset(size.width, s / 2), s)
-    drawLine(color, Offset(size.width - s / 2, 0f), Offset(size.width - s / 2, l), s)
-    drawLine(color, Offset(0f, size.height - s / 2), Offset(l, size.height - s / 2), s)
-    drawLine(color, Offset(s / 2, size.height - l), Offset(s / 2, size.height), s)
-}
+/** Stage 9 corner brackets; the glass look has none, so this leaves the modifier unchanged (removed in 10d). */
+@Suppress("UNUSED_PARAMETER")
+fun Modifier.cornerTicks(color: Color, length: Dp = 12.dp): Modifier = this
 
 /** Outline of [shape] grown by [grow] px on every side, for rings around a component. */
 internal fun Modifier.drawGrownOutline(shape: Shape, grow: () -> Float, color: () -> Color, width: Dp): Modifier = drawBehind {

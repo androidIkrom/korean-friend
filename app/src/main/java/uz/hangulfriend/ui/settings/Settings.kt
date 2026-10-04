@@ -37,6 +37,7 @@ import uz.hangulfriend.data.HeroGender
 import uz.hangulfriend.data.Settings
 import uz.hangulfriend.data.SettingsRepository
 import uz.hangulfriend.study.OnboardingService
+import uz.hangulfriend.ui.LocalDockInset
 
 class SettingsViewModel(
     content: ContentRepository,
@@ -103,7 +104,7 @@ fun SettingsScreen(vm: SettingsViewModel, modifier: Modifier = Modifier) {
     val t = LocalGameTokens.current
     LazyColumn(
         modifier.fillMaxSize(),
-        contentPadding = PaddingValues(horizontal = 14.dp, vertical = 12.dp),
+        contentPadding = PaddingValues(start = 14.dp, end = 14.dp, top = 12.dp, bottom = 12.dp + LocalDockInset.current),
         verticalArrangement = Arrangement.spacedBy(12.dp),
     ) {
         item {

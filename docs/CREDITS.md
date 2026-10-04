@@ -8,6 +8,8 @@ All fonts are under the [SIL Open Font License 1.1](https://openfontlicense.org)
 |---|---|---|
 | Chakra Petch | game UI text | [Google Fonts](https://fonts.google.com/specimen/Chakra+Petch) |
 | Oxanium | display numbers | [Google Fonts](https://fonts.google.com/specimen/Oxanium) |
+| Sora | UI text (stage 10) | [Google Fonts](https://fonts.google.com/specimen/Sora) |
+| Unbounded | big numbers and the rank letter (stage 10) | [Google Fonts](https://fonts.google.com/specimen/Unbounded) |
 | Cinzel (Black) | place names over episode gates | [Google Fonts](https://fonts.google.com/specimen/Cinzel), © 2020 The Cinzel Project Authors |
 
 ## Art

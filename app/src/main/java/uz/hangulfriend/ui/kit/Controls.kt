@@ -19,6 +19,7 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.selection.toggleable
 import androidx.compose.material3.Text
+import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableIntStateOf
@@ -26,6 +27,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.RectangleShape
 import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.semantics.Role
@@ -37,13 +39,13 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import uz.hangulfriend.ui.theme.LocalGameTokens
 
-/** A square System switch: the knob slides right and lights up when on. */
+/** A pill switch: the round knob slides right and the track fills with the accent when on. */
 @Composable
 fun HuntToggle(checked: Boolean, onCheckedChange: (Boolean) -> Unit, label: String, modifier: Modifier = Modifier) {
     val t = LocalGameTokens.current
     val feedback = LocalGameFeedback.current
-    val knob by animateDpAsState(if (checked) 24.dp else 2.dp, tween(GameMotion.FAST), label = "toggleKnob")
-    val rim by animateColorAsState(if (checked) t.accent else t.muted.copy(alpha = 0.5f), tween(GameMotion.FAST), label = "toggleRim")
+    val knob by animateDpAsState(if (checked) 25.dp else 3.dp, tween(GameMotion.FAST), label = "toggleKnob")
+    val track by animateColorAsState(if (checked) t.accent else Color.White.copy(alpha = 0.14f), tween(GameMotion.FAST), label = "toggleTrack")
     Row(
         modifier
             .fillMaxWidth()
@@ -55,19 +57,17 @@ fun HuntToggle(checked: Boolean, onCheckedChange: (Boolean) -> Unit, label: Stri
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.SpaceBetween,
     ) {
-        Text(label, color = t.text, modifier = Modifier.weight(1f))
+        Text(label, color = t.text, fontFamily = t.ui, modifier = Modifier.weight(1f))
         Box(
             Modifier
-                .size(48.dp, 24.dp)
-                .background(if (checked) t.accent.copy(alpha = 0.22f) else t.background)
-                .border(1.dp, rim),
+                .size(48.dp, 26.dp)
+                .background(track, CircleShape),
         ) {
             Box(
                 Modifier
                     .offset(x = knob, y = 3.dp)
-                    .size(20.dp, 16.dp)
-                    .then(if (checked) Modifier.shapeGlow(t.accent.copy(alpha = 0.7f), RectangleShape, 6.dp) else Modifier)
-                    .background(rim),
+                    .size(20.dp)
+                    .background(if (checked) t.background else t.text, CircleShape),
             )
         }
     }
@@ -95,7 +95,7 @@ fun SegmentSlider(title: @Composable (Int) -> String, value: Int, min: Int, max:
     }
     val label = title(shown)
     Column(modifier.fillMaxWidth(), verticalArrangement = Arrangement.spacedBy(8.dp)) {
-        Text(label, color = t.text, fontFamily = t.display, fontWeight = FontWeight.SemiBold, fontSize = 15.sp)
+        Text(label, color = t.text, fontFamily = t.ui, fontWeight = FontWeight.SemiBold, fontSize = 15.sp)
         Row(
             Modifier
                 .fillMaxWidth()
@@ -126,8 +126,7 @@ fun SegmentSlider(title: @Composable (Int) -> String, value: Int, min: Int, max:
                     Modifier
                         .weight(1f)
                         .height(if (i == lit) 18.dp else 12.dp)
-                        .then(if (i == lit) Modifier.shapeGlow(t.accent.copy(alpha = 0.8f), RectangleShape, 6.dp) else Modifier)
-                        .background(if (on) t.accent else t.accent.copy(alpha = 0.14f)),
+                        .background(if (on) t.accent else Color.White.copy(alpha = 0.1f), CircleShape),
                 )
             }
         }

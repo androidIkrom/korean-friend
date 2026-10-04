@@ -57,6 +57,7 @@ import uz.hangulfriend.ui.kit.pulseRing
 import uz.hangulfriend.ui.kit.shape
 import uz.hangulfriend.ui.kit.shapeGlow
 import uz.hangulfriend.ui.theme.LocalGameTokens
+import uz.hangulfriend.ui.LocalDockInset
 
 data class EpisodeRow(val entry: CatalogEntry, val storyTitle: String?, val state: EpisodeState)
 
@@ -76,7 +77,7 @@ class StoryListViewModel(content: ContentRepository, progress: ProgressRepositor
 @Composable
 fun StoryListScreen(vm: StoryListViewModel, onOpen: (String) -> Unit) {
     val rows by vm.rows.collectAsStateWithLifecycle()
-    Column(Modifier.padding(horizontal = 16.dp).verticalScroll(rememberScrollState()), verticalArrangement = Arrangement.spacedBy(10.dp)) {
+    Column(Modifier.padding(horizontal = 16.dp).verticalScroll(rememberScrollState()).padding(bottom = LocalDockInset.current), verticalArrangement = Arrangement.spacedBy(10.dp)) {
         ScreenHeader(stringResource(R.string.stories_title))
         rows.groupBy { it.entry.unit }.forEach { (unit, episodes) ->
             Box(Modifier.padding(top = 6.dp)) { PanelTitle(stringResource(R.string.story_unit, unit)) }
