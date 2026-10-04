@@ -3,6 +3,10 @@ package uz.hangulfriend.ui.kit
 import android.content.Context
 import android.provider.Settings
 import androidx.compose.animation.core.LinearEasing
+import androidx.compose.animation.core.animateFloatAsState
+import androidx.compose.animation.core.spring
+import androidx.compose.foundation.interaction.MutableInteractionSource
+import androidx.compose.foundation.interaction.collectIsPressedAsState
 import androidx.compose.animation.core.RepeatMode
 import androidx.compose.animation.core.animateFloat
 import androidx.compose.animation.core.infiniteRepeatable
@@ -59,6 +63,20 @@ fun frameClock(still: Float = 0f): MutableFloatState {
         while (true) withFrameNanos { time.floatValue = still + (it - start) / 1e9f }
     }
     return time
+}
+
+/** Scale of a pressed control: a small spring down, none with reduced motion. */
+fun pressScale(pressed: Boolean, reduced: Boolean): Float = if (pressed && !reduced) 0.95f else 1f
+
+/** Springs the element down to [pressScale] while [interaction] is pressed (stiffness 600, damping 0.5). */
+fun Modifier.springPress(interaction: MutableInteractionSource, enabled: Boolean = true): Modifier = composed {
+    val pressed by interaction.collectIsPressedAsState()
+    val target = pressScale(pressed && enabled, LocalReducedMotion.current)
+    val scale by animateFloatAsState(target, spring(dampingRatio = 0.5f, stiffness = 600f), label = "press")
+    graphicsLayer {
+        scaleX = scale
+        scaleY = scale
+    }
 }
 
 /** Slow grow-and-shrink, like breathing: for auras and idle heroes. */
