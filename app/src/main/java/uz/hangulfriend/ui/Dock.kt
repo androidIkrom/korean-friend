@@ -27,6 +27,11 @@ import androidx.compose.material.icons.outlined.Map
 import androidx.compose.material.icons.outlined.Tune
 import androidx.compose.material3.Icon
 import androidx.compose.material3.Text
+import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.ui.draw.clip
+import uz.hangulfriend.ui.kit.glass
+import uz.hangulfriend.ui.kit.springPress
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.remember
@@ -71,31 +76,29 @@ fun huntTarget(currentLessonId: String?): String = currentLessonId?.let { Routes
 
 @Composable
 fun Dock(current: DockTab?, onTab: (DockTab) -> Unit, onHunt: () -> Unit, modifier: Modifier = Modifier) {
-    val t = LocalGameTokens.current
+    // A floating glass pill; the Hunt button sits half above it.
     Box(
         modifier
             .fillMaxWidth()
-            .background(Brush.verticalGradient(listOf(t.background.copy(alpha = 0f), t.background.copy(alpha = 0.97f), t.background), endY = 120f))
-            .navigationBarsPadding(),
+            .navigationBarsPadding()
+            .padding(start = 16.dp, end = 16.dp, bottom = 12.dp),
+        contentAlignment = Alignment.BottomCenter,
     ) {
-        Box(
+        Row(
             Modifier
                 .fillMaxWidth()
-                .padding(top = 18.dp)
-                .height(1.dp)
-                .background(Brush.horizontalGradient(listOf(Color.Transparent, t.accent.copy(alpha = 0.55f), Color.Transparent))),
-        )
-        Row(
-            Modifier.fillMaxWidth().padding(top = 22.dp, bottom = 8.dp),
+                .height(64.dp)
+                .glass(RoundedCornerShape(32.dp)),
             horizontalArrangement = Arrangement.SpaceAround,
-            verticalAlignment = Alignment.Bottom,
+            verticalAlignment = Alignment.CenterVertically,
         ) {
             DockItem(DockTab.LOBBY, current == DockTab.LOBBY, onTab)
             DockItem(DockTab.GATES, current == DockTab.GATES, onTab)
-            HuntDiamond(onHunt)
+            Box(Modifier.width(64.dp))
             DockItem(DockTab.STORY, current == DockTab.STORY, onTab)
             DockItem(DockTab.SYSTEM, current == DockTab.SYSTEM, onTab)
         }
+        HuntButtonRound(onHunt, Modifier.align(Alignment.BottomCenter).padding(bottom = 30.dp))
     }
 }
 
@@ -104,73 +107,52 @@ private fun DockItem(tab: DockTab, selected: Boolean, onTab: (DockTab) -> Unit) 
     val t = LocalGameTokens.current
     val feedback = LocalGameFeedback.current
     val color = if (selected) t.accent else t.muted
-    val bar by animateDpAsState(if (selected) 20.dp else 0.dp, tween(GameMotion.FAST), label = "dockBar")
-    val lift by animateFloatAsState(if (selected) 1.12f else 1f, tween(GameMotion.FAST), label = "dockLift")
+    val interaction = remember { MutableInteractionSource() }
     Column(
         Modifier
-            .width(64.dp)
+            .width(60.dp)
+            .springPress(interaction)
             .semantics { this.selected = selected }
-            .clickable(role = Role.Tab, interactionSource = remember { MutableInteractionSource() }, indication = null) {
+            .clickable(role = Role.Tab, interactionSource = interaction, indication = null) {
                 if (!selected) feedback.play(Sfx.TAP)
                 onTab(tab)
             },
         horizontalAlignment = Alignment.CenterHorizontally,
-        verticalArrangement = Arrangement.spacedBy(3.dp),
+        verticalArrangement = Arrangement.spacedBy(2.dp),
     ) {
-        Icon(tab.icon, contentDescription = null, tint = color, modifier = Modifier.size(24.dp).scale(lift))
+        Icon(tab.icon, contentDescription = null, tint = color, modifier = Modifier.size(22.dp))
         Text(
-            stringResource(tab.label).uppercase(),
+            stringResource(tab.label),
             color = color,
-            fontFamily = t.display,
-            fontWeight = if (selected) FontWeight.Bold else FontWeight.SemiBold,
-            fontSize = 10.sp,
-            letterSpacing = 1.5.sp,
+            fontFamily = t.ui,
+            fontWeight = FontWeight.SemiBold,
+            fontSize = 11.sp,
             maxLines = 1,
-        )
-        Box(
-            Modifier
-                .width(bar)
-                .height(3.dp)
-                .then(if (selected) Modifier.shapeGlow(t.accent.copy(alpha = 0.8f), RectangleShape, 6.dp) else Modifier)
-                .background(t.accent),
         )
     }
 }
 
-/** The raised diamond in the middle of the dock: one tap to the current hunt. */
+/** The raised accent circle in the middle of the dock: one tap to the current hunt. */
 @Composable
-private fun HuntDiamond(onHunt: () -> Unit) {
+private fun HuntButtonRound(onHunt: () -> Unit, modifier: Modifier = Modifier) {
     val t = LocalGameTokens.current
     val feedback = LocalGameFeedback.current
     val interaction = remember { MutableInteractionSource() }
-    val pressed by interaction.collectIsPressedAsState()
-    val press by animateFloatAsState(if (pressed) 0.9f else 1f, tween(GameMotion.TAP), label = "huntPress")
     val label = stringResource(R.string.dock_hunt)
-    Box(Modifier.offset(y = (-10).dp).size(76.dp), contentAlignment = Alignment.Center) {
-        Box(
-            Modifier
-                .size(70.dp)
-                .breathing(0.06f)
-                .drawBehind {
-                    drawCircle(Brush.radialGradient(listOf(t.accent2.copy(alpha = 0.45f), Color.Transparent)), radius = size.minDimension * 0.7f)
-                },
-        )
-        Box(
-            Modifier
-                .size(54.dp)
-                .scale(press)
-                .rotate(45f)
-                .shapeGlow(t.accent2.copy(alpha = 0.7f), RectangleShape, 14.dp)
-                .background(Brush.linearGradient(listOf(t.accent2, t.accent), start = Offset.Zero, end = Offset(160f, 160f)))
-                .border(2.dp, Color.White.copy(alpha = 0.85f))
-                .semantics { contentDescription = label }
-                .clickable(role = Role.Button, interactionSource = interaction, indication = null) {
-                    feedback.play(Sfx.OPEN)
-                    onHunt()
-                },
-            contentAlignment = Alignment.Center,
-        ) {
-            Icon(Icons.Filled.Bolt, contentDescription = null, tint = t.background, modifier = Modifier.size(28.dp).rotate(-45f))
-        }
+    Box(
+        modifier
+            .size(56.dp)
+            .springPress(interaction)
+            .breathing(0.04f)
+            .clip(CircleShape)
+            .background(Brush.linearGradient(listOf(t.accent2, t.accent)))
+            .semantics { contentDescription = label }
+            .clickable(role = Role.Button, interactionSource = interaction, indication = null) {
+                feedback.play(Sfx.OPEN)
+                onHunt()
+            },
+        contentAlignment = Alignment.Center,
+    ) {
+        Icon(Icons.Filled.Bolt, contentDescription = null, tint = t.background, modifier = Modifier.size(28.dp))
     }
 }
