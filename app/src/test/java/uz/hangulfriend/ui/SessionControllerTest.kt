@@ -284,6 +284,18 @@ class SessionControllerTest {
         assertEquals(0, db.game().countReason(GameRepository.REASON_BOSS))
     }
 
+    @Test fun session_bossTakesBookAndUnit() = runTest {
+        val c = controller(SessionMode.BOSS, lessonId = "2:2")
+        c.load()
+        assertEquals(15, c.state.value.items.size)
+    }
+
+    @Test fun bossTargetReadsOldAndNewArguments() {
+        assertEquals(2 to 3, SessionController.bossTarget("3"))
+        assertEquals(1 to 4, SessionController.bossTarget("1:4"))
+        assertEquals(2 to 0, SessionController.bossTarget(null))
+    }
+
     @Test fun session_bossWinAwards200AndAchievement() = runTest {
         val c = controller(SessionMode.BOSS, lessonId = "2")
         c.load()

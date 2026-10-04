@@ -18,7 +18,8 @@ import uz.hangulfriend.hangul.CheckResult
 import uz.hangulfriend.hangul.Feedback
 import uz.hangulfriend.srs.Rating
 import uz.hangulfriend.study.ExerciseItem
-import uz.hangulfriend.study.FINAL_TEST_ID
+import uz.hangulfriend.study.LessonId
+import uz.hangulfriend.study.finalTestId
 import uz.hangulfriend.study.GameRules
 import uz.hangulfriend.study.Grader
 import uz.hangulfriend.study.SessionBuilder
@@ -30,7 +31,7 @@ enum class SessionMode(val route: String) {
     REVIEW("review"),
     LESSON_REVIEW("lessonReview"),
 
-    /** lessonId carries the unit number, e.g. "2". */
+    /** lessonId carries "<book>:<unit>", e.g. "2:3"; a bare unit number means book 2. */
     BOSS("boss"),
     QUICK_CHECK("quickCheck"),
     MISTAKES("mistakes"),
@@ -155,6 +156,9 @@ class SessionController(
     private var finalListening = 0
     private val finalCorrect = mutableMapOf<Int, Boolean>()
 
+    /** FINAL: the book whose test this is (lessonId "1" / "3"; none means book 2). */
+    private val finalBook = lessonId?.toIntOrNull() ?: 2
+
     private suspend fun goal() = settings.settings.first().dailyGoalXp
 
     suspend fun load() {
@@ -167,7 +171,7 @@ class SessionController(
                 val cards = game.mistakes()
                 builder.mistakes(cards, lessonsOf(cards))
             }
-            SessionMode.FINAL -> content.finalTest()?.let { t ->
+            SessionMode.FINAL -> content.finalTest(finalBook)?.let { t ->
                 finalListening = t.listening.size
                 builder.finalTest(t)
             }.orEmpty()
@@ -178,8 +182,8 @@ class SessionController(
                 builder.vocabQuiz(pool, all)
             }
             SessionMode.BOSS -> {
-                val unit = lessonId?.toIntOrNull() ?: 0
-                builder.boss(listOfNotNull(content.lesson(unitLessonId(unit, 1)), content.lesson(unitLessonId(unit, 2))))
+                val (book, unit) = bossTarget(lessonId)
+                builder.boss(listOfNotNull(content.lesson(LessonId.of(book, unit, 1)), content.lesson(LessonId.of(book, unit, 2))))
             }
             else -> {
                 val lesson = lessonId?.let { content.lesson(it) }
@@ -276,8 +280,9 @@ class SessionController(
             reading = (finalListening until s.items.size).count { finalCorrect[it] == true },
             readingTotal = s.items.size - finalListening,
         )
-        val before = game.best(FINAL_TEST_ID)
-        game.submitScore(FINAL_TEST_ID, score.percent)
+        val id = finalTestId(finalBook)
+        val before = game.best(id)
+        game.submitScore(id, score.percent)
         _state.update { it.copy(final = score) }
         val firstPass = before < PASS_PERCENT && score.percent >= PASS_PERCENT
         return if (firstPass) game.award(GameRules.XP_FINAL, GameRepository.REASON_FINAL, goal()) else 0
@@ -307,7 +312,11 @@ class SessionController(
         /** Final-test score that earns the one-time bonus (TOPIK I level 2). */
         const val PASS_PERCENT = 70
 
-        fun unitLessonId(unit: Int, lesson: Int) = "u%02d_l%d".format(unit, lesson)
+        /** Book and unit of a boss route argument: "2:3", or a bare "3" from older routes (book 2). */
+        fun bossTarget(arg: String?): Pair<Int, Int> {
+            val parts = arg.orEmpty().split(":")
+            return if (parts.size == 2) (parts[0].toIntOrNull() ?: 2) to (parts[1].toIntOrNull() ?: 0) else 2 to (parts[0].toIntOrNull() ?: 0)
+        }
 
         /** [SessionMode.VOCAB] over every word: book words of the open lessons and the learner's own. */
         const val VOCAB_ALL = "all"

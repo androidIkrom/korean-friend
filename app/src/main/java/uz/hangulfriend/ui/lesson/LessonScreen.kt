@@ -59,6 +59,7 @@ import uz.hangulfriend.ui.kit.pulseRing
 import uz.hangulfriend.ui.kit.shape
 import uz.hangulfriend.ui.session.ExerciseOutcome
 import uz.hangulfriend.ui.theme.LocalGameTokens
+import uz.hangulfriend.study.LessonId
 
 class LessonViewModel(
     private val controller: LessonController,
@@ -136,7 +137,7 @@ fun LessonScreen(
             Column(Modifier.weight(1f)) {
                 lesson?.let {
                     Text(
-                        stringResource(R.string.gate_code, it.unit, it.lesson),
+                        stringResource(R.string.gate_code, LessonId.parse(it.id)?.code ?: "${it.unit}-${it.lesson}"),
                         color = t.accent,
                         fontFamily = t.ui,
                         fontSize = 11.sp,

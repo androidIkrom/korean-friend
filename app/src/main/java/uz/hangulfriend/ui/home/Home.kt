@@ -106,6 +106,7 @@ import uz.hangulfriend.ui.theme.LocalGameTokens
 import uz.hangulfriend.data.displayName
 import uz.hangulfriend.ui.settings.LocalPlayerName
 import androidx.compose.foundation.layout.widthIn
+import uz.hangulfriend.study.code
 
 data class HomeStats(
     val level: GameRules.LevelInfo = GameRules.level(0),
@@ -350,7 +351,7 @@ private fun Sheet(
         if (lesson != null) {
             Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
                 Text(
-                    stringResource(R.string.home_gate_caption, lesson.unit, lesson.lesson, lesson.titleUz),
+                    stringResource(R.string.home_gate_caption, lesson.code, lesson.titleUz),
                     color = t.muted,
                     fontFamily = t.ui,
                     fontSize = 12.sp,

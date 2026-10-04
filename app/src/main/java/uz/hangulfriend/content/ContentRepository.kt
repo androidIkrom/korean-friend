@@ -19,9 +19,12 @@ class ContentRepository(
 ) {
     private val lessonCache = mutableMapOf<String, Lesson?>()
 
+    /** Every book's lessons in series order; a book without a catalog file yet has none. */
     fun catalog(): List<CatalogEntry> {
         val lang = language()
-        return parse("book.json", Catalog.serializer())?.lessons.orEmpty().map { it.localized(lang) }
+        return BOOK_FILES.flatMap { (book, file) ->
+            parse(file, Catalog.serializer())?.lessons.orEmpty().map { it.copy(book = book).localized(lang) }
+        }
     }
 
     fun isAvailable(id: String): Boolean = "$id.json" in source.list("lessons")
@@ -33,7 +36,11 @@ class ContentRepository(
         }
     }
 
-    fun finalTest(): FinalTest? = parse("final_test.json", FinalTest.serializer())?.localized(language())
+    /** The final test of [book]; null while that book has none. */
+    fun finalTest(book: Int = 2): FinalTest? {
+        val file = if (book == 2) "final_test.json" else "final_test_b$book.json"
+        return parse(file, FinalTest.serializer())?.localized(language())
+    }
 
     fun characters(): List<Character> {
         val lang = language()
@@ -57,3 +64,6 @@ class ContentRepository(
         return null
     }
 }
+
+/** Catalog file of each book; book 2 keeps the original name. */
+private val BOOK_FILES = listOf(1 to "book1.json", 2 to "book.json", 3 to "book3.json")

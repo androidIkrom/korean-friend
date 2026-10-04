@@ -39,10 +39,14 @@ import uz.hangulfriend.data.LessonProgressEntity
 import uz.hangulfriend.data.LessonStatus
 import uz.hangulfriend.data.ProgressRepository
 import uz.hangulfriend.data.SettingsRepository
-import uz.hangulfriend.study.FINAL_TEST_ID
+import uz.hangulfriend.study.LessonId
+import uz.hangulfriend.study.finalTestId
 import uz.hangulfriend.ui.theme.GameBackground
 import uz.hangulfriend.ui.theme.LocalGameTokens
 import uz.hangulfriend.ui.LocalDockInset
+import uz.hangulfriend.ui.kit.HuntChip
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.fillMaxSize
 
 data class LessonRow(val entry: CatalogEntry, val available: Boolean, val status: LessonStatus, val percent: Int)
 
@@ -69,19 +73,30 @@ class BookMapViewModel(
 ) : ViewModel() {
     private val _finalBest = MutableStateFlow(0)
 
-    /** Best final-test percentage so far; 0 before the first attempt. */
+    /** Best final-test percentage of the shown book so far; 0 before the first attempt. */
     val finalBest: StateFlow<Int> = _finalBest
-
-    fun refreshFinalBest() {
-        viewModelScope.launch { _finalBest.value = game.best(FINAL_TEST_ID) }
-    }
 
     private val catalog = content.catalog()
     private val available = catalog.map { it.id }.filter(content::isAvailable).toSet()
 
-    val units: StateFlow<List<UnitRow>> = combine(progress.observeAll(), settings.settings) { p, s ->
-        buildUnits(buildRows(catalog, available, p), s.currentLessonId)
-    }.stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), buildUnits(buildRows(catalog, available, emptyMap()), null))
+    /** The book on screen: null until the current lesson is known, then its book (or 2). */
+    private val chosen = MutableStateFlow<Int?>(null)
+    val book: StateFlow<Int> = combine(chosen, settings.settings) { c, s ->
+        c ?: s.currentLessonId?.let { LessonId.parse(it)?.book } ?: 2
+    }.stateIn(viewModelScope, SharingStarted.Eagerly, 2)
+
+    fun selectBook(b: Int) {
+        chosen.value = b
+        refreshFinalBest()
+    }
+
+    fun refreshFinalBest() {
+        viewModelScope.launch { _finalBest.value = game.best(finalTestId(book.value)) }
+    }
+
+    val units: StateFlow<List<UnitRow>> = combine(progress.observeAll(), settings.settings, book) { p, s, b ->
+        buildUnits(buildRows(catalog.filter { it.book == b }, available, p), s.currentLessonId)
+    }.stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), buildUnits(buildRows(catalog.filter { it.book == 2 }, available, emptyMap()), null))
 }
 
 /** Units as a gate tower (System, 9 on top) or a metro line (Neon, 1 on top); the active unit is expanded. */
@@ -90,12 +105,13 @@ fun BookMapScreen(
     vm: BookMapViewModel,
     onOpenLesson: (String) -> Unit,
     onQuickCheck: (String) -> Unit,
-    onBoss: (Int) -> Unit,
-    onFinal: () -> Unit,
+    onBoss: (book: Int, unit: Int) -> Unit,
+    onFinal: (book: Int) -> Unit,
     modifier: Modifier = Modifier,
 ) {
     val t = LocalGameTokens.current
     val units by vm.units.collectAsStateWithLifecycle()
+    val book by vm.book.collectAsStateWithLifecycle()
     val finalBest by vm.finalBest.collectAsStateWithLifecycle()
     LifecycleResumeEffect(Unit) {
         vm.refreshFinalBest()
@@ -104,14 +120,14 @@ fun BookMapScreen(
     val lessonsDone = units.sumOf { u -> u.lessons.count { it.status == LessonStatus.COMPLETED || it.status == LessonStatus.VERIFIED } }
     val lessonsTotal = units.sumOf { it.lessons.size }
     var opened by rememberSaveable { mutableStateOf(listOf<Int>()) }
-    val actions = MapActions(onOpenLesson, onQuickCheck, onBoss) { unit ->
+    val actions = MapActions(onOpenLesson, onQuickCheck, { unit -> onBoss(book, unit) }) { unit ->
         opened = if (unit in opened) opened - unit else opened + unit
     }
     val tower = t.id == GameThemeId.SYSTEM
     val ordered = if (tower) units.reversed() else units
     val activeIndex = ordered.indexOfFirst { it.state == UnitState.ACTIVE }
     val listState = rememberLazyListState()
-    LaunchedEffect(activeIndex >= 0) {
+    LaunchedEffect(activeIndex >= 0, book) {
         // Item 0 is the header, so this leaves one unit visible above the active one.
         if (activeIndex >= 0) listState.scrollToItem(activeIndex)
     }
@@ -123,7 +139,11 @@ fun BookMapScreen(
         ordered[i].state == UnitState.CLEARED && ordered.getOrNull(i + 1)?.state == UnitState.CLEARED
     }
     GameBackground(modifier) {
+        // The book picker stays on top; the list below scrolls to the active unit.
+        Column(Modifier.fillMaxSize()) {
+        BookPicker(book, vm::selectBook, Modifier.padding(start = 16.dp, end = 16.dp, top = 12.dp))
         LazyColumn(
+            modifier = Modifier.weight(1f),
             state = listState,
             contentPadding = PaddingValues(start = 16.dp, end = 16.dp, top = 16.dp, bottom = 16.dp + LocalDockInset.current),
             verticalArrangement = Arrangement.spacedBy(if (tower) 8.dp else 0.dp),
@@ -138,10 +158,13 @@ fun BookMapScreen(
                         fontSize = 26.sp,
                     )
                     Text(stringResource(R.string.map_cleared_count, cleared, units.size), color = t.muted, fontSize = 13.sp)
+                    if (units.isEmpty()) {
+                        Text(stringResource(R.string.book_soon), color = t.muted, fontSize = 15.sp, modifier = Modifier.padding(top = 24.dp))
+                    }
                 }
             }
             if (tower) {
-                item(key = "final") { FinalCard(finalBest, lessonsDone, lessonsTotal, onFinal) }
+                if (units.isNotEmpty()) item(key = "final") { FinalCard(finalBest, lessonsDone, lessonsTotal) { onFinal(book) } }
             }
             itemsIndexed(ordered, key = { _, u -> "unit${u.unit}" }) { i, u ->
                 val expanded = u.state == UnitState.ACTIVE || u.unit in opened
@@ -159,8 +182,19 @@ fun BookMapScreen(
                 }
             }
             if (!tower) {
-                item(key = "final") { Box(Modifier.padding(top = 12.dp)) { FinalCard(finalBest, lessonsDone, lessonsTotal, onFinal) } }
+                if (units.isNotEmpty()) item(key = "final") { Box(Modifier.padding(top = 12.dp)) { FinalCard(finalBest, lessonsDone, lessonsTotal) { onFinal(book) } } }
             }
+        }
         }
     }
 }
+
+/** Glass pills "1-kitob · 2-kitob · 3-kitob"; the shown book is filled. */
+@Composable
+private fun BookPicker(book: Int, onPick: (Int) -> Unit, modifier: Modifier = Modifier) {
+    Row(modifier, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+        BOOKS.forEach { b -> HuntChip(stringResource(R.string.book_label, b), b == book) { onPick(b) } }
+    }
+}
+
+private val BOOKS = listOf(1, 2, 3)

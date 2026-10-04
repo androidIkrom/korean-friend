@@ -177,7 +177,7 @@
     <string name="session_finish">Yakunlash</string>
     <string name="session_close">Yopish</string>
 
-    <string name="gate_code">DARVOZA %1$d-%2$d</string>
+    <string name="gate_code">DARVOZA %1$s</string>
     <string name="floor_boss">BOSS</string>
     <string name="stage_vocab">Lug\'at</string>
     <string name="stage_grammar">Grammatika</string>
@@ -283,6 +283,8 @@
     <string name="name_hint">Ismingizni yozing</string>
     <string name="name_save">Saqlash</string>
     <string name="name_default">Ovchi</string>
+    <string name="book_label">%1$d-kitob</string>
+    <string name="book_soon">Bu kitob darslari tez kunda qo\'shiladi.</string>
     <string name="home_rank_label">RANK</string>
     <string name="home_rank_caption">%1$s · LV %2$d</string>
     <plurals name="home_next_rank">
@@ -290,7 +292,7 @@
     </plurals>
     <string name="home_top_rank">Eng yuqori rank</string>
     <string name="home_enter_gate">Darvozaga kirish</string>
-    <string name="home_gate_caption">Keyingi darvoza · %1$d-%2$d · %3$s</string>
+    <string name="home_gate_caption">Keyingi darvoza · %1$s · %2$s</string>
     <string name="home_action_review">Takrorlash · %1$d</string>
     <string name="home_action_games">O\'yinlar</string>
     <string name="home_action_mistakes">Xatolar</string>

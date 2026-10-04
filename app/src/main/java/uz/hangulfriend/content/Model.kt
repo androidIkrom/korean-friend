@@ -196,6 +196,8 @@ data class CatalogEntry(
     @SerialName("topic_uz") val topicUz: String,
     @SerialName("title_en") val titleEn: String? = null,
     @SerialName("topic_en") val topicEn: String? = null,
+    /** The book of the series (1–3); set from the catalog file it comes from. */
+    val book: Int = 2,
 )
 
 @Serializable

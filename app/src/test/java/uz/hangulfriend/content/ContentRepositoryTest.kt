@@ -22,6 +22,27 @@ class ContentRepositoryTest {
     private fun writeLesson(text: String = ContentJson.encodeToString(Lesson.serializer(), Fixtures.validLesson())) =
         write("lessons/u02_l1.json", text)
 
+    private fun entry(id: String, unit: Int) =
+        """{"id":"$id","unit":$unit,"lesson":1,"title_ko":"가","title_uz":"a","topic_uz":"t"}"""
+
+    @Test fun catalog_ordersBooksAndStampsThem() {
+        write("book.json", """{"lessons":[${entry("u01_l1", 1)}]}""")
+        write("book1.json", """{"lessons":[${entry("b1_u02_l1", 2)}]}""")
+        write("book3.json", """{"lessons":[${entry("b3_u01_l1", 1)}]}""")
+        val c = repo(strict = true).catalog()
+        assertEquals(listOf("b1_u02_l1", "u01_l1", "b3_u01_l1"), c.map { it.id })
+        assertEquals(listOf(1, 2, 3), c.map { it.book })
+    }
+
+    @Test fun catalog_withoutOtherBooksIsBookTwo() {
+        write("book.json", """{"lessons":[${entry("u01_l1", 1)}]}""")
+        assertEquals(listOf(2), repo(strict = true).catalog().map { it.book })
+    }
+
+    @Test fun finalTest_perBook() {
+        assertNull(repo(strict = true).finalTest(1))
+    }
+
     @Test fun lesson_roundTripsAndIsAvailable() {
         writeLesson()
         val r = repo(strict = true)

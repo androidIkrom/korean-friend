@@ -79,6 +79,7 @@ import uz.hangulfriend.ui.kit.OptionTile
 import uz.hangulfriend.ui.kit.Sfx
 import uz.hangulfriend.ui.settings.LocalPlayerName
 import uz.hangulfriend.data.personalize
+import uz.hangulfriend.study.bookOf
 
 /** One clip to play; [id] grows with every new clip so a rotation does not replay the last one. */
 data class SpeakEvent(val id: Int, val file: String)
@@ -135,7 +136,8 @@ class EpisodeViewModel(
         viewModelScope.launch {
             _rank.value = RankRules.rankFor(GameRules.level(game.observeTotalXp().first()).level)
             val s = withContext(Dispatchers.IO) { content.lesson(lessonId)?.story } ?: return@launch
-            val number = content.catalog().indexOfFirst { it.id == lessonId } + 1
+            val book = bookOf(lessonId)
+            val number = content.catalog().filter { it.book == book }.indexOfFirst { it.id == lessonId } + 1
             _meta.value = EpisodeMeta(number, s.titleUz, s.steps.size, s.gateUz, lessonId.hashCode())
             update(StoryPlayer(s))
         }
