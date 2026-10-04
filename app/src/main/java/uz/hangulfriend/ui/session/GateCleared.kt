@@ -59,8 +59,6 @@ import uz.hangulfriend.ui.kit.HuntStyle
 import uz.hangulfriend.ui.kit.LocalGameFeedback
 import uz.hangulfriend.ui.kit.LocalReducedMotion
 import uz.hangulfriend.ui.kit.Sfx
-import uz.hangulfriend.ui.kit.cutShape
-import uz.hangulfriend.ui.kit.shapeGlow
 import uz.hangulfriend.ui.theme.LocalGameTokens
 
 /** Progress of a sub-step running from [from] to [to] on the reveal timeline [p] (0..1). */
@@ -110,9 +108,9 @@ fun GateClearedView(s: SessionState, mode: SessionMode, onClose: () -> Unit) {
             Text(
                 grade,
                 color = if (cleared) gradeColor(grade) else t.danger,
-                fontFamily = t.display,
-                fontWeight = FontWeight.Bold,
-                fontSize = 104.sp,
+                fontFamily = t.numbers,
+                fontWeight = FontWeight.ExtraBold,
+                fontSize = 96.sp,
                 modifier = Modifier
                     .semantics { contentDescription = gradeDesc }
                     .scale(2.4f - 1.4f * drop)
@@ -120,12 +118,11 @@ fun GateClearedView(s: SessionState, mode: SessionMode, onClose: () -> Unit) {
             )
         }
         Text(
-            stringResource(if (cleared) R.string.clear_title else R.string.clear_failed).uppercase(),
+            stringResource(if (cleared) R.string.clear_title else R.string.clear_failed),
             color = color,
-            fontFamily = t.display,
-            fontWeight = FontWeight.Bold,
+            fontFamily = t.ui,
+            fontWeight = FontWeight.ExtraBold,
             fontSize = 24.sp,
-            letterSpacing = 3.sp,
             textAlign = TextAlign.Center,
         )
         val starsDesc = stringResource(R.string.clear_stars, stars)
@@ -140,15 +137,14 @@ fun GateClearedView(s: SessionState, mode: SessionMode, onClose: () -> Unit) {
                     modifier = Modifier
                         .size(if (i == 1) 52.dp else 42.dp)
                         .scale(1.8f - 0.8f * FastOutSlowInEasing.transform(land))
-                        .alpha(land)
-                        .then(if (on && land >= 1f) Modifier.shapeGlow(Gold.copy(alpha = 0.35f), RoundedCornerShape(50), 10.dp) else Modifier),
+                        .alpha(land),
                 )
             }
         }
         RewardPanel(s, mode, seg(v, 0.55f, 0.9f))
         if (s.loot.isNotEmpty()) LootPanel(s, seg(v, 0.85f, 1f))
         HuntButton(
-            stringResource(if (cleared) R.string.clear_claim else R.string.session_finish).uppercase(),
+            stringResource(if (cleared) R.string.clear_claim else R.string.session_finish),
             onClick = onClose,
             modifier = Modifier.fillMaxWidth().alpha(0.3f + 0.7f * seg(v, 0.6f, 1f)),
             style = if (cleared) HuntStyle.GOLD else HuntStyle.PRIMARY,
@@ -179,13 +175,13 @@ private fun RewardPanel(s: SessionState, mode: SessionMode, xpP: Float) {
                 Text(
                     "+${(s.xpEarned * xpP).roundToInt()} XP",
                     color = Gold,
-                    fontFamily = t.display,
-                    fontWeight = FontWeight.Bold,
-                    fontSize = 28.sp,
+                    fontFamily = t.numbers,
+                    fontWeight = FontWeight.ExtraBold,
+                    fontSize = 26.sp,
                     modifier = Modifier.weight(1f),
                 )
                 s.totalXpAfter?.let { total ->
-                    Text("LV ${GameRules.level(total).level}", color = t.text, fontFamily = t.display, fontWeight = FontWeight.Bold, fontSize = 18.sp)
+                    Text("LV ${GameRules.level(total).level}", color = t.text, fontFamily = t.numbers, fontWeight = FontWeight.SemiBold, fontSize = 16.sp)
                 }
             }
             s.totalXpAfter?.let { total ->
@@ -230,22 +226,21 @@ private fun RewardPanel(s: SessionState, mode: SessionMode, xpP: Float) {
 @Composable
 private fun LootPanel(s: SessionState, appear: Float) {
     val t = LocalGameTokens.current
-    val chip = if (t.id == GameThemeId.SYSTEM) cutShape(6.dp) else RoundedCornerShape(10.dp)
+    val chip = RoundedCornerShape(16.dp)
     HuntPanel(Modifier.alpha(appear), title = stringResource(R.string.clear_loot), accent = Gold) {
         FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
             s.loot.take(MAX_LOOT).forEach { w ->
                 Column(
                     Modifier
-                        .background(Gold.copy(alpha = 0.1f), chip)
-                        .border(1.dp, Gold.copy(alpha = 0.7f), chip)
-                        .padding(horizontal = 10.dp, vertical = 6.dp),
+                        .background(Gold.copy(alpha = 0.14f), chip)
+                        .padding(horizontal = 12.dp, vertical = 8.dp),
                 ) {
                     Text(w.ko, color = t.text, fontWeight = FontWeight.Bold, fontSize = 16.sp)
                     Text(w.uz, color = t.muted, fontSize = 12.sp, maxLines = 1)
                 }
             }
         }
-        if (s.loot.size > MAX_LOOT) Text("+${s.loot.size - MAX_LOOT}", color = Gold, fontFamily = t.display)
+        if (s.loot.size > MAX_LOOT) Text("+${s.loot.size - MAX_LOOT}", color = Gold, fontFamily = t.numbers)
     }
 }
 
@@ -259,6 +254,6 @@ private fun EmptyRun(onClose: () -> Unit) {
         HuntPanel {
             Text(stringResource(R.string.session_empty), color = LocalGameTokens.current.text, fontSize = 18.sp, textAlign = TextAlign.Center, modifier = Modifier.fillMaxWidth())
         }
-        HuntButton(stringResource(R.string.session_finish).uppercase(), onClick = onClose, modifier = Modifier.fillMaxWidth())
+        HuntButton(stringResource(R.string.session_finish), onClick = onClose, modifier = Modifier.fillMaxWidth())
     }
 }

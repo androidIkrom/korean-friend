@@ -91,6 +91,6 @@ fun MatchView(words: List<Word>, onResult: (ExerciseOutcome) -> Unit, onNext: ()
                 }
             }
         }
-        if (done && showNext) HuntButton(stringResource(R.string.ex_next).uppercase(), onClick = onNext, modifier = Modifier.fillMaxWidth())
+        if (done && showNext) HuntButton(stringResource(R.string.ex_next), onClick = onNext, modifier = Modifier.fillMaxWidth())
     }
 }

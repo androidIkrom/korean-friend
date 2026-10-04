@@ -174,7 +174,7 @@ fun SpeakView(ko: String, uz: String, audio: String?, onResult: (ExerciseOutcome
                     style = HuntStyle.SECONDARY,
                 )
             } else {
-                HuntButton(stringResource(R.string.ex_next).uppercase(), onClick = onNext, modifier = Modifier.weight(1f))
+                HuntButton(stringResource(R.string.ex_next), onClick = onNext, modifier = Modifier.weight(1f))
             }
         }
     }

@@ -3,6 +3,7 @@ package uz.hangulfriend.ui.exercise
 import androidx.compose.animation.core.Animatable
 import androidx.compose.animation.core.FastOutSlowInEasing
 import androidx.compose.animation.core.tween
+import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ColumnScope
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -44,6 +45,10 @@ import uz.hangulfriend.ui.theme.LocalGameTokens
 import uz.hangulfriend.ui.theme.WrongRed
 import uz.hangulfriend.ui.tutor.LocalTutor
 import uz.hangulfriend.ui.tutor.TutorSheet
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.ui.graphics.lerp
+import uz.hangulfriend.ui.kit.glass
 
 /** What the learner sees after checking an answer. */
 data class FeedbackInfo(
@@ -73,7 +78,14 @@ private fun Modifier.riseIn(): Modifier {
 fun FeedbackPanel(info: FeedbackInfo, onNext: () -> Unit) {
     val t = LocalGameTokens.current
     val color: Color = if (info.correct) CorrectGreen else WrongRed
-    HuntPanel(Modifier.riseIn(), accent = color) {
+    Column(
+        Modifier
+            .fillMaxWidth()
+            .riseIn()
+            .glass(RoundedCornerShape(24.dp), tint = lerp(t.surface, color, 0.28f))
+            .padding(16.dp),
+        verticalArrangement = Arrangement.spacedBy(10.dp),
+    ) {
         Row(verticalAlignment = Alignment.CenterVertically) {
             Icon(
                 if (info.correct) Icons.Filled.CheckCircle else Icons.Filled.Cancel,
@@ -84,8 +96,8 @@ fun FeedbackPanel(info: FeedbackInfo, onNext: () -> Unit) {
             Text(
                 info.message,
                 color = color,
-                fontFamily = t.display,
-                fontWeight = FontWeight.Bold,
+                fontFamily = t.ui,
+                fontWeight = FontWeight.ExtraBold,
                 fontSize = 18.sp,
                 modifier = Modifier.weight(1f).padding(start = 8.dp),
             )
@@ -113,7 +125,7 @@ fun FeedbackPanel(info: FeedbackInfo, onNext: () -> Unit) {
             if (open) TutorSheet(TutorPrompts.role(currentLanguage()), question) { open = false }
         }
         HuntButton(
-            stringResource(R.string.ex_next).uppercase(),
+            stringResource(R.string.ex_next),
             onClick = onNext,
             modifier = Modifier.fillMaxWidth(),
             style = if (info.correct) HuntStyle.SUCCESS else HuntStyle.PRIMARY,
@@ -141,12 +153,20 @@ fun HintButton(hint: String?, enabled: Boolean, onUsed: () -> Unit) {
     }
 }
 
-/** The question as a `[ QUEST ]` System window; [content] (the Korean sentence, audio…) sits inside it. */
+/** The question on a glass card under a small "Quest" label; [content] (the Korean sentence, audio…) sits inside it. */
 @Composable
 fun QuestCard(prompt: String, content: @Composable ColumnScope.() -> Unit = {}) {
     val t = LocalGameTokens.current
-    HuntPanel(title = stringResource(R.string.battle_quest), scan = true) {
-        Text(prompt, color = t.text, fontWeight = FontWeight.SemiBold, fontSize = 17.sp, lineHeight = 23.sp)
+    HuntPanel {
+        Text(
+            stringResource(R.string.battle_quest).uppercase(),
+            color = t.accent,
+            fontFamily = t.ui,
+            fontWeight = FontWeight.SemiBold,
+            fontSize = 11.sp,
+            letterSpacing = 1.3.sp,
+        )
+        Text(prompt, color = t.text, fontFamily = t.ui, fontWeight = FontWeight.SemiBold, fontSize = 17.sp, lineHeight = 24.sp)
         content()
     }
 }

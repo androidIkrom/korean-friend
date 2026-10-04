@@ -106,7 +106,7 @@ fun TypingView(
             Text(stringResource(R.string.ai_checking), color = LocalGameTokens.current.muted)
         } else if (shown == null) {
             HuntButton(
-                stringResource(R.string.ex_check).uppercase(),
+                stringResource(R.string.ex_check),
                 onClick = ::check,
                 enabled = input.isNotBlank(),
                 modifier = Modifier.fillMaxWidth(),
