@@ -1,40 +1,57 @@
 package uz.hangulfriend.ui.home
 
+import androidx.compose.foundation.Canvas
+import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
+import androidx.compose.foundation.interaction.MutableInteractionSource
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
-import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.RowScope
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.offset
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Bolt
+import androidx.compose.material.icons.filled.Check
 import androidx.compose.material.icons.filled.LocalFireDepartment
 import androidx.compose.material.icons.outlined.EmojiEvents
-import androidx.compose.material.icons.outlined.Flag
 import androidx.compose.material.icons.outlined.Replay
 import androidx.compose.material.icons.outlined.ReportProblem
 import androidx.compose.material.icons.outlined.SportsEsports
 import androidx.compose.material.icons.outlined.Style
 import androidx.compose.material.icons.outlined.Translate
+import androidx.compose.material3.Icon
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
-import androidx.compose.runtime.mutableIntStateOf
 import androidx.compose.runtime.remember
-import androidx.compose.runtime.rememberCoroutineScope
-import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
+import androidx.compose.ui.draw.drawBehind
+import androidx.compose.ui.geometry.Offset
+import androidx.compose.ui.geometry.Size
+import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.layout.onGloballyPositioned
-import androidx.compose.ui.layout.positionInParent
+import androidx.compose.ui.graphics.Shadow
+import androidx.compose.ui.graphics.StrokeCap
+import androidx.compose.ui.graphics.drawscope.Stroke
+import androidx.compose.ui.graphics.graphicsLayer
+import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.res.pluralStringResource
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.semantics.Role
+import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.ViewModel
@@ -43,6 +60,7 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewModelScope
 import java.time.Clock
 import java.time.LocalDate
+import kotlin.math.sin
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
@@ -64,23 +82,22 @@ import uz.hangulfriend.share.ProgressStats
 import uz.hangulfriend.study.GameRules
 import uz.hangulfriend.study.Rank
 import uz.hangulfriend.study.RankRules
+import uz.hangulfriend.ui.LocalDockInset
+import uz.hangulfriend.ui.avatar.Avatar
 import uz.hangulfriend.ui.avatar.titleRes
 import uz.hangulfriend.ui.kit.GlowBar
+import uz.hangulfriend.ui.kit.Gold
 import uz.hangulfriend.ui.kit.HudChip
 import uz.hangulfriend.ui.kit.HuntButton
-import uz.hangulfriend.ui.kit.HuntPanel
 import uz.hangulfriend.ui.kit.HuntStyle
-import uz.hangulfriend.ui.kit.LevelBadge
-import uz.hangulfriend.ui.kit.RailButton
+import uz.hangulfriend.ui.kit.LocalGameFeedback
 import uz.hangulfriend.ui.kit.Sfx
-import uz.hangulfriend.ui.kit.pulseRing
-import uz.hangulfriend.ui.kit.shape
-import uz.hangulfriend.ui.theme.BadgeState
+import uz.hangulfriend.ui.kit.frameClock
+import uz.hangulfriend.ui.kit.glass
+import uz.hangulfriend.ui.kit.springPress
 import uz.hangulfriend.ui.theme.CorrectGreen
 import uz.hangulfriend.ui.theme.GameBackground
 import uz.hangulfriend.ui.theme.LocalGameTokens
-import uz.hangulfriend.ui.theme.RankBadge
-import uz.hangulfriend.ui.LocalDockInset
 
 data class HomeStats(
     val level: GameRules.LevelInfo = GameRules.level(0),
@@ -181,174 +198,259 @@ fun HomeScreen(
         vm.refresh()
         onPauseOrDispose { }
     }
-    val t = LocalGameTokens.current
-    val scroll = rememberScrollState()
-    val scope = rememberCoroutineScope()
-    var questY by remember { mutableIntStateOf(0) }
     GameBackground(modifier) {
         Column(
-            Modifier.verticalScroll(scroll).padding(start = 14.dp, end = 14.dp, top = 12.dp, bottom = 12.dp + LocalDockInset.current),
+            Modifier
+                .verticalScroll(rememberScrollState())
+                .padding(start = 14.dp, end = 14.dp, top = 12.dp, bottom = 12.dp + LocalDockInset.current),
             verticalArrangement = Arrangement.spacedBy(12.dp),
         ) {
-            Hud(stats, due, onStartReview, onAchievements)
-            Box(Modifier.fillMaxWidth().height(350.dp)) {
-                HomeScene(stats.rank, stats.hero, Modifier.fillMaxWidth().height(318.dp).align(Alignment.TopCenter))
-                Column(Modifier.align(Alignment.TopStart).padding(top = 18.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
-                    RailButton(
-                        Icons.Outlined.Flag, stringResource(R.string.rail_quest),
-                        onClick = { scope.launch { scroll.animateScrollTo(questY) } },
-                        dot = stats.todayXp < stats.goal,
-                    )
-                    RailButton(Icons.Outlined.Translate, stringResource(R.string.rail_words), onVocab)
-                    RailButton(Icons.Outlined.ReportProblem, stringResource(R.string.rail_errors), onMistakes)
-                }
-                Column(Modifier.align(Alignment.TopEnd).padding(top = 18.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
-                    RailButton(Icons.Outlined.SportsEsports, stringResource(R.string.rail_arena), onGames, accent = t.accent2)
-                    RailButton(Icons.Outlined.EmojiEvents, stringResource(R.string.rail_badges), onAchievements, accent = t.accent2)
-                    shareRail()
-                }
-                NamePlate(stats.rank, Modifier.align(Alignment.BottomCenter))
-            }
-            StatsStrip(stats)
-            Box(Modifier.onGloballyPositioned { questY = it.positionInParent().y.toInt() }) {
-                QuestPanel(questLines(stats.todayXp, stats.goal, due, stats.stageName))
-            }
-            val lesson = current
-            if (lesson != null) {
-                GateButton(
-                    label = stringResource(R.string.lobby_gate_label, lesson.unit, lesson.lesson, lesson.titleUz),
-                    onClick = { onContinueLesson(lesson.id) },
-                )
-            } else {
-                HuntButton(stringResource(R.string.home_open_map).uppercase(), onOpenMap, Modifier.fillMaxWidth(), sfx = Sfx.OPEN)
-            }
-            if (due > 0) {
-                HuntButton(
-                    stringResource(R.string.home_action_review, due).uppercase(),
-                    onStartReview,
-                    Modifier.fillMaxWidth(),
-                    style = HuntStyle.SECONDARY,
-                    icon = Icons.Outlined.Replay,
-                )
-            }
-            Spacer(Modifier.height(4.dp))
+            TopPills(stats, due, onStartReview, onAchievements, shareRail)
+            HeroStage(stats)
+            Sheet(stats, due, current, onStartReview, onContinueLesson, onOpenMap, onGames, onMistakes, onAchievements, onVocab)
         }
     }
     rankUp?.let { RankUpDialog(it, vm::acceptRankUp) }
 }
 
-/** Level, rank line and XP bar, then the streak / due / badges chips. */
+/** Streak, due cards and badges as glass pills, with the share button at the end. */
 @Composable
-private fun Hud(stats: HomeStats, due: Int, onReview: () -> Unit, onBadges: () -> Unit) {
+private fun TopPills(stats: HomeStats, due: Int, onReview: () -> Unit, onBadges: () -> Unit, share: @Composable () -> Unit) {
     val t = LocalGameTokens.current
-    Column(verticalArrangement = Arrangement.spacedBy(10.dp)) {
-        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
-            LevelBadge(stats.level.level)
-            Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(6.dp)) {
-                Row(verticalAlignment = Alignment.Bottom) {
-                    Text(
-                        stringResource(R.string.lobby_rank_line, stats.rank.name, stringResource(stats.rank.titleRes())).uppercase(),
-                        color = t.text,
-                        fontFamily = t.display,
-                        fontWeight = FontWeight.Bold,
-                        fontSize = 14.sp,
-                        letterSpacing = 1.5.sp,
-                        maxLines = 1,
-                        modifier = Modifier.weight(1f),
-                    )
-                    Text(
-                        stringResource(R.string.home_level_progress, stats.level.xpIntoLevel, stats.level.xpForNext),
-                        color = t.muted,
-                        fontSize = 11.sp,
-                    )
-                }
-                GlowBar(stats.level.xpIntoLevel.toFloat() / stats.level.xpForNext.coerceAtLeast(1))
-            }
-        }
-        Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-            HudChip(Icons.Filled.LocalFireDepartment, pluralStringResource(R.plurals.home_streak_days, stats.streak, stats.streak), Color(0xFFFFAA50))
-            HudChip(Icons.Outlined.Style, stringResource(R.string.hud_due, due), t.accent2, onClick = onReview.takeIf { due > 0 })
-            HudChip(Icons.Outlined.EmojiEvents, stats.achievements.toString(), Color(0xFFFFD66B), onClick = onBadges)
-        }
+    Row(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalAlignment = Alignment.CenterVertically) {
+        HudChip(Icons.Filled.LocalFireDepartment, pluralStringResource(R.plurals.home_streak_days, stats.streak, stats.streak), Color(0xFFFFAA50))
+        HudChip(Icons.Outlined.Style, stringResource(R.string.hud_due, due), t.accent2, onClick = onReview.takeIf { due > 0 })
+        HudChip(Icons.Outlined.EmojiEvents, stats.achievements.toString(), Gold, onClick = onBadges)
+        share()
     }
 }
 
+/** The hero, large and floating over a soft aura, with the rank letter beside it. */
 @Composable
-private fun NamePlate(rank: Rank, modifier: Modifier = Modifier) {
+private fun HeroStage(stats: HomeStats) {
     val t = LocalGameTokens.current
-    Row(modifier, verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
-        RankBadge(rank.name, BadgeState.ACTIVE, size = 22.dp)
-        Text(
-            stringResource(rank.titleRes()).uppercase(),
-            color = t.text,
-            fontFamily = t.display,
-            fontWeight = FontWeight.Bold,
-            fontSize = 22.sp,
-            letterSpacing = 4.sp,
+    val clock = frameClock()
+    Box(Modifier.fillMaxWidth().height(400.dp)) {
+        Box(
+            Modifier
+                .align(Alignment.Center)
+                .offset(x = 34.dp)
+                .size(330.dp)
+                .drawBehind {
+                    drawCircle(Brush.radialGradient(listOf(t.accent.copy(alpha = 0.32f), Color.Transparent)), radius = size.minDimension / 2)
+                },
         )
-    }
-}
-
-@Composable
-private fun StatsStrip(stats: HomeStats) {
-    val t = LocalGameTokens.current
-    HuntPanel(padding = 12.dp) {
-        Row(Modifier.fillMaxWidth()) {
-            listOf(
-                R.string.home_stat_words to stats.learnedWords,
-                R.string.home_stat_lessons to stats.completedLessons,
-                R.string.home_stat_stories to stats.storiesDone,
-                R.string.home_stat_achievements to stats.achievements,
-            ).forEach { (label, value) ->
-                Column(Modifier.weight(1f), horizontalAlignment = Alignment.CenterHorizontally) {
-                    Text(value.toString(), color = t.text, fontFamily = t.display, fontWeight = FontWeight.Bold, fontSize = 22.sp)
-                    Text(stringResource(label).uppercase(), color = t.muted, fontSize = 9.sp, letterSpacing = 1.sp, maxLines = 1)
-                }
-            }
+        Avatar(
+            stats.rank,
+            stats.hero,
+            Modifier
+                .align(Alignment.BottomEnd)
+                .size(290.dp, 350.dp)
+                .graphicsLayer { translationY = sin(clock.floatValue * 1.05f) * 6.dp.toPx() },
+            animated = true,
+        )
+        Column(Modifier.align(Alignment.CenterStart).padding(start = 4.dp, bottom = 40.dp)) {
+            Text(
+                stringResource(R.string.home_rank_label),
+                color = t.muted,
+                fontFamily = t.ui,
+                fontWeight = FontWeight.SemiBold,
+                fontSize = 11.sp,
+                letterSpacing = 1.3.sp,
+            )
+            Text(
+                stats.rank.name,
+                style = TextStyle(
+                    fontFamily = t.numbers,
+                    fontWeight = FontWeight.ExtraBold,
+                    fontSize = 76.sp,
+                    lineHeight = 76.sp,
+                    brush = Brush.verticalGradient(listOf(Color.White, t.accent)),
+                    shadow = Shadow(Color.Black.copy(alpha = 0.45f), blurRadius = 18f),
+                ),
+            )
+            Text(
+                stringResource(R.string.home_rank_caption, stringResource(stats.rank.titleRes()), stats.level.level),
+                color = t.text,
+                fontFamily = t.ui,
+                fontWeight = FontWeight.SemiBold,
+                fontSize = 13.sp,
+            )
         }
     }
 }
 
+/** The glass sheet under the hero: XP, the daily quest, shortcuts, the next gate and the totals. */
 @Composable
-private fun QuestPanel(lines: List<QuestLine>) {
+private fun Sheet(
+    stats: HomeStats,
+    due: Int,
+    current: CatalogEntry?,
+    onReview: () -> Unit,
+    onContinueLesson: (String) -> Unit,
+    onOpenMap: () -> Unit,
+    onGames: () -> Unit,
+    onMistakes: () -> Unit,
+    onAchievements: () -> Unit,
+    onVocab: () -> Unit,
+) {
     val t = LocalGameTokens.current
-    HuntPanel(title = stringResource(R.string.home_quest), scan = true) {
-        lines.forEach { q ->
-            Column(verticalArrangement = Arrangement.spacedBy(5.dp)) {
-                Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
-                    Text(if (q.complete) "◆" else "◇", color = if (q.complete) CorrectGreen else t.accent, fontSize = 14.sp)
-                    val label = q.detail?.let { stringResource(q.label, stringResource(it)) } ?: stringResource(q.label)
-                    Text(label, color = if (q.complete) t.muted else t.text, modifier = Modifier.weight(1f))
-                    Text(
-                        "${q.done}/${q.target}",
-                        color = if (q.complete) CorrectGreen else t.accent,
-                        fontFamily = t.display,
-                        fontWeight = FontWeight.SemiBold,
-                    )
-                }
-                if (q.target > 1) {
-                    GlowBar(q.done.toFloat() / q.target, height = 4, color = if (q.complete) CorrectGreen else t.accent)
-                }
-            }
+    Column(
+        Modifier
+            .fillMaxWidth()
+            .glass(RoundedCornerShape(28.dp))
+            .padding(16.dp),
+        verticalArrangement = Arrangement.spacedBy(14.dp),
+    ) {
+        XpTrack(stats)
+        QuestCard(questLines(stats.todayXp, stats.goal, due, stats.stageName))
+        Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+            Shortcut(Icons.Outlined.Translate, stringResource(R.string.rail_words), onVocab)
+            Shortcut(Icons.Outlined.ReportProblem, stringResource(R.string.rail_errors), onMistakes)
+            Shortcut(Icons.Outlined.SportsEsports, stringResource(R.string.rail_arena), onGames)
+            Shortcut(Icons.Outlined.EmojiEvents, stringResource(R.string.rail_badges), onAchievements)
         }
-        Text(stringResource(R.string.home_quest_footer), color = t.muted, fontSize = 12.sp)
+        val lesson = current
+        if (lesson != null) {
+            Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
+                Text(
+                    stringResource(R.string.home_gate_caption, lesson.unit, lesson.lesson, lesson.titleUz),
+                    color = t.muted,
+                    fontFamily = t.ui,
+                    fontSize = 12.sp,
+                    maxLines = 1,
+                    overflow = TextOverflow.Ellipsis,
+                )
+                HuntButton(stringResource(R.string.home_enter_gate), { onContinueLesson(lesson.id) }, Modifier.fillMaxWidth(), icon = Icons.Filled.Bolt, sfx = Sfx.OPEN, minHeight = 56.dp, fontSize = 16)
+            }
+        } else {
+            HuntButton(stringResource(R.string.home_open_map), onOpenMap, Modifier.fillMaxWidth(), sfx = Sfx.OPEN, minHeight = 56.dp, fontSize = 16)
+        }
+        if (due > 0) {
+            HuntButton(stringResource(R.string.home_action_review, due), onReview, Modifier.fillMaxWidth(), style = HuntStyle.SECONDARY, icon = Icons.Outlined.Replay)
+        }
+        Totals(stats)
     }
 }
 
-/** The big call to action: which gate is next, and a pulse that says "go". */
 @Composable
-private fun GateButton(label: String, onClick: () -> Unit) {
+private fun XpTrack(stats: HomeStats) {
     val t = LocalGameTokens.current
     Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
-        Text(label.uppercase(), color = t.accent, fontFamily = t.display, fontSize = 11.sp, letterSpacing = 2.sp, maxLines = 1)
-        HuntButton(
-            stringResource(R.string.map_enter_gate),
-            onClick,
-            Modifier.fillMaxWidth().pulseRing(t.accent, t.shape(12.dp)),
-            icon = Icons.Filled.Bolt,
-            sfx = Sfx.OPEN,
-            minHeight = 60.dp,
-            fontSize = 18,
-        )
+        GlowBar(stats.level.xpIntoLevel.toFloat() / stats.level.xpForNext.coerceAtLeast(1), height = 6)
+        Row {
+            Text(
+                stringResource(R.string.home_level_progress, stats.level.xpIntoLevel, stats.level.xpForNext),
+                color = t.muted,
+                fontFamily = t.ui,
+                fontSize = 12.sp,
+                modifier = Modifier.weight(1f),
+            )
+            val next = RankRules.nextRank(stats.level.level)
+            Text(
+                if (next == null) stringResource(R.string.home_top_rank) else pluralStringResource(R.plurals.home_next_rank, next.second, next.first.name, next.second),
+                color = t.muted,
+                fontFamily = t.ui,
+                fontSize = 12.sp,
+            )
+        }
+    }
+}
+
+/** The daily quest: a ring of finished lines, then each line with its count. */
+@Composable
+private fun QuestCard(lines: List<QuestLine>) {
+    val t = LocalGameTokens.current
+    val finished = lines.count { it.complete }
+    Column(
+        Modifier
+            .fillMaxWidth()
+            .clip(RoundedCornerShape(20.dp))
+            .background(Color.White.copy(alpha = 0.06f))
+            .padding(12.dp),
+        verticalArrangement = Arrangement.spacedBy(8.dp),
+    ) {
+        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+            QuestRing(finished, lines.size)
+            Column(Modifier.weight(1f)) {
+                Text(stringResource(R.string.home_quest), color = t.text, fontFamily = t.ui, fontWeight = FontWeight.SemiBold, fontSize = 15.sp)
+                Text(stringResource(R.string.home_quest_footer), color = t.muted, fontFamily = t.ui, fontSize = 11.sp)
+            }
+        }
+        lines.forEach { q ->
+            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
+                Box(
+                    Modifier
+                        .size(18.dp)
+                        .background(if (q.complete) CorrectGreen else Color.White.copy(alpha = 0.12f), CircleShape),
+                    contentAlignment = Alignment.Center,
+                ) {
+                    if (q.complete) Icon(Icons.Filled.Check, contentDescription = null, tint = t.background, modifier = Modifier.size(12.dp))
+                }
+                val label = q.detail?.let { stringResource(q.label, stringResource(it)) } ?: stringResource(q.label)
+                Text(label, color = if (q.complete) t.muted else t.text, fontFamily = t.ui, fontSize = 13.sp, modifier = Modifier.weight(1f))
+                Text("${q.done}/${q.target}", color = if (q.complete) CorrectGreen else t.accent, fontFamily = t.numbers, fontWeight = FontWeight.SemiBold, fontSize = 12.sp)
+            }
+        }
+    }
+}
+
+@Composable
+private fun QuestRing(done: Int, total: Int) {
+    val t = LocalGameTokens.current
+    Box(Modifier.size(44.dp), contentAlignment = Alignment.Center) {
+        Canvas(Modifier.matchParentSize()) {
+            val stroke = 4.dp.toPx()
+            val inset = stroke / 2
+            val arcSize = Size(size.width - stroke, size.height - stroke)
+            drawArc(Color.White.copy(alpha = 0.12f), 0f, 360f, false, Offset(inset, inset), arcSize, style = Stroke(stroke))
+            val sweep = if (total == 0) 0f else 360f * done / total
+            drawArc(Brush.sweepGradient(listOf(t.accent2, t.accent, t.accent2)), -90f, sweep, false, Offset(inset, inset), arcSize, style = Stroke(stroke, cap = StrokeCap.Round))
+        }
+        Text("$done/$total", color = t.text, fontFamily = t.numbers, fontWeight = FontWeight.SemiBold, fontSize = 11.sp)
+    }
+}
+
+/** A shortcut tile in the sheet: icon over a short label. */
+@Composable
+private fun RowScope.Shortcut(icon: ImageVector, label: String, onClick: () -> Unit) {
+    val t = LocalGameTokens.current
+    val feedback = LocalGameFeedback.current
+    val interaction = remember { MutableInteractionSource() }
+    Column(
+        Modifier
+            .weight(1f)
+            .springPress(interaction)
+            .clip(RoundedCornerShape(16.dp))
+            .background(Color.White.copy(alpha = 0.06f))
+            .clickable(interactionSource = interaction, indication = null, role = Role.Button) {
+                feedback.play(Sfx.TAP)
+                onClick()
+            }
+            .padding(vertical = 10.dp),
+        horizontalAlignment = Alignment.CenterHorizontally,
+        verticalArrangement = Arrangement.spacedBy(4.dp),
+    ) {
+        Icon(icon, contentDescription = null, tint = t.text, modifier = Modifier.size(20.dp))
+        Text(label, color = t.muted, fontFamily = t.ui, fontWeight = FontWeight.SemiBold, fontSize = 11.sp, maxLines = 1, overflow = TextOverflow.Ellipsis)
+    }
+}
+
+/** Learned words, finished lessons, stories and badges in one quiet row. */
+@Composable
+private fun Totals(stats: HomeStats) {
+    val t = LocalGameTokens.current
+    Row(Modifier.fillMaxWidth()) {
+        listOf(
+            R.string.home_stat_words to stats.learnedWords,
+            R.string.home_stat_lessons to stats.completedLessons,
+            R.string.home_stat_stories to stats.storiesDone,
+            R.string.home_stat_achievements to stats.achievements,
+        ).forEach { (label, value) ->
+            Column(Modifier.weight(1f), horizontalAlignment = Alignment.CenterHorizontally) {
+                Text(value.toString(), color = t.text, fontFamily = t.numbers, fontWeight = FontWeight.SemiBold, fontSize = 17.sp)
+                Text(stringResource(label), color = t.muted, fontFamily = t.ui, fontSize = 11.sp, maxLines = 1, overflow = TextOverflow.Ellipsis)
+            }
+        }
     }
 }
