@@ -7,3 +7,5 @@ local.properties
 __pycache__/
 .kotlin/
 .env
+# Drawn avatars come from a pack whose licence forbids redistribution: built locally, never committed.
+app/src/main/assets/avatar/*.webp
