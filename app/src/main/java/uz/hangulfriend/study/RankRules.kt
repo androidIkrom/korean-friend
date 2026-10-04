@@ -13,4 +13,8 @@ object RankRules {
      */
     fun rankUpToShow(current: Rank, lastSeen: Rank?): Rank? =
         if (lastSeen != null && current > lastSeen) current else null
+
+    /** The next rank above [level] and how many levels are left to it; null at the top rank. */
+    fun nextRank(level: Int): Pair<Rank, Int>? =
+        Rank.entries.firstOrNull { it.minLevel > level }?.let { it to it.minLevel - level }
 }

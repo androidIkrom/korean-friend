@@ -279,6 +279,14 @@
     </plurals>
     <string name="home_continue_lesson">Davom etish · %1$d-bo\'lim, %2$d-dars</string>
     <string name="home_open_map">Xaritani ochish</string>
+    <string name="home_rank_label">RANK</string>
+    <string name="home_rank_caption">%1$s · LV %2$d</string>
+    <plurals name="home_next_rank">
+        <item quantity="other">%1$s rankgacha yana %2$d daraja</item>
+    </plurals>
+    <string name="home_top_rank">Eng yuqori rank</string>
+    <string name="home_enter_gate">Darvozaga kirish</string>
+    <string name="home_gate_caption">Keyingi darvoza · %1$d-%2$d · %3$s</string>
     <string name="home_action_review">Takrorlash · %1$d</string>
     <string name="home_action_games">O\'yinlar</string>
     <string name="home_action_mistakes">Xatolar</string>

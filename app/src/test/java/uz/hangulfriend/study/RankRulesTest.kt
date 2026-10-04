@@ -16,6 +16,13 @@ class RankRulesTest {
 
     @Test fun dialogWhenHigher() = assertEquals(Rank.C, RankRules.rankUpToShow(Rank.C, Rank.D))
 
+    @Test fun nextRankCountsLevelsLeft() {
+        assertEquals(Rank.D to 3, RankRules.nextRank(2))
+        assertEquals(Rank.C to 5, RankRules.nextRank(5))
+        assertEquals(Rank.S to 1, RankRules.nextRank(29))
+        assertNull(RankRules.nextRank(30))
+    }
+
     @Test fun noDialogWhenSameOrLower() {
         assertNull(RankRules.rankUpToShow(Rank.C, Rank.C))
         assertNull(RankRules.rankUpToShow(Rank.D, Rank.C))
