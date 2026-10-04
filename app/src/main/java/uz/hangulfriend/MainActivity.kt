@@ -12,6 +12,7 @@ import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.produceState
+import androidx.compose.runtime.remember
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.withContext
@@ -65,8 +66,8 @@ class MainActivity : ComponentActivity() {
         // Only a fresh launch from the reminder opens the review, not a rotation of that launch.
         val openReview = savedInstanceState == null && intent.getStringExtra(EXTRA_OPEN) == OPEN_REVIEW
         setContent {
-            val theme by container.settings.settings.map { it.theme }.collectAsState(GameThemeId.SYSTEM)
-            val playerName by container.settings.settings.map { it.playerName }.collectAsState("")
+            val theme by remember { container.settings.settings.map { it.theme } }.collectAsState(GameThemeId.SYSTEM)
+            val playerName by remember { container.settings.settings.map { it.playerName } }.collectAsState("")
             // Listing the avatar folder touches the disk, so it happens off the main thread.
             val avatarAssets by produceState(AvatarAssets(emptySet())) {
                 value = withContext(Dispatchers.IO) { container.avatarAssets }

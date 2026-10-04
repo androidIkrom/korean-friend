@@ -1,5 +1,6 @@
 package uz.hangulfriend.ui.kit
 
+import android.annotation.SuppressLint
 import android.content.Context
 import android.media.AudioAttributes
 import android.media.SoundPool
@@ -94,6 +95,8 @@ class AndroidGameFeedback(context: Context, scope: CoroutineScope, settings: Flo
         if (FeedbackPolicy.vibrate(s)) vibrate(FeedbackPolicy.haptic(sfx))
     }
 
+    // FeedbackPolicy.usesPredefined gates createPredefined to API 29+; lint cannot see through the helper.
+    @SuppressLint("NewApi")
     private fun vibrate(h: Haptic) {
         val v = vibrator?.takeIf { it.hasVibrator() } ?: return
         val effect = if (FeedbackPolicy.usesPredefined(Build.VERSION.SDK_INT)) {
