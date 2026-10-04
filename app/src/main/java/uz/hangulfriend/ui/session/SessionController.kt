@@ -8,6 +8,9 @@ import uz.hangulfriend.R
 import uz.hangulfriend.content.ContentRepository
 import uz.hangulfriend.content.Lesson
 import uz.hangulfriend.content.Word
+import uz.hangulfriend.content.asWord
+import uz.hangulfriend.content.isHangul
+import uz.hangulfriend.content.isHangulLesson
 import uz.hangulfriend.data.CardEntity
 import uz.hangulfriend.data.GameRepository
 import uz.hangulfriend.data.ProgressRepository
@@ -122,6 +125,10 @@ private fun lootOf(item: ExerciseItem, outcome: ExerciseOutcome, correct: Boolea
     is ExerciseItem.WordChoose -> if (correct) listOf(item.word) else emptyList()
     is ExerciseItem.ListenChoose -> if (correct) listOf(item.word) else emptyList()
     is ExerciseItem.Dictation -> if (correct) listOf(item.word) else emptyList()
+    is ExerciseItem.LetterListen -> if (correct) listOf(item.letter.asWord()) else emptyList()
+    is ExerciseItem.LetterSound -> if (correct) listOf(item.letter.asWord()) else emptyList()
+    is ExerciseItem.ReadWord -> if (correct) listOf(item.letter.asWord()) else emptyList()
+    is ExerciseItem.BuildSyllable -> if (correct) item.letters.map { it.asWord() } else emptyList()
     is ExerciseItem.Speak, is ExerciseItem.Authored -> emptyList()
 }
 
@@ -176,7 +183,7 @@ class SessionController(
                 builder.finalTest(t)
             }.orEmpty()
             SessionMode.VOCAB -> {
-                val all = content.catalog().filter { content.isAvailable(it.id) }.mapNotNull { content.lesson(it.id) }.flatMap { it.words } +
+                val all = content.catalog().filter { content.isAvailable(it.id) && !isHangulLesson(it.id) }.mapNotNull { content.lesson(it.id) }.flatMap { it.words } +
                     lessonOf(USER_LESSON_ID)?.words.orEmpty()
                 val pool = if (lessonId == null || lessonId == VOCAB_ALL) all else lessonOf(lessonId)?.words.orEmpty()
                 builder.vocabQuiz(pool, all)
@@ -189,6 +196,9 @@ class SessionController(
                 val lesson = lessonId?.let { content.lesson(it) }
                 when {
                     lesson == null -> emptyList()
+                    lesson.isHangul && mode == SessionMode.PRACTICE -> content.hangul()?.let { course ->
+                        builder.hangulPractice(course.lettersOf(lesson.id), course.knownBy(lesson.id))
+                    }.orEmpty()
                     mode == SessionMode.PRACTICE -> builder.lessonPractice(lesson, speechAvailable)
                     mode == SessionMode.TEST -> builder.lessonTest(lesson)
                     mode == SessionMode.QUICK_CHECK -> builder.quickCheck(lesson)
@@ -294,6 +304,10 @@ class SessionController(
         var bonus = 0
         when (mode) {
             SessionMode.TEST -> if (lessonId != null && progress.recordTest(lessonId, s.scorePercent)) {
+                bonus += game.award(GameRules.XP_LESSON, GameRepository.REASON_LESSON, goal)
+            }
+            // A Hangul lesson has no test: its practice score completes it.
+            SessionMode.PRACTICE -> if (isHangulLesson(lessonId) && progress.recordTest(lessonId!!, s.scorePercent)) {
                 bonus += game.award(GameRules.XP_LESSON, GameRepository.REASON_LESSON, goal)
             }
             SessionMode.QUICK_CHECK -> if (lessonId != null) progress.recordQuickCheck(lessonId, s.scorePercent)

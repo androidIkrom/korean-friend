@@ -1,0 +1,924 @@
+{
+  "letters": [
+    {
+      "id": "a",
+      "jamo": "ㅏ",
+      "kind": "vowel",
+      "roman": "a",
+      "say": "아",
+      "name_ko": "아",
+      "tip_uz": "O'zbekcha \"a\" kabi, og'izni keng oching. Bo'g'in boshida tovushsiz ㅇ bilan yoziladi: 아.",
+      "tip_en": "Like \"a\" in \"father\". At the start of a syllable it is written with a silent ㅇ: 아.",
+      "example": {
+        "ko": "아이",
+        "roman": "ai",
+        "uz": "bola",
+        "en": "child",
+        "audio": "80812b9a2df0.mp3"
+      },
+      "audio": "a02641043b56.mp3"
+    },
+    {
+      "id": "eo",
+      "jamo": "ㅓ",
+      "kind": "vowel",
+      "roman": "eo",
+      "say": "어",
+      "name_ko": "어",
+      "tip_uz": "\"o\"ga yaqin, lekin lablar yumaloqlanmaydi, og'iz ochiq qoladi.",
+      "tip_en": "Like \"u\" in \"bus\" said deeper; the lips stay unrounded.",
+      "example": {
+        "ko": "어디",
+        "roman": "eodi",
+        "uz": "qayer",
+        "en": "where",
+        "audio": "fc810b70701f.mp3"
+      },
+      "audio": "2e02478f3c6f.mp3"
+    },
+    {
+      "id": "o",
+      "jamo": "ㅗ",
+      "kind": "vowel",
+      "roman": "o",
+      "say": "오",
+      "name_ko": "오",
+      "tip_uz": "Lablarni yumaloq qilib, o'zbekcha \"o\" deng.",
+      "tip_en": "A rounded \"o\", as in \"go\" without the glide.",
+      "example": {
+        "ko": "오이",
+        "roman": "oi",
+        "uz": "bodring",
+        "en": "cucumber",
+        "audio": "ea32927dc730.mp3"
+      },
+      "audio": "1d5fc50d9441.mp3"
+    },
+    {
+      "id": "u",
+      "jamo": "ㅜ",
+      "kind": "vowel",
+      "roman": "u",
+      "say": "우",
+      "name_ko": "우",
+      "tip_uz": "O'zbekcha \"u\" kabi, lablar oldinga cho'ziladi.",
+      "tip_en": "Like \"oo\" in \"moon\", lips pushed forward.",
+      "example": {
+        "ko": "우유",
+        "roman": "uyu",
+        "uz": "sut",
+        "en": "milk",
+        "audio": "b34efb638e44.mp3"
+      },
+      "audio": "5b67a867117a.mp3"
+    },
+    {
+      "id": "eu",
+      "jamo": "ㅡ",
+      "kind": "vowel",
+      "roman": "eu",
+      "say": "으",
+      "name_ko": "으",
+      "tip_uz": "O'zbek tilida yo'q tovush: lablarni yoymay, tishlarni yaqin tutib \"i\" bilan \"u\" orasida ayting.",
+      "tip_en": "Not in English: keep the lips flat and the teeth close, and say a sound between \"i\" and \"u\".",
+      "example": {
+        "ko": "음악",
+        "roman": "eumak",
+        "uz": "musiqa",
+        "en": "music",
+        "audio": "c215ce39b190.mp3"
+      },
+      "audio": "b6ce03d0dffd.mp3"
+    },
+    {
+      "id": "i",
+      "jamo": "ㅣ",
+      "kind": "vowel",
+      "roman": "i",
+      "say": "이",
+      "name_ko": "이",
+      "tip_uz": "O'zbekcha \"i\" kabi.",
+      "tip_en": "Like \"ee\" in \"see\".",
+      "example": {
+        "ko": "이",
+        "roman": "i",
+        "uz": "tish",
+        "en": "tooth",
+        "audio": "1a494c515b81.mp3"
+      },
+      "audio": "1a494c515b81.mp3"
+    },
+    {
+      "id": "ae",
+      "jamo": "ㅐ",
+      "kind": "vowel",
+      "roman": "ae",
+      "say": "애",
+      "name_ko": "애",
+      "tip_uz": "O'zbekcha \"e\"ga yaqin, og'iz biroz kengroq ochiladi.",
+      "tip_en": "Like \"e\" in \"bed\", the mouth a little wider.",
+      "example": {
+        "ko": "개",
+        "roman": "gae",
+        "uz": "it",
+        "en": "dog",
+        "audio": "4c0e6bf91694.mp3"
+      },
+      "audio": "0276b02c737f.mp3"
+    },
+    {
+      "id": "e",
+      "jamo": "ㅔ",
+      "kind": "vowel",
+      "roman": "e",
+      "say": "에",
+      "name_ko": "에",
+      "tip_uz": "O'zbekcha \"e\" kabi. Bugungi talaffuzda ㅐ bilan deyarli bir xil eshitiladi.",
+      "tip_en": "Like \"e\" in \"bed\". Today it sounds almost the same as ㅐ.",
+      "example": {
+        "ko": "네",
+        "roman": "ne",
+        "uz": "ha",
+        "en": "yes",
+        "audio": "278072cc710e.mp3"
+      },
+      "audio": "547caf5c3787.mp3"
+    },
+    {
+      "id": "ya",
+      "jamo": "ㅑ",
+      "kind": "vowel",
+      "roman": "ya",
+      "say": "야",
+      "name_ko": "야",
+      "tip_uz": "ㅏ ga ikkinchi chiziq \"y\" qo'shadi: \"ya\".",
+      "tip_en": "A second stroke adds \"y\" to ㅏ: \"ya\".",
+      "example": {
+        "ko": "야구",
+        "roman": "yagu",
+        "uz": "beysbol",
+        "en": "baseball",
+        "audio": "f25c2b8217b2.mp3"
+      },
+      "audio": "a25c2359c89f.mp3"
+    },
+    {
+      "id": "yeo",
+      "jamo": "ㅕ",
+      "kind": "vowel",
+      "roman": "yeo",
+      "say": "여",
+      "name_ko": "여",
+      "tip_uz": "ㅓ + \"y\": \"yo\"ga yaqin, lekin og'iz ochiq.",
+      "tip_en": "ㅓ with \"y\" before it, like \"yu\" in \"yum\" said deeper.",
+      "example": {
+        "ko": "여우",
+        "roman": "yeou",
+        "uz": "tulki",
+        "en": "fox",
+        "audio": "f113a7661df7.mp3"
+      },
+      "audio": "350aef27caf6.mp3"
+    },
+    {
+      "id": "yo",
+      "jamo": "ㅛ",
+      "kind": "vowel",
+      "roman": "yo",
+      "say": "요",
+      "name_ko": "요",
+      "tip_uz": "ㅗ + \"y\": lablar yumaloq \"yo\".",
+      "tip_en": "ㅗ with \"y\" before it: a rounded \"yo\".",
+      "example": {
+        "ko": "요요",
+        "roman": "yoyo",
+        "uz": "yo-yo (o'yinchoq)",
+        "en": "yo-yo",
+        "audio": "51c825e79387.mp3"
+      },
+      "audio": "c7aeee8c56e1.mp3"
+    },
+    {
+      "id": "yu",
+      "jamo": "ㅠ",
+      "kind": "vowel",
+      "roman": "yu",
+      "say": "유",
+      "name_ko": "유",
+      "tip_uz": "ㅜ + \"y\": \"yu\".",
+      "tip_en": "ㅜ with \"y\" before it: \"you\".",
+      "example": {
+        "ko": "유아",
+        "roman": "yua",
+        "uz": "go'dak",
+        "en": "toddler",
+        "audio": "bf56d35d4603.mp3"
+      },
+      "audio": "5e790572ed7c.mp3"
+    },
+    {
+      "id": "g",
+      "jamo": "ㄱ",
+      "kind": "consonant",
+      "roman": "g/k",
+      "say": "가",
+      "name_ko": "기역",
+      "tip_uz": "So'z boshida \"k\" bilan \"g\" orasida, unlilar orasida \"g\".",
+      "tip_en": "Between \"k\" and \"g\" at the start of a word, \"g\" between vowels.",
+      "example": {
+        "ko": "가구",
+        "roman": "gagu",
+        "uz": "mebel",
+        "en": "furniture",
+        "audio": "6806387fc04c.mp3"
+      },
+      "audio": "efea4b0d1016.mp3"
+    },
+    {
+      "id": "n",
+      "jamo": "ㄴ",
+      "kind": "consonant",
+      "roman": "n",
+      "say": "나",
+      "name_ko": "니은",
+      "tip_uz": "O'zbekcha \"n\".",
+      "tip_en": "Like \"n\".",
+      "example": {
+        "ko": "나무",
+        "roman": "namu",
+        "uz": "daraxt",
+        "en": "tree",
+        "audio": "e070d77b3bc8.mp3"
+      },
+      "audio": "d92fe9d0bfc0.mp3"
+    },
+    {
+      "id": "d",
+      "jamo": "ㄷ",
+      "kind": "consonant",
+      "roman": "d/t",
+      "say": "다",
+      "name_ko": "디귿",
+      "tip_uz": "So'z boshida \"t\"ga yaqin, unlilar orasida \"d\".",
+      "tip_en": "Close to \"t\" at the start of a word, \"d\" between vowels.",
+      "example": {
+        "ko": "다리",
+        "roman": "dari",
+        "uz": "oyoq; ko'prik",
+        "en": "leg; bridge",
+        "audio": "dc1496e113f4.mp3"
+      },
+      "audio": "e1f2855d1bfb.mp3"
+    },
+    {
+      "id": "r",
+      "jamo": "ㄹ",
+      "kind": "consonant",
+      "roman": "r/l",
+      "say": "라",
+      "name_ko": "리을",
+      "tip_uz": "Unlilar orasida yengil \"r\" (til bir marta tegadi), bo'g'in oxirida \"l\".",
+      "tip_en": "A light flapped \"r\" between vowels, \"l\" at the end of a syllable.",
+      "example": {
+        "ko": "라디오",
+        "roman": "radio",
+        "uz": "radio",
+        "en": "radio",
+        "audio": "da3e3ae72b03.mp3"
+      },
+      "audio": "facf9041de39.mp3"
+    },
+    {
+      "id": "m",
+      "jamo": "ㅁ",
+      "kind": "consonant",
+      "roman": "m",
+      "say": "마",
+      "name_ko": "미음",
+      "tip_uz": "O'zbekcha \"m\".",
+      "tip_en": "Like \"m\".",
+      "example": {
+        "ko": "머리",
+        "roman": "meori",
+        "uz": "bosh",
+        "en": "head",
+        "audio": "106bfa4435a1.mp3"
+      },
+      "audio": "92748d2b3737.mp3"
+    },
+    {
+      "id": "b",
+      "jamo": "ㅂ",
+      "kind": "consonant",
+      "roman": "b/p",
+      "say": "바",
+      "name_ko": "비읍",
+      "tip_uz": "So'z boshida \"p\"ga yaqin, unlilar orasida \"b\".",
+      "tip_en": "Close to \"p\" at the start of a word, \"b\" between vowels.",
+      "example": {
+        "ko": "바다",
+        "roman": "bada",
+        "uz": "dengiz",
+        "en": "sea",
+        "audio": "b7f45cd880d7.mp3"
+      },
+      "audio": "f64ad32d5caa.mp3"
+    },
+    {
+      "id": "s",
+      "jamo": "ㅅ",
+      "kind": "consonant",
+      "roman": "s",
+      "say": "사",
+      "name_ko": "시옷",
+      "tip_uz": "\"s\"; ㅣ oldidan \"sh\"ga o'xshaydi: 시 = \"shi\".",
+      "tip_en": "\"s\"; before ㅣ it sounds like \"sh\": 시 = \"shi\".",
+      "example": {
+        "ko": "사자",
+        "roman": "saja",
+        "uz": "sher",
+        "en": "lion",
+        "audio": "514162d01111.mp3"
+      },
+      "audio": "cc6a2a91c0bd.mp3"
+    },
+    {
+      "id": "ng",
+      "jamo": "ㅇ",
+      "kind": "consonant",
+      "roman": "– / ng",
+      "say": "아",
+      "name_ko": "이응",
+      "tip_uz": "Bo'g'in boshida tovushsiz (아 = \"a\"), bo'g'in oxirida \"ng\".",
+      "tip_en": "Silent at the start of a syllable (아 = \"a\"), \"ng\" at the end.",
+      "example": {
+        "ko": "아기",
+        "roman": "agi",
+        "uz": "chaqaloq",
+        "en": "baby",
+        "audio": "5e61375931d1.mp3"
+      },
+      "audio": "a02641043b56.mp3"
+    },
+    {
+      "id": "j",
+      "jamo": "ㅈ",
+      "kind": "consonant",
+      "roman": "j",
+      "say": "자",
+      "name_ko": "지읒",
+      "tip_uz": "\"j\" — o'zbekcha \"jo'ja\"dagi kabi, \"dj\"ga yaqin.",
+      "tip_en": "Like \"j\" in \"jam\".",
+      "example": {
+        "ko": "자리",
+        "roman": "jari",
+        "uz": "joy, o'rindiq",
+        "en": "seat",
+        "audio": "ca6432477a0e.mp3"
+      },
+      "audio": "a5a87d1eb1fb.mp3"
+    },
+    {
+      "id": "h",
+      "jamo": "ㅎ",
+      "kind": "consonant",
+      "roman": "h",
+      "say": "하",
+      "name_ko": "히읗",
+      "tip_uz": "O'zbekcha \"h\".",
+      "tip_en": "Like \"h\".",
+      "example": {
+        "ko": "하나",
+        "roman": "hana",
+        "uz": "bir",
+        "en": "one",
+        "audio": "d800fc992b92.mp3"
+      },
+      "audio": "e873cbb8cf8e.mp3"
+    },
+    {
+      "id": "k",
+      "jamo": "ㅋ",
+      "kind": "consonant",
+      "roman": "k",
+      "say": "카",
+      "name_ko": "키읔",
+      "tip_uz": "Kuchli havo chiqarib \"k\" deng — kaftingizda havoni sezasiz.",
+      "tip_en": "A \"k\" with a strong puff of air; you can feel it on your hand.",
+      "example": {
+        "ko": "코",
+        "roman": "ko",
+        "uz": "burun",
+        "en": "nose",
+        "audio": "240506707b0b.mp3"
+      },
+      "audio": "7d0aba5eb779.mp3"
+    },
+    {
+      "id": "t",
+      "jamo": "ㅌ",
+      "kind": "consonant",
+      "roman": "t",
+      "say": "타",
+      "name_ko": "티읕",
+      "tip_uz": "Kuchli havo bilan \"t\".",
+      "tip_en": "A \"t\" with a strong puff of air.",
+      "example": {
+        "ko": "토마토",
+        "roman": "tomato",
+        "uz": "pomidor",
+        "en": "tomato",
+        "audio": "bf9aacc1133b.mp3"
+      },
+      "audio": "0ab76db4f100.mp3"
+    },
+    {
+      "id": "p",
+      "jamo": "ㅍ",
+      "kind": "consonant",
+      "roman": "p",
+      "say": "파",
+      "name_ko": "피읖",
+      "tip_uz": "Kuchli havo bilan \"p\".",
+      "tip_en": "A \"p\" with a strong puff of air.",
+      "example": {
+        "ko": "포도",
+        "roman": "podo",
+        "uz": "uzum",
+        "en": "grapes",
+        "audio": "ad7cdcfa96c2.mp3"
+      },
+      "audio": "f70241fa2010.mp3"
+    },
+    {
+      "id": "ch",
+      "jamo": "ㅊ",
+      "kind": "consonant",
+      "roman": "ch",
+      "say": "차",
+      "name_ko": "치읓",
+      "tip_uz": "Kuchli havo bilan \"ch\".",
+      "tip_en": "A \"ch\" with a strong puff of air.",
+      "example": {
+        "ko": "차",
+        "roman": "cha",
+        "uz": "choy; mashina",
+        "en": "tea; car",
+        "audio": "78813cfe3f2d.mp3"
+      },
+      "audio": "78813cfe3f2d.mp3"
+    },
+    {
+      "id": "kk",
+      "jamo": "ㄲ",
+      "kind": "consonant",
+      "roman": "kk",
+      "say": "까",
+      "name_ko": "쌍기역",
+      "tip_uz": "Tarang \"k\": tomoqni qisib, havosiz, qattiq ayting.",
+      "tip_en": "A tense \"k\": tighten the throat and say it hard, with no puff of air.",
+      "example": {
+        "ko": "꼬리",
+        "roman": "kkori",
+        "uz": "dum",
+        "en": "tail",
+        "audio": "13cce7d861ef.mp3"
+      },
+      "audio": "514936ebb478.mp3"
+    },
+    {
+      "id": "tt",
+      "jamo": "ㄸ",
+      "kind": "consonant",
+      "roman": "tt",
+      "say": "따",
+      "name_ko": "쌍디귿",
+      "tip_uz": "Tarang \"t\", havosiz.",
+      "tip_en": "A tense \"t\", with no puff of air.",
+      "example": {
+        "ko": "또",
+        "roman": "tto",
+        "uz": "yana",
+        "en": "again",
+        "audio": "87ccc377160a.mp3"
+      },
+      "audio": "c3082be162c6.mp3"
+    },
+    {
+      "id": "pp",
+      "jamo": "ㅃ",
+      "kind": "consonant",
+      "roman": "pp",
+      "say": "빠",
+      "name_ko": "쌍비읍",
+      "tip_uz": "Tarang \"p\", havosiz.",
+      "tip_en": "A tense \"p\", with no puff of air.",
+      "example": {
+        "ko": "오빠",
+        "roman": "oppa",
+        "uz": "aka (qiz aytadi)",
+        "en": "older brother (said by a girl)",
+        "audio": "6ebeb98586a2.mp3"
+      },
+      "audio": "8e36252b0f4e.mp3"
+    },
+    {
+      "id": "ss",
+      "jamo": "ㅆ",
+      "kind": "consonant",
+      "roman": "ss",
+      "say": "싸",
+      "name_ko": "쌍시옷",
+      "tip_uz": "Tarang, cho'zilgan \"s\".",
+      "tip_en": "A tense, hissing \"s\".",
+      "example": {
+        "ko": "싸다",
+        "roman": "ssada",
+        "uz": "arzon",
+        "en": "cheap",
+        "audio": "8ec5b204a107.mp3"
+      },
+      "audio": "2386354b6af5.mp3"
+    },
+    {
+      "id": "jj",
+      "jamo": "ㅉ",
+      "kind": "consonant",
+      "roman": "jj",
+      "say": "짜",
+      "name_ko": "쌍지읒",
+      "tip_uz": "Tarang \"j\", havosiz.",
+      "tip_en": "A tense \"j\", with no puff of air.",
+      "example": {
+        "ko": "짜다",
+        "roman": "jjada",
+        "uz": "sho'r",
+        "en": "salty",
+        "audio": "61ccac97d232.mp3"
+      },
+      "audio": "c5451d18aaef.mp3"
+    },
+    {
+      "id": "yae",
+      "jamo": "ㅒ",
+      "kind": "vowel",
+      "roman": "yae",
+      "say": "얘",
+      "name_ko": "얘",
+      "tip_uz": "ㅐ + \"y\": \"ye\". Kam uchraydi.",
+      "tip_en": "ㅐ with \"y\" before it: \"ye\". It is rare.",
+      "example": {
+        "ko": "얘기",
+        "roman": "yaegi",
+        "uz": "gap, suhbat",
+        "en": "talk, story",
+        "audio": "5e1d88141ab2.mp3"
+      },
+      "audio": "076190d432e7.mp3"
+    },
+    {
+      "id": "ye",
+      "jamo": "ㅖ",
+      "kind": "vowel",
+      "roman": "ye",
+      "say": "예",
+      "name_ko": "예",
+      "tip_uz": "ㅔ + \"y\": \"ye\".",
+      "tip_en": "ㅔ with \"y\" before it: \"ye\".",
+      "example": {
+        "ko": "시계",
+        "roman": "sigye",
+        "uz": "soat",
+        "en": "clock",
+        "audio": "e5ea97f4728f.mp3"
+      },
+      "audio": "242fa36f157c.mp3"
+    },
+    {
+      "id": "wa",
+      "jamo": "ㅘ",
+      "kind": "vowel",
+      "roman": "wa",
+      "say": "와",
+      "name_ko": "와",
+      "tip_uz": "ㅗ + ㅏ: lablar \"u\" holatidan boshlab \"va\" (o'zbekcha \"v\" emas).",
+      "tip_en": "ㅗ + ㅏ: \"wa\", as in \"water\".",
+      "example": {
+        "ko": "사과",
+        "roman": "sagwa",
+        "uz": "olma",
+        "en": "apple",
+        "audio": "f784ad2c9a93.mp3"
+      },
+      "audio": "13e925cc702a.mp3"
+    },
+    {
+      "id": "wae",
+      "jamo": "ㅙ",
+      "kind": "vowel",
+      "roman": "wae",
+      "say": "왜",
+      "name_ko": "왜",
+      "tip_uz": "ㅗ + ㅐ: \"ve\" (lablar yumaloqdan boshlanadi).",
+      "tip_en": "ㅗ + ㅐ: \"we\" as in \"wet\".",
+      "example": {
+        "ko": "왜",
+        "roman": "wae",
+        "uz": "nega",
+        "en": "why",
+        "audio": "7905aa9c0262.mp3"
+      },
+      "audio": "7905aa9c0262.mp3"
+    },
+    {
+      "id": "oe",
+      "jamo": "ㅚ",
+      "kind": "vowel",
+      "roman": "oe",
+      "say": "외",
+      "name_ko": "외",
+      "tip_uz": "Bugun ㅙ kabi \"ve\" deb aytiladi.",
+      "tip_en": "Today it is said like ㅙ: \"we\".",
+      "example": {
+        "ko": "회사",
+        "roman": "hoesa",
+        "uz": "kompaniya",
+        "en": "company",
+        "audio": "70641ecb6999.mp3"
+      },
+      "audio": "0ea4c07d4baa.mp3"
+    },
+    {
+      "id": "wo",
+      "jamo": "ㅝ",
+      "kind": "vowel",
+      "roman": "wo",
+      "say": "워",
+      "name_ko": "워",
+      "tip_uz": "ㅜ + ㅓ: \"vo\" (lablar \"u\"dan boshlanadi).",
+      "tip_en": "ㅜ + ㅓ: \"wo\" as in \"won\".",
+      "example": {
+        "ko": "뭐",
+        "roman": "mwo",
+        "uz": "nima",
+        "en": "what",
+        "audio": "05b4ece9a961.mp3"
+      },
+      "audio": "1f502b4d9aa5.mp3"
+    },
+    {
+      "id": "we",
+      "jamo": "ㅞ",
+      "kind": "vowel",
+      "roman": "we",
+      "say": "웨",
+      "name_ko": "웨",
+      "tip_uz": "ㅜ + ㅔ: \"ve\".",
+      "tip_en": "ㅜ + ㅔ: \"we\" as in \"wet\".",
+      "example": {
+        "ko": "웨이터",
+        "roman": "weiteo",
+        "uz": "ofitsiant",
+        "en": "waiter",
+        "audio": "6f8301495122.mp3"
+      },
+      "audio": "c1bb50312b96.mp3"
+    },
+    {
+      "id": "wi",
+      "jamo": "ㅟ",
+      "kind": "vowel",
+      "roman": "wi",
+      "say": "위",
+      "name_ko": "위",
+      "tip_uz": "ㅜ + ㅣ: \"vi\" (lablar \"u\"dan boshlanadi).",
+      "tip_en": "ㅜ + ㅣ: \"wee\".",
+      "example": {
+        "ko": "위",
+        "roman": "wi",
+        "uz": "ust, tepa",
+        "en": "top, above",
+        "audio": "62bee4882bb5.mp3"
+      },
+      "audio": "62bee4882bb5.mp3"
+    },
+    {
+      "id": "ui",
+      "jamo": "ㅢ",
+      "kind": "vowel",
+      "roman": "ui",
+      "say": "의",
+      "name_ko": "의",
+      "tip_uz": "ㅡ + ㅣ. So'z boshida ikkalasi tez ketma-ket, boshqa joyda ko'pincha oddiy \"i\".",
+      "tip_en": "ㅡ + ㅣ said quickly at the start of a word; elsewhere often just \"i\".",
+      "example": {
+        "ko": "의사",
+        "roman": "uisa",
+        "uz": "shifokor",
+        "en": "doctor",
+        "audio": "790fb92e1d8e.mp3"
+      },
+      "audio": "5a85656f01aa.mp3"
+    },
+    {
+      "id": "f_k",
+      "jamo": "ㄱ",
+      "kind": "final",
+      "roman": "k",
+      "say": "악",
+      "name_ko": "기역",
+      "tip_uz": "Bo'g'in oxirida ㄱ, ㅋ, ㄲ hammasi qisqa \"k\": havo chiqmaydi, til to'xtab qoladi.",
+      "tip_en": "At the end of a syllable ㄱ, ㅋ and ㄲ are all a short, unreleased \"k\".",
+      "example": {
+        "ko": "책",
+        "roman": "chaek",
+        "uz": "kitob",
+        "en": "book",
+        "audio": "a7ae3b4966c1.mp3"
+      },
+      "audio": "3b8becff9288.mp3"
+    },
+    {
+      "id": "f_n",
+      "jamo": "ㄴ",
+      "kind": "final",
+      "roman": "n",
+      "say": "안",
+      "name_ko": "니은",
+      "tip_uz": "Oxirida \"n\".",
+      "tip_en": "\"n\" at the end of a syllable.",
+      "example": {
+        "ko": "산",
+        "roman": "san",
+        "uz": "tog'",
+        "en": "mountain",
+        "audio": "a676895c3d69.mp3"
+      },
+      "audio": "7b683c1e29b0.mp3"
+    },
+    {
+      "id": "f_t",
+      "jamo": "ㄷ",
+      "kind": "final",
+      "roman": "t",
+      "say": "앋",
+      "name_ko": "디귿",
+      "tip_uz": "Oxirida ㄷ, ㅅ, ㅆ, ㅈ, ㅊ, ㅌ, ㅎ hammasi qisqa \"t\": havo chiqmaydi.",
+      "tip_en": "At the end of a syllable ㄷ, ㅅ, ㅆ, ㅈ, ㅊ, ㅌ and ㅎ are all a short, unreleased \"t\".",
+      "example": {
+        "ko": "곧",
+        "roman": "got",
+        "uz": "tez orada",
+        "en": "soon",
+        "audio": "40e62f015acb.mp3"
+      },
+      "audio": "bdf5fb3bd888.mp3"
+    },
+    {
+      "id": "f_l",
+      "jamo": "ㄹ",
+      "kind": "final",
+      "roman": "l",
+      "say": "알",
+      "name_ko": "리을",
+      "tip_uz": "Oxirida \"l\".",
+      "tip_en": "\"l\" at the end of a syllable.",
+      "example": {
+        "ko": "물",
+        "roman": "mul",
+        "uz": "suv",
+        "en": "water",
+        "audio": "b67540306646.mp3"
+      },
+      "audio": "bb6e636b0fbf.mp3"
+    },
+    {
+      "id": "f_m",
+      "jamo": "ㅁ",
+      "kind": "final",
+      "roman": "m",
+      "say": "암",
+      "name_ko": "미음",
+      "tip_uz": "Oxirida \"m\".",
+      "tip_en": "\"m\" at the end of a syllable.",
+      "example": {
+        "ko": "밤",
+        "roman": "bam",
+        "uz": "tun",
+        "en": "night",
+        "audio": "4cbed51ac3a3.mp3"
+      },
+      "audio": "1e849ade8d6f.mp3"
+    },
+    {
+      "id": "f_p",
+      "jamo": "ㅂ",
+      "kind": "final",
+      "roman": "p",
+      "say": "압",
+      "name_ko": "비읍",
+      "tip_uz": "Oxirida ㅂ, ㅍ qisqa \"p\": lablar yopiq qoladi.",
+      "tip_en": "At the end of a syllable ㅂ and ㅍ are a short \"p\" with the lips kept closed.",
+      "example": {
+        "ko": "집",
+        "roman": "jip",
+        "uz": "uy",
+        "en": "house",
+        "audio": "856b607a7860.mp3"
+      },
+      "audio": "2a5ce6f932b8.mp3"
+    },
+    {
+      "id": "f_ng",
+      "jamo": "ㅇ",
+      "kind": "final",
+      "roman": "ng",
+      "say": "앙",
+      "name_ko": "이응",
+      "tip_uz": "Oxirida \"ng\" — o'zbekcha \"ming\"dagi kabi.",
+      "tip_en": "\"ng\" as in \"sing\".",
+      "example": {
+        "ko": "방",
+        "roman": "bang",
+        "uz": "xona",
+        "en": "room",
+        "audio": "e0567f9fbef6.mp3"
+      },
+      "audio": "351706fcb3cd.mp3"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "b1_u01_l1",
+      "letters": [
+        "a",
+        "eo",
+        "o",
+        "u",
+        "eu",
+        "i",
+        "ae",
+        "e",
+        "ya",
+        "yeo",
+        "yo",
+        "yu"
+      ]
+    },
+    {
+      "id": "b1_u01_l2",
+      "letters": [
+        "g",
+        "n",
+        "d",
+        "r",
+        "m",
+        "b",
+        "s",
+        "ng",
+        "j",
+        "h"
+      ]
+    },
+    {
+      "id": "b1_u01_l3",
+      "letters": [
+        "k",
+        "t",
+        "p",
+        "ch",
+        "kk",
+        "tt",
+        "pp",
+        "ss",
+        "jj"
+      ]
+    },
+    {
+      "id": "b1_u01_l4",
+      "letters": [
+        "yae",
+        "ye",
+        "wa",
+        "wae",
+        "oe",
+        "wo",
+        "we",
+        "wi",
+        "ui"
+      ]
+    },
+    {
+      "id": "b1_u01_l5",
+      "letters": [
+        "f_k",
+        "f_n",
+        "f_t",
+        "f_l",
+        "f_m",
+        "f_p",
+        "f_ng"
+      ]
+    }
+  ]
+}

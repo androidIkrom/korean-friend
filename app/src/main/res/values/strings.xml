@@ -385,4 +385,13 @@
     <string name="final_level2">TOPIK I 2-daraja darajasida</string>
     <string name="final_level1">TOPIK I 1-daraja darajasida</string>
     <string name="final_level0">Hali erta — darslarni takrorlang</string>
+    <string name="ex_letter_sound_prompt">Bu harf qanday o\'qiladi?</string>
+    <string name="ex_letter_listen_prompt">Eshiting va harfni tanlang</string>
+    <string name="ex_letter_listen_final_prompt">Eshiting: bo\'g\'in oxirida qaysi harf?</string>
+    <string name="ex_read_word_prompt">Bu so\'z qanday o\'qiladi?</string>
+    <string name="ex_build_syllable_prompt">Shu bo\'g\'inni harflardan yig\'ing</string>
+    <string name="ex_build_initial">Bosh undosh</string>
+    <string name="ex_build_vowel">Unli</string>
+    <string name="ex_build_final">Oxirgi undosh (받침)</string>
+    <string name="hangul_final_label">받침 · bo\'g\'in oxiri</string>
 </resources>

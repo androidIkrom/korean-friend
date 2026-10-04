@@ -4,6 +4,7 @@ import java.time.Clock
 import java.time.LocalDate
 import kotlinx.coroutines.flow.Flow
 import uz.hangulfriend.content.Word
+import uz.hangulfriend.content.label
 import uz.hangulfriend.i18n.AppLanguage
 import uz.hangulfriend.study.ExerciseItem
 import uz.hangulfriend.study.LessonId
@@ -21,6 +22,10 @@ fun flagRef(item: ExerciseItem): String = when (item) {
     is ExerciseItem.ListenChoose -> item.word.id
     is ExerciseItem.Dictation -> item.word.id
     is ExerciseItem.Speak -> item.ko
+    is ExerciseItem.LetterSound -> item.letter.cardItemId
+    is ExerciseItem.LetterListen -> item.letter.cardItemId
+    is ExerciseItem.ReadWord -> item.letter.cardItemId
+    is ExerciseItem.BuildSyllable -> item.target.toString()
     is ExerciseItem.Match -> item.words.joinToString(",") { it.id }
     is ExerciseItem.Authored -> item.exercise.id
 }
@@ -35,6 +40,10 @@ fun flagSnapshot(item: ExerciseItem, lang: AppLanguage = AppLanguage.UZ): String
     is ExerciseItem.ListenChoose -> item.word.pair()
     is ExerciseItem.Dictation -> item.word.pair()
     is ExerciseItem.Speak -> "${item.ko} — ${item.uz}"
+    is ExerciseItem.LetterSound -> item.letter.label()
+    is ExerciseItem.LetterListen -> item.letter.label()
+    is ExerciseItem.ReadWord -> "${item.letter.example.ko} — ${item.letter.example.roman} — ${item.letter.example.uz}"
+    is ExerciseItem.BuildSyllable -> item.target.toString()
     is ExerciseItem.Match -> item.words.joinToString("; ") { it.pair() }
     is ExerciseItem.Authored -> {
         val e = item.exercise

@@ -2,6 +2,7 @@ package uz.hangulfriend.study
 
 import uz.hangulfriend.content.Exercise
 import uz.hangulfriend.content.Lesson
+import uz.hangulfriend.content.Letter
 import uz.hangulfriend.content.Word
 import uz.hangulfriend.data.CardIds
 import uz.hangulfriend.data.CardKind
@@ -48,6 +49,40 @@ sealed interface ExerciseItem {
     data class Match(val words: List<Word>) : ExerciseItem {
         override val typeKey get() = "match"
         override val cardIds get() = words.map { CardIds.of(it.id, CardKind.RECOGNIZE) }
+    }
+
+    /** Hear [letter], pick its jamo among [options] ([letter] included). */
+    data class LetterListen(val letter: Letter, val options: List<Letter>) : ExerciseItem {
+        override val typeKey get() = "letter_listen"
+        override val cardIds get() = listOf(CardIds.of(letter.cardItemId, CardKind.RECOGNIZE))
+    }
+
+    /** See [letter], pick its romanization among [options] ([letter] included). */
+    data class LetterSound(val letter: Letter, val options: List<Letter>) : ExerciseItem {
+        override val typeKey get() = "letter_sound"
+        override val cardIds get() = listOf(CardIds.of(letter.cardItemId, CardKind.RECOGNIZE))
+    }
+
+    /** Read the example word of [letter], pick its romanization among the examples of [options]. */
+    data class ReadWord(val letter: Letter, val options: List<Letter>) : ExerciseItem {
+        override val typeKey get() = "read_word"
+        override val cardIds get() = listOf(CardIds.of(letter.cardItemId, CardKind.RECOGNIZE))
+    }
+
+    /**
+     * Build [target] by tapping one of [initials], one of [medials] and, when [finals] is not empty, one of
+     * [finals]. [letters] are the target's parts taught in this lesson; their cards are graded.
+     */
+    data class BuildSyllable(
+        val target: Char,
+        val letters: List<Letter>,
+        val initials: List<Char>,
+        val medials: List<Char>,
+        val finals: List<Char>,
+        val audio: String? = null,
+    ) : ExerciseItem {
+        override val typeKey get() = "build_syllable"
+        override val cardIds get() = letters.map { CardIds.of(it.cardItemId, CardKind.RECOGNIZE) }
     }
 
     data class Authored(val exercise: Exercise, override val cardIds: List<String>) : ExerciseItem {

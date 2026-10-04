@@ -62,6 +62,10 @@ private fun ExerciseBody(item: ExerciseItem, onResult: (ExerciseOutcome) -> Unit
         is ExerciseItem.WordChoose -> WordChooseView(item.word, item.options, onResult, onNext)
         is ExerciseItem.ListenChoose -> ListenChooseView(item.word, item.options, onResult, onNext)
         is ExerciseItem.Dictation -> DictationView(item.word, onResult, onNext)
+        is ExerciseItem.LetterSound -> LetterSoundView(item, onResult, onNext)
+        is ExerciseItem.LetterListen -> LetterListenView(item, onResult, onNext)
+        is ExerciseItem.ReadWord -> ReadWordView(item, onResult, onNext)
+        is ExerciseItem.BuildSyllable -> BuildSyllableView(item, onResult, onNext)
         is ExerciseItem.Speak -> SpeakView(item.ko, item.uz, item.audio, onResult, onNext)
         is ExerciseItem.Authored -> {
             val e = item.exercise

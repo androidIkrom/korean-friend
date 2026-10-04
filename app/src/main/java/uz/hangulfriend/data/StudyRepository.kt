@@ -4,6 +4,7 @@ import androidx.room.withTransaction
 import java.time.Clock
 import java.time.Instant
 import uz.hangulfriend.content.Lesson
+import uz.hangulfriend.content.isHangul
 import uz.hangulfriend.srs.CardState
 import uz.hangulfriend.srs.FsrsScheduler
 import uz.hangulfriend.srs.Rating
@@ -18,8 +19,13 @@ class StudyRepository(
 
     suspend fun ensureCards(lesson: Lesson, lessonOrder: Int, origin: CardOrigin) {
         val srs = scheduler.newCard(clock.instant())
-        val items = lesson.words.flatMap { listOf(it.id to CardKind.RECOGNIZE, it.id to CardKind.PRODUCE) } +
-            lesson.grammar.map { it.id to CardKind.GRAMMAR }
+        // Letters are only recognized; typing a lone jamo is not a skill worth scheduling.
+        val items = if (lesson.isHangul) {
+            lesson.words.map { it.id to CardKind.RECOGNIZE }
+        } else {
+            lesson.words.flatMap { listOf(it.id to CardKind.RECOGNIZE, it.id to CardKind.PRODUCE) } +
+                lesson.grammar.map { it.id to CardKind.GRAMMAR }
+        }
         val fresh = items.map { (itemId, kind) ->
             CardEntity(
                 id = CardIds.of(itemId, kind),

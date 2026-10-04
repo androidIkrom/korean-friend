@@ -29,6 +29,15 @@ object Hangul {
         )
     }
 
+    /** The syllable of [initial] + [medial] (+ [final]), or null when a part cannot take that place. */
+    fun compose(initial: Char, medial: Char, final: Char? = null): Char? {
+        val i = INITIALS.indexOf(initial)
+        val m = MEDIALS.indexOf(medial)
+        val f = if (final == null) 0 else FINALS.indexOf(final) + 1
+        if (i < 0 || m < 0 || (final != null && f == 0)) return null
+        return (BASE + i * 588 + m * 28 + f).toChar()
+    }
+
     fun jamo(s: String): List<Char> = buildList {
         for (c in s) {
             val p = parts(c)

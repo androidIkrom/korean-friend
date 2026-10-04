@@ -45,6 +45,7 @@ import uz.hangulfriend.R
 import uz.hangulfriend.content.ContentRepository
 import uz.hangulfriend.content.Exercise
 import uz.hangulfriend.content.Word
+import uz.hangulfriend.content.isHangulLesson
 import uz.hangulfriend.data.GameRepository
 import uz.hangulfriend.data.SettingsRepository
 import uz.hangulfriend.study.GameRules
@@ -80,7 +81,7 @@ class GamesViewModel(
     private val game: GameRepository,
     private val settings: SettingsRepository,
 ) : ViewModel() {
-    private val lessons = content.catalog().filter { content.isAvailable(it.id) }.mapNotNull { content.lesson(it.id) }
+    private val lessons = content.catalog().filter { content.isAvailable(it.id) && !isHangulLesson(it.id) }.mapNotNull { content.lesson(it.id) }
     val words: List<Word> = lessons.flatMap { it.words }
     val exercises: List<Exercise> = lessons.flatMap { it.exercises }
 

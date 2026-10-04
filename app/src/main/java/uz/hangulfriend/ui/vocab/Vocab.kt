@@ -60,6 +60,7 @@ import kotlinx.coroutines.withContext
 import uz.hangulfriend.R
 import uz.hangulfriend.content.ContentRepository
 import uz.hangulfriend.content.Word
+import uz.hangulfriend.content.isHangulLesson
 import uz.hangulfriend.data.AppDatabase
 import uz.hangulfriend.data.USER_LESSON_ID
 import uz.hangulfriend.data.UserWordRepository
@@ -118,7 +119,7 @@ class VocabViewModel(
     init {
         viewModelScope.launch {
             val loaded = withContext(Dispatchers.IO) {
-                content.catalog().filter { content.isAvailable(it.id) }.mapNotNull { e ->
+                content.catalog().filter { content.isAvailable(it.id) && !isHangulLesson(it.id) }.mapNotNull { e ->
                     content.lesson(e.id)?.let { lesson -> LessonChip(e.id, e.code) to lesson.words }
                 }
             }

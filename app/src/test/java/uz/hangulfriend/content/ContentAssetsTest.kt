@@ -9,9 +9,38 @@ import org.junit.Test
 class ContentAssetsTest {
     private val repo = ContentRepository(DirAssetSource(File("src/main/assets")), strict = true)
     private val catalog = repo.catalog()
-    private val lessons = catalog.filter { repo.isAvailable(it.id) }.map { repo.lesson(it.id)!! }
+    /** Book lessons; the Hangul course is checked on its own below. */
+    private val lessons = catalog.filter { repo.isAvailable(it.id) && !isHangulLesson(it.id) }.map { repo.lesson(it.id)!! }
 
-    @Test fun catalogHas18Lessons() = assertEquals(18, catalog.size)
+    @Test fun catalogHas18Lessons() = assertEquals(18, catalog.count { it.book == 2 })
+
+    @Test fun hangulCourseIsComplete() {
+        val course = repo.hangul()!!
+        val ids = course.letters.map { it.id }
+        assertEquals("unique letter ids", ids.size, ids.toSet().size)
+        assertEquals((1..5).map { "b1_u01_l$it" }, course.lessons.map { it.id })
+        assertEquals(course.lessons.map { it.id }, catalog.filter { isHangulLesson(it.id) }.map { it.id })
+        course.lessons.forEach { l -> l.letters.forEach { assertTrue("${l.id}: unknown letter $it", it in ids) } }
+        assertEquals("every letter taught once", ids.sorted(), course.lessons.flatMap { it.letters }.sorted())
+        val dir = File("src/main/assets/audio")
+        for (letter in course.letters) {
+            assertTrue("${letter.id}: kind", letter.kind in setOf(LetterKind.VOWEL, LetterKind.CONSONANT, LetterKind.FINAL))
+            assertTrue("${letter.id}: English", letter.tipEn != null && letter.example.en != null)
+            assertTrue("${letter.id}: audio", letter.audio?.let { File(dir, it).isFile } == true)
+            assertTrue("${letter.id}: example audio", letter.example.audio?.let { File(dir, it).isFile } == true)
+            assertTrue("${letter.id}: example has the letter", letter.jamo.single() in uz.hangulfriend.hangul.Hangul.jamo(letter.example.ko))
+        }
+        course.letters.groupBy { it.kind }.values.forEach { same ->
+            assertEquals("romanization unique per kind", same.size, same.map { it.roman }.toSet().size)
+        }
+    }
+
+    @Test fun hangulLessonsAreLetterLessons() {
+        val l = repo.lesson("b1_u01_l2")!!
+        assertEquals(10, l.words.size)
+        assertTrue(l.words.all { it.id.startsWith(HANGUL_ITEM_PREFIX) && it.audio != null })
+        assertEquals("ㄱ", l.words.first().ko)
+    }
 
     @Test fun unit2IsWritten() =
         assertTrue(listOf("u02_l1", "u02_l2").all { id -> lessons.any { it.id == id } })
