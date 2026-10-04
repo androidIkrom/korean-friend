@@ -1,0 +1,1448 @@
+{
+  "id": "b1_u04_l2",
+  "unit": 4,
+  "lesson": 2,
+  "title_ko": "휴지가 있어요?",
+  "title_uz": "Salfetka bormi?",
+  "title_en": "Do you have any tissues?",
+  "topic_uz": "Narsalar",
+  "topic_en": "Items and objects",
+  "reviewed": false,
+  "words": [
+    {
+      "id": "b1_u04_l2_w001",
+      "ko": "휴지",
+      "uz": "salfetka, qog'oz sochiq",
+      "en": "tissue",
+      "pos": "ot",
+      "example_ko": "휴지가 있어요?",
+      "example_uz": "Salfetka bormi?",
+      "example_en": "Do you have any tissues?",
+      "audio": "342865168335.mp3",
+      "example_audio": "9c20601bd941.mp3"
+    },
+    {
+      "id": "b1_u04_l2_w002",
+      "ko": "물티슈",
+      "uz": "nam salfetka",
+      "en": "wet wipe",
+      "pos": "ot",
+      "example_ko": "물티슈가 없어요.",
+      "example_uz": "Nam salfetka yo'q.",
+      "example_en": "There are no wet wipes.",
+      "audio": "321e133eff65.mp3",
+      "example_audio": "3c0245177ee1.mp3"
+    },
+    {
+      "id": "b1_u04_l2_w003",
+      "ko": "거울",
+      "uz": "ko'zgu",
+      "en": "mirror",
+      "pos": "ot",
+      "example_ko": "이 거울은 작아요.",
+      "example_uz": "Bu ko'zgu kichkina.",
+      "example_en": "This mirror is small.",
+      "audio": "9a8c0b124741.mp3",
+      "example_audio": "06accaff74f5.mp3"
+    },
+    {
+      "id": "b1_u04_l2_w004",
+      "ko": "빗",
+      "uz": "taroq",
+      "en": "comb",
+      "pos": "ot",
+      "example_ko": "빗이 있어요?",
+      "example_uz": "Taroq bormi?",
+      "example_en": "Do you have a comb?",
+      "audio": "aeed092a69fc.mp3",
+      "example_audio": "58e8d3da019c.mp3"
+    },
+    {
+      "id": "b1_u04_l2_w005",
+      "ko": "칫솔",
+      "uz": "tish cho'tkasi",
+      "en": "toothbrush",
+      "pos": "ot",
+      "example_ko": "그 칫솔은 새 거예요.",
+      "example_uz": "U tish cho'tkasi yangi.",
+      "example_en": "That toothbrush is new.",
+      "audio": "3d3edfe97f67.mp3",
+      "example_audio": "4ba5662d2fcf.mp3"
+    },
+    {
+      "id": "b1_u04_l2_w006",
+      "ko": "치약",
+      "uz": "tish pastasi",
+      "en": "toothpaste",
+      "pos": "ot",
+      "example_ko": "치약이 없어요.",
+      "example_uz": "Tish pastasi yo'q.",
+      "example_en": "There's no toothpaste.",
+      "audio": "246749ce8601.mp3",
+      "example_audio": "3208805423ef.mp3"
+    },
+    {
+      "id": "b1_u04_l2_w007",
+      "ko": "비누",
+      "uz": "sovun",
+      "en": "soap",
+      "pos": "ot",
+      "example_ko": "이 비누는 좋아요.",
+      "example_uz": "Bu sovun yaxshi.",
+      "example_en": "This soap is good.",
+      "audio": "130af008e2a8.mp3",
+      "example_audio": "94f3bf2d88f7.mp3"
+    },
+    {
+      "id": "b1_u04_l2_w008",
+      "ko": "수건",
+      "uz": "sochiq",
+      "en": "towel",
+      "pos": "ot",
+      "example_ko": "수건 있어요?",
+      "example_uz": "Sochiq bormi?",
+      "example_en": "Do you have a towel?",
+      "audio": "89d0322fece8.mp3",
+      "example_audio": "c6f681f7c01f.mp3"
+    },
+    {
+      "id": "b1_u04_l2_w009",
+      "ko": "컵",
+      "uz": "stakan, chashka",
+      "en": "cup",
+      "pos": "ot",
+      "example_ko": "저 컵은 누구 거예요?",
+      "example_uz": "Anavi stakan kimniki?",
+      "example_en": "Whose cup is that?",
+      "audio": "6cc0d0fc87b5.mp3",
+      "example_audio": "29194b691eac.mp3"
+    },
+    {
+      "id": "b1_u04_l2_w010",
+      "ko": "접시",
+      "uz": "likopcha",
+      "en": "plate",
+      "pos": "ot",
+      "example_ko": "접시가 있어요.",
+      "example_uz": "Likopcha bor.",
+      "example_en": "There's a plate.",
+      "audio": "5fa2ed41d1b8.mp3",
+      "example_audio": "b7e7f17ed916.mp3"
+    },
+    {
+      "id": "b1_u04_l2_w011",
+      "ko": "숟가락",
+      "uz": "qoshiq",
+      "en": "spoon",
+      "pos": "ot",
+      "example_ko": "숟가락 있어요?",
+      "example_uz": "Qoshiq bormi?",
+      "example_en": "Is there a spoon?",
+      "audio": "4b80bdb26b7d.mp3",
+      "example_audio": "84033814216e.mp3"
+    },
+    {
+      "id": "b1_u04_l2_w012",
+      "ko": "젓가락",
+      "uz": "cho'p (tayoqcha)",
+      "en": "chopsticks",
+      "pos": "ot",
+      "example_ko": "젓가락이 없어요.",
+      "example_uz": "Cho'p yo'q.",
+      "example_en": "There are no chopsticks.",
+      "audio": "32950dce8e57.mp3",
+      "example_audio": "5e8d460b9438.mp3"
+    },
+    {
+      "id": "b1_u04_l2_w013",
+      "ko": "가위",
+      "uz": "qaychi",
+      "en": "scissors",
+      "pos": "ot",
+      "example_ko": "이 가위는 선생님 거예요.",
+      "example_uz": "Bu qaychi o'qituvchiniki.",
+      "example_en": "These scissors are the teacher's.",
+      "audio": "dd742163afa9.mp3",
+      "example_audio": "132b98713e74.mp3"
+    },
+    {
+      "id": "b1_u04_l2_w014",
+      "ko": "종이",
+      "uz": "qog'oz",
+      "en": "paper",
+      "pos": "ot",
+      "example_ko": "종이가 있어요?",
+      "example_uz": "Qog'oz bormi?",
+      "example_en": "Is there any paper?",
+      "audio": "be5a667420ca.mp3",
+      "example_audio": "2291e5101e09.mp3"
+    },
+    {
+      "id": "b1_u04_l2_w015",
+      "ko": "달력",
+      "uz": "kalendar",
+      "en": "calendar",
+      "pos": "ot",
+      "example_ko": "저 달력은 예뻐요.",
+      "example_uz": "Anavi kalendar chiroyli.",
+      "example_en": "That calendar over there is pretty.",
+      "audio": "724df7793178.mp3",
+      "example_audio": "a4dd6974a513.mp3"
+    },
+    {
+      "id": "b1_u04_l2_w016",
+      "ko": "신문",
+      "uz": "gazeta",
+      "en": "newspaper",
+      "pos": "ot",
+      "example_ko": "그 신문은 오늘 신문이에요.",
+      "example_uz": "U gazeta bugungi.",
+      "example_en": "That newspaper is today's.",
+      "audio": "2d4c0fc22577.mp3",
+      "example_audio": "9d3c877ee241.mp3"
+    },
+    {
+      "id": "b1_u04_l2_w017",
+      "ko": "텔레비전",
+      "uz": "televizor",
+      "en": "television",
+      "pos": "ot",
+      "example_ko": "방에 텔레비전이 없어요.",
+      "example_uz": "Xonada televizor yo'q.",
+      "example_en": "There's no TV in the room.",
+      "audio": "0541f8ffb587.mp3",
+      "example_audio": "ff312c207743.mp3"
+    },
+    {
+      "id": "b1_u04_l2_w018",
+      "ko": "냉장고",
+      "uz": "muzlatgich",
+      "en": "refrigerator",
+      "pos": "ot",
+      "example_ko": "냉장고에 물이 있어요.",
+      "example_uz": "Muzlatgichda suv bor.",
+      "example_en": "There's water in the fridge.",
+      "audio": "5d45d439217b.mp3",
+      "example_audio": "5424ff73f1c1.mp3"
+    },
+    {
+      "id": "b1_u04_l2_w019",
+      "ko": "침대",
+      "uz": "karavot",
+      "en": "bed",
+      "pos": "ot",
+      "example_ko": "이 침대는 커요.",
+      "example_uz": "Bu karavot katta.",
+      "example_en": "This bed is big.",
+      "audio": "ea2e4b16a52b.mp3",
+      "example_audio": "4b2f0d399acf.mp3"
+    },
+    {
+      "id": "b1_u04_l2_w020",
+      "ko": "옷",
+      "uz": "kiyim",
+      "en": "clothes",
+      "pos": "ot",
+      "example_ko": "옷이 많이 있어요.",
+      "example_uz": "Kiyim ko'p.",
+      "example_en": "There are a lot of clothes.",
+      "audio": "29c7008110fb.mp3",
+      "example_audio": "03dd01af42df.mp3"
+    },
+    {
+      "id": "b1_u04_l2_w021",
+      "ko": "신발",
+      "uz": "poyabzal",
+      "en": "shoes",
+      "pos": "ot",
+      "example_ko": "그 신발은 제 거예요.",
+      "example_uz": "U poyabzal meniki.",
+      "example_en": "Those shoes are mine.",
+      "audio": "35f063449f24.mp3",
+      "example_audio": "c55ee39cfc19.mp3"
+    },
+    {
+      "id": "b1_u04_l2_w022",
+      "ko": "양말",
+      "uz": "paypoq",
+      "en": "socks",
+      "pos": "ot",
+      "example_ko": "양말이 없어요.",
+      "example_uz": "Paypoq yo'q.",
+      "example_en": "There are no socks.",
+      "audio": "bdcd5f6f8c5e.mp3",
+      "example_audio": "95aa5c26d143.mp3"
+    },
+    {
+      "id": "b1_u04_l2_w023",
+      "ko": "돈",
+      "uz": "pul",
+      "en": "money",
+      "pos": "ot",
+      "example_ko": "돈이 있어요?",
+      "example_uz": "Pulingiz bormi?",
+      "example_en": "Do you have money?",
+      "audio": "2e4e0ae39ab1.mp3",
+      "example_audio": "2bb06ffec68d.mp3"
+    },
+    {
+      "id": "b1_u04_l2_w024",
+      "ko": "카드",
+      "uz": "karta",
+      "en": "card",
+      "pos": "ot",
+      "example_ko": "카드가 없어요.",
+      "example_uz": "Kartam yo'q.",
+      "example_en": "I don't have a card.",
+      "audio": "ec9c271e4683.mp3",
+      "example_audio": "7a54f4168381.mp3"
+    },
+    {
+      "id": "b1_u04_l2_w025",
+      "ko": "시간",
+      "uz": "vaqt",
+      "en": "time",
+      "pos": "ot",
+      "example_ko": "오늘 시간이 있어요?",
+      "example_uz": "Bugun vaqtingiz bormi?",
+      "example_en": "Do you have time today?",
+      "audio": "c629490073cb.mp3",
+      "example_audio": "cfbe88e20a98.mp3"
+    },
+    {
+      "id": "b1_u04_l2_w026",
+      "ko": "있다",
+      "uz": "bor bo'lmoq",
+      "en": "to have, there is",
+      "pos": "fe'l",
+      "example_ko": "휴지가 있어요.",
+      "example_uz": "Salfetka bor.",
+      "example_en": "There are tissues.",
+      "audio": "0b0a577a0e50.mp3",
+      "example_audio": "1ac722a7426d.mp3"
+    },
+    {
+      "id": "b1_u04_l2_w027",
+      "ko": "없다",
+      "uz": "yo'q bo'lmoq",
+      "en": "to not have, there isn't",
+      "pos": "fe'l",
+      "example_ko": "우산이 없어요.",
+      "example_uz": "Soyabon yo'q.",
+      "example_en": "There's no umbrella.",
+      "audio": "260666de1d98.mp3",
+      "example_audio": "f31c8e269bc4.mp3"
+    },
+    {
+      "id": "b1_u04_l2_w028",
+      "ko": "이",
+      "uz": "bu (otdan oldin)",
+      "en": "this (before a noun)",
+      "pos": "aniqlovchi",
+      "example_ko": "이 책은 제 거예요.",
+      "example_uz": "Bu kitob meniki.",
+      "example_en": "This book is mine.",
+      "audio": "1a494c515b81.mp3",
+      "example_audio": "48c288ebd42e.mp3"
+    },
+    {
+      "id": "b1_u04_l2_w029",
+      "ko": "그",
+      "uz": "shu (otdan oldin)",
+      "en": "that (before a noun)",
+      "pos": "aniqlovchi",
+      "example_ko": "그 가방은 비싸요.",
+      "example_uz": "Shu sumka qimmat.",
+      "example_en": "That bag is expensive.",
+      "audio": "903d32799bd1.mp3",
+      "example_audio": "caef09d64cc0.mp3"
+    },
+    {
+      "id": "b1_u04_l2_w030",
+      "ko": "저",
+      "uz": "anavi (otdan oldin)",
+      "en": "that over there (before a noun)",
+      "pos": "aniqlovchi",
+      "example_ko": "저 사람은 누구예요?",
+      "example_uz": "Anavi odam kim?",
+      "example_en": "Who is that person over there?",
+      "audio": "5fdaa781b33b.mp3",
+      "example_audio": "5ad7bbfd1d05.mp3"
+    },
+    {
+      "id": "b1_u04_l2_w031",
+      "ko": "여기",
+      "uz": "bu yer, shu yerda",
+      "en": "here",
+      "pos": "olmosh",
+      "example_ko": "여기 휴지가 있어요.",
+      "example_uz": "Mana, salfetka bor.",
+      "example_en": "Here are some tissues.",
+      "audio": "e522d646b5fd.mp3",
+      "example_audio": "29c2f7ddd273.mp3"
+    },
+    {
+      "id": "b1_u04_l2_w032",
+      "ko": "잠깐만요",
+      "uz": "bir daqiqa",
+      "en": "just a moment",
+      "pos": "ibora",
+      "example_ko": "잠깐만요. 휴지가 있어요.",
+      "example_uz": "Bir daqiqa. Salfetka bor.",
+      "example_en": "Just a moment. I have tissues.",
+      "audio": "2f30656f71ec.mp3",
+      "example_audio": "8f07ada39c8a.mp3"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "b1_u04_l2_g1",
+      "pattern": "이/그/저 N",
+      "meaning_uz": "Bu / shu / anavi + ot",
+      "meaning_en": "This / that / that over there + noun",
+      "explanation_md": "**이, 그, 저** otdan oldin keladi va qaysi narsa yoki odam haqida gapirayotganingizni ko'rsatadi.\n\n- **이 N** — *bu N* (menga yaqin)\n- **그 N** — *shu N* (sizga yaqin yoki oldin aytilgan)\n- **저 N** — *anavi N* (ikkimizdan uzoq)\n\n**이 가방은 제 거예요.** — *Bu sumka meniki.*\n\n### Esda tuting\n\n- **이거 = 이 + 거** (\"bu narsa\"). Shuning uchun **이 책**, lekin yolg'iz **이거**.\n- Odam uchun: **이 사람**, hurmat bilan **이분**.\n- **이, 그, 저** dan keyin bo'sh joy qo'yiladi: **이 컵**, ~~이컵~~ emas.",
+      "explanation_md_en": "**이, 그, 저** come before a noun to point at it.\n\n- **이 N** — *this N* (near me)\n- **그 N** — *that N* (near you, or already mentioned)\n- **저 N** — *that N over there* (away from us both)\n\n**이 가방은 제 거예요.** — *This bag is mine.*\n\n### Remember\n\n- **이거 = 이 + 거** (\"this thing\"). So **이 책**, but **이거** on its own.\n- For people: **이 사람**, politely **이분**.\n- Write a space after 이, 그, 저: **이 컵**, not ~~이컵~~.",
+      "formation": [
+        {
+          "condition_uz": "Menga yaqin",
+          "condition_en": "Near me",
+          "rule": "이 + N",
+          "example": "이 책, 이 사람"
+        },
+        {
+          "condition_uz": "Sizga yaqin / aytilgan",
+          "condition_en": "Near you / mentioned",
+          "rule": "그 + N",
+          "example": "그 컵, 그 신문"
+        },
+        {
+          "condition_uz": "Uzoqda",
+          "condition_en": "Far away",
+          "rule": "저 + N",
+          "example": "저 달력, 저 사람"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "이 가방은 제 거예요.",
+          "uz": "Bu sumka meniki.",
+          "en": "This bag is mine.",
+          "audio": "c5444193a1ec.mp3"
+        },
+        {
+          "ko": "그 컵은 누구 거예요?",
+          "uz": "Shu stakan kimniki?",
+          "en": "Whose cup is that?",
+          "audio": "b7a64a7c9170.mp3"
+        },
+        {
+          "ko": "저 사람은 누구예요?",
+          "uz": "Anavi odam kim?",
+          "en": "Who is that person over there?",
+          "audio": "5ad7bbfd1d05.mp3"
+        },
+        {
+          "ko": "이 비누는 좋아요.",
+          "uz": "Bu sovun yaxshi.",
+          "en": "This soap is good.",
+          "audio": "94f3bf2d88f7.mp3"
+        },
+        {
+          "ko": "그 신문은 오늘 신문이에요.",
+          "uz": "Shu gazeta bugungi.",
+          "en": "That newspaper is today's.",
+          "audio": "9d3c877ee241.mp3"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "이거 책은 제 거예요.",
+          "right": "이 책은 제 거예요.",
+          "why_uz": "Otdan oldin faqat 이: 이 책.",
+          "why_en": "Before a noun use 이 alone: 이 책."
+        },
+        {
+          "wrong": "이컵은 민지 씨 거예요.",
+          "right": "이 컵은 민지 씨 거예요.",
+          "why_uz": "이 dan keyin bo'sh joy kerak.",
+          "why_en": "There is a space after 이."
+        },
+        {
+          "wrong": "저 거울 뭐예요? (qo'lingizda)",
+          "right": "이 거울은 뭐예요?",
+          "why_uz": "Qo'lingizdagi narsa — 이.",
+          "why_en": "The thing in your hand is 이."
+        }
+      ],
+      "uz_compare": "O'zbekchadagi 'bu kitob', 'shu kitob', 'anavi kitob' bilan aynan bir xil ishlaydi.",
+      "compare_en": "Like English 'this book' / 'that book', but Korean has two 'that's: 그 (near you) and 저 (over there)."
+    },
+    {
+      "id": "b1_u04_l2_g2",
+      "pattern": "N이/가 있어요/없어요",
+      "meaning_uz": "... bor / ... yo'q",
+      "meaning_en": "There is / there isn't; to have / not have",
+      "explanation_md": "**있어요** — \"bor\", **없어요** — \"yo'q\". Bor yoki yo'q narsaga **이/가** qo'shiladi.\n\n**휴지가 있어요?** — *Salfetka bormi?*  \n**네, 있어요. / 아니요, 없어요.** — *Ha, bor. / Yo'q.*\n\n### Qanday yasaladi\n\n- Ot **받침 bilan tugasa** → **이**: 돈 → **돈이 있어요**\n- Ot **unli bilan tugasa** → **가**: 휴지 → **휴지가 있어요**\n\n### Esda tuting\n\n- **있어요** \"bor\" ham, \"menda bor\" ham bo'ladi: **(저는) 우산이 있어요.** — *Menda soyabon bor.*\n- Og'zaki nutqda 이/가 ko'pincha tushib qoladi: **휴지 있어요?**\n- Javobda otni takrorlash shart emas: **네, 있어요.**",
+      "explanation_md_en": "**있어요** means \"there is / I have\", **없어요** \"there isn't / I don't have\". The thing takes **이/가**.\n\n**휴지가 있어요?** — *Do you have any tissues?*  \n**네, 있어요. / 아니요, 없어요.** — *Yes, I do. / No, I don't.*\n\n### How to form it\n\n- Noun **ends in 받침** → **이**: 돈 → **돈이 있어요**\n- Noun **ends in a vowel** → **가**: 휴지 → **휴지가 있어요**\n\n### Remember\n\n- **있어요** covers both \"there is\" and \"I have\": **(저는) 우산이 있어요.** — *I have an umbrella.*\n- In speech 이/가 is often dropped: **휴지 있어요?**\n- You don't need to repeat the noun in the answer: **네, 있어요.**",
+      "formation": [
+        {
+          "condition_uz": "받침 bor",
+          "condition_en": "With 받침",
+          "rule": "N + 이 있어요/없어요",
+          "example": "돈 → 돈이 있어요, 빗 → 빗이 없어요"
+        },
+        {
+          "condition_uz": "받침 yo'q",
+          "condition_en": "No 받침",
+          "rule": "N + 가 있어요/없어요",
+          "example": "휴지 → 휴지가 있어요, 카드 → 카드가 없어요"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "휴지가 있어요?",
+          "uz": "Salfetka bormi?",
+          "en": "Do you have any tissues?",
+          "audio": "9c20601bd941.mp3"
+        },
+        {
+          "ko": "네, 여기 있어요.",
+          "uz": "Ha, mana.",
+          "en": "Yes, here you are.",
+          "audio": "67eba21c2d9c.mp3"
+        },
+        {
+          "ko": "저는 우산이 없어요.",
+          "uz": "Menda soyabon yo'q.",
+          "en": "I don't have an umbrella.",
+          "audio": "7ab75d7f6f94.mp3"
+        },
+        {
+          "ko": "오늘 시간이 있어요?",
+          "uz": "Bugun vaqtingiz bormi?",
+          "en": "Do you have time today?",
+          "audio": "cfbe88e20a98.mp3"
+        },
+        {
+          "ko": "방에 텔레비전이 없어요.",
+          "uz": "Xonada televizor yo'q.",
+          "en": "There's no TV in the room.",
+          "audio": "ff312c207743.mp3"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "휴지이 있어요?",
+          "right": "휴지가 있어요?",
+          "why_uz": "휴지 unli bilan tugaydi: 휴지가.",
+          "why_en": "휴지 ends in a vowel: 휴지가."
+        },
+        {
+          "wrong": "돈가 없어요.",
+          "right": "돈이 없어요.",
+          "why_uz": "돈 받침 bilan tugaydi: 돈이.",
+          "why_en": "돈 ends in 받침: 돈이."
+        },
+        {
+          "wrong": "우산이 안 있어요.",
+          "right": "우산이 없어요.",
+          "why_uz": "'Yo'q' uchun alohida fe'l bor: 없어요.",
+          "why_en": "'Not have' has its own verb: 없어요."
+        }
+      ],
+      "uz_compare": "O'zbekcha 'bor/yo'q' bilan aynan bir xil: 'Menda pul BOR' = 저는 돈이 있어요. 'Pul YO'Q' = 돈이 없어요.",
+      "compare_en": "English needs 'there is' or 'have'; Korean uses one verb for both: 돈이 있어요 = 'I have money' or 'there's money'. The opposite is its own verb, 없어요."
+    }
+  ],
+  "dialogue": {
+    "lines": [
+      {
+        "speaker": "minji",
+        "ko": "아, 커피! 아지즈 씨, 휴지가 있어요?",
+        "uz": "Voy, qahva! Aziz, salfetka bormi?",
+        "en": "Oh, the coffee! Aziz, do you have any tissues?",
+        "audio": "c127f6144b2a.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "잠깐만요. 휴지가 없어요. 물티슈는 있어요.",
+        "uz": "Bir daqiqa. Salfetka yo'q. Nam salfetka bor.",
+        "en": "Just a moment. I don't have tissues. I have wet wipes.",
+        "audio": "1e0c3afcc6a2.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "괜찮아요. 물티슈 주세요.",
+        "uz": "Mayli. Nam salfetka bering.",
+        "en": "That's fine. Give me a wet wipe.",
+        "audio": "83f8a68de8c8.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "여기 있어요.",
+        "uz": "Mana.",
+        "en": "Here you are.",
+        "audio": "86d67ad52287.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "고마워요. 이 컵은 아지즈 씨 거예요?",
+        "uz": "Rahmat. Bu stakan sizniki, Aziz?",
+        "en": "Thanks. Is this cup yours, Aziz?",
+        "audio": "adab99394fa1.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "아니요, 그 컵은 팅팅 씨 거예요.",
+        "uz": "Yo'q, u stakan Tingtingniki.",
+        "en": "No, that cup is Tingting's.",
+        "audio": "60fcfb5809ed.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "그럼 저 가방은요?",
+        "uz": "Unda anavi sumka-chi?",
+        "en": "Then what about that bag over there?",
+        "audio": "96bcdfd8fe9e.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "저 가방은 제 거예요.",
+        "uz": "Anavi sumka meniki.",
+        "en": "That bag over there is mine.",
+        "audio": "8fc32693700e.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "가방에 우산이 있어요? 밖에 비가 와요.",
+        "uz": "Sumkangizda soyabon bormi? Tashqarida yomg'ir yog'yapti.",
+        "en": "Is there an umbrella in your bag? It's raining outside.",
+        "audio": "2a69185acd17.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "아니요, 우산이 없어요.",
+        "uz": "Yo'q, soyabon yo'q.",
+        "en": "No, I don't have an umbrella.",
+        "audio": "fd3900a50269.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "저는 우산이 있어요. 같이 가요!",
+        "uz": "Menda soyabon bor. Birga ketamiz!",
+        "en": "I have an umbrella. Let's go together!",
+        "audio": "01805e056b89.mp3"
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b1_u04_l2_e001",
+      "type": "conjugate",
+      "targets": [
+        "b1_u04_l2_g2"
+      ],
+      "prompt_uz": "'Salfetka bor' shaklini yasang",
+      "prompt_en": "Make 'there are tissues'",
+      "base": "휴지",
+      "form": "-이/가 있어요",
+      "answers": [
+        "휴지가 있어요"
+      ]
+    },
+    {
+      "id": "b1_u04_l2_e002",
+      "type": "conjugate",
+      "targets": [
+        "b1_u04_l2_g2"
+      ],
+      "prompt_uz": "'Pul yo'q' shaklini yasang",
+      "prompt_en": "Make 'there is no money'",
+      "base": "돈",
+      "form": "-이/가 없어요",
+      "answers": [
+        "돈이 없어요"
+      ],
+      "hint_uz": "받침 bor → 이",
+      "hint_en": "With 받침 → 이"
+    },
+    {
+      "id": "b1_u04_l2_e003",
+      "type": "conjugate",
+      "targets": [
+        "b1_u04_l2_g2"
+      ],
+      "prompt_uz": "'Vaqt bormi?' so'rog'ini yasang",
+      "prompt_en": "Make 'do you have time?'",
+      "base": "시간",
+      "form": "-이/가 있어요?",
+      "answers": [
+        "시간이 있어요?",
+        "시간이 있어요"
+      ]
+    },
+    {
+      "id": "b1_u04_l2_e004",
+      "type": "conjugate",
+      "targets": [
+        "b1_u04_l2_g1"
+      ],
+      "prompt_uz": "'Bu' + kitob",
+      "prompt_en": "'this' + book",
+      "base": "책",
+      "form": "이 + N",
+      "answers": [
+        "이 책"
+      ]
+    },
+    {
+      "id": "b1_u04_l2_e005",
+      "type": "fill_blank",
+      "targets": [
+        "b1_u04_l2_g1"
+      ],
+      "prompt_uz": "Uzoqdagi odam haqida: '___ 사람은 누구예요?'",
+      "prompt_en": "About someone far away: '___ 사람은 누구예요?'",
+      "sentence": "___ 사람은 누구예요? (uzoqda)",
+      "answers": [
+        "저"
+      ]
+    },
+    {
+      "id": "b1_u04_l2_e006",
+      "type": "fill_blank",
+      "targets": [
+        "b1_u04_l2_g1"
+      ],
+      "prompt_uz": "Qo'lingizdagi stakan: '___ 컵은 제 거예요.'",
+      "prompt_en": "The cup in your hand: '___ 컵은 제 거예요.'",
+      "sentence": "___ 컵은 제 거예요.",
+      "answers": [
+        "이"
+      ]
+    },
+    {
+      "id": "b1_u04_l2_e007",
+      "type": "fill_blank",
+      "targets": [
+        "b1_u04_l2_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Soyabon yo'q.'",
+      "prompt_en": "Fill in the blank: 'I don't have an umbrella.'",
+      "sentence": "우산이 ___.",
+      "answers": [
+        "없어요"
+      ]
+    },
+    {
+      "id": "b1_u04_l2_e008",
+      "type": "fill_blank",
+      "targets": [
+        "b1_u04_l2_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Karta bormi?'",
+      "prompt_en": "Fill in the blank: 'Do you have a card?'",
+      "sentence": "카드___ 있어요?",
+      "answers": [
+        "가"
+      ]
+    },
+    {
+      "id": "b1_u04_l2_e009",
+      "type": "situation_choice",
+      "targets": [
+        "b1_u04_l2_g2"
+      ],
+      "prompt_uz": "Ovqatlanyapsiz, qoshiq yo'q. Ofitsiantdan so'rang:",
+      "prompt_en": "You're eating and there's no spoon. Ask the waiter:",
+      "options": [
+        "숟가락 있어요?",
+        "숟가락이에요?",
+        "숟가락 없어요?",
+        "숟가락은 누구 거예요?"
+      ],
+      "answers": [
+        "숟가락 있어요?"
+      ]
+    },
+    {
+      "id": "b1_u04_l2_e010",
+      "type": "situation_choice",
+      "targets": [
+        "b1_u04_l2_g2"
+      ],
+      "prompt_uz": "'Qaychi bormi?' — sizda yo'q. Javob bering:",
+      "prompt_en": "'Do you have scissors?' — you don't. Answer:",
+      "options": [
+        "아니요, 없어요.",
+        "아니요, 있어요.",
+        "네, 없어요.",
+        "아니요, 안 있어요."
+      ],
+      "answers": [
+        "아니요, 없어요."
+      ]
+    },
+    {
+      "id": "b1_u04_l2_e011",
+      "type": "situation_choice",
+      "targets": [
+        "b1_u04_l2_g1"
+      ],
+      "prompt_uz": "Do'stingiz qo'lidagi gazeta haqida so'rang:",
+      "prompt_en": "Ask about the newspaper in your friend's hand:",
+      "options": [
+        "그 신문은 오늘 신문이에요?",
+        "이 신문은 오늘 신문이에요?",
+        "그거 신문은 오늘 신문이에요?",
+        "저 신문은 오늘이에요?"
+      ],
+      "answers": [
+        "그 신문은 오늘 신문이에요?"
+      ]
+    },
+    {
+      "id": "b1_u04_l2_e012",
+      "type": "find_error",
+      "targets": [
+        "b1_u04_l2_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "휴지이 없어요.",
+      "answers": [
+        "휴지가 없어요"
+      ],
+      "why_uz": "휴지 unli bilan tugaydi: 휴지가.",
+      "why_en": "휴지 ends in a vowel: 휴지가."
+    },
+    {
+      "id": "b1_u04_l2_e013",
+      "type": "find_error",
+      "targets": [
+        "b1_u04_l2_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "저는 돈이 안 있어요.",
+      "answers": [
+        "저는 돈이 없어요"
+      ],
+      "why_uz": "'Yo'q' uchun 없어요 ishlatiladi.",
+      "why_en": "Use 없어요 for 'don't have'."
+    },
+    {
+      "id": "b1_u04_l2_e014",
+      "type": "find_error",
+      "targets": [
+        "b1_u04_l2_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "이거 가방은 제 거예요.",
+      "answers": [
+        "이 가방은 제 거예요"
+      ],
+      "why_uz": "Otdan oldin 이: 이 가방.",
+      "why_en": "Before a noun use 이: 이 가방."
+    },
+    {
+      "id": "b1_u04_l2_e015",
+      "type": "translate",
+      "targets": [
+        "b1_u04_l2_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Salfetka bormi?",
+      "source_en": "Do you have any tissues?",
+      "answers": [
+        "휴지가 있어요",
+        "휴지 있어요",
+        "휴지가 있어요?",
+        "휴지 있어요?"
+      ]
+    },
+    {
+      "id": "b1_u04_l2_e016",
+      "type": "translate",
+      "targets": [
+        "b1_u04_l2_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Menda soyabon yo'q.",
+      "source_en": "I don't have an umbrella.",
+      "answers": [
+        "저는 우산이 없어요",
+        "우산이 없어요",
+        "우산 없어요"
+      ]
+    },
+    {
+      "id": "b1_u04_l2_e017",
+      "type": "translate",
+      "targets": [
+        "b1_u04_l2_g1"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Bu sumka meniki.",
+      "source_en": "This bag is mine.",
+      "answers": [
+        "이 가방은 제 거예요",
+        "이 가방은 제 가방이에요"
+      ]
+    },
+    {
+      "id": "b1_u04_l2_e018",
+      "type": "build_sentence",
+      "targets": [
+        "b1_u04_l2_g2"
+      ],
+      "prompt_uz": "'Bugun vaqtingiz bormi?' gapini tuzing",
+      "prompt_en": "Build the sentence 'Do you have time today?'",
+      "tokens": [
+        "오늘",
+        "있어요?",
+        "시간이"
+      ],
+      "answers": [
+        "오늘 시간이 있어요?"
+      ]
+    },
+    {
+      "id": "b1_u04_l2_e019",
+      "type": "build_sentence",
+      "targets": [
+        "b1_u04_l2_g1"
+      ],
+      "prompt_uz": "'Anavi odam kim?' gapini tuzing",
+      "prompt_en": "Build the sentence 'Who is that person over there?'",
+      "tokens": [
+        "저",
+        "누구예요?",
+        "사람은"
+      ],
+      "answers": [
+        "저 사람은 누구예요?"
+      ]
+    },
+    {
+      "id": "b1_u04_l2_e020",
+      "type": "build_sentence",
+      "targets": [
+        "b1_u04_l2_g1",
+        "b1_u04_l2_g2"
+      ],
+      "prompt_uz": "'Bu xonada televizor yo'q' gapini tuzing",
+      "prompt_en": "Build the sentence 'There's no TV in this room'",
+      "tokens": [
+        "이",
+        "방에",
+        "없어요",
+        "텔레비전이"
+      ],
+      "answers": [
+        "이 방에 텔레비전이 없어요"
+      ]
+    },
+    {
+      "id": "b1_u04_l2_e021",
+      "type": "listen_question",
+      "targets": [
+        "b1_u04_l2_g2"
+      ],
+      "prompt_uz": "Unda nima yo'q?",
+      "prompt_en": "What doesn't the speaker have?",
+      "audio_text": "저는 칫솔이 있어요. 그런데 치약이 없어요.",
+      "options": [
+        "Tish pastasi",
+        "Tish cho'tkasi",
+        "Sochiq",
+        "Sovun"
+      ],
+      "options_en": [
+        "Toothpaste",
+        "A toothbrush",
+        "A towel",
+        "Soap"
+      ],
+      "answers": [
+        "Tish pastasi"
+      ],
+      "audio": "92d431bf633d.mp3"
+    },
+    {
+      "id": "b1_u04_l2_e022",
+      "type": "listen_question",
+      "targets": [
+        "b1_u04_l2_g2"
+      ],
+      "prompt_uz": "Unda nima bor?",
+      "prompt_en": "What does the speaker have?",
+      "audio_text": "우산은 없어요. 모자가 있어요.",
+      "options": [
+        "Kepka",
+        "Soyabon",
+        "Sumka",
+        "Ko'zoynak"
+      ],
+      "options_en": [
+        "A cap",
+        "An umbrella",
+        "A bag",
+        "Glasses"
+      ],
+      "answers": [
+        "Kepka"
+      ],
+      "audio": "a0106b1a4919.mp3"
+    },
+    {
+      "id": "b1_u04_l2_e023",
+      "type": "listen_question",
+      "targets": [
+        "b1_u04_l2_g1"
+      ],
+      "prompt_uz": "Qaysi narsa Minjiniki?",
+      "prompt_en": "Which thing is Minji's?",
+      "audio_text": "이 컵은 제 거예요. 저 컵은 민지 씨 거예요.",
+      "options": [
+        "Uzoqdagi stakan",
+        "Yaqindagi stakan",
+        "Ikkalasi",
+        "Hech biri"
+      ],
+      "options_en": [
+        "The cup over there",
+        "The cup here",
+        "Both",
+        "Neither"
+      ],
+      "answers": [
+        "Uzoqdagi stakan"
+      ],
+      "audio": "83f144ea3b31.mp3"
+    },
+    {
+      "id": "b1_u04_l2_e024",
+      "type": "listen_question",
+      "targets": [
+        "b1_u04_l2_g2"
+      ],
+      "prompt_uz": "Savol nima?",
+      "prompt_en": "What is the question?",
+      "audio_text": "물티슈 있어요?",
+      "options": [
+        "Nam salfetka bormi?",
+        "Salfetka kimniki?",
+        "Bu nima?",
+        "Pul bormi?"
+      ],
+      "options_en": [
+        "Are there wet wipes?",
+        "Whose tissue is it?",
+        "What is this?",
+        "Is there money?"
+      ],
+      "answers": [
+        "Nam salfetka bormi?"
+      ],
+      "audio": "d91ddd6fbd36.mp3"
+    },
+    {
+      "id": "b1_u04_l2_e101",
+      "type": "conjugate",
+      "targets": [
+        "b1_u04_l2_g2"
+      ],
+      "prompt_uz": "'Taroq yo'q' shaklini yasang",
+      "prompt_en": "Make 'there's no comb'",
+      "base": "빗",
+      "form": "-이/가 없어요",
+      "answers": [
+        "빗이 없어요"
+      ]
+    },
+    {
+      "id": "b1_u04_l2_e102",
+      "type": "conjugate",
+      "targets": [
+        "b1_u04_l2_g2"
+      ],
+      "prompt_uz": "'Qog'oz bor' shaklini yasang",
+      "prompt_en": "Make 'there's paper'",
+      "base": "종이",
+      "form": "-이/가 있어요",
+      "answers": [
+        "종이가 있어요"
+      ]
+    },
+    {
+      "id": "b1_u04_l2_e103",
+      "type": "conjugate",
+      "targets": [
+        "b1_u04_l2_g1"
+      ],
+      "prompt_uz": "'Anavi' + odam",
+      "prompt_en": "'that over there' + person",
+      "base": "사람",
+      "form": "저 + N",
+      "answers": [
+        "저 사람"
+      ]
+    },
+    {
+      "id": "b1_u04_l2_e104",
+      "type": "fill_blank",
+      "targets": [
+        "b1_u04_l2_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Muzlatgichda suv bor.'",
+      "prompt_en": "Fill in the blank: 'There's water in the fridge.'",
+      "sentence": "냉장고에 물이 ___.",
+      "answers": [
+        "있어요"
+      ]
+    },
+    {
+      "id": "b1_u04_l2_e105",
+      "type": "fill_blank",
+      "targets": [
+        "b1_u04_l2_g1"
+      ],
+      "prompt_uz": "Sizga yaqin ko'zgu: '___ 거울은 누구 거예요?' (suhbatdosh yonida)",
+      "prompt_en": "The mirror near your friend: '___ 거울은 누구 거예요?'",
+      "sentence": "___ 거울은 누구 거예요?",
+      "answers": [
+        "그"
+      ]
+    },
+    {
+      "id": "b1_u04_l2_e106",
+      "type": "situation_choice",
+      "targets": [
+        "b1_u04_l2_g2"
+      ],
+      "prompt_uz": "Do'koningizda kartangiz yo'q. Sotuvchiga aytasiz:",
+      "prompt_en": "At the shop you have no card. You tell the clerk:",
+      "options": [
+        "카드가 없어요.",
+        "카드가 있어요.",
+        "카드이 없어요.",
+        "카드는 누구 거예요?"
+      ],
+      "answers": [
+        "카드가 없어요."
+      ]
+    },
+    {
+      "id": "b1_u04_l2_e107",
+      "type": "situation_choice",
+      "targets": [
+        "b1_u04_l2_w031"
+      ],
+      "prompt_uz": "Do'stingiz salfetka so'radi. Siz uzatib aytasiz:",
+      "prompt_en": "Your friend asked for a tissue. Handing it over, you say:",
+      "options": [
+        "여기 있어요.",
+        "없어요.",
+        "뭐예요?",
+        "누구 거예요?"
+      ],
+      "answers": [
+        "여기 있어요."
+      ]
+    },
+    {
+      "id": "b1_u04_l2_e108",
+      "type": "situation_choice",
+      "targets": [
+        "b1_u04_l2_g1"
+      ],
+      "prompt_uz": "Anavi uzoqdagi kalendar chiroyli. Qanday aytasiz?",
+      "prompt_en": "The calendar over there is pretty. How do you say it?",
+      "options": [
+        "저 달력은 예뻐요.",
+        "이 달력은 예뻐요.",
+        "저거 달력은 예뻐요.",
+        "저달력은 예뻐요."
+      ],
+      "answers": [
+        "저 달력은 예뻐요."
+      ]
+    },
+    {
+      "id": "b1_u04_l2_e109",
+      "type": "find_error",
+      "targets": [
+        "b1_u04_l2_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "돈가 있어요?",
+      "answers": [
+        "돈이 있어요?",
+        "돈이 있어요"
+      ],
+      "why_uz": "돈 받침 bilan tugaydi: 돈이.",
+      "why_en": "돈 ends in 받침: 돈이."
+    },
+    {
+      "id": "b1_u04_l2_e110",
+      "type": "find_error",
+      "targets": [
+        "b1_u04_l2_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "그컵은 팅팅 씨 거예요.",
+      "answers": [
+        "그 컵은 팅팅 씨 거예요"
+      ],
+      "why_uz": "그 dan keyin bo'sh joy.",
+      "why_en": "Put a space after 그."
+    },
+    {
+      "id": "b1_u04_l2_e111",
+      "type": "translate",
+      "targets": [
+        "b1_u04_l2_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Xonada karavot yo'q.",
+      "source_en": "There's no bed in the room.",
+      "answers": [
+        "방에 침대가 없어요",
+        "방에 침대 없어요"
+      ]
+    },
+    {
+      "id": "b1_u04_l2_e112",
+      "type": "translate",
+      "targets": [
+        "b1_u04_l2_g1",
+        "b1_u04_l2_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Bu kitob meniki.",
+      "source_en": "This book is mine.",
+      "answers": [
+        "이 책은 제 거예요",
+        "이 책은 제 책이에요"
+      ]
+    },
+    {
+      "id": "b1_u04_l2_e113",
+      "type": "build_sentence",
+      "targets": [
+        "b1_u04_l2_g2"
+      ],
+      "prompt_uz": "'Ha, mana' gapini tuzing",
+      "prompt_en": "Build the sentence 'Yes, here you are'",
+      "tokens": [
+        "있어요",
+        "여기",
+        "네,"
+      ],
+      "answers": [
+        "네, 여기 있어요"
+      ]
+    },
+    {
+      "id": "b1_u04_l2_e114",
+      "type": "listen_question",
+      "targets": [
+        "b1_u04_l2_g2"
+      ],
+      "prompt_uz": "Unda nima yo'q?",
+      "prompt_en": "What doesn't the speaker have?",
+      "audio_text": "가방에 지갑은 있어요. 그런데 휴대폰이 없어요.",
+      "options": [
+        "Telefon",
+        "Hamyon",
+        "Sumka",
+        "Kalit"
+      ],
+      "options_en": [
+        "A phone",
+        "A wallet",
+        "A bag",
+        "A key"
+      ],
+      "answers": [
+        "Telefon"
+      ],
+      "audio": "8eefedb66924.mp3"
+    },
+    {
+      "id": "b1_u04_l2_e115",
+      "type": "listen_question",
+      "targets": [
+        "b1_u04_l2_g1"
+      ],
+      "prompt_uz": "Qaysi sumka gapiruvchiniki?",
+      "prompt_en": "Which bag is the speaker's?",
+      "audio_text": "저 가방은 민지 씨 거예요. 이 가방이 제 거예요.",
+      "options": [
+        "Yaqindagi sumka",
+        "Uzoqdagi sumka",
+        "Ikkalasi",
+        "Hech biri"
+      ],
+      "options_en": [
+        "The bag here",
+        "The bag over there",
+        "Both",
+        "Neither"
+      ],
+      "answers": [
+        "Yaqindagi sumka"
+      ],
+      "audio": "de59e09caefb.mp3"
+    }
+  ],
+  "test": [
+    "b1_u04_l2_e101",
+    "b1_u04_l2_e102",
+    "b1_u04_l2_e103",
+    "b1_u04_l2_e104",
+    "b1_u04_l2_e105",
+    "b1_u04_l2_e106",
+    "b1_u04_l2_e107",
+    "b1_u04_l2_e108",
+    "b1_u04_l2_e109",
+    "b1_u04_l2_e110",
+    "b1_u04_l2_e111",
+    "b1_u04_l2_e112",
+    "b1_u04_l2_e113",
+    "b1_u04_l2_e114",
+    "b1_u04_l2_e115"
+  ],
+  "story": {
+    "title_uz": "Yomg'irli kun",
+    "title_en": "A rainy day",
+    "gate_uz": "KAFE",
+    "gate_en": "CAFE",
+    "steps": [
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "아, 커피! 아지즈 씨, 휴지가 있어요?",
+        "uz": "Voy, qahva! Aziz, salfetka bormi?",
+        "en": "Oh, the coffee! Aziz, do you have any tissues?",
+        "audio": "c127f6144b2a.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "잠깐만요. 가방에 휴지가 없어요.",
+        "uz": "Bir daqiqa. Sumkada salfetka yo'q.",
+        "en": "Just a moment. There are no tissues in my bag.",
+        "audio": "b923411c97af.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "어떡해요!",
+        "uz": "Endi nima qilaman!",
+        "en": "Oh no!",
+        "audio": "47b9781732ec.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "아, 물티슈는 있어요! 여기 있어요.",
+        "uz": "A, nam salfetka bor! Mana.",
+        "en": "Oh, I have wet wipes! Here you are.",
+        "audio": "7d7cf35c30b0.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "고마워요. 이 컵은 아지즈 씨 거예요?",
+        "uz": "Rahmat. Bu stakan sizniki?",
+        "en": "Thanks. Is this cup yours?",
+        "audio": "adab99394fa1.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "아니요, 그 컵은 팅팅 씨 거예요.",
+        "uz": "Yo'q, u stakan Tingtingniki.",
+        "en": "No, that cup is Tingting's.",
+        "audio": "60fcfb5809ed.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "밖에 비가 와요. 아지즈 씨, 우산이 있어요?",
+        "uz": "Tashqarida yomg'ir yog'yapti. Aziz, soyaboningiz bormi?",
+        "en": "It's raining outside. Aziz, do you have an umbrella?",
+        "audio": "02809f0cb1f4.mp3"
+      },
+      {
+        "type": "choose_reply",
+        "speaker": "aziz",
+        "prompt_uz": "Aziz 'Yo'q, soyabonim yo'q' demoqchi.",
+        "prompt_en": "Aziz wants to say 'No, I don't have an umbrella'.",
+        "options": [
+          "아니요, 우산이 없어요.",
+          "아니요, 우산이 안 있어요.",
+          "아니요, 우산가 없어요."
+        ],
+        "answer": "아니요, 우산이 없어요.",
+        "uz": "Yo'q, soyabonim yo'q.",
+        "en": "No, I don't have an umbrella.",
+        "why_uz": "'Yo'q' — 없어요; 우산 받침 bilan tugaydi → 우산이.",
+        "why_en": "'Don't have' is 없어요; 우산 ends in 받침 → 우산이.",
+        "audio": "fd3900a50269.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "괜찮아요. 저는 우산이 있어요.",
+        "uz": "Mayli. Menda soyabon bor.",
+        "en": "That's okay. I have an umbrella.",
+        "audio": "b00de92bf26c.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "와, 큰 우산이에요!",
+        "uz": "Voy, katta soyabon ekan!",
+        "en": "Wow, it's a big umbrella!",
+        "audio": "44e9d1b328af.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "네, 같이 가요!",
+        "uz": "Ha, birga ketamiz!",
+        "en": "Yes, let's go together!",
+        "audio": "ba0281814182.mp3"
+      },
+      {
+        "type": "quiz",
+        "prompt_uz": "Kimda soyabon bor edi?",
+        "prompt_en": "Who had an umbrella?",
+        "options": [
+          "Minjida",
+          "Azizda",
+          "Tingtingda"
+        ],
+        "options_en": [
+          "Minji",
+          "Aziz",
+          "Tingting"
+        ],
+        "answer": "Minjida",
+        "why_uz": "저는 우산이 있어요 — dedi Minji.",
+        "why_en": "Minji said 저는 우산이 있어요 — I have an umbrella."
+      }
+    ]
+  }
+}

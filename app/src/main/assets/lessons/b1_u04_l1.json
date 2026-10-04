@@ -1,0 +1,1476 @@
+{
+  "id": "b1_u04_l1",
+  "unit": 4,
+  "lesson": 1,
+  "title_ko": "이거는 뭐예요?",
+  "title_uz": "Bu nima?",
+  "title_en": "What is this?",
+  "topic_uz": "Narsalar",
+  "topic_en": "Items and objects",
+  "reviewed": false,
+  "words": [
+    {
+      "id": "b1_u04_l1_w001",
+      "ko": "이거",
+      "uz": "bu (narsa)",
+      "en": "this (thing)",
+      "pos": "olmosh",
+      "example_ko": "이거는 뭐예요?",
+      "example_uz": "Bu nima?",
+      "example_en": "What is this?",
+      "audio": "efaffd43c848.mp3",
+      "example_audio": "7c7c545110a9.mp3"
+    },
+    {
+      "id": "b1_u04_l1_w002",
+      "ko": "그거",
+      "uz": "shu (narsa, suhbatdoshning yonida)",
+      "en": "that (near you)",
+      "pos": "olmosh",
+      "example_ko": "그거는 제 책이에요.",
+      "example_uz": "Shu — mening kitobim.",
+      "example_en": "That's my book.",
+      "audio": "b3d05901568d.mp3",
+      "example_audio": "89e0ab599aca.mp3"
+    },
+    {
+      "id": "b1_u04_l1_w003",
+      "ko": "저거",
+      "uz": "anavi (narsa, uzoqda)",
+      "en": "that (over there)",
+      "pos": "olmosh",
+      "example_ko": "저거는 시계예요.",
+      "example_uz": "Anavi — soat.",
+      "example_en": "That over there is a clock.",
+      "audio": "167918041475.mp3",
+      "example_audio": "c4e737682d85.mp3"
+    },
+    {
+      "id": "b1_u04_l1_w004",
+      "ko": "책",
+      "uz": "kitob",
+      "en": "book",
+      "pos": "ot",
+      "example_ko": "이거는 한국어 책이에요.",
+      "example_uz": "Bu — koreys tili kitobi.",
+      "example_en": "This is a Korean book.",
+      "audio": "a7ae3b4966c1.mp3",
+      "example_audio": "d8f62d4c7528.mp3"
+    },
+    {
+      "id": "b1_u04_l1_w005",
+      "ko": "공책",
+      "uz": "daftar",
+      "en": "notebook",
+      "pos": "ot",
+      "example_ko": "공책이 예뻐요.",
+      "example_uz": "Daftar chiroyli.",
+      "example_en": "The notebook is pretty.",
+      "audio": "2fb8bd889a00.mp3",
+      "example_audio": "389051dc40fc.mp3"
+    },
+    {
+      "id": "b1_u04_l1_w006",
+      "ko": "연필",
+      "uz": "qalam",
+      "en": "pencil",
+      "pos": "ot",
+      "example_ko": "이거는 연필이에요.",
+      "example_uz": "Bu — qalam.",
+      "example_en": "This is a pencil.",
+      "audio": "54e55f648dd8.mp3",
+      "example_audio": "9adc2f7c2f17.mp3"
+    },
+    {
+      "id": "b1_u04_l1_w007",
+      "ko": "볼펜",
+      "uz": "ruchka",
+      "en": "ballpoint pen",
+      "pos": "ot",
+      "example_ko": "볼펜이 누구 거예요?",
+      "example_uz": "Ruchka kimniki?",
+      "example_en": "Whose pen is it?",
+      "audio": "87b1e3a480b1.mp3",
+      "example_audio": "1cd2368650b4.mp3"
+    },
+    {
+      "id": "b1_u04_l1_w008",
+      "ko": "지우개",
+      "uz": "o'chirg'ich",
+      "en": "eraser",
+      "pos": "ot",
+      "example_ko": "그거는 지우개예요.",
+      "example_uz": "Shu — o'chirg'ich.",
+      "example_en": "That's an eraser.",
+      "audio": "ad45cb068447.mp3",
+      "example_audio": "504c71bcc90e.mp3"
+    },
+    {
+      "id": "b1_u04_l1_w009",
+      "ko": "가방",
+      "uz": "sumka",
+      "en": "bag",
+      "pos": "ot",
+      "example_ko": "이 가방은 민지 씨 거예요.",
+      "example_uz": "Bu sumka Minjiniki.",
+      "example_en": "This bag is Minji's.",
+      "audio": "5b11198bff1a.mp3",
+      "example_audio": "30245f68309b.mp3"
+    },
+    {
+      "id": "b1_u04_l1_w010",
+      "ko": "필통",
+      "uz": "qalamdon",
+      "en": "pencil case",
+      "pos": "ot",
+      "example_ko": "필통이 커요.",
+      "example_uz": "Qalamdon katta.",
+      "example_en": "The pencil case is big.",
+      "audio": "2a6e38fe2fbf.mp3",
+      "example_audio": "32193b5fbddf.mp3"
+    },
+    {
+      "id": "b1_u04_l1_w011",
+      "ko": "시계",
+      "uz": "soat",
+      "en": "watch, clock",
+      "pos": "ot",
+      "example_ko": "제 시계예요.",
+      "example_uz": "Bu mening soatim.",
+      "example_en": "It's my watch.",
+      "audio": "e5ea97f4728f.mp3",
+      "example_audio": "4e6467e0bbaf.mp3"
+    },
+    {
+      "id": "b1_u04_l1_w012",
+      "ko": "안경",
+      "uz": "ko'zoynak",
+      "en": "glasses",
+      "pos": "ot",
+      "example_ko": "그거는 선생님 안경이에요.",
+      "example_uz": "Shu — o'qituvchining ko'zoynagi.",
+      "example_en": "That's the teacher's glasses.",
+      "audio": "8001ceab0fae.mp3",
+      "example_audio": "8d1ff59fd640.mp3"
+    },
+    {
+      "id": "b1_u04_l1_w013",
+      "ko": "우산",
+      "uz": "soyabon",
+      "en": "umbrella",
+      "pos": "ot",
+      "example_ko": "저거는 누구 우산이에요?",
+      "example_uz": "Anavi kimning soyaboni?",
+      "example_en": "Whose umbrella is that?",
+      "audio": "92be1cdb6360.mp3",
+      "example_audio": "9ebe2b005bce.mp3"
+    },
+    {
+      "id": "b1_u04_l1_w014",
+      "ko": "휴대폰",
+      "uz": "mobil telefon",
+      "en": "mobile phone",
+      "pos": "ot",
+      "example_ko": "이거는 제 휴대폰이에요.",
+      "example_uz": "Bu — mening telefonim.",
+      "example_en": "This is my phone.",
+      "audio": "0476805b0380.mp3",
+      "example_audio": "959c8f83f3eb.mp3"
+    },
+    {
+      "id": "b1_u04_l1_w015",
+      "ko": "지갑",
+      "uz": "hamyon",
+      "en": "wallet",
+      "pos": "ot",
+      "example_ko": "지갑이 어디 있어요?",
+      "example_uz": "Hamyon qayerda?",
+      "example_en": "Where's the wallet?",
+      "audio": "ce6338015250.mp3",
+      "example_audio": "f68aac40a625.mp3"
+    },
+    {
+      "id": "b1_u04_l1_w016",
+      "ko": "열쇠",
+      "uz": "kalit",
+      "en": "key",
+      "pos": "ot",
+      "example_ko": "이거는 집 열쇠예요.",
+      "example_uz": "Bu — uy kaliti.",
+      "example_en": "This is the house key.",
+      "audio": "7cbf78cca855.mp3",
+      "example_audio": "37393aa5fd00.mp3"
+    },
+    {
+      "id": "b1_u04_l1_w017",
+      "ko": "컴퓨터",
+      "uz": "kompyuter",
+      "en": "computer",
+      "pos": "ot",
+      "example_ko": "저거는 학교 컴퓨터예요.",
+      "example_uz": "Anavi — maktab kompyuteri.",
+      "example_en": "That's the school's computer.",
+      "audio": "6ec1188824a0.mp3",
+      "example_audio": "e165b551ec18.mp3"
+    },
+    {
+      "id": "b1_u04_l1_w018",
+      "ko": "노트북",
+      "uz": "noutbuk",
+      "en": "laptop",
+      "pos": "ot",
+      "example_ko": "노트북이 새 거예요.",
+      "example_uz": "Noutbuk yangi.",
+      "example_en": "The laptop is new.",
+      "audio": "6584995e37f7.mp3",
+      "example_audio": "c5b1cf104e1f.mp3"
+    },
+    {
+      "id": "b1_u04_l1_w019",
+      "ko": "사전",
+      "uz": "lug'at (kitob)",
+      "en": "dictionary",
+      "pos": "ot",
+      "example_ko": "이거는 한국어 사전이에요.",
+      "example_uz": "Bu — koreyscha lug'at.",
+      "example_en": "This is a Korean dictionary.",
+      "audio": "aa08773e7dbf.mp3",
+      "example_audio": "4f93d9019829.mp3"
+    },
+    {
+      "id": "b1_u04_l1_w020",
+      "ko": "책상",
+      "uz": "parta, stol (yozuv)",
+      "en": "desk",
+      "pos": "ot",
+      "example_ko": "그거는 제 책상이에요.",
+      "example_uz": "Shu — mening partam.",
+      "example_en": "That's my desk.",
+      "audio": "1cf699c2631b.mp3",
+      "example_audio": "69339ab84d5f.mp3"
+    },
+    {
+      "id": "b1_u04_l1_w021",
+      "ko": "의자",
+      "uz": "stul",
+      "en": "chair",
+      "pos": "ot",
+      "example_ko": "의자가 편해요.",
+      "example_uz": "Stul qulay.",
+      "example_en": "The chair is comfortable.",
+      "audio": "19f685fcf475.mp3",
+      "example_audio": "e4ba0c73b86c.mp3"
+    },
+    {
+      "id": "b1_u04_l1_w022",
+      "ko": "칠판",
+      "uz": "doska",
+      "en": "blackboard",
+      "pos": "ot",
+      "example_ko": "저거는 칠판이에요.",
+      "example_uz": "Anavi — doska.",
+      "example_en": "That over there is the blackboard.",
+      "audio": "d24f5ae03686.mp3",
+      "example_audio": "ca7cba0b0601.mp3"
+    },
+    {
+      "id": "b1_u04_l1_w023",
+      "ko": "문",
+      "uz": "eshik",
+      "en": "door",
+      "pos": "ot",
+      "example_ko": "문이 커요.",
+      "example_uz": "Eshik katta.",
+      "example_en": "The door is big.",
+      "audio": "5643b54f10d8.mp3",
+      "example_audio": "14c674de7090.mp3"
+    },
+    {
+      "id": "b1_u04_l1_w024",
+      "ko": "창문",
+      "uz": "deraza",
+      "en": "window",
+      "pos": "ot",
+      "example_ko": "창문을 여세요.",
+      "example_uz": "Derazani oching.",
+      "example_en": "Open the window.",
+      "audio": "37f49f850d58.mp3",
+      "example_audio": "c9249084bea2.mp3"
+    },
+    {
+      "id": "b1_u04_l1_w025",
+      "ko": "모자",
+      "uz": "shapka, kepka",
+      "en": "hat, cap",
+      "pos": "ot",
+      "example_ko": "이 모자는 아지즈 씨 거예요.",
+      "example_uz": "Bu kepka Azizniki.",
+      "example_en": "This cap is Aziz's.",
+      "audio": "82f19e308bf2.mp3",
+      "example_audio": "b2e847ef7dc8.mp3"
+    },
+    {
+      "id": "b1_u04_l1_w026",
+      "ko": "물",
+      "uz": "suv",
+      "en": "water",
+      "pos": "ot",
+      "example_ko": "이거는 물이에요.",
+      "example_uz": "Bu — suv.",
+      "example_en": "This is water.",
+      "audio": "b67540306646.mp3",
+      "example_audio": "02056423ff80.mp3"
+    },
+    {
+      "id": "b1_u04_l1_w027",
+      "ko": "거",
+      "uz": "narsa (…niki)",
+      "en": "thing (one's own)",
+      "pos": "ot",
+      "example_ko": "이거는 제 거예요.",
+      "example_uz": "Bu meniki.",
+      "example_en": "This is mine.",
+      "audio": "a02c08484d27.mp3",
+      "example_audio": "5a7e8d236099.mp3"
+    },
+    {
+      "id": "b1_u04_l1_w028",
+      "ko": "제",
+      "uz": "mening (kamtarona)",
+      "en": "my (humble)",
+      "pos": "aniqlovchi",
+      "example_ko": "제 이름은 아지즈예요.",
+      "example_uz": "Mening ismim Aziz.",
+      "example_en": "My name is Aziz.",
+      "audio": "18d9c1ea173c.mp3",
+      "example_audio": "d46897401d35.mp3"
+    },
+    {
+      "id": "b1_u04_l1_w029",
+      "ko": "누구",
+      "uz": "kim",
+      "en": "who",
+      "pos": "olmosh",
+      "example_ko": "이거는 누구 거예요?",
+      "example_uz": "Bu kimniki?",
+      "example_en": "Whose is this?",
+      "audio": "92e586009f72.mp3",
+      "example_audio": "31698992e5b5.mp3"
+    },
+    {
+      "id": "b1_u04_l1_w030",
+      "ko": "우리",
+      "uz": "biz, bizning",
+      "en": "we, our",
+      "pos": "olmosh",
+      "example_ko": "우리 선생님이에요.",
+      "example_uz": "Bizning o'qituvchimiz.",
+      "example_en": "It's our teacher.",
+      "audio": "228085abf818.mp3",
+      "example_audio": "9d2fdfdcc304.mp3"
+    },
+    {
+      "id": "b1_u04_l1_w031",
+      "ko": "선물",
+      "uz": "sovg'a",
+      "en": "present, gift",
+      "pos": "ot",
+      "example_ko": "이거는 선물이에요.",
+      "example_uz": "Bu — sovg'a.",
+      "example_en": "This is a present.",
+      "audio": "22874805e251.mp3",
+      "example_audio": "9b2a886ed78f.mp3"
+    },
+    {
+      "id": "b1_u04_l1_w032",
+      "ko": "사진",
+      "uz": "rasm, surat",
+      "en": "photo",
+      "pos": "ot",
+      "example_ko": "그거는 가족 사진이에요.",
+      "example_uz": "Shu — oila surati.",
+      "example_en": "That's a family photo.",
+      "audio": "bb854ba0671b.mp3",
+      "example_audio": "0918e9530ac1.mp3"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "b1_u04_l1_g1",
+      "pattern": "이거/그거/저거",
+      "meaning_uz": "Bu / shu / anavi (narsa)",
+      "meaning_en": "This / that / that over there",
+      "explanation_md": "Narsani ko'rsatib gapirganda uchta so'z bor:\n\n- **이거** — *bu*: narsa **gapiruvchining yonida**.\n- **그거** — *shu*: narsa **tinglovchining yonida** yoki oldin aytilgan narsa.\n- **저거** — *anavi*: narsa **ikkalasidan ham uzoqda**.\n\n**이거는 뭐예요?** — *Bu nima?*  \n**그거는 제 책이에요.** — *Shu — mening kitobim.*\n\n### Esda tuting\n\n- Og'zaki nutqda **이거는 → 이건**, **그거는 → 그건**, **저거는 → 저건** deb qisqartiriladi.\n- 이거/그거/저거 faqat **narsa** uchun. Odam haqida **이분/그분/저분** yoki **이 사람** deyiladi.",
+      "explanation_md_en": "There are three words for pointing at things:\n\n- **이거** — *this*: the thing is **near the speaker**.\n- **그거** — *that*: the thing is **near the listener**, or was just mentioned.\n- **저거** — *that over there*: the thing is **far from both**.\n\n**이거는 뭐예요?** — *What is this?*  \n**그거는 제 책이에요.** — *That's my book.*\n\n### Remember\n\n- In speech, **이거는 → 이건**, **그거는 → 그건**, **저거는 → 저건**.\n- 이거/그거/저거 are only for **things**. For people use **이분/그분/저분** or **이 사람**.",
+      "formation": [
+        {
+          "condition_uz": "Gapiruvchining yonida",
+          "condition_en": "Near the speaker",
+          "rule": "이거",
+          "example": "이거는 연필이에요."
+        },
+        {
+          "condition_uz": "Tinglovchining yonida",
+          "condition_en": "Near the listener",
+          "rule": "그거",
+          "example": "그거는 뭐예요?"
+        },
+        {
+          "condition_uz": "Ikkalasidan uzoqda",
+          "condition_en": "Far from both",
+          "rule": "저거",
+          "example": "저거는 시계예요."
+        }
+      ],
+      "examples": [
+        {
+          "ko": "이거는 뭐예요?",
+          "uz": "Bu nima?",
+          "en": "What is this?",
+          "audio": "7c7c545110a9.mp3"
+        },
+        {
+          "ko": "그거는 제 책이에요.",
+          "uz": "Shu — mening kitobim.",
+          "en": "That's my book.",
+          "audio": "89e0ab599aca.mp3"
+        },
+        {
+          "ko": "저거는 칠판이에요.",
+          "uz": "Anavi — doska.",
+          "en": "That over there is the blackboard.",
+          "audio": "ca7cba0b0601.mp3"
+        },
+        {
+          "ko": "이거는 우산이에요.",
+          "uz": "Bu — soyabon.",
+          "en": "This is an umbrella.",
+          "audio": "a790003c099d.mp3"
+        },
+        {
+          "ko": "저건 누구 거예요?",
+          "uz": "Anavi kimniki?",
+          "en": "Whose is that over there?",
+          "audio": "9acdcd330bdb.mp3"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "이분은 연필이에요.",
+          "right": "이거는 연필이에요.",
+          "why_uz": "Narsa uchun 이거; 이분 — odam uchun.",
+          "why_en": "Use 이거 for things; 이분 is for people."
+        },
+        {
+          "wrong": "이거는 민지 씨예요.",
+          "right": "이분은 민지 씨예요.",
+          "why_uz": "Odam uchun 이분 ishlatiladi.",
+          "why_en": "Use 이분 for a person."
+        },
+        {
+          "wrong": "저거는 뭐예요? (qo'lingizdagi narsa)",
+          "right": "이거는 뭐예요?",
+          "why_uz": "Qo'lingizdagi narsa sizga yaqin: 이거.",
+          "why_en": "The thing in your hand is near you: 이거."
+        }
+      ],
+      "uz_compare": "O'zbekchada ham uchta daraja bor: 'bu', 'shu', 'anavi/u'. Koreyschadagi 이/그/저 ularga juda mos keladi.",
+      "compare_en": "English has only two: 'this' and 'that'. Korean splits 'that' into 그거 (near you) and 저거 (over there, away from us both)."
+    },
+    {
+      "id": "b1_u04_l1_g2",
+      "pattern": "N(의) N",
+      "meaning_uz": "Qaratqich: ...ning",
+      "meaning_en": "Possessive: N's N",
+      "explanation_md": "**의** — o'zbekchadagi **\"-ning\"**. Egasi oldin, narsa keyin keladi.\n\n**민지 씨의 가방** — *Minjining sumkasi*\n\n### Esda tuting\n\n- Og'zaki nutqda **의 ko'pincha tushib qoladi**: **민지 씨 가방**, **선생님 책**.\n- **저의 → 제**: **제 이름**, **제 책** (\"mening\").\n- **N 거** — \"...niki\": **이거는 제 거예요.** — *Bu meniki.* **누구 거예요?** — *Kimniki?*\n- 의 [에] deb talaffuz qilinadi.",
+      "explanation_md_en": "**의** works like English **'s**. The owner comes first, then the thing.\n\n**민지 씨의 가방** — *Minji's bag*\n\n### Remember\n\n- In speech **의 is often dropped**: **민지 씨 가방**, **선생님 책**.\n- **저의 → 제**: **제 이름**, **제 책** (\"my\").\n- **N 거** means \"N's (one)\": **이거는 제 거예요.** — *This is mine.* **누구 거예요?** — *Whose is it?*\n- 의 is pronounced [에] here.",
+      "formation": [
+        {
+          "condition_uz": "Egasi + narsa",
+          "condition_en": "Owner + thing",
+          "rule": "N의 N",
+          "example": "민지 씨의 가방, 선생님의 책"
+        },
+        {
+          "condition_uz": "Og'zaki",
+          "condition_en": "In speech",
+          "rule": "N N",
+          "example": "민지 씨 가방, 선생님 책"
+        },
+        {
+          "condition_uz": "'Mening'",
+          "condition_en": "'My'",
+          "rule": "저의 → 제",
+          "example": "제 이름, 제 가방"
+        },
+        {
+          "condition_uz": "'...niki'",
+          "condition_en": "'…'s (one)'",
+          "rule": "N 거",
+          "example": "제 거, 누구 거"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "이거는 민지 씨의 가방이에요.",
+          "uz": "Bu — Minjining sumkasi.",
+          "en": "This is Minji's bag.",
+          "audio": "2744f7fb2ef4.mp3"
+        },
+        {
+          "ko": "그거는 선생님 책이에요.",
+          "uz": "Shu — o'qituvchining kitobi.",
+          "en": "That's the teacher's book.",
+          "audio": "7b60343d706c.mp3"
+        },
+        {
+          "ko": "제 이름은 아지즈예요.",
+          "uz": "Mening ismim Aziz.",
+          "en": "My name is Aziz.",
+          "audio": "d46897401d35.mp3"
+        },
+        {
+          "ko": "이 우산은 누구 거예요?",
+          "uz": "Bu soyabon kimniki?",
+          "en": "Whose umbrella is this?",
+          "audio": "c18a66b77430.mp3"
+        },
+        {
+          "ko": "저건 제 거예요.",
+          "uz": "Anavi meniki.",
+          "en": "That over there is mine.",
+          "audio": "42fda74a8d24.mp3"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "저의 이름은 아지즈예요.",
+          "right": "제 이름은 아지즈예요.",
+          "why_uz": "저의 odatda 제 ga qisqaradi.",
+          "why_en": "저의 is normally shortened to 제."
+        },
+        {
+          "wrong": "가방 민지 씨예요.",
+          "right": "민지 씨 가방이에요.",
+          "why_uz": "Egasi oldin keladi: 민지 씨 가방.",
+          "why_en": "The owner comes first: 민지 씨 가방."
+        },
+        {
+          "wrong": "누구의 거예요?",
+          "right": "누구 거예요?",
+          "why_uz": "'Kimniki' — 누구 거.",
+          "why_en": "'Whose' is simply 누구 거."
+        }
+      ],
+      "uz_compare": "O'zbekcha '-ning' bilan bir xil tartib: 'MinjiNING sumkasi' = 민지 씨의 가방. Farqi: koreyschada narsaga '-si' qo'shilmaydi va 의 ko'pincha tushib qoladi.",
+      "compare_en": "Same order as English 's: 'Minji's bag' = 민지 씨의 가방. But in Korean speech the 의 is usually dropped: 민지 씨 가방."
+    }
+  ],
+  "dialogue": {
+    "lines": [
+      {
+        "speaker": "aziz",
+        "ko": "민지 씨, 이거는 뭐예요?",
+        "uz": "Minji, bu nima?",
+        "en": "Minji, what is this?",
+        "audio": "8723dcbdc4de.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "그거는 필통이에요.",
+        "uz": "Shu — qalamdon.",
+        "en": "That's a pencil case.",
+        "audio": "17acea8a596e.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "누구 필통이에요?",
+        "uz": "Kimning qalamdoni?",
+        "en": "Whose pencil case is it?",
+        "audio": "737c057fbf4f.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "제 거예요. 아지즈 씨, 저거는 뭐예요?",
+        "uz": "Meniki. Aziz, anavi nima?",
+        "en": "It's mine. Aziz, what's that over there?",
+        "audio": "3c5e6558f244.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "저거는 한국어 사전이에요.",
+        "uz": "Anavi — koreyscha lug'at.",
+        "en": "That's a Korean dictionary.",
+        "audio": "83ceb3446b58.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "아지즈 씨의 사전이에요?",
+        "uz": "Sizning lug'atingizmi, Aziz?",
+        "en": "Is it your dictionary, Aziz?",
+        "audio": "301437a5c62f.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "아니요, 제 거가 아니에요. 선생님 사전이에요.",
+        "uz": "Yo'q, meniki emas. O'qituvchining lug'ati.",
+        "en": "No, it's not mine. It's the teacher's dictionary.",
+        "audio": "95da5bf43b68.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "그럼 이 우산은 아지즈 씨 거예요?",
+        "uz": "Unda bu soyabon sizniki, Aziz?",
+        "en": "Then is this umbrella yours, Aziz?",
+        "audio": "69ffaec76de8.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "네, 제 우산이에요. 고마워요.",
+        "uz": "Ha, mening soyabonim. Rahmat.",
+        "en": "Yes, it's my umbrella. Thanks.",
+        "audio": "7850f1ef79cb.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "이건 선물이에요. 아지즈 씨 거예요.",
+        "uz": "Bu — sovg'a. Sizga.",
+        "en": "This is a present. It's for you.",
+        "audio": "f13c15e86115.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "와, 공책이에요! 정말 고마워요.",
+        "uz": "Voy, daftar! Katta rahmat.",
+        "en": "Wow, a notebook! Thank you so much.",
+        "audio": "e12de50ecded.mp3"
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b1_u04_l1_e001",
+      "type": "conjugate",
+      "targets": [
+        "b1_u04_l1_g1"
+      ],
+      "prompt_uz": "'Bu nima?' so'rog'ini to'ldiring: 이거 + 은/는",
+      "prompt_en": "Complete 'What is this?': 이거 + 은/는",
+      "base": "이거",
+      "form": "-은/는",
+      "answers": [
+        "이거는",
+        "이건"
+      ]
+    },
+    {
+      "id": "b1_u04_l1_e002",
+      "type": "conjugate",
+      "targets": [
+        "b1_u04_l1_g2"
+      ],
+      "prompt_uz": "'Men' → 'mening' (kamtarona)",
+      "prompt_en": "'I' → 'my' (humble)",
+      "base": "저",
+      "form": "-의",
+      "answers": [
+        "제",
+        "저의"
+      ]
+    },
+    {
+      "id": "b1_u04_l1_e003",
+      "type": "conjugate",
+      "targets": [
+        "b1_u04_l1_g2"
+      ],
+      "prompt_uz": "'Kimniki?' iborasini yasang",
+      "prompt_en": "Make 'whose (one)?'",
+      "base": "누구",
+      "form": "N 거",
+      "answers": [
+        "누구 거",
+        "누구 거예요"
+      ]
+    },
+    {
+      "id": "b1_u04_l1_e004",
+      "type": "conjugate",
+      "targets": [
+        "b1_u04_l1_g1"
+      ],
+      "prompt_uz": "'Anavi' + 은/는 (og'zaki qisqa shakl)",
+      "prompt_en": "'That over there' + 은/는 (short spoken form)",
+      "base": "저거",
+      "form": "-은/는 (qisqa)",
+      "answers": [
+        "저건",
+        "저거는"
+      ]
+    },
+    {
+      "id": "b1_u04_l1_e005",
+      "type": "fill_blank",
+      "targets": [
+        "b1_u04_l1_g1"
+      ],
+      "prompt_uz": "Uzoqdagi narsani ko'rsating: '___ 뭐예요?'",
+      "prompt_en": "Point at something far away: '___ 뭐예요?'",
+      "sentence": "___는 뭐예요? (uzoqda)",
+      "answers": [
+        "저거"
+      ]
+    },
+    {
+      "id": "b1_u04_l1_e006",
+      "type": "fill_blank",
+      "targets": [
+        "b1_u04_l1_g1"
+      ],
+      "prompt_uz": "Qo'lingizdagi narsa haqida so'rang: '___는 뭐예요?'",
+      "prompt_en": "Ask about the thing in your hand: '___는 뭐예요?'",
+      "sentence": "___는 뭐예요? (qo'limda)",
+      "answers": [
+        "이거"
+      ]
+    },
+    {
+      "id": "b1_u04_l1_e007",
+      "type": "fill_blank",
+      "targets": [
+        "b1_u04_l1_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Bu meniki.'",
+      "prompt_en": "Fill in the blank: 'This is mine.'",
+      "sentence": "이거는 제 ___예요.",
+      "answers": [
+        "거"
+      ]
+    },
+    {
+      "id": "b1_u04_l1_e008",
+      "type": "fill_blank",
+      "targets": [
+        "b1_u04_l1_g2",
+        "b1_u04_l1_w009"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Minjining sumkasi.'",
+      "prompt_en": "Fill in the blank: 'Minji's bag.'",
+      "sentence": "민지 씨___ 가방이에요.",
+      "answers": [
+        "의"
+      ]
+    },
+    {
+      "id": "b1_u04_l1_e009",
+      "type": "situation_choice",
+      "targets": [
+        "b1_u04_l1_g1"
+      ],
+      "prompt_uz": "Do'stingiz qo'lidagi narsani ko'rsatib so'raysiz:",
+      "prompt_en": "You point at the thing in your friend's hand and ask:",
+      "options": [
+        "그거는 뭐예요?",
+        "이거는 뭐예요?",
+        "저거는 뭐예요?",
+        "그분은 뭐예요?"
+      ],
+      "answers": [
+        "그거는 뭐예요?"
+      ]
+    },
+    {
+      "id": "b1_u04_l1_e010",
+      "type": "situation_choice",
+      "targets": [
+        "b1_u04_l1_g2"
+      ],
+      "prompt_uz": "Stol ustida egasiz telefon bor. Kimniki ekanini so'rang:",
+      "prompt_en": "There's a phone on the desk. Ask whose it is:",
+      "options": [
+        "이거는 누구 거예요?",
+        "이거는 누구예요?",
+        "누구는 이거예요?",
+        "이거는 뭐예요?"
+      ],
+      "answers": [
+        "이거는 누구 거예요?"
+      ]
+    },
+    {
+      "id": "b1_u04_l1_e011",
+      "type": "situation_choice",
+      "targets": [
+        "b1_u04_l1_g2"
+      ],
+      "prompt_uz": "Bu sizning kitobingiz. Qanday aytasiz?",
+      "prompt_en": "This is your book. What do you say?",
+      "options": [
+        "제 책이에요.",
+        "저 책이에요.",
+        "책 제예요.",
+        "저의 거 책이에요."
+      ],
+      "answers": [
+        "제 책이에요."
+      ]
+    },
+    {
+      "id": "b1_u04_l1_e012",
+      "type": "find_error",
+      "targets": [
+        "b1_u04_l1_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "이분은 연필이에요.",
+      "answers": [
+        "이거는 연필이에요",
+        "이건 연필이에요"
+      ],
+      "why_uz": "Narsa uchun 이거 ishlatiladi.",
+      "why_en": "Use 이거 for things."
+    },
+    {
+      "id": "b1_u04_l1_e013",
+      "type": "find_error",
+      "targets": [
+        "b1_u04_l1_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "저의 이름은 민지예요.",
+      "answers": [
+        "제 이름은 민지예요"
+      ],
+      "why_uz": "저의 odatda 제 deb aytiladi.",
+      "why_en": "저의 is normally said as 제."
+    },
+    {
+      "id": "b1_u04_l1_e014",
+      "type": "find_error",
+      "targets": [
+        "b1_u04_l1_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "이거는 누구의 거예요?",
+      "answers": [
+        "이거는 누구 거예요?",
+        "이거는 누구 거예요",
+        "이건 누구 거예요?"
+      ],
+      "why_uz": "'Kimniki' — 누구 거.",
+      "why_en": "'Whose' is 누구 거."
+    },
+    {
+      "id": "b1_u04_l1_e015",
+      "type": "translate",
+      "targets": [
+        "b1_u04_l1_g1"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Bu nima?",
+      "source_en": "What is this?",
+      "answers": [
+        "이거는 뭐예요",
+        "이건 뭐예요",
+        "이게 뭐예요"
+      ]
+    },
+    {
+      "id": "b1_u04_l1_e016",
+      "type": "translate",
+      "targets": [
+        "b1_u04_l1_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Bu — o'qituvchining kitobi.",
+      "source_en": "This is the teacher's book.",
+      "answers": [
+        "이거는 선생님 책이에요",
+        "이거는 선생님의 책이에요",
+        "이건 선생님 책이에요"
+      ]
+    },
+    {
+      "id": "b1_u04_l1_e017",
+      "type": "translate",
+      "targets": [
+        "b1_u04_l1_g1",
+        "b1_u04_l1_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Anavi meniki.",
+      "source_en": "That over there is mine.",
+      "answers": [
+        "저거는 제 거예요",
+        "저건 제 거예요"
+      ]
+    },
+    {
+      "id": "b1_u04_l1_e018",
+      "type": "build_sentence",
+      "targets": [
+        "b1_u04_l1_g1"
+      ],
+      "prompt_uz": "'Shu — mening soatim' gapini tuzing",
+      "prompt_en": "Build the sentence 'That's my watch'",
+      "tokens": [
+        "제",
+        "시계예요",
+        "그거는"
+      ],
+      "answers": [
+        "그거는 제 시계예요"
+      ]
+    },
+    {
+      "id": "b1_u04_l1_e019",
+      "type": "build_sentence",
+      "targets": [
+        "b1_u04_l1_g2"
+      ],
+      "prompt_uz": "'Bu soyabon kimniki?' gapini tuzing",
+      "prompt_en": "Build the sentence 'Whose umbrella is this?'",
+      "tokens": [
+        "누구",
+        "우산은",
+        "이",
+        "거예요?"
+      ],
+      "answers": [
+        "이 우산은 누구 거예요?"
+      ]
+    },
+    {
+      "id": "b1_u04_l1_e020",
+      "type": "build_sentence",
+      "targets": [
+        "b1_u04_l1_g1",
+        "b1_u04_l1_g2"
+      ],
+      "prompt_uz": "'Anavi — Minjining sumkasi' gapini tuzing",
+      "prompt_en": "Build the sentence 'That's Minji's bag'",
+      "tokens": [
+        "저거는",
+        "가방이에요",
+        "씨",
+        "민지"
+      ],
+      "answers": [
+        "저거는 민지 씨 가방이에요"
+      ]
+    },
+    {
+      "id": "b1_u04_l1_e021",
+      "type": "listen_question",
+      "targets": [
+        "b1_u04_l1_g1"
+      ],
+      "prompt_uz": "Bu nima?",
+      "prompt_en": "What is it?",
+      "audio_text": "이거는 지우개예요.",
+      "options": [
+        "O'chirg'ich",
+        "Qalam",
+        "Daftar",
+        "Soat"
+      ],
+      "options_en": [
+        "An eraser",
+        "A pencil",
+        "A notebook",
+        "A watch"
+      ],
+      "answers": [
+        "O'chirg'ich"
+      ],
+      "audio": "196f70f46c74.mp3"
+    },
+    {
+      "id": "b1_u04_l1_e022",
+      "type": "listen_question",
+      "targets": [
+        "b1_u04_l1_g2"
+      ],
+      "prompt_uz": "Bu kimniki?",
+      "prompt_en": "Whose is it?",
+      "audio_text": "그거는 선생님 안경이에요.",
+      "options": [
+        "O'qituvchiniki",
+        "Minjiniki",
+        "Azizniki",
+        "Meniki"
+      ],
+      "options_en": [
+        "The teacher's",
+        "Minji's",
+        "Aziz's",
+        "Mine"
+      ],
+      "answers": [
+        "O'qituvchiniki"
+      ],
+      "audio": "8d1ff59fd640.mp3"
+    },
+    {
+      "id": "b1_u04_l1_e023",
+      "type": "listen_question",
+      "targets": [
+        "b1_u04_l1_g2"
+      ],
+      "prompt_uz": "Soyabon kimniki?",
+      "prompt_en": "Whose umbrella is it?",
+      "audio_text": "이 우산은 제 거가 아니에요. 민지 씨 거예요.",
+      "options": [
+        "Minjiniki",
+        "Gapiruvchiniki",
+        "O'qituvchiniki",
+        "Hech kimniki"
+      ],
+      "options_en": [
+        "Minji's",
+        "The speaker's",
+        "The teacher's",
+        "Nobody's"
+      ],
+      "answers": [
+        "Minjiniki"
+      ],
+      "audio": "2bcf19830e0c.mp3"
+    },
+    {
+      "id": "b1_u04_l1_e024",
+      "type": "listen_question",
+      "targets": [
+        "b1_u04_l1_g1"
+      ],
+      "prompt_uz": "Uzoqdagi narsa nima?",
+      "prompt_en": "What is the thing over there?",
+      "audio_text": "저거는 학교 컴퓨터예요.",
+      "options": [
+        "Kompyuter",
+        "Doska",
+        "Deraza",
+        "Eshik"
+      ],
+      "options_en": [
+        "A computer",
+        "The blackboard",
+        "A window",
+        "A door"
+      ],
+      "answers": [
+        "Kompyuter"
+      ],
+      "audio": "e165b551ec18.mp3"
+    },
+    {
+      "id": "b1_u04_l1_e101",
+      "type": "conjugate",
+      "targets": [
+        "b1_u04_l1_g1"
+      ],
+      "prompt_uz": "'Shu' + 은/는 (og'zaki qisqa)",
+      "prompt_en": "'That' + 은/는 (short spoken form)",
+      "base": "그거",
+      "form": "-은/는 (qisqa)",
+      "answers": [
+        "그건",
+        "그거는"
+      ]
+    },
+    {
+      "id": "b1_u04_l1_e102",
+      "type": "conjugate",
+      "targets": [
+        "b1_u04_l1_g2"
+      ],
+      "prompt_uz": "'Men' → 'mening' (kamtarona)",
+      "prompt_en": "'I' → 'my' (humble)",
+      "base": "저",
+      "form": "-의",
+      "answers": [
+        "제",
+        "저의"
+      ]
+    },
+    {
+      "id": "b1_u04_l1_e103",
+      "type": "fill_blank",
+      "targets": [
+        "b1_u04_l1_g1"
+      ],
+      "prompt_uz": "Do'stingiz yonidagi narsa: '___는 뭐예요?'",
+      "prompt_en": "The thing next to your friend: '___는 뭐예요?'",
+      "sentence": "___는 뭐예요? (sizning yoningizda)",
+      "answers": [
+        "그거"
+      ]
+    },
+    {
+      "id": "b1_u04_l1_e104",
+      "type": "fill_blank",
+      "targets": [
+        "b1_u04_l1_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Kimniki?'",
+      "prompt_en": "Fill in the blank: 'Whose is it?'",
+      "sentence": "누구 ___예요?",
+      "answers": [
+        "거"
+      ]
+    },
+    {
+      "id": "b1_u04_l1_e105",
+      "type": "fill_blank",
+      "targets": [
+        "b1_u04_l1_g2",
+        "b1_u04_l1_w012"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'O'qituvchining ko'zoynagi.'",
+      "prompt_en": "Fill in the blank: 'The teacher's glasses.'",
+      "sentence": "선생님___ 안경이에요.",
+      "answers": [
+        "의"
+      ]
+    },
+    {
+      "id": "b1_u04_l1_e106",
+      "type": "situation_choice",
+      "targets": [
+        "b1_u04_l1_g1"
+      ],
+      "prompt_uz": "Sinf oxiridagi doskani ko'rsatib aytasiz:",
+      "prompt_en": "Pointing at the board at the far end of the class, you say:",
+      "options": [
+        "저거는 칠판이에요.",
+        "이거는 칠판이에요.",
+        "저분은 칠판이에요.",
+        "칠판은 저거가 아니에요."
+      ],
+      "answers": [
+        "저거는 칠판이에요."
+      ]
+    },
+    {
+      "id": "b1_u04_l1_e107",
+      "type": "situation_choice",
+      "targets": [
+        "b1_u04_l1_g2"
+      ],
+      "prompt_uz": "'Bu sizning hamyoningizmi?' — ha. Javob bering:",
+      "prompt_en": "'Is this your wallet?' — yes. Answer:",
+      "options": [
+        "네, 제 거예요.",
+        "네, 저 거예요.",
+        "네, 누구 거예요.",
+        "아니요, 제 거예요."
+      ],
+      "answers": [
+        "네, 제 거예요."
+      ]
+    },
+    {
+      "id": "b1_u04_l1_e108",
+      "type": "situation_choice",
+      "targets": [
+        "b1_u04_l1_w031"
+      ],
+      "prompt_uz": "Do'stingizga sovg'a beryapsiz:",
+      "prompt_en": "You're giving your friend a present:",
+      "options": [
+        "이거 선물이에요.",
+        "이거 우산이에요?",
+        "저거는 뭐예요?",
+        "누구 거예요?"
+      ],
+      "answers": [
+        "이거 선물이에요."
+      ]
+    },
+    {
+      "id": "b1_u04_l1_e109",
+      "type": "find_error",
+      "targets": [
+        "b1_u04_l1_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "이거는 김 선생님이에요.",
+      "answers": [
+        "이분은 김 선생님이에요"
+      ],
+      "why_uz": "Odam uchun 이분.",
+      "why_en": "Use 이분 for a person."
+    },
+    {
+      "id": "b1_u04_l1_e110",
+      "type": "find_error",
+      "targets": [
+        "b1_u04_l1_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "이거는 가방 민지 씨예요.",
+      "answers": [
+        "이거는 민지 씨 가방이에요",
+        "이거는 민지 씨의 가방이에요"
+      ],
+      "why_uz": "Egasi oldin keladi.",
+      "why_en": "The owner comes first."
+    },
+    {
+      "id": "b1_u04_l1_e111",
+      "type": "translate",
+      "targets": [
+        "b1_u04_l1_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Bu kalit kimniki?",
+      "source_en": "Whose key is this?",
+      "answers": [
+        "이 열쇠는 누구 거예요",
+        "이 열쇠는 누구 거예요?"
+      ]
+    },
+    {
+      "id": "b1_u04_l1_e112",
+      "type": "translate",
+      "targets": [
+        "b1_u04_l1_g1"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Anavi — soat.",
+      "source_en": "That over there is a clock.",
+      "answers": [
+        "저거는 시계예요",
+        "저건 시계예요"
+      ]
+    },
+    {
+      "id": "b1_u04_l1_e113",
+      "type": "build_sentence",
+      "targets": [
+        "b1_u04_l1_g1",
+        "b1_u04_l1_g2"
+      ],
+      "prompt_uz": "'Shu — mening kitobim' gapini tuzing",
+      "prompt_en": "Build the sentence 'That's my book'",
+      "tokens": [
+        "제",
+        "그거는",
+        "책이에요"
+      ],
+      "answers": [
+        "그거는 제 책이에요"
+      ]
+    },
+    {
+      "id": "b1_u04_l1_e114",
+      "type": "listen_question",
+      "targets": [
+        "b1_u04_l1_g1"
+      ],
+      "prompt_uz": "Bu nima?",
+      "prompt_en": "What is it?",
+      "audio_text": "이거는 한국어 사전이에요.",
+      "options": [
+        "Koreyscha lug'at",
+        "Koreyscha kitob",
+        "Daftar",
+        "Gazeta"
+      ],
+      "options_en": [
+        "A Korean dictionary",
+        "A Korean book",
+        "A notebook",
+        "A newspaper"
+      ],
+      "answers": [
+        "Koreyscha lug'at"
+      ],
+      "audio": "4f93d9019829.mp3"
+    },
+    {
+      "id": "b1_u04_l1_e115",
+      "type": "listen_question",
+      "targets": [
+        "b1_u04_l1_g2"
+      ],
+      "prompt_uz": "Telefon kimniki?",
+      "prompt_en": "Whose phone is it?",
+      "audio_text": "그 휴대폰은 아지즈 씨 거예요.",
+      "options": [
+        "Azizniki",
+        "Minjiniki",
+        "O'qituvchiniki",
+        "Tingtingniki"
+      ],
+      "options_en": [
+        "Aziz's",
+        "Minji's",
+        "The teacher's",
+        "Tingting's"
+      ],
+      "answers": [
+        "Azizniki"
+      ],
+      "audio": "5aae680d6a95.mp3"
+    }
+  ],
+  "test": [
+    "b1_u04_l1_e101",
+    "b1_u04_l1_e102",
+    "b1_u04_l1_e103",
+    "b1_u04_l1_e104",
+    "b1_u04_l1_e105",
+    "b1_u04_l1_e106",
+    "b1_u04_l1_e107",
+    "b1_u04_l1_e108",
+    "b1_u04_l1_e109",
+    "b1_u04_l1_e110",
+    "b1_u04_l1_e111",
+    "b1_u04_l1_e112",
+    "b1_u04_l1_e113",
+    "b1_u04_l1_e114",
+    "b1_u04_l1_e115"
+  ],
+  "story": {
+    "title_uz": "Yo'qolgan narsalar",
+    "title_en": "Lost and found",
+    "gate_uz": "SINF",
+    "gate_en": "CLASS",
+    "steps": [
+      {
+        "type": "line",
+        "speaker": "teacher",
+        "ko": "여러분, 이거는 누구 거예요?",
+        "uz": "Bolalar, bu kimniki?",
+        "en": "Everyone, whose is this?",
+        "audio": "3ed866c55d6e.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "그거는 우산이에요? 제 거가 아니에요.",
+        "uz": "Shu soyabonmi? Meniki emas.",
+        "en": "Is that an umbrella? It's not mine.",
+        "audio": "d69e63849cfc.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "tingting",
+        "ko": "제 거도 아니에요.",
+        "uz": "Meniki ham emas.",
+        "en": "It's not mine either.",
+        "audio": "67cb2e9a0723.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "teacher",
+        "ko": "아지즈 씨, 아지즈 씨 우산이에요?",
+        "uz": "Aziz, sizning soyaboningizmi?",
+        "en": "Aziz, is it your umbrella?",
+        "audio": "a57344e6a8f8.mp3"
+      },
+      {
+        "type": "choose_reply",
+        "speaker": "aziz",
+        "prompt_uz": "Aziz 'Ha, meniki' demoqchi.",
+        "prompt_en": "Aziz wants to say 'Yes, it's mine'.",
+        "options": [
+          "네, 제 거예요.",
+          "네, 저 거예요.",
+          "네, 저의 거이에요."
+        ],
+        "answer": "네, 제 거예요.",
+        "uz": "Ha, meniki.",
+        "en": "Yes, it's mine.",
+        "why_uz": "'Mening' — 제; 'meniki' — 제 거.",
+        "why_en": "'My' is 제; 'mine' is 제 거.",
+        "audio": "5e501f04369d.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "teacher",
+        "ko": "그럼 이 지갑은요? 누구 지갑이에요?",
+        "uz": "Unda bu hamyon-chi? Kimning hamyoni?",
+        "en": "And this wallet? Whose wallet is it?",
+        "audio": "505ed0e83b3d.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "tingting",
+        "ko": "아! 그거는 제 지갑이에요!",
+        "uz": "Voy! Shu mening hamyonim!",
+        "en": "Oh! That's my wallet!",
+        "audio": "ab226a1a799d.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "teacher",
+        "ko": "저거는 뭐예요? 창문 옆에요.",
+        "uz": "Anavi nima? Deraza yonida.",
+        "en": "What's that over there? By the window.",
+        "audio": "96a3b89be0b5.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "저거는 모자예요. 민지 씨 모자예요?",
+        "uz": "Anavi — kepka. Minjining kepkasimi?",
+        "en": "That's a cap. Is it Minji's cap?",
+        "audio": "9781c11e8441.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "아니요, 제 모자가 아니에요.",
+        "uz": "Yo'q, mening kepkam emas.",
+        "en": "No, it's not my cap.",
+        "audio": "c9de1462145c.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "teacher",
+        "ko": "하하, 저거는 선생님 모자예요!",
+        "uz": "Haha, anavi — o'qituvchingizning kepkasi!",
+        "en": "Haha, that's my cap — the teacher's!",
+        "audio": "de9e1e01fd98.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "선생님, 여기 있어요.",
+        "uz": "Ustoz, mana.",
+        "en": "Here you are, teacher.",
+        "audio": "aed873e17808.mp3"
+      },
+      {
+        "type": "quiz",
+        "prompt_uz": "Hamyon kimniki edi?",
+        "prompt_en": "Whose wallet was it?",
+        "options": [
+          "Tingtingniki",
+          "Minjiniki",
+          "Azizniki"
+        ],
+        "options_en": [
+          "Tingting's",
+          "Minji's",
+          "Aziz's"
+        ],
+        "answer": "Tingtingniki",
+        "why_uz": "그거는 제 지갑이에요 — dedi Tingting.",
+        "why_en": "Tingting said 그거는 제 지갑이에요 — that's my wallet."
+      }
+    ]
+  }
+}

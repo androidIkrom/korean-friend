@@ -1,0 +1,1457 @@
+{
+  "id": "b1_u02_l2",
+  "unit": 2,
+  "lesson": 2,
+  "title_ko": "교실 한국어와 인사",
+  "title_uz": "Sinf iboralari va salomlashish",
+  "title_en": "Classroom Korean and greetings",
+  "topic_uz": "Asosiy koreys tili",
+  "topic_en": "Basic Korean",
+  "reviewed": false,
+  "words": [
+    {
+      "id": "b1_u02_l2_w001",
+      "ko": "안녕하세요",
+      "uz": "assalomu alaykum, salom",
+      "en": "hello",
+      "pos": "ibora",
+      "example_ko": "선생님, 안녕하세요?",
+      "example_uz": "Ustoz, assalomu alaykum!",
+      "example_en": "Hello, teacher!",
+      "audio": "ecd143833065.mp3",
+      "example_audio": "1ce804a14960.mp3"
+    },
+    {
+      "id": "b1_u02_l2_w002",
+      "ko": "안녕히 가세요",
+      "uz": "xayr (ketayotganga)",
+      "en": "goodbye (to someone leaving)",
+      "pos": "ibora",
+      "example_ko": "안녕히 가세요. 또 만나요.",
+      "example_uz": "Xayr, yana ko'rishamiz.",
+      "example_en": "Goodbye. See you again.",
+      "audio": "d8b6985ebd07.mp3",
+      "example_audio": "3a1c4ffc7a4e.mp3"
+    },
+    {
+      "id": "b1_u02_l2_w003",
+      "ko": "안녕히 계세요",
+      "uz": "xayr (qolayotganga)",
+      "en": "goodbye (to someone staying)",
+      "pos": "ibora",
+      "example_ko": "선생님, 안녕히 계세요.",
+      "example_uz": "Ustoz, xayr (men ketyapman).",
+      "example_en": "Goodbye, teacher (I'm leaving).",
+      "audio": "ac34db10b500.mp3",
+      "example_audio": "45168d1826b4.mp3"
+    },
+    {
+      "id": "b1_u02_l2_w004",
+      "ko": "감사합니다",
+      "uz": "rahmat",
+      "en": "thank you",
+      "pos": "ibora",
+      "example_ko": "도와줘서 감사합니다.",
+      "example_uz": "Yordam berganingiz uchun rahmat.",
+      "example_en": "Thank you for your help.",
+      "audio": "b7176b0d9780.mp3",
+      "example_audio": "12243b6f53f6.mp3"
+    },
+    {
+      "id": "b1_u02_l2_w005",
+      "ko": "고맙습니다",
+      "uz": "rahmat",
+      "en": "thank you",
+      "pos": "ibora",
+      "example_ko": "선물 고맙습니다.",
+      "example_uz": "Sovg'a uchun rahmat.",
+      "example_en": "Thank you for the present.",
+      "audio": "c5d95985259c.mp3",
+      "example_audio": "c9520fe49c04.mp3"
+    },
+    {
+      "id": "b1_u02_l2_w006",
+      "ko": "죄송합니다",
+      "uz": "kechirasiz (rasmiy)",
+      "en": "I'm sorry (formal)",
+      "pos": "ibora",
+      "example_ko": "늦어서 죄송합니다.",
+      "example_uz": "Kech qolganim uchun kechirasiz.",
+      "example_en": "I'm sorry I'm late.",
+      "audio": "9e06423e9d34.mp3",
+      "example_audio": "f917550056cf.mp3"
+    },
+    {
+      "id": "b1_u02_l2_w007",
+      "ko": "미안합니다",
+      "uz": "kechirasiz",
+      "en": "I'm sorry",
+      "pos": "ibora",
+      "example_ko": "미안합니다. 괜찮아요?",
+      "example_uz": "Kechirasiz. Yaxshimisiz?",
+      "example_en": "I'm sorry. Are you okay?",
+      "audio": "73021a079e8d.mp3",
+      "example_audio": "34c4f7d84be2.mp3"
+    },
+    {
+      "id": "b1_u02_l2_w008",
+      "ko": "괜찮아요",
+      "uz": "hechqisi yo'q, yaxshi",
+      "en": "it's okay",
+      "pos": "ibora",
+      "example_ko": "네, 괜찮아요.",
+      "example_uz": "Ha, hechqisi yo'q.",
+      "example_en": "Yes, it's okay.",
+      "audio": "5e5b57fc91df.mp3",
+      "example_audio": "1efef82a0413.mp3"
+    },
+    {
+      "id": "b1_u02_l2_w009",
+      "ko": "알겠습니다",
+      "uz": "tushundim",
+      "en": "I understand",
+      "pos": "ibora",
+      "example_ko": "네, 알겠습니다.",
+      "example_uz": "Ha, tushundim.",
+      "example_en": "Yes, I understand.",
+      "audio": "ded38badf3f9.mp3",
+      "example_audio": "749574485f61.mp3"
+    },
+    {
+      "id": "b1_u02_l2_w010",
+      "ko": "모르겠습니다",
+      "uz": "bilmayman, tushunmadim",
+      "en": "I don't know / understand",
+      "pos": "ibora",
+      "example_ko": "죄송합니다. 모르겠습니다.",
+      "example_uz": "Kechirasiz, tushunmadim.",
+      "example_en": "Sorry, I don't understand.",
+      "audio": "43623f2afb1c.mp3",
+      "example_audio": "c41cf0f7681e.mp3"
+    },
+    {
+      "id": "b1_u02_l2_w011",
+      "ko": "질문",
+      "uz": "savol",
+      "en": "question",
+      "pos": "ot",
+      "example_ko": "질문 있습니다.",
+      "example_uz": "Savolim bor.",
+      "example_en": "I have a question.",
+      "audio": "7586547ed291.mp3",
+      "example_audio": "bb234d3fa4f5.mp3"
+    },
+    {
+      "id": "b1_u02_l2_w012",
+      "ko": "대답하다",
+      "uz": "javob bermoq",
+      "en": "to answer",
+      "pos": "fe'l",
+      "example_ko": "대답하세요.",
+      "example_uz": "Javob bering.",
+      "example_en": "Please answer.",
+      "audio": "b14ddab9b54b.mp3",
+      "example_audio": "65aadd3d34d9.mp3"
+    },
+    {
+      "id": "b1_u02_l2_w013",
+      "ko": "듣다",
+      "uz": "tinglamoq",
+      "en": "to listen",
+      "pos": "fe'l",
+      "example_ko": "잘 들으세요.",
+      "example_uz": "Yaxshilab tinglang.",
+      "example_en": "Please listen carefully.",
+      "audio": "3fd6b2d87afd.mp3",
+      "example_audio": "0dd8f3e9578c.mp3"
+    },
+    {
+      "id": "b1_u02_l2_w014",
+      "ko": "보다",
+      "uz": "qaramoq, ko'rmoq",
+      "en": "to look",
+      "pos": "fe'l",
+      "example_ko": "칠판을 보세요.",
+      "example_uz": "Doskaga qarang.",
+      "example_en": "Please look at the board.",
+      "audio": "6dccfe0eaf5e.mp3",
+      "example_audio": "db088757e7b6.mp3"
+    },
+    {
+      "id": "b1_u02_l2_w015",
+      "ko": "쓰다",
+      "uz": "yozmoq",
+      "en": "to write",
+      "pos": "fe'l",
+      "example_ko": "이름을 쓰세요.",
+      "example_uz": "Ismingizni yozing.",
+      "example_en": "Please write your name.",
+      "audio": "88d9d891927c.mp3",
+      "example_audio": "3bd4b9e66baa.mp3"
+    },
+    {
+      "id": "b1_u02_l2_w016",
+      "ko": "말하다",
+      "uz": "gapirmoq, aytmoq",
+      "en": "to speak, to say",
+      "pos": "fe'l",
+      "example_ko": "한국어로 말하세요.",
+      "example_uz": "Koreyscha gapiring.",
+      "example_en": "Please speak in Korean.",
+      "audio": "ef7537b993f8.mp3",
+      "example_audio": "da152793f072.mp3"
+    },
+    {
+      "id": "b1_u02_l2_w017",
+      "ko": "따라 하다",
+      "uz": "takrorlamoq",
+      "en": "to repeat after",
+      "pos": "fe'l",
+      "example_ko": "따라 하세요.",
+      "example_uz": "Takrorlang.",
+      "example_en": "Please repeat after me.",
+      "audio": "fcc358f7f653.mp3",
+      "example_audio": "2efe4f85eaa0.mp3"
+    },
+    {
+      "id": "b1_u02_l2_w018",
+      "ko": "펴다",
+      "uz": "ochmoq (kitob)",
+      "en": "to open (a book)",
+      "pos": "fe'l",
+      "example_ko": "책을 펴세요.",
+      "example_uz": "Kitobni oching.",
+      "example_en": "Please open your books.",
+      "audio": "90164166e4c7.mp3",
+      "example_audio": "c2506a287bf8.mp3"
+    },
+    {
+      "id": "b1_u02_l2_w019",
+      "ko": "교과서",
+      "uz": "darslik",
+      "en": "textbook",
+      "pos": "ot",
+      "example_ko": "교과서 십 쪽을 보세요.",
+      "example_uz": "Darslikning 10-betiga qarang.",
+      "example_en": "Look at page 10 of the textbook.",
+      "audio": "19b1ba65b3b4.mp3",
+      "example_audio": "074d3c22f573.mp3"
+    },
+    {
+      "id": "b1_u02_l2_w020",
+      "ko": "쪽",
+      "uz": "bet, sahifa",
+      "en": "page",
+      "pos": "ot",
+      "example_ko": "몇 쪽이에요?",
+      "example_uz": "Nechanchi bet?",
+      "example_en": "Which page is it?",
+      "audio": "823834c4b8fa.mp3",
+      "example_audio": "2de63b10dcee.mp3"
+    },
+    {
+      "id": "b1_u02_l2_w021",
+      "ko": "여러분",
+      "uz": "hammangiz, bolalar",
+      "en": "everyone",
+      "pos": "olmosh",
+      "example_ko": "여러분, 안녕하세요?",
+      "example_uz": "Hammaga salom!",
+      "example_en": "Hello, everyone!",
+      "audio": "e59223d1961d.mp3",
+      "example_audio": "6e78882073a7.mp3"
+    },
+    {
+      "id": "b1_u02_l2_w022",
+      "ko": "출석",
+      "uz": "davomat",
+      "en": "attendance",
+      "pos": "ot",
+      "example_ko": "출석을 불러요.",
+      "example_uz": "Davomatni tekshiraman.",
+      "example_en": "I'll take attendance.",
+      "audio": "bb0458f19262.mp3",
+      "example_audio": "aaf28a436bb0.mp3"
+    },
+    {
+      "id": "b1_u02_l2_w023",
+      "ko": "네",
+      "uz": "ha",
+      "en": "yes",
+      "pos": "ibora",
+      "example_ko": "네, 있어요.",
+      "example_uz": "Ha, bor.",
+      "example_en": "Yes, I have.",
+      "audio": "278072cc710e.mp3",
+      "example_audio": "1e961697def8.mp3"
+    },
+    {
+      "id": "b1_u02_l2_w024",
+      "ko": "예",
+      "uz": "ha (rasmiyroq)",
+      "en": "yes (more formal)",
+      "pos": "ibora",
+      "example_ko": "예, 알겠습니다.",
+      "example_uz": "Ha, tushundim.",
+      "example_en": "Yes, I understand.",
+      "audio": "242fa36f157c.mp3",
+      "example_audio": "fc7c7f6991db.mp3"
+    },
+    {
+      "id": "b1_u02_l2_w025",
+      "ko": "맞아요",
+      "uz": "to'g'ri",
+      "en": "that's right",
+      "pos": "ibora",
+      "example_ko": "네, 맞아요.",
+      "example_uz": "Ha, to'g'ri.",
+      "example_en": "Yes, that's right.",
+      "audio": "dc7db1130119.mp3",
+      "example_audio": "c5d934623d56.mp3"
+    },
+    {
+      "id": "b1_u02_l2_w026",
+      "ko": "틀려요",
+      "uz": "noto'g'ri",
+      "en": "that's wrong",
+      "pos": "ibora",
+      "example_ko": "아니요, 틀려요.",
+      "example_uz": "Yo'q, noto'g'ri.",
+      "example_en": "No, that's wrong.",
+      "audio": "32e26a61dc81.mp3",
+      "example_audio": "d690cc3687fa.mp3"
+    },
+    {
+      "id": "b1_u02_l2_w027",
+      "ko": "또 만나요",
+      "uz": "yana ko'rishamiz",
+      "en": "see you again",
+      "pos": "ibora",
+      "example_ko": "내일 또 만나요!",
+      "example_uz": "Ertaga yana ko'rishamiz!",
+      "example_en": "See you again tomorrow!",
+      "audio": "8616b27afa90.mp3",
+      "example_audio": "4339b5834235.mp3"
+    },
+    {
+      "id": "b1_u02_l2_w028",
+      "ko": "잘 지냈어요?",
+      "uz": "yaxshi yurdingizmi?",
+      "en": "how have you been?",
+      "pos": "ibora",
+      "example_ko": "오랜만이에요. 잘 지냈어요?",
+      "example_uz": "Ko'rishmaganimizga ancha bo'ldi. Yaxshimisiz?",
+      "example_en": "Long time no see. How have you been?",
+      "audio": "0ac4e090c563.mp3",
+      "example_audio": "7e8a641e297d.mp3"
+    },
+    {
+      "id": "b1_u02_l2_w029",
+      "ko": "말",
+      "uz": "gap, so'z, til",
+      "en": "speech, words",
+      "pos": "ot",
+      "example_ko": "선생님 말을 잘 들으세요.",
+      "example_uz": "O'qituvchining gapini yaxshi tinglang.",
+      "example_en": "Listen carefully to what the teacher says.",
+      "audio": "0e4ed4afbb37.mp3",
+      "example_audio": "ed76ec633c54.mp3"
+    },
+    {
+      "id": "b1_u02_l2_w030",
+      "ko": "다시 한번",
+      "uz": "yana bir marta",
+      "en": "once more",
+      "pos": "ibora",
+      "example_ko": "다시 한번 말해 주세요.",
+      "example_uz": "Yana bir marta ayting.",
+      "example_en": "Please say it once more.",
+      "audio": "502a959495ad.mp3",
+      "example_audio": "f8bc3d9fa094.mp3"
+    },
+    {
+      "id": "b1_u02_l2_w031",
+      "ko": "숙제",
+      "uz": "uy vazifasi",
+      "en": "homework",
+      "pos": "ot",
+      "example_ko": "숙제가 있습니다.",
+      "example_uz": "Uy vazifasi bor.",
+      "example_en": "There's homework.",
+      "audio": "b6c3c60aef8e.mp3",
+      "example_audio": "9dd0aac1b5c9.mp3"
+    },
+    {
+      "id": "b1_u02_l2_w032",
+      "ko": "시작하다",
+      "uz": "boshlamoq",
+      "en": "to start",
+      "pos": "fe'l",
+      "example_ko": "수업을 시작합니다.",
+      "example_uz": "Darsni boshlaymiz.",
+      "example_en": "Let's start the class.",
+      "audio": "3f5dc58a9040.mp3",
+      "example_audio": "a96b9c0facd7.mp3"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "b1_u02_l2_g1",
+      "pattern": "Salomlashish va xayrlashish",
+      "meaning_uz": "안녕하세요, 안녕히 가세요, 안녕히 계세요",
+      "meaning_en": "Hello and goodbye",
+      "explanation_md": "Koreyschada salomlashish bitta, xayrlashish esa **ikkita** — kim ketayotganiga qarab.\n\n- **안녕하세요?** — *Assalomu alaykum / Salom* (kunning istalgan vaqtida)\n- **안녕히 가세요.** — *Xayr* — **ketayotgan** odamga (so'zma-so'z: \"tinch boring\")\n- **안녕히 계세요.** — *Xayr* — **qolayotgan** odamga (\"tinch qoling\")\n\n### Kim nima deydi\n\nSiz o'qituvchidan **ketyapsiz** → **선생님, 안녕히 계세요.**  \nO'qituvchi **qoladi** va sizga → **안녕히 가세요.**  \nIkkalangiz ham ketsangiz → **안녕히 가세요.**\n\n### Boshqa kerakli iboralar\n\n- **감사합니다 / 고맙습니다** — *Rahmat*\n- **죄송합니다 / 미안합니다** — *Kechirasiz*\n- **괜찮아요** — *Hechqisi yo'q*\n- **또 만나요** — *Yana ko'rishamiz*",
+      "explanation_md_en": "Korean has one hello but **two goodbyes**, depending on who is leaving.\n\n- **안녕하세요?** — *Hello* (any time of day)\n- **안녕히 가세요.** — *Goodbye* — to someone **leaving** (literally \"go in peace\")\n- **안녕히 계세요.** — *Goodbye* — to someone **staying** (\"stay in peace\")\n\n### Who says what\n\nYou're **leaving** the teacher → **선생님, 안녕히 계세요.**  \nThe teacher **stays** and says to you → **안녕히 가세요.**  \nIf you both leave → **안녕히 가세요.**\n\n### Other useful phrases\n\n- **감사합니다 / 고맙습니다** — *Thank you*\n- **죄송합니다 / 미안합니다** — *Sorry*\n- **괜찮아요** — *It's okay*\n- **또 만나요** — *See you again*",
+      "formation": [
+        {
+          "condition_uz": "Uchrashganda",
+          "condition_en": "Meeting",
+          "rule": "안녕하세요?",
+          "example": "선생님, 안녕하세요?"
+        },
+        {
+          "condition_uz": "Ketayotganga",
+          "condition_en": "To someone leaving",
+          "rule": "안녕히 가세요",
+          "example": "민지 씨, 안녕히 가세요."
+        },
+        {
+          "condition_uz": "Qolayotganga",
+          "condition_en": "To someone staying",
+          "rule": "안녕히 계세요",
+          "example": "선생님, 안녕히 계세요."
+        }
+      ],
+      "examples": [
+        {
+          "ko": "선생님, 안녕하세요?",
+          "uz": "Ustoz, assalomu alaykum!",
+          "en": "Hello, teacher!",
+          "audio": "1ce804a14960.mp3"
+        },
+        {
+          "ko": "선생님, 안녕히 계세요.",
+          "uz": "Ustoz, xayr (men ketyapman).",
+          "en": "Goodbye, teacher (I'm leaving).",
+          "audio": "45168d1826b4.mp3"
+        },
+        {
+          "ko": "안녕히 가세요. 또 만나요!",
+          "uz": "Xayr, yana ko'rishamiz!",
+          "en": "Goodbye, see you again!",
+          "audio": "147827beb549.mp3"
+        },
+        {
+          "ko": "늦어서 죄송합니다.",
+          "uz": "Kech qolganim uchun kechirasiz.",
+          "en": "I'm sorry I'm late.",
+          "audio": "f917550056cf.mp3"
+        },
+        {
+          "ko": "괜찮아요. 앉으세요.",
+          "uz": "Hechqisi yo'q. O'tiring.",
+          "en": "That's okay. Please sit down.",
+          "audio": "e445679bb088.mp3"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "(Siz ketyapsiz) 선생님, 안녕히 가세요.",
+          "right": "선생님, 안녕히 계세요.",
+          "why_uz": "Qolayotgan odamga — 안녕히 계세요.",
+          "why_en": "To someone who stays — 안녕히 계세요."
+        },
+        {
+          "wrong": "(Mehmon ketyapti) 안녕히 계세요.",
+          "right": "안녕히 가세요.",
+          "why_uz": "Ketayotgan odamga — 안녕히 가세요.",
+          "why_en": "To someone leaving — 안녕히 가세요."
+        },
+        {
+          "wrong": "(Kechirim so'raysiz) 괜찮아요.",
+          "right": "죄송합니다.",
+          "why_uz": "Kechirim — 죄송합니다; 괜찮아요 — javob.",
+          "why_en": "To apologise say 죄송합니다; 괜찮아요 is the reply."
+        }
+      ],
+      "uz_compare": "O'zbekchada 'xayr' bitta. Koreyschada kim ketayotganiga qarab ikki xil: ketayotganga 안녕히 가세요, qolayotganga 안녕히 계세요. 'Yaxshi boring' va 'yaxshi qoling' ga o'xshaydi.",
+      "compare_en": "English has one 'goodbye'. Korean picks by who leaves: 안녕히 가세요 to someone leaving ('go well'), 안녕히 계세요 to someone staying ('stay well')."
+    },
+    {
+      "id": "b1_u02_l2_g2",
+      "pattern": "A/V-(스)ㅂ니다",
+      "meaning_uz": "Rasmiy uslub: ...man, ...miz",
+      "meaning_en": "Formal style",
+      "explanation_md": "**-(스)ㅂ니다** — **rasmiy** uslub. Sinfda, yangiliklarda, taqdimotda, notanish katta odamlar bilan ishlatiladi. Ko'p tayyor iboralar shu shaklda: **감사합니다**, **알겠습니다**, **죄송합니다**.\n\n**질문 있습니다.** — *Savolim bor.*\n\n### Qanday yasaladi\n\n- O'zak **받침siz** → **-ㅂ니다**: 가다 → **갑니다**, 감사하다 → **감사합니다**\n- O'zak **받침 bilan** → **-습니다**: 먹다 → **먹습니다**, 있다 → **있습니다**\n- O'zak **ㄹ bilan** → ㄹ tushadi + **-ㅂ니다**: 알다 → **압니다**, 만들다 → **만듭니다**\n\n### So'roq shakli\n\n**-ㅂ니까? / -습니까?**: **질문 있습니까?** — *Savol bormi?*\n\n### Esda tuting\n\n- Kundalik suhbatda **-아요/어요** (6-1) ko'proq ishlatiladi. **-ㅂ니다** — rasmiyroq.\n- **N입니다** = **N이에요/예요** ning rasmiy shakli: **저는 아지즈입니다.**",
+      "explanation_md_en": "**-(스)ㅂ니다** is the **formal** style, used in class, in the news, in presentations and with older strangers. Many set phrases use it: **감사합니다**, **알겠습니다**, **죄송합니다**.\n\n**질문 있습니다.** — *I have a question.*\n\n### How to form it\n\n- Stem **without 받침** → **-ㅂ니다**: 가다 → **갑니다**, 감사하다 → **감사합니다**\n- Stem **with 받침** → **-습니다**: 먹다 → **먹습니다**, 있다 → **있습니다**\n- Stem **ending in ㄹ** → drop ㄹ + **-ㅂ니다**: 알다 → **압니다**, 만들다 → **만듭니다**\n\n### Questions\n\n**-ㅂ니까? / -습니까?**: **질문 있습니까?** — *Any questions?*\n\n### Remember\n\n- Everyday conversation mostly uses **-아요/어요** (6-1). **-ㅂ니다** sounds more formal.\n- **N입니다** is the formal form of **N이에요/예요**: **저는 아지즈입니다.**",
+      "formation": [
+        {
+          "condition_uz": "받침 yo'q",
+          "condition_en": "No 받침",
+          "rule": "V + ㅂ니다",
+          "example": "가다 → 갑니다, 감사하다 → 감사합니다"
+        },
+        {
+          "condition_uz": "받침 bor",
+          "condition_en": "With 받침",
+          "rule": "V + 습니다",
+          "example": "먹다 → 먹습니다, 있다 → 있습니다"
+        },
+        {
+          "condition_uz": "ㄹ bilan",
+          "condition_en": "Ends in ㄹ",
+          "rule": "ㄹ tushadi + ㅂ니다",
+          "example": "알다 → 압니다"
+        },
+        {
+          "condition_uz": "Ot",
+          "condition_en": "Noun",
+          "rule": "N + 입니다",
+          "example": "학생입니다, 아지즈입니다"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "질문 있습니다.",
+          "uz": "Savolim bor.",
+          "en": "I have a question.",
+          "audio": "bb234d3fa4f5.mp3"
+        },
+        {
+          "ko": "네, 알겠습니다.",
+          "uz": "Ha, tushundim.",
+          "en": "Yes, I understand.",
+          "audio": "749574485f61.mp3"
+        },
+        {
+          "ko": "수업을 시작합니다.",
+          "uz": "Darsni boshlaymiz.",
+          "en": "Let's start the class.",
+          "audio": "a96b9c0facd7.mp3"
+        },
+        {
+          "ko": "저는 아지즈입니다.",
+          "uz": "Men Azizman.",
+          "en": "I am Aziz.",
+          "audio": "d5de78923175.mp3"
+        },
+        {
+          "ko": "질문 있습니까?",
+          "uz": "Savollar bormi?",
+          "en": "Are there any questions?",
+          "audio": "929c570a2254.mp3"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "감사하습니다.",
+          "right": "감사합니다.",
+          "why_uz": "하다 → 합니다.",
+          "why_en": "하다 → 합니다."
+        },
+        {
+          "wrong": "질문 있ㅂ니다.",
+          "right": "질문 있습니다.",
+          "why_uz": "있다 받침 bilan: -습니다.",
+          "why_en": "있다 has 받침: -습니다."
+        },
+        {
+          "wrong": "저는 알습니다.",
+          "right": "저는 압니다.",
+          "why_uz": "알다: ㄹ tushadi → 압니다.",
+          "why_en": "알다: ㄹ drops → 압니다."
+        }
+      ],
+      "uz_compare": "O'zbekchada ham rasmiy va oddiy uslub bor: 'Tushundim' va 'Tushundik, ustoz'. Koreyschada rasmiy uslub alohida qo'shimcha bilan: 알겠습니다, 감사합니다.",
+      "compare_en": "English shows formality with word choice ('I understand, sir'). Korean uses a special ending: 알겠습니다, 감사합니다 sound formal and respectful."
+    }
+  ],
+  "dialogue": {
+    "lines": [
+      {
+        "speaker": "teacher",
+        "ko": "여러분, 안녕하세요? 수업을 시작합니다.",
+        "uz": "Hammaga salom! Darsni boshlaymiz.",
+        "en": "Hello, everyone! Let's start the class.",
+        "audio": "cd3cbd3ae53a.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "선생님, 안녕하세요?",
+        "uz": "Ustoz, assalomu alaykum!",
+        "en": "Hello, teacher!",
+        "audio": "084cce20d98c.mp3"
+      },
+      {
+        "speaker": "teacher",
+        "ko": "교과서 십 쪽을 펴세요. 잘 들으세요.",
+        "uz": "Darslikning 10-betini oching. Yaxshilab tinglang.",
+        "en": "Open your textbooks to page 10. Listen carefully.",
+        "audio": "ac777d84c739.mp3"
+      },
+      {
+        "speaker": "teacher",
+        "ko": "따라 하세요. 감사합니다.",
+        "uz": "Takrorlang: 감사합니다.",
+        "en": "Repeat after me: 감사합니다.",
+        "audio": "411d6d71dfd5.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "감사합니다.",
+        "uz": "Rahmat.",
+        "en": "Thank you.",
+        "audio": "3b2337d9dea4.mp3"
+      },
+      {
+        "speaker": "teacher",
+        "ko": "좋아요. 질문 있습니까?",
+        "uz": "Yaxshi. Savollar bormi?",
+        "en": "Good. Are there any questions?",
+        "audio": "9a41934d51e1.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "네, 질문 있습니다. 다시 한번 말해 주세요.",
+        "uz": "Ha, savolim bor. Yana bir marta ayting.",
+        "en": "Yes, I have a question. Please say it once more.",
+        "audio": "db4fa6534fb1.mp3"
+      },
+      {
+        "speaker": "teacher",
+        "ko": "네. 감사합니다. 알겠습니까?",
+        "uz": "Xo'p. 감사합니다. Tushundingizmi?",
+        "en": "Sure. 감사합니다. Do you understand?",
+        "audio": "2893c9f34553.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "네, 알겠습니다!",
+        "uz": "Ha, tushundim!",
+        "en": "Yes, I understand!",
+        "audio": "3913d13c162e.mp3"
+      },
+      {
+        "speaker": "teacher",
+        "ko": "오늘 수업 끝. 안녕히 가세요.",
+        "uz": "Bugungi dars tugadi. Xayr.",
+        "en": "That's all for today. Goodbye.",
+        "audio": "05e42aa9e509.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "선생님, 안녕히 계세요.",
+        "uz": "Ustoz, xayr.",
+        "en": "Goodbye, teacher.",
+        "audio": "b416df4a8f7e.mp3"
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b1_u02_l2_e001",
+      "type": "conjugate",
+      "targets": [
+        "b1_u02_l2_g2"
+      ],
+      "prompt_uz": "Rasmiy shaklini yasang",
+      "prompt_en": "Make the formal form",
+      "base": "감사하다",
+      "form": "-(스)ㅂ니다",
+      "answers": [
+        "감사합니다"
+      ]
+    },
+    {
+      "id": "b1_u02_l2_e002",
+      "type": "conjugate",
+      "targets": [
+        "b1_u02_l2_g2"
+      ],
+      "prompt_uz": "Rasmiy shaklini yasang",
+      "prompt_en": "Make the formal form",
+      "base": "있다",
+      "form": "-(스)ㅂ니다",
+      "answers": [
+        "있습니다"
+      ],
+      "hint_uz": "받침 bor → -습니다",
+      "hint_en": "With 받침 → -습니다"
+    },
+    {
+      "id": "b1_u02_l2_e003",
+      "type": "conjugate",
+      "targets": [
+        "b1_u02_l2_g2"
+      ],
+      "prompt_uz": "Rasmiy shaklini yasang",
+      "prompt_en": "Make the formal form",
+      "base": "가다",
+      "form": "-(스)ㅂ니다",
+      "answers": [
+        "갑니다"
+      ]
+    },
+    {
+      "id": "b1_u02_l2_e004",
+      "type": "conjugate",
+      "targets": [
+        "b1_u02_l2_g2"
+      ],
+      "prompt_uz": "Rasmiy so'roq shaklini yasang",
+      "prompt_en": "Make the formal question form",
+      "base": "있다",
+      "form": "-(스)ㅂ니까?",
+      "answers": [
+        "있습니까?",
+        "있습니까"
+      ]
+    },
+    {
+      "id": "b1_u02_l2_e005",
+      "type": "fill_blank",
+      "targets": [
+        "b1_u02_l2_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Savolim bor.'",
+      "prompt_en": "Fill in the blank: 'I have a question.'",
+      "sentence": "질문 ___. (있다)",
+      "answers": [
+        "있습니다"
+      ]
+    },
+    {
+      "id": "b1_u02_l2_e006",
+      "type": "fill_blank",
+      "targets": [
+        "b1_u02_l2_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Men Azizman.' (rasmiy)",
+      "prompt_en": "Fill in the blank: 'I am Aziz.' (formal)",
+      "sentence": "저는 아지즈___.",
+      "answers": [
+        "입니다"
+      ]
+    },
+    {
+      "id": "b1_u02_l2_e007",
+      "type": "fill_blank",
+      "targets": [
+        "b1_u02_l2_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: o'qituvchidan ketayotganda",
+      "prompt_en": "Fill in the blank: leaving your teacher",
+      "sentence": "선생님, 안녕히 ___.",
+      "answers": [
+        "계세요"
+      ]
+    },
+    {
+      "id": "b1_u02_l2_e008",
+      "type": "fill_blank",
+      "targets": [
+        "b1_u02_l2_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: ketayotgan mehmonga",
+      "prompt_en": "Fill in the blank: to a guest who is leaving",
+      "sentence": "안녕히 ___.",
+      "answers": [
+        "가세요"
+      ]
+    },
+    {
+      "id": "b1_u02_l2_e009",
+      "type": "situation_choice",
+      "targets": [
+        "b1_u02_l2_g1"
+      ],
+      "prompt_uz": "Darsdan keyin ketyapsiz. O'qituvchiga nima deysiz?",
+      "prompt_en": "You're leaving after class. What do you say to the teacher?",
+      "options": [
+        "선생님, 안녕히 계세요.",
+        "선생님, 안녕히 가세요.",
+        "선생님, 안녕하세요?",
+        "선생님, 괜찮아요."
+      ],
+      "answers": [
+        "선생님, 안녕히 계세요."
+      ]
+    },
+    {
+      "id": "b1_u02_l2_e010",
+      "type": "situation_choice",
+      "targets": [
+        "b1_u02_l2_g1"
+      ],
+      "prompt_uz": "Do'stingiz uyingizdan ketyapti. Siz uyda qolasiz:",
+      "prompt_en": "Your friend is leaving your house. You stay:",
+      "options": [
+        "안녕히 가세요.",
+        "안녕히 계세요.",
+        "어서 오세요.",
+        "죄송합니다."
+      ],
+      "answers": [
+        "안녕히 가세요."
+      ]
+    },
+    {
+      "id": "b1_u02_l2_e011",
+      "type": "situation_choice",
+      "targets": [
+        "b1_u02_l2_g2",
+        "b1_u02_l2_w010"
+      ],
+      "prompt_uz": "O'qituvchi tez gapirdi va tushunmadingiz:",
+      "prompt_en": "The teacher spoke fast and you didn't understand:",
+      "options": [
+        "죄송합니다. 모르겠습니다.",
+        "네, 알겠습니다.",
+        "감사합니다.",
+        "안녕히 계세요."
+      ],
+      "answers": [
+        "죄송합니다. 모르겠습니다."
+      ]
+    },
+    {
+      "id": "b1_u02_l2_e012",
+      "type": "find_error",
+      "targets": [
+        "b1_u02_l2_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "감사하습니다.",
+      "answers": [
+        "감사합니다"
+      ],
+      "why_uz": "하다 → 합니다.",
+      "why_en": "하다 → 합니다."
+    },
+    {
+      "id": "b1_u02_l2_e013",
+      "type": "find_error",
+      "targets": [
+        "b1_u02_l2_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "질문 있ㅂ니다.",
+      "answers": [
+        "질문 있습니다"
+      ],
+      "why_uz": "있다 받침 bilan: -습니다.",
+      "why_en": "있다 has 받침: -습니다."
+    },
+    {
+      "id": "b1_u02_l2_e014",
+      "type": "find_error",
+      "targets": [
+        "b1_u02_l2_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "(Siz ketyapsiz) 선생님, 안녕히 가세요.",
+      "answers": [
+        "선생님, 안녕히 계세요"
+      ],
+      "why_uz": "Qolayotgan o'qituvchiga — 안녕히 계세요.",
+      "why_en": "To the teacher who stays — 안녕히 계세요."
+    },
+    {
+      "id": "b1_u02_l2_e015",
+      "type": "translate",
+      "targets": [
+        "b1_u02_l2_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Ha, tushundim.",
+      "source_en": "Yes, I understand.",
+      "answers": [
+        "네, 알겠습니다",
+        "예, 알겠습니다",
+        "알겠습니다"
+      ]
+    },
+    {
+      "id": "b1_u02_l2_e016",
+      "type": "translate",
+      "targets": [
+        "b1_u02_l2_g1"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Kech qolganim uchun kechirasiz.",
+      "source_en": "I'm sorry I'm late.",
+      "answers": [
+        "늦어서 죄송합니다",
+        "늦어서 미안합니다"
+      ]
+    },
+    {
+      "id": "b1_u02_l2_e017",
+      "type": "translate",
+      "targets": [
+        "b1_u02_l2_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Savolim bor.",
+      "source_en": "I have a question.",
+      "answers": [
+        "질문 있습니다",
+        "질문이 있습니다",
+        "질문 있어요"
+      ]
+    },
+    {
+      "id": "b1_u02_l2_e018",
+      "type": "build_sentence",
+      "targets": [
+        "b1_u02_l2_g2"
+      ],
+      "prompt_uz": "'Darslikning 10-betini oching' gapini tuzing",
+      "prompt_en": "Build the sentence 'Open your textbook to page 10'",
+      "tokens": [
+        "펴세요",
+        "교과서",
+        "십",
+        "쪽을"
+      ],
+      "answers": [
+        "교과서 십 쪽을 펴세요"
+      ]
+    },
+    {
+      "id": "b1_u02_l2_e019",
+      "type": "build_sentence",
+      "targets": [
+        "b1_u02_l2_g1"
+      ],
+      "prompt_uz": "'Xayr, yana ko'rishamiz!' gapini tuzing",
+      "prompt_en": "Build the sentence 'Goodbye, see you again!'",
+      "tokens": [
+        "가세요.",
+        "만나요!",
+        "안녕히",
+        "또"
+      ],
+      "answers": [
+        "안녕히 가세요. 또 만나요!"
+      ]
+    },
+    {
+      "id": "b1_u02_l2_e020",
+      "type": "build_sentence",
+      "targets": [
+        "b1_u02_l2_g2"
+      ],
+      "prompt_uz": "'Darsni boshlaymiz' gapini tuzing",
+      "prompt_en": "Build the sentence 'Let's start the class'",
+      "tokens": [
+        "시작합니다",
+        "수업을"
+      ],
+      "answers": [
+        "수업을 시작합니다"
+      ]
+    },
+    {
+      "id": "b1_u02_l2_e021",
+      "type": "listen_question",
+      "targets": [
+        "b1_u02_l2_g1"
+      ],
+      "prompt_uz": "Bu odam nima qilyapti?",
+      "prompt_en": "What is the speaker doing?",
+      "audio_text": "선생님, 안녕히 계세요.",
+      "options": [
+        "Ketyapti",
+        "Kelyapti",
+        "Kechirim so'rayapti",
+        "Savol beryapti"
+      ],
+      "options_en": [
+        "Leaving",
+        "Arriving",
+        "Apologising",
+        "Asking a question"
+      ],
+      "answers": [
+        "Ketyapti"
+      ],
+      "audio": "45168d1826b4.mp3"
+    },
+    {
+      "id": "b1_u02_l2_e022",
+      "type": "listen_question",
+      "targets": [
+        "b1_u02_l2_g2"
+      ],
+      "prompt_uz": "U nima demoqda?",
+      "prompt_en": "What does the speaker say?",
+      "audio_text": "질문 있습니다.",
+      "options": [
+        "Savoli bor",
+        "Tushundi",
+        "Kech qoldi",
+        "Rahmat aytyapti"
+      ],
+      "options_en": [
+        "Has a question",
+        "Understands",
+        "Is late",
+        "Says thank you"
+      ],
+      "answers": [
+        "Savoli bor"
+      ],
+      "audio": "bb234d3fa4f5.mp3"
+    },
+    {
+      "id": "b1_u02_l2_e023",
+      "type": "listen_question",
+      "targets": [
+        "b1_u02_l2_g1"
+      ],
+      "prompt_uz": "O'qituvchi nima so'radi?",
+      "prompt_en": "What did the teacher ask?",
+      "audio_text": "여러분, 질문 있습니까?",
+      "options": [
+        "Savollar bormi",
+        "Kim kech qoldi",
+        "Uy vazifasi bormi",
+        "Kitob qayerda"
+      ],
+      "options_en": [
+        "Any questions",
+        "Who is late",
+        "Is there homework",
+        "Where's the book"
+      ],
+      "answers": [
+        "Savollar bormi"
+      ],
+      "audio": "ed82a7728435.mp3"
+    },
+    {
+      "id": "b1_u02_l2_e024",
+      "type": "listen_question",
+      "targets": [
+        "b1_u02_l2_g2"
+      ],
+      "prompt_uz": "O'qituvchi nimani so'rayapti?",
+      "prompt_en": "What is the teacher asking you to do?",
+      "audio_text": "교과서를 펴세요. 그리고 잘 들으세요.",
+      "options": [
+        "Kitobni ochib tinglash",
+        "Yozish",
+        "Uyga ketish",
+        "Javob berish"
+      ],
+      "options_en": [
+        "Open the book and listen",
+        "Write",
+        "Go home",
+        "Answer"
+      ],
+      "answers": [
+        "Kitobni ochib tinglash"
+      ],
+      "audio": "f45935d4d4f1.mp3"
+    },
+    {
+      "id": "b1_u02_l2_e101",
+      "type": "conjugate",
+      "targets": [
+        "b1_u02_l2_g2"
+      ],
+      "prompt_uz": "Rasmiy shaklini yasang",
+      "prompt_en": "Make the formal form",
+      "base": "먹다",
+      "form": "-(스)ㅂ니다",
+      "answers": [
+        "먹습니다"
+      ]
+    },
+    {
+      "id": "b1_u02_l2_e102",
+      "type": "conjugate",
+      "targets": [
+        "b1_u02_l2_g2"
+      ],
+      "prompt_uz": "Rasmiy shaklini yasang",
+      "prompt_en": "Make the formal form",
+      "base": "시작하다",
+      "form": "-(스)ㅂ니다",
+      "answers": [
+        "시작합니다"
+      ]
+    },
+    {
+      "id": "b1_u02_l2_e103",
+      "type": "conjugate",
+      "targets": [
+        "b1_u02_l2_g2"
+      ],
+      "prompt_uz": "Rasmiy shaklini yasang (ㄹ)",
+      "prompt_en": "Make the formal form (ㄹ stem)",
+      "base": "알다",
+      "form": "-(스)ㅂ니다",
+      "answers": [
+        "압니다"
+      ]
+    },
+    {
+      "id": "b1_u02_l2_e104",
+      "type": "fill_blank",
+      "targets": [
+        "b1_u02_l2_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: kechirim so'rash",
+      "prompt_en": "Fill in the blank: apologising",
+      "sentence": "늦어서 ___. (죄송하다)",
+      "answers": [
+        "죄송합니다"
+      ]
+    },
+    {
+      "id": "b1_u02_l2_e105",
+      "type": "fill_blank",
+      "targets": [
+        "b1_u02_l2_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Men talabaman.' (rasmiy)",
+      "prompt_en": "Fill in the blank: 'I am a student.' (formal)",
+      "sentence": "저는 학생___.",
+      "answers": [
+        "입니다"
+      ]
+    },
+    {
+      "id": "b1_u02_l2_e106",
+      "type": "situation_choice",
+      "targets": [
+        "b1_u02_l2_g1"
+      ],
+      "prompt_uz": "Ertalab sinfga kirdingiz. O'qituvchiga nima deysiz?",
+      "prompt_en": "You walk into class in the morning. What do you say to the teacher?",
+      "options": [
+        "선생님, 안녕하세요?",
+        "선생님, 안녕히 계세요.",
+        "선생님, 안녕히 가세요.",
+        "선생님, 또 만나요."
+      ],
+      "answers": [
+        "선생님, 안녕하세요?"
+      ]
+    },
+    {
+      "id": "b1_u02_l2_e107",
+      "type": "situation_choice",
+      "targets": [
+        "b1_u02_l2_w008"
+      ],
+      "prompt_uz": "Do'stingiz kechirim so'radi. Javob bering:",
+      "prompt_en": "Your friend apologises. Reply:",
+      "options": [
+        "괜찮아요.",
+        "죄송합니다.",
+        "모르겠습니다.",
+        "안녕히 계세요."
+      ],
+      "answers": [
+        "괜찮아요."
+      ]
+    },
+    {
+      "id": "b1_u02_l2_e108",
+      "type": "situation_choice",
+      "targets": [
+        "b1_u02_l2_w030"
+      ],
+      "prompt_uz": "O'qituvchi gapini eshitmadingiz. Qanday so'raysiz?",
+      "prompt_en": "You didn't hear what the teacher said. How do you ask?",
+      "options": [
+        "다시 한번 말해 주세요.",
+        "또 만나요.",
+        "질문 없습니다.",
+        "안녕히 계세요."
+      ],
+      "answers": [
+        "다시 한번 말해 주세요."
+      ]
+    },
+    {
+      "id": "b1_u02_l2_e109",
+      "type": "find_error",
+      "targets": [
+        "b1_u02_l2_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "저는 알습니다.",
+      "answers": [
+        "저는 압니다"
+      ],
+      "why_uz": "알다: ㄹ tushadi → 압니다.",
+      "why_en": "알다: ㄹ drops → 압니다."
+    },
+    {
+      "id": "b1_u02_l2_e110",
+      "type": "find_error",
+      "targets": [
+        "b1_u02_l2_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "(Mehmon ketyapti) 안녕히 계세요.",
+      "answers": [
+        "안녕히 가세요"
+      ],
+      "why_uz": "Ketayotganga — 안녕히 가세요.",
+      "why_en": "To someone leaving — 안녕히 가세요."
+    },
+    {
+      "id": "b1_u02_l2_e111",
+      "type": "translate",
+      "targets": [
+        "b1_u02_l2_g1"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Rahmat.",
+      "source_en": "Thank you.",
+      "answers": [
+        "감사합니다",
+        "고맙습니다"
+      ]
+    },
+    {
+      "id": "b1_u02_l2_e112",
+      "type": "translate",
+      "targets": [
+        "b1_u02_l2_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Savollar bormi?",
+      "source_en": "Are there any questions?",
+      "answers": [
+        "질문 있습니까",
+        "질문 있습니까?",
+        "질문이 있습니까?"
+      ]
+    },
+    {
+      "id": "b1_u02_l2_e113",
+      "type": "build_sentence",
+      "targets": [
+        "b1_u02_l2_g2"
+      ],
+      "prompt_uz": "'Ha, tushundim' gapini tuzing",
+      "prompt_en": "Build the sentence 'Yes, I understand'",
+      "tokens": [
+        "알겠습니다",
+        "네,"
+      ],
+      "answers": [
+        "네, 알겠습니다"
+      ]
+    },
+    {
+      "id": "b1_u02_l2_e114",
+      "type": "listen_question",
+      "targets": [
+        "b1_u02_l2_g1"
+      ],
+      "prompt_uz": "Kim ketyapti?",
+      "prompt_en": "Who is leaving?",
+      "audio_text": "아지즈 씨, 안녕히 가세요.",
+      "options": [
+        "Aziz",
+        "Gapiruvchi",
+        "Ikkalasi",
+        "Hech kim"
+      ],
+      "options_en": [
+        "Aziz",
+        "The speaker",
+        "Both",
+        "Nobody"
+      ],
+      "answers": [
+        "Aziz"
+      ],
+      "audio": "2bc929378b45.mp3"
+    },
+    {
+      "id": "b1_u02_l2_e115",
+      "type": "listen_question",
+      "targets": [
+        "b1_u02_l2_g2"
+      ],
+      "prompt_uz": "U nima demoqda?",
+      "prompt_en": "What does the speaker say?",
+      "audio_text": "죄송합니다. 모르겠습니다.",
+      "options": [
+        "Tushunmadi",
+        "Tushundi",
+        "Savoli bor",
+        "Rahmat aytdi"
+      ],
+      "options_en": [
+        "Doesn't understand",
+        "Understands",
+        "Has a question",
+        "Said thanks"
+      ],
+      "answers": [
+        "Tushunmadi"
+      ],
+      "audio": "c41cf0f7681e.mp3"
+    }
+  ],
+  "test": [
+    "b1_u02_l2_e101",
+    "b1_u02_l2_e102",
+    "b1_u02_l2_e103",
+    "b1_u02_l2_e104",
+    "b1_u02_l2_e105",
+    "b1_u02_l2_e106",
+    "b1_u02_l2_e107",
+    "b1_u02_l2_e108",
+    "b1_u02_l2_e109",
+    "b1_u02_l2_e110",
+    "b1_u02_l2_e111",
+    "b1_u02_l2_e112",
+    "b1_u02_l2_e113",
+    "b1_u02_l2_e114",
+    "b1_u02_l2_e115"
+  ],
+  "story": {
+    "title_uz": "Birinchi dars",
+    "title_en": "The very first lesson",
+    "gate_uz": "SINF",
+    "gate_en": "CLASS",
+    "steps": [
+      {
+        "type": "line",
+        "speaker": "teacher",
+        "ko": "여러분, 안녕하세요? 수업을 시작합니다.",
+        "uz": "Hammaga salom! Darsni boshlaymiz.",
+        "en": "Hello, everyone! Let's start the class.",
+        "audio": "cd3cbd3ae53a.mp3"
+      },
+      {
+        "type": "choose_reply",
+        "speaker": "aziz",
+        "prompt_uz": "Aziz o'qituvchi bilan salomlashmoqchi.",
+        "prompt_en": "Aziz wants to greet the teacher.",
+        "options": [
+          "선생님, 안녕하세요?",
+          "선생님, 안녕히 계세요.",
+          "선생님, 안녕히 가세요."
+        ],
+        "answer": "선생님, 안녕하세요?",
+        "uz": "Ustoz, assalomu alaykum!",
+        "en": "Hello, teacher!",
+        "why_uz": "Uchrashganda — 안녕하세요.",
+        "why_en": "When meeting, say 안녕하세요.",
+        "audio": "084cce20d98c.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "teacher",
+        "ko": "교과서 십 쪽을 펴세요.",
+        "uz": "Darslikning 10-betini oching.",
+        "en": "Open your textbooks to page 10.",
+        "audio": "81ee245ef514.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "teacher",
+        "ko": "잘 들으세요. 그리고 따라 하세요. 감사합니다.",
+        "uz": "Yaxshilab tinglang va takrorlang: 감사합니다.",
+        "en": "Listen carefully and repeat: 감사합니다.",
+        "audio": "3709c34866e6.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "감사합니다.",
+        "uz": "Rahmat.",
+        "en": "Thank you.",
+        "audio": "3b2337d9dea4.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "teacher",
+        "ko": "아주 좋아요. 질문 있습니까?",
+        "uz": "Juda yaxshi. Savollar bormi?",
+        "en": "Very good. Any questions?",
+        "audio": "b7eb797c5dff.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "네, 질문 있습니다. '고맙습니다'도 같아요?",
+        "uz": "Ha, savolim bor. '고맙습니다' ham bir xilmi?",
+        "en": "Yes, I have a question. Is '고맙습니다' the same?",
+        "audio": "ece52ead9cbf.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "teacher",
+        "ko": "네, 같아요. 둘 다 '감사'예요.",
+        "uz": "Ha, bir xil. Ikkalasi ham 'rahmat'.",
+        "en": "Yes, the same. Both mean 'thanks'.",
+        "audio": "1fa75ac8cab8.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "알겠습니다!",
+        "uz": "Tushundim!",
+        "en": "I understand!",
+        "audio": "eeafa7f36293.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "teacher",
+        "ko": "오늘 수업 끝. 숙제 있습니다. 안녕히 가세요.",
+        "uz": "Bugungi dars tugadi. Uy vazifasi bor. Xayr.",
+        "en": "That's all for today. There's homework. Goodbye.",
+        "audio": "32fb43757580.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "선생님, 안녕히 계세요.",
+        "uz": "Ustoz, xayr.",
+        "en": "Goodbye, teacher.",
+        "audio": "b416df4a8f7e.mp3"
+      },
+      {
+        "type": "quiz",
+        "prompt_uz": "Nega Aziz '안녕히 계세요' dedi?",
+        "prompt_en": "Why did Aziz say '안녕히 계세요'?",
+        "options": [
+          "U ketyapti, o'qituvchi qoladi",
+          "O'qituvchi ketyapti",
+          "U endi keldi"
+        ],
+        "options_en": [
+          "He's leaving and the teacher stays",
+          "The teacher is leaving",
+          "He just arrived"
+        ],
+        "answer": "U ketyapti, o'qituvchi qoladi",
+        "why_uz": "Qolayotgan odamga — 안녕히 계세요.",
+        "why_en": "You say 안녕히 계세요 to someone who stays."
+      }
+    ]
+  }
+}

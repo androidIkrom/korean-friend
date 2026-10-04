@@ -65,6 +65,21 @@ class ContentAssetsTest {
         t.listening.forEach { assertTrue("${it.id}: two-voice dialogue", (it.audioDialogue?.size ?: 0) >= 2) }
     }
 
+    @Test fun bookOneFinalTestIsValid() {
+        val t = repo.finalTest(1)!!
+        assertEquals(15, t.listening.size)
+        assertEquals(15, t.reading.size)
+        assertTrue(t.listening.all { it.type == ExerciseType.LISTEN_QUESTION && it.targets.isEmpty() })
+        assertTrue(t.reading.all { it.type == ExerciseType.READ_CHOICE && it.targets.isEmpty() })
+        assertEquals(emptyList<String>(), (t.listening + t.reading).flatMap { LessonValidator.exerciseErrors(it) })
+        assertEquals(emptyList<String>(), LessonValidator.englishErrors(t))
+        val dir = File("src/main/assets/audio")
+        t.listening.forEach { assertTrue("${it.id}: audio", it.audio != null && File(dir, it.audio!!).isFile) }
+    }
+
+    @Test fun bookOneIsWritten() =
+        assertEquals(catalog.filter { it.book == 1 }.map { it.id }, catalog.filter { it.book == 1 && repo.isAvailable(it.id) }.map { it.id })
+
     @Test fun validatorPasses() = assertEquals(emptyList<String>(), LessonValidator.validate(lessons))
 
     /** Stage 8: every Uzbek text has its English sibling (the raw files, read in Uzbek mode). */

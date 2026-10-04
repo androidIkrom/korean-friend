@@ -79,6 +79,7 @@ private val POS_EN = mapOf(
     "ibora" to "phrase",
     "olmosh" to "pronoun",
     "aniqlovchi" to "determiner",
+    "son" to "numeral",
 )
 
 /** English name of an Uzbek part-of-speech label; unknown labels stay as they are. */

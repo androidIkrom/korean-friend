@@ -1,0 +1,1452 @@
+{
+  "id": "b1_u08_l1",
+  "unit": 8,
+  "lesson": 1,
+  "title_ko": "지금 몇 시예요?",
+  "title_uz": "Hozir soat necha?",
+  "title_en": "What time is it now?",
+  "topic_uz": "Vaqt va sana",
+  "topic_en": "Time and date",
+  "reviewed": false,
+  "words": [
+    {
+      "id": "b1_u08_l1_w001",
+      "ko": "시",
+      "uz": "soat (vaqt)",
+      "en": "o'clock",
+      "pos": "ot",
+      "example_ko": "지금 세 시예요.",
+      "example_uz": "Hozir soat uch.",
+      "example_en": "It's three o'clock now.",
+      "audio": "0b932893f3ed.mp3",
+      "example_audio": "4e83c8d001a0.mp3"
+    },
+    {
+      "id": "b1_u08_l1_w002",
+      "ko": "분",
+      "uz": "daqiqa",
+      "en": "minute",
+      "pos": "ot",
+      "example_ko": "두 시 십 분이에요.",
+      "example_uz": "Soat ikkidan o'n daqiqa o'tdi.",
+      "example_en": "It's ten past two.",
+      "audio": "458efe5be8b9.mp3",
+      "example_audio": "a37b2900e94e.mp3"
+    },
+    {
+      "id": "b1_u08_l1_w003",
+      "ko": "반",
+      "uz": "yarim",
+      "en": "half",
+      "pos": "ot",
+      "example_ko": "한 시 반에 만나요.",
+      "example_uz": "Soat bir yarimda uchrashamiz.",
+      "example_en": "Let's meet at half past one.",
+      "audio": "b1b96b39ebfe.mp3",
+      "example_audio": "255a26588bbc.mp3"
+    },
+    {
+      "id": "b1_u08_l1_w004",
+      "ko": "오전",
+      "uz": "tushdan oldin",
+      "en": "a.m., morning",
+      "pos": "ot",
+      "example_ko": "오전 아홉 시에 수업이 있어요.",
+      "example_uz": "Ertalab soat to'qqizda dars bor.",
+      "example_en": "I have class at 9 a.m.",
+      "audio": "3bcb302a78e8.mp3",
+      "example_audio": "344181886b0f.mp3"
+    },
+    {
+      "id": "b1_u08_l1_w005",
+      "ko": "오후",
+      "uz": "tushdan keyin",
+      "en": "p.m., afternoon",
+      "pos": "ot",
+      "example_ko": "오후 세 시에 끝나요.",
+      "example_uz": "Kunduzi soat uchda tugaydi.",
+      "example_en": "It finishes at 3 p.m.",
+      "audio": "69ab8567c215.mp3",
+      "example_audio": "2f5b20451492.mp3"
+    },
+    {
+      "id": "b1_u08_l1_w006",
+      "ko": "점심",
+      "uz": "tushlik",
+      "en": "lunch",
+      "pos": "ot",
+      "example_ko": "열두 시에 점심을 먹어요.",
+      "example_uz": "Soat o'n ikkida tushlik qilaman.",
+      "example_en": "I have lunch at twelve.",
+      "audio": "6b44c30ba5d1.mp3",
+      "example_audio": "30e402019a95.mp3"
+    },
+    {
+      "id": "b1_u08_l1_w007",
+      "ko": "밤",
+      "uz": "tun",
+      "en": "night",
+      "pos": "ot",
+      "example_ko": "밤 열한 시에 자요.",
+      "example_uz": "Kechasi soat o'n birda uxlayman.",
+      "example_en": "I go to bed at 11 p.m.",
+      "audio": "4cbed51ac3a3.mp3",
+      "example_audio": "b3f61e5123f3.mp3"
+    },
+    {
+      "id": "b1_u08_l1_w008",
+      "ko": "월요일",
+      "uz": "dushanba",
+      "en": "Monday",
+      "pos": "ot",
+      "example_ko": "월요일에 학교에 가요.",
+      "example_uz": "Dushanba kuni maktabga boraman.",
+      "example_en": "I go to school on Monday.",
+      "audio": "39bf92933801.mp3",
+      "example_audio": "b3ba10d53e64.mp3"
+    },
+    {
+      "id": "b1_u08_l1_w009",
+      "ko": "화요일",
+      "uz": "seshanba",
+      "en": "Tuesday",
+      "pos": "ot",
+      "example_ko": "화요일에 운동해요.",
+      "example_uz": "Seshanba kuni sport qilaman.",
+      "example_en": "I exercise on Tuesday.",
+      "audio": "6787d62b343d.mp3",
+      "example_audio": "381a78591d92.mp3"
+    },
+    {
+      "id": "b1_u08_l1_w010",
+      "ko": "수요일",
+      "uz": "chorshanba",
+      "en": "Wednesday",
+      "pos": "ot",
+      "example_ko": "수요일에 시험이 있어요.",
+      "example_uz": "Chorshanba kuni imtihon bor.",
+      "example_en": "There's an exam on Wednesday.",
+      "audio": "9660066d777f.mp3",
+      "example_audio": "0e0fb74a2313.mp3"
+    },
+    {
+      "id": "b1_u08_l1_w011",
+      "ko": "목요일",
+      "uz": "payshanba",
+      "en": "Thursday",
+      "pos": "ot",
+      "example_ko": "목요일에 친구를 만나요.",
+      "example_uz": "Payshanba kuni do'stim bilan uchrashaman.",
+      "example_en": "I meet a friend on Thursday.",
+      "audio": "3511898440fc.mp3",
+      "example_audio": "7b12a5ad253f.mp3"
+    },
+    {
+      "id": "b1_u08_l1_w012",
+      "ko": "금요일",
+      "uz": "juma",
+      "en": "Friday",
+      "pos": "ot",
+      "example_ko": "금요일 저녁에 영화를 봐요.",
+      "example_uz": "Juma oqshomi kino ko'raman.",
+      "example_en": "I watch a film on Friday evening.",
+      "audio": "2ce53c3c479e.mp3",
+      "example_audio": "aa7cb7680a0b.mp3"
+    },
+    {
+      "id": "b1_u08_l1_w013",
+      "ko": "토요일",
+      "uz": "shanba",
+      "en": "Saturday",
+      "pos": "ot",
+      "example_ko": "토요일에 쉬어요.",
+      "example_uz": "Shanba kuni dam olaman.",
+      "example_en": "I rest on Saturday.",
+      "audio": "82e051970fb1.mp3",
+      "example_audio": "814522f69721.mp3"
+    },
+    {
+      "id": "b1_u08_l1_w014",
+      "ko": "일요일",
+      "uz": "yakshanba",
+      "en": "Sunday",
+      "pos": "ot",
+      "example_ko": "일요일에 청소해요.",
+      "example_uz": "Yakshanba kuni yig'ishtiraman.",
+      "example_en": "I clean on Sunday.",
+      "audio": "4ab9bd70a713.mp3",
+      "example_audio": "ab21b99a89be.mp3"
+    },
+    {
+      "id": "b1_u08_l1_w015",
+      "ko": "무슨 요일",
+      "uz": "haftaning qaysi kuni",
+      "en": "what day of the week",
+      "pos": "ibora",
+      "example_ko": "오늘 무슨 요일이에요?",
+      "example_uz": "Bugun haftaning qaysi kuni?",
+      "example_en": "What day is it today?",
+      "audio": "19a91be36682.mp3",
+      "example_audio": "1227fd272012.mp3"
+    },
+    {
+      "id": "b1_u08_l1_w016",
+      "ko": "일어나다",
+      "uz": "turmoq (uyqudan)",
+      "en": "to get up",
+      "pos": "fe'l",
+      "example_ko": "일곱 시에 일어나요.",
+      "example_uz": "Soat yettida turaman.",
+      "example_en": "I get up at seven.",
+      "audio": "f202c7454647.mp3",
+      "example_audio": "8782ae4c42d3.mp3"
+    },
+    {
+      "id": "b1_u08_l1_w017",
+      "ko": "씻다",
+      "uz": "yuvinmoq",
+      "en": "to wash",
+      "pos": "fe'l",
+      "example_ko": "일어나고 씻어요.",
+      "example_uz": "Turib, yuvinaman.",
+      "example_en": "I get up and wash.",
+      "audio": "54d8fd852a51.mp3",
+      "example_audio": "d9dfb64f9291.mp3"
+    },
+    {
+      "id": "b1_u08_l1_w018",
+      "ko": "수업",
+      "uz": "dars",
+      "en": "class, lesson",
+      "pos": "ot",
+      "example_ko": "수업이 아홉 시에 시작해요.",
+      "example_uz": "Dars soat to'qqizda boshlanadi.",
+      "example_en": "Class starts at nine.",
+      "audio": "d6428dfe0e1f.mp3",
+      "example_audio": "9f12123fb65b.mp3"
+    },
+    {
+      "id": "b1_u08_l1_w019",
+      "ko": "시작하다",
+      "uz": "boshlamoq, boshlanmoq",
+      "en": "to start",
+      "pos": "fe'l",
+      "example_ko": "영화가 일곱 시에 시작해요.",
+      "example_uz": "Kino soat yettida boshlanadi.",
+      "example_en": "The film starts at seven.",
+      "audio": "3f5dc58a9040.mp3",
+      "example_audio": "a8d6183cf7d4.mp3"
+    },
+    {
+      "id": "b1_u08_l1_w020",
+      "ko": "끝나다",
+      "uz": "tugamoq",
+      "en": "to end",
+      "pos": "fe'l",
+      "example_ko": "수업이 한 시에 끝나요.",
+      "example_uz": "Dars soat birda tugaydi.",
+      "example_en": "Class ends at one.",
+      "audio": "f0ec5db8edc8.mp3",
+      "example_audio": "d6627d0eb67b.mp3"
+    },
+    {
+      "id": "b1_u08_l1_w021",
+      "ko": "출근하다",
+      "uz": "ishga bormoq",
+      "en": "to go to work",
+      "pos": "fe'l",
+      "example_ko": "아버지는 여덟 시에 출근해요.",
+      "example_uz": "Otam soat sakkizda ishga boradi.",
+      "example_en": "My father goes to work at eight.",
+      "audio": "3f1b33ebb8bd.mp3",
+      "example_audio": "29c8b63879ed.mp3"
+    },
+    {
+      "id": "b1_u08_l1_w022",
+      "ko": "퇴근하다",
+      "uz": "ishdan qaytmoq",
+      "en": "to leave work",
+      "pos": "fe'l",
+      "example_ko": "여섯 시에 퇴근해요.",
+      "example_uz": "Soat oltida ishdan chiqaman.",
+      "example_en": "I leave work at six.",
+      "audio": "db0c1945ae6e.mp3",
+      "example_audio": "0d8d70418a24.mp3"
+    },
+    {
+      "id": "b1_u08_l1_w023",
+      "ko": "매일",
+      "uz": "har kuni",
+      "en": "every day",
+      "pos": "ravish",
+      "example_ko": "매일 한국어를 공부해요.",
+      "example_uz": "Har kuni koreys tilini o'qiyman.",
+      "example_en": "I study Korean every day.",
+      "audio": "368c8efa0dae.mp3",
+      "example_audio": "787de838b0ae.mp3"
+    },
+    {
+      "id": "b1_u08_l1_w024",
+      "ko": "보통",
+      "uz": "odatda",
+      "en": "usually",
+      "pos": "ravish",
+      "example_ko": "보통 열한 시에 자요.",
+      "example_uz": "Odatda soat o'n birda uxlayman.",
+      "example_en": "I usually go to bed at eleven.",
+      "audio": "304eda18c79f.mp3",
+      "example_audio": "dfbff551e1d4.mp3"
+    },
+    {
+      "id": "b1_u08_l1_w025",
+      "ko": "몇 시",
+      "uz": "soat necha",
+      "en": "what time",
+      "pos": "ibora",
+      "example_ko": "지금 몇 시예요?",
+      "example_uz": "Hozir soat necha?",
+      "example_en": "What time is it now?",
+      "audio": "1ab5abc60c0d.mp3",
+      "example_audio": "e8d4a77f75c1.mp3"
+    },
+    {
+      "id": "b1_u08_l1_w026",
+      "ko": "전",
+      "uz": "oldin",
+      "en": "before",
+      "pos": "ot",
+      "example_ko": "아홉 시 오 분 전이에요.",
+      "example_uz": "Soat to'qqizga besh daqiqa bor.",
+      "example_en": "It's five to nine.",
+      "audio": "e8cddedc2d29.mp3",
+      "example_audio": "6c4bbd0c0789.mp3"
+    },
+    {
+      "id": "b1_u08_l1_w027",
+      "ko": "쯤",
+      "uz": "taxminan",
+      "en": "about, around",
+      "pos": "ot",
+      "example_ko": "세 시쯤 만나요.",
+      "example_uz": "Taxminan soat uchda uchrashamiz.",
+      "example_en": "Let's meet around three.",
+      "audio": "2c1daa554dca.mp3",
+      "example_audio": "fef7d7abbbb5.mp3"
+    },
+    {
+      "id": "b1_u08_l1_w028",
+      "ko": "늦다",
+      "uz": "kech qolmoq, kech bo'lmoq",
+      "en": "to be late",
+      "pos": "fe'l",
+      "example_ko": "미안해요, 늦어요.",
+      "example_uz": "Kechirasiz, kech qolyapman.",
+      "example_en": "Sorry, I'm running late.",
+      "audio": "740a6435592f.mp3",
+      "example_audio": "aaa02fd7f39e.mp3"
+    },
+    {
+      "id": "b1_u08_l1_w029",
+      "ko": "빨리",
+      "uz": "tez",
+      "en": "quickly",
+      "pos": "ravish",
+      "example_ko": "빨리 오세요!",
+      "example_uz": "Tez keling!",
+      "example_en": "Come quickly!",
+      "audio": "33ba64417d61.mp3",
+      "example_audio": "3412d95d0179.mp3"
+    },
+    {
+      "id": "b1_u08_l1_w030",
+      "ko": "하루",
+      "uz": "bir kun, kun",
+      "en": "a day",
+      "pos": "ot",
+      "example_ko": "하루가 바빠요.",
+      "example_uz": "Kun band o'tadi.",
+      "example_en": "My day is busy.",
+      "audio": "7907a87051b7.mp3",
+      "example_audio": "12847af5418b.mp3"
+    },
+    {
+      "id": "b1_u08_l1_w031",
+      "ko": "일찍",
+      "uz": "erta",
+      "en": "early",
+      "pos": "ravish",
+      "example_ko": "내일 일찍 일어나요.",
+      "example_uz": "Ertaga erta turaman.",
+      "example_en": "I'm getting up early tomorrow.",
+      "audio": "04de1f5c5e88.mp3",
+      "example_audio": "80ee0c423bda.mp3"
+    },
+    {
+      "id": "b1_u08_l1_w032",
+      "ko": "다음",
+      "uz": "keyingi",
+      "en": "next",
+      "pos": "ot",
+      "example_ko": "다음 수업은 두 시예요.",
+      "example_uz": "Keyingi dars soat ikkida.",
+      "example_en": "The next class is at two.",
+      "audio": "114a184abce3.mp3",
+      "example_audio": "2f8b3af0bc0f.mp3"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "b1_u08_l1_g1",
+      "pattern": "N에 (vaqt)",
+      "meaning_uz": "Vaqtda: soat ...da, ... kuni",
+      "meaning_en": "At / on (time)",
+      "explanation_md": "**에** vaqtga qo'shilsa \"**...da**\" ma'nosini beradi: soat, kun, hafta kuni, fasl.\n\n**세 시에 만나요.** — *Soat uchda uchrashamiz.*  \n**월요일에 학교에 가요.** — *Dushanba kuni maktabga boraman.*\n\n### Soatni aytish\n\n- **Soat** — koreyscha sonlar (5-1): **한 시, 두 시, 세 시, 네 시, 다섯 시 … 열두 시**\n- **Daqiqa** — xitoycha sonlar (7-2): **십 분, 이십 분, 사십오 분**\n- **30 daqiqa** = **반**: **두 시 반**\n- **오전/오후** soatdan oldin: **오후 세 시**\n\n### Esda tuting\n\n- **지금, 오늘, 내일, 어제, 매일** bilan 에 **qo'yilmaydi**: ~~오늘에~~ emas, **오늘**.\n- Bir gapda vaqt + joy bo'lsa, odatda vaqt oldin: **세 시에 카페에서 만나요.**\n- \"Soat nechada?\" — **몇 시에?**",
+      "explanation_md_en": "**에** after a time word means \"**at / on / in**\": hours, days, weekdays, seasons.\n\n**세 시에 만나요.** — *Let's meet at three.*  \n**월요일에 학교에 가요.** — *I go to school on Monday.*\n\n### Telling the time\n\n- **Hours** use native numbers (5-1): **한 시, 두 시, 세 시, 네 시, 다섯 시 … 열두 시**\n- **Minutes** use Sino-Korean numbers (7-2): **십 분, 이십 분, 사십오 분**\n- **Half past** = **반**: **두 시 반**\n- **오전/오후** (a.m./p.m.) go before the hour: **오후 세 시**\n\n### Remember\n\n- **지금, 오늘, 내일, 어제, 매일** take **no** 에: not ~~오늘에~~ but **오늘**.\n- With both time and place, time usually comes first: **세 시에 카페에서 만나요.**\n- \"At what time?\" — **몇 시에?**",
+      "formation": [
+        {
+          "condition_uz": "Soat",
+          "condition_en": "Hour",
+          "rule": "N시에",
+          "example": "세 시에, 열두 시에"
+        },
+        {
+          "condition_uz": "Hafta kuni",
+          "condition_en": "Weekday",
+          "rule": "N요일에",
+          "example": "월요일에, 금요일에"
+        },
+        {
+          "condition_uz": "에siz so'zlar",
+          "condition_en": "Words without 에",
+          "rule": "지금, 오늘, 내일, 매일",
+          "example": "오늘 가요, 매일 공부해요"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "세 시에 만나요.",
+          "uz": "Soat uchda uchrashamiz.",
+          "en": "Let's meet at three.",
+          "audio": "4adf3024f90f.mp3"
+        },
+        {
+          "ko": "월요일에 학교에 가요.",
+          "uz": "Dushanba kuni maktabga boraman.",
+          "en": "I go to school on Monday.",
+          "audio": "b3ba10d53e64.mp3"
+        },
+        {
+          "ko": "수업이 아홉 시에 시작해요.",
+          "uz": "Dars soat to'qqizda boshlanadi.",
+          "en": "Class starts at nine.",
+          "audio": "9f12123fb65b.mp3"
+        },
+        {
+          "ko": "보통 밤 열한 시에 자요.",
+          "uz": "Odatda kechasi soat o'n birda uxlayman.",
+          "en": "I usually go to bed at 11 p.m.",
+          "audio": "018becb4f13a.mp3"
+        },
+        {
+          "ko": "몇 시에 일어나요?",
+          "uz": "Soat nechada turasiz?",
+          "en": "What time do you get up?",
+          "audio": "40dddbcfbe75.mp3"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "삼 시에 만나요.",
+          "right": "세 시에 만나요.",
+          "why_uz": "Soat — koreyscha son: 세 시.",
+          "why_en": "Hours use native numbers: 세 시."
+        },
+        {
+          "wrong": "오늘에 시험이 있어요.",
+          "right": "오늘 시험이 있어요.",
+          "why_uz": "오늘 bilan 에 qo'yilmaydi.",
+          "why_en": "오늘 takes no 에."
+        },
+        {
+          "wrong": "두 시 삼십 분 반이에요.",
+          "right": "두 시 반이에요.",
+          "why_uz": "30 daqiqa = 반, ikkalasi birga emas.",
+          "why_en": "30 minutes = 반; don't use both."
+        }
+      ],
+      "uz_compare": "O'zbekchadagi '-da' bilan bir xil: 'soat uchDA' = 세 시에, 'dushanbaDA' = 월요일에. Faqat 'bugun', 'ertaga' kabi so'zlarga 에 qo'shilmaydi — o'zbekchada ham 'bugunda' demaymiz.",
+      "compare_en": "Like English 'at three', 'on Monday' — but Korean uses the same 에 for both. Words like 오늘 (today) and 내일 (tomorrow) take no 에, just as English says 'tomorrow', not 'on tomorrow'."
+    },
+    {
+      "id": "b1_u08_l1_g2",
+      "pattern": "V-고",
+      "meaning_uz": "...ib: ketma-ket ish-harakatlar",
+      "meaning_en": "V and then: linking actions",
+      "explanation_md": "**-고** ikki ish-harakatni bog'laydi: \"**...ib**\", \"**...dan keyin**\" yoki shunchaki \"**va**\".\n\n**밥을 먹고 학교에 가요.** — *Ovqatlanib, maktabga boraman.*\n\n### Qanday yasaladi\n\n**-다** o'rniga **-고**. 받침 ga qarab o'zgarmaydi:\n\n- 먹다 → **먹고**, 씻다 → **씻고**, 일어나다 → **일어나고**, 공부하다 → **공부하고**\n\n### Esda tuting\n\n- Zamon faqat **oxirgi fe'lda**: **일어나고 씻어요.** (birinchi fe'l o'zgarmaydi)\n- Ikki narsani sanash uchun ham: **이 카페는 싸고 맛있어요.** — *Bu kafe arzon va mazali.*\n- Ikki **ot** — **하고** (5-2), ikki **fe'l/sifat** — **-고**.",
+      "explanation_md_en": "**-고** links two actions: \"**and**\", \"**and then**\".\n\n**밥을 먹고 학교에 가요.** — *I eat and then go to school.*\n\n### How to form it\n\nReplace **-다** with **-고**. It doesn't change with 받침:\n\n- 먹다 → **먹고**, 씻다 → **씻고**, 일어나다 → **일어나고**, 공부하다 → **공부하고**\n\n### Remember\n\n- Tense goes on the **last verb only**: **일어나고 씻어요.**\n- It also lists qualities: **이 카페는 싸고 맛있어요.** — *This café is cheap and tasty.*\n- Two **nouns** → **하고** (5-2); two **verbs/adjectives** → **-고**.",
+      "formation": [
+        {
+          "condition_uz": "Har qanday fe'l",
+          "condition_en": "Any verb",
+          "rule": "V-다 → V-고",
+          "example": "먹다 → 먹고, 가다 → 가고"
+        },
+        {
+          "condition_uz": "Sifat",
+          "condition_en": "Adjective",
+          "rule": "A-다 → A-고",
+          "example": "싸다 → 싸고, 맛있다 → 맛있고"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "밥을 먹고 학교에 가요.",
+          "uz": "Ovqatlanib, maktabga boraman.",
+          "en": "I eat and then go to school.",
+          "audio": "d871811a0107.mp3"
+        },
+        {
+          "ko": "일곱 시에 일어나고 씻어요.",
+          "uz": "Soat yettida turib, yuvinaman.",
+          "en": "I get up at seven and wash.",
+          "audio": "f495f5569a9a.mp3"
+        },
+        {
+          "ko": "수업이 끝나고 도서관에 가요.",
+          "uz": "Dars tugagach, kutubxonaga boraman.",
+          "en": "After class I go to the library.",
+          "audio": "5c5219116c5c.mp3"
+        },
+        {
+          "ko": "저녁을 먹고 텔레비전을 봐요.",
+          "uz": "Kechki ovqatdan keyin televizor ko'raman.",
+          "en": "I have dinner and then watch TV.",
+          "audio": "be5cb6a6b1c6.mp3"
+        },
+        {
+          "ko": "이 식당은 싸고 맛있어요.",
+          "uz": "Bu oshxona arzon va mazali.",
+          "en": "This restaurant is cheap and tasty.",
+          "audio": "a8119b2aab58.mp3"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "밥을 먹어요고 가요.",
+          "right": "밥을 먹고 가요.",
+          "why_uz": "-다 o'rniga -고: 먹고.",
+          "why_en": "Replace -다 with -고: 먹고."
+        },
+        {
+          "wrong": "일어나요 그리고 씻어요.",
+          "right": "일어나고 씻어요.",
+          "why_uz": "Bir gapda -고 bilan bog'lanadi.",
+          "why_en": "In one sentence, link with -고."
+        },
+        {
+          "wrong": "빵하고 먹고 우유하고 마셔요.",
+          "right": "빵을 먹고 우유를 마셔요.",
+          "why_uz": "Ot bilan 을/를, fe'llar -고 bilan.",
+          "why_en": "Nouns take 을/를; verbs link with -고."
+        }
+      ],
+      "uz_compare": "O'zbekchadagi '-ib' ga juda o'xshaydi: 'ovqatlanIB maktabga boraman' = 밥을 먹고 학교에 가요. Ikkala tilda ham zamon faqat oxirgi fe'lda.",
+      "compare_en": "Like English 'and (then)': 'I eat AND go to school' = 밥을 먹고 학교에 가요. Only the last verb carries the tense."
+    }
+  ],
+  "dialogue": {
+    "lines": [
+      {
+        "speaker": "aziz",
+        "ko": "민지 씨, 지금 몇 시예요?",
+        "uz": "Minji, hozir soat necha?",
+        "en": "Minji, what time is it now?",
+        "audio": "84831082f628.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "여덟 시 반이에요. 왜요?",
+        "uz": "Sakkiz yarim. Nega?",
+        "en": "Half past eight. Why?",
+        "audio": "710ae0ed2293.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "아홉 시에 수업이 있어요. 늦어요!",
+        "uz": "Soat to'qqizda darsim bor. Kech qolyapman!",
+        "en": "I have class at nine. I'm going to be late!",
+        "audio": "3145f8607468.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "괜찮아요. 아직 삼십 분 있어요.",
+        "uz": "Hechqisi yo'q. Hali o'ttiz daqiqa bor.",
+        "en": "It's okay. You still have thirty minutes.",
+        "audio": "c687e66fe3f6.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "수업은 보통 몇 시에 끝나요?",
+        "uz": "Dars odatda soat nechada tugaydi?",
+        "en": "What time does class usually finish?",
+        "audio": "89a22e6341a4.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "한 시에 끝나요. 아지즈 씨는 수업이 끝나고 뭐 해요?",
+        "uz": "Soat birda. Aziz, dars tugagach nima qilasiz?",
+        "en": "At one. Aziz, what do you do after class?",
+        "audio": "0819bdc3b557.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "점심을 먹고 도서관에 가요.",
+        "uz": "Tushlik qilib, kutubxonaga boraman.",
+        "en": "I have lunch and then go to the library.",
+        "audio": "054aa7cca139.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "금요일에도 도서관에 가요?",
+        "uz": "Juma kuni ham kutubxonaga borasizmi?",
+        "en": "Do you go to the library on Friday too?",
+        "audio": "8bbe712873f6.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "아니요, 금요일 오후에는 아르바이트를 해요.",
+        "uz": "Yo'q, juma kuni tushdan keyin ishlayman.",
+        "en": "No, on Friday afternoons I have a part-time job.",
+        "audio": "c5067da3cd56.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "그럼 토요일에 같이 영화 봐요!",
+        "uz": "Unda shanba kuni birga kino ko'raylik!",
+        "en": "Then let's watch a film together on Saturday!",
+        "audio": "8aaa8eb45a49.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "좋아요! 이제 빨리 가요!",
+        "uz": "Zo'r! Endi tez ketaman!",
+        "en": "Great! I really need to go now!",
+        "audio": "a825ba677f85.mp3"
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b1_u08_l1_e001",
+      "type": "conjugate",
+      "targets": [
+        "b1_u08_l1_g1"
+      ],
+      "prompt_uz": "Soat 3 da (koreyscha)",
+      "prompt_en": "At 3 o'clock (in Korean)",
+      "base": "3시",
+      "form": "-에",
+      "answers": [
+        "세 시에"
+      ]
+    },
+    {
+      "id": "b1_u08_l1_e002",
+      "type": "conjugate",
+      "targets": [
+        "b1_u08_l1_g1"
+      ],
+      "prompt_uz": "Juma kuni (koreyscha)",
+      "prompt_en": "On Friday (in Korean)",
+      "base": "금요일",
+      "form": "-에",
+      "answers": [
+        "금요일에"
+      ]
+    },
+    {
+      "id": "b1_u08_l1_e003",
+      "type": "conjugate",
+      "targets": [
+        "b1_u08_l1_g2"
+      ],
+      "prompt_uz": "'Yeb' shaklini yasang",
+      "prompt_en": "Make 'eat and (then)'",
+      "base": "먹다",
+      "form": "-고",
+      "answers": [
+        "먹고"
+      ]
+    },
+    {
+      "id": "b1_u08_l1_e004",
+      "type": "conjugate",
+      "targets": [
+        "b1_u08_l1_g2"
+      ],
+      "prompt_uz": "'Turib' shaklini yasang",
+      "prompt_en": "Make 'get up and (then)'",
+      "base": "일어나다",
+      "form": "-고",
+      "answers": [
+        "일어나고"
+      ]
+    },
+    {
+      "id": "b1_u08_l1_e005",
+      "type": "fill_blank",
+      "targets": [
+        "b1_u08_l1_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Dushanba kuni imtihon bor.'",
+      "prompt_en": "Fill in the blank: 'There's an exam on Monday.'",
+      "sentence": "월요일___ 시험이 있어요.",
+      "answers": [
+        "에"
+      ]
+    },
+    {
+      "id": "b1_u08_l1_e006",
+      "type": "fill_blank",
+      "targets": [
+        "b1_u08_l1_g1",
+        "b1_u08_l1_w025"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Soat nechada turasiz?'",
+      "prompt_en": "Fill in the blank: 'What time do you get up?'",
+      "sentence": "___ 시에 일어나요?",
+      "answers": [
+        "몇"
+      ]
+    },
+    {
+      "id": "b1_u08_l1_e007",
+      "type": "fill_blank",
+      "targets": [
+        "b1_u08_l1_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Yuvinib, nonushta qilaman.'",
+      "prompt_en": "Fill in the blank: 'I wash and have breakfast.'",
+      "sentence": "___ 아침을 먹어요. (씻다)",
+      "answers": [
+        "씻고"
+      ]
+    },
+    {
+      "id": "b1_u08_l1_e008",
+      "type": "fill_blank",
+      "targets": [
+        "b1_u08_l1_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Dars tugagach, uyga boraman.'",
+      "prompt_en": "Fill in the blank: 'After class I go home.'",
+      "sentence": "수업이 ___ 집에 가요. (끝나다)",
+      "answers": [
+        "끝나고"
+      ]
+    },
+    {
+      "id": "b1_u08_l1_e009",
+      "type": "situation_choice",
+      "targets": [
+        "b1_u08_l1_g1",
+        "b1_u08_l1_w025"
+      ],
+      "prompt_uz": "Do'stingizdan hozir soat nechaligini so'rang:",
+      "prompt_en": "Ask your friend what time it is now:",
+      "options": [
+        "지금 몇 시예요?",
+        "지금 몇 시에요?",
+        "지금 몇 시에 있어요?",
+        "지금 시가 뭐예요?"
+      ],
+      "answers": [
+        "지금 몇 시예요?"
+      ]
+    },
+    {
+      "id": "b1_u08_l1_e010",
+      "type": "situation_choice",
+      "targets": [
+        "b1_u08_l1_g1"
+      ],
+      "prompt_uz": "Soat 2:30 ni ayting:",
+      "prompt_en": "Say it's 2:30:",
+      "options": [
+        "두 시 반이에요.",
+        "이 시 반이에요.",
+        "두 시 삼십 반이에요.",
+        "둘 시 반이에요."
+      ],
+      "answers": [
+        "두 시 반이에요."
+      ]
+    },
+    {
+      "id": "b1_u08_l1_e011",
+      "type": "situation_choice",
+      "targets": [
+        "b1_u08_l1_g2"
+      ],
+      "prompt_uz": "Ertalabki tartibingiz: turib, yuvinasiz:",
+      "prompt_en": "Your morning: you get up and wash:",
+      "options": [
+        "일어나고 씻어요.",
+        "일어나요고 씻어요.",
+        "일어나고 씻고.",
+        "일어나하고 씻어요."
+      ],
+      "answers": [
+        "일어나고 씻어요."
+      ]
+    },
+    {
+      "id": "b1_u08_l1_e012",
+      "type": "find_error",
+      "targets": [
+        "b1_u08_l1_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "삼 시에 만나요.",
+      "answers": [
+        "세 시에 만나요"
+      ],
+      "why_uz": "Soat koreyscha son bilan: 세 시.",
+      "why_en": "Hours use native numbers: 세 시."
+    },
+    {
+      "id": "b1_u08_l1_e013",
+      "type": "find_error",
+      "targets": [
+        "b1_u08_l1_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "내일에 시험이 있어요.",
+      "answers": [
+        "내일 시험이 있어요"
+      ],
+      "why_uz": "내일 bilan 에 qo'yilmaydi.",
+      "why_en": "내일 takes no 에."
+    },
+    {
+      "id": "b1_u08_l1_e014",
+      "type": "find_error",
+      "targets": [
+        "b1_u08_l1_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "점심을 먹어요고 도서관에 가요.",
+      "answers": [
+        "점심을 먹고 도서관에 가요"
+      ],
+      "why_uz": "-다 o'rniga -고: 먹고.",
+      "why_en": "Replace -다 with -고: 먹고."
+    },
+    {
+      "id": "b1_u08_l1_e015",
+      "type": "translate",
+      "targets": [
+        "b1_u08_l1_g1"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Soat yettida turaman.",
+      "source_en": "I get up at seven.",
+      "answers": [
+        "일곱 시에 일어나요",
+        "저는 일곱 시에 일어나요"
+      ]
+    },
+    {
+      "id": "b1_u08_l1_e016",
+      "type": "translate",
+      "targets": [
+        "b1_u08_l1_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Ovqatlanib, maktabga boraman.",
+      "source_en": "I eat and then go to school.",
+      "answers": [
+        "밥을 먹고 학교에 가요"
+      ]
+    },
+    {
+      "id": "b1_u08_l1_e017",
+      "type": "translate",
+      "targets": [
+        "b1_u08_l1_g1"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Hozir soat necha?",
+      "source_en": "What time is it now?",
+      "answers": [
+        "지금 몇 시예요",
+        "지금 몇 시예요?"
+      ]
+    },
+    {
+      "id": "b1_u08_l1_e018",
+      "type": "build_sentence",
+      "targets": [
+        "b1_u08_l1_g1"
+      ],
+      "prompt_uz": "'Dars soat to'qqizda boshlanadi' gapini tuzing",
+      "prompt_en": "Build the sentence 'Class starts at nine'",
+      "tokens": [
+        "시작해요",
+        "아홉",
+        "시에",
+        "수업이"
+      ],
+      "answers": [
+        "수업이 아홉 시에 시작해요"
+      ]
+    },
+    {
+      "id": "b1_u08_l1_e019",
+      "type": "build_sentence",
+      "targets": [
+        "b1_u08_l1_g2"
+      ],
+      "prompt_uz": "'Kechki ovqatdan keyin televizor ko'raman' gapini tuzing",
+      "prompt_en": "Build the sentence 'I have dinner and then watch TV'",
+      "tokens": [
+        "저녁을",
+        "봐요",
+        "먹고",
+        "텔레비전을"
+      ],
+      "answers": [
+        "저녁을 먹고 텔레비전을 봐요"
+      ]
+    },
+    {
+      "id": "b1_u08_l1_e020",
+      "type": "build_sentence",
+      "targets": [
+        "b1_u08_l1_g1",
+        "b1_u08_l1_g2"
+      ],
+      "prompt_uz": "'Shanba kuni dam olib, kino ko'raman' gapini tuzing",
+      "prompt_en": "Build the sentence 'On Saturday I rest and watch a film'",
+      "tokens": [
+        "봐요",
+        "쉬고",
+        "토요일에",
+        "영화를"
+      ],
+      "answers": [
+        "토요일에 쉬고 영화를 봐요"
+      ]
+    },
+    {
+      "id": "b1_u08_l1_e021",
+      "type": "listen_question",
+      "targets": [
+        "b1_u08_l1_g1"
+      ],
+      "prompt_uz": "Hozir soat necha?",
+      "prompt_en": "What time is it now?",
+      "audio_text": "지금 네 시 십 분이에요.",
+      "options": [
+        "4:10",
+        "10:04",
+        "4:30",
+        "14:00"
+      ],
+      "options_en": [
+        "4:10",
+        "10:04",
+        "4:30",
+        "14:00"
+      ],
+      "answers": [
+        "4:10"
+      ],
+      "audio": "e45a7711ccee.mp3"
+    },
+    {
+      "id": "b1_u08_l1_e022",
+      "type": "listen_question",
+      "targets": [
+        "b1_u08_l1_g1"
+      ],
+      "prompt_uz": "Imtihon qachon?",
+      "prompt_en": "When is the exam?",
+      "audio_text": "수요일 오전에 시험이 있어요.",
+      "options": [
+        "Chorshanba ertalab",
+        "Chorshanba kechqurun",
+        "Payshanba ertalab",
+        "Seshanba ertalab"
+      ],
+      "options_en": [
+        "Wednesday morning",
+        "Wednesday evening",
+        "Thursday morning",
+        "Tuesday morning"
+      ],
+      "answers": [
+        "Chorshanba ertalab"
+      ],
+      "audio": "fbe1be66785b.mp3"
+    },
+    {
+      "id": "b1_u08_l1_e023",
+      "type": "listen_question",
+      "targets": [
+        "b1_u08_l1_g2"
+      ],
+      "prompt_uz": "Dars tugagach u nima qiladi?",
+      "prompt_en": "What does the speaker do after class?",
+      "audio_text": "수업이 끝나고 친구를 만나요.",
+      "options": [
+        "Do'sti bilan uchrashadi",
+        "Uyga boradi",
+        "Ishlaydi",
+        "Uxlaydi"
+      ],
+      "options_en": [
+        "Meets a friend",
+        "Goes home",
+        "Works",
+        "Sleeps"
+      ],
+      "answers": [
+        "Do'sti bilan uchrashadi"
+      ],
+      "audio": "6082be9272f9.mp3"
+    },
+    {
+      "id": "b1_u08_l1_e024",
+      "type": "listen_question",
+      "targets": [
+        "b1_u08_l1_g1",
+        "b1_u08_l1_g2"
+      ],
+      "prompt_uz": "U soat nechada uxlaydi?",
+      "prompt_en": "What time does the speaker go to bed?",
+      "audio_text": "보통 열한 시에 씻고 자요.",
+      "options": [
+        "11:00",
+        "10:00",
+        "12:00",
+        "1:00"
+      ],
+      "options_en": [
+        "11:00",
+        "10:00",
+        "12:00",
+        "1:00"
+      ],
+      "answers": [
+        "11:00"
+      ],
+      "audio": "1f385d7088b5.mp3"
+    },
+    {
+      "id": "b1_u08_l1_e101",
+      "type": "conjugate",
+      "targets": [
+        "b1_u08_l1_g1"
+      ],
+      "prompt_uz": "Soat 12 da (koreyscha)",
+      "prompt_en": "At 12 o'clock (in Korean)",
+      "base": "12시",
+      "form": "-에",
+      "answers": [
+        "열두 시에"
+      ]
+    },
+    {
+      "id": "b1_u08_l1_e102",
+      "type": "conjugate",
+      "targets": [
+        "b1_u08_l1_g2"
+      ],
+      "prompt_uz": "'O'qib' shaklini yasang (dars)",
+      "prompt_en": "Make 'study and (then)'",
+      "base": "공부하다",
+      "form": "-고",
+      "answers": [
+        "공부하고"
+      ]
+    },
+    {
+      "id": "b1_u08_l1_e103",
+      "type": "conjugate",
+      "targets": [
+        "b1_u08_l1_g1"
+      ],
+      "prompt_uz": "Soat 9:30 ni koreyscha ayting",
+      "prompt_en": "Say 9:30 in Korean",
+      "base": "9:30",
+      "form": "N시 반",
+      "answers": [
+        "아홉 시 반",
+        "아홉 시 삼십 분"
+      ]
+    },
+    {
+      "id": "b1_u08_l1_e104",
+      "type": "fill_blank",
+      "targets": [
+        "b1_u08_l1_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Shanba kuni dam olaman.'",
+      "prompt_en": "Fill in the blank: 'I rest on Saturday.'",
+      "sentence": "토요일___ 쉬어요.",
+      "answers": [
+        "에"
+      ]
+    },
+    {
+      "id": "b1_u08_l1_e105",
+      "type": "fill_blank",
+      "targets": [
+        "b1_u08_l1_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Bu kafe arzon va mazali.'",
+      "prompt_en": "Fill in the blank: 'This café is cheap and tasty.'",
+      "sentence": "이 카페는 ___ 맛있어요. (싸다)",
+      "answers": [
+        "싸고"
+      ]
+    },
+    {
+      "id": "b1_u08_l1_e106",
+      "type": "situation_choice",
+      "targets": [
+        "b1_u08_l1_w015"
+      ],
+      "prompt_uz": "Bugun haftaning qaysi kuni ekanini so'rang:",
+      "prompt_en": "Ask what day of the week it is today:",
+      "options": [
+        "오늘 무슨 요일이에요?",
+        "오늘 몇 요일이에요?",
+        "오늘 무슨 시예요?",
+        "오늘에 무슨 요일이에요?"
+      ],
+      "answers": [
+        "오늘 무슨 요일이에요?"
+      ]
+    },
+    {
+      "id": "b1_u08_l1_e107",
+      "type": "situation_choice",
+      "targets": [
+        "b1_u08_l1_g1"
+      ],
+      "prompt_uz": "Do'stingizga soat beshda uchrashishni taklif qiling:",
+      "prompt_en": "Suggest meeting your friend at five:",
+      "options": [
+        "다섯 시에 만나요.",
+        "오 시에 만나요.",
+        "다섯 시에서 만나요.",
+        "다섯 시 만나요에."
+      ],
+      "answers": [
+        "다섯 시에 만나요."
+      ]
+    },
+    {
+      "id": "b1_u08_l1_e108",
+      "type": "situation_choice",
+      "targets": [
+        "b1_u08_l1_g2"
+      ],
+      "prompt_uz": "Ishdan chiqib, sport qilasiz:",
+      "prompt_en": "You leave work and then exercise:",
+      "options": [
+        "퇴근하고 운동해요.",
+        "퇴근해요고 운동해요.",
+        "퇴근하고 운동하고.",
+        "퇴근 운동하고 해요."
+      ],
+      "answers": [
+        "퇴근하고 운동해요."
+      ]
+    },
+    {
+      "id": "b1_u08_l1_e109",
+      "type": "find_error",
+      "targets": [
+        "b1_u08_l1_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "매일에 한국어를 공부해요.",
+      "answers": [
+        "매일 한국어를 공부해요"
+      ],
+      "why_uz": "매일 bilan 에 qo'yilmaydi.",
+      "why_en": "매일 takes no 에."
+    },
+    {
+      "id": "b1_u08_l1_e110",
+      "type": "find_error",
+      "targets": [
+        "b1_u08_l1_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "씻어요고 자요.",
+      "answers": [
+        "씻고 자요"
+      ],
+      "why_uz": "-다 o'rniga -고: 씻고.",
+      "why_en": "Replace -다 with -고: 씻고."
+    },
+    {
+      "id": "b1_u08_l1_e111",
+      "type": "translate",
+      "targets": [
+        "b1_u08_l1_g1"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Dushanba kuni maktabga boraman.",
+      "source_en": "I go to school on Monday.",
+      "answers": [
+        "월요일에 학교에 가요"
+      ]
+    },
+    {
+      "id": "b1_u08_l1_e112",
+      "type": "translate",
+      "targets": [
+        "b1_u08_l1_g2",
+        "b1_u08_l1_g1"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Soat yettida turib, yuvinaman.",
+      "source_en": "I get up at seven and wash.",
+      "answers": [
+        "일곱 시에 일어나고 씻어요"
+      ]
+    },
+    {
+      "id": "b1_u08_l1_e113",
+      "type": "build_sentence",
+      "targets": [
+        "b1_u08_l1_g1"
+      ],
+      "prompt_uz": "'Taxminan soat uchda uchrashamiz' gapini tuzing",
+      "prompt_en": "Build the sentence 'Let's meet around three'",
+      "tokens": [
+        "시쯤",
+        "세",
+        "만나요"
+      ],
+      "answers": [
+        "세 시쯤 만나요"
+      ]
+    },
+    {
+      "id": "b1_u08_l1_e114",
+      "type": "listen_question",
+      "targets": [
+        "b1_u08_l1_g1"
+      ],
+      "prompt_uz": "Kino soat nechada boshlanadi?",
+      "prompt_en": "What time does the film start?",
+      "audio_text": "영화가 일곱 시 반에 시작해요.",
+      "options": [
+        "7:30",
+        "7:00",
+        "8:30",
+        "6:30"
+      ],
+      "options_en": [
+        "7:30",
+        "7:00",
+        "8:30",
+        "6:30"
+      ],
+      "answers": [
+        "7:30"
+      ],
+      "audio": "0f8c5ad62e4d.mp3"
+    },
+    {
+      "id": "b1_u08_l1_e115",
+      "type": "listen_question",
+      "targets": [
+        "b1_u08_l1_g2"
+      ],
+      "prompt_uz": "U ertalab nima qiladi?",
+      "prompt_en": "What does the speaker do in the morning?",
+      "audio_text": "아침에 운동하고 샤워해요.",
+      "options": [
+        "Sport qilib, dush qabul qiladi",
+        "Nonushta qilib, ishga boradi",
+        "Uxlaydi",
+        "Kitob o'qiydi"
+      ],
+      "options_en": [
+        "Exercises and showers",
+        "Eats and goes to work",
+        "Sleeps",
+        "Reads"
+      ],
+      "answers": [
+        "Sport qilib, dush qabul qiladi"
+      ],
+      "audio": "c1bfb3cf0e86.mp3"
+    }
+  ],
+  "test": [
+    "b1_u08_l1_e101",
+    "b1_u08_l1_e102",
+    "b1_u08_l1_e103",
+    "b1_u08_l1_e104",
+    "b1_u08_l1_e105",
+    "b1_u08_l1_e106",
+    "b1_u08_l1_e107",
+    "b1_u08_l1_e108",
+    "b1_u08_l1_e109",
+    "b1_u08_l1_e110",
+    "b1_u08_l1_e111",
+    "b1_u08_l1_e112",
+    "b1_u08_l1_e113",
+    "b1_u08_l1_e114",
+    "b1_u08_l1_e115"
+  ],
+  "story": {
+    "title_uz": "Kech qolgan ertalab",
+    "title_en": "A late morning",
+    "gate_uz": "SOAT",
+    "gate_en": "CLOCK",
+    "steps": [
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "어? 민지 씨, 지금 몇 시예요?",
+        "uz": "E? Minji, hozir soat necha?",
+        "en": "Huh? Minji, what time is it now?",
+        "audio": "5789faff7469.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "여덟 시 오십 분이에요.",
+        "uz": "Sakkizdan ellik daqiqa o'tdi.",
+        "en": "It's eight fifty.",
+        "audio": "ce5a515ffef4.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "아! 아홉 시에 수업이 있어요!",
+        "uz": "Voy! Soat to'qqizda darsim bor!",
+        "en": "Oh no! I have class at nine!",
+        "audio": "18034e8688a4.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "아침은요?",
+        "uz": "Nonushta-chi?",
+        "en": "What about breakfast?",
+        "audio": "6b088d7bc327.mp3"
+      },
+      {
+        "type": "choose_reply",
+        "speaker": "aziz",
+        "prompt_uz": "Aziz 'Darsdan keyin ovqatlanaman' demoqchi.",
+        "prompt_en": "Aziz wants to say 'I'll eat after class'.",
+        "options": [
+          "수업이 끝나고 먹어요.",
+          "수업이 끝나요고 먹어요.",
+          "수업이 끝나고에 먹어요."
+        ],
+        "answer": "수업이 끝나고 먹어요.",
+        "uz": "Dars tugagach ovqatlanaman.",
+        "en": "I'll eat after class.",
+        "why_uz": "끝나다 → 끝나고.",
+        "why_en": "끝나다 → 끝나고.",
+        "audio": "6250a5499102.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "수업은 몇 시에 끝나요?",
+        "uz": "Dars soat nechada tugaydi?",
+        "en": "What time does class end?",
+        "audio": "e3382eb1fed9.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "열두 시에 끝나요.",
+        "uz": "Soat o'n ikkida.",
+        "en": "At twelve.",
+        "audio": "8f7842437b94.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "그럼 열두 시 반에 학교 식당에서 만나요.",
+        "uz": "Unda soat o'n ikki yarimda maktab oshxonasida uchrashamiz.",
+        "en": "Then let's meet at the school cafeteria at half past twelve.",
+        "audio": "6595a567c72c.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "좋아요! 오늘 무슨 요일이에요?",
+        "uz": "Zo'r! Bugun haftaning qaysi kuni?",
+        "en": "Great! What day is it today?",
+        "audio": "38d6f0ba5372.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "수요일이에요. 왜요?",
+        "uz": "Chorshanba. Nega?",
+        "en": "Wednesday. Why?",
+        "audio": "1c65f7d468b2.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "수요일에는 비빔밥이 나와요!",
+        "uz": "Chorshanba kuni pibimbap bo'ladi!",
+        "en": "On Wednesdays they serve bibimbap!",
+        "audio": "479245b7a0cb.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "하하, 빨리 가세요!",
+        "uz": "Haha, tezroq boring!",
+        "en": "Haha, hurry up and go!",
+        "audio": "fa402e89d9ce.mp3"
+      },
+      {
+        "type": "quiz",
+        "prompt_uz": "Ular soat nechada uchrashadi?",
+        "prompt_en": "What time will they meet?",
+        "options": [
+          "12:30",
+          "12:00",
+          "9:00"
+        ],
+        "options_en": [
+          "12:30",
+          "12:00",
+          "9:00"
+        ],
+        "answer": "12:30",
+        "why_uz": "열두 시 반에 학교 식당에서 만나요.",
+        "why_en": "열두 시 반 — half past twelve."
+      }
+    ]
+  }
+}

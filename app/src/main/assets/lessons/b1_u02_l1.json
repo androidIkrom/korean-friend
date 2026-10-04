@@ -1,0 +1,1452 @@
+{
+  "id": "b1_u02_l1",
+  "unit": 2,
+  "lesson": 1,
+  "title_ko": "한글 배우기 (3)",
+  "title_uz": "Hangul o'rganish (3)",
+  "title_en": "Learning Hangul (3)",
+  "topic_uz": "Asosiy koreys tili",
+  "topic_en": "Basic Korean",
+  "reviewed": false,
+  "words": [
+    {
+      "id": "b1_u02_l1_w001",
+      "ko": "발음",
+      "uz": "talaffuz",
+      "en": "pronunciation",
+      "pos": "ot",
+      "example_ko": "발음이 좋아요.",
+      "example_uz": "Talaffuzingiz yaxshi.",
+      "example_en": "Your pronunciation is good.",
+      "audio": "385a631f51c0.mp3",
+      "example_audio": "4bc266045dea.mp3"
+    },
+    {
+      "id": "b1_u02_l1_w002",
+      "ko": "단어",
+      "uz": "so'z",
+      "en": "word",
+      "pos": "ot",
+      "example_ko": "이 단어를 읽으세요.",
+      "example_uz": "Bu so'zni o'qing.",
+      "example_en": "Please read this word.",
+      "audio": "8c924800495d.mp3",
+      "example_audio": "0daca203fa24.mp3"
+    },
+    {
+      "id": "b1_u02_l1_w003",
+      "ko": "글자",
+      "uz": "harf, belgi",
+      "en": "letter, character",
+      "pos": "ot",
+      "example_ko": "한글 글자가 예뻐요.",
+      "example_uz": "Hangul harflari chiroyli.",
+      "example_en": "Hangul letters are pretty.",
+      "audio": "7b226be99a29.mp3",
+      "example_audio": "d0006fa147f4.mp3"
+    },
+    {
+      "id": "b1_u02_l1_w004",
+      "ko": "모음",
+      "uz": "unli",
+      "en": "vowel",
+      "pos": "ot",
+      "example_ko": "ㅏ는 모음이에요.",
+      "example_uz": "ㅏ — unli.",
+      "example_en": "ㅏ is a vowel.",
+      "audio": "c6ef276bfea4.mp3",
+      "example_audio": "5b075a2529ae.mp3"
+    },
+    {
+      "id": "b1_u02_l1_w005",
+      "ko": "자음",
+      "uz": "undosh",
+      "en": "consonant",
+      "pos": "ot",
+      "example_ko": "ㄱ은 자음이에요.",
+      "example_uz": "ㄱ — undosh.",
+      "example_en": "ㄱ is a consonant.",
+      "audio": "553c60baaba8.mp3",
+      "example_audio": "50464e9e7a0a.mp3"
+    },
+    {
+      "id": "b1_u02_l1_w006",
+      "ko": "받침",
+      "uz": "bo'g'in oxiridagi undosh",
+      "en": "final consonant",
+      "pos": "ot",
+      "example_ko": "책에는 받침이 있어요.",
+      "example_uz": "책 da 받침 bor.",
+      "example_en": "책 has a final consonant.",
+      "audio": "1a60e183f0f3.mp3",
+      "example_audio": "af8060dc323f.mp3"
+    },
+    {
+      "id": "b1_u02_l1_w007",
+      "ko": "읽다",
+      "uz": "o'qimoq",
+      "en": "to read",
+      "pos": "fe'l",
+      "example_ko": "천천히 읽으세요.",
+      "example_uz": "Sekin o'qing.",
+      "example_en": "Please read slowly.",
+      "audio": "bf7abef5a5c9.mp3",
+      "example_audio": "db7dc41578f1.mp3"
+    },
+    {
+      "id": "b1_u02_l1_w008",
+      "ko": "따라 하다",
+      "uz": "takrorlamoq (ortidan)",
+      "en": "to repeat after",
+      "pos": "fe'l",
+      "example_ko": "선생님을 따라 하세요.",
+      "example_uz": "O'qituvchidan keyin takrorlang.",
+      "example_en": "Repeat after the teacher.",
+      "audio": "fcc358f7f653.mp3",
+      "example_audio": "7c19495ba859.mp3"
+    },
+    {
+      "id": "b1_u02_l1_w009",
+      "ko": "음악",
+      "uz": "musiqa",
+      "en": "music",
+      "pos": "ot",
+      "example_ko": "음악을 좋아해요.",
+      "example_uz": "Musiqani yaxshi ko'raman.",
+      "example_en": "I like music.",
+      "audio": "c215ce39b190.mp3",
+      "example_audio": "1cf9c9dbdca1.mp3"
+    },
+    {
+      "id": "b1_u02_l1_w010",
+      "ko": "한국어",
+      "uz": "koreys tili",
+      "en": "Korean (language)",
+      "pos": "ot",
+      "example_ko": "한국어를 배워요.",
+      "example_uz": "Koreys tilini o'rganyapman.",
+      "example_en": "I'm learning Korean.",
+      "audio": "344da383746a.mp3",
+      "example_audio": "5c04759af63b.mp3"
+    },
+    {
+      "id": "b1_u02_l1_w011",
+      "ko": "이름",
+      "uz": "ism",
+      "en": "name",
+      "pos": "ot",
+      "example_ko": "이름이 뭐예요?",
+      "example_uz": "Ismingiz nima?",
+      "example_en": "What's your name?",
+      "audio": "45b7c7671b30.mp3",
+      "example_audio": "26609ee489e1.mp3"
+    },
+    {
+      "id": "b1_u02_l1_w012",
+      "ko": "옷",
+      "uz": "kiyim",
+      "en": "clothes",
+      "pos": "ot",
+      "example_ko": "옷이 예뻐요.",
+      "example_uz": "Kiyim chiroyli.",
+      "example_en": "The clothes are pretty.",
+      "audio": "29c7008110fb.mp3",
+      "example_audio": "31182338a836.mp3"
+    },
+    {
+      "id": "b1_u02_l1_w013",
+      "ko": "꽃",
+      "uz": "gul",
+      "en": "flower",
+      "pos": "ot",
+      "example_ko": "꽃이 예뻐요.",
+      "example_uz": "Gul chiroyli.",
+      "example_en": "The flower is pretty.",
+      "audio": "7d150601a2d1.mp3",
+      "example_audio": "e5dd91aa1f8f.mp3"
+    },
+    {
+      "id": "b1_u02_l1_w014",
+      "ko": "앞",
+      "uz": "old",
+      "en": "front",
+      "pos": "ot",
+      "example_ko": "학교 앞이에요.",
+      "example_uz": "Maktab oldi.",
+      "example_en": "It's in front of the school.",
+      "audio": "c6417ef25a65.mp3",
+      "example_audio": "d2b2d06c91f7.mp3"
+    },
+    {
+      "id": "b1_u02_l1_w015",
+      "ko": "부엌",
+      "uz": "oshxona (uyda)",
+      "en": "kitchen",
+      "pos": "ot",
+      "example_ko": "부엌에 있어요.",
+      "example_uz": "Oshxonada.",
+      "example_en": "It's in the kitchen.",
+      "audio": "a1d63afbb6d9.mp3",
+      "example_audio": "ce8f759c8415.mp3"
+    },
+    {
+      "id": "b1_u02_l1_w016",
+      "ko": "밖",
+      "uz": "tashqari",
+      "en": "outside",
+      "pos": "ot",
+      "example_ko": "밖이 추워요.",
+      "example_uz": "Tashqari sovuq.",
+      "example_en": "It's cold outside.",
+      "audio": "9639af5aaf6d.mp3",
+      "example_audio": "e8f18e8c1fee.mp3"
+    },
+    {
+      "id": "b1_u02_l1_w017",
+      "ko": "낮",
+      "uz": "kunduz",
+      "en": "daytime",
+      "pos": "ot",
+      "example_ko": "낮에 일해요.",
+      "example_uz": "Kunduzi ishlayman.",
+      "example_en": "I work during the day.",
+      "audio": "108f055bb8b8.mp3",
+      "example_audio": "3a4291b28ecb.mp3"
+    },
+    {
+      "id": "b1_u02_l1_w018",
+      "ko": "밥",
+      "uz": "guruch (osh), ovqat",
+      "en": "rice, meal",
+      "pos": "ot",
+      "example_ko": "밥을 먹어요.",
+      "example_uz": "Ovqat yeyapman.",
+      "example_en": "I'm eating.",
+      "audio": "caeeff08b854.mp3",
+      "example_audio": "9587a60e2489.mp3"
+    },
+    {
+      "id": "b1_u02_l1_w019",
+      "ko": "국",
+      "uz": "sho'rva",
+      "en": "soup",
+      "pos": "ot",
+      "example_ko": "국이 뜨거워요.",
+      "example_uz": "Sho'rva issiq.",
+      "example_en": "The soup is hot.",
+      "audio": "8ef3b1645dd5.mp3",
+      "example_audio": "f09bf52d3966.mp3"
+    },
+    {
+      "id": "b1_u02_l1_w020",
+      "ko": "잎",
+      "uz": "barg",
+      "en": "leaf",
+      "pos": "ot",
+      "example_ko": "나무 잎이 예뻐요.",
+      "example_uz": "Daraxt barglari chiroyli.",
+      "example_en": "The leaves are pretty.",
+      "audio": "c92077271523.mp3",
+      "example_audio": "7533aa295294.mp3"
+    },
+    {
+      "id": "b1_u02_l1_w021",
+      "ko": "집",
+      "uz": "uy",
+      "en": "house",
+      "pos": "ot",
+      "example_ko": "집이 커요.",
+      "example_uz": "Uy katta.",
+      "example_en": "The house is big.",
+      "audio": "856b607a7860.mp3",
+      "example_audio": "2af416e8f4b8.mp3"
+    },
+    {
+      "id": "b1_u02_l1_w022",
+      "ko": "책",
+      "uz": "kitob",
+      "en": "book",
+      "pos": "ot",
+      "example_ko": "책을 읽어요.",
+      "example_uz": "Kitob o'qiyapman.",
+      "example_en": "I'm reading a book.",
+      "audio": "a7ae3b4966c1.mp3",
+      "example_audio": "bf1078a26436.mp3"
+    },
+    {
+      "id": "b1_u02_l1_w023",
+      "ko": "맛",
+      "uz": "ta'm",
+      "en": "taste",
+      "pos": "ot",
+      "example_ko": "맛이 좋아요.",
+      "example_uz": "Ta'mi yaxshi.",
+      "example_en": "It tastes good.",
+      "audio": "8fde2e1f95b5.mp3",
+      "example_audio": "75138df01d21.mp3"
+    },
+    {
+      "id": "b1_u02_l1_w024",
+      "ko": "웃음",
+      "uz": "kulgi",
+      "en": "laughter",
+      "pos": "ot",
+      "example_ko": "웃음이 좋아요.",
+      "example_uz": "Kulgingiz yoqimli.",
+      "example_en": "You have a nice laugh.",
+      "audio": "f5bc4e63e8e2.mp3",
+      "example_audio": "2d62b639a83d.mp3"
+    },
+    {
+      "id": "b1_u02_l1_w025",
+      "ko": "얼음",
+      "uz": "muz",
+      "en": "ice",
+      "pos": "ot",
+      "example_ko": "얼음 주세요.",
+      "example_uz": "Muz bering.",
+      "example_en": "Some ice, please.",
+      "audio": "76401df2b6ca.mp3",
+      "example_audio": "1a01ff3afef8.mp3"
+    },
+    {
+      "id": "b1_u02_l1_w026",
+      "ko": "일요일",
+      "uz": "yakshanba",
+      "en": "Sunday",
+      "pos": "ot",
+      "example_ko": "일요일에 쉬어요.",
+      "example_uz": "Yakshanba kuni dam olaman.",
+      "example_en": "I rest on Sunday.",
+      "audio": "4ab9bd70a713.mp3",
+      "example_audio": "89be3efea64e.mp3"
+    },
+    {
+      "id": "b1_u02_l1_w027",
+      "ko": "금요일",
+      "uz": "juma",
+      "en": "Friday",
+      "pos": "ot",
+      "example_ko": "금요일이에요.",
+      "example_uz": "Juma.",
+      "example_en": "It's Friday.",
+      "audio": "2ce53c3c479e.mp3",
+      "example_audio": "d0d38fd637a1.mp3"
+    },
+    {
+      "id": "b1_u02_l1_w028",
+      "ko": "목요일",
+      "uz": "payshanba",
+      "en": "Thursday",
+      "pos": "ot",
+      "example_ko": "목요일에 만나요.",
+      "example_uz": "Payshanba kuni uchrashamiz.",
+      "example_en": "See you on Thursday.",
+      "audio": "3511898440fc.mp3",
+      "example_audio": "0aeba0b52da4.mp3"
+    },
+    {
+      "id": "b1_u02_l1_w029",
+      "ko": "소리",
+      "uz": "tovush, ovoz",
+      "en": "sound",
+      "pos": "ot",
+      "example_ko": "소리가 작아요.",
+      "example_uz": "Ovoz past.",
+      "example_en": "The sound is quiet.",
+      "audio": "23b026ae7b9f.mp3",
+      "example_audio": "850ea877a133.mp3"
+    },
+    {
+      "id": "b1_u02_l1_w030",
+      "ko": "다시",
+      "uz": "yana, qaytadan",
+      "en": "again",
+      "pos": "ravish",
+      "example_ko": "다시 읽으세요.",
+      "example_uz": "Qaytadan o'qing.",
+      "example_en": "Please read it again.",
+      "audio": "02eba5245ce8.mp3",
+      "example_audio": "84207c732d8d.mp3"
+    },
+    {
+      "id": "b1_u02_l1_w031",
+      "ko": "천천히",
+      "uz": "sekin",
+      "en": "slowly",
+      "pos": "ravish",
+      "example_ko": "천천히 말해 주세요.",
+      "example_uz": "Sekin gapiring, iltimos.",
+      "example_en": "Please speak slowly.",
+      "audio": "df00ba0b5e03.mp3",
+      "example_audio": "f9dc8a696d07.mp3"
+    },
+    {
+      "id": "b1_u02_l1_w032",
+      "ko": "맞다",
+      "uz": "to'g'ri bo'lmoq",
+      "en": "to be right",
+      "pos": "fe'l",
+      "example_ko": "네, 맞아요.",
+      "example_uz": "Ha, to'g'ri.",
+      "example_en": "Yes, that's right.",
+      "audio": "76fcc5cbcf2f.mp3",
+      "example_audio": "c5d934623d56.mp3"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "b1_u02_l1_g1",
+      "pattern": "연음 (bog'lanib o'qish)",
+      "meaning_uz": "받침 keyingi unliga o'tib o'qiladi",
+      "meaning_en": "Linking: a final consonant moves to the next vowel",
+      "explanation_md": "Bo'g'in **받침** bilan tugasa va keyingi bo'g'in **ㅇ + unli** bilan boshlansa, 받침 **keyingi bo'g'inga o'tib** o'qiladi. Yozuv o'zgarmaydi — faqat talaffuz.\n\n- **음악** → [**으막**]\n- **한국어** → [**한구거**]\n- **이름이** → [**이르미**]\n- **옷이** → [**오시**]\n\n### Nega muhim\n\nKoreyslar so'zlarni bog'lab gapiradi. **일요일**ni [이료일] deb eshitasiz. Eshitganingizni yozganda asl yozuvni eslang: [한구거] emas, **한국어**.\n\n### Esda tuting\n\n- **ㅇ** bo'g'in boshida tovushsiz — shuning uchun 받침 shu bo'sh joyga \"ko'chadi\".\n- **ㅎ** 받침 tushib qoladi: **좋아요** → [**조아요**].\n- Ikki 받침li so'zlarda (읽어요) biri o'tadi: [**일거요**].",
+      "explanation_md_en": "When a syllable **ends in 받침** and the next one **starts with ㅇ + vowel**, the 받침 **moves over** to the next syllable. The spelling stays the same — only the sound changes.\n\n- **음악** → [**으막**]\n- **한국어** → [**한구거**]\n- **이름이** → [**이르미**]\n- **옷이** → [**오시**]\n\n### Why it matters\n\nKoreans link words as they speak. You'll hear **일요일** as [이료일]. When you write what you hear, remember the real spelling: **한국어**, not [한구거].\n\n### Remember\n\n- **ㅇ** is silent at the start of a syllable, so the 받침 \"moves into\" that empty slot.\n- A **ㅎ** 받침 disappears: **좋아요** → [**조아요**].\n- With a double 받침 (읽어요), one consonant moves: [**일거요**].",
+      "formation": [
+        {
+          "condition_uz": "받침 + ㅇ",
+          "condition_en": "받침 + ㅇ",
+          "rule": "받침 → keyingi bo'g'in",
+          "example": "음악 [으막], 한국어 [한구거]"
+        },
+        {
+          "condition_uz": "ㅎ 받침 + ㅇ",
+          "condition_en": "ㅎ 받침 + ㅇ",
+          "rule": "ㅎ tushadi",
+          "example": "좋아요 [조아요]"
+        },
+        {
+          "condition_uz": "Ikki 받침",
+          "condition_en": "Double 받침",
+          "rule": "ikkinchisi o'tadi",
+          "example": "읽어요 [일거요]"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "음악을 들어요. [으마글 드러요]",
+          "uz": "Musiqa tinglayman.",
+          "en": "I listen to music.",
+          "audio": "e962922b7e32.mp3"
+        },
+        {
+          "ko": "한국어를 배워요. [한구거를 배워요]",
+          "uz": "Koreys tilini o'rganyapman.",
+          "en": "I'm learning Korean.",
+          "audio": "1cef15876b0f.mp3"
+        },
+        {
+          "ko": "이름이 뭐예요? [이르미 뭐예요]",
+          "uz": "Ismingiz nima?",
+          "en": "What's your name?",
+          "audio": "7e420c5b87ce.mp3"
+        },
+        {
+          "ko": "옷이 예뻐요. [오시 예뻐요]",
+          "uz": "Kiyim chiroyli.",
+          "en": "The clothes are pretty.",
+          "audio": "4118df31b057.mp3"
+        },
+        {
+          "ko": "일요일에 쉬어요. [이료이레 쉬어요]",
+          "uz": "Yakshanba kuni dam olaman.",
+          "en": "I rest on Sunday.",
+          "audio": "58c96058b25b.mp3"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "하구거를 공부해요.",
+          "right": "한국어를 공부해요.",
+          "why_uz": "Talaffuz [한구거], yozuv 한국어.",
+          "why_en": "It sounds like [한구거] but is spelled 한국어."
+        },
+        {
+          "wrong": "으막을 좋아해요.",
+          "right": "음악을 좋아해요.",
+          "why_uz": "Talaffuz [으막], yozuv 음악.",
+          "why_en": "It sounds like [으막] but is spelled 음악."
+        },
+        {
+          "wrong": "조아요.",
+          "right": "좋아요.",
+          "why_uz": "ㅎ eshitilmaydi, lekin yoziladi: 좋아요.",
+          "why_en": "The ㅎ is silent but written: 좋아요."
+        }
+      ],
+      "uz_compare": "O'zbek tilida ham so'zlar bog'lanadi: 'kitob oldim' ko'pincha [kitobo:ldim] eshitiladi. Koreyschada bu qoida doimiy: 받침 har doim keyingi unliga o'tadi.",
+      "compare_en": "English links words too: 'an apple' sounds like 'a-napple'. In Korean this happens every time a 받침 meets a vowel: 음악 → [으막]."
+    },
+    {
+      "id": "b1_u02_l1_g2",
+      "pattern": "받침 talaffuzi (7 tovush)",
+      "meaning_uz": "Bo'g'in oxirida faqat 7 xil tovush",
+      "meaning_en": "Final consonants: only seven sounds",
+      "explanation_md": "Bo'g'in **oxirida** ko'p 받침 bo'lsa ham, faqat **7 xil tovush** eshitiladi: **[ㄱ, ㄴ, ㄷ, ㄹ, ㅁ, ㅂ, ㅇ]**.\n\n| Yozuv | Talaffuz | Misol |\n|---|---|---|\n| ㄱ, ㅋ, ㄲ | [ㄱ] | 부엌 [부억], 밖 [박] |\n| ㄷ, ㅅ, ㅆ, ㅈ, ㅊ, ㅌ, ㅎ | [ㄷ] | 옷 [옫], 낮 [낟], 꽃 [꼳] |\n| ㅂ, ㅍ | [ㅂ] | 앞 [압], 잎 [입] |\n| ㄴ, ㄹ, ㅁ, ㅇ | o'zgarmaydi | 산, 물, 밤, 방 |\n\n### Esda tuting\n\n- Bu tovushlar **qisqa** va **havo chiqarmasdan** aytiladi.\n- Keyin unli kelsa, **bog'lanish** (연음) ishlaydi va asl harf eshitiladi: **옷** [옫], lekin **옷이** [오시].\n- Shuning uchun **꽃** va **꼳** bir xil eshitiladi — yozuvni yodlash kerak.",
+      "explanation_md_en": "However many letters can stand as 받침, a syllable can only **end** in **seven sounds**: **[ㄱ, ㄴ, ㄷ, ㄹ, ㅁ, ㅂ, ㅇ]**.\n\n| Written | Sounds like | Example |\n|---|---|---|\n| ㄱ, ㅋ, ㄲ | [ㄱ] | 부엌 [부억], 밖 [박] |\n| ㄷ, ㅅ, ㅆ, ㅈ, ㅊ, ㅌ, ㅎ | [ㄷ] | 옷 [옫], 낮 [낟], 꽃 [꼳] |\n| ㅂ, ㅍ | [ㅂ] | 앞 [압], 잎 [입] |\n| ㄴ, ㄹ, ㅁ, ㅇ | unchanged | 산, 물, 밤, 방 |\n\n### Remember\n\n- These final sounds are **short** and **unreleased** — no puff of air.\n- When a vowel follows, **linking** brings the real letter back: **옷** [옫], but **옷이** [오시].\n- So **꽃** and **꼳** sound the same — you need to learn the spelling.",
+      "formation": [
+        {
+          "condition_uz": "ㄱ guruhi",
+          "condition_en": "ㄱ group",
+          "rule": "ㄱ, ㅋ, ㄲ → [ㄱ]",
+          "example": "부엌 [부억], 밖 [박]"
+        },
+        {
+          "condition_uz": "ㄷ guruhi",
+          "condition_en": "ㄷ group",
+          "rule": "ㄷ, ㅅ, ㅆ, ㅈ, ㅊ, ㅌ, ㅎ → [ㄷ]",
+          "example": "옷 [옫], 꽃 [꼳], 낮 [낟]"
+        },
+        {
+          "condition_uz": "ㅂ guruhi",
+          "condition_en": "ㅂ group",
+          "rule": "ㅂ, ㅍ → [ㅂ]",
+          "example": "앞 [압], 잎 [입]"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "옷 [옫]",
+          "uz": "kiyim",
+          "en": "clothes",
+          "audio": "74a8fa47d2fc.mp3"
+        },
+        {
+          "ko": "꽃 [꼳]",
+          "uz": "gul",
+          "en": "flower",
+          "audio": "a0aa92b2ca8a.mp3"
+        },
+        {
+          "ko": "앞 [압]",
+          "uz": "old",
+          "en": "front",
+          "audio": "05aa8786fa3d.mp3"
+        },
+        {
+          "ko": "부엌 [부억]",
+          "uz": "oshxona",
+          "en": "kitchen",
+          "audio": "7de4661f1ecf.mp3"
+        },
+        {
+          "ko": "낮 [낟]",
+          "uz": "kunduz",
+          "en": "daytime",
+          "audio": "64f5005f73d5.mp3"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "꼳이 예뻐요.",
+          "right": "꽃이 예뻐요.",
+          "why_uz": "Eshitilishi [꼳], yozuvi 꽃.",
+          "why_en": "It sounds like [꼳] but is spelled 꽃."
+        },
+        {
+          "wrong": "부억에 있어요.",
+          "right": "부엌에 있어요.",
+          "why_uz": "Yozuvi 부엌 (ㅋ).",
+          "why_en": "It's spelled 부엌 (with ㅋ)."
+        },
+        {
+          "wrong": "압이에요.",
+          "right": "앞이에요.",
+          "why_uz": "Yozuvi 앞 (ㅍ).",
+          "why_en": "It's spelled 앞 (with ㅍ)."
+        }
+      ],
+      "uz_compare": "O'zbekchada ham so'z oxirida tovush o'zgaradi: 'kitob' oxiri ko'pincha [p] kabi eshitiladi. Koreyschada bu qat'iy qoida: 7 xil oxirgi tovush.",
+      "compare_en": "English has a similar effect: the 't' in 'cat' is often unreleased. In Korean it's a strict rule: syllables end in only seven sounds."
+    }
+  ],
+  "dialogue": {
+    "lines": [
+      {
+        "speaker": "teacher",
+        "ko": "여러분, 오늘은 발음을 공부해요.",
+        "uz": "Bolalar, bugun talaffuzni o'rganamiz.",
+        "en": "Everyone, today we're studying pronunciation.",
+        "audio": "f424071cfff7.mp3"
+      },
+      {
+        "speaker": "teacher",
+        "ko": "아지즈 씨, 이 단어를 읽으세요.",
+        "uz": "Aziz, bu so'zni o'qing.",
+        "en": "Aziz, please read this word.",
+        "audio": "2c076a127210.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "음… 음악?",
+        "uz": "Hmm… eum-ak?",
+        "en": "Hmm… eum-ak?",
+        "audio": "66832c1bc611.mp3"
+      },
+      {
+        "speaker": "teacher",
+        "ko": "아니요, [으막]이에요. 다시 따라 하세요.",
+        "uz": "Yo'q, [eumak]. Yana takrorlang.",
+        "en": "No, it's [eumak]. Repeat after me.",
+        "audio": "5b031c5004c4.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "으막.",
+        "uz": "Eumak.",
+        "en": "Eumak.",
+        "audio": "0554191c513d.mp3"
+      },
+      {
+        "speaker": "teacher",
+        "ko": "네, 맞아요! 그럼 이 단어는요? 한국어.",
+        "uz": "Ha, to'g'ri! Bu so'z-chi? 한국어.",
+        "en": "Yes, that's right! And this word? 한국어.",
+        "audio": "c492e1946af0.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "한구거!",
+        "uz": "Hanguko!",
+        "en": "Hanguko!",
+        "audio": "b0e9b08514a2.mp3"
+      },
+      {
+        "speaker": "teacher",
+        "ko": "아주 좋아요. 받침이 다음 글자로 가요.",
+        "uz": "Juda yaxshi. 받침 keyingi harfga o'tadi.",
+        "en": "Very good. The final consonant moves to the next syllable.",
+        "audio": "665181994269.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "선생님, 꽃하고 꼳은 소리가 같아요?",
+        "uz": "Ustoz, 꽃 bilan 꼳 bir xil eshitiladimi?",
+        "en": "Teacher, do 꽃 and 꼳 sound the same?",
+        "audio": "dccbefb7ea87.mp3"
+      },
+      {
+        "speaker": "teacher",
+        "ko": "네, 같아요. 그런데 '꽃이'는 [꼬치]예요.",
+        "uz": "Ha, bir xil. Lekin '꽃이' — [kkochi] deb o'qiladi.",
+        "en": "Yes, they do. But '꽃이' is read [kkochi].",
+        "audio": "e1678577e117.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "아, 어려워요. 그래도 재미있어요!",
+        "uz": "Voy, qiyin. Lekin qiziq!",
+        "en": "Oh, it's hard. But it's fun!",
+        "audio": "8788fef2266a.mp3"
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b1_u02_l1_e001",
+      "type": "conjugate",
+      "targets": [
+        "b1_u02_l1_g1"
+      ],
+      "prompt_uz": "Talaffuzini Hangulda yozing",
+      "prompt_en": "Write how it sounds, in Hangul",
+      "base": "음악",
+      "form": "talaffuz [ ]",
+      "answers": [
+        "으막"
+      ]
+    },
+    {
+      "id": "b1_u02_l1_e002",
+      "type": "conjugate",
+      "targets": [
+        "b1_u02_l1_g1"
+      ],
+      "prompt_uz": "Talaffuzini Hangulda yozing",
+      "prompt_en": "Write how it sounds, in Hangul",
+      "base": "한국어",
+      "form": "talaffuz [ ]",
+      "answers": [
+        "한구거"
+      ]
+    },
+    {
+      "id": "b1_u02_l1_e003",
+      "type": "conjugate",
+      "targets": [
+        "b1_u02_l1_g2"
+      ],
+      "prompt_uz": "Talaffuzini Hangulda yozing",
+      "prompt_en": "Write how it sounds, in Hangul",
+      "base": "옷",
+      "form": "talaffuz [ ]",
+      "answers": [
+        "옫"
+      ]
+    },
+    {
+      "id": "b1_u02_l1_e004",
+      "type": "conjugate",
+      "targets": [
+        "b1_u02_l1_g2"
+      ],
+      "prompt_uz": "Talaffuzini Hangulda yozing",
+      "prompt_en": "Write how it sounds, in Hangul",
+      "base": "앞",
+      "form": "talaffuz [ ]",
+      "answers": [
+        "압"
+      ]
+    },
+    {
+      "id": "b1_u02_l1_e005",
+      "type": "fill_blank",
+      "targets": [
+        "b1_u02_l1_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 이름이 → [이르___]",
+      "prompt_en": "Fill in the blank: 이름이 → [이르___]",
+      "sentence": "이름이 → [이르___]",
+      "answers": [
+        "미"
+      ]
+    },
+    {
+      "id": "b1_u02_l1_e006",
+      "type": "fill_blank",
+      "targets": [
+        "b1_u02_l1_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 부엌 → [부___]",
+      "prompt_en": "Fill in the blank: 부엌 → [부___]",
+      "sentence": "부엌 → [부___]",
+      "answers": [
+        "억"
+      ]
+    },
+    {
+      "id": "b1_u02_l1_e007",
+      "type": "fill_blank",
+      "targets": [
+        "b1_u02_l1_g1",
+        "b1_u02_l1_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 옷이 → [오___]",
+      "prompt_en": "Fill in the blank: 옷이 → [오___]",
+      "sentence": "옷이 → [오___]",
+      "answers": [
+        "시"
+      ]
+    },
+    {
+      "id": "b1_u02_l1_e008",
+      "type": "fill_blank",
+      "targets": [
+        "b1_u02_l1_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 좋아요 → [___아요]",
+      "prompt_en": "Fill in the blank: 좋아요 → [___아요]",
+      "sentence": "좋아요 → [___아요]",
+      "answers": [
+        "조"
+      ]
+    },
+    {
+      "id": "b1_u02_l1_e009",
+      "type": "situation_choice",
+      "targets": [
+        "b1_u02_l1_g1"
+      ],
+      "prompt_uz": "'일요일' qanday o'qiladi?",
+      "prompt_en": "How is 일요일 pronounced?",
+      "options": [
+        "[이료일]",
+        "[일요일]",
+        "[이요일]",
+        "[일료일]"
+      ],
+      "answers": [
+        "[이료일]"
+      ]
+    },
+    {
+      "id": "b1_u02_l1_e010",
+      "type": "situation_choice",
+      "targets": [
+        "b1_u02_l1_g2"
+      ],
+      "prompt_uz": "Qaysi so'z oxiri [ㄷ] eshitiladi?",
+      "prompt_en": "Which word ends in a [ㄷ] sound?",
+      "options": [
+        "낮",
+        "밥",
+        "국",
+        "앞"
+      ],
+      "answers": [
+        "낮"
+      ]
+    },
+    {
+      "id": "b1_u02_l1_e011",
+      "type": "situation_choice",
+      "targets": [
+        "b1_u02_l1_g2"
+      ],
+      "prompt_uz": "'꽃' qanday o'qiladi?",
+      "prompt_en": "How is 꽃 pronounced?",
+      "options": [
+        "[꼳]",
+        "[꼭]",
+        "[꼽]",
+        "[꼿]"
+      ],
+      "answers": [
+        "[꼳]"
+      ]
+    },
+    {
+      "id": "b1_u02_l1_e012",
+      "type": "find_error",
+      "targets": [
+        "b1_u02_l1_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "저는 하구거를 공부해요.",
+      "answers": [
+        "저는 한국어를 공부해요"
+      ],
+      "why_uz": "Talaffuz [한구거], yozuv 한국어.",
+      "why_en": "It sounds like [한구거] but is spelled 한국어."
+    },
+    {
+      "id": "b1_u02_l1_e013",
+      "type": "find_error",
+      "targets": [
+        "b1_u02_l1_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "으막을 들어요.",
+      "answers": [
+        "음악을 들어요"
+      ],
+      "why_uz": "Talaffuz [으막], yozuv 음악.",
+      "why_en": "It sounds like [으막] but is spelled 음악."
+    },
+    {
+      "id": "b1_u02_l1_e014",
+      "type": "find_error",
+      "targets": [
+        "b1_u02_l1_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "꼳이 예뻐요.",
+      "answers": [
+        "꽃이 예뻐요"
+      ],
+      "why_uz": "Yozuvi 꽃 (ㅊ).",
+      "why_en": "It's spelled 꽃 (with ㅊ)."
+    },
+    {
+      "id": "b1_u02_l1_e015",
+      "type": "translate",
+      "targets": [
+        "b1_u02_l1_g1"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Musiqani yaxshi ko'raman.",
+      "source_en": "I like music.",
+      "answers": [
+        "음악을 좋아해요",
+        "저는 음악을 좋아해요"
+      ]
+    },
+    {
+      "id": "b1_u02_l1_e016",
+      "type": "translate",
+      "targets": [
+        "b1_u02_l1_g1"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Ismingiz nima?",
+      "source_en": "What's your name?",
+      "answers": [
+        "이름이 뭐예요",
+        "이름이 뭐예요?"
+      ]
+    },
+    {
+      "id": "b1_u02_l1_e017",
+      "type": "translate",
+      "targets": [
+        "b1_u02_l1_g2",
+        "b1_u02_l1_g1"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Gul chiroyli.",
+      "source_en": "The flower is pretty.",
+      "answers": [
+        "꽃이 예뻐요"
+      ]
+    },
+    {
+      "id": "b1_u02_l1_e018",
+      "type": "build_sentence",
+      "targets": [
+        "b1_u02_l1_g1"
+      ],
+      "prompt_uz": "'Koreys tilini o'rganyapman' gapini tuzing",
+      "prompt_en": "Build the sentence 'I'm learning Korean'",
+      "tokens": [
+        "배워요",
+        "한국어를"
+      ],
+      "answers": [
+        "한국어를 배워요"
+      ]
+    },
+    {
+      "id": "b1_u02_l1_e019",
+      "type": "build_sentence",
+      "targets": [
+        "b1_u02_l1_g2"
+      ],
+      "prompt_uz": "'Oshxonada sho'rva bor' gapini tuzing",
+      "prompt_en": "Build the sentence 'There's soup in the kitchen'",
+      "tokens": [
+        "국이",
+        "부엌에",
+        "있어요"
+      ],
+      "answers": [
+        "부엌에 국이 있어요"
+      ]
+    },
+    {
+      "id": "b1_u02_l1_e020",
+      "type": "build_sentence",
+      "targets": [
+        "b1_u02_l1_g1"
+      ],
+      "prompt_uz": "'Yakshanba kuni dam olaman' gapini tuzing",
+      "prompt_en": "Build the sentence 'I rest on Sunday'",
+      "tokens": [
+        "쉬어요",
+        "일요일에"
+      ],
+      "answers": [
+        "일요일에 쉬어요"
+      ]
+    },
+    {
+      "id": "b1_u02_l1_e021",
+      "type": "listen_question",
+      "targets": [
+        "b1_u02_l1_g1"
+      ],
+      "prompt_uz": "Qaysi so'zni eshitdingiz?",
+      "prompt_en": "Which word did you hear?",
+      "audio_text": "음악",
+      "options": [
+        "음악",
+        "으막",
+        "음막",
+        "을악"
+      ],
+      "options_en": [
+        "음악",
+        "으막",
+        "음막",
+        "을악"
+      ],
+      "answers": [
+        "음악"
+      ],
+      "audio": "c215ce39b190.mp3"
+    },
+    {
+      "id": "b1_u02_l1_e022",
+      "type": "listen_question",
+      "targets": [
+        "b1_u02_l1_g2"
+      ],
+      "prompt_uz": "Qaysi so'zni eshitdingiz?",
+      "prompt_en": "Which word did you hear?",
+      "audio_text": "부엌",
+      "options": [
+        "부엌",
+        "부억",
+        "부엇",
+        "부업"
+      ],
+      "options_en": [
+        "부엌",
+        "부억",
+        "부엇",
+        "부업"
+      ],
+      "answers": [
+        "부엌"
+      ],
+      "audio": "a1d63afbb6d9.mp3"
+    },
+    {
+      "id": "b1_u02_l1_e023",
+      "type": "listen_question",
+      "targets": [
+        "b1_u02_l1_g1"
+      ],
+      "prompt_uz": "Qaysi so'zni eshitdingiz?",
+      "prompt_en": "Which word did you hear?",
+      "audio_text": "한국어",
+      "options": [
+        "한국어",
+        "한구거",
+        "항국어",
+        "한국오"
+      ],
+      "options_en": [
+        "한국어",
+        "한구거",
+        "항국어",
+        "한국오"
+      ],
+      "answers": [
+        "한국어"
+      ],
+      "audio": "344da383746a.mp3"
+    },
+    {
+      "id": "b1_u02_l1_e024",
+      "type": "listen_question",
+      "targets": [
+        "b1_u02_l1_g2"
+      ],
+      "prompt_uz": "Qaysi so'zni eshitdingiz?",
+      "prompt_en": "Which word did you hear?",
+      "audio_text": "꽃",
+      "options": [
+        "꽃",
+        "꼳",
+        "곧",
+        "꼭"
+      ],
+      "options_en": [
+        "꽃",
+        "꼳",
+        "곧",
+        "꼭"
+      ],
+      "answers": [
+        "꽃"
+      ],
+      "audio": "7d150601a2d1.mp3"
+    },
+    {
+      "id": "b1_u02_l1_e101",
+      "type": "conjugate",
+      "targets": [
+        "b1_u02_l1_g1"
+      ],
+      "prompt_uz": "Talaffuzini Hangulda yozing",
+      "prompt_en": "Write how it sounds, in Hangul",
+      "base": "얼음",
+      "form": "talaffuz [ ]",
+      "answers": [
+        "어름"
+      ]
+    },
+    {
+      "id": "b1_u02_l1_e102",
+      "type": "conjugate",
+      "targets": [
+        "b1_u02_l1_g1"
+      ],
+      "prompt_uz": "Talaffuzini Hangulda yozing",
+      "prompt_en": "Write how it sounds, in Hangul",
+      "base": "웃음",
+      "form": "talaffuz [ ]",
+      "answers": [
+        "우슴"
+      ]
+    },
+    {
+      "id": "b1_u02_l1_e103",
+      "type": "conjugate",
+      "targets": [
+        "b1_u02_l1_g2"
+      ],
+      "prompt_uz": "Talaffuzini Hangulda yozing",
+      "prompt_en": "Write how it sounds, in Hangul",
+      "base": "밖",
+      "form": "talaffuz [ ]",
+      "answers": [
+        "박"
+      ]
+    },
+    {
+      "id": "b1_u02_l1_e104",
+      "type": "fill_blank",
+      "targets": [
+        "b1_u02_l1_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 잎 → [___]",
+      "prompt_en": "Fill in the blank: 잎 → [___]",
+      "sentence": "잎 → [___]",
+      "answers": [
+        "입"
+      ]
+    },
+    {
+      "id": "b1_u02_l1_e105",
+      "type": "fill_blank",
+      "targets": [
+        "b1_u02_l1_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 금요일 → [___묘일]",
+      "prompt_en": "Fill in the blank: 금요일 → [___묘일]",
+      "sentence": "금요일 → [___묘일]",
+      "answers": [
+        "그"
+      ]
+    },
+    {
+      "id": "b1_u02_l1_e106",
+      "type": "situation_choice",
+      "targets": [
+        "b1_u02_l1_g1"
+      ],
+      "prompt_uz": "'목요일' qanday o'qiladi?",
+      "prompt_en": "How is 목요일 pronounced?",
+      "options": [
+        "[모교일]",
+        "[목요일]",
+        "[모요일]",
+        "[몽요일]"
+      ],
+      "answers": [
+        "[모교일]"
+      ]
+    },
+    {
+      "id": "b1_u02_l1_e107",
+      "type": "situation_choice",
+      "targets": [
+        "b1_u02_l1_g2"
+      ],
+      "prompt_uz": "Qaysi so'z oxiri [ㅂ] eshitiladi?",
+      "prompt_en": "Which word ends in a [ㅂ] sound?",
+      "options": [
+        "앞",
+        "옷",
+        "밖",
+        "낮"
+      ],
+      "answers": [
+        "앞"
+      ]
+    },
+    {
+      "id": "b1_u02_l1_e108",
+      "type": "situation_choice",
+      "targets": [
+        "b1_u02_l1_w031"
+      ],
+      "prompt_uz": "O'qituvchi tez gapiryapti. Nima deysiz?",
+      "prompt_en": "The teacher is speaking fast. What do you say?",
+      "options": [
+        "천천히 말해 주세요.",
+        "다시 읽으세요.",
+        "맞아요.",
+        "따라 하세요."
+      ],
+      "answers": [
+        "천천히 말해 주세요."
+      ]
+    },
+    {
+      "id": "b1_u02_l1_e109",
+      "type": "find_error",
+      "targets": [
+        "b1_u02_l1_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "이르미 뭐예요?",
+      "answers": [
+        "이름이 뭐예요?",
+        "이름이 뭐예요"
+      ],
+      "why_uz": "Talaffuz [이르미], yozuv 이름이.",
+      "why_en": "It sounds like [이르미] but is spelled 이름이."
+    },
+    {
+      "id": "b1_u02_l1_e110",
+      "type": "find_error",
+      "targets": [
+        "b1_u02_l1_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "옫이 예뻐요.",
+      "answers": [
+        "옷이 예뻐요"
+      ],
+      "why_uz": "Yozuvi 옷 (ㅅ); 옷이 [오시].",
+      "why_en": "It's spelled 옷 (with ㅅ); 옷이 sounds [오시]."
+    },
+    {
+      "id": "b1_u02_l1_e111",
+      "type": "translate",
+      "targets": [
+        "b1_u02_l1_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Kitob o'qiyapman.",
+      "source_en": "I'm reading a book.",
+      "answers": [
+        "책을 읽어요",
+        "저는 책을 읽어요"
+      ]
+    },
+    {
+      "id": "b1_u02_l1_e112",
+      "type": "translate",
+      "targets": [
+        "b1_u02_l1_g1"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Muz bering.",
+      "source_en": "Some ice, please.",
+      "answers": [
+        "얼음 주세요",
+        "얼음 좀 주세요"
+      ]
+    },
+    {
+      "id": "b1_u02_l1_e113",
+      "type": "build_sentence",
+      "targets": [
+        "b1_u02_l1_g1",
+        "b1_u02_l1_g2"
+      ],
+      "prompt_uz": "'Kiyim chiroyli' gapini tuzing",
+      "prompt_en": "Build the sentence 'The clothes are pretty'",
+      "tokens": [
+        "예뻐요",
+        "옷이"
+      ],
+      "answers": [
+        "옷이 예뻐요"
+      ]
+    },
+    {
+      "id": "b1_u02_l1_e114",
+      "type": "listen_question",
+      "targets": [
+        "b1_u02_l1_g1"
+      ],
+      "prompt_uz": "Qaysi so'zni eshitdingiz?",
+      "prompt_en": "Which word did you hear?",
+      "audio_text": "일요일",
+      "options": [
+        "일요일",
+        "이료일",
+        "일료일",
+        "이요일"
+      ],
+      "options_en": [
+        "일요일",
+        "이료일",
+        "일료일",
+        "이요일"
+      ],
+      "answers": [
+        "일요일"
+      ],
+      "audio": "4ab9bd70a713.mp3"
+    },
+    {
+      "id": "b1_u02_l1_e115",
+      "type": "listen_question",
+      "targets": [
+        "b1_u02_l1_g2"
+      ],
+      "prompt_uz": "Qaysi so'zni eshitdingiz?",
+      "prompt_en": "Which word did you hear?",
+      "audio_text": "낮",
+      "options": [
+        "낮",
+        "낟",
+        "낙",
+        "납"
+      ],
+      "options_en": [
+        "낮",
+        "낟",
+        "낙",
+        "납"
+      ],
+      "answers": [
+        "낮"
+      ],
+      "audio": "108f055bb8b8.mp3"
+    }
+  ],
+  "test": [
+    "b1_u02_l1_e101",
+    "b1_u02_l1_e102",
+    "b1_u02_l1_e103",
+    "b1_u02_l1_e104",
+    "b1_u02_l1_e105",
+    "b1_u02_l1_e106",
+    "b1_u02_l1_e107",
+    "b1_u02_l1_e108",
+    "b1_u02_l1_e109",
+    "b1_u02_l1_e110",
+    "b1_u02_l1_e111",
+    "b1_u02_l1_e112",
+    "b1_u02_l1_e113",
+    "b1_u02_l1_e114",
+    "b1_u02_l1_e115"
+  ],
+  "story": {
+    "title_uz": "Talaffuz darsi",
+    "title_en": "A pronunciation class",
+    "gate_uz": "SINF",
+    "gate_en": "CLASS",
+    "steps": [
+      {
+        "type": "line",
+        "speaker": "teacher",
+        "ko": "여러분, 오늘은 발음을 공부해요.",
+        "uz": "Bolalar, bugun talaffuzni o'rganamiz.",
+        "en": "Everyone, today we're studying pronunciation.",
+        "audio": "f424071cfff7.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "teacher",
+        "ko": "아지즈 씨, 이 단어를 읽으세요. 음악.",
+        "uz": "Aziz, bu so'zni o'qing: 음악.",
+        "en": "Aziz, please read this word: 음악.",
+        "audio": "86bfcbcb81b8.mp3"
+      },
+      {
+        "type": "choose_reply",
+        "speaker": "aziz",
+        "prompt_uz": "Aziz 음악 ni to'g'ri o'qimoqchi.",
+        "prompt_en": "Aziz wants to read 음악 correctly.",
+        "options": [
+          "[으막]",
+          "[음악]",
+          "[음막]"
+        ],
+        "answer": "[으막]",
+        "uz": "Eumak.",
+        "en": "Eumak.",
+        "why_uz": "받침 ㅁ keyingi bo'g'inga o'tadi: [으막].",
+        "why_en": "The 받침 ㅁ moves to the next syllable: [으막].",
+        "audio": "a8706d49026b.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "teacher",
+        "ko": "네, 맞아요! 아주 좋아요.",
+        "uz": "Ha, to'g'ri! Juda yaxshi.",
+        "en": "Yes, that's right! Very good.",
+        "audio": "44465e439d14.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "teacher",
+        "ko": "그럼 이 단어는요? 한국어.",
+        "uz": "Bu so'z-chi? 한국어.",
+        "en": "And this word? 한국어.",
+        "audio": "bf2f8cb78ce9.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "한구거!",
+        "uz": "Hanguko!",
+        "en": "Hanguko!",
+        "audio": "b0e9b08514a2.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "teacher",
+        "ko": "맞아요. 받침이 다음 글자로 가요.",
+        "uz": "To'g'ri. 받침 keyingi harfga o'tadi.",
+        "en": "Right. The final consonant moves to the next syllable.",
+        "audio": "d367a471e6b4.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "선생님, 꽃하고 꼳은 소리가 같아요?",
+        "uz": "Ustoz, 꽃 bilan 꼳 bir xil eshitiladimi?",
+        "en": "Teacher, do 꽃 and 꼳 sound the same?",
+        "audio": "dccbefb7ea87.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "teacher",
+        "ko": "네, 같아요. 그래서 쓰기가 어려워요.",
+        "uz": "Ha, bir xil. Shuning uchun yozish qiyin.",
+        "en": "Yes, the same. That's why spelling is hard.",
+        "audio": "632b630867c7.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "그럼 단어를 많이 읽어요!",
+        "uz": "Unda so'zlarni ko'p o'qiyman!",
+        "en": "Then I'll read lots of words!",
+        "audio": "c9cc66bead60.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "teacher",
+        "ko": "좋아요. 다시 따라 하세요. 꽃이 예뻐요.",
+        "uz": "Yaxshi. Yana takrorlang: 꽃이 예뻐요.",
+        "en": "Good. Repeat again: 꽃이 예뻐요.",
+        "audio": "a162acd5703d.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "[꼬치 예뻐요]!",
+        "uz": "[Kkochi yeppoyo]!",
+        "en": "[Kkochi yeppeoyo]!",
+        "audio": "365efda9a1ae.mp3"
+      },
+      {
+        "type": "quiz",
+        "prompt_uz": "Nega 꽃 bilan 꼳 bir xil eshitiladi?",
+        "prompt_en": "Why do 꽃 and 꼳 sound the same?",
+        "options": [
+          "Oxirda ㅊ [ㄷ] deb o'qiladi",
+          "ㅊ yozilmaydi",
+          "Ikkalasi bir so'z"
+        ],
+        "options_en": [
+          "A final ㅊ sounds like [ㄷ]",
+          "ㅊ isn't written",
+          "They're the same word"
+        ],
+        "answer": "Oxirda ㅊ [ㄷ] deb o'qiladi",
+        "why_uz": "받침 ㅊ → [ㄷ]: 꽃 [꼳].",
+        "why_en": "A final ㅊ is pronounced [ㄷ]: 꽃 [꼳]."
+      }
+    ]
+  }
+}

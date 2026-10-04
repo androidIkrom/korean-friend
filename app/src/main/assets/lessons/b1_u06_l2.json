@@ -1,0 +1,1444 @@
+{
+  "id": "b1_u06_l2",
+  "unit": 6,
+  "lesson": 2,
+  "title_ko": "어디에 가요?",
+  "title_uz": "Qayerga ketyapsiz?",
+  "title_en": "Where are you going?",
+  "topic_uz": "Kundalik hayot",
+  "topic_en": "Daily life",
+  "reviewed": false,
+  "words": [
+    {
+      "id": "b1_u06_l2_w001",
+      "ko": "어디",
+      "uz": "qayer",
+      "en": "where",
+      "pos": "olmosh",
+      "example_ko": "어디에 가요?",
+      "example_uz": "Qayerga ketyapsiz?",
+      "example_en": "Where are you going?",
+      "audio": "fc810b70701f.mp3",
+      "example_audio": "cc47722355a8.mp3"
+    },
+    {
+      "id": "b1_u06_l2_w002",
+      "ko": "가다",
+      "uz": "bormoq",
+      "en": "to go",
+      "pos": "fe'l",
+      "example_ko": "학교에 가요.",
+      "example_uz": "Maktabga ketyapman.",
+      "example_en": "I'm going to school.",
+      "audio": "896970e17a20.mp3",
+      "example_audio": "9275026320ae.mp3"
+    },
+    {
+      "id": "b1_u06_l2_w003",
+      "ko": "오다",
+      "uz": "kelmoq",
+      "en": "to come",
+      "pos": "fe'l",
+      "example_ko": "친구가 집에 와요.",
+      "example_uz": "Do'stim uyga kelyapti.",
+      "example_en": "My friend is coming home.",
+      "audio": "9d5b77661c84.mp3",
+      "example_audio": "b3ed0816ef5c.mp3"
+    },
+    {
+      "id": "b1_u06_l2_w004",
+      "ko": "학교",
+      "uz": "maktab, o'quv yurti",
+      "en": "school",
+      "pos": "ot",
+      "example_ko": "학교에서 공부해요.",
+      "example_uz": "Maktabda o'qiyman.",
+      "example_en": "I study at school.",
+      "audio": "3aeb6cc5db2a.mp3",
+      "example_audio": "05c236180fbb.mp3"
+    },
+    {
+      "id": "b1_u06_l2_w005",
+      "ko": "집",
+      "uz": "uy",
+      "en": "home, house",
+      "pos": "ot",
+      "example_ko": "집에 가요.",
+      "example_uz": "Uyga ketyapman.",
+      "example_en": "I'm going home.",
+      "audio": "856b607a7860.mp3",
+      "example_audio": "d524d4eb6b54.mp3"
+    },
+    {
+      "id": "b1_u06_l2_w006",
+      "ko": "도서관",
+      "uz": "kutubxona",
+      "en": "library",
+      "pos": "ot",
+      "example_ko": "도서관에서 책을 읽어요.",
+      "example_uz": "Kutubxonada kitob o'qiyman.",
+      "example_en": "I read books at the library.",
+      "audio": "f4e760d32313.mp3",
+      "example_audio": "8cdcca7e03b2.mp3"
+    },
+    {
+      "id": "b1_u06_l2_w007",
+      "ko": "우체국",
+      "uz": "pochta",
+      "en": "post office",
+      "pos": "ot",
+      "example_ko": "우체국에 가요.",
+      "example_uz": "Pochtaga ketyapman.",
+      "example_en": "I'm going to the post office.",
+      "audio": "b457f104da93.mp3",
+      "example_audio": "96344084bdf2.mp3"
+    },
+    {
+      "id": "b1_u06_l2_w008",
+      "ko": "시장",
+      "uz": "bozor",
+      "en": "market",
+      "pos": "ot",
+      "example_ko": "시장에서 과일을 사요.",
+      "example_uz": "Bozordan meva sotib olaman.",
+      "example_en": "I buy fruit at the market.",
+      "audio": "ddbf4ce5d687.mp3",
+      "example_audio": "59a86ff27904.mp3"
+    },
+    {
+      "id": "b1_u06_l2_w009",
+      "ko": "마트",
+      "uz": "supermarket",
+      "en": "supermarket",
+      "pos": "ot",
+      "example_ko": "마트에 가요.",
+      "example_uz": "Supermarketga ketyapman.",
+      "example_en": "I'm going to the supermarket.",
+      "audio": "5115e2326cfb.mp3",
+      "example_audio": "32f90c88fee9.mp3"
+    },
+    {
+      "id": "b1_u06_l2_w010",
+      "ko": "백화점",
+      "uz": "univermag",
+      "en": "department store",
+      "pos": "ot",
+      "example_ko": "백화점에서 옷을 사요.",
+      "example_uz": "Univermagdan kiyim olaman.",
+      "example_en": "I buy clothes at the department store.",
+      "audio": "35b9c75c3321.mp3",
+      "example_audio": "bf52fe4021be.mp3"
+    },
+    {
+      "id": "b1_u06_l2_w011",
+      "ko": "공원",
+      "uz": "bog', park",
+      "en": "park",
+      "pos": "ot",
+      "example_ko": "공원에서 운동해요.",
+      "example_uz": "Parkda sport qilaman.",
+      "example_en": "I exercise in the park.",
+      "audio": "f4c167d403db.mp3",
+      "example_audio": "63ca71ce6f63.mp3"
+    },
+    {
+      "id": "b1_u06_l2_w012",
+      "ko": "영화관",
+      "uz": "kinoteatr",
+      "en": "cinema",
+      "pos": "ot",
+      "example_ko": "영화관에서 영화를 봐요.",
+      "example_uz": "Kinoteatrda kino ko'raman.",
+      "example_en": "I watch films at the cinema.",
+      "audio": "8cf5a167d6db.mp3",
+      "example_audio": "808b06ca628f.mp3"
+    },
+    {
+      "id": "b1_u06_l2_w013",
+      "ko": "서점",
+      "uz": "kitob do'koni",
+      "en": "bookshop",
+      "pos": "ot",
+      "example_ko": "서점에서 사전을 사요.",
+      "example_uz": "Kitob do'konidan lug'at olaman.",
+      "example_en": "I buy a dictionary at the bookshop.",
+      "audio": "9085df30c9c9.mp3",
+      "example_audio": "50611b11315a.mp3"
+    },
+    {
+      "id": "b1_u06_l2_w014",
+      "ko": "편의점",
+      "uz": "kichik do'kon (24 soat)",
+      "en": "convenience store",
+      "pos": "ot",
+      "example_ko": "편의점에서 물을 사요.",
+      "example_uz": "Do'kondan suv olaman.",
+      "example_en": "I buy water at the convenience store.",
+      "audio": "b6b9fd5d8e0f.mp3",
+      "example_audio": "b2fb61aa5e26.mp3"
+    },
+    {
+      "id": "b1_u06_l2_w015",
+      "ko": "약국",
+      "uz": "dorixona",
+      "en": "pharmacy",
+      "pos": "ot",
+      "example_ko": "약국에 가요.",
+      "example_uz": "Dorixonaga ketyapman.",
+      "example_en": "I'm going to the pharmacy.",
+      "audio": "b175ccf41791.mp3",
+      "example_audio": "61e27b97f0ad.mp3"
+    },
+    {
+      "id": "b1_u06_l2_w016",
+      "ko": "화장실",
+      "uz": "hojatxona",
+      "en": "toilet",
+      "pos": "ot",
+      "example_ko": "화장실이 어디예요?",
+      "example_uz": "Hojatxona qayerda?",
+      "example_en": "Where's the toilet?",
+      "audio": "2fa66929be04.mp3",
+      "example_audio": "41145029eee8.mp3"
+    },
+    {
+      "id": "b1_u06_l2_w017",
+      "ko": "기숙사",
+      "uz": "yotoqxona",
+      "en": "dormitory",
+      "pos": "ot",
+      "example_ko": "기숙사에서 자요.",
+      "example_uz": "Yotoqxonada uxlayman.",
+      "example_en": "I sleep in the dormitory.",
+      "audio": "67724a3ef391.mp3",
+      "example_audio": "1a696af590c3.mp3"
+    },
+    {
+      "id": "b1_u06_l2_w018",
+      "ko": "교실",
+      "uz": "sinf xonasi",
+      "en": "classroom",
+      "pos": "ot",
+      "example_ko": "교실에 학생이 많아요.",
+      "example_uz": "Sinfda talabalar ko'p.",
+      "example_en": "There are many students in the classroom.",
+      "audio": "1f0f38be779b.mp3",
+      "example_audio": "7770cd45bad6.mp3"
+    },
+    {
+      "id": "b1_u06_l2_w019",
+      "ko": "수영장",
+      "uz": "basseyn",
+      "en": "swimming pool",
+      "pos": "ot",
+      "example_ko": "수영장에서 수영해요.",
+      "example_uz": "Basseynda suzaman.",
+      "example_en": "I swim at the pool.",
+      "audio": "dec351152782.mp3",
+      "example_audio": "82dcddf1d70a.mp3"
+    },
+    {
+      "id": "b1_u06_l2_w020",
+      "ko": "대사관",
+      "uz": "elchixona",
+      "en": "embassy",
+      "pos": "ot",
+      "example_ko": "대사관에 가요.",
+      "example_uz": "Elchixonaga ketyapman.",
+      "example_en": "I'm going to the embassy.",
+      "audio": "e4aafada70b3.mp3",
+      "example_audio": "64ff69f5b47e.mp3"
+    },
+    {
+      "id": "b1_u06_l2_w021",
+      "ko": "여기",
+      "uz": "bu yer",
+      "en": "here",
+      "pos": "olmosh",
+      "example_ko": "여기에 오세요.",
+      "example_uz": "Bu yerga keling.",
+      "example_en": "Come here, please.",
+      "audio": "e522d646b5fd.mp3",
+      "example_audio": "f9d13a8bd881.mp3"
+    },
+    {
+      "id": "b1_u06_l2_w022",
+      "ko": "거기",
+      "uz": "u yer (suhbatdosh yonida)",
+      "en": "there",
+      "pos": "olmosh",
+      "example_ko": "거기에서 기다리세요.",
+      "example_uz": "O'sha yerda kuting.",
+      "example_en": "Please wait there.",
+      "audio": "80a02409971c.mp3",
+      "example_audio": "159baa0caa39.mp3"
+    },
+    {
+      "id": "b1_u06_l2_w023",
+      "ko": "저기",
+      "uz": "anavi yer",
+      "en": "over there",
+      "pos": "olmosh",
+      "example_ko": "저기가 도서관이에요.",
+      "example_uz": "Anavi yer — kutubxona.",
+      "example_en": "That's the library over there.",
+      "audio": "57be8483712d.mp3",
+      "example_audio": "b0c6c4624130.mp3"
+    },
+    {
+      "id": "b1_u06_l2_w024",
+      "ko": "내일",
+      "uz": "ertaga",
+      "en": "tomorrow",
+      "pos": "ot",
+      "example_ko": "내일 시장에 가요.",
+      "example_uz": "Ertaga bozorga boraman.",
+      "example_en": "I'm going to the market tomorrow.",
+      "audio": "2bc2e9ffc1ed.mp3",
+      "example_audio": "ed28bf23da8c.mp3"
+    },
+    {
+      "id": "b1_u06_l2_w025",
+      "ko": "수영하다",
+      "uz": "suzmoq",
+      "en": "to swim",
+      "pos": "fe'l",
+      "example_ko": "주말에 수영해요.",
+      "example_uz": "Dam olish kuni suzaman.",
+      "example_en": "I swim at the weekend.",
+      "audio": "949394b80d1c.mp3",
+      "example_audio": "338ecf647188.mp3"
+    },
+    {
+      "id": "b1_u06_l2_w026",
+      "ko": "산책하다",
+      "uz": "sayr qilmoq",
+      "en": "to take a walk",
+      "pos": "fe'l",
+      "example_ko": "공원에서 산책해요.",
+      "example_uz": "Parkda sayr qilaman.",
+      "example_en": "I take a walk in the park.",
+      "audio": "9cc814c84a39.mp3",
+      "example_audio": "636d13bdd1cf.mp3"
+    },
+    {
+      "id": "b1_u06_l2_w027",
+      "ko": "과일",
+      "uz": "meva",
+      "en": "fruit",
+      "pos": "ot",
+      "example_ko": "과일을 좋아해요.",
+      "example_uz": "Mevani yaxshi ko'raman.",
+      "example_en": "I like fruit.",
+      "audio": "9f676365bf36.mp3",
+      "example_audio": "23b12bc807f8.mp3"
+    },
+    {
+      "id": "b1_u06_l2_w028",
+      "ko": "약",
+      "uz": "dori",
+      "en": "medicine",
+      "pos": "ot",
+      "example_ko": "약국에서 약을 사요.",
+      "example_uz": "Dorixonadan dori olaman.",
+      "example_en": "I buy medicine at the pharmacy.",
+      "audio": "01bb750f6774.mp3",
+      "example_audio": "66541d14943c.mp3"
+    },
+    {
+      "id": "b1_u06_l2_w029",
+      "ko": "소포",
+      "uz": "posilka",
+      "en": "parcel",
+      "pos": "ot",
+      "example_ko": "우체국에서 소포를 보내요.",
+      "example_uz": "Pochtadan posilka jo'nataman.",
+      "example_en": "I send a parcel at the post office.",
+      "audio": "456551490a92.mp3",
+      "example_audio": "8e3a6d05d382.mp3"
+    },
+    {
+      "id": "b1_u06_l2_w030",
+      "ko": "보내다",
+      "uz": "jo'natmoq",
+      "en": "to send",
+      "pos": "fe'l",
+      "example_ko": "편지를 보내요.",
+      "example_uz": "Xat jo'nataman.",
+      "example_en": "I send a letter.",
+      "audio": "7d0a0642022c.mp3",
+      "example_audio": "1fc90bbd207c.mp3"
+    },
+    {
+      "id": "b1_u06_l2_w031",
+      "ko": "같이 가요",
+      "uz": "birga boraylik",
+      "en": "let's go together",
+      "pos": "ibora",
+      "example_ko": "저도 시장에 가요. 같이 가요!",
+      "example_uz": "Men ham bozorga boraman. Birga boraylik!",
+      "example_en": "I'm going to the market too. Let's go together!",
+      "audio": "b8e85ffea8b7.mp3",
+      "example_audio": "972e9f48f917.mp3"
+    },
+    {
+      "id": "b1_u06_l2_w032",
+      "ko": "또",
+      "uz": "yana",
+      "en": "again, also",
+      "pos": "ravish",
+      "example_ko": "내일 또 와요.",
+      "example_uz": "Ertaga yana kelaman.",
+      "example_en": "I'll come again tomorrow.",
+      "audio": "87ccc377160a.mp3",
+      "example_audio": "ad5743fea66e.mp3"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "b1_u06_l2_g1",
+      "pattern": "N에 가다/오다",
+      "meaning_uz": "...ga bormoq / kelmoq: yo'nalish",
+      "meaning_en": "Go to / come to N: direction",
+      "explanation_md": "**에** harakat **qayerga** yo'nalganini ko'rsatadi: **가다** (bormoq), **오다** (kelmoq), **다니다** (qatnamoq) fe'llari bilan.\n\n**학교에 가요.** — *Maktabga ketyapman.*  \n**어디에 가요?** — *Qayerga ketyapsiz?*\n\n### Qanday yasaladi\n\n**에** 받침 ga qarab o'zgarmaydi: **집에**, **학교에**, **마트에**.\n\n### Esda tuting\n\n- Og'zaki nutqda **어디에 가요? → 어디 가요?** deb 에 tushib qoladi.\n- **가다** — gapiruvchidan uzoqlashish, **오다** — gapiruvchiga yaqinlashish: **친구가 우리 집에 와요.** — *Do'stim bizning uyga kelyapti.*\n- Ertangi reja ham shu shakl bilan aytiladi: **내일 시장에 가요.** — *Ertaga bozorga boraman.*",
+      "explanation_md_en": "**에** marks **where** a movement is headed, with **가다** (go), **오다** (come) and **다니다** (attend).\n\n**학교에 가요.** — *I'm going to school.*  \n**어디에 가요?** — *Where are you going?*\n\n### How to form it\n\n**에** never changes with 받침: **집에**, **학교에**, **마트에**.\n\n### Remember\n\n- In speech **어디에 가요? → 어디 가요?** (에 drops).\n- **가다** = moving away from the speaker, **오다** = moving towards the speaker: **친구가 우리 집에 와요.** — *My friend is coming to our house.*\n- Near-future plans use the same form: **내일 시장에 가요.** — *I'm going to the market tomorrow.*",
+      "formation": [
+        {
+          "condition_uz": "Har qanday ot",
+          "condition_en": "Any noun",
+          "rule": "N + 에 가요/와요",
+          "example": "학교에 가요, 집에 와요"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "학교에 가요.",
+          "uz": "Maktabga ketyapman.",
+          "en": "I'm going to school.",
+          "audio": "9275026320ae.mp3"
+        },
+        {
+          "ko": "어디에 가요?",
+          "uz": "Qayerga ketyapsiz?",
+          "en": "Where are you going?",
+          "audio": "cc47722355a8.mp3"
+        },
+        {
+          "ko": "내일 시장에 가요.",
+          "uz": "Ertaga bozorga boraman.",
+          "en": "I'm going to the market tomorrow.",
+          "audio": "ed28bf23da8c.mp3"
+        },
+        {
+          "ko": "친구가 우리 집에 와요.",
+          "uz": "Do'stim bizning uyga kelyapti.",
+          "en": "My friend is coming to our house.",
+          "audio": "d742ab8fc521.mp3"
+        },
+        {
+          "ko": "주말에 공원에 가요.",
+          "uz": "Dam olish kuni parkka boraman.",
+          "en": "I go to the park at the weekend.",
+          "audio": "d80f15e010af.mp3"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "학교를 가요.",
+          "right": "학교에 가요.",
+          "why_uz": "Yo'nalish — 에.",
+          "why_en": "Direction takes 에."
+        },
+        {
+          "wrong": "집에서 가요. (uyga)",
+          "right": "집에 가요.",
+          "why_uz": "'Uyga' — 집에; 집에서 — 'uydan/uyda'.",
+          "why_en": "'Home(wards)' is 집에; 집에서 means 'at/from home'."
+        },
+        {
+          "wrong": "저는 여기에 가요.",
+          "right": "저는 여기에 와요.",
+          "why_uz": "Gapiruvchi turgan joyga — 오다.",
+          "why_en": "Towards where the speaker is — 오다."
+        }
+      ],
+      "uz_compare": "O'zbekchadagi '-ga' ga mos: 'maktabGA boraman' = 학교에 가요. Tartib ham bir xil: joy, keyin fe'l.",
+      "compare_en": "Like English 'to' with go/come: 'go TO school' = 학교에 가요. But in Korean 에 comes after the place, and the verb is last."
+    },
+    {
+      "id": "b1_u06_l2_g2",
+      "pattern": "N에서",
+      "meaning_uz": "...da (ish-harakat joyi)",
+      "meaning_en": "At / in N: where an action happens",
+      "explanation_md": "**에서** ish-harakat **qayerda bajarilayotganini** ko'rsatadi.\n\n**도서관에서 책을 읽어요.** — *Kutubxonada kitob o'qiyman.*\n\n### 에 va 에서 farqi\n\n- **N에 가다/오다/있다** — harakat yo'nalishi yoki joylashuv: **도서관에 가요.**\n- **N에서 + boshqa fe'llar** (o'qimoq, yemoq, ishlamoq…): **도서관에서 공부해요.**\n\n### Esda tuting\n\n- **에서** ham 받침 ga qarab o'zgarmaydi: **집에서**, **학교에서**.\n- **어디에서 …?** — *Qayerda …?*: **어디에서 일해요?** — *Qayerda ishlaysiz?*",
+      "explanation_md_en": "**에서** marks **where an action takes place**.\n\n**도서관에서 책을 읽어요.** — *I read books at the library.*\n\n### 에 vs 에서\n\n- **N에 가다/오다/있다** — direction or location: **도서관에 가요.**\n- **N에서 + other verbs** (read, eat, work…): **도서관에서 공부해요.**\n\n### Remember\n\n- **에서** doesn't change with 받침: **집에서**, **학교에서**.\n- **어디에서 …?** — *Where do you …?*: **어디에서 일해요?** — *Where do you work?*",
+      "formation": [
+        {
+          "condition_uz": "Ish-harakat joyi",
+          "condition_en": "Place of an action",
+          "rule": "N + 에서 + V",
+          "example": "도서관에서 공부해요, 집에서 쉬어요"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "도서관에서 책을 읽어요.",
+          "uz": "Kutubxonada kitob o'qiyman.",
+          "en": "I read books at the library.",
+          "audio": "8cdcca7e03b2.mp3"
+        },
+        {
+          "ko": "시장에서 과일을 사요.",
+          "uz": "Bozordan meva sotib olaman.",
+          "en": "I buy fruit at the market.",
+          "audio": "59a86ff27904.mp3"
+        },
+        {
+          "ko": "어디에서 일해요?",
+          "uz": "Qayerda ishlaysiz?",
+          "en": "Where do you work?",
+          "audio": "10e47a704612.mp3"
+        },
+        {
+          "ko": "공원에서 산책해요.",
+          "uz": "Parkda sayr qilaman.",
+          "en": "I take a walk in the park.",
+          "audio": "636d13bdd1cf.mp3"
+        },
+        {
+          "ko": "기숙사에서 자요.",
+          "uz": "Yotoqxonada uxlayman.",
+          "en": "I sleep in the dormitory.",
+          "audio": "1a696af590c3.mp3"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "도서관에 공부해요.",
+          "right": "도서관에서 공부해요.",
+          "why_uz": "'O'qimoq' — ish-harakat: 에서.",
+          "why_en": "'Study' is an action: 에서."
+        },
+        {
+          "wrong": "학교에서 가요.",
+          "right": "학교에 가요.",
+          "why_uz": "'Bormoq' bilan yo'nalish — 에.",
+          "why_en": "With 'go', direction takes 에."
+        },
+        {
+          "wrong": "집에서 있어요.",
+          "right": "집에 있어요.",
+          "why_uz": "'Bor/turibdi' — 있다 bilan 에.",
+          "why_en": "With 있다 use 에."
+        }
+      ],
+      "uz_compare": "O'zbekchadagi '-da' ga o'xshaydi: 'kutubxonaDA o'qiyman' = 도서관에서 공부해요. Lekin 'uyda bor' (joylashuv) uchun koreyschada 에 ishlatiladi: 집에 있어요.",
+      "compare_en": "Like English 'at/in' for actions: 'study AT the library' = 도서관에서 공부해요. But for simply being somewhere, Korean uses 에: 집에 있어요."
+    }
+  ],
+  "dialogue": {
+    "lines": [
+      {
+        "speaker": "minji",
+        "ko": "아지즈 씨, 어디에 가요?",
+        "uz": "Aziz, qayerga ketyapsiz?",
+        "en": "Aziz, where are you going?",
+        "audio": "0dcb7e333892.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "우체국에 가요. 고향에 소포를 보내요.",
+        "uz": "Pochtaga. Vatanimga posilka jo'nataman.",
+        "en": "To the post office. I'm sending a parcel home.",
+        "audio": "179d750affe7.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "아, 그래요? 우체국은 저기예요.",
+        "uz": "A, shundaymi? Pochta anavi yerda.",
+        "en": "Oh, really? The post office is over there.",
+        "audio": "80f13224832b.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "고마워요. 민지 씨는 어디에 가요?",
+        "uz": "Rahmat. Siz-chi, Minji, qayerga ketyapsiz?",
+        "en": "Thanks. Where are you going, Minji?",
+        "audio": "2009d392fc7b.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "저는 도서관에 가요. 도서관에서 시험 공부를 해요.",
+        "uz": "Men kutubxonaga. Kutubxonada imtihonga tayyorlanaman.",
+        "en": "I'm going to the library. I'm studying for an exam there.",
+        "audio": "a7cc060866a3.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "도서관 다음에 뭐 해요?",
+        "uz": "Kutubxonadan keyin nima qilasiz?",
+        "en": "What are you doing after the library?",
+        "audio": "54d1f311ffaf.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "시장에 가요. 시장에서 과일을 사요.",
+        "uz": "Bozorga boraman. Bozordan meva olaman.",
+        "en": "I'm going to the market. I'm buying fruit there.",
+        "audio": "74d88f37e115.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "저도 시장에 가요! 같이 가요.",
+        "uz": "Men ham bozorga boraman! Birga boraylik.",
+        "en": "I'm going to the market too! Let's go together.",
+        "audio": "8bf7df6a864d.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "좋아요. 그럼 다섯 시에 시장 앞에서 만나요.",
+        "uz": "Yaxshi. Unda soat beshda bozor oldida uchrashamiz.",
+        "en": "Good. Then let's meet in front of the market at five.",
+        "audio": "5f98882bce63.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "네, 거기에서 기다려요.",
+        "uz": "Xo'p, o'sha yerda kutaman.",
+        "en": "Okay, I'll wait there.",
+        "audio": "e00888933450.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "이따 봐요!",
+        "uz": "Keyin ko'rishamiz!",
+        "en": "See you later!",
+        "audio": "12aa66291b33.mp3"
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b1_u06_l2_e001",
+      "type": "conjugate",
+      "targets": [
+        "b1_u06_l2_g1"
+      ],
+      "prompt_uz": "'Uyga boraman' shaklini yasang",
+      "prompt_en": "Make 'go home'",
+      "base": "집",
+      "form": "-에 가요",
+      "answers": [
+        "집에 가요"
+      ]
+    },
+    {
+      "id": "b1_u06_l2_e002",
+      "type": "conjugate",
+      "targets": [
+        "b1_u06_l2_g1"
+      ],
+      "prompt_uz": "'Maktabga kelaman' shaklini yasang",
+      "prompt_en": "Make 'come to school'",
+      "base": "학교",
+      "form": "-에 와요",
+      "answers": [
+        "학교에 와요"
+      ]
+    },
+    {
+      "id": "b1_u06_l2_e003",
+      "type": "conjugate",
+      "targets": [
+        "b1_u06_l2_g2"
+      ],
+      "prompt_uz": "'Kutubxonada' shaklini yasang",
+      "prompt_en": "Make 'at the library'",
+      "base": "도서관",
+      "form": "-에서",
+      "answers": [
+        "도서관에서"
+      ]
+    },
+    {
+      "id": "b1_u06_l2_e004",
+      "type": "conjugate",
+      "targets": [
+        "b1_u06_l2_g2"
+      ],
+      "prompt_uz": "'Qayerda?' shaklini yasang",
+      "prompt_en": "Make 'where (does it happen)?'",
+      "base": "어디",
+      "form": "-에서",
+      "answers": [
+        "어디에서",
+        "어디서"
+      ]
+    },
+    {
+      "id": "b1_u06_l2_e005",
+      "type": "fill_blank",
+      "targets": [
+        "b1_u06_l2_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Dorixonaga ketyapman.'",
+      "prompt_en": "Fill in the blank: 'I'm going to the pharmacy.'",
+      "sentence": "약국___ 가요.",
+      "answers": [
+        "에"
+      ]
+    },
+    {
+      "id": "b1_u06_l2_e006",
+      "type": "fill_blank",
+      "targets": [
+        "b1_u06_l2_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Parkda sayr qilaman.'",
+      "prompt_en": "Fill in the blank: 'I take a walk in the park.'",
+      "sentence": "공원___ 산책해요.",
+      "answers": [
+        "에서"
+      ]
+    },
+    {
+      "id": "b1_u06_l2_e007",
+      "type": "fill_blank",
+      "targets": [
+        "b1_u06_l2_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Bozordan meva olaman.'",
+      "prompt_en": "Fill in the blank: 'I buy fruit at the market.'",
+      "sentence": "시장___ 과일을 사요.",
+      "answers": [
+        "에서"
+      ]
+    },
+    {
+      "id": "b1_u06_l2_e008",
+      "type": "fill_blank",
+      "targets": [
+        "b1_u06_l2_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Do'stim uyimizga kelyapti.'",
+      "prompt_en": "Fill in the blank: 'My friend is coming to our house.'",
+      "sentence": "친구가 우리 집에 ___. (오다)",
+      "answers": [
+        "와요"
+      ]
+    },
+    {
+      "id": "b1_u06_l2_e009",
+      "type": "situation_choice",
+      "targets": [
+        "b1_u06_l2_g1",
+        "b1_u06_l2_w001"
+      ],
+      "prompt_uz": "Ko'chada do'stingizni ko'rdingiz. Qayerga ketayotganini so'rang:",
+      "prompt_en": "You see a friend in the street. Ask where they're going:",
+      "options": [
+        "어디에 가요?",
+        "어디에서 가요?",
+        "어디예요?",
+        "어디를 있어요?"
+      ],
+      "answers": [
+        "어디에 가요?"
+      ]
+    },
+    {
+      "id": "b1_u06_l2_e010",
+      "type": "situation_choice",
+      "targets": [
+        "b1_u06_l2_g2"
+      ],
+      "prompt_uz": "Qayerda ishlashini so'rang:",
+      "prompt_en": "Ask where they work:",
+      "options": [
+        "어디에서 일해요?",
+        "어디에 일해요?",
+        "어디 일이에요?",
+        "일해요 어디?"
+      ],
+      "answers": [
+        "어디에서 일해요?"
+      ]
+    },
+    {
+      "id": "b1_u06_l2_e011",
+      "type": "situation_choice",
+      "targets": [
+        "b1_u06_l2_g1",
+        "b1_u06_l2_g2"
+      ],
+      "prompt_uz": "Kutubxonada o'qishingizni ayting:",
+      "prompt_en": "Say that you study at the library:",
+      "options": [
+        "도서관에서 공부해요.",
+        "도서관에 공부해요.",
+        "도서관을 공부해요.",
+        "도서관에서 공부예요."
+      ],
+      "answers": [
+        "도서관에서 공부해요."
+      ]
+    },
+    {
+      "id": "b1_u06_l2_e012",
+      "type": "find_error",
+      "targets": [
+        "b1_u06_l2_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "도서관에 책을 읽어요.",
+      "answers": [
+        "도서관에서 책을 읽어요"
+      ],
+      "why_uz": "O'qish — ish-harakat: 에서.",
+      "why_en": "Reading is an action: 에서."
+    },
+    {
+      "id": "b1_u06_l2_e013",
+      "type": "find_error",
+      "targets": [
+        "b1_u06_l2_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "저는 학교를 가요.",
+      "answers": [
+        "저는 학교에 가요"
+      ],
+      "why_uz": "Yo'nalish — 에.",
+      "why_en": "Direction takes 에."
+    },
+    {
+      "id": "b1_u06_l2_e014",
+      "type": "find_error",
+      "targets": [
+        "b1_u06_l2_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "내일 시장에서 가요.",
+      "answers": [
+        "내일 시장에 가요"
+      ],
+      "why_uz": "'Bormoq' bilan 에.",
+      "why_en": "With 'go' use 에."
+    },
+    {
+      "id": "b1_u06_l2_e015",
+      "type": "translate",
+      "targets": [
+        "b1_u06_l2_g1"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Qayerga ketyapsiz?",
+      "source_en": "Where are you going?",
+      "answers": [
+        "어디에 가요",
+        "어디 가요",
+        "어디에 가요?",
+        "어디 가요?"
+      ]
+    },
+    {
+      "id": "b1_u06_l2_e016",
+      "type": "translate",
+      "targets": [
+        "b1_u06_l2_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Yotoqxonada uxlayman.",
+      "source_en": "I sleep in the dormitory.",
+      "answers": [
+        "기숙사에서 자요",
+        "저는 기숙사에서 자요"
+      ]
+    },
+    {
+      "id": "b1_u06_l2_e017",
+      "type": "translate",
+      "targets": [
+        "b1_u06_l2_g1"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Ertaga bozorga boraman.",
+      "source_en": "I'm going to the market tomorrow.",
+      "answers": [
+        "내일 시장에 가요"
+      ]
+    },
+    {
+      "id": "b1_u06_l2_e018",
+      "type": "build_sentence",
+      "targets": [
+        "b1_u06_l2_g2"
+      ],
+      "prompt_uz": "'Kinoteatrda kino ko'raman' gapini tuzing",
+      "prompt_en": "Build the sentence 'I watch films at the cinema'",
+      "tokens": [
+        "영화를",
+        "영화관에서",
+        "봐요"
+      ],
+      "answers": [
+        "영화관에서 영화를 봐요"
+      ]
+    },
+    {
+      "id": "b1_u06_l2_e019",
+      "type": "build_sentence",
+      "targets": [
+        "b1_u06_l2_g1"
+      ],
+      "prompt_uz": "'Dam olish kuni parkka boraman' gapini tuzing",
+      "prompt_en": "Build the sentence 'I go to the park at the weekend'",
+      "tokens": [
+        "주말에",
+        "가요",
+        "공원에"
+      ],
+      "answers": [
+        "주말에 공원에 가요"
+      ]
+    },
+    {
+      "id": "b1_u06_l2_e020",
+      "type": "build_sentence",
+      "targets": [
+        "b1_u06_l2_g2"
+      ],
+      "prompt_uz": "'Pochtadan posilka jo'nataman' gapini tuzing",
+      "prompt_en": "Build the sentence 'I send a parcel at the post office'",
+      "tokens": [
+        "보내요",
+        "우체국에서",
+        "소포를"
+      ],
+      "answers": [
+        "우체국에서 소포를 보내요"
+      ]
+    },
+    {
+      "id": "b1_u06_l2_e021",
+      "type": "listen_question",
+      "targets": [
+        "b1_u06_l2_g1"
+      ],
+      "prompt_uz": "U qayerga ketyapti?",
+      "prompt_en": "Where is the speaker going?",
+      "audio_text": "지금 약국에 가요.",
+      "options": [
+        "Dorixonaga",
+        "Kasalxonaga",
+        "Bankka",
+        "Pochtaga"
+      ],
+      "options_en": [
+        "To the pharmacy",
+        "To the hospital",
+        "To the bank",
+        "To the post office"
+      ],
+      "answers": [
+        "Dorixonaga"
+      ],
+      "audio": "8a78296971b8.mp3"
+    },
+    {
+      "id": "b1_u06_l2_e022",
+      "type": "listen_question",
+      "targets": [
+        "b1_u06_l2_g2"
+      ],
+      "prompt_uz": "U qayerda kitob o'qiydi?",
+      "prompt_en": "Where does the speaker read books?",
+      "audio_text": "저는 도서관에서 책을 읽어요.",
+      "options": [
+        "Kutubxonada",
+        "Uyda",
+        "Kafeda",
+        "Sinfda"
+      ],
+      "options_en": [
+        "At the library",
+        "At home",
+        "At a café",
+        "In the classroom"
+      ],
+      "answers": [
+        "Kutubxonada"
+      ],
+      "audio": "f5a83b8bd504.mp3"
+    },
+    {
+      "id": "b1_u06_l2_e023",
+      "type": "listen_question",
+      "targets": [
+        "b1_u06_l2_g2"
+      ],
+      "prompt_uz": "U bozorda nima qiladi?",
+      "prompt_en": "What does the speaker do at the market?",
+      "audio_text": "시장에서 과일을 사요.",
+      "options": [
+        "Meva oladi",
+        "Ishlaydi",
+        "Ovqatlanadi",
+        "Sayr qiladi"
+      ],
+      "options_en": [
+        "Buys fruit",
+        "Works",
+        "Eats",
+        "Takes a walk"
+      ],
+      "answers": [
+        "Meva oladi"
+      ],
+      "audio": "59a86ff27904.mp3"
+    },
+    {
+      "id": "b1_u06_l2_e024",
+      "type": "listen_question",
+      "targets": [
+        "b1_u06_l2_g1",
+        "b1_u06_l2_g2"
+      ],
+      "prompt_uz": "U ertaga qayerga boradi?",
+      "prompt_en": "Where is the speaker going tomorrow?",
+      "audio_text": "내일 수영장에 가요. 수영장에서 수영해요.",
+      "options": [
+        "Basseynga",
+        "Parkka",
+        "Maktabga",
+        "Kinoteatrga"
+      ],
+      "options_en": [
+        "To the pool",
+        "To the park",
+        "To school",
+        "To the cinema"
+      ],
+      "answers": [
+        "Basseynga"
+      ],
+      "audio": "22bb8017366d.mp3"
+    },
+    {
+      "id": "b1_u06_l2_e101",
+      "type": "conjugate",
+      "targets": [
+        "b1_u06_l2_g1"
+      ],
+      "prompt_uz": "'Elchixonaga boraman' shaklini yasang",
+      "prompt_en": "Make 'go to the embassy'",
+      "base": "대사관",
+      "form": "-에 가요",
+      "answers": [
+        "대사관에 가요"
+      ]
+    },
+    {
+      "id": "b1_u06_l2_e102",
+      "type": "conjugate",
+      "targets": [
+        "b1_u06_l2_g2"
+      ],
+      "prompt_uz": "'Uyda' (ish-harakat joyi)",
+      "prompt_en": "Make 'at home' (place of an action)",
+      "base": "집",
+      "form": "-에서",
+      "answers": [
+        "집에서"
+      ]
+    },
+    {
+      "id": "b1_u06_l2_e103",
+      "type": "fill_blank",
+      "targets": [
+        "b1_u06_l2_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Univermagdan kiyim olaman.'",
+      "prompt_en": "Fill in the blank: 'I buy clothes at the department store.'",
+      "sentence": "백화점___ 옷을 사요.",
+      "answers": [
+        "에서"
+      ]
+    },
+    {
+      "id": "b1_u06_l2_e104",
+      "type": "fill_blank",
+      "targets": [
+        "b1_u06_l2_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Kitob do'koniga ketyapman.'",
+      "prompt_en": "Fill in the blank: 'I'm going to the bookshop.'",
+      "sentence": "서점___ 가요.",
+      "answers": [
+        "에"
+      ]
+    },
+    {
+      "id": "b1_u06_l2_e105",
+      "type": "fill_blank",
+      "targets": [
+        "b1_u06_l2_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Bu yerga keling.'",
+      "prompt_en": "Fill in the blank: 'Come here, please.'",
+      "sentence": "여기에 ___. (오다)",
+      "answers": [
+        "오세요"
+      ]
+    },
+    {
+      "id": "b1_u06_l2_e106",
+      "type": "situation_choice",
+      "targets": [
+        "b1_u06_l2_w016"
+      ],
+      "prompt_uz": "Restoranda hojatxona qayerdaligini so'rang:",
+      "prompt_en": "Ask where the toilet is in a restaurant:",
+      "options": [
+        "화장실이 어디예요?",
+        "화장실에 가요?",
+        "화장실에서 뭐 해요?",
+        "화장실이 뭐예요?"
+      ],
+      "answers": [
+        "화장실이 어디예요?"
+      ]
+    },
+    {
+      "id": "b1_u06_l2_e107",
+      "type": "situation_choice",
+      "targets": [
+        "b1_u06_l2_g2"
+      ],
+      "prompt_uz": "Basseynda suzishingizni ayting:",
+      "prompt_en": "Say that you swim at the pool:",
+      "options": [
+        "수영장에서 수영해요.",
+        "수영장에 수영해요.",
+        "수영장을 수영해요.",
+        "수영장에서 수영이에요."
+      ],
+      "answers": [
+        "수영장에서 수영해요."
+      ]
+    },
+    {
+      "id": "b1_u06_l2_e108",
+      "type": "situation_choice",
+      "targets": [
+        "b1_u06_l2_g1"
+      ],
+      "prompt_uz": "Do'stingiz bilan bozorga borishni taklif qiling:",
+      "prompt_en": "Suggest going to the market together:",
+      "options": [
+        "같이 시장에 가요.",
+        "같이 시장에서 가요.",
+        "같이 시장을 가요.",
+        "같이 시장이에요."
+      ],
+      "answers": [
+        "같이 시장에 가요."
+      ]
+    },
+    {
+      "id": "b1_u06_l2_e109",
+      "type": "find_error",
+      "targets": [
+        "b1_u06_l2_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "공원에 운동해요.",
+      "answers": [
+        "공원에서 운동해요"
+      ],
+      "why_uz": "Sport qilish — ish-harakat: 에서.",
+      "why_en": "Exercising is an action: 에서."
+    },
+    {
+      "id": "b1_u06_l2_e110",
+      "type": "find_error",
+      "targets": [
+        "b1_u06_l2_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "친구가 집에서 와요. (uyimizga)",
+      "answers": [
+        "친구가 집에 와요"
+      ],
+      "why_uz": "Kelish yo'nalishi — 에.",
+      "why_en": "Direction of coming takes 에."
+    },
+    {
+      "id": "b1_u06_l2_e111",
+      "type": "translate",
+      "targets": [
+        "b1_u06_l2_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Qayerda ishlaysiz?",
+      "source_en": "Where do you work?",
+      "answers": [
+        "어디에서 일해요",
+        "어디서 일해요",
+        "어디에서 일해요?",
+        "어디서 일해요?"
+      ]
+    },
+    {
+      "id": "b1_u06_l2_e112",
+      "type": "translate",
+      "targets": [
+        "b1_u06_l2_g1"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Supermarketga ketyapman.",
+      "source_en": "I'm going to the supermarket.",
+      "answers": [
+        "마트에 가요",
+        "저는 마트에 가요"
+      ]
+    },
+    {
+      "id": "b1_u06_l2_e113",
+      "type": "build_sentence",
+      "targets": [
+        "b1_u06_l2_g2"
+      ],
+      "prompt_uz": "'Do'kondan suv olaman' gapini tuzing",
+      "prompt_en": "Build the sentence 'I buy water at the convenience store'",
+      "tokens": [
+        "물을",
+        "사요",
+        "편의점에서"
+      ],
+      "answers": [
+        "편의점에서 물을 사요"
+      ]
+    },
+    {
+      "id": "b1_u06_l2_e114",
+      "type": "listen_question",
+      "targets": [
+        "b1_u06_l2_g1"
+      ],
+      "prompt_uz": "U qayerga ketyapti?",
+      "prompt_en": "Where is the speaker going?",
+      "audio_text": "기숙사에 가요.",
+      "options": [
+        "Yotoqxonaga",
+        "Kutubxonaga",
+        "Kafega",
+        "Sinfga"
+      ],
+      "options_en": [
+        "To the dormitory",
+        "To the library",
+        "To a café",
+        "To the classroom"
+      ],
+      "answers": [
+        "Yotoqxonaga"
+      ],
+      "audio": "289f46154663.mp3"
+    },
+    {
+      "id": "b1_u06_l2_e115",
+      "type": "listen_question",
+      "targets": [
+        "b1_u06_l2_g2"
+      ],
+      "prompt_uz": "U qayerda ishlaydi?",
+      "prompt_en": "Where does the speaker work?",
+      "audio_text": "저는 백화점에서 일해요.",
+      "options": [
+        "Univermagda",
+        "Bankda",
+        "Pochtada",
+        "Kasalxonada"
+      ],
+      "options_en": [
+        "At a department store",
+        "At a bank",
+        "At the post office",
+        "At a hospital"
+      ],
+      "answers": [
+        "Univermagda"
+      ],
+      "audio": "90f4b847ebb0.mp3"
+    }
+  ],
+  "test": [
+    "b1_u06_l2_e101",
+    "b1_u06_l2_e102",
+    "b1_u06_l2_e103",
+    "b1_u06_l2_e104",
+    "b1_u06_l2_e105",
+    "b1_u06_l2_e106",
+    "b1_u06_l2_e107",
+    "b1_u06_l2_e108",
+    "b1_u06_l2_e109",
+    "b1_u06_l2_e110",
+    "b1_u06_l2_e111",
+    "b1_u06_l2_e112",
+    "b1_u06_l2_e113",
+    "b1_u06_l2_e114",
+    "b1_u06_l2_e115"
+  ],
+  "story": {
+    "title_uz": "Ko'chada uchrashuv",
+    "title_en": "Meeting in the street",
+    "gate_uz": "BOZOR",
+    "gate_en": "MARKET",
+    "steps": [
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "아지즈 씨! 어디에 가요?",
+        "uz": "Aziz! Qayerga ketyapsiz?",
+        "en": "Aziz! Where are you going?",
+        "audio": "07808c120c15.mp3"
+      },
+      {
+        "type": "choose_reply",
+        "speaker": "aziz",
+        "prompt_uz": "Aziz 'Pochtaga ketyapman' demoqchi.",
+        "prompt_en": "Aziz wants to say 'I'm going to the post office'.",
+        "options": [
+          "우체국에 가요.",
+          "우체국에서 가요.",
+          "우체국을 가요."
+        ],
+        "answer": "우체국에 가요.",
+        "uz": "Pochtaga ketyapman.",
+        "en": "I'm going to the post office.",
+        "why_uz": "Yo'nalish — 에.",
+        "why_en": "Direction takes 에.",
+        "audio": "2960bd300d35.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "우체국에서 뭐 해요?",
+        "uz": "Pochtada nima qilasiz?",
+        "en": "What are you doing at the post office?",
+        "audio": "cd6c6cde9c3c.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "어머니한테 소포를 보내요.",
+        "uz": "Onamga posilka jo'nataman.",
+        "en": "I'm sending a parcel to my mother.",
+        "audio": "4a6e2919e277.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "아, 우체국은 저기예요. 은행 옆이에요.",
+        "uz": "A, pochta anavi yerda. Bank yonida.",
+        "en": "Oh, the post office is over there, next to the bank.",
+        "audio": "7a37c00680d3.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "고마워요. 민지 씨는요?",
+        "uz": "Rahmat. Siz-chi?",
+        "en": "Thanks. And you?",
+        "audio": "012be9f17bdc.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "도서관에 가요. 도서관에서 시험 공부를 해요.",
+        "uz": "Kutubxonaga. U yerda imtihonga tayyorlanaman.",
+        "en": "To the library. I'm studying for an exam there.",
+        "audio": "8efe5a0f9880.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "그다음에는요?",
+        "uz": "Undan keyin-chi?",
+        "en": "And after that?",
+        "audio": "8b682aaac8f5.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "시장에 가요. 과일을 사요.",
+        "uz": "Bozorga boraman. Meva olaman.",
+        "en": "I'm going to the market to buy fruit.",
+        "audio": "1b4d5aee0198.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "저도 시장에 가요! 같이 가요.",
+        "uz": "Men ham bozorga boraman! Birga boraylik.",
+        "en": "I'm going to the market too! Let's go together.",
+        "audio": "8bf7df6a864d.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "좋아요. 다섯 시에 시장 앞에서 만나요.",
+        "uz": "Yaxshi. Soat beshda bozor oldida uchrashamiz.",
+        "en": "Good. Let's meet in front of the market at five.",
+        "audio": "262792bcc8ac.mp3"
+      },
+      {
+        "type": "quiz",
+        "prompt_uz": "Minji kutubxonada nima qiladi?",
+        "prompt_en": "What will Minji do at the library?",
+        "options": [
+          "Imtihonga tayyorlanadi",
+          "Kitob sotib oladi",
+          "Ishlaydi"
+        ],
+        "options_en": [
+          "Study for an exam",
+          "Buy a book",
+          "Work"
+        ],
+        "answer": "Imtihonga tayyorlanadi",
+        "why_uz": "도서관에서 시험 공부를 해요.",
+        "why_en": "도서관에서 시험 공부를 해요 — she'll study for an exam."
+      },
+      {
+        "type": "quiz",
+        "prompt_uz": "Ular qayerda uchrashadi?",
+        "prompt_en": "Where will they meet?",
+        "options": [
+          "Bozor oldida",
+          "Pochta oldida",
+          "Kutubxonada"
+        ],
+        "options_en": [
+          "In front of the market",
+          "In front of the post office",
+          "At the library"
+        ],
+        "answer": "Bozor oldida",
+        "why_uz": "시장 앞에서 만나요.",
+        "why_en": "시장 앞에서 만나요 — in front of the market."
+      }
+    ]
+  }
+}

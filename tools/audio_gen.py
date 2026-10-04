@@ -150,8 +150,9 @@ def run(root: Path, synth: Callable[[str, str], bytes], dry_run: bool, prune: bo
             clip.set(name)
         if not dry_run:
             path.write_text(json.dumps(lesson, ensure_ascii=False, indent=2) + "\n", encoding="utf-8", newline="\n")
-    final_path = assets / "final_test.json"
-    if final_path.is_file():
+    for final_path in [assets / "final_test.json", *sorted(assets.glob("final_test_b*.json"))]:
+        if not final_path.is_file():
+            continue
         test = json.loads(final_path.read_text(encoding="utf-8"))
         for lines, set_name in collect_final(test):
             # A single line keeps the plain clip name so existing files stay valid.
