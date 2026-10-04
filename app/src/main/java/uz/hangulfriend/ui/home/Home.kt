@@ -37,6 +37,11 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.draw.drawBehind
+import uz.hangulfriend.ui.kit.LocalHazeState
+import dev.chrisbanes.haze.hazeSource
+import androidx.compose.ui.graphics.CompositingStrategy
+import androidx.compose.ui.graphics.BlendMode
+import androidx.compose.ui.draw.drawWithContent
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.geometry.Size
 import androidx.compose.ui.graphics.Brush
@@ -206,8 +211,14 @@ fun HomeScreen(
             verticalArrangement = Arrangement.spacedBy(12.dp),
         ) {
             TopPills(stats, due, onStartReview, onAchievements, shareRail)
-            HeroStage(stats)
-            Sheet(stats, due, current, onStartReview, onContinueLesson, onOpenMap, onGames, onMistakes, onAchievements, onVocab)
+            // The sheet overlaps the hero's feet, so the art never ends in a hard line and the glass blurs it.
+            Box {
+                HeroStage(stats)
+                Sheet(
+                    stats, due, current, onStartReview, onContinueLesson, onOpenMap, onGames, onMistakes, onAchievements, onVocab,
+                    Modifier.padding(top = HERO_HEIGHT - SHEET_OVERLAP),
+                )
+            }
         }
     }
     rankUp?.let { RankUpDialog(it, vm::acceptRankUp) }
@@ -230,7 +241,8 @@ private fun TopPills(stats: HomeStats, due: Int, onReview: () -> Unit, onBadges:
 private fun HeroStage(stats: HomeStats) {
     val t = LocalGameTokens.current
     val clock = frameClock()
-    Box(Modifier.fillMaxWidth().height(400.dp)) {
+    val haze = LocalHazeState.current
+    Box(Modifier.fillMaxWidth().height(HERO_HEIGHT)) {
         Box(
             Modifier
                 .align(Alignment.Center)
@@ -246,7 +258,17 @@ private fun HeroStage(stats: HomeStats) {
             Modifier
                 .align(Alignment.BottomEnd)
                 .size(290.dp, 350.dp)
-                .graphicsLayer { translationY = sin(clock.floatValue * 1.05f) * 6.dp.toPx() },
+                .then(if (haze != null) Modifier.hazeSource(haze, zIndex = 1f) else Modifier)
+                .graphicsLayer {
+                    translationY = sin(clock.floatValue * 1.05f) * 6.dp.toPx()
+                    compositingStrategy = CompositingStrategy.Offscreen
+                }
+                .drawWithContent {
+                    drawContent()
+                    // Soft edges: the art fades out on the left and at the bottom instead of being cut.
+                    drawRect(Brush.horizontalGradient(0f to Color.Transparent, 0.18f to Color.Black), blendMode = BlendMode.DstIn)
+                    drawRect(Brush.verticalGradient(0.8f to Color.Black, 1f to Color.Transparent), blendMode = BlendMode.DstIn)
+                },
             animated = true,
         )
         Column(Modifier.align(Alignment.CenterStart).padding(start = 4.dp, bottom = 40.dp)) {
@@ -293,10 +315,11 @@ private fun Sheet(
     onMistakes: () -> Unit,
     onAchievements: () -> Unit,
     onVocab: () -> Unit,
+    modifier: Modifier = Modifier,
 ) {
     val t = LocalGameTokens.current
     Column(
-        Modifier
+        modifier
             .fillMaxWidth()
             .glass(RoundedCornerShape(28.dp))
             .padding(16.dp),
@@ -454,3 +477,8 @@ private fun Totals(stats: HomeStats) {
         }
     }
 }
+
+private val HERO_HEIGHT = 400.dp
+
+/** How far the glass sheet reaches up over the hero. */
+private val SHEET_OVERLAP = 56.dp
