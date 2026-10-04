@@ -97,6 +97,9 @@ class OnboardingViewModel(content: ContentRepository, private val onboarding: On
 const val ONBOARDING_STEPS = 3
 
 /** The step after [step], or null on the last one (finish). */
+/** The first Hangul lesson, where a complete beginner starts. */
+const val HANGUL_START = "b1_u01_l1"
+
 fun nextStep(step: Int): Int? = if (step + 1 < ONBOARDING_STEPS) step + 1 else null
 
 /** The flow can finish only on the last step, once a lesson is picked. */
@@ -169,6 +172,16 @@ fun OnboardingScreen(vm: OnboardingViewModel, onDone: () -> Unit) {
                         fontWeight = FontWeight.Bold,
                         fontSize = 20.sp,
                     )
+                    // A shortcut for someone who cannot read Hangul yet: the first letter lesson.
+                    vm.catalog.find { it.id == HANGUL_START }?.let { start ->
+                        Box(Modifier.padding(vertical = 8.dp)) {
+                            SelectRow(
+                                stringResource(R.string.onboarding_beginner),
+                                stringResource(R.string.onboarding_beginner_sub),
+                                selected == start.id,
+                            ) { vm.select(start.id) }
+                        }
+                    }
                     LessonPicker(vm.catalog, selected, vm::select, Modifier.weight(1f))
                 }
             }

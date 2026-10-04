@@ -56,6 +56,10 @@ class OnboardingServiceTest {
               {"id":"u01_l2","unit":1,"lesson":2,"title_ko":"나","title_uz":"b","topic_uz":"Oila"},
               {"id":"u02_l1","unit":2,"lesson":1,"title_ko":"다","title_uz":"c","topic_uz":"Xarid"}]}""",
         )
+        write(
+            "book1.json",
+            """{"lessons":[{"id":"b1_u01_l1","unit":1,"lesson":1,"title_ko":"모음","title_uz":"h","topic_uz":"Hangul"}]}""",
+        )
         write("lessons/u01_l1.json", ContentJson.encodeToString(Lesson.serializer(), Fixtures.validLesson("u01_l1", 1, 1)))
         write("lessons/u02_l1.json", ContentJson.encodeToString(Lesson.serializer(), Fixtures.validLesson()))
         val content = ContentRepository(DirAssetSource(File(tmp.root, "assets")), strict = true)
@@ -79,6 +83,14 @@ class OnboardingServiceTest {
         val s = settings.settings.first()
         assertEquals("u02_l1", s.currentLessonId)
         assertTrue(s.onboarded)
+    }
+
+    @Test fun onboarding_passesOnlyEarlierLessonsOfTheSameBook() = runTest {
+        val (onboarding, progress, _) = service()
+        onboarding.complete("u02_l1")
+        assertTrue("b1_u01_l1" !in progress.observeAll().first())
+        onboarding.complete("b1_u01_l1")
+        assertTrue("b1_u01_l1" !in progress.observeAll().first())
     }
 
     @Test fun onboarding_savesHero() = runTest {
