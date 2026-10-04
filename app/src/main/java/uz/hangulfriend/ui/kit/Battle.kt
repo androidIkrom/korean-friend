@@ -40,6 +40,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
+import androidx.compose.runtime.mutableStateOf
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.composed
@@ -294,8 +296,12 @@ fun FloatingText(text: String, key: Int, color: Color, modifier: Modifier = Modi
 fun EdgeFlash(color: Color, key: Int, modifier: Modifier = Modifier) {
     val reduced = LocalReducedMotion.current
     val a = remember { Animatable(0f) }
+    // The colour is fixed when the flash starts: the verdict behind it is cleared as soon as the run moves on
+    // (a rated flashcard advances at once), and a green flash must not turn red while it fades.
+    var shown by remember { mutableStateOf(color) }
     OnNewKey(key) {
         if (reduced) return@OnNewKey
+        shown = color
         a.snapTo(0.75f)
         a.animateTo(0f, tween(450))
     }
@@ -303,7 +309,7 @@ fun EdgeFlash(color: Color, key: Int, modifier: Modifier = Modifier) {
     val edge = with(LocalDensity.current) { 36.dp.toPx() }
     Box(
         modifier.fillMaxSize().drawBehind {
-            val c = color.copy(alpha = a.value)
+            val c = shown.copy(alpha = a.value)
             val clear = Color.Transparent
             drawRect(Brush.verticalGradient(listOf(c, clear), startY = 0f, endY = edge))
             drawRect(Brush.verticalGradient(listOf(clear, c), startY = size.height - edge, endY = size.height))
