@@ -31,12 +31,13 @@ import uz.hangulfriend.ui.theme.LocalGameTokens
 
 enum class HuntStyle { PRIMARY, SECONDARY, GOLD, SUCCESS, DANGER }
 
-/** One button style: its [fill] (null = glass) and its label colour. */
-data class HuntPalette(val fill: Color?, val text: Color)
+/** One button style: its [fill] and its label colour. */
+data class HuntPalette(val fill: Color, val text: Color)
 
 fun huntPalette(style: HuntStyle, t: GameTokens): HuntPalette = when (style) {
     HuntStyle.PRIMARY -> HuntPalette(t.text, t.background)
-    HuntStyle.SECONDARY -> HuntPalette(null, t.text)
+    // A soft white veil reads both on the backdrop and on glass panels (glass on glass would vanish).
+    HuntStyle.SECONDARY -> HuntPalette(Color.White.copy(alpha = 0.12f), t.text)
     HuntStyle.GOLD -> HuntPalette(Color(0xFFF5C451), Color(0xFF2A1A00))
     HuntStyle.SUCCESS -> HuntPalette(CorrectGreen, Color(0xFF04140A))
     HuntStyle.DANGER -> HuntPalette(t.danger, Color(0xFF2A0610))
@@ -45,7 +46,7 @@ fun huntPalette(style: HuntStyle, t: GameTokens): HuntPalette = when (style) {
 private val ButtonShape = RoundedCornerShape(16.dp)
 
 /**
- * The game's button: a flat 16dp fill (or glass for SECONDARY) that springs down when pressed, with a tap
+ * The game's button: a flat 16dp fill that springs down when pressed, with a tap
  * sound and haptic. [text] is shown as given.
  */
 @Composable
@@ -69,7 +70,7 @@ fun HuntButton(
         modifier
             .springPress(interaction, enabled)
             .alpha(if (enabled) 1f else 0.4f)
-            .then(if (p.fill == null) Modifier.glass(ButtonShape) else Modifier.background(p.fill, ButtonShape))
+            .background(p.fill, ButtonShape)
             .clickable(interactionSource = interaction, indication = null, enabled = enabled, role = Role.Button) {
                 feedback.play(sfx)
                 onClick()
