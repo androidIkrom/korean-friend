@@ -46,6 +46,7 @@ import uz.hangulfriend.ui.theme.LocalGameTokens
 import uz.hangulfriend.ui.LocalDockInset
 import uz.hangulfriend.ui.kit.HuntChip
 import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.fillMaxSize
 
 data class LessonRow(val entry: CatalogEntry, val available: Boolean, val status: LessonStatus, val percent: Int)
 
@@ -126,7 +127,7 @@ fun BookMapScreen(
     val ordered = if (tower) units.reversed() else units
     val activeIndex = ordered.indexOfFirst { it.state == UnitState.ACTIVE }
     val listState = rememberLazyListState()
-    LaunchedEffect(activeIndex >= 0) {
+    LaunchedEffect(activeIndex >= 0, book) {
         // Item 0 is the header, so this leaves one unit visible above the active one.
         if (activeIndex >= 0) listState.scrollToItem(activeIndex)
     }
@@ -138,7 +139,11 @@ fun BookMapScreen(
         ordered[i].state == UnitState.CLEARED && ordered.getOrNull(i + 1)?.state == UnitState.CLEARED
     }
     GameBackground(modifier) {
+        // The book picker stays on top; the list below scrolls to the active unit.
+        Column(Modifier.fillMaxSize()) {
+        BookPicker(book, vm::selectBook, Modifier.padding(start = 16.dp, end = 16.dp, top = 12.dp))
         LazyColumn(
+            modifier = Modifier.weight(1f),
             state = listState,
             contentPadding = PaddingValues(start = 16.dp, end = 16.dp, top = 16.dp, bottom = 16.dp + LocalDockInset.current),
             verticalArrangement = Arrangement.spacedBy(if (tower) 8.dp else 0.dp),
@@ -153,7 +158,6 @@ fun BookMapScreen(
                         fontSize = 26.sp,
                     )
                     Text(stringResource(R.string.map_cleared_count, cleared, units.size), color = t.muted, fontSize = 13.sp)
-                    BookPicker(book, vm::selectBook, Modifier.padding(top = 10.dp))
                     if (units.isEmpty()) {
                         Text(stringResource(R.string.book_soon), color = t.muted, fontSize = 15.sp, modifier = Modifier.padding(top = 24.dp))
                     }
@@ -180,6 +184,7 @@ fun BookMapScreen(
             if (!tower) {
                 if (units.isNotEmpty()) item(key = "final") { Box(Modifier.padding(top = 12.dp)) { FinalCard(finalBest, lessonsDone, lessonsTotal) { onFinal(book) } } }
             }
+        }
         }
     }
 }
