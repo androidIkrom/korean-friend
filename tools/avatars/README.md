@@ -13,7 +13,8 @@ avatars.
 3. From `<ART_SRC>`, run the edit scripts. They cover open clothing so the art keeps the focus on studying:
    - `edit_104.py` and then `edit_104b.py`: closed side slits and long sleeves;
    - `edit_117.py`: closed shoulders and neckline;
-   - `edit_119.py`: long sleeves.
+   - `edit_119.py`: long sleeves;
+   - `edit_118.py`: dresses the bare torso and arms in a tunic.
 
    Each one writes to `pack/edited/`.
 4. Build the slots straight into the app:
