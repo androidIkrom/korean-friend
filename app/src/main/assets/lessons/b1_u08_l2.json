@@ -1,0 +1,1590 @@
+{
+  "id": "b1_u08_l2",
+  "unit": 8,
+  "lesson": 2,
+  "title_ko": "시험이 며칠이에요?",
+  "title_uz": "Imtihon nechanchi sanada?",
+  "title_en": "What date is the exam?",
+  "topic_uz": "Vaqt va sana",
+  "topic_en": "Time and date",
+  "reviewed": false,
+  "words": [
+    {
+      "id": "b1_u08_l2_w001",
+      "ko": "며칠",
+      "uz": "nechanchi sana",
+      "en": "what date",
+      "pos": "ot",
+      "example_ko": "오늘이 며칠이에요?",
+      "example_uz": "Bugun nechanchi sana?",
+      "example_en": "What's the date today?",
+      "audio": "3ea4efa7c2a4.mp3",
+      "example_audio": "af2b85f21812.mp3"
+    },
+    {
+      "id": "b1_u08_l2_w002",
+      "ko": "월",
+      "uz": "oy (sanada)",
+      "en": "month",
+      "pos": "ot",
+      "example_ko": "삼월에 한국에 왔어요.",
+      "example_uz": "Martda Koreyaga keldim.",
+      "example_en": "I came to Korea in March.",
+      "audio": "a098e96bb9cd.mp3",
+      "example_audio": "00a8d790125b.mp3"
+    },
+    {
+      "id": "b1_u08_l2_w003",
+      "ko": "일",
+      "uz": "kun (sanada)",
+      "en": "day (of the month)",
+      "pos": "ot",
+      "example_ko": "시월 구 일이에요.",
+      "example_uz": "9-oktabr.",
+      "example_en": "It's October 9th.",
+      "audio": "02c643143d66.mp3",
+      "example_audio": "137edb317e72.mp3"
+    },
+    {
+      "id": "b1_u08_l2_w004",
+      "ko": "년",
+      "uz": "yil",
+      "en": "year",
+      "pos": "ot",
+      "example_ko": "이천이십육 년이에요.",
+      "example_uz": "2026-yil.",
+      "example_en": "It's 2026.",
+      "audio": "2727926414de.mp3",
+      "example_audio": "f53e8b87dfaa.mp3"
+    },
+    {
+      "id": "b1_u08_l2_w005",
+      "ko": "유월",
+      "uz": "iyun",
+      "en": "June",
+      "pos": "ot",
+      "example_ko": "유월에 방학을 해요.",
+      "example_uz": "Iyunda ta'til boshlanadi.",
+      "example_en": "The holidays start in June.",
+      "audio": "1a2d743b6b60.mp3",
+      "example_audio": "19a092af939a.mp3"
+    },
+    {
+      "id": "b1_u08_l2_w006",
+      "ko": "시월",
+      "uz": "oktabr",
+      "en": "October",
+      "pos": "ot",
+      "example_ko": "시월 구 일은 한글날이에요.",
+      "example_uz": "9-oktabr — Hangul kuni.",
+      "example_en": "October 9th is Hangul Day.",
+      "audio": "ba2ae5e4a7d9.mp3",
+      "example_audio": "87392fb02d15.mp3"
+    },
+    {
+      "id": "b1_u08_l2_w007",
+      "ko": "생일",
+      "uz": "tug'ilgan kun",
+      "en": "birthday",
+      "pos": "ot",
+      "example_ko": "생일이 며칠이에요?",
+      "example_uz": "Tug'ilgan kuningiz qachon?",
+      "example_en": "When is your birthday?",
+      "audio": "a9b1090cc1c6.mp3",
+      "example_audio": "ed5111e7e0bd.mp3"
+    },
+    {
+      "id": "b1_u08_l2_w008",
+      "ko": "시험",
+      "uz": "imtihon",
+      "en": "exam",
+      "pos": "ot",
+      "example_ko": "시험이 언제예요?",
+      "example_uz": "Imtihon qachon?",
+      "example_en": "When is the exam?",
+      "audio": "0975a9d7a886.mp3",
+      "example_audio": "1853849d54fd.mp3"
+    },
+    {
+      "id": "b1_u08_l2_w009",
+      "ko": "방학",
+      "uz": "ta'til (o'qishda)",
+      "en": "school holidays",
+      "pos": "ot",
+      "example_ko": "방학이 칠월부터예요.",
+      "example_uz": "Ta'til iyuldan boshlanadi.",
+      "example_en": "The holidays start in July.",
+      "audio": "232d794e35e2.mp3",
+      "example_audio": "c0fddf6f52cc.mp3"
+    },
+    {
+      "id": "b1_u08_l2_w010",
+      "ko": "휴가",
+      "uz": "ta'til (ishda)",
+      "en": "vacation, leave",
+      "pos": "ot",
+      "example_ko": "휴가에 여행을 가요.",
+      "example_uz": "Ta'tilda sayohatga boraman.",
+      "example_en": "I travel on my vacation.",
+      "audio": "1e047ba58bf7.mp3",
+      "example_audio": "cde1937cb935.mp3"
+    },
+    {
+      "id": "b1_u08_l2_w011",
+      "ko": "어제",
+      "uz": "kecha",
+      "en": "yesterday",
+      "pos": "ot",
+      "example_ko": "어제 친구를 만났어요.",
+      "example_uz": "Kecha do'stim bilan uchrashdim.",
+      "example_en": "I met a friend yesterday.",
+      "audio": "64a1614d031f.mp3",
+      "example_audio": "4fadc14fb003.mp3"
+    },
+    {
+      "id": "b1_u08_l2_w012",
+      "ko": "지난주",
+      "uz": "o'tgan hafta",
+      "en": "last week",
+      "pos": "ot",
+      "example_ko": "지난주에 시험을 봤어요.",
+      "example_uz": "O'tgan hafta imtihon topshirdim.",
+      "example_en": "I took an exam last week.",
+      "audio": "527c12b31248.mp3",
+      "example_audio": "dd56bb0cf690.mp3"
+    },
+    {
+      "id": "b1_u08_l2_w013",
+      "ko": "이번 주",
+      "uz": "shu hafta",
+      "en": "this week",
+      "pos": "ot",
+      "example_ko": "이번 주에 바빠요.",
+      "example_uz": "Shu hafta bandman.",
+      "example_en": "I'm busy this week.",
+      "audio": "0662c9658941.mp3",
+      "example_audio": "7b0b594008d8.mp3"
+    },
+    {
+      "id": "b1_u08_l2_w014",
+      "ko": "다음 주",
+      "uz": "keyingi hafta",
+      "en": "next week",
+      "pos": "ot",
+      "example_ko": "다음 주에 시험이 있어요.",
+      "example_uz": "Keyingi hafta imtihon bor.",
+      "example_en": "There's an exam next week.",
+      "audio": "965505957696.mp3",
+      "example_audio": "69762bd904fb.mp3"
+    },
+    {
+      "id": "b1_u08_l2_w015",
+      "ko": "언제",
+      "uz": "qachon",
+      "en": "when",
+      "pos": "olmosh",
+      "example_ko": "생일이 언제예요?",
+      "example_uz": "Tug'ilgan kuningiz qachon?",
+      "example_en": "When is your birthday?",
+      "audio": "7582b48703a7.mp3",
+      "example_audio": "cc448f4ef21e.mp3"
+    },
+    {
+      "id": "b1_u08_l2_w016",
+      "ko": "날짜",
+      "uz": "sana",
+      "en": "date",
+      "pos": "ot",
+      "example_ko": "시험 날짜가 언제예요?",
+      "example_uz": "Imtihon sanasi qachon?",
+      "example_en": "When is the exam date?",
+      "audio": "f6f51fdf7932.mp3",
+      "example_audio": "4ee139cf04e2.mp3"
+    },
+    {
+      "id": "b1_u08_l2_w017",
+      "ko": "듣다",
+      "uz": "eshitmoq, tinglamoq",
+      "en": "to listen",
+      "pos": "fe'l",
+      "example_ko": "음악을 들어요.",
+      "example_uz": "Musiqa tinglayman.",
+      "example_en": "I listen to music.",
+      "audio": "3fd6b2d87afd.mp3",
+      "example_audio": "ce65c69b84e1.mp3"
+    },
+    {
+      "id": "b1_u08_l2_w018",
+      "ko": "걷다",
+      "uz": "piyoda yurmoq",
+      "en": "to walk",
+      "pos": "fe'l",
+      "example_ko": "공원에서 걸어요.",
+      "example_uz": "Parkda piyoda yuraman.",
+      "example_en": "I walk in the park.",
+      "audio": "e21c98e5e93b.mp3",
+      "example_audio": "5a69fb3b8bca.mp3"
+    },
+    {
+      "id": "b1_u08_l2_w019",
+      "ko": "묻다",
+      "uz": "so'ramoq",
+      "en": "to ask",
+      "pos": "fe'l",
+      "example_ko": "선생님께 물어요.",
+      "example_uz": "O'qituvchidan so'rayman.",
+      "example_en": "I ask the teacher.",
+      "audio": "776e33acbb19.mp3",
+      "example_audio": "b95c1594f02e.mp3"
+    },
+    {
+      "id": "b1_u08_l2_w020",
+      "ko": "받다",
+      "uz": "olmoq (qabul qilmoq)",
+      "en": "to receive",
+      "pos": "fe'l",
+      "example_ko": "선물을 받았어요.",
+      "example_uz": "Sovg'a oldim.",
+      "example_en": "I received a present.",
+      "audio": "0b134ecf1ae1.mp3",
+      "example_audio": "4c8aa66161b1.mp3"
+    },
+    {
+      "id": "b1_u08_l2_w021",
+      "ko": "닫다",
+      "uz": "yopmoq",
+      "en": "to close",
+      "pos": "fe'l",
+      "example_ko": "문을 닫았어요.",
+      "example_uz": "Eshikni yopdim.",
+      "example_en": "I closed the door.",
+      "audio": "d8e225ae05a1.mp3",
+      "example_audio": "a3669493e40a.mp3"
+    },
+    {
+      "id": "b1_u08_l2_w022",
+      "ko": "축제",
+      "uz": "festival, bayram",
+      "en": "festival",
+      "pos": "ot",
+      "example_ko": "학교 축제가 금요일부터예요.",
+      "example_uz": "Maktab festivali jumadan boshlanadi.",
+      "example_en": "The school festival starts on Friday.",
+      "audio": "6d7433ac7002.mp3",
+      "example_audio": "d5777f912224.mp3"
+    },
+    {
+      "id": "b1_u08_l2_w023",
+      "ko": "파티",
+      "uz": "ziyofat",
+      "en": "party",
+      "pos": "ot",
+      "example_ko": "생일 파티를 했어요.",
+      "example_uz": "Tug'ilgan kun ziyofati qildim.",
+      "example_en": "I had a birthday party.",
+      "audio": "385b41a4b3c8.mp3",
+      "example_audio": "a705666e7704.mp3"
+    },
+    {
+      "id": "b1_u08_l2_w024",
+      "ko": "준비하다",
+      "uz": "tayyorlanmoq",
+      "en": "to prepare",
+      "pos": "fe'l",
+      "example_ko": "시험을 준비해요.",
+      "example_uz": "Imtihonga tayyorlanyapman.",
+      "example_en": "I'm preparing for the exam.",
+      "audio": "abbdc6684efc.mp3",
+      "example_audio": "323889f495e7.mp3"
+    },
+    {
+      "id": "b1_u08_l2_w025",
+      "ko": "바쁘다",
+      "uz": "band bo'lmoq",
+      "en": "to be busy",
+      "pos": "sifat",
+      "example_ko": "어제 너무 바빴어요.",
+      "example_uz": "Kecha juda band edim.",
+      "example_en": "I was very busy yesterday.",
+      "audio": "f64365498669.mp3",
+      "example_audio": "8f239af7a89c.mp3"
+    },
+    {
+      "id": "b1_u08_l2_w026",
+      "ko": "재미있다",
+      "uz": "qiziq bo'lmoq",
+      "en": "to be fun",
+      "pos": "sifat",
+      "example_ko": "축제가 재미있었어요.",
+      "example_uz": "Festival qiziq bo'ldi.",
+      "example_en": "The festival was fun.",
+      "audio": "c06140803701.mp3",
+      "example_audio": "3aef84b40c6b.mp3"
+    },
+    {
+      "id": "b1_u08_l2_w027",
+      "ko": "힘들다",
+      "uz": "og'ir, qiyin bo'lmoq",
+      "en": "to be hard, tiring",
+      "pos": "sifat",
+      "example_ko": "시험 공부가 힘들어요.",
+      "example_uz": "Imtihonga tayyorgarlik og'ir.",
+      "example_en": "Studying for exams is hard.",
+      "audio": "b677d7e024e0.mp3",
+      "example_audio": "2d1a51ea2d2d.mp3"
+    },
+    {
+      "id": "b1_u08_l2_w028",
+      "ko": "여행",
+      "uz": "sayohat",
+      "en": "trip",
+      "pos": "ot",
+      "example_ko": "방학에 여행을 했어요.",
+      "example_uz": "Ta'tilda sayohat qildim.",
+      "example_en": "I travelled during the holidays.",
+      "audio": "ec6beb0aec59.mp3",
+      "example_audio": "8b6565fbee52.mp3"
+    },
+    {
+      "id": "b1_u08_l2_w029",
+      "ko": "기간",
+      "uz": "muddat, davr",
+      "en": "period",
+      "pos": "ot",
+      "example_ko": "시험 기간이에요.",
+      "example_uz": "Imtihon davri.",
+      "example_en": "It's exam period.",
+      "audio": "d787efa39b07.mp3",
+      "example_audio": "64ddd23ecf28.mp3"
+    },
+    {
+      "id": "b1_u08_l2_w030",
+      "ko": "오랜만이에요",
+      "uz": "ko'rishmaganimizga ancha bo'ldi",
+      "en": "long time no see",
+      "pos": "ibora",
+      "example_ko": "민지 씨, 오랜만이에요!",
+      "example_uz": "Minji, ko'rishmaganimizga ancha bo'ldi!",
+      "example_en": "Minji, long time no see!",
+      "audio": "18d0e5d8e98e.mp3",
+      "example_audio": "b42a32e68883.mp3"
+    },
+    {
+      "id": "b1_u08_l2_w031",
+      "ko": "문제",
+      "uz": "masala, savol",
+      "en": "problem, question",
+      "pos": "ot",
+      "example_ko": "시험 문제가 어려웠어요.",
+      "example_uz": "Imtihon savollari qiyin bo'ldi.",
+      "example_en": "The exam questions were hard.",
+      "audio": "1fb2f3977c8f.mp3",
+      "example_audio": "59de1f6444a2.mp3"
+    },
+    {
+      "id": "b1_u08_l2_w032",
+      "ko": "열심히",
+      "uz": "astoydil, tirishib",
+      "en": "hard, diligently",
+      "pos": "ravish",
+      "example_ko": "열심히 공부했어요.",
+      "example_uz": "Astoydil o'qidim.",
+      "example_en": "I studied hard.",
+      "audio": "fd200081e775.mp3",
+      "example_audio": "a0627a61f122.mp3"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "b1_u08_l2_g1",
+      "pattern": "N부터 N까지",
+      "meaning_uz": "...dan ...gacha (vaqt)",
+      "meaning_en": "From N to N (time)",
+      "explanation_md": "**부터** — vaqtning **boshlanishi** (\"...dan\"), **까지** — **oxiri** (\"...gacha\").\n\n**시험은 월요일부터 수요일까지예요.** — *Imtihon dushanbadan chorshanbagacha.*\n\n### Qanday yasaladi\n\nIkkalasi ham 받침 ga qarab o'zgarmaydi: **아홉 시부터**, **열두 시까지**.\n\n### Esda tuting\n\n- Yolg'iz ham ishlatiladi: **방학이 칠월부터예요.** — *Ta'til iyuldan.*  **몇 시까지 해요?** — *Soat nechagacha ishlaydi?*\n- Bu yerda 부터/까지 **vaqt** uchun. Joy uchun \"...dan\" — **에서**: **서울에서 부산까지** (2-kitob).\n- Sanani aytish: **N월 N일**, xitoycha sonlar bilan. **6월 = 유월**, **10월 = 시월** (maxsus).",
+      "explanation_md_en": "**부터** marks when something **starts** (\"from\"), **까지** when it **ends** (\"until / to\").\n\n**시험은 월요일부터 수요일까지예요.** — *The exams are from Monday to Wednesday.*\n\n### How to form it\n\nNeither changes with 받침: **아홉 시부터**, **열두 시까지**.\n\n### Remember\n\n- Each can stand alone: **방학이 칠월부터예요.** — *The holidays start in July.*  **몇 시까지 해요?** — *Until what time are you open?*\n- Here 부터/까지 are for **time**. For places, \"from\" is **에서**: **서울에서 부산까지** (book 2).\n- Dates: **N월 N일** with Sino-Korean numbers. **June = 유월**, **October = 시월** (special forms).",
+      "formation": [
+        {
+          "condition_uz": "Boshlanish",
+          "condition_en": "Start",
+          "rule": "N부터",
+          "example": "월요일부터, 아홉 시부터"
+        },
+        {
+          "condition_uz": "Oxir",
+          "condition_en": "End",
+          "rule": "N까지",
+          "example": "금요일까지, 여섯 시까지"
+        },
+        {
+          "condition_uz": "Sana",
+          "condition_en": "Date",
+          "rule": "N월 N일",
+          "example": "시월 구 일, 유월 십오 일"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "시험은 월요일부터 수요일까지예요.",
+          "uz": "Imtihon dushanbadan chorshanbagacha.",
+          "en": "The exams are from Monday to Wednesday.",
+          "audio": "cbc24cc014e7.mp3"
+        },
+        {
+          "ko": "수업은 아홉 시부터 한 시까지예요.",
+          "uz": "Dars soat to'qqizdan birgacha.",
+          "en": "Class is from nine to one.",
+          "audio": "41f6f0fbb73f.mp3"
+        },
+        {
+          "ko": "방학이 칠월부터예요.",
+          "uz": "Ta'til iyuldan boshlanadi.",
+          "en": "The holidays start in July.",
+          "audio": "c0fddf6f52cc.mp3"
+        },
+        {
+          "ko": "도서관은 몇 시까지 해요?",
+          "uz": "Kutubxona soat nechagacha ishlaydi?",
+          "en": "Until what time is the library open?",
+          "audio": "e7165d0fddfe.mp3"
+        },
+        {
+          "ko": "축제는 금요일부터 일요일까지 해요.",
+          "uz": "Festival jumadan yakshanbagacha bo'ladi.",
+          "en": "The festival runs from Friday to Sunday.",
+          "audio": "3ce10c6ed7e9.mp3"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "월요일까지 금요일부터예요.",
+          "right": "월요일부터 금요일까지예요.",
+          "why_uz": "Avval 부터 (boshlanish), keyin 까지.",
+          "why_en": "부터 (start) comes before 까지."
+        },
+        {
+          "wrong": "육월이에요.",
+          "right": "유월이에요.",
+          "why_uz": "6-oy — 유월.",
+          "why_en": "June is 유월."
+        },
+        {
+          "wrong": "십월 구 일이에요.",
+          "right": "시월 구 일이에요.",
+          "why_uz": "10-oy — 시월.",
+          "why_en": "October is 시월."
+        }
+      ],
+      "uz_compare": "O'zbekchadagi '-dan ... -gacha' bilan aynan bir xil: 'dushanbaDAN jumaGACHA' = 월요일부터 금요일까지.",
+      "compare_en": "Exactly like English 'from … to …': 'from Monday TO Friday' = 월요일부터 금요일까지 — only the markers come after the words."
+    },
+    {
+      "id": "b1_u08_l2_g2",
+      "pattern": "A/V-았/었어요",
+      "meaning_uz": "O'tgan zamon",
+      "meaning_en": "Past tense",
+      "explanation_md": "**-았/었어요** — o'tgan zamon: \"...di\", \"...dim\".\n\n**어제 친구를 만났어요.** — *Kecha do'stim bilan uchrashdim.*\n\n### Qanday yasaladi\n\n6-1 dagi qoidaga o'xshaydi — o'zakning oxirgi unlisiga qarang:\n\n- **ㅏ/ㅗ** → **-았어요**: 가다 → **갔어요**, 보다 → **봤어요**, 받다 → **받았어요**\n- **boshqa unlilar** → **-었어요**: 먹다 → **먹었어요**, 배우다 → **배웠어요**, 마시다 → **마셨어요**\n- **하다** → **했어요**: 공부하다 → **공부했어요**\n- **ㅡ tushadi**: 바쁘다 → **바빴어요**, 쓰다 → **썼어요**\n- **이에요/예요** → **이었어요/였어요**: 학생이었어요, 친구였어요\n\n### Esda tuting\n\n- Qisqarishlar hozirgi zamondagidek: 가 + 았 → **갔**, 오 + 았 → **왔**.\n- \"Kecha\", \"o'tgan hafta\" kabi so'zlar bilan keladi: **지난주에 시험을 봤어요.**",
+      "explanation_md_en": "**-았/었어요** is the past tense: \"did\", \"was\".\n\n**어제 친구를 만났어요.** — *I met a friend yesterday.*\n\n### How to form it\n\nSame idea as 6-1 — look at the last vowel of the stem:\n\n- **ㅏ/ㅗ** → **-았어요**: 가다 → **갔어요**, 보다 → **봤어요**, 받다 → **받았어요**\n- **other vowels** → **-었어요**: 먹다 → **먹었어요**, 배우다 → **배웠어요**, 마시다 → **마셨어요**\n- **하다** → **했어요**: 공부하다 → **공부했어요**\n- **ㅡ drops**: 바쁘다 → **바빴어요**, 쓰다 → **썼어요**\n- **이에요/예요** → **이었어요/였어요**: 학생이었어요, 친구였어요\n\n### Remember\n\n- Contractions work as in the present: 가 + 았 → **갔**, 오 + 았 → **왔**.\n- It goes with words like 'yesterday' and 'last week': **지난주에 시험을 봤어요.**",
+      "formation": [
+        {
+          "condition_uz": "ㅏ, ㅗ",
+          "condition_en": "ㅏ, ㅗ",
+          "rule": "-았어요",
+          "example": "가다 → 갔어요, 보다 → 봤어요"
+        },
+        {
+          "condition_uz": "Boshqa unlilar",
+          "condition_en": "Other vowels",
+          "rule": "-었어요",
+          "example": "먹다 → 먹었어요, 마시다 → 마셨어요"
+        },
+        {
+          "condition_uz": "하다",
+          "condition_en": "하다",
+          "rule": "했어요",
+          "example": "공부하다 → 공부했어요"
+        },
+        {
+          "condition_uz": "Ot + 이다",
+          "condition_en": "Noun + 이다",
+          "rule": "이었어요/였어요",
+          "example": "학생이었어요, 친구였어요"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "어제 친구를 만났어요.",
+          "uz": "Kecha do'stim bilan uchrashdim.",
+          "en": "I met a friend yesterday.",
+          "audio": "4fadc14fb003.mp3"
+        },
+        {
+          "ko": "지난주에 시험을 봤어요.",
+          "uz": "O'tgan hafta imtihon topshirdim.",
+          "en": "I took an exam last week.",
+          "audio": "dd56bb0cf690.mp3"
+        },
+        {
+          "ko": "열심히 공부했어요.",
+          "uz": "Astoydil o'qidim.",
+          "en": "I studied hard.",
+          "audio": "a0627a61f122.mp3"
+        },
+        {
+          "ko": "어제 너무 바빴어요.",
+          "uz": "Kecha juda band edim.",
+          "en": "I was very busy yesterday.",
+          "audio": "8f239af7a89c.mp3"
+        },
+        {
+          "ko": "생일에 선물을 받았어요.",
+          "uz": "Tug'ilgan kunimda sovg'a oldim.",
+          "en": "I got a present on my birthday.",
+          "audio": "8af247314643.mp3"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "어제 학교에 가었어요.",
+          "right": "어제 학교에 갔어요.",
+          "why_uz": "가다 → 갔어요.",
+          "why_en": "가다 → 갔어요."
+        },
+        {
+          "wrong": "밥을 먹았어요.",
+          "right": "밥을 먹었어요.",
+          "why_uz": "먹다 da ㅓ: -었어요.",
+          "why_en": "먹다 has ㅓ: -었어요."
+        },
+        {
+          "wrong": "공부하았어요.",
+          "right": "공부했어요.",
+          "why_uz": "하다 → 했어요.",
+          "why_en": "하다 → 했어요."
+        }
+      ],
+      "uz_compare": "O'zbekchadagi o'tgan zamon '-di' ga mos: 'uchrashDIM' = 만났어요. Lekin koreyschada shaxs qo'shimchasi yo'q: 'uchrashdim', 'uchrashdi' — ikkalasi ham 만났어요.",
+      "compare_en": "Like English '-ed' / irregular past forms: 'met' = 만났어요. Korean has no irregular list to memorise here — just the vowel rule — and one form for every person."
+    },
+    {
+      "id": "b1_u08_l2_g3",
+      "pattern": "'ㄷ' 불규칙",
+      "meaning_uz": "ㄷ bilan tugaydigan ba'zi fe'llar: ㄷ → ㄹ",
+      "meaning_en": "ㄷ-irregular verbs: ㄷ → ㄹ",
+      "explanation_md": "Ba'zi **ㄷ** bilan tugaydigan fe'llarda, **unli bilan boshlanuvchi** qo'shimcha oldidan **ㄷ → ㄹ** bo'ladi.\n\n**음악을 들어요.** — *Musiqa tinglayman.* (듣다 → 들어요)\n\n### Qaysi fe'llar\n\n- **듣다** → 들어요, 들었어요\n- **걷다** → 걸어요, 걸었어요\n- **묻다** → 물어요, 물었어요\n\n### O'zgarmaydigan fe'llar\n\n- **받다** → 받아요 (o'zgarmaydi)\n- **닫다** → 닫아요 (o'zgarmaydi)\n\n### Esda tuting\n\n- Undosh bilan boshlanuvchi qo'shimcha oldidan ㄷ **qoladi**: 듣**고**, 걷**고**, 듣**지만**.\n- Qaysi fe'l o'zgarishini yod olish kerak — eng ko'p uchraydigani **듣다** va **걷다**.",
+      "explanation_md_en": "Some verbs ending in **ㄷ** change **ㄷ → ㄹ** before an ending that **starts with a vowel**.\n\n**음악을 들어요.** — *I listen to music.* (듣다 → 들어요)\n\n### Which verbs\n\n- **듣다** → 들어요, 들었어요\n- **걷다** → 걸어요, 걸었어요\n- **묻다** → 물어요, 물었어요\n\n### Regular ones\n\n- **받다** → 받아요 (no change)\n- **닫다** → 닫아요 (no change)\n\n### Remember\n\n- Before an ending that starts with a consonant, ㄷ **stays**: 듣**고**, 걷**고**.\n- You have to learn which verbs change — the most common are **듣다** and **걷다**.",
+      "formation": [
+        {
+          "condition_uz": "Unli oldidan",
+          "condition_en": "Before a vowel",
+          "rule": "ㄷ → ㄹ",
+          "example": "듣다 → 들어요, 걷다 → 걸었어요"
+        },
+        {
+          "condition_uz": "Undosh oldidan",
+          "condition_en": "Before a consonant",
+          "rule": "ㄷ qoladi",
+          "example": "듣다 → 듣고, 걷다 → 걷고"
+        },
+        {
+          "condition_uz": "O'zgarmaydigan",
+          "condition_en": "Regular verbs",
+          "rule": "받다, 닫다",
+          "example": "받아요, 닫았어요"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "음악을 들어요.",
+          "uz": "Musiqa tinglayman.",
+          "en": "I listen to music.",
+          "audio": "ce65c69b84e1.mp3"
+        },
+        {
+          "ko": "어제 공원에서 걸었어요.",
+          "uz": "Kecha parkda piyoda yurdim.",
+          "en": "I walked in the park yesterday.",
+          "audio": "e3b149b38d38.mp3"
+        },
+        {
+          "ko": "선생님께 물었어요.",
+          "uz": "O'qituvchidan so'radim.",
+          "en": "I asked the teacher.",
+          "audio": "e85d9bdddd0e.mp3"
+        },
+        {
+          "ko": "한국 노래를 듣고 따라 해요.",
+          "uz": "Koreys qo'shig'ini tinglab, takrorlayman.",
+          "en": "I listen to Korean songs and sing along.",
+          "audio": "e6863b629053.mp3"
+        },
+        {
+          "ko": "문을 닫았어요.",
+          "uz": "Eshikni yopdim.",
+          "en": "I closed the door.",
+          "audio": "a3669493e40a.mp3"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "음악을 듣어요.",
+          "right": "음악을 들어요.",
+          "why_uz": "듣다 + 어요: ㄷ → ㄹ.",
+          "why_en": "듣다 + 어요: ㄷ → ㄹ."
+        },
+        {
+          "wrong": "선물을 발았어요.",
+          "right": "선물을 받았어요.",
+          "why_uz": "받다 o'zgarmaydi.",
+          "why_en": "받다 is regular."
+        },
+        {
+          "wrong": "음악을 들고 공부해요.",
+          "right": "음악을 듣고 공부해요.",
+          "why_uz": "-고 undosh bilan boshlanadi: ㄷ qoladi.",
+          "why_en": "-고 starts with a consonant: ㄷ stays."
+        }
+      ],
+      "uz_compare": "O'zbek tilida bunday o'zgarish yo'q, lekin ba'zi so'zlarda tovush o'zgaradi: 'og'iz' → 'og'zi'. 듣다 → 들어요 ham shunday: qoidani yodlash kerak.",
+      "compare_en": "English has irregular verbs too (hear → heard). Korean ㄷ-irregulars follow one rule: ㄷ becomes ㄹ before a vowel — 듣다 → 들어요."
+    }
+  ],
+  "dialogue": {
+    "lines": [
+      {
+        "speaker": "minji",
+        "ko": "아지즈 씨, 오랜만이에요! 지난주에 뭐 했어요?",
+        "uz": "Aziz, ko'rishmaganimizga ancha bo'ldi! O'tgan hafta nima qildingiz?",
+        "en": "Aziz, long time no see! What did you do last week?",
+        "audio": "a6782d580f01.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "시험 공부를 했어요. 아주 바빴어요.",
+        "uz": "Imtihonga tayyorlandim. Juda band edim.",
+        "en": "I studied for exams. I was very busy.",
+        "audio": "5120114d22a9.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "시험이 며칠이에요?",
+        "uz": "Imtihon nechanchi sanada?",
+        "en": "What date are the exams?",
+        "audio": "1b75d6d6c2b1.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "시월 십삼 일부터 십오 일까지예요.",
+        "uz": "13-oktabrdan 15-oktabrgacha.",
+        "en": "From October 13th to 15th.",
+        "audio": "e92cecdc69b4.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "그럼 다음 주예요? 힘들어요!",
+        "uz": "Unda keyingi haftami? Og'ir-ku!",
+        "en": "So it's next week? That's tough!",
+        "audio": "ffbab514b96b.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "네. 그래서 매일 한국어 뉴스를 들어요.",
+        "uz": "Ha. Shuning uchun har kuni koreyscha yangiliklarni tinglayman.",
+        "en": "Yes. So I listen to Korean news every day.",
+        "audio": "038d0471b0c1.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "와, 열심히 해요! 어제는 뭐 했어요?",
+        "uz": "Voy, tirishqoqsiz! Kecha nima qildingiz?",
+        "en": "Wow, you're working hard! What did you do yesterday?",
+        "audio": "3e939b29d71f.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "어제는 조금 쉬었어요. 한강 공원에서 걸었어요.",
+        "uz": "Kecha biroz dam oldim. Hangang parkida sayr qildim.",
+        "en": "Yesterday I rested a bit. I walked in Hangang Park.",
+        "audio": "72100c8c2636.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "좋았어요? 시험 끝나고 축제가 있어요.",
+        "uz": "Yaxshi bo'ldimi? Imtihondan keyin festival bor.",
+        "en": "Was it nice? There's a festival after the exams.",
+        "audio": "9700ac786760.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "축제는 언제부터예요?",
+        "uz": "Festival qachondan boshlanadi?",
+        "en": "When does the festival start?",
+        "audio": "d051591ce399.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "십칠 일부터 십구 일까지예요. 같이 가요!",
+        "uz": "17-dan 19-gacha. Birga boraylik!",
+        "en": "From the 17th to the 19th. Let's go together!",
+        "audio": "a433d5411fee.mp3"
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b1_u08_l2_e001",
+      "type": "conjugate",
+      "targets": [
+        "b1_u08_l2_g2"
+      ],
+      "prompt_uz": "'Bordim' shaklini yasang",
+      "prompt_en": "Make 'went'",
+      "base": "가다",
+      "form": "-았/었어요",
+      "answers": [
+        "갔어요"
+      ]
+    },
+    {
+      "id": "b1_u08_l2_e002",
+      "type": "conjugate",
+      "targets": [
+        "b1_u08_l2_g2"
+      ],
+      "prompt_uz": "'Yedim' shaklini yasang",
+      "prompt_en": "Make 'ate'",
+      "base": "먹다",
+      "form": "-았/었어요",
+      "answers": [
+        "먹었어요"
+      ]
+    },
+    {
+      "id": "b1_u08_l2_e003",
+      "type": "conjugate",
+      "targets": [
+        "b1_u08_l2_g2"
+      ],
+      "prompt_uz": "'O'qidim (dars)' shaklini yasang",
+      "prompt_en": "Make 'studied'",
+      "base": "공부하다",
+      "form": "-았/었어요",
+      "answers": [
+        "공부했어요"
+      ]
+    },
+    {
+      "id": "b1_u08_l2_e004",
+      "type": "conjugate",
+      "targets": [
+        "b1_u08_l2_g3"
+      ],
+      "prompt_uz": "'Tinglayman' shaklini yasang",
+      "prompt_en": "Make 'listen' (polite present)",
+      "base": "듣다",
+      "form": "-아요/어요",
+      "answers": [
+        "들어요"
+      ],
+      "hint_uz": "ㄷ → ㄹ",
+      "hint_en": "ㄷ → ㄹ"
+    },
+    {
+      "id": "b1_u08_l2_e005",
+      "type": "conjugate",
+      "targets": [
+        "b1_u08_l2_g3"
+      ],
+      "prompt_uz": "'Yurdim' shaklini yasang",
+      "prompt_en": "Make 'walked'",
+      "base": "걷다",
+      "form": "-았/었어요",
+      "answers": [
+        "걸었어요"
+      ]
+    },
+    {
+      "id": "b1_u08_l2_e006",
+      "type": "fill_blank",
+      "targets": [
+        "b1_u08_l2_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Dushanbadan jumagacha.'",
+      "prompt_en": "Fill in the blank: 'From Monday to Friday.'",
+      "sentence": "월요일___ 금요일까지",
+      "answers": [
+        "부터"
+      ]
+    },
+    {
+      "id": "b1_u08_l2_e007",
+      "type": "fill_blank",
+      "targets": [
+        "b1_u08_l2_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Soat oltigacha ishlaydi.'",
+      "prompt_en": "Fill in the blank: 'It's open until six.'",
+      "sentence": "여섯 시___ 해요.",
+      "answers": [
+        "까지"
+      ]
+    },
+    {
+      "id": "b1_u08_l2_e008",
+      "type": "fill_blank",
+      "targets": [
+        "b1_u08_l2_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Kecha juda band edim.'",
+      "prompt_en": "Fill in the blank: 'I was very busy yesterday.'",
+      "sentence": "어제 너무 ___. (바쁘다)",
+      "answers": [
+        "바빴어요"
+      ]
+    },
+    {
+      "id": "b1_u08_l2_e009",
+      "type": "fill_blank",
+      "targets": [
+        "b1_u08_l2_g3"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'O'qituvchidan so'radim.'",
+      "prompt_en": "Fill in the blank: 'I asked the teacher.'",
+      "sentence": "선생님께 ___. (묻다)",
+      "answers": [
+        "물었어요"
+      ]
+    },
+    {
+      "id": "b1_u08_l2_e010",
+      "type": "situation_choice",
+      "targets": [
+        "b1_u08_l2_g1",
+        "b1_u08_l2_w001"
+      ],
+      "prompt_uz": "Bugungi sanani so'rang:",
+      "prompt_en": "Ask today's date:",
+      "options": [
+        "오늘이 며칠이에요?",
+        "오늘이 몇 시예요?",
+        "오늘이 무슨 요일이에요?",
+        "오늘에 며칠이에요?"
+      ],
+      "answers": [
+        "오늘이 며칠이에요?"
+      ]
+    },
+    {
+      "id": "b1_u08_l2_e011",
+      "type": "situation_choice",
+      "targets": [
+        "b1_u08_l2_g1"
+      ],
+      "prompt_uz": "Ta'til iyuldan avgustgacha ekanini ayting:",
+      "prompt_en": "Say the holidays are from July to August:",
+      "options": [
+        "칠월부터 팔월까지예요.",
+        "칠월까지 팔월부터예요.",
+        "칠월에서 팔월부터예요.",
+        "일곱 월부터 여덟 월까지예요."
+      ],
+      "answers": [
+        "칠월부터 팔월까지예요."
+      ]
+    },
+    {
+      "id": "b1_u08_l2_e012",
+      "type": "situation_choice",
+      "targets": [
+        "b1_u08_l2_g2"
+      ],
+      "prompt_uz": "'Kecha nima qildingiz?' — kino ko'rdingiz:",
+      "prompt_en": "'What did you do yesterday?' — you watched a film:",
+      "options": [
+        "영화를 봤어요.",
+        "영화를 봐요.",
+        "영화를 보었어요.",
+        "영화를 봤어요요."
+      ],
+      "answers": [
+        "영화를 봤어요."
+      ]
+    },
+    {
+      "id": "b1_u08_l2_e013",
+      "type": "situation_choice",
+      "targets": [
+        "b1_u08_l2_g3"
+      ],
+      "prompt_uz": "Har kuni koreys qo'shig'ini tinglashingizni ayting:",
+      "prompt_en": "Say that you listen to Korean songs every day:",
+      "options": [
+        "매일 한국 노래를 들어요.",
+        "매일 한국 노래를 듣어요.",
+        "매일 한국 노래를 들고요.",
+        "매일 한국 노래를 듣다요."
+      ],
+      "answers": [
+        "매일 한국 노래를 들어요."
+      ]
+    },
+    {
+      "id": "b1_u08_l2_e014",
+      "type": "find_error",
+      "targets": [
+        "b1_u08_l2_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "육월부터 방학이에요.",
+      "answers": [
+        "유월부터 방학이에요"
+      ],
+      "why_uz": "6-oy — 유월.",
+      "why_en": "June is 유월."
+    },
+    {
+      "id": "b1_u08_l2_e015",
+      "type": "find_error",
+      "targets": [
+        "b1_u08_l2_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "어제 친구를 만나었어요.",
+      "answers": [
+        "어제 친구를 만났어요"
+      ],
+      "why_uz": "만나다 → 만났어요.",
+      "why_en": "만나다 → 만났어요."
+    },
+    {
+      "id": "b1_u08_l2_e016",
+      "type": "find_error",
+      "targets": [
+        "b1_u08_l2_g3"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "공원에서 걷었어요.",
+      "answers": [
+        "공원에서 걸었어요"
+      ],
+      "why_uz": "걷다: ㄷ → ㄹ.",
+      "why_en": "걷다: ㄷ → ㄹ."
+    },
+    {
+      "id": "b1_u08_l2_e017",
+      "type": "find_error",
+      "targets": [
+        "b1_u08_l2_g3"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "선물을 발았어요.",
+      "answers": [
+        "선물을 받았어요"
+      ],
+      "why_uz": "받다 o'zgarmaydi.",
+      "why_en": "받다 is regular."
+    },
+    {
+      "id": "b1_u08_l2_e018",
+      "type": "translate",
+      "targets": [
+        "b1_u08_l2_g1"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Dars soat to'qqizdan birgacha.",
+      "source_en": "Class is from nine to one.",
+      "answers": [
+        "수업은 아홉 시부터 한 시까지예요"
+      ]
+    },
+    {
+      "id": "b1_u08_l2_e019",
+      "type": "translate",
+      "targets": [
+        "b1_u08_l2_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "O'tgan hafta imtihon topshirdim.",
+      "source_en": "I took an exam last week.",
+      "answers": [
+        "지난주에 시험을 봤어요"
+      ]
+    },
+    {
+      "id": "b1_u08_l2_e020",
+      "type": "translate",
+      "targets": [
+        "b1_u08_l2_g3"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Musiqa tinglayman.",
+      "source_en": "I listen to music.",
+      "answers": [
+        "음악을 들어요",
+        "저는 음악을 들어요"
+      ]
+    },
+    {
+      "id": "b1_u08_l2_e021",
+      "type": "build_sentence",
+      "targets": [
+        "b1_u08_l2_g1"
+      ],
+      "prompt_uz": "'Festival jumadan yakshanbagacha' gapini tuzing",
+      "prompt_en": "Build the sentence 'The festival is from Friday to Sunday'",
+      "tokens": [
+        "일요일까지예요",
+        "금요일부터",
+        "축제는"
+      ],
+      "answers": [
+        "축제는 금요일부터 일요일까지예요"
+      ]
+    },
+    {
+      "id": "b1_u08_l2_e022",
+      "type": "build_sentence",
+      "targets": [
+        "b1_u08_l2_g2"
+      ],
+      "prompt_uz": "'Tug'ilgan kunimda sovg'a oldim' gapini tuzing",
+      "prompt_en": "Build the sentence 'I got a present on my birthday'",
+      "tokens": [
+        "받았어요",
+        "선물을",
+        "생일에"
+      ],
+      "answers": [
+        "생일에 선물을 받았어요"
+      ]
+    },
+    {
+      "id": "b1_u08_l2_e023",
+      "type": "build_sentence",
+      "targets": [
+        "b1_u08_l2_g3",
+        "b1_u08_l2_g2"
+      ],
+      "prompt_uz": "'Kecha parkda piyoda yurdim' gapini tuzing",
+      "prompt_en": "Build the sentence 'I walked in the park yesterday'",
+      "tokens": [
+        "걸었어요",
+        "공원에서",
+        "어제"
+      ],
+      "answers": [
+        "어제 공원에서 걸었어요"
+      ]
+    },
+    {
+      "id": "b1_u08_l2_e024",
+      "type": "listen_question",
+      "targets": [
+        "b1_u08_l2_g1"
+      ],
+      "prompt_uz": "Imtihon qachon?",
+      "prompt_en": "When are the exams?",
+      "audio_text": "시험은 화요일부터 목요일까지예요.",
+      "options": [
+        "Seshanbadan payshanbagacha",
+        "Dushanbadan chorshanbagacha",
+        "Seshanba va payshanba",
+        "Payshanbadan shanbagacha"
+      ],
+      "options_en": [
+        "Tuesday to Thursday",
+        "Monday to Wednesday",
+        "Tuesday and Thursday",
+        "Thursday to Saturday"
+      ],
+      "answers": [
+        "Seshanbadan payshanbagacha"
+      ],
+      "audio": "43db9518c504.mp3"
+    },
+    {
+      "id": "b1_u08_l2_e025",
+      "type": "listen_question",
+      "targets": [
+        "b1_u08_l2_g2"
+      ],
+      "prompt_uz": "U kecha nima qildi?",
+      "prompt_en": "What did the speaker do yesterday?",
+      "audio_text": "어제 친구하고 영화를 봤어요.",
+      "options": [
+        "Do'sti bilan kino ko'rdi",
+        "Do'sti bilan ovqatlandi",
+        "Uyda dam oldi",
+        "Imtihon topshirdi"
+      ],
+      "options_en": [
+        "Watched a film with a friend",
+        "Ate with a friend",
+        "Rested at home",
+        "Took an exam"
+      ],
+      "answers": [
+        "Do'sti bilan kino ko'rdi"
+      ],
+      "audio": "9c51c6a3c9ec.mp3"
+    },
+    {
+      "id": "b1_u08_l2_e026",
+      "type": "listen_question",
+      "targets": [
+        "b1_u08_l2_g1"
+      ],
+      "prompt_uz": "Tug'ilgan kuni qachon?",
+      "prompt_en": "When is the birthday?",
+      "audio_text": "제 생일은 시월 이십 일이에요.",
+      "options": [
+        "20-oktabr",
+        "10-oktabr",
+        "20-dekabr",
+        "2-oktabr"
+      ],
+      "options_en": [
+        "October 20th",
+        "October 10th",
+        "December 20th",
+        "October 2nd"
+      ],
+      "answers": [
+        "20-oktabr"
+      ],
+      "audio": "07e4a609a79c.mp3"
+    },
+    {
+      "id": "b1_u08_l2_e027",
+      "type": "listen_question",
+      "targets": [
+        "b1_u08_l2_g3"
+      ],
+      "prompt_uz": "U har kuni nima qiladi?",
+      "prompt_en": "What does the speaker do every day?",
+      "audio_text": "매일 아침 한국어 뉴스를 들어요.",
+      "options": [
+        "Koreyscha yangiliklarni tinglaydi",
+        "Gazeta o'qiydi",
+        "Piyoda yuradi",
+        "Savol beradi"
+      ],
+      "options_en": [
+        "Listens to Korean news",
+        "Reads a newspaper",
+        "Walks",
+        "Asks questions"
+      ],
+      "answers": [
+        "Koreyscha yangiliklarni tinglaydi"
+      ],
+      "audio": "15b1d3d82f76.mp3"
+    },
+    {
+      "id": "b1_u08_l2_e101",
+      "type": "conjugate",
+      "targets": [
+        "b1_u08_l2_g2"
+      ],
+      "prompt_uz": "'Ko'rdim' shaklini yasang",
+      "prompt_en": "Make 'saw'",
+      "base": "보다",
+      "form": "-았/었어요",
+      "answers": [
+        "봤어요",
+        "보았어요"
+      ]
+    },
+    {
+      "id": "b1_u08_l2_e102",
+      "type": "conjugate",
+      "targets": [
+        "b1_u08_l2_g2"
+      ],
+      "prompt_uz": "'Ichdim' shaklini yasang",
+      "prompt_en": "Make 'drank'",
+      "base": "마시다",
+      "form": "-았/었어요",
+      "answers": [
+        "마셨어요"
+      ]
+    },
+    {
+      "id": "b1_u08_l2_e103",
+      "type": "conjugate",
+      "targets": [
+        "b1_u08_l2_g3"
+      ],
+      "prompt_uz": "'Eshitdim' shaklini yasang",
+      "prompt_en": "Make 'listened'",
+      "base": "듣다",
+      "form": "-았/었어요",
+      "answers": [
+        "들었어요"
+      ]
+    },
+    {
+      "id": "b1_u08_l2_e104",
+      "type": "fill_blank",
+      "targets": [
+        "b1_u08_l2_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Ta'til iyuldan.'",
+      "prompt_en": "Fill in the blank: 'The holidays start in July.'",
+      "sentence": "방학이 칠월___예요.",
+      "answers": [
+        "부터"
+      ]
+    },
+    {
+      "id": "b1_u08_l2_e105",
+      "type": "fill_blank",
+      "targets": [
+        "b1_u08_l2_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Festival qiziq bo'ldi.'",
+      "prompt_en": "Fill in the blank: 'The festival was fun.'",
+      "sentence": "축제가 ___. (재미있다)",
+      "answers": [
+        "재미있었어요"
+      ]
+    },
+    {
+      "id": "b1_u08_l2_e106",
+      "type": "situation_choice",
+      "targets": [
+        "b1_u08_l2_g1",
+        "b1_u08_l2_w015"
+      ],
+      "prompt_uz": "Tug'ilgan kunini so'rang:",
+      "prompt_en": "Ask when their birthday is:",
+      "options": [
+        "생일이 언제예요?",
+        "생일이 몇 시예요?",
+        "생일이 어디예요?",
+        "생일이 뭐예요?"
+      ],
+      "answers": [
+        "생일이 언제예요?"
+      ]
+    },
+    {
+      "id": "b1_u08_l2_e107",
+      "type": "situation_choice",
+      "targets": [
+        "b1_u08_l2_g3"
+      ],
+      "prompt_uz": "Kecha o'qituvchidan so'raganingizni ayting:",
+      "prompt_en": "Say that you asked the teacher yesterday:",
+      "options": [
+        "어제 선생님께 물었어요.",
+        "어제 선생님께 묻었어요.",
+        "어제 선생님께 물어요었어요.",
+        "어제 선생님께 묻다요."
+      ],
+      "answers": [
+        "어제 선생님께 물었어요."
+      ]
+    },
+    {
+      "id": "b1_u08_l2_e108",
+      "type": "situation_choice",
+      "targets": [
+        "b1_u08_l2_g2"
+      ],
+      "prompt_uz": "'Nonushta qildingizmi?' — ha:",
+      "prompt_en": "'Did you have breakfast?' — yes:",
+      "options": [
+        "네, 먹었어요.",
+        "네, 먹아요.",
+        "네, 먹었다요.",
+        "네, 먹어요었어요."
+      ],
+      "answers": [
+        "네, 먹었어요."
+      ]
+    },
+    {
+      "id": "b1_u08_l2_e109",
+      "type": "find_error",
+      "targets": [
+        "b1_u08_l2_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "십월 구 일이에요.",
+      "answers": [
+        "시월 구 일이에요"
+      ],
+      "why_uz": "10-oy — 시월.",
+      "why_en": "October is 시월."
+    },
+    {
+      "id": "b1_u08_l2_e110",
+      "type": "find_error",
+      "targets": [
+        "b1_u08_l2_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "어제 공부하았어요.",
+      "answers": [
+        "어제 공부했어요"
+      ],
+      "why_uz": "하다 → 했어요.",
+      "why_en": "하다 → 했어요."
+    },
+    {
+      "id": "b1_u08_l2_e111",
+      "type": "find_error",
+      "targets": [
+        "b1_u08_l2_g3"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "음악을 듣어요.",
+      "answers": [
+        "음악을 들어요"
+      ],
+      "why_uz": "듣다: ㄷ → ㄹ.",
+      "why_en": "듣다: ㄷ → ㄹ."
+    },
+    {
+      "id": "b1_u08_l2_e112",
+      "type": "translate",
+      "targets": [
+        "b1_u08_l2_g1"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Imtihon dushanbadan chorshanbagacha.",
+      "source_en": "The exams are from Monday to Wednesday.",
+      "answers": [
+        "시험은 월요일부터 수요일까지예요"
+      ]
+    },
+    {
+      "id": "b1_u08_l2_e113",
+      "type": "build_sentence",
+      "targets": [
+        "b1_u08_l2_g2"
+      ],
+      "prompt_uz": "'Kecha do'stim bilan uchrashdim' gapini tuzing",
+      "prompt_en": "Build the sentence 'I met a friend yesterday'",
+      "tokens": [
+        "친구를",
+        "어제",
+        "만났어요"
+      ],
+      "answers": [
+        "어제 친구를 만났어요"
+      ]
+    },
+    {
+      "id": "b1_u08_l2_e114",
+      "type": "listen_question",
+      "targets": [
+        "b1_u08_l2_g2"
+      ],
+      "prompt_uz": "U o'tgan hafta nima qildi?",
+      "prompt_en": "What did the speaker do last week?",
+      "audio_text": "지난주에 부산에 여행을 갔어요.",
+      "options": [
+        "Pusanga sayohat qildi",
+        "Pusandan keldi",
+        "Imtihon topshirdi",
+        "Uyda qoldi"
+      ],
+      "options_en": [
+        "Travelled to Busan",
+        "Came from Busan",
+        "Took an exam",
+        "Stayed home"
+      ],
+      "answers": [
+        "Pusanga sayohat qildi"
+      ],
+      "audio": "ead36c765555.mp3"
+    },
+    {
+      "id": "b1_u08_l2_e115",
+      "type": "listen_question",
+      "targets": [
+        "b1_u08_l2_g1"
+      ],
+      "prompt_uz": "Kutubxona soat nechagacha ishlaydi?",
+      "prompt_en": "Until what time is the library open?",
+      "audio_text": "도서관은 밤 열 시까지 해요.",
+      "options": [
+        "Kechki 10 gacha",
+        "Ertalab 10 dan",
+        "Kechki 9 gacha",
+        "Kechki 11 gacha"
+      ],
+      "options_en": [
+        "Until 10 p.m.",
+        "From 10 a.m.",
+        "Until 9 p.m.",
+        "Until 11 p.m."
+      ],
+      "answers": [
+        "Kechki 10 gacha"
+      ],
+      "audio": "e9a89d01d34f.mp3"
+    }
+  ],
+  "test": [
+    "b1_u08_l2_e101",
+    "b1_u08_l2_e102",
+    "b1_u08_l2_e103",
+    "b1_u08_l2_e104",
+    "b1_u08_l2_e105",
+    "b1_u08_l2_e106",
+    "b1_u08_l2_e107",
+    "b1_u08_l2_e108",
+    "b1_u08_l2_e109",
+    "b1_u08_l2_e110",
+    "b1_u08_l2_e111",
+    "b1_u08_l2_e112",
+    "b1_u08_l2_e113",
+    "b1_u08_l2_e114",
+    "b1_u08_l2_e115"
+  ],
+  "story": {
+    "title_uz": "Imtihon haftasi",
+    "title_en": "Exam week",
+    "gate_uz": "IMTIHON",
+    "gate_en": "EXAM",
+    "steps": [
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "아지즈 씨, 오랜만이에요!",
+        "uz": "Aziz, ko'rishmaganimizga ancha bo'ldi!",
+        "en": "Aziz, long time no see!",
+        "audio": "4e6f713dc70f.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "민지 씨! 오랜만이에요.",
+        "uz": "Minji! Ko'rishmaganimizga ancha bo'ldi.",
+        "en": "Minji! Long time no see.",
+        "audio": "6b092138e365.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "지난주에 뭐 했어요?",
+        "uz": "O'tgan hafta nima qildingiz?",
+        "en": "What did you do last week?",
+        "audio": "3027b8c0ee34.mp3"
+      },
+      {
+        "type": "choose_reply",
+        "speaker": "aziz",
+        "prompt_uz": "Aziz 'Imtihonga tayyorlandim' demoqchi.",
+        "prompt_en": "Aziz wants to say 'I studied for the exams'.",
+        "options": [
+          "시험 공부를 했어요.",
+          "시험 공부를 하았어요.",
+          "시험 공부를 해요었어요."
+        ],
+        "answer": "시험 공부를 했어요.",
+        "uz": "Imtihonga tayyorlandim.",
+        "en": "I studied for the exams.",
+        "why_uz": "하다 → 했어요.",
+        "why_en": "하다 → 했어요.",
+        "audio": "5c57e69facb5.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "시험이 며칠이에요?",
+        "uz": "Imtihon nechanchi sanada?",
+        "en": "What date are the exams?",
+        "audio": "1b75d6d6c2b1.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "시월 십삼 일부터 십오 일까지예요.",
+        "uz": "13-oktabrdan 15-oktabrgacha.",
+        "en": "From October 13th to 15th.",
+        "audio": "e92cecdc69b4.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "어떻게 공부해요?",
+        "uz": "Qanday tayyorlanyapsiz?",
+        "en": "How are you studying?",
+        "audio": "fafb48ce4866.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "매일 한국어 뉴스를 들어요. 그리고 단어를 써요.",
+        "uz": "Har kuni koreyscha yangiliklarni tinglayman. So'zlarni yozaman.",
+        "en": "I listen to Korean news every day. And I write out words.",
+        "audio": "c6b3fbede1a3.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "와, 열심히 해요! 어제도 공부했어요?",
+        "uz": "Voy, tirishqoqsiz! Kecha ham o'qidingizmi?",
+        "en": "Wow, you're working hard! Did you study yesterday too?",
+        "audio": "fd0e09f3ebd3.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "아니요, 어제는 한강 공원에서 걸었어요.",
+        "uz": "Yo'q, kecha Hangang parkida sayr qildim.",
+        "en": "No, yesterday I walked in Hangang Park.",
+        "audio": "7ab142629322.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "잘했어요. 시험 끝나고 축제가 있어요.",
+        "uz": "Yaxshi qilibsiz. Imtihondan keyin festival bor.",
+        "en": "Good for you. There's a festival after the exams.",
+        "audio": "6db0cf01fa0f.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "정말요? 같이 가요!",
+        "uz": "Rostdanmi? Birga boraylik!",
+        "en": "Really? Let's go together!",
+        "audio": "7bf61dd11d5d.mp3"
+      },
+      {
+        "type": "quiz",
+        "prompt_uz": "Aziz kecha nima qildi?",
+        "prompt_en": "What did Aziz do yesterday?",
+        "options": [
+          "Parkda sayr qildi",
+          "Imtihonga tayyorlandi",
+          "Festivalga bordi"
+        ],
+        "options_en": [
+          "Walked in the park",
+          "Studied for exams",
+          "Went to the festival"
+        ],
+        "answer": "Parkda sayr qildi",
+        "why_uz": "어제는 한강 공원에서 걸었어요.",
+        "why_en": "어제는 한강 공원에서 걸었어요 — he walked in the park."
+      }
+    ]
+  }
+}

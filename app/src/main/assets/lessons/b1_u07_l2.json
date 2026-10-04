@@ -1,0 +1,1461 @@
+{
+  "id": "b1_u07_l2",
+  "unit": 7,
+  "lesson": 2,
+  "title_ko": "얼마예요?",
+  "title_uz": "Qancha turadi?",
+  "title_en": "How much is it?",
+  "topic_uz": "Xarid",
+  "topic_en": "Shopping",
+  "reviewed": false,
+  "words": [
+    {
+      "id": "b1_u07_l2_w001",
+      "ko": "일",
+      "uz": "bir",
+      "en": "one",
+      "pos": "son",
+      "example_ko": "일 층이에요.",
+      "example_uz": "Birinchi qavat.",
+      "example_en": "It's the first floor.",
+      "audio": "02c643143d66.mp3",
+      "example_audio": "cb1434688a1e.mp3"
+    },
+    {
+      "id": "b1_u07_l2_w002",
+      "ko": "이",
+      "uz": "ikki",
+      "en": "two",
+      "pos": "son",
+      "example_ko": "이 번 버스를 타요.",
+      "example_uz": "2-avtobusga chiqaman.",
+      "example_en": "I take bus number 2.",
+      "audio": "1a494c515b81.mp3",
+      "example_audio": "030b8e5a6e96.mp3"
+    },
+    {
+      "id": "b1_u07_l2_w003",
+      "ko": "삼",
+      "uz": "uch",
+      "en": "three",
+      "pos": "son",
+      "example_ko": "삼 층에 있어요.",
+      "example_uz": "Uchinchi qavatda.",
+      "example_en": "It's on the third floor.",
+      "audio": "ac36f9a8ae81.mp3",
+      "example_audio": "282f0ecaebab.mp3"
+    },
+    {
+      "id": "b1_u07_l2_w004",
+      "ko": "사",
+      "uz": "to'rt",
+      "en": "four",
+      "pos": "son",
+      "example_ko": "사 월이에요.",
+      "example_uz": "Aprel.",
+      "example_en": "It's April.",
+      "audio": "cc6a2a91c0bd.mp3",
+      "example_audio": "a4c63e33aed6.mp3"
+    },
+    {
+      "id": "b1_u07_l2_w005",
+      "ko": "오",
+      "uz": "besh",
+      "en": "five",
+      "pos": "son",
+      "example_ko": "오천 원이에요.",
+      "example_uz": "Besh ming von.",
+      "example_en": "It's five thousand won.",
+      "audio": "1d5fc50d9441.mp3",
+      "example_audio": "f1f208d24137.mp3"
+    },
+    {
+      "id": "b1_u07_l2_w006",
+      "ko": "육",
+      "uz": "olti",
+      "en": "six",
+      "pos": "son",
+      "example_ko": "육 월에 와요.",
+      "example_uz": "Iyunda keladi.",
+      "example_en": "She's coming in June.",
+      "audio": "305e31ff6b64.mp3",
+      "example_audio": "b4a1dcf3d572.mp3"
+    },
+    {
+      "id": "b1_u07_l2_w007",
+      "ko": "칠",
+      "uz": "yetti",
+      "en": "seven",
+      "pos": "son",
+      "example_ko": "칠백 원이에요.",
+      "example_uz": "Yetti yuz von.",
+      "example_en": "It's seven hundred won.",
+      "audio": "081d80105414.mp3",
+      "example_audio": "efb86cc05202.mp3"
+    },
+    {
+      "id": "b1_u07_l2_w008",
+      "ko": "팔",
+      "uz": "sakkiz",
+      "en": "eight",
+      "pos": "son",
+      "example_ko": "팔천 원이에요.",
+      "example_uz": "Sakkiz ming von.",
+      "example_en": "It's eight thousand won.",
+      "audio": "e02d0b4d0d9d.mp3",
+      "example_audio": "3140f8cbd242.mp3"
+    },
+    {
+      "id": "b1_u07_l2_w009",
+      "ko": "구",
+      "uz": "to'qqiz",
+      "en": "nine",
+      "pos": "son",
+      "example_ko": "구백 원이에요.",
+      "example_uz": "To'qqiz yuz von.",
+      "example_en": "It's nine hundred won.",
+      "audio": "2e0069f60b90.mp3",
+      "example_audio": "65d100940679.mp3"
+    },
+    {
+      "id": "b1_u07_l2_w010",
+      "ko": "십",
+      "uz": "o'n",
+      "en": "ten",
+      "pos": "son",
+      "example_ko": "십 분 기다리세요.",
+      "example_uz": "O'n daqiqa kuting.",
+      "example_en": "Please wait ten minutes.",
+      "audio": "4855375d6354.mp3",
+      "example_audio": "0dc7cbcef388.mp3"
+    },
+    {
+      "id": "b1_u07_l2_w011",
+      "ko": "백",
+      "uz": "yuz",
+      "en": "hundred",
+      "pos": "son",
+      "example_ko": "백 원이에요.",
+      "example_uz": "Yuz von.",
+      "example_en": "It's a hundred won.",
+      "audio": "1baa1d09922d.mp3",
+      "example_audio": "4b831374c39b.mp3"
+    },
+    {
+      "id": "b1_u07_l2_w012",
+      "ko": "천",
+      "uz": "ming",
+      "en": "thousand",
+      "pos": "son",
+      "example_ko": "천 원이에요.",
+      "example_uz": "Ming von.",
+      "example_en": "It's a thousand won.",
+      "audio": "6821cdab5ad0.mp3",
+      "example_audio": "bad7500b5fe3.mp3"
+    },
+    {
+      "id": "b1_u07_l2_w013",
+      "ko": "만",
+      "uz": "o'n ming",
+      "en": "ten thousand",
+      "pos": "son",
+      "example_ko": "만 원이에요.",
+      "example_uz": "O'n ming von.",
+      "example_en": "It's ten thousand won.",
+      "audio": "34789ebb6c62.mp3",
+      "example_audio": "9670009605d9.mp3"
+    },
+    {
+      "id": "b1_u07_l2_w014",
+      "ko": "원",
+      "uz": "von (Koreya puli)",
+      "en": "won (currency)",
+      "pos": "ot",
+      "example_ko": "삼천 원이에요.",
+      "example_uz": "Uch ming von.",
+      "example_en": "It's three thousand won.",
+      "audio": "5493c64fb5dc.mp3",
+      "example_audio": "d88d1a28e4f7.mp3"
+    },
+    {
+      "id": "b1_u07_l2_w015",
+      "ko": "얼마",
+      "uz": "qancha (narx)",
+      "en": "how much",
+      "pos": "olmosh",
+      "example_ko": "이거 얼마예요?",
+      "example_uz": "Bu qancha turadi?",
+      "example_en": "How much is this?",
+      "audio": "9e8242f8982a.mp3",
+      "example_audio": "e7ed6d300898.mp3"
+    },
+    {
+      "id": "b1_u07_l2_w016",
+      "ko": "쌀",
+      "uz": "guruch (pishmagan)",
+      "en": "rice (uncooked)",
+      "pos": "ot",
+      "example_ko": "쌀이 비싸요.",
+      "example_uz": "Guruch qimmat.",
+      "example_en": "Rice is expensive.",
+      "audio": "de196c99940b.mp3",
+      "example_audio": "a7adb7b85e68.mp3"
+    },
+    {
+      "id": "b1_u07_l2_w017",
+      "ko": "라면",
+      "uz": "ramyon (lapsha)",
+      "en": "ramyeon",
+      "pos": "ot",
+      "example_ko": "라면도 사요.",
+      "example_uz": "Ramyon ham olaman.",
+      "example_en": "I'm buying ramyeon too.",
+      "audio": "0ae71f12a40b.mp3",
+      "example_audio": "9954eac93bfa.mp3"
+    },
+    {
+      "id": "b1_u07_l2_w018",
+      "ko": "과자",
+      "uz": "pechenye, chips",
+      "en": "snack, cookie",
+      "pos": "ot",
+      "example_ko": "과자 하나 주세요.",
+      "example_uz": "Bitta pechenye bering.",
+      "example_en": "One snack, please.",
+      "audio": "da8a13bc1348.mp3",
+      "example_audio": "56388ed160d1.mp3"
+    },
+    {
+      "id": "b1_u07_l2_w019",
+      "ko": "샴푸",
+      "uz": "shampun",
+      "en": "shampoo",
+      "pos": "ot",
+      "example_ko": "샴푸도 있어요?",
+      "example_uz": "Shampun ham bormi?",
+      "example_en": "Do you have shampoo too?",
+      "audio": "5995b7dca77f.mp3",
+      "example_audio": "e590678fd7f6.mp3"
+    },
+    {
+      "id": "b1_u07_l2_w020",
+      "ko": "세제",
+      "uz": "kir yuvish kukuni",
+      "en": "detergent",
+      "pos": "ot",
+      "example_ko": "세제가 얼마예요?",
+      "example_uz": "Kir kukuni qancha?",
+      "example_en": "How much is the detergent?",
+      "audio": "84ba74ed603e.mp3",
+      "example_audio": "e3c73372560d.mp3"
+    },
+    {
+      "id": "b1_u07_l2_w021",
+      "ko": "화장지",
+      "uz": "hojatxona qog'ozi",
+      "en": "toilet paper",
+      "pos": "ot",
+      "example_ko": "화장지 하나 주세요.",
+      "example_uz": "Bitta hojatxona qog'ozi bering.",
+      "example_en": "One pack of toilet paper, please.",
+      "audio": "42b52d87ae70.mp3",
+      "example_audio": "6a063524e311.mp3"
+    },
+    {
+      "id": "b1_u07_l2_w022",
+      "ko": "봉투",
+      "uz": "paket, xalta",
+      "en": "bag (plastic/paper)",
+      "pos": "ot",
+      "example_ko": "봉투 필요해요?",
+      "example_uz": "Paket kerakmi?",
+      "example_en": "Do you need a bag?",
+      "audio": "68f220f12fd6.mp3",
+      "example_audio": "6b060ec28f90.mp3"
+    },
+    {
+      "id": "b1_u07_l2_w023",
+      "ko": "전부",
+      "uz": "hammasi, jami",
+      "en": "in total",
+      "pos": "ravish",
+      "example_ko": "전부 얼마예요?",
+      "example_uz": "Hammasi qancha?",
+      "example_en": "How much is it altogether?",
+      "audio": "a38ac0119b55.mp3",
+      "example_audio": "6420a210e4c3.mp3"
+    },
+    {
+      "id": "b1_u07_l2_w024",
+      "ko": "영수증",
+      "uz": "chek",
+      "en": "receipt",
+      "pos": "ot",
+      "example_ko": "영수증 주세요.",
+      "example_uz": "Chekni bering.",
+      "example_en": "The receipt, please.",
+      "audio": "54c93553cdf9.mp3",
+      "example_audio": "ee656764e52d.mp3"
+    },
+    {
+      "id": "b1_u07_l2_w025",
+      "ko": "현금",
+      "uz": "naqd pul",
+      "en": "cash",
+      "pos": "ot",
+      "example_ko": "현금으로 계산해요.",
+      "example_uz": "Naqd to'layman.",
+      "example_en": "I'll pay in cash.",
+      "audio": "10bd292186d9.mp3",
+      "example_audio": "1330b76b4bec.mp3"
+    },
+    {
+      "id": "b1_u07_l2_w026",
+      "ko": "할인",
+      "uz": "chegirma",
+      "en": "discount",
+      "pos": "ot",
+      "example_ko": "오늘 할인해요.",
+      "example_uz": "Bugun chegirma bor.",
+      "example_en": "There's a discount today.",
+      "audio": "b26ff1ccc686.mp3",
+      "example_audio": "3570a4125d44.mp3"
+    },
+    {
+      "id": "b1_u07_l2_w027",
+      "ko": "깎아 주세요",
+      "uz": "arzonlashtiring, iltimos",
+      "en": "please give me a discount",
+      "pos": "ibora",
+      "example_ko": "조금만 깎아 주세요.",
+      "example_uz": "Ozgina arzonlashtiring.",
+      "example_en": "Please give me a small discount.",
+      "audio": "1402d39c46bf.mp3",
+      "example_audio": "ffa21063a83b.mp3"
+    },
+    {
+      "id": "b1_u07_l2_w028",
+      "ko": "아이스크림",
+      "uz": "muzqaymoq",
+      "en": "ice cream",
+      "pos": "ot",
+      "example_ko": "아이스크림도 주세요.",
+      "example_uz": "Muzqaymoq ham bering.",
+      "example_en": "Ice cream too, please.",
+      "audio": "109c170ae6a6.mp3",
+      "example_audio": "d6b5b1360331.mp3"
+    },
+    {
+      "id": "b1_u07_l2_w029",
+      "ko": "잔돈",
+      "uz": "qaytim",
+      "en": "change (money)",
+      "pos": "ot",
+      "example_ko": "여기 잔돈이요.",
+      "example_uz": "Mana qaytim.",
+      "example_en": "Here's your change.",
+      "audio": "2b6f03aae19d.mp3",
+      "example_audio": "dc49b951d447.mp3"
+    },
+    {
+      "id": "b1_u07_l2_w030",
+      "ko": "필요하다",
+      "uz": "kerak bo'lmoq",
+      "en": "to need",
+      "pos": "sifat",
+      "example_ko": "봉투가 필요해요.",
+      "example_uz": "Paket kerak.",
+      "example_en": "I need a bag.",
+      "audio": "33546bcf4838.mp3",
+      "example_audio": "8e1e79eed116.mp3"
+    },
+    {
+      "id": "b1_u07_l2_w031",
+      "ko": "싸다",
+      "uz": "arzon bo'lmoq",
+      "en": "to be cheap",
+      "pos": "sifat",
+      "example_ko": "이 라면이 싸요.",
+      "example_uz": "Bu ramyon arzon.",
+      "example_en": "This ramyeon is cheap.",
+      "audio": "8ec5b204a107.mp3",
+      "example_audio": "b8ffc1d05fbc.mp3"
+    },
+    {
+      "id": "b1_u07_l2_w032",
+      "ko": "비싸다",
+      "uz": "qimmat bo'lmoq",
+      "en": "to be expensive",
+      "pos": "sifat",
+      "example_ko": "샴푸가 비싸요.",
+      "example_uz": "Shampun qimmat.",
+      "example_en": "The shampoo is expensive.",
+      "audio": "23a2f9c176ce.mp3",
+      "example_audio": "c7831465e893.mp3"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "b1_u07_l2_g1",
+      "pattern": "N도",
+      "meaning_uz": "... ham",
+      "meaning_en": "N too, also",
+      "explanation_md": "**도** — \"ham\". U **이/가**, **을/를**, **은/는** o'rniga qo'yiladi.\n\n**라면도 사요.** — *Ramyon ham olaman.*  \n**저도 학생이에요.** — *Men ham talabaman.*\n\n### Qanday yasaladi\n\n**도** 받침 ga qarab o'zgarmaydi: **쌀도**, **샴푸도**.\n\n### Esda tuting\n\n- 도 boshqa qo'shimchaning **o'rnini egallaydi**: ~~라면을도~~ emas, **라면도**; ~~저는도~~ emas, **저도**.\n- **에**, **에서** bilan esa birga keladi: **시장에도 가요**, **집에서도 공부해요**.\n- Inkor gapda \"ham …-mas\": **저도 안 먹어요.** — *Men ham yemayman.*",
+      "explanation_md_en": "**도** means \"too / also\". It **replaces** **이/가**, **을/를** and **은/는**.\n\n**라면도 사요.** — *I'm buying ramyeon too.*  \n**저도 학생이에요.** — *I'm a student too.*\n\n### How to form it\n\n**도** doesn't change with 받침: **쌀도**, **샴푸도**.\n\n### Remember\n\n- 도 **takes the place** of the other marker: not ~~라면을도~~ but **라면도**; not ~~저는도~~ but **저도**.\n- It **follows** 에 and 에서: **시장에도 가요**, **집에서도 공부해요**.\n- In negative sentences it means \"either\": **저도 안 먹어요.** — *I don't eat it either.*",
+      "formation": [
+        {
+          "condition_uz": "Ega/to'ldiruvchi o'rnida",
+          "condition_en": "Instead of 이/가, 을/를, 은/는",
+          "rule": "N + 도",
+          "example": "저도, 라면도, 샴푸도"
+        },
+        {
+          "condition_uz": "에/에서 bilan",
+          "condition_en": "After 에/에서",
+          "rule": "N에도, N에서도",
+          "example": "시장에도, 집에서도"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "라면도 사요.",
+          "uz": "Ramyon ham olaman.",
+          "en": "I'm buying ramyeon too.",
+          "audio": "9954eac93bfa.mp3"
+        },
+        {
+          "ko": "저도 학생이에요.",
+          "uz": "Men ham talabaman.",
+          "en": "I'm a student too.",
+          "audio": "6819fae41c16.mp3"
+        },
+        {
+          "ko": "샴푸도 있어요?",
+          "uz": "Shampun ham bormi?",
+          "en": "Do you have shampoo too?",
+          "audio": "e590678fd7f6.mp3"
+        },
+        {
+          "ko": "아이스크림도 주세요.",
+          "uz": "Muzqaymoq ham bering.",
+          "en": "Ice cream too, please.",
+          "audio": "d6b5b1360331.mp3"
+        },
+        {
+          "ko": "민지 씨도 시장에 가요.",
+          "uz": "Minji ham bozorga boradi.",
+          "en": "Minji is going to the market too.",
+          "audio": "8b8e8df91f54.mp3"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "라면을도 사요.",
+          "right": "라면도 사요.",
+          "why_uz": "도 을/를 o'rnini egallaydi.",
+          "why_en": "도 replaces 을/를."
+        },
+        {
+          "wrong": "저는도 학생이에요.",
+          "right": "저도 학생이에요.",
+          "why_uz": "도 은/는 o'rnini egallaydi.",
+          "why_en": "도 replaces 은/는."
+        },
+        {
+          "wrong": "샴푸가도 있어요.",
+          "right": "샴푸도 있어요.",
+          "why_uz": "도 이/가 o'rnini egallaydi.",
+          "why_en": "도 replaces 이/가."
+        }
+      ],
+      "uz_compare": "O'zbekchadagi 'ham' bilan bir xil: 'Men HAM talabaman' = 저도 학생이에요. Faqat koreyschada 도 so'zga qo'shilib yoziladi va -ni/-da kabi qo'shimchalar o'rnini oladi.",
+      "compare_en": "Just like English 'too': 'I'm a student TOO' = 저도 학생이에요. But 도 attaches to the word and replaces markers like 을/를."
+    },
+    {
+      "id": "b1_u07_l2_g2",
+      "pattern": "일, 이, 삼 (xitoycha sonlar) + 원",
+      "meaning_uz": "Narx, raqam, sana uchun sonlar",
+      "meaning_en": "Sino-Korean numbers for prices, numbers and dates",
+      "explanation_md": "Koreys tilida ikkinchi son tizimi — **xitoycha sonlar**: **일, 이, 삼, 사, 오, 육, 칠, 팔, 구, 십**. Ular **narx**, **telefon raqami**, **qavat**, **sana**, **daqiqa** uchun ishlatiladi.\n\n**삼천 원이에요.** — *Uch ming von.*\n\n### Katta sonlar\n\n- **십** 10, **백** 100, **천** 1 000, **만** 10 000\n- 20 = **이십**, 35 = **삼십오**, 250 = **이백오십**\n- 1 000 = **천** (~~일천~~ emas), 10 000 = **만** (~~일만~~ emas)\n- 15 000 = **만 오천**, 3 500 = **삼천오백**\n\n### Esda tuting\n\n- **만** — o'n ming. 50 000 = **오만** (~~오십천~~ emas).\n- Narxni so'rash: **얼마예요?** Javob: **N 원이에요.**\n- **육** so'z o'rtasida ko'pincha [뉵/륙] eshitiladi: 십육 [심뉵].",
+      "explanation_md_en": "Korean's second number system is **Sino-Korean**: **일, 이, 삼, 사, 오, 육, 칠, 팔, 구, 십**. It's used for **prices**, **phone numbers**, **floors**, **dates** and **minutes**.\n\n**삼천 원이에요.** — *It's three thousand won.*\n\n### Big numbers\n\n- **십** 10, **백** 100, **천** 1,000, **만** 10,000\n- 20 = **이십**, 35 = **삼십오**, 250 = **이백오십**\n- 1,000 = **천** (not ~~일천~~), 10,000 = **만** (not ~~일만~~)\n- 15,000 = **만 오천**, 3,500 = **삼천오백**\n\n### Remember\n\n- **만** is ten thousand. 50,000 = **오만** (not ~~오십천~~).\n- Asking the price: **얼마예요?** Answer: **N 원이에요.**\n- **육** inside a number often sounds like [뉵/륙]: 십육 [심뉵].",
+      "formation": [
+        {
+          "condition_uz": "Birliklar",
+          "condition_en": "Units",
+          "rule": "일 … 구",
+          "example": "일, 이, 삼, 사, 오"
+        },
+        {
+          "condition_uz": "O'nliklar",
+          "condition_en": "Tens",
+          "rule": "이십, 삼십 …",
+          "example": "20 = 이십, 45 = 사십오"
+        },
+        {
+          "condition_uz": "Yuz, ming",
+          "condition_en": "Hundreds, thousands",
+          "rule": "백, 천",
+          "example": "300 = 삼백, 2 000 = 이천"
+        },
+        {
+          "condition_uz": "O'n minglar",
+          "condition_en": "Ten-thousands",
+          "rule": "만",
+          "example": "10 000 = 만, 30 000 = 삼만"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "이거 얼마예요?",
+          "uz": "Bu qancha turadi?",
+          "en": "How much is this?",
+          "audio": "e7ed6d300898.mp3"
+        },
+        {
+          "ko": "삼천 원이에요.",
+          "uz": "Uch ming von.",
+          "en": "It's three thousand won.",
+          "audio": "d88d1a28e4f7.mp3"
+        },
+        {
+          "ko": "전부 만 오천 원이에요.",
+          "uz": "Hammasi o'n besh ming von.",
+          "en": "That's fifteen thousand won altogether.",
+          "audio": "41714a87f748.mp3"
+        },
+        {
+          "ko": "라면은 칠백 원이에요.",
+          "uz": "Ramyon yetti yuz von.",
+          "en": "The ramyeon is seven hundred won.",
+          "audio": "150df1f35c37.mp3"
+        },
+        {
+          "ko": "샴푸는 팔천오백 원이에요.",
+          "uz": "Shampun sakkiz ming besh yuz von.",
+          "en": "The shampoo is eight thousand five hundred won.",
+          "audio": "52d884bfa884.mp3"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "일천 원이에요.",
+          "right": "천 원이에요.",
+          "why_uz": "1 000 — shunchaki 천.",
+          "why_en": "1,000 is just 천."
+        },
+        {
+          "wrong": "오십천 원이에요.",
+          "right": "오만 원이에요.",
+          "why_uz": "50 000 = 오만.",
+          "why_en": "50,000 = 오만."
+        },
+        {
+          "wrong": "세 천 원이에요.",
+          "right": "삼천 원이에요.",
+          "why_uz": "Narx — xitoycha son: 삼천.",
+          "why_en": "Prices use Sino-Korean: 삼천."
+        }
+      ],
+      "uz_compare": "O'zbekchada bitta son tizimi bor. Koreyschada ikkitasi: narsalarni sanash — 하나, 둘 (5-1), narx va raqamlar — 일, 이, 삼. Yana 'o'n ming' uchun alohida so'z bor: 만.",
+      "compare_en": "English has one set of numbers; Korean has two: native 하나, 둘 for counting things (5-1), and Sino-Korean 일, 이, 삼 for prices and numbers. Korean also groups by ten thousand (만), not by thousand."
+    }
+  ],
+  "dialogue": {
+    "lines": [
+      {
+        "speaker": "clerk",
+        "ko": "어서 오세요.",
+        "uz": "Xush kelibsiz.",
+        "en": "Welcome.",
+        "audio": "99c4fad363d8.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "이 라면 얼마예요?",
+        "uz": "Bu ramyon qancha?",
+        "en": "How much is this ramyeon?",
+        "audio": "8fe6d8916772.mp3"
+      },
+      {
+        "speaker": "clerk",
+        "ko": "칠백 원이에요.",
+        "uz": "Yetti yuz von.",
+        "en": "It's seven hundred won.",
+        "audio": "efb86cc05202.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "싸요! 다섯 개 주세요. 샴푸도 있어요?",
+        "uz": "Arzon ekan! Beshta bering. Shampun ham bormi?",
+        "en": "That's cheap! Five, please. Do you have shampoo too?",
+        "audio": "6e97b2f605ca.mp3"
+      },
+      {
+        "speaker": "clerk",
+        "ko": "네, 저기 있어요. 오늘 할인해요.",
+        "uz": "Ha, anavi yerda. Bugun chegirma.",
+        "en": "Yes, over there. It's on sale today.",
+        "audio": "797302c463d4.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "샴푸는 얼마예요?",
+        "uz": "Shampun qancha?",
+        "en": "How much is the shampoo?",
+        "audio": "e8cf209a5dfd.mp3"
+      },
+      {
+        "speaker": "clerk",
+        "ko": "팔천 원이에요.",
+        "uz": "Sakkiz ming von.",
+        "en": "It's eight thousand won.",
+        "audio": "3140f8cbd242.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "그럼 샴푸도 하나 주세요. 전부 얼마예요?",
+        "uz": "Unda bitta shampun ham bering. Hammasi qancha?",
+        "en": "Then one shampoo too, please. How much altogether?",
+        "audio": "11f1586f87fd.mp3"
+      },
+      {
+        "speaker": "clerk",
+        "ko": "전부 만 천오백 원이에요. 봉투 필요해요?",
+        "uz": "Hammasi o'n bir ming besh yuz von. Paket kerakmi?",
+        "en": "That's eleven thousand five hundred won. Do you need a bag?",
+        "audio": "63da46ab2aa2.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "네, 봉투도 주세요. 카드로 계산해요.",
+        "uz": "Ha, paket ham bering. Karta bilan to'layman.",
+        "en": "Yes, a bag too, please. I'll pay by card.",
+        "audio": "6590978b2159.mp3"
+      },
+      {
+        "speaker": "clerk",
+        "ko": "감사합니다. 영수증 여기 있어요.",
+        "uz": "Rahmat. Mana chek.",
+        "en": "Thank you. Here's your receipt.",
+        "audio": "71c7f3830258.mp3"
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b1_u07_l2_e001",
+      "type": "conjugate",
+      "targets": [
+        "b1_u07_l2_g1"
+      ],
+      "prompt_uz": "'Men ham' shaklini yasang",
+      "prompt_en": "Make 'me too'",
+      "base": "저",
+      "form": "-도",
+      "answers": [
+        "저도"
+      ]
+    },
+    {
+      "id": "b1_u07_l2_e002",
+      "type": "conjugate",
+      "targets": [
+        "b1_u07_l2_g1"
+      ],
+      "prompt_uz": "'Ramyon ham' shaklini yasang",
+      "prompt_en": "Make 'ramyeon too'",
+      "base": "라면",
+      "form": "-도",
+      "answers": [
+        "라면도"
+      ]
+    },
+    {
+      "id": "b1_u07_l2_e003",
+      "type": "conjugate",
+      "targets": [
+        "b1_u07_l2_g2"
+      ],
+      "prompt_uz": "3 000 vonni koreyscha yozing",
+      "prompt_en": "Write 3,000 won in Korean",
+      "base": "3,000",
+      "form": "+ 원",
+      "answers": [
+        "삼천 원",
+        "삼천원"
+      ]
+    },
+    {
+      "id": "b1_u07_l2_e004",
+      "type": "conjugate",
+      "targets": [
+        "b1_u07_l2_g2"
+      ],
+      "prompt_uz": "15 000 vonni koreyscha yozing",
+      "prompt_en": "Write 15,000 won in Korean",
+      "base": "15,000",
+      "form": "+ 원",
+      "answers": [
+        "만 오천 원",
+        "만오천 원",
+        "만오천원"
+      ]
+    },
+    {
+      "id": "b1_u07_l2_e005",
+      "type": "fill_blank",
+      "targets": [
+        "b1_u07_l2_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Shampun ham bormi?'",
+      "prompt_en": "Fill in the blank: 'Do you have shampoo too?'",
+      "sentence": "샴푸___ 있어요?",
+      "answers": [
+        "도"
+      ]
+    },
+    {
+      "id": "b1_u07_l2_e006",
+      "type": "fill_blank",
+      "targets": [
+        "b1_u07_l2_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Minji ham bozorga boradi.'",
+      "prompt_en": "Fill in the blank: 'Minji is going to the market too.'",
+      "sentence": "민지 씨___ 시장에 가요.",
+      "answers": [
+        "도"
+      ]
+    },
+    {
+      "id": "b1_u07_l2_e007",
+      "type": "fill_blank",
+      "targets": [
+        "b1_u07_l2_g2",
+        "b1_u07_l2_w015"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Bu qancha?'",
+      "prompt_en": "Fill in the blank: 'How much is this?'",
+      "sentence": "이거 ___예요?",
+      "answers": [
+        "얼마"
+      ]
+    },
+    {
+      "id": "b1_u07_l2_e008",
+      "type": "fill_blank",
+      "targets": [
+        "b1_u07_l2_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'O'n ming von.' (10 000)",
+      "prompt_en": "Fill in the blank: 'Ten thousand won.' (10,000)",
+      "sentence": "___ 원이에요.",
+      "answers": [
+        "만"
+      ]
+    },
+    {
+      "id": "b1_u07_l2_e009",
+      "type": "situation_choice",
+      "targets": [
+        "b1_u07_l2_g2"
+      ],
+      "prompt_uz": "Narxni so'rang:",
+      "prompt_en": "Ask the price:",
+      "options": [
+        "이거 얼마예요?",
+        "이거 뭐예요?",
+        "이거 몇 개예요?",
+        "이거 어때요?"
+      ],
+      "answers": [
+        "이거 얼마예요?"
+      ]
+    },
+    {
+      "id": "b1_u07_l2_e010",
+      "type": "situation_choice",
+      "targets": [
+        "b1_u07_l2_g2"
+      ],
+      "prompt_uz": "Sotuvchi '2 500 von' demoqchi:",
+      "prompt_en": "The clerk wants to say '2,500 won':",
+      "options": [
+        "이천오백 원이에요.",
+        "두천오백 원이에요.",
+        "이천오십 원이에요.",
+        "이백오천 원이에요."
+      ],
+      "answers": [
+        "이천오백 원이에요."
+      ]
+    },
+    {
+      "id": "b1_u07_l2_e011",
+      "type": "situation_choice",
+      "targets": [
+        "b1_u07_l2_w027"
+      ],
+      "prompt_uz": "Bozorda narxni tushirishni so'rang:",
+      "prompt_en": "At the market, ask for a discount:",
+      "options": [
+        "조금만 깎아 주세요.",
+        "조금만 할인이에요.",
+        "조금 얼마예요.",
+        "조금 비싸 주세요."
+      ],
+      "answers": [
+        "조금만 깎아 주세요."
+      ]
+    },
+    {
+      "id": "b1_u07_l2_e012",
+      "type": "find_error",
+      "targets": [
+        "b1_u07_l2_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "저는도 라면을 좋아해요.",
+      "answers": [
+        "저도 라면을 좋아해요"
+      ],
+      "why_uz": "도 은/는 o'rnini oladi: 저도.",
+      "why_en": "도 replaces 은/는: 저도."
+    },
+    {
+      "id": "b1_u07_l2_e013",
+      "type": "find_error",
+      "targets": [
+        "b1_u07_l2_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "과자를도 사요.",
+      "answers": [
+        "과자도 사요"
+      ],
+      "why_uz": "도 을/를 o'rnini oladi: 과자도.",
+      "why_en": "도 replaces 을/를: 과자도."
+    },
+    {
+      "id": "b1_u07_l2_e014",
+      "type": "find_error",
+      "targets": [
+        "b1_u07_l2_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "일천 원이에요.",
+      "answers": [
+        "천 원이에요"
+      ],
+      "why_uz": "1 000 — 천.",
+      "why_en": "1,000 is 천."
+    },
+    {
+      "id": "b1_u07_l2_e015",
+      "type": "translate",
+      "targets": [
+        "b1_u07_l2_g1"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Men ham talabaman.",
+      "source_en": "I'm a student too.",
+      "answers": [
+        "저도 학생이에요"
+      ]
+    },
+    {
+      "id": "b1_u07_l2_e016",
+      "type": "translate",
+      "targets": [
+        "b1_u07_l2_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Hammasi qancha?",
+      "source_en": "How much is it altogether?",
+      "answers": [
+        "전부 얼마예요",
+        "전부 얼마예요?",
+        "모두 얼마예요",
+        "모두 얼마예요?"
+      ]
+    },
+    {
+      "id": "b1_u07_l2_e017",
+      "type": "translate",
+      "targets": [
+        "b1_u07_l2_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Besh ming von.",
+      "source_en": "It's five thousand won.",
+      "answers": [
+        "오천 원이에요",
+        "오천원이에요"
+      ]
+    },
+    {
+      "id": "b1_u07_l2_e018",
+      "type": "build_sentence",
+      "targets": [
+        "b1_u07_l2_g1"
+      ],
+      "prompt_uz": "'Muzqaymoq ham bering' gapini tuzing",
+      "prompt_en": "Build the sentence 'Ice cream too, please'",
+      "tokens": [
+        "주세요",
+        "아이스크림도"
+      ],
+      "answers": [
+        "아이스크림도 주세요"
+      ]
+    },
+    {
+      "id": "b1_u07_l2_e019",
+      "type": "build_sentence",
+      "targets": [
+        "b1_u07_l2_g2"
+      ],
+      "prompt_uz": "'Ramyon yetti yuz von' gapini tuzing",
+      "prompt_en": "Build the sentence 'The ramyeon is seven hundred won'",
+      "tokens": [
+        "원이에요",
+        "칠백",
+        "라면은"
+      ],
+      "answers": [
+        "라면은 칠백 원이에요"
+      ]
+    },
+    {
+      "id": "b1_u07_l2_e020",
+      "type": "build_sentence",
+      "targets": [
+        "b1_u07_l2_g1",
+        "b1_u07_l2_g2"
+      ],
+      "prompt_uz": "'Shampun ham sakkiz ming von' gapini tuzing",
+      "prompt_en": "Build the sentence 'The shampoo is also eight thousand won'",
+      "tokens": [
+        "샴푸도",
+        "원이에요",
+        "팔천"
+      ],
+      "answers": [
+        "샴푸도 팔천 원이에요"
+      ]
+    },
+    {
+      "id": "b1_u07_l2_e021",
+      "type": "listen_question",
+      "targets": [
+        "b1_u07_l2_g2"
+      ],
+      "prompt_uz": "Narx qancha?",
+      "prompt_en": "What's the price?",
+      "audio_text": "사천 원이에요.",
+      "options": [
+        "4 000 von",
+        "400 von",
+        "40 000 von",
+        "14 000 von"
+      ],
+      "options_en": [
+        "4,000 won",
+        "400 won",
+        "40,000 won",
+        "14,000 won"
+      ],
+      "answers": [
+        "4 000 von"
+      ],
+      "audio": "46ba98f1045e.mp3"
+    },
+    {
+      "id": "b1_u07_l2_e022",
+      "type": "listen_question",
+      "targets": [
+        "b1_u07_l2_g2"
+      ],
+      "prompt_uz": "Hammasi qancha?",
+      "prompt_en": "How much altogether?",
+      "audio_text": "전부 만 이천 원이에요.",
+      "options": [
+        "12 000 von",
+        "2 000 von",
+        "10 200 von",
+        "20 000 von"
+      ],
+      "options_en": [
+        "12,000 won",
+        "2,000 won",
+        "10,200 won",
+        "20,000 won"
+      ],
+      "answers": [
+        "12 000 von"
+      ],
+      "audio": "7b02543e2cb5.mp3"
+    },
+    {
+      "id": "b1_u07_l2_e023",
+      "type": "listen_question",
+      "targets": [
+        "b1_u07_l2_g1"
+      ],
+      "prompt_uz": "U yana nima oladi?",
+      "prompt_en": "What else is the speaker buying?",
+      "audio_text": "쌀하고 라면을 사요. 과자도 사요.",
+      "options": [
+        "Pechenye",
+        "Shampun",
+        "Muzqaymoq",
+        "Sut"
+      ],
+      "options_en": [
+        "Snacks",
+        "Shampoo",
+        "Ice cream",
+        "Milk"
+      ],
+      "answers": [
+        "Pechenye"
+      ],
+      "audio": "dabd25862229.mp3"
+    },
+    {
+      "id": "b1_u07_l2_e024",
+      "type": "listen_question",
+      "targets": [
+        "b1_u07_l2_g2"
+      ],
+      "prompt_uz": "Shampun qancha?",
+      "prompt_en": "How much is the shampoo?",
+      "audio_text": "샴푸는 칠천오백 원이에요.",
+      "options": [
+        "7 500 von",
+        "7 050 von",
+        "75 000 von",
+        "5 700 von"
+      ],
+      "options_en": [
+        "7,500 won",
+        "7,050 won",
+        "75,000 won",
+        "5,700 won"
+      ],
+      "answers": [
+        "7 500 von"
+      ],
+      "audio": "9c1c5301babe.mp3"
+    },
+    {
+      "id": "b1_u07_l2_e101",
+      "type": "conjugate",
+      "targets": [
+        "b1_u07_l2_g1"
+      ],
+      "prompt_uz": "'Shampun ham' shaklini yasang",
+      "prompt_en": "Make 'shampoo too'",
+      "base": "샴푸",
+      "form": "-도",
+      "answers": [
+        "샴푸도"
+      ]
+    },
+    {
+      "id": "b1_u07_l2_e102",
+      "type": "conjugate",
+      "targets": [
+        "b1_u07_l2_g2"
+      ],
+      "prompt_uz": "800 vonni koreyscha yozing",
+      "prompt_en": "Write 800 won in Korean",
+      "base": "800",
+      "form": "+ 원",
+      "answers": [
+        "팔백 원",
+        "팔백원"
+      ]
+    },
+    {
+      "id": "b1_u07_l2_e103",
+      "type": "conjugate",
+      "targets": [
+        "b1_u07_l2_g2"
+      ],
+      "prompt_uz": "20 000 vonni koreyscha yozing",
+      "prompt_en": "Write 20,000 won in Korean",
+      "base": "20,000",
+      "form": "+ 원",
+      "answers": [
+        "이만 원",
+        "이만원"
+      ]
+    },
+    {
+      "id": "b1_u07_l2_e104",
+      "type": "fill_blank",
+      "targets": [
+        "b1_u07_l2_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Paket ham bering.'",
+      "prompt_en": "Fill in the blank: 'A bag too, please.'",
+      "sentence": "봉투___ 주세요.",
+      "answers": [
+        "도"
+      ]
+    },
+    {
+      "id": "b1_u07_l2_e105",
+      "type": "fill_blank",
+      "targets": [
+        "b1_u07_l2_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Ming von.' (1 000)",
+      "prompt_en": "Fill in the blank: 'A thousand won.' (1,000)",
+      "sentence": "___ 원이에요.",
+      "answers": [
+        "천"
+      ]
+    },
+    {
+      "id": "b1_u07_l2_e106",
+      "type": "situation_choice",
+      "targets": [
+        "b1_u07_l2_g2"
+      ],
+      "prompt_uz": "Sotuvchi '6 000 von' demoqchi:",
+      "prompt_en": "The clerk wants to say '6,000 won':",
+      "options": [
+        "육천 원이에요.",
+        "여섯천 원이에요.",
+        "육백 원이에요.",
+        "육만 원이에요."
+      ],
+      "answers": [
+        "육천 원이에요."
+      ]
+    },
+    {
+      "id": "b1_u07_l2_e107",
+      "type": "situation_choice",
+      "targets": [
+        "b1_u07_l2_g1"
+      ],
+      "prompt_uz": "Do'stingiz 'Men koreysman' dedi. Siz ham koreyssiz:",
+      "prompt_en": "Your friend says 'I'm Korean'. So are you:",
+      "options": [
+        "저도 한국 사람이에요.",
+        "저는도 한국 사람이에요.",
+        "저도는 한국 사람이에요.",
+        "저가도 한국 사람이에요."
+      ],
+      "answers": [
+        "저도 한국 사람이에요."
+      ]
+    },
+    {
+      "id": "b1_u07_l2_e108",
+      "type": "situation_choice",
+      "targets": [
+        "b1_u07_l2_w024"
+      ],
+      "prompt_uz": "To'lagandan keyin chek so'rang:",
+      "prompt_en": "After paying, ask for the receipt:",
+      "options": [
+        "영수증 주세요.",
+        "잔돈 주세요.",
+        "할인 주세요.",
+        "현금 주세요."
+      ],
+      "answers": [
+        "영수증 주세요."
+      ]
+    },
+    {
+      "id": "b1_u07_l2_e109",
+      "type": "find_error",
+      "targets": [
+        "b1_u07_l2_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "샴푸가도 주세요.",
+      "answers": [
+        "샴푸도 주세요"
+      ],
+      "why_uz": "도 이/가 o'rnini oladi.",
+      "why_en": "도 replaces 이/가."
+    },
+    {
+      "id": "b1_u07_l2_e110",
+      "type": "find_error",
+      "targets": [
+        "b1_u07_l2_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "오십천 원이에요.",
+      "answers": [
+        "오만 원이에요"
+      ],
+      "why_uz": "50 000 = 오만.",
+      "why_en": "50,000 = 오만."
+    },
+    {
+      "id": "b1_u07_l2_e111",
+      "type": "translate",
+      "targets": [
+        "b1_u07_l2_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Bu qancha turadi?",
+      "source_en": "How much is this?",
+      "answers": [
+        "이거 얼마예요",
+        "이거 얼마예요?",
+        "이건 얼마예요?"
+      ]
+    },
+    {
+      "id": "b1_u07_l2_e112",
+      "type": "translate",
+      "targets": [
+        "b1_u07_l2_g1"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Ramyon ham olaman.",
+      "source_en": "I'm buying ramyeon too.",
+      "answers": [
+        "라면도 사요",
+        "저는 라면도 사요"
+      ]
+    },
+    {
+      "id": "b1_u07_l2_e113",
+      "type": "build_sentence",
+      "targets": [
+        "b1_u07_l2_g2"
+      ],
+      "prompt_uz": "'Hammasi o'n besh ming von' gapini tuzing",
+      "prompt_en": "Build the sentence 'That's fifteen thousand won altogether'",
+      "tokens": [
+        "전부",
+        "오천",
+        "만",
+        "원이에요"
+      ],
+      "answers": [
+        "전부 만 오천 원이에요"
+      ]
+    },
+    {
+      "id": "b1_u07_l2_e114",
+      "type": "listen_question",
+      "targets": [
+        "b1_u07_l2_g2"
+      ],
+      "prompt_uz": "Narx qancha?",
+      "prompt_en": "What's the price?",
+      "audio_text": "구백 원이에요.",
+      "options": [
+        "900 von",
+        "9 000 von",
+        "90 von",
+        "190 von"
+      ],
+      "options_en": [
+        "900 won",
+        "9,000 won",
+        "90 won",
+        "190 won"
+      ],
+      "answers": [
+        "900 von"
+      ],
+      "audio": "65d100940679.mp3"
+    },
+    {
+      "id": "b1_u07_l2_e115",
+      "type": "listen_question",
+      "targets": [
+        "b1_u07_l2_g1"
+      ],
+      "prompt_uz": "Kim ham bozorga boradi?",
+      "prompt_en": "Who is also going to the market?",
+      "audio_text": "저도 시장에 가요. 팅팅 씨도 가요.",
+      "options": [
+        "Gapiruvchi va Tingting",
+        "Faqat Tingting",
+        "Faqat gapiruvchi",
+        "Hech kim"
+      ],
+      "options_en": [
+        "The speaker and Tingting",
+        "Only Tingting",
+        "Only the speaker",
+        "Nobody"
+      ],
+      "answers": [
+        "Gapiruvchi va Tingting"
+      ],
+      "audio": "38d55da6389e.mp3"
+    }
+  ],
+  "test": [
+    "b1_u07_l2_e101",
+    "b1_u07_l2_e102",
+    "b1_u07_l2_e103",
+    "b1_u07_l2_e104",
+    "b1_u07_l2_e105",
+    "b1_u07_l2_e106",
+    "b1_u07_l2_e107",
+    "b1_u07_l2_e108",
+    "b1_u07_l2_e109",
+    "b1_u07_l2_e110",
+    "b1_u07_l2_e111",
+    "b1_u07_l2_e112",
+    "b1_u07_l2_e113",
+    "b1_u07_l2_e114",
+    "b1_u07_l2_e115"
+  ],
+  "story": {
+    "title_uz": "Supermarketda",
+    "title_en": "At the supermarket",
+    "gate_uz": "MARKET",
+    "gate_en": "MART",
+    "steps": [
+      {
+        "type": "line",
+        "speaker": "clerk",
+        "ko": "어서 오세요.",
+        "uz": "Xush kelibsiz.",
+        "en": "Welcome.",
+        "audio": "99c4fad363d8.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "저기요, 이 라면 얼마예요?",
+        "uz": "Kechirasiz, bu ramyon qancha?",
+        "en": "Excuse me, how much is this ramyeon?",
+        "audio": "6cdfcc115a03.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "clerk",
+        "ko": "칠백 원이에요. 오늘 할인해요.",
+        "uz": "Yetti yuz von. Bugun chegirma.",
+        "en": "Seven hundred won. It's on sale today.",
+        "audio": "7f2abadf041c.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "와, 싸요! 다섯 개 주세요.",
+        "uz": "Voy, arzon! Beshta bering.",
+        "en": "Wow, cheap! Five, please.",
+        "audio": "2dabbeede72a.mp3"
+      },
+      {
+        "type": "choose_reply",
+        "speaker": "aziz",
+        "prompt_uz": "Aziz 'Shampun ham bormi?' deb so'ramoqchi.",
+        "prompt_en": "Aziz wants to ask 'Do you have shampoo too?'.",
+        "options": [
+          "샴푸도 있어요?",
+          "샴푸가도 있어요?",
+          "샴푸를도 있어요?"
+        ],
+        "answer": "샴푸도 있어요?",
+        "uz": "Shampun ham bormi?",
+        "en": "Do you have shampoo too?",
+        "why_uz": "도 이/가 o'rnini oladi: 샴푸도.",
+        "why_en": "도 replaces 이/가: 샴푸도.",
+        "audio": "568c700c10c6.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "clerk",
+        "ko": "네, 저기 있어요. 팔천 원이에요.",
+        "uz": "Ha, anavi yerda. Sakkiz ming von.",
+        "en": "Yes, over there. Eight thousand won.",
+        "audio": "58472715cc71.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "조금 비싸요. 조금만 깎아 주세요.",
+        "uz": "Bir oz qimmat. Ozgina arzonlashtiring.",
+        "en": "It's a bit expensive. Could you give me a small discount?",
+        "audio": "b856366c8e2e.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "clerk",
+        "ko": "하하, 여기는 마트예요. 시장이 아니에요.",
+        "uz": "Haha, bu supermarket. Bozor emas.",
+        "en": "Haha, this is a supermarket. Not a market.",
+        "audio": "ddaabaa452c0.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "아, 죄송해요. 그럼 샴푸도 하나 주세요.",
+        "uz": "A, kechirasiz. Unda bitta shampun ham bering.",
+        "en": "Oh, sorry. Then one shampoo too, please.",
+        "audio": "f4d9d87d570e.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "clerk",
+        "ko": "전부 만 천오백 원이에요.",
+        "uz": "Hammasi o'n bir ming besh yuz von.",
+        "en": "That's eleven thousand five hundred won altogether.",
+        "audio": "c1bb0233ab8c.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "여기 만 오천 원이요.",
+        "uz": "Mana o'n besh ming von.",
+        "en": "Here's fifteen thousand won.",
+        "audio": "8de551d1de04.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "clerk",
+        "ko": "잔돈 삼천오백 원이에요. 감사합니다!",
+        "uz": "Qaytim uch ming besh yuz von. Rahmat!",
+        "en": "Your change is three thousand five hundred won. Thank you!",
+        "audio": "7858eba72c2c.mp3"
+      },
+      {
+        "type": "quiz",
+        "prompt_uz": "Aziz qancha qaytim oldi?",
+        "prompt_en": "How much change did Aziz get?",
+        "options": [
+          "3 500 von",
+          "1 500 von",
+          "5 300 von"
+        ],
+        "options_en": [
+          "3,500 won",
+          "1,500 won",
+          "5,300 won"
+        ],
+        "answer": "3 500 von",
+        "why_uz": "잔돈 삼천오백 원이에요.",
+        "why_en": "잔돈 삼천오백 원 — 3,500 won change."
+      }
+    ]
+  }
+}

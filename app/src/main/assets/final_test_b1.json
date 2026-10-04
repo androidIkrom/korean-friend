@@ -1,0 +1,831 @@
+{
+  "listening": [
+    {
+      "id": "final_b1_l01",
+      "type": "listen_question",
+      "targets": [],
+      "prompt_uz": "Ayol qaysi mamlakatdan?",
+      "prompt_en": "Where is the woman from?",
+      "answers": [
+        "Xitoy"
+      ],
+      "options": [
+        "Xitoy",
+        "Yaponiya",
+        "Koreya",
+        "Vyetnam"
+      ],
+      "options_en": [
+        "China",
+        "Japan",
+        "Korea",
+        "Vietnam"
+      ],
+      "audio_text": "어느 나라 사람이에요? 저는 중국 사람이에요.",
+      "audio_dialogue": [
+        "어느 나라 사람이에요?",
+        "저는 중국 사람이에요."
+      ],
+      "why_uz": "중국 = Xitoy.",
+      "why_en": "중국 = China.",
+      "audio": "ab719df6089a.mp3"
+    },
+    {
+      "id": "final_b1_l02",
+      "type": "listen_question",
+      "targets": [],
+      "prompt_uz": "Erkakning kasbi nima?",
+      "prompt_en": "What is the man's job?",
+      "answers": [
+        "Oshpaz"
+      ],
+      "options": [
+        "Talaba",
+        "Oshpaz",
+        "Shifokor",
+        "O'qituvchi"
+      ],
+      "options_en": [
+        "Student",
+        "Cook",
+        "Doctor",
+        "Teacher"
+      ],
+      "audio_text": "학생이에요? 아니요, 학생이 아니에요. 요리사예요.",
+      "audio_dialogue": [
+        "학생이에요?",
+        "아니요, 학생이 아니에요. 요리사예요."
+      ],
+      "why_uz": "학생이 아니에요 = talaba emas; 요리사 = oshpaz.",
+      "why_en": "학생이 아니에요 = not a student; 요리사 = cook.",
+      "audio": "d0095fcc766c.mp3"
+    },
+    {
+      "id": "final_b1_l03",
+      "type": "listen_question",
+      "targets": [],
+      "prompt_uz": "Soyabon kimniki?",
+      "prompt_en": "Whose umbrella is it?",
+      "answers": [
+        "Minjiniki"
+      ],
+      "options": [
+        "Minjiniki",
+        "Tingtingniki",
+        "O'qituvchiniki",
+        "Azizniki"
+      ],
+      "options_en": [
+        "Minji's",
+        "Tingting's",
+        "The teacher's",
+        "Aziz's"
+      ],
+      "audio_text": "이 우산은 아지즈 씨 거예요? 아니요, 민지 씨 거예요.",
+      "audio_dialogue": [
+        "이 우산은 아지즈 씨 거예요?",
+        "아니요, 민지 씨 거예요."
+      ],
+      "why_uz": "민지 씨 거예요 = Minjiniki.",
+      "why_en": "민지 씨 거예요 = it's Minji's.",
+      "audio": "4ee20c8c4d95.mp3"
+    },
+    {
+      "id": "final_b1_l04",
+      "type": "listen_question",
+      "targets": [],
+      "prompt_uz": "Ayolda nima yo'q?",
+      "prompt_en": "What doesn't the woman have?",
+      "answers": [
+        "Salfetka"
+      ],
+      "options": [
+        "Soyabon",
+        "Telefon",
+        "Salfetka",
+        "Nam salfetka"
+      ],
+      "options_en": [
+        "An umbrella",
+        "A phone",
+        "Tissues",
+        "Wet wipes"
+      ],
+      "audio_text": "휴지 있어요? 휴지는 없어요. 물티슈는 있어요.",
+      "audio_dialogue": [
+        "휴지 있어요?",
+        "휴지는 없어요. 물티슈는 있어요."
+      ],
+      "why_uz": "휴지는 없어요 = salfetka yo'q.",
+      "why_en": "휴지는 없어요 = no tissues.",
+      "audio": "cd135360c3af.mp3"
+    },
+    {
+      "id": "final_b1_l05",
+      "type": "listen_question",
+      "targets": [],
+      "prompt_uz": "Erkak nima buyurtma qildi?",
+      "prompt_en": "What did the man order?",
+      "answers": [
+        "2 ta qahva"
+      ],
+      "options": [
+        "1 ta qahva",
+        "1 ta choy",
+        "2 ta qahva",
+        "2 ta sharbat"
+      ],
+      "options_en": [
+        "One coffee",
+        "One tea",
+        "Two coffees",
+        "Two juices"
+      ],
+      "audio_text": "뭐 드릴까요? 커피 두 잔 주세요.",
+      "audio_dialogue": [
+        "뭐 드릴까요?",
+        "커피 두 잔 주세요."
+      ],
+      "why_uz": "커피 두 잔 = ikki chashka qahva.",
+      "why_en": "커피 두 잔 = two cups of coffee.",
+      "audio": "46a1685e6a47.mp3"
+    },
+    {
+      "id": "final_b1_l06",
+      "type": "listen_question",
+      "targets": [],
+      "prompt_uz": "Ular nima buyurtma qildi?",
+      "prompt_en": "What did they order?",
+      "answers": [
+        "Pibimbap va kola"
+      ],
+      "options": [
+        "Pibimbap va suv",
+        "Ramyon va suv",
+        "Kimbap va kola",
+        "Pibimbap va kola"
+      ],
+      "options_en": [
+        "Bibimbap and water",
+        "Ramyeon and water",
+        "Gimbap and cola",
+        "Bibimbap and cola"
+      ],
+      "audio_text": "주문하시겠어요? 비빔밥 하나하고 콜라 한 병 주세요.",
+      "audio_dialogue": [
+        "주문하시겠어요?",
+        "비빔밥 하나하고 콜라 한 병 주세요."
+      ],
+      "why_uz": "비빔밥하고 콜라 = pibimbap va kola.",
+      "why_en": "비빔밥하고 콜라 = bibimbap and cola.",
+      "audio": "915f1ef11a23.mp3"
+    },
+    {
+      "id": "final_b1_l07",
+      "type": "listen_question",
+      "targets": [],
+      "prompt_uz": "Ayol hozir nima qilyapti?",
+      "prompt_en": "What is the woman doing now?",
+      "answers": [
+        "Kitob o'qiyapti"
+      ],
+      "options": [
+        "Kino ko'ryapti",
+        "Kitob o'qiyapti",
+        "Ovqat pishiryapti",
+        "Uxlayapti"
+      ],
+      "options_en": [
+        "Watching a film",
+        "Reading a book",
+        "Cooking",
+        "Sleeping"
+      ],
+      "audio_text": "지금 뭐 해요? 도서관에서 책을 읽어요.",
+      "audio_dialogue": [
+        "지금 뭐 해요?",
+        "도서관에서 책을 읽어요."
+      ],
+      "why_uz": "책을 읽어요 = kitob o'qiyapti.",
+      "why_en": "책을 읽어요 = reading a book.",
+      "audio": "6e9a14987a08.mp3"
+    },
+    {
+      "id": "final_b1_l08",
+      "type": "listen_question",
+      "targets": [],
+      "prompt_uz": "Erkak qayerga ketyapti?",
+      "prompt_en": "Where is the man going?",
+      "answers": [
+        "Pochtaga"
+      ],
+      "options": [
+        "Bankka",
+        "Kasalxonaga",
+        "Bozorga",
+        "Pochtaga"
+      ],
+      "options_en": [
+        "The bank",
+        "The hospital",
+        "The market",
+        "The post office"
+      ],
+      "audio_text": "어디에 가요? 우체국에 가요. 소포를 보내요.",
+      "audio_dialogue": [
+        "어디에 가요?",
+        "우체국에 가요. 소포를 보내요."
+      ],
+      "why_uz": "우체국 = pochta.",
+      "why_en": "우체국 = post office.",
+      "audio": "c4fe19bafa55.mp3"
+    },
+    {
+      "id": "final_b1_l09",
+      "type": "listen_question",
+      "targets": [],
+      "prompt_uz": "Bugun nima arzon?",
+      "prompt_en": "What is cheap today?",
+      "answers": [
+        "Qulupnay"
+      ],
+      "options": [
+        "Tarvuz",
+        "Go'sht",
+        "Baliq",
+        "Qulupnay"
+      ],
+      "options_en": [
+        "Watermelon",
+        "Meat",
+        "Fish",
+        "Strawberries"
+      ],
+      "audio_text": "뭐가 싸요? 오늘은 딸기가 싸요. 아주 달아요.",
+      "audio_dialogue": [
+        "뭐가 싸요?",
+        "오늘은 딸기가 싸요. 아주 달아요."
+      ],
+      "why_uz": "딸기가 싸요 = qulupnay arzon.",
+      "why_en": "딸기가 싸요 = strawberries are cheap.",
+      "audio": "fd1c42f5147e.mp3"
+    },
+    {
+      "id": "final_b1_l10",
+      "type": "listen_question",
+      "targets": [],
+      "prompt_uz": "Hammasi qancha?",
+      "prompt_en": "How much is it altogether?",
+      "answers": [
+        "8 500 von"
+      ],
+      "options": [
+        "18 500 von",
+        "8 500 von",
+        "850 von",
+        "5 800 von"
+      ],
+      "options_en": [
+        "18,500 won",
+        "8,500 won",
+        "850 won",
+        "5,800 won"
+      ],
+      "audio_text": "전부 얼마예요? 팔천오백 원이에요.",
+      "audio_dialogue": [
+        "전부 얼마예요?",
+        "팔천오백 원이에요."
+      ],
+      "why_uz": "팔천오백 = 8 500.",
+      "why_en": "팔천오백 = 8,500.",
+      "audio": "2ed845dfd69e.mp3"
+    },
+    {
+      "id": "final_b1_l11",
+      "type": "listen_question",
+      "targets": [],
+      "prompt_uz": "Dars soat nechada boshlanadi?",
+      "prompt_en": "What time does class start?",
+      "answers": [
+        "9:00"
+      ],
+      "options": [
+        "9:00",
+        "9:30",
+        "10:00",
+        "8:00"
+      ],
+      "options_en": [
+        "9:00",
+        "9:30",
+        "10:00",
+        "8:00"
+      ],
+      "audio_text": "수업이 몇 시에 시작해요? 아홉 시에 시작해요.",
+      "audio_dialogue": [
+        "수업이 몇 시에 시작해요?",
+        "아홉 시에 시작해요."
+      ],
+      "why_uz": "아홉 시 = soat 9.",
+      "why_en": "아홉 시 = nine o'clock.",
+      "audio": "223782d2e701.mp3"
+    },
+    {
+      "id": "final_b1_l12",
+      "type": "listen_question",
+      "targets": [],
+      "prompt_uz": "Imtihon qachon?",
+      "prompt_en": "When is the exam?",
+      "answers": [
+        "Dushanbadan chorshanbagacha"
+      ],
+      "options": [
+        "Keyingi oy",
+        "Dushanbadan chorshanbagacha",
+        "Faqat juma",
+        "Seshanbadan payshanbagacha"
+      ],
+      "options_en": [
+        "Next month",
+        "Monday to Wednesday",
+        "Only Friday",
+        "Tuesday to Thursday"
+      ],
+      "audio_text": "시험이 언제예요? 월요일부터 수요일까지예요.",
+      "audio_dialogue": [
+        "시험이 언제예요?",
+        "월요일부터 수요일까지예요."
+      ],
+      "why_uz": "월요일부터 수요일까지 = dushanbadan chorshanbagacha.",
+      "why_en": "월요일부터 수요일까지 = Monday to Wednesday.",
+      "audio": "315ef788b1e3.mp3"
+    },
+    {
+      "id": "final_b1_l13",
+      "type": "listen_question",
+      "targets": [],
+      "prompt_uz": "Erkak kecha nima qildi?",
+      "prompt_en": "What did the man do yesterday?",
+      "answers": [
+        "Do'sti bilan kino ko'rdi"
+      ],
+      "options": [
+        "Toqqa chiqdi",
+        "Do'sti bilan kino ko'rdi",
+        "Uyda dam oldi",
+        "Ishladi"
+      ],
+      "options_en": [
+        "Went hiking",
+        "Watched a film with a friend",
+        "Rested at home",
+        "Worked"
+      ],
+      "audio_text": "어제 뭐 했어요? 친구하고 영화를 봤어요.",
+      "audio_dialogue": [
+        "어제 뭐 했어요?",
+        "친구하고 영화를 봤어요."
+      ],
+      "why_uz": "영화를 봤어요 = kino ko'rdi.",
+      "why_en": "영화를 봤어요 = watched a film.",
+      "audio": "79d4b84a50d0.mp3"
+    },
+    {
+      "id": "final_b1_l14",
+      "type": "listen_question",
+      "targets": [],
+      "prompt_uz": "Ular nima qiladi?",
+      "prompt_en": "What will they do?",
+      "answers": [
+        "Kafega boradi"
+      ],
+      "options": [
+        "Uyda qoladi",
+        "Parkda sayr qiladi",
+        "Toqqa chiqadi",
+        "Kafega boradi"
+      ],
+      "options_en": [
+        "Stay home",
+        "Walk in the park",
+        "Go hiking",
+        "Go to a café"
+      ],
+      "audio_text": "오늘 너무 추워요. 카페에 갈까요? 네, 좋아요. 따뜻한 차를 마셔요.",
+      "audio_dialogue": [
+        "오늘 너무 추워요. 카페에 갈까요?",
+        "네, 좋아요. 따뜻한 차를 마셔요."
+      ],
+      "why_uz": "카페에 갈까요? — 네, 좋아요.",
+      "why_en": "카페에 갈까요? — 네, 좋아요: they'll go to a café.",
+      "audio": "767f22960df2.mp3"
+    },
+    {
+      "id": "final_b1_l15",
+      "type": "listen_question",
+      "targets": [],
+      "prompt_uz": "Hojatxona qayerda?",
+      "prompt_en": "Where is the toilet?",
+      "answers": [
+        "Ikkinchi qavatda"
+      ],
+      "options": [
+        "Birinchi qavatda",
+        "Ikkinchi qavatda",
+        "Tashqarida",
+        "Yer ostida"
+      ],
+      "options_en": [
+        "On the first floor",
+        "On the second floor",
+        "Outside",
+        "In the basement"
+      ],
+      "audio_text": "실례합니다. 화장실이 어디에 있어요? 이 층에 있어요. 계단으로 올라가세요.",
+      "audio_dialogue": [
+        "실례합니다. 화장실이 어디에 있어요?",
+        "이 층에 있어요. 계단으로 올라가세요."
+      ],
+      "why_uz": "이 층 = ikkinchi qavat.",
+      "why_en": "이 층 = the second floor.",
+      "audio": "1e549450bda3.mp3"
+    }
+  ],
+  "reading": [
+    {
+      "id": "final_b1_r01",
+      "type": "read_choice",
+      "targets": [],
+      "prompt_uz": "Bu odam kim?",
+      "prompt_en": "Who is this person?",
+      "answers": [
+        "Talaba"
+      ],
+      "options": [
+        "Bank xodimi",
+        "Talaba",
+        "O'qituvchi",
+        "Shifokor"
+      ],
+      "options_en": [
+        "A bank clerk",
+        "A student",
+        "A teacher",
+        "A doctor"
+      ],
+      "sentence": "안녕하세요? 저는 아지즈예요. 우즈베키스탄 사람이에요. 서울대학교 학생이에요.",
+      "why_uz": "학생이에요 = talabaman.",
+      "why_en": "학생이에요 = I'm a student."
+    },
+    {
+      "id": "final_b1_r02",
+      "type": "read_choice",
+      "targets": [],
+      "prompt_uz": "Minjining kasbi nima?",
+      "prompt_en": "What is Minji's job?",
+      "answers": [
+        "Universitet talabasi"
+      ],
+      "options": [
+        "Kompaniya xodimi",
+        "Oshpaz",
+        "Universitet talabasi",
+        "Dizayner"
+      ],
+      "options_en": [
+        "Office worker",
+        "Cook",
+        "University student",
+        "Designer"
+      ],
+      "sentence": "팅팅 씨는 디자이너예요. 회사원이에요. 민지 씨는 회사원이 아니에요. 대학생이에요.",
+      "why_uz": "민지 씨는 … 대학생이에요.",
+      "why_en": "민지 씨는 … 대학생이에요 — she's a university student."
+    },
+    {
+      "id": "final_b1_r03",
+      "type": "read_choice",
+      "targets": [],
+      "prompt_uz": "Sumka ichida nima yo'q?",
+      "prompt_en": "What is NOT in the bag?",
+      "answers": [
+        "Soyabon"
+      ],
+      "options": [
+        "Hamyon",
+        "Telefon",
+        "Kitob",
+        "Soyabon"
+      ],
+      "options_en": [
+        "A wallet",
+        "A phone",
+        "A book",
+        "An umbrella"
+      ],
+      "sentence": "제 가방 안에 책하고 지갑이 있어요. 휴대폰도 있어요. 그런데 우산이 없어요.",
+      "why_uz": "우산이 없어요 = soyabon yo'q.",
+      "why_en": "우산이 없어요 = there's no umbrella."
+    },
+    {
+      "id": "final_b1_r04",
+      "type": "read_choice",
+      "targets": [],
+      "prompt_uz": "Bu yerda nima sotiladi?",
+      "prompt_en": "What does this place sell?",
+      "answers": [
+        "Ichimliklar"
+      ],
+      "options": [
+        "Dori",
+        "Ichimliklar",
+        "Kiyim",
+        "Kitoblar"
+      ],
+      "options_en": [
+        "Medicine",
+        "Drinks",
+        "Clothes",
+        "Books"
+      ],
+      "sentence": "[메뉴]\n커피 3,000원\n녹차 3,500원\n오렌지 주스 4,000원",
+      "why_uz": "커피, 녹차, 주스 — ichimliklar.",
+      "why_en": "Coffee, green tea, juice — drinks."
+    },
+    {
+      "id": "final_b1_r05",
+      "type": "read_choice",
+      "targets": [],
+      "prompt_uz": "Apelsin sharbati qancha?",
+      "prompt_en": "How much is the orange juice?",
+      "answers": [
+        "4 000 von"
+      ],
+      "options": [
+        "3 000 von",
+        "400 von",
+        "3 500 von",
+        "4 000 von"
+      ],
+      "options_en": [
+        "3,000 won",
+        "400 won",
+        "3,500 won",
+        "4,000 won"
+      ],
+      "sentence": "[메뉴]\n커피 3,000원\n녹차 3,500원\n오렌지 주스 4,000원",
+      "why_uz": "오렌지 주스 4,000원.",
+      "why_en": "Orange juice is 4,000 won."
+    },
+    {
+      "id": "final_b1_r06",
+      "type": "read_choice",
+      "targets": [],
+      "prompt_uz": "Aziz har kuni ertalab nima qiladi?",
+      "prompt_en": "What does Aziz do every morning?",
+      "answers": [
+        "Sport qiladi"
+      ],
+      "options": [
+        "Uxlaydi",
+        "Ishga boradi",
+        "Sport qiladi",
+        "Kino ko'radi"
+      ],
+      "options_en": [
+        "Sleeps",
+        "Goes to work",
+        "Exercises",
+        "Watches a film"
+      ],
+      "sentence": "저는 매일 일곱 시에 일어나요. 그리고 공원에서 운동해요. 아홉 시에 학교에 가요.",
+      "why_uz": "공원에서 운동해요 = parkda sport qiladi.",
+      "why_en": "공원에서 운동해요 = exercises in the park."
+    },
+    {
+      "id": "final_b1_r07",
+      "type": "read_choice",
+      "targets": [],
+      "prompt_uz": "Minji kutubxonada nima qiladi?",
+      "prompt_en": "What does Minji do at the library?",
+      "answers": [
+        "O'qiydi (dars qiladi)"
+      ],
+      "options": [
+        "O'qiydi (dars qiladi)",
+        "Ovqatlanadi",
+        "Ishlaydi",
+        "Uxlaydi"
+      ],
+      "options_en": [
+        "Studies",
+        "Eats",
+        "Works",
+        "Sleeps"
+      ],
+      "sentence": "민지 씨는 오후에 도서관에 가요. 도서관에서 공부해요. 저녁에는 집에서 쉬어요.",
+      "why_uz": "도서관에서 공부해요.",
+      "why_en": "도서관에서 공부해요 — she studies there."
+    },
+    {
+      "id": "final_b1_r08",
+      "type": "read_choice",
+      "targets": [],
+      "prompt_uz": "Bozorda nima qimmat?",
+      "prompt_en": "What is expensive at the market?",
+      "answers": [
+        "Go'sht"
+      ],
+      "options": [
+        "Qulupnay",
+        "Mandarin",
+        "Go'sht",
+        "Sabzavot"
+      ],
+      "options_en": [
+        "Strawberries",
+        "Tangerines",
+        "Meat",
+        "Vegetables"
+      ],
+      "sentence": "오늘 시장에 갔어요. 딸기가 싸고 맛있었어요. 귤도 쌌어요. 그런데 고기는 비쌌어요.",
+      "why_uz": "고기는 비쌌어요 = go'sht qimmat edi.",
+      "why_en": "고기는 비쌌어요 = the meat was expensive."
+    },
+    {
+      "id": "final_b1_r09",
+      "type": "read_choice",
+      "targets": [],
+      "prompt_uz": "Supermarket soat nechagacha ishlaydi?",
+      "prompt_en": "Until what time is the supermarket open?",
+      "answers": [
+        "Kechki 10 gacha"
+      ],
+      "options": [
+        "Tunda 12 gacha",
+        "Kechki 10 gacha",
+        "Ertalab 9 gacha",
+        "Kechki 9 gacha"
+      ],
+      "options_en": [
+        "Until midnight",
+        "Until 10 p.m.",
+        "Until 9 a.m.",
+        "Until 9 p.m."
+      ],
+      "sentence": "[안내]\n영업시간: 오전 9시부터 오후 10시까지\n매주 일요일은 쉽니다.",
+      "why_uz": "오후 10시까지 = kechki soat 10 gacha.",
+      "why_en": "오후 10시까지 = until 10 p.m."
+    },
+    {
+      "id": "final_b1_r10",
+      "type": "read_choice",
+      "targets": [],
+      "prompt_uz": "Supermarket qaysi kuni yopiq?",
+      "prompt_en": "Which day is the supermarket closed?",
+      "answers": [
+        "Yakshanba"
+      ],
+      "options": [
+        "Juma",
+        "Yakshanba",
+        "Shanba",
+        "Dushanba"
+      ],
+      "options_en": [
+        "Friday",
+        "Sunday",
+        "Saturday",
+        "Monday"
+      ],
+      "sentence": "[안내]\n영업시간: 오전 9시부터 오후 10시까지\n매주 일요일은 쉽니다.",
+      "why_uz": "일요일은 쉽니다 = yakshanba dam olinadi.",
+      "why_en": "일요일은 쉽니다 = closed on Sundays."
+    },
+    {
+      "id": "final_b1_r11",
+      "type": "read_choice",
+      "targets": [],
+      "prompt_uz": "Festival qachon?",
+      "prompt_en": "When is the festival?",
+      "answers": [
+        "17-dan 19-oktabrgacha"
+      ],
+      "options": [
+        "13-dan 15-oktabrgacha",
+        "9-oktabr",
+        "17-dan 19-oktabrgacha",
+        "Keyingi yil"
+      ],
+      "options_en": [
+        "October 13th to 15th",
+        "October 9th",
+        "October 17th to 19th",
+        "Next year"
+      ],
+      "sentence": "학교 축제는 시월 십칠 일부터 십구 일까지예요. 시험은 십삼 일부터 십오 일까지예요.",
+      "why_uz": "축제는 십칠 일부터 십구 일까지.",
+      "why_en": "The festival runs from the 17th to the 19th."
+    },
+    {
+      "id": "final_b1_r12",
+      "type": "read_choice",
+      "targets": [],
+      "prompt_uz": "Aziz kecha nima qildi?",
+      "prompt_en": "What did Aziz do yesterday?",
+      "answers": [
+        "Parkda sayr qildi"
+      ],
+      "options": [
+        "Kino ko'rdi",
+        "Parkda sayr qildi",
+        "Bozorga bordi",
+        "Imtihon topshirdi"
+      ],
+      "options_en": [
+        "Watched a film",
+        "Walked in the park",
+        "Went to the market",
+        "Took an exam"
+      ],
+      "sentence": "어제는 날씨가 좋았어요. 그래서 한강 공원에서 걸었어요. 음악도 들었어요.",
+      "why_uz": "공원에서 걸었어요.",
+      "why_en": "공원에서 걸었어요 — he walked in the park."
+    },
+    {
+      "id": "final_b1_r13",
+      "type": "read_choice",
+      "targets": [],
+      "prompt_uz": "Bugun havo qanday?",
+      "prompt_en": "What's the weather like today?",
+      "answers": [
+        "Sovuq va shamolli"
+      ],
+      "options": [
+        "Iliq",
+        "Issiq va ochiq",
+        "Yomg'irli",
+        "Sovuq va shamolli"
+      ],
+      "options_en": [
+        "Warm",
+        "Hot and sunny",
+        "Rainy",
+        "Cold and windy"
+      ],
+      "sentence": "오늘은 영하 오 도예요. 바람도 많이 불어요. 장갑하고 목도리를 하세요.",
+      "why_uz": "영하 오 도, 바람 = sovuq, shamol.",
+      "why_en": "Minus five and windy."
+    },
+    {
+      "id": "final_b1_r14",
+      "type": "read_choice",
+      "targets": [],
+      "prompt_uz": "Kitob do'koni qayerda?",
+      "prompt_en": "Where is the bookshop?",
+      "answers": [
+        "Bank bilan dorixona orasida"
+      ],
+      "options": [
+        "Bank orqasida",
+        "Metro ichida",
+        "Bank bilan dorixona orasida",
+        "Do'kon oldida"
+      ],
+      "options_en": [
+        "Behind the bank",
+        "Inside the subway",
+        "Between the bank and the pharmacy",
+        "In front of the shop"
+      ],
+      "sentence": "서점은 은행하고 약국 사이에 있어요. 이 층에 있어요.",
+      "why_uz": "은행하고 약국 사이에.",
+      "why_en": "은행하고 약국 사이에 — between the bank and the pharmacy."
+    },
+    {
+      "id": "final_b1_r15",
+      "type": "read_choice",
+      "targets": [],
+      "prompt_uz": "Taklif nima haqida?",
+      "prompt_en": "What is being suggested?",
+      "answers": [
+        "Shanba kuni toqqa chiqish"
+      ],
+      "options": [
+        "Yakshanba kuni kino",
+        "Shanba kuni toqqa chiqish",
+        "Juma kuni ovqat",
+        "Bugun sayr"
+      ],
+      "options_en": [
+        "A film on Sunday",
+        "Hiking on Saturday",
+        "Dinner on Friday",
+        "A walk today"
+      ],
+      "sentence": "민지 씨, 이번 토요일에 시간 있어요? 날씨가 따뜻해요. 같이 등산할까요?",
+      "why_uz": "토요일에 … 등산할까요?",
+      "why_en": "토요일에 … 등산할까요? — hiking on Saturday."
+    }
+  ]
+}

@@ -91,6 +91,13 @@ class AudioGenTest(unittest.TestCase):
         self.assertEqual(audio_gen.file_name(audio_gen.FEMALE, "가구"), saved["example"]["audio"])
         self.assertTrue((self.assets / "audio" / saved["audio"]).is_file())
 
+    def test_other_books_final_tests(self):
+        test = {"listening": [{"id": "final_b1_l01", "audio_dialogue": ["뭐예요?", "책이에요."]}], "reading": []}
+        (self.assets / "final_test_b1.json").write_text(json.dumps(test, ensure_ascii=False), encoding="utf-8")
+        audio_gen.run(self.root, self.synth, dry_run=False, prune=False)
+        saved = json.loads((self.assets / "final_test_b1.json").read_text(encoding="utf-8"))["listening"][0]
+        self.assertTrue((self.assets / "audio" / saved["audio"]).is_file())
+
     def test_final_test_clips(self):
         final = {"listening": [{"id": "final_l01", "type": "listen_question", "audio_text": "얼마예요?"}],
                  "reading": [{"id": "final_r01", "type": "read_choice", "sentence": "읽기"}]}

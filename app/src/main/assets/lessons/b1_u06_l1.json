@@ -1,0 +1,1484 @@
+{
+  "id": "b1_u06_l1",
+  "unit": 6,
+  "lesson": 1,
+  "title_ko": "지금 뭐 해요?",
+  "title_uz": "Hozir nima qilyapsiz?",
+  "title_en": "What are you doing now?",
+  "topic_uz": "Kundalik hayot",
+  "topic_en": "Daily life",
+  "reviewed": false,
+  "words": [
+    {
+      "id": "b1_u06_l1_w001",
+      "ko": "지금",
+      "uz": "hozir",
+      "en": "now",
+      "pos": "ravish",
+      "example_ko": "지금 뭐 해요?",
+      "example_uz": "Hozir nima qilyapsiz?",
+      "example_en": "What are you doing now?",
+      "audio": "7593f79c82e5.mp3",
+      "example_audio": "3383c590a750.mp3"
+    },
+    {
+      "id": "b1_u06_l1_w002",
+      "ko": "오늘",
+      "uz": "bugun",
+      "en": "today",
+      "pos": "ot",
+      "example_ko": "오늘 친구를 만나요.",
+      "example_uz": "Bugun do'stim bilan uchrashaman.",
+      "example_en": "I'm meeting a friend today.",
+      "audio": "40c3bc3f0e61.mp3",
+      "example_audio": "a6f11f17f26d.mp3"
+    },
+    {
+      "id": "b1_u06_l1_w003",
+      "ko": "하다",
+      "uz": "qilmoq",
+      "en": "to do",
+      "pos": "fe'l",
+      "example_ko": "숙제를 해요.",
+      "example_uz": "Uy vazifasini qilyapman.",
+      "example_en": "I'm doing homework.",
+      "audio": "ad51bc8c6c0a.mp3",
+      "example_audio": "6206e97e6873.mp3"
+    },
+    {
+      "id": "b1_u06_l1_w004",
+      "ko": "공부하다",
+      "uz": "o'qimoq, dars qilmoq",
+      "en": "to study",
+      "pos": "fe'l",
+      "example_ko": "한국어를 공부해요.",
+      "example_uz": "Koreys tilini o'qiyapman.",
+      "example_en": "I'm studying Korean.",
+      "audio": "8ea75c7c1606.mp3",
+      "example_audio": "63f515501c6f.mp3"
+    },
+    {
+      "id": "b1_u06_l1_w005",
+      "ko": "일하다",
+      "uz": "ishlamoq",
+      "en": "to work",
+      "pos": "fe'l",
+      "example_ko": "형은 회사에서 일해요.",
+      "example_uz": "Akam kompaniyada ishlaydi.",
+      "example_en": "My brother works at a company.",
+      "audio": "359ee997c736.mp3",
+      "example_audio": "edffe465ef32.mp3"
+    },
+    {
+      "id": "b1_u06_l1_w006",
+      "ko": "운동하다",
+      "uz": "sport bilan shug'ullanmoq",
+      "en": "to exercise",
+      "pos": "fe'l",
+      "example_ko": "아침에 운동해요.",
+      "example_uz": "Ertalab sport qilaman.",
+      "example_en": "I exercise in the morning.",
+      "audio": "7c78c2d5bd19.mp3",
+      "example_audio": "876d8f26728a.mp3"
+    },
+    {
+      "id": "b1_u06_l1_w007",
+      "ko": "요리하다",
+      "uz": "ovqat pishirmoq",
+      "en": "to cook",
+      "pos": "fe'l",
+      "example_ko": "어머니가 요리해요.",
+      "example_uz": "Onam ovqat pishiryapti.",
+      "example_en": "My mother is cooking.",
+      "audio": "4e96ada503ae.mp3",
+      "example_audio": "620e7703f447.mp3"
+    },
+    {
+      "id": "b1_u06_l1_w008",
+      "ko": "청소하다",
+      "uz": "tozalamoq, yig'ishtirmoq",
+      "en": "to clean",
+      "pos": "fe'l",
+      "example_ko": "주말에 방을 청소해요.",
+      "example_uz": "Dam olish kuni xonani yig'ishtiraman.",
+      "example_en": "I clean my room at the weekend.",
+      "audio": "49b71a63c095.mp3",
+      "example_audio": "80fdd13501e1.mp3"
+    },
+    {
+      "id": "b1_u06_l1_w009",
+      "ko": "전화하다",
+      "uz": "qo'ng'iroq qilmoq",
+      "en": "to phone",
+      "pos": "fe'l",
+      "example_ko": "엄마한테 전화해요.",
+      "example_uz": "Onamga qo'ng'iroq qilyapman.",
+      "example_en": "I'm calling my mum.",
+      "audio": "8a012eb8ad54.mp3",
+      "example_audio": "b528a50295c0.mp3"
+    },
+    {
+      "id": "b1_u06_l1_w010",
+      "ko": "먹다",
+      "uz": "yemoq",
+      "en": "to eat",
+      "pos": "fe'l",
+      "example_ko": "빵을 먹어요.",
+      "example_uz": "Non yeyapman.",
+      "example_en": "I'm eating bread.",
+      "audio": "9d54381c5a19.mp3",
+      "example_audio": "609b54f5d5cb.mp3"
+    },
+    {
+      "id": "b1_u06_l1_w011",
+      "ko": "보다",
+      "uz": "ko'rmoq",
+      "en": "to see, to watch",
+      "pos": "fe'l",
+      "example_ko": "영화를 봐요.",
+      "example_uz": "Kino ko'ryapman.",
+      "example_en": "I'm watching a film.",
+      "audio": "6dccfe0eaf5e.mp3",
+      "example_audio": "df7bdd104ea3.mp3"
+    },
+    {
+      "id": "b1_u06_l1_w012",
+      "ko": "읽다",
+      "uz": "o'qimoq (matn)",
+      "en": "to read",
+      "pos": "fe'l",
+      "example_ko": "책을 읽어요.",
+      "example_uz": "Kitob o'qiyapman.",
+      "example_en": "I'm reading a book.",
+      "audio": "bf7abef5a5c9.mp3",
+      "example_audio": "bf1078a26436.mp3"
+    },
+    {
+      "id": "b1_u06_l1_w013",
+      "ko": "쓰다",
+      "uz": "yozmoq",
+      "en": "to write",
+      "pos": "fe'l",
+      "example_ko": "편지를 써요.",
+      "example_uz": "Xat yozyapman.",
+      "example_en": "I'm writing a letter.",
+      "audio": "88d9d891927c.mp3",
+      "example_audio": "34bba4b8ed24.mp3"
+    },
+    {
+      "id": "b1_u06_l1_w014",
+      "ko": "자다",
+      "uz": "uxlamoq",
+      "en": "to sleep",
+      "pos": "fe'l",
+      "example_ko": "동생이 자요.",
+      "example_uz": "Ukam uxlayapti.",
+      "example_en": "My younger brother is sleeping.",
+      "audio": "83b11d4302cc.mp3",
+      "example_audio": "df34214f1887.mp3"
+    },
+    {
+      "id": "b1_u06_l1_w015",
+      "ko": "만나다",
+      "uz": "uchrashmoq",
+      "en": "to meet",
+      "pos": "fe'l",
+      "example_ko": "친구를 만나요.",
+      "example_uz": "Do'stim bilan uchrashaman.",
+      "example_en": "I'm meeting a friend.",
+      "audio": "2fab70d9a633.mp3",
+      "example_audio": "ffe014cb0dac.mp3"
+    },
+    {
+      "id": "b1_u06_l1_w016",
+      "ko": "사다",
+      "uz": "sotib olmoq",
+      "en": "to buy",
+      "pos": "fe'l",
+      "example_ko": "사과를 사요.",
+      "example_uz": "Olma sotib olaman.",
+      "example_en": "I'm buying apples.",
+      "audio": "cc30f80eded6.mp3",
+      "example_audio": "d1f8cc6f9c81.mp3"
+    },
+    {
+      "id": "b1_u06_l1_w017",
+      "ko": "배우다",
+      "uz": "o'rganmoq",
+      "en": "to learn",
+      "pos": "fe'l",
+      "example_ko": "태권도를 배워요.",
+      "example_uz": "Taekvondo o'rganyapman.",
+      "example_en": "I'm learning taekwondo.",
+      "audio": "618153d5b656.mp3",
+      "example_audio": "298495c3d53b.mp3"
+    },
+    {
+      "id": "b1_u06_l1_w018",
+      "ko": "가르치다",
+      "uz": "o'rgatmoq, dars bermoq",
+      "en": "to teach",
+      "pos": "fe'l",
+      "example_ko": "선생님이 한국어를 가르쳐요.",
+      "example_uz": "O'qituvchi koreys tilidan dars beradi.",
+      "example_en": "The teacher teaches Korean.",
+      "audio": "431c21f85e55.mp3",
+      "example_audio": "3c731dfbf244.mp3"
+    },
+    {
+      "id": "b1_u06_l1_w019",
+      "ko": "쉬다",
+      "uz": "dam olmoq",
+      "en": "to rest",
+      "pos": "fe'l",
+      "example_ko": "오늘은 집에서 쉬어요.",
+      "example_uz": "Bugun uyda dam olaman.",
+      "example_en": "Today I'm resting at home.",
+      "audio": "8ebdfe4b6c91.mp3",
+      "example_audio": "031b6a3073f8.mp3"
+    },
+    {
+      "id": "b1_u06_l1_w020",
+      "ko": "좋아하다",
+      "uz": "yaxshi ko'rmoq",
+      "en": "to like",
+      "pos": "fe'l",
+      "example_ko": "음악을 좋아해요.",
+      "example_uz": "Musiqani yaxshi ko'raman.",
+      "example_en": "I like music.",
+      "audio": "8f19b281bd01.mp3",
+      "example_audio": "1cf9c9dbdca1.mp3"
+    },
+    {
+      "id": "b1_u06_l1_w021",
+      "ko": "숙제",
+      "uz": "uy vazifasi",
+      "en": "homework",
+      "pos": "ot",
+      "example_ko": "숙제가 많아요.",
+      "example_uz": "Uy vazifasi ko'p.",
+      "example_en": "There's a lot of homework.",
+      "audio": "b6c3c60aef8e.mp3",
+      "example_audio": "baebec740656.mp3"
+    },
+    {
+      "id": "b1_u06_l1_w022",
+      "ko": "영화",
+      "uz": "kino, film",
+      "en": "film",
+      "pos": "ot",
+      "example_ko": "한국 영화를 좋아해요.",
+      "example_uz": "Koreys kinolarini yaxshi ko'raman.",
+      "example_en": "I like Korean films.",
+      "audio": "410fdb1cf311.mp3",
+      "example_audio": "a4732d7babf3.mp3"
+    },
+    {
+      "id": "b1_u06_l1_w023",
+      "ko": "음악",
+      "uz": "musiqa",
+      "en": "music",
+      "pos": "ot",
+      "example_ko": "음악을 들어요.",
+      "example_uz": "Musiqa tinglayapman.",
+      "example_en": "I'm listening to music.",
+      "audio": "c215ce39b190.mp3",
+      "example_audio": "ce65c69b84e1.mp3"
+    },
+    {
+      "id": "b1_u06_l1_w024",
+      "ko": "노래",
+      "uz": "qo'shiq",
+      "en": "song",
+      "pos": "ot",
+      "example_ko": "한국 노래를 배워요.",
+      "example_uz": "Koreys qo'shig'ini o'rganyapman.",
+      "example_en": "I'm learning a Korean song.",
+      "audio": "ff71a2ddb7d8.mp3",
+      "example_audio": "31c590f6864c.mp3"
+    },
+    {
+      "id": "b1_u06_l1_w025",
+      "ko": "편지",
+      "uz": "xat",
+      "en": "letter",
+      "pos": "ot",
+      "example_ko": "친구에게 편지를 써요.",
+      "example_uz": "Do'stimga xat yozyapman.",
+      "example_en": "I'm writing a letter to a friend.",
+      "audio": "56c5c98966a2.mp3",
+      "example_audio": "9372449719e8.mp3"
+    },
+    {
+      "id": "b1_u06_l1_w026",
+      "ko": "사과",
+      "uz": "olma",
+      "en": "apple",
+      "pos": "ot",
+      "example_ko": "사과를 먹어요.",
+      "example_uz": "Olma yeyapman.",
+      "example_en": "I'm eating an apple.",
+      "audio": "f784ad2c9a93.mp3",
+      "example_audio": "ed5fe2f5b546.mp3"
+    },
+    {
+      "id": "b1_u06_l1_w027",
+      "ko": "주말",
+      "uz": "dam olish kunlari",
+      "en": "weekend",
+      "pos": "ot",
+      "example_ko": "주말에 뭐 해요?",
+      "example_uz": "Dam olish kunlari nima qilasiz?",
+      "example_en": "What do you do at the weekend?",
+      "audio": "050e54f0b0f4.mp3",
+      "example_audio": "66bb03d0dfc7.mp3"
+    },
+    {
+      "id": "b1_u06_l1_w028",
+      "ko": "아침",
+      "uz": "ertalab; nonushta",
+      "en": "morning; breakfast",
+      "pos": "ot",
+      "example_ko": "아침을 먹어요.",
+      "example_uz": "Nonushta qilyapman.",
+      "example_en": "I'm having breakfast.",
+      "audio": "065cf4e4637d.mp3",
+      "example_audio": "41ee0f32a5c1.mp3"
+    },
+    {
+      "id": "b1_u06_l1_w029",
+      "ko": "저녁",
+      "uz": "kechqurun; kechki ovqat",
+      "en": "evening; dinner",
+      "pos": "ot",
+      "example_ko": "저녁에 운동해요.",
+      "example_uz": "Kechqurun sport qilaman.",
+      "example_en": "I exercise in the evening.",
+      "audio": "23ffac5233b2.mp3",
+      "example_audio": "bb595fa174d3.mp3"
+    },
+    {
+      "id": "b1_u06_l1_w030",
+      "ko": "게임",
+      "uz": "o'yin (kompyuter)",
+      "en": "game",
+      "pos": "ot",
+      "example_ko": "동생은 게임을 좋아해요.",
+      "example_uz": "Ukam o'yinni yaxshi ko'radi.",
+      "example_en": "My younger brother likes games.",
+      "audio": "038cbc4e9e9c.mp3",
+      "example_audio": "83dae7a4aafc.mp3"
+    },
+    {
+      "id": "b1_u06_l1_w031",
+      "ko": "많이",
+      "uz": "ko'p",
+      "en": "a lot",
+      "pos": "ravish",
+      "example_ko": "많이 드세요.",
+      "example_uz": "Ko'proq yeng.",
+      "example_en": "Please eat a lot.",
+      "audio": "c464725e02d2.mp3",
+      "example_audio": "c87e0cf97b9b.mp3"
+    },
+    {
+      "id": "b1_u06_l1_w032",
+      "ko": "정말",
+      "uz": "rostdan, juda",
+      "en": "really",
+      "pos": "ravish",
+      "example_ko": "정말 재미있어요.",
+      "example_uz": "Rostdan qiziq.",
+      "example_en": "It's really fun.",
+      "audio": "fe866a60e801.mp3",
+      "example_audio": "55b8a9b1ee9f.mp3"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "b1_u06_l1_g1",
+      "pattern": "V-아요/어요",
+      "meaning_uz": "Hozirgi zamon (muloyim uslub)",
+      "meaning_en": "Present tense (polite style)",
+      "explanation_md": "**-아요/어요** — kundalik muloyim nutqning asosiy shakli. U **hozirgi** va **odatiy** ish-harakatni bildiradi: \"qilyapman\", \"qilaman\".\n\n**지금 뭐 해요?** — *Hozir nima qilyapsiz?*  \n**책을 읽어요.** — *Kitob o'qiyapman.*\n\n### Qanday yasaladi\n\n**-다** ni olib tashlang va o'zakning oxirgi unlisiga qarang:\n\n- **ㅏ yoki ㅗ** → **-아요**: 살다 → **살아요**, 앉다 → **앉아요**\n- **boshqa unlilar** → **-어요**: 먹다 → **먹어요**, 읽다 → **읽어요**\n- **하다** → **해요**: 공부하다 → **공부해요**\n\n### Qisqarishlar\n\n- 가 + 아요 → **가요**, 자다 → **자요**, 만나다 → **만나요**, 사다 → **사요**\n- 오 + 아요 → **와요**, 보다 → **봐요**\n- 우 + 어요 → **워요**: 배우다 → **배워요**\n- 이 + 어요 → **여요**: 마시다 → **마셔요**, 가르치다 → **가르쳐요**\n- 쓰다 → **써요** (ㅡ tushib qoladi)\n\n### Esda tuting\n\n- Bir shakl — ham so'roq, ham javob: **먹어요?** / **먹어요.**\n- Shaxsga qarab o'zgarmaydi: men, sen, u — hammasi **먹어요**.",
+      "explanation_md_en": "**-아요/어요** is the basic polite everyday form. It covers **now** and **habits**: \"I'm doing\", \"I do\".\n\n**지금 뭐 해요?** — *What are you doing now?*  \n**책을 읽어요.** — *I'm reading a book.*\n\n### How to form it\n\nDrop **-다** and look at the last vowel of the stem:\n\n- **ㅏ or ㅗ** → **-아요**: 살다 → **살아요**, 앉다 → **앉아요**\n- **any other vowel** → **-어요**: 먹다 → **먹어요**, 읽다 → **읽어요**\n- **하다** → **해요**: 공부하다 → **공부해요**\n\n### Contractions\n\n- 가 + 아요 → **가요**, 자다 → **자요**, 만나다 → **만나요**, 사다 → **사요**\n- 오 + 아요 → **와요**, 보다 → **봐요**\n- 우 + 어요 → **워요**: 배우다 → **배워요**\n- 이 + 어요 → **여요**: 마시다 → **마셔요**, 가르치다 → **가르쳐요**\n- 쓰다 → **써요** (ㅡ drops)\n\n### Remember\n\n- The same form asks and answers: **먹어요?** / **먹어요.**\n- It doesn't change for the person: I, you, she — all **먹어요**.",
+      "formation": [
+        {
+          "condition_uz": "ㅏ, ㅗ",
+          "condition_en": "ㅏ, ㅗ",
+          "rule": "-아요",
+          "example": "앉다 → 앉아요, 가다 → 가요, 보다 → 봐요"
+        },
+        {
+          "condition_uz": "Boshqa unlilar",
+          "condition_en": "Other vowels",
+          "rule": "-어요",
+          "example": "먹다 → 먹어요, 배우다 → 배워요, 마시다 → 마셔요"
+        },
+        {
+          "condition_uz": "하다",
+          "condition_en": "하다",
+          "rule": "해요",
+          "example": "공부하다 → 공부해요, 일하다 → 일해요"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "지금 뭐 해요?",
+          "uz": "Hozir nima qilyapsiz?",
+          "en": "What are you doing now?",
+          "audio": "3383c590a750.mp3"
+        },
+        {
+          "ko": "책을 읽어요.",
+          "uz": "Kitob o'qiyapman.",
+          "en": "I'm reading a book.",
+          "audio": "bf1078a26436.mp3"
+        },
+        {
+          "ko": "친구를 만나요.",
+          "uz": "Do'stim bilan uchrashyapman.",
+          "en": "I'm meeting a friend.",
+          "audio": "ffe014cb0dac.mp3"
+        },
+        {
+          "ko": "영화를 봐요.",
+          "uz": "Kino ko'ryapman.",
+          "en": "I'm watching a film.",
+          "audio": "df7bdd104ea3.mp3"
+        },
+        {
+          "ko": "한국어를 배워요.",
+          "uz": "Koreys tilini o'rganyapman.",
+          "en": "I'm learning Korean.",
+          "audio": "5c04759af63b.mp3"
+        },
+        {
+          "ko": "집에서 쉬어요.",
+          "uz": "Uyda dam olyapman.",
+          "en": "I'm resting at home.",
+          "audio": "1d0b15e18d32.mp3"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "밥을 먹아요.",
+          "right": "밥을 먹어요.",
+          "why_uz": "먹다 da unli ㅓ: -어요.",
+          "why_en": "먹다 has ㅓ: -어요."
+        },
+        {
+          "wrong": "영화를 보아요.",
+          "right": "영화를 봐요.",
+          "why_uz": "Og'zaki nutqda 보아요 → 봐요.",
+          "why_en": "In speech 보아요 contracts to 봐요."
+        },
+        {
+          "wrong": "공부하아요.",
+          "right": "공부해요.",
+          "why_uz": "하다 → 해요.",
+          "why_en": "하다 → 해요."
+        },
+        {
+          "wrong": "우유를 마시어요.",
+          "right": "우유를 마셔요.",
+          "why_uz": "이 + 어 → 여: 마셔요.",
+          "why_en": "이 + 어 → 여: 마셔요."
+        }
+      ],
+      "uz_compare": "O'zbekchada fe'l shaxsga qarab o'zgaradi: o'qiyMAN, o'qiySAN, o'qiyDI. Koreyschada bitta shakl hammaga: 읽어요. Kim haqida gapirayotgan suhbatdan bilinadi.",
+      "compare_en": "English changes the verb for 'he/she' (reads) and uses 'am/is -ing' for now. Korean has one form for all of these: 읽어요 = 'I read / I'm reading / she reads'."
+    },
+    {
+      "id": "b1_u06_l1_g2",
+      "pattern": "N을/를",
+      "meaning_uz": "Tushum kelishigi: ...ni",
+      "meaning_en": "Object marker",
+      "explanation_md": "**을/를** ish-harakat qaratilgan narsani — **to'ldiruvchini** ko'rsatadi. O'zbekchadagi **\"-ni\"** ga o'xshaydi.\n\n**책을 읽어요.** — *Kitob(ni) o'qiyapman.*\n\n### Qanday yasaladi\n\n- Ot **받침 bilan tugasa** → **을**: 책 → **책을**, 빵 → **빵을**\n- Ot **unli bilan tugasa** → **를**: 사과 → **사과를**, 영화 → **영화를**\n\n### Esda tuting\n\n- So'z tartibi: **kim + nimani + fe'l**: **저는 사과를 먹어요.**\n- O'zbekchada \"kitob o'qiyman\" deb \"-ni\"siz ham aytamiz. Koreyschada ham og'zaki nutqda 을/를 ko'pincha tushib qoladi: **책 읽어요.**\n- **N을/를 하다** — \"N bilan shug'ullanmoq\": **운동을 해요** = **운동해요**.",
+      "explanation_md_en": "**을/를** marks the **object** — the thing the action is done to.\n\n**책을 읽어요.** — *I'm reading a book.*\n\n### How to form it\n\n- Noun **ends in 받침** → **을**: 책 → **책을**, 빵 → **빵을**\n- Noun **ends in a vowel** → **를**: 사과 → **사과를**, 영화 → **영화를**\n\n### Remember\n\n- Word order: **who + what + verb**: **저는 사과를 먹어요.** (English: subject–verb–object.)\n- In speech 을/를 is often dropped: **책 읽어요.**\n- **N을/를 하다** — \"do N\": **운동을 해요** = **운동해요**.",
+      "formation": [
+        {
+          "condition_uz": "받침 bor",
+          "condition_en": "With 받침",
+          "rule": "N + 을",
+          "example": "책 → 책을, 빵 → 빵을"
+        },
+        {
+          "condition_uz": "받침 yo'q",
+          "condition_en": "No 받침",
+          "rule": "N + 를",
+          "example": "사과 → 사과를, 영화 → 영화를"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "저는 사과를 먹어요.",
+          "uz": "Men olma yeyapman.",
+          "en": "I'm eating an apple.",
+          "audio": "a78c79e1eac8.mp3"
+        },
+        {
+          "ko": "민지 씨는 영화를 봐요.",
+          "uz": "Minji kino ko'ryapti.",
+          "en": "Minji is watching a film.",
+          "audio": "6c7368677970.mp3"
+        },
+        {
+          "ko": "숙제를 해요.",
+          "uz": "Uy vazifasini qilyapman.",
+          "en": "I'm doing homework.",
+          "audio": "6206e97e6873.mp3"
+        },
+        {
+          "ko": "친구에게 편지를 써요.",
+          "uz": "Do'stimga xat yozyapman.",
+          "en": "I'm writing a letter to a friend.",
+          "audio": "9372449719e8.mp3"
+        },
+        {
+          "ko": "음악을 좋아해요.",
+          "uz": "Musiqani yaxshi ko'raman.",
+          "en": "I like music.",
+          "audio": "1cf9c9dbdca1.mp3"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "사과을 먹어요.",
+          "right": "사과를 먹어요.",
+          "why_uz": "사과 unli bilan tugaydi: 를.",
+          "why_en": "사과 ends in a vowel: 를."
+        },
+        {
+          "wrong": "책를 읽어요.",
+          "right": "책을 읽어요.",
+          "why_uz": "책 받침 bilan tugaydi: 을.",
+          "why_en": "책 ends in 받침: 을."
+        },
+        {
+          "wrong": "저는 먹어요 빵을.",
+          "right": "저는 빵을 먹어요.",
+          "why_uz": "Fe'l doim gap oxirida.",
+          "why_en": "The verb always comes last."
+        }
+      ],
+      "uz_compare": "O'zbekchadagi '-ni' kelishigiga juda o'xshaydi va so'z tartibi ham bir xil: 'Men olmaNI yeyman' = 저는 사과를 먹어요. Fe'l ikkala tilda ham oxirida.",
+      "compare_en": "English shows the object by position (after the verb). Korean marks it with 을/를 and puts the verb last: 'I eat an apple' = 저는 사과를 먹어요 ('I apple eat')."
+    }
+  ],
+  "dialogue": {
+    "lines": [
+      {
+        "speaker": "minji",
+        "ko": "여보세요? 아지즈 씨, 지금 뭐 해요?",
+        "uz": "Allo? Aziz, hozir nima qilyapsiz?",
+        "en": "Hello? Aziz, what are you doing now?",
+        "audio": "4f0608f0d250.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "숙제를 해요. 민지 씨는요?",
+        "uz": "Uy vazifasini qilyapman. Siz-chi, Minji?",
+        "en": "I'm doing homework. And you, Minji?",
+        "audio": "ad9221a14971.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "저는 카페에서 책을 읽어요.",
+        "uz": "Men kafeda kitob o'qiyapman.",
+        "en": "I'm reading a book at a café.",
+        "audio": "6b0217608cb3.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "무슨 책을 읽어요?",
+        "uz": "Qanday kitob o'qiyapsiz?",
+        "en": "What book are you reading?",
+        "audio": "734fa0b93cc7.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "한국 소설을 읽어요. 아지즈 씨, 저녁에 시간 있어요?",
+        "uz": "Koreys romanini o'qiyapman. Aziz, kechqurun vaqtingiz bormi?",
+        "en": "A Korean novel. Aziz, are you free this evening?",
+        "audio": "95e5ef7b5382.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "네, 있어요. 왜요?",
+        "uz": "Ha, bor. Nega?",
+        "en": "Yes, I am. Why?",
+        "audio": "a00a68591d5e.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "같이 영화를 봐요. 그리고 저녁도 먹어요.",
+        "uz": "Birga kino ko'raylik. Kechki ovqat ham qilamiz.",
+        "en": "Let's watch a film together. And have dinner too.",
+        "audio": "9d60943a6dce.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "좋아요! 무슨 영화를 봐요?",
+        "uz": "Zo'r! Qanday kino ko'ramiz?",
+        "en": "Great! What film are we watching?",
+        "audio": "b879a80a4192.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "한국 영화를 봐요. 아지즈 씨는 한국 영화를 좋아해요?",
+        "uz": "Koreys kinosini. Aziz, koreys kinolarini yaxshi ko'rasizmi?",
+        "en": "A Korean film. Aziz, do you like Korean films?",
+        "audio": "2a771102d5d6.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "네, 정말 좋아해요.",
+        "uz": "Ha, juda yaxshi ko'raman.",
+        "en": "Yes, I really like them.",
+        "audio": "5348671265f8.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "그럼 일곱 시에 만나요!",
+        "uz": "Unda soat yettida uchrashamiz!",
+        "en": "Then let's meet at seven!",
+        "audio": "b4eda34f7a76.mp3"
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b1_u06_l1_e001",
+      "type": "conjugate",
+      "targets": [
+        "b1_u06_l1_g1"
+      ],
+      "prompt_uz": "'Yeyman' shaklini yasang",
+      "prompt_en": "Make 'eat' (polite present)",
+      "base": "먹다",
+      "form": "-아요/어요",
+      "answers": [
+        "먹어요"
+      ]
+    },
+    {
+      "id": "b1_u06_l1_e002",
+      "type": "conjugate",
+      "targets": [
+        "b1_u06_l1_g1"
+      ],
+      "prompt_uz": "'Ko'raman' shaklini yasang",
+      "prompt_en": "Make 'see/watch' (polite present)",
+      "base": "보다",
+      "form": "-아요/어요",
+      "answers": [
+        "봐요",
+        "보아요"
+      ],
+      "hint_uz": "오 + 아 → 와",
+      "hint_en": "오 + 아 → 와"
+    },
+    {
+      "id": "b1_u06_l1_e003",
+      "type": "conjugate",
+      "targets": [
+        "b1_u06_l1_g1"
+      ],
+      "prompt_uz": "'O'qiyman (dars)' shaklini yasang",
+      "prompt_en": "Make 'study' (polite present)",
+      "base": "공부하다",
+      "form": "-아요/어요",
+      "answers": [
+        "공부해요"
+      ]
+    },
+    {
+      "id": "b1_u06_l1_e004",
+      "type": "conjugate",
+      "targets": [
+        "b1_u06_l1_g1"
+      ],
+      "prompt_uz": "'O'rganaman' shaklini yasang",
+      "prompt_en": "Make 'learn' (polite present)",
+      "base": "배우다",
+      "form": "-아요/어요",
+      "answers": [
+        "배워요"
+      ],
+      "hint_uz": "우 + 어 → 워",
+      "hint_en": "우 + 어 → 워"
+    },
+    {
+      "id": "b1_u06_l1_e005",
+      "type": "conjugate",
+      "targets": [
+        "b1_u06_l1_g2"
+      ],
+      "prompt_uz": "'Olma' + tushum qo'shimchasi",
+      "prompt_en": "'apple' + object marker",
+      "base": "사과",
+      "form": "-을/를",
+      "answers": [
+        "사과를"
+      ]
+    },
+    {
+      "id": "b1_u06_l1_e006",
+      "type": "fill_blank",
+      "targets": [
+        "b1_u06_l1_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Kitob o'qiyapman.'",
+      "prompt_en": "Fill in the blank: 'I'm reading a book.'",
+      "sentence": "책을 ___. (읽다)",
+      "answers": [
+        "읽어요"
+      ]
+    },
+    {
+      "id": "b1_u06_l1_e007",
+      "type": "fill_blank",
+      "targets": [
+        "b1_u06_l1_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Do'stim bilan uchrashaman.'",
+      "prompt_en": "Fill in the blank: 'I'm meeting a friend.'",
+      "sentence": "친구를 ___. (만나다)",
+      "answers": [
+        "만나요"
+      ]
+    },
+    {
+      "id": "b1_u06_l1_e008",
+      "type": "fill_blank",
+      "targets": [
+        "b1_u06_l1_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Non yeyapman.'",
+      "prompt_en": "Fill in the blank: 'I'm eating bread.'",
+      "sentence": "빵___ 먹어요.",
+      "answers": [
+        "을"
+      ]
+    },
+    {
+      "id": "b1_u06_l1_e009",
+      "type": "fill_blank",
+      "targets": [
+        "b1_u06_l1_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Kino ko'ryapman.'",
+      "prompt_en": "Fill in the blank: 'I'm watching a film.'",
+      "sentence": "영화___ 봐요.",
+      "answers": [
+        "를"
+      ]
+    },
+    {
+      "id": "b1_u06_l1_e010",
+      "type": "situation_choice",
+      "targets": [
+        "b1_u06_l1_g1",
+        "b1_u06_l1_w001"
+      ],
+      "prompt_uz": "Do'stingizga qo'ng'iroq qildingiz. Hozir nima qilayotganini so'rang:",
+      "prompt_en": "You called a friend. Ask what they're doing now:",
+      "options": [
+        "지금 뭐 해요?",
+        "지금 뭐예요?",
+        "지금 뭐 있어요?",
+        "지금 뭐 해요 있어요?"
+      ],
+      "answers": [
+        "지금 뭐 해요?"
+      ]
+    },
+    {
+      "id": "b1_u06_l1_e011",
+      "type": "situation_choice",
+      "targets": [
+        "b1_u06_l1_g1"
+      ],
+      "prompt_uz": "'Nima qilyapsiz?' — siz dam olyapsiz. Javob bering:",
+      "prompt_en": "'What are you doing?' — you're resting. Answer:",
+      "options": [
+        "집에서 쉬어요.",
+        "집에서 쉬아요.",
+        "집에서 쉬다요.",
+        "집에서 쉬세요."
+      ],
+      "answers": [
+        "집에서 쉬어요."
+      ]
+    },
+    {
+      "id": "b1_u06_l1_e012",
+      "type": "situation_choice",
+      "targets": [
+        "b1_u06_l1_g2"
+      ],
+      "prompt_uz": "Koreys qo'shiqlarini yaxshi ko'rishingizni ayting:",
+      "prompt_en": "Say that you like Korean songs:",
+      "options": [
+        "한국 노래를 좋아해요.",
+        "한국 노래을 좋아해요.",
+        "한국 노래가 좋아해요.",
+        "좋아해요 한국 노래를."
+      ],
+      "answers": [
+        "한국 노래를 좋아해요."
+      ]
+    },
+    {
+      "id": "b1_u06_l1_e013",
+      "type": "find_error",
+      "targets": [
+        "b1_u06_l1_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "밥을 먹아요.",
+      "answers": [
+        "밥을 먹어요"
+      ],
+      "why_uz": "먹다 → 먹어요 (ㅓ).",
+      "why_en": "먹다 → 먹어요 (ㅓ)."
+    },
+    {
+      "id": "b1_u06_l1_e014",
+      "type": "find_error",
+      "targets": [
+        "b1_u06_l1_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "저는 한국어를 공부하아요.",
+      "answers": [
+        "저는 한국어를 공부해요"
+      ],
+      "why_uz": "하다 → 해요.",
+      "why_en": "하다 → 해요."
+    },
+    {
+      "id": "b1_u06_l1_e015",
+      "type": "find_error",
+      "targets": [
+        "b1_u06_l1_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "책를 읽어요.",
+      "answers": [
+        "책을 읽어요"
+      ],
+      "why_uz": "책 받침 bilan tugaydi: 을.",
+      "why_en": "책 ends in 받침: 을."
+    },
+    {
+      "id": "b1_u06_l1_e016",
+      "type": "translate",
+      "targets": [
+        "b1_u06_l1_g1"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Hozir nima qilyapsiz?",
+      "source_en": "What are you doing now?",
+      "answers": [
+        "지금 뭐 해요",
+        "지금 뭐 해요?"
+      ]
+    },
+    {
+      "id": "b1_u06_l1_e017",
+      "type": "translate",
+      "targets": [
+        "b1_u06_l1_g1",
+        "b1_u06_l1_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Olma yeyapman.",
+      "source_en": "I'm eating an apple.",
+      "answers": [
+        "사과를 먹어요",
+        "저는 사과를 먹어요"
+      ]
+    },
+    {
+      "id": "b1_u06_l1_e018",
+      "type": "translate",
+      "targets": [
+        "b1_u06_l1_g1",
+        "b1_u06_l1_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Minji kino ko'ryapti.",
+      "source_en": "Minji is watching a film.",
+      "answers": [
+        "민지 씨는 영화를 봐요",
+        "민지 씨가 영화를 봐요"
+      ]
+    },
+    {
+      "id": "b1_u06_l1_e019",
+      "type": "build_sentence",
+      "targets": [
+        "b1_u06_l1_g1",
+        "b1_u06_l1_g2"
+      ],
+      "prompt_uz": "'Do'stimga xat yozyapman' gapini tuzing",
+      "prompt_en": "Build the sentence 'I'm writing a letter to my friend'",
+      "tokens": [
+        "써요",
+        "편지를",
+        "친구에게"
+      ],
+      "answers": [
+        "친구에게 편지를 써요"
+      ]
+    },
+    {
+      "id": "b1_u06_l1_e020",
+      "type": "build_sentence",
+      "targets": [
+        "b1_u06_l1_g1",
+        "b1_u06_l1_g2"
+      ],
+      "prompt_uz": "'Kechqurun sport qilaman' gapini tuzing",
+      "prompt_en": "Build the sentence 'I exercise in the evening'",
+      "tokens": [
+        "해요",
+        "운동을",
+        "저녁에"
+      ],
+      "answers": [
+        "저녁에 운동을 해요"
+      ]
+    },
+    {
+      "id": "b1_u06_l1_e021",
+      "type": "build_sentence",
+      "targets": [
+        "b1_u06_l1_g2"
+      ],
+      "prompt_uz": "'Musiqani yaxshi ko'raman' gapini tuzing",
+      "prompt_en": "Build the sentence 'I like music'",
+      "tokens": [
+        "좋아해요",
+        "저는",
+        "음악을"
+      ],
+      "answers": [
+        "저는 음악을 좋아해요"
+      ]
+    },
+    {
+      "id": "b1_u06_l1_e022",
+      "type": "listen_question",
+      "targets": [
+        "b1_u06_l1_g1"
+      ],
+      "prompt_uz": "U hozir nima qilyapti?",
+      "prompt_en": "What is the speaker doing now?",
+      "audio_text": "지금 숙제를 해요.",
+      "options": [
+        "Uy vazifasini qilyapti",
+        "Kino ko'ryapti",
+        "Uxlayapti",
+        "Ovqat pishiryapti"
+      ],
+      "options_en": [
+        "Doing homework",
+        "Watching a film",
+        "Sleeping",
+        "Cooking"
+      ],
+      "answers": [
+        "Uy vazifasini qilyapti"
+      ],
+      "audio": "37c5678648bc.mp3"
+    },
+    {
+      "id": "b1_u06_l1_e023",
+      "type": "listen_question",
+      "targets": [
+        "b1_u06_l1_g2"
+      ],
+      "prompt_uz": "U nima yeyapti?",
+      "prompt_en": "What is the speaker eating?",
+      "audio_text": "저는 사과를 먹어요.",
+      "options": [
+        "Olma",
+        "Non",
+        "Guruch",
+        "Tort"
+      ],
+      "options_en": [
+        "An apple",
+        "Bread",
+        "Rice",
+        "Cake"
+      ],
+      "answers": [
+        "Olma"
+      ],
+      "audio": "a78c79e1eac8.mp3"
+    },
+    {
+      "id": "b1_u06_l1_e024",
+      "type": "listen_question",
+      "targets": [
+        "b1_u06_l1_g1"
+      ],
+      "prompt_uz": "Minji nima qilyapti?",
+      "prompt_en": "What is Minji doing?",
+      "audio_text": "민지 씨는 카페에서 책을 읽어요.",
+      "options": [
+        "Kitob o'qiyapti",
+        "Qahva ichyapti",
+        "Ishlayapti",
+        "Xat yozyapti"
+      ],
+      "options_en": [
+        "Reading a book",
+        "Drinking coffee",
+        "Working",
+        "Writing a letter"
+      ],
+      "answers": [
+        "Kitob o'qiyapti"
+      ],
+      "audio": "62e68386c9fc.mp3"
+    },
+    {
+      "id": "b1_u06_l1_e025",
+      "type": "listen_question",
+      "targets": [
+        "b1_u06_l1_g1",
+        "b1_u06_l1_g2"
+      ],
+      "prompt_uz": "Dam olish kunlari u nima qiladi?",
+      "prompt_en": "What does the speaker do at the weekend?",
+      "audio_text": "주말에 방을 청소해요. 그리고 쉬어요.",
+      "options": [
+        "Xonani yig'ishtiradi va dam oladi",
+        "Ishlaydi",
+        "Kino ko'radi",
+        "Sport qiladi"
+      ],
+      "options_en": [
+        "Cleans the room and rests",
+        "Works",
+        "Watches a film",
+        "Exercises"
+      ],
+      "answers": [
+        "Xonani yig'ishtiradi va dam oladi"
+      ],
+      "audio": "bb7da7649c9d.mp3"
+    },
+    {
+      "id": "b1_u06_l1_e101",
+      "type": "conjugate",
+      "targets": [
+        "b1_u06_l1_g1"
+      ],
+      "prompt_uz": "'Ichaman' shaklini yasang",
+      "prompt_en": "Make 'drink' (polite present)",
+      "base": "마시다",
+      "form": "-아요/어요",
+      "answers": [
+        "마셔요"
+      ]
+    },
+    {
+      "id": "b1_u06_l1_e102",
+      "type": "conjugate",
+      "targets": [
+        "b1_u06_l1_g1"
+      ],
+      "prompt_uz": "'Yozaman' shaklini yasang",
+      "prompt_en": "Make 'write' (polite present)",
+      "base": "쓰다",
+      "form": "-아요/어요",
+      "answers": [
+        "써요"
+      ]
+    },
+    {
+      "id": "b1_u06_l1_e103",
+      "type": "conjugate",
+      "targets": [
+        "b1_u06_l1_g1"
+      ],
+      "prompt_uz": "'Uxlayman' shaklini yasang",
+      "prompt_en": "Make 'sleep' (polite present)",
+      "base": "자다",
+      "form": "-아요/어요",
+      "answers": [
+        "자요"
+      ]
+    },
+    {
+      "id": "b1_u06_l1_e104",
+      "type": "conjugate",
+      "targets": [
+        "b1_u06_l1_g2"
+      ],
+      "prompt_uz": "'Kitob' + tushum qo'shimchasi",
+      "prompt_en": "'book' + object marker",
+      "base": "책",
+      "form": "-을/를",
+      "answers": [
+        "책을"
+      ]
+    },
+    {
+      "id": "b1_u06_l1_e105",
+      "type": "fill_blank",
+      "targets": [
+        "b1_u06_l1_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'O'qituvchi koreys tilidan dars beradi.'",
+      "prompt_en": "Fill in the blank: 'The teacher teaches Korean.'",
+      "sentence": "선생님이 한국어를 ___. (가르치다)",
+      "answers": [
+        "가르쳐요"
+      ]
+    },
+    {
+      "id": "b1_u06_l1_e106",
+      "type": "fill_blank",
+      "targets": [
+        "b1_u06_l1_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Uy vazifasini qilyapman.'",
+      "prompt_en": "Fill in the blank: 'I'm doing homework.'",
+      "sentence": "숙제___ 해요.",
+      "answers": [
+        "를"
+      ]
+    },
+    {
+      "id": "b1_u06_l1_e107",
+      "type": "situation_choice",
+      "targets": [
+        "b1_u06_l1_g1"
+      ],
+      "prompt_uz": "'Dam olish kunlari nima qilasiz?' — siz ishlaysiz:",
+      "prompt_en": "'What do you do at the weekend?' — you work:",
+      "options": [
+        "주말에 일해요.",
+        "주말에 일하아요.",
+        "주말에 일이에요.",
+        "주말에 일해요 있어요."
+      ],
+      "answers": [
+        "주말에 일해요."
+      ]
+    },
+    {
+      "id": "b1_u06_l1_e108",
+      "type": "situation_choice",
+      "targets": [
+        "b1_u06_l1_g2"
+      ],
+      "prompt_uz": "Olma sotib olayotganingizni ayting:",
+      "prompt_en": "Say you're buying apples:",
+      "options": [
+        "사과를 사요.",
+        "사과을 사요.",
+        "사과를 사아요.",
+        "사과가 사요."
+      ],
+      "answers": [
+        "사과를 사요."
+      ]
+    },
+    {
+      "id": "b1_u06_l1_e109",
+      "type": "find_error",
+      "targets": [
+        "b1_u06_l1_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "영화를 보어요.",
+      "answers": [
+        "영화를 봐요",
+        "영화를 보아요"
+      ],
+      "why_uz": "보다 da unli ㅗ: -아요 → 봐요.",
+      "why_en": "보다 has ㅗ: -아요 → 봐요."
+    },
+    {
+      "id": "b1_u06_l1_e110",
+      "type": "find_error",
+      "targets": [
+        "b1_u06_l1_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "저는 음악을 좋아해요 노래를.",
+      "answers": [
+        "저는 노래를 좋아해요",
+        "저는 음악을 좋아해요"
+      ],
+      "why_uz": "Bitta to'ldiruvchi, fe'l oxirida.",
+      "why_en": "One object; the verb comes last."
+    },
+    {
+      "id": "b1_u06_l1_e111",
+      "type": "translate",
+      "targets": [
+        "b1_u06_l1_g1"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Bugun uyda dam olaman.",
+      "source_en": "Today I'm resting at home.",
+      "answers": [
+        "오늘 집에서 쉬어요",
+        "오늘은 집에서 쉬어요"
+      ]
+    },
+    {
+      "id": "b1_u06_l1_e112",
+      "type": "translate",
+      "targets": [
+        "b1_u06_l1_g1",
+        "b1_u06_l1_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Koreys tilini o'rganyapman.",
+      "source_en": "I'm learning Korean.",
+      "answers": [
+        "한국어를 배워요",
+        "저는 한국어를 배워요"
+      ]
+    },
+    {
+      "id": "b1_u06_l1_e113",
+      "type": "build_sentence",
+      "targets": [
+        "b1_u06_l1_g1",
+        "b1_u06_l1_g2"
+      ],
+      "prompt_uz": "'Aziz uy vazifasini qilyapti' gapini tuzing",
+      "prompt_en": "Build the sentence 'Aziz is doing homework'",
+      "tokens": [
+        "씨는",
+        "숙제를",
+        "아지즈",
+        "해요"
+      ],
+      "answers": [
+        "아지즈 씨는 숙제를 해요"
+      ]
+    },
+    {
+      "id": "b1_u06_l1_e114",
+      "type": "listen_question",
+      "targets": [
+        "b1_u06_l1_g1"
+      ],
+      "prompt_uz": "U nima qilyapti?",
+      "prompt_en": "What is the speaker doing?",
+      "audio_text": "엄마한테 전화해요.",
+      "options": [
+        "Onasiga qo'ng'iroq qilyapti",
+        "Onasi bilan uchrashyapti",
+        "Xat yozyapti",
+        "Ovqat pishiryapti"
+      ],
+      "options_en": [
+        "Calling mum",
+        "Meeting mum",
+        "Writing a letter",
+        "Cooking"
+      ],
+      "answers": [
+        "Onasiga qo'ng'iroq qilyapti"
+      ],
+      "audio": "b528a50295c0.mp3"
+    },
+    {
+      "id": "b1_u06_l1_e115",
+      "type": "listen_question",
+      "targets": [
+        "b1_u06_l1_g2"
+      ],
+      "prompt_uz": "U nimani yaxshi ko'radi?",
+      "prompt_en": "What does the speaker like?",
+      "audio_text": "저는 게임을 좋아해요.",
+      "options": [
+        "O'yinni",
+        "Kinoni",
+        "Musiqani",
+        "Sportni"
+      ],
+      "options_en": [
+        "Games",
+        "Films",
+        "Music",
+        "Sport"
+      ],
+      "answers": [
+        "O'yinni"
+      ],
+      "audio": "2cf9bf71f9fe.mp3"
+    }
+  ],
+  "test": [
+    "b1_u06_l1_e101",
+    "b1_u06_l1_e102",
+    "b1_u06_l1_e103",
+    "b1_u06_l1_e104",
+    "b1_u06_l1_e105",
+    "b1_u06_l1_e106",
+    "b1_u06_l1_e107",
+    "b1_u06_l1_e108",
+    "b1_u06_l1_e109",
+    "b1_u06_l1_e110",
+    "b1_u06_l1_e111",
+    "b1_u06_l1_e112",
+    "b1_u06_l1_e113",
+    "b1_u06_l1_e114",
+    "b1_u06_l1_e115"
+  ],
+  "story": {
+    "title_uz": "Qo'ng'iroq",
+    "title_en": "A phone call",
+    "gate_uz": "TELEFON",
+    "gate_en": "PHONE",
+    "steps": [
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "여보세요? 아지즈 씨, 지금 뭐 해요?",
+        "uz": "Allo? Aziz, hozir nima qilyapsiz?",
+        "en": "Hello? Aziz, what are you doing now?",
+        "audio": "4f0608f0d250.mp3"
+      },
+      {
+        "type": "choose_reply",
+        "speaker": "aziz",
+        "prompt_uz": "Aziz 'Uy vazifasini qilyapman' demoqchi.",
+        "prompt_en": "Aziz wants to say 'I'm doing homework'.",
+        "options": [
+          "숙제를 해요.",
+          "숙제을 해요.",
+          "숙제를 하아요."
+        ],
+        "answer": "숙제를 해요.",
+        "uz": "Uy vazifasini qilyapman.",
+        "en": "I'm doing homework.",
+        "why_uz": "숙제 unli bilan tugaydi → 를; 하다 → 해요.",
+        "why_en": "숙제 ends in a vowel → 를; 하다 → 해요.",
+        "audio": "f06d958c9390.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "숙제가 많아요?",
+        "uz": "Vazifa ko'pmi?",
+        "en": "Do you have a lot of homework?",
+        "audio": "4ac4889ae0e4.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "네, 많아요. 한국어 숙제예요.",
+        "uz": "Ha, ko'p. Koreys tili vazifasi.",
+        "en": "Yes, a lot. It's Korean homework.",
+        "audio": "6aa3f25183cb.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "저는 카페에서 책을 읽어요.",
+        "uz": "Men kafeda kitob o'qiyapman.",
+        "en": "I'm reading a book at a café.",
+        "audio": "6b0217608cb3.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "무슨 책을 읽어요?",
+        "uz": "Qanday kitob o'qiyapsiz?",
+        "en": "What book are you reading?",
+        "audio": "734fa0b93cc7.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "한국 소설이에요. 아지즈 씨, 저녁에 시간 있어요?",
+        "uz": "Koreys romani. Aziz, kechqurun vaqtingiz bormi?",
+        "en": "A Korean novel. Aziz, are you free this evening?",
+        "audio": "d2c2cc89394b.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "네, 있어요.",
+        "uz": "Ha, bor.",
+        "en": "Yes, I am.",
+        "audio": "9c2f475fde7a.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "그럼 같이 영화를 봐요!",
+        "uz": "Unda birga kino ko'raylik!",
+        "en": "Then let's watch a film together!",
+        "audio": "136cbcf95c29.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "좋아요! 저녁도 같이 먹어요.",
+        "uz": "Zo'r! Kechki ovqatni ham birga qilamiz.",
+        "en": "Great! Let's have dinner together too.",
+        "audio": "b32f97c53ab7.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "일곱 시에 만나요.",
+        "uz": "Soat yettida uchrashamiz.",
+        "en": "Let's meet at seven.",
+        "audio": "72b9cb40aa01.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "네, 이따 봐요!",
+        "uz": "Xo'p, keyin ko'rishamiz!",
+        "en": "Okay, see you later!",
+        "audio": "cc8727036f9c.mp3"
+      },
+      {
+        "type": "quiz",
+        "prompt_uz": "Minji kafeda nima qilyapti?",
+        "prompt_en": "What is Minji doing at the café?",
+        "options": [
+          "Kitob o'qiyapti",
+          "Kino ko'ryapti",
+          "Uy vazifasini qilyapti"
+        ],
+        "options_en": [
+          "Reading a book",
+          "Watching a film",
+          "Doing homework"
+        ],
+        "answer": "Kitob o'qiyapti",
+        "why_uz": "카페에서 책을 읽어요.",
+        "why_en": "카페에서 책을 읽어요 — she's reading at a café."
+      }
+    ]
+  }
+}

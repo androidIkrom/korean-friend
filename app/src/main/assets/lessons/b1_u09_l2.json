@@ -1,0 +1,1459 @@
+{
+  "id": "b1_u09_l2",
+  "unit": 9,
+  "lesson": 2,
+  "title_ko": "어디에 있어요?",
+  "title_uz": "Qayerda?",
+  "title_en": "Where is it?",
+  "topic_uz": "Ob-havo va hayot",
+  "topic_en": "Weather and life",
+  "reviewed": false,
+  "words": [
+    {
+      "id": "b1_u09_l2_w001",
+      "ko": "위",
+      "uz": "ust, tepa",
+      "en": "on, above",
+      "pos": "ot",
+      "example_ko": "책상 위에 책이 있어요.",
+      "example_uz": "Stol ustida kitob bor.",
+      "example_en": "There's a book on the desk.",
+      "audio": "62bee4882bb5.mp3",
+      "example_audio": "3503540a5328.mp3"
+    },
+    {
+      "id": "b1_u09_l2_w002",
+      "ko": "아래",
+      "uz": "past, tag",
+      "en": "under, below",
+      "pos": "ot",
+      "example_ko": "의자 아래에 가방이 있어요.",
+      "example_uz": "Stul tagida sumka bor.",
+      "example_en": "There's a bag under the chair.",
+      "audio": "6d36e604d62d.mp3",
+      "example_audio": "31e6951556bf.mp3"
+    },
+    {
+      "id": "b1_u09_l2_w003",
+      "ko": "앞",
+      "uz": "old",
+      "en": "in front of",
+      "pos": "ot",
+      "example_ko": "학교 앞에서 만나요.",
+      "example_uz": "Maktab oldida uchrashamiz.",
+      "example_en": "Let's meet in front of the school.",
+      "audio": "c6417ef25a65.mp3",
+      "example_audio": "01e3414af145.mp3"
+    },
+    {
+      "id": "b1_u09_l2_w004",
+      "ko": "뒤",
+      "uz": "orqa",
+      "en": "behind",
+      "pos": "ot",
+      "example_ko": "집 뒤에 공원이 있어요.",
+      "example_uz": "Uy orqasida park bor.",
+      "example_en": "There's a park behind the house.",
+      "audio": "a47c7ab5e498.mp3",
+      "example_audio": "d44381fc1446.mp3"
+    },
+    {
+      "id": "b1_u09_l2_w005",
+      "ko": "옆",
+      "uz": "yon",
+      "en": "next to",
+      "pos": "ot",
+      "example_ko": "은행 옆에 우체국이 있어요.",
+      "example_uz": "Bank yonida pochta bor.",
+      "example_en": "There's a post office next to the bank.",
+      "audio": "a253760d27e4.mp3",
+      "example_audio": "3252bdb872d7.mp3"
+    },
+    {
+      "id": "b1_u09_l2_w006",
+      "ko": "안",
+      "uz": "ich",
+      "en": "inside",
+      "pos": "ot",
+      "example_ko": "가방 안에 지갑이 있어요.",
+      "example_uz": "Sumka ichida hamyon bor.",
+      "example_en": "The wallet is in the bag.",
+      "audio": "7b683c1e29b0.mp3",
+      "example_audio": "3124564aaa90.mp3"
+    },
+    {
+      "id": "b1_u09_l2_w007",
+      "ko": "밖",
+      "uz": "tashqari",
+      "en": "outside",
+      "pos": "ot",
+      "example_ko": "밖에 비가 와요.",
+      "example_uz": "Tashqarida yomg'ir yog'yapti.",
+      "example_en": "It's raining outside.",
+      "audio": "9639af5aaf6d.mp3",
+      "example_audio": "3c02cfcf6bcc.mp3"
+    },
+    {
+      "id": "b1_u09_l2_w008",
+      "ko": "사이",
+      "uz": "o'rtasi, orasi",
+      "en": "between",
+      "pos": "ot",
+      "example_ko": "은행하고 약국 사이에 있어요.",
+      "example_uz": "Bank bilan dorixona orasida.",
+      "example_en": "It's between the bank and the pharmacy.",
+      "audio": "3742230353b2.mp3",
+      "example_audio": "6bcfd83e49ca.mp3"
+    },
+    {
+      "id": "b1_u09_l2_w009",
+      "ko": "왼쪽",
+      "uz": "chap tomon",
+      "en": "left",
+      "pos": "ot",
+      "example_ko": "왼쪽으로 가세요.",
+      "example_uz": "Chapga boring.",
+      "example_en": "Go left.",
+      "audio": "a0642f8b1f98.mp3",
+      "example_audio": "cc3d29a64815.mp3"
+    },
+    {
+      "id": "b1_u09_l2_w010",
+      "ko": "오른쪽",
+      "uz": "o'ng tomon",
+      "en": "right",
+      "pos": "ot",
+      "example_ko": "화장실은 오른쪽에 있어요.",
+      "example_uz": "Hojatxona o'ng tomonda.",
+      "example_en": "The toilet is on the right.",
+      "audio": "8ac5513d8c8a.mp3",
+      "example_audio": "a9ea196e4a1a.mp3"
+    },
+    {
+      "id": "b1_u09_l2_w011",
+      "ko": "층",
+      "uz": "qavat",
+      "en": "floor",
+      "pos": "ot",
+      "example_ko": "식당은 삼 층에 있어요.",
+      "example_uz": "Oshxona uchinchi qavatda.",
+      "example_en": "The cafeteria is on the third floor.",
+      "audio": "d65b9fad8c13.mp3",
+      "example_audio": "08ab92c6ca84.mp3"
+    },
+    {
+      "id": "b1_u09_l2_w012",
+      "ko": "엘리베이터",
+      "uz": "lift",
+      "en": "elevator",
+      "pos": "ot",
+      "example_ko": "엘리베이터는 저쪽에 있어요.",
+      "example_uz": "Lift anavi tomonda.",
+      "example_en": "The elevator is over there.",
+      "audio": "deb752f61304.mp3",
+      "example_audio": "358984064bb3.mp3"
+    },
+    {
+      "id": "b1_u09_l2_w013",
+      "ko": "계단",
+      "uz": "zina",
+      "en": "stairs",
+      "pos": "ot",
+      "example_ko": "계단으로 올라가세요.",
+      "example_uz": "Zinadan chiqing.",
+      "example_en": "Please go up the stairs.",
+      "audio": "2ae130a8ddbc.mp3",
+      "example_audio": "c86a895e605c.mp3"
+    },
+    {
+      "id": "b1_u09_l2_w014",
+      "ko": "입구",
+      "uz": "kirish",
+      "en": "entrance",
+      "pos": "ot",
+      "example_ko": "입구가 어디예요?",
+      "example_uz": "Kirish qayerda?",
+      "example_en": "Where's the entrance?",
+      "audio": "72f60787cbfc.mp3",
+      "example_audio": "a04c4393598c.mp3"
+    },
+    {
+      "id": "b1_u09_l2_w015",
+      "ko": "출구",
+      "uz": "chiqish",
+      "en": "exit",
+      "pos": "ot",
+      "example_ko": "3번 출구로 나오세요.",
+      "example_uz": "3-chiqishdan chiqing.",
+      "example_en": "Come out of exit 3.",
+      "audio": "c747855e0f49.mp3",
+      "example_audio": "97bb82e2a11d.mp3"
+    },
+    {
+      "id": "b1_u09_l2_w016",
+      "ko": "건물",
+      "uz": "bino",
+      "en": "building",
+      "pos": "ot",
+      "example_ko": "저 건물 이 층에 있어요.",
+      "example_uz": "Anavi binoning ikkinchi qavatida.",
+      "example_en": "It's on the second floor of that building.",
+      "audio": "56d57a1fbd21.mp3",
+      "example_audio": "904183be067c.mp3"
+    },
+    {
+      "id": "b1_u09_l2_w017",
+      "ko": "지하철역",
+      "uz": "metro bekati",
+      "en": "subway station",
+      "pos": "ot",
+      "example_ko": "지하철역이 근처에 있어요?",
+      "example_uz": "Yaqin atrofda metro bekati bormi?",
+      "example_en": "Is there a subway station nearby?",
+      "audio": "5708f98fdca3.mp3",
+      "example_audio": "2c5c7e98b635.mp3"
+    },
+    {
+      "id": "b1_u09_l2_w018",
+      "ko": "정류장",
+      "uz": "bekat (avtobus)",
+      "en": "bus stop",
+      "pos": "ot",
+      "example_ko": "정류장은 길 건너편에 있어요.",
+      "example_uz": "Bekat yo'lning narigi tomonida.",
+      "example_en": "The bus stop is across the road.",
+      "audio": "612aefb5507b.mp3",
+      "example_audio": "50aac43cae66.mp3"
+    },
+    {
+      "id": "b1_u09_l2_w019",
+      "ko": "근처",
+      "uz": "yaqin atrof",
+      "en": "nearby",
+      "pos": "ot",
+      "example_ko": "근처에 편의점이 있어요?",
+      "example_uz": "Yaqinda do'kon bormi?",
+      "example_en": "Is there a convenience store nearby?",
+      "audio": "e62c481aeb7f.mp3",
+      "example_audio": "3cdd4b780e76.mp3"
+    },
+    {
+      "id": "b1_u09_l2_w020",
+      "ko": "건너편",
+      "uz": "narigi tomon",
+      "en": "across, opposite",
+      "pos": "ot",
+      "example_ko": "약국 건너편에 있어요.",
+      "example_uz": "Dorixonaning qarshisida.",
+      "example_en": "It's across from the pharmacy.",
+      "audio": "489ce7fe169a.mp3",
+      "example_audio": "4b0b89749778.mp3"
+    },
+    {
+      "id": "b1_u09_l2_w021",
+      "ko": "쭉",
+      "uz": "to'g'ri, to'xtamay",
+      "en": "straight",
+      "pos": "ravish",
+      "example_ko": "쭉 가세요.",
+      "example_uz": "To'g'ri boring.",
+      "example_en": "Go straight.",
+      "audio": "3b4ac92bc927.mp3",
+      "example_audio": "c01dcd1d8b97.mp3"
+    },
+    {
+      "id": "b1_u09_l2_w022",
+      "ko": "찾다",
+      "uz": "qidirmoq, topmoq",
+      "en": "to look for, to find",
+      "pos": "fe'l",
+      "example_ko": "열쇠를 찾아요.",
+      "example_uz": "Kalitni qidiryapman.",
+      "example_en": "I'm looking for my key.",
+      "audio": "64505d627532.mp3",
+      "example_audio": "4cca3d7154e9.mp3"
+    },
+    {
+      "id": "b1_u09_l2_w023",
+      "ko": "올라가다",
+      "uz": "yuqoriga chiqmoq",
+      "en": "to go up",
+      "pos": "fe'l",
+      "example_ko": "이 층으로 올라가세요.",
+      "example_uz": "Ikkinchi qavatga chiqing.",
+      "example_en": "Please go up to the second floor.",
+      "audio": "ba44e27dcc58.mp3",
+      "example_audio": "0fec8c8cc433.mp3"
+    },
+    {
+      "id": "b1_u09_l2_w024",
+      "ko": "내려가다",
+      "uz": "pastga tushmoq",
+      "en": "to go down",
+      "pos": "fe'l",
+      "example_ko": "지하로 내려가세요.",
+      "example_uz": "Yerto'laga tushing.",
+      "example_en": "Please go down to the basement.",
+      "audio": "b420fe8e333a.mp3",
+      "example_audio": "525087dac824.mp3"
+    },
+    {
+      "id": "b1_u09_l2_w025",
+      "ko": "실례합니다",
+      "uz": "kechirasiz (murojaat)",
+      "en": "excuse me",
+      "pos": "ibora",
+      "example_ko": "실례합니다. 화장실이 어디예요?",
+      "example_uz": "Kechirasiz, hojatxona qayerda?",
+      "example_en": "Excuse me, where's the toilet?",
+      "audio": "589f24529b8d.mp3",
+      "example_audio": "1e955b6da53a.mp3"
+    },
+    {
+      "id": "b1_u09_l2_w026",
+      "ko": "이쪽",
+      "uz": "bu tomon",
+      "en": "this way",
+      "pos": "ot",
+      "example_ko": "이쪽으로 오세요.",
+      "example_uz": "Bu tomonga keling.",
+      "example_en": "Please come this way.",
+      "audio": "99ec2ad5f1cc.mp3",
+      "example_audio": "544dbc9f70a4.mp3"
+    },
+    {
+      "id": "b1_u09_l2_w027",
+      "ko": "저쪽",
+      "uz": "anavi tomon",
+      "en": "that way",
+      "pos": "ot",
+      "example_ko": "출구는 저쪽이에요.",
+      "example_uz": "Chiqish anavi tomonda.",
+      "example_en": "The exit is that way.",
+      "audio": "5049176d85ea.mp3",
+      "example_audio": "af5ff476966b.mp3"
+    },
+    {
+      "id": "b1_u09_l2_w028",
+      "ko": "지하",
+      "uz": "yerto'la, yer osti qavat",
+      "en": "basement",
+      "pos": "ot",
+      "example_ko": "주차장은 지하에 있어요.",
+      "example_uz": "Avtoturargoh yer ostida.",
+      "example_en": "The car park is in the basement.",
+      "audio": "51b5fa94aa0b.mp3",
+      "example_audio": "17b497a74640.mp3"
+    },
+    {
+      "id": "b1_u09_l2_w029",
+      "ko": "소파",
+      "uz": "divan",
+      "en": "sofa",
+      "pos": "ot",
+      "example_ko": "소파 위에 고양이가 있어요.",
+      "example_uz": "Divan ustida mushuk bor.",
+      "example_en": "There's a cat on the sofa.",
+      "audio": "94562373827d.mp3",
+      "example_audio": "808658012ace.mp3"
+    },
+    {
+      "id": "b1_u09_l2_w030",
+      "ko": "책장",
+      "uz": "kitob javoni",
+      "en": "bookshelf",
+      "pos": "ot",
+      "example_ko": "책장에 사전이 있어요.",
+      "example_uz": "Javonda lug'at bor.",
+      "example_en": "There's a dictionary on the bookshelf.",
+      "audio": "523da817a50d.mp3",
+      "example_audio": "0d35709db279.mp3"
+    },
+    {
+      "id": "b1_u09_l2_w031",
+      "ko": "서랍",
+      "uz": "tortma",
+      "en": "drawer",
+      "pos": "ot",
+      "example_ko": "서랍 안에 가위가 있어요.",
+      "example_uz": "Tortma ichida qaychi bor.",
+      "example_en": "The scissors are in the drawer.",
+      "audio": "7a9b00294495.mp3",
+      "example_audio": "1ae5117ccce4.mp3"
+    },
+    {
+      "id": "b1_u09_l2_w032",
+      "ko": "리모컨",
+      "uz": "pult",
+      "en": "remote control",
+      "pos": "ot",
+      "example_ko": "리모컨이 어디에 있어요?",
+      "example_uz": "Pult qayerda?",
+      "example_en": "Where's the remote?",
+      "audio": "ed823b7e6557.mp3",
+      "example_audio": "4259da4c9311.mp3"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "b1_u09_l2_g1",
+      "pattern": "N에 있다/없다",
+      "meaning_uz": "...da bor / yo'q (joylashuv)",
+      "meaning_en": "There is / isn't N at a place",
+      "explanation_md": "**N에 있어요** — \"...da bor\", \"...da turibdi\". Narsa yoki odam **qayerda ekanini** aytadi.\n\n**지갑이 가방 안에 있어요.** — *Hamyon sumka ichida.*  \n**화장실이 어디에 있어요?** — *Hojatxona qayerda?*\n\n### Joy so'zlari\n\n**N + 위/아래/앞/뒤/옆/안/밖 + 에**:\n\n- **책상 위에** — stol ustida\n- **의자 아래에** — stul tagida\n- **은행 옆에** — bank yonida\n- **A하고 B 사이에** — A bilan B orasida\n\n### Esda tuting\n\n- Tartib o'zbekchadagidek: **stol + ust + -da** = **책상 + 위 + 에**.\n- Joylashuvda **에** (~~에서~~ emas): **집에 있어요.**\n- Kishi uchun hurmat bilan: **선생님은 교실에 계세요.**",
+      "explanation_md_en": "**N에 있어요** means \"is at / in N\". It says **where** something or someone is.\n\n**지갑이 가방 안에 있어요.** — *The wallet is in the bag.*  \n**화장실이 어디에 있어요?** — *Where's the toilet?*\n\n### Position words\n\n**N + 위/아래/앞/뒤/옆/안/밖 + 에**:\n\n- **책상 위에** — on the desk\n- **의자 아래에** — under the chair\n- **은행 옆에** — next to the bank\n- **A하고 B 사이에** — between A and B\n\n### Remember\n\n- The order is reversed from English: **desk + top + at** = **책상 + 위 + 에** (\"on the desk\").\n- Location takes **에** (not ~~에서~~): **집에 있어요.**\n- For people you respect: **선생님은 교실에 계세요.**",
+      "formation": [
+        {
+          "condition_uz": "Joylashuv",
+          "condition_en": "Location",
+          "rule": "N에 있어요/없어요",
+          "example": "집에 있어요, 교실에 없어요"
+        },
+        {
+          "condition_uz": "Joy so'zi bilan",
+          "condition_en": "With a position word",
+          "rule": "N + 위/앞/옆… + 에",
+          "example": "책상 위에, 은행 옆에"
+        },
+        {
+          "condition_uz": "Ikki narsa orasi",
+          "condition_en": "Between two things",
+          "rule": "A하고 B 사이에",
+          "example": "은행하고 약국 사이에"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "지갑이 가방 안에 있어요.",
+          "uz": "Hamyon sumka ichida.",
+          "en": "The wallet is in the bag.",
+          "audio": "9f09f606da02.mp3"
+        },
+        {
+          "ko": "화장실이 어디에 있어요?",
+          "uz": "Hojatxona qayerda?",
+          "en": "Where's the toilet?",
+          "audio": "bb51c6705352.mp3"
+        },
+        {
+          "ko": "은행 옆에 우체국이 있어요.",
+          "uz": "Bank yonida pochta bor.",
+          "en": "There's a post office next to the bank.",
+          "audio": "3252bdb872d7.mp3"
+        },
+        {
+          "ko": "리모컨이 소파 위에 있어요.",
+          "uz": "Pult divan ustida.",
+          "en": "The remote is on the sofa.",
+          "audio": "62a125cffd5e.mp3"
+        },
+        {
+          "ko": "근처에 지하철역이 없어요.",
+          "uz": "Yaqinda metro bekati yo'q.",
+          "en": "There's no subway station nearby.",
+          "audio": "b7e31cbdb345.mp3"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "가방 안에서 있어요.",
+          "right": "가방 안에 있어요.",
+          "why_uz": "Joylashuv — 에.",
+          "why_en": "Location takes 에."
+        },
+        {
+          "wrong": "위 책상에 있어요.",
+          "right": "책상 위에 있어요.",
+          "why_uz": "Avval narsa, keyin joy so'zi: 책상 위.",
+          "why_en": "The thing first, then the position: 책상 위."
+        },
+        {
+          "wrong": "은행하고 약국 사이 있어요.",
+          "right": "은행하고 약국 사이에 있어요.",
+          "why_uz": "사이 dan keyin 에 kerak.",
+          "why_en": "사이 needs 에 after it."
+        }
+      ],
+      "uz_compare": "O'zbekcha bilan aynan bir xil tartib: 'stol USTIDA' = 책상 위에, 'bank YONIDA' = 은행 옆에.",
+      "compare_en": "English puts the position word first ('ON the desk'); Korean puts it after the noun: 책상 위에 ('desk-top-at')."
+    },
+    {
+      "id": "b1_u09_l2_g2",
+      "pattern": "N(으)로",
+      "meaning_uz": "...ga (tomon), ...dan (yo'l)",
+      "meaning_en": "Towards N; by way of N",
+      "explanation_md": "**(으)로** harakatning **yo'nalishini** ko'rsatadi: \"...ga qarab\", \"...tomonga\".\n\n**오른쪽으로 가세요.** — *O'ngga boring.*  \n**이 층으로 올라가세요.** — *Ikkinchi qavatga chiqing.*\n\n### Qanday yasaladi\n\n- Ot **받침siz** yoki **ㄹ bilan** tugasa → **-로**: 학교 → **학교로**, 지하철 → **지하철로**\n- Ot **받침 bilan** (ㄹ dan boshqa) → **-으로**: 왼쪽 → **왼쪽으로**, 계단 → **계단으로**\n\n### 에 va (으)로\n\n- **N에 가요** — manzil: *maktabga boraman.*\n- **N(으)로 가요** — yo'nalish: *maktab tomonga boraman.*\n\n### Esda tuting\n\n- Yo'l orqali: **계단으로 올라가세요.** — *Zinadan chiqing.*\n- Transport vositasi ham (으)로: **지하철로 가요.** — *Metroda boraman.*",
+      "explanation_md_en": "**(으)로** marks the **direction** of movement: \"towards\", \"to(wards) the …\".\n\n**오른쪽으로 가세요.** — *Go right.*  \n**이 층으로 올라가세요.** — *Go up to the second floor.*\n\n### How to form it\n\n- Noun **without 받침** or **ending in ㄹ** → **-로**: 학교 → **학교로**, 지하철 → **지하철로**\n- Noun **with 받침** (other than ㄹ) → **-으로**: 왼쪽 → **왼쪽으로**, 계단 → **계단으로**\n\n### 에 vs (으)로\n\n- **N에 가요** — destination: *I'm going to school.*\n- **N(으)로 가요** — direction: *I'm heading towards school.*\n\n### Remember\n\n- By way of: **계단으로 올라가세요.** — *Take the stairs up.*\n- Means of transport also take (으)로: **지하철로 가요.** — *I go by subway.*",
+      "formation": [
+        {
+          "condition_uz": "받침 yo'q / ㄹ",
+          "condition_en": "No 받침 / ends in ㄹ",
+          "rule": "N + 로",
+          "example": "학교로, 지하철로, 지하로"
+        },
+        {
+          "condition_uz": "받침 bor",
+          "condition_en": "With 받침",
+          "rule": "N + 으로",
+          "example": "왼쪽으로, 오른쪽으로, 계단으로"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "오른쪽으로 가세요.",
+          "uz": "O'ngga boring.",
+          "en": "Go right.",
+          "audio": "66aa0103e72e.mp3"
+        },
+        {
+          "ko": "이쪽으로 오세요.",
+          "uz": "Bu tomonga keling.",
+          "en": "Please come this way.",
+          "audio": "544dbc9f70a4.mp3"
+        },
+        {
+          "ko": "계단으로 올라가세요.",
+          "uz": "Zinadan chiqing.",
+          "en": "Take the stairs up.",
+          "audio": "c86a895e605c.mp3"
+        },
+        {
+          "ko": "지하로 내려가세요.",
+          "uz": "Yerto'laga tushing.",
+          "en": "Go down to the basement.",
+          "audio": "525087dac824.mp3"
+        },
+        {
+          "ko": "3번 출구로 나오세요.",
+          "uz": "3-chiqishdan chiqing.",
+          "en": "Come out of exit 3.",
+          "audio": "97bb82e2a11d.mp3"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "왼쪽로 가세요.",
+          "right": "왼쪽으로 가세요.",
+          "why_uz": "왼쪽 받침 bilan: 으로.",
+          "why_en": "왼쪽 has 받침: 으로."
+        },
+        {
+          "wrong": "지하철으로 가요.",
+          "right": "지하철로 가요.",
+          "why_uz": "ㄹ bilan tugasa — 로.",
+          "why_en": "Nouns ending in ㄹ take 로."
+        },
+        {
+          "wrong": "오른쪽에 가세요.",
+          "right": "오른쪽으로 가세요.",
+          "why_uz": "Yo'nalish — (으)로.",
+          "why_en": "Direction takes (으)로."
+        }
+      ],
+      "uz_compare": "O'zbekchadagi '-ga (qarab)' yoki '-dan' (yo'l) ga o'xshaydi: 'o'ngGA boring' = 오른쪽으로 가세요, 'zinaDAN chiqing' = 계단으로 올라가세요.",
+      "compare_en": "Like English 'towards / to the' with directions, and 'by' with routes: 'go (to the) right' = 오른쪽으로 가세요, 'go by the stairs' = 계단으로 가세요."
+    }
+  ],
+  "dialogue": {
+    "lines": [
+      {
+        "speaker": "aziz",
+        "ko": "실례합니다. 서점이 어디에 있어요?",
+        "uz": "Kechirasiz, kitob do'koni qayerda?",
+        "en": "Excuse me, where's the bookshop?",
+        "audio": "17ea9a6baaad.mp3"
+      },
+      {
+        "speaker": "passerby",
+        "ko": "서점이요? 저 건물 이 층에 있어요.",
+        "uz": "Kitob do'konimi? Anavi binoning ikkinchi qavatida.",
+        "en": "The bookshop? It's on the second floor of that building.",
+        "audio": "17106ea33ad1.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "저 건물이요? 은행 옆에 있어요?",
+        "uz": "Anavi binomi? Bank yonidami?",
+        "en": "That building? Is it next to the bank?",
+        "audio": "3cbf1d6e2de6.mp3"
+      },
+      {
+        "speaker": "passerby",
+        "ko": "네, 은행하고 약국 사이에 있어요.",
+        "uz": "Ha, bank bilan dorixona orasida.",
+        "en": "Yes, it's between the bank and the pharmacy.",
+        "audio": "8bac0daae3a5.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "엘리베이터가 있어요?",
+        "uz": "Lift bormi?",
+        "en": "Is there an elevator?",
+        "audio": "6b487f3ec8f1.mp3"
+      },
+      {
+        "speaker": "passerby",
+        "ko": "아니요, 엘리베이터는 없어요. 계단으로 올라가세요.",
+        "uz": "Yo'q, lift yo'q. Zinadan chiqing.",
+        "en": "No, there's no elevator. Take the stairs up.",
+        "audio": "30da21c800e5.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "고맙습니다. 그리고 지하철역은 어디에 있어요?",
+        "uz": "Rahmat. Metro bekati-chi, qayerda?",
+        "en": "Thank you. And where's the subway station?",
+        "audio": "38a38185d580.mp3"
+      },
+      {
+        "speaker": "passerby",
+        "ko": "이쪽으로 쭉 가세요. 그리고 오른쪽으로 가세요.",
+        "uz": "Bu tomonga to'g'ri boring. Keyin o'ngga buriling.",
+        "en": "Go straight this way. Then turn right.",
+        "audio": "8d048ef21189.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "오른쪽으로요?",
+        "uz": "O'nggami?",
+        "en": "To the right?",
+        "audio": "cd5fdf4f99f3.mp3"
+      },
+      {
+        "speaker": "passerby",
+        "ko": "네, 편의점 앞에 지하철역 입구가 있어요.",
+        "uz": "Ha, do'kon oldida metroning kirishi bor.",
+        "en": "Yes, the subway entrance is in front of the convenience store.",
+        "audio": "ad3722a855cc.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "정말 감사합니다!",
+        "uz": "Katta rahmat!",
+        "en": "Thank you so much!",
+        "audio": "1ace399a2b72.mp3"
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b1_u09_l2_e001",
+      "type": "conjugate",
+      "targets": [
+        "b1_u09_l2_g1"
+      ],
+      "prompt_uz": "'Stol ustida' iborasini yasang",
+      "prompt_en": "Make 'on the desk'",
+      "base": "책상",
+      "form": "+ 위 + 에",
+      "answers": [
+        "책상 위에"
+      ]
+    },
+    {
+      "id": "b1_u09_l2_e002",
+      "type": "conjugate",
+      "targets": [
+        "b1_u09_l2_g1"
+      ],
+      "prompt_uz": "'Uyda bor' shaklini yasang",
+      "prompt_en": "Make 'is at home'",
+      "base": "집",
+      "form": "-에 있어요",
+      "answers": [
+        "집에 있어요"
+      ]
+    },
+    {
+      "id": "b1_u09_l2_e003",
+      "type": "conjugate",
+      "targets": [
+        "b1_u09_l2_g2"
+      ],
+      "prompt_uz": "'Chapga' (yo'nalish)",
+      "prompt_en": "'to the left' (direction)",
+      "base": "왼쪽",
+      "form": "-(으)로",
+      "answers": [
+        "왼쪽으로"
+      ],
+      "hint_uz": "받침 bor → 으로",
+      "hint_en": "With 받침 → 으로"
+    },
+    {
+      "id": "b1_u09_l2_e004",
+      "type": "conjugate",
+      "targets": [
+        "b1_u09_l2_g2"
+      ],
+      "prompt_uz": "'Metroda' (transport)",
+      "prompt_en": "'by subway'",
+      "base": "지하철",
+      "form": "-(으)로",
+      "answers": [
+        "지하철로"
+      ],
+      "hint_uz": "ㄹ bilan → 로",
+      "hint_en": "Ends in ㄹ → 로"
+    },
+    {
+      "id": "b1_u09_l2_e005",
+      "type": "fill_blank",
+      "targets": [
+        "b1_u09_l2_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Sumka stul tagida.'",
+      "prompt_en": "Fill in the blank: 'The bag is under the chair.'",
+      "sentence": "가방이 의자 ___에 있어요.",
+      "answers": [
+        "아래",
+        "밑"
+      ]
+    },
+    {
+      "id": "b1_u09_l2_e006",
+      "type": "fill_blank",
+      "targets": [
+        "b1_u09_l2_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Bank yonida pochta bor.'",
+      "prompt_en": "Fill in the blank: 'There's a post office next to the bank.'",
+      "sentence": "은행 ___에 우체국이 있어요.",
+      "answers": [
+        "옆"
+      ]
+    },
+    {
+      "id": "b1_u09_l2_e007",
+      "type": "fill_blank",
+      "targets": [
+        "b1_u09_l2_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Bu tomonga keling.'",
+      "prompt_en": "Fill in the blank: 'Please come this way.'",
+      "sentence": "이쪽___ 오세요.",
+      "answers": [
+        "으로"
+      ]
+    },
+    {
+      "id": "b1_u09_l2_e008",
+      "type": "fill_blank",
+      "targets": [
+        "b1_u09_l2_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Zinadan chiqing.'",
+      "prompt_en": "Fill in the blank: 'Take the stairs up.'",
+      "sentence": "계단___ 올라가세요.",
+      "answers": [
+        "으로"
+      ]
+    },
+    {
+      "id": "b1_u09_l2_e009",
+      "type": "situation_choice",
+      "targets": [
+        "b1_u09_l2_w025",
+        "b1_u09_l2_g1"
+      ],
+      "prompt_uz": "Ko'chada notanish odamdan hojatxona qayerdaligini so'rang:",
+      "prompt_en": "Ask a stranger where the toilet is:",
+      "options": [
+        "실례합니다. 화장실이 어디에 있어요?",
+        "실례합니다. 화장실이 어디에서 있어요?",
+        "실례합니다. 화장실이 어디예요 있어요?",
+        "실례합니다. 화장실에 어디 있어요?"
+      ],
+      "answers": [
+        "실례합니다. 화장실이 어디에 있어요?"
+      ]
+    },
+    {
+      "id": "b1_u09_l2_e010",
+      "type": "situation_choice",
+      "targets": [
+        "b1_u09_l2_g2"
+      ],
+      "prompt_uz": "Yo'l ko'rsating: 'O'ngga boring.'",
+      "prompt_en": "Give directions: 'Go right.'",
+      "options": [
+        "오른쪽으로 가세요.",
+        "오른쪽에 가세요.",
+        "오른쪽로 가세요.",
+        "오른쪽을 가세요."
+      ],
+      "answers": [
+        "오른쪽으로 가세요."
+      ]
+    },
+    {
+      "id": "b1_u09_l2_e011",
+      "type": "situation_choice",
+      "targets": [
+        "b1_u09_l2_g1"
+      ],
+      "prompt_uz": "Pult divan ustida ekanini ayting:",
+      "prompt_en": "Say the remote is on the sofa:",
+      "options": [
+        "리모컨이 소파 위에 있어요.",
+        "리모컨이 위 소파에 있어요.",
+        "리모컨이 소파 위에서 있어요.",
+        "리모컨이 소파에 위 있어요."
+      ],
+      "answers": [
+        "리모컨이 소파 위에 있어요."
+      ]
+    },
+    {
+      "id": "b1_u09_l2_e012",
+      "type": "find_error",
+      "targets": [
+        "b1_u09_l2_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "지갑이 가방 안에서 있어요.",
+      "answers": [
+        "지갑이 가방 안에 있어요"
+      ],
+      "why_uz": "Joylashuv — 에.",
+      "why_en": "Location takes 에."
+    },
+    {
+      "id": "b1_u09_l2_e013",
+      "type": "find_error",
+      "targets": [
+        "b1_u09_l2_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "위 책상에 사전이 있어요.",
+      "answers": [
+        "책상 위에 사전이 있어요"
+      ],
+      "why_uz": "Avval narsa, keyin joy so'zi: 책상 위.",
+      "why_en": "The thing first, then the position: 책상 위."
+    },
+    {
+      "id": "b1_u09_l2_e014",
+      "type": "find_error",
+      "targets": [
+        "b1_u09_l2_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "왼쪽로 가세요.",
+      "answers": [
+        "왼쪽으로 가세요"
+      ],
+      "why_uz": "왼쪽 받침 bilan: 으로.",
+      "why_en": "왼쪽 has 받침: 으로."
+    },
+    {
+      "id": "b1_u09_l2_e015",
+      "type": "translate",
+      "targets": [
+        "b1_u09_l2_g1"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Hamyon sumka ichida.",
+      "source_en": "The wallet is in the bag.",
+      "answers": [
+        "지갑이 가방 안에 있어요",
+        "지갑은 가방 안에 있어요"
+      ]
+    },
+    {
+      "id": "b1_u09_l2_e016",
+      "type": "translate",
+      "targets": [
+        "b1_u09_l2_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "To'g'ri boring, keyin chapga buriling.",
+      "source_en": "Go straight, then turn left.",
+      "answers": [
+        "쭉 가세요. 그리고 왼쪽으로 가세요",
+        "쭉 가고 왼쪽으로 가세요",
+        "쭉 가세요. 왼쪽으로 가세요"
+      ]
+    },
+    {
+      "id": "b1_u09_l2_e017",
+      "type": "translate",
+      "targets": [
+        "b1_u09_l2_g1"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Yaqinda metro bekati bormi?",
+      "source_en": "Is there a subway station nearby?",
+      "answers": [
+        "근처에 지하철역이 있어요",
+        "근처에 지하철역이 있어요?"
+      ]
+    },
+    {
+      "id": "b1_u09_l2_e018",
+      "type": "build_sentence",
+      "targets": [
+        "b1_u09_l2_g1"
+      ],
+      "prompt_uz": "'Bank bilan dorixona orasida' gapini tuzing",
+      "prompt_en": "Build the sentence 'It's between the bank and the pharmacy'",
+      "tokens": [
+        "은행하고",
+        "있어요",
+        "사이에",
+        "약국"
+      ],
+      "answers": [
+        "은행하고 약국 사이에 있어요"
+      ]
+    },
+    {
+      "id": "b1_u09_l2_e019",
+      "type": "build_sentence",
+      "targets": [
+        "b1_u09_l2_g2"
+      ],
+      "prompt_uz": "'Ikkinchi qavatga chiqing' gapini tuzing",
+      "prompt_en": "Build the sentence 'Please go up to the second floor'",
+      "tokens": [
+        "올라가세요",
+        "층으로",
+        "이"
+      ],
+      "answers": [
+        "이 층으로 올라가세요"
+      ]
+    },
+    {
+      "id": "b1_u09_l2_e020",
+      "type": "build_sentence",
+      "targets": [
+        "b1_u09_l2_g1"
+      ],
+      "prompt_uz": "'Uy orqasida park bor' gapini tuzing",
+      "prompt_en": "Build the sentence 'There's a park behind the house'",
+      "tokens": [
+        "뒤에",
+        "공원이",
+        "집",
+        "있어요"
+      ],
+      "answers": [
+        "집 뒤에 공원이 있어요"
+      ]
+    },
+    {
+      "id": "b1_u09_l2_e021",
+      "type": "listen_question",
+      "targets": [
+        "b1_u09_l2_g1"
+      ],
+      "prompt_uz": "Kitob do'koni qayerda?",
+      "prompt_en": "Where is the bookshop?",
+      "audio_text": "서점은 은행 옆에 있어요.",
+      "options": [
+        "Bank yonida",
+        "Bank orqasida",
+        "Bank oldida",
+        "Bank ichida"
+      ],
+      "options_en": [
+        "Next to the bank",
+        "Behind the bank",
+        "In front of the bank",
+        "Inside the bank"
+      ],
+      "answers": [
+        "Bank yonida"
+      ],
+      "audio": "15f979ff6224.mp3"
+    },
+    {
+      "id": "b1_u09_l2_e022",
+      "type": "listen_question",
+      "targets": [
+        "b1_u09_l2_g2"
+      ],
+      "prompt_uz": "Qaysi tomonga borish kerak?",
+      "prompt_en": "Which way should you go?",
+      "audio_text": "오른쪽으로 가세요.",
+      "options": [
+        "O'ngga",
+        "Chapga",
+        "To'g'ri",
+        "Orqaga"
+      ],
+      "options_en": [
+        "Right",
+        "Left",
+        "Straight",
+        "Back"
+      ],
+      "answers": [
+        "O'ngga"
+      ],
+      "audio": "66aa0103e72e.mp3"
+    },
+    {
+      "id": "b1_u09_l2_e023",
+      "type": "listen_question",
+      "targets": [
+        "b1_u09_l2_g1"
+      ],
+      "prompt_uz": "Kalit qayerda?",
+      "prompt_en": "Where is the key?",
+      "audio_text": "열쇠는 서랍 안에 있어요.",
+      "options": [
+        "Tortma ichida",
+        "Stol ustida",
+        "Sumkada",
+        "Divanda"
+      ],
+      "options_en": [
+        "In the drawer",
+        "On the desk",
+        "In the bag",
+        "On the sofa"
+      ],
+      "answers": [
+        "Tortma ichida"
+      ],
+      "audio": "a6004902b299.mp3"
+    },
+    {
+      "id": "b1_u09_l2_e024",
+      "type": "listen_question",
+      "targets": [
+        "b1_u09_l2_g1",
+        "b1_u09_l2_g2"
+      ],
+      "prompt_uz": "Oshxona qayerda?",
+      "prompt_en": "Where is the cafeteria?",
+      "audio_text": "식당은 지하에 있어요. 계단으로 내려가세요.",
+      "options": [
+        "Yer ostida",
+        "Ikkinchi qavatda",
+        "Tashqarida",
+        "Uchinchi qavatda"
+      ],
+      "options_en": [
+        "In the basement",
+        "On the second floor",
+        "Outside",
+        "On the third floor"
+      ],
+      "answers": [
+        "Yer ostida"
+      ],
+      "audio": "77d4143d8dfc.mp3"
+    },
+    {
+      "id": "b1_u09_l2_e101",
+      "type": "conjugate",
+      "targets": [
+        "b1_u09_l2_g1"
+      ],
+      "prompt_uz": "'Bank oldida' iborasini yasang",
+      "prompt_en": "Make 'in front of the bank'",
+      "base": "은행",
+      "form": "+ 앞 + 에",
+      "answers": [
+        "은행 앞에"
+      ]
+    },
+    {
+      "id": "b1_u09_l2_e102",
+      "type": "conjugate",
+      "targets": [
+        "b1_u09_l2_g2"
+      ],
+      "prompt_uz": "'O'ngga' (yo'nalish)",
+      "prompt_en": "'to the right' (direction)",
+      "base": "오른쪽",
+      "form": "-(으)로",
+      "answers": [
+        "오른쪽으로"
+      ]
+    },
+    {
+      "id": "b1_u09_l2_e103",
+      "type": "conjugate",
+      "targets": [
+        "b1_u09_l2_g2"
+      ],
+      "prompt_uz": "'Maktab tomonga' (yo'nalish)",
+      "prompt_en": "'towards school' (direction)",
+      "base": "학교",
+      "form": "-(으)로",
+      "answers": [
+        "학교로"
+      ]
+    },
+    {
+      "id": "b1_u09_l2_e104",
+      "type": "fill_blank",
+      "targets": [
+        "b1_u09_l2_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Tashqarida yomg'ir yog'yapti.'",
+      "prompt_en": "Fill in the blank: 'It's raining outside.'",
+      "sentence": "___에 비가 와요.",
+      "answers": [
+        "밖"
+      ]
+    },
+    {
+      "id": "b1_u09_l2_e105",
+      "type": "fill_blank",
+      "targets": [
+        "b1_u09_l2_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Yerto'laga tushing.'",
+      "prompt_en": "Fill in the blank: 'Go down to the basement.'",
+      "sentence": "지하___ 내려가세요.",
+      "answers": [
+        "로"
+      ]
+    },
+    {
+      "id": "b1_u09_l2_e106",
+      "type": "situation_choice",
+      "targets": [
+        "b1_u09_l2_g1"
+      ],
+      "prompt_uz": "Kitob javonda ekanini ayting:",
+      "prompt_en": "Say the dictionary is on the bookshelf:",
+      "options": [
+        "사전이 책장에 있어요.",
+        "사전이 책장에서 있어요.",
+        "사전이 책장으로 있어요.",
+        "사전이 책장이 있어요."
+      ],
+      "answers": [
+        "사전이 책장에 있어요."
+      ]
+    },
+    {
+      "id": "b1_u09_l2_e107",
+      "type": "situation_choice",
+      "targets": [
+        "b1_u09_l2_g2"
+      ],
+      "prompt_uz": "Mehmonga 'Bu tomonga keling' deng:",
+      "prompt_en": "Tell a guest 'Please come this way':",
+      "options": [
+        "이쪽으로 오세요.",
+        "이쪽에 오세요.",
+        "이쪽로 오세요.",
+        "이쪽에서 오세요."
+      ],
+      "answers": [
+        "이쪽으로 오세요."
+      ]
+    },
+    {
+      "id": "b1_u09_l2_e108",
+      "type": "situation_choice",
+      "targets": [
+        "b1_u09_l2_g1"
+      ],
+      "prompt_uz": "O'qituvchi sinfda yo'qligini ayting:",
+      "prompt_en": "Say the teacher is not in the classroom:",
+      "options": [
+        "선생님은 교실에 안 계세요.",
+        "선생님은 교실에서 없어요.",
+        "선생님은 교실로 없어요.",
+        "선생님은 교실에 안 있어요."
+      ],
+      "answers": [
+        "선생님은 교실에 안 계세요."
+      ]
+    },
+    {
+      "id": "b1_u09_l2_e109",
+      "type": "find_error",
+      "targets": [
+        "b1_u09_l2_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "지하철으로 학교에 가요.",
+      "answers": [
+        "지하철로 학교에 가요"
+      ],
+      "why_uz": "ㄹ bilan tugasa — 로.",
+      "why_en": "Nouns ending in ㄹ take 로."
+    },
+    {
+      "id": "b1_u09_l2_e110",
+      "type": "find_error",
+      "targets": [
+        "b1_u09_l2_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "은행하고 약국 사이 있어요.",
+      "answers": [
+        "은행하고 약국 사이에 있어요"
+      ],
+      "why_uz": "사이 dan keyin 에.",
+      "why_en": "사이 needs 에."
+    },
+    {
+      "id": "b1_u09_l2_e111",
+      "type": "translate",
+      "targets": [
+        "b1_u09_l2_g1"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Pult qayerda?",
+      "source_en": "Where's the remote?",
+      "answers": [
+        "리모컨이 어디에 있어요",
+        "리모컨이 어디 있어요",
+        "리모컨이 어디에 있어요?",
+        "리모컨이 어디 있어요?"
+      ]
+    },
+    {
+      "id": "b1_u09_l2_e112",
+      "type": "translate",
+      "targets": [
+        "b1_u09_l2_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "3-chiqishdan chiqing.",
+      "source_en": "Come out of exit 3.",
+      "answers": [
+        "3번 출구로 나오세요",
+        "삼 번 출구로 나오세요"
+      ]
+    },
+    {
+      "id": "b1_u09_l2_e113",
+      "type": "build_sentence",
+      "targets": [
+        "b1_u09_l2_g1"
+      ],
+      "prompt_uz": "'Stol ustida kitob bor' gapini tuzing",
+      "prompt_en": "Build the sentence 'There's a book on the desk'",
+      "tokens": [
+        "있어요",
+        "위에",
+        "책상",
+        "책이"
+      ],
+      "answers": [
+        "책상 위에 책이 있어요"
+      ]
+    },
+    {
+      "id": "b1_u09_l2_e114",
+      "type": "listen_question",
+      "targets": [
+        "b1_u09_l2_g1"
+      ],
+      "prompt_uz": "Bekat qayerda?",
+      "prompt_en": "Where is the bus stop?",
+      "audio_text": "정류장은 길 건너편에 있어요.",
+      "options": [
+        "Yo'lning narigi tomonida",
+        "Bino ichida",
+        "Bank yonida",
+        "Metro ostida"
+      ],
+      "options_en": [
+        "Across the road",
+        "Inside the building",
+        "Next to the bank",
+        "Under the subway"
+      ],
+      "answers": [
+        "Yo'lning narigi tomonida"
+      ],
+      "audio": "50aac43cae66.mp3"
+    },
+    {
+      "id": "b1_u09_l2_e115",
+      "type": "listen_question",
+      "targets": [
+        "b1_u09_l2_g2"
+      ],
+      "prompt_uz": "Qanday borish kerak?",
+      "prompt_en": "How should you go?",
+      "audio_text": "이쪽으로 쭉 가세요. 그리고 왼쪽으로 가세요.",
+      "options": [
+        "To'g'ri, keyin chapga",
+        "To'g'ri, keyin o'ngga",
+        "Chapga, keyin to'g'ri",
+        "Orqaga"
+      ],
+      "options_en": [
+        "Straight, then left",
+        "Straight, then right",
+        "Left, then straight",
+        "Back"
+      ],
+      "answers": [
+        "To'g'ri, keyin chapga"
+      ],
+      "audio": "a3ad7cbca518.mp3"
+    }
+  ],
+  "test": [
+    "b1_u09_l2_e101",
+    "b1_u09_l2_e102",
+    "b1_u09_l2_e103",
+    "b1_u09_l2_e104",
+    "b1_u09_l2_e105",
+    "b1_u09_l2_e106",
+    "b1_u09_l2_e107",
+    "b1_u09_l2_e108",
+    "b1_u09_l2_e109",
+    "b1_u09_l2_e110",
+    "b1_u09_l2_e111",
+    "b1_u09_l2_e112",
+    "b1_u09_l2_e113",
+    "b1_u09_l2_e114",
+    "b1_u09_l2_e115"
+  ],
+  "story": {
+    "title_uz": "Yo'qolgan yo'l",
+    "title_en": "Lost in the city",
+    "gate_uz": "SHAHAR",
+    "gate_en": "CITY",
+    "steps": [
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "실례합니다. 서점이 어디에 있어요?",
+        "uz": "Kechirasiz, kitob do'koni qayerda?",
+        "en": "Excuse me, where's the bookshop?",
+        "audio": "17ea9a6baaad.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "passerby",
+        "ko": "저 건물 이 층에 있어요.",
+        "uz": "Anavi binoning ikkinchi qavatida.",
+        "en": "On the second floor of that building.",
+        "audio": "a2bec58d23de.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "은행 옆 건물이에요?",
+        "uz": "Bank yonidagi binomi?",
+        "en": "The building next to the bank?",
+        "audio": "ada8c2bd8dfe.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "passerby",
+        "ko": "네, 은행하고 약국 사이에 있어요.",
+        "uz": "Ha, bank bilan dorixona orasida.",
+        "en": "Yes, between the bank and the pharmacy.",
+        "audio": "8bac0daae3a5.mp3"
+      },
+      {
+        "type": "choose_reply",
+        "speaker": "aziz",
+        "prompt_uz": "Aziz 'Lift bormi?' deb so'ramoqchi.",
+        "prompt_en": "Aziz wants to ask 'Is there an elevator?'.",
+        "options": [
+          "엘리베이터가 있어요?",
+          "엘리베이터에 있어요?",
+          "엘리베이터로 있어요?"
+        ],
+        "answer": "엘리베이터가 있어요?",
+        "uz": "Lift bormi?",
+        "en": "Is there an elevator?",
+        "why_uz": "Bor narsa — 이/가: 엘리베이터가 있어요.",
+        "why_en": "The thing that exists takes 이/가: 엘리베이터가 있어요.",
+        "audio": "6b487f3ec8f1.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "passerby",
+        "ko": "아니요, 없어요. 계단으로 올라가세요.",
+        "uz": "Yo'q. Zinadan chiqing.",
+        "en": "No. Take the stairs up.",
+        "audio": "b013e3a4d3bb.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "감사합니다. 지하철역은요?",
+        "uz": "Rahmat. Metro bekati-chi?",
+        "en": "Thanks. And the subway station?",
+        "audio": "350121a817f4.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "passerby",
+        "ko": "이쪽으로 쭉 가세요. 그리고 오른쪽으로 가세요.",
+        "uz": "Bu tomonga to'g'ri boring. Keyin o'ngga.",
+        "en": "Go straight this way. Then turn right.",
+        "audio": "8d048ef21189.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "passerby",
+        "ko": "편의점 앞에 입구가 있어요.",
+        "uz": "Do'kon oldida kirish bor.",
+        "en": "The entrance is in front of the convenience store.",
+        "audio": "8a2b677194c4.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "정말 감사합니다!",
+        "uz": "Katta rahmat!",
+        "en": "Thank you so much!",
+        "audio": "1ace399a2b72.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "아지즈 씨! 여기예요! 서점 앞이에요!",
+        "uz": "Aziz! Men shu yerdaman! Kitob do'koni oldida!",
+        "en": "Aziz! Over here! In front of the bookshop!",
+        "audio": "f99cf4a922d0.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "아, 민지 씨! 이제 찾았어요!",
+        "uz": "A, Minji! Nihoyat topdim!",
+        "en": "Oh, Minji! I finally found it!",
+        "audio": "63165b93cca1.mp3"
+      },
+      {
+        "type": "quiz",
+        "prompt_uz": "Kitob do'koni qayerda?",
+        "prompt_en": "Where is the bookshop?",
+        "options": [
+          "Bank bilan dorixona orasida",
+          "Metro bekati ichida",
+          "Do'kon oldida"
+        ],
+        "options_en": [
+          "Between the bank and the pharmacy",
+          "Inside the subway station",
+          "In front of the convenience store"
+        ],
+        "answer": "Bank bilan dorixona orasida",
+        "why_uz": "은행하고 약국 사이에 있어요.",
+        "why_en": "은행하고 약국 사이에 있어요 — between the bank and the pharmacy."
+      }
+    ]
+  }
+}

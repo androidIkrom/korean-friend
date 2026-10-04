@@ -1,0 +1,1470 @@
+{
+  "id": "b1_u09_l1",
+  "unit": 9,
+  "lesson": 1,
+  "title_ko": "오늘 날씨가 추워요",
+  "title_uz": "Bugun havo sovuq",
+  "title_en": "It's cold today",
+  "topic_uz": "Ob-havo va hayot",
+  "topic_en": "Weather and life",
+  "reviewed": false,
+  "words": [
+    {
+      "id": "b1_u09_l1_w001",
+      "ko": "날씨",
+      "uz": "ob-havo",
+      "en": "weather",
+      "pos": "ot",
+      "example_ko": "오늘 날씨가 어때요?",
+      "example_uz": "Bugun havo qanday?",
+      "example_en": "What's the weather like today?",
+      "audio": "279698c37e56.mp3",
+      "example_audio": "ad7f67c95c8e.mp3"
+    },
+    {
+      "id": "b1_u09_l1_w002",
+      "ko": "덥다",
+      "uz": "issiq bo'lmoq (havo)",
+      "en": "to be hot",
+      "pos": "sifat",
+      "example_ko": "여름은 더워요.",
+      "example_uz": "Yoz issiq.",
+      "example_en": "Summer is hot.",
+      "audio": "86162b708bd4.mp3",
+      "example_audio": "aa07e108e850.mp3"
+    },
+    {
+      "id": "b1_u09_l1_w003",
+      "ko": "춥다",
+      "uz": "sovuq bo'lmoq (havo)",
+      "en": "to be cold",
+      "pos": "sifat",
+      "example_ko": "오늘 날씨가 추워요.",
+      "example_uz": "Bugun havo sovuq.",
+      "example_en": "It's cold today.",
+      "audio": "08f9267c8c3b.mp3",
+      "example_audio": "36b97898cead.mp3"
+    },
+    {
+      "id": "b1_u09_l1_w004",
+      "ko": "따뜻하다",
+      "uz": "iliq bo'lmoq",
+      "en": "to be warm",
+      "pos": "sifat",
+      "example_ko": "봄은 따뜻해요.",
+      "example_uz": "Bahor iliq.",
+      "example_en": "Spring is warm.",
+      "audio": "5cd934e58084.mp3",
+      "example_audio": "6e71cc46a550.mp3"
+    },
+    {
+      "id": "b1_u09_l1_w005",
+      "ko": "시원하다",
+      "uz": "salqin bo'lmoq",
+      "en": "to be cool",
+      "pos": "sifat",
+      "example_ko": "가을은 시원해요.",
+      "example_uz": "Kuz salqin.",
+      "example_en": "Autumn is cool.",
+      "audio": "e248bfb863b6.mp3",
+      "example_audio": "a6b85d87e804.mp3"
+    },
+    {
+      "id": "b1_u09_l1_w006",
+      "ko": "맑다",
+      "uz": "ochiq bo'lmoq (osmon)",
+      "en": "to be clear, sunny",
+      "pos": "sifat",
+      "example_ko": "하늘이 맑아요.",
+      "example_uz": "Osmon ochiq.",
+      "example_en": "The sky is clear.",
+      "audio": "81ef42fed58e.mp3",
+      "example_audio": "c0b75022c334.mp3"
+    },
+    {
+      "id": "b1_u09_l1_w007",
+      "ko": "흐리다",
+      "uz": "bulutli bo'lmoq",
+      "en": "to be cloudy",
+      "pos": "sifat",
+      "example_ko": "오후에는 흐려요.",
+      "example_uz": "Tushdan keyin bulutli.",
+      "example_en": "It's cloudy in the afternoon.",
+      "audio": "eb2d89542977.mp3",
+      "example_audio": "bce405fbd920.mp3"
+    },
+    {
+      "id": "b1_u09_l1_w008",
+      "ko": "비",
+      "uz": "yomg'ir",
+      "en": "rain",
+      "pos": "ot",
+      "example_ko": "비가 와요.",
+      "example_uz": "Yomg'ir yog'yapti.",
+      "example_en": "It's raining.",
+      "audio": "65cfd179c80a.mp3",
+      "example_audio": "37f2b8b8ac15.mp3"
+    },
+    {
+      "id": "b1_u09_l1_w009",
+      "ko": "눈",
+      "uz": "qor",
+      "en": "snow",
+      "pos": "ot",
+      "example_ko": "눈이 많이 와요.",
+      "example_uz": "Qor ko'p yog'yapti.",
+      "example_en": "It's snowing a lot.",
+      "audio": "5209c77b4029.mp3",
+      "example_audio": "22272801c304.mp3"
+    },
+    {
+      "id": "b1_u09_l1_w010",
+      "ko": "바람",
+      "uz": "shamol",
+      "en": "wind",
+      "pos": "ot",
+      "example_ko": "바람이 불어요.",
+      "example_uz": "Shamol esyapti.",
+      "example_en": "The wind is blowing.",
+      "audio": "ea09484808fe.mp3",
+      "example_audio": "3a8292cec9a9.mp3"
+    },
+    {
+      "id": "b1_u09_l1_w011",
+      "ko": "불다",
+      "uz": "esmoq",
+      "en": "to blow",
+      "pos": "fe'l",
+      "example_ko": "바람이 많이 불어요.",
+      "example_uz": "Shamol kuchli esyapti.",
+      "example_en": "It's very windy.",
+      "audio": "6cbd553b8bcc.mp3",
+      "example_audio": "abd99593170e.mp3"
+    },
+    {
+      "id": "b1_u09_l1_w012",
+      "ko": "봄",
+      "uz": "bahor",
+      "en": "spring",
+      "pos": "ot",
+      "example_ko": "봄에 꽃이 피어요.",
+      "example_uz": "Bahorda gullar ochiladi.",
+      "example_en": "Flowers bloom in spring.",
+      "audio": "f8c70c2c8792.mp3",
+      "example_audio": "29b45b4903a5.mp3"
+    },
+    {
+      "id": "b1_u09_l1_w013",
+      "ko": "여름",
+      "uz": "yoz",
+      "en": "summer",
+      "pos": "ot",
+      "example_ko": "여름에 바다에 가요.",
+      "example_uz": "Yozda dengizga boraman.",
+      "example_en": "I go to the sea in summer.",
+      "audio": "1eb90f000e87.mp3",
+      "example_audio": "05333d14d3f5.mp3"
+    },
+    {
+      "id": "b1_u09_l1_w014",
+      "ko": "가을",
+      "uz": "kuz",
+      "en": "autumn",
+      "pos": "ot",
+      "example_ko": "가을 날씨가 좋아요.",
+      "example_uz": "Kuzgi havo yaxshi.",
+      "example_en": "Autumn weather is nice.",
+      "audio": "509dd9da9b25.mp3",
+      "example_audio": "57d08e4e8c43.mp3"
+    },
+    {
+      "id": "b1_u09_l1_w015",
+      "ko": "겨울",
+      "uz": "qish",
+      "en": "winter",
+      "pos": "ot",
+      "example_ko": "겨울에 눈이 와요.",
+      "example_uz": "Qishda qor yog'adi.",
+      "example_en": "It snows in winter.",
+      "audio": "9bcdb5d5be2d.mp3",
+      "example_audio": "0e49e89ef14c.mp3"
+    },
+    {
+      "id": "b1_u09_l1_w016",
+      "ko": "계절",
+      "uz": "fasl",
+      "en": "season",
+      "pos": "ot",
+      "example_ko": "무슨 계절을 좋아해요?",
+      "example_uz": "Qaysi faslni yaxshi ko'rasiz?",
+      "example_en": "Which season do you like?",
+      "audio": "33ad4d520609.mp3",
+      "example_audio": "1cf254420935.mp3"
+    },
+    {
+      "id": "b1_u09_l1_w017",
+      "ko": "어렵다",
+      "uz": "qiyin bo'lmoq",
+      "en": "to be difficult",
+      "pos": "sifat",
+      "example_ko": "한국어가 어려워요?",
+      "example_uz": "Koreys tili qiyinmi?",
+      "example_en": "Is Korean difficult?",
+      "audio": "b2f2a6f2d1af.mp3",
+      "example_audio": "9365ef248e94.mp3"
+    },
+    {
+      "id": "b1_u09_l1_w018",
+      "ko": "쉽다",
+      "uz": "oson bo'lmoq",
+      "en": "to be easy",
+      "pos": "sifat",
+      "example_ko": "이 문제는 쉬워요.",
+      "example_uz": "Bu masala oson.",
+      "example_en": "This question is easy.",
+      "audio": "babc54d8c475.mp3",
+      "example_audio": "c15b7f72083f.mp3"
+    },
+    {
+      "id": "b1_u09_l1_w019",
+      "ko": "가깝다",
+      "uz": "yaqin bo'lmoq",
+      "en": "to be close",
+      "pos": "sifat",
+      "example_ko": "학교가 가까워요.",
+      "example_uz": "Maktab yaqin.",
+      "example_en": "The school is close.",
+      "audio": "49caa5953d19.mp3",
+      "example_audio": "7c35b630ea8a.mp3"
+    },
+    {
+      "id": "b1_u09_l1_w020",
+      "ko": "무겁다",
+      "uz": "og'ir bo'lmoq",
+      "en": "to be heavy",
+      "pos": "sifat",
+      "example_ko": "가방이 무거워요.",
+      "example_uz": "Sumka og'ir.",
+      "example_en": "The bag is heavy.",
+      "audio": "63bd8b374d0c.mp3",
+      "example_audio": "6cf9ea529161.mp3"
+    },
+    {
+      "id": "b1_u09_l1_w021",
+      "ko": "가볍다",
+      "uz": "yengil bo'lmoq",
+      "en": "to be light",
+      "pos": "sifat",
+      "example_ko": "이 코트는 가벼워요.",
+      "example_uz": "Bu palto yengil.",
+      "example_en": "This coat is light.",
+      "audio": "5bddb7d73278.mp3",
+      "example_audio": "a8c3c02276c8.mp3"
+    },
+    {
+      "id": "b1_u09_l1_w022",
+      "ko": "일기예보",
+      "uz": "ob-havo ma'lumoti",
+      "en": "weather forecast",
+      "pos": "ot",
+      "example_ko": "일기예보를 봤어요.",
+      "example_uz": "Ob-havo ma'lumotini ko'rdim.",
+      "example_en": "I checked the weather forecast.",
+      "audio": "2f33b27a895c.mp3",
+      "example_audio": "7ed222b75ee1.mp3"
+    },
+    {
+      "id": "b1_u09_l1_w023",
+      "ko": "도",
+      "uz": "gradus",
+      "en": "degree",
+      "pos": "ot",
+      "example_ko": "오늘은 영하 오 도예요.",
+      "example_uz": "Bugun minus besh gradus.",
+      "example_en": "It's minus five degrees today.",
+      "audio": "2549b025edc9.mp3",
+      "example_audio": "addcbabb2ec7.mp3"
+    },
+    {
+      "id": "b1_u09_l1_w024",
+      "ko": "하늘",
+      "uz": "osmon",
+      "en": "sky",
+      "pos": "ot",
+      "example_ko": "하늘이 파래요.",
+      "example_uz": "Osmon moviy.",
+      "example_en": "The sky is blue.",
+      "audio": "879757577ea9.mp3",
+      "example_audio": "77969c8aabaa.mp3"
+    },
+    {
+      "id": "b1_u09_l1_w025",
+      "ko": "등산하다",
+      "uz": "toqqa chiqmoq",
+      "en": "to go hiking",
+      "pos": "fe'l",
+      "example_ko": "주말에 등산할까요?",
+      "example_uz": "Dam olish kuni toqqa chiqamizmi?",
+      "example_en": "Shall we go hiking at the weekend?",
+      "audio": "60c3d7b4e235.mp3",
+      "example_audio": "6a4d6acb8799.mp3"
+    },
+    {
+      "id": "b1_u09_l1_w026",
+      "ko": "놀다",
+      "uz": "o'ynamoq, dam olib vaqt o'tkazmoq",
+      "en": "to play, to hang out",
+      "pos": "fe'l",
+      "example_ko": "친구하고 놀아요.",
+      "example_uz": "Do'stim bilan vaqt o'tkazaman.",
+      "example_en": "I hang out with friends.",
+      "audio": "cf5ca65a6b7f.mp3",
+      "example_audio": "417fb39c11ec.mp3"
+    },
+    {
+      "id": "b1_u09_l1_w027",
+      "ko": "소풍",
+      "uz": "sayr, piknik",
+      "en": "picnic, outing",
+      "pos": "ot",
+      "example_ko": "공원에 소풍 갈까요?",
+      "example_uz": "Parkka piknikka boramizmi?",
+      "example_en": "Shall we go for a picnic in the park?",
+      "audio": "15ecb69220b9.mp3",
+      "example_audio": "45dbc553fcd2.mp3"
+    },
+    {
+      "id": "b1_u09_l1_w028",
+      "ko": "장갑",
+      "uz": "qo'lqop",
+      "en": "gloves",
+      "pos": "ot",
+      "example_ko": "추워요. 장갑을 끼세요.",
+      "example_uz": "Sovuq. Qo'lqop kiying.",
+      "example_en": "It's cold. Put on gloves.",
+      "audio": "fbbea4ec0e28.mp3",
+      "example_audio": "f7073716da78.mp3"
+    },
+    {
+      "id": "b1_u09_l1_w029",
+      "ko": "코트",
+      "uz": "palto",
+      "en": "coat",
+      "pos": "ot",
+      "example_ko": "코트를 입어요.",
+      "example_uz": "Palto kiyaman.",
+      "example_en": "I put on a coat.",
+      "audio": "e69060cf2dd8.mp3",
+      "example_audio": "8144836f7a29.mp3"
+    },
+    {
+      "id": "b1_u09_l1_w030",
+      "ko": "목도리",
+      "uz": "sharf",
+      "en": "scarf",
+      "pos": "ot",
+      "example_ko": "목도리가 따뜻해요.",
+      "example_uz": "Sharf issiq.",
+      "example_en": "The scarf is warm.",
+      "audio": "0f7337937bcc.mp3",
+      "example_audio": "1c566a63a6c6.mp3"
+    },
+    {
+      "id": "b1_u09_l1_w031",
+      "ko": "미세먼지",
+      "uz": "chang zarralari (havo ifloslanishi)",
+      "en": "fine dust",
+      "pos": "ot",
+      "example_ko": "오늘은 미세먼지가 많아요.",
+      "example_uz": "Bugun havoda chang ko'p.",
+      "example_en": "There's a lot of fine dust today.",
+      "audio": "46f68f1d62bd.mp3",
+      "example_audio": "f10ce034db80.mp3"
+    },
+    {
+      "id": "b1_u09_l1_w032",
+      "ko": "함께",
+      "uz": "birga",
+      "en": "together",
+      "pos": "ravish",
+      "example_ko": "함께 산책할까요?",
+      "example_uz": "Birga sayr qilamizmi?",
+      "example_en": "Shall we take a walk together?",
+      "audio": "fec67576e09d.mp3",
+      "example_audio": "25ae18ec5b34.mp3"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "b1_u09_l1_g1",
+      "pattern": "'ㅂ' 불규칙",
+      "meaning_uz": "ㅂ bilan tugaydigan sifatlar: ㅂ → 우",
+      "meaning_en": "ㅂ-irregular: ㅂ → 우",
+      "explanation_md": "**ㅂ** bilan tugaydigan ko'p sifatlarda, **unli bilan boshlanuvchi** qo'shimcha oldidan **ㅂ → 우** bo'ladi. 우 + 어 → **워**.\n\n**오늘 날씨가 추워요.** — *Bugun havo sovuq.* (춥다 → 추우 + 어요 → 추워요)\n\n### Misollar\n\n- 덥다 → **더워요**, **더웠어요**\n- 춥다 → **추워요**, **추웠어요**\n- 어렵다 → **어려워요**, 쉽다 → **쉬워요**\n- 가깝다 → **가까워요**, 무겁다 → **무거워요**, 가볍다 → **가벼워요**\n- 맵다 → **매워요** (7-1)\n\n### Esda tuting\n\n- Undosh bilan boshlanuvchi qo'shimcha oldidan ㅂ **qoladi**: 춥**고**, 덥**지만**.\n- **돕다** (yordam bermoq) — maxsus: **도와요**.\n- **입다** (kiymoq), **좁다** (tor) — **o'zgarmaydi**: 입어요, 좁아요.",
+      "explanation_md_en": "In many adjectives ending in **ㅂ**, the ㅂ becomes **우** before an ending that **starts with a vowel**. 우 + 어 → **워**.\n\n**오늘 날씨가 추워요.** — *It's cold today.* (춥다 → 추우 + 어요 → 추워요)\n\n### Examples\n\n- 덥다 → **더워요**, **더웠어요**\n- 춥다 → **추워요**, **추웠어요**\n- 어렵다 → **어려워요**, 쉽다 → **쉬워요**\n- 가깝다 → **가까워요**, 무겁다 → **무거워요**, 가볍다 → **가벼워요**\n- 맵다 → **매워요** (7-1)\n\n### Remember\n\n- Before an ending that starts with a consonant, ㅂ **stays**: 춥**고**, 덥**지만**.\n- **돕다** (to help) is special: **도와요**.\n- **입다** (to wear) and **좁다** (narrow) are **regular**: 입어요, 좁아요.",
+      "formation": [
+        {
+          "condition_uz": "Unli oldidan",
+          "condition_en": "Before a vowel",
+          "rule": "ㅂ → 워",
+          "example": "춥다 → 추워요, 덥다 → 더웠어요"
+        },
+        {
+          "condition_uz": "Undosh oldidan",
+          "condition_en": "Before a consonant",
+          "rule": "ㅂ qoladi",
+          "example": "춥다 → 춥고, 덥다 → 덥고"
+        },
+        {
+          "condition_uz": "O'zgarmaydigan",
+          "condition_en": "Regular",
+          "rule": "입다, 좁다",
+          "example": "입어요, 좁아요"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "오늘 날씨가 추워요.",
+          "uz": "Bugun havo sovuq.",
+          "en": "It's cold today.",
+          "audio": "36b97898cead.mp3"
+        },
+        {
+          "ko": "어제는 정말 더웠어요.",
+          "uz": "Kecha juda issiq edi.",
+          "en": "It was really hot yesterday.",
+          "audio": "3e928df93ec4.mp3"
+        },
+        {
+          "ko": "한국어가 조금 어려워요.",
+          "uz": "Koreys tili biroz qiyin.",
+          "en": "Korean is a little difficult.",
+          "audio": "1d515e256ae1.mp3"
+        },
+        {
+          "ko": "학교가 집에서 가까워요.",
+          "uz": "Maktab uyimdan yaqin.",
+          "en": "School is close to my house.",
+          "audio": "83147f00c465.mp3"
+        },
+        {
+          "ko": "가방이 너무 무거워요.",
+          "uz": "Sumka juda og'ir.",
+          "en": "The bag is too heavy.",
+          "audio": "54fca7a7c7f5.mp3"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "날씨가 춥어요.",
+          "right": "날씨가 추워요.",
+          "why_uz": "춥다: ㅂ → 우 → 추워요.",
+          "why_en": "춥다: ㅂ → 우 → 추워요."
+        },
+        {
+          "wrong": "시험이 어렵었어요.",
+          "right": "시험이 어려웠어요.",
+          "why_uz": "어렵다: ㅂ → 워 → 어려웠어요.",
+          "why_en": "어렵다: ㅂ → 워 → 어려웠어요."
+        },
+        {
+          "wrong": "코트를 이워요.",
+          "right": "코트를 입어요.",
+          "why_uz": "입다 o'zgarmaydi.",
+          "why_en": "입다 is regular."
+        }
+      ],
+      "uz_compare": "O'zbek tilida bunday qoida yo'q — shuning uchun yodlash kerak. Yaxshi xabar: deyarli barcha ㅂ bilan tugaydigan sifatlar bir xil o'zgaradi: 춥다 → 추워요, 덥다 → 더워요.",
+      "compare_en": "There's no rule like this in English, so learn it as a pattern. The good news: almost every adjective ending in ㅂ changes the same way: 춥다 → 추워요, 덥다 → 더워요."
+    },
+    {
+      "id": "b1_u09_l1_g2",
+      "pattern": "V-(으)ㄹ까요?",
+      "meaning_uz": "...aylikmi? ...amizmi?: taklif",
+      "meaning_en": "Shall we …?: suggesting",
+      "explanation_md": "**-(으)ㄹ까요?** — birgalikda nimadir qilishni taklif qilish: \"...aylikmi?\", \"...amizmi?\".\n\n**같이 산책할까요?** — *Birga sayr qilamizmi?*\n\n### Qanday yasaladi\n\n- O'zak **받침siz** → **-ㄹ까요?**: 가다 → **갈까요?**, 보다 → **볼까요?**\n- O'zak **받침 bilan** → **-을까요?**: 먹다 → **먹을까요?**, 앉다 → **앉을까요?**\n- O'zak **ㄹ bilan** → **-까요?**: 놀다 → **놀까요?**, 만들다 → **만들까요?**\n\n### Javob berish\n\n- **네, 좋아요.** — *Ha, mayli.*\n- **네, 같이 가요.** — *Ha, birga boraylik.*\n- **미안해요. 오늘은 시간이 없어요.** — *Kechirasiz, bugun vaqtim yo'q.*\n\n### Esda tuting\n\n- **뭐 먹을까요?** — *Nima yeymiz?*; **어디에 갈까요?** — *Qayerga boramiz?*\n- Bu shakl so'roq; javobda **-(으)ㄹ까요** takrorlanmaydi.",
+      "explanation_md_en": "**-(으)ㄹ까요?** suggests doing something together: \"Shall we …?\".\n\n**같이 산책할까요?** — *Shall we take a walk together?*\n\n### How to form it\n\n- Stem **without 받침** → **-ㄹ까요?**: 가다 → **갈까요?**, 보다 → **볼까요?**\n- Stem **with 받침** → **-을까요?**: 먹다 → **먹을까요?**, 앉다 → **앉을까요?**\n- Stem **ending in ㄹ** → **-까요?**: 놀다 → **놀까요?**, 만들다 → **만들까요?**\n\n### Answering\n\n- **네, 좋아요.** — *Yes, sounds good.*\n- **네, 같이 가요.** — *Yes, let's go.*\n- **미안해요. 오늘은 시간이 없어요.** — *Sorry, I don't have time today.*\n\n### Remember\n\n- **뭐 먹을까요?** — *What shall we eat?*; **어디에 갈까요?** — *Where shall we go?*\n- It's a question; the answer doesn't repeat **-(으)ㄹ까요**.",
+      "formation": [
+        {
+          "condition_uz": "받침 yo'q",
+          "condition_en": "No 받침",
+          "rule": "V + ㄹ까요?",
+          "example": "가다 → 갈까요?, 보다 → 볼까요?"
+        },
+        {
+          "condition_uz": "받침 bor",
+          "condition_en": "With 받침",
+          "rule": "V + 을까요?",
+          "example": "먹다 → 먹을까요?, 앉다 → 앉을까요?"
+        },
+        {
+          "condition_uz": "ㄹ bilan",
+          "condition_en": "Ends in ㄹ",
+          "rule": "V + 까요?",
+          "example": "놀다 → 놀까요?"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "같이 산책할까요?",
+          "uz": "Birga sayr qilamizmi?",
+          "en": "Shall we take a walk together?",
+          "audio": "b61da05baf05.mp3"
+        },
+        {
+          "ko": "주말에 등산할까요?",
+          "uz": "Dam olish kuni toqqa chiqamizmi?",
+          "en": "Shall we go hiking at the weekend?",
+          "audio": "6a4d6acb8799.mp3"
+        },
+        {
+          "ko": "뭐 먹을까요?",
+          "uz": "Nima yeymiz?",
+          "en": "What shall we eat?",
+          "audio": "142d5803379a.mp3"
+        },
+        {
+          "ko": "영화를 볼까요?",
+          "uz": "Kino ko'ramizmi?",
+          "en": "Shall we watch a film?",
+          "audio": "34e1c4af07af.mp3"
+        },
+        {
+          "ko": "공원에서 놀까요?",
+          "uz": "Parkda vaqt o'tkazamizmi?",
+          "en": "Shall we hang out in the park?",
+          "audio": "656d6ce92b1a.mp3"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "같이 가을까요?",
+          "right": "같이 갈까요?",
+          "why_uz": "가다 받침siz: 갈까요.",
+          "why_en": "가다 has no 받침: 갈까요."
+        },
+        {
+          "wrong": "점심을 먹ㄹ까요?",
+          "right": "점심을 먹을까요?",
+          "why_uz": "먹다 받침 bilan: 먹을까요.",
+          "why_en": "먹다 has 받침: 먹을까요."
+        },
+        {
+          "wrong": "공원에서 놀을까요?",
+          "right": "공원에서 놀까요?",
+          "why_uz": "ㄹ bilan tugasa: 놀까요.",
+          "why_en": "Stems ending in ㄹ: 놀까요."
+        }
+      ],
+      "uz_compare": "O'zbekchadagi '...aylikmi?' yoki '...amizmi?' ga mos: 'birga boraylikmi?' = 같이 갈까요? Muloyim taklif.",
+      "compare_en": "Exactly like English 'Shall we …?': 'Shall we go together?' = 같이 갈까요?"
+    }
+  ],
+  "dialogue": {
+    "lines": [
+      {
+        "speaker": "minji",
+        "ko": "아지즈 씨, 오늘 날씨가 정말 추워요.",
+        "uz": "Aziz, bugun havo juda sovuq.",
+        "en": "Aziz, it's really cold today.",
+        "audio": "129163b6562c.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "네, 일기예보에서 영하 오 도예요.",
+        "uz": "Ha, ob-havo ma'lumotida minus besh gradus.",
+        "en": "Yes, the forecast says minus five.",
+        "audio": "37cbca04e02c.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "우즈베키스탄 겨울도 추워요?",
+        "uz": "O'zbekistonda qish ham sovuqmi?",
+        "en": "Are winters cold in Uzbekistan too?",
+        "audio": "67ce163dd3d7.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "네, 추워요. 그런데 여름은 아주 더워요.",
+        "uz": "Ha, sovuq. Lekin yoz juda issiq.",
+        "en": "Yes, they're cold. But summers are very hot.",
+        "audio": "66bc4b6100db.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "아지즈 씨는 무슨 계절을 좋아해요?",
+        "uz": "Aziz, qaysi faslni yaxshi ko'rasiz?",
+        "en": "Aziz, which season do you like?",
+        "audio": "24eee4331925.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "저는 가을을 좋아해요. 시원하고 하늘이 맑아요.",
+        "uz": "Men kuzni yaxshi ko'raman. Salqin va osmon ochiq.",
+        "en": "I like autumn. It's cool and the sky is clear.",
+        "audio": "92c723aa94b1.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "저도요! 내일은 따뜻해요. 같이 산책할까요?",
+        "uz": "Men ham! Ertaga iliq bo'ladi. Birga sayr qilamizmi?",
+        "en": "Me too! It'll be warm tomorrow. Shall we take a walk together?",
+        "audio": "eb213478ad8d.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "좋아요. 어디에 갈까요?",
+        "uz": "Mayli. Qayerga boramiz?",
+        "en": "Sounds good. Where shall we go?",
+        "audio": "645b98b85aad.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "남산에 갈까요? 학교에서 가까워요.",
+        "uz": "Namsanga boramizmi? Maktabdan yaqin.",
+        "en": "Shall we go to Namsan? It's close to school.",
+        "audio": "0c86fa5a8acc.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "네, 좋아요. 그런데 오늘은 너무 추워요. 카페에 갈까요?",
+        "uz": "Ha, yaxshi. Lekin bugun juda sovuq. Kafega boramizmi?",
+        "en": "Yes, great. But it's too cold today. Shall we go to a café?",
+        "audio": "c3e9be1eff77.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "네, 따뜻한 차를 마셔요!",
+        "uz": "Ha, issiq choy ichamiz!",
+        "en": "Yes, let's drink some hot tea!",
+        "audio": "80dd32027cfd.mp3"
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b1_u09_l1_e001",
+      "type": "conjugate",
+      "targets": [
+        "b1_u09_l1_g1"
+      ],
+      "prompt_uz": "'Sovuq' (muloyim shakl)",
+      "prompt_en": "'is cold' (polite form)",
+      "base": "춥다",
+      "form": "-아요/어요",
+      "answers": [
+        "추워요"
+      ],
+      "hint_uz": "ㅂ → 우 → 워",
+      "hint_en": "ㅂ → 우 → 워"
+    },
+    {
+      "id": "b1_u09_l1_e002",
+      "type": "conjugate",
+      "targets": [
+        "b1_u09_l1_g1"
+      ],
+      "prompt_uz": "'Issiq edi' shaklini yasang",
+      "prompt_en": "Make 'was hot'",
+      "base": "덥다",
+      "form": "-았/었어요",
+      "answers": [
+        "더웠어요"
+      ]
+    },
+    {
+      "id": "b1_u09_l1_e003",
+      "type": "conjugate",
+      "targets": [
+        "b1_u09_l1_g1"
+      ],
+      "prompt_uz": "'Qiyin' (muloyim shakl)",
+      "prompt_en": "'is difficult' (polite form)",
+      "base": "어렵다",
+      "form": "-아요/어요",
+      "answers": [
+        "어려워요"
+      ]
+    },
+    {
+      "id": "b1_u09_l1_e004",
+      "type": "conjugate",
+      "targets": [
+        "b1_u09_l1_g2"
+      ],
+      "prompt_uz": "'Boramizmi?' shaklini yasang",
+      "prompt_en": "Make 'shall we go?'",
+      "base": "가다",
+      "form": "-(으)ㄹ까요?",
+      "answers": [
+        "갈까요?",
+        "갈까요"
+      ]
+    },
+    {
+      "id": "b1_u09_l1_e005",
+      "type": "conjugate",
+      "targets": [
+        "b1_u09_l1_g2"
+      ],
+      "prompt_uz": "'Yeymizmi?' shaklini yasang",
+      "prompt_en": "Make 'shall we eat?'",
+      "base": "먹다",
+      "form": "-(으)ㄹ까요?",
+      "answers": [
+        "먹을까요?",
+        "먹을까요"
+      ]
+    },
+    {
+      "id": "b1_u09_l1_e006",
+      "type": "fill_blank",
+      "targets": [
+        "b1_u09_l1_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Maktab yaqin.'",
+      "prompt_en": "Fill in the blank: 'The school is close.'",
+      "sentence": "학교가 ___. (가깝다)",
+      "answers": [
+        "가까워요"
+      ]
+    },
+    {
+      "id": "b1_u09_l1_e007",
+      "type": "fill_blank",
+      "targets": [
+        "b1_u09_l1_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Bu palto yengil.'",
+      "prompt_en": "Fill in the blank: 'This coat is light.'",
+      "sentence": "이 코트는 ___. (가볍다)",
+      "answers": [
+        "가벼워요"
+      ]
+    },
+    {
+      "id": "b1_u09_l1_e008",
+      "type": "fill_blank",
+      "targets": [
+        "b1_u09_l1_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Kino ko'ramizmi?'",
+      "prompt_en": "Fill in the blank: 'Shall we watch a film?'",
+      "sentence": "영화를 ___? (보다)",
+      "answers": [
+        "볼까요"
+      ]
+    },
+    {
+      "id": "b1_u09_l1_e009",
+      "type": "fill_blank",
+      "targets": [
+        "b1_u09_l1_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Parkda vaqt o'tkazamizmi?'",
+      "prompt_en": "Fill in the blank: 'Shall we hang out in the park?'",
+      "sentence": "공원에서 ___? (놀다)",
+      "answers": [
+        "놀까요"
+      ]
+    },
+    {
+      "id": "b1_u09_l1_e010",
+      "type": "situation_choice",
+      "targets": [
+        "b1_u09_l1_g2"
+      ],
+      "prompt_uz": "Do'stingizga dam olish kuni toqqa chiqishni taklif qiling:",
+      "prompt_en": "Suggest going hiking at the weekend:",
+      "options": [
+        "주말에 등산할까요?",
+        "주말에 등산해요까요?",
+        "주말에 등산했어요?",
+        "주말에 등산하세요까요?"
+      ],
+      "answers": [
+        "주말에 등산할까요?"
+      ]
+    },
+    {
+      "id": "b1_u09_l1_e011",
+      "type": "situation_choice",
+      "targets": [
+        "b1_u09_l1_g1",
+        "b1_u09_l1_w001"
+      ],
+      "prompt_uz": "Bugun havo issiq ekanini ayting:",
+      "prompt_en": "Say it's hot today:",
+      "options": [
+        "오늘 날씨가 더워요.",
+        "오늘 날씨가 덥어요.",
+        "오늘 날씨가 더워요요.",
+        "오늘 날씨를 더워요."
+      ],
+      "answers": [
+        "오늘 날씨가 더워요."
+      ]
+    },
+    {
+      "id": "b1_u09_l1_e012",
+      "type": "situation_choice",
+      "targets": [
+        "b1_u09_l1_g2"
+      ],
+      "prompt_uz": "Taklifga rozilik bildiring:",
+      "prompt_en": "Accept a suggestion:",
+      "options": [
+        "네, 좋아요.",
+        "네, 좋을까요.",
+        "네, 갈까요.",
+        "아니요, 좋아요."
+      ],
+      "answers": [
+        "네, 좋아요."
+      ]
+    },
+    {
+      "id": "b1_u09_l1_e013",
+      "type": "find_error",
+      "targets": [
+        "b1_u09_l1_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "날씨가 춥어요.",
+      "answers": [
+        "날씨가 추워요"
+      ],
+      "why_uz": "춥다: ㅂ → 워.",
+      "why_en": "춥다: ㅂ → 워."
+    },
+    {
+      "id": "b1_u09_l1_e014",
+      "type": "find_error",
+      "targets": [
+        "b1_u09_l1_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "가방이 무겁어요.",
+      "answers": [
+        "가방이 무거워요"
+      ],
+      "why_uz": "무겁다: ㅂ → 워.",
+      "why_en": "무겁다: ㅂ → 워."
+    },
+    {
+      "id": "b1_u09_l1_e015",
+      "type": "find_error",
+      "targets": [
+        "b1_u09_l1_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "점심을 먹ㄹ까요?",
+      "answers": [
+        "점심을 먹을까요?",
+        "점심을 먹을까요"
+      ],
+      "why_uz": "먹다 받침 bilan: 먹을까요.",
+      "why_en": "먹다 has 받침: 먹을까요."
+    },
+    {
+      "id": "b1_u09_l1_e016",
+      "type": "translate",
+      "targets": [
+        "b1_u09_l1_g1"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Bugun havo sovuq.",
+      "source_en": "It's cold today.",
+      "answers": [
+        "오늘 날씨가 추워요",
+        "오늘은 추워요",
+        "오늘 추워요"
+      ]
+    },
+    {
+      "id": "b1_u09_l1_e017",
+      "type": "translate",
+      "targets": [
+        "b1_u09_l1_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Birga sayr qilamizmi?",
+      "source_en": "Shall we take a walk together?",
+      "answers": [
+        "같이 산책할까요",
+        "같이 산책할까요?",
+        "함께 산책할까요?"
+      ]
+    },
+    {
+      "id": "b1_u09_l1_e018",
+      "type": "translate",
+      "targets": [
+        "b1_u09_l1_g1"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Koreys tili biroz qiyin.",
+      "source_en": "Korean is a little difficult.",
+      "answers": [
+        "한국어가 조금 어려워요",
+        "한국어는 조금 어려워요"
+      ]
+    },
+    {
+      "id": "b1_u09_l1_e019",
+      "type": "build_sentence",
+      "targets": [
+        "b1_u09_l1_g2"
+      ],
+      "prompt_uz": "'Dam olish kuni toqqa chiqamizmi?' gapini tuzing",
+      "prompt_en": "Build the sentence 'Shall we go hiking at the weekend?'",
+      "tokens": [
+        "등산할까요?",
+        "주말에"
+      ],
+      "answers": [
+        "주말에 등산할까요?"
+      ]
+    },
+    {
+      "id": "b1_u09_l1_e020",
+      "type": "build_sentence",
+      "targets": [
+        "b1_u09_l1_g1"
+      ],
+      "prompt_uz": "'Kecha juda issiq edi' gapini tuzing",
+      "prompt_en": "Build the sentence 'It was really hot yesterday'",
+      "tokens": [
+        "어제는",
+        "더웠어요",
+        "정말"
+      ],
+      "answers": [
+        "어제는 정말 더웠어요"
+      ]
+    },
+    {
+      "id": "b1_u09_l1_e021",
+      "type": "build_sentence",
+      "targets": [
+        "b1_u09_l1_g2",
+        "b1_u09_l1_g1"
+      ],
+      "prompt_uz": "'Havo sovuq, kafega boramizmi?' gapini tuzing",
+      "prompt_en": "Build the sentence 'It's cold — shall we go to a café?'",
+      "tokens": [
+        "카페에",
+        "추워요.",
+        "갈까요?"
+      ],
+      "answers": [
+        "추워요. 카페에 갈까요?"
+      ]
+    },
+    {
+      "id": "b1_u09_l1_e022",
+      "type": "listen_question",
+      "targets": [
+        "b1_u09_l1_g1"
+      ],
+      "prompt_uz": "Havo qanday?",
+      "prompt_en": "What's the weather like?",
+      "audio_text": "오늘은 바람이 불고 추워요.",
+      "options": [
+        "Shamol va sovuq",
+        "Issiq va ochiq",
+        "Yomg'irli",
+        "Iliq"
+      ],
+      "options_en": [
+        "Windy and cold",
+        "Hot and sunny",
+        "Rainy",
+        "Warm"
+      ],
+      "answers": [
+        "Shamol va sovuq"
+      ],
+      "audio": "f92d79840acd.mp3"
+    },
+    {
+      "id": "b1_u09_l1_e023",
+      "type": "listen_question",
+      "targets": [
+        "b1_u09_l1_g2"
+      ],
+      "prompt_uz": "U nimani taklif qilyapti?",
+      "prompt_en": "What is the speaker suggesting?",
+      "audio_text": "같이 영화를 볼까요?",
+      "options": [
+        "Birga kino ko'rishni",
+        "Birga ovqatlanishni",
+        "Sayr qilishni",
+        "O'qishni"
+      ],
+      "options_en": [
+        "Watching a film together",
+        "Eating together",
+        "Taking a walk",
+        "Studying"
+      ],
+      "answers": [
+        "Birga kino ko'rishni"
+      ],
+      "audio": "c14f42cd5550.mp3"
+    },
+    {
+      "id": "b1_u09_l1_e024",
+      "type": "listen_question",
+      "targets": [
+        "b1_u09_l1_g1"
+      ],
+      "prompt_uz": "U qaysi faslni yaxshi ko'radi?",
+      "prompt_en": "Which season does the speaker like?",
+      "audio_text": "저는 봄을 좋아해요. 봄은 따뜻해요.",
+      "options": [
+        "Bahor",
+        "Yoz",
+        "Kuz",
+        "Qish"
+      ],
+      "options_en": [
+        "Spring",
+        "Summer",
+        "Autumn",
+        "Winter"
+      ],
+      "answers": [
+        "Bahor"
+      ],
+      "audio": "be8b086f88cf.mp3"
+    },
+    {
+      "id": "b1_u09_l1_e025",
+      "type": "listen_question",
+      "targets": [
+        "b1_u09_l1_g2"
+      ],
+      "prompt_uz": "Ular qayerga boradi?",
+      "prompt_en": "Where are they going?",
+      "audio_text": "추워요. 카페에 갈까요? — 네, 좋아요.",
+      "options": [
+        "Kafega",
+        "Parkka",
+        "Toqqa",
+        "Uyga"
+      ],
+      "options_en": [
+        "To a café",
+        "To the park",
+        "To the mountains",
+        "Home"
+      ],
+      "answers": [
+        "Kafega"
+      ],
+      "audio": "225c397ff25d.mp3"
+    },
+    {
+      "id": "b1_u09_l1_e101",
+      "type": "conjugate",
+      "targets": [
+        "b1_u09_l1_g1"
+      ],
+      "prompt_uz": "'Oson' (muloyim shakl)",
+      "prompt_en": "'is easy' (polite form)",
+      "base": "쉽다",
+      "form": "-아요/어요",
+      "answers": [
+        "쉬워요"
+      ]
+    },
+    {
+      "id": "b1_u09_l1_e102",
+      "type": "conjugate",
+      "targets": [
+        "b1_u09_l1_g1"
+      ],
+      "prompt_uz": "'Sovuq edi' shaklini yasang",
+      "prompt_en": "Make 'was cold'",
+      "base": "춥다",
+      "form": "-았/었어요",
+      "answers": [
+        "추웠어요"
+      ]
+    },
+    {
+      "id": "b1_u09_l1_e103",
+      "type": "conjugate",
+      "targets": [
+        "b1_u09_l1_g2"
+      ],
+      "prompt_uz": "'O'tiramizmi?' shaklini yasang",
+      "prompt_en": "Make 'shall we sit?'",
+      "base": "앉다",
+      "form": "-(으)ㄹ까요?",
+      "answers": [
+        "앉을까요?",
+        "앉을까요"
+      ]
+    },
+    {
+      "id": "b1_u09_l1_e104",
+      "type": "fill_blank",
+      "targets": [
+        "b1_u09_l1_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Sumka juda og'ir.'",
+      "prompt_en": "Fill in the blank: 'The bag is too heavy.'",
+      "sentence": "가방이 너무 ___. (무겁다)",
+      "answers": [
+        "무거워요"
+      ]
+    },
+    {
+      "id": "b1_u09_l1_e105",
+      "type": "fill_blank",
+      "targets": [
+        "b1_u09_l1_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Nima yeymiz?'",
+      "prompt_en": "Fill in the blank: 'What shall we eat?'",
+      "sentence": "뭐 ___? (먹다)",
+      "answers": [
+        "먹을까요"
+      ]
+    },
+    {
+      "id": "b1_u09_l1_e106",
+      "type": "situation_choice",
+      "targets": [
+        "b1_u09_l1_w031"
+      ],
+      "prompt_uz": "Bugun havoda chang ko'p. Do'stingizni ogohlantiring:",
+      "prompt_en": "There's a lot of fine dust today. Warn your friend:",
+      "options": [
+        "오늘은 미세먼지가 많아요.",
+        "오늘은 미세먼지가 맑아요.",
+        "오늘은 미세먼지가 추워요.",
+        "오늘은 미세먼지를 많아요."
+      ],
+      "answers": [
+        "오늘은 미세먼지가 많아요."
+      ]
+    },
+    {
+      "id": "b1_u09_l1_e107",
+      "type": "situation_choice",
+      "targets": [
+        "b1_u09_l1_g2"
+      ],
+      "prompt_uz": "Do'stingizga qayerga borishni so'rang (taklif ohangida):",
+      "prompt_en": "Ask your friend where you should go (as a suggestion):",
+      "options": [
+        "어디에 갈까요?",
+        "어디에 가까요?",
+        "어디에서 갈까요?",
+        "어디에 갈래까요?"
+      ],
+      "answers": [
+        "어디에 갈까요?"
+      ]
+    },
+    {
+      "id": "b1_u09_l1_e108",
+      "type": "situation_choice",
+      "targets": [
+        "b1_u09_l1_g1"
+      ],
+      "prompt_uz": "Kecha juda sovuq bo'lganini ayting:",
+      "prompt_en": "Say it was very cold yesterday:",
+      "options": [
+        "어제는 너무 추웠어요.",
+        "어제는 너무 춥었어요.",
+        "어제는 너무 추워요었어요.",
+        "어제는 너무 춥다요."
+      ],
+      "answers": [
+        "어제는 너무 추웠어요."
+      ]
+    },
+    {
+      "id": "b1_u09_l1_e109",
+      "type": "find_error",
+      "targets": [
+        "b1_u09_l1_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "시험이 쉽었어요.",
+      "answers": [
+        "시험이 쉬웠어요"
+      ],
+      "why_uz": "쉽다: ㅂ → 웠.",
+      "why_en": "쉽다: ㅂ → 웠."
+    },
+    {
+      "id": "b1_u09_l1_e110",
+      "type": "find_error",
+      "targets": [
+        "b1_u09_l1_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "주말에 놀을까요?",
+      "answers": [
+        "주말에 놀까요?",
+        "주말에 놀까요"
+      ],
+      "why_uz": "놀다: ㄹ bilan → 놀까요.",
+      "why_en": "놀다 ends in ㄹ → 놀까요."
+    },
+    {
+      "id": "b1_u09_l1_e111",
+      "type": "translate",
+      "targets": [
+        "b1_u09_l1_g1"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Yoz juda issiq.",
+      "source_en": "Summer is very hot.",
+      "answers": [
+        "여름은 아주 더워요",
+        "여름은 정말 더워요",
+        "여름은 너무 더워요"
+      ]
+    },
+    {
+      "id": "b1_u09_l1_e112",
+      "type": "translate",
+      "targets": [
+        "b1_u09_l1_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Kino ko'ramizmi?",
+      "source_en": "Shall we watch a film?",
+      "answers": [
+        "영화를 볼까요",
+        "영화를 볼까요?",
+        "영화 볼까요?"
+      ]
+    },
+    {
+      "id": "b1_u09_l1_e113",
+      "type": "build_sentence",
+      "targets": [
+        "b1_u09_l1_g2"
+      ],
+      "prompt_uz": "'Parkka piknikka boramizmi?' gapini tuzing",
+      "prompt_en": "Build the sentence 'Shall we go for a picnic in the park?'",
+      "tokens": [
+        "갈까요?",
+        "공원에",
+        "소풍"
+      ],
+      "answers": [
+        "공원에 소풍 갈까요?"
+      ]
+    },
+    {
+      "id": "b1_u09_l1_e114",
+      "type": "listen_question",
+      "targets": [
+        "b1_u09_l1_g1"
+      ],
+      "prompt_uz": "Kecha havo qanday edi?",
+      "prompt_en": "What was the weather like yesterday?",
+      "audio_text": "어제는 정말 더웠어요.",
+      "options": [
+        "Juda issiq",
+        "Juda sovuq",
+        "Yomg'irli",
+        "Bulutli"
+      ],
+      "options_en": [
+        "Very hot",
+        "Very cold",
+        "Rainy",
+        "Cloudy"
+      ],
+      "answers": [
+        "Juda issiq"
+      ],
+      "audio": "3e928df93ec4.mp3"
+    },
+    {
+      "id": "b1_u09_l1_e115",
+      "type": "listen_question",
+      "targets": [
+        "b1_u09_l1_g2"
+      ],
+      "prompt_uz": "Ular nima qiladi?",
+      "prompt_en": "What will they do?",
+      "audio_text": "주말에 같이 등산할까요? — 네, 좋아요!",
+      "options": [
+        "Toqqa chiqadi",
+        "Kino ko'radi",
+        "Ovqatlanadi",
+        "Uyda qoladi"
+      ],
+      "options_en": [
+        "Go hiking",
+        "Watch a film",
+        "Eat out",
+        "Stay home"
+      ],
+      "answers": [
+        "Toqqa chiqadi"
+      ],
+      "audio": "c629dbeed538.mp3"
+    }
+  ],
+  "test": [
+    "b1_u09_l1_e101",
+    "b1_u09_l1_e102",
+    "b1_u09_l1_e103",
+    "b1_u09_l1_e104",
+    "b1_u09_l1_e105",
+    "b1_u09_l1_e106",
+    "b1_u09_l1_e107",
+    "b1_u09_l1_e108",
+    "b1_u09_l1_e109",
+    "b1_u09_l1_e110",
+    "b1_u09_l1_e111",
+    "b1_u09_l1_e112",
+    "b1_u09_l1_e113",
+    "b1_u09_l1_e114",
+    "b1_u09_l1_e115"
+  ],
+  "story": {
+    "title_uz": "Sovuq kun",
+    "title_en": "A cold day",
+    "gate_uz": "NAMSAN",
+    "gate_en": "NAMSAN",
+    "steps": [
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "아지즈 씨, 오늘 날씨가 정말 추워요!",
+        "uz": "Aziz, bugun havo juda sovuq!",
+        "en": "Aziz, it's really cold today!",
+        "audio": "00822298dcd4.mp3"
+      },
+      {
+        "type": "choose_reply",
+        "speaker": "aziz",
+        "prompt_uz": "Aziz 'Ha, minus besh gradus' demoqchi.",
+        "prompt_en": "Aziz wants to say 'Yes, it's minus five degrees'.",
+        "options": [
+          "네, 영하 오 도예요.",
+          "네, 영하 다섯 도예요.",
+          "네, 영하 오 도이에요."
+        ],
+        "answer": "네, 영하 오 도예요.",
+        "uz": "Ha, minus besh gradus.",
+        "en": "Yes, it's minus five degrees.",
+        "why_uz": "Gradus — xitoycha son: 오 도.",
+        "why_en": "Degrees use Sino-Korean numbers: 오 도.",
+        "audio": "878d320c2064.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "우즈베키스탄 겨울도 추워요?",
+        "uz": "O'zbekistonda qish ham sovuqmi?",
+        "en": "Are winters cold in Uzbekistan too?",
+        "audio": "67ce163dd3d7.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "네, 추워요. 그런데 여름은 아주 더워요. 사십 도예요!",
+        "uz": "Ha, sovuq. Lekin yoz juda issiq. Qirq gradus!",
+        "en": "Yes. But summers are very hot. Forty degrees!",
+        "audio": "b4e10453997c.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "와, 사십 도요? 정말 더워요!",
+        "uz": "Voy, qirq gradusmi? Juda issiq-ku!",
+        "en": "Wow, forty degrees? That's really hot!",
+        "audio": "33cef5cb20b2.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "민지 씨는 무슨 계절을 좋아해요?",
+        "uz": "Minji, qaysi faslni yaxshi ko'rasiz?",
+        "en": "Minji, which season do you like?",
+        "audio": "7c3093fc6230.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "저는 가을을 좋아해요. 시원하고 하늘이 맑아요.",
+        "uz": "Men kuzni yaxshi ko'raman. Salqin va osmon ochiq.",
+        "en": "I like autumn. It's cool and the sky is clear.",
+        "audio": "e011b456ee41.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "저도요. 내일은 따뜻해요. 같이 남산에 갈까요?",
+        "uz": "Men ham. Ertaga iliq. Birga Namsanga boramizmi?",
+        "en": "Me too. It'll be warm tomorrow. Shall we go to Namsan together?",
+        "audio": "583cce40838c.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "좋아요! 오늘은 카페에 갈까요?",
+        "uz": "Zo'r! Bugun kafega boramizmi?",
+        "en": "Great! Shall we go to a café today?",
+        "audio": "1516a0f8cae5.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "네, 따뜻한 차를 마셔요.",
+        "uz": "Ha, issiq choy ichamiz.",
+        "en": "Yes, let's have some hot tea.",
+        "audio": "efb04e83ce2f.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "장갑하고 목도리 하세요. 밖이 추워요!",
+        "uz": "Qo'lqop va sharf taqing. Tashqarida sovuq!",
+        "en": "Put on gloves and a scarf. It's cold outside!",
+        "audio": "53d4965d2e6a.mp3"
+      },
+      {
+        "type": "quiz",
+        "prompt_uz": "Ular ertaga qayerga boradi?",
+        "prompt_en": "Where will they go tomorrow?",
+        "options": [
+          "Namsanga",
+          "Kafega",
+          "O'zbekistonga"
+        ],
+        "options_en": [
+          "To Namsan",
+          "To a café",
+          "To Uzbekistan"
+        ],
+        "answer": "Namsanga",
+        "why_uz": "내일은 따뜻해요. 같이 남산에 갈까요?",
+        "why_en": "내일 같이 남산에 갈까요? — tomorrow they go to Namsan."
+      }
+    ]
+  }
+}

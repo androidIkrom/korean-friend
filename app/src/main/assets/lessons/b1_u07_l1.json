@@ -1,0 +1,1460 @@
+{
+  "id": "b1_u07_l1",
+  "unit": 7,
+  "lesson": 1,
+  "title_ko": "뭐가 맛있어요?",
+  "title_uz": "Nima mazali?",
+  "title_en": "What is tasty?",
+  "topic_uz": "Xarid",
+  "topic_en": "Shopping",
+  "reviewed": false,
+  "words": [
+    {
+      "id": "b1_u07_l1_w001",
+      "ko": "맛있다",
+      "uz": "mazali bo'lmoq",
+      "en": "to be tasty",
+      "pos": "sifat",
+      "example_ko": "이 사과가 맛있어요.",
+      "example_uz": "Bu olma mazali.",
+      "example_en": "This apple is tasty.",
+      "audio": "4e064e1e4092.mp3",
+      "example_audio": "ce236de3d25c.mp3"
+    },
+    {
+      "id": "b1_u07_l1_w002",
+      "ko": "맛없다",
+      "uz": "bemaza bo'lmoq",
+      "en": "to taste bad",
+      "pos": "sifat",
+      "example_ko": "이 빵은 맛없어요.",
+      "example_uz": "Bu non bemaza.",
+      "example_en": "This bread doesn't taste good.",
+      "audio": "d8e3dd7bed02.mp3",
+      "example_audio": "85a61e80a310.mp3"
+    },
+    {
+      "id": "b1_u07_l1_w003",
+      "ko": "크다",
+      "uz": "katta bo'lmoq",
+      "en": "to be big",
+      "pos": "sifat",
+      "example_ko": "수박이 커요.",
+      "example_uz": "Tarvuz katta.",
+      "example_en": "The watermelon is big.",
+      "audio": "33c47cb8dcb1.mp3",
+      "example_audio": "c8e26cb86a3a.mp3"
+    },
+    {
+      "id": "b1_u07_l1_w004",
+      "ko": "작다",
+      "uz": "kichik bo'lmoq",
+      "en": "to be small",
+      "pos": "sifat",
+      "example_ko": "귤이 작아요.",
+      "example_uz": "Mandarin kichkina.",
+      "example_en": "The tangerine is small.",
+      "audio": "415b6ad07e70.mp3",
+      "example_audio": "0d9defcb5351.mp3"
+    },
+    {
+      "id": "b1_u07_l1_w005",
+      "ko": "많다",
+      "uz": "ko'p bo'lmoq",
+      "en": "to be many, a lot",
+      "pos": "sifat",
+      "example_ko": "시장에 사람이 많아요.",
+      "example_uz": "Bozorda odam ko'p.",
+      "example_en": "There are lots of people at the market.",
+      "audio": "5810d475dcdb.mp3",
+      "example_audio": "b1aaf88fa27a.mp3"
+    },
+    {
+      "id": "b1_u07_l1_w006",
+      "ko": "적다",
+      "uz": "kam bo'lmoq",
+      "en": "to be few, little",
+      "pos": "sifat",
+      "example_ko": "오늘은 손님이 적어요.",
+      "example_uz": "Bugun mijoz kam.",
+      "example_en": "There are few customers today.",
+      "audio": "caf485cd9ae7.mp3",
+      "example_audio": "4ccf5e1fa005.mp3"
+    },
+    {
+      "id": "b1_u07_l1_w007",
+      "ko": "비싸다",
+      "uz": "qimmat bo'lmoq",
+      "en": "to be expensive",
+      "pos": "sifat",
+      "example_ko": "고기가 비싸요.",
+      "example_uz": "Go'sht qimmat.",
+      "example_en": "Meat is expensive.",
+      "audio": "23a2f9c176ce.mp3",
+      "example_audio": "09066e75844c.mp3"
+    },
+    {
+      "id": "b1_u07_l1_w008",
+      "ko": "싸다",
+      "uz": "arzon bo'lmoq",
+      "en": "to be cheap",
+      "pos": "sifat",
+      "example_ko": "여기는 과일이 싸요.",
+      "example_uz": "Bu yerda meva arzon.",
+      "example_en": "Fruit is cheap here.",
+      "audio": "8ec5b204a107.mp3",
+      "example_audio": "c5996a9357df.mp3"
+    },
+    {
+      "id": "b1_u07_l1_w009",
+      "ko": "좋다",
+      "uz": "yaxshi bo'lmoq",
+      "en": "to be good",
+      "pos": "sifat",
+      "example_ko": "이 딸기가 좋아요.",
+      "example_uz": "Bu qulupnay yaxshi.",
+      "example_en": "These strawberries are good.",
+      "audio": "469521cee6b1.mp3",
+      "example_audio": "286d3a30260c.mp3"
+    },
+    {
+      "id": "b1_u07_l1_w010",
+      "ko": "달다",
+      "uz": "shirin bo'lmoq",
+      "en": "to be sweet",
+      "pos": "sifat",
+      "example_ko": "포도가 달아요.",
+      "example_uz": "Uzum shirin.",
+      "example_en": "The grapes are sweet.",
+      "audio": "dc8e241ce9a6.mp3",
+      "example_audio": "1c4765f3f275.mp3"
+    },
+    {
+      "id": "b1_u07_l1_w011",
+      "ko": "짜다",
+      "uz": "sho'r bo'lmoq",
+      "en": "to be salty",
+      "pos": "sifat",
+      "example_ko": "김치찌개가 짜요.",
+      "example_uz": "Kimchi sho'rvasi sho'r.",
+      "example_en": "The kimchi stew is salty.",
+      "audio": "61ccac97d232.mp3",
+      "example_audio": "6d283d15a3e5.mp3"
+    },
+    {
+      "id": "b1_u07_l1_w012",
+      "ko": "맵다",
+      "uz": "achchiq bo'lmoq",
+      "en": "to be spicy",
+      "pos": "sifat",
+      "example_ko": "떡볶이가 매워요.",
+      "example_uz": "Ttokpokki achchiq.",
+      "example_en": "Tteokbokki is spicy.",
+      "audio": "ecde997549c5.mp3",
+      "example_audio": "b7243f9b595f.mp3"
+    },
+    {
+      "id": "b1_u07_l1_w013",
+      "ko": "신선하다",
+      "uz": "yangi (uzilgan) bo'lmoq",
+      "en": "to be fresh",
+      "pos": "sifat",
+      "example_ko": "생선이 신선해요.",
+      "example_uz": "Baliq yangi.",
+      "example_en": "The fish is fresh.",
+      "audio": "2f0ce56bcba8.mp3",
+      "example_audio": "a2aab8f739bb.mp3"
+    },
+    {
+      "id": "b1_u07_l1_w014",
+      "ko": "예쁘다",
+      "uz": "chiroyli bo'lmoq",
+      "en": "to be pretty",
+      "pos": "sifat",
+      "example_ko": "이 컵이 예뻐요.",
+      "example_uz": "Bu stakan chiroyli.",
+      "example_en": "This cup is pretty.",
+      "audio": "9faf28c8994f.mp3",
+      "example_audio": "51274f93c0b2.mp3"
+    },
+    {
+      "id": "b1_u07_l1_w015",
+      "ko": "딸기",
+      "uz": "qulupnay",
+      "en": "strawberry",
+      "pos": "ot",
+      "example_ko": "딸기가 달아요.",
+      "example_uz": "Qulupnay shirin.",
+      "example_en": "The strawberries are sweet.",
+      "audio": "628afb24271b.mp3",
+      "example_audio": "fcbe606cbaee.mp3"
+    },
+    {
+      "id": "b1_u07_l1_w016",
+      "ko": "포도",
+      "uz": "uzum",
+      "en": "grapes",
+      "pos": "ot",
+      "example_ko": "포도 한 송이 주세요.",
+      "example_uz": "Bir bosh uzum bering.",
+      "example_en": "A bunch of grapes, please.",
+      "audio": "ad7cdcfa96c2.mp3",
+      "example_audio": "667b3d99befd.mp3"
+    },
+    {
+      "id": "b1_u07_l1_w017",
+      "ko": "수박",
+      "uz": "tarvuz",
+      "en": "watermelon",
+      "pos": "ot",
+      "example_ko": "여름에는 수박이 맛있어요.",
+      "example_uz": "Yozda tarvuz mazali.",
+      "example_en": "Watermelon is tasty in summer.",
+      "audio": "fdc68433e3c2.mp3",
+      "example_audio": "982a8fe480a3.mp3"
+    },
+    {
+      "id": "b1_u07_l1_w018",
+      "ko": "바나나",
+      "uz": "banan",
+      "en": "banana",
+      "pos": "ot",
+      "example_ko": "바나나가 싸요.",
+      "example_uz": "Banan arzon.",
+      "example_en": "Bananas are cheap.",
+      "audio": "14fcffe8b167.mp3",
+      "example_audio": "418772e9c3f4.mp3"
+    },
+    {
+      "id": "b1_u07_l1_w019",
+      "ko": "귤",
+      "uz": "mandarin",
+      "en": "tangerine",
+      "pos": "ot",
+      "example_ko": "귤이 작아요.",
+      "example_uz": "Mandarin kichkina.",
+      "example_en": "The tangerines are small.",
+      "audio": "582784381b04.mp3",
+      "example_audio": "0d9defcb5351.mp3"
+    },
+    {
+      "id": "b1_u07_l1_w020",
+      "ko": "토마토",
+      "uz": "pomidor",
+      "en": "tomato",
+      "pos": "ot",
+      "example_ko": "토마토가 신선해요.",
+      "example_uz": "Pomidor yangi.",
+      "example_en": "The tomatoes are fresh.",
+      "audio": "bf9aacc1133b.mp3",
+      "example_audio": "a08b8861f941.mp3"
+    },
+    {
+      "id": "b1_u07_l1_w021",
+      "ko": "오이",
+      "uz": "bodring",
+      "en": "cucumber",
+      "pos": "ot",
+      "example_ko": "오이 세 개 주세요.",
+      "example_uz": "Uchta bodring bering.",
+      "example_en": "Three cucumbers, please.",
+      "audio": "ea32927dc730.mp3",
+      "example_audio": "1ca06e5b465f.mp3"
+    },
+    {
+      "id": "b1_u07_l1_w022",
+      "ko": "감자",
+      "uz": "kartoshka",
+      "en": "potato",
+      "pos": "ot",
+      "example_ko": "감자가 커요.",
+      "example_uz": "Kartoshka katta.",
+      "example_en": "The potatoes are big.",
+      "audio": "7c541b6523a0.mp3",
+      "example_audio": "5e15153ccdad.mp3"
+    },
+    {
+      "id": "b1_u07_l1_w023",
+      "ko": "고기",
+      "uz": "go'sht",
+      "en": "meat",
+      "pos": "ot",
+      "example_ko": "고기를 안 먹어요.",
+      "example_uz": "Go'sht yemayman.",
+      "example_en": "I don't eat meat.",
+      "audio": "314530493622.mp3",
+      "example_audio": "d301cf1b82b0.mp3"
+    },
+    {
+      "id": "b1_u07_l1_w024",
+      "ko": "생선",
+      "uz": "baliq (ovqat)",
+      "en": "fish",
+      "pos": "ot",
+      "example_ko": "생선이 싸요.",
+      "example_uz": "Baliq arzon.",
+      "example_en": "The fish is cheap.",
+      "audio": "2bde22a3885a.mp3",
+      "example_audio": "07a047aae231.mp3"
+    },
+    {
+      "id": "b1_u07_l1_w025",
+      "ko": "계란",
+      "uz": "tuxum",
+      "en": "egg",
+      "pos": "ot",
+      "example_ko": "계란이 있어요?",
+      "example_uz": "Tuxum bormi?",
+      "example_en": "Do you have eggs?",
+      "audio": "7808468e9cb5.mp3",
+      "example_audio": "1a5a2c77da62.mp3"
+    },
+    {
+      "id": "b1_u07_l1_w026",
+      "ko": "야채",
+      "uz": "sabzavot",
+      "en": "vegetables",
+      "pos": "ot",
+      "example_ko": "야채가 신선해요.",
+      "example_uz": "Sabzavotlar yangi.",
+      "example_en": "The vegetables are fresh.",
+      "audio": "6557d43e3f40.mp3",
+      "example_audio": "9c6b1d22dbf0.mp3"
+    },
+    {
+      "id": "b1_u07_l1_w027",
+      "ko": "아주",
+      "uz": "juda",
+      "en": "very",
+      "pos": "ravish",
+      "example_ko": "아주 맛있어요.",
+      "example_uz": "Juda mazali.",
+      "example_en": "It's very tasty.",
+      "audio": "6deacfc0761d.mp3",
+      "example_audio": "50455120d66b.mp3"
+    },
+    {
+      "id": "b1_u07_l1_w028",
+      "ko": "조금",
+      "uz": "ozgina, bir oz",
+      "en": "a little",
+      "pos": "ravish",
+      "example_ko": "조금 비싸요.",
+      "example_uz": "Bir oz qimmat.",
+      "example_en": "It's a little expensive.",
+      "audio": "f554a867ade8.mp3",
+      "example_audio": "a91bce991630.mp3"
+    },
+    {
+      "id": "b1_u07_l1_w029",
+      "ko": "너무",
+      "uz": "juda (haddan ziyod)",
+      "en": "too",
+      "pos": "ravish",
+      "example_ko": "너무 매워요.",
+      "example_uz": "Juda achchiq.",
+      "example_en": "It's too spicy.",
+      "audio": "2254c4996d77.mp3",
+      "example_audio": "8475f98ee1e9.mp3"
+    },
+    {
+      "id": "b1_u07_l1_w030",
+      "ko": "아저씨",
+      "uz": "amaki (erkak sotuvchiga murojaat)",
+      "en": "sir (to a middle-aged man)",
+      "pos": "ot",
+      "example_ko": "아저씨, 사과 얼마예요?",
+      "example_uz": "Amaki, olma qancha?",
+      "example_en": "Sir, how much are the apples?",
+      "audio": "aac23d07c1dc.mp3",
+      "example_audio": "1aa2afdfdc4c.mp3"
+    },
+    {
+      "id": "b1_u07_l1_w031",
+      "ko": "아주머니",
+      "uz": "xola (ayol sotuvchiga murojaat)",
+      "en": "ma'am (to a middle-aged woman)",
+      "pos": "ot",
+      "example_ko": "아주머니, 딸기 있어요?",
+      "example_uz": "Xola, qulupnay bormi?",
+      "example_en": "Ma'am, do you have strawberries?",
+      "audio": "0f2e9f797db8.mp3",
+      "example_audio": "32bcc984618f.mp3"
+    },
+    {
+      "id": "b1_u07_l1_w032",
+      "ko": "어때요",
+      "uz": "qanday? (fikr so'rash)",
+      "en": "how is it?",
+      "pos": "ibora",
+      "example_ko": "이 수박 어때요?",
+      "example_uz": "Bu tarvuz qanday?",
+      "example_en": "How's this watermelon?",
+      "audio": "fa4a92577ddf.mp3",
+      "example_audio": "366f00523be1.mp3"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "b1_u07_l1_g1",
+      "pattern": "N이/가 A-아요/어요",
+      "meaning_uz": "Ega + sifat: ... mazali, ... katta",
+      "meaning_en": "Subject + adjective: N is A",
+      "explanation_md": "Koreyschada sifat fe'l kabi ishlaydi: **맛있다** = \"mazali bo'lmoq\". Uni **-아요/어요** bilan tuslaymiz, egasiga esa **이/가** qo'shamiz.\n\n**사과가 맛있어요.** — *Olma mazali.*\n\n### Ega qo'shimchasi 이/가\n\n- Ot **받침 bilan** → **이**: 귤 → **귤이 작아요**\n- Ot **unli bilan** → **가**: 사과 → **사과가 맛있어요**\n- **뭐 + 가 → 뭐가**: **뭐가 맛있어요?** — *Nima mazali?*\n\n### Sifatni tuslash (6-1 dagi qoida)\n\n- ㅏ/ㅗ → **-아요**: 작다 → **작아요**, 많다 → **많아요**, 비싸다 → **비싸요**\n- boshqa unli → **-어요**: 맛있다 → **맛있어요**, 적다 → **적어요**\n- 하다 → **해요**: 신선하다 → **신선해요**\n- ㅡ tushib qoladi: 크다 → **커요**, 예쁘다 → **예뻐요**\n- 맵다 → **매워요** (ㅂ → 워; 9-1 da batafsil)\n\n### Esda tuting\n\n- **이/가** — gapning egasi; **은/는** — mavzu yoki qarama-qarshilik: **사과는 비싸요. 귤은 싸요.**\n- \"Bu\", \"u\" kabi so'zlar shart emas: **맛있어요!** — *Mazali!*",
+      "explanation_md_en": "In Korean an adjective works like a verb: **맛있다** = \"to be tasty\". It takes **-아요/어요**, and its subject takes **이/가**.\n\n**사과가 맛있어요.** — *The apple is tasty.*\n\n### Subject marker 이/가\n\n- Noun **with 받침** → **이**: 귤 → **귤이 작아요**\n- Noun **ending in a vowel** → **가**: 사과 → **사과가 맛있어요**\n- **뭐 + 가 → 뭐가**: **뭐가 맛있어요?** — *What's tasty?*\n\n### Conjugating (the 6-1 rule)\n\n- ㅏ/ㅗ → **-아요**: 작다 → **작아요**, 많다 → **많아요**, 비싸다 → **비싸요**\n- other vowels → **-어요**: 맛있다 → **맛있어요**, 적다 → **적어요**\n- 하다 → **해요**: 신선하다 → **신선해요**\n- ㅡ drops: 크다 → **커요**, 예쁘다 → **예뻐요**\n- 맵다 → **매워요** (ㅂ → 워; more in 9-1)\n\n### Remember\n\n- **이/가** marks the subject; **은/는** marks a topic or contrast: **사과는 비싸요. 귤은 싸요.**\n- No word for \"it\" is needed: **맛있어요!** — *It's tasty!*",
+      "formation": [
+        {
+          "condition_uz": "받침 bor",
+          "condition_en": "With 받침",
+          "rule": "N이 + A-아요/어요",
+          "example": "귤이 작아요, 생선이 싸요"
+        },
+        {
+          "condition_uz": "받침 yo'q",
+          "condition_en": "No 받침",
+          "rule": "N가 + A-아요/어요",
+          "example": "사과가 맛있어요, 포도가 달아요"
+        },
+        {
+          "condition_uz": "ㅡ bilan",
+          "condition_en": "Stem with ㅡ",
+          "rule": "ㅡ tushadi",
+          "example": "크다 → 커요, 예쁘다 → 예뻐요"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "뭐가 맛있어요?",
+          "uz": "Nima mazali?",
+          "en": "What's tasty?",
+          "audio": "568955f2b38f.mp3"
+        },
+        {
+          "ko": "딸기가 아주 달아요.",
+          "uz": "Qulupnay juda shirin.",
+          "en": "The strawberries are very sweet.",
+          "audio": "0ca5593545ae.mp3"
+        },
+        {
+          "ko": "수박이 커요.",
+          "uz": "Tarvuz katta.",
+          "en": "The watermelon is big.",
+          "audio": "c8e26cb86a3a.mp3"
+        },
+        {
+          "ko": "오늘은 생선이 싸요.",
+          "uz": "Bugun baliq arzon.",
+          "en": "Fish is cheap today.",
+          "audio": "2887c4605e73.mp3"
+        },
+        {
+          "ko": "시장에 사람이 많아요.",
+          "uz": "Bozorda odam ko'p.",
+          "en": "There are lots of people at the market.",
+          "audio": "b1aaf88fa27a.mp3"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "사과이 맛있어요.",
+          "right": "사과가 맛있어요.",
+          "why_uz": "사과 unli bilan tugaydi: 가.",
+          "why_en": "사과 ends in a vowel: 가."
+        },
+        {
+          "wrong": "수박이 크어요.",
+          "right": "수박이 커요.",
+          "why_uz": "크다: ㅡ tushib qoladi → 커요.",
+          "why_en": "크다: ㅡ drops → 커요."
+        },
+        {
+          "wrong": "고기가 비싸다요.",
+          "right": "고기가 비싸요.",
+          "why_uz": "-다 olib tashlanadi: 비싸요.",
+          "why_en": "Drop -다: 비싸요."
+        }
+      ],
+      "uz_compare": "O'zbekchada 'olma mazali' deymiz — 'mazali' o'zgarmaydi. Koreyschada sifat fe'l kabi tuslanadi: 맛있다 → 맛있어요. Ega ham belgi oladi: 사과가.",
+      "compare_en": "English needs 'is': 'the apple IS tasty'. In Korean the adjective itself is conjugated like a verb: 맛있다 → 맛있어요, and the subject is marked with 이/가."
+    },
+    {
+      "id": "b1_u07_l1_g2",
+      "pattern": "안 A/V",
+      "meaning_uz": "Inkor: ...mas, ...may",
+      "meaning_en": "Negation: not",
+      "explanation_md": "**안** fe'l yoki sifatdan **oldin** qo'yiladi va uni inkor qiladi.\n\n**안 비싸요.** — *Qimmat emas.*  \n**고기를 안 먹어요.** — *Go'sht yemayman.*\n\n### Esda tuting\n\n- **N하다** fe'llarida 안 **ot bilan 하다 orasiga** qo'yiladi: 공부하다 → **공부 안 해요**, 운동하다 → **운동 안 해요**.\n- Lekin sifatlarda (신선하다, 깨끗하다) — oldidan: **안 신선해요**.\n- **있다 → 없다**, **맛있다 → 맛없다** — bu so'zlarning o'z inkor shakli bor: ~~안 있어요~~ emas, **없어요**.\n- **이에요/예요** ning inkori — **이/가 아니에요** (3-2).",
+      "explanation_md_en": "**안** goes **before** a verb or adjective to negate it.\n\n**안 비싸요.** — *It's not expensive.*  \n**고기를 안 먹어요.** — *I don't eat meat.*\n\n### Remember\n\n- With **N하다** verbs, 안 goes **between the noun and 하다**: 공부하다 → **공부 안 해요**, 운동하다 → **운동 안 해요**.\n- With adjectives (신선하다, 깨끗하다) it goes in front: **안 신선해요**.\n- **있다 → 없다**, **맛있다 → 맛없다** have their own opposites: not ~~안 있어요~~ but **없어요**.\n- The negative of **이에요/예요** is **이/가 아니에요** (3-2).",
+      "formation": [
+        {
+          "condition_uz": "Fe'l/sifat",
+          "condition_en": "Verb/adjective",
+          "rule": "안 + A/V",
+          "example": "안 비싸요, 안 먹어요"
+        },
+        {
+          "condition_uz": "N하다 fe'li",
+          "condition_en": "N하다 verb",
+          "rule": "N 안 해요",
+          "example": "공부 안 해요, 운동 안 해요"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "이 딸기는 안 비싸요.",
+          "uz": "Bu qulupnay qimmat emas.",
+          "en": "These strawberries aren't expensive.",
+          "audio": "62ff5c5c2d4b.mp3"
+        },
+        {
+          "ko": "저는 고기를 안 먹어요.",
+          "uz": "Men go'sht yemayman.",
+          "en": "I don't eat meat.",
+          "audio": "c8bc608d15dc.mp3"
+        },
+        {
+          "ko": "오늘은 운동 안 해요.",
+          "uz": "Bugun sport qilmayman.",
+          "en": "I'm not exercising today.",
+          "audio": "9130e20ea5a2.mp3"
+        },
+        {
+          "ko": "떡볶이가 안 매워요.",
+          "uz": "Ttokpokki achchiq emas.",
+          "en": "The tteokbokki isn't spicy.",
+          "audio": "17532132f537.mp3"
+        },
+        {
+          "ko": "주말에 학교에 안 가요.",
+          "uz": "Dam olish kuni maktabga bormayman.",
+          "en": "I don't go to school at the weekend.",
+          "audio": "71a43d945a1a.mp3"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "비싸요 안.",
+          "right": "안 비싸요.",
+          "why_uz": "안 fe'ldan oldin keladi.",
+          "why_en": "안 comes before the verb."
+        },
+        {
+          "wrong": "안 공부해요.",
+          "right": "공부 안 해요.",
+          "why_uz": "N하다 fe'lida 안 o'rtaga: 공부 안 해요.",
+          "why_en": "With N하다, 안 goes in the middle: 공부 안 해요."
+        },
+        {
+          "wrong": "계란이 안 있어요.",
+          "right": "계란이 없어요.",
+          "why_uz": "있다 ning inkori — 없다.",
+          "why_en": "The negative of 있다 is 없다."
+        }
+      ],
+      "uz_compare": "O'zbekchada inkor qo'shimcha bilan: 'yeMAYman', 'qimmat EMAS'. Koreyschada esa alohida so'z — 안 fe'ldan oldin: 안 먹어요, 안 비싸요.",
+      "compare_en": "English uses 'not / don't' before the verb — and so does Korean: 안 먹어요 = 'don't eat'. Just remember 공부 안 해요 for N하다 verbs."
+    }
+  ],
+  "dialogue": {
+    "lines": [
+      {
+        "speaker": "seller",
+        "ko": "어서 오세요! 과일이 아주 싸요.",
+        "uz": "Xush kelibsiz! Meva juda arzon.",
+        "en": "Welcome! The fruit is very cheap.",
+        "audio": "947ed27a834e.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "아주머니, 뭐가 맛있어요?",
+        "uz": "Xola, nima mazali?",
+        "en": "Ma'am, what's good today?",
+        "audio": "3dc502ae496e.mp3"
+      },
+      {
+        "speaker": "seller",
+        "ko": "딸기가 맛있어요. 아주 달아요.",
+        "uz": "Qulupnay mazali. Juda shirin.",
+        "en": "The strawberries are good. They're very sweet.",
+        "audio": "9a841693a8f7.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "딸기가 비싸요?",
+        "uz": "Qulupnay qimmatmi?",
+        "en": "Are the strawberries expensive?",
+        "audio": "b5ece182d811.mp3"
+      },
+      {
+        "speaker": "seller",
+        "ko": "아니요, 안 비싸요. 오늘은 싸요.",
+        "uz": "Yo'q, qimmat emas. Bugun arzon.",
+        "en": "No, they're not expensive. They're cheap today.",
+        "audio": "3b5483a0d677.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "수박도 맛있어요?",
+        "uz": "Tarvuz ham mazalimi?",
+        "en": "Is the watermelon good too?",
+        "audio": "86a75b42f7f0.mp3"
+      },
+      {
+        "speaker": "seller",
+        "ko": "네, 수박도 커요. 그리고 아주 달아요.",
+        "uz": "Ha, tarvuz ham katta. Va juda shirin.",
+        "en": "Yes, the watermelon is big too. And very sweet.",
+        "audio": "97ae35513993.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "아지즈 씨, 수박은 너무 커요. 집에 냉장고가 작아요.",
+        "uz": "Aziz, tarvuz juda katta. Uyda muzlatgich kichkina.",
+        "en": "Aziz, the watermelon is too big. The fridge at home is small.",
+        "audio": "0f117057cf44.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "그럼 딸기하고 바나나 주세요.",
+        "uz": "Unda qulupnay va banan bering.",
+        "en": "Then strawberries and bananas, please.",
+        "audio": "4a98fa166051.mp3"
+      },
+      {
+        "speaker": "seller",
+        "ko": "네, 여기 있어요. 귤은 서비스예요!",
+        "uz": "Mana. Mandarin — sovg'a!",
+        "en": "Here you are. The tangerines are on the house!",
+        "audio": "e087ea37f277.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "와, 감사합니다!",
+        "uz": "Voy, rahmat!",
+        "en": "Wow, thank you!",
+        "audio": "1ac869fd1e34.mp3"
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b1_u07_l1_e001",
+      "type": "conjugate",
+      "targets": [
+        "b1_u07_l1_g1"
+      ],
+      "prompt_uz": "'Mazali' (muloyim shakl)",
+      "prompt_en": "'is tasty' (polite form)",
+      "base": "맛있다",
+      "form": "-아요/어요",
+      "answers": [
+        "맛있어요"
+      ]
+    },
+    {
+      "id": "b1_u07_l1_e002",
+      "type": "conjugate",
+      "targets": [
+        "b1_u07_l1_g1"
+      ],
+      "prompt_uz": "'Katta' (muloyim shakl)",
+      "prompt_en": "'is big' (polite form)",
+      "base": "크다",
+      "form": "-아요/어요",
+      "answers": [
+        "커요"
+      ],
+      "hint_uz": "ㅡ tushib qoladi",
+      "hint_en": "ㅡ drops"
+    },
+    {
+      "id": "b1_u07_l1_e003",
+      "type": "conjugate",
+      "targets": [
+        "b1_u07_l1_g1"
+      ],
+      "prompt_uz": "'Kichik' (muloyim shakl)",
+      "prompt_en": "'is small' (polite form)",
+      "base": "작다",
+      "form": "-아요/어요",
+      "answers": [
+        "작아요"
+      ]
+    },
+    {
+      "id": "b1_u07_l1_e004",
+      "type": "conjugate",
+      "targets": [
+        "b1_u07_l1_g2"
+      ],
+      "prompt_uz": "'Qimmat emas' shaklini yasang",
+      "prompt_en": "Make 'is not expensive'",
+      "base": "비싸다",
+      "form": "안 + -아요/어요",
+      "answers": [
+        "안 비싸요"
+      ]
+    },
+    {
+      "id": "b1_u07_l1_e005",
+      "type": "conjugate",
+      "targets": [
+        "b1_u07_l1_g2"
+      ],
+      "prompt_uz": "'Sport qilmayman' shaklini yasang",
+      "prompt_en": "Make 'don't exercise'",
+      "base": "운동하다",
+      "form": "안 + -아요/어요",
+      "answers": [
+        "운동 안 해요"
+      ],
+      "hint_uz": "N 안 해요",
+      "hint_en": "N 안 해요"
+    },
+    {
+      "id": "b1_u07_l1_e006",
+      "type": "fill_blank",
+      "targets": [
+        "b1_u07_l1_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Nima mazali?'",
+      "prompt_en": "Fill in the blank: 'What's tasty?'",
+      "sentence": "뭐___ 맛있어요?",
+      "answers": [
+        "가"
+      ]
+    },
+    {
+      "id": "b1_u07_l1_e007",
+      "type": "fill_blank",
+      "targets": [
+        "b1_u07_l1_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Mandarin kichkina.'",
+      "prompt_en": "Fill in the blank: 'The tangerines are small.'",
+      "sentence": "귤___ 작아요.",
+      "answers": [
+        "이"
+      ]
+    },
+    {
+      "id": "b1_u07_l1_e008",
+      "type": "fill_blank",
+      "targets": [
+        "b1_u07_l1_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Go'sht yemayman.'",
+      "prompt_en": "Fill in the blank: 'I don't eat meat.'",
+      "sentence": "고기를 ___ 먹어요.",
+      "answers": [
+        "안"
+      ]
+    },
+    {
+      "id": "b1_u07_l1_e009",
+      "type": "fill_blank",
+      "targets": [
+        "b1_u07_l1_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Bu stakan chiroyli.'",
+      "prompt_en": "Fill in the blank: 'This cup is pretty.'",
+      "sentence": "이 컵이 ___. (예쁘다)",
+      "answers": [
+        "예뻐요"
+      ]
+    },
+    {
+      "id": "b1_u07_l1_e010",
+      "type": "situation_choice",
+      "targets": [
+        "b1_u07_l1_g1"
+      ],
+      "prompt_uz": "Bozorda sotuvchidan nima mazali ekanini so'rang:",
+      "prompt_en": "At the market, ask the seller what's good:",
+      "options": [
+        "뭐가 맛있어요?",
+        "뭐를 맛있어요?",
+        "뭐가 맛있다?",
+        "뭐예요 맛있어요?"
+      ],
+      "answers": [
+        "뭐가 맛있어요?"
+      ]
+    },
+    {
+      "id": "b1_u07_l1_e011",
+      "type": "situation_choice",
+      "targets": [
+        "b1_u07_l1_g2"
+      ],
+      "prompt_uz": "Do'stingiz 'Achchiqmi?' dedi. Achchiq emas:",
+      "prompt_en": "Your friend asks 'Is it spicy?' It isn't:",
+      "options": [
+        "아니요, 안 매워요.",
+        "아니요, 매워요 안.",
+        "아니요, 안 맵어요.",
+        "네, 안 매워요."
+      ],
+      "answers": [
+        "아니요, 안 매워요."
+      ]
+    },
+    {
+      "id": "b1_u07_l1_e012",
+      "type": "situation_choice",
+      "targets": [
+        "b1_u07_l1_w031"
+      ],
+      "prompt_uz": "Bozorda keksa ayol sotuvchiga murojaat qiling:",
+      "prompt_en": "At the market, call out to the older woman selling:",
+      "options": [
+        "아주머니!",
+        "아저씨!",
+        "손님!",
+        "이모님 씨!"
+      ],
+      "answers": [
+        "아주머니!"
+      ]
+    },
+    {
+      "id": "b1_u07_l1_e013",
+      "type": "find_error",
+      "targets": [
+        "b1_u07_l1_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "포도이 달아요.",
+      "answers": [
+        "포도가 달아요"
+      ],
+      "why_uz": "포도 unli bilan tugaydi: 가.",
+      "why_en": "포도 ends in a vowel: 가."
+    },
+    {
+      "id": "b1_u07_l1_e014",
+      "type": "find_error",
+      "targets": [
+        "b1_u07_l1_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "가방이 예쁘어요.",
+      "answers": [
+        "가방이 예뻐요"
+      ],
+      "why_uz": "예쁘다: ㅡ tushib qoladi → 예뻐요.",
+      "why_en": "예쁘다: ㅡ drops → 예뻐요."
+    },
+    {
+      "id": "b1_u07_l1_e015",
+      "type": "find_error",
+      "targets": [
+        "b1_u07_l1_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "저는 안 공부해요.",
+      "answers": [
+        "저는 공부 안 해요"
+      ],
+      "why_uz": "N하다: 공부 안 해요.",
+      "why_en": "N하다: 공부 안 해요."
+    },
+    {
+      "id": "b1_u07_l1_e016",
+      "type": "translate",
+      "targets": [
+        "b1_u07_l1_g1"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Qulupnay juda shirin.",
+      "source_en": "The strawberries are very sweet.",
+      "answers": [
+        "딸기가 아주 달아요",
+        "딸기가 정말 달아요",
+        "딸기가 너무 달아요"
+      ]
+    },
+    {
+      "id": "b1_u07_l1_e017",
+      "type": "translate",
+      "targets": [
+        "b1_u07_l1_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Bu qimmat emas.",
+      "source_en": "This isn't expensive.",
+      "answers": [
+        "이거는 안 비싸요",
+        "이건 안 비싸요",
+        "안 비싸요"
+      ]
+    },
+    {
+      "id": "b1_u07_l1_e018",
+      "type": "translate",
+      "targets": [
+        "b1_u07_l1_g1"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Bozorda odam ko'p.",
+      "source_en": "There are lots of people at the market.",
+      "answers": [
+        "시장에 사람이 많아요"
+      ]
+    },
+    {
+      "id": "b1_u07_l1_e019",
+      "type": "build_sentence",
+      "targets": [
+        "b1_u07_l1_g1"
+      ],
+      "prompt_uz": "'Bugun baliq arzon' gapini tuzing",
+      "prompt_en": "Build the sentence 'Fish is cheap today'",
+      "tokens": [
+        "오늘은",
+        "싸요",
+        "생선이"
+      ],
+      "answers": [
+        "오늘은 생선이 싸요"
+      ]
+    },
+    {
+      "id": "b1_u07_l1_e020",
+      "type": "build_sentence",
+      "targets": [
+        "b1_u07_l1_g2"
+      ],
+      "prompt_uz": "'Dam olish kuni maktabga bormayman' gapini tuzing",
+      "prompt_en": "Build the sentence 'I don't go to school at the weekend'",
+      "tokens": [
+        "주말에",
+        "안",
+        "가요",
+        "학교에"
+      ],
+      "answers": [
+        "주말에 학교에 안 가요"
+      ]
+    },
+    {
+      "id": "b1_u07_l1_e021",
+      "type": "build_sentence",
+      "targets": [
+        "b1_u07_l1_g1"
+      ],
+      "prompt_uz": "'Sabzavotlar juda yangi' gapini tuzing",
+      "prompt_en": "Build the sentence 'The vegetables are very fresh'",
+      "tokens": [
+        "아주",
+        "신선해요",
+        "야채가"
+      ],
+      "answers": [
+        "야채가 아주 신선해요"
+      ]
+    },
+    {
+      "id": "b1_u07_l1_e022",
+      "type": "listen_question",
+      "targets": [
+        "b1_u07_l1_g1"
+      ],
+      "prompt_uz": "Nima mazali?",
+      "prompt_en": "What is tasty?",
+      "audio_text": "오늘은 수박이 맛있어요.",
+      "options": [
+        "Tarvuz",
+        "Qulupnay",
+        "Uzum",
+        "Banan"
+      ],
+      "options_en": [
+        "Watermelon",
+        "Strawberries",
+        "Grapes",
+        "Bananas"
+      ],
+      "answers": [
+        "Tarvuz"
+      ],
+      "audio": "2ff9576ff06b.mp3"
+    },
+    {
+      "id": "b1_u07_l1_e023",
+      "type": "listen_question",
+      "targets": [
+        "b1_u07_l1_g2"
+      ],
+      "prompt_uz": "Go'sht qanday?",
+      "prompt_en": "How is the meat?",
+      "audio_text": "고기가 안 비싸요.",
+      "options": [
+        "Qimmat emas",
+        "Qimmat",
+        "Mazali emas",
+        "Yangi emas"
+      ],
+      "options_en": [
+        "Not expensive",
+        "Expensive",
+        "Not tasty",
+        "Not fresh"
+      ],
+      "answers": [
+        "Qimmat emas"
+      ],
+      "audio": "3f9b0f35eecf.mp3"
+    },
+    {
+      "id": "b1_u07_l1_e024",
+      "type": "listen_question",
+      "targets": [
+        "b1_u07_l1_g2"
+      ],
+      "prompt_uz": "U nimani yemaydi?",
+      "prompt_en": "What doesn't the speaker eat?",
+      "audio_text": "저는 생선을 안 먹어요.",
+      "options": [
+        "Baliq",
+        "Go'sht",
+        "Tuxum",
+        "Kartoshka"
+      ],
+      "options_en": [
+        "Fish",
+        "Meat",
+        "Eggs",
+        "Potatoes"
+      ],
+      "answers": [
+        "Baliq"
+      ],
+      "audio": "866d7804350b.mp3"
+    },
+    {
+      "id": "b1_u07_l1_e025",
+      "type": "listen_question",
+      "targets": [
+        "b1_u07_l1_g1"
+      ],
+      "prompt_uz": "Muammo nima?",
+      "prompt_en": "What's the problem?",
+      "audio_text": "떡볶이가 너무 매워요.",
+      "options": [
+        "Juda achchiq",
+        "Juda sho'r",
+        "Juda qimmat",
+        "Juda kichik"
+      ],
+      "options_en": [
+        "Too spicy",
+        "Too salty",
+        "Too expensive",
+        "Too small"
+      ],
+      "answers": [
+        "Juda achchiq"
+      ],
+      "audio": "dcefadb6aa92.mp3"
+    },
+    {
+      "id": "b1_u07_l1_e101",
+      "type": "conjugate",
+      "targets": [
+        "b1_u07_l1_g1"
+      ],
+      "prompt_uz": "'Ko'p' (muloyim shakl)",
+      "prompt_en": "'is a lot' (polite form)",
+      "base": "많다",
+      "form": "-아요/어요",
+      "answers": [
+        "많아요"
+      ]
+    },
+    {
+      "id": "b1_u07_l1_e102",
+      "type": "conjugate",
+      "targets": [
+        "b1_u07_l1_g1"
+      ],
+      "prompt_uz": "'Yangi' (muloyim shakl)",
+      "prompt_en": "'is fresh' (polite form)",
+      "base": "신선하다",
+      "form": "-아요/어요",
+      "answers": [
+        "신선해요"
+      ]
+    },
+    {
+      "id": "b1_u07_l1_e103",
+      "type": "conjugate",
+      "targets": [
+        "b1_u07_l1_g2"
+      ],
+      "prompt_uz": "'Bormayman' shaklini yasang",
+      "prompt_en": "Make 'don't go'",
+      "base": "가다",
+      "form": "안 + -아요/어요",
+      "answers": [
+        "안 가요"
+      ]
+    },
+    {
+      "id": "b1_u07_l1_e104",
+      "type": "fill_blank",
+      "targets": [
+        "b1_u07_l1_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Tarvuz katta.'",
+      "prompt_en": "Fill in the blank: 'The watermelon is big.'",
+      "sentence": "수박이 ___. (크다)",
+      "answers": [
+        "커요"
+      ]
+    },
+    {
+      "id": "b1_u07_l1_e105",
+      "type": "fill_blank",
+      "targets": [
+        "b1_u07_l1_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Uy vazifasini qilmayman.'",
+      "prompt_en": "Fill in the blank: 'I don't do homework.'",
+      "sentence": "숙제 ___ 해요.",
+      "answers": [
+        "안"
+      ]
+    },
+    {
+      "id": "b1_u07_l1_e106",
+      "type": "situation_choice",
+      "targets": [
+        "b1_u07_l1_g1"
+      ],
+      "prompt_uz": "Sotuvchiga bananning arzonligini ayting:",
+      "prompt_en": "Tell the seller the bananas are cheap:",
+      "options": [
+        "바나나가 싸요.",
+        "바나나이 싸요.",
+        "바나나가 싸다요.",
+        "바나나를 싸요."
+      ],
+      "answers": [
+        "바나나가 싸요."
+      ]
+    },
+    {
+      "id": "b1_u07_l1_e107",
+      "type": "situation_choice",
+      "targets": [
+        "b1_u07_l1_g2"
+      ],
+      "prompt_uz": "Sizdan 'Bugun sport qilasizmi?' deb so'rashdi. Yo'q:",
+      "prompt_en": "You're asked 'Are you exercising today?' You're not:",
+      "options": [
+        "아니요, 운동 안 해요.",
+        "아니요, 안 운동해요.",
+        "아니요, 운동해요 안.",
+        "아니요, 운동 없어요."
+      ],
+      "answers": [
+        "아니요, 운동 안 해요."
+      ]
+    },
+    {
+      "id": "b1_u07_l1_e108",
+      "type": "situation_choice",
+      "targets": [
+        "b1_u07_l1_w032"
+      ],
+      "prompt_uz": "Do'stingizdan bu tarvuz haqida fikrini so'rang:",
+      "prompt_en": "Ask your friend what they think of this watermelon:",
+      "options": [
+        "이 수박 어때요?",
+        "이 수박 뭐예요?",
+        "이 수박 어디예요?",
+        "이 수박 누구예요?"
+      ],
+      "answers": [
+        "이 수박 어때요?"
+      ]
+    },
+    {
+      "id": "b1_u07_l1_e109",
+      "type": "find_error",
+      "targets": [
+        "b1_u07_l1_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "사과는 맛있다요.",
+      "answers": [
+        "사과는 맛있어요"
+      ],
+      "why_uz": "-다 olib, -어요 qo'shiladi.",
+      "why_en": "Drop -다 and add -어요."
+    },
+    {
+      "id": "b1_u07_l1_e110",
+      "type": "find_error",
+      "targets": [
+        "b1_u07_l1_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "계란이 안 있어요.",
+      "answers": [
+        "계란이 없어요"
+      ],
+      "why_uz": "있다 ning inkori — 없다.",
+      "why_en": "The negative of 있다 is 없다."
+    },
+    {
+      "id": "b1_u07_l1_e111",
+      "type": "translate",
+      "targets": [
+        "b1_u07_l1_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Ttokpokki achchiq emas.",
+      "source_en": "The tteokbokki isn't spicy.",
+      "answers": [
+        "떡볶이가 안 매워요",
+        "떡볶이는 안 매워요"
+      ]
+    },
+    {
+      "id": "b1_u07_l1_e112",
+      "type": "translate",
+      "targets": [
+        "b1_u07_l1_g1"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Go'sht qimmat.",
+      "source_en": "Meat is expensive.",
+      "answers": [
+        "고기가 비싸요",
+        "고기는 비싸요"
+      ]
+    },
+    {
+      "id": "b1_u07_l1_e113",
+      "type": "build_sentence",
+      "targets": [
+        "b1_u07_l1_g1",
+        "b1_u07_l1_g2"
+      ],
+      "prompt_uz": "'Bu qulupnay qimmat emas' gapini tuzing",
+      "prompt_en": "Build the sentence 'These strawberries aren't expensive'",
+      "tokens": [
+        "안",
+        "비싸요",
+        "딸기는",
+        "이"
+      ],
+      "answers": [
+        "이 딸기는 안 비싸요"
+      ]
+    },
+    {
+      "id": "b1_u07_l1_e114",
+      "type": "listen_question",
+      "targets": [
+        "b1_u07_l1_g1"
+      ],
+      "prompt_uz": "Nima yangi?",
+      "prompt_en": "What is fresh?",
+      "audio_text": "오늘은 토마토가 아주 신선해요.",
+      "options": [
+        "Pomidor",
+        "Bodring",
+        "Kartoshka",
+        "Baliq"
+      ],
+      "options_en": [
+        "Tomatoes",
+        "Cucumbers",
+        "Potatoes",
+        "Fish"
+      ],
+      "answers": [
+        "Pomidor"
+      ],
+      "audio": "63183526a540.mp3"
+    },
+    {
+      "id": "b1_u07_l1_e115",
+      "type": "listen_question",
+      "targets": [
+        "b1_u07_l1_g2"
+      ],
+      "prompt_uz": "U bugun nima qilmaydi?",
+      "prompt_en": "What isn't the speaker doing today?",
+      "audio_text": "오늘은 학교에 안 가요.",
+      "options": [
+        "Maktabga bormaydi",
+        "Ishlamaydi",
+        "Ovqat yemaydi",
+        "Uxlamaydi"
+      ],
+      "options_en": [
+        "Not going to school",
+        "Not working",
+        "Not eating",
+        "Not sleeping"
+      ],
+      "answers": [
+        "Maktabga bormaydi"
+      ],
+      "audio": "f0b1730f4dd9.mp3"
+    }
+  ],
+  "test": [
+    "b1_u07_l1_e101",
+    "b1_u07_l1_e102",
+    "b1_u07_l1_e103",
+    "b1_u07_l1_e104",
+    "b1_u07_l1_e105",
+    "b1_u07_l1_e106",
+    "b1_u07_l1_e107",
+    "b1_u07_l1_e108",
+    "b1_u07_l1_e109",
+    "b1_u07_l1_e110",
+    "b1_u07_l1_e111",
+    "b1_u07_l1_e112",
+    "b1_u07_l1_e113",
+    "b1_u07_l1_e114",
+    "b1_u07_l1_e115"
+  ],
+  "story": {
+    "title_uz": "Meva bozori",
+    "title_en": "The fruit market",
+    "gate_uz": "BOZOR",
+    "gate_en": "MARKET",
+    "steps": [
+      {
+        "type": "line",
+        "speaker": "seller",
+        "ko": "어서 오세요! 오늘 과일이 아주 싸요!",
+        "uz": "Xush kelibsiz! Bugun meva juda arzon!",
+        "en": "Welcome! The fruit is very cheap today!",
+        "audio": "929415d53ab5.mp3"
+      },
+      {
+        "type": "choose_reply",
+        "speaker": "aziz",
+        "prompt_uz": "Aziz sotuvchidan 'Nima mazali?' deb so'ramoqchi.",
+        "prompt_en": "Aziz wants to ask the seller 'What's good?'.",
+        "options": [
+          "뭐가 맛있어요?",
+          "뭐를 맛있어요?",
+          "뭐가 맛있다요?"
+        ],
+        "answer": "뭐가 맛있어요?",
+        "uz": "Nima mazali?",
+        "en": "What's good?",
+        "why_uz": "Ega — 뭐가; 맛있다 → 맛있어요.",
+        "why_en": "Subject is 뭐가; 맛있다 → 맛있어요.",
+        "audio": "fd50120a981c.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "seller",
+        "ko": "딸기가 맛있어요. 아주 달아요.",
+        "uz": "Qulupnay mazali. Juda shirin.",
+        "en": "The strawberries are good. Very sweet.",
+        "audio": "9a841693a8f7.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "딸기가 비싸요?",
+        "uz": "Qulupnay qimmatmi?",
+        "en": "Are the strawberries expensive?",
+        "audio": "b5ece182d811.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "seller",
+        "ko": "아니요, 안 비싸요. 한 상자에 만 원이에요.",
+        "uz": "Yo'q, qimmat emas. Bir quti o'n ming von.",
+        "en": "No, not expensive. Ten thousand won a box.",
+        "audio": "fd4dc5bfe1f2.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "수박은요? 수박도 달아요?",
+        "uz": "Tarvuz-chi? Tarvuz ham shirinmi?",
+        "en": "And the watermelon? Is it sweet too?",
+        "audio": "1b4ad0c8cc13.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "seller",
+        "ko": "네, 수박도 아주 달아요. 그리고 커요!",
+        "uz": "Ha, tarvuz ham juda shirin. Yana katta!",
+        "en": "Yes, it's very sweet too. And big!",
+        "audio": "1a151763384b.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "아지즈 씨, 수박은 너무 커요. 기숙사 냉장고가 작아요.",
+        "uz": "Aziz, tarvuz juda katta. Yotoqxonadagi muzlatgich kichkina.",
+        "en": "Aziz, the watermelon is too big. The dorm fridge is small.",
+        "audio": "4159b279d65c.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "아, 맞아요. 그럼 딸기 주세요.",
+        "uz": "A, to'g'ri. Unda qulupnay bering.",
+        "en": "Oh, right. Then strawberries, please.",
+        "audio": "28bf86687edf.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "seller",
+        "ko": "네, 여기 있어요. 귤은 서비스예요!",
+        "uz": "Mana. Mandarin — sovg'a!",
+        "en": "Here you are. The tangerines are on the house!",
+        "audio": "e087ea37f277.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "와, 아주머니 정말 친절해요!",
+        "uz": "Voy, xola, juda mehribonsiz!",
+        "en": "Wow, you're so kind, ma'am!",
+        "audio": "801675253a19.mp3"
+      },
+      {
+        "type": "quiz",
+        "prompt_uz": "Nega ular tarvuz olmadi?",
+        "prompt_en": "Why didn't they buy the watermelon?",
+        "options": [
+          "Muzlatgich kichkina",
+          "Tarvuz qimmat",
+          "Tarvuz shirin emas"
+        ],
+        "options_en": [
+          "The fridge is small",
+          "It's expensive",
+          "It isn't sweet"
+        ],
+        "answer": "Muzlatgich kichkina",
+        "why_uz": "기숙사 냉장고가 작아요.",
+        "why_en": "기숙사 냉장고가 작아요 — the dorm fridge is small."
+      }
+    ]
+  }
+}
