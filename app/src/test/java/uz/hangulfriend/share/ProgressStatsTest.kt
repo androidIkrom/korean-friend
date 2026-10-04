@@ -68,4 +68,10 @@ class ProgressStatsTest {
         settings.setCurrentLesson("u02_l1")
         assertEquals("2-1 한번 입어 보세요", stats.snapshot().currentLessonTitle)
     }
+
+    @Test fun gridShowsOnlyTheCurrentBook() = runTest {
+        assertEquals(18, stats.snapshot().statuses.size)
+        settings.setCurrentLesson("b1_u03_l1")
+        assertEquals(emptyList<LessonStatus>(), stats.snapshot().statuses)
+    }
 }

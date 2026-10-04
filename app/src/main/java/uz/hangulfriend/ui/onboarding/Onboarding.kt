@@ -115,8 +115,22 @@ fun LessonPicker(
 
 /** The picker's rows, for a screen that already scrolls in its own LazyColumn. */
 fun LazyListScope.lessonPickerItems(catalog: List<CatalogEntry>, selected: String?, onSelect: (String) -> Unit) {
-    catalog.groupBy { it.unit }.forEach { (unit, entries) ->
-        item(key = "u$unit") {
+    val books = catalog.map { it.book }.distinct()
+    catalog.groupBy { it.book to it.unit }.forEach { (key, entries) ->
+        val (book, unit) = key
+        if (books.size > 1 && unit == entries.first().let { e -> catalog.first { it.book == e.book }.unit }) {
+            item(key = "b$book") {
+                Text(
+                    stringResource(R.string.book_label, book),
+                    color = LocalGameTokens.current.accent,
+                    fontFamily = LocalGameTokens.current.ui,
+                    fontWeight = FontWeight.ExtraBold,
+                    fontSize = 18.sp,
+                    modifier = Modifier.padding(top = 18.dp),
+                )
+            }
+        }
+        item(key = "b${book}u$unit") {
             Box(Modifier.padding(top = 14.dp, bottom = 4.dp)) {
                 PanelTitle(stringResource(R.string.unit_title, unit, entries.first().topicUz))
             }

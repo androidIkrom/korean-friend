@@ -75,6 +75,7 @@ import uz.hangulfriend.ui.kit.Sfx
 import uz.hangulfriend.ui.kit.SystemDialog
 import uz.hangulfriend.ui.theme.GameBackground
 import uz.hangulfriend.ui.theme.LocalGameTokens
+import uz.hangulfriend.study.code
 
 /** A lesson filter chip: its id and its "unit-lesson" label. */
 data class LessonChip(val id: String, val tag: String)
@@ -118,7 +119,7 @@ class VocabViewModel(
         viewModelScope.launch {
             val loaded = withContext(Dispatchers.IO) {
                 content.catalog().filter { content.isAvailable(it.id) }.mapNotNull { e ->
-                    content.lesson(e.id)?.let { lesson -> LessonChip(e.id, "${e.unit}-${e.lesson}") to lesson.words }
+                    content.lesson(e.id)?.let { lesson -> LessonChip(e.id, e.code) to lesson.words }
                 }
             }
             _chips.value = loaded.map { it.first }

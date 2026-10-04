@@ -1,5 +1,7 @@
 package uz.hangulfriend.study
 
+import uz.hangulfriend.content.CatalogEntry
+
 /**
  * A lesson's place in the series. Book 2 keeps its original ids (`u02_l1`) so saved progress stays valid;
  * other books carry their number (`b1_u03_l2`).
@@ -27,3 +29,9 @@ data class LessonId(val book: Int, val unit: Int, val lesson: Int) {
 
 /** Best-score id of a book's final test; book 2 keeps the id it has always used. */
 fun finalTestId(book: Int): String = if (book == 2) FINAL_TEST_ID else "${FINAL_TEST_ID}_b$book"
+
+/** The lesson's label for people: "2-1" in book 2, "1·3-2" in the others. */
+val CatalogEntry.code: String get() = LessonId(book, unit, lesson).code
+
+/** The book a lesson id belongs to; book 2 for anything that is not a lesson id. */
+fun bookOf(lessonId: String?): Int = lessonId?.let { LessonId.parse(it)?.book } ?: 2

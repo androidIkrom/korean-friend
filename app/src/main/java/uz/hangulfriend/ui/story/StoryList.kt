@@ -78,9 +78,22 @@ fun StoryListScreen(vm: StoryListViewModel, onOpen: (String) -> Unit) {
     val rows by vm.rows.collectAsStateWithLifecycle()
     Column(Modifier.padding(horizontal = 16.dp).verticalScroll(rememberScrollState()).padding(bottom = LocalDockInset.current), verticalArrangement = Arrangement.spacedBy(10.dp)) {
         ScreenHeader(stringResource(R.string.stories_title))
-        rows.groupBy { it.entry.unit }.forEach { (unit, episodes) ->
-            Box(Modifier.padding(top = 6.dp)) { PanelTitle(stringResource(R.string.story_unit, unit)) }
-            episodes.forEach { row -> EpisodeCard(row, onOpen) }
+        val books = rows.map { it.entry.book }.distinct()
+        rows.groupBy { it.entry.book }.forEach { (book, bookRows) ->
+            if (books.size > 1) {
+                Text(
+                    stringResource(R.string.book_label, book),
+                    color = LocalGameTokens.current.accent,
+                    fontFamily = LocalGameTokens.current.ui,
+                    fontWeight = FontWeight.ExtraBold,
+                    fontSize = 18.sp,
+                    modifier = Modifier.padding(top = 10.dp),
+                )
+            }
+            bookRows.groupBy { it.entry.unit }.forEach { (unit, episodes) ->
+                Box(Modifier.padding(top = 6.dp)) { PanelTitle(stringResource(R.string.story_unit, unit)) }
+                episodes.forEach { row -> EpisodeCard(row, onOpen) }
+            }
         }
         Spacer(Modifier.height(8.dp))
     }
