@@ -10,6 +10,7 @@ import uz.hangulfriend.ui.vocab.VocabViewModel
 import uz.hangulfriend.ui.vocab.quizSource
 import androidx.compose.material3.Scaffold
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
@@ -125,10 +126,12 @@ fun HangulFriendNav(container: AppContainer, openReview: Boolean = false) {
             }
         },
     ) { padding ->
+        // Content runs under the floating glass dock; tab screens end their scroll content above it.
+        CompositionLocalProvider(LocalDockInset provides padding.calculateBottomPadding()) {
         NavHost(
             navController = nav,
             startDestination = if (loaded.onboarded) Routes.HOME else Routes.ONBOARDING,
-            modifier = Modifier.padding(padding),
+            modifier = Modifier.padding(top = padding.calculateTopPadding()),
             enterTransition = { if (reduced) EnterTransition.None else enter(initialState.destination.route, targetState.destination.route) },
             exitTransition = { if (reduced) ExitTransition.None else exit(initialState.destination.route, targetState.destination.route) },
             popEnterTransition = { if (reduced) EnterTransition.None else popEnter(initialState.destination.route, targetState.destination.route) },
@@ -243,6 +246,7 @@ fun HangulFriendNav(container: AppContainer, openReview: Boolean = false) {
                 }
                 SessionScreen(vm, mode, onClose = { nav.popBackStack() })
             }
+        }
         }
     }
 }

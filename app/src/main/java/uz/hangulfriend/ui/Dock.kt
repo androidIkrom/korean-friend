@@ -33,6 +33,7 @@ import androidx.compose.ui.draw.clip
 import uz.hangulfriend.ui.kit.glass
 import uz.hangulfriend.ui.kit.springPress
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.staticCompositionLocalOf
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
@@ -73,6 +74,9 @@ fun dockTabFor(route: String?): DockTab? = DockTab.entries.firstOrNull { it.rout
 
 /** ◆ HUNT goes straight into the current lesson's gate, or to the map when no lesson is chosen yet. */
 fun huntTarget(currentLessonId: String?): String = currentLessonId?.let { Routes.lesson(it) } ?: Routes.MAP
+
+/** Space the floating dock covers at the bottom of a tab screen; scroll content ends this far from the edge. */
+val LocalDockInset = staticCompositionLocalOf { 0.dp }
 
 @Composable
 fun Dock(current: DockTab?, onTab: (DockTab) -> Unit, onHunt: () -> Unit, modifier: Modifier = Modifier) {
