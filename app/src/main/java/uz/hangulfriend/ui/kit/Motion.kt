@@ -81,19 +81,5 @@ fun Modifier.pulseRing(color: Color, shape: Shape): Modifier = composed {
 }
 
 /** A soft band of light that sweeps down the component: the System "scanning" look. Put it after a `clip`. */
-fun Modifier.scanLine(color: Color): Modifier = composed {
-    if (LocalReducedMotion.current) return@composed this
-    val p by rememberInfiniteTransition(label = "scan").animateFloat(
-        -0.2f, 1.2f, infiniteRepeatable(tween(GameMotion.SCAN, easing = LinearEasing)), label = "scanP",
-    )
-    drawWithContent {
-        drawContent()
-        val band = size.height * 0.18f
-        val top = p * size.height - band / 2
-        drawRect(
-            Brush.verticalGradient(listOf(Color.Transparent, color, Color.Transparent), startY = top, endY = top + band),
-            topLeft = Offset(0f, top),
-            size = Size(size.width, band),
-        )
-    }
-}
+@Suppress("UNUSED_PARAMETER")
+fun Modifier.scanLine(color: Color): Modifier = this
