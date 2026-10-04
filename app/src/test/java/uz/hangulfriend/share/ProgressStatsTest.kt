@@ -71,7 +71,7 @@ class ProgressStatsTest {
 
     @Test fun gridShowsOnlyTheCurrentBook() = runTest {
         assertEquals(18, stats.snapshot().statuses.size)
-        settings.setCurrentLesson("b1_u03_l1")
+        settings.setCurrentLesson("b3_u01_l1")
         assertEquals(emptyList<LessonStatus>(), stats.snapshot().statuses)
     }
 }

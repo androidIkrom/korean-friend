@@ -45,6 +45,7 @@ import kotlinx.coroutines.flow.stateIn
 import uz.hangulfriend.R
 import uz.hangulfriend.content.CatalogEntry
 import uz.hangulfriend.content.ContentRepository
+import uz.hangulfriend.content.isHangulLesson
 import uz.hangulfriend.data.ProgressRepository
 import uz.hangulfriend.data.StoryRepository
 import uz.hangulfriend.story.EpisodeState
@@ -67,7 +68,8 @@ class StoryListViewModel(content: ContentRepository, progress: ProgressRepositor
     }.flowOn(Dispatchers.IO)
 
     val rows: StateFlow<List<EpisodeRow>> = combine(titles, progress.observeAll(), story.observeDone()) { t, p, done ->
-        content.catalog().map { e ->
+        // The Hangul lessons teach letters and have no episodes.
+        content.catalog().filterNot { isHangulLesson(it.id) }.map { e ->
             EpisodeRow(e, t[e.id], StoryRules.state(p[e.id]?.status, hasStory = t[e.id] != null, done = e.id in done))
         }
     }.stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), emptyList())

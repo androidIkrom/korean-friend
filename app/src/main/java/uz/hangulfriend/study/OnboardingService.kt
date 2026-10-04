@@ -7,7 +7,10 @@ import uz.hangulfriend.data.ProgressRepository
 import uz.hangulfriend.data.SettingsRepository
 import uz.hangulfriend.data.StudyRepository
 
-/** Sets the lesson the learner is on; everything before it counts as passed and feeds the review backlog. */
+/**
+ * Sets the lesson the learner is on; earlier lessons of the same book count as passed and feed the review
+ * backlog. Other books stay untouched: a book-2 learner finds book 1 open but not started.
+ */
 class OnboardingService(
     private val content: ContentRepository,
     private val study: StudyRepository,
@@ -16,7 +19,8 @@ class OnboardingService(
 ) {
     /** Marks earlier lessons passed and sets the current one; [hero] and [name] are stored when given (onboarding). */
     suspend fun complete(currentLessonId: String, hero: HeroGender? = null, name: String? = null) {
-        val catalog = content.catalog()
+        val book = bookOf(currentLessonId)
+        val catalog = content.catalog().filter { it.book == book }
         val currentIndex = catalog.indexOfFirst { it.id == currentLessonId }
         require(currentIndex >= 0) { "Unknown lesson $currentLessonId" }
         val earlier = catalog.subList(0, currentIndex)

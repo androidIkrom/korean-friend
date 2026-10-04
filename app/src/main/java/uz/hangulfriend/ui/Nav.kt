@@ -34,6 +34,8 @@ import uz.hangulfriend.ui.game.GamesScreen
 import uz.hangulfriend.ui.game.GamesViewModel
 import uz.hangulfriend.ui.game.MistakesScreen
 import uz.hangulfriend.ui.game.MistakesViewModel
+import uz.hangulfriend.ui.hangul.HangulScreen
+import uz.hangulfriend.ui.hangul.HangulViewModel
 import uz.hangulfriend.ui.home.HomeScreen
 import uz.hangulfriend.ui.home.HomeViewModel
 import uz.hangulfriend.ui.home.ShareCardButton
@@ -43,6 +45,7 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.outlined.Share
 import androidx.compose.ui.res.stringResource
 import uz.hangulfriend.R
+import uz.hangulfriend.content.isHangulLesson
 import uz.hangulfriend.ui.map.BookMapScreen
 import uz.hangulfriend.ui.map.BookMapViewModel
 import uz.hangulfriend.ui.onboarding.OnboardingScreen
@@ -213,6 +216,11 @@ fun HangulFriendNav(container: AppContainer, openReview: Boolean = false) {
             }
             composable(Routes.LESSON) { entry ->
                 val lessonId = entry.arguments?.getString("lessonId").orEmpty()
+                if (isHangulLesson(lessonId)) {
+                    val vm = viewModel { HangulViewModel(lessonId, container.content, container.study) }
+                    HangulScreen(vm, onBack = { nav.popBackStack() }, onPractice = { nav.navigate(Routes.session(SessionMode.PRACTICE, it)) })
+                    return@composable
+                }
                 val vm = viewModel {
                     LessonViewModel(
                         LessonController(lessonId, container.content, container.study, container.progress),

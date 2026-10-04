@@ -1,0 +1,54 @@
+{
+  "lessons": [
+    {
+      "id": "b1_u01_l1",
+      "unit": 1,
+      "lesson": 1,
+      "title_ko": "기본 모음",
+      "title_uz": "Asosiy unlilar",
+      "title_en": "Basic vowels",
+      "topic_uz": "Hangul alifbosi",
+      "topic_en": "The Hangul alphabet"
+    },
+    {
+      "id": "b1_u01_l2",
+      "unit": 1,
+      "lesson": 2,
+      "title_ko": "기본 자음",
+      "title_uz": "Asosiy undoshlar",
+      "title_en": "Basic consonants",
+      "topic_uz": "Hangul alifbosi",
+      "topic_en": "The Hangul alphabet"
+    },
+    {
+      "id": "b1_u01_l3",
+      "unit": 1,
+      "lesson": 3,
+      "title_ko": "거센소리와 된소리",
+      "title_uz": "Kuchli va tarang undoshlar",
+      "title_en": "Aspirated and tense consonants",
+      "topic_uz": "Hangul alifbosi",
+      "topic_en": "The Hangul alphabet"
+    },
+    {
+      "id": "b1_u01_l4",
+      "unit": 1,
+      "lesson": 4,
+      "title_ko": "겹모음",
+      "title_uz": "Qo'shma unlilar",
+      "title_en": "Compound vowels",
+      "topic_uz": "Hangul alifbosi",
+      "topic_en": "The Hangul alphabet"
+    },
+    {
+      "id": "b1_u01_l5",
+      "unit": 1,
+      "lesson": 5,
+      "title_ko": "받침",
+      "title_uz": "Bo'g'in oxiri (받침)",
+      "title_en": "Final consonants (batchim)",
+      "topic_uz": "Hangul alifbosi",
+      "topic_en": "The Hangul alphabet"
+    }
+  ]
+}

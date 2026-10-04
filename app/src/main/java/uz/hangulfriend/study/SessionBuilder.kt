@@ -3,6 +3,7 @@ package uz.hangulfriend.study
 import kotlin.random.Random
 import uz.hangulfriend.content.FinalTest
 import uz.hangulfriend.content.Lesson
+import uz.hangulfriend.content.Letter
 import uz.hangulfriend.content.Word
 import uz.hangulfriend.data.CardEntity
 import uz.hangulfriend.data.CardKind
@@ -54,6 +55,9 @@ class SessionBuilder(private val random: Random) {
         val all = chosen.map { ExerciseItem.Authored.of(lesson, it) } + typing + matches + listen + dictation + speak
         return arrange(all, random)
     }
+
+    /** Practice for a Hangul lesson: its letters, with [known] (earlier lessons) for options and syllables. */
+    fun hangulPractice(lesson: List<Letter>, known: List<Letter>): List<ExerciseItem> = hangulPractice(lesson, known, random)
 
     private fun listenOptions(lesson: Lesson, word: Word): List<Word> =
         ((lesson.words - word).shuffled(random).take(LISTEN_OPTIONS - 1) + word).shuffled(random)

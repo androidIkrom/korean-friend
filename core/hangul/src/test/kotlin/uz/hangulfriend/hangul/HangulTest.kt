@@ -22,4 +22,18 @@ class HangulTest {
         assertEquals("가면", Hangul.normalize(Normalizer.normalize("가면", Normalizer.Form.NFD)))
 
     @Test fun normalize_latinLowercase() = assertEquals("abc", Hangul.normalize("ABC"))
+
+    @Test fun compose_syllables() {
+        assertEquals('가', Hangul.compose('ㄱ', 'ㅏ'))
+        assertEquals('한', Hangul.compose('ㅎ', 'ㅏ', 'ㄴ'))
+        assertNull(Hangul.compose('ㅏ', 'ㅏ'))
+        assertNull(Hangul.compose('ㄱ', 'ㅏ', 'ㅏ'))
+    }
+
+    @Test fun compose_roundTripsParts() {
+        listOf('갔', '며', '읽', '쌤').forEach { c ->
+            val p = Hangul.parts(c)!!
+            assertEquals(c, Hangul.compose(p.initial, p.medial, p.final))
+        }
+    }
 }

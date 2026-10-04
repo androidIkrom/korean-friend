@@ -90,6 +90,7 @@ class SessionControllerTest {
             ContentJson.encodeToString(Lesson.serializer(), Fixtures.validLesson("u02_l2", 2, 2)),
         )
         File(assets, "final_test.json").writeText(ContentJson.encodeToString(FinalTest.serializer(), finalTest))
+        listOf("hangul.json", "book1.json").forEach { File("src/main/assets/$it").copyTo(File(assets, it), overwrite = true) }
         File(assets, "book.json").writeText(
             """{"lessons":[{"id":"u02_l1","unit":2,"lesson":1,"title_ko":"다","title_uz":"c","topic_uz":"Xarid"},
               {"id":"u02_l2","unit":2,"lesson":2,"title_ko":"라","title_uz":"d","topic_uz":"Xarid"}]}""",
@@ -129,6 +130,26 @@ class SessionControllerTest {
             c.next()
         }
         return c
+    }
+
+    @Test fun hangulPracticeCompletesTheLesson() = runTest {
+        val c = controller(SessionMode.PRACTICE, lessonId = "b1_u01_l2")
+        c.load()
+        val items = c.state.value.items
+        assertTrue(items.isNotEmpty())
+        assertTrue(items.all { it.typeKey in setOf("letter_sound", "letter_listen", "read_word", "build_syllable") })
+        items.forEach { _ ->
+            c.submit(checked(true))
+            c.next()
+        }
+        assertEquals(LessonStatus.COMPLETED, progress.observeAll().first().getValue("b1_u01_l2").status)
+    }
+
+    @Test fun vocabQuizLeavesLettersOut() = runTest {
+        val c = controller(SessionMode.VOCAB, lessonId = SessionController.VOCAB_ALL)
+        c.load()
+        val ids = c.state.value.items.flatMap { it.cardIds }
+        assertTrue(ids.isNotEmpty() && ids.none { it.startsWith("h_") })
     }
 
     @Test fun finalGivesNoAnswerXp() = runTest {

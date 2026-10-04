@@ -390,4 +390,18 @@
     <string name="final_level2">At TOPIK I level 2</string>
     <string name="final_level1">At TOPIK I level 1</string>
     <string name="final_level0">Too early — review your lessons</string>
+    <string name="ex_letter_sound_prompt">How is this letter read?</string>
+    <string name="ex_letter_listen_prompt">Listen and pick the letter</string>
+    <string name="ex_letter_listen_final_prompt">Listen: which letter ends the syllable?</string>
+    <string name="ex_read_word_prompt">How is this word read?</string>
+    <string name="ex_build_syllable_prompt">Build this syllable from its letters</string>
+    <string name="ex_build_initial">First consonant</string>
+    <string name="ex_build_vowel">Vowel</string>
+    <string name="ex_build_final">Final consonant (받침)</string>
+    <string name="hangul_final_label">받침 · final</string>
+    <string name="hangul_intro" formatted="false">Tap a letter to hear it and read its rule. Then practise; a score of 80% or more completes the lesson.</string>
+    <string name="hangul_letter_name">Name: %1$s · sounds like: %2$s</string>
+    <string name="hangul_example">Example word</string>
+    <string name="onboarding_beginner">I am a complete beginner</string>
+    <string name="onboarding_beginner_sub">Start from the Hangul alphabet</string>
 </resources>

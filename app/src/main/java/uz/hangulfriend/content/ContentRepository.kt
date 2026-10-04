@@ -18,6 +18,7 @@ class ContentRepository(
     private val language: () -> AppLanguage = { AppLanguage.UZ },
 ) {
     private val lessonCache = mutableMapOf<String, Lesson?>()
+    private val hangulCache = mutableMapOf<String, HangulCourse?>()
 
     /** Every book's lessons in series order; a book without a catalog file yet has none. */
     fun catalog(): List<CatalogEntry> {
@@ -27,12 +28,27 @@ class ContentRepository(
         }
     }
 
-    fun isAvailable(id: String): Boolean = "$id.json" in source.list("lessons")
+    fun isAvailable(id: String): Boolean =
+        if (isHangulLesson(id)) hangul()?.lessons?.any { it.id == id } == true else "$id.json" in source.list("lessons")
 
     fun lesson(id: String): Lesson? {
         val lang = language()
         return synchronized(lessonCache) {
-            lessonCache.getOrPut("${lang.code}/$id") { parse("lessons/$id.json", Lesson.serializer())?.localized(lang) }
+            lessonCache.getOrPut("${lang.code}/$id") {
+                if (isHangulLesson(id)) {
+                    catalog().find { it.id == id }?.let { hangul()?.lesson(it) }
+                } else {
+                    parse("lessons/$id.json", Lesson.serializer())?.localized(lang)
+                }
+            }
+        }
+    }
+
+    /** The Hangul course (book 1, unit 1); null while the asset is missing. */
+    fun hangul(): HangulCourse? {
+        val lang = language()
+        return synchronized(hangulCache) {
+            hangulCache.getOrPut(lang.code) { parse("hangul.json", HangulCourse.serializer())?.localized(lang) }
         }
     }
 

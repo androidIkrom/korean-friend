@@ -1,4 +1,4 @@
-"""Generate lesson audio with edge-tts (Microsoft neural voices) and record file names in the lesson JSON.
+"""Generate lesson and Hangul audio with edge-tts (Microsoft neural voices) and record file names in the lesson JSON.
 
 Usage:
     python tools/audio_gen.py [--dry-run] [--prune]
@@ -73,6 +73,15 @@ def collect(lesson: dict, voices: dict) -> list:
     return clips
 
 
+def collect_hangul(course: dict) -> list:
+    """Hangul course (assets/hangul.json): each letter's syllable (`say`) and its example word."""
+    clips = []
+    for letter in course.get("letters", []):
+        clips.append(_clip(letter, "say", "audio", FEMALE))
+        clips.append(_clip(letter["example"], "ko", "audio", FEMALE))
+    return clips
+
+
 def dialogue_file_name(lines: list) -> str:
     """Name of a joined multi-voice clip; `lines` is [(voice, text), …]."""
     key = "|".join(f"{voice}|{text}" for voice, text in lines)
@@ -121,9 +130,12 @@ def run(root: Path, synth: Callable[[str, str], bytes], dry_run: bool, prune: bo
     voices = load_voices(json.loads((assets / "characters.json").read_text(encoding="utf-8")))
     report = Report()
     referenced = set()
-    for path in sorted((assets / "lessons").glob("*.json")):
+    documents = [(path, lambda doc: collect(doc, voices)) for path in sorted((assets / "lessons").glob("*.json"))]
+    if (assets / "hangul.json").is_file():
+        documents.append((assets / "hangul.json", collect_hangul))
+    for path, collector in documents:
         lesson = json.loads(path.read_text(encoding="utf-8"))
-        for clip in collect(lesson, voices):
+        for clip in collector(lesson):
             name = file_name(clip.voice, clip.text)
             referenced.add(name)
             target = audio_dir / name
