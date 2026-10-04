@@ -1,0 +1,1450 @@
+{
+  "id": "b3_u07_l1",
+  "unit": 7,
+  "lesson": 1,
+  "title_ko": "금요일에 신입생 환영회에 갈 거예요?",
+  "title_uz": "Juma kuni birinchi kurslar kechasiga borasizmi?",
+  "title_en": "Are you going to the freshman welcome party on Friday?",
+  "topic_uz": "Yig'ilishlar",
+  "topic_en": "Gatherings",
+  "reviewed": false,
+  "words": [
+    {
+      "id": "b3_u07_l1_w001",
+      "ko": "모임",
+      "uz": "yig'in, uchrashuv",
+      "en": "gathering",
+      "pos": "ot",
+      "example_ko": "주말에 모임이 있어요.",
+      "example_uz": "Dam olish kuni yig'in bor.",
+      "example_en": "There's a get-together at the weekend.",
+      "audio": "95de8eeb28c2.mp3",
+      "example_audio": "0c8b7ec27972.mp3"
+    },
+    {
+      "id": "b3_u07_l1_w002",
+      "ko": "환영회",
+      "uz": "kutib olish kechasi",
+      "en": "welcome party",
+      "pos": "ot",
+      "example_ko": "신입생 환영회가 금요일이에요.",
+      "example_uz": "Birinchi kurslar kechasi — juma kuni.",
+      "example_en": "The freshman welcome party is on Friday.",
+      "audio": "ef9d8af38178.mp3",
+      "example_audio": "cd8704bdbc09.mp3"
+    },
+    {
+      "id": "b3_u07_l1_w003",
+      "ko": "신입생",
+      "uz": "birinchi kurs talabasi",
+      "en": "freshman",
+      "pos": "ot",
+      "example_ko": "저는 신입생이에요.",
+      "example_uz": "Men birinchi kursman.",
+      "example_en": "I'm a freshman.",
+      "audio": "8e3661314a9c.mp3",
+      "example_audio": "6bdb796c4050.mp3"
+    },
+    {
+      "id": "b3_u07_l1_w004",
+      "ko": "선배",
+      "uz": "katta kursdosh (yoki katta hamkasb)",
+      "en": "senior",
+      "pos": "ot",
+      "example_ko": "선배들이 많이 올 거예요.",
+      "example_uz": "Katta kursdoshlar ko'p kelsa kerak.",
+      "example_en": "Lots of seniors will probably come.",
+      "audio": "43b9665b88cc.mp3",
+      "example_audio": "4a0bc9762c87.mp3"
+    },
+    {
+      "id": "b3_u07_l1_w005",
+      "ko": "후배",
+      "uz": "kichik kursdosh",
+      "en": "junior",
+      "pos": "ot",
+      "example_ko": "후배를 도와줬어요.",
+      "example_uz": "Kichik kursdoshga yordam berdim.",
+      "example_en": "I helped a junior.",
+      "audio": "d5928ef0832d.mp3",
+      "example_audio": "3b7bda4f325e.mp3"
+    },
+    {
+      "id": "b3_u07_l1_w006",
+      "ko": "동아리",
+      "uz": "to'garak (klub)",
+      "en": "club",
+      "pos": "ot",
+      "example_ko": "사진 동아리에 가입했어요.",
+      "example_uz": "Fotografiya to'garagiga a'zo bo'ldim.",
+      "example_en": "I joined the photography club.",
+      "audio": "4926c2e77b8f.mp3",
+      "example_audio": "994dcb71ddef.mp3"
+    },
+    {
+      "id": "b3_u07_l1_w007",
+      "ko": "회식",
+      "uz": "ishxonadagi ziyofat",
+      "en": "staff dinner",
+      "pos": "ot",
+      "example_ko": "오늘 회식이 있어요.",
+      "example_uz": "Bugun ishxona ziyofati bor.",
+      "example_en": "There's a staff dinner today.",
+      "audio": "722d5c2bc256.mp3",
+      "example_audio": "fe6ab93af3e2.mp3"
+    },
+    {
+      "id": "b3_u07_l1_w008",
+      "ko": "동창회",
+      "uz": "sinfdoshlar uchrashuvi",
+      "en": "reunion",
+      "pos": "ot",
+      "example_ko": "동창회에 갈 거예요?",
+      "example_uz": "Sinfdoshlar uchrashuviga borasizmi?",
+      "example_en": "Are you going to the reunion?",
+      "audio": "b6bbceb967d5.mp3",
+      "example_audio": "8cbec61fb491.mp3"
+    },
+    {
+      "id": "b3_u07_l1_w009",
+      "ko": "집들이",
+      "uz": "yangi uy ziyofati",
+      "en": "housewarming",
+      "pos": "ot",
+      "example_ko": "토요일에 집들이를 해요.",
+      "example_uz": "Shanba kuni yangi uy ziyofati qilaman.",
+      "example_en": "I'm having a housewarming on Saturday.",
+      "audio": "277f34009e70.mp3",
+      "example_audio": "7af25e384b3f.mp3"
+    },
+    {
+      "id": "b3_u07_l1_w010",
+      "ko": "뒤풀이",
+      "uz": "tadbirdan keyingi o'tirish",
+      "en": "after-party",
+      "pos": "ot",
+      "example_ko": "공연 후에 뒤풀이가 있어요.",
+      "example_uz": "Tomoshadan keyin o'tirish bor.",
+      "example_en": "There's an after-party after the show.",
+      "audio": "f92d75631481.mp3",
+      "example_audio": "523248b63ba6.mp3"
+    },
+    {
+      "id": "b3_u07_l1_w011",
+      "ko": "참석하다",
+      "uz": "qatnashmoq",
+      "en": "to attend",
+      "pos": "fe'l",
+      "example_ko": "모임에 참석할 거예요.",
+      "example_uz": "Yig'inga qatnashaman.",
+      "example_en": "I'll attend the gathering.",
+      "audio": "b14d05c1757c.mp3",
+      "example_audio": "eb39a84895f3.mp3"
+    },
+    {
+      "id": "b3_u07_l1_w012",
+      "ko": "초대하다",
+      "uz": "taklif qilmoq",
+      "en": "to invite",
+      "pos": "fe'l",
+      "example_ko": "친구들을 초대했어요.",
+      "example_uz": "Do'stlarni taklif qildim.",
+      "example_en": "I invited my friends.",
+      "audio": "57c37ea409eb.mp3",
+      "example_audio": "8fe2d3b3f6b8.mp3"
+    },
+    {
+      "id": "b3_u07_l1_w013",
+      "ko": "장소",
+      "uz": "joy (tadbir o'tadigan)",
+      "en": "venue",
+      "pos": "ot",
+      "example_ko": "모임 장소가 어디예요?",
+      "example_uz": "Yig'in qayerda?",
+      "example_en": "Where's the venue?",
+      "audio": "17825b4121b3.mp3",
+      "example_audio": "c875a3c5171e.mp3"
+    },
+    {
+      "id": "b3_u07_l1_w014",
+      "ko": "회비",
+      "uz": "a'zolik badali",
+      "en": "membership fee",
+      "pos": "ot",
+      "example_ko": "회비는 만 원이에요.",
+      "example_uz": "Badal o'n ming von.",
+      "example_en": "The fee is 10,000 won.",
+      "audio": "790110455619.mp3",
+      "example_audio": "4cdacf6bb0d4.mp3"
+    },
+    {
+      "id": "b3_u07_l1_w015",
+      "ko": "어색하다",
+      "uz": "noqulay (o'ng'aysiz) bo'lmoq",
+      "en": "to be awkward",
+      "pos": "sifat",
+      "example_ko": "처음에는 어색할 거예요.",
+      "example_uz": "Avvaliga noqulay bo'lsa kerak.",
+      "example_en": "It'll probably be awkward at first.",
+      "audio": "50d50ec47219.mp3",
+      "example_audio": "73168b14288f.mp3"
+    },
+    {
+      "id": "b3_u07_l1_w016",
+      "ko": "친해지다",
+      "uz": "yaqinlashmoq (do'stlashmoq)",
+      "en": "to become close",
+      "pos": "fe'l",
+      "example_ko": "금방 친해질 거예요.",
+      "example_uz": "Tez do'stlashib ketasiz.",
+      "example_en": "You'll get close quickly.",
+      "audio": "5b6090cc943a.mp3",
+      "example_audio": "3580e113d369.mp3"
+    },
+    {
+      "id": "b3_u07_l1_w017",
+      "ko": "사귀다",
+      "uz": "do'st orttirmoq",
+      "en": "to make (friends)",
+      "pos": "fe'l",
+      "example_ko": "새 친구를 사귀고 싶어요.",
+      "example_uz": "Yangi do'st orttirmoqchiman.",
+      "example_en": "I want to make new friends.",
+      "audio": "bea07d43b61b.mp3",
+      "example_audio": "0cb1e5e74114.mp3"
+    },
+    {
+      "id": "b3_u07_l1_w018",
+      "ko": "아마",
+      "uz": "ehtimol",
+      "en": "probably",
+      "pos": "ravish",
+      "example_ko": "아마 사람이 많을 거예요.",
+      "example_uz": "Ehtimol odam ko'p bo'ladi.",
+      "example_en": "There'll probably be a lot of people.",
+      "audio": "dc0fa0896910.mp3",
+      "example_audio": "f5d519c6759a.mp3"
+    },
+    {
+      "id": "b3_u07_l1_w019",
+      "ko": "혹시",
+      "uz": "balki",
+      "en": "by any chance",
+      "pos": "ravish",
+      "example_ko": "혹시 민지 씨도 올까요?",
+      "example_uz": "Balki Minji ham kelarmikin?",
+      "example_en": "Do you think Minji might come?",
+      "audio": "418a9f5f1de2.mp3",
+      "example_audio": "56b250adfc74.mp3"
+    },
+    {
+      "id": "b3_u07_l1_w020",
+      "ko": "늦게까지",
+      "uz": "kechgacha",
+      "en": "until late",
+      "pos": "ibora",
+      "example_ko": "늦게까지 놀 거예요.",
+      "example_uz": "Kechgacha o'tirsak kerak.",
+      "example_en": "We'll probably stay out late.",
+      "audio": "c73bf682d83b.mp3",
+      "example_audio": "af827d445656.mp3"
+    },
+    {
+      "id": "b3_u07_l1_w021",
+      "ko": "자기소개",
+      "uz": "o'zini tanishtirish",
+      "en": "self-introduction",
+      "pos": "ot",
+      "example_ko": "환영회에서 자기소개를 해요.",
+      "example_uz": "Kechada o'zingni tanishtirasan.",
+      "example_en": "You introduce yourself at the welcome party.",
+      "audio": "89d95d712157.mp3",
+      "example_audio": "de0f0948b37e.mp3"
+    },
+    {
+      "id": "b3_u07_l1_w022",
+      "ko": "게임",
+      "uz": "o'yin",
+      "en": "game",
+      "pos": "ot",
+      "example_ko": "재미있는 게임을 할 거예요.",
+      "example_uz": "Qiziq o'yinlar o'ynasak kerak.",
+      "example_en": "We'll probably play fun games.",
+      "audio": "038cbc4e9e9c.mp3",
+      "example_audio": "9060f324450c.mp3"
+    },
+    {
+      "id": "b3_u07_l1_w023",
+      "ko": "시작되다",
+      "uz": "boshlanmoq",
+      "en": "to begin",
+      "pos": "fe'l",
+      "example_ko": "몇 시에 시작될까요?",
+      "example_uz": "Soat nechada boshlanarkin?",
+      "example_en": "I wonder what time it starts.",
+      "audio": "90ae6e1d4b58.mp3",
+      "example_audio": "8ec7c455841b.mp3"
+    },
+    {
+      "id": "b3_u07_l1_w024",
+      "ko": "끝나다",
+      "uz": "tugamoq",
+      "en": "to end",
+      "pos": "fe'l",
+      "example_ko": "언제 끝날까요?",
+      "example_uz": "Qachon tugarkin?",
+      "example_en": "I wonder when it'll end.",
+      "audio": "f0ec5db8edc8.mp3",
+      "example_audio": "e668653e6466.mp3"
+    },
+    {
+      "id": "b3_u07_l1_w025",
+      "ko": "복잡하다",
+      "uz": "gavjum, murakkab bo'lmoq",
+      "en": "to be crowded, complicated",
+      "pos": "sifat",
+      "example_ko": "금요일 저녁이라 복잡할 거예요.",
+      "example_uz": "Juma kechqurun, gavjum bo'lsa kerak.",
+      "example_en": "It's Friday evening, so it'll probably be crowded.",
+      "audio": "d1f471de6d37.mp3",
+      "example_audio": "1fb3f65d4d9c.mp3"
+    },
+    {
+      "id": "b3_u07_l1_w026",
+      "ko": "과대표",
+      "uz": "kurs sardori",
+      "en": "class representative",
+      "pos": "ot",
+      "example_ko": "과대표가 연락할 거예요.",
+      "example_uz": "Kurs sardori xabar bersa kerak.",
+      "example_en": "The class rep will probably get in touch.",
+      "audio": "15604d90d422.mp3",
+      "example_audio": "3c995b89830b.mp3"
+    },
+    {
+      "id": "b3_u07_l1_w027",
+      "ko": "단체 사진",
+      "uz": "guruh surati",
+      "en": "group photo",
+      "pos": "ot",
+      "example_ko": "마지막에 단체 사진을 찍어요.",
+      "example_uz": "Oxirida guruh surati olamiz.",
+      "example_en": "We take a group photo at the end.",
+      "audio": "955f0046ebe7.mp3",
+      "example_audio": "17dd08f64570.mp3"
+    },
+    {
+      "id": "b3_u07_l1_w028",
+      "ko": "참가비",
+      "uz": "ishtirok to'lovi",
+      "en": "participation fee",
+      "pos": "ot",
+      "example_ko": "참가비가 있을까요?",
+      "example_uz": "Ishtirok to'lovi bormikin?",
+      "example_en": "I wonder if there's a fee.",
+      "audio": "d26541b78708.mp3",
+      "example_audio": "6751e50c6186.mp3"
+    },
+    {
+      "id": "b3_u07_l1_w029",
+      "ko": "수줍다",
+      "uz": "tortinchoq bo'lmoq",
+      "en": "to be shy",
+      "pos": "sifat",
+      "example_ko": "저는 좀 수줍어요.",
+      "example_uz": "Men biroz tortinchoqman.",
+      "example_en": "I'm a bit shy.",
+      "audio": "ec17f13208d8.mp3",
+      "example_audio": "0ff81c3c72e0.mp3"
+    },
+    {
+      "id": "b3_u07_l1_w030",
+      "ko": "걱정되다",
+      "uz": "xavotirlanmoq",
+      "en": "to be worried",
+      "pos": "fe'l",
+      "example_ko": "모르는 사람이 많아서 걱정돼요.",
+      "example_uz": "Notanish odam ko'p, xavotirdaman.",
+      "example_en": "I'm nervous because I won't know many people.",
+      "audio": "5062cd87d7e0.mp3",
+      "example_audio": "155aa9dedb5d.mp3"
+    },
+    {
+      "id": "b3_u07_l1_w031",
+      "ko": "같이",
+      "uz": "birga",
+      "en": "together",
+      "pos": "ravish",
+      "example_ko": "같이 가면 괜찮을 거예요.",
+      "example_uz": "Birga borsak, yaxshi bo'lsa kerak.",
+      "example_en": "If we go together, it'll be fine.",
+      "audio": "5f7a6d0427e6.mp3",
+      "example_audio": "4d1179a2c9a2.mp3"
+    },
+    {
+      "id": "b3_u07_l1_w032",
+      "ko": "마음에 들다",
+      "uz": "yoqmoq",
+      "en": "to like",
+      "pos": "ibora",
+      "example_ko": "모임이 마음에 들 거예요.",
+      "example_uz": "Yig'in sizga yoqsa kerak.",
+      "example_en": "You'll probably like the gathering.",
+      "audio": "b75c747691ad.mp3",
+      "example_audio": "ed00b62f238f.mp3"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "b3_u07_l1_g1",
+      "pattern": "A/V-(으)ㄹ까요? (taxmin)",
+      "meaning_uz": "...arkin? ...armikin? (o'ylab so'rash)",
+      "meaning_en": "I wonder if … ? (speculating)",
+      "explanation_md": "1-kitobda **-(으)ㄹ까요?** \"...aylikmi?\" (taklif) edi. Bu yerda u **taxmin** so'raydi: gapiruvchi o'zi ham bilmaydi va suhbatdoshning fikrini so'raydi — \"**...arkin?**\", \"**...armikin?**\".\n\n**환영회에 사람이 많이 올까요?** — *Kechaga odam ko'p kelarmikin?*\n\n### Qanday yasaladi (1-kitobdagidek)\n\n- 받침siz → **-ㄹ까요?**: 오다 → **올까요?**, 시작되다 → **시작될까요?**\n- 받침 bilan → **-을까요?**: 많다 → **많을까요?**, 괜찮다 → **괜찮을까요?**\n- **ㅂ**: 춥다 → **추울까요?**\n- O'tgan: **-았/었을까요?**: 벌써 끝났을까요? — *Allaqachon tugadimikin?*\n\n### Ikki ma'noni farqlash\n\n- **같이 갈까요?** (biz) — taklif: *birga boraylikmi?*\n- **민지 씨도 올까요?** (boshqa odam/narsa) — taxmin: *Minji ham kelarmikin?*\n\n### Javob\n\n**네, 아마 올 거예요.** — *Ha, ehtimol keladi.* (keyingi grammatika)",
+      "explanation_md_en": "In book 1, **-(으)ㄹ까요?** meant \"shall we?\". Here it asks for a **guess**: the speaker doesn't know and wants the listener's opinion — \"**I wonder if …?**\", \"**Do you think …?**\".\n\n**환영회에 사람이 많이 올까요?** — *Do you think many people will come to the party?*\n\n### How to form it (as in book 1)\n\n- No 받침 → **-ㄹ까요?**: 오다 → **올까요?**, 시작되다 → **시작될까요?**\n- With 받침 → **-을까요?**: 많다 → **많을까요?**, 괜찮다 → **괜찮을까요?**\n- **ㅂ**: 춥다 → **추울까요?**\n- Past: **-았/었을까요?**: 벌써 끝났을까요? — *Do you think it's already over?*\n\n### Telling the two apart\n\n- **같이 갈까요?** (we) — suggestion: *shall we go together?*\n- **민지 씨도 올까요?** (someone/something else) — guess: *do you think Minji will come?*\n\n### Answer\n\n**네, 아마 올 거예요.** — *Yes, she probably will.* (next grammar point)",
+      "formation": [
+        {
+          "condition_uz": "받침 yo'q",
+          "condition_en": "No 받침",
+          "rule": "A/V + ㄹ까요?",
+          "example": "올까요?, 시작될까요?"
+        },
+        {
+          "condition_uz": "받침 bor",
+          "condition_en": "With 받침",
+          "rule": "A/V + 을까요?",
+          "example": "많을까요?, 괜찮을까요?"
+        },
+        {
+          "condition_uz": "O'tgan",
+          "condition_en": "Past",
+          "rule": "-았/었을까요?",
+          "example": "끝났을까요?"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "환영회에 사람이 많이 올까요?",
+          "uz": "Kechaga odam ko'p kelarmikin?",
+          "en": "Do you think many people will come?",
+          "audio": "a78e1a965750.mp3"
+        },
+        {
+          "ko": "민지 씨도 올까요?",
+          "uz": "Minji ham kelarmikin?",
+          "en": "Do you think Minji will come too?",
+          "audio": "c249327782c2.mp3"
+        },
+        {
+          "ko": "선배들이 친절할까요?",
+          "uz": "Katta kursdoshlar mehribon bo'larmikin?",
+          "en": "I wonder if the seniors will be nice.",
+          "audio": "f1b75ede0933.mp3"
+        },
+        {
+          "ko": "참가비가 있을까요?",
+          "uz": "Ishtirok to'lovi bormikin?",
+          "en": "Do you think there's a fee?",
+          "audio": "6751e50c6186.mp3"
+        },
+        {
+          "ko": "벌써 시작했을까요?",
+          "uz": "Allaqachon boshlandimikin?",
+          "en": "Do you think it's already started?",
+          "audio": "04774230e1cb.mp3"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "사람이 많을까요요?",
+          "right": "사람이 많을까요?",
+          "why_uz": "Bitta 요.",
+          "why_en": "Only one 요."
+        },
+        {
+          "wrong": "민지 씨도 오을까요?",
+          "right": "민지 씨도 올까요?",
+          "why_uz": "받침siz: 올까요.",
+          "why_en": "No 받침: 올까요."
+        },
+        {
+          "wrong": "날씨가 춥을까요?",
+          "right": "날씨가 추울까요?",
+          "why_uz": "ㅂ → 우: 추울까요.",
+          "why_en": "ㅂ → 우: 추울까요."
+        }
+      ],
+      "uz_compare": "O'zbekchadagi '...armikin?', '...arkin?' ga mos: 'Minji ham kelarMIKIN?' = 민지 씨도 올까요?",
+      "compare_en": "Like English 'Do you think …?' or 'I wonder if …': 'Do you think Minji will come?' = 민지 씨도 올까요?"
+    },
+    {
+      "id": "b3_u07_l1_g2",
+      "pattern": "A/V-(으)ㄹ 거예요 (taxmin)",
+      "meaning_uz": "...sa kerak, ehtimol ... (taxmin)",
+      "meaning_en": "Probably … (conjecture)",
+      "explanation_md": "2-kitobda **-(으)ㄹ 거예요** reja edi (\"...aman\"). Boshqa odam yoki narsa haqida esa u **taxmin** bildiradi: \"**...sa kerak**\", \"**ehtimol ...**\".\n\n**아마 사람이 많을 거예요.** — *Ehtimol odam ko'p bo'ladi.*\n\n### Qanday yasaladi (2-kitobdagidek)\n\n- 받침siz → **-ㄹ 거예요**: 오다 → **올 거예요**, 친해지다 → **친해질 거예요**\n- 받침 bilan → **-을 거예요**: 많다 → **많을 거예요**, 괜찮다 → **괜찮을 거예요**\n- **ㅂ**: 어렵다 → **어려울 거예요**\n- O'tgan taxmin: **-았/었을 거예요**: 벌써 도착했을 거예요 — *Allaqachon yetib kelgan bo'lsa kerak.*\n\n### Ikki ma'noni farqlash\n\n- **저는 갈 거예요.** (men) — reja: *boraman.*\n- **민지 씨도 갈 거예요.** (boshqa odam) — taxmin: *Minji ham borsa kerak.*\n\n### Esda tuting\n\n- **아마** (ehtimol) bilan juda ko'p keladi.\n- Sifatlar bilan doim taxmin: **어색할 거예요** — *noqulay bo'lsa kerak.*",
+      "explanation_md_en": "In book 2, **-(으)ㄹ 거예요** expressed a plan (\"I will\"). About other people or things it expresses a **guess**: \"**probably**\", \"**must be / will likely**\".\n\n**아마 사람이 많을 거예요.** — *There'll probably be lots of people.*\n\n### How to form it (as in book 2)\n\n- No 받침 → **-ㄹ 거예요**: 오다 → **올 거예요**, 친해지다 → **친해질 거예요**\n- With 받침 → **-을 거예요**: 많다 → **많을 거예요**, 괜찮다 → **괜찮을 거예요**\n- **ㅂ**: 어렵다 → **어려울 거예요**\n- Past guess: **-았/었을 거예요**: 벌써 도착했을 거예요 — *They've probably arrived already.*\n\n### Telling the two apart\n\n- **저는 갈 거예요.** (I) — plan: *I'll go.*\n- **민지 씨도 갈 거예요.** (someone else) — guess: *Minji will probably go too.*\n\n### Remember\n\n- It often pairs with **아마** (probably).\n- With adjectives it's always a guess: **어색할 거예요** — *it'll probably be awkward.*",
+      "formation": [
+        {
+          "condition_uz": "받침 yo'q",
+          "condition_en": "No 받침",
+          "rule": "A/V + ㄹ 거예요",
+          "example": "올 거예요, 친해질 거예요"
+        },
+        {
+          "condition_uz": "받침 bor",
+          "condition_en": "With 받침",
+          "rule": "A/V + 을 거예요",
+          "example": "많을 거예요, 괜찮을 거예요"
+        },
+        {
+          "condition_uz": "O'tgan",
+          "condition_en": "Past",
+          "rule": "-았/었을 거예요",
+          "example": "도착했을 거예요"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "아마 사람이 많을 거예요.",
+          "uz": "Ehtimol odam ko'p bo'ladi.",
+          "en": "There'll probably be lots of people.",
+          "audio": "f5d519c6759a.mp3"
+        },
+        {
+          "ko": "처음에는 어색할 거예요.",
+          "uz": "Avvaliga noqulay bo'lsa kerak.",
+          "en": "It'll probably be awkward at first.",
+          "audio": "73168b14288f.mp3"
+        },
+        {
+          "ko": "금방 친해질 거예요.",
+          "uz": "Tez do'stlashib ketasiz.",
+          "en": "You'll get close quickly.",
+          "audio": "3580e113d369.mp3"
+        },
+        {
+          "ko": "민지 씨도 올 거예요.",
+          "uz": "Minji ham kelsa kerak.",
+          "en": "Minji will probably come too.",
+          "audio": "f45ec3193eef.mp3"
+        },
+        {
+          "ko": "선배들이 벌써 도착했을 거예요.",
+          "uz": "Katta kursdoshlar allaqachon kelgan bo'lsa kerak.",
+          "en": "The seniors have probably arrived already.",
+          "audio": "adc469296a37.mp3"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "사람이 많는 거예요.",
+          "right": "사람이 많을 거예요.",
+          "why_uz": "Taxmin: -(으)ㄹ 거예요.",
+          "why_en": "Guess: -(으)ㄹ 거예요."
+        },
+        {
+          "wrong": "어색하을 거예요.",
+          "right": "어색할 거예요.",
+          "why_uz": "받침siz: 어색할.",
+          "why_en": "No 받침: 어색할."
+        },
+        {
+          "wrong": "시험이 어렵을 거예요.",
+          "right": "시험이 어려울 거예요.",
+          "why_uz": "ㅂ → 우: 어려울.",
+          "why_en": "ㅂ → 우: 어려울."
+        }
+      ],
+      "uz_compare": "O'zbekchadagi '... bo'lsa kerak', 'ehtimol ...' ga mos: 'Ehtimol odam ko'p BO'LSA KERAK' = 아마 사람이 많을 거예요.",
+      "compare_en": "Like English 'will probably' or 'must be': 'There'll probably be lots of people' = 아마 사람이 많을 거예요."
+    }
+  ],
+  "dialogue": {
+    "lines": [
+      {
+        "speaker": "junho",
+        "ko": "아지즈 씨, 금요일에 신입생 환영회에 갈 거예요?",
+        "uz": "Aziz, juma kuni birinchi kurslar kechasiga borasizmi?",
+        "en": "Aziz, are you going to the freshman welcome party on Friday?",
+        "audio": "a66ffc6074eb.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "가고 싶은데 좀 걱정돼요. 사람이 많이 올까요?",
+        "uz": "Bormoqchiman-u, lekin xavotirdaman. Odam ko'p kelarmikin?",
+        "en": "I'd like to, but I'm a bit nervous. Do you think lots of people will come?",
+        "audio": "69ccce208d39.mp3"
+      },
+      {
+        "speaker": "junho",
+        "ko": "네, 아마 신입생하고 선배들이 다 올 거예요.",
+        "uz": "Ha, ehtimol birinchi kurslar ham, kattalar ham kelsa kerak.",
+        "en": "Yes, probably all the freshmen and seniors will come.",
+        "audio": "60a348886298.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "저는 모르는 사람이 많아서 어색할 것 같아요.",
+        "uz": "Men notanish odamlar ko'p bo'lgani uchun noqulay his qilsam kerak.",
+        "en": "I don't know many people, so I think it'll be awkward.",
+        "audio": "f99f7f5066b7.mp3"
+      },
+      {
+        "speaker": "junho",
+        "ko": "처음에는 어색할 거예요. 그런데 게임을 하면 금방 친해질 거예요.",
+        "uz": "Avvaliga noqulay bo'lsa kerak. Lekin o'yin o'ynasak, tez yaqinlashib ketamiz.",
+        "en": "It'll probably be awkward at first. But once we play games, we'll get close fast.",
+        "audio": "c97525f4cf02.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "환영회에서 자기소개도 해야 돼요?",
+        "uz": "Kechada o'zimni tanishtirishim ham kerakmi?",
+        "en": "Do I have to introduce myself at the party?",
+        "audio": "7979ab8fdfbc.mp3"
+      },
+      {
+        "speaker": "junho",
+        "ko": "네, 아마 한 명씩 할 거예요. 짧게 하면 돼요.",
+        "uz": "Ha, ehtimol bittadan. Qisqa qilsa bo'ladi.",
+        "en": "Yes, probably one by one. A short one is fine.",
+        "audio": "e4938f1dd204.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "참가비가 있을까요?",
+        "uz": "Ishtirok to'lovi bormikin?",
+        "en": "Do you think there's a fee?",
+        "audio": "24ca7195e956.mp3"
+      },
+      {
+        "speaker": "junho",
+        "ko": "과대표가 만 원쯤일 거라고 했어요.",
+        "uz": "Kurs sardori o'n ming vonga yaqin bo'lsa kerak dedi.",
+        "en": "The class rep said it'll probably be around 10,000 won.",
+        "audio": "c52fe950fbd4.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "그럼 같이 가요. 준호 씨가 있으면 괜찮을 거예요.",
+        "uz": "Unda birga boraylik. Junho, siz bo'lsangiz, yaxshi bo'lsa kerak.",
+        "en": "Then let's go together. It'll be fine if you're there, Junho.",
+        "audio": "77c6e3b8d895.mp3"
+      },
+      {
+        "speaker": "junho",
+        "ko": "좋아요! 금요일 여섯 시에 학생회관 앞에서 만나요.",
+        "uz": "Zo'r! Juma kuni soat oltida talabalar uyi oldida uchrashamiz.",
+        "en": "Great! Let's meet in front of the student union at six on Friday.",
+        "audio": "cbca6759771e.mp3"
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b3_u07_l1_e001",
+      "type": "conjugate",
+      "targets": [
+        "b3_u07_l1_g1"
+      ],
+      "prompt_uz": "'Kelarmikin?' shaklini yasang",
+      "prompt_en": "Make 'do you think (they'll) come?'",
+      "base": "오다",
+      "form": "-(으)ㄹ까요? (taxmin)",
+      "answers": [
+        "올까요?",
+        "올까요"
+      ]
+    },
+    {
+      "id": "b3_u07_l1_e002",
+      "type": "conjugate",
+      "targets": [
+        "b3_u07_l1_g1"
+      ],
+      "prompt_uz": "'Ko'p bo'larmikin?' shaklini yasang",
+      "prompt_en": "Make 'do you think there'll be many?'",
+      "base": "많다",
+      "form": "-(으)ㄹ까요?",
+      "answers": [
+        "많을까요?",
+        "많을까요"
+      ]
+    },
+    {
+      "id": "b3_u07_l1_e003",
+      "type": "conjugate",
+      "targets": [
+        "b3_u07_l1_g2"
+      ],
+      "prompt_uz": "'Noqulay bo'lsa kerak' shaklini yasang",
+      "prompt_en": "Make 'it'll probably be awkward'",
+      "base": "어색하다",
+      "form": "-(으)ㄹ 거예요",
+      "answers": [
+        "어색할 거예요"
+      ]
+    },
+    {
+      "id": "b3_u07_l1_e004",
+      "type": "conjugate",
+      "targets": [
+        "b3_u07_l1_g2"
+      ],
+      "prompt_uz": "'Qiyin bo'lsa kerak' shaklini yasang",
+      "prompt_en": "Make 'it'll probably be hard'",
+      "base": "어렵다",
+      "form": "-(으)ㄹ 거예요",
+      "answers": [
+        "어려울 거예요"
+      ],
+      "hint_uz": "ㅂ → 우",
+      "hint_en": "ㅂ → 우"
+    },
+    {
+      "id": "b3_u07_l1_e005",
+      "type": "fill_blank",
+      "targets": [
+        "b3_u07_l1_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Katta kursdoshlar mehribon bo'larmikin?'",
+      "prompt_en": "Fill in the blank: 'I wonder if the seniors will be nice.'",
+      "sentence": "선배들이 ___? (친절하다)",
+      "answers": [
+        "친절할까요"
+      ]
+    },
+    {
+      "id": "b3_u07_l1_e006",
+      "type": "fill_blank",
+      "targets": [
+        "b3_u07_l1_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Allaqachon boshlandimikin?'",
+      "prompt_en": "Fill in the blank: 'Do you think it's already started?'",
+      "sentence": "벌써 ___? (시작하다)",
+      "answers": [
+        "시작했을까요"
+      ]
+    },
+    {
+      "id": "b3_u07_l1_e007",
+      "type": "fill_blank",
+      "targets": [
+        "b3_u07_l1_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Tez do'stlashib ketasiz.'",
+      "prompt_en": "Fill in the blank: 'You'll get close quickly.'",
+      "sentence": "금방 ___ 거예요. (친해지다)",
+      "answers": [
+        "친해질"
+      ]
+    },
+    {
+      "id": "b3_u07_l1_e008",
+      "type": "fill_blank",
+      "targets": [
+        "b3_u07_l1_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Ehtimol odam ko'p bo'ladi.'",
+      "prompt_en": "Fill in the blank: 'There'll probably be many people.'",
+      "sentence": "___ 사람이 많을 거예요.",
+      "answers": [
+        "아마"
+      ]
+    },
+    {
+      "id": "b3_u07_l1_e009",
+      "type": "situation_choice",
+      "targets": [
+        "b3_u07_l1_g1"
+      ],
+      "prompt_uz": "Do'stingizdan Minji ham kelarmikin deb so'rang:",
+      "prompt_en": "Ask your friend if they think Minji will come too:",
+      "options": [
+        "민지 씨도 올까요?",
+        "민지 씨도 오을까요?",
+        "민지 씨도 올 거예요요?",
+        "민지 씨도 왔을까요요?"
+      ],
+      "answers": [
+        "민지 씨도 올까요?"
+      ]
+    },
+    {
+      "id": "b3_u07_l1_e010",
+      "type": "situation_choice",
+      "targets": [
+        "b3_u07_l1_g2"
+      ],
+      "prompt_uz": "Do'stingiz kechadan xavotirda. Uni tinchlantiring:",
+      "prompt_en": "Your friend is nervous about the party. Reassure them:",
+      "options": [
+        "괜찮을 거예요. 금방 친해질 거예요.",
+        "괜찮는 거예요. 금방 친해지는 거예요.",
+        "괜찮을까요. 금방 친해질까요.",
+        "괜찮아요 거예요."
+      ],
+      "answers": [
+        "괜찮을 거예요. 금방 친해질 거예요."
+      ]
+    },
+    {
+      "id": "b3_u07_l1_e011",
+      "type": "situation_choice",
+      "targets": [
+        "b3_u07_l1_w006"
+      ],
+      "prompt_uz": "To'garakka a'zo bo'lganingizni ayting:",
+      "prompt_en": "Say you joined a club:",
+      "options": [
+        "동아리에 가입했어요.",
+        "동아리에 참석됐어요.",
+        "동아리를 초대했어요.",
+        "동아리에 친해졌어요."
+      ],
+      "answers": [
+        "동아리에 가입했어요."
+      ]
+    },
+    {
+      "id": "b3_u07_l1_e012",
+      "type": "find_error",
+      "targets": [
+        "b3_u07_l1_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "날씨가 춥을까요?",
+      "answers": [
+        "날씨가 추울까요?",
+        "날씨가 추울까요"
+      ],
+      "why_uz": "ㅂ → 우: 추울까요.",
+      "why_en": "ㅂ → 우: 추울까요."
+    },
+    {
+      "id": "b3_u07_l1_e013",
+      "type": "find_error",
+      "targets": [
+        "b3_u07_l1_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "사람이 많는 거예요.",
+      "answers": [
+        "사람이 많을 거예요"
+      ],
+      "why_uz": "Taxmin: 많을 거예요.",
+      "why_en": "Guess: 많을 거예요."
+    },
+    {
+      "id": "b3_u07_l1_e014",
+      "type": "find_error",
+      "targets": [
+        "b3_u07_l1_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "시험이 어렵을 거예요.",
+      "answers": [
+        "시험이 어려울 거예요"
+      ],
+      "why_uz": "ㅂ → 우: 어려울.",
+      "why_en": "ㅂ → 우: 어려울."
+    },
+    {
+      "id": "b3_u07_l1_e015",
+      "type": "translate",
+      "targets": [
+        "b3_u07_l1_g1"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Kechaga odam ko'p kelarmikin?",
+      "source_en": "Do you think many people will come to the party?",
+      "answers": [
+        "환영회에 사람이 많이 올까요",
+        "환영회에 사람이 많이 올까요?"
+      ]
+    },
+    {
+      "id": "b3_u07_l1_e016",
+      "type": "translate",
+      "targets": [
+        "b3_u07_l1_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Avvaliga noqulay bo'lsa kerak.",
+      "source_en": "It'll probably be awkward at first.",
+      "answers": [
+        "처음에는 어색할 거예요"
+      ]
+    },
+    {
+      "id": "b3_u07_l1_e017",
+      "type": "translate",
+      "targets": [
+        "b3_u07_l1_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Minji ham kelsa kerak.",
+      "source_en": "Minji will probably come too.",
+      "answers": [
+        "민지 씨도 올 거예요",
+        "아마 민지 씨도 올 거예요"
+      ]
+    },
+    {
+      "id": "b3_u07_l1_e018",
+      "type": "build_sentence",
+      "targets": [
+        "b3_u07_l1_g1"
+      ],
+      "prompt_uz": "'Ishtirok to'lovi bormikin?' gapini tuzing",
+      "prompt_en": "Build the sentence 'Do you think there's a fee?'",
+      "tokens": [
+        "있을까요?",
+        "참가비가"
+      ],
+      "answers": [
+        "참가비가 있을까요?"
+      ]
+    },
+    {
+      "id": "b3_u07_l1_e019",
+      "type": "build_sentence",
+      "targets": [
+        "b3_u07_l1_g2"
+      ],
+      "prompt_uz": "'Ehtimol hamma kelsa kerak' gapini tuzing",
+      "prompt_en": "Build the sentence 'Probably everyone will come'",
+      "tokens": [
+        "아마",
+        "올",
+        "거예요",
+        "다"
+      ],
+      "answers": [
+        "아마 다 올 거예요"
+      ]
+    },
+    {
+      "id": "b3_u07_l1_e020",
+      "type": "build_sentence",
+      "targets": [
+        "b3_u07_l1_g2"
+      ],
+      "prompt_uz": "'Katta kursdoshlar allaqachon kelgan bo'lsa kerak' gapini tuzing",
+      "prompt_en": "Build the sentence 'The seniors have probably arrived already'",
+      "tokens": [
+        "도착했을",
+        "벌써",
+        "선배들이",
+        "거예요"
+      ],
+      "answers": [
+        "선배들이 벌써 도착했을 거예요"
+      ]
+    },
+    {
+      "id": "b3_u07_l1_e021",
+      "type": "listen_question",
+      "targets": [
+        "b3_u07_l1_g2"
+      ],
+      "prompt_uz": "Erkak nima deb o'ylaydi?",
+      "prompt_en": "What does the man think?",
+      "audio_text": "금요일 저녁이라서 식당이 복잡할 거예요.",
+      "options": [
+        "Restoran gavjum bo'ladi",
+        "Restoran yopiq",
+        "Restoran arzon",
+        "Restoran bo'sh"
+      ],
+      "options_en": [
+        "The restaurant will be crowded",
+        "It'll be closed",
+        "It'll be cheap",
+        "It'll be empty"
+      ],
+      "answers": [
+        "Restoran gavjum bo'ladi"
+      ],
+      "audio": "90c4e934c4eb.mp3"
+    },
+    {
+      "id": "b3_u07_l1_e022",
+      "type": "listen_question",
+      "targets": [
+        "b3_u07_l1_g1"
+      ],
+      "prompt_uz": "Ayol nimani so'rayapti?",
+      "prompt_en": "What does the woman wonder?",
+      "audio_text": "선배들도 환영회에 올까요?",
+      "options": [
+        "Kattalar kelarmikin",
+        "Kecha qachon",
+        "Joy qayerda",
+        "To'lov qancha"
+      ],
+      "options_en": [
+        "Whether seniors will come",
+        "When the party is",
+        "Where it is",
+        "How much it costs"
+      ],
+      "answers": [
+        "Kattalar kelarmikin"
+      ],
+      "audio": "b70154dbe6d5.mp3"
+    },
+    {
+      "id": "b3_u07_l1_e023",
+      "type": "listen_question",
+      "targets": [
+        "b3_u07_l1_g2"
+      ],
+      "prompt_uz": "Yig'in qanday bo'ladi?",
+      "prompt_en": "How will the gathering be?",
+      "audio_text": "처음에는 어색할 거예요. 그런데 금방 친해질 거예요.",
+      "options": [
+        "Avval noqulay, keyin yaxshi",
+        "Juda zerikarli",
+        "Juda qisqa",
+        "Bekor bo'ladi"
+      ],
+      "options_en": [
+        "Awkward at first, then fine",
+        "Very boring",
+        "Very short",
+        "Cancelled"
+      ],
+      "answers": [
+        "Avval noqulay, keyin yaxshi"
+      ],
+      "audio": "062db8314938.mp3"
+    },
+    {
+      "id": "b3_u07_l1_e024",
+      "type": "listen_question",
+      "targets": [
+        "b3_u07_l1_g1"
+      ],
+      "prompt_uz": "Erkak nimadan xavotirda?",
+      "prompt_en": "What is the man unsure about?",
+      "audio_text": "벌써 일곱 시예요. 모임이 시작했을까요?",
+      "options": [
+        "Yig'in boshlandimikin",
+        "Taksi kelarmikin",
+        "Yomg'ir yog'armikin",
+        "Kim kelarmikin"
+      ],
+      "options_en": [
+        "Whether it's started",
+        "Whether a taxi will come",
+        "Whether it'll rain",
+        "Who'll come"
+      ],
+      "answers": [
+        "Yig'in boshlandimikin"
+      ],
+      "audio": "4e70057c9d3b.mp3"
+    },
+    {
+      "id": "b3_u07_l1_e101",
+      "type": "conjugate",
+      "targets": [
+        "b3_u07_l1_g1"
+      ],
+      "prompt_uz": "'Yaxshi bo'larmikin?'",
+      "prompt_en": "Make 'do you think it'll be OK?'",
+      "base": "괜찮다",
+      "form": "-(으)ㄹ까요?",
+      "answers": [
+        "괜찮을까요?",
+        "괜찮을까요"
+      ]
+    },
+    {
+      "id": "b3_u07_l1_e102",
+      "type": "conjugate",
+      "targets": [
+        "b3_u07_l1_g2"
+      ],
+      "prompt_uz": "'Ko'p bo'lsa kerak'",
+      "prompt_en": "Make 'there'll probably be many'",
+      "base": "많다",
+      "form": "-(으)ㄹ 거예요",
+      "answers": [
+        "많을 거예요"
+      ]
+    },
+    {
+      "id": "b3_u07_l1_e103",
+      "type": "conjugate",
+      "targets": [
+        "b3_u07_l1_g2"
+      ],
+      "prompt_uz": "'Yetib kelgan bo'lsa kerak' (o'tgan)",
+      "prompt_en": "Make 'has probably arrived' (past)",
+      "base": "도착하다",
+      "form": "-았/었을 거예요",
+      "answers": [
+        "도착했을 거예요"
+      ]
+    },
+    {
+      "id": "b3_u07_l1_e104",
+      "type": "fill_blank",
+      "targets": [
+        "b3_u07_l1_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Qachon tugarkin?'",
+      "prompt_en": "Fill in the blank: 'I wonder when it'll end.'",
+      "sentence": "언제 ___? (끝나다)",
+      "answers": [
+        "끝날까요"
+      ]
+    },
+    {
+      "id": "b3_u07_l1_e105",
+      "type": "fill_blank",
+      "targets": [
+        "b3_u07_l1_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Yig'in sizga yoqsa kerak.'",
+      "prompt_en": "Fill in the blank: 'You'll probably like the gathering.'",
+      "sentence": "모임이 마음에 ___ 거예요. (들다)",
+      "answers": [
+        "들"
+      ]
+    },
+    {
+      "id": "b3_u07_l1_e106",
+      "type": "situation_choice",
+      "targets": [
+        "b3_u07_l1_g1"
+      ],
+      "prompt_uz": "Do'stingizdan kechada ishtirok to'lovi bormikin deb so'rang:",
+      "prompt_en": "Ask your friend if they think there's a fee:",
+      "options": [
+        "참가비가 있을까요?",
+        "참가비가 있는까요?",
+        "참가비가 있을게요?",
+        "참가비가 있을 거예요요?"
+      ],
+      "answers": [
+        "참가비가 있을까요?"
+      ]
+    },
+    {
+      "id": "b3_u07_l1_e107",
+      "type": "situation_choice",
+      "targets": [
+        "b3_u07_l1_g2"
+      ],
+      "prompt_uz": "Imtihon qiyin bo'lsa kerak, deb o'ylaysiz:",
+      "prompt_en": "You think the exam will probably be hard:",
+      "options": [
+        "시험이 어려울 거예요.",
+        "시험이 어렵을 거예요.",
+        "시험이 어려울까요요.",
+        "시험이 어려운 거예요."
+      ],
+      "answers": [
+        "시험이 어려울 거예요."
+      ]
+    },
+    {
+      "id": "b3_u07_l1_e108",
+      "type": "situation_choice",
+      "targets": [
+        "b3_u07_l1_w016"
+      ],
+      "prompt_uz": "Kursdoshingiz bilan tez yaqinlashib ketishingizni ayting:",
+      "prompt_en": "Say you'll get close to your classmate quickly:",
+      "options": [
+        "금방 친해질 거예요.",
+        "금방 초대될 거예요.",
+        "금방 참석할 거예요.",
+        "금방 어색할 거예요."
+      ],
+      "answers": [
+        "금방 친해질 거예요."
+      ]
+    },
+    {
+      "id": "b3_u07_l1_e109",
+      "type": "find_error",
+      "targets": [
+        "b3_u07_l1_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "민지 씨도 오을까요?",
+      "answers": [
+        "민지 씨도 올까요?",
+        "민지 씨도 올까요"
+      ],
+      "why_uz": "받침siz: 올까요.",
+      "why_en": "No 받침: 올까요."
+    },
+    {
+      "id": "b3_u07_l1_e110",
+      "type": "find_error",
+      "targets": [
+        "b3_u07_l1_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "처음에는 어색하을 거예요.",
+      "answers": [
+        "처음에는 어색할 거예요"
+      ],
+      "why_uz": "받침siz: 어색할.",
+      "why_en": "No 받침: 어색할."
+    },
+    {
+      "id": "b3_u07_l1_e111",
+      "type": "translate",
+      "targets": [
+        "b3_u07_l1_g1"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Katta kursdoshlar mehribon bo'larmikin?",
+      "source_en": "Do you think the seniors will be nice?",
+      "answers": [
+        "선배들이 친절할까요",
+        "선배들이 친절할까요?"
+      ]
+    },
+    {
+      "id": "b3_u07_l1_e112",
+      "type": "translate",
+      "targets": [
+        "b3_u07_l1_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Ehtimol odam ko'p bo'ladi.",
+      "source_en": "There'll probably be lots of people.",
+      "answers": [
+        "아마 사람이 많을 거예요"
+      ]
+    },
+    {
+      "id": "b3_u07_l1_e113",
+      "type": "build_sentence",
+      "targets": [
+        "b3_u07_l1_g2"
+      ],
+      "prompt_uz": "'Tez do'stlashib ketasiz' gapini tuzing",
+      "prompt_en": "Build the sentence 'You'll get close quickly'",
+      "tokens": [
+        "거예요",
+        "친해질",
+        "금방"
+      ],
+      "answers": [
+        "금방 친해질 거예요"
+      ]
+    },
+    {
+      "id": "b3_u07_l1_e114",
+      "type": "listen_question",
+      "targets": [
+        "b3_u07_l1_g2"
+      ],
+      "prompt_uz": "Junho nima deb o'ylaydi?",
+      "prompt_en": "What does Junho think?",
+      "audio_text": "민지 씨는 아마 늦게 올 거예요. 수업이 있어요.",
+      "options": [
+        "Minji kech keladi",
+        "Minji kelmaydi",
+        "Minji erta keladi",
+        "Minji kasal"
+      ],
+      "options_en": [
+        "Minji will come late",
+        "Minji won't come",
+        "Minji will come early",
+        "Minji is ill"
+      ],
+      "answers": [
+        "Minji kech keladi"
+      ],
+      "audio": "0c741ac95c87.mp3"
+    },
+    {
+      "id": "b3_u07_l1_e115",
+      "type": "listen_question",
+      "targets": [
+        "b3_u07_l1_g1"
+      ],
+      "prompt_uz": "Ayol nimani bilmoqchi?",
+      "prompt_en": "What does the woman want to know?",
+      "audio_text": "회비가 얼마일까요?",
+      "options": [
+        "Badal qancha ekanini",
+        "Joy qayerdaligini",
+        "Kim kelishini",
+        "Qachon boshlanishini"
+      ],
+      "options_en": [
+        "How much the fee is",
+        "Where it is",
+        "Who's coming",
+        "When it starts"
+      ],
+      "answers": [
+        "Badal qancha ekanini"
+      ],
+      "audio": "aec981cee136.mp3"
+    }
+  ],
+  "test": [
+    "b3_u07_l1_e101",
+    "b3_u07_l1_e102",
+    "b3_u07_l1_e103",
+    "b3_u07_l1_e104",
+    "b3_u07_l1_e105",
+    "b3_u07_l1_e106",
+    "b3_u07_l1_e107",
+    "b3_u07_l1_e108",
+    "b3_u07_l1_e109",
+    "b3_u07_l1_e110",
+    "b3_u07_l1_e111",
+    "b3_u07_l1_e112",
+    "b3_u07_l1_e113",
+    "b3_u07_l1_e114",
+    "b3_u07_l1_e115"
+  ],
+  "story": {
+    "title_uz": "Birinchi kurslar kechasi",
+    "title_en": "The freshman welcome party",
+    "gate_uz": "KECHA",
+    "gate_en": "PARTY",
+    "steps": [
+      {
+        "type": "line",
+        "speaker": "junho",
+        "ko": "아지즈 씨, 금요일에 신입생 환영회에 갈 거예요?",
+        "uz": "Aziz, juma kuni kechaga borasizmi?",
+        "en": "Aziz, are you going to the welcome party on Friday?",
+        "audio": "a66ffc6074eb.mp3"
+      },
+      {
+        "type": "choose_reply",
+        "speaker": "aziz",
+        "prompt_uz": "Aziz 'Odam ko'p kelarmikin?' deb so'ramoqchi.",
+        "prompt_en": "Aziz wants to ask 'Do you think lots of people will come?'.",
+        "options": [
+          "사람이 많이 올까요?",
+          "사람이 많이 오을까요?",
+          "사람이 많이 올게요?"
+        ],
+        "answer": "사람이 많이 올까요?",
+        "uz": "Odam ko'p kelarmikin?",
+        "en": "Do you think lots of people will come?",
+        "why_uz": "Taxmin so'roq: -(으)ㄹ까요? → 올까요?",
+        "why_en": "A guess question: -(으)ㄹ까요? → 올까요?",
+        "audio": "9890470d7bd4.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "junho",
+        "ko": "네, 아마 선배들도 다 올 거예요.",
+        "uz": "Ha, ehtimol kattalar ham hammasi keladi.",
+        "en": "Yes, probably all the seniors will come too.",
+        "audio": "a9b4c43df1c7.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "저는 모르는 사람이 많아서 걱정돼요.",
+        "uz": "Notanish odam ko'p, xavotirdaman.",
+        "en": "I'm nervous because I don't know many people.",
+        "audio": "52fb45772bcb.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "junho",
+        "ko": "처음에는 어색할 거예요. 그런데 게임을 하면 금방 친해질 거예요.",
+        "uz": "Avval noqulay bo'lsa kerak. O'yin o'ynasak, tez yaqinlashamiz.",
+        "en": "It'll be awkward at first. But games will bring us together fast.",
+        "audio": "c97525f4cf02.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "자기소개도 해야 돼요?",
+        "uz": "O'zimni tanishtirishim kerakmi?",
+        "en": "Do I have to introduce myself?",
+        "audio": "62db54314847.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "junho",
+        "ko": "네, 짧게 하면 돼요. 한국어로 하면 선배들이 좋아할 거예요.",
+        "uz": "Ha, qisqa qilsangiz bo'ldi. Koreyscha qilsangiz, kattalarga yoqsa kerak.",
+        "en": "Yes, a short one. The seniors will probably love it if you do it in Korean.",
+        "audio": "9c13777543f8.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "참가비가 있을까요?",
+        "uz": "Ishtirok to'lovi bormikin?",
+        "en": "Do you think there's a fee?",
+        "audio": "24ca7195e956.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "junho",
+        "ko": "과대표가 만 원쯤일 거라고 했어요.",
+        "uz": "Sardor o'n ming vonga yaqin dedi.",
+        "en": "The class rep said around 10,000 won.",
+        "audio": "c52fe950fbd4.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "알겠어요. 준호 씨가 같이 가면 괜찮을 거예요.",
+        "uz": "Tushunarli. Junho, siz bilan borsam, yaxshi bo'lsa kerak.",
+        "en": "Got it. If you come with me, Junho, it'll be fine.",
+        "audio": "d71642c80d14.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "junho",
+        "ko": "그럼 금요일 여섯 시에 학생회관 앞에서 만나요!",
+        "uz": "Unda juma kuni soat oltida talabalar uyi oldida!",
+        "en": "Then see you at six on Friday in front of the student union!",
+        "audio": "95ad09238ee1.mp3"
+      },
+      {
+        "type": "quiz",
+        "prompt_uz": "Junho fikricha, kechada nima Azizga yordam beradi?",
+        "prompt_en": "According to Junho, what will help Aziz at the party?",
+        "options": [
+          "O'yinlar",
+          "Ovqat",
+          "Musiqa"
+        ],
+        "options_en": [
+          "The games",
+          "The food",
+          "The music"
+        ],
+        "answer": "O'yinlar",
+        "why_uz": "게임을 하면 금방 친해질 거예요.",
+        "why_en": "Playing games will help everyone get close."
+      }
+    ]
+  }
+}

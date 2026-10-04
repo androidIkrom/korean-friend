@@ -1,0 +1,1461 @@
+{
+  "id": "b3_u09_l2",
+  "unit": 9,
+  "lesson": 2,
+  "title_ko": "설날에는 떡국을 먹는다",
+  "title_uz": "Yangi yilda ttokguk yeyiladi",
+  "title_en": "On Seollal we eat tteokguk",
+  "topic_uz": "Bayramlar",
+  "topic_en": "Holidays",
+  "reviewed": false,
+  "words": [
+    {
+      "id": "b3_u09_l2_w001",
+      "ko": "설날",
+      "uz": "Sollal (oy kalendari bo'yicha Yangi yil)",
+      "en": "Seollal (Lunar New Year)",
+      "pos": "ot",
+      "example_ko": "설날에는 떡국을 먹는다.",
+      "example_uz": "Sollalda ttokguk yeyiladi.",
+      "example_en": "On Seollal people eat tteokguk.",
+      "audio": "78f6cd89f77c.mp3",
+      "example_audio": "c81504890991.mp3"
+    },
+    {
+      "id": "b3_u09_l2_w002",
+      "ko": "떡국",
+      "uz": "ttokguk (guruch xamiri sho'rvasi)",
+      "en": "tteokguk (rice-cake soup)",
+      "pos": "ot",
+      "example_ko": "떡국을 먹으면 한 살 더 먹는다.",
+      "example_uz": "Ttokguk yesang, bir yoshga kattalashasan.",
+      "example_en": "Eat tteokguk and you're a year older.",
+      "audio": "3601656fa501.mp3",
+      "example_audio": "905bf982ead1.mp3"
+    },
+    {
+      "id": "b3_u09_l2_w003",
+      "ko": "새해",
+      "uz": "yangi yil",
+      "en": "new year",
+      "pos": "ot",
+      "example_ko": "새해 복 많이 받으세요!",
+      "example_uz": "Yangi yilingiz muborak bo'lsin!",
+      "example_en": "Happy New Year!",
+      "audio": "613b7a0e7cab.mp3",
+      "example_audio": "11376fb22d5e.mp3"
+    },
+    {
+      "id": "b3_u09_l2_w004",
+      "ko": "복",
+      "uz": "baxt, omad",
+      "en": "good fortune",
+      "pos": "ot",
+      "example_ko": "복을 많이 받으세요.",
+      "example_uz": "Omadingiz kelsin.",
+      "example_en": "May you have good fortune.",
+      "audio": "65f08a780dcc.mp3",
+      "example_audio": "6d41246f7b86.mp3"
+    },
+    {
+      "id": "b3_u09_l2_w005",
+      "ko": "세배",
+      "uz": "Yangi yil ta'zimi",
+      "en": "New Year's bow",
+      "pos": "ot",
+      "example_ko": "어른들께 세배를 한다.",
+      "example_uz": "Kattalarga Yangi yil ta'zimi qilinadi.",
+      "example_en": "People bow to their elders.",
+      "audio": "1455fb6ea7b3.mp3",
+      "example_audio": "7a93cc77e81b.mp3"
+    },
+    {
+      "id": "b3_u09_l2_w006",
+      "ko": "세뱃돈",
+      "uz": "Yangi yil puli (bolalarga)",
+      "en": "New Year's money",
+      "pos": "ot",
+      "example_ko": "아이들은 세뱃돈을 받는다.",
+      "example_uz": "Bolalar Yangi yil puli olishadi.",
+      "example_en": "Children receive New Year's money.",
+      "audio": "d4d665a40e5d.mp3",
+      "example_audio": "225166c4bf4e.mp3"
+    },
+    {
+      "id": "b3_u09_l2_w007",
+      "ko": "덕담",
+      "uz": "ezgu tilaklar",
+      "en": "words of blessing",
+      "pos": "ot",
+      "example_ko": "어른들이 덕담을 해 주신다.",
+      "example_uz": "Kattalar ezgu tilaklar aytishadi.",
+      "example_en": "The elders give words of blessing.",
+      "audio": "8ff26f974b7d.mp3",
+      "example_audio": "3e37021a01c4.mp3"
+    },
+    {
+      "id": "b3_u09_l2_w008",
+      "ko": "윷놀이",
+      "uz": "yut o'yini",
+      "en": "yunnori (board game)",
+      "pos": "ot",
+      "example_ko": "가족마다 윷놀이를 한다.",
+      "example_uz": "Har bir oila yut o'ynaydi.",
+      "example_en": "Every family plays yunnori.",
+      "audio": "7ab420e89427.mp3",
+      "example_audio": "40964c001847.mp3"
+    },
+    {
+      "id": "b3_u09_l2_w009",
+      "ko": "연날리기",
+      "uz": "varrak uchirish",
+      "en": "kite flying",
+      "pos": "ot",
+      "example_ko": "아이들은 연날리기를 한다.",
+      "example_uz": "Bolalar varrak uchirishadi.",
+      "example_en": "Children fly kites.",
+      "audio": "6dc60f793a46.mp3",
+      "example_audio": "06f1e0a11603.mp3"
+    },
+    {
+      "id": "b3_u09_l2_w010",
+      "ko": "음력",
+      "uz": "oy kalendari",
+      "en": "lunar calendar",
+      "pos": "ot",
+      "example_ko": "설날은 음력 1월 1일이다.",
+      "example_uz": "Sollal — oy kalendari bo'yicha 1-yanvar.",
+      "example_en": "Seollal is the first day of the lunar year.",
+      "audio": "4f24b57f5c27.mp3",
+      "example_audio": "46f1fa085cda.mp3"
+    },
+    {
+      "id": "b3_u09_l2_w011",
+      "ko": "전통",
+      "uz": "an'ana",
+      "en": "tradition",
+      "pos": "ot",
+      "example_ko": "설날의 전통을 배웠다.",
+      "example_uz": "Sollal an'analarini o'rgandim.",
+      "example_en": "I learned about Seollal traditions.",
+      "audio": "565ceac0e8a1.mp3",
+      "example_audio": "ad389b949690.mp3"
+    },
+    {
+      "id": "b3_u09_l2_w012",
+      "ko": "풍습",
+      "uz": "urf-odat",
+      "en": "custom",
+      "pos": "ot",
+      "example_ko": "나라마다 풍습이 다르다.",
+      "example_uz": "Har mamlakatning urf-odati boshqacha.",
+      "example_en": "Every country has different customs.",
+      "audio": "2f0e8eae10de.mp3",
+      "example_audio": "309491004acf.mp3"
+    },
+    {
+      "id": "b3_u09_l2_w013",
+      "ko": "조상",
+      "uz": "ajdodlar",
+      "en": "ancestors",
+      "pos": "ot",
+      "example_ko": "조상께 감사한다.",
+      "example_uz": "Ajdodlarga minnatdorchilik bildiriladi.",
+      "example_en": "People give thanks to their ancestors.",
+      "audio": "0796beb8f6d0.mp3",
+      "example_audio": "34cc09396e04.mp3"
+    },
+    {
+      "id": "b3_u09_l2_w014",
+      "ko": "어른",
+      "uz": "katta (yoshi ulug')",
+      "en": "elder, adult",
+      "pos": "ot",
+      "example_ko": "어른을 존경한다.",
+      "example_uz": "Kattalar hurmat qilinadi.",
+      "example_en": "Elders are respected.",
+      "audio": "f5d12db4c942.mp3",
+      "example_audio": "170ba3d6a3ae.mp3"
+    },
+    {
+      "id": "b3_u09_l2_w015",
+      "ko": "절하다",
+      "uz": "ta'zim qilmoq",
+      "en": "to bow",
+      "pos": "fe'l",
+      "example_ko": "할머니께 절했다.",
+      "example_uz": "Buvimga ta'zim qildim.",
+      "example_en": "I bowed to my grandmother.",
+      "audio": "743a26d1bf35.mp3",
+      "example_audio": "2f0c41172645.mp3"
+    },
+    {
+      "id": "b3_u09_l2_w016",
+      "ko": "마다",
+      "uz": "har (bir)",
+      "en": "every",
+      "pos": "ot",
+      "example_ko": "해마다 설날에 고향에 간다.",
+      "example_uz": "Har yili Sollalda vatanga boraman.",
+      "example_en": "Every year I go home for Seollal.",
+      "audio": "0e5a859431b6.mp3",
+      "example_audio": "01c9b6936d01.mp3"
+    },
+    {
+      "id": "b3_u09_l2_w017",
+      "ko": "해마다",
+      "uz": "har yili",
+      "en": "every year",
+      "pos": "ravish",
+      "example_ko": "해마다 떡국을 먹는다.",
+      "example_uz": "Har yili ttokguk yeyman.",
+      "example_en": "I eat tteokguk every year.",
+      "audio": "2a51cf28ff93.mp3",
+      "example_audio": "0aebbe036e18.mp3"
+    },
+    {
+      "id": "b3_u09_l2_w018",
+      "ko": "집집마다",
+      "uz": "har bir uyda",
+      "en": "in every home",
+      "pos": "ravish",
+      "example_ko": "집집마다 음식을 준비한다.",
+      "example_uz": "Har bir uyda taom tayyorlanadi.",
+      "example_en": "Every home prepares food.",
+      "audio": "c80d92ef11d2.mp3",
+      "example_audio": "33ee807726fa.mp3"
+    },
+    {
+      "id": "b3_u09_l2_w019",
+      "ko": "날마다",
+      "uz": "har kuni",
+      "en": "every day",
+      "pos": "ravish",
+      "example_ko": "날마다 일기를 쓴다.",
+      "example_uz": "Har kuni kundalik yozaman.",
+      "example_en": "I write in my diary every day.",
+      "audio": "8de6e9021d7a.mp3",
+      "example_audio": "7649fceb8761.mp3"
+    },
+    {
+      "id": "b3_u09_l2_w020",
+      "ko": "일기",
+      "uz": "kundalik",
+      "en": "diary",
+      "pos": "ot",
+      "example_ko": "한국어로 일기를 쓴다.",
+      "example_uz": "Koreyscha kundalik yozaman.",
+      "example_en": "I keep a diary in Korean.",
+      "audio": "991aeb797a12.mp3",
+      "example_audio": "bdb4148d8a28.mp3"
+    },
+    {
+      "id": "b3_u09_l2_w021",
+      "ko": "블로그",
+      "uz": "blog",
+      "en": "blog",
+      "pos": "ot",
+      "example_ko": "블로그에 설날 이야기를 썼다.",
+      "example_uz": "Blogimga Sollal haqida yozdim.",
+      "example_en": "I wrote about Seollal on my blog.",
+      "audio": "096120a419db.mp3",
+      "example_audio": "e77792b64cba.mp3"
+    },
+    {
+      "id": "b3_u09_l2_w022",
+      "ko": "글",
+      "uz": "matn, yozuv",
+      "en": "writing, text",
+      "pos": "ot",
+      "example_ko": "글을 잘 쓴다.",
+      "example_uz": "Yaxshi yozadi.",
+      "example_en": "She writes well.",
+      "audio": "35a7a9437024.mp3",
+      "example_audio": "6ea7dff7f676.mp3"
+    },
+    {
+      "id": "b3_u09_l2_w023",
+      "ko": "비슷하다",
+      "uz": "o'xshash bo'lmoq",
+      "en": "to be similar",
+      "pos": "sifat",
+      "example_ko": "우즈베키스탄의 나우루즈와 비슷하다.",
+      "example_uz": "O'zbekistondagi Navro'zga o'xshaydi.",
+      "example_en": "It's similar to Navruz in Uzbekistan.",
+      "audio": "2bb11d0bdfeb.mp3",
+      "example_audio": "672983fa034c.mp3"
+    },
+    {
+      "id": "b3_u09_l2_w024",
+      "ko": "다르다",
+      "uz": "boshqacha bo'lmoq",
+      "en": "to be different",
+      "pos": "sifat",
+      "example_ko": "음식은 조금 다르다.",
+      "example_uz": "Taomlari biroz boshqacha.",
+      "example_en": "The food is a little different.",
+      "audio": "2c28fddbfe14.mp3",
+      "example_audio": "c5da3ca08d42.mp3"
+    },
+    {
+      "id": "b3_u09_l2_w025",
+      "ko": "나우루즈",
+      "uz": "Navro'z",
+      "en": "Navruz",
+      "pos": "ot",
+      "example_ko": "나우루즈에는 수말락을 만든다.",
+      "example_uz": "Navro'zda sumalak pishiriladi.",
+      "example_en": "On Navruz people make sumalak.",
+      "audio": "d9490473db29.mp3",
+      "example_audio": "c70f126c3176.mp3"
+    },
+    {
+      "id": "b3_u09_l2_w026",
+      "ko": "한 살 더 먹다",
+      "uz": "bir yoshga kattalashmoq",
+      "en": "to turn a year older",
+      "pos": "ibora",
+      "example_ko": "설날에 한 살 더 먹는다.",
+      "example_uz": "Sollalda bir yoshga kattalashiladi.",
+      "example_en": "On Seollal you turn a year older.",
+      "audio": "9e6b5368c8be.mp3",
+      "example_audio": "2ea9c9ba70c6.mp3"
+    },
+    {
+      "id": "b3_u09_l2_w027",
+      "ko": "모이다",
+      "uz": "yig'ilmoq",
+      "en": "to gather",
+      "pos": "fe'l",
+      "example_ko": "온 가족이 모인다.",
+      "example_uz": "Butun oila yig'iladi.",
+      "example_en": "The whole family gathers.",
+      "audio": "27722d5ddc17.mp3",
+      "example_audio": "7c573774cca1.mp3"
+    },
+    {
+      "id": "b3_u09_l2_w028",
+      "ko": "입다",
+      "uz": "kiymoq",
+      "en": "to wear",
+      "pos": "fe'l",
+      "example_ko": "설날에는 한복을 입는다.",
+      "example_uz": "Sollalda hanbok kiyiladi.",
+      "example_en": "People wear hanbok on Seollal.",
+      "audio": "c613bd412188.mp3",
+      "example_audio": "07ffa4a6d972.mp3"
+    },
+    {
+      "id": "b3_u09_l2_w029",
+      "ko": "의미",
+      "uz": "ma'no",
+      "en": "meaning",
+      "pos": "ot",
+      "example_ko": "떡국에는 깊은 의미가 있다.",
+      "example_uz": "Ttokgukning chuqur ma'nosi bor.",
+      "example_en": "Tteokguk has a deep meaning.",
+      "audio": "b0a575da831e.mp3",
+      "example_audio": "8c7721539607.mp3"
+    },
+    {
+      "id": "b3_u09_l2_w030",
+      "ko": "빌다",
+      "uz": "tilamoq",
+      "en": "to wish",
+      "pos": "fe'l",
+      "example_ko": "새해에 건강을 빈다.",
+      "example_uz": "Yangi yilda salomatlik tilanadi.",
+      "example_en": "At New Year people wish for health.",
+      "audio": "b8beca605e0f.mp3",
+      "example_audio": "32dced6327ae.mp3"
+    },
+    {
+      "id": "b3_u09_l2_w031",
+      "ko": "기억",
+      "uz": "xotira",
+      "en": "memory",
+      "pos": "ot",
+      "example_ko": "좋은 기억이 됐다.",
+      "example_uz": "Yaxshi xotira bo'ldi.",
+      "example_en": "It became a good memory.",
+      "audio": "ceea502ed2e3.mp3",
+      "example_audio": "3d969998eb05.mp3"
+    },
+    {
+      "id": "b3_u09_l2_w032",
+      "ko": "특별하다",
+      "uz": "alohida bo'lmoq",
+      "en": "to be special",
+      "pos": "sifat",
+      "example_ko": "올해 설날은 특별했다.",
+      "example_uz": "Bu yilgi Sollal alohida bo'ldi.",
+      "example_en": "This year's Seollal was special.",
+      "audio": "40f76e99edf9.mp3",
+      "example_audio": "f1a3c251d3cd.mp3"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "b3_u09_l2_g1",
+      "pattern": "A/V-(ㄴ/는)다 (yozma uslub, 한다체)",
+      "meaning_uz": "Kundalik, maqola, blog uchun oddiy yozma uslub",
+      "meaning_en": "Plain written style (diaries, articles, blogs)",
+      "explanation_md": "**한다체** — **yozma nutq** uslubi: kundalik, maqola, kitob, blog, yangilik sarlavhalari. U hech kimga murojaat qilmaydi, shuning uchun hurmat ham, \"sen\" ham emas — neytral.\n\n**설날에는 떡국을 먹는다.** — *Sollalda ttokguk yeyiladi.*\n\n### Qanday yasaladi\n\n| | Shakl | Misol |\n|---|---|---|\n| Fe'l, 받침siz | **-ㄴ다** | 간다, 쓴다, 빈다 |\n| Fe'l, 받침 bilan | **-는다** | 먹는다, 입는다 |\n| Sifat | **-다** (lug'at shakli) | 다르다, 비슷하다 |\n| Ot | **N(이)다** | 설날이다, 전통이다 |\n| O'tgan | **-았/었다** | 먹었다, 갔다, 특별했다 |\n| Kelasi | **-(으)ㄹ 것이다** | 갈 것이다 |\n\n### Esda tuting\n\n- **ㄹ** fe'llar: ㄹ tushib **-ㄴ다**: 살다 → **산다**, 만들다 → **만든다**, 빌다 → **빈다**\n- **있다/없다** → **있다/없다** (o'zgarmaydi)\n- Og'zaki suhbatda ishlatilmaydi — faqat yozuvda (yoki o'zingizga gapirganda).",
+      "explanation_md_en": "**한다체** is the **plain written style**: diaries, articles, books, blogs, headlines. It addresses no one in particular, so it's neither polite nor casual — just neutral.\n\n**설날에는 떡국을 먹는다.** — *On Seollal people eat tteokguk.*\n\n### How to form it\n\n| | Form | Example |\n|---|---|---|\n| Verb, no 받침 | **-ㄴ다** | 간다, 쓴다, 빈다 |\n| Verb, with 받침 | **-는다** | 먹는다, 입는다 |\n| Adjective | **-다** (dictionary form) | 다르다, 비슷하다 |\n| Noun | **N(이)다** | 설날이다, 전통이다 |\n| Past | **-았/었다** | 먹었다, 갔다, 특별했다 |\n| Future | **-(으)ㄹ 것이다** | 갈 것이다 |\n\n### Remember\n\n- **ㄹ** verbs drop ㄹ + **-ㄴ다**: 살다 → **산다**, 만들다 → **만든다**, 빌다 → **빈다**\n- **있다/없다** stay **있다/없다**\n- It's not used in conversation — only in writing (or talking to yourself).",
+      "formation": [
+        {
+          "condition_uz": "Fe'l (받침siz)",
+          "condition_en": "Verb (no 받침)",
+          "rule": "-ㄴ다",
+          "example": "간다, 쓴다"
+        },
+        {
+          "condition_uz": "Fe'l (받침 bor)",
+          "condition_en": "Verb (with 받침)",
+          "rule": "-는다",
+          "example": "먹는다, 입는다"
+        },
+        {
+          "condition_uz": "Sifat / Ot",
+          "condition_en": "Adjective / Noun",
+          "rule": "-다 / N(이)다",
+          "example": "다르다, 설날이다"
+        },
+        {
+          "condition_uz": "O'tgan",
+          "condition_en": "Past",
+          "rule": "-았/었다",
+          "example": "먹었다, 특별했다"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "설날에는 떡국을 먹는다.",
+          "uz": "Sollalda ttokguk yeyiladi.",
+          "en": "On Seollal people eat tteokguk.",
+          "audio": "c81504890991.mp3"
+        },
+        {
+          "ko": "어른들께 세배를 한다.",
+          "uz": "Kattalarga Yangi yil ta'zimi qilinadi.",
+          "en": "People bow to their elders.",
+          "audio": "7a93cc77e81b.mp3"
+        },
+        {
+          "ko": "설날은 음력 1월 1일이다.",
+          "uz": "Sollal — oy kalendari bo'yicha 1-yanvar.",
+          "en": "Seollal is the first day of the lunar year.",
+          "audio": "46f1fa085cda.mp3"
+        },
+        {
+          "ko": "우즈베키스탄의 나우루즈와 비슷하다.",
+          "uz": "O'zbekistondagi Navro'zga o'xshaydi.",
+          "en": "It's similar to Navruz in Uzbekistan.",
+          "audio": "672983fa034c.mp3"
+        },
+        {
+          "ko": "올해 설날은 정말 특별했다.",
+          "uz": "Bu yilgi Sollal juda alohida bo'ldi.",
+          "en": "This year's Seollal was really special.",
+          "audio": "9d7ff25f7b1a.mp3"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "떡국을 먹다.",
+          "right": "떡국을 먹는다.",
+          "why_uz": "Fe'l hozirgi zamon: 먹는다 (lug'at shakli emas).",
+          "why_en": "Present verb: 먹는다 (not the dictionary form)."
+        },
+        {
+          "wrong": "한국 문화가 다른다.",
+          "right": "한국 문화가 다르다.",
+          "why_uz": "Sifat: -다 (o'zgarmaydi).",
+          "why_en": "Adjective: -다 (no change)."
+        },
+        {
+          "wrong": "서울에서 살는다.",
+          "right": "서울에서 산다.",
+          "why_uz": "ㄹ fe'l: 산다.",
+          "why_en": "ㄹ verb: 산다."
+        }
+      ],
+      "uz_compare": "O'zbekchada kundalik va maqolada ham shunday neytral uslub bor: 'Sollalda ttokguk yeyiladi', 'Bugun do'stlarim bilan uchrashdim.' Koreyschada buning uchun maxsus qo'shimchalar: 먹는다, 만났다.",
+      "compare_en": "English writing doesn't change verb endings for style. Korean does: in diaries and articles you write 먹는다 / 만났다 instead of 먹어요 / 만났어요."
+    },
+    {
+      "id": "b3_u09_l2_g2",
+      "pattern": "N마다",
+      "meaning_uz": "har (bir) ...",
+      "meaning_en": "Every N",
+      "explanation_md": "**마다** otga qo'shilib, \"**har bir ...**\", \"**har ...**\" ma'nosini beradi.\n\n**나라마다 풍습이 다르다.** — *Har bir mamlakatning urf-odati boshqacha.*\n\n### Qanday yasaladi\n\n**마다** 받침 ga qarab o'zgarmaydi: **나라마다**, **집마다**, **주말마다**, **사람마다**.\n\n### Vaqt bilan\n\n- **날마다** (har kuni), **주말마다** (har dam olish kuni), **해마다** (har yili), **아침마다** (har ertalab)\n- **N분마다** — har N daqiqada: **10분마다 버스가 와요.**\n\n### Esda tuting\n\n- **매일 = 날마다**, **매년 = 해마다**: ikkalasi ham to'g'ri.\n- ~~매일마다~~ deyilmaydi — ma'no takrorlanadi.\n- **집집마다** — \"har bir xonadonda\" (ot takrorlanadi).",
+      "explanation_md_en": "**마다** attaches to a noun to mean \"**every N**\", \"**each N**\".\n\n**나라마다 풍습이 다르다.** — *Every country has different customs.*\n\n### How to form it\n\n**마다** doesn't change with 받침: **나라마다**, **집마다**, **주말마다**, **사람마다**.\n\n### With time words\n\n- **날마다** (every day), **주말마다** (every weekend), **해마다** (every year), **아침마다** (every morning)\n- **N분마다** — every N minutes: **10분마다 버스가 와요.**\n\n### Remember\n\n- **매일 = 날마다**, **매년 = 해마다**: both are correct.\n- Don't say ~~매일마다~~ — it repeats the meaning.\n- **집집마다** — \"in every household\" (the noun is doubled).",
+      "formation": [
+        {
+          "condition_uz": "Ot",
+          "condition_en": "Noun",
+          "rule": "N + 마다",
+          "example": "나라마다, 사람마다"
+        },
+        {
+          "condition_uz": "Vaqt",
+          "condition_en": "Time",
+          "rule": "N + 마다",
+          "example": "날마다, 주말마다, 해마다"
+        },
+        {
+          "condition_uz": "Oraliq",
+          "condition_en": "Interval",
+          "rule": "N분/시간마다",
+          "example": "10분마다, 한 시간마다"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "나라마다 풍습이 다르다.",
+          "uz": "Har bir mamlakatning urf-odati boshqacha.",
+          "en": "Every country has different customs.",
+          "audio": "309491004acf.mp3"
+        },
+        {
+          "ko": "해마다 설날에 고향에 간다.",
+          "uz": "Har yili Sollalda vatanga boraman.",
+          "en": "Every year I go home for Seollal.",
+          "audio": "01c9b6936d01.mp3"
+        },
+        {
+          "ko": "집집마다 떡국을 끓인다.",
+          "uz": "Har bir uyda ttokguk qaynatiladi.",
+          "en": "Every household makes tteokguk.",
+          "audio": "9624044da40b.mp3"
+        },
+        {
+          "ko": "주말마다 가족이 모여요.",
+          "uz": "Har dam olish kuni oila yig'iladi.",
+          "en": "The family gets together every weekend.",
+          "audio": "caa95947051a.mp3"
+        },
+        {
+          "ko": "10분마다 버스가 와요.",
+          "uz": "Har o'n daqiqada avtobus keladi.",
+          "en": "A bus comes every ten minutes.",
+          "audio": "c8ef4169feb4.mp3"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "매일마다 일기를 쓴다.",
+          "right": "날마다 일기를 쓴다. / 매일 일기를 쓴다.",
+          "why_uz": "매일 + 마다 takror.",
+          "why_en": "매일 + 마다 is redundant."
+        },
+        {
+          "wrong": "나라가마다 다르다.",
+          "right": "나라마다 다르다.",
+          "why_uz": "마다 dan oldin 이/가 yo'q.",
+          "why_en": "No 이/가 before 마다."
+        },
+        {
+          "wrong": "주말 마다 만나요.",
+          "right": "주말마다 만나요.",
+          "why_uz": "마다 qo'shib yoziladi.",
+          "why_en": "마다 is attached."
+        }
+      ],
+      "uz_compare": "O'zbekchadagi 'har (bir)' bilan bir xil, faqat koreyschada so'zdan keyin keladi: 'HAR yili' = 해마다, 'HAR bir mamlakat' = 나라마다.",
+      "compare_en": "Like English 'every' — but it comes after the noun in Korean: 'every year' = 해마다, 'every country' = 나라마다."
+    }
+  ],
+  "dialogue": {
+    "lines": [
+      {
+        "speaker": "minji",
+        "ko": "아지즈 씨, 설날에 뭐 했어요?",
+        "uz": "Aziz, Sollalda nima qildingiz?",
+        "en": "Aziz, what did you do for Seollal?",
+        "audio": "43ca713c0b34.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "민지 씨 가족이랑 떡국을 먹고 세배도 했어요. 블로그에도 썼어요.",
+        "uz": "Minji, oilangiz bilan ttokguk yedim, ta'zim ham qildim. Blogimga ham yozdim.",
+        "en": "I ate tteokguk with your family and did the New Year's bow. I wrote about it on my blog too.",
+        "audio": "d7d56266d569.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "와, 한번 읽어 줘요!",
+        "uz": "Voy, bir o'qib bering!",
+        "en": "Wow, read it to me!",
+        "audio": "b1b3b35c1ea8.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "'설날은 음력 1월 1일이다. 이날 한국 사람들은 떡국을 먹는다.'",
+        "uz": "'Sollal — oy kalendari bo'yicha 1-yanvar. Bu kuni koreyslar ttokguk yeyishadi.'",
+        "en": "'Seollal is the first day of the lunar year. On this day Koreans eat tteokguk.'",
+        "audio": "09b83daa43c8.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "잘 썼네요! 한다체로 썼어요?",
+        "uz": "Yaxshi yozibsiz! Yozma uslubda yozdingizmi?",
+        "en": "That's well written! Did you write it in the plain style?",
+        "audio": "822f9aeb8829.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "네, 블로그 글이니까요. '떡국을 먹으면 한 살 더 먹는다.'",
+        "uz": "Ha, blog matni-da. 'Ttokguk yesang, bir yoshga kattalashasan.'",
+        "en": "Yes, it's a blog post. 'Eat tteokguk and you're a year older.'",
+        "audio": "3310e695f449.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "하하, 맞아요. 우즈베키스탄에도 새해 명절이 있어요?",
+        "uz": "Haha, to'g'ri. O'zbekistonda ham yangi yil bayrami bormi?",
+        "en": "Haha, that's right. Is there a New Year holiday in Uzbekistan too?",
+        "audio": "419ec79dde2e.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "네, 나우루즈가 있어요. 해마다 3월 21일이에요. 수말락을 만들어요.",
+        "uz": "Ha, Navro'z bor. Har yili 21-mart. Sumalak pishiramiz.",
+        "en": "Yes, Navruz. It's on 21 March every year. We make sumalak.",
+        "audio": "25083471bf84.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "나라마다 명절 음식이 다르네요.",
+        "uz": "Har mamlakatning bayram taomi boshqacha ekan.",
+        "en": "Every country has its own holiday food.",
+        "audio": "f1cd73922f85.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "그래도 가족이 모이고 새해 복을 비는 건 비슷해요.",
+        "uz": "Lekin oila yig'ilishi va yangi yilda omad tilash o'xshash.",
+        "en": "But families gathering and wishing for good fortune is the same.",
+        "audio": "6d30a4da3b74.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "맞아요. 새해 복 많이 받으세요, 아지즈 씨!",
+        "uz": "To'g'ri. Yangi yilingiz muborak, Aziz!",
+        "en": "That's true. Happy New Year, Aziz!",
+        "audio": "7c0d860af086.mp3"
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b3_u09_l2_e001",
+      "type": "conjugate",
+      "targets": [
+        "b3_u09_l2_g1"
+      ],
+      "prompt_uz": "Yozma uslub: 'yeyiladi (yeydi)'",
+      "prompt_en": "Plain style: 'eats'",
+      "base": "먹다",
+      "form": "-(ㄴ/는)다",
+      "answers": [
+        "먹는다"
+      ]
+    },
+    {
+      "id": "b3_u09_l2_e002",
+      "type": "conjugate",
+      "targets": [
+        "b3_u09_l2_g1"
+      ],
+      "prompt_uz": "Yozma uslub: 'boradi'",
+      "prompt_en": "Plain style: 'goes'",
+      "base": "가다",
+      "form": "-(ㄴ/는)다",
+      "answers": [
+        "간다"
+      ]
+    },
+    {
+      "id": "b3_u09_l2_e003",
+      "type": "conjugate",
+      "targets": [
+        "b3_u09_l2_g1"
+      ],
+      "prompt_uz": "Yozma uslub: 'yashaydi'",
+      "prompt_en": "Plain style: 'lives'",
+      "base": "살다",
+      "form": "-(ㄴ/는)다",
+      "answers": [
+        "산다"
+      ],
+      "hint_uz": "ㄹ tushadi + ㄴ다",
+      "hint_en": "ㄹ drops + ㄴ다"
+    },
+    {
+      "id": "b3_u09_l2_e004",
+      "type": "conjugate",
+      "targets": [
+        "b3_u09_l2_g2"
+      ],
+      "prompt_uz": "'Har bir mamlakat' iborasini yasang",
+      "prompt_en": "Make 'every country'",
+      "base": "나라",
+      "form": "+ 마다",
+      "answers": [
+        "나라마다"
+      ]
+    },
+    {
+      "id": "b3_u09_l2_e005",
+      "type": "fill_blank",
+      "targets": [
+        "b3_u09_l2_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Sollalda hanbok kiyiladi.'",
+      "prompt_en": "Fill in the blank: 'People wear hanbok on Seollal.'",
+      "sentence": "설날에는 한복을 ___. (입다)",
+      "answers": [
+        "입는다"
+      ]
+    },
+    {
+      "id": "b3_u09_l2_e006",
+      "type": "fill_blank",
+      "targets": [
+        "b3_u09_l2_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Bu yilgi Sollal alohida bo'ldi.'",
+      "prompt_en": "Fill in the blank: 'This year's Seollal was special.'",
+      "sentence": "올해 설날은 ___. (특별하다, o'tgan)",
+      "answers": [
+        "특별했다"
+      ]
+    },
+    {
+      "id": "b3_u09_l2_e007",
+      "type": "fill_blank",
+      "targets": [
+        "b3_u09_l2_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Har yili vatanga boraman.'",
+      "prompt_en": "Fill in the blank: 'I go home every year.'",
+      "sentence": "해___ 고향에 간다.",
+      "answers": [
+        "마다"
+      ]
+    },
+    {
+      "id": "b3_u09_l2_e008",
+      "type": "fill_blank",
+      "targets": [
+        "b3_u09_l2_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Har o'n daqiqada avtobus keladi.'",
+      "prompt_en": "Fill in the blank: 'A bus comes every ten minutes.'",
+      "sentence": "10분___ 버스가 와요.",
+      "answers": [
+        "마다"
+      ]
+    },
+    {
+      "id": "b3_u09_l2_e009",
+      "type": "situation_choice",
+      "targets": [
+        "b3_u09_l2_g1"
+      ],
+      "prompt_uz": "Kundaligingizga yozing: 'Bugun do'stim bilan uchrashdim.'",
+      "prompt_en": "Write in your diary: 'Today I met a friend.'",
+      "options": [
+        "오늘 친구를 만났다.",
+        "오늘 친구를 만났어요.",
+        "오늘 친구를 만나다.",
+        "오늘 친구를 만났습니다요."
+      ],
+      "answers": [
+        "오늘 친구를 만났다."
+      ]
+    },
+    {
+      "id": "b3_u09_l2_e010",
+      "type": "situation_choice",
+      "targets": [
+        "b3_u09_l2_g2"
+      ],
+      "prompt_uz": "Har mamlakatning urf-odati boshqacha ekanini yozing:",
+      "prompt_en": "Write that every country has different customs:",
+      "options": [
+        "나라마다 풍습이 다르다.",
+        "나라가마다 풍습이 다르다.",
+        "매 나라마다 풍습이 다른다.",
+        "나라 마다 풍습이 다르는다."
+      ],
+      "answers": [
+        "나라마다 풍습이 다르다."
+      ]
+    },
+    {
+      "id": "b3_u09_l2_e011",
+      "type": "situation_choice",
+      "targets": [
+        "b3_u09_l2_w003"
+      ],
+      "prompt_uz": "Yangi yil bilan tabriklang:",
+      "prompt_en": "Wish someone a happy New Year:",
+      "options": [
+        "새해 복 많이 받으세요!",
+        "새해 덕담 많이 하세요!",
+        "새해 떡국 많이 받으세요!",
+        "새해 세배 많이 드세요!"
+      ],
+      "answers": [
+        "새해 복 많이 받으세요!"
+      ]
+    },
+    {
+      "id": "b3_u09_l2_e012",
+      "type": "find_error",
+      "targets": [
+        "b3_u09_l2_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "설날에는 떡국을 먹다.",
+      "answers": [
+        "설날에는 떡국을 먹는다"
+      ],
+      "why_uz": "Fe'l hozirgi: 먹는다.",
+      "why_en": "Present verb: 먹는다."
+    },
+    {
+      "id": "b3_u09_l2_e013",
+      "type": "find_error",
+      "targets": [
+        "b3_u09_l2_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "한국 문화는 우리 문화와 다른다.",
+      "answers": [
+        "한국 문화는 우리 문화와 다르다"
+      ],
+      "why_uz": "Sifat: -다.",
+      "why_en": "Adjective: -다."
+    },
+    {
+      "id": "b3_u09_l2_e014",
+      "type": "find_error",
+      "targets": [
+        "b3_u09_l2_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "매일마다 일기를 쓴다.",
+      "answers": [
+        "날마다 일기를 쓴다",
+        "매일 일기를 쓴다"
+      ],
+      "why_uz": "매일 + 마다 takror.",
+      "why_en": "매일 + 마다 is redundant."
+    },
+    {
+      "id": "b3_u09_l2_e015",
+      "type": "translate",
+      "targets": [
+        "b3_u09_l2_g1"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Sollalda ttokguk yeyiladi.",
+      "source_en": "On Seollal people eat tteokguk.",
+      "answers": [
+        "설날에는 떡국을 먹는다",
+        "설날에 떡국을 먹는다"
+      ]
+    },
+    {
+      "id": "b3_u09_l2_e016",
+      "type": "translate",
+      "targets": [
+        "b3_u09_l2_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Har dam olish kuni oila yig'iladi.",
+      "source_en": "The family gets together every weekend.",
+      "answers": [
+        "주말마다 가족이 모여요",
+        "주말마다 가족이 모인다"
+      ]
+    },
+    {
+      "id": "b3_u09_l2_e017",
+      "type": "translate",
+      "targets": [
+        "b3_u09_l2_g1"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Sollal — oy kalendari bo'yicha 1-yanvar.",
+      "source_en": "Seollal is the first day of the lunar year.",
+      "answers": [
+        "설날은 음력 1월 1일이다",
+        "설날은 음력 일월 일 일이다"
+      ]
+    },
+    {
+      "id": "b3_u09_l2_e018",
+      "type": "build_sentence",
+      "targets": [
+        "b3_u09_l2_g1"
+      ],
+      "prompt_uz": "'Kattalarga Yangi yil ta'zimi qilinadi' gapini tuzing",
+      "prompt_en": "Build the sentence 'People bow to their elders'",
+      "tokens": [
+        "세배를",
+        "한다",
+        "어른들께"
+      ],
+      "answers": [
+        "어른들께 세배를 한다"
+      ]
+    },
+    {
+      "id": "b3_u09_l2_e019",
+      "type": "build_sentence",
+      "targets": [
+        "b3_u09_l2_g2"
+      ],
+      "prompt_uz": "'Har bir uyda ttokguk qaynatiladi' gapini tuzing",
+      "prompt_en": "Build the sentence 'Every household makes tteokguk'",
+      "tokens": [
+        "끓인다",
+        "집집마다",
+        "떡국을"
+      ],
+      "answers": [
+        "집집마다 떡국을 끓인다"
+      ]
+    },
+    {
+      "id": "b3_u09_l2_e020",
+      "type": "build_sentence",
+      "targets": [
+        "b3_u09_l2_g1"
+      ],
+      "prompt_uz": "'Navro'zga o'xshaydi' gapini tuzing",
+      "prompt_en": "Build the sentence 'It's similar to Navruz'",
+      "tokens": [
+        "비슷하다",
+        "나우루즈와"
+      ],
+      "answers": [
+        "나우루즈와 비슷하다"
+      ]
+    },
+    {
+      "id": "b3_u09_l2_e021",
+      "type": "listen_question",
+      "targets": [
+        "b3_u09_l2_g1"
+      ],
+      "prompt_uz": "Matn nima haqida?",
+      "prompt_en": "What is the text about?",
+      "audio_text": "설날에는 아이들이 어른들께 세배를 하고 세뱃돈을 받는다.",
+      "options": [
+        "Bolalar ta'zim qilib pul olishi",
+        "Kattalar sovg'a berishi",
+        "Oila sayohatga borishi",
+        "Ttokguk tayyorlash"
+      ],
+      "options_en": [
+        "Children bow and get money",
+        "Adults giving gifts",
+        "A family trip",
+        "Making tteokguk"
+      ],
+      "answers": [
+        "Bolalar ta'zim qilib pul olishi"
+      ],
+      "audio": "402d3c7393b0.mp3"
+    },
+    {
+      "id": "b3_u09_l2_e022",
+      "type": "listen_question",
+      "targets": [
+        "b3_u09_l2_g2"
+      ],
+      "prompt_uz": "Avtobus qanchalik tez-tez keladi?",
+      "prompt_en": "How often does the bus come?",
+      "audio_text": "이 버스는 15분마다 온다.",
+      "options": [
+        "Har 15 daqiqada",
+        "Har soatda",
+        "Har 5 daqiqada",
+        "Kuniga bir marta"
+      ],
+      "options_en": [
+        "Every 15 minutes",
+        "Every hour",
+        "Every 5 minutes",
+        "Once a day"
+      ],
+      "answers": [
+        "Har 15 daqiqada"
+      ],
+      "audio": "8105e064d288.mp3"
+    },
+    {
+      "id": "b3_u09_l2_e023",
+      "type": "listen_question",
+      "targets": [
+        "b3_u09_l2_g1"
+      ],
+      "prompt_uz": "U o'tgan yili nima qildi?",
+      "prompt_en": "What did the writer do last year?",
+      "audio_text": "작년 설날에는 혼자 기숙사에 있었다. 조금 외로웠다.",
+      "options": [
+        "Yotoqxonada yolg'iz qoldi",
+        "Vatanga bordi",
+        "Do'stining uyiga bordi",
+        "Ishladi"
+      ],
+      "options_en": [
+        "Stayed alone in the dorm",
+        "Went home",
+        "Went to a friend's",
+        "Worked"
+      ],
+      "answers": [
+        "Yotoqxonada yolg'iz qoldi"
+      ],
+      "audio": "28cccb40be6d.mp3"
+    },
+    {
+      "id": "b3_u09_l2_e024",
+      "type": "listen_question",
+      "targets": [
+        "b3_u09_l2_g2"
+      ],
+      "prompt_uz": "Nima har xil?",
+      "prompt_en": "What differs?",
+      "audio_text": "나라마다 새해 음식이 다르다.",
+      "options": [
+        "Yangi yil taomlari",
+        "Yangi yil sanasi",
+        "Sovg'alar",
+        "Kiyimlar"
+      ],
+      "options_en": [
+        "New Year food",
+        "The New Year date",
+        "Presents",
+        "Clothes"
+      ],
+      "answers": [
+        "Yangi yil taomlari"
+      ],
+      "audio": "c26bf1d2a6d6.mp3"
+    },
+    {
+      "id": "b3_u09_l2_e101",
+      "type": "conjugate",
+      "targets": [
+        "b3_u09_l2_g1"
+      ],
+      "prompt_uz": "Yozma uslub: 'yozadi'",
+      "prompt_en": "Plain style: 'writes'",
+      "base": "쓰다",
+      "form": "-(ㄴ/는)다",
+      "answers": [
+        "쓴다"
+      ]
+    },
+    {
+      "id": "b3_u09_l2_e102",
+      "type": "conjugate",
+      "targets": [
+        "b3_u09_l2_g1"
+      ],
+      "prompt_uz": "Yozma uslub: 'bayram' + -dir",
+      "prompt_en": "Plain style: 'is a holiday'",
+      "base": "명절",
+      "form": "N(이)다",
+      "answers": [
+        "명절이다"
+      ]
+    },
+    {
+      "id": "b3_u09_l2_e103",
+      "type": "conjugate",
+      "targets": [
+        "b3_u09_l2_g2"
+      ],
+      "prompt_uz": "'Har kishi' iborasini yasang",
+      "prompt_en": "Make 'every person'",
+      "base": "사람",
+      "form": "+ 마다",
+      "answers": [
+        "사람마다"
+      ]
+    },
+    {
+      "id": "b3_u09_l2_e104",
+      "type": "fill_blank",
+      "targets": [
+        "b3_u09_l2_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Butun oila yig'iladi.'",
+      "prompt_en": "Fill in the blank: 'The whole family gathers.'",
+      "sentence": "온 가족이 ___. (모이다)",
+      "answers": [
+        "모인다"
+      ]
+    },
+    {
+      "id": "b3_u09_l2_e105",
+      "type": "fill_blank",
+      "targets": [
+        "b3_u09_l2_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Har ertalab yuguraman.'",
+      "prompt_en": "Fill in the blank: 'I run every morning.'",
+      "sentence": "아침___ 달린다.",
+      "answers": [
+        "마다"
+      ]
+    },
+    {
+      "id": "b3_u09_l2_e106",
+      "type": "situation_choice",
+      "targets": [
+        "b3_u09_l2_g1"
+      ],
+      "prompt_uz": "Blogingizga yozing: 'Ttokguk mazali edi.'",
+      "prompt_en": "Write on your blog: 'The tteokguk was delicious.'",
+      "options": [
+        "떡국이 맛있었다.",
+        "떡국이 맛있었어요.",
+        "떡국이 맛있는다.",
+        "떡국이 맛있었습니다요."
+      ],
+      "answers": [
+        "떡국이 맛있었다."
+      ]
+    },
+    {
+      "id": "b3_u09_l2_e107",
+      "type": "situation_choice",
+      "targets": [
+        "b3_u09_l2_g2"
+      ],
+      "prompt_uz": "Har kishining fikri boshqacha ekanini yozing:",
+      "prompt_en": "Write that every person thinks differently:",
+      "options": [
+        "사람마다 생각이 다르다.",
+        "사람이마다 생각이 다르다.",
+        "사람 마다 생각이 다른다.",
+        "매 사람마다 생각이 달라다."
+      ],
+      "answers": [
+        "사람마다 생각이 다르다."
+      ]
+    },
+    {
+      "id": "b3_u09_l2_e108",
+      "type": "situation_choice",
+      "targets": [
+        "b3_u09_l2_w006"
+      ],
+      "prompt_uz": "Bolalar Sollalda nima oladi?",
+      "prompt_en": "What do children receive on Seollal?",
+      "options": [
+        "세뱃돈을 받는다.",
+        "덕담을 받는다요.",
+        "윷놀이를 받는다.",
+        "떡국을 받는다."
+      ],
+      "answers": [
+        "세뱃돈을 받는다."
+      ]
+    },
+    {
+      "id": "b3_u09_l2_e109",
+      "type": "find_error",
+      "targets": [
+        "b3_u09_l2_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "서울에서 살는다.",
+      "answers": [
+        "서울에서 산다"
+      ],
+      "why_uz": "ㄹ fe'l: 산다.",
+      "why_en": "ㄹ verb: 산다."
+    },
+    {
+      "id": "b3_u09_l2_e110",
+      "type": "find_error",
+      "targets": [
+        "b3_u09_l2_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "주말 마다 등산을 한다.",
+      "answers": [
+        "주말마다 등산을 한다"
+      ],
+      "why_uz": "마다 qo'shib yoziladi.",
+      "why_en": "마다 is attached."
+    },
+    {
+      "id": "b3_u09_l2_e111",
+      "type": "translate",
+      "targets": [
+        "b3_u09_l2_g1"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Bugun do'stim bilan uchrashdim. (kundalik)",
+      "source_en": "Today I met a friend. (diary)",
+      "answers": [
+        "오늘 친구를 만났다",
+        "오늘은 친구를 만났다"
+      ]
+    },
+    {
+      "id": "b3_u09_l2_e112",
+      "type": "translate",
+      "targets": [
+        "b3_u09_l2_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Har yili Sollalda vatanga boraman.",
+      "source_en": "Every year I go home for Seollal.",
+      "answers": [
+        "해마다 설날에 고향에 간다",
+        "해마다 설날에 고향에 가요"
+      ]
+    },
+    {
+      "id": "b3_u09_l2_e113",
+      "type": "build_sentence",
+      "targets": [
+        "b3_u09_l2_g1",
+        "b3_u09_l2_g2"
+      ],
+      "prompt_uz": "'Har bir mamlakatning urf-odati boshqacha' gapini tuzing",
+      "prompt_en": "Build the sentence 'Every country has different customs'",
+      "tokens": [
+        "다르다",
+        "나라마다",
+        "풍습이"
+      ],
+      "answers": [
+        "나라마다 풍습이 다르다"
+      ]
+    },
+    {
+      "id": "b3_u09_l2_e114",
+      "type": "listen_question",
+      "targets": [
+        "b3_u09_l2_g1"
+      ],
+      "prompt_uz": "Matnga ko'ra ttokguk yesangiz nima bo'ladi?",
+      "prompt_en": "According to the text, what happens when you eat tteokguk?",
+      "audio_text": "떡국을 먹으면 한 살 더 먹는다.",
+      "options": [
+        "Bir yoshga kattalashasiz",
+        "Omad keladi",
+        "Kasal bo'lmaysiz",
+        "Boy bo'lasiz"
+      ],
+      "options_en": [
+        "You turn a year older",
+        "You get lucky",
+        "You won't get sick",
+        "You get rich"
+      ],
+      "answers": [
+        "Bir yoshga kattalashasiz"
+      ],
+      "audio": "905bf982ead1.mp3"
+    },
+    {
+      "id": "b3_u09_l2_e115",
+      "type": "listen_question",
+      "targets": [
+        "b3_u09_l2_g2"
+      ],
+      "prompt_uz": "U qachon kundalik yozadi?",
+      "prompt_en": "When does the writer keep a diary?",
+      "audio_text": "나는 날마다 한국어로 일기를 쓴다.",
+      "options": [
+        "Har kuni",
+        "Har hafta",
+        "Har oy",
+        "Ba'zan"
+      ],
+      "options_en": [
+        "Every day",
+        "Every week",
+        "Every month",
+        "Sometimes"
+      ],
+      "answers": [
+        "Har kuni"
+      ],
+      "audio": "e586f9de9f0b.mp3"
+    }
+  ],
+  "test": [
+    "b3_u09_l2_e101",
+    "b3_u09_l2_e102",
+    "b3_u09_l2_e103",
+    "b3_u09_l2_e104",
+    "b3_u09_l2_e105",
+    "b3_u09_l2_e106",
+    "b3_u09_l2_e107",
+    "b3_u09_l2_e108",
+    "b3_u09_l2_e109",
+    "b3_u09_l2_e110",
+    "b3_u09_l2_e111",
+    "b3_u09_l2_e112",
+    "b3_u09_l2_e113",
+    "b3_u09_l2_e114",
+    "b3_u09_l2_e115"
+  ],
+  "story": {
+    "title_uz": "Sollal haqida blog",
+    "title_en": "A blog about Seollal",
+    "gate_uz": "SOLLAL",
+    "gate_en": "SEOLLAL",
+    "steps": [
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "아지즈 씨, 설날에 뭐 했어요?",
+        "uz": "Aziz, Sollalda nima qildingiz?",
+        "en": "Aziz, what did you do for Seollal?",
+        "audio": "43ca713c0b34.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "민지 씨 가족이랑 떡국을 먹고 세배도 했어요.",
+        "uz": "Oilangiz bilan ttokguk yedim, ta'zim ham qildim.",
+        "en": "I ate tteokguk with your family and did the New Year's bow.",
+        "audio": "51a76dc2bb5c.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "그리고 블로그에 글을 썼어요.",
+        "uz": "Keyin blogimga yozdim.",
+        "en": "And I wrote a blog post.",
+        "audio": "97ed46590cbc.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "와, 읽어 줘요!",
+        "uz": "Voy, o'qib bering!",
+        "en": "Wow, read it to me!",
+        "audio": "a13d7c66ccb7.mp3"
+      },
+      {
+        "type": "choose_reply",
+        "speaker": "aziz",
+        "prompt_uz": "Aziz blog uslubida 'Sollalda koreyslar ttokguk yeyishadi' deb o'qimoqchi.",
+        "prompt_en": "Aziz wants to read, in blog style, 'On Seollal Koreans eat tteokguk'.",
+        "options": [
+          "설날에 한국 사람들은 떡국을 먹는다.",
+          "설날에 한국 사람들은 떡국을 먹다.",
+          "설날에 한국 사람들은 떡국을 먹는다요."
+        ],
+        "answer": "설날에 한국 사람들은 떡국을 먹는다.",
+        "uz": "Sollalda koreyslar ttokguk yeyishadi.",
+        "en": "On Seollal Koreans eat tteokguk.",
+        "why_uz": "Yozma uslub: fe'l 받침 bilan → -는다.",
+        "why_en": "Plain style: verb with 받침 → -는다.",
+        "audio": "fe170ee86ee0.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "'떡국을 먹으면 한 살 더 먹는다. 나는 올해 스물한 살이 됐다.'",
+        "uz": "'Ttokguk yesang, bir yoshga kattalashasan. Men bu yil yigirma bir yoshga to'ldim.'",
+        "en": "'Eat tteokguk and you're a year older. This year I turned twenty-one.'",
+        "audio": "728f188fc536.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "하하, 잘 썼네요!",
+        "uz": "Haha, yaxshi yozibsiz!",
+        "en": "Haha, nicely written!",
+        "audio": "39d0e1a7cb98.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "우즈베키스탄에도 새해 명절이 있어요?",
+        "uz": "O'zbekistonda ham yangi yil bayrami bormi?",
+        "en": "Is there a New Year holiday in Uzbekistan too?",
+        "audio": "4301e5e65972.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "나우루즈가 있어요. 해마다 3월 21일이에요.",
+        "uz": "Navro'z bor. Har yili 21-mart.",
+        "en": "There's Navruz. It's on 21 March every year.",
+        "audio": "892929d83c6b.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "나라마다 명절이 다르네요.",
+        "uz": "Har mamlakatning bayrami boshqacha ekan.",
+        "en": "Every country has different holidays.",
+        "audio": "89f62f2589fc.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "그래도 가족이 모이는 건 비슷해요.",
+        "uz": "Lekin oila yig'ilishi o'xshash.",
+        "en": "But families getting together is the same.",
+        "audio": "37799d9012f8.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "새해 복 많이 받으세요!",
+        "uz": "Yangi yilingiz muborak!",
+        "en": "Happy New Year!",
+        "audio": "11376fb22d5e.mp3"
+      },
+      {
+        "type": "quiz",
+        "prompt_uz": "O'zbekistonda Navro'z qachon?",
+        "prompt_en": "When is Navruz in Uzbekistan?",
+        "options": [
+          "21-mart",
+          "1-yanvar",
+          "Oy kalendari 1-yanvar"
+        ],
+        "options_en": [
+          "21 March",
+          "1 January",
+          "The first day of the lunar year"
+        ],
+        "answer": "21-mart",
+        "why_uz": "해마다 3월 21일이에요.",
+        "why_en": "Navruz is on 21 March every year."
+      }
+    ]
+  }
+}

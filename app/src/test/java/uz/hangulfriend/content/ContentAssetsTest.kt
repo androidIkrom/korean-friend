@@ -65,8 +65,12 @@ class ContentAssetsTest {
         t.listening.forEach { assertTrue("${it.id}: two-voice dialogue", (it.audioDialogue?.size ?: 0) >= 2) }
     }
 
-    @Test fun bookOneFinalTestIsValid() {
-        val t = repo.finalTest(1)!!
+    @Test fun bookOneFinalTestIsValid() = otherBookFinalTestIsValid(1)
+
+    @Test fun bookThreeFinalTestIsValid() = otherBookFinalTestIsValid(3)
+
+    private fun otherBookFinalTestIsValid(book: Int) {
+        val t = repo.finalTest(book)!!
         assertEquals(15, t.listening.size)
         assertEquals(15, t.reading.size)
         assertTrue(t.listening.all { it.type == ExerciseType.LISTEN_QUESTION && it.targets.isEmpty() })
@@ -77,8 +81,13 @@ class ContentAssetsTest {
         t.listening.forEach { assertTrue("${it.id}: audio", it.audio != null && File(dir, it.audio!!).isFile) }
     }
 
-    @Test fun bookOneIsWritten() =
-        assertEquals(catalog.filter { it.book == 1 }.map { it.id }, catalog.filter { it.book == 1 && repo.isAvailable(it.id) }.map { it.id })
+    @Test fun booksOneAndThreeAreWritten() {
+        for (book in listOf(1, 3)) {
+            val ids = catalog.filter { it.book == book }.map { it.id }
+            assertTrue("book $book is empty", ids.isNotEmpty())
+            assertEquals(ids, ids.filter { repo.isAvailable(it) })
+        }
+    }
 
     @Test fun validatorPasses() = assertEquals(emptyList<String>(), LessonValidator.validate(lessons))
 

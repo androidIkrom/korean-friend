@@ -1,0 +1,1455 @@
+{
+  "id": "b3_u08_l1",
+  "unit": 8,
+  "lesson": 1,
+  "title_ko": "부산에서 살다가 서울로 오게 됐어",
+  "title_uz": "Pusanda yashardim, keyin Seulga kelib qoldim",
+  "title_en": "I lived in Busan and then ended up coming to Seoul",
+  "topic_uz": "O'zgarish",
+  "topic_en": "Change",
+  "reviewed": false,
+  "words": [
+    {
+      "id": "b3_u08_l1_w001",
+      "ko": "태어나다",
+      "uz": "tug'ilmoq",
+      "en": "to be born",
+      "pos": "fe'l",
+      "example_ko": "나는 부산에서 태어났어.",
+      "example_uz": "Men Pusanda tug'ilganman.",
+      "example_en": "I was born in Busan.",
+      "audio": "e262585eab5c.mp3",
+      "example_audio": "a19d7a41885d.mp3"
+    },
+    {
+      "id": "b3_u08_l1_w002",
+      "ko": "자라다",
+      "uz": "o'smoq, ulg'aymoq",
+      "en": "to grow up",
+      "pos": "fe'l",
+      "example_ko": "시골에서 자랐어요.",
+      "example_uz": "Qishloqda o'sganman.",
+      "example_en": "I grew up in the countryside.",
+      "audio": "7b837de21231.mp3",
+      "example_audio": "e0a638e0527d.mp3"
+    },
+    {
+      "id": "b3_u08_l1_w003",
+      "ko": "어린 시절",
+      "uz": "bolalik",
+      "en": "childhood",
+      "pos": "ot",
+      "example_ko": "어린 시절이 그리워요.",
+      "example_uz": "Bolaligimni sog'inaman.",
+      "example_en": "I miss my childhood.",
+      "audio": "0b4a6964e8f5.mp3",
+      "example_audio": "0586c8e6a514.mp3"
+    },
+    {
+      "id": "b3_u08_l1_w004",
+      "ko": "초등학교",
+      "uz": "boshlang'ich maktab",
+      "en": "elementary school",
+      "pos": "ot",
+      "example_ko": "초등학교 때 이사했어요.",
+      "example_uz": "Boshlang'ich maktabda ko'chganmiz.",
+      "example_en": "We moved when I was in elementary school.",
+      "audio": "0d8d95af5fe5.mp3",
+      "example_audio": "d6305be7a9dc.mp3"
+    },
+    {
+      "id": "b3_u08_l1_w005",
+      "ko": "입학하다",
+      "uz": "o'qishga kirmoq",
+      "en": "to enter (a school)",
+      "pos": "fe'l",
+      "example_ko": "올해 대학교에 입학했어요.",
+      "example_uz": "Bu yil universitetga kirdim.",
+      "example_en": "I entered university this year.",
+      "audio": "009b2532ddf6.mp3",
+      "example_audio": "40afc2e46cc7.mp3"
+    },
+    {
+      "id": "b3_u08_l1_w006",
+      "ko": "유학",
+      "uz": "chet elda o'qish",
+      "en": "studying abroad",
+      "pos": "ot",
+      "example_ko": "한국에 유학을 오게 됐어요.",
+      "example_uz": "Koreyaga o'qishga kelib qoldim.",
+      "example_en": "I ended up coming to Korea to study.",
+      "audio": "523289e9e3d7.mp3",
+      "example_audio": "fa5bc9124136.mp3"
+    },
+    {
+      "id": "b3_u08_l1_w007",
+      "ko": "변하다",
+      "uz": "o'zgarmoq",
+      "en": "to change",
+      "pos": "fe'l",
+      "example_ko": "서울이 많이 변했어요.",
+      "example_uz": "Seul ancha o'zgardi.",
+      "example_en": "Seoul has changed a lot.",
+      "audio": "e142acd49397.mp3",
+      "example_audio": "72c96184fe50.mp3"
+    },
+    {
+      "id": "b3_u08_l1_w008",
+      "ko": "바뀌다",
+      "uz": "almashmoq, o'zgarmoq",
+      "en": "to be changed",
+      "pos": "fe'l",
+      "example_ko": "생활이 완전히 바뀌었어요.",
+      "example_uz": "Hayotim butunlay o'zgardi.",
+      "example_en": "My life completely changed.",
+      "audio": "899e9ab7ff04.mp3",
+      "example_audio": "750cd70d5d73.mp3"
+    },
+    {
+      "id": "b3_u08_l1_w009",
+      "ko": "달라지다",
+      "uz": "boshqacha bo'lib qolmoq",
+      "en": "to become different",
+      "pos": "fe'l",
+      "example_ko": "성격이 달라졌어요.",
+      "example_uz": "Fe'lim o'zgardi.",
+      "example_en": "My personality has changed.",
+      "audio": "0198e2ccee98.mp3",
+      "example_audio": "ae93a6546979.mp3"
+    },
+    {
+      "id": "b3_u08_l1_w010",
+      "ko": "익숙해지다",
+      "uz": "ko'nikmoq",
+      "en": "to get used to",
+      "pos": "fe'l",
+      "example_ko": "서울 생활에 익숙해졌어요.",
+      "example_uz": "Seul hayotiga ko'nikdim.",
+      "example_en": "I've got used to life in Seoul.",
+      "audio": "9be6e6345cc5.mp3",
+      "example_audio": "c792b0339a16.mp3"
+    },
+    {
+      "id": "b3_u08_l1_w011",
+      "ko": "적응하다",
+      "uz": "moslashmoq",
+      "en": "to adapt",
+      "pos": "fe'l",
+      "example_ko": "새 학교에 적응했어요.",
+      "example_uz": "Yangi maktabga moslashdim.",
+      "example_en": "I adapted to the new school.",
+      "audio": "b08959c17552.mp3",
+      "example_audio": "05df4a14d50a.mp3"
+    },
+    {
+      "id": "b3_u08_l1_w012",
+      "ko": "실력",
+      "uz": "mahorat (daraja)",
+      "en": "skill, proficiency",
+      "pos": "ot",
+      "example_ko": "한국어 실력이 좋아졌어요.",
+      "example_uz": "Koreys tilim yaxshilandi.",
+      "example_en": "My Korean has improved.",
+      "audio": "dbca6aa018e4.mp3",
+      "example_audio": "f14e4f817ce6.mp3"
+    },
+    {
+      "id": "b3_u08_l1_w013",
+      "ko": "늘다",
+      "uz": "oshmoq, ko'paymoq",
+      "en": "to increase, to improve",
+      "pos": "fe'l",
+      "example_ko": "한국어 실력이 많이 늘었어요.",
+      "example_uz": "Koreys tilim ancha oshdi.",
+      "example_en": "My Korean has improved a lot.",
+      "audio": "e883ef857c5c.mp3",
+      "example_audio": "68c9a770fe96.mp3"
+    },
+    {
+      "id": "b3_u08_l1_w014",
+      "ko": "점점",
+      "uz": "borgan sari",
+      "en": "gradually",
+      "pos": "ravish",
+      "example_ko": "날씨가 점점 추워져요.",
+      "example_uz": "Havo borgan sari sovuqlashyapti.",
+      "example_en": "It's getting colder and colder.",
+      "audio": "455f64aa5250.mp3",
+      "example_audio": "5763b4f332c3.mp3"
+    },
+    {
+      "id": "b3_u08_l1_w015",
+      "ko": "예전",
+      "uz": "ilgari",
+      "en": "the past, before",
+      "pos": "ot",
+      "example_ko": "예전에는 수줍었어요.",
+      "example_uz": "Ilgari tortinchoq edim.",
+      "example_en": "I used to be shy.",
+      "audio": "cb262535b128.mp3",
+      "example_audio": "9e48eaeb2f9d.mp3"
+    },
+    {
+      "id": "b3_u08_l1_w016",
+      "ko": "처음에는",
+      "uz": "avvaliga",
+      "en": "at first",
+      "pos": "ibora",
+      "example_ko": "처음에는 힘들었어요.",
+      "example_uz": "Avvaliga qiyin bo'ldi.",
+      "example_en": "It was hard at first.",
+      "audio": "d83787358c5b.mp3",
+      "example_audio": "b3136d614513.mp3"
+    },
+    {
+      "id": "b3_u08_l1_w017",
+      "ko": "지금은",
+      "uz": "hozir esa",
+      "en": "now",
+      "pos": "ibora",
+      "example_ko": "지금은 괜찮아요.",
+      "example_uz": "Hozir esa yaxshi.",
+      "example_en": "It's fine now.",
+      "audio": "0dec5b0bc867.mp3",
+      "example_audio": "afb91bae69f4.mp3"
+    },
+    {
+      "id": "b3_u08_l1_w018",
+      "ko": "그립다",
+      "uz": "sog'inmoq",
+      "en": "to miss",
+      "pos": "sifat",
+      "example_ko": "고향 음식이 그리워.",
+      "example_uz": "Vatan taomlarini sog'inaman.",
+      "example_en": "I miss food from home.",
+      "audio": "21ad7719d6e0.mp3",
+      "example_audio": "ddeb08cf8146.mp3"
+    },
+    {
+      "id": "b3_u08_l1_w019",
+      "ko": "생활",
+      "uz": "hayot (turmush)",
+      "en": "life, daily life",
+      "pos": "ot",
+      "example_ko": "기숙사 생활이 재미있어.",
+      "example_uz": "Yotoqxona hayoti qiziq.",
+      "example_en": "Dorm life is fun.",
+      "audio": "0f9f1e2f0dfb.mp3",
+      "example_audio": "e8ffa82fed1c.mp3"
+    },
+    {
+      "id": "b3_u08_l1_w020",
+      "ko": "취직하다",
+      "uz": "ishga joylashmoq",
+      "en": "to get a job",
+      "pos": "fe'l",
+      "example_ko": "아버지가 서울에서 취직하게 됐어요.",
+      "example_uz": "Otam Seulda ishga joylashib qoldi.",
+      "example_en": "My father ended up getting a job in Seoul.",
+      "audio": "783ca0d21860.mp3",
+      "example_audio": "5b44a7baf70e.mp3"
+    },
+    {
+      "id": "b3_u08_l1_w021",
+      "ko": "계기",
+      "uz": "sabab (turtki)",
+      "en": "occasion, trigger",
+      "pos": "ot",
+      "example_ko": "한국에 온 계기가 뭐야?",
+      "example_uz": "Koreyaga kelishingga nima sabab bo'ldi?",
+      "example_en": "What made you come to Korea?",
+      "audio": "a0e89bf541bf.mp3",
+      "example_audio": "09a3a92483e7.mp3"
+    },
+    {
+      "id": "b3_u08_l1_w022",
+      "ko": "우연히",
+      "uz": "tasodifan",
+      "en": "by chance",
+      "pos": "ravish",
+      "example_ko": "우연히 한국 드라마를 보게 됐어.",
+      "example_uz": "Tasodifan koreys serialini ko'rib qoldim.",
+      "example_en": "I happened to watch a Korean drama.",
+      "audio": "7cf7d0b31788.mp3",
+      "example_audio": "a2a37736c597.mp3"
+    },
+    {
+      "id": "b3_u08_l1_w023",
+      "ko": "관심",
+      "uz": "qiziqish",
+      "en": "interest",
+      "pos": "ot",
+      "example_ko": "그때부터 한국에 관심이 생겼어.",
+      "example_uz": "O'shandan beri Koreyaga qiziqib qoldim.",
+      "example_en": "That's when I got interested in Korea.",
+      "audio": "0bdd5ee3f101.mp3",
+      "example_audio": "26779458811f.mp3"
+    },
+    {
+      "id": "b3_u08_l1_w024",
+      "ko": "생기다",
+      "uz": "paydo bo'lmoq",
+      "en": "to arise, to come about",
+      "pos": "fe'l",
+      "example_ko": "친구가 많이 생겼어.",
+      "example_uz": "Ko'p do'st orttirdim.",
+      "example_en": "I've made lots of friends.",
+      "audio": "3425586e392f.mp3",
+      "example_audio": "09af29f68a5a.mp3"
+    },
+    {
+      "id": "b3_u08_l1_w025",
+      "ko": "사투리",
+      "uz": "sheva",
+      "en": "dialect",
+      "pos": "ot",
+      "example_ko": "부산 사투리를 써요.",
+      "example_uz": "Pusan shevasida gapiraman.",
+      "example_en": "I speak the Busan dialect.",
+      "audio": "a1f3127eefef.mp3",
+      "example_audio": "003a062ccc03.mp3"
+    },
+    {
+      "id": "b3_u08_l1_w026",
+      "ko": "표준어",
+      "uz": "adabiy til",
+      "en": "standard language",
+      "pos": "ot",
+      "example_ko": "서울에서는 표준어를 써요.",
+      "example_uz": "Seulda adabiy tilda gapiriladi.",
+      "example_en": "In Seoul people speak the standard language.",
+      "audio": "8e7e115abd30.mp3",
+      "example_audio": "d7be5ea5536c.mp3"
+    },
+    {
+      "id": "b3_u08_l1_w027",
+      "ko": "시골",
+      "uz": "qishloq",
+      "en": "countryside",
+      "pos": "ot",
+      "example_ko": "시골에서 살다가 도시로 왔어.",
+      "example_uz": "Qishloqda yashab, keyin shaharga keldim.",
+      "example_en": "I lived in the countryside and then came to the city.",
+      "audio": "21cf100f2d92.mp3",
+      "example_audio": "1fe885a49acc.mp3"
+    },
+    {
+      "id": "b3_u08_l1_w028",
+      "ko": "도시",
+      "uz": "shahar",
+      "en": "city",
+      "pos": "ot",
+      "example_ko": "도시 생활이 바빠.",
+      "example_uz": "Shahar hayoti tig'iz.",
+      "example_en": "City life is busy.",
+      "audio": "f85aba93c4cf.mp3",
+      "example_audio": "dcafb8d8cb44.mp3"
+    },
+    {
+      "id": "b3_u08_l1_w029",
+      "ko": "키가 크다",
+      "uz": "bo'yi uzun bo'lmoq",
+      "en": "to be tall",
+      "pos": "ibora",
+      "example_ko": "중학교 때 키가 많이 커졌어.",
+      "example_uz": "O'rta maktabda bo'yim ancha o'sdi.",
+      "example_en": "I grew a lot in middle school.",
+      "audio": "74a0620e672c.mp3",
+      "example_audio": "a779c77c0726.mp3"
+    },
+    {
+      "id": "b3_u08_l1_w030",
+      "ko": "살다",
+      "uz": "yashamoq",
+      "en": "to live",
+      "pos": "fe'l",
+      "example_ko": "부산에서 살다가 서울로 왔어.",
+      "example_uz": "Pusanda yashab, keyin Seulga keldim.",
+      "example_en": "I lived in Busan and then came to Seoul.",
+      "audio": "97a9ce77ee5b.mp3",
+      "example_audio": "7dbb76c84201.mp3"
+    },
+    {
+      "id": "b3_u08_l1_w031",
+      "ko": "가족",
+      "uz": "oila",
+      "en": "family",
+      "pos": "ot",
+      "example_ko": "가족이 다 같이 이사했어.",
+      "example_uz": "Butun oila bilan ko'chdik.",
+      "example_en": "The whole family moved.",
+      "audio": "506af9637fb5.mp3",
+      "example_audio": "80b0c947de6e.mp3"
+    },
+    {
+      "id": "b3_u08_l1_w032",
+      "ko": "덕분에",
+      "uz": "sharofati bilan",
+      "en": "thanks to",
+      "pos": "ibora",
+      "example_ko": "친구들 덕분에 빨리 적응했어.",
+      "example_uz": "Do'stlar sharofati bilan tez moslashdim.",
+      "example_en": "Thanks to my friends, I adapted quickly.",
+      "audio": "9db4d3a585a4.mp3",
+      "example_audio": "cd1226b48f44.mp3"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "b3_u08_l1_g1",
+      "pattern": "A-아/어지다",
+      "meaning_uz": "...lashmoq, ...bo'lib qolmoq (holat o'zgarishi)",
+      "meaning_en": "To become … (change of state)",
+      "explanation_md": "**-아/어지다** sifatga qo'shilib, holatning **o'zgarishini** bildiradi: \"**...bo'lib qolmoq**\", \"**...lashmoq**\".\n\n**날씨가 점점 추워져요.** — *Havo borgan sari sovuqlashyapti.*\n\n### Qanday yasaladi\n\n-아요/어요 qoidasi bilan: **-아/어 + 지다**:\n\n- 좋다 → **좋아지다** (yaxshilanmoq)\n- 크다 → **커지다** (kattalashmoq)\n- 춥다 → **추워지다** (sovuqlashmoq)\n- 익숙하다 → **익숙해지다** (ko'nikmoq)\n- 친하다 → **친해지다** (yaqinlashmoq)\n- 다르다 → **달라지다** (boshqacha bo'lmoq)\n\n### Esda tuting\n\n- Natijada **fe'l** bo'ladi: **좋아졌어요**, **좋아질 거예요**, **좋아지고 있어요**.\n- **점점** (borgan sari) bilan ko'p: **점점 따뜻해져요.**\n- Faqat **sifatlar** bilan; fe'llar bilan — **-게 되다** (keyingi grammatika).",
+      "explanation_md_en": "**-아/어지다** attaches to an adjective to show a **change of state**: \"**to become …**\", \"**to get …**\".\n\n**날씨가 점점 추워져요.** — *It's getting colder and colder.*\n\n### How to form it\n\nUse the -아요/어요 rule: **-아/어 + 지다**:\n\n- 좋다 → **좋아지다** (to get better)\n- 크다 → **커지다** (to get bigger)\n- 춥다 → **추워지다** (to get colder)\n- 익숙하다 → **익숙해지다** (to get used to)\n- 친하다 → **친해지다** (to become close)\n- 다르다 → **달라지다** (to become different)\n\n### Remember\n\n- The result is a **verb**: **좋아졌어요**, **좋아질 거예요**, **좋아지고 있어요**.\n- Often with **점점** (gradually): **점점 따뜻해져요.**\n- Only with **adjectives**; with verbs use **-게 되다** (next point).",
+      "formation": [
+        {
+          "condition_uz": "ㅏ/ㅗ",
+          "condition_en": "ㅏ/ㅗ",
+          "rule": "-아지다",
+          "example": "좋아지다, 많아지다"
+        },
+        {
+          "condition_uz": "Boshqa",
+          "condition_en": "Other vowels",
+          "rule": "-어지다",
+          "example": "커지다, 추워지다, 길어지다"
+        },
+        {
+          "condition_uz": "하다",
+          "condition_en": "하다",
+          "rule": "해지다",
+          "example": "익숙해지다, 친해지다"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "날씨가 점점 추워져요.",
+          "uz": "Havo borgan sari sovuqlashyapti.",
+          "en": "It's getting colder and colder.",
+          "audio": "5763b4f332c3.mp3"
+        },
+        {
+          "ko": "한국어 실력이 많이 좋아졌어요.",
+          "uz": "Koreys tilim ancha yaxshilandi.",
+          "en": "My Korean has really improved.",
+          "audio": "55c321cb17ff.mp3"
+        },
+        {
+          "ko": "서울 생활에 익숙해졌어요.",
+          "uz": "Seul hayotiga ko'nikdim.",
+          "en": "I've got used to life in Seoul.",
+          "audio": "c792b0339a16.mp3"
+        },
+        {
+          "ko": "친구들과 금방 친해졌어.",
+          "uz": "Do'stlar bilan tez yaqinlashib ketdim.",
+          "en": "I quickly became close with my friends.",
+          "audio": "ebf95b773bfa.mp3"
+        },
+        {
+          "ko": "중학교 때 키가 많이 커졌어.",
+          "uz": "O'rta maktabda bo'yim ancha o'sdi.",
+          "en": "I grew a lot in middle school.",
+          "audio": "a779c77c0726.mp3"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "날씨가 춥어졌어요.",
+          "right": "날씨가 추워졌어요.",
+          "why_uz": "ㅂ → 워: 추워지다.",
+          "why_en": "ㅂ → 워: 추워지다."
+        },
+        {
+          "wrong": "실력이 좋지었어요.",
+          "right": "실력이 좋아졌어요.",
+          "why_uz": "-아/어 + 지다: 좋아지다.",
+          "why_en": "-아/어 + 지다: 좋아지다."
+        },
+        {
+          "wrong": "서울에 오아졌어요.",
+          "right": "서울에 오게 됐어요.",
+          "why_uz": "Fe'l bilan -게 되다.",
+          "why_en": "With verbs use -게 되다."
+        }
+      ],
+      "uz_compare": "O'zbekchadagi '-lashmoq', '-lanmoq', '... bo'lib qolmoq' ga mos: 'sovuqLASHYAPTI' = 추워져요, 'yaxshiLANDI' = 좋아졌어요.",
+      "compare_en": "Like English 'get/become + adjective': 'get colder' = 추워지다, 'get better' = 좋아지다."
+    },
+    {
+      "id": "b3_u08_l1_g2",
+      "pattern": "V-게 되다",
+      "meaning_uz": "...ib qolmoq (o'z-o'zidan, sharoit tufayli)",
+      "meaning_en": "To end up …, to come to …",
+      "explanation_md": "**-게 되다** fe'lga qo'shilib, biror holatga **o'z xohishidan tashqari** — sharoit, tasodif yoki boshqalar qarori bilan — kelib qolishni bildiradi: \"**...ib qoldim**\", \"**...adigan bo'ldim**\".\n\n**부산에서 살다가 서울로 오게 됐어.** — *Pusanda yashardim, keyin Seulga kelib qoldim.*\n\n### Qanday yasaladi\n\n**-다** o'rniga **-게 되다** — 받침 ga qarab o'zgarmaydi:\n\n- 오다 → **오게 되다** → 오게 됐어요\n- 알다 → **알게 되다** → 알게 됐어요 (bilib qoldim)\n- 살다 → **살게 되다**, 취직하다 → **취직하게 되다**\n\n### Esda tuting\n\n- Ko'pincha **o'tgan zamonda**: **-게 됐어요**.\n- Kelasi: **-게 될 거예요** — *...adigan bo'laman.*\n- **우연히** (tasodifan) bilan: **우연히 한국 드라마를 보게 됐어요.**\n- Sifatlar bilan — **-아/어지다** (oldingi grammatika).",
+      "explanation_md_en": "**-게 되다** attaches to a verb to show that you came into a situation **not entirely by choice** — through circumstances, chance or someone else's decision: \"**ended up …**\", \"**came to …**\".\n\n**부산에서 살다가 서울로 오게 됐어.** — *I lived in Busan and then ended up coming to Seoul.*\n\n### How to form it\n\nReplace **-다** with **-게 되다** — no change for 받침:\n\n- 오다 → **오게 되다** → 오게 됐어요\n- 알다 → **알게 되다** → 알게 됐어요 (came to know)\n- 살다 → **살게 되다**, 취직하다 → **취직하게 되다**\n\n### Remember\n\n- Most often in the **past**: **-게 됐어요**.\n- Future: **-게 될 거예요** — *I'll end up …*\n- With **우연히** (by chance): **우연히 한국 드라마를 보게 됐어요.**\n- With adjectives use **-아/어지다** (previous point).",
+      "formation": [
+        {
+          "condition_uz": "Har qanday fe'l",
+          "condition_en": "Any verb",
+          "rule": "V-다 → V-게 되다",
+          "example": "오게 되다, 알게 되다"
+        },
+        {
+          "condition_uz": "O'tgan",
+          "condition_en": "Past",
+          "rule": "V-게 됐어요",
+          "example": "오게 됐어요, 살게 됐어요"
+        },
+        {
+          "condition_uz": "Kelasi",
+          "condition_en": "Future",
+          "rule": "V-게 될 거예요",
+          "example": "일하게 될 거예요"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "부산에서 살다가 서울로 오게 됐어.",
+          "uz": "Pusanda yashardim, keyin Seulga kelib qoldim.",
+          "en": "I lived in Busan and then ended up coming to Seoul.",
+          "audio": "dd6c3953954c.mp3"
+        },
+        {
+          "ko": "아버지가 서울에서 취직하게 됐어요.",
+          "uz": "Otam Seulda ishga joylashib qoldi.",
+          "en": "My father ended up getting a job in Seoul.",
+          "audio": "5b44a7baf70e.mp3"
+        },
+        {
+          "ko": "우연히 한국 드라마를 보게 됐어.",
+          "uz": "Tasodifan koreys serialini ko'rib qoldim.",
+          "en": "I happened to watch a Korean drama.",
+          "audio": "a2a37736c597.mp3"
+        },
+        {
+          "ko": "그래서 한국에 유학을 오게 됐어요.",
+          "uz": "Shuning uchun Koreyaga o'qishga kelib qoldim.",
+          "en": "So I ended up coming to Korea to study.",
+          "audio": "bf7089efcba3.mp3"
+        },
+        {
+          "ko": "여기서 좋은 친구들을 알게 됐어요.",
+          "uz": "Bu yerda yaxshi do'stlar bilan tanishib qoldim.",
+          "en": "I got to know some good friends here.",
+          "audio": "a23c3dfbbc54.mp3"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "서울로 오아졌어요.",
+          "right": "서울로 오게 됐어요.",
+          "why_uz": "Fe'l: -게 되다.",
+          "why_en": "Verb: -게 되다."
+        },
+        {
+          "wrong": "서울에서 살게 되었어요어.",
+          "right": "서울에서 살게 됐어요.",
+          "why_uz": "되었어요 → 됐어요.",
+          "why_en": "되었어요 → 됐어요."
+        },
+        {
+          "wrong": "친구를 알게 돼요. (o'tgan)",
+          "right": "친구를 알게 됐어요.",
+          "why_uz": "O'tgan: 됐어요.",
+          "why_en": "Past: 됐어요."
+        }
+      ],
+      "uz_compare": "O'zbekchadagi '-ib qolmoq' ga juda mos: 'Seulga kelIB QOLDIM' = 서울로 오게 됐어, 'bilib qoldim' = 알게 됐어요.",
+      "compare_en": "Like English 'ended up …-ing' or 'came to …': 'I ended up coming to Seoul' = 서울로 오게 됐어."
+    }
+  ],
+  "dialogue": {
+    "lines": [
+      {
+        "speaker": "aziz",
+        "ko": "준호야, 너는 고향이 어디야?",
+        "uz": "Junho, sening vataning qayer?",
+        "en": "Junho, where's your hometown?",
+        "audio": "69cb6403ed89.mp3"
+      },
+      {
+        "speaker": "junho",
+        "ko": "부산이야. 부산에서 태어나서 거기서 자랐어.",
+        "uz": "Pusan. Pusanda tug'ilib, o'sha yerda o'sganman.",
+        "en": "Busan. I was born and grew up there.",
+        "audio": "965c4680d2ae.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "그럼 서울에는 언제 왔어?",
+        "uz": "Unda Seulga qachon kelding?",
+        "en": "Then when did you come to Seoul?",
+        "audio": "5421955dee2f.mp3"
+      },
+      {
+        "speaker": "junho",
+        "ko": "부산에서 살다가 고등학교 때 서울로 오게 됐어. 아버지가 서울에서 취직하셨거든.",
+        "uz": "Pusanda yashardim, keyin yuqori sinfda Seulga kelib qoldim. Otam Seulda ishga joylashgan edi.",
+        "en": "I lived in Busan and then moved to Seoul in high school. My dad got a job here.",
+        "audio": "d7193bb04977.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "처음에는 힘들었어?",
+        "uz": "Avvaliga qiyin bo'ldimi?",
+        "en": "Was it hard at first?",
+        "audio": "e4101c321034.mp3"
+      },
+      {
+        "speaker": "junho",
+        "ko": "응, 사투리 때문에 친구들이 많이 웃었어. 그런데 점점 익숙해졌어.",
+        "uz": "Ha, sheva tufayli do'stlar ko'p kulishardi. Lekin borgan sari ko'nikdim.",
+        "en": "Yeah, my friends laughed at my dialect a lot. But I gradually got used to it.",
+        "audio": "e497726c54c5.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "나도 처음에 한국에 왔을 때 많이 힘들었어.",
+        "uz": "Men ham Koreyaga birinchi kelganimda juda qiynalganman.",
+        "en": "It was really hard for me too when I first came to Korea.",
+        "audio": "9c200454e753.mp3"
+      },
+      {
+        "speaker": "junho",
+        "ko": "넌 한국에 어떻게 오게 됐어?",
+        "uz": "Sen Koreyaga qanday kelib qolding?",
+        "en": "How did you end up coming to Korea?",
+        "audio": "fbb38642e7d7.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "우연히 한국 드라마를 보게 됐는데, 그때부터 한국에 관심이 생겼어.",
+        "uz": "Tasodifan koreys serialini ko'rib qoldim, o'shandan beri Koreyaga qiziqib qoldim.",
+        "en": "I happened to watch a Korean drama, and that's when I got interested in Korea.",
+        "audio": "a9636e1153bd.mp3"
+      },
+      {
+        "speaker": "junho",
+        "ko": "그래서 유학을 오게 됐구나. 한국어 실력이 진짜 좋아졌어!",
+        "uz": "Shuning uchun o'qishga kelib qolibsan-da. Koreyschang rostdan yaxshilandi!",
+        "en": "So that's how you came to study here. Your Korean has really improved!",
+        "audio": "1e0374a32585.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "고마워. 친구들 덕분이야.",
+        "uz": "Rahmat. Do'stlar sharofati.",
+        "en": "Thanks. It's thanks to my friends.",
+        "audio": "ccb158945d44.mp3"
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b3_u08_l1_e001",
+      "type": "conjugate",
+      "targets": [
+        "b3_u08_l1_g1"
+      ],
+      "prompt_uz": "'Yaxshilandi' shaklini yasang",
+      "prompt_en": "Make 'got better'",
+      "base": "좋다",
+      "form": "-아/어졌어요",
+      "answers": [
+        "좋아졌어요"
+      ]
+    },
+    {
+      "id": "b3_u08_l1_e002",
+      "type": "conjugate",
+      "targets": [
+        "b3_u08_l1_g1"
+      ],
+      "prompt_uz": "'Sovuqlashyapti' shaklini yasang",
+      "prompt_en": "Make 'is getting colder'",
+      "base": "춥다",
+      "form": "-아/어져요",
+      "answers": [
+        "추워져요"
+      ],
+      "hint_uz": "ㅂ → 워",
+      "hint_en": "ㅂ → 워"
+    },
+    {
+      "id": "b3_u08_l1_e003",
+      "type": "conjugate",
+      "targets": [
+        "b3_u08_l1_g2"
+      ],
+      "prompt_uz": "'Kelib qoldim' shaklini yasang",
+      "prompt_en": "Make 'ended up coming'",
+      "base": "오다",
+      "form": "-게 됐어요",
+      "answers": [
+        "오게 됐어요"
+      ]
+    },
+    {
+      "id": "b3_u08_l1_e004",
+      "type": "conjugate",
+      "targets": [
+        "b3_u08_l1_g2"
+      ],
+      "prompt_uz": "'Bilib qoldim' shaklini yasang",
+      "prompt_en": "Make 'came to know'",
+      "base": "알다",
+      "form": "-게 됐어요",
+      "answers": [
+        "알게 됐어요"
+      ]
+    },
+    {
+      "id": "b3_u08_l1_e005",
+      "type": "fill_blank",
+      "targets": [
+        "b3_u08_l1_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Seul hayotiga ko'nikdim.'",
+      "prompt_en": "Fill in the blank: 'I've got used to life in Seoul.'",
+      "sentence": "서울 생활에 ___. (익숙하다)",
+      "answers": [
+        "익숙해졌어요"
+      ]
+    },
+    {
+      "id": "b3_u08_l1_e006",
+      "type": "fill_blank",
+      "targets": [
+        "b3_u08_l1_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Bo'yim ancha o'sdi.'",
+      "prompt_en": "Fill in the blank: 'I grew a lot.'",
+      "sentence": "키가 많이 ___. (크다)",
+      "answers": [
+        "커졌어요"
+      ]
+    },
+    {
+      "id": "b3_u08_l1_e007",
+      "type": "fill_blank",
+      "targets": [
+        "b3_u08_l1_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Otam Seulda ishga joylashib qoldi.'",
+      "prompt_en": "Fill in the blank: 'My father ended up getting a job in Seoul.'",
+      "sentence": "아버지가 서울에서 ___ 됐어요. (취직하다)",
+      "answers": [
+        "취직하게"
+      ]
+    },
+    {
+      "id": "b3_u08_l1_e008",
+      "type": "fill_blank",
+      "targets": [
+        "b3_u08_l1_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Tasodifan serial ko'rib qoldim.'",
+      "prompt_en": "Fill in the blank: 'I happened to watch a drama.'",
+      "sentence": "우연히 드라마를 보게 ___.",
+      "answers": [
+        "됐어요"
+      ]
+    },
+    {
+      "id": "b3_u08_l1_e009",
+      "type": "situation_choice",
+      "targets": [
+        "b3_u08_l1_g1"
+      ],
+      "prompt_uz": "Koreys tilingiz ancha yaxshilanganini ayting:",
+      "prompt_en": "Say your Korean has improved a lot:",
+      "options": [
+        "한국어 실력이 많이 좋아졌어요.",
+        "한국어 실력이 많이 좋게 됐어요.",
+        "한국어 실력이 많이 좋지었어요.",
+        "한국어 실력이 많이 좋아졌어요요."
+      ],
+      "answers": [
+        "한국어 실력이 많이 좋아졌어요."
+      ]
+    },
+    {
+      "id": "b3_u08_l1_e010",
+      "type": "situation_choice",
+      "targets": [
+        "b3_u08_l1_g2"
+      ],
+      "prompt_uz": "Koreyaga qanday kelib qolganingizni so'rashdi. Javob bering:",
+      "prompt_en": "You're asked how you ended up in Korea. Answer:",
+      "options": [
+        "유학을 오게 됐어요.",
+        "유학을 와졌어요.",
+        "유학을 오게 되요었어요.",
+        "유학을 오게 해요."
+      ],
+      "answers": [
+        "유학을 오게 됐어요."
+      ]
+    },
+    {
+      "id": "b3_u08_l1_e011",
+      "type": "situation_choice",
+      "targets": [
+        "b3_u08_l1_w018"
+      ],
+      "prompt_uz": "Vatan taomlarini sog'inishingizni ayting:",
+      "prompt_en": "Say you miss food from home:",
+      "options": [
+        "고향 음식이 그리워요.",
+        "고향 음식이 익숙해요.",
+        "고향 음식이 달라졌어요.",
+        "고향 음식이 생겼어요."
+      ],
+      "answers": [
+        "고향 음식이 그리워요."
+      ]
+    },
+    {
+      "id": "b3_u08_l1_e012",
+      "type": "find_error",
+      "targets": [
+        "b3_u08_l1_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "날씨가 춥어져요.",
+      "answers": [
+        "날씨가 추워져요"
+      ],
+      "why_uz": "ㅂ → 워: 추워져요.",
+      "why_en": "ㅂ → 워: 추워져요."
+    },
+    {
+      "id": "b3_u08_l1_e013",
+      "type": "find_error",
+      "targets": [
+        "b3_u08_l1_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "서울로 오아졌어요.",
+      "answers": [
+        "서울로 오게 됐어요"
+      ],
+      "why_uz": "Fe'l bilan -게 되다.",
+      "why_en": "With verbs use -게 되다."
+    },
+    {
+      "id": "b3_u08_l1_e014",
+      "type": "find_error",
+      "targets": [
+        "b3_u08_l1_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "친구랑 친하게 됐어요.",
+      "answers": [
+        "친구랑 친해졌어요"
+      ],
+      "why_uz": "Sifat (친하다) bilan -아/어지다.",
+      "why_en": "With the adjective 친하다 use -아/어지다."
+    },
+    {
+      "id": "b3_u08_l1_e015",
+      "type": "translate",
+      "targets": [
+        "b3_u08_l1_g1"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Havo borgan sari sovuqlashyapti.",
+      "source_en": "It's getting colder and colder.",
+      "answers": [
+        "날씨가 점점 추워져요"
+      ]
+    },
+    {
+      "id": "b3_u08_l1_e016",
+      "type": "translate",
+      "targets": [
+        "b3_u08_l1_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Pusanda yashardim, keyin Seulga kelib qoldim.",
+      "source_en": "I lived in Busan and then ended up coming to Seoul.",
+      "answers": [
+        "부산에서 살다가 서울로 오게 됐어요",
+        "부산에서 살다가 서울로 오게 됐어"
+      ]
+    },
+    {
+      "id": "b3_u08_l1_e017",
+      "type": "translate",
+      "targets": [
+        "b3_u08_l1_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Bu yerda yaxshi do'stlar bilan tanishib qoldim.",
+      "source_en": "I got to know some good friends here.",
+      "answers": [
+        "여기서 좋은 친구들을 알게 됐어요",
+        "여기서 좋은 친구를 알게 됐어요"
+      ]
+    },
+    {
+      "id": "b3_u08_l1_e018",
+      "type": "build_sentence",
+      "targets": [
+        "b3_u08_l1_g1"
+      ],
+      "prompt_uz": "'Do'stlar bilan tez yaqinlashib ketdim' gapini tuzing",
+      "prompt_en": "Build the sentence 'I quickly became close with my friends'",
+      "tokens": [
+        "금방",
+        "친구들과",
+        "친해졌어요"
+      ],
+      "answers": [
+        "친구들과 금방 친해졌어요"
+      ]
+    },
+    {
+      "id": "b3_u08_l1_e019",
+      "type": "build_sentence",
+      "targets": [
+        "b3_u08_l1_g2"
+      ],
+      "prompt_uz": "'Shuning uchun Koreyaga o'qishga kelib qoldim' gapini tuzing",
+      "prompt_en": "Build the sentence 'So I ended up coming to Korea to study'",
+      "tokens": [
+        "유학을",
+        "그래서",
+        "한국에",
+        "됐어요",
+        "오게"
+      ],
+      "answers": [
+        "그래서 한국에 유학을 오게 됐어요"
+      ]
+    },
+    {
+      "id": "b3_u08_l1_e020",
+      "type": "build_sentence",
+      "targets": [
+        "b3_u08_l1_g1"
+      ],
+      "prompt_uz": "'Hayotim butunlay o'zgardi' gapini tuzing",
+      "prompt_en": "Build the sentence 'My life completely changed'",
+      "tokens": [
+        "달라졌어요",
+        "생활이",
+        "완전히"
+      ],
+      "answers": [
+        "생활이 완전히 달라졌어요"
+      ]
+    },
+    {
+      "id": "b3_u08_l1_e021",
+      "type": "listen_question",
+      "targets": [
+        "b3_u08_l1_g2"
+      ],
+      "prompt_uz": "Nega u Seulga keldi?",
+      "prompt_en": "Why did the speaker come to Seoul?",
+      "audio_text": "아버지 회사 때문에 서울로 이사 오게 됐어요.",
+      "options": [
+        "Otasining ishi tufayli",
+        "O'qish uchun",
+        "Sayohat uchun",
+        "Do'sti tufayli"
+      ],
+      "options_en": [
+        "Because of dad's job",
+        "To study",
+        "To travel",
+        "Because of a friend"
+      ],
+      "answers": [
+        "Otasining ishi tufayli"
+      ],
+      "audio": "6874ec0cac57.mp3"
+    },
+    {
+      "id": "b3_u08_l1_e022",
+      "type": "listen_question",
+      "targets": [
+        "b3_u08_l1_g1"
+      ],
+      "prompt_uz": "Nima o'zgardi?",
+      "prompt_en": "What changed?",
+      "audio_text": "한국어 공부를 하고 나서 성격이 밝아졌어요.",
+      "options": [
+        "Fe'li ochiqroq bo'ldi",
+        "Bo'yi o'sdi",
+        "Uyi o'zgardi",
+        "Ishi o'zgardi"
+      ],
+      "options_en": [
+        "Became more cheerful",
+        "Grew taller",
+        "Moved house",
+        "Changed jobs"
+      ],
+      "answers": [
+        "Fe'li ochiqroq bo'ldi"
+      ],
+      "audio": "c11d5e71ba6b.mp3"
+    },
+    {
+      "id": "b3_u08_l1_e023",
+      "type": "listen_question",
+      "targets": [
+        "b3_u08_l1_g2"
+      ],
+      "prompt_uz": "U Koreyaga qanday qiziqib qoldi?",
+      "prompt_en": "How did the speaker get interested in Korea?",
+      "audio_text": "우연히 K-pop을 듣게 됐는데 너무 좋았어요.",
+      "options": [
+        "Tasodifan K-pop eshitib",
+        "Do'sti tavsiyasi bilan",
+        "Kitob o'qib",
+        "Sayohat qilib"
+      ],
+      "options_en": [
+        "Happened to hear K-pop",
+        "A friend's recommendation",
+        "Reading a book",
+        "Travelling"
+      ],
+      "answers": [
+        "Tasodifan K-pop eshitib"
+      ],
+      "audio": "0c2d8e62e65d.mp3"
+    },
+    {
+      "id": "b3_u08_l1_e024",
+      "type": "listen_question",
+      "targets": [
+        "b3_u08_l1_g1"
+      ],
+      "prompt_uz": "Seul hayoti qanday?",
+      "prompt_en": "How is life in Seoul?",
+      "audio_text": "처음에는 힘들었는데 지금은 많이 익숙해졌어요.",
+      "options": [
+        "Endi ko'nikdi",
+        "Hali ham qiyin",
+        "Yoqmaydi",
+        "Qaytib ketmoqchi"
+      ],
+      "options_en": [
+        "Used to it now",
+        "Still hard",
+        "Doesn't like it",
+        "Wants to leave"
+      ],
+      "answers": [
+        "Endi ko'nikdi"
+      ],
+      "audio": "b9bda1b32e2e.mp3"
+    },
+    {
+      "id": "b3_u08_l1_e101",
+      "type": "conjugate",
+      "targets": [
+        "b3_u08_l1_g1"
+      ],
+      "prompt_uz": "'Kattalashdi' shaklini yasang",
+      "prompt_en": "Make 'got bigger'",
+      "base": "크다",
+      "form": "-아/어졌어요",
+      "answers": [
+        "커졌어요"
+      ]
+    },
+    {
+      "id": "b3_u08_l1_e102",
+      "type": "conjugate",
+      "targets": [
+        "b3_u08_l1_g1"
+      ],
+      "prompt_uz": "'Yaqinlashdi' shaklini yasang",
+      "prompt_en": "Make 'became close'",
+      "base": "친하다",
+      "form": "-아/어졌어요",
+      "answers": [
+        "친해졌어요"
+      ]
+    },
+    {
+      "id": "b3_u08_l1_e103",
+      "type": "conjugate",
+      "targets": [
+        "b3_u08_l1_g2"
+      ],
+      "prompt_uz": "'Yashab qoldim' shaklini yasang",
+      "prompt_en": "Make 'ended up living'",
+      "base": "살다",
+      "form": "-게 됐어요",
+      "answers": [
+        "살게 됐어요"
+      ]
+    },
+    {
+      "id": "b3_u08_l1_e104",
+      "type": "fill_blank",
+      "targets": [
+        "b3_u08_l1_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Fe'lim o'zgardi.'",
+      "prompt_en": "Fill in the blank: 'My personality has changed.'",
+      "sentence": "성격이 ___. (다르다)",
+      "answers": [
+        "달라졌어요"
+      ]
+    },
+    {
+      "id": "b3_u08_l1_e105",
+      "type": "fill_blank",
+      "targets": [
+        "b3_u08_l1_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Koreyschani bilib qoldim.'",
+      "prompt_en": "Fill in the blank: 'I came to know Korean.'",
+      "sentence": "한국어를 ___ 됐어요. (알다)",
+      "answers": [
+        "알게"
+      ]
+    },
+    {
+      "id": "b3_u08_l1_e106",
+      "type": "situation_choice",
+      "targets": [
+        "b3_u08_l1_g2"
+      ],
+      "prompt_uz": "Ishga joylashib qolganingizni ayting:",
+      "prompt_en": "Say you ended up getting a job:",
+      "options": [
+        "취직하게 됐어요.",
+        "취직해졌어요.",
+        "취직하게 돼요었어요.",
+        "취직하게 했어요."
+      ],
+      "answers": [
+        "취직하게 됐어요."
+      ]
+    },
+    {
+      "id": "b3_u08_l1_e107",
+      "type": "situation_choice",
+      "targets": [
+        "b3_u08_l1_g1"
+      ],
+      "prompt_uz": "Havo iliqlashayotganini ayting:",
+      "prompt_en": "Say it's getting warmer:",
+      "options": [
+        "날씨가 따뜻해져요.",
+        "날씨가 따뜻하게 돼요.",
+        "날씨가 따뜻지어요.",
+        "날씨가 따뜻해요져요."
+      ],
+      "answers": [
+        "날씨가 따뜻해져요."
+      ]
+    },
+    {
+      "id": "b3_u08_l1_e108",
+      "type": "situation_choice",
+      "targets": [
+        "b3_u08_l1_w021"
+      ],
+      "prompt_uz": "Do'stingizdan Koreyaga kelishiga nima sabab bo'lganini so'rang:",
+      "prompt_en": "Ask your friend what made them come to Korea:",
+      "options": [
+        "한국에 온 계기가 뭐야?",
+        "한국에 온 사투리가 뭐야?",
+        "한국에 온 생활이 뭐야?",
+        "한국에 온 실력이 뭐야?"
+      ],
+      "answers": [
+        "한국에 온 계기가 뭐야?"
+      ]
+    },
+    {
+      "id": "b3_u08_l1_e109",
+      "type": "find_error",
+      "targets": [
+        "b3_u08_l1_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "실력이 좋지었어요.",
+      "answers": [
+        "실력이 좋아졌어요"
+      ],
+      "why_uz": "좋다 → 좋아지다.",
+      "why_en": "좋다 → 좋아지다."
+    },
+    {
+      "id": "b3_u08_l1_e110",
+      "type": "find_error",
+      "targets": [
+        "b3_u08_l1_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "친구를 알게 되었어요어.",
+      "answers": [
+        "친구를 알게 됐어요"
+      ],
+      "why_uz": "되었어요 → 됐어요.",
+      "why_en": "되었어요 → 됐어요."
+    },
+    {
+      "id": "b3_u08_l1_e111",
+      "type": "translate",
+      "targets": [
+        "b3_u08_l1_g1"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Koreys tilim ancha yaxshilandi.",
+      "source_en": "My Korean has really improved.",
+      "answers": [
+        "한국어 실력이 많이 좋아졌어요",
+        "한국어 실력이 많이 늘었어요"
+      ]
+    },
+    {
+      "id": "b3_u08_l1_e112",
+      "type": "translate",
+      "targets": [
+        "b3_u08_l1_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Tasodifan koreys serialini ko'rib qoldim.",
+      "source_en": "I happened to watch a Korean drama.",
+      "answers": [
+        "우연히 한국 드라마를 보게 됐어요"
+      ]
+    },
+    {
+      "id": "b3_u08_l1_e113",
+      "type": "build_sentence",
+      "targets": [
+        "b3_u08_l1_g1"
+      ],
+      "prompt_uz": "'Avvaliga qiyin edi, endi ko'nikdim' gapini tuzing",
+      "prompt_en": "Build the sentence 'It was hard at first, but now I'm used to it'",
+      "tokens": [
+        "처음에는",
+        "지금은",
+        "힘들었는데",
+        "익숙해졌어요"
+      ],
+      "answers": [
+        "처음에는 힘들었는데 지금은 익숙해졌어요"
+      ]
+    },
+    {
+      "id": "b3_u08_l1_e114",
+      "type": "listen_question",
+      "targets": [
+        "b3_u08_l1_g2"
+      ],
+      "prompt_uz": "U Seulga qachon kelib qolgan?",
+      "prompt_en": "When did the speaker end up coming to Seoul?",
+      "audio_text": "초등학교 때 서울로 이사 오게 됐어요.",
+      "options": [
+        "Boshlang'ich maktabda",
+        "Universitetda",
+        "O'tgan yili",
+        "Ishga kirganda"
+      ],
+      "options_en": [
+        "In elementary school",
+        "At university",
+        "Last year",
+        "When starting work"
+      ],
+      "answers": [
+        "Boshlang'ich maktabda"
+      ],
+      "audio": "49ab02dfd56c.mp3"
+    },
+    {
+      "id": "b3_u08_l1_e115",
+      "type": "listen_question",
+      "targets": [
+        "b3_u08_l1_g1"
+      ],
+      "prompt_uz": "Nima o'zgardi?",
+      "prompt_en": "What changed?",
+      "audio_text": "요즘 날씨가 많이 따뜻해졌어요.",
+      "options": [
+        "Havo iliqlashdi",
+        "Havo sovuqlashdi",
+        "Yomg'ir ko'paydi",
+        "Qor yog'di"
+      ],
+      "options_en": [
+        "It got warmer",
+        "It got colder",
+        "More rain",
+        "It snowed"
+      ],
+      "answers": [
+        "Havo iliqlashdi"
+      ],
+      "audio": "036db5553740.mp3"
+    }
+  ],
+  "test": [
+    "b3_u08_l1_e101",
+    "b3_u08_l1_e102",
+    "b3_u08_l1_e103",
+    "b3_u08_l1_e104",
+    "b3_u08_l1_e105",
+    "b3_u08_l1_e106",
+    "b3_u08_l1_e107",
+    "b3_u08_l1_e108",
+    "b3_u08_l1_e109",
+    "b3_u08_l1_e110",
+    "b3_u08_l1_e111",
+    "b3_u08_l1_e112",
+    "b3_u08_l1_e113",
+    "b3_u08_l1_e114",
+    "b3_u08_l1_e115"
+  ],
+  "story": {
+    "title_uz": "Junhoning hikoyasi",
+    "title_en": "Junho's story",
+    "gate_uz": "PUSAN",
+    "gate_en": "BUSAN",
+    "steps": [
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "준호야, 너는 고향이 어디야?",
+        "uz": "Junho, vataning qayer?",
+        "en": "Junho, where are you from?",
+        "audio": "69cb6403ed89.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "junho",
+        "ko": "부산이야. 부산에서 태어나서 거기서 자랐어.",
+        "uz": "Pusan. Pusanda tug'ilib, o'sha yerda o'sganman.",
+        "en": "Busan. I was born and raised there.",
+        "audio": "965c4680d2ae.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "그럼 서울에는 언제 왔어?",
+        "uz": "Seulga qachon kelding?",
+        "en": "So when did you come to Seoul?",
+        "audio": "5421955dee2f.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "junho",
+        "ko": "고등학교 때 오게 됐어. 아버지가 서울에서 취직하셨거든.",
+        "uz": "Yuqori sinfda kelib qoldim. Otam Seulda ishga joylashgandi.",
+        "en": "In high school. My dad got a job in Seoul.",
+        "audio": "748e83584d1f.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "처음에는 힘들었어?",
+        "uz": "Avvaliga qiyin bo'ldimi?",
+        "en": "Was it tough at first?",
+        "audio": "e4101c321034.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "junho",
+        "ko": "응, 사투리 때문에. 그런데 점점 익숙해졌어.",
+        "uz": "Ha, sheva tufayli. Lekin borgan sari ko'nikdim.",
+        "en": "Yeah, because of my dialect. But I got used to it.",
+        "audio": "5f4d50cbdb78.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "junho",
+        "ko": "넌 한국에 어떻게 오게 됐어?",
+        "uz": "Sen Koreyaga qanday kelib qolding?",
+        "en": "How did you end up in Korea?",
+        "audio": "fbb38642e7d7.mp3"
+      },
+      {
+        "type": "choose_reply",
+        "speaker": "aziz",
+        "prompt_uz": "Aziz 'Tasodifan koreys serialini ko'rib qoldim' demoqchi.",
+        "prompt_en": "Aziz wants to say 'I happened to watch a Korean drama'.",
+        "options": [
+          "우연히 한국 드라마를 보게 됐어.",
+          "우연히 한국 드라마를 봐졌어.",
+          "우연히 한국 드라마를 보게 돼요었어."
+        ],
+        "answer": "우연히 한국 드라마를 보게 됐어.",
+        "uz": "Tasodifan koreys serialini ko'rib qoldim.",
+        "en": "I happened to watch a Korean drama.",
+        "why_uz": "Fe'l + 'o'z-o'zidan': -게 됐어.",
+        "why_en": "Verb + 'ended up': -게 됐어.",
+        "audio": "783551307070.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "그때부터 한국에 관심이 생겼어.",
+        "uz": "O'shandan beri Koreyaga qiziqib qoldim.",
+        "en": "That's when I got interested in Korea.",
+        "audio": "4f681a358b71.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "junho",
+        "ko": "그래서 유학을 오게 됐구나! 한국어 실력이 진짜 좋아졌어.",
+        "uz": "Shuning uchun o'qishga kelibsan-da! Koreyschang rostdan yaxshilandi.",
+        "en": "So that's why you came to study! Your Korean has really improved.",
+        "audio": "3c3fc7410d3e.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "고마워. 다 친구들 덕분이야.",
+        "uz": "Rahmat. Hammasi do'stlar sharofati.",
+        "en": "Thanks. It's all thanks to my friends.",
+        "audio": "ca8330240dbc.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "junho",
+        "ko": "우리 덕분이지! 하하.",
+        "uz": "Bizning sharofatimiz-da! Haha.",
+        "en": "Thanks to us, you mean! Haha.",
+        "audio": "60b1a8861d39.mp3"
+      },
+      {
+        "type": "quiz",
+        "prompt_uz": "Nega Junhoning oilasi Seulga ko'chdi?",
+        "prompt_en": "Why did Junho's family move to Seoul?",
+        "options": [
+          "Otasi Seulda ishga joylashdi",
+          "Junho o'qishga kirdi",
+          "Pusan yoqmadi"
+        ],
+        "options_en": [
+          "His dad got a job in Seoul",
+          "Junho entered university",
+          "They didn't like Busan"
+        ],
+        "answer": "Otasi Seulda ishga joylashdi",
+        "why_uz": "아버지가 서울에서 취직하셨거든.",
+        "why_en": "His father got a job in Seoul."
+      }
+    ]
+  }
+}

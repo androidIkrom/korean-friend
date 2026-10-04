@@ -1,0 +1,1448 @@
+{
+  "id": "b3_u05_l2",
+  "unit": 5,
+  "lesson": 2,
+  "title_ko": "몸살이 난 것 같아요",
+  "title_uz": "Shamollab qolganga o'xshayman",
+  "title_en": "I think I've come down with something",
+  "topic_uz": "Sog'liq",
+  "topic_en": "Health",
+  "reviewed": false,
+  "words": [
+    {
+      "id": "b3_u05_l2_w001",
+      "ko": "몸살",
+      "uz": "badan qaqshashi (shamollash)",
+      "en": "body aches (from a cold)",
+      "pos": "ot",
+      "example_ko": "몸살이 났어요.",
+      "example_uz": "Badanim qaqshayapti.",
+      "example_en": "I've got body aches.",
+      "audio": "933021671dea.mp3",
+      "example_audio": "714a99e57a18.mp3"
+    },
+    {
+      "id": "b3_u05_l2_w002",
+      "ko": "나다",
+      "uz": "chiqmoq, paydo bo'lmoq",
+      "en": "to break out, to occur",
+      "pos": "fe'l",
+      "example_ko": "열이 나요.",
+      "example_uz": "Isitmam bor.",
+      "example_en": "I have a fever.",
+      "audio": "ebd5a9ca8949.mp3",
+      "example_audio": "cd1dcc812d65.mp3"
+    },
+    {
+      "id": "b3_u05_l2_w003",
+      "ko": "감기",
+      "uz": "shamollash",
+      "en": "cold",
+      "pos": "ot",
+      "example_ko": "감기에 걸린 것 같아요.",
+      "example_uz": "Shamollaganga o'xshayman.",
+      "example_en": "I think I've caught a cold.",
+      "audio": "6ed18a76ed3c.mp3",
+      "example_audio": "0fa9d7d24c77.mp3"
+    },
+    {
+      "id": "b3_u05_l2_w004",
+      "ko": "걸리다",
+      "uz": "kasallikka chalinmoq",
+      "en": "to catch (an illness)",
+      "pos": "fe'l",
+      "example_ko": "독감에 걸렸어요.",
+      "example_uz": "Grippga chalindim.",
+      "example_en": "I caught the flu.",
+      "audio": "f41b106ff79a.mp3",
+      "example_audio": "60a95ed314c1.mp3"
+    },
+    {
+      "id": "b3_u05_l2_w005",
+      "ko": "독감",
+      "uz": "gripp",
+      "en": "flu",
+      "pos": "ot",
+      "example_ko": "요즘 독감이 유행해요.",
+      "example_uz": "Shu kunlarda gripp tarqalgan.",
+      "example_en": "The flu is going around.",
+      "audio": "3dcba6da8d7b.mp3",
+      "example_audio": "4456539f7043.mp3"
+    },
+    {
+      "id": "b3_u05_l2_w006",
+      "ko": "열",
+      "uz": "isitma",
+      "en": "fever",
+      "pos": "ot",
+      "example_ko": "열이 많이 나는 것 같아요.",
+      "example_uz": "Isitmam baland shekilli.",
+      "example_en": "I think I have a high fever.",
+      "audio": "4dd9b35dc2ad.mp3",
+      "example_audio": "850beda72288.mp3"
+    },
+    {
+      "id": "b3_u05_l2_w007",
+      "ko": "기침",
+      "uz": "yo'tal",
+      "en": "cough",
+      "pos": "ot",
+      "example_ko": "기침을 해요.",
+      "example_uz": "Yo'talayapman.",
+      "example_en": "I'm coughing.",
+      "audio": "397bcef1091b.mp3",
+      "example_audio": "7c4a9c680a53.mp3"
+    },
+    {
+      "id": "b3_u05_l2_w008",
+      "ko": "콧물",
+      "uz": "tumov (burun oqishi)",
+      "en": "runny nose",
+      "pos": "ot",
+      "example_ko": "콧물이 나요.",
+      "example_uz": "Burnim oqyapti.",
+      "example_en": "I have a runny nose.",
+      "audio": "5d9c8f8cdfa9.mp3",
+      "example_audio": "a9cceaec370f.mp3"
+    },
+    {
+      "id": "b3_u05_l2_w009",
+      "ko": "목",
+      "uz": "tomoq",
+      "en": "throat",
+      "pos": "ot",
+      "example_ko": "목이 아파요.",
+      "example_uz": "Tomog'im og'riyapti.",
+      "example_en": "My throat hurts.",
+      "audio": "6627dfef0183.mp3",
+      "example_audio": "96ad26555c58.mp3"
+    },
+    {
+      "id": "b3_u05_l2_w010",
+      "ko": "머리",
+      "uz": "bosh",
+      "en": "head",
+      "pos": "ot",
+      "example_ko": "머리가 아픈 것 같아요.",
+      "example_uz": "Boshim og'riyotganga o'xshaydi.",
+      "example_en": "I think I have a headache.",
+      "audio": "106bfa4435a1.mp3",
+      "example_audio": "1a50e8440a94.mp3"
+    },
+    {
+      "id": "b3_u05_l2_w011",
+      "ko": "어지럽다",
+      "uz": "boshi aylanmoq",
+      "en": "to be dizzy",
+      "pos": "sifat",
+      "example_ko": "조금 어지러워요.",
+      "example_uz": "Biroz boshim aylanyapti.",
+      "example_en": "I feel a bit dizzy.",
+      "audio": "ce7b61a9c040.mp3",
+      "example_audio": "e547e41cc368.mp3"
+    },
+    {
+      "id": "b3_u05_l2_w012",
+      "ko": "소화",
+      "uz": "hazm",
+      "en": "digestion",
+      "pos": "ot",
+      "example_ko": "소화가 안 돼요.",
+      "example_uz": "Hazm bo'lmayapti.",
+      "example_en": "I have indigestion.",
+      "audio": "48de5b3d3675.mp3",
+      "example_audio": "e79a582df914.mp3"
+    },
+    {
+      "id": "b3_u05_l2_w013",
+      "ko": "배탈",
+      "uz": "oshqozon buzilishi",
+      "en": "upset stomach",
+      "pos": "ot",
+      "example_ko": "배탈이 난 것 같아요.",
+      "example_uz": "Oshqozonim buzilganga o'xshaydi.",
+      "example_en": "I think I have an upset stomach.",
+      "audio": "65b0ed1a4b0a.mp3",
+      "example_audio": "aad87dba1158.mp3"
+    },
+    {
+      "id": "b3_u05_l2_w014",
+      "ko": "상하다",
+      "uz": "buzilmoq (ovqat)",
+      "en": "to go bad (food)",
+      "pos": "fe'l",
+      "example_ko": "우유가 상한 것 같아요.",
+      "example_uz": "Sut buzilganga o'xshaydi.",
+      "example_en": "I think the milk has gone off.",
+      "audio": "d6004894f442.mp3",
+      "example_audio": "7e4c0d6b9fab.mp3"
+    },
+    {
+      "id": "b3_u05_l2_w015",
+      "ko": "증상",
+      "uz": "alomat",
+      "en": "symptom",
+      "pos": "ot",
+      "example_ko": "증상이 어때요?",
+      "example_uz": "Alomatlar qanday?",
+      "example_en": "What are your symptoms?",
+      "audio": "d504030131f8.mp3",
+      "example_audio": "046c802c6d89.mp3"
+    },
+    {
+      "id": "b3_u05_l2_w016",
+      "ko": "진찰",
+      "uz": "ko'rik (shifokor)",
+      "en": "medical examination",
+      "pos": "ot",
+      "example_ko": "진찰을 받았어요.",
+      "example_uz": "Shifokor ko'rigidan o'tdim.",
+      "example_en": "I had a check-up.",
+      "audio": "29a7a9882ded.mp3",
+      "example_audio": "f21f3e9ffd0a.mp3"
+    },
+    {
+      "id": "b3_u05_l2_w017",
+      "ko": "내과",
+      "uz": "terapevtik bo'lim",
+      "en": "internal medicine",
+      "pos": "ot",
+      "example_ko": "내과에 가 보세요.",
+      "example_uz": "Terapevtga boring.",
+      "example_en": "Go to internal medicine.",
+      "audio": "b1aef7905563.mp3",
+      "example_audio": "0ae7b5519c0c.mp3"
+    },
+    {
+      "id": "b3_u05_l2_w018",
+      "ko": "약국",
+      "uz": "dorixona",
+      "en": "pharmacy",
+      "pos": "ot",
+      "example_ko": "약국에서 감기약을 샀어요.",
+      "example_uz": "Dorixonadan shamollash dorisi oldim.",
+      "example_en": "I bought cold medicine at the pharmacy.",
+      "audio": "b175ccf41791.mp3",
+      "example_audio": "685504cd48b5.mp3"
+    },
+    {
+      "id": "b3_u05_l2_w019",
+      "ko": "처방전",
+      "uz": "retsept",
+      "en": "prescription",
+      "pos": "ot",
+      "example_ko": "처방전이 필요해요.",
+      "example_uz": "Retsept kerak.",
+      "example_en": "You need a prescription.",
+      "audio": "ebe5546525b7.mp3",
+      "example_audio": "3ad23da2d3e6.mp3"
+    },
+    {
+      "id": "b3_u05_l2_w020",
+      "ko": "주사",
+      "uz": "ukol",
+      "en": "injection",
+      "pos": "ot",
+      "example_ko": "주사를 맞았어요.",
+      "example_uz": "Ukol qildirdim.",
+      "example_en": "I got an injection.",
+      "audio": "59bcee060b2a.mp3",
+      "example_audio": "2dad8e1cd31d.mp3"
+    },
+    {
+      "id": "b3_u05_l2_w021",
+      "ko": "낫다",
+      "uz": "tuzalmoq",
+      "en": "to get better",
+      "pos": "fe'l",
+      "example_ko": "빨리 나으세요.",
+      "example_uz": "Tezroq tuzaling.",
+      "example_en": "Get well soon.",
+      "audio": "9f79e93fe48c.mp3",
+      "example_audio": "40c7b99f6cbd.mp3"
+    },
+    {
+      "id": "b3_u05_l2_w022",
+      "ko": "휴식",
+      "uz": "dam olish",
+      "en": "rest",
+      "pos": "ot",
+      "example_ko": "충분한 휴식이 필요해요.",
+      "example_uz": "Yetarli dam kerak.",
+      "example_en": "You need plenty of rest.",
+      "audio": "f5a2b0cf644c.mp3",
+      "example_audio": "b604ae2a59a8.mp3"
+    },
+    {
+      "id": "b3_u05_l2_w023",
+      "ko": "조심하다",
+      "uz": "ehtiyot bo'lmoq",
+      "en": "to be careful",
+      "pos": "fe'l",
+      "example_ko": "감기 조심하세요.",
+      "example_uz": "Shamollashdan ehtiyot bo'ling.",
+      "example_en": "Take care not to catch a cold.",
+      "audio": "564e621cf428.mp3",
+      "example_audio": "6bccc256d030.mp3"
+    },
+    {
+      "id": "b3_u05_l2_w024",
+      "ko": "유행하다",
+      "uz": "tarqalmoq (kasallik, moda)",
+      "en": "to be going around",
+      "pos": "fe'l",
+      "example_ko": "감기가 유행하는 것 같아요.",
+      "example_uz": "Shamollash tarqalganga o'xshaydi.",
+      "example_en": "It seems a cold is going around.",
+      "audio": "3c065e67f14d.mp3",
+      "example_audio": "b293e8aaf44d.mp3"
+    },
+    {
+      "id": "b3_u05_l2_w025",
+      "ko": "피곤하다",
+      "uz": "charchagan bo'lmoq",
+      "en": "to be tired",
+      "pos": "sifat",
+      "example_ko": "많이 피곤한 것 같아요.",
+      "example_uz": "Juda charchaganga o'xshaysiz.",
+      "example_en": "You seem really tired.",
+      "audio": "d2f52181b988.mp3",
+      "example_audio": "a726f8024faf.mp3"
+    },
+    {
+      "id": "b3_u05_l2_w026",
+      "ko": "얼굴색",
+      "uz": "rang (yuz)",
+      "en": "complexion",
+      "pos": "ot",
+      "example_ko": "얼굴색이 안 좋아요.",
+      "example_uz": "Rangingiz yaxshi emas.",
+      "example_en": "You look pale.",
+      "audio": "fef410ba4e14.mp3",
+      "example_audio": "3cbc3ea61173.mp3"
+    },
+    {
+      "id": "b3_u05_l2_w027",
+      "ko": "춥다",
+      "uz": "sovuq bo'lmoq",
+      "en": "to be cold",
+      "pos": "sifat",
+      "example_ko": "몸이 추워요.",
+      "example_uz": "Badanim sovqotyapti.",
+      "example_en": "I feel chilly.",
+      "audio": "08f9267c8c3b.mp3",
+      "example_audio": "98c65a3a6013.mp3"
+    },
+    {
+      "id": "b3_u05_l2_w028",
+      "ko": "비",
+      "uz": "yomg'ir",
+      "en": "rain",
+      "pos": "ot",
+      "example_ko": "내일 비가 올 것 같아요.",
+      "example_uz": "Ertaga yomg'ir yog'adiganga o'xshaydi.",
+      "example_en": "It looks like it'll rain tomorrow.",
+      "audio": "65cfd179c80a.mp3",
+      "example_audio": "14f91970149f.mp3"
+    },
+    {
+      "id": "b3_u05_l2_w029",
+      "ko": "하늘",
+      "uz": "osmon",
+      "en": "sky",
+      "pos": "ot",
+      "example_ko": "하늘이 흐려요.",
+      "example_uz": "Osmon bulutli.",
+      "example_en": "The sky is cloudy.",
+      "audio": "879757577ea9.mp3",
+      "example_audio": "2f8625d02ab4.mp3"
+    },
+    {
+      "id": "b3_u05_l2_w030",
+      "ko": "아마",
+      "uz": "ehtimol",
+      "en": "probably",
+      "pos": "ravish",
+      "example_ko": "아마 감기인 것 같아요.",
+      "example_uz": "Ehtimol shamollashdir.",
+      "example_en": "It's probably a cold.",
+      "audio": "dc0fa0896910.mp3",
+      "example_audio": "7b97f3df440f.mp3"
+    },
+    {
+      "id": "b3_u05_l2_w031",
+      "ko": "무리하다",
+      "uz": "o'zini haddan ziyod zo'riqtirmoq",
+      "en": "to overdo it",
+      "pos": "fe'l",
+      "example_ko": "무리하지 마세요.",
+      "example_uz": "O'zingizni zo'riqtirmang.",
+      "example_en": "Don't overdo it.",
+      "audio": "8099dc57e2e4.mp3",
+      "example_audio": "6e5404965c65.mp3"
+    },
+    {
+      "id": "b3_u05_l2_w032",
+      "ko": "결석하다",
+      "uz": "darsga kelmaslik",
+      "en": "to be absent",
+      "pos": "fe'l",
+      "example_ko": "오늘 수업에 결석할 것 같아요.",
+      "example_uz": "Bugun darsga kela olmaydiganga o'xshayman.",
+      "example_en": "I think I'll miss class today.",
+      "audio": "6463ea7b7bf3.mp3",
+      "example_audio": "e2ecc36b4292.mp3"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "b3_u05_l2_g1",
+      "pattern": "V-(으)ㄴ/는/(으)ㄹ 것 같다",
+      "meaning_uz": "...ganga / ...yotganga / ...adiganga o'xshaydi (fe'l)",
+      "meaning_en": "It seems / I think (verbs)",
+      "explanation_md": "**것 같다** — taxmin yoki yumshoq fikr: \"**...ga o'xshaydi**\", \"**shekilli**\". Fe'l bilan zamonga qarab uch shakli bor.\n\n**몸살이 난 것 같아요.** — *Shamollab qolganga o'xshayman.*\n\n| Zamon | Shakl | Misol |\n|---|---|---|\n| O'tgan | **-(으)ㄴ 것 같다** | 감기에 걸**린** 것 같아요 — *shamollaganga o'xshayman* |\n| Hozir | **-는 것 같다** | 독감이 유행하**는** 것 같아요 — *gripp tarqalayotganga o'xshaydi* |\n| Kelasi | **-(으)ㄹ 것 같다** | 비가 **올** 것 같아요 — *yomg'ir yog'adiganga o'xshaydi* |\n\n### Esda tuting\n\n- **ㄹ** tushadi: 살다 → **사는/산** 것 같아요, 만들다 → **만든** 것 같아요\n- Ko'pincha xushmuomala fikr bildirish uchun: **이게 더 좋은 것 같아요.** — *Menimcha, bu yaxshiroq.*\n- **아마** (ehtimol) bilan birga keladi: **아마 비가 올 것 같아요.**",
+      "explanation_md_en": "**것 같다** expresses a guess or a softened opinion: \"**it seems**\", \"**I think**\". With verbs it has three forms by tense.\n\n**몸살이 난 것 같아요.** — *I think I've come down with something.*\n\n| Tense | Form | Example |\n|---|---|---|\n| Past | **-(으)ㄴ 것 같다** | 감기에 걸**린** 것 같아요 — *I think I've caught a cold* |\n| Present | **-는 것 같다** | 독감이 유행하**는** 것 같아요 — *it seems the flu is going around* |\n| Future | **-(으)ㄹ 것 같다** | 비가 **올** 것 같아요 — *it looks like it'll rain* |\n\n### Remember\n\n- **ㄹ** drops: 살다 → **사는/산** 것 같아요, 만들다 → **만든** 것 같아요\n- It's often used to soften an opinion: **이게 더 좋은 것 같아요.** — *I think this one is better.*\n- It pairs with **아마** (probably): **아마 비가 올 것 같아요.**",
+      "formation": [
+        {
+          "condition_uz": "O'tgan",
+          "condition_en": "Past",
+          "rule": "V-(으)ㄴ 것 같다",
+          "example": "난 것 같아요, 걸린 것 같아요"
+        },
+        {
+          "condition_uz": "Hozir",
+          "condition_en": "Present",
+          "rule": "V-는 것 같다",
+          "example": "유행하는 것 같아요"
+        },
+        {
+          "condition_uz": "Kelasi",
+          "condition_en": "Future",
+          "rule": "V-(으)ㄹ 것 같다",
+          "example": "올 것 같아요, 결석할 것 같아요"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "몸살이 난 것 같아요.",
+          "uz": "Shamollab qolganga o'xshayman.",
+          "en": "I think I've come down with something.",
+          "audio": "3bf15d40f21e.mp3"
+        },
+        {
+          "ko": "감기에 걸린 것 같아요.",
+          "uz": "Shamollaganga o'xshayman.",
+          "en": "I think I've caught a cold.",
+          "audio": "0fa9d7d24c77.mp3"
+        },
+        {
+          "ko": "요즘 독감이 유행하는 것 같아요.",
+          "uz": "Shu kunlarda gripp tarqalayotganga o'xshaydi.",
+          "en": "It seems the flu is going around.",
+          "audio": "d280a9dc17ae.mp3"
+        },
+        {
+          "ko": "내일 비가 올 것 같아요.",
+          "uz": "Ertaga yomg'ir yog'adiganga o'xshaydi.",
+          "en": "It looks like it'll rain tomorrow.",
+          "audio": "14f91970149f.mp3"
+        },
+        {
+          "ko": "오늘 수업에 결석할 것 같아요.",
+          "uz": "Bugun darsga bora olmaydiganga o'xshayman.",
+          "en": "I think I'll have to miss class today.",
+          "audio": "e2ecc36b4292.mp3"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "감기에 걸리는 것 같아요. (allaqachon)",
+          "right": "감기에 걸린 것 같아요.",
+          "why_uz": "Bo'lib o'tgan — -(으)ㄴ.",
+          "why_en": "Already happened: -(으)ㄴ."
+        },
+        {
+          "wrong": "비가 오는 것 같아요. (ertaga)",
+          "right": "비가 올 것 같아요.",
+          "why_uz": "Kelasi — -(으)ㄹ.",
+          "why_en": "Future: -(으)ㄹ."
+        },
+        {
+          "wrong": "우유가 상하은 것 같아요.",
+          "right": "우유가 상한 것 같아요.",
+          "why_uz": "받침siz: -ㄴ.",
+          "why_en": "No 받침: -ㄴ."
+        }
+      ],
+      "uz_compare": "O'zbekchadagi '...ga o'xshaydi', '... shekilli' bilan bir xil: 'shamollaGANGA O'XSHAYMAN' = 감기에 걸린 것 같아요. Zamon fe'lning qo'shimchasida.",
+      "compare_en": "Like English 'I think …' or 'it seems …': 'I think I caught a cold' = 감기에 걸린 것 같아요. The tense goes on the verb before 것."
+    },
+    {
+      "id": "b3_u05_l2_g2",
+      "pattern": "A-(으)ㄴ/(으)ㄹ 것 같다",
+      "meaning_uz": "...ga o'xshaydi (sifat)",
+      "meaning_en": "It seems / I think (adjectives)",
+      "explanation_md": "**Sifatlar** bilan **것 같다** ikki shaklda:\n\n- **Hozirgi holat** → **-(으)ㄴ 것 같다**: 피곤하다 → **피곤한 것 같아요** — *charchaganga o'xshaysiz*\n- **Kelasidagi / taxminiy holat** → **-(으)ㄹ 것 같다**: 춥다 → **추울 것 같아요** — *sovuq bo'ladiganga o'xshaydi*\n\n**많이 피곤한 것 같아요.** — *Juda charchaganga o'xshaysiz.*\n\n### Qanday yasaladi\n\n- 받침siz → **-ㄴ / -ㄹ**: 아프다 → **아픈 / 아플**\n- 받침 bilan → **-은 / -을**: 많다 → **많은 / 많을**\n- **ㅂ**: 어지럽다 → **어지러운 / 어지러울**, 춥다 → **추운 / 추울**\n- **있다/없다** → **-는**: 맛있**는** 것 같아요\n- Ot → **N인 것 같다**: 아마 감기**인** 것 같아요\n\n### Esda tuting\n\n- Fe'l bilan hozirgi zamon — **-는**, sifat bilan — **-(으)ㄴ**: 유행하**는** (fe'l) / 피곤**한** (sifat).",
+      "explanation_md_en": "With **adjectives**, **것 같다** has two forms:\n\n- **Current state** → **-(으)ㄴ 것 같다**: 피곤하다 → **피곤한 것 같아요** — *you seem tired*\n- **Future / predicted state** → **-(으)ㄹ 것 같다**: 춥다 → **추울 것 같아요** — *it looks like it'll be cold*\n\n**많이 피곤한 것 같아요.** — *You seem really tired.*\n\n### How to form it\n\n- No 받침 → **-ㄴ / -ㄹ**: 아프다 → **아픈 / 아플**\n- With 받침 → **-은 / -을**: 많다 → **많은 / 많을**\n- **ㅂ**: 어지럽다 → **어지러운 / 어지러울**, 춥다 → **추운 / 추울**\n- **있다/없다** → **-는**: 맛있**는** 것 같아요\n- Noun → **N인 것 같다**: 아마 감기**인** 것 같아요\n\n### Remember\n\n- Present with a verb is **-는**, with an adjective **-(으)ㄴ**: 유행하**는** (verb) / 피곤**한** (adjective).",
+      "formation": [
+        {
+          "condition_uz": "Hozirgi",
+          "condition_en": "Present",
+          "rule": "A-(으)ㄴ 것 같다",
+          "example": "피곤한, 아픈, 추운 것 같아요"
+        },
+        {
+          "condition_uz": "Kelasi",
+          "condition_en": "Future",
+          "rule": "A-(으)ㄹ 것 같다",
+          "example": "추울, 바쁠 것 같아요"
+        },
+        {
+          "condition_uz": "Ot",
+          "condition_en": "Noun",
+          "rule": "N인 것 같다",
+          "example": "감기인 것 같아요"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "많이 피곤한 것 같아요.",
+          "uz": "Juda charchaganga o'xshaysiz.",
+          "en": "You seem really tired.",
+          "audio": "a726f8024faf.mp3"
+        },
+        {
+          "ko": "머리가 아픈 것 같아요.",
+          "uz": "Boshim og'riyotganga o'xshaydi.",
+          "en": "I think I have a headache.",
+          "audio": "1a50e8440a94.mp3"
+        },
+        {
+          "ko": "내일은 추울 것 같아요.",
+          "uz": "Ertaga sovuq bo'ladiganga o'xshaydi.",
+          "en": "It looks like it'll be cold tomorrow.",
+          "audio": "1a014fbcf059.mp3"
+        },
+        {
+          "ko": "아마 감기인 것 같아요.",
+          "uz": "Ehtimol shamollashdir.",
+          "en": "It's probably a cold.",
+          "audio": "7b97f3df440f.mp3"
+        },
+        {
+          "ko": "조금 어지러운 것 같아요.",
+          "uz": "Biroz boshim aylanayotganga o'xshaydi.",
+          "en": "I feel a bit dizzy, I think.",
+          "audio": "fffd75a8a716.mp3"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "피곤하는 것 같아요.",
+          "right": "피곤한 것 같아요.",
+          "why_uz": "Sifat hozir: -(으)ㄴ.",
+          "why_en": "Adjective, present: -(으)ㄴ."
+        },
+        {
+          "wrong": "내일은 춥는 것 같아요.",
+          "right": "내일은 추울 것 같아요.",
+          "why_uz": "Kelasi + ㅂ: 추울.",
+          "why_en": "Future + ㅂ: 추울."
+        },
+        {
+          "wrong": "감기 것 같아요.",
+          "right": "감기인 것 같아요.",
+          "why_uz": "Ot: N인 것 같다.",
+          "why_en": "Noun: N인 것 같다."
+        }
+      ],
+      "uz_compare": "O'zbekchada sifat bilan ham '...ga o'xshaydi': 'charchaGANGA O'XSHAYSIZ' = 피곤한 것 같아요; 'sovuq bo'ladiGANGA O'XSHAYDI' = 추울 것 같아요.",
+      "compare_en": "Like English 'you seem tired' / 'it looks like it'll be cold': 피곤한 것 같아요 / 추울 것 같아요."
+    }
+  ],
+  "dialogue": {
+    "lines": [
+      {
+        "speaker": "minji",
+        "ko": "아지즈 씨, 얼굴색이 안 좋아요. 어디 아파요?",
+        "uz": "Aziz, rangingiz yaxshi emas. Biror joyingiz og'riyaptimi?",
+        "en": "Aziz, you look pale. Are you unwell?",
+        "audio": "83dcee13451a.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "몸살이 난 것 같아요. 온몸이 아프고 열이 나요.",
+        "uz": "Shamollab qolganga o'xshayman. Butun badanim og'riyapti, isitmam bor.",
+        "en": "I think I've come down with something. I ache all over and have a fever.",
+        "audio": "a043a12ed4ec.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "기침도 해요?",
+        "uz": "Yo'tal ham bormi?",
+        "en": "Are you coughing too?",
+        "audio": "1bffaf7e01a9.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "네, 기침도 하고 콧물도 나요. 목도 아파요.",
+        "uz": "Ha, yo'tal ham, tumov ham bor. Tomog'im ham og'riyapti.",
+        "en": "Yes, I'm coughing and have a runny nose. My throat hurts too.",
+        "audio": "f30937dcaf90.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "요즘 독감이 유행하는 것 같아요. 병원에 가 봤어요?",
+        "uz": "Shu kunlarda gripp tarqalganga o'xshaydi. Kasalxonaga bordingizmi?",
+        "en": "It seems the flu is going around. Have you been to the doctor?",
+        "audio": "97b29c36b42b.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "아니요, 아직이요. 그냥 약국에서 약을 사 먹으려고 해요.",
+        "uz": "Yo'q, hali. Shunchaki dorixonadan dori olib ichmoqchiman.",
+        "en": "No, not yet. I was just going to buy medicine at the pharmacy.",
+        "audio": "f4254b4c5328.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "열이 많이 나니까 내과에 가서 진찰을 받으세요.",
+        "uz": "Isitmangiz baland, terapevtga borib ko'rikdan o'ting.",
+        "en": "You have a high fever, so go to internal medicine and get checked.",
+        "audio": "465bdea5f603.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "네, 그럴게요. 오늘 수업은 결석할 것 같아요.",
+        "uz": "Xo'p, shunday qilaman. Bugun darsga bora olmaydiganga o'xshayman.",
+        "en": "Okay, I will. I think I'll have to miss class today.",
+        "audio": "6d2c49f335fe.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "제가 선생님께 말씀드릴게요. 무리하지 마세요.",
+        "uz": "Men o'qituvchiga aytib qo'yaman. O'zingizni zo'riqtirmang.",
+        "en": "I'll tell the teacher. Don't overdo it.",
+        "audio": "8b734b85c521.mp3"
+      },
+      {
+        "speaker": "aziz",
+        "ko": "고마워요. 내일은 괜찮을 것 같아요.",
+        "uz": "Rahmat. Ertaga yaxshi bo'ladiganga o'xshayman.",
+        "en": "Thanks. I think I'll be fine tomorrow.",
+        "audio": "ba878823ed28.mp3"
+      },
+      {
+        "speaker": "minji",
+        "ko": "따뜻한 물을 많이 마시고 푹 쉬세요. 빨리 나으세요!",
+        "uz": "Iliq suv ko'p iching va yaxshilab dam oling. Tezroq tuzaling!",
+        "en": "Drink lots of warm water and get plenty of rest. Get well soon!",
+        "audio": "95d78f0ec173.mp3"
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b3_u05_l2_e001",
+      "type": "conjugate",
+      "targets": [
+        "b3_u05_l2_g1"
+      ],
+      "prompt_uz": "'Shamollaganga o'xshayman' (o'tgan)",
+      "prompt_en": "Make 'I think I caught (a cold)' (past)",
+      "base": "걸리다",
+      "form": "-(으)ㄴ 것 같아요",
+      "answers": [
+        "걸린 것 같아요"
+      ]
+    },
+    {
+      "id": "b3_u05_l2_e002",
+      "type": "conjugate",
+      "targets": [
+        "b3_u05_l2_g1"
+      ],
+      "prompt_uz": "'Yog'adiganga o'xshaydi' (kelasi)",
+      "prompt_en": "Make 'it looks like it'll (rain)' (future)",
+      "base": "오다",
+      "form": "-(으)ㄹ 것 같아요",
+      "answers": [
+        "올 것 같아요"
+      ]
+    },
+    {
+      "id": "b3_u05_l2_e003",
+      "type": "conjugate",
+      "targets": [
+        "b3_u05_l2_g2"
+      ],
+      "prompt_uz": "'Charchaganga o'xshaysiz' (sifat)",
+      "prompt_en": "Make 'you seem tired' (adjective)",
+      "base": "피곤하다",
+      "form": "-(으)ㄴ 것 같아요",
+      "answers": [
+        "피곤한 것 같아요"
+      ]
+    },
+    {
+      "id": "b3_u05_l2_e004",
+      "type": "conjugate",
+      "targets": [
+        "b3_u05_l2_g2"
+      ],
+      "prompt_uz": "'Sovuq bo'ladiganga o'xshaydi'",
+      "prompt_en": "Make 'it looks like it'll be cold'",
+      "base": "춥다",
+      "form": "-(으)ㄹ 것 같아요",
+      "answers": [
+        "추울 것 같아요"
+      ],
+      "hint_uz": "ㅂ → 우",
+      "hint_en": "ㅂ → 우"
+    },
+    {
+      "id": "b3_u05_l2_e005",
+      "type": "fill_blank",
+      "targets": [
+        "b3_u05_l2_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Gripp tarqalayotganga o'xshaydi.'",
+      "prompt_en": "Fill in the blank: 'It seems the flu is going around.'",
+      "sentence": "독감이 ___ 것 같아요. (유행하다)",
+      "answers": [
+        "유행하는"
+      ]
+    },
+    {
+      "id": "b3_u05_l2_e006",
+      "type": "fill_blank",
+      "targets": [
+        "b3_u05_l2_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Sut buzilganga o'xshaydi.'",
+      "prompt_en": "Fill in the blank: 'I think the milk has gone off.'",
+      "sentence": "우유가 ___ 것 같아요. (상하다)",
+      "answers": [
+        "상한"
+      ]
+    },
+    {
+      "id": "b3_u05_l2_e007",
+      "type": "fill_blank",
+      "targets": [
+        "b3_u05_l2_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Boshim og'riyotganga o'xshaydi.'",
+      "prompt_en": "Fill in the blank: 'I think I have a headache.'",
+      "sentence": "머리가 ___ 것 같아요. (아프다)",
+      "answers": [
+        "아픈"
+      ]
+    },
+    {
+      "id": "b3_u05_l2_e008",
+      "type": "fill_blank",
+      "targets": [
+        "b3_u05_l2_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Ehtimol shamollashdir.'",
+      "prompt_en": "Fill in the blank: 'It's probably a cold.'",
+      "sentence": "아마 감기___ 것 같아요.",
+      "answers": [
+        "인"
+      ]
+    },
+    {
+      "id": "b3_u05_l2_e009",
+      "type": "situation_choice",
+      "targets": [
+        "b3_u05_l2_g1"
+      ],
+      "prompt_uz": "Shifokorga shamollab qolganga o'xshashingizni ayting:",
+      "prompt_en": "Tell the doctor you think you've caught a cold:",
+      "options": [
+        "감기에 걸린 것 같아요.",
+        "감기에 걸리는 것 같았어요요.",
+        "감기에 걸릴 것 같아요. (allaqachon)",
+        "감기에 걸린 것 같네요."
+      ],
+      "answers": [
+        "감기에 걸린 것 같아요."
+      ]
+    },
+    {
+      "id": "b3_u05_l2_e010",
+      "type": "situation_choice",
+      "targets": [
+        "b3_u05_l2_g2"
+      ],
+      "prompt_uz": "Do'stingiz charchaganga o'xshaydi. Ayting:",
+      "prompt_en": "Your friend looks tired. Say so:",
+      "options": [
+        "많이 피곤한 것 같아요.",
+        "많이 피곤하는 것 같아요.",
+        "많이 피곤할 것 같아요. (hozir)",
+        "많이 피곤 것 같아요."
+      ],
+      "answers": [
+        "많이 피곤한 것 같아요."
+      ]
+    },
+    {
+      "id": "b3_u05_l2_e011",
+      "type": "situation_choice",
+      "targets": [
+        "b3_u05_l2_w021"
+      ],
+      "prompt_uz": "Kasal do'stingizga 'Tezroq tuzaling' deng:",
+      "prompt_en": "Tell a sick friend 'Get well soon':",
+      "options": [
+        "빨리 나으세요.",
+        "빨리 낫으세요.",
+        "빨리 나아세요요.",
+        "빨리 낫세요."
+      ],
+      "answers": [
+        "빨리 나으세요."
+      ]
+    },
+    {
+      "id": "b3_u05_l2_e012",
+      "type": "find_error",
+      "targets": [
+        "b3_u05_l2_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "내일 비가 오는 것 같아요.",
+      "answers": [
+        "내일 비가 올 것 같아요"
+      ],
+      "why_uz": "Kelasi: -(으)ㄹ.",
+      "why_en": "Future: -(으)ㄹ."
+    },
+    {
+      "id": "b3_u05_l2_e013",
+      "type": "find_error",
+      "targets": [
+        "b3_u05_l2_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "피곤하는 것 같아요.",
+      "answers": [
+        "피곤한 것 같아요"
+      ],
+      "why_uz": "Sifat: -(으)ㄴ.",
+      "why_en": "Adjective: -(으)ㄴ."
+    },
+    {
+      "id": "b3_u05_l2_e014",
+      "type": "find_error",
+      "targets": [
+        "b3_u05_l2_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "내일은 춥을 것 같아요.",
+      "answers": [
+        "내일은 추울 것 같아요"
+      ],
+      "why_uz": "ㅂ → 우: 추울.",
+      "why_en": "ㅂ → 우: 추울."
+    },
+    {
+      "id": "b3_u05_l2_e015",
+      "type": "translate",
+      "targets": [
+        "b3_u05_l2_g1"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Ertaga yomg'ir yog'adiganga o'xshaydi.",
+      "source_en": "It looks like it'll rain tomorrow.",
+      "answers": [
+        "내일 비가 올 것 같아요"
+      ]
+    },
+    {
+      "id": "b3_u05_l2_e016",
+      "type": "translate",
+      "targets": [
+        "b3_u05_l2_g1"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Shamollab qolganga o'xshayman.",
+      "source_en": "I think I've come down with something.",
+      "answers": [
+        "몸살이 난 것 같아요",
+        "감기에 걸린 것 같아요"
+      ]
+    },
+    {
+      "id": "b3_u05_l2_e017",
+      "type": "translate",
+      "targets": [
+        "b3_u05_l2_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Juda charchaganga o'xshaysiz.",
+      "source_en": "You seem really tired.",
+      "answers": [
+        "많이 피곤한 것 같아요",
+        "너무 피곤한 것 같아요"
+      ]
+    },
+    {
+      "id": "b3_u05_l2_e018",
+      "type": "build_sentence",
+      "targets": [
+        "b3_u05_l2_g1"
+      ],
+      "prompt_uz": "'Bugun darsga bora olmaydiganga o'xshayman' gapini tuzing",
+      "prompt_en": "Build the sentence 'I think I'll miss class today'",
+      "tokens": [
+        "같아요",
+        "수업에",
+        "것",
+        "오늘",
+        "결석할"
+      ],
+      "answers": [
+        "오늘 수업에 결석할 것 같아요"
+      ]
+    },
+    {
+      "id": "b3_u05_l2_e019",
+      "type": "build_sentence",
+      "targets": [
+        "b3_u05_l2_g2"
+      ],
+      "prompt_uz": "'Biroz boshim aylanayotganga o'xshaydi' gapini tuzing",
+      "prompt_en": "Build the sentence 'I feel a bit dizzy, I think'",
+      "tokens": [
+        "것",
+        "같아요",
+        "조금",
+        "어지러운"
+      ],
+      "answers": [
+        "조금 어지러운 것 같아요"
+      ]
+    },
+    {
+      "id": "b3_u05_l2_e020",
+      "type": "build_sentence",
+      "targets": [
+        "b3_u05_l2_g1"
+      ],
+      "prompt_uz": "'Oshqozonim buzilganga o'xshaydi' gapini tuzing",
+      "prompt_en": "Build the sentence 'I think I have an upset stomach'",
+      "tokens": [
+        "같아요",
+        "것",
+        "난",
+        "배탈이"
+      ],
+      "answers": [
+        "배탈이 난 것 같아요"
+      ]
+    },
+    {
+      "id": "b3_u05_l2_e021",
+      "type": "listen_question",
+      "targets": [
+        "b3_u05_l2_g1"
+      ],
+      "prompt_uz": "U nima deb o'ylaydi?",
+      "prompt_en": "What does the speaker think?",
+      "audio_text": "어제 먹은 음식이 상한 것 같아요. 배가 아파요.",
+      "options": [
+        "Ovqat buzilgan",
+        "Shamollagan",
+        "Charchagan",
+        "Gripp"
+      ],
+      "options_en": [
+        "The food was bad",
+        "A cold",
+        "Tiredness",
+        "The flu"
+      ],
+      "answers": [
+        "Ovqat buzilgan"
+      ],
+      "audio": "2b5b990066b6.mp3"
+    },
+    {
+      "id": "b3_u05_l2_e022",
+      "type": "listen_question",
+      "targets": [
+        "b3_u05_l2_g2"
+      ],
+      "prompt_uz": "Ertaga havo qanday bo'ladi?",
+      "prompt_en": "What will the weather be like tomorrow?",
+      "audio_text": "하늘을 보니까 내일은 추울 것 같아요.",
+      "options": [
+        "Sovuq",
+        "Issiq",
+        "Yomg'irli",
+        "Shamolli"
+      ],
+      "options_en": [
+        "Cold",
+        "Hot",
+        "Rainy",
+        "Windy"
+      ],
+      "answers": [
+        "Sovuq"
+      ],
+      "audio": "7b4d94ed0d54.mp3"
+    },
+    {
+      "id": "b3_u05_l2_e023",
+      "type": "listen_question",
+      "targets": [
+        "b3_u05_l2_g1"
+      ],
+      "prompt_uz": "Nima tarqalgan?",
+      "prompt_en": "What is going around?",
+      "audio_text": "요즘 감기가 유행하는 것 같아요. 조심하세요.",
+      "options": [
+        "Shamollash",
+        "Gripp",
+        "Oshqozon kasalligi",
+        "Allergiya"
+      ],
+      "options_en": [
+        "A cold",
+        "The flu",
+        "A stomach bug",
+        "Allergies"
+      ],
+      "answers": [
+        "Shamollash"
+      ],
+      "audio": "0521046a7203.mp3"
+    },
+    {
+      "id": "b3_u05_l2_e024",
+      "type": "listen_question",
+      "targets": [
+        "b3_u05_l2_g2"
+      ],
+      "prompt_uz": "Ayolning holati qanday?",
+      "prompt_en": "How is the woman feeling?",
+      "audio_text": "열이 나고 머리가 아픈 것 같아요.",
+      "options": [
+        "Isitma va bosh og'rig'i",
+        "Yo'tal",
+        "Oshqozon og'rig'i",
+        "Tish og'rig'i"
+      ],
+      "options_en": [
+        "Fever and headache",
+        "A cough",
+        "Stomach ache",
+        "Toothache"
+      ],
+      "answers": [
+        "Isitma va bosh og'rig'i"
+      ],
+      "audio": "a24301e76133.mp3"
+    },
+    {
+      "id": "b3_u05_l2_e101",
+      "type": "conjugate",
+      "targets": [
+        "b3_u05_l2_g1"
+      ],
+      "prompt_uz": "'Yashaydiganga o'xshaydi' (hozir)",
+      "prompt_en": "Make 'seems to live' (present)",
+      "base": "살다",
+      "form": "-는 것 같아요",
+      "answers": [
+        "사는 것 같아요"
+      ]
+    },
+    {
+      "id": "b3_u05_l2_e102",
+      "type": "conjugate",
+      "targets": [
+        "b3_u05_l2_g1"
+      ],
+      "prompt_uz": "'Paydo bo'lganga o'xshaydi' (o'tgan)",
+      "prompt_en": "Make 'seems to have broken out' (past)",
+      "base": "나다",
+      "form": "-(으)ㄴ 것 같아요",
+      "answers": [
+        "난 것 같아요"
+      ]
+    },
+    {
+      "id": "b3_u05_l2_e103",
+      "type": "conjugate",
+      "targets": [
+        "b3_u05_l2_g2"
+      ],
+      "prompt_uz": "'Band bo'ladiganga o'xshaydi'",
+      "prompt_en": "Make 'looks like it'll be busy'",
+      "base": "바쁘다",
+      "form": "-(으)ㄹ 것 같아요",
+      "answers": [
+        "바쁠 것 같아요"
+      ]
+    },
+    {
+      "id": "b3_u05_l2_e104",
+      "type": "fill_blank",
+      "targets": [
+        "b3_u05_l2_g2"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Ertaga yaxshi bo'ladiganga o'xshayman.'",
+      "prompt_en": "Fill in the blank: 'I think I'll be fine tomorrow.'",
+      "sentence": "내일은 ___ 것 같아요. (괜찮다)",
+      "answers": [
+        "괜찮을"
+      ]
+    },
+    {
+      "id": "b3_u05_l2_e105",
+      "type": "fill_blank",
+      "targets": [
+        "b3_u05_l2_g1"
+      ],
+      "prompt_uz": "Bo'sh joyni to'ldiring: 'Grippga chalinganga o'xshayman.'",
+      "prompt_en": "Fill in the blank: 'I think I've got the flu.'",
+      "sentence": "독감에 ___ 것 같아요. (걸리다)",
+      "answers": [
+        "걸린"
+      ]
+    },
+    {
+      "id": "b3_u05_l2_e106",
+      "type": "situation_choice",
+      "targets": [
+        "b3_u05_l2_g1"
+      ],
+      "prompt_uz": "Osmon qorong'i. Yomg'ir yog'ishini taxmin qiling:",
+      "prompt_en": "The sky is dark. Predict rain:",
+      "options": [
+        "비가 올 것 같아요.",
+        "비가 온 것 같아요.",
+        "비가 오는 것 같았어요요.",
+        "비가 오을 것 같아요."
+      ],
+      "answers": [
+        "비가 올 것 같아요."
+      ]
+    },
+    {
+      "id": "b3_u05_l2_e107",
+      "type": "situation_choice",
+      "targets": [
+        "b3_u05_l2_g2"
+      ],
+      "prompt_uz": "Bu kiyim sizga yaxshiroq ekanini muloyim ayting:",
+      "prompt_en": "Politely say this outfit seems better:",
+      "options": [
+        "이게 더 좋은 것 같아요.",
+        "이게 더 좋는 것 같아요.",
+        "이게 더 좋을 것 같았어요요.",
+        "이게 더 좋 것 같아요."
+      ],
+      "answers": [
+        "이게 더 좋은 것 같아요."
+      ]
+    },
+    {
+      "id": "b3_u05_l2_e108",
+      "type": "situation_choice",
+      "targets": [
+        "b3_u05_l2_w023"
+      ],
+      "prompt_uz": "Do'stingizga shamollashdan ehtiyot bo'lishni ayting:",
+      "prompt_en": "Tell your friend to watch out for colds:",
+      "options": [
+        "감기 조심하세요.",
+        "감기 유행하세요.",
+        "감기 무리하세요.",
+        "감기 결석하세요."
+      ],
+      "answers": [
+        "감기 조심하세요."
+      ]
+    },
+    {
+      "id": "b3_u05_l2_e109",
+      "type": "find_error",
+      "targets": [
+        "b3_u05_l2_g1"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "감기에 걸리는 것 같아요. (allaqachon)",
+      "answers": [
+        "감기에 걸린 것 같아요"
+      ],
+      "why_uz": "Bo'lib o'tgan — -(으)ㄴ.",
+      "why_en": "Already happened: -(으)ㄴ."
+    },
+    {
+      "id": "b3_u05_l2_e110",
+      "type": "find_error",
+      "targets": [
+        "b3_u05_l2_g2"
+      ],
+      "prompt_uz": "Xatoni topib, to'g'ri gapni yozing",
+      "prompt_en": "Find the mistake and write the correct sentence",
+      "sentence": "어지럽는 것 같아요.",
+      "answers": [
+        "어지러운 것 같아요"
+      ],
+      "why_uz": "ㅂ sifat: 어지러운.",
+      "why_en": "ㅂ adjective: 어지러운."
+    },
+    {
+      "id": "b3_u05_l2_e111",
+      "type": "translate",
+      "targets": [
+        "b3_u05_l2_g2"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Ehtimol shamollashdir.",
+      "source_en": "It's probably a cold.",
+      "answers": [
+        "아마 감기인 것 같아요"
+      ]
+    },
+    {
+      "id": "b3_u05_l2_e112",
+      "type": "translate",
+      "targets": [
+        "b3_u05_l2_g1"
+      ],
+      "prompt_uz": "Koreyschaga tarjima qiling",
+      "prompt_en": "Translate into Korean",
+      "source_uz": "Gripp tarqalayotganga o'xshaydi.",
+      "source_en": "It seems the flu is going around.",
+      "answers": [
+        "독감이 유행하는 것 같아요"
+      ]
+    },
+    {
+      "id": "b3_u05_l2_e113",
+      "type": "build_sentence",
+      "targets": [
+        "b3_u05_l2_g2"
+      ],
+      "prompt_uz": "'Ertaga sovuq bo'ladiganga o'xshaydi' gapini tuzing",
+      "prompt_en": "Build the sentence 'It looks like it'll be cold tomorrow'",
+      "tokens": [
+        "같아요",
+        "것",
+        "내일은",
+        "추울"
+      ],
+      "answers": [
+        "내일은 추울 것 같아요"
+      ]
+    },
+    {
+      "id": "b3_u05_l2_e114",
+      "type": "listen_question",
+      "targets": [
+        "b3_u05_l2_g1"
+      ],
+      "prompt_uz": "Erkak nima demoqda?",
+      "prompt_en": "What does the man say?",
+      "audio_text": "오늘은 회사에 못 갈 것 같아요.",
+      "options": [
+        "Bugun ishga bora olmasa kerak",
+        "Ishga boradi",
+        "Ishdan kech qaytadi",
+        "Ishni tashlaydi"
+      ],
+      "options_en": [
+        "He probably can't go to work",
+        "He'll go to work",
+        "He'll be back late",
+        "He'll quit"
+      ],
+      "answers": [
+        "Bugun ishga bora olmasa kerak"
+      ],
+      "audio": "508cdbc7df88.mp3"
+    },
+    {
+      "id": "b3_u05_l2_e115",
+      "type": "listen_question",
+      "targets": [
+        "b3_u05_l2_g2"
+      ],
+      "prompt_uz": "Ayolga nima bo'lgan?",
+      "prompt_en": "What's wrong with the woman?",
+      "audio_text": "얼굴색이 안 좋아요. 많이 아픈 것 같아요.",
+      "options": [
+        "Kasal ko'rinadi",
+        "Xursand",
+        "Charchamagan",
+        "Ochiqqan"
+      ],
+      "options_en": [
+        "She looks ill",
+        "She's happy",
+        "She isn't tired",
+        "She's hungry"
+      ],
+      "answers": [
+        "Kasal ko'rinadi"
+      ],
+      "audio": "44ca34c055b4.mp3"
+    }
+  ],
+  "test": [
+    "b3_u05_l2_e101",
+    "b3_u05_l2_e102",
+    "b3_u05_l2_e103",
+    "b3_u05_l2_e104",
+    "b3_u05_l2_e105",
+    "b3_u05_l2_e106",
+    "b3_u05_l2_e107",
+    "b3_u05_l2_e108",
+    "b3_u05_l2_e109",
+    "b3_u05_l2_e110",
+    "b3_u05_l2_e111",
+    "b3_u05_l2_e112",
+    "b3_u05_l2_e113",
+    "b3_u05_l2_e114",
+    "b3_u05_l2_e115"
+  ],
+  "story": {
+    "title_uz": "Kasal kun",
+    "title_en": "A sick day",
+    "gate_uz": "KASALXONA",
+    "gate_en": "CLINIC",
+    "steps": [
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "아지즈 씨, 얼굴색이 안 좋아요.",
+        "uz": "Aziz, rangingiz yaxshi emas.",
+        "en": "Aziz, you look pale.",
+        "audio": "f5b0578cf753.mp3"
+      },
+      {
+        "type": "choose_reply",
+        "speaker": "aziz",
+        "prompt_uz": "Aziz 'Shamollab qolganga o'xshayman' demoqchi.",
+        "prompt_en": "Aziz wants to say 'I think I've come down with something'.",
+        "options": [
+          "몸살이 난 것 같아요.",
+          "몸살이 나는 것 같아요. (allaqachon)",
+          "몸살이 날은 것 같아요."
+        ],
+        "answer": "몸살이 난 것 같아요.",
+        "uz": "Shamollab qolganga o'xshayman.",
+        "en": "I think I've come down with something.",
+        "why_uz": "Bo'lib o'tgan: -(으)ㄴ 것 같다 → 난.",
+        "why_en": "Already happened: -(으)ㄴ 것 같다 → 난.",
+        "audio": "9ac8b70987bc.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "열도 나요?",
+        "uz": "Isitma ham bormi?",
+        "en": "Do you have a fever too?",
+        "audio": "6178c783767b.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "네, 열이 나고 기침도 해요.",
+        "uz": "Ha, isitma ham, yo'tal ham.",
+        "en": "Yes, a fever and a cough.",
+        "audio": "e8867912eba4.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "요즘 독감이 유행하는 것 같아요. 병원에 가세요.",
+        "uz": "Shu kunlarda gripp tarqalgan shekilli. Kasalxonaga boring.",
+        "en": "The flu seems to be going around. Go to the doctor.",
+        "audio": "0ef4f462c60d.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "doctor",
+        "ko": "증상이 어때요?",
+        "uz": "Alomatlar qanday?",
+        "en": "What are your symptoms?",
+        "audio": "8315728979d6.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "온몸이 아프고 목도 아파요.",
+        "uz": "Butun badanim og'riyapti, tomog'im ham.",
+        "en": "I ache all over and my throat hurts.",
+        "audio": "7883792a859f.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "doctor",
+        "ko": "독감은 아니고 감기인 것 같아요. 약을 드릴게요.",
+        "uz": "Gripp emas, shamollash shekilli. Dori beraman.",
+        "en": "It's not the flu — it looks like a cold. I'll give you some medicine.",
+        "audio": "63df86bb3f88.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "doctor",
+        "ko": "푹 쉬고 무리하지 마세요.",
+        "uz": "Yaxshilab dam oling, zo'riqmang.",
+        "en": "Rest well and don't overdo it.",
+        "audio": "1e86c383e2ab.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "aziz",
+        "ko": "감사합니다. 내일은 괜찮을 것 같아요.",
+        "uz": "Rahmat. Ertaga yaxshi bo'laman shekilli.",
+        "en": "Thank you. I think I'll be fine tomorrow.",
+        "audio": "c8b56492a598.mp3"
+      },
+      {
+        "type": "line",
+        "speaker": "minji",
+        "ko": "빨리 나으세요!",
+        "uz": "Tezroq tuzaling!",
+        "en": "Get well soon!",
+        "audio": "173df92805d8.mp3"
+      },
+      {
+        "type": "quiz",
+        "prompt_uz": "Shifokor qanday tashxis qo'ydi?",
+        "prompt_en": "What did the doctor say it was?",
+        "options": [
+          "Shamollash",
+          "Gripp",
+          "Oshqozon buzilishi"
+        ],
+        "options_en": [
+          "A cold",
+          "The flu",
+          "An upset stomach"
+        ],
+        "answer": "Shamollash",
+        "why_uz": "독감은 아니고 감기인 것 같아요.",
+        "why_en": "Not the flu — it seems to be a cold."
+      }
+    ]
+  }
+}
