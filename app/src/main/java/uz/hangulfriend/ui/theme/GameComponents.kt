@@ -139,7 +139,9 @@ fun GameBackground(modifier: Modifier = Modifier, content: @Composable BoxScope.
 private fun Backdrop(t: GameTokens, modifier: Modifier, content: @Composable BoxScope.() -> Unit) {
     val haze = rememberHazeState()
     val blobs = remember(t.id) { meshBlobs(t.id) }
-    val clock = frameClock()
+    // The blobs drift a few pixels a second, so 15 updates a second look like 60 while every glass panel
+    // over the backdrop blurs it four times less often.
+    val clock = frameClock(minFrameMs = BACKDROP_FRAME_MS)
     CompositionLocalProvider(LocalHazeState provides haze) {
         Box(modifier.fillMaxSize().background(t.background)) {
             // A sibling of the content, so glass panels in the content can blur it.
@@ -159,6 +161,9 @@ private fun Backdrop(t: GameTokens, modifier: Modifier, content: @Composable Box
         }
     }
 }
+
+/** Shortest time between two backdrop redraws (about 15 a second). */
+private const val BACKDROP_FRAME_MS = 66
 
 /** A game-styled card: panel fill, thin theme border, theme shape; clickable (with a tap sound) when [onClick] is given. */
 @Composable

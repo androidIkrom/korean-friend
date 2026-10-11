@@ -1,6 +1,5 @@
 package uz.hangulfriend.ui.avatar
 
-import android.graphics.BitmapFactory
 import android.graphics.BlurMaskFilter
 import androidx.compose.animation.core.LinearEasing
 import androidx.compose.animation.core.RepeatMode
@@ -10,6 +9,7 @@ import androidx.compose.animation.core.rememberInfiniteTransition
 import androidx.compose.animation.core.tween
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.Image
+import androidx.compose.foundation.layout.Box
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.State
 import androidx.compose.runtime.getValue
@@ -26,7 +26,6 @@ import androidx.compose.ui.graphics.Path
 import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.asAndroidPath
-import androidx.compose.ui.graphics.asImageBitmap
 import androidx.compose.ui.graphics.drawscope.DrawScope
 import androidx.compose.ui.graphics.drawscope.Stroke
 import androidx.compose.ui.graphics.drawscope.drawIntoCanvas
@@ -40,8 +39,6 @@ import androidx.compose.ui.graphics.vector.PathParser
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
 import kotlin.math.min
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.withContext
 import uz.hangulfriend.data.GameThemeId
 import uz.hangulfriend.data.HeroGender
 import uz.hangulfriend.study.Rank
@@ -119,6 +116,9 @@ private fun auraStrength(rank: Rank): Float = when (rank) {
 /** Animation phases read in the draw pass only, so the aura flickers without recomposing. */
 private class AuraMotion(val outer: State<Float>, val inner: State<Float>, val rise: State<Float>)
 
+/** The outcome of decoding a hero image: its bitmap, or null when the asset could not be decoded (the vector is drawn). */
+private class Loaded(val bitmap: ImageBitmap?)
+
 /**
  * The player's hero at [rank]. With [animated] the flame aura flickers and embers rise (Home, rank-up dialog);
  * elsewhere it is still. A drawn image from `assets/avatar` replaces the vector when present.
@@ -128,16 +128,18 @@ fun Avatar(rank: Rank, hero: HeroGender, modifier: Modifier = Modifier, animated
     val t = LocalGameTokens.current
     val slot = LocalAvatarAssets.current.slotFor(t.id, hero, rank)
     val context = LocalContext.current
-    val image by produceState<ImageBitmap?>(null, slot) {
-        value = slot?.let {
-            withContext(Dispatchers.IO) {
-                runCatching { context.assets.open(it).use { s -> BitmapFactory.decodeStream(s)?.asImageBitmap() } }.getOrNull()
-            }
-        }
+    // An image seen before shows on the first frame; a new one is decoded off the main thread while its
+    // space stays empty, so the vector hero never flashes under the drawn one.
+    val image by produceState<Loaded?>(slot?.let { s -> AvatarBitmaps.cached(s)?.let(::Loaded) }, slot) {
+        if (slot != null && value == null) value = Loaded(AvatarBitmaps.load(context.assets, slot))
     }
-    val bitmap = image
-    if (bitmap != null) {
-        Image(bitmap, contentDescription = null, modifier = modifier, contentScale = ContentScale.Fit)
+    val loaded = image
+    if (loaded?.bitmap != null) {
+        Image(loaded.bitmap, contentDescription = null, modifier = modifier, contentScale = ContentScale.Fit)
+        return
+    }
+    if (slot != null && loaded == null) {
+        Box(modifier)
         return
     }
     val motion = if (animated) {

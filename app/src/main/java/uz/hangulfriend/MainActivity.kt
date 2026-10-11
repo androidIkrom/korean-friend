@@ -68,14 +68,14 @@ class MainActivity : ComponentActivity() {
         setContent {
             val theme by remember { container.settings.settings.map { it.theme } }.collectAsState(GameThemeId.SYSTEM)
             val playerName by remember { container.settings.settings.map { it.playerName } }.collectAsState("")
-            // Listing the avatar folder touches the disk, so it happens off the main thread.
-            val avatarAssets by produceState(AvatarAssets(emptySet())) {
+            // Listing the avatar folder touches the disk, so it happens off the main thread; the screens wait for
+            // it, so a hero is never drawn as a vector first and as its image a moment later.
+            val avatarAssets by produceState<AvatarAssets?>(null) {
                 value = withContext(Dispatchers.IO) { container.avatarAssets }
             }
             HangulFriendTheme(theme) {
                 CompositionLocalProvider(
                     LocalAudioPlayer provides audio,
-                    LocalAvatarAssets provides avatarAssets,
                     LocalFlagReporter provides FlagReporter { item, reason, comment -> container.flags.flag(item, reason, comment) },
                     LocalSpeechInput provides container.speech,
                     LocalTutor provides container.tutor,
@@ -84,7 +84,10 @@ class MainActivity : ComponentActivity() {
                     LocalPlayerName provides playerName,
                 ) {
                     // One shared backdrop behind every screen; screens that draw their own reuse it.
-                    GameBackground { HangulFriendNav(container, openReview) }
+                    GameBackground {
+                        val assets = avatarAssets ?: return@GameBackground
+                        CompositionLocalProvider(LocalAvatarAssets provides assets) { HangulFriendNav(container, openReview) }
+                    }
                 }
             }
         }

@@ -1,9 +1,11 @@
 package uz.hangulfriend
 
 import android.app.Application
+import android.util.Log
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.SupervisorJob
+import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.distinctUntilChangedBy
 import kotlinx.coroutines.launch
 import uz.hangulfriend.reminders.ReminderScheduler
@@ -27,5 +29,15 @@ class HangulFriendApp : Application() {
                     container.reminders.apply(it, trigger)
                 }
         }
+        // Content is parsed once per process. Doing it here, a moment after launch, leaves the first screen
+        // the CPU and spares the stories, games and vocabulary lists the wait for fifty lesson files.
+        scope.launch {
+            delay(PRELOAD_DELAY_MS)
+            runCatching { container.content.preload() }.onFailure { Log.w("HangulFriendApp", "Content preload failed", it) }
+        }
+    }
+
+    private companion object {
+        const val PRELOAD_DELAY_MS = 1_000L
     }
 }
