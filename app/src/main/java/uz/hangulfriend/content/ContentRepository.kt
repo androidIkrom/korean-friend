@@ -11,35 +11,43 @@ class ContentException(message: String, cause: Throwable? = null) : RuntimeExcep
  * Read-only access to content assets. With [strict] (debug builds) a broken file throws
  * [ContentException]; otherwise it is reported as missing so the rest of the app keeps working.
  * Everything comes back localized to [language] (see Localize.kt).
+ *
+ * Assets never change while the app runs, so every file is parsed once per language and kept;
+ * [preload] fills the caches ahead of time, off the main thread.
  */
 class ContentRepository(
     private val source: AssetSource,
     private val strict: Boolean,
     private val language: () -> AppLanguage = { AppLanguage.UZ },
 ) {
+    private val catalogCache = mutableMapOf<AppLanguage, List<CatalogEntry>>()
     private val lessonCache = mutableMapOf<String, Lesson?>()
-    private val hangulCache = mutableMapOf<String, HangulCourse?>()
+    private val hangulCache = mutableMapOf<AppLanguage, HangulCourse?>()
+    private val charactersCache = mutableMapOf<AppLanguage, List<Character>>()
+
+    /** Names in the lessons folder; listed once, since listing assets is slow and the folder is fixed. */
+    private val lessonFiles: Set<String> by lazy { source.list("lessons").toSet() }
 
     /** Every book's lessons in series order; a book without a catalog file yet has none. */
     fun catalog(): List<CatalogEntry> {
         val lang = language()
-        return BOOK_FILES.flatMap { (book, file) ->
-            parse(file, Catalog.serializer())?.lessons.orEmpty().map { it.copy(book = book).localized(lang) }
+        return catalogCache.cached(lang) {
+            BOOK_FILES.flatMap { (book, file) ->
+                parse(file, Catalog.serializer())?.lessons.orEmpty().map { it.copy(book = book).localized(lang) }
+            }
         }
     }
 
     fun isAvailable(id: String): Boolean =
-        if (isHangulLesson(id)) hangul()?.lessons?.any { it.id == id } == true else "$id.json" in source.list("lessons")
+        if (isHangulLesson(id)) hangul()?.lessons?.any { it.id == id } == true else "$id.json" in lessonFiles
 
     fun lesson(id: String): Lesson? {
         val lang = language()
-        return synchronized(lessonCache) {
-            lessonCache.getOrPut("${lang.code}/$id") {
-                if (isHangulLesson(id)) {
-                    catalog().find { it.id == id }?.let { hangul()?.lesson(it) }
-                } else {
-                    parse("lessons/$id.json", Lesson.serializer())?.localized(lang)
-                }
+        return lessonCache.cached("${lang.code}/$id") {
+            if (isHangulLesson(id)) {
+                catalog().find { it.id == id }?.let { hangul()?.lesson(it) }
+            } else {
+                parse("lessons/$id.json", Lesson.serializer())?.localized(lang)
             }
         }
     }
@@ -47,9 +55,7 @@ class ContentRepository(
     /** The Hangul course (book 1, unit 1); null while the asset is missing. */
     fun hangul(): HangulCourse? {
         val lang = language()
-        return synchronized(hangulCache) {
-            hangulCache.getOrPut(lang.code) { parse("hangul.json", HangulCourse.serializer())?.localized(lang) }
-        }
+        return hangulCache.cached(lang) { parse("hangul.json", HangulCourse.serializer())?.localized(lang) }
     }
 
     /** The final test of [book]; null while that book has none. */
@@ -60,7 +66,24 @@ class ContentRepository(
 
     fun characters(): List<Character> {
         val lang = language()
-        return parse("characters.json", Characters.serializer())?.characters.orEmpty().map { it.localized(lang) }
+        return charactersCache.cached(lang) { parse("characters.json", Characters.serializer())?.characters.orEmpty().map { it.localized(lang) } }
+    }
+
+    /**
+     * Parses the catalog, the characters, the Hangul course and every lesson into the caches, so the
+     * first screen that needs them (stories, games, vocabulary) does not wait for the files. Call it off
+     * the main thread; a screen that gets there first simply parses what is still missing itself.
+     */
+    fun preload() {
+        catalog().forEach { lesson(it.id) }
+        characters()
+        hangul()
+        lessonFiles
+    }
+
+    /** The cached value for [key], computing and storing it (a null too) on the first call; one computation at a time per map. */
+    private fun <K, V> MutableMap<K, V>.cached(key: K, compute: () -> V): V = synchronized(this) {
+        if (containsKey(key)) getValue(key) else compute().also { put(key, it) }
     }
 
     private fun <T> parse(path: String, serializer: KSerializer<T>): T? {

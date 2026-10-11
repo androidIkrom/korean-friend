@@ -14,6 +14,7 @@ import uz.hangulfriend.study.Rank
 import uz.hangulfriend.ui.avatar.AvatarAssets
 import uz.hangulfriend.ui.avatar.AvatarLayer
 import uz.hangulfriend.ui.avatar.AvatarPaths
+import uz.hangulfriend.ui.avatar.LruMap
 import uz.hangulfriend.ui.avatar.catmullRom
 import uz.hangulfriend.ui.avatar.eyeStyleFor
 import uz.hangulfriend.ui.avatar.flameOutline
@@ -133,4 +134,26 @@ class AvatarAssetsTest {
     @Test fun otherHeroMissing() = assertNull(a.slotFor(GameThemeId.SYSTEM, HeroGender.BOY, Rank.C))
 
     @Test fun caseMustMatch() = assertNull(a.slotFor(GameThemeId.NEON, HeroGender.BOY, Rank.S))
+}
+
+class LruMapTest {
+    @Test fun keepsOnlyTheNewest() {
+        val m = LruMap<String>(2)
+        m["a"] = "1"
+        m["b"] = "2"
+        m["c"] = "3"
+        assertNull(m["a"])
+        assertEquals("2", m["b"])
+        assertEquals("3", m["c"])
+    }
+
+    @Test fun readingKeepsAnEntry() {
+        val m = LruMap<String>(2)
+        m["a"] = "1"
+        m["b"] = "2"
+        assertEquals("1", m["a"])
+        m["c"] = "3"
+        assertNull(m["b"])
+        assertEquals("1", m["a"])
+    }
 }

@@ -51,19 +51,29 @@ val LocalReducedMotion = staticCompositionLocalOf { false }
 
 /**
  * Seconds since the caller appeared, advanced every frame and starting at [still]; stays at [still] with
- * reduced motion. Read it only in a draw pass, so the animation never recomposes.
+ * reduced motion. Read it only in a draw pass, so the animation never recomposes. With [minFrameMs] the
+ * value changes at most that often, so a slow drift does not redraw (and re-blur) its surface every frame.
  */
 @Composable
-fun frameClock(still: Float = 0f): MutableFloatState {
+fun frameClock(still: Float = 0f, minFrameMs: Int = 0): MutableFloatState {
     val time = remember { mutableFloatStateOf(still) }
     val reduced = LocalReducedMotion.current
     LaunchedEffect(reduced) {
         if (reduced) return@LaunchedEffect
         val start = withFrameNanos { it }
-        while (true) withFrameNanos { time.floatValue = still + (it - start) / 1e9f }
+        var last = start
+        while (true) withFrameNanos { now ->
+            if (frameDue(last, now, minFrameMs)) {
+                last = now
+                time.floatValue = still + (now - start) / 1e9f
+            }
+        }
     }
     return time
 }
+
+/** True when at least [minFrameMs] have passed since the tick at [lastNs]; 0 ticks on every frame. */
+internal fun frameDue(lastNs: Long, nowNs: Long, minFrameMs: Int): Boolean = nowNs - lastNs >= minFrameMs * 1_000_000L
 
 /** Scale of a pressed control: a small spring down, none with reduced motion. */
 fun pressScale(pressed: Boolean, reduced: Boolean): Float = if (pressed && !reduced) 0.95f else 1f

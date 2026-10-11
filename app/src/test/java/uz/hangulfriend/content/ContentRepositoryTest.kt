@@ -106,4 +106,80 @@ class ContentRepositoryTest {
         write("characters.json", """{"characters":[{"id":"aziz","name_uz":"Aziz","name_ko":"아지즈","voice":"male"}]}""")
         assertEquals("아지즈", repo(strict = true).characters().single().nameKo)
     }
+
+    /** Counts file reads and folder listings, so a test can show that a repeated call never touches the files again. */
+    private class CountingSource(private val inner: AssetSource) : AssetSource {
+        var reads = 0
+        var lists = 0
+
+        override fun read(path: String): String? {
+            reads++
+            return inner.read(path)
+        }
+
+        override fun list(dir: String): List<String> {
+            lists++
+            return inner.list(dir)
+        }
+    }
+
+    private fun writeCharacters() =
+        write("characters.json", """{"characters":[{"id":"aziz","name_uz":"Aziz","name_ko":"아지즈","voice":"male"}]}""")
+
+    @Test fun catalog_readOncePerLanguage() {
+        write("book.json", """{"lessons":[${entry("u01_l1", 1)}]}""")
+        val src = CountingSource(DirAssetSource(tmp.root))
+        val r = ContentRepository(src, strict = true)
+        val first = r.catalog()
+        val reads = src.reads
+        assertEquals(first, r.catalog())
+        assertEquals(reads, src.reads)
+    }
+
+    @Test fun characters_readOnce() {
+        writeCharacters()
+        val src = CountingSource(DirAssetSource(tmp.root))
+        val r = ContentRepository(src, strict = true)
+        r.characters()
+        val reads = src.reads
+        r.characters()
+        assertEquals(reads, src.reads)
+    }
+
+    @Test fun isAvailable_listsTheLessonFolderOnce() {
+        writeLesson()
+        val src = CountingSource(DirAssetSource(tmp.root))
+        val r = ContentRepository(src, strict = true)
+        assertTrue(r.isAvailable("u02_l1"))
+        assertFalse(r.isAvailable("u09_l2"))
+        assertTrue(r.isAvailable("u02_l1"))
+        assertEquals(1, src.lists)
+    }
+
+    @Test fun lesson_missingFileIsNotReadAgain() {
+        val src = CountingSource(DirAssetSource(tmp.root))
+        val r = ContentRepository(src, strict = true)
+        assertNull(r.lesson("u09_l2"))
+        val reads = src.reads
+        assertNull(r.lesson("u09_l2"))
+        assertEquals(reads, src.reads)
+    }
+
+    @Test fun preload_fillsEveryCache() {
+        write("book.json", """{"lessons":[${entry("u02_l1", 2)}]}""")
+        writeLesson()
+        writeCharacters()
+        val src = CountingSource(DirAssetSource(tmp.root))
+        val r = ContentRepository(src, strict = true)
+        r.preload()
+        val reads = src.reads
+        val lists = src.lists
+        assertEquals(listOf("u02_l1"), r.catalog().map { it.id })
+        assertEquals(Fixtures.validLesson(), r.lesson("u02_l1"))
+        assertEquals("아지즈", r.characters().single().nameKo)
+        assertTrue(r.isAvailable("u02_l1"))
+        assertNull(r.hangul())
+        assertEquals(reads, src.reads)
+        assertEquals(lists, src.lists)
+    }
 }

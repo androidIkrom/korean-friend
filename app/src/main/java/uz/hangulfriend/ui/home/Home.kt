@@ -138,8 +138,10 @@ class HomeViewModel(
     private val _dueCount = MutableStateFlow(0)
     val dueCount: StateFlow<Int> = _dueCount
 
-    private val _stats = MutableStateFlow(HomeStats())
-    val stats: StateFlow<HomeStats> = _stats
+    private val _stats = MutableStateFlow<HomeStats?>(null)
+
+    /** Null until the first [refresh] has read the database, so the hero and the numbers appear once, as they are. */
+    val stats: StateFlow<HomeStats?> = _stats
 
     private val _rankUp = MutableStateFlow<RankUp?>(null)
     val rankUp: StateFlow<RankUp?> = _rankUp
@@ -147,6 +149,11 @@ class HomeViewModel(
     val currentLesson: StateFlow<CatalogEntry?> = settings.settings
         .map { s -> catalog.find { it.id == s.currentLessonId } }
         .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), null)
+
+    // Last, after every property above exists: the first read starts with the view model, not with the first resume.
+    init {
+        refresh()
+    }
 
     /** Due-ness and "today" change with time, not only with the database, so the screen refreshes on every resume. */
     fun refresh() {
@@ -208,18 +215,19 @@ fun HomeScreen(
         onPauseOrDispose { }
     }
     GameBackground(modifier) {
+        val s = stats ?: return@GameBackground
         Column(
             Modifier
                 .verticalScroll(rememberScrollState())
                 .padding(start = 14.dp, end = 14.dp, top = 12.dp, bottom = 12.dp + LocalDockInset.current),
             verticalArrangement = Arrangement.spacedBy(12.dp),
         ) {
-            TopPills(stats, due, onStartReview, onAchievements, shareRail)
+            TopPills(s, due, onStartReview, onAchievements, shareRail)
             // The sheet overlaps the hero's feet, so the art never ends in a hard line and the glass blurs it.
             Box {
-                HeroStage(stats)
+                HeroStage(s)
                 Sheet(
-                    stats, due, current, onStartReview, onContinueLesson, onOpenMap, onGames, onMistakes, onAchievements, onVocab,
+                    s, due, current, onStartReview, onContinueLesson, onOpenMap, onGames, onMistakes, onAchievements, onVocab,
                     Modifier.padding(top = HERO_HEIGHT - SHEET_OVERLAP),
                 )
             }
