@@ -27,7 +27,7 @@ fun ListenChooseView(word: Word, options: List<Word>, onResult: (ExerciseOutcome
         why = word.ko,
         onResult = onResult,
         onNext = onNext,
-    ) { AudioButton(word.audio) }
+    ) { AudioButton(word.audio, text = word.ko) }
 }
 
 @Composable
@@ -35,7 +35,7 @@ fun DictationView(word: Word, onResult: (ExerciseOutcome) -> Unit, onNext: () ->
     AutoPlay(word.audio)
     TypingView(
         prompt = stringResource(R.string.ex_dictation_prompt),
-        body = { AudioButton(word.audio) },
+        body = { AudioButton(word.audio, text = word.ko) },
         answers = listOf(word.ko),
         hint = null,
         why = word.uz,

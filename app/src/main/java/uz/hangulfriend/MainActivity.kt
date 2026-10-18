@@ -15,13 +15,18 @@ import androidx.compose.runtime.produceState
 import androidx.compose.runtime.remember
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.map
+import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import uz.hangulfriend.ui.avatar.AvatarAssets
 import uz.hangulfriend.ui.avatar.LocalAvatarAssets
 import uz.hangulfriend.ui.exercise.FlagReporter
 import uz.hangulfriend.ui.exercise.LocalFlagReporter
 import uz.hangulfriend.audio.AudioPlayer
+import uz.hangulfriend.audio.BundledAudio
+import uz.hangulfriend.audio.KoreanTts
+import uz.hangulfriend.audio.Voice
 import uz.hangulfriend.ui.LocalAudioPlayer
+import uz.hangulfriend.ui.LocalVoice
 import uz.hangulfriend.ui.exercise.LocalSpeechInput
 import uz.hangulfriend.ui.tutor.LocalTutor
 import uz.hangulfriend.ui.HangulFriendNav
@@ -39,6 +44,8 @@ import uz.hangulfriend.ui.settings.LocalPlayerName
 
 class MainActivity : ComponentActivity() {
     private val audio by lazy { AudioPlayer(this) }
+    private val bundledAudio by lazy { BundledAudio(assets) }
+    private val voice by lazy { Voice(audio, KoreanTts(this), bundledAudio) }
     private val feedback by lazy {
         val container = (application as HangulFriendApp).container
         AndroidGameFeedback(applicationContext, lifecycleScope, container.settings.settings)
@@ -65,6 +72,8 @@ class MainActivity : ComponentActivity() {
         val container = (application as HangulFriendApp).container
         // Only a fresh launch from the reminder opens the review, not a rotation of that launch.
         val openReview = savedInstanceState == null && intent.getStringExtra(EXTRA_OPEN) == OPEN_REVIEW
+        // Listing the audio folder touches the disk; done here so the first speaker tap never waits for it.
+        lifecycleScope.launch(Dispatchers.IO) { bundledAudio.warm() }
         setContent {
             val theme by remember { container.settings.settings.map { it.theme } }.collectAsState(GameThemeId.SYSTEM)
             val playerName by remember { container.settings.settings.map { it.playerName } }.collectAsState("")
@@ -76,6 +85,7 @@ class MainActivity : ComponentActivity() {
             HangulFriendTheme(theme) {
                 CompositionLocalProvider(
                     LocalAudioPlayer provides audio,
+                    LocalVoice provides voice,
                     LocalFlagReporter provides FlagReporter { item, reason, comment -> container.flags.flag(item, reason, comment) },
                     LocalSpeechInput provides container.speech,
                     LocalTutor provides container.tutor,
@@ -98,7 +108,13 @@ class MainActivity : ComponentActivity() {
         const val OPEN_REVIEW = "review"
     }
 
+    override fun onPause() {
+        voice.stop()
+        super.onPause()
+    }
+
     override fun onDestroy() {
+        voice.release()
         audio.release()
         feedback.release()
         super.onDestroy()

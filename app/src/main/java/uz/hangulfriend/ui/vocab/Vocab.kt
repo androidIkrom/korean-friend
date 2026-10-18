@@ -285,6 +285,7 @@ private fun WordRow(entry: VocabEntry, status: WordStatus, onClick: () -> Unit) 
             Text(entry.uz, color = t.muted, fontSize = 13.sp)
         }
         Text(entry.lessonTag, color = if (entry.own) t.top else t.muted, fontSize = 12.sp)
+        AudioButton(entry.word.audio, text = entry.ko)
     }
 }
 
@@ -297,7 +298,7 @@ private fun WordSheet(entry: VocabEntry, status: WordStatus, onDismiss: () -> Un
         Column(Modifier.padding(horizontal = 20.dp).padding(bottom = 28.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
             Row(verticalAlignment = Alignment.CenterVertically) {
                 Text(entry.ko, color = t.text, fontSize = 30.sp, modifier = Modifier.weight(1f))
-                AudioButton(entry.word.audio)
+                AudioButton(entry.word.audio, text = entry.ko)
             }
             Text(entry.uz, color = t.text, fontSize = 18.sp)
             Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
@@ -311,7 +312,7 @@ private fun WordSheet(entry: VocabEntry, status: WordStatus, onDismiss: () -> Un
                         Text(entry.word.exampleKo, color = t.text)
                         Text(entry.word.exampleUz, color = t.muted, fontSize = 13.sp)
                     }
-                    AudioButton(entry.word.exampleAudio)
+                    AudioButton(entry.word.exampleAudio, text = entry.word.exampleKo)
                 }
             }
             entry.note?.let { Text(it, color = t.muted) }

@@ -149,7 +149,7 @@ fun SpeakView(ko: String, uz: String, audio: String?, onResult: (ExerciseOutcome
         QuestCard(stringResource(R.string.speak_prompt)) {
             Row(verticalAlignment = Alignment.CenterVertically) {
                 Text(uz, style = MaterialTheme.typography.bodyLarge, modifier = Modifier.weight(1f))
-                AudioButton(audio)
+                AudioButton(audio, text = ko)
             }
         }
         SpeakPanel(

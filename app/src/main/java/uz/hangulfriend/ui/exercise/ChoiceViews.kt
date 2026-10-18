@@ -29,7 +29,10 @@ import uz.hangulfriend.content.Word
 import uz.hangulfriend.hangul.AnswerChecker
 import uz.hangulfriend.hangul.Feedback
 import uz.hangulfriend.srs.Rating
+import uz.hangulfriend.audio.Voice
 import uz.hangulfriend.ui.AudioButton
+import uz.hangulfriend.ui.AutoSay
+import uz.hangulfriend.ui.LocalVoice
 import uz.hangulfriend.ui.kit.HuntButton
 import uz.hangulfriend.ui.kit.HuntPanel
 import uz.hangulfriend.ui.kit.HuntStyle
@@ -39,7 +42,10 @@ import uz.hangulfriend.ui.session.ExerciseOutcome
 import uz.hangulfriend.ui.session.feedbackText
 import uz.hangulfriend.ui.theme.LocalGameTokens
 
-/** One answer among lettered tiles; [questContent] (a sentence, the audio) goes inside the quest card. */
+/**
+ * One answer among lettered tiles; [questContent] (a sentence, the audio) goes inside the quest card.
+ * A Korean answer is said aloud once picked ([sayAnswer] false keeps it silent, e.g. lone jamo).
+ */
 @Composable
 fun ChoiceView(
     prompt: String,
@@ -49,6 +55,7 @@ fun ChoiceView(
     onResult: (ExerciseOutcome) -> Unit,
     onNext: () -> Unit,
     aiQuestion: ((String) -> String)? = null,
+    sayAnswer: Boolean = true,
     questContent: @Composable ColumnScope.() -> Unit = {},
 ) {
     val start by rememberSaveable { mutableLongStateOf(System.currentTimeMillis()) }
@@ -87,6 +94,7 @@ fun ChoiceView(
                     correctAnswer = answers.first(),
                     why = why?.takeIf { !correct },
                     askAi = aiQuestion?.invoke(chosen),
+                    pronounce = answers.first().takeIf { sayAnswer && Voice.isKorean(it) },
                 ),
                 onNext,
             )
@@ -113,6 +121,7 @@ fun BuildSentenceView(
     var usedHint by rememberSaveable { mutableStateOf(false) }
     var feedback by rememberSaveable(stateSaver = FeedbackInfoSaver) { mutableStateOf<FeedbackInfo?>(null) }
     val messages = FeedbackMessages()
+    val voice = LocalVoice.current
     Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
         QuestCard(prompt) {
             Text(
@@ -127,7 +136,12 @@ fun BuildSentenceView(
             pool.filter { it !in chosen }.forEach { i ->
                 HuntButton(
                     tokens[i],
-                    onClick = { if (feedback == null) chosen += i },
+                    onClick = {
+                        if (feedback == null) {
+                            chosen += i
+                            voice?.say(tokens[i])
+                        }
+                    },
                     style = HuntStyle.SECONDARY,
                     minHeight = 42.dp,
                     fontSize = 17,
@@ -159,6 +173,7 @@ fun BuildSentenceView(
                             result.closest,
                             why?.takeIf { !result.correct },
                             askAi = aiQuestion?.invoke(built),
+                            pronounce = result.closest.takeIf { Voice.isKorean(it) },
                         )
                         onResult(ExerciseOutcome.Checked(result.correct, usedHint, System.currentTimeMillis() - start, result))
                     },
@@ -176,11 +191,12 @@ fun BuildSentenceView(
 fun FlashcardView(word: Word, onResult: (ExerciseOutcome) -> Unit, onNext: () -> Unit) {
     val t = LocalGameTokens.current
     var revealed by rememberSaveable { mutableStateOf(false) }
+    AutoSay(word.ko, word.audio)
     Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
         QuestCard(stringResource(R.string.ex_flashcard_prompt)) {
             Row(verticalAlignment = Alignment.CenterVertically) {
                 Text(word.ko, color = t.text, style = MaterialTheme.typography.headlineMedium, modifier = Modifier.weight(1f))
-                AudioButton(word.audio)
+                AudioButton(word.audio, text = word.ko)
             }
         }
         if (!revealed) {
@@ -188,8 +204,13 @@ fun FlashcardView(word: Word, onResult: (ExerciseOutcome) -> Unit, onNext: () ->
         } else {
             HuntPanel(accent = t.accent2) {
                 Text(word.uz, color = t.text, style = MaterialTheme.typography.titleLarge)
-                Text(word.exampleKo, color = t.text, style = MaterialTheme.typography.bodyLarge)
-                Text(word.exampleUz, color = t.muted, style = MaterialTheme.typography.bodyMedium)
+                Row(verticalAlignment = Alignment.CenterVertically) {
+                    Column(Modifier.weight(1f)) {
+                        Text(word.exampleKo, color = t.text, style = MaterialTheme.typography.bodyLarge)
+                        Text(word.exampleUz, color = t.muted, style = MaterialTheme.typography.bodyMedium)
+                    }
+                    if (word.exampleKo.isNotBlank()) AudioButton(word.exampleAudio, text = word.exampleKo)
+                }
             }
             Row(horizontalArrangement = Arrangement.spacedBy(6.dp)) {
                 listOf(
@@ -216,9 +237,10 @@ fun FlashcardView(word: Word, onResult: (ExerciseOutcome) -> Unit, onNext: () ->
     }
 }
 
-/** Read a Korean word, pick its meaning. */
+/** Read a Korean word, pick its meaning. The word is read aloud as it appears and on its speaker. */
 @Composable
 fun WordChooseView(word: Word, options: List<Word>, onResult: (ExerciseOutcome) -> Unit, onNext: () -> Unit) {
+    AutoSay(word.ko, word.audio)
     ChoiceView(
         prompt = stringResource(R.string.ex_word_choose_prompt),
         options = options.map { it.uz },
@@ -229,7 +251,7 @@ fun WordChooseView(word: Word, options: List<Word>, onResult: (ExerciseOutcome) 
     ) {
         Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
             Text(word.ko, color = LocalGameTokens.current.text, style = MaterialTheme.typography.headlineSmall)
-            if (word.audio != null) AudioButton(word.audio)
+            AudioButton(word.audio, text = word.ko)
         }
     }
 }

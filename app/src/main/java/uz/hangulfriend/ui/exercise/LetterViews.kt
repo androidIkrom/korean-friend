@@ -71,6 +71,7 @@ fun LetterListenView(item: ExerciseItem.LetterListen, onResult: (ExerciseOutcome
         why = "${l.say} · ${l.roman}",
         onResult = onResult,
         onNext = onNext,
+        sayAnswer = false,
     ) { AudioButton(l.audio) }
 }
 
@@ -110,7 +111,7 @@ fun BuildSyllableView(item: ExerciseItem.BuildSyllable, onResult: (ExerciseOutco
         QuestCard(stringResource(R.string.ex_build_syllable_prompt)) {
             Row(verticalAlignment = Alignment.CenterVertically) {
                 BigLetter(item.target.toString())
-                if (item.audio != null) AudioButton(item.audio)
+                AudioButton(item.audio, text = item.target.toString())
             }
             Text(
                 listOfNotNull(initial, medial, final).joinToString(" + ").ifEmpty { "…" } + (built?.let { " = $it" } ?: ""),
