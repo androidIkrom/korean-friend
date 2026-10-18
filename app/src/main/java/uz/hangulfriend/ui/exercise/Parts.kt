@@ -45,6 +45,9 @@ import uz.hangulfriend.ui.theme.LocalGameTokens
 import uz.hangulfriend.ui.theme.WrongRed
 import uz.hangulfriend.ui.tutor.LocalTutor
 import uz.hangulfriend.ui.tutor.TutorSheet
+import uz.hangulfriend.ui.AudioButton
+import uz.hangulfriend.ui.AutoSay
+import uz.hangulfriend.ui.canSay
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.ui.graphics.lerp
@@ -60,6 +63,8 @@ data class FeedbackInfo(
     val samples: List<String> = emptyList(),
     /** Question for the AI tutor about this mistake; the "AI'dan so'rash" button shows when set and wrong. */
     val askAi: String? = null,
+    /** Korean said aloud when the panel appears (the right answer), with a speaker to hear it again. */
+    val pronounce: String? = null,
 )
 
 /** Slides up and fades in on first appearance. */
@@ -103,8 +108,24 @@ fun FeedbackPanel(info: FeedbackInfo, onNext: () -> Unit) {
                 modifier = Modifier.weight(1f).padding(start = 8.dp),
             )
         }
+        val pronounce = info.pronounce
+        val said = if (pronounce != null && canSay(pronounce)) pronounce else null
+        if (said != null) AutoSay(said)
         if (!info.correct && info.correctAnswer != null) {
-            Text(stringResource(R.string.ex_correct_answer, info.correctAnswer), color = t.text, style = MaterialTheme.typography.bodyLarge)
+            Row(verticalAlignment = Alignment.CenterVertically) {
+                Text(
+                    stringResource(R.string.ex_correct_answer, info.correctAnswer),
+                    color = t.text,
+                    style = MaterialTheme.typography.bodyLarge,
+                    modifier = Modifier.weight(1f),
+                )
+                if (said != null) AudioButton(null, text = said)
+            }
+        } else if (said != null) {
+            Row(verticalAlignment = Alignment.CenterVertically) {
+                Text(said, color = t.text, style = MaterialTheme.typography.bodyLarge, modifier = Modifier.weight(1f))
+                AudioButton(null, text = said)
+            }
         }
         if (info.samples.isNotEmpty()) {
             Text(stringResource(R.string.ex_sample_answers), color = t.muted, style = MaterialTheme.typography.labelLarge)

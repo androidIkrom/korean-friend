@@ -20,10 +20,16 @@ class SaversTest {
     }
 
     @Test fun feedbackInfoRoundTrip() {
-        val info = FeedbackInfo(false, "Xato", "가요", "Sabab", listOf("가요", "가세요"), askAi = "Nega?")
+        val info = FeedbackInfo(false, "Xato", "가요", "Sabab", listOf("가요", "가세요"), askAi = "Nega?", pronounce = "가요")
         assertEquals(info, roundTrip(FeedbackInfoSaver, info))
         val bare = FeedbackInfo(true, "To'g'ri", null, null)
         assertEquals(bare, roundTrip(FeedbackInfoSaver, bare))
+    }
+
+    /** A panel saved before the speaker was added restores with nothing to say. */
+    @Test fun feedbackInfoRestoresWithoutPronounce() {
+        val saved = arrayListOf<Any?>(false, "Xato", "가요", null, arrayListOf<String>(), null)
+        assertEquals(FeedbackInfo(false, "Xato", "가요", null), FeedbackInfoSaver.restore(saved))
     }
 
     @Test fun nullFeedbackStaysNull() = assertNull(roundTrip(FeedbackInfoSaver, null))

@@ -1,6 +1,8 @@
 package uz.hangulfriend.ui.exercise
 
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
+import androidx.compose.ui.Alignment
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -14,6 +16,7 @@ import uz.hangulfriend.R
 import uz.hangulfriend.ai.TutorPrompts
 import uz.hangulfriend.content.ExerciseType
 import uz.hangulfriend.study.ExerciseItem
+import uz.hangulfriend.ui.AudioButton
 import uz.hangulfriend.ui.currentLanguage
 import uz.hangulfriend.ui.kit.LocalGameFeedback
 import uz.hangulfriend.ui.kit.Sfx
@@ -78,13 +81,26 @@ private fun ExerciseBody(item: ExerciseItem, onResult: (ExerciseOutcome) -> Unit
                 ExerciseType.LISTEN_QUESTION -> ListenQuestionView(e, onResult, onNext)
                 ExerciseType.READ_CHOICE ->
                     ChoiceView(e.promptUz, e.options.orEmpty(), e.answers, e.whyUz, onResult, onNext) {
-                        Text(e.sentence.orEmpty(), color = LocalGameTokens.current.text, style = MaterialTheme.typography.titleMedium)
+                        Row(verticalAlignment = Alignment.CenterVertically) {
+                            Text(
+                                e.sentence.orEmpty(),
+                                color = LocalGameTokens.current.text,
+                                style = MaterialTheme.typography.titleMedium,
+                                modifier = Modifier.weight(1f),
+                            )
+                            AudioButton(e.audio, text = e.sentence)
+                        }
                     }
                 ExerciseType.BUILD_SENTENCE ->
                     BuildSentenceView(e.promptUz, e.tokens.orEmpty(), e.answers, e.hintUz, e.whyUz, onResult, onNext, aiQuestion = ask)
                 ExerciseType.CONJUGATE -> TypingView(
                     prompt = e.promptUz,
-                    body = { KoreanText(stringResource(R.string.ex_conjugate_prompt, e.base.orEmpty(), e.form.orEmpty())) },
+                    body = {
+                        Row(verticalAlignment = Alignment.CenterVertically) {
+                            KoreanText(stringResource(R.string.ex_conjugate_prompt, e.base.orEmpty(), e.form.orEmpty()))
+                            AudioButton(null, text = e.base)
+                        }
+                    },
                     answers = e.answers, hint = e.hintUz, why = e.whyUz, showSamplesOnWrong = false,
                     onResult = onResult, onNext = onNext, aiQuestion = ask,
                 )

@@ -135,14 +135,14 @@ private fun WordCard(word: Word) {
     HuntPanel(accent = t.accent, padding = 20.dp) {
         Row(verticalAlignment = Alignment.CenterVertically) {
             Text(word.ko, color = t.text, style = MaterialTheme.typography.displaySmall, modifier = Modifier.weight(1f))
-            AudioButton(word.audio)
+            AudioButton(word.audio, text = word.ko)
         }
         Text(word.uz, color = t.text, style = MaterialTheme.typography.titleLarge)
         Text(word.pos, color = t.accent2, fontFamily = t.ui, fontSize = 11.sp)
         HorizontalDivider(color = t.panelBorder.copy(alpha = 0.5f))
         Row(verticalAlignment = Alignment.CenterVertically) {
             Text(word.exampleKo, color = t.text, style = MaterialTheme.typography.bodyLarge, modifier = Modifier.weight(1f))
-            AudioButton(word.exampleAudio)
+            AudioButton(word.exampleAudio, text = word.exampleKo)
         }
         Text(word.exampleUz, color = t.muted, style = MaterialTheme.typography.bodyMedium)
     }
@@ -205,7 +205,7 @@ private fun GrammarPage(g: Grammar) {
                     Text(e.ko, style = MaterialTheme.typography.bodyLarge)
                     Text(e.uz, style = MaterialTheme.typography.bodyMedium)
                 }
-                AudioButton(e.audio)
+                AudioButton(e.audio, text = e.ko)
             }
         }
         SectionTitle(R.string.grammar_mistakes)
@@ -278,7 +278,7 @@ fun DialogueStage(lesson: Lesson, characters: Map<String, Character>, onFinished
                                 fontWeight = FontWeight.Bold,
                                 fontSize = 11.sp,
                             )
-                            AudioButton(line.audio)
+                            AudioButton(line.audio, text = line.ko)
                         }
                         val bubble = t.shape(10.dp)
                         Column(

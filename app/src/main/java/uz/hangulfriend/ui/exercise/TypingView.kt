@@ -23,6 +23,7 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.unit.dp
 import uz.hangulfriend.R
+import uz.hangulfriend.audio.Voice
 import uz.hangulfriend.hangul.AnswerChecker
 import uz.hangulfriend.ui.kit.HuntButton
 import uz.hangulfriend.ui.session.ExerciseOutcome
@@ -70,6 +71,7 @@ fun TypingView(
             why = why?.takeIf { !result.correct },
             samples = if (!result.correct && showSamplesOnWrong) answers else emptyList(),
             askAi = aiQuestion?.invoke(answer),
+            pronounce = result.closest.takeIf { Voice.isKorean(it) },
         )
         if (result.correct || aiCheck == null) {
             feedback = plain
@@ -82,8 +84,15 @@ fun TypingView(
             checking = false
             feedback = when {
                 verdict == null -> plain
-                verdict.correct -> FeedbackInfo(true, messages.of(R.string.ai_translation_ok), null, verdict.explanationUz)
-                else -> plain.copy(correctAnswer = verdict.correctedKo, why = verdict.explanationUz)
+                verdict.correct -> FeedbackInfo(
+                    true, messages.of(R.string.ai_translation_ok), null, verdict.explanationUz,
+                    pronounce = answer.trim().takeIf { Voice.isKorean(it) },
+                )
+                else -> plain.copy(
+                    correctAnswer = verdict.correctedKo,
+                    why = verdict.explanationUz,
+                    pronounce = verdict.correctedKo.takeIf { Voice.isKorean(it) },
+                )
             }
             onResult(ExerciseOutcome.Checked(verdict?.correct ?: false, usedHint, elapsed, result))
         }

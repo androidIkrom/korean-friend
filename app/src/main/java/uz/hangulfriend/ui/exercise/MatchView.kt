@@ -18,6 +18,7 @@ import androidx.compose.ui.unit.dp
 import kotlinx.coroutines.delay
 import uz.hangulfriend.R
 import uz.hangulfriend.content.Word
+import uz.hangulfriend.ui.LocalVoice
 import uz.hangulfriend.ui.kit.HuntButton
 import uz.hangulfriend.ui.kit.OptionState
 import uz.hangulfriend.ui.kit.OptionTile
@@ -39,6 +40,7 @@ fun MatchView(words: List<Word>, onResult: (ExerciseOutcome) -> Unit, onNext: ()
     var selected by rememberSaveable { mutableStateOf<String?>(null) }
     var wrongFlash by remember { mutableStateOf<String?>(null) }
     val done = matched.size == words.size
+    val voice = LocalVoice.current
 
     LaunchedEffect(wrongFlash) {
         if (wrongFlash != null) {
@@ -57,7 +59,12 @@ fun MatchView(words: List<Word>, onResult: (ExerciseOutcome) -> Unit, onNext: ()
                 left.forEach { w ->
                     OptionTile(
                         text = w.ko,
-                        onClick = { if (w.id !in matched) selected = w.id },
+                        onClick = {
+                            if (w.id !in matched) {
+                                selected = w.id
+                                voice?.say(w.ko, w.audio)
+                            }
+                        },
                         state = when {
                             w.id in matched -> OptionState.RIGHT
                             w.id == selected -> OptionState.PICKED
